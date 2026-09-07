@@ -1,0 +1,37 @@
+{
+    "name": "Bandwidth Unlimited",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Traits</strong> Paradise-Touched</p><hr /><p>Once per day you may spend Bandwidth you do not have, taking your pool as low as −3. Your Bandwidth stays negative until it is restored: Re-sync raises it by 1 as normal. Your next daily preparations restore Bandwidth to your maximum minus the outstanding deficit; the debt is repaid from that pool before you can spend from it. While your Bandwidth is negative you cannot use any ability that costs Bandwidth, including this one.</p>"
+        },
+        "level": {
+            "value": 20
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "paradise-touched"
+            ]
+        },
+        "slug": "bandwidth-unlimited"
+    },
+    "_id": "f5fTRxEi6s97LuQg"
+}

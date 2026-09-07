@@ -1,0 +1,37 @@
+{
+    "name": "Failure as a Plan",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "free"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Trigger</strong> You roll Gun Failure (§3) while an enemy is adjacent to you.</p><hr /><p>Direct the failure outward. The Gun Failure result affects the adjacent enemy instead of you or your weapon wherever it plausibly can — Kickback shoves it, Scorched Hand burns it, Deafening Bang deafens it and not you. Results that only affect the weapon itself, including Blow Up, still land on the weapon, and Blow Up still catches everyone nearby.</p>"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "blowback-as-a-plan"
+    },
+    "_id": "mrlkEG97RwucihQT"
+}

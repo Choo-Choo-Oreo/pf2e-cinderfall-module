@@ -1,0 +1,37 @@
+{
+    "name": "The Long Root",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>[TERRAIN] effects you create cannot be removed, cleared, damaged or destroyed by non-magical means. Fire, tools, labour, weather and siege do nothing to them. They can still be counteracted, dispelled, or destroyed by magical effects, and a creature can still be physically prevented from entering or leaving them by ordinary means. This applies to effects already standing as well as to new ones.</p>"
+        },
+        "level": {
+            "value": 18
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "seed-warden"
+            ]
+        },
+        "slug": "the-long-root"
+    },
+    "_id": "TpEc8VJJDSXkn2UE"
+}

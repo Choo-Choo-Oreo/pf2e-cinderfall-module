@@ -1,0 +1,37 @@
+{
+    "name": "Sacrificial Rite",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per round</p><p><strong>Requirement</strong> Your next action this turn is to Cast a Rite.</p><hr /><p>You or one willing ally within 30 feet takes 2d6 damage per your spell rank, which cannot be reduced, prevented, or healed until the end of your next turn. The Rite you cast this turn counts as being heightened by 2 ranks, to a maximum of your highest spell rank. A creature cannot be the source of this damage more than once per 10 minutes.</p>"
+        },
+        "level": {
+            "value": 8
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "cultist"
+            ]
+        },
+        "slug": "sacrificial-rite"
+    },
+    "_id": "XLBcRVPnqz30tKcq"
+}

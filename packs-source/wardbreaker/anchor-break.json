@@ -1,0 +1,37 @@
+{
+    "name": "Anchor-Break",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Trigger</strong> You Break the Anchor against a Named target that bears a bio-augment.</p><hr /><p>You may direct Break the Anchor's effect at one bio-augment the target bears instead of at the target's Anchor. On a success, the augment is disabled — nonfunctional until repaired with an hour's work — instead of applying Break the Anchor's usual effect. This can't target an augment Cultured-sourced and installed in a willing patient's own flesh below Straining Load; those grafts have gone too fully theirs for a Ward to get a grip on.</p>"
+        },
+        "level": {
+            "value": 8
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "wardbreaker"
+            ]
+        },
+        "slug": "anchor-break"
+    },
+    "_id": "RQLQLrlfr3viC9uh"
+}

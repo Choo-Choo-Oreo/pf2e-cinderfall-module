@@ -1,0 +1,38 @@
+{
+    "name": "Scrap Ghost Familiar",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Range</strong> 1 mile, for the relay</p><p><strong>Duration</strong> permanent</p><hr /><p>You build a scrap ghost: a Tiny construct with your Perception, a fly Speed of 25 feet, and 1 Hit Point per your level. It has no attacks and cannot carry anything heavier than a key. You can send it ahead and see and hear through its sensors at up to a mile. If it is destroyed you can rebuild it over an hour from scrap.</p>"
+        },
+        "level": {
+            "value": 12
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "scrapwright",
+                "exploration"
+            ]
+        },
+        "slug": "scrap-ghost-familiar"
+    },
+    "_id": "iEwSbgeutxau5vyk"
+}

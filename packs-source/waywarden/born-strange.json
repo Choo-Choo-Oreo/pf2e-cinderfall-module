@@ -1,0 +1,37 @@
+{
+    "name": "Born Strange",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Choose one Minor mutation from the Bloom Table (or another Minor mutation your GM allows) and a Slot to carry it in. This mutation is with you from birth, not grafted — it never counts against your Strain, and it cannot be removed by ordinary downtime surgery, only by whatever process would remove a Scar's Slot outright.</p>"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "waywarden"
+            ]
+        },
+        "slug": "born-strange"
+    },
+    "_id": "hAeYuf8Q4gz8D1Ai"
+}

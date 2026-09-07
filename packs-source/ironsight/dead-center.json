@@ -1,0 +1,37 @@
+{
+    "name": "Dead Center",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Requirement</strong> You are using Called Shot.</p><hr /><p>Treat the Called Shot's attack roll as a success without rolling, or as a critical success if it would otherwise have been a success. Declare this before rolling.</p>"
+        },
+        "level": {
+            "value": 18
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "dead-center"
+    },
+    "_id": "XvB2APkB0z0bZ9i8"
+}

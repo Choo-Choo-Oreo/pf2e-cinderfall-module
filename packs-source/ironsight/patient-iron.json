@@ -1,0 +1,37 @@
+{
+    "name": "Patient Iron",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Your Draw’s distance damage no longer caps out. Every range increment beyond the second continues to add its die with no upper limit, out to the limit of your weapon and your eyesight. In addition, a Hot Load fired at a target more than three range increments away does not widen your Failure Range — at that distance you had the time to load it properly.</p>"
+        },
+        "level": {
+            "value": 14
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "patient-iron"
+    },
+    "_id": "nLGlsUpOdU7319Sk"
+}

@@ -1,0 +1,37 @@
+{
+    "name": "Neither Side Waits",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>At the start of an encounter, use your Perception or your class DC to determine your initiative, whichever is better.</p>"
+        },
+        "level": {
+            "value": 20
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "remade"
+            ]
+        },
+        "slug": "neither-side-waits"
+    },
+    "_id": "abkWytflvkj9OW1w"
+}

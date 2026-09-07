@@ -1,0 +1,37 @@
+{
+    "name": "The Bet Always Pays",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Your Hot Load uses per day are equal to your Constitution modifier plus 3, and a Hot Loaded Strike that hits deals two additional damage dice rather than one. You still roll Gun Failure (§3) on a miss unless another feat says otherwise.</p>"
+        },
+        "level": {
+            "value": 20
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "the-bet-always-pays"
+    },
+    "_id": "Z6yr81UsqXKPAvsv"
+}

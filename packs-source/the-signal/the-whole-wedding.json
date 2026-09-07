@@ -1,0 +1,38 @@
+{
+    "name": "The Whole Wedding",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day per ally</p><p><strong>Traits</strong> Signal, exploration, healing</p><hr /><p>You play back a full recording for 10 minutes. Each ally who listens to the entire performance regains Hit Points as though they had been the target of a successful Treat Wounds, using your Performance modifier in place of the Medicine modifier and your class DC in place of the check's DC. An ally who is interrupted or leaves partway through gains nothing. An ally cannot benefit from The Whole Wedding again until 24 hours have passed.</p>"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "the-signal",
+                "exploration"
+            ]
+        },
+        "slug": "the-whole-wedding"
+    },
+    "_id": "HRggPjrkYLoH4Q2j"
+}

@@ -1,0 +1,37 @@
+{
+    "name": "Clean Failure",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Traits</strong> Paradise-Touched</p><hr /><p>When a Signal-declared effect of yours fails, halve the force damage you take from that failure, rounding down. You can apply only one Signal failure mitigation to a given failure: if you use Absorb the Cost on it, this feat does not apply to that failure. The Drift point still lands, every time, and nothing in this feat touches it.</p>"
+        },
+        "level": {
+            "value": 8
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "paradise-touched"
+            ]
+        },
+        "slug": "clean-failure"
+    },
+    "_id": "x7Xqd9VdZ81KNhLr"
+}

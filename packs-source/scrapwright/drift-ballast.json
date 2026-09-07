@@ -1,0 +1,37 @@
+{
+    "name": "Drift Ballast",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Requirement</strong> Your Rig is active and within 30 feet of you.</p><hr /><p>You've routed a bleed line from your own nervous system into the Rig's chassis — not enough to matter to it, plenty to matter to you. While your Rig is active and nearby, treat your Drift score as 2 lower than its actual value solely for determining which Drift band's effects apply to you. Your Drift total itself, and anything that keys off the real number, is unaffected.</p>"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "scrapwright"
+            ]
+        },
+        "slug": "drift-ballast"
+    },
+    "_id": "QjItEFbasafxepaG"
+}

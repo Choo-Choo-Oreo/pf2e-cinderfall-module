@@ -1,0 +1,37 @@
+{
+    "name": "Bloodless Mercy",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 2
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per hour</p><p><strong>Range</strong> touch</p><p><strong>Duration</strong> 4 rounds</p><hr /><p>The target regains Hit Points equal to your level at the start of each of its turns for 4 rounds. The healing is unaffected by anything that happens in the meantime; it simply continues.</p>"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "vigil"
+            ]
+        },
+        "slug": "bloodless-mercy"
+    },
+    "_id": "rAFpjl5jnNsTCjRm"
+}

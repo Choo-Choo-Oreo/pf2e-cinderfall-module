@@ -1,0 +1,37 @@
+{
+    "name": "Quick Patch",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Trigger</strong> Your Rig, or an ally within 30 feet, takes damage.</p><p><strong>Cost</strong> 1 charge of Ghost-Static</p><hr /><p>You slap a patch on before the damage finishes landing. Reduce the damage taken by 2 plus your level. This is a shield-like intervention, not a heal — it cannot restore Hit Points already lost.</p>"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "scrapwright"
+            ]
+        },
+        "slug": "quick-patch"
+    },
+    "_id": "dhD5O78XN38lmLyJ"
+}

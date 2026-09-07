@@ -1,0 +1,37 @@
+{
+    "name": "The Rendery Never Lets Go",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Requirement</strong> bio-attuned</p><p><strong>Duration</strong> constant</p><hr /><p>While at Overgrown Load or higher, treat the Speed penalty and the all-Fortitude-save penalty as though you were at Straining instead. You still gain Overgrown's extra dying round and every other listed effect.</p>"
+        },
+        "level": {
+            "value": 18
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "remade"
+            ]
+        },
+        "slug": "the-rendery-never-lets-go"
+    },
+    "_id": "RQYBsVTU26Qeyade"
+}

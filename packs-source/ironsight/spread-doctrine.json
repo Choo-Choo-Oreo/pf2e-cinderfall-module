@@ -1,0 +1,37 @@
+{
+    "name": "Spread Doctrine",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Requirement</strong> You are wielding a firearm with a scatter or cone effect, or a shotgun.</p><p><strong>Duration</strong> constant</p><hr /><p>Within your first range increment, your Strikes with such a weapon treat a target with lesser cover as having no cover, and a target with standard cover as having lesser cover. Beyond that increment, this weapon's range penalty increases by 1 — you have tuned it for the room you are standing in.</p>"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "spread-doctrine"
+    },
+    "_id": "w4HeIRhX4FHczTLw"
+}

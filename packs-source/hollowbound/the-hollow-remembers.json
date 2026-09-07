@@ -1,0 +1,37 @@
+{
+    "name": "The Hollow Remembers",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> 24 hours</p><hr /><p>If your Hollow is lost, stolen, or destroyed, the Quiet-state boons of the spirit last bound to it remain available to you for 24 hours, through sheer habit. You cannot Parley, go Unveiled, or prepare spells during this time — the boons persist, the appointment does not. At the end of the 24 hours the boons end whether or not you have recovered the Hollow or bound another.</p>"
+        },
+        "level": {
+            "value": 16
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "hollowbound"
+            ]
+        },
+        "slug": "the-hollow-remembers"
+    },
+    "_id": "TtaUk6SR2fGYEfuO"
+}

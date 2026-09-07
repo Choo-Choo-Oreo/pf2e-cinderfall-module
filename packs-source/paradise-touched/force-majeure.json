@@ -1,0 +1,37 @@
+{
+    "name": "Force Majeure",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Traits</strong> Paradise-Touched</p><hr /><p>Your spells that deal force damage count as one rank higher whenever their rank determines what they can end, suppress, or counteract — most importantly, their counteract rank. Their damage, spell DC, save DC, and every other numeric element are unchanged, and this does not let you cast them at a higher rank.</p>"
+        },
+        "level": {
+            "value": 12
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "paradise-touched"
+            ]
+        },
+        "slug": "force-majeure"
+    },
+    "_id": "VI0DaKkYQSMsptLZ"
+}

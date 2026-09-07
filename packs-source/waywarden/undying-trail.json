@@ -1,0 +1,37 @@
+{
+    "name": "Undying Trail",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Once you have Marked a creature and begun tracking it, you never lose its trail through the passage of time, distance travelled, weather, or the creature's efforts to cover its tracks. You still need to travel the trail to follow it, and a creature that ends its journey by means that leave no trail at all, such as teleportation, breaks it.</p>"
+        },
+        "level": {
+            "value": 16
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "waywarden"
+            ]
+        },
+        "slug": "undying-trail"
+    },
+    "_id": "egGfPXGDoy9b7en0"
+}

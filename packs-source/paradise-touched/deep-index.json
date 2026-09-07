@@ -1,0 +1,37 @@
+{
+    "name": "Deep Index",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "free"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Trigger</strong> You are about to attempt a Recall Knowledge check</p><p><strong>Requirements</strong> Declared Signal</p><p><strong>Cost</strong> 1 Bandwidth</p><p><strong>Traits</strong> Paradise-Touched</p><hr /><p>You spend 1 Bandwidth. Do not roll the check; treat the d20 as a 15 and apply all your modifiers to it normally. This must be declared before the check is attempted, and it must be declared Signal, so a failure costs you 2 force damage per level and 1 Signal Drift as always.</p>"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "paradise-touched"
+            ]
+        },
+        "slug": "deep-index"
+    },
+    "_id": "U17Clo9aenSv8wF7"
+}

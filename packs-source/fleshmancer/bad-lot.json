@@ -1,0 +1,37 @@
+{
+    "name": "Bad Lot",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per round</p><p><strong>Trigger</strong> Your thrown Graft misses.</p><hr /><p>The Graft is still expended, but it bursts at the target&rsquo;s feet instead of being wasted: the target takes splash damage equal to your Intelligence modifier (minimum 1) of the Graft&rsquo;s damage type, or is <em>sickened 1</em> for 1 round if the Graft deals no damage.</p>"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "fleshmancer"
+            ]
+        },
+        "slug": "bad-lot"
+    },
+    "_id": "5dFfAVr75wf2YRul"
+}

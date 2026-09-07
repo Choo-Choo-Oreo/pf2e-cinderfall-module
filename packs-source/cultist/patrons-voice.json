@@ -1,0 +1,37 @@
+{
+    "name": "Patron's Voice",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per hour</p><p><strong>Range</strong> 60 feet</p><p><strong>Targets</strong> 1 creature that can hear and understand you</p><p><strong>Duration</strong> varies</p><p><strong>Saving Throw</strong> Will</p><hr /><p>Speak a single command. The target must attempt a Will save against your class DC. On a failure it obeys for 1 round; on a critical failure, for 1 minute, and it may not attempt to end the effect early. On a success it is <em>stunned 1</em> as the voice lands anyway. A creature that worships your patron, or that the GM judges to be desperate, takes a -2 circumstance penalty to this save. This is an auditory, emotion, linguistic, and mental effect. A target that obeys and survives remembers exactly whose voice it was.</p>"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "cultist"
+            ]
+        },
+        "slug": "patrons-voice"
+    },
+    "_id": "NIPE0DxRgNKwo1eD"
+}

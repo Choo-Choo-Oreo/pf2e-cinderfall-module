@@ -1,0 +1,37 @@
+{
+    "name": "Bond Beyond the Bloom",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per week</p><p><strong>Trigger</strong> You or your Feral Bond would roll on the Bloom Table from Strain overflow.</p><hr /><p>Whichever of you the roll was meant for, redirect it to the other instead. The chosen one of you rolls on the Bloom Table and takes the result in the triggering creature's place. Use whichever of you can better carry the consequence — the bond runs deep enough now that the wasteland genuinely can't always tell you apart.</p>"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "waywarden"
+            ]
+        },
+        "slug": "bond-beyond-the-bloom"
+    },
+    "_id": "SL0dgmTrHmDZTJle"
+}

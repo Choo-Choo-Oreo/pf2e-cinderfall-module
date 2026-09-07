@@ -1,0 +1,37 @@
+{
+    "name": "Seed of the Next One",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Trigger</strong> You die.</p><p><strong>Duration</strong> permanent</p><hr /><p>Your Persistent Bloom does not end when you die. It remains centred on the square where you fell, at half its radius, permanently — it has no duration and, like any [TERRAIN] effect, can be cleared only by work. It is no longer yours: it does not answer to you, it gains no benefit from your Cutting or your feats, and it does not move. If you are returned to life, it stays where it is and you may create a new Persistent Bloom as normal.</p>"
+        },
+        "level": {
+            "value": 20
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "seed-warden"
+            ]
+        },
+        "slug": "seed-of-the-next-one"
+    },
+    "_id": "Pv9vyUNvjOP57gX8"
+}

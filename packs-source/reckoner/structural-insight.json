@@ -1,0 +1,37 @@
+{
+    "name": "Structural Insight",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>You gain a +2 circumstance bonus to checks made to identify, analyse, or Recall Knowledge about a construct, fortification, or ghost-machine, and to any check made to find or exploit a structural weak point in one. This bonus increases to +3 at 14th level.</p>"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "reckoner"
+            ]
+        },
+        "slug": "structural-insight"
+    },
+    "_id": "XiVXTb9oOE1H1jnk"
+}

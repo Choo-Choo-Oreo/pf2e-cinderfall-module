@@ -1,0 +1,37 @@
+{
+    "name": "Off the Books",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Requirement</strong> chrome-attuned</p><p><strong>Duration</strong> constant</p><hr /><p>You no longer take the standard −2 circumstance penalty for performing an Install check on your own body without a trained surgeon.</p>"
+        },
+        "level": {
+            "value": 16
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "remade"
+            ]
+        },
+        "slug": "off-the-books"
+    },
+    "_id": "5ZvzQcdLzbIBE1kU"
+}

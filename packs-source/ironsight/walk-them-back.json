@@ -1,0 +1,37 @@
+{
+    "name": "Walk Them Back",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>When you hit an adjacent creature with a ranged Strike, you may push it 5 feet and Step into the space it left, in either order. This does not trigger reactions from that creature, and it happens at most once per turn.</p>"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "walk-them-back"
+    },
+    "_id": "oNvxrRnqC0V0K2Ae"
+}

@@ -1,0 +1,37 @@
+{
+    "name": "Tandem Strike",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Requirement</strong> Your Rig is within 30 feet of the target.</p><hr /><p>Your Rig fires, lunges, or braces on your cue. Make a Strike with a +1 circumstance bonus to the attack roll. This bonus applies whether or not your Rig is positioned to flank, and whether or not it has acted this turn.</p>"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "scrapwright"
+            ]
+        },
+        "slug": "tandem-strike"
+    },
+    "_id": "B99KjIm23qAiEk8S"
+}

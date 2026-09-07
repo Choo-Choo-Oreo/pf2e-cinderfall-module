@@ -1,0 +1,37 @@
+{
+    "name": "One Mind, Two Bodies",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> as long as you choose</p><hr /><p>You can perceive through your Feral Bond's senses at any time, switching between its senses and your own freely and without spending an action. While perceiving through your Bond you are not deprived of your own senses; you receive both.</p>"
+        },
+        "level": {
+            "value": 16
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "waywarden"
+            ]
+        },
+        "slug": "one-mind-two-bodies"
+    },
+    "_id": "Xe0FXRwQZWwW0WxW"
+}

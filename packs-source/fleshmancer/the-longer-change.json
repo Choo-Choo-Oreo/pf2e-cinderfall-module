@@ -1,0 +1,37 @@
+{
+    "name": "The Longer Change",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Any effect you apply to yourself that has a stated duration and that changes your own body — including Adaptive Membrane, a Skinwalker Bloodline feature, or a comparable Graft — lasts twice as long.</p>"
+        },
+        "level": {
+            "value": 12
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "fleshmancer"
+            ]
+        },
+        "slug": "the-longer-change"
+    },
+    "_id": "VqfvrbzP3u0o6FTQ"
+}

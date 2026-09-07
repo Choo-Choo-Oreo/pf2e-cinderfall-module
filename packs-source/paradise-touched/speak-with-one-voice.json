@@ -1,0 +1,37 @@
+{
+    "name": "Speak With One Voice",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Cost</strong> 3 Bandwidth</p><p><strong>Traits</strong> Paradise-Touched, Glimpse, mental</p><hr /><p>You spend 3 Bandwidth. For 1 minute, you and your allies all act on your initiative count, in whatever order the group chooses, deciding each round as it comes. Each of you still takes one turn per round with your own actions and reactions. Enemies act on their own counts as normal. When the duration ends, everyone returns to the initiative they had before.</p>"
+        },
+        "level": {
+            "value": 12
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "paradise-touched"
+            ]
+        },
+        "slug": "speak-with-one-voice"
+    },
+    "_id": "bJlTDF56jimNDueV"
+}

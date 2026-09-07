@@ -1,0 +1,37 @@
+{
+    "name": "Hardy Growth",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Each section of a [TERRAIN] effect you create has +5 Hit Points and gains resistance 5 to fire. This applies to sections created after you gain this feat and to sections already standing. Burning out a Warden's work gets meaningfully slower.</p>"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "seed-warden"
+            ]
+        },
+        "slug": "hardy-growth"
+    },
+    "_id": "NOtQsH9Wr3BGgzFe"
+}

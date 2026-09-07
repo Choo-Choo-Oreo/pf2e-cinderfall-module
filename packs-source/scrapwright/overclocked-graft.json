@@ -1,0 +1,37 @@
+{
+    "name": "Overclocked Graft",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per augment, ever</p><hr /><p>You know exactly which wire to leave a little too hot. Once per cyber-augment you personally install, you may choose to apply the Install Mishap table's \"Overclocked in\" result — +1 effective grade, +2 Drift instead of the listed value — without rolling and without needing a critical failure. You don't get to keep the grade bump if the augment is ever serviced, same as if you'd rolled it.</p>"
+        },
+        "level": {
+            "value": 8
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "scrapwright"
+            ]
+        },
+        "slug": "overclocked-graft"
+    },
+    "_id": "QZCNMF2rkJUkTJJX"
+}

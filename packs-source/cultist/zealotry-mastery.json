@@ -1,0 +1,37 @@
+{
+    "name": "Zealotry Mastery",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>You may use Zealotry one additional time per day. When you roll on the Backlash Table, shift the result one step toward the least severe entry. This does not stack with Backlash Control's reroll — you may use either, not both, on a given Backlash.</p>"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "cultist"
+            ]
+        },
+        "slug": "zealotry-mastery"
+    },
+    "_id": "WxPzEpkPgLVrTZNm"
+}

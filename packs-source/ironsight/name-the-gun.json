@@ -1,0 +1,38 @@
+{
+    "name": "Name the Gun",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Requirement</strong> A single firearm you have carried through at least three encounters.</p><hr /><p>Give the weapon a name and it starts answering to it. It never fails while you personally wield it, it cannot be disarmed by any effect that allows a save, and any creature that has seen you fight recognizes it on sight. You may have one named weapon at a time; naming another ends this on the first, and the first never quite works the same for you again.</p>"
+        },
+        "level": {
+            "value": 14
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ironsight",
+                "downtime"
+            ]
+        },
+        "slug": "name-the-gun"
+    },
+    "_id": "1grpWg9BZip5zJEs"
+}

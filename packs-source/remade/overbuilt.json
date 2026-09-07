@@ -1,0 +1,37 @@
+{
+    "name": "Overbuilt",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Requirement</strong> chrome-attuned</p><p><strong>Duration</strong> constant</p><hr /><p>Treat your Drift as 1 lower solely for determining which Drift band applies to you. Your actual Drift score, and anything that keys off the real number, is unaffected.</p>"
+        },
+        "level": {
+            "value": 16
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "remade"
+            ]
+        },
+        "slug": "overbuilt"
+    },
+    "_id": "Fn2ieyQMZPlkyuIT"
+}

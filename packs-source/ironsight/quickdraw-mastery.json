@@ -1,0 +1,37 @@
+{
+    "name": "Quickdraw Mastery",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Requirement</strong> You are wielding or can draw a firearm.</p><hr /><p>When an encounter begins, you act first in the initiative order regardless of your roll, and you are never off-guard at the start of an encounter for not having rolled. If another creature has an effect granting the same benefit, compare Perception as normal to break the tie.</p>"
+        },
+        "level": {
+            "value": 16
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "quickdraw-mastery"
+    },
+    "_id": "3i2njbffE51CXu3k"
+}

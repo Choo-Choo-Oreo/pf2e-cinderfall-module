@@ -1,0 +1,38 @@
+{
+    "name": "The Other End",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Traits</strong> Signal, auditory, divination</p><hr /><p>Ask one question aloud. Something answers, in a voice, audibly, to everyone present. The answer is true, though it may be brief, oblique, or answer the question you asked rather than the one you meant. It never identifies itself, never explains how it knows, and never answers a question about what it is. The GM decides the wording; there is no check and no saving throw.</p>"
+        },
+        "level": {
+            "value": 20
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "the-signal",
+                "exploration"
+            ]
+        },
+        "slug": "the-other-end"
+    },
+    "_id": "q27KBu3A8XmCf6Dx"
+}

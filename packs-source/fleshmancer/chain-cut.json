@@ -1,0 +1,37 @@
+{
+    "name": "Chain Cut",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 2
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Cost</strong> +1 Vitae</p><p><strong>Area</strong> 10-foot burst</p><hr /><p>When you apply a Graft's effect, you may instead apply it to every creature in a 10-foot burst centered on a point within the Graft's normal range, at 1 additional Vitae cost. Grafts requiring an attack roll instead require one attack roll per target in the burst; Grafts requiring a save use the same DC against every target.</p>"
+        },
+        "level": {
+            "value": 8
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "fleshmancer"
+            ]
+        },
+        "slug": "chain-cut"
+    },
+    "_id": "eQlY6afqWU97CBu9"
+}

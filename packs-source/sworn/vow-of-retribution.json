@@ -1,0 +1,37 @@
+{
+    "name": "Vow of Retribution",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "free"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Trigger</strong> A creature damages your Ward.</p><p><strong>Cost</strong> 1 Conviction</p><hr /><p>You note the debt. Your next Strike that hits the triggering creature before the end of your next turn deals additional damage equal to the damage it dealt to the Ward, to a maximum equal to your level. If that Strike is part of The Answer, the maximum is instead twice your level — the interest. Only one debt can be noted at a time; noting a new one forgives the old.</p>"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "sworn"
+            ]
+        },
+        "slug": "vow-of-retribution"
+    },
+    "_id": "rJHrgGcnsOL154cG"
+}

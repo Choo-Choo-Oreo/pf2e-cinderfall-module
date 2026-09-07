@@ -1,0 +1,37 @@
+{
+    "name": "Steady Chorus",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Your Afflicted gain a +2 status bonus to saves against effects that would turn, control, banish, dismiss or destroy them outright, and against effects that would compel them to act against your commands. If such an effect would take one from you without a save, it attempts one against your class DC instead.</p>"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "plaguesworn"
+            ]
+        },
+        "slug": "steady-chorus"
+    },
+    "_id": "jvAX2kyQHuoB35d9"
+}

@@ -1,0 +1,37 @@
+{
+    "name": "Steady the Strain",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Your own body carries the weight of what it's become better than most. Your Strain (2 + your Constitution modifier, minimum 2) is permanently increased by 1 for the purpose of determining when you overflow into a weekly Bloom Table roll. This applies to your own mutations only, not a patient's.</p>"
+        },
+        "level": {
+            "value": 12
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "fleshmancer"
+            ]
+        },
+        "slug": "steady-the-strain"
+    },
+    "_id": "DOgAZd7YVePbJYs0"
+}

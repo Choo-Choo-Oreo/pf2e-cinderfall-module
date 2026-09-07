@@ -1,0 +1,37 @@
+{
+    "name": "Intercession",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per round</p><p><strong>Trigger</strong> An ally within 15 feet is hit by an attack.</p><hr /><p>You take the damage from the triggering attack instead of the ally, and you cannot reduce it with resistances or immunities you would not otherwise have — the point is that it lands on you. You do not need to move, and this works at range: the blow simply finds you instead.</p>"
+        },
+        "level": {
+            "value": 6
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "vigil"
+            ]
+        },
+        "slug": "intercession"
+    },
+    "_id": "b3pf07prCgWoO3O6"
+}

@@ -1,0 +1,37 @@
+{
+    "name": "Sure Footing",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>You ignore difficult terrain and greater difficult terrain created by your own spells and effects, including [TERRAIN] effects you made and terrain created by a Blight-Shape form of yours. This applies only to terrain you created; terrain another Warden made, or terrain that existed before you arrived, slows you normally. Your allies gain no benefit.</p>"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "seed-warden"
+            ]
+        },
+        "slug": "sure-footing"
+    },
+    "_id": "ia04U2ycdc0i3fRX"
+}

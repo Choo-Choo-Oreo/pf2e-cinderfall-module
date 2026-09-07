@@ -1,0 +1,37 @@
+{
+    "name": "Symmetry",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Trigger</strong> A creature within your first range increment critically hits you, or reduces an ally within 30 feet to 0 Hit Points.</p><p><strong>Requirement</strong> You are wielding two loaded firearms.</p><hr /><p>Make a ranged Strike with each firearm against the triggering creature. Neither counts toward your multiple attack penalty, and both treat the target as off-guard. You may use this once per round and it does not expend your reaction more than once per turn.</p>"
+        },
+        "level": {
+            "value": 18
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "symmetry"
+    },
+    "_id": "bZUBQ6yJjgDYiDHb"
+}

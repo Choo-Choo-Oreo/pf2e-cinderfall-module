@@ -1,0 +1,37 @@
+{
+    "name": "Spend Forward",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Traits</strong> Signal</p><hr /><p>When an ally would spend Encore, they may instead declare the spend before the roll is made and gain a +2 circumstance bonus to that check rather than rerolling it after a failure. They must say so aloud before the die is rolled. This uses the same once-per-round allowance and the same 1 Encore cost as the normal spend, and because nothing is rerolled it is not a fortune effect.</p>"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "the-signal"
+            ]
+        },
+        "slug": "spend-forward"
+    },
+    "_id": "6lb1ZOsYrrc0uNET"
+}

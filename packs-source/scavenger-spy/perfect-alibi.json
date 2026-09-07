@@ -1,0 +1,37 @@
+{
+    "name": "Perfect Alibi",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "free"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You are identified, accused, or placed at a scene you were present for.</p><hr /><p>You were somewhere else, and there is proof. All evidence placing you at the scene is contradicted by record, witness, or timestamp; checks to place you there automatically fail, and any flag, bounty, or Blown Cover result arising from that scene is removed. Creatures that saw you there personally still believe what they saw, but cannot substantiate it.</p>"
+        },
+        "level": {
+            "value": 18
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "scavenger-spy"
+            ]
+        },
+        "slug": "perfect-alibi"
+    },
+    "_id": "VIJQnuRtxK1AFKqA"
+}

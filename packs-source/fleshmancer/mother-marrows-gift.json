@@ -1,0 +1,37 @@
+{
+    "name": "Mother Marrow's Gift",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Requirement</strong> You have petitioned Mother Marrow (§5).</p><hr /><p>Once per day, treat a Medicine check or a Graft-crafting check as a critical success if it would otherwise be a success, or a success if it would otherwise fail. You must declare this before rolling.</p>"
+        },
+        "level": {
+            "value": 18
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "fleshmancer"
+            ]
+        },
+        "slug": "mother-marrows-gift"
+    },
+    "_id": "bLWkiHlWQDboVqYb"
+}

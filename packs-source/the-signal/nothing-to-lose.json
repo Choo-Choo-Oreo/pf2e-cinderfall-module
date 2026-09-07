@@ -1,0 +1,37 @@
+{
+    "name": "Nothing to Lose",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Traits</strong> Signal</p><hr /><p>An ally in range whose current Hit Points are below half their maximum may spend Encore even if the round's shared spend has already been used, and their spend does not use it up for anyone else. The spend is otherwise unchanged: 1 Encore, a reroll of one failed check, no action cost, a fortune effect. Each such ally may do this at most once per round.</p>"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "the-signal"
+            ]
+        },
+        "slug": "nothing-to-lose"
+    },
+    "_id": "M1SGGaEBsu9Jvvxv"
+}

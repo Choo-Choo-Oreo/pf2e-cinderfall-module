@@ -1,0 +1,38 @@
+{
+    "name": "Standing Query",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Traits</strong> Paradise-Touched, divination, exploration</p><hr /><p>Ask a question and leave it open. At the moment the answer would matter — the GM decides when that is — Paradise answers it, and the GM rolls the secret DC 5 flat check then, not now. You can have only one question open at a time; asking another closes the first unanswered. An open question lapses after a week.</p>"
+        },
+        "level": {
+            "value": 12
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "paradise-touched",
+                "exploration"
+            ]
+        },
+        "slug": "standing-query"
+    },
+    "_id": "yjJZ2aRM2PlXUxkf"
+}

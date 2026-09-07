@@ -1,0 +1,37 @@
+{
+    "name": "Vitae Sovereign",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> until the encounter ends</p><hr /><p>While you are in an encounter, your Vitae pool has no maximum; Vitae gained from any source accumulates without limit. When the encounter ends, your Vitae immediately returns to its value from before the encounter began, and any excess is gone. This does not carry into a second encounter that begins immediately afterward.</p>"
+        },
+        "level": {
+            "value": 18
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "fleshmancer"
+            ]
+        },
+        "slug": "vitae-sovereign"
+    },
+    "_id": "bsrZ1bUU2pxQIdh3"
+}

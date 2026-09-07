@@ -1,0 +1,37 @@
+{
+    "name": "Rebuke Machine Spirit",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 2
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Cost</strong> 2 charges of Ghost-Static</p><p><strong>Range</strong> 30 feet</p><p><strong>Targets</strong> 1 hostile ghost-machine</p><p><strong>Check</strong> Crafting, as a counteract check against the target's level</p><hr /><p>You reach into the machine and pull the spirit's hands off its own controls. Attempt a counteract check using Crafting. On a success the bound spirit loses command of the chassis for 1 minute: the machine goes inert, taking no actions and defending itself only. On a critical success the spirit is driven out entirely and the machine is inert until repaired or re-bound. On a failure it is unaffected and knows what you tried.</p>"
+        },
+        "level": {
+            "value": 8
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "scrapwright"
+            ]
+        },
+        "slug": "rebuke-machine-spirit"
+    },
+    "_id": "7toGL7Ak7T8vaA3L"
+}

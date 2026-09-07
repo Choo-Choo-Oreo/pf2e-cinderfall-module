@@ -1,0 +1,37 @@
+{
+    "name": "Last Rite's Mercy",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 2
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Targets</strong> your Ward, if it is a creature that is dying or that died this round, within your reach</p><hr /><p>You give the Ward the Choir's rest. It dies, and it dies whole: its soul can't be captured, salvaged, bound, animated, or repossessed by any effect — a Foreclosure Engine included — and its body can't be raised as undead. Any claim already held on it ends. It can still be returned to life by an effect that restores the soul to its own body.</p>"
+        },
+        "level": {
+            "value": 14
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "sworn"
+            ]
+        },
+        "slug": "last-rites-mercy"
+    },
+    "_id": "m2Zw5ypr2pgekQV0"
+}

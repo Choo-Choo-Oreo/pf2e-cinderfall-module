@@ -1,0 +1,37 @@
+{
+    "name": "Draft Mode",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "free"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> Your turn ends</p><p><strong>Traits</strong> Paradise-Touched</p><hr /><p>You alone are returned to the state you were in at the start of your last turn: your position, your actions, and the resources you spent on it. Everything you did to the world stands — damage you dealt, effects you created, doors you opened. You then take your turn again. In practice this is a second turn with your position reset.</p>"
+        },
+        "level": {
+            "value": 18
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "paradise-touched"
+            ]
+        },
+        "slug": "draft-mode"
+    },
+    "_id": "JSA2rksitIszc7rs"
+}

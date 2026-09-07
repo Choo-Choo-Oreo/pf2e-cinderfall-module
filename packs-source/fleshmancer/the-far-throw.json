@@ -1,0 +1,37 @@
+{
+    "name": "The Far Throw",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 2
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Cost</strong> 2 Vitae</p><hr /><p>Throw a prepared Graft to a range of 500 feet, ignoring the penalty for the first range increment. A creature that did not see it coming takes 4d6 additional damage of the Graft&rsquo;s type and is <em>off-guard</em> to you until the end of your next turn.</p>"
+        },
+        "level": {
+            "value": 16
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "fleshmancer"
+            ]
+        },
+        "slug": "the-far-throw"
+    },
+    "_id": "xMkxt7nkNgHz0HEC"
+}

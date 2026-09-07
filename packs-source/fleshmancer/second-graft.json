@@ -1,0 +1,38 @@
+{
+    "name": "Second Graft",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per character level</p><p><strong>Requirement</strong> You have the Marrow Deep feat.</p><p><strong>Cost</strong> 3 Vitae</p><hr /><p>You may perform Marrow Deep's procedure on a willing ally instead of yourself: choose one minor beneficial mutation from the Bloom Table's Runaway Mutation entries the GM has approved, or propose a comparable one with the GM, and graft it into them permanently. It doesn't require maintenance. This draws from the same once-per-level limit as using Marrow Deep on yourself — the two don't stack into two uses in the same level.</p>"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "fleshmancer",
+                "downtime"
+            ]
+        },
+        "slug": "second-graft"
+    },
+    "_id": "anokvPblGF5C7byU"
+}

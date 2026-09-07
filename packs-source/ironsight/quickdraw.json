@@ -1,0 +1,37 @@
+{
+    "name": "Quickdraw",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "free"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per turn</p><p><strong>Trigger</strong> You take an action that uses a weapon you are not wielding.</p><hr /><p>You may Interact to draw a weapon as part of any action that uses it, at no additional action cost. This applies to the first weapon you draw each turn.</p>"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "quickdraw"
+    },
+    "_id": "rvyRI1gN3BYmNY5E"
+}

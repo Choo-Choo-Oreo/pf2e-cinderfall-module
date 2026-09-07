@@ -1,0 +1,37 @@
+{
+    "name": "The Butcher's Last Word",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Requirement</strong> bio-attuned</p><p><strong>Duration</strong> constant</p><hr /><p>Whenever you graft a new Wild augment into yourself, treat its Resonance increase as though it were a Grafted augment's instead. You still pay Wild's price and still get Wild's rider.</p>"
+        },
+        "level": {
+            "value": 20
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "remade"
+            ]
+        },
+        "slug": "the-butchers-last-word"
+    },
+    "_id": "DlxPp1icfYTnqlHS"
+}

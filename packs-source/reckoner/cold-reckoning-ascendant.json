@@ -1,0 +1,37 @@
+{
+    "name": "Cold Reckoning Ascendant",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Range</strong> 30 feet</p><p><strong>Targets</strong> 1 creature under HEAT DEBT</p><hr /><p>You draw the chill back out of the target and spend it against your own ledger. HEAT DEBT ends on that creature, and your Reckoning drops by one stage. You cannot drop below Stage 0, and a stage removed this way can be advanced into again normally — this pays the ledger down, it does not close it.</p>"
+        },
+        "level": {
+            "value": 12
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "reckoner"
+            ]
+        },
+        "slug": "cold-reckoning-ascendant"
+    },
+    "_id": "imw8Gk7jaUmJkQqD"
+}

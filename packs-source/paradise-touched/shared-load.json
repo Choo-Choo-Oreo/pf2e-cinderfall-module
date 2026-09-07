@@ -1,0 +1,37 @@
+{
+    "name": "Shared Load",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Trigger</strong> An ally within 30 feet fails a Will save</p><p><strong>Cost</strong> 1 Bandwidth</p><p><strong>Traits</strong> Paradise-Touched</p><hr /><p>You spend 1 Bandwidth. The triggering ally is unaffected by that effect, and you suffer it instead, using the ally's degree of failure — you do not attempt your own save. If the effect could not affect you at all, the Bandwidth is still spent and the ally is still unaffected.</p>"
+        },
+        "level": {
+            "value": 6
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "paradise-touched"
+            ]
+        },
+        "slug": "shared-load"
+    },
+    "_id": "xc3L9O7x6mkacyRY"
+}

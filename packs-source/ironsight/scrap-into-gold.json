@@ -1,0 +1,38 @@
+{
+    "name": "Scrap Into Gold",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Requirement</strong> Access to a proper workshop.</p><p><strong>Check</strong> Crafting against a DC set by the GM</p><hr /><p>Permanently raise one firearm by a single rarity step, narrowing its Failure Range accordingly — a Scrap Gun becomes a Pipe Gun, a Pipe Gun becomes Good-Made. On a failure the week is spent and the weapon is unchanged; on a critical failure the weapon is also destroyed. This can never carry a weapon past Good-Made: the step from there to Turning Good is something a gun does in your hands over time, not something a workshop does to it.</p>"
+        },
+        "level": {
+            "value": 14
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ironsight",
+                "downtime"
+            ]
+        },
+        "slug": "scrap-into-gold"
+    },
+    "_id": "5zzRlvuBd1tKSBjh"
+}

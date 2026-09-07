@@ -1,0 +1,37 @@
+{
+    "name": "The Network",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Range</strong> unlimited</p><p><strong>Duration</strong> sustained</p><hr /><p>Extend Root-Sense to any one [TERRAIN] effect you have ever created that still stands, anywhere, regardless of distance. You sense through it as though you were standing in it, for as long as you sustain the effect. You may switch which effect you are sensing through by spending the action again. You sense through exactly one at a time and cannot sense through an effect that has been destroyed.</p>"
+        },
+        "level": {
+            "value": 12
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "seed-warden"
+            ]
+        },
+        "slug": "the-network"
+    },
+    "_id": "StM5EzfgAj6fNiLI"
+}

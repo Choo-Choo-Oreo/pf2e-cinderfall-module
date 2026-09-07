@@ -1,0 +1,37 @@
+{
+    "name": "Second Wind, Grown",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You end your turn at half your maximum Hit Points or fewer.</p><p><strong>Requirement</strong> bio-attuned</p><hr /><p>Regain Hit Points equal to your level. This isn't ordinary healing — it doesn't remove persistent damage or conditions, only lost Hit Points.</p>"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "remade"
+            ]
+        },
+        "slug": "second-wind-grown"
+    },
+    "_id": "g52tTcxXiVb82MPg"
+}

@@ -1,0 +1,37 @@
+{
+    "name": "Grief Given Shape",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Area</strong> 10-foot burst</p><p><strong>Duration</strong> as Borrowed Grief</p><p><strong>Traits</strong> Wailing Debt</p><hr /><p>You may aim Borrowed Grief at a location within range instead of at a creature. It affects every creature in a 10-foot burst centred on that point, allies included. Each affected creature attempts the save Borrowed Grief normally calls for. You are not affected by your own casting, but you see what they see.</p>"
+        },
+        "level": {
+            "value": 6
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "hollowbound"
+            ]
+        },
+        "slug": "grief-given-shape"
+    },
+    "_id": "Yp7VqSdZXGhxY47A"
+}

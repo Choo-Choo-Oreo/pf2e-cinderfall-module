@@ -1,0 +1,37 @@
+{
+    "name": "Cold Boot",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You would be stunned, slowed, or have your actions dictated by a technomancy or EMP effect.</p><hr /><p>You force a hard reset. Negate the triggering effect entirely — your systems come back online before it can act. This doesn't lower your Drift, only this one occurrence.</p>"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "remade"
+            ]
+        },
+        "slug": "cold-boot"
+    },
+    "_id": "HWhgjYgRpN5bPu6M"
+}

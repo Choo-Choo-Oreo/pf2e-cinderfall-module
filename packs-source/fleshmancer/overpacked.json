@@ -1,0 +1,37 @@
+{
+    "name": "Overpacked",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "free"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Trigger</strong> You Cut Grafts during your daily preparations.</p><hr /><p>Choose up to three Grafts you prepare today. Each is Overpacked: when thrown, its splash damage equals your Intelligence modifier plus your level instead of its normal splash, but on a miss it bursts in your own square rather than the target&rsquo;s.</p>"
+        },
+        "level": {
+            "value": 12
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "fleshmancer"
+            ]
+        },
+        "slug": "overpacked"
+    },
+    "_id": "fMOjVylYbP2vMpNZ"
+}

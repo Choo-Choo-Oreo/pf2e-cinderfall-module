@@ -1,0 +1,37 @@
+{
+    "name": "The Machine That Wouldn't Go Ghost",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Requirement</strong> Drift 10 (Ghost in the Machine)</p><p><strong>Duration</strong> constant</p><hr /><p>You retain full personal agency at all times — the GM narrates pressure and glitching, never puppeting, for you specifically. Every tech in Cyber City's heard the story by now: any NPC connected to Cyber City who hears your name reacts to it, unprompted, before they react to you.</p>"
+        },
+        "level": {
+            "value": 20
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "remade"
+            ]
+        },
+        "slug": "machine-that-wouldnt-go-ghost"
+    },
+    "_id": "31ZOzvGP7XI4OxkI"
+}

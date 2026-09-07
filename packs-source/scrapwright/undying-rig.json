@@ -1,0 +1,38 @@
+{
+    "name": "Undying Rig",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Requirement</strong> A substantial quantity of scrap, machinery, or wreckage is available.</p><p><strong>Duration</strong> permanent</p><hr /><p>Rebuild your destroyed Rig from whatever is to hand. It returns at full Hit Points, at its current Mk tier, with every mod and binding it had when it was destroyed. You need no workshop and no tools. Nothing is lost but the hour.</p>"
+        },
+        "level": {
+            "value": 16
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "scrapwright",
+                "exploration"
+            ]
+        },
+        "slug": "undying-rig"
+    },
+    "_id": "WzPvFLGvEEsbXjlM"
+}

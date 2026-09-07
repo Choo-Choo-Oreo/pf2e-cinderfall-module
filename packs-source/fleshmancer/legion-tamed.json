@@ -1,0 +1,38 @@
+{
+    "name": "Legion, Tamed",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Requirement</strong> Your Resonance is 8 or lower.</p><hr /><p>You perform a full Cut on your own grafted tissue, quieting it rather than removing it. For the next 24 hours, treat your Resonance as one band lower for the purpose of its effects. Your actual Resonance total is unchanged, and this cannot be used to suppress Chorus (9) or Legion (10) — only to soften Humming or Loud.</p>"
+        },
+        "level": {
+            "value": 16
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "fleshmancer",
+                "exploration"
+            ]
+        },
+        "slug": "legion-tamed"
+    },
+    "_id": "l50m1WMLnVnhVTK6"
+}

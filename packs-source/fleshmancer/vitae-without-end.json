@@ -1,0 +1,37 @@
+{
+    "name": "Vitae Without End",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Your daily Vitae maximum increases by 4. Once per encounter you may spend Vitae you do not have, up to 4 points: you take 4d6 damage that cannot be prevented or reduced, and the debt is cleared.</p>"
+        },
+        "level": {
+            "value": 20
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "fleshmancer"
+            ]
+        },
+        "slug": "vitae-without-end"
+    },
+    "_id": "vnDANXSsw8QKhT5s"
+}

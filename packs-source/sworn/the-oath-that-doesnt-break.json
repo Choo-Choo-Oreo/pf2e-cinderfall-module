@@ -1,0 +1,37 @@
+{
+    "name": "The Oath That Doesn't Break",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "free"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You would become Forsworn.</p><hr /><p>You don't. The Trial event still happens and your Trial stage still rises if it would; the Forsworn status simply doesn't take hold, this time. What broke the Oath is not undone.</p>"
+        },
+        "level": {
+            "value": 14
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "sworn"
+            ]
+        },
+        "slug": "the-oath-that-doesnt-break"
+    },
+    "_id": "XVofZoqUK5tbADc9"
+}

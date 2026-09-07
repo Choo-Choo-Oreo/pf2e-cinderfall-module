@@ -1,0 +1,37 @@
+{
+    "name": "Total Recall Cut",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Requirement</strong> You have prepared and already consumed the Graft today.</p><hr /><p>Choose one Graft you prepared and have already used up today. Apply its effect again, once, at no Vitae cost and without re-preparing it.</p>"
+        },
+        "level": {
+            "value": 16
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "fleshmancer"
+            ]
+        },
+        "slug": "total-recall-cut"
+    },
+    "_id": "PInGtgewpLKeSGpR"
+}

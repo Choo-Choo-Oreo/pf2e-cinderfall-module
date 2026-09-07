@@ -1,0 +1,37 @@
+{
+    "name": "Cheap Wiring",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>You're not paying labor to do what you can do yourself. Whenever you pay the install fee on a Licensed cyber-augment installed in your own body, that fee is halved. This doesn't reduce the augment's purchase price, only the surgeon's cut — and here, the surgeon is you.</p>"
+        },
+        "level": {
+            "value": 12
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "scrapwright"
+            ]
+        },
+        "slug": "cheap-wiring"
+    },
+    "_id": "elM0oomE07Y8CPe5"
+}

@@ -1,0 +1,37 @@
+{
+    "name": "Point-Blank Refusal",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>You are never off-guard as a result of making a ranged Strike while within an enemy's reach, and such Strikes do not trigger that enemy's Attack of Opportunity. This does not protect you from reactions triggered by anything else you do.</p>"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "point-blank-refusal"
+    },
+    "_id": "W1nuHn4m4ifh1iNY"
+}

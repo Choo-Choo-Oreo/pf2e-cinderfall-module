@@ -1,0 +1,37 @@
+{
+    "name": "Second Heart",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You would spend Vitae you do not have.</p><hr /><p>Draw 2 emergency Vitae instead, enough to cover the cost. This Vitae comes with a price: you take persistent bleed damage equal to your level until treated, as your body cannibalizes itself to produce it.</p>"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "fleshmancer"
+            ]
+        },
+        "slug": "second-heart"
+    },
+    "_id": "i4RrhRooz3GVZXwq"
+}

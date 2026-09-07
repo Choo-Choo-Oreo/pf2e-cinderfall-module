@@ -1,0 +1,37 @@
+{
+    "name": "Unrender",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 2
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Cost</strong> 3 Bandwidth</p><p><strong>Traits</strong> Paradise-Touched, Glimpse</p><hr /><p>You spend 3 Bandwidth and choose one ongoing magical effect within 60 feet. Attempt to counteract it, using your highest spell rank as the counteract rank and your spell DC as the counteract check. On a success the effect ends and is treated as never having been rendered at all; anything it created ceases to exist rather than being dispelled. This is a counteract attempt and can fail.</p>"
+        },
+        "level": {
+            "value": 14
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "paradise-touched"
+            ]
+        },
+        "slug": "unrender"
+    },
+    "_id": "XFGfZNzPn0HowqnM"
+}

@@ -1,0 +1,37 @@
+{
+    "name": "Butcher's Discretion",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>When you critically hit with a thrown Graft, apply that Graft's critical specialization effect (if any) in addition to its normal critical effect. If the Graft has no critical specialization effect defined, it instead deals 1d6 additional damage of its own type on a critical hit.</p>"
+        },
+        "level": {
+            "value": 12
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "fleshmancer"
+            ]
+        },
+        "slug": "butchers-discretion"
+    },
+    "_id": "KAfe9AZlqAYzHy5z"
+}

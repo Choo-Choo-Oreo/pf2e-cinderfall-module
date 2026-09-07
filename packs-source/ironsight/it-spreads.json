@@ -1,0 +1,37 @@
+{
+    "name": "It Spreads",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per round</p><p><strong>Requirement</strong> You have hazardous ground within 60 feet.</p><hr /><p>One area of hazardous ground you created expands by 5 feet in every direction, to a maximum of double its original size. A creature the expansion reaches must attempt a Reflex save or take the ground’s persistent damage immediately rather than at the end of its turn.</p>"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "it-spreads"
+    },
+    "_id": "T1MyziEbPeEmy0G8"
+}

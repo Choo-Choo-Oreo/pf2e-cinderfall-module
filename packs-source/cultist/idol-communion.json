@@ -1,0 +1,37 @@
+{
+    "name": "Idol Communion",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per minute (the Rite only)</p><p><strong>Duration</strong> constant</p><hr /><p>You perceive through your Idol's senses continuously, in addition to your own, with no action and no duration. Your Idol may be any distance from you on the same plane. You are not blinded or deafened while doing so. Once per minute you may take 1 action to Cast a Rite as though you were in your Idol's space, using its position for range and line of effect; the Rite's Zeal cost is unchanged.</p>"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "cultist"
+            ]
+        },
+        "slug": "idol-communion"
+    },
+    "_id": "CEW5iLItz1xKGa7j"
+}

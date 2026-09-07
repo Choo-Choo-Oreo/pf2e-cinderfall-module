@@ -1,0 +1,37 @@
+{
+    "name": "Elder's Patience",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> twice per scene</p><p><strong>Traits</strong> Long-Shadow</p><hr /><p>You may use The Long View twice per scene instead of once. In addition, when you use it, one other Hollowbound within 30 feet who can see you may ask a question of their own as part of the same use, without spending a use of their own. Both questions are put to your spirit, and both answers are given to both of you.</p>"
+        },
+        "level": {
+            "value": 8
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "hollowbound"
+            ]
+        },
+        "slug": "elders-patience"
+    },
+    "_id": "CHcY7yPqQPCvvdup"
+}

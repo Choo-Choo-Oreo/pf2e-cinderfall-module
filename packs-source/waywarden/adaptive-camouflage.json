@@ -1,0 +1,37 @@
+{
+    "name": "Adaptive Camouflage",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> three times per day</p><p><strong>Duration</strong> 1 minute</p><hr /><p>Your skin shifts to match your surroundings. You are concealed for the duration, or until you attack. Moving does not end the effect, but leaving the terrain you camouflaged into does.</p>"
+        },
+        "level": {
+            "value": 8
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "waywarden"
+            ]
+        },
+        "slug": "adaptive-camouflage"
+    },
+    "_id": "eInUd1E09N9OxoSQ"
+}

@@ -1,0 +1,37 @@
+{
+    "name": "Free Spend",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Traits</strong> Signal</p><hr /><p>The first Encore spent by any ally each round costs nothing: the ally gains the full benefit and your pool is not reduced. This does not add a spend — it is still the round's shared spend, and it is still limited by however many spends per round your allies are entitled to.</p>"
+        },
+        "level": {
+            "value": 18
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "the-signal"
+            ]
+        },
+        "slug": "free-spend"
+    },
+    "_id": "QgHJKuqCjNnRm2vl"
+}

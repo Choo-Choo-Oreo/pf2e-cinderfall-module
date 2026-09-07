@@ -1,0 +1,37 @@
+{
+    "name": "Perfect Signal",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "free"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> A Signal-declared effect of yours fails or critically fails</p><p><strong>Traits</strong> Paradise-Touched</p><hr /><p>The triggering effect succeeds instead, whatever the degree of its failure. You still take the force damage the failure would have dealt and still gain 1 Signal Drift, exactly as though it had failed — the cost lands on you and the effect lands on the world. What you get from a success is real, with no flat check, because it was declared Signal.</p>"
+        },
+        "level": {
+            "value": 20
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "paradise-touched"
+            ]
+        },
+        "slug": "perfect-signal"
+    },
+    "_id": "mfgpkeviChRY6UIv"
+}

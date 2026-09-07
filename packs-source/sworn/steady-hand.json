@@ -1,0 +1,37 @@
+{
+    "name": "Steady Hand",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>When you Strike as part of The Answer, you gain a +1 circumstance bonus to the attack roll, and that attack roll ignores any penalty from the <em>frightened</em> or <em>sickened</em> condition. Strikes that are not part of The Answer gain nothing from this feat.</p>"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "sworn"
+            ]
+        },
+        "slug": "steady-hand"
+    },
+    "_id": "BtHeTGOt6DvYGFqV"
+}

@@ -1,0 +1,37 @@
+{
+    "name": "Static Warning",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Range</strong> reach</p><p><strong>Duration</strong> constant</p><hr /><p>Your Static prickles and the people beside you learn to read it. An ally within your reach gains a +1 circumstance bonus to AC against a Named target's next attack against it, or to its first saving throw against a Named target's effect, whichever comes first. Each ally benefits once per Named target per encounter.</p>"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "wardbreaker"
+            ]
+        },
+        "slug": "static-warning"
+    },
+    "_id": "pLdQAYVbXM9zTwAH"
+}

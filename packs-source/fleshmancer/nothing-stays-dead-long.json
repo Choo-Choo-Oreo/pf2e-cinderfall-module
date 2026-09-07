@@ -1,0 +1,37 @@
+{
+    "name": "Nothing Stays Dead Long",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> An ally within 30 feet dies.</p><p><strong>Cost</strong> 4 Vitae</p><hr /><p>The ally is instead reduced to 0 Hit Points and <em>dying 1</em>, and stabilizes at the start of your next turn if not damaged again. They are <em>drained 2</em> when they wake, and they remember every second of it.</p>"
+        },
+        "level": {
+            "value": 14
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "fleshmancer"
+            ]
+        },
+        "slug": "nothing-stays-dead-long"
+    },
+    "_id": "VdlT8Ht3CbaETkUn"
+}

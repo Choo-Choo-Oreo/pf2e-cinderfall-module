@@ -1,0 +1,37 @@
+{
+    "name": "First Debt",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Choose one minor boon from your Covenant's list. You gain it as an always-available Quiet-state ability, in addition to the boons your ordinary starting selection grants. The choice is made when you take this feat and does not change; it is a debt the spirit is already carrying, not a favour you renegotiate.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "hollowbound"
+            ]
+        },
+        "slug": "first-debt"
+    },
+    "_id": "ulcm3rLqeXmBNwOF"
+}

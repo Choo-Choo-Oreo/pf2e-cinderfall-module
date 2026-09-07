@@ -1,0 +1,37 @@
+{
+    "name": "Steady Growth",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You would gain or increase the sickened condition from a failed Graft check's ordinary result, or from Loud Resonance's donor-surface effect.</p><p><strong>Requirement</strong> bio-attuned</p><hr /><p>Reduce the sickened value by 1 (minimum 0).</p>"
+        },
+        "level": {
+            "value": 6
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "remade"
+            ]
+        },
+        "slug": "steady-growth"
+    },
+    "_id": "KPKt7aSydaYqGt3Q"
+}

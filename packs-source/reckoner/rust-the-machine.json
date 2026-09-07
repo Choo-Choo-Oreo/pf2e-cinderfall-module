@@ -1,0 +1,37 @@
+{
+    "name": "Rust the Machine",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Whenever an Overflow effect you draw damages a construct or ghost-machine, that creature also takes a -1 status penalty to AC until the end of your next turn as its plating and joints corrode. This penalty does not stack with itself, and a construct repaired or cleaned of the corrosion loses it early.</p>"
+        },
+        "level": {
+            "value": 8
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "reckoner"
+            ]
+        },
+        "slug": "rust-the-machine"
+    },
+    "_id": "vy5wKre6ptxy6lRP"
+}

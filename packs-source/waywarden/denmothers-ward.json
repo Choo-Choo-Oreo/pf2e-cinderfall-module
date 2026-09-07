@@ -1,0 +1,37 @@
+{
+    "name": "Denmother's Ward",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "free"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> Your Feral Bond would be reduced to 0 Hit Points.</p><hr /><p>Your Feral Bond drops to 1 Hit Point instead of dying.</p>"
+        },
+        "level": {
+            "value": 18
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "waywarden"
+            ]
+        },
+        "slug": "denmothers-ward"
+    },
+    "_id": "BCi1MZ5tKu5NDGKD"
+}

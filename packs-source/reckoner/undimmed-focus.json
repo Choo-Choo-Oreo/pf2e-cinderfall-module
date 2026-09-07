@@ -1,0 +1,37 @@
+{
+    "name": "Undimmed Focus",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>You are immune to the informational and memory-based portions of your own Reckoning: Stage I's lost fact and its penalty to Recall Knowledge do not apply to you, and a Stage IV Major Reckoning never takes memory or continuity from you — it takes the ability penalty instead, every time. Every other toll applies in full.</p>"
+        },
+        "level": {
+            "value": 14
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "reckoner"
+            ]
+        },
+        "slug": "undimmed-focus"
+    },
+    "_id": "4Babhr3Isn2dIm48"
+}

@@ -1,0 +1,37 @@
+{
+    "name": "Nobody Turns This Off",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Traits</strong> Signal</p><hr /><p>Nothing ends your Broadcast except your own choice or your death. Counteracts fail, silence and deafness do not stop it, antimagic does not suppress it, no condition ends it, and falling unconscious does not end it whether or not you have Never Off. Only you can Dismiss it, and you must be able to act to do so.</p>"
+        },
+        "level": {
+            "value": 20
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "the-signal"
+            ]
+        },
+        "slug": "nobody-turns-this-off"
+    },
+    "_id": "2aPfi5xPpbK3Czqw"
+}

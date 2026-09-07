@@ -1,0 +1,38 @@
+{
+    "name": "Bloomrot Graft",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Requirement</strong> The target is willing and has an open Slot.</p><p><strong>Cost</strong> 2 points of Bloomrot charge, spent from either side</p><hr /><p>You force ten minutes of accelerated, directed growth into a willing creature, using your own Bloomrot charge as the engine instead of the usual downtime graft. Spend 2 points of Bloomrot charge, drawn from either side of the needle, and graft a Minor mutation of your choice from the Bloom Table into an open Slot on the target. No downtime ritual, no outside grafter — just growth that already knows where it's going.</p>"
+        },
+        "level": {
+            "value": 8
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "seed-warden",
+                "exploration"
+            ]
+        },
+        "slug": "bloomrot-graft"
+    },
+    "_id": "vi3XhcnsxJBlFLsK"
+}

@@ -1,0 +1,37 @@
+{
+    "name": "Sealed Room",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 3
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Area</strong> 20-foot burst within 60 feet</p><p><strong>Duration</strong> 1 minute</p><hr /><p>Saturate an enclosed area completely. The burst becomes hazardous ground, and its persistent damage applies at the start of a creature’s turn as well as the end. A creature that attempts to leave the area must succeed at a Fortitude save or its movement ends at the boundary, having got a lungful of what is in there instead.</p>"
+        },
+        "level": {
+            "value": 14
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "sealed-room"
+    },
+    "_id": "SYMKmDeWByt2ulMg"
+}

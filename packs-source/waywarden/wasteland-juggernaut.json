@@ -1,0 +1,37 @@
+{
+    "name": "Wasteland Juggernaut",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Your Feral Bond gains temporary Hit Points equal to your level at the start of each encounter. These are lost before its own Hit Points and do not return until the next encounter begins.</p>"
+        },
+        "level": {
+            "value": 14
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "waywarden"
+            ]
+        },
+        "slug": "wasteland-juggernaut"
+    },
+    "_id": "Uu1lx5wy7TQIhnBV"
+}

@@ -1,0 +1,38 @@
+{
+    "name": "Reclaimer",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Area</strong> twice Reclaim's usual radius</p><hr /><p>Reclaim takes 1 minute rather than 10, and its radius is doubled. Every other aspect of the spell — its rank, its Bloom tag and the step it moves the needle, and what it can and cannot reclaim — is unchanged.</p>"
+        },
+        "level": {
+            "value": 12
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "seed-warden",
+                "exploration"
+            ]
+        },
+        "slug": "reclaimer"
+    },
+    "_id": "af0v9ZnPC8ctdNSv"
+}

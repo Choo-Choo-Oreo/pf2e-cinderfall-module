@@ -1,0 +1,37 @@
+{
+    "name": "Hand Over Hand",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "free"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per turn</p><p><strong>Trigger</strong> A one-handed firearm you are wielding is emptied.</p><hr /><p>Reload the emptied weapon, or draw and ready a second one-handed firearm, at no action cost. If you are already wielding two firearms, you may instead swap which one counts as your primary hand for the rest of the turn.</p>"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "hand-over-hand"
+    },
+    "_id": "VM3bMauzsIcjVFtM"
+}

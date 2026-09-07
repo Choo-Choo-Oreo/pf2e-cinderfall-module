@@ -1,0 +1,37 @@
+{
+    "name": "Living Fortification",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Thicket Wall you create has Hardness 10. If at least one section of a given Thicket Wall is still standing when you next make your daily preparations, the whole wall regrows to full — every destroyed section returns and every damaged section is repaired. A Thicket Wall with no sections left standing does not regrow and must be cast again.</p>"
+        },
+        "level": {
+            "value": 14
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "seed-warden"
+            ]
+        },
+        "slug": "living-fortification"
+    },
+    "_id": "5ps0lrtaWTnD6TUP"
+}

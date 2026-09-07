@@ -1,0 +1,37 @@
+{
+    "name": "Never Off",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Traits</strong> Signal</p><hr /><p>Your Broadcast does not end when you fall unconscious. Its Frequency continues to apply, your allies can continue to spend Encore, and you continue to gain 1 Encore at the start of each of your turns even though you cannot act on them. It ends immediately if you die.</p>"
+        },
+        "level": {
+            "value": 18
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "the-signal"
+            ]
+        },
+        "slug": "never-off"
+    },
+    "_id": "bC3mQEkX6kVvn08i"
+}

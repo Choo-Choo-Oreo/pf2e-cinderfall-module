@@ -1,0 +1,37 @@
+{
+    "name": "The Mile Shot",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 3
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Requirement</strong> A clear line to a target you can see or have precisely located, and no movement this turn.</p><hr /><p>Make a ranged Strike ignoring all range increments and their penalties out to one mile. The target does not know it is under fire until the Strike resolves and is off-guard against it. Weather, intervening solid cover, and the curve of the world are all the GM's to rule on, and you should ask before you spend the day getting into position.</p>"
+        },
+        "level": {
+            "value": 14
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "the-mile-shot"
+    },
+    "_id": "BTPlRRO4jAkWDKlj"
+}

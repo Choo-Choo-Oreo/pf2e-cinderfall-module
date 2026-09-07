@@ -1,0 +1,38 @@
+{
+    "name": "Terraformer",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><hr /><p>Cast a [TERRAIN] spell over 10 minutes rather than its usual casting time, tripling its area. If your Cutting is Greenline and the needle is on Green, the Greenline area bonus applies to the tripled area rather than to the base area. An interrupted casting does not consume the daily use — the seed keeps, and you may begin again.</p>"
+        },
+        "level": {
+            "value": 16
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "seed-warden",
+                "exploration"
+            ]
+        },
+        "slug": "terraformer"
+    },
+    "_id": "gdq6aV66rPYTQFuz"
+}

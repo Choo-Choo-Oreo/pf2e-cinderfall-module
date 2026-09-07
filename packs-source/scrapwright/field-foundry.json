@@ -1,0 +1,38 @@
+{
+    "name": "Field Foundry",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Area</strong> 20-foot radius</p><p><strong>Duration</strong> until you break it down</p><hr /><p>You unpack a workshop from what you are carrying. Inside its area you count as having a fully equipped workshop for every purpose, and downtime spent Crafting or Repairing there takes half the usual time. Breaking it down takes 10 minutes. You can maintain only one Field Foundry at a time.</p>"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "scrapwright",
+                "exploration"
+            ]
+        },
+        "slug": "field-foundry"
+    },
+    "_id": "SHdPuNlnN78s1XZ9"
+}

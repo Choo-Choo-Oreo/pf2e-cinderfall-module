@@ -1,0 +1,37 @@
+{
+    "name": "It Gets In",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Your chemical and incendiary damage ignores resistances of its type, and hazardous ground you create affects creatures that would ordinarily be immune to its damage type by virtue of equipment, sealed suits, or environmental protection. Genuine creature immunity still applies. Armour is not protection here either; it is just more surface area.</p>"
+        },
+        "level": {
+            "value": 16
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "it-gets-in"
+    },
+    "_id": "D4CaGFz4N0qAW1Rk"
+}

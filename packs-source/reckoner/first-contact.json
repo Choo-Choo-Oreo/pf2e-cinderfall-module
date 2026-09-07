@@ -1,0 +1,37 @@
+{
+    "name": "First Contact",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "free"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per round</p><p><strong>Trigger</strong> You begin or Sustain THE ORBIT.</p><hr /><p>Begin a second ORBIT on another target within range, at no additional action cost. The second pull moves its subjects 2 feet toward one another each round rather than 5, and does not increase. Sustaining either ORBIT sustains both; if either ends, the other continues.</p>"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "reckoner"
+            ]
+        },
+        "slug": "first-contact"
+    },
+    "_id": "ofXYB11bHUtV2UjL"
+}

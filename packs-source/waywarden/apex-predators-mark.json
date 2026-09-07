@@ -1,0 +1,37 @@
+{
+    "name": "Apex Predator's Mark",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Trigger</strong> You Mark a creature.</p><p><strong>Area</strong> 10-foot emanation from the Marked creature</p><hr /><p>Creatures in the area whose level is lower than the Marked creature's are off-guard until the end of your next turn. This is a mental fear effect, and a creature that is immune to fear is unaffected.</p>"
+        },
+        "level": {
+            "value": 16
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "waywarden"
+            ]
+        },
+        "slug": "apex-predators-mark"
+    },
+    "_id": "B6cABHx2dePmaDOv"
+}

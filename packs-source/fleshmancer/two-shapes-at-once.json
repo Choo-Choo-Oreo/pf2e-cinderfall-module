@@ -1,0 +1,37 @@
+{
+    "name": "Two Shapes at Once",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per hour</p><p><strong>Cost</strong> 3 Vitae</p><p><strong>Duration</strong> 1 minute</p><hr /><p>You may have two self-mutation effects active at the same time that would normally be exclusive, including two full monstrous forms. For the duration you take a &minus;1 circumstance penalty to all saving throws, because parts of you are arguing.</p>"
+        },
+        "level": {
+            "value": 18
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "fleshmancer"
+            ]
+        },
+        "slug": "two-shapes-at-once"
+    },
+    "_id": "0euUuYr3lAnZH4Or"
+}

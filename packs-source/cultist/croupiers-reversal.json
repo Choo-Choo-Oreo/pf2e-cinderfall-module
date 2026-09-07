@@ -1,0 +1,37 @@
+{
+    "name": "Croupier's Reversal",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per round</p><p><strong>Trigger</strong> An enemy within 60 feet succeeds at a check or saving throw.</p><p><strong>Cost</strong> 1 Zeal</p><hr /><p>The enemy rerolls and must use the second result, even if it is better. This is a misfortune effect. If the reroll is also a success, the Croupier is amused and you regain the Zeal — the house does not charge for a losing bet.</p>"
+        },
+        "level": {
+            "value": 12
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "cultist"
+            ]
+        },
+        "slug": "croupiers-reversal"
+    },
+    "_id": "oJz4yFS3pUxZcuLw"
+}

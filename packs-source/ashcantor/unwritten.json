@@ -1,0 +1,37 @@
+{
+    "name": "Unwritten",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Ash-Marked is not noticed by ordinary observation. A creature notices it only by deliberately Seeking you or examining you for it, or by succeeding at a check it was already making to identify what you are. Undead and spirits still recognize you as kin regardless — they are not looking with their eyes. Effects that detect the dead, the undead or the half-gone find you normally.</p>"
+        },
+        "level": {
+            "value": 12
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ashcantor"
+            ]
+        },
+        "slug": "unwritten"
+    },
+    "_id": "gS68Q1bRz2o58TTi"
+}

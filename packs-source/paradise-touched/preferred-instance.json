@@ -1,0 +1,37 @@
+{
+    "name": "Preferred Instance",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Prerequisites</strong> Local Instance</p><p><strong>Traits</strong> Paradise-Touched</p><hr /><p>Your Local Instance lasts 10 minutes instead of 1 minute. In addition, once per minute you may change which rule it alters, choosing a new one as though you had just used it. Everything else about Local Instance is unchanged, including its Bandwidth cost, which is paid once when you use it and not again when you change the rule.</p>"
+        },
+        "level": {
+            "value": 16
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "paradise-touched"
+            ]
+        },
+        "slug": "preferred-instance"
+    },
+    "_id": "VZD6Gd4gA6bi0dDJ"
+}

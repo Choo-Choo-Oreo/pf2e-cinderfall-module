@@ -1,0 +1,37 @@
+{
+    "name": "Quick Raise",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "free"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per turn</p><p><strong>Trigger</strong> You raise a single Afflicted.</p><hr /><p>Raising one Afflicted becomes a free action instead of costing its usual action. This applies to a single Afflicted only — raising more than one in the same casting or effect costs the usual action for all of them. The Miasma cost, if any, is unchanged.</p>"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "plaguesworn"
+            ]
+        },
+        "slug": "quick-raise"
+    },
+    "_id": "KHuB3x3WY8uLWyUc"
+}

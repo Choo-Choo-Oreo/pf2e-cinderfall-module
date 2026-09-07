@@ -1,0 +1,37 @@
+{
+    "name": "Cross-Reference",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Traits</strong> Paradise-Touched</p><hr /><p>Whenever two Static results you have received in the same session contradict each other, the GM must tell you that a contradiction exists, as soon as the second result is delivered. You are told that two of your answers disagree and which two; you are never told which one is false, and the secret flat checks behind them are never revealed. This is a standing obligation on the GM, not something you spend or activate.</p>"
+        },
+        "level": {
+            "value": 8
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "paradise-touched"
+            ]
+        },
+        "slug": "cross-reference"
+    },
+    "_id": "frH1YM1uZ3108FOj"
+}

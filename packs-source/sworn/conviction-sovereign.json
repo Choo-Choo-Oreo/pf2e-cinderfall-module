@@ -1,0 +1,37 @@
+{
+    "name": "Conviction Sovereign",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>While your Ward is threatened — a creature has targeted or damaged it this encounter and can still reach it — you can cast Vows with no Conviction left, going into debt. Each such casting puts you 1 Conviction in debt, to a maximum debt of 3. When the encounter ends the account settles: your pool is reduced by the debt, and any debt the pool can't cover carries over and is paid first out of whatever you next regain. While any debt stands you can't Refocus. Debt also settles at once if the Ward is no longer threatened for a full round.</p>"
+        },
+        "level": {
+            "value": 18
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "sworn"
+            ]
+        },
+        "slug": "conviction-sovereign"
+    },
+    "_id": "AMHNyYGEZT3B4MwZ"
+}

@@ -1,0 +1,37 @@
+{
+    "name": "The Ledger Balances",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "free"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You would advance to a new Reckoning stage.</p><hr /><p>You do not advance, and the stage's toll does not apply. Instead, the GM introduces one complication into the story that is at least as costly to you as the stage would have been — something goes missing, someone finds out, a door that was open is closed. You do not choose it, you cannot refuse it, and it arrives before the end of the next scene.</p>"
+        },
+        "level": {
+            "value": 14
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "reckoner"
+            ]
+        },
+        "slug": "the-ledger-balances"
+    },
+    "_id": "AQViDEJInooUt0ye"
+}

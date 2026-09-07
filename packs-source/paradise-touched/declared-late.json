@@ -1,0 +1,37 @@
+{
+    "name": "Declared Late",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "free"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Trigger</strong> A Paradise-Touched effect of yours is rolled</p><p><strong>Traits</strong> Paradise-Touched</p><hr /><p>You may declare the triggering effect Signal or Static after the die is rolled instead of before. You see the d20 and your total; you do not learn the DC, the degree of success, or anything else before you declare. At the GM's option you write the declaration down rather than saying it, to preserve the privacy §3 requires. Everything else about the Declaration is unchanged.</p>"
+        },
+        "level": {
+            "value": 6
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "paradise-touched"
+            ]
+        },
+        "slug": "declared-late"
+    },
+    "_id": "hp7oZOLN1jqEkXyu"
+}

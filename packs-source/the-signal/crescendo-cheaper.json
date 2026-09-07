@@ -1,0 +1,37 @@
+{
+    "name": "Crescendo, Cheaper",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Traits</strong> Signal</p><hr /><p>Your Crescendo requires 4 Encore rather than 5, and after it resolves your Encore pool is 1 rather than 0. You may Crescendo at exactly 4 Encore, spending 3 of them. Everything else about Crescendo is unchanged: 1 action, every ally in range gains one Standing Reroll, and it lasts 1 minute. The retained point is ordinary Encore — an ally may spend it immediately, and it is lost when your Broadcast ends like any other.</p>"
+        },
+        "level": {
+            "value": 8
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "the-signal"
+            ]
+        },
+        "slug": "crescendo-cheaper"
+    },
+    "_id": "BIrrpjxNQJniyHYc"
+}

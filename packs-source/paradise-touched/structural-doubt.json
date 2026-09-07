@@ -1,0 +1,37 @@
+{
+    "name": "Structural Doubt",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Cost</strong> 2 Bandwidth</p><p><strong>Traits</strong> Paradise-Touched, Glimpse</p><hr /><p>You spend 2 Bandwidth and choose one structure within 60 feet — a floor, a bridge, a wall, a ladder, a roof. Until the start of your next turn it cannot bear weight: anything resting on it falls, anything relying on it for support gives way, and a creature that tries to stand, climb, or brace on it fails automatically. The structure itself is undamaged and does not collapse, and at the end of the duration it holds again exactly as before.</p>"
+        },
+        "level": {
+            "value": 8
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "paradise-touched"
+            ]
+        },
+        "slug": "structural-doubt"
+    },
+    "_id": "kAWhWZDMPRFriJMv"
+}

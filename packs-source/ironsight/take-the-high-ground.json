@@ -1,0 +1,38 @@
+{
+    "name": "Take the High Ground",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Requirement</strong> You are not in an encounter and can see the ground you expect to fight over.</p><hr /><p>Pick a vantage point and settle into it. If an encounter begins while you remain there, you gain a +2 circumstance bonus to your initiative roll and your first ranged Strike of the encounter ignores the target's lesser cover. Moving from the vantage ends the benefit for the rest of the encounter.</p>"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ironsight",
+                "exploration"
+            ]
+        },
+        "slug": "take-the-high-ground"
+    },
+    "_id": "2eOZw6zBsw6toznx"
+}

@@ -1,0 +1,37 @@
+{
+    "name": "Ghost Anchor",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 2
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Cost</strong> 1 charge of Ghost-Static</p><p><strong>Range</strong> 30 feet</p><p><strong>Targets</strong> 1 spirit or ghost-machine</p><p><strong>Check</strong> Crafting against the target's Will DC</p><hr /><p>You ground the spirit through your Rig and give its static somewhere quieter to go. Attempt a Crafting check against the target's Will DC. <strong>Critical Success</strong> The target is pacified toward you and your allies for 10 minutes, or until any of you harms it. <strong>Success</strong> The target is pacified for 1 round. <strong>Failure</strong> No effect. <strong>Critical Failure</strong> The target focuses on you, and you take a -2 circumstance penalty to further Ghost Anchor attempts against it for the rest of the encounter.</p>"
+        },
+        "level": {
+            "value": 6
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "scrapwright"
+            ]
+        },
+        "slug": "ghost-anchor"
+    },
+    "_id": "UOjnukEUrzPbqVaR"
+}

@@ -1,0 +1,37 @@
+{
+    "name": "Seedbearer",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>You are never without viable seed. You are always considered to have any material component a Seed-Warden spell requires, in any conditions — underwater, in ash, in a sealed room, on stone. In addition, you may cast Rootwake targeting a square you cannot draw a line of effect to, provided you know where it is and it is within the spell's usual range. You still cannot target a square that does not exist or that is fully enclosed in solid worked stone.</p>"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "seed-warden"
+            ]
+        },
+        "slug": "seedbearer"
+    },
+    "_id": "OPFfSdakHLqVhTcf"
+}

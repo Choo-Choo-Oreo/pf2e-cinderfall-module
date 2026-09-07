@@ -1,0 +1,37 @@
+{
+    "name": "Load It Wet",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "free"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Trigger</strong> You throw a Graft.</p><p><strong>Cost</strong> 1 Vitae</p><hr /><p>The Graft&rsquo;s splash affects every creature within 10 feet of the target instead of only those adjacent to it. Any creature that takes splash damage this way is <em>off-guard</em> to you until the end of your next turn.</p>"
+        },
+        "level": {
+            "value": 6
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "fleshmancer"
+            ]
+        },
+        "slug": "load-it-wet"
+    },
+    "_id": "8yG4Swl68LB8Koeg"
+}

@@ -1,0 +1,37 @@
+{
+    "name": "Quiet the Donor",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> An effect would have you act against your own interest because of a donor thread, or the GM would have your donor surface at Loud Resonance.</p><hr /><p>You shove the passenger back down. Negate the triggering effect entirely — the donor doesn't get their moment this time. This doesn't lower the Resonance that caused it, only this one occurrence.</p>"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "remade"
+            ]
+        },
+        "slug": "quiet-the-donor"
+    },
+    "_id": "yM7Xz0atfopoW5mw"
+}

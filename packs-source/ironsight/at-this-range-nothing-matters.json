@@ -1,0 +1,37 @@
+{
+    "name": "At This Range Nothing Matters",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Your ranged Strikes against adjacent creatures ignore all resistances and all immunities to physical damage, and reduce the target's Hardness to 0. Against an adjacent creature, a Strike that would be a success is a critical success on a natural 19 or 20.</p>"
+        },
+        "level": {
+            "value": 20
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "at-this-range-nothing-matters"
+    },
+    "_id": "0dzsFyo85UHMf2LJ"
+}

@@ -1,0 +1,37 @@
+{
+    "name": "Second Aperture",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Traits</strong> Paradise-Touched</p><hr /><p>Choose the 15th-level Glimpse of an Aperture other than your own. You gain it, and you can use it as freely as your own — it costs Bandwidth and takes actions exactly as it does for a Warden of that Aperture, and it is declared Signal or Static like anything else. Being open in two directions is visible to anyone who knows what to look for; the GM decides who notices and what they make of it.</p>"
+        },
+        "level": {
+            "value": 16
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "paradise-touched"
+            ]
+        },
+        "slug": "second-aperture"
+    },
+    "_id": "dpjOCndmXI8T5vIA"
+}

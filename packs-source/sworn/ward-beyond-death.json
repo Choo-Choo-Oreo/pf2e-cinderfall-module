@@ -1,0 +1,37 @@
+{
+    "name": "Ward Beyond Death",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>If your Ward dies, it remains your Ward. Threats to its body or its soul — a creature that would loot, animate, salvage, harvest, or repossess it — trigger The Answer as threats to the Ward, and Vows that target your Ward can target its body. This lasts until you release it by saying so aloud (a free action) or until it is returned to life. While a dead Ward remains under your protection you can't name a new one, and under a Binding Clause a reassignment by Command doesn't release it — only you do.</p>"
+        },
+        "level": {
+            "value": 16
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "sworn"
+            ]
+        },
+        "slug": "ward-beyond-death"
+    },
+    "_id": "yID1ZoSuIkZxXjiz"
+}

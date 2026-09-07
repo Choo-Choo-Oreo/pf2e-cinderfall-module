@@ -1,0 +1,37 @@
+{
+    "name": "Unhurried",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>A Passing you perform while not in an encounter does not trigger reactions, and its manipulate and concentrate traits do not draw attention that would otherwise interrupt it. This does not apply during an encounter, even a quiet one — if initiative has been rolled, the rite is not unhurried.</p>"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ashcantor"
+            ]
+        },
+        "slug": "unhurried"
+    },
+    "_id": "we5okDt6m64a1ciG"
+}

@@ -1,0 +1,37 @@
+{
+    "name": "The Halving's Patience",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>When you take a full night's rest, any Reckoning toll that would persist past the ordinary morning reset ends instead, including a Stage IV Major Reckoning's lasting penalty and a permanently carried stage. In addition, the first time each day you would advance to a new Reckoning stage, you do not — the ledger takes the morning to notice.</p>"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "reckoner"
+            ]
+        },
+        "slug": "the-halvings-patience"
+    },
+    "_id": "gCxhxoDVcLsvjeMU"
+}

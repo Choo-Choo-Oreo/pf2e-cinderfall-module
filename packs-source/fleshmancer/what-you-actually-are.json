@@ -1,0 +1,37 @@
+{
+    "name": "What You Actually Are",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> until you revert</p><hr /><p>You take a monstrous form and stay in it. You gain a +2 status bonus to Fortitude saves, resistance 10 to physical damage, a climb Speed of 30 feet, and your unarmed attacks deal one additional damage die. Reverting takes 10 minutes. You take a &minus;4 circumstance penalty to Diplomacy checks with anyone who has not seen you like this before.</p>"
+        },
+        "level": {
+            "value": 20
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "fleshmancer"
+            ]
+        },
+        "slug": "what-you-actually-are"
+    },
+    "_id": "avBWxczRzpD224U1"
+}

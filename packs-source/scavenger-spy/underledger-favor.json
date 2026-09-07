@@ -1,0 +1,38 @@
+{
+    "name": "Underledger Favor",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per week</p><hr /><p>Call in a major favor. Choose one: an uncommon item of level equal to your level or lower; a safehouse in this settlement, secure and unwatched for one week; or one critical piece of information the GM judges the Underledger could plausibly know. The network expects this repaid, and the GM may call it in as a job.</p>"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "scavenger-spy",
+                "exploration"
+            ]
+        },
+        "slug": "underledger-favor"
+    },
+    "_id": "r5yEzX8H4KblrVry"
+}

@@ -1,0 +1,37 @@
+{
+    "name": "Charm-Weave",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Cost</strong> two Ward-Scrawled Charms</p><hr /><p>Burn two Charms at once. Both effects occur, and each is heightened as though prepared at one rank higher than you can normally prepare. If the two Charms would produce the same effect, it does not occur twice — instead its duration is doubled, or its area increased by half, whichever the effect has.</p>"
+        },
+        "level": {
+            "value": 6
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "wardbreaker"
+            ]
+        },
+        "slug": "charm-weave"
+    },
+    "_id": "DiH7uirwh8eLGABA"
+}

@@ -1,0 +1,37 @@
+{
+    "name": "Sickroom Air",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Area</strong> 5-foot emanation</p><p><strong>Duration</strong> constant</p><p><strong>Saving Throw</strong> Fortitude vs. your class DC</p><hr /><p>The air near you tastes like a sickroom. A creature that ends its turn in the emanation must succeed at a Fortitude save against your class DC or become sickened 1. A creature that has already attempted this save cannot be forced to attempt it again for 1 minute, whether it succeeded or failed. You and your Afflicted are unaffected.</p>"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "plaguesworn"
+            ]
+        },
+        "slug": "sickroom-air"
+    },
+    "_id": "7GHTV9h0074mVZRN"
+}

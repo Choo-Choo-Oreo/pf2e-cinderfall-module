@@ -1,0 +1,37 @@
+{
+    "name": "Rooted Casting",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Requirements</strong> You are standing in a [TERRAIN] effect you created.</p><p><strong>Duration</strong> constant</p><hr /><p>Your spells gain a +1 status bonus to their DCs against creatures that are also within that same [TERRAIN] effect. Creatures outside it, and creatures inside a different [TERRAIN] effect of yours than the one you are standing in, are unaffected.</p>"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "seed-warden"
+            ]
+        },
+        "slug": "rooted-casting"
+    },
+    "_id": "2wYghC4kYikawOF9"
+}

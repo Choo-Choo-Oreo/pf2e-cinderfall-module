@@ -1,0 +1,37 @@
+{
+    "name": "Clear It Clean",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "free"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per round</p><p><strong>Trigger</strong> A firearm you are wielding gains the Jammed condition.</p><hr /><p>Clear the Gun Failure immediately at no action cost. If the Gun Failure came from a natural 1 on a Strike, you may also reload that weapon as part of the same free action.</p>"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "clear-it-clean"
+    },
+    "_id": "UL5UmgKVIAA0tXaG"
+}

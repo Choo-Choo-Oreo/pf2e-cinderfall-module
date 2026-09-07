@@ -1,0 +1,38 @@
+{
+    "name": "Long Listen",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Requirements</strong> Declared Static</p><p><strong>Cost</strong> 2 Bandwidth</p><p><strong>Traits</strong> Paradise-Touched, divination, exploration</p><hr /><p>You spend 1 hour and 2 Bandwidth and ask one question about a place you have never been. Paradise answers. This effect can only be declared Static, never Signal, and its secret flat check is DC 8 rather than DC 5 — the answer is less reliable than an ordinary Static result, and you are told it exactly as though it were true either way. As always, you never learn the outcome of the check.</p>"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "paradise-touched",
+                "exploration"
+            ]
+        },
+        "slug": "long-listen"
+    },
+    "_id": "TXXmyKFtFW6164UW"
+}

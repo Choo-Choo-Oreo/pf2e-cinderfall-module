@@ -1,0 +1,37 @@
+{
+    "name": "Shed",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per hour</p><hr /><p>Attempt a single Acrobatics check with a +2 circumstance bonus to Escape every <em>grabbed</em>, <em>restrained</em> and <em>immobilized</em> condition affecting you at once. On any success you also Step, leaving the shed layer behind you in your old space.</p>"
+        },
+        "level": {
+            "value": 8
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "fleshmancer"
+            ]
+        },
+        "slug": "shed"
+    },
+    "_id": "UO5MgPw1lGpz8OTV"
+}

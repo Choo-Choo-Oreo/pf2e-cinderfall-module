@@ -1,0 +1,37 @@
+{
+    "name": "Warren-Taught",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>You were raised in the Warren's rites rather than trained into them. You may use Religion in place of the skill an ability, feat or Path feature would otherwise call for, whenever that check concerns the Choir of Ash's rites, its crematory practice, or the reading of a Passing. If you are not trained in Religion, you become trained in it.</p>"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ashcantor"
+            ]
+        },
+        "slug": "warren-taught"
+    },
+    "_id": "g0QFHewBMKbMAvNm"
+}

@@ -1,0 +1,37 @@
+{
+    "name": "The Last Round",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 2
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Requirement</strong> You are 11th level or higher and have landed at least three Strikes, Hot Loaded at least once, or taken Gun Failure at least once this encounter.</p><hr /><p>Fire your Finisher. Make a ranged Strike with a +2 circumstance bonus that deals three additional damage dice and cannot be reduced below one die of damage by any resistance. On a critical hit the target is also stunned 1. Afterward the weapon is emptied and you cannot use this again until the encounter ends.</p>"
+        },
+        "level": {
+            "value": 12
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "the-last-round"
+    },
+    "_id": "3XFJVba2Hle4uvvL"
+}

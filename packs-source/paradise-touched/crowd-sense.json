@@ -1,0 +1,37 @@
+{
+    "name": "Crowd Sense",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Traits</strong> Paradise-Touched, divination</p><hr /><p>You always know the exact number of creatures within 60 feet of you. This is continuous and cannot be suppressed, dismissed, or switched off, and it works while you are asleep or unconscious. It tells you how many, not where, what, or who — an invisible, hidden, or undetected creature is still counted. It does not tell you anything about a creature you are not counting, and it does not wake you.</p>"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "paradise-touched"
+            ]
+        },
+        "slug": "crowd-sense"
+    },
+    "_id": "xRCXEWCtAboPuscl"
+}

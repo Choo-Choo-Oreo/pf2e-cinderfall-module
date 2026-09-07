@@ -1,0 +1,37 @@
+{
+    "name": "Familiar Voice",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Traits</strong> Paradise-Touched, mental</p><hr /><p>When you speak to a creature telepathically, you may deliver the words in the voice of anyone that creature has heard speak, living or dead. The recipient is never deceived — they know the voice is coming from you — and this grants no benefit to Impersonate or to any attempt to pass as someone else. It does grant a +1 circumstance bonus to Deception, Diplomacy, and Intimidation checks you make against that creature through your telepathy, because the voice works on them whether or not they believe it.</p>"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "paradise-touched"
+            ]
+        },
+        "slug": "familiar-voice"
+    },
+    "_id": "19ID7kxfTkz80BtA"
+}

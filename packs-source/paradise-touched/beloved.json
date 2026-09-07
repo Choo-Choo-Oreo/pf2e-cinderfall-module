@@ -1,0 +1,37 @@
+{
+    "name": "Beloved",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Traits</strong> Paradise-Touched, emotion, mental</p><hr /><p>A creature that has ever spoken to Paradise cannot willingly attack you. There is no saving throw. The protection ends for a given creature the moment you attack it or one of its allies, and once ended it does not return for that creature. It does not stop a creature that is compelled, mindless, or acting without choosing to — a controlled creature or a hazard is unaffected — and it does not stop anyone who has never spoken to Paradise.</p>"
+        },
+        "level": {
+            "value": 16
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "paradise-touched"
+            ]
+        },
+        "slug": "beloved"
+    },
+    "_id": "4qAZppO06ER3EmZB"
+}

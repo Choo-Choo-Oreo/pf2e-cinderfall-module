@@ -1,0 +1,37 @@
+{
+    "name": "Redundant Wiring",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per augment per event</p><p><strong>Trigger</strong> An effect would suppress, disable, or shut down one of your augments.</p><hr /><p>Attempt a DC 5 flat check. On a success, that augment keeps functioning normally for as long as it's physically possible to.</p>"
+        },
+        "level": {
+            "value": 6
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "remade"
+            ]
+        },
+        "slug": "redundant-wiring"
+    },
+    "_id": "nz3TDUCPu5dvxa8v"
+}

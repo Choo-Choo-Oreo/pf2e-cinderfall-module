@@ -1,0 +1,37 @@
+{
+    "name": "Hands Free",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Traits</strong> Signal</p><hr /><p>Your Broadcast loses the linguistic trait for you: you can begin and maintain it while gagged, mute, or otherwise unable to speak, as long as you can produce some deliberate sound — tapping, humming, striking an object. It remains auditory, so an effect that prevents you from making any sound at all, such as magical silence, still ends it.</p>"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "the-signal"
+            ]
+        },
+        "slug": "hands-free"
+    },
+    "_id": "05e1gDEOVspjTjnr"
+}

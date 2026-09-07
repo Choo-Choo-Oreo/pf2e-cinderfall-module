@@ -1,0 +1,37 @@
+{
+    "name": "Thick Growth",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Requirement</strong> bio-attuned</p><p><strong>Duration</strong> constant</p><hr /><p>Gain resistance 2 to physical damage. This resistance doesn't apply against attacks made with silver, cold iron, or similar bane materials, and doesn't stack with any other resistance to the same damage types.</p>"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "remade"
+            ]
+        },
+        "slug": "thick-growth"
+    },
+    "_id": "MYh0CszFvht6mBpV"
+}

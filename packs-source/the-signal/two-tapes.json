@@ -1,0 +1,37 @@
+{
+    "name": "Two Tapes",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Traits</strong> Signal</p><hr /><p>You gain access to Encore Performance at 14th level, and you may use it twice per day rather than once. The second use each day always carries some distortion — the GM decides what comes back changed, and it is never nothing. If the Requiem Frequency is not yours, you can still use Encore Performance, but only while broadcasting.</p>"
+        },
+        "level": {
+            "value": 14
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "the-signal"
+            ]
+        },
+        "slug": "two-tapes"
+    },
+    "_id": "wH8O8d5U0vQHV4uR"
+}

@@ -1,0 +1,37 @@
+{
+    "name": "Weaponized Diagnosis",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> 1 round</p><p><strong>Saving Throw</strong> Will vs. your class DC</p><hr /><p>Your reading presses hard enough to be felt. When you Diagnose an unwilling creature, it attempts a Will save against your class DC; on a failure it becomes sickened 1 for 1 round. A creature that has attempted this save cannot be forced to attempt it again for 10 minutes. Diagnosing a willing creature, or a corpse, requires no save and has no effect.</p>"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "plaguesworn"
+            ]
+        },
+        "slug": "weaponized-diagnosis"
+    },
+    "_id": "6RwkhktLt04r3ugB"
+}

@@ -1,0 +1,37 @@
+{
+    "name": "Cross-Wired Recovery",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Whenever downtime rest, treatment, or recalibration reduces your Load, Resonance, or Drift, your two systems bleed relief into each other: reduce whichever of the other two meters is currently higher by 1 as well (never below its lowest band). Only fires if that other meter is actually elevated.</p>"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "remade"
+            ]
+        },
+        "slug": "cross-wired-recovery"
+    },
+    "_id": "8Yt7Nv6s6GWg6kHf"
+}

@@ -1,0 +1,37 @@
+{
+    "name": "Never Empty-Handed",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "free"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Trigger</strong> Your last prepared Graft is consumed.</p><p><strong>Cost</strong> 2 Vitae</p><hr /><p>Immediately Cut one new Graft of any Mark you can produce, without spending an action and without risking a Bloom. It must be thrown before the end of your next turn or it is wasted.</p>"
+        },
+        "level": {
+            "value": 18
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "fleshmancer"
+            ]
+        },
+        "slug": "never-empty-handed"
+    },
+    "_id": "8EOZfCXnWaZ63Frw"
+}

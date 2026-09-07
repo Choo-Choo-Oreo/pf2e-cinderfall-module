@@ -1,0 +1,38 @@
+{
+    "name": "The Long Fast",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><hr /><p>Take a −1 status penalty to all checks and saves, and reduce your maximum Hit Points by twice your level, until your next daily preparations. Until then, the first qualifying act that would move you toward Grace or Cinders counts twice. The penalty applies whether or not a qualifying act ever comes.</p>"
+        },
+        "level": {
+            "value": 6
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "vigil",
+                "exploration"
+            ]
+        },
+        "slug": "the-long-fast"
+    },
+    "_id": "VXhrQRWs1XOmNA5x"
+}

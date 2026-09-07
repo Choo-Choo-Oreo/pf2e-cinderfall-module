@@ -1,0 +1,37 @@
+{
+    "name": "Two Tanks",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>You may maintain two separate areas of hazardous ground at once rather than one, and feats that move or expand an area may target either. When a creature is inside both at the same time, it takes the persistent damage of each and cannot reduce either while it remains.</p>"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "two-tanks"
+    },
+    "_id": "Wpm3NwQPUDoAbAq4"
+}

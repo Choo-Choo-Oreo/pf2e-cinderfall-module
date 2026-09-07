@@ -1,0 +1,37 @@
+{
+    "name": "Mirror Load",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "free"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Trigger</strong> You Hot Load a firearm.</p><p><strong>Requirement</strong> You are wielding a second loaded firearm.</p><hr /><p>Your next Strike this turn with the other firearm also gains one additional damage die, without spending a second Hot Load use and without any Gun Failure risk of its own. If the Hot Loaded weapon suffers Gun Failure, this benefit is lost before it applies.</p>"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "mirror-load"
+    },
+    "_id": "bxsn7XrCDSvq8Asq"
+}

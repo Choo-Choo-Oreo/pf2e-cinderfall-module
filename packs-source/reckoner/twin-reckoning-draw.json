@@ -1,0 +1,37 @@
+{
+    "name": "Twin Reckoning Draw",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "free"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You draw an Overflow effect.</p><hr /><p>Advance your Reckoning by two stages instead of one. The Overflow effect you draw is heightened by 2 ranks, to a maximum of the highest rank you can normally draw. You must be able to advance two full stages to do this — you cannot use it to reach a stage you have not yet unlocked, and you cannot use it above Stage III until Stage IV is unlocked at 13th level.</p>"
+        },
+        "level": {
+            "value": 8
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "reckoner"
+            ]
+        },
+        "slug": "twin-reckoning-draw"
+    },
+    "_id": "eWm9Vxk5Q383baz2"
+}

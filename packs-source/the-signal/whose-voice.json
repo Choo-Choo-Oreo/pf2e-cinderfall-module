@@ -1,0 +1,37 @@
+{
+    "name": "Whose Voice",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Traits</strong> Signal, auditory</p><hr /><p>You reproduce the voice of any creature you have heard speak, saying anything you choose, for as long as you keep speaking. The reproduction is exact and is not magical, an illusion, or a mental effect: it cannot be disbelieved, detected as magic, or counteracted. It grants no bonus to any check. A creature attempting to determine whether the voice is really that person rolls normally against your Deception DC if you are attempting to deceive it, and simply hears the voice correctly if you are not.</p>"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "the-signal"
+            ]
+        },
+        "slug": "whose-voice"
+    },
+    "_id": "YOhZjcpeDL2JN3DC"
+}

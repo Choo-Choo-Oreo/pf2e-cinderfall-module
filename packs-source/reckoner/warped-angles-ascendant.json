@@ -1,0 +1,37 @@
+{
+    "name": "Warped Angles Ascendant",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>WRONG WAY applies to every movement you make this round rather than to one action. For the whole round you ignore facing, flanking, and straight-line movement restrictions entirely, and nobody watching can explain the route you took.</p>"
+        },
+        "level": {
+            "value": 12
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "reckoner"
+            ]
+        },
+        "slug": "warped-angles-ascendant"
+    },
+    "_id": "TG5gpu2ZP4zt0b5k"
+}

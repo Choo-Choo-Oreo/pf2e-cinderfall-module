@@ -1,0 +1,37 @@
+{
+    "name": "Patient Rot",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Persistent poison damage you inflict cannot be ended by a flat check on the round it is first taken. The affected creature attempts its first flat check to end it at the end of its next turn instead. Assisted recovery — an ally spending an action to help, or an effect that lowers the flat check DC — still works normally and can still end it early.</p>"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "seed-warden"
+            ]
+        },
+        "slug": "patient-rot"
+    },
+    "_id": "nRS2ES2XDwTgNhAO"
+}

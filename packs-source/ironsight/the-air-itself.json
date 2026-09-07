@@ -1,0 +1,37 @@
+{
+    "name": "The Air Itself",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 3
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Area</strong> 60-foot emanation</p><p><strong>Duration</strong> 1 minute</p><hr /><p>The atmosphere around you becomes the weapon. Every creature in the emanation other than you and your allies takes your chemical weapon’s damage at the start of each of its turns, with no save to avoid it and no cover that helps. The area is not hazardous ground and cannot be moved, expanded or extinguished. It simply is the room now.</p>"
+        },
+        "level": {
+            "value": 18
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "the-air-itself"
+    },
+    "_id": "DjAZOUgL5hGOSwfx"
+}

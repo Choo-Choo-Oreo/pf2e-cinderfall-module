@@ -1,0 +1,37 @@
+{
+    "name": "Feedback Loop",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Trigger</strong> You fail, but do not critically fail, a check to Name the Anchor.</p><p><strong>Duration</strong> constant</p><hr /><p>You learn one true, partial thing about the target: one of its resistances, immunities, or weaknesses; the broad category of its Anchor; or one thing it wants. The GM chooses which. The target is not Named, and you may attempt to Name it again normally. On a critical failure you learn nothing — some wounds close when you push at them.</p>"
+        },
+        "level": {
+            "value": 8
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "wardbreaker"
+            ]
+        },
+        "slug": "feedback-loop"
+    },
+    "_id": "PCz37ZTS9fqIqGAP"
+}

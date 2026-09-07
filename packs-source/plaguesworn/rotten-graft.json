@@ -1,0 +1,37 @@
+{
+    "name": "Rotten Graft",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Dead flesh still takes a graft under your hands, if you know how to feed it. You may install bio-augments into your Afflicted using the ordinary bio-augment rules, treating each Afflicted as a willing patient regardless of what it was willing to in life. An Afflicted's Load and Resonance are tracked individually, same as any creature's, and both are lost when it collapses along with everything grafted into it.</p>"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "plaguesworn"
+            ]
+        },
+        "slug": "rotten-graft"
+    },
+    "_id": "7wtg5WKyKQgSFC7o"
+}

@@ -1,0 +1,37 @@
+{
+    "name": "Shape the Season",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "free"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per round</p><p><strong>Trigger</strong> Your turn begins.</p><hr /><p>Move the needle one step in either direction. This step follows every ordinary rule in §3: it cannot carry the needle past your cap, and moving against the side you are on walks you back through zero rather than jumping across. It counts as moving the needle for anything that triggers on the needle moving or on crossing zero.</p>"
+        },
+        "level": {
+            "value": 14
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "seed-warden"
+            ]
+        },
+        "slug": "shape-the-season"
+    },
+    "_id": "dIoWS6j5pZm1dPAA"
+}

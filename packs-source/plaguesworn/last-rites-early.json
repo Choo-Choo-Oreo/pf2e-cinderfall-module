@@ -1,0 +1,37 @@
+{
+    "name": "Last Rites, Early",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per round</p><p><strong>Trigger</strong> A creature within 30 feet is reduced to 0 Hit Points or dies.</p><hr /><p>You raise that creature as an Afflicted immediately, before any other effect that triggers on its death or on its body resolves. This counts against your usual limit on Afflicted and costs whatever raising one ordinarily costs. If the creature is not a valid subject — it is not recently dead, or something protects it — the reaction is spent and nothing happens.</p>"
+        },
+        "level": {
+            "value": 6
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "plaguesworn"
+            ]
+        },
+        "slug": "last-rites-early"
+    },
+    "_id": "Ehl7G4wTlqJBUphz"
+}

@@ -1,0 +1,37 @@
+{
+    "name": "Nothing Ever Fails Twice",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>The first time each encounter that any given Gun Failure result (§3) would affect you, it does not — you have seen that one before. A second occurrence of the same result in the same encounter applies normally, and the eighth is presumably a message.</p>"
+        },
+        "level": {
+            "value": 20
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "nothing-ever-fails-twice"
+    },
+    "_id": "9LQH52M9eTHLvv5e"
+}

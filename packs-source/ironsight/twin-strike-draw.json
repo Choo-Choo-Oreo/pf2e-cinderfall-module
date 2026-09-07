@@ -1,0 +1,37 @@
+{
+    "name": "Twin Strike Draw",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Requirement</strong> You are wielding two loaded one-handed firearms.</p><hr /><p>Make one ranged Strike with each firearm, against the same target or two different targets. Both count toward your multiple attack penalty, but the second Strike does not take the penalty from the first. Both weapons are emptied.</p>"
+        },
+        "level": {
+            "value": 8
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "twin-strike-draw"
+    },
+    "_id": "u7vR8HpzFX9Lcszz"
+}

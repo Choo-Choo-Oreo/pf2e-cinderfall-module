@@ -1,0 +1,38 @@
+{
+    "name": "Foretell the Break",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Range</strong> 1 mile, line of sight</p><p><strong>Targets</strong> 1 structure, vehicle, or terrain feature of Huge size or larger</p><hr /><p>You use THE FAILURE POINT on something far too big for it. Name the exact point at which the target will fail — the GM gives you a DC and a flat, always-true description of how it goes, and does not get to walk it back. You need line of sight but not proximity, and the answer covers the whole structure rather than one part of it.</p>"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "reckoner",
+                "exploration"
+            ]
+        },
+        "slug": "foretell-the-break"
+    },
+    "_id": "TuMUbmwT5rxKlk49"
+}

@@ -1,0 +1,37 @@
+{
+    "name": "Spirit Duet",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "free"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> The start of your turn.</p><hr /><p>For this round, your Rig has its own three actions and its own reaction, and takes them on your initiative without you spending anything to command it. You take your own three actions as normal. Neither of you needs to act before the other; resolve them in whatever order you choose.</p>"
+        },
+        "level": {
+            "value": 14
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "scrapwright"
+            ]
+        },
+        "slug": "spirit-duet"
+    },
+    "_id": "5DGSdGXg8q6beQAt"
+}

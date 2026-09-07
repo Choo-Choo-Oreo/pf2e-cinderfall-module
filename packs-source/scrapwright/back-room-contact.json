@@ -1,0 +1,37 @@
+{
+    "name": "Back-Room Contact",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Word travels in Cyber City about who can actually fix what they sell you. Jeff's back room, and any comparable Restricted-tier shop, treats you as a known and trusted buyer by default — the GM no longer needs to gate your access to Restricted augments behind an introduction or a favor. Black Market stock is a separate conversation; this only opens the legal-for-corps shelf.</p>"
+        },
+        "level": {
+            "value": 6
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "scrapwright"
+            ]
+        },
+        "slug": "back-room-contact"
+    },
+    "_id": "2WkJWC7xEETGKICz"
+}

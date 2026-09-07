@@ -1,0 +1,37 @@
+{
+    "name": "The Long Tape",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "free"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Trigger</strong> An ally in range is about to attempt a recovery check</p><p><strong>Cost</strong> 1 Encore</p><p><strong>Traits</strong> Signal</p><hr /><p>You spend 1 Encore. The triggering ally gains a +4 circumstance bonus to that recovery check. This costs you no action. The bonus is not a fortune effect, so it is compatible with any reroll. It is a circumstance bonus like Requiem's own +2, so the two do not stack -- the ally applies the higher, +4.</p>"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "the-signal"
+            ]
+        },
+        "slug": "the-long-tape"
+    },
+    "_id": "E7BnOasMwoISsJyM"
+}

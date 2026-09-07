@@ -1,0 +1,37 @@
+{
+    "name": "Elegy",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "free"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Trigger</strong> An ally in range dies</p><p><strong>Traits</strong> Signal, auditory, emotion, mental, fortune</p><hr /><p>Every other ally in range immediately gains one Standing Reroll, as though from your Crescendo, lasting 1 minute. An ally can hold only one Standing Reroll at a time; an ally who already has one does not gain a second, and the duration does not refresh. This triggers on death, not on being reduced to 0 Hit Points or on being dying.</p>"
+        },
+        "level": {
+            "value": 8
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "the-signal"
+            ]
+        },
+        "slug": "elegy"
+    },
+    "_id": "fYTyDM9Zs7HK2uuV"
+}

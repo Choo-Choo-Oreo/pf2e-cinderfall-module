@@ -1,0 +1,37 @@
+{
+    "name": "Can't Be Stopped",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Traits</strong> Signal, auditory, emotion, mental</p><hr /><p>While you are broadcasting, allies in range are immune to the fleeing condition. An effect that would make such an ally fleeing fails to do so; an ally who is already fleeing when they come into range loses the condition. They can still be frightened, and the frightened value still applies normally.</p>"
+        },
+        "level": {
+            "value": 8
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "the-signal"
+            ]
+        },
+        "slug": "cant-be-stopped"
+    },
+    "_id": "QJ0qh6G7BsBeqJYO"
+}

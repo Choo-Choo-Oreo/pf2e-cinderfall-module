@@ -1,0 +1,38 @@
+{
+    "name": "Major Working",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Requirement</strong> You have the Marrow Deep feat and would otherwise use it or Second Graft.</p><p><strong>Cost</strong> 6 Vitae</p><hr /><p>When you use Marrow Deep or Second Graft, you may choose a mutation from the Bloom Table's Major Mutation entries instead of the Minor entries, at triple the usual downtime and Vitae cost. Everything else about the procedure — permanence, no maintenance, the once-per-level limit it shares with the ordinary use — is unchanged.</p>"
+        },
+        "level": {
+            "value": 14
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "fleshmancer",
+                "downtime"
+            ]
+        },
+        "slug": "major-working"
+    },
+    "_id": "OCqnpH6XX9payW3R"
+}

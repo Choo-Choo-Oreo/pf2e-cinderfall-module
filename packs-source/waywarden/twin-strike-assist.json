@@ -1,0 +1,37 @@
+{
+    "name": "Twin Strike Assist",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "free"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per round</p><p><strong>Trigger</strong> You begin a Strike against a creature your Feral Bond can see.</p><hr /><p>Your Feral Bond harries the target from wherever it stands. You gain a +1 circumstance bonus to the triggering attack roll. Your Bond need not be adjacent to the target, and need not have prepared to Aid.</p>"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "waywarden"
+            ]
+        },
+        "slug": "twin-strike-assist"
+    },
+    "_id": "sZ1yo1ZqGOnQHxGl"
+}

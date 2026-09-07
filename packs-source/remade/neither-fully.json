@@ -1,0 +1,37 @@
+{
+    "name": "Neither Fully Machine Nor Fully Flesh",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Effects that function only against creatures that are entirely a construct, entirely organic, or otherwise \"purely\" one type do not function on you.</p>"
+        },
+        "level": {
+            "value": 18
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "remade"
+            ]
+        },
+        "slug": "neither-fully"
+    },
+    "_id": "t47vkTMhce6iJ4sy"
+}

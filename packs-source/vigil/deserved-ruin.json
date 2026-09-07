@@ -1,0 +1,37 @@
+{
+    "name": "Deserved Ruin",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per hour</p><p><strong>Range</strong> 60 feet</p><p><strong>Duration</strong> until your next daily preparations</p><p><strong>Saving Throw</strong> Will</p><hr /><p>Name one creature you have personally witnessed commit an act your patron would judge. It attempts a Will save against your spell DC; on a failure it takes a −1 status penalty to all checks and saves for the duration, and on a critical failure −2. This has no effect on a creature that has not earned it — the GM is the judge of that, and a wrongly named target simply does not respond.</p>"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "vigil"
+            ]
+        },
+        "slug": "deserved-ruin"
+    },
+    "_id": "MYDMLVGpvkC2NWBm"
+}

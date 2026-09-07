@@ -1,0 +1,37 @@
+{
+    "name": "Backsplash",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "free"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Trigger</strong> You roll a Gun Failure with a chemical or incendiary weapon.</p><hr /><p>Instead of the failure landing on you, it lands on the floor. Create a 10-foot burst of hazardous ground centred on your space, lasting 1 minute, of the weapon’s damage type. You are never affected by hazardous ground you created. Resolve the Gun Failure result as normal afterward — you are not avoiding it, you are aiming it.</p>"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "backsplash"
+    },
+    "_id": "UuWB3EDSrQj58hEW"
+}

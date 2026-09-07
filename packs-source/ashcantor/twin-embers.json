@@ -1,0 +1,37 @@
+{
+    "name": "Twin Embers",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per encounter</p><hr /><p>Activate two Embers you are carrying with a single action instead of one. The first resolves normally. The second resolves as though your Ash-Light were in it, even though it is not. When both have resolved, your Ash-Light is in the second Ember — the light followed the second call, and getting it back where you want it costs an action as usual.</p>"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ashcantor"
+            ]
+        },
+        "slug": "twin-embers"
+    },
+    "_id": "wf8dgtlqHtlzTwSs"
+}

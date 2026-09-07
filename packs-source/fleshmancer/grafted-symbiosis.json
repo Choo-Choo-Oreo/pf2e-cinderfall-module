@@ -1,0 +1,37 @@
+{
+    "name": "Grafted Symbiosis",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Bio-augments installed in your own body no longer count their Resonance toward whatever total or threshold triggers a Bloom for you — your own grafts have gone fully symbiotic with your Blooming flesh instead of fighting it. Your Resonance total is otherwise unchanged: it still rises normally, still feeds the Resonance bands, and still needs the §5 rite to bring down.</p>"
+        },
+        "level": {
+            "value": 12
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "fleshmancer"
+            ]
+        },
+        "slug": "grafted-symbiosis"
+    },
+    "_id": "NFEbQk5ZmLBQXhQI"
+}

@@ -1,0 +1,37 @@
+{
+    "name": "Counter-Surveillance",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>You automatically notice when you are being followed, when a listening or recording device has been placed on you or your belongings, and when you are under deliberate observation, with no check required. You learn that it is happening, not who is responsible or from where.</p>"
+        },
+        "level": {
+            "value": 8
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "scavenger-spy"
+            ]
+        },
+        "slug": "counter-surveillance"
+    },
+    "_id": "OfHfMCfR7nXYuRqc"
+}

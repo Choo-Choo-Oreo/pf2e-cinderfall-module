@@ -1,0 +1,37 @@
+{
+    "name": "Wardenshape",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": "class",
+        "description": {
+            "value": "<p>Blight-Shape costs 1 action rather than 2. While shaped, you cast spells with no penalty of any kind arising from the form — no restriction on somatic or material components, no penalty to spell attack rolls or DCs, and no requirement to have a free hand or a usable mouth that the form would otherwise impose. Your gear remains melded and this feat does not unmeld it.</p>"
+        },
+        "level": {
+            "value": 16
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "seed-warden"
+            ]
+        },
+        "slug": "wardenshape"
+    },
+    "_id": "KqYtV0DxjICfmzSo"
+}

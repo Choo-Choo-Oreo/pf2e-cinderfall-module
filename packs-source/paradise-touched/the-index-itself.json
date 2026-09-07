@@ -1,0 +1,37 @@
+{
+    "name": "The Index Itself",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "free"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per hour</p><p><strong>Trigger</strong> You are about to attempt a Recall Knowledge check</p><p><strong>Cost</strong> 1 Bandwidth</p><p><strong>Traits</strong> Paradise-Touched</p><hr /><p>You spend 1 Bandwidth. Attempt the triggering Recall Knowledge check with legendary proficiency and your Intelligence modifier, regardless of the skill it would normally use and regardless of your proficiency in that skill. You are not consulting your own memory; you are consulting the Archive's, and it files everything the same way.</p>"
+        },
+        "level": {
+            "value": 18
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "paradise-touched"
+            ]
+        },
+        "slug": "the-index-itself"
+    },
+    "_id": "ZLGVZxEqZDyJyL5B"
+}

@@ -1,0 +1,37 @@
+{
+    "name": "Overclock Apex",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>When you Redline, its effect applies to every part of your Rig simultaneously for that Redline's full duration. This does not grant additional Redline uses. Because more of the machine is under load, you take a -2 circumstance penalty to any roll that determines whether this Redline causes Slippage.</p>"
+        },
+        "level": {
+            "value": 16
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "scrapwright"
+            ]
+        },
+        "slug": "overclock-apex"
+    },
+    "_id": "loxZGns8Q7CvYno7"
+}

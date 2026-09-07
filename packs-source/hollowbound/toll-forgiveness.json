@@ -1,0 +1,38 @@
+{
+    "name": "Toll Forgiveness",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><hr /><p>Once per day, you may do the spirit an unprompted kindness — an act it did not ask for and you gain nothing from — and immediately erase 1 point of Toll. The GM judges whether an act qualifies; an act performed in order to trigger this feat does not. The kindness costs whatever it costs in the fiction and nothing mechanically.</p>"
+        },
+        "level": {
+            "value": 8
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "hollowbound",
+                "exploration"
+            ]
+        },
+        "slug": "toll-forgiveness"
+    },
+    "_id": "QKSLUTjCLGASPtcK"
+}

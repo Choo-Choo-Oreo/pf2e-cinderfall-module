@@ -1,0 +1,37 @@
+{
+    "name": "Recognized",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>An undead creature or spirit that can see you, and that you have never ferried, treats its starting attitude toward you as one step friendlier than it otherwise would. If it takes a hostile action while you and at least one other valid target are both available to it, it does not choose you for its first hostile action of the encounter, unless you have already acted against it. After that first action it behaves normally — the hesitation is recognition, not protection.</p>"
+        },
+        "level": {
+            "value": 8
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ashcantor"
+            ]
+        },
+        "slug": "recognized"
+    },
+    "_id": "GvmlUNoyF5kKiBnK"
+}

@@ -1,0 +1,38 @@
+{
+    "name": "What the Flesh Owes",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Cost</strong> 8 Vitae</p><hr /><p>Choose one creature whose body you have worked on &mdash; a graft, a mutation, a Graft applied, a wound closed. Wherever it is, you learn whether it lives and roughly how badly it is hurt. If it is within 100 feet, you may end one condition affecting it or inflict <em>drained 2</em> on it, your choice, with no save.</p>"
+        },
+        "level": {
+            "value": 20
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "fleshmancer",
+                "exploration"
+            ]
+        },
+        "slug": "what-the-flesh-owes"
+    },
+    "_id": "0KAvLoqy7odjb9n3"
+}

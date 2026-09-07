@@ -1,0 +1,37 @@
+{
+    "name": "No Such Thing as Cover",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Your ranged Strikes ignore lesser and standard cover entirely, and treat greater cover as standard. Through the Wall, if you have it, no longer reduces damage for thick barriers.</p>"
+        },
+        "level": {
+            "value": 16
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "no-such-thing-as-cover"
+    },
+    "_id": "3sWvBpLFRsqs4FvO"
+}

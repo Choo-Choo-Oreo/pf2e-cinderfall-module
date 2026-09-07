@@ -1,0 +1,37 @@
+{
+    "name": "Two Voices at Once",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Prerequisites</strong> Widen the Hollow</p><hr /><p>You may Parley with your dormant second spirit without swapping it into the primary seat. The Parley costs double the Toll it would otherwise cost, minimum 2. The dormant spirit answers as itself, using its own Covenant's boons and its own temperament; your primary spirit is aware you did it, and the GM may say so.</p>"
+        },
+        "level": {
+            "value": 12
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "hollowbound"
+            ]
+        },
+        "slug": "two-voices-at-once"
+    },
+    "_id": "XWcOrP9EU07o1517"
+}

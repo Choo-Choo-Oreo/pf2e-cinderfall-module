@@ -1,0 +1,37 @@
+{
+    "name": "Choir's Discretion",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "free"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You would roll on the Toll Table.</p><hr /><p>You do not roll. Choose any result on the Toll Table and apply it as though you had rolled it; it is a real Toll and everything that responds to a Toll responds to this one. No Miasma is refilled by doing this. If you have already used Toll Control to reroll this Toll, you may still use this feat on it, and the chosen result replaces the reroll.</p>"
+        },
+        "level": {
+            "value": 12
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "plaguesworn"
+            ]
+        },
+        "slug": "choirs-discretion"
+    },
+    "_id": "YvfX9p7pvGYe3zzw"
+}

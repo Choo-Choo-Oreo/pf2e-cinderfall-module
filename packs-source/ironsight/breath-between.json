@@ -1,0 +1,37 @@
+{
+    "name": "Breath Between",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Requirement</strong> You have not Stridden this turn.</p><p><strong>Duration</strong> until the start of your next turn</p><hr /><p>Steady the weapon. Until the start of your next turn, your firearm’s range increment increases by half, and you are not off-guard from having taken a reaction. Since your Draw already pays no penalty for distance, this does not make far shots easier — it makes far shots <em>closer</em>, and moves the whole distance-damage ladder out with it. You lose this if you Stride, are pushed, or take damage from an area effect.</p>"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "breath-between"
+    },
+    "_id": "0DxvXCI8T83QPHTh"
+}

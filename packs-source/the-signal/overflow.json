@@ -1,0 +1,37 @@
+{
+    "name": "Overflow",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Traits</strong> Signal</p><hr /><p>Encore you would gain while already at your cap is no longer lost. Instead it is held in reserve, up to 3 points. Whenever your Encore pool drops below your cap, reserve is released into the pool immediately, one point at a time, until either the reserve is empty or you are back at cap. Reserve is not part of your pool: it cannot be spent directly, and Crescendo does not consume it. The reserve empties when your Broadcast ends, exactly as the pool does.</p>"
+        },
+        "level": {
+            "value": 16
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "the-signal"
+            ]
+        },
+        "slug": "overflow"
+    },
+    "_id": "BUpY8bLy7UUmFIMW"
+}

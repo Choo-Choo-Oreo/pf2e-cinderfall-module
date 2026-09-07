@@ -1,0 +1,38 @@
+{
+    "name": "Load-Bearing Cut",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per week</p><p><strong>Requirement</strong> You personally installed the bio-augment.</p><p><strong>Cost</strong> 1 Vitae</p><hr /><p>Spend 10 minutes and 1 Vitae tending one bio-augment you personally installed, in yourself or an ally. Its Load contribution is reduced by 1 (minimum 0) until your next checkup. Skip a week and the reduction lapses at the start of the following week; you must re-tend it to restore it.</p>"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "fleshmancer",
+                "exploration"
+            ]
+        },
+        "slug": "load-bearing-cut"
+    },
+    "_id": "GQ8DQftc88oyl0ES"
+}

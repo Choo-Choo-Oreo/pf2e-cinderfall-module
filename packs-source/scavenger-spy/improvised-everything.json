@@ -1,0 +1,37 @@
+{
+    "name": "Improvised Everything",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>You take no penalty for using an improvised weapon, and an improvised weapon in your hands deals damage as a martial weapon of its size that you choose when you pick it up. You likewise take no penalty for attempting a skill check without the tools it requires, provided some object is available to stand in for them.</p>"
+        },
+        "level": {
+            "value": 14
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "scavenger-spy"
+            ]
+        },
+        "slug": "improvised-everything"
+    },
+    "_id": "WV9NAbTmjzeNISLl"
+}

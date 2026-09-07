@@ -1,0 +1,37 @@
+{
+    "name": "The Workshop in Your Pockets",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>You may attempt Scrap Into Gold, Field Conversion, and Built From What Was There without a workshop and in a tenth of the listed time. A critical failure on any of them no longer destroys the weapon; it is broken instead, and you may try again after a full day's rest.</p>"
+        },
+        "level": {
+            "value": 16
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "the-workshop-in-your-pockets"
+    },
+    "_id": "lB8Kj9hofdrrVK2D"
+}

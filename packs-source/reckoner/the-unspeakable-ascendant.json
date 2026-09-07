@@ -1,0 +1,37 @@
+{
+    "name": "The Unspeakable Ascendant",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>A creature affected by NO WORD FOR IT cannot benefit from anything it knew about the effect beforehand. It loses any circumstance bonus, reroll, or automatic-success clause it would gain from having identified, studied, prepared against, or previously experienced the effect, whether it learned of it a moment ago or years before. It still knows your face on sight.</p>"
+        },
+        "level": {
+            "value": 14
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "reckoner"
+            ]
+        },
+        "slug": "the-unspeakable-ascendant"
+    },
+    "_id": "fjLHLeq5WEcOs6fA"
+}

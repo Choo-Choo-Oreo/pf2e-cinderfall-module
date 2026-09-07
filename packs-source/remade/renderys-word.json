@@ -1,0 +1,37 @@
+{
+    "name": "The Rendery's Word",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You fail or critically fail a Graft check performed on your own body.</p><p><strong>Requirement</strong> You're one of the few names on the Butcher's list — granted automatically at 10th level, bio-attuned.</p><hr /><p>Immediately attempt the check again and take whichever result you prefer — Clean Take (§01) still applies to the reattempt. Being on the list is worth more than the reroll: the Butcher's restricted stock, the Wild tissue nobody else gets shown, is yours to ask after, no favor owed.</p>"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "remade"
+            ]
+        },
+        "slug": "renderys-word"
+    },
+    "_id": "og9yGAeEDiFACyTK"
+}

@@ -1,0 +1,37 @@
+{
+    "name": "Named in the Ledger",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> permanent</p><hr /><p>You learn your bound spirit's true name. Your Fraying die drops one step permanently while that spirit is the one bound to you — this stacks with the improvement at 7th level. The spirit may still refuse an ask, but it can no longer feign ignorance of you: it may never make you repeat, rephrase, or re-establish who you are, and effects that would sever or confuse your bond take a status penalty against you.</p>"
+        },
+        "level": {
+            "value": 14
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "hollowbound"
+            ]
+        },
+        "slug": "named-in-the-ledger"
+    },
+    "_id": "EZYol0ddU81RAV9T"
+}

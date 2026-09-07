@@ -1,0 +1,37 @@
+{
+    "name": "Let Them Come",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Trigger</strong> A creature moves into a space adjacent to you.</p><p><strong>Requirement</strong> You are wielding a loaded firearm.</p><hr /><p>Make a ranged Strike against the triggering creature. On a hit, it must stop moving. This Strike does not make you off-guard for firing within reach, and the weapon is emptied afterward.</p>"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "let-them-come"
+    },
+    "_id": "zCXJrYJBURyacsfT"
+}

@@ -1,0 +1,37 @@
+{
+    "name": "Failure Is a Language",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>When you roll on the Gun Failure Table (§3), roll twice and take either result, and treat a result of Blow Up as Total Gun Failure instead. This does not stack with Read the Gun Failure; if you have both, use Gun Failure Is a Language and Read the Gun Failure's daily use instead lets you decline a Gun Failure roll entirely.</p>"
+        },
+        "level": {
+            "value": 16
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "blowback-is-a-language"
+    },
+    "_id": "ZuPzIQ5NonXCKxtM"
+}

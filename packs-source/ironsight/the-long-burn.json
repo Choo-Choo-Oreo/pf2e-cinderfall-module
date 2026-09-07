@@ -1,0 +1,37 @@
+{
+    "name": "The Long Burn",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Hazardous ground you create lasts 1 hour instead of 10 minutes, and persists through rain, wind, water and the ordinary means of putting a fire out. Only a deliberate effort to neutralise it — the right reagent, the right skill, ten uninterrupted minutes — removes it early.</p>"
+        },
+        "level": {
+            "value": 14
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "the-long-burn"
+    },
+    "_id": "S7ZwIp0XfEaHr02T"
+}

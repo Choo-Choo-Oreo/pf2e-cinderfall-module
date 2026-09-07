@@ -1,0 +1,37 @@
+{
+    "name": "Warm Start",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Traits</strong> Signal</p><hr /><p>The first time you begin a Broadcast in an encounter, your Encore pool starts at 1 rather than 0. This is in addition to the Encore you gain at the start of each of your turns, and it counts against your cap normally. Beginning a later Broadcast in the same encounter starts you at 0 as usual.</p>"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "the-signal"
+            ]
+        },
+        "slug": "warm-start"
+    },
+    "_id": "WhGEhq1y8upR7eiJ"
+}

@@ -1,0 +1,37 @@
+{
+    "name": "The Weight of Ages",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 2
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Range</strong> 60 feet</p><p><strong>Targets</strong> 1 creature</p><p><strong>Duration</strong> for the rest of the encounter</p><p><strong>Saving Throw</strong> Fortitude</p><hr /><p>Years arrive on the target where anyone can see them. It must succeed at a Fortitude save against your class DC or take a -1 status penalty to attack rolls, AC, and saving throws. At the end of each of your turns thereafter, that penalty worsens by 1, to a maximum of -4. A successful save each round is not offered: this does not stop until the encounter does, or until the target is healed by magic that restores lost time.</p>"
+        },
+        "level": {
+            "value": 16
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "reckoner"
+            ]
+        },
+        "slug": "the-weight-of-ages"
+    },
+    "_id": "OfYbfdhYmkixyyaV"
+}

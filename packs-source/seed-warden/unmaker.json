@@ -1,0 +1,37 @@
+{
+    "name": "Unmaker",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Area</strong> 60-foot cone</p><hr /><p>Blight the Path becomes a 60-foot cone. Magical plant effects of 6th rank or lower in the area end permanently and cannot be re-established in that space by the same casting or the same ongoing effect; they must be cast anew. This does not affect plant creatures, does not affect non-magical growth, and does not end a magical effect that merely happens to involve plants without being one.</p>"
+        },
+        "level": {
+            "value": 12
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "seed-warden"
+            ]
+        },
+        "slug": "unmaker"
+    },
+    "_id": "JpSbdHNlnBXwgBGo"
+}

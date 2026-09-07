@@ -1,0 +1,37 @@
+{
+    "name": "Boneless",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Cost</strong> 1 Vitae</p><p><strong>Duration</strong> 1 minute</p><hr /><p>You can move through a space as narrow as one foot wide without Squeezing, and you gain a +2 circumstance bonus to Escape and to Acrobatics checks to Squeeze. While Boneless, your unarmed attacks deal one fewer damage die &mdash; nothing in you is braced against anything.</p>"
+        },
+        "level": {
+            "value": 6
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "fleshmancer"
+            ]
+        },
+        "slug": "boneless"
+    },
+    "_id": "W5ia4xNnXYFQCZOP"
+}

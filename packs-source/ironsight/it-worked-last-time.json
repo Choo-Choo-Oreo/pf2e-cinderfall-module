@@ -1,0 +1,37 @@
+{
+    "name": "It Worked Last Time",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "free"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Trigger</strong> A firearm you are wielding is destroyed, Jammed for the scene, or reduced to unusable.</p><hr /><p>It works one more time. Make a ranged Strike with the weapon at a +2 circumstance bonus, dealing two additional damage dice. After the Strike resolves, the weapon is destroyed beyond any repair, including by The Workshop in Your Pockets, and including a Good Gun if you chose to do this to one.</p>"
+        },
+        "level": {
+            "value": 18
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "it-worked-last-time"
+    },
+    "_id": "ctjspM6lITXndQQ6"
+}

@@ -1,0 +1,37 @@
+{
+    "name": "Held Open",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Trigger</strong> You use your Stock&rsquo;s Quick Suture on a creature.</p><p><strong>Duration</strong> 1 minute</p><hr /><p>Leave the incision open. Until the duration ends, the next healing effect you apply to that creature restores an additional 1d6 Hit Points, and that creature takes a &minus;1 status penalty to saves against your Grafts. Only one creature can be Held Open at a time.</p>"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "fleshmancer"
+            ]
+        },
+        "slug": "held-open"
+    },
+    "_id": "4skuQk8xMZejvJKk"
+}

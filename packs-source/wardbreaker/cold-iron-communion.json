@@ -1,0 +1,37 @@
+{
+    "name": "Cold Iron Communion",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Range</strong> 30 feet</p><p><strong>Targets</strong> 1 willing ally</p><p><strong>Duration</strong> 1 minute</p><hr /><p>The ally perceives every Anchor you have Named exactly as you perceive it: it knows which creatures are Named, what their Anchors are, and it can see a Named creature's true form and true location through disguise, invisibility, or possession, with no check. It cannot Name an Anchor itself, and it cannot Break one.</p>"
+        },
+        "level": {
+            "value": 8
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "wardbreaker"
+            ]
+        },
+        "slug": "cold-iron-communion"
+    },
+    "_id": "NpvqtJQIM12lVzuY"
+}

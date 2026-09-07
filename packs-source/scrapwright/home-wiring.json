@@ -1,0 +1,37 @@
+{
+    "name": "Home Wiring",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Requirement</strong> You are performing an Install check on your own body, using your own tools.</p><hr /><p>You've done this to machines a hundred times; doing it to yourself is just a smaller job with worse lighting. When you self-install or self-remove a cyber-augment, ignore the usual −2 circumstance penalty for lacking a proper table. The install still takes the normal recovery — clumsy 1 and drained 1 for the augment's Grade in days — you just don't botch the wiring doing it alone.</p>"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "scrapwright"
+            ]
+        },
+        "slug": "home-wiring"
+    },
+    "_id": "64JqffNDnQ3UaQFh"
+}

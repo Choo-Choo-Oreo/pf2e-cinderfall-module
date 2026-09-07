@@ -1,0 +1,37 @@
+{
+    "name": "Alpha's Call",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><hr /><p>Until the end of your next turn, your Feral Bond acts on its own: it takes a full three actions on its turn without you spending any action to Command it, and it may act on its own judgment rather than following your direction.</p>"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "waywarden"
+            ]
+        },
+        "slug": "alphas-call"
+    },
+    "_id": "PzEVoJAS6Hvq8xCx"
+}

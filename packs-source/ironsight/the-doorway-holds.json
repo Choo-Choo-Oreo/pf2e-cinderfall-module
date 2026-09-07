@@ -1,0 +1,37 @@
+{
+    "name": "The Doorway Holds",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Requirement</strong> You are wielding a loaded firearm.</p><p><strong>Duration</strong> constant</p><hr /><p>You gain resistance to all physical damage equal to half your level against attacks made by adjacent creatures, and any creature that ends its turn adjacent to you is off-guard against your next Strike. If you Stride more than 10 feet in a turn, you lose both until the start of your next turn.</p>"
+        },
+        "level": {
+            "value": 16
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "the-doorway-holds"
+    },
+    "_id": "RbZClhPceKLNPmGN"
+}

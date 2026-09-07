@@ -1,0 +1,37 @@
+{
+    "name": "Purge the Toll",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Range</strong> touch</p><p><strong>Targets</strong> you or 1 willing creature</p><hr /><p>End one condition the target is suffering that was inflicted by a Choir's Toll result — the sickened of Sympathetic Fever, the drained of Cold Spot, or any condition a future Toll result imposes. This cannot undo a Toll result that was an event rather than a condition: a Verse that already fizzled stays spent, an Afflicted that already collapsed stays gone, and a creature the Choir already recruited is not given back.</p>"
+        },
+        "level": {
+            "value": 8
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "plaguesworn"
+            ]
+        },
+        "slug": "purge-the-toll"
+    },
+    "_id": "FHx4X7uAq4MhgqHb"
+}

@@ -1,0 +1,37 @@
+{
+    "name": "Steady Word",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per round</p><p><strong>Range</strong> 30 feet</p><p><strong>Targets</strong> 1 ally</p><hr /><p>Reduce the target's frightened condition by 1, or end one despair or morale effect of your level or lower affecting it. This is speech, not magic: the target must be able to hear and understand you, and it does not work on a creature that cannot be reasoned with.</p>"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "vigil"
+            ]
+        },
+        "slug": "steady-word"
+    },
+    "_id": "SeMtXXdAqQPGKo1l"
+}

@@ -1,0 +1,37 @@
+{
+    "name": "The Answer Already Given",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Trigger</strong> A creature begins an action that would threaten your Ward — it targets the Ward with a Strike, a spell, or an ability, or includes the Ward in an area.</p><hr /><p>You Answer before the action resolves: make the Answer's Strike against the creature first. If the Strike hits and the triggering action has the concentrate or manipulate trait, the action is disrupted. If the Strike is a critical hit, the action is disrupted whatever its traits. This uses your reaction as The Answer does.</p>"
+        },
+        "level": {
+            "value": 16
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "sworn"
+            ]
+        },
+        "slug": "the-answer-already-given"
+    },
+    "_id": "thacaBPBIY0BZXOJ"
+}

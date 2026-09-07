@@ -1,0 +1,37 @@
+{
+    "name": "No One Dies On My Table",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 3
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Cost</strong> 8 Vitae</p><p><strong>Range</strong> 60 feet</p><hr /><p>Every ally within range regains Hit Points equal to 6 times your level, and each has one condition of your choice removed. Any ally who died within the last minute is restored to life at 1 Hit Point and <em>drained 4</em>. You are <em>drained 2</em> until you next rest.</p>"
+        },
+        "level": {
+            "value": 20
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "fleshmancer"
+            ]
+        },
+        "slug": "no-one-dies-on-my-table"
+    },
+    "_id": "qOLmhMteX1jJKT5X"
+}

@@ -1,0 +1,37 @@
+{
+    "name": "Purge the Bloom",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 2
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per hour</p><p><strong>Range</strong> touch</p><hr /><p>Touch a creature affected by a result from the Bloom Table and end that result's ongoing effect immediately. This cannot restore Vitae wasted by a Rejection result, undo a permanent Runaway Mutation, or reverse a Total Bloom's consequences — those are done.</p>"
+        },
+        "level": {
+            "value": 8
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "fleshmancer"
+            ]
+        },
+        "slug": "purge-the-bloom"
+    },
+    "_id": "vIHgNQ0XWDzndX3Z"
+}

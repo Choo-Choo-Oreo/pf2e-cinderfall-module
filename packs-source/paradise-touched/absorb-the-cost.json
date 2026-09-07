@@ -1,0 +1,37 @@
+{
+    "name": "Absorb the Cost",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "free"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> your Intelligence modifier times per day, minimum once</p><p><strong>Trigger</strong> A Signal-declared effect of yours fails</p><p><strong>Traits</strong> Paradise-Touched</p><hr /><p>You take double the force damage the failure would deal and gain no Signal Drift from it. Double means double whatever your Signal failure damage currently is: 4 force damage per level normally, or 6 per level if you have Signal Mastery. The damage cannot be reduced or avoided by any means, and the Drift point is avoided entirely rather than delayed.</p>"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "paradise-touched"
+            ]
+        },
+        "slug": "absorb-the-cost"
+    },
+    "_id": "cKGj9SKyNiRHXC1G"
+}

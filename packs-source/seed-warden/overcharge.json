@@ -1,0 +1,37 @@
+{
+    "name": "Overcharge",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><p><strong>Maximum</strong> 2 banked points</p><hr /><p>Charge generated past your Bloomrot cap is banked instead of lost, up to 2 points. The banked points are released the next time you move the needle, applied in the direction you move it, and they may carry the needle past your cap; this release is the only thing that can. Banked points survive the needle's overnight reset. §3's Reset governs the needle alone -- it returns to 0 after a night's rest and at no other time -- so the bank is the one value on this class that persists.</p>"
+        },
+        "level": {
+            "value": 6
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "seed-warden"
+            ]
+        },
+        "slug": "overcharge"
+    },
+    "_id": "AzeInLy3u30TFbWz"
+}

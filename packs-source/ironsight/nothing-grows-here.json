@@ -1,0 +1,37 @@
+{
+    "name": "Nothing Grows Here",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>A creature within hazardous ground you created cannot regain Hit Points from any source, and any regeneration or fast healing it has is suppressed. The moment it leaves, healing works normally again — which is the part that makes people leave.</p>"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "nothing-grows-here"
+    },
+    "_id": "brtg27mqtmclfzNQ"
+}

@@ -1,0 +1,37 @@
+{
+    "name": "The Many Ascendant",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Whichever ONE MORE grants you — extra reach, or a second simultaneous Strike — persists until the end of your next turn rather than vanishing when the action resolves. The second Strike is available once more during that time; the reach simply remains. Everything else about ONE MORE is unchanged, including that nobody who sees it can afterwards agree on what they saw extra of.</p>"
+        },
+        "level": {
+            "value": 18
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "reckoner"
+            ]
+        },
+        "slug": "the-many-ascendant"
+    },
+    "_id": "A9ExZW8H3Gh3wvBf"
+}

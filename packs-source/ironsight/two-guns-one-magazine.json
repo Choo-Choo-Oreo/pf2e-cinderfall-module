@@ -1,0 +1,37 @@
+{
+    "name": "Two Guns, One Magazine",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Requirement</strong> You are holding ammunition intended for a different firearm than the one you are loading.</p><hr /><p>Load the wrong ammunition anyway. The weapon fires normally this round. At the end of that round it gains a Failure Range if it did not have one, or gains the Jammed condition if it did — including a Good Gun, which is the only thing on this page that will do that to one.</p>"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "two-guns-one-magazine"
+    },
+    "_id": "upeYv1l5HDyTJdop"
+}

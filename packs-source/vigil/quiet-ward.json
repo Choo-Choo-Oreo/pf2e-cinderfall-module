@@ -1,0 +1,37 @@
+{
+    "name": "Quiet Ward",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per round</p><p><strong>Trigger</strong> You or an ally within 15 feet is hit by an attack.</p><hr /><p>Reduce the damage from the triggering attack by 2 plus your level. This is the Presence working, not a spell — it requires no components and cannot be counteracted.</p>"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "vigil"
+            ]
+        },
+        "slug": "quiet-ward"
+    },
+    "_id": "Z7gGUkn44eUYldbE"
+}

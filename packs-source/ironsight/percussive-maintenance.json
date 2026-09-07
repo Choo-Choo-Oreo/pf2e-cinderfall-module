@@ -1,0 +1,37 @@
+{
+    "name": "Percussive Maintenance",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Check</strong> Athletics or Crafting, your choice, DC set by the GM</p><hr /><p>Strike a malfunctioning firearm, device, or piece of machinery you can touch. On a success it works normally for 1 minute regardless of its condition; on a critical success, for the rest of the encounter. On a critical failure it is broken until repaired at a workshop, and you knew that was possible when you swung.</p>"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "percussive-maintenance"
+    },
+    "_id": "nf44CXLEt9B3ffEK"
+}

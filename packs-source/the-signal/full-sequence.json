@@ -1,0 +1,37 @@
+{
+    "name": "Full Sequence",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Requirements</strong> You are broadcasting the Numbers Frequency</p><p><strong>Traits</strong> Signal</p><hr /><p>Against a creature that has already failed a saving throw against one of your effects this encounter, the status penalty to Will from Numbers is −2 instead of −1. This is the same penalty at a larger value, not an additional one. The condition persists for the rest of the encounter once met, even if the creature later succeeds at a save.</p>"
+        },
+        "level": {
+            "value": 8
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "the-signal"
+            ]
+        },
+        "slug": "full-sequence"
+    },
+    "_id": "rJ36ZtUTsoltTb9F"
+}

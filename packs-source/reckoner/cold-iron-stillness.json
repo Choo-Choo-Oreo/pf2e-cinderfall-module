@@ -1,0 +1,37 @@
+{
+    "name": "Cold Iron Stillness",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>A creature that has been under HEAT DEBT since the end of your last turn is slowed 1 and reduces any resistance it has by 5. If it has been under HEAT DEBT for three consecutive rounds, it is slowed 2 instead and reduces its resistances by 10. These effects end when the chill does.</p>"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "reckoner"
+            ]
+        },
+        "slug": "cold-iron-stillness"
+    },
+    "_id": "jpmQ4Mm0H0J2dgNr"
+}

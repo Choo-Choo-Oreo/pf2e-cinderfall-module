@@ -1,0 +1,37 @@
+{
+    "name": "EMP-Proofed",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Every augment in you has a redundant, hand-soldered backup circuit only you know about. Your own installed cyber-augments cannot be shut off by an EMP, a technomancy/disrupt-construct effect, or any other effect that would suppress them, up to and including at Chrome-Bound Drift. This protects function only — it does nothing to a Drift band's other effects, and does nothing for anyone else's hardware, including your Rig's.</p>"
+        },
+        "level": {
+            "value": 14
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "scrapwright"
+            ]
+        },
+        "slug": "emp-proofed"
+    },
+    "_id": "4G6O3THFWrJZjGAa"
+}

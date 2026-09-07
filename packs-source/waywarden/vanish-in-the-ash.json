@@ -1,0 +1,37 @@
+{
+    "name": "Vanish in the Ash",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "free"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Trigger</strong> You finish an action on your turn.</p><p><strong>Requirement</strong> You are in ash, dust, smoke, haze, rubble, or similar wasteland cover.</p><hr /><p>Attempt a Stealth check to Hide, even if you are currently observed and even if you lack cover or concealment. On a success you are hidden until the end of your next turn, or until you attack or force a creature to notice you.</p>"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "waywarden"
+            ]
+        },
+        "slug": "vanish-in-the-ash"
+    },
+    "_id": "lU0HmQHW7UZsex3b"
+}

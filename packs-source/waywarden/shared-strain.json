@@ -1,0 +1,37 @@
+{
+    "name": "Shared Strain",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Requirement</strong> Your Feral Bond is at least Bonded stage.</p><hr /><p>Your Feral Bond can be grafted with a Minor mutation using the same Slot rules that apply to any other patient. Whatever Strain that mutation would cost is paid from your own Strain total instead of a separate pool for your Bond — you and it read, to anything checking, as one overloaded nervous system wearing two bodies.</p>"
+        },
+        "level": {
+            "value": 6
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "waywarden"
+            ]
+        },
+        "slug": "shared-strain"
+    },
+    "_id": "Tt4FJKISYVLQMiot"
+}

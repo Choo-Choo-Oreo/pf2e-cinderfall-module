@@ -1,0 +1,38 @@
+{
+    "name": "Dead Drop Network",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><hr /><p>Call in a favor. Choose one: a common item of level equal to your level or lower, delivered to a dead drop within the hour; the answer to one specific question about a person, place, or job in this settlement; or a safe place to lay low for one night, unwatched. The Underledger keeps a tally, and the GM may call it in later.</p>"
+        },
+        "level": {
+            "value": 6
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "scavenger-spy",
+                "exploration"
+            ]
+        },
+        "slug": "dead-drop-network"
+    },
+    "_id": "FCHmO2U6do9BD1Dc"
+}

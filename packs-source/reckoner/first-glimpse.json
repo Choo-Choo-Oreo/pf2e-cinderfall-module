@@ -1,0 +1,37 @@
+{
+    "name": "First Glimpse",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Range</strong> 30 feet</p><p><strong>Targets</strong> 1 creature or object</p><hr /><p>You know one true, minor thing about the target that you had no ordinary way of learning — a name it answers to, a thing it is afraid of, what it ate, who it last spoke to, which of its limbs is the bad one. The GM chooses which fact, and it is always true and never decisive. You pay nothing for it: no Reckoning, no action beyond this one, no cost of any kind.</p>"
+        },
+        "level": {
+            "value": 6
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "reckoner"
+            ]
+        },
+        "slug": "first-glimpse"
+    },
+    "_id": "1sqZ4Ykv61QWaqPg"
+}

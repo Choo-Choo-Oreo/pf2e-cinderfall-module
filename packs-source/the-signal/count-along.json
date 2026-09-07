@@ -1,0 +1,37 @@
+{
+    "name": "Count Along",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "free"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Trigger</strong> An enemy in range is about to roll a d20</p><p><strong>Traits</strong> Signal, auditory</p><hr /><p>You name a number from 1 to 20 aloud. If the triggering roll's d20 comes up exactly that number, the roll is a critical failure regardless of its result against the DC. You must name the number before the die is rolled, and once named it applies only to that one roll.</p>"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "the-signal"
+            ]
+        },
+        "slug": "count-along"
+    },
+    "_id": "iX5PeGlSl4xTqkXH"
+}

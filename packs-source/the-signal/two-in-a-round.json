@@ -1,0 +1,37 @@
+{
+    "name": "Two In a Round",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Traits</strong> Signal</p><hr /><p>The once-per-round limit on spending Encore becomes twice per round. This is two spends per round shared among all your allies, not two each. Each spend is unchanged: 1 Encore, a reroll of one failed check, no action cost, a fortune effect. No single check can be rerolled twice.</p>"
+        },
+        "level": {
+            "value": 12
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "the-signal"
+            ]
+        },
+        "slug": "two-in-a-round"
+    },
+    "_id": "8A2xfuslaO8Ea4m0"
+}

@@ -1,0 +1,38 @@
+{
+    "name": "Borrowed Everything",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Cost</strong> 6 Vitae</p><p><strong>Duration</strong> 1 hour</p><hr /><p>Choose one creature you have touched, dissected or grafted within the last day. You gain one of its physical special abilities &mdash; a Speed, a sense, a natural weapon, or a resistance &mdash; for the duration, at the values it has. You cannot gain spellcasting, regeneration, or any ability that keys off a body you do not have.</p>"
+        },
+        "level": {
+            "value": 20
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "fleshmancer",
+                "exploration"
+            ]
+        },
+        "slug": "borrowed-everything"
+    },
+    "_id": "QIKHk87122iMkbeM"
+}

@@ -1,0 +1,37 @@
+{
+    "name": "Twin Bond Strike",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "free"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Trigger</strong> Your turn begins.</p><hr /><p>Your Feral Bond's initiative changes to your own for the remainder of the encounter. It takes its turn immediately after yours on that shared count, and continues to do so each round.</p>"
+        },
+        "level": {
+            "value": 8
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "waywarden"
+            ]
+        },
+        "slug": "twin-bond-strike"
+    },
+    "_id": "JMyGoDjPTsFppNaj"
+}

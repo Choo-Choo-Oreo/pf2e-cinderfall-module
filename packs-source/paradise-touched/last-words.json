@@ -1,0 +1,38 @@
+{
+    "name": "Last Words",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Traits</strong> Paradise-Touched, divination, exploration</p><hr /><p>Touch the corpse of a creature that died within the last hour and ask it one question aloud. If its mind reached Paradise, it answers — honestly, in as much detail as it knew, and only about things it knew in life. It may refuse, and the GM decides whether it does; you always learn that it refused rather than being left in silence. A given creature can be asked only one question, ever, by anyone.</p>"
+        },
+        "level": {
+            "value": 6
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "paradise-touched",
+                "exploration"
+            ]
+        },
+        "slug": "last-words"
+    },
+    "_id": "1FdNlMShS70DDcEW"
+}

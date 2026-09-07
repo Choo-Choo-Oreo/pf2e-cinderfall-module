@@ -1,0 +1,37 @@
+{
+    "name": "Deep Bank",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Traits</strong> Signal</p><hr /><p>Your Encore cap increases by 1, on top of the level-based caps. Every effect that refers to your cap uses the increased value. Note that this makes Crescendo more expensive as well as more powerful: Crescendo still requires only 5 Encore, but it always spends your entire pool, so a larger cap means a larger pool spent.</p>"
+        },
+        "level": {
+            "value": 6
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "the-signal"
+            ]
+        },
+        "slug": "deep-bank"
+    },
+    "_id": "YRk9pSwOXuOyEx4T"
+}

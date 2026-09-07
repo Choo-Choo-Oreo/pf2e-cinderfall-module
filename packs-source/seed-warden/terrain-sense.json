@@ -1,0 +1,37 @@
+{
+    "name": "Terrain Sense",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Range</strong> unlimited</p><p><strong>Duration</strong> constant</p><hr /><p>You know the instant any [TERRAIN] effect you created is damaged or destroyed, no matter how far away you are or what lies between. You learn which effect it was, whether it was damaged or destroyed outright, and the general nature of the cause — fire, cutting, magic, weather, animals, deliberate labour. You do not learn who, where they are, or anything you could use to find them.</p>"
+        },
+        "level": {
+            "value": 8
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "seed-warden"
+            ]
+        },
+        "slug": "terrain-sense"
+    },
+    "_id": "F0mCSJ5Qphs8z1Dt"
+}

@@ -1,0 +1,37 @@
+{
+    "name": "Ground-Read",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "free"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per hour</p><hr /><p>Read the Ground becomes a free action once per hour; further uses in that hour cost their usual action. When you Read the Ground this way, you also learn the last creature to have crossed the area — what kind of thing it was, roughly how long ago, and which way it went. You do not learn its name, its condition, or anything it was carrying.</p>"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "seed-warden"
+            ]
+        },
+        "slug": "ground-read"
+    },
+    "_id": "qs3OgQdEB5dhToe3"
+}

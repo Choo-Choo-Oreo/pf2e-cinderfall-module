@@ -1,0 +1,37 @@
+{
+    "name": "Hardened Chassis",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Requirement</strong> chrome-attuned</p><p><strong>Duration</strong> constant</p><hr /><p>While at Hollowed Drift or higher, a Deception check to disguise yourself as unaugmented gains no bonus against you from your visible or audible tells — increase the DC to see through such a disguise by 5.</p>"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "remade"
+            ]
+        },
+        "slug": "hardened-chassis"
+    },
+    "_id": "yUo2M5SzM09wgAuE"
+}

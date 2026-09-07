@@ -1,0 +1,37 @@
+{
+    "name": "Nothing Comes Back Down",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "free"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per round</p><p><strong>Trigger</strong> You throw a Graft.</p><hr /><p>When your thrown Graft&rsquo;s splash damages a creature, that creature&rsquo;s square becomes a new splash origin, dealing the same splash damage once to each creature adjacent to it. It chains no further than that.</p>"
+        },
+        "level": {
+            "value": 20
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "fleshmancer"
+            ]
+        },
+        "slug": "nothing-comes-back-down"
+    },
+    "_id": "y73Y7J8STqDQHGHN"
+}

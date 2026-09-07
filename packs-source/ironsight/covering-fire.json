@@ -1,0 +1,37 @@
+{
+    "name": "Covering Fire",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 2
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Requirement</strong> You are wielding a loaded firearm.</p><p><strong>Area</strong> 10-foot burst within 60 feet</p><p><strong>Duration</strong> until the start of your next turn</p><hr /><p>Empty your weapon into the area. Until the start of your next turn, an enemy that moves into or through the area takes a −2 circumstance penalty to AC and to Reflex saves until the end of its turn.</p>"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "covering-fire"
+    },
+    "_id": "BSSlIdWQDU55NoSi"
+}

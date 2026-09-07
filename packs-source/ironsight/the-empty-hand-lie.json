@@ -1,0 +1,37 @@
+{
+    "name": "The Empty-Hand Lie",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "free"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Trigger</strong> An enemy's action would take, break, or empty a firearm you are wielding.</p><hr /><p>There was another one. Draw and ready a concealed one-handed firearm, fully loaded, at no action cost, and make a ranged Strike with it against the triggering creature at a +2 circumstance bonus. It is off-guard against this Strike.</p>"
+        },
+        "level": {
+            "value": 14
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "the-empty-hand-lie"
+    },
+    "_id": "mPJM80qQ9Z6k8Dxl"
+}

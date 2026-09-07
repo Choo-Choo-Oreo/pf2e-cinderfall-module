@@ -1,0 +1,37 @@
+{
+    "name": "Cinders Undying",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per encounter</p><hr /><p>The first Conviction you spend on a Vow in an encounter in which you have used The Answer comes back: you regain that 1 Conviction at the end of the encounter. Conviction spent on anything other than a Vow, or in an encounter with no Answer, stays spent.</p>"
+        },
+        "level": {
+            "value": 16
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "sworn"
+            ]
+        },
+        "slug": "cinders-undying"
+    },
+    "_id": "6fogyYlGhplFlmTN"
+}

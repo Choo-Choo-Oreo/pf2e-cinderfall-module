@@ -1,0 +1,37 @@
+{
+    "name": "Undying Devotion",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day (the 0 Hit Points clause only)</p><p><strong>Duration</strong> constant</p><hr /><p>You gain a +2 status bonus to saving throws against death effects and against effects that would possess you or control your actions. Once per day, when you would be reduced to 0 Hit Points by a death effect, you are instead reduced to 1 Hit Point and are <em>drained 1</em>. A creature attempting to possess you must succeed at a second attempt against your class DC after its first succeeds. You cannot be made undead against your will, and if you die, your body cannot be animated, possessed, or reanimated by anyone but your patron. Your soul is not available to other buyers.</p>"
+        },
+        "level": {
+            "value": 14
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "cultist"
+            ]
+        },
+        "slug": "undying-devotion"
+    },
+    "_id": "Q4XeM0ijoTcAsLD2"
+}

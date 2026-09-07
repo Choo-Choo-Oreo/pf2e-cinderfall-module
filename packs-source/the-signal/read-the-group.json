@@ -1,0 +1,37 @@
+{
+    "name": "Read the Group",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Cost</strong> 2 Encore</p><p><strong>Traits</strong> Signal</p><hr /><p>You spend 2 Encore and choose one creature you can perceive in range. You learn which of its saving throws is highest and which is lowest, and you are told both exact modifiers. If two are tied, you are told both. This is not a check and cannot fail; the GM tells you the numbers.</p>"
+        },
+        "level": {
+            "value": 6
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "the-signal"
+            ]
+        },
+        "slug": "read-the-group"
+    },
+    "_id": "Pjrk3RWDM3qOx4UJ"
+}

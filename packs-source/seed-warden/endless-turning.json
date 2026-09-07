@@ -1,0 +1,37 @@
+{
+    "name": "Endless Turning",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "free"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per round</p><p><strong>Trigger</strong> A spell you cast would move the needle toward the side you are not on.</p><hr /><p>Instead of moving one step, the needle snaps immediately to any position on the opposite side, up to your cap. This counts as crossing zero for everything that responds to a crossing, including Turn. You may do this once per round; the needle's ordinary one-step movement applies on every other occasion, and this does not let you move the needle without casting.</p>"
+        },
+        "level": {
+            "value": 18
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "seed-warden"
+            ]
+        },
+        "slug": "endless-turning"
+    },
+    "_id": "ZwVhcxn1HkTLNU6P"
+}

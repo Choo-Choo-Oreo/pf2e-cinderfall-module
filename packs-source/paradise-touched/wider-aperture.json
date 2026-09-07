@@ -1,0 +1,37 @@
+{
+    "name": "Wider Aperture",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Traits</strong> Paradise-Touched</p><hr /><p>Choose one Glimpse belonging to an Aperture other than your own. You gain it, and you can use it once your level is at least one higher than its listed level — so a 1st-level Glimpse from 2nd, a 7th-level Glimpse from 8th, a 15th-level Glimpse from 16th. It costs Bandwidth and takes actions exactly as it does for a Warden of that Aperture, and it is declared Signal or Static like anything else.</p>"
+        },
+        "level": {
+            "value": 6
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "paradise-touched"
+            ]
+        },
+        "slug": "wider-aperture"
+    },
+    "_id": "5xeZjlwU5mSJhqn5"
+}

@@ -1,0 +1,37 @@
+{
+    "name": "Hunter's Ledger",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "free"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Requirement</strong> You have successfully Named an Anchor of the same type before.</p><p><strong>Duration</strong> for the rest of the encounter</p><hr /><p>You have seen this one's like. The target is Named immediately, with no action and no check. Whether two hauntings share an Anchor-type is the GM's call, and the Manifest is why you know: §6 assumes Ashroad Circuit membership or good standing for this feat, or secondhand access through a rider who owes you.</p>"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "wardbreaker"
+            ]
+        },
+        "slug": "hunters-ledger"
+    },
+    "_id": "tRK2bitDQ2xLp8lj"
+}

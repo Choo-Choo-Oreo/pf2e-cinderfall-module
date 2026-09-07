@@ -1,0 +1,37 @@
+{
+    "name": "Cracked Plate",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 2
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Requirement</strong> You are wielding a loaded firearm.</p><hr /><p>Make a ranged Strike at a −2 penalty. On a hit, the target takes a −1 circumstance penalty to AC until the end of your next turn; on a critical hit, −2 instead.</p>"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "cracked-plate"
+    },
+    "_id": "MMYjNFFXA9XPRShQ"
+}

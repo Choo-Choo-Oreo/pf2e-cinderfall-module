@@ -1,0 +1,37 @@
+{
+    "name": "Cursed Gift",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 2
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Range</strong> 30 feet</p><p><strong>Targets</strong> 1 creature</p><p><strong>Duration</strong> 24 hours</p><p><strong>Saving Throw</strong> Will</p><hr /><p>On a failed save, the target takes a -1 status penalty to Perception and to saving throws against emotion and fear effects for the duration, and your patron's sigil appears somewhere on its body where it can see it. On a critical failure, the penalty is -2 and the target cannot remove or conceal the sigil. On a success, the sigil appears and nothing else happens; the target still knows it has been noticed. This is a curse effect.</p>"
+        },
+        "level": {
+            "value": 8
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "cultist"
+            ]
+        },
+        "slug": "cursed-gift"
+    },
+    "_id": "chmZLI8Xuw8FZsWX"
+}

@@ -1,0 +1,37 @@
+{
+    "name": "Fast to Close",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Whether it's flesh knitting around new tissue or a housing seating into bone, your body's had the practice. Whenever a graft or install performed on you would leave you enfeebled 1 or clumsy 1, and drained 1, for a number of days equal to the augment's Grade, reduce that duration by 1 day (minimum 1 day).</p>"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "remade"
+            ]
+        },
+        "slug": "fast-to-close"
+    },
+    "_id": "JoIOLXSpH1hxSsKR"
+}

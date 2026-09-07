@@ -1,0 +1,37 @@
+{
+    "name": "Underledger Rank",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> permanent</p><hr /><p>You hold rank in the Underledger. In any settlement where it has a presence you are recognised on sight by its members, you can reach a contact within 10 minutes rather than an hour, and you gain a +2 circumstance bonus to Diplomacy checks to Gather Information and to Deception checks made against people who fear the network. Lower-ranked members do small favors without being asked twice.</p>"
+        },
+        "level": {
+            "value": 16
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "scavenger-spy"
+            ]
+        },
+        "slug": "underledger-rank"
+    },
+    "_id": "o2eWbYGVoqcP7OG0"
+}

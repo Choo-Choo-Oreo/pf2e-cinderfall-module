@@ -1,0 +1,37 @@
+{
+    "name": "One With the Chrome",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Requirement</strong> Drift 9 (Chrome-Bound)</p><p><strong>Duration</strong> constant</p><hr /><p>There's a line running from the Rig to you that isn't on any schematic. At Drift 9 (Chrome-Bound), if all your augments are ever suppressed at once — EMP, a dead reservoir, a GM effect — your Rig's own power keeps your systems live: you do not become sickened 2, and your nanite dependency does not otherwise trigger, so long as your Rig remains active and nearby. If your Rig is destroyed or shut down at the same time, this protection lapses with it.</p>"
+        },
+        "level": {
+            "value": 18
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "scrapwright"
+            ]
+        },
+        "slug": "one-with-the-chrome"
+    },
+    "_id": "Au3lv09iTSGDRqhp"
+}

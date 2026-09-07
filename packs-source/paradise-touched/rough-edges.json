@@ -1,0 +1,37 @@
+{
+    "name": "Rough Edges",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Traits</strong> Paradise-Touched</p><hr /><p>When one of your spells that deals force damage critically hits with a spell attack roll, the target also takes 1 persistent bleed damage. This applies once per target per spell. The bleed is persistent bleed damage, not force damage, and is stopped in the usual way.</p>"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "paradise-touched"
+            ]
+        },
+        "slug": "rough-edges"
+    },
+    "_id": "3XKEfhtrNn5s9QtF"
+}

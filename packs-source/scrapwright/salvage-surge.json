@@ -1,0 +1,37 @@
+{
+    "name": "Salvage Surge",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "free"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per round</p><p><strong>Trigger</strong> A construct, machine, or spirit is reduced to 0 Hit Points by you or an ally within 30 feet.</p><hr /><p>You bleed the charge off it before it cools. Regain 2 charges of Ghost-Static, or 3 if the defeated creature's level is equal to or greater than yours. This cannot take you above your Static Cell's capacity.</p>"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "scrapwright"
+            ]
+        },
+        "slug": "salvage-surge"
+    },
+    "_id": "8S1ZOVxilwk9Sw11"
+}

@@ -1,0 +1,37 @@
+{
+    "name": "Through the Wall",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 2
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Requirement</strong> You are wielding a loaded firearm and the target has cover from an object rather than a creature.</p><hr /><p>Make a ranged Strike that treats the intervening object as though it were not there, ignoring the cover bonus entirely. Reduce the damage by one die if the object is masonry, plate, or thicker than a hand's width; the GM may rule truly impassable barriers out of reach of this feat.</p>"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "through-the-wall"
+    },
+    "_id": "3rHR7WuGE6RcqDEP"
+}

@@ -1,0 +1,37 @@
+{
+    "name": "Sustained Silence",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Traits</strong> Signal</p><hr /><p>Becoming deafened no longer ends your Broadcast, and you continue to gain Encore and to sustain it normally. You still suffer every other effect of being deafened, including its penalty to initiative and its effect on your own Perception. If you begin a Broadcast while already deafened, you must succeed at a DC 5 flat check or the action is lost.</p>"
+        },
+        "level": {
+            "value": 6
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "the-signal"
+            ]
+        },
+        "slug": "sustained-silence"
+    },
+    "_id": "B9o8nvjo1RGtv0Cw"
+}

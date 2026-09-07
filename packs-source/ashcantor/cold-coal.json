@@ -1,0 +1,37 @@
+{
+    "name": "Cold Coal",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Range</strong> touch</p><p><strong>Targets</strong> 1 willing ally</p><p><strong>Duration</strong> until the end of your next turn</p><hr /><p>You press an Ember into an ally's hand, still warm. Choose one reaction you have that requires or uses an Ember. Until the end of your next turn, that ally may use that reaction once, using your modifiers, and you cannot use it yourself while the Ember is out of your hands. The Ember returns to you when the duration ends or when the ally uses the reaction, whichever comes first — it goes cold and finds its way back. Your Ash-Light cannot be in an Ember you hand over.</p>"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ashcantor"
+            ]
+        },
+        "slug": "cold-coal"
+    },
+    "_id": "ZjAkB5w7lkUga3ol"
+}

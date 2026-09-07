@@ -1,0 +1,37 @@
+{
+    "name": "Bedside Manner",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>When you Diagnose a creature, you also learn one of its weaknesses or resistances, chosen by the GM from those it actually has, including the amount. If it has none, you learn that instead — which is itself worth knowing. Diagnosing the same creature again reveals nothing new; you have already read what it is.</p>"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "plaguesworn"
+            ]
+        },
+        "slug": "bedside-manner"
+    },
+    "_id": "xNui4GSUEmXJWoJ4"
+}

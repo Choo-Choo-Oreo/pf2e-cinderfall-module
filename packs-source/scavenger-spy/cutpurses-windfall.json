@@ -1,0 +1,37 @@
+{
+    "name": "Cutpurse's Windfall",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per hour</p><hr /><p>Whenever you succeed at a check to Steal, you also take one additional small item of the GM's choosing from the same target — a key, a coin purse, a scrap of correspondence, an access token. You do not choose what it is, and you do not know you have it until you look.</p>"
+        },
+        "level": {
+            "value": 12
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "scavenger-spy"
+            ]
+        },
+        "slug": "cutpurses-windfall"
+    },
+    "_id": "59bEvWBEiMoPjqnE"
+}

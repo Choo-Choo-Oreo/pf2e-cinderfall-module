@@ -1,0 +1,37 @@
+{
+    "name": "Backup Battery",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> All your augments would be suppressed at once, triggering Chrome-Bound's nanite dependency.</p><p><strong>Requirement</strong> chrome-attuned</p><hr /><p>Delay the resulting sickened 2 by 1 minute.</p>"
+        },
+        "level": {
+            "value": 14
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "remade"
+            ]
+        },
+        "slug": "backup-battery"
+    },
+    "_id": "YmY1zZDoi8p15nu4"
+}

@@ -1,0 +1,37 @@
+{
+    "name": "The Whole Story",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Saving Throw</strong> Will</p><p><strong>Traits</strong> Signal, auditory, incapacitation, linguistic, mental</p><hr /><p>Choose a creature in range and ask it one question aloud. It attempts a Will save against your class DC. On a failure, it must answer aloud, in a language it shares with you, truthfully and completely to the best of its knowledge; it cannot mislead by omission, answer a different question, or claim ignorance it does not have. On a success, it is unaffected. Either way, everyone in range heard you ask, and everyone in range hears whether it answered.</p>"
+        },
+        "level": {
+            "value": 14
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "the-signal"
+            ]
+        },
+        "slug": "the-whole-story"
+    },
+    "_id": "sDSzhPqXBP00C05s"
+}

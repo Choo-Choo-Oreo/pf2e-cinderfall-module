@@ -1,0 +1,37 @@
+{
+    "name": "Overlapping Redundancy",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> One of your augments would be disabled, suppressed, or knocked offline by an effect or a band's listed penalty.</p><hr /><p>Negate that specific instance — the augment keeps running.</p>"
+        },
+        "level": {
+            "value": 12
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "remade"
+            ]
+        },
+        "slug": "overlapping-redundancy"
+    },
+    "_id": "VO9kcD6j42dsatRV"
+}

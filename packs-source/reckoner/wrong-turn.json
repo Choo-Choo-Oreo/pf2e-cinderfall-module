@@ -1,0 +1,37 @@
+{
+    "name": "Wrong Turn",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Range</strong> 30 feet</p><p><strong>Targets</strong> 1 ally</p><hr /><p>For the ally's next action, taken before the end of its next turn, it ignores facing, flanking, and straight-line movement restrictions entirely — how it got there does not have to make geometric sense. Nobody watching, including the ally, can afterwards explain the route it took.</p>"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "reckoner"
+            ]
+        },
+        "slug": "wrong-turn"
+    },
+    "_id": "Bwx98JNIc7uRv5tA"
+}

@@ -1,0 +1,37 @@
+{
+    "name": "Speaks the Litany True",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per hour</p><p><strong>Range</strong> 60 feet</p><p><strong>Duration</strong> 1 hour</p><hr /><p>The first time each hour that an ally sees and hears you recite the Litany, it gains a +1 status bonus to Will saves and to checks to resist fear for 1 hour. An ally that has never seen you recite before is also frightened 1 for one round as it takes in what you are actually doing — dread and awe arrive together, and neither is optional.</p>"
+        },
+        "level": {
+            "value": 16
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "reckoner"
+            ]
+        },
+        "slug": "speaks-the-litany-true"
+    },
+    "_id": "RIhUZBZNBuas93EM"
+}

@@ -1,0 +1,37 @@
+{
+    "name": "Second Shape",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Requirements</strong> You are in Blight-Shape.</p><hr /><p>Change from your current Blight-Shape form to another form you have unlocked, using a single action rather than Dismissing and re-shaping. The new form arrives with its own statistics and whichever load the needle is currently paying, exactly as if you had shaped into it. Anything that renews each round — Thicketback's temporary Hit Points, for one — begins renewing on the new form from this round; anything already spent stays spent.</p>"
+        },
+        "level": {
+            "value": 6
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "seed-warden"
+            ]
+        },
+        "slug": "second-shape"
+    },
+    "_id": "7a20mw0OamFAgHAZ"
+}

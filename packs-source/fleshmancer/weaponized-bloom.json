@@ -1,0 +1,37 @@
+{
+    "name": "Weaponized Bloom",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Range</strong> 30 feet</p><p><strong>Saving Throw</strong> as the chosen result, or Fortitude if none is stated</p><hr /><p>Choose one non-permanent result from the Bloom Table (Weeping Wound, Overgrowth, Fever Dream, Feral Twitch, or Blood Hunger) and inflict it on one creature within range as though it had rolled that result on itself, save where the result's own text requires a save. You take no Vitae cost and suffer no Bloom yourself for this use.</p>"
+        },
+        "level": {
+            "value": 14
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "fleshmancer"
+            ]
+        },
+        "slug": "weaponized-bloom"
+    },
+    "_id": "rmHMBCrCnDlgDTMC"
+}

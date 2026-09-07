@@ -1,0 +1,37 @@
+{
+    "name": "Four Hands of Work",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Requirement</strong> You are wielding two loaded firearms.</p><hr /><p>Make one ranged Strike with each firearm, then reload both. Neither Strike takes the multiple attack penalty from the other, and the reload costs nothing further. You may use this only once per turn.</p>"
+        },
+        "level": {
+            "value": 12
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "four-hands-of-work"
+    },
+    "_id": "TF5vhR7yAElsdUZs"
+}

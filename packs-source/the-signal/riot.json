@@ -1,0 +1,37 @@
+{
+    "name": "Riot",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Cost</strong> 3 Encore</p><p><strong>Saving Throw</strong> Will</p><p><strong>Traits</strong> Signal, auditory, emotion, incapacitation, linguistic, mental</p><hr /><p>You spend 3 Encore. Every enemy in range must attempt a Will save against your class DC. On a failure, the first action the creature takes on its next turn must be a Strike against a creature it considers an ally, chosen by the creature itself; if it cannot reach any ally, it wastes the action instead. On a success, nothing happens. A creature that cannot be compelled, or that has no allies within reach or range, is unaffected.</p>"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "the-signal"
+            ]
+        },
+        "slug": "riot"
+    },
+    "_id": "igeGN149dOsLwQWK"
+}

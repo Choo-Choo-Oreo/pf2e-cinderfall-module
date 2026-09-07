@@ -1,0 +1,37 @@
+{
+    "name": "Blasphemous Rite",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Cost</strong> 2 Zeal</p><hr /><p>Cast any Rite from a patron other than your own, of a rank you can cast, without knowing it. The Rite is automatically heightened to your highest spell rank. When it resolves, roll on the Backlash Table twice and apply both results; neither may be rerolled, avoided, or shifted by any effect, including Backlash Control and Zealotry Mastery. Your patron does not punish you for this. It simply watches, and adds it to the account.</p>"
+        },
+        "level": {
+            "value": 14
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "cultist"
+            ]
+        },
+        "slug": "blasphemous-rite"
+    },
+    "_id": "yz4Kodpn1qCsmyfw"
+}

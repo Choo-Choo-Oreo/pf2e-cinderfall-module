@@ -1,0 +1,37 @@
+{
+    "name": "Sympathetic Burst",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 2
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per round</p><p><strong>Cost</strong> +1 Vitae</p><hr /><p>Throw two prepared Grafts at the same target, or at two targets within 15 feet of each other, making one attack roll against each. If both hit, each target takes 1d6 additional damage of its Graft&rsquo;s type.</p>"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "fleshmancer"
+            ]
+        },
+        "slug": "sympathetic-burst"
+    },
+    "_id": "hvHTDOEtq05wmsdr"
+}

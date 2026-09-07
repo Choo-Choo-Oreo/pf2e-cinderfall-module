@@ -1,0 +1,37 @@
+{
+    "name": "Static Sovereignty",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> while in combat</p><hr /><p>While you are in an encounter, your Static Cell has no capacity: you may hold any amount of Ghost-Static. When the encounter ends, your pool immediately drops to your normal capacity and the excess is lost with no effect. While this is in force, `Static Overflow` cannot trigger, because there is no maximum to exceed; it resumes working the moment the cap returns.</p>"
+        },
+        "level": {
+            "value": 18
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "scrapwright"
+            ]
+        },
+        "slug": "static-sovereignty"
+    },
+    "_id": "xTlY6K9mUfT5qySV"
+}

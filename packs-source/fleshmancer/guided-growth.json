@@ -1,0 +1,37 @@
+{
+    "name": "Guided Growth",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per patient per week</p><p><strong>Trigger</strong> A willing patient of yours rolls a Runaway Mutation result on the Bloom Table.</p><hr /><p>Roll a second result on the Minor Mutation table alongside the one that triggered. The patient takes whichever of the two you choose, and the other is discarded entirely — it never happened, and doesn't count against anything. This doesn't let you avoid a Runaway Mutation happening at all, only steer which one lands.</p>"
+        },
+        "level": {
+            "value": 6
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "fleshmancer"
+            ]
+        },
+        "slug": "guided-growth"
+    },
+    "_id": "YaflMS9baZJHXUci"
+}

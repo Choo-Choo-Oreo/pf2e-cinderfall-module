@@ -1,0 +1,37 @@
+{
+    "name": "Undying Tissue",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Trigger</strong> Your turn begins.</p><p><strong>Requirement</strong> You are at or below half your maximum Hit Points and above 0.</p><p><strong>Duration</strong> constant</p><hr /><p>At the start of each of your turns, if you are at or below half your maximum Hit Points, regain Hit Points equal to your level. This does not function if you are at 0 Hit Points.</p>"
+        },
+        "level": {
+            "value": 14
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "fleshmancer"
+            ]
+        },
+        "slug": "undying-tissue"
+    },
+    "_id": "UeEuEMoSf9TUanNA"
+}

@@ -1,0 +1,37 @@
+{
+    "name": "Whether They Like It",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 2
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per round</p><p><strong>Requirement</strong> The target is unwilling.</p><p><strong>Range</strong> touch</p><hr /><p>Apply a prepared Graft to an unwilling creature. Attempt a melee touch attack against its AC; on a hit the Graft&rsquo;s effect applies in full and the creature is <em>off-guard</em> to you until the end of your next turn. On a critical hit it is also <em>slowed 1</em> until the end of its next turn, while its body works out what you just put in it.</p>"
+        },
+        "level": {
+            "value": 12
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "fleshmancer"
+            ]
+        },
+        "slug": "whether-they-like-it"
+    },
+    "_id": "Deg74Ch33Swh7xSs"
+}

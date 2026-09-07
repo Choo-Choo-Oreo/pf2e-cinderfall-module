@@ -1,0 +1,37 @@
+{
+    "name": "Bolted Edge",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Requirement</strong> chrome-attuned</p><p><strong>Duration</strong> constant</p><hr /><p>A concealed blade rides in your forearm or knuckle housing. You gain a bolted-edge unarmed attack that deals 1d6 slashing or piercing damage (your choice on taking this feat), is in the brawling group, and has the agile and finesse traits. It doesn't show on a casual pat-down.</p>"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "remade"
+            ]
+        },
+        "slug": "bolted-edge"
+    },
+    "_id": "fnxb2MWCxJVkbxuD"
+}

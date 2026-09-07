@@ -1,0 +1,38 @@
+{
+    "name": "Whisper Network",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Check</strong> Occultism or Society (your choice)</p><hr /><p>Reach out through the network. Attempt a check against a DC the GM sets by the obscurity of what you are asking. On a success you learn what the network knows about one person, place, or event; on a critical success, you also learn who else has been asking. On a failure you learn nothing. On a critical failure you learn something false and the network learns you were asking. You always know whether a settlement you are in has anyone on the network at all.</p>"
+        },
+        "level": {
+            "value": 6
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "cultist",
+                "exploration"
+            ]
+        },
+        "slug": "whisper-network"
+    },
+    "_id": "lnNiMUlCzgjQuyIN"
+}

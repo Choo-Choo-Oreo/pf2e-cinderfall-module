@@ -1,0 +1,37 @@
+{
+    "name": "Not on the Table",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> An ally within 30 feet is reduced to 0 Hit Points.</p><p><strong>Cost</strong> 2 Vitae</p><hr /><p>The ally is instead reduced to 1 Hit Point and is <em>drained 1</em>. You take 2d6 damage as their wound routes through your own grafted tissue, and this damage cannot be prevented or reduced.</p>"
+        },
+        "level": {
+            "value": 8
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "fleshmancer"
+            ]
+        },
+        "slug": "not-on-the-table"
+    },
+    "_id": "MYer3Y6pPDJJDQ5G"
+}

@@ -1,0 +1,37 @@
+{
+    "name": "Split-System Endurance",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Straining Load's doubled food and water requirement, and Frayed or Hollowed Drift's visible-and-audible tell, no longer apply to you. Every other listed effect of those bands still applies.</p>"
+        },
+        "level": {
+            "value": 14
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "remade"
+            ]
+        },
+        "slug": "split-system-endurance"
+    },
+    "_id": "fnUaUCjufi0iLa45"
+}

@@ -1,0 +1,37 @@
+{
+    "name": "The Body That Wouldn't Reject",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>You're immune to the Rejecting (Load 9) and Consumed (Load 10) bands' listed penalties, and your Load can climb past 10 with no hard cap — no matter how high it gets, treat its mechanical effects as though capped at Overgrown (6–8). The story's outrun you: any NPC connected to the Rendery who hears your name reacts to it, unprompted, before they react to you.</p>"
+        },
+        "level": {
+            "value": 20
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "remade"
+            ]
+        },
+        "slug": "body-that-wouldnt-reject"
+    },
+    "_id": "rjmtk9OFMjPZJ3ez"
+}

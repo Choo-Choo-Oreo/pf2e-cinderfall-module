@@ -1,0 +1,37 @@
+{
+    "name": "Static Feedback Loop",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>A creature that damages your Rig with a melee attack takes 2d6 electricity damage as the charge earths itself through the striking limb. This does not require a reaction and has no daily limit. It does not trigger on damage from ranged attacks, spells, or area effects.</p>"
+        },
+        "level": {
+            "value": 14
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "scrapwright"
+            ]
+        },
+        "slug": "static-feedback-loop"
+    },
+    "_id": "v9BTdvxSt7GsKeGq"
+}

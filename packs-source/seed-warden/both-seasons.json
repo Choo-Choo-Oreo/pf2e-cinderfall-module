@@ -1,0 +1,37 @@
+{
+    "name": "Both Seasons",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "free"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Trigger</strong> You begin casting a Seed-Warden spell.</p><hr /><p>Cast that spell as though the needle were at the mirrored position on the opposite side — Green 2 becomes Grey 2, and the reverse. This satisfies charge requirements for the opposite side and applies any Cutting benefit keyed to that side for this spell only. The needle does not actually move: after the spell resolves it is exactly where it was, and the spell's own Bloom tag then moves it one step as usual.</p>"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "seed-warden"
+            ]
+        },
+        "slug": "both-seasons"
+    },
+    "_id": "97RF7hFilzfBqY1O"
+}

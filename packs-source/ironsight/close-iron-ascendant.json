@@ -1,0 +1,37 @@
+{
+    "name": "Close Iron Ascendant",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Your ranged Strikes made as reactions do not trigger reactions from the creature you are attacking, and firing a ranged weapon while within an enemy's reach does not make you off-guard or trigger its Attack of Opportunity.</p>"
+        },
+        "level": {
+            "value": 12
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "close-iron-ascendant"
+    },
+    "_id": "YrlrHCVmyDiPyDXk"
+}

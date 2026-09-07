@@ -1,0 +1,37 @@
+{
+    "name": "The Second Barrel",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "free"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Trigger</strong> Your ranged Strike against an adjacent creature misses.</p><hr /><p>Fire again immediately at the same target, at no action cost. This Strike does not count toward your multiple attack penalty, and it empties the weapon regardless of how much it held.</p>"
+        },
+        "level": {
+            "value": 8
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "the-second-barrel"
+    },
+    "_id": "lXhNT0fQquyEO5gc"
+}

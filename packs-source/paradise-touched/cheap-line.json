@@ -1,0 +1,37 @@
+{
+    "name": "Cheap Line",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Traits</strong> Paradise-Touched, concentrate, exploration</p><hr /><p>Your Re-sync takes 5 minutes instead of 10 minutes. It recovers 1 Bandwidth as normal. Anyone who watches you do it finds you harder to like: you take a −1 circumstance penalty to your Diplomacy checks against such an observer for the rest of the day.</p>"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "paradise-touched"
+            ]
+        },
+        "slug": "cheap-line"
+    },
+    "_id": "nt7Vd6OxLFwqzdTB"
+}

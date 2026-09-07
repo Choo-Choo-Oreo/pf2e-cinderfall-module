@@ -1,0 +1,37 @@
+{
+    "name": "Firstscar's Blessing",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "free"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You attempt a Survival check or a check to Track, or you are about to roll on the Frenzy Table.</p><p><strong>Requirement</strong> You have Petitioned the Firstscar (6th level or later).</p><hr /><p>Choose one: the triggering Survival or tracking check is an automatic success, or the Frenzy result is ignored entirely and has no effect.</p>"
+        },
+        "level": {
+            "value": 18
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "waywarden"
+            ]
+        },
+        "slug": "firstscars-blessing"
+    },
+    "_id": "lZrrMh7Lz78X7GHg"
+}

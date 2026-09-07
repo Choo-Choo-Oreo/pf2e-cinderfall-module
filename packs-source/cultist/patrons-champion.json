@@ -1,0 +1,37 @@
+{
+    "name": "Patron's Champion",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 3
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Cost</strong> 2 Zeal</p><p><strong>Duration</strong> 1 minute</p><hr /><p>Your Idol swells into a fighting shape. For the duration it is a Medium creature with your AC, your saving throws, and Hit Points equal to 8 times your level. It acts on your initiative and takes 2 actions on each of your turns without you spending actions to command it. Its Strikes use your class DC's attack modifier and deal 2d10 + your key ability modifier damage of a type appropriate to your patron. It cannot Cast a Spell. When the duration ends, or when it is reduced to 0 Hit Points, it returns to its usual form and you cannot use this feat again until your next daily preparations.</p>"
+        },
+        "level": {
+            "value": 16
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "cultist"
+            ]
+        },
+        "slug": "patrons-champion"
+    },
+    "_id": "3HmkW5rik4CnQSqf"
+}

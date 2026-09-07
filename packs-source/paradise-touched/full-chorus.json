@@ -1,0 +1,37 @@
+{
+    "name": "Full Chorus",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Traits</strong> Paradise-Touched</p><hr /><p>You gain Congregation at 14th level, and when you use it your own thoughts are not part of the exchange: the participants share with each other, not with you. If the Chorus is not your Aperture, you gain Congregation anyway and it costs Bandwidth exactly as it does for a Chorus Warden. Everything else about Congregation is unchanged.</p>"
+        },
+        "level": {
+            "value": 14
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "paradise-touched"
+            ]
+        },
+        "slug": "full-chorus"
+    },
+    "_id": "aGhJjMACZMcMG6Op"
+}

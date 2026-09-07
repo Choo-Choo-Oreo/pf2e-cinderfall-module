@@ -1,0 +1,37 @@
+{
+    "name": "Low Signature",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Requirement</strong> chrome-attuned</p><p><strong>Duration</strong> constant</p><hr /><p>The +1 circumstance bonus to saves against mental and emotion effects from Hollowed Drift improves to +2 for you, and applies starting at Frayed Drift instead of waiting for Hollowed.</p>"
+        },
+        "level": {
+            "value": 14
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "remade"
+            ]
+        },
+        "slug": "low-signature"
+    },
+    "_id": "GfJgzEYl4vbj0AQs"
+}

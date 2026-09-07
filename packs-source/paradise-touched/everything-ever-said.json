@@ -1,0 +1,38 @@
+{
+    "name": "Everything Ever Said",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Traits</strong> Paradise-Touched, divination, exploration</p><hr /><p>Ask one question about anything that has already happened. The GM answers it truthfully and completely, out of character if necessary — this is not a Static result, is not subject to any flat check, and cannot be false, incomplete, or evasive. It does not require that anyone witnessed the event or that any mind was ever uploaded. You then gain 2 Signal Drift. There is no way to avoid the points.</p>"
+        },
+        "level": {
+            "value": 20
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "paradise-touched",
+                "exploration"
+            ]
+        },
+        "slug": "everything-ever-said"
+    },
+    "_id": "B3rmVx8zJe2fWukJ"
+}

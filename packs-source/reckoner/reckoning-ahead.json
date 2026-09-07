@@ -1,0 +1,37 @@
+{
+    "name": "Reckoning Ahead",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "free"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Trigger</strong> You begin to draw an Overflow effect that would advance your Reckoning.</p><p><strong>Duration</strong> constant</p><hr /><p>You learn precisely what the next stage will take from you — which fact, which skill, which capability, or exactly what a Major Reckoning will cost. You may decline to draw and lose nothing. Once per day, having seen it, you may instead choose a different toll of the same stage: the ledger is indifferent to which specific thing it takes.</p>"
+        },
+        "level": {
+            "value": 16
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "reckoner"
+            ]
+        },
+        "slug": "reckoning-ahead"
+    },
+    "_id": "fS27eUKAbHEqdHq9"
+}

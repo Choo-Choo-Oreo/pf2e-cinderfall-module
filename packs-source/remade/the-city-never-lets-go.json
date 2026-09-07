@@ -1,0 +1,37 @@
+{
+    "name": "The City Never Lets Go",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Requirement</strong> chrome-attuned</p><p><strong>Duration</strong> constant</p><hr /><p>While at Hollowed Drift, treat your Weakness to electricity and to disrupt-construct/technomancy effects as Weakness 2 instead of 5, and Treat Wounds heals you normally rather than for half.</p>"
+        },
+        "level": {
+            "value": 18
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "remade"
+            ]
+        },
+        "slug": "the-city-never-lets-go"
+    },
+    "_id": "jc7mrk1oBOBuShIj"
+}

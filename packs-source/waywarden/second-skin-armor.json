@@ -1,0 +1,37 @@
+{
+    "name": "Second Skin Armor",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Your hide thickens. You gain a +1 item bonus to AC. This bonus does not stack with the item bonus of armor you are wearing; you use whichever is higher.</p>"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "waywarden"
+            ]
+        },
+        "slug": "second-skin-armor"
+    },
+    "_id": "mUPb7JlQnOFjeN8q"
+}

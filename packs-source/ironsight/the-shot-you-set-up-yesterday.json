@@ -1,0 +1,38 @@
+{
+    "name": "The Shot You Set Up Yesterday",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Requirement</strong> You can observe or reliably describe the location an encounter will occur in.</p><hr /><p>Prepare a firing position in advance. If an encounter begins there within the next 24 hours, you act on the first round before any creature that has not already detected you, your first Strike of that encounter is against an off-guard target, and that Strike may be a Called Shot for 1 action instead of 2.</p>"
+        },
+        "level": {
+            "value": 12
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ironsight",
+                "exploration"
+            ]
+        },
+        "slug": "the-shot-you-set-up-yesterday"
+    },
+    "_id": "lFgNhd7GLGSV4DKL"
+}

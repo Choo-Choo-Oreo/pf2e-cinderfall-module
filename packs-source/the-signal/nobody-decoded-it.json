@@ -1,0 +1,37 @@
+{
+    "name": "Nobody Decoded It",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Traits</strong> Signal</p><hr /><p>While you are broadcasting, your Broadcast and every Signal effect you have in play cannot be counteracted. Counteract attempts against them automatically fail, whatever their rank. This does not protect your spells, and it does not make any of these effects immune to being ended by other means — you can still be deafened, silenced, or knocked unconscious.</p>"
+        },
+        "level": {
+            "value": 12
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "the-signal"
+            ]
+        },
+        "slug": "nobody-decoded-it"
+    },
+    "_id": "9MwMNJdXlqpI3luo"
+}

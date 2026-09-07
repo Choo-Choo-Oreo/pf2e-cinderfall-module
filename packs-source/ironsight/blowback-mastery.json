@@ -1,0 +1,37 @@
+{
+    "name": "Gun Failure Mastery",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>When you roll on the Gun Failure Table, roll twice and use either result. You already roll a d6 rather than a d8; this makes the worst thing that can still happen to you something you had to agree to twice.</p>"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "blowback-mastery"
+    },
+    "_id": "NbJkJeHM6F4ppN49"
+}

@@ -1,0 +1,38 @@
+{
+    "name": "Built From What Was There",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Requirement</strong> At least three broken or destroyed firearms, or an equivalent volume of scrap.</p><p><strong>Check</strong> Crafting against a DC set by the GM</p><hr /><p>Assemble one functioning scrap gun of any type you have handled before. On a success the weapon is usable and carries a Failure Range; on a critical success it also does not Gun Failure for the first hour it is fired. The donor weapons are consumed, and this cannot produce or repair a Good Gun.</p>"
+        },
+        "level": {
+            "value": 8
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ironsight",
+                "exploration"
+            ]
+        },
+        "slug": "built-from-what-was-there"
+    },
+    "_id": "8WAV3wqyibwuDrTj"
+}

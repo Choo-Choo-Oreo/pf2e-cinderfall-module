@@ -1,0 +1,37 @@
+{
+    "name": "Unlimited Bank",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Traits</strong> Signal</p><hr /><p>Once your Broadcast has been continuously in play for 3 full rounds, your Encore cap is removed for as long as that Broadcast continues: Encore accumulates without limit and none is lost to overflow. If the Broadcast ends, the pool empties as normal and the count starts again from zero on your next one.</p>"
+        },
+        "level": {
+            "value": 20
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "the-signal"
+            ]
+        },
+        "slug": "unlimited-bank"
+    },
+    "_id": "shD3r4jeQJsv4Jo7"
+}

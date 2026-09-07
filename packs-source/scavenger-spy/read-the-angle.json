@@ -1,0 +1,37 @@
+{
+    "name": "Read the Angle",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": "class",
+        "description": {
+            "value": "<p>Attempt a single Perception check against the Deception or Deceptive-appearance DC of every creature you can see within 30 feet. On a success against a creature, you learn one of the following about it, your choice: whether it is lying to you right now, whether it intends violence within the next minute, or whether it wants something from you it has not stated.</p>"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "scavenger-spy"
+            ]
+        },
+        "slug": "read-the-angle"
+    },
+    "_id": "amLuBM9bbQyMChvf"
+}

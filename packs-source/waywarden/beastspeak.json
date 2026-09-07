@@ -1,0 +1,37 @@
+{
+    "name": "Beastspeak",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>You and your Feral Bond can exchange simple concepts without words — danger, direction, hunger, wait, come — whenever you can see or hear one another. You can convey the same simple concepts to unbonded wild beasts of similar stock, and read theirs in return, though this grants no ability to command them.</p>"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "waywarden"
+            ]
+        },
+        "slug": "beastspeak"
+    },
+    "_id": "eqLFQtCOooyxITVC"
+}

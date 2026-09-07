@@ -1,0 +1,37 @@
+{
+    "name": "Both of Them at Once",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Requirement</strong> You are wielding two firearms.</p><p><strong>Duration</strong> constant</p><hr /><p>Any single action you take that makes one ranged Strike may instead make one with each firearm against the same target. The second Strike does not count toward your multiple attack penalty, and if both hit, combine their damage into a single instance before applying resistances.</p>"
+        },
+        "level": {
+            "value": 14
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "both-of-them-at-once"
+    },
+    "_id": "yTrWNmUTHFtVcqbI"
+}

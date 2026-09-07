@@ -1,0 +1,37 @@
+{
+    "name": "Ghost Protocol",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Duration</strong> for the rest of the scene</p><hr /><p>You become undetected by every creature that cannot already see you, with no check required. You remain undetected for the duration even while moving, and you do not need cover or concealment to maintain it. Making an attack, or taking any action with an obvious effect, ends the effect for creatures that could perceive it.</p>"
+        },
+        "level": {
+            "value": 16
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "scavenger-spy"
+            ]
+        },
+        "slug": "ghost-protocol"
+    },
+    "_id": "8u96rdqjMiSu7zNs"
+}

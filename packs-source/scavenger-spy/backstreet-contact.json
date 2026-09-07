@@ -1,0 +1,37 @@
+{
+    "name": "Backstreet Contact",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> permanent</p><hr /><p>Choose one contact in the Underledger: a fence who buys without asking, a lookout who passes word, or a door that is always unlocked for you. In any settlement where the Underledger has a presence, you can reach that contact with an hour's effort. Once per day the contact will do one minor thing for you at no cost — move a small item, carry a message, or let you through — and will not take a risk it considers real.</p>"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "scavenger-spy"
+            ]
+        },
+        "slug": "backstreet-contact"
+    },
+    "_id": "5oGC2YanZrBpDpJt"
+}

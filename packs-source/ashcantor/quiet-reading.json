@@ -1,0 +1,37 @@
+{
+    "name": "Quiet Reading",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Range</strong> 30 feet</p><p><strong>Targets</strong> 1 dead, dying or undead creature</p><hr /><p>You listen for the shape of a soul's consent. You learn whether the target would currently qualify as a willing subject of a Passing. The answer is yes, no, or not-a-valid-target, and it is always accurate — this reads the soul, not the creature's words, and a creature that is lying about being ready cannot fool it. The answer is a snapshot; a soul that says no can say yes an hour later, and the reverse.</p>"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ashcantor"
+            ]
+        },
+        "slug": "quiet-reading"
+    },
+    "_id": "MAk2jlWwLBSUYyZU"
+}

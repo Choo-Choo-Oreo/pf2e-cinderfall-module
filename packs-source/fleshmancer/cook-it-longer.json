@@ -1,0 +1,37 @@
+{
+    "name": "Cook It Longer",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "free"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per round</p><p><strong>Trigger</strong> You spend 1 action holding a prepared Graft without throwing it.</p><hr /><p>The Graft&rsquo;s damage dice increase by 2 and its save DC increases by 1. If you take damage while holding it, attempt a DC 11 flat check; on a failure it goes off in your own square instead.</p>"
+        },
+        "level": {
+            "value": 16
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "fleshmancer"
+            ]
+        },
+        "slug": "cook-it-longer"
+    },
+    "_id": "c8IkM5hPVhZrGXBa"
+}

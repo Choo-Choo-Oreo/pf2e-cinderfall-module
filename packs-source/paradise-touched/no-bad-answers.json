@@ -1,0 +1,37 @@
+{
+    "name": "No Bad Answers",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Traits</strong> Paradise-Touched</p><hr /><p>The secret flat check the GM rolls after a successful Static effect is DC 3 for you instead of DC 5. It is never removed and never becomes automatic: the GM still rolls it, still rolls it every single time, and still never confirms the result. A natural 1 on that check still fails, so a false answer always remains possible.</p>"
+        },
+        "level": {
+            "value": 18
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "paradise-touched"
+            ]
+        },
+        "slug": "no-bad-answers"
+    },
+    "_id": "HwgZCe6WXYsnTLvr"
+}

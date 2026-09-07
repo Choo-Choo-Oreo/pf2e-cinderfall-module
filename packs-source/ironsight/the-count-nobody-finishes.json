@@ -1,0 +1,37 @@
+{
+    "name": "The Count Nobody Finishes",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "free"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Trigger</strong> You are reduced to 0 Hit Points, or every firearm you wield is emptied at once.</p><hr /><p>There is one more. Immediately make a ranged Strike with each firearm you wield at a +2 circumstance bonus and treating the targets as off-guard, before the triggering effect resolves. If the trigger was being reduced to 0 Hit Points, you then fall as normal, and everyone watching will describe the order of events incorrectly for years.</p>"
+        },
+        "level": {
+            "value": 20
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "the-count-nobody-finishes"
+    },
+    "_id": "7mgX1dWVNCetMm6f"
+}

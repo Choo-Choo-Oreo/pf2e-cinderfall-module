@@ -1,0 +1,38 @@
+{
+    "name": "The Ground Remembers",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Range</strong> unlimited</p><hr /><p>Every [TERRAIN] effect you have ever created that has since been destroyed returns, in the place it stood, at its full original extent. Anything now standing in that space is pushed aside or grown around, and unattended objects in the way are damaged as the growth takes hold. You know, as it happens, how many effects returned and roughly where — a map of your whole career arriving at once.</p>"
+        },
+        "level": {
+            "value": 20
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "seed-warden",
+                "exploration"
+            ]
+        },
+        "slug": "the-ground-remembers"
+    },
+    "_id": "XAHNY2f8A59Ju4jK"
+}

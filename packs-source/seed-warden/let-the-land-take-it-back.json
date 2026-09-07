@@ -1,0 +1,38 @@
+{
+    "name": "Let the Land Take It Back",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per week</p><p><strong>Requirement</strong> The target has a Scar you can work on.</p><hr /><p>Spend a day of downtime working a Scar the way you'd work a ruin back into the ground — not repairing it, unmaking it. Choose one Scar the target carries and remove it entirely: its Slot returns to fully open, with no Gift, no Tithe, and no Minor mutation left in its place. This trades nothing for anything — it's ground with nothing built on it at all.</p>"
+        },
+        "level": {
+            "value": 14
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "seed-warden",
+                "downtime"
+            ]
+        },
+        "slug": "let-the-land-take-it-back"
+    },
+    "_id": "JukKED3QT6TQf2iU"
+}

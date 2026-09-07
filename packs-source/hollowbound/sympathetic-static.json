@@ -1,0 +1,37 @@
+{
+    "name": "Sympathetic Static",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> as Dead Hand's Grip</p><p><strong>Traits</strong> Ghost-Static</p><hr /><p>When you use Dead Hand's Grip, you may target two machines instead of one. The effect is split between them: each may be made to perform a function of half the complexity, or a hostile machine is seized in place for half as long, rounded down to a minimum of 1 round. You cannot spend both halves on one machine.</p>"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "hollowbound"
+            ]
+        },
+        "slug": "sympathetic-static"
+    },
+    "_id": "0kcRGc98ECn3aDEg"
+}

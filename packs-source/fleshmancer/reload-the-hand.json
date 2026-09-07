@@ -1,0 +1,37 @@
+{
+    "name": "Reload the Hand",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "free"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> Your thrown Graft misses, or a creature critically succeeds at its save against it.</p><hr /><p>The Graft is not consumed. It returns to your prepared Grafts and may be thrown again later; the triggering throw deals no damage and has no effect.</p>"
+        },
+        "level": {
+            "value": 8
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "fleshmancer"
+            ]
+        },
+        "slug": "reload-the-hand"
+    },
+    "_id": "HHauWRfanT96ZIvk"
+}

@@ -1,0 +1,37 @@
+{
+    "name": "Static Between",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Requirements</strong> You are broadcasting the Numbers Frequency</p><p><strong>Traits</strong> Signal</p><hr /><p>While you broadcast Numbers, enemies in range take a −1 status penalty to Perception checks and Perception DCs in addition to the −1 status penalty to Will that Numbers already imposes. This is one penalty applied to a second statistic, not a second penalty; the two never add together on the same roll.</p>"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "the-signal"
+            ]
+        },
+        "slug": "static-between"
+    },
+    "_id": "5mbkQLahmIWKxaVi"
+}

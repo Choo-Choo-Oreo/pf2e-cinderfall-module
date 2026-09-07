@@ -1,0 +1,37 @@
+{
+    "name": "Static-Shielded Chassis",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Trigger</strong> You install a cyber-augment on yourself and roll a critical failure resulting in \"Overclocked in\" or \"Drift spike\" on the Install Mishap table.</p><hr /><p>You wired in a bleed valve nobody asked for. When an Install Mishap roll on your own body comes up Overclocked in or Drift spike, halve the extra Drift it would add (round down, minimum the augment's normal listed value). You still keep whatever grade bump or other effect the result grants.</p>"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "scrapwright"
+            ]
+        },
+        "slug": "static-shielded-chassis"
+    },
+    "_id": "X6EZOnFKgyU4x4L4"
+}

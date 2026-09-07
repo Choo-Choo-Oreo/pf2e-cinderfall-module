@@ -1,0 +1,37 @@
+{
+    "name": "Partial Render",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Cost</strong> 1 Bandwidth</p><p><strong>Duration</strong> sustained</p><p><strong>Traits</strong> Paradise-Touched, Glimpse, concentrate</p><hr /><p>Choose a 5-foot cube of unattended, non-magical matter within 30 feet — a section of wall, a door, a patch of floor. For as long as you sustain this, that matter does not exist, leaving an opening. When you stop sustaining it, the matter returns. A creature occupying the space is moved to the nearest space that can hold it and the matter returns anyway; it takes no damage.</p>"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "paradise-touched"
+            ]
+        },
+        "slug": "partial-render"
+    },
+    "_id": "4ajrhqFB0dBXfKLa"
+}

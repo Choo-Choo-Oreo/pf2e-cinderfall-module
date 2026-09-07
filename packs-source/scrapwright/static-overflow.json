@@ -1,0 +1,37 @@
+{
+    "name": "Static Overflow",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "free"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Trigger</strong> You would gain Ghost-Static above your Static Cell's capacity.</p><p><strong>Area</strong> 10-foot emanation</p><p><strong>Saving Throw</strong> Basic Reflex</p><hr /><p>The excess charge cannot be held, so it leaves. Each creature in the area takes 1d6 electricity damage per charge that would have exceeded your capacity, to a maximum of 5d6, with a basic Reflex save against your class DC. You take no damage from your own overflow; your Rig does. The excess charges are spent whether or not the burst does anything.</p>"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "scrapwright"
+            ]
+        },
+        "slug": "static-overflow"
+    },
+    "_id": "eccvEv34eEKpFEgt"
+}

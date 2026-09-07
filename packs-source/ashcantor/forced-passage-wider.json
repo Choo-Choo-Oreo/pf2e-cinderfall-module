@@ -1,0 +1,37 @@
+{
+    "name": "Forced Passage, Wider",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Targets</strong> 2 unwilling creatures, the second adjacent to the first</p><p><strong>Saving Throw</strong> Will vs. your class DC, rolled separately for each target</p><hr /><p>Forced Passage reaches two. The second target must be adjacent to the first. Each target attempts its own Will save against your class DC and the results do not affect one another. The attempt costs one threshold more than a single Forced Passage would, and you pay that cost whether either target is ferried or both resist — the door was opened twice regardless of who went through it.</p>"
+        },
+        "level": {
+            "value": 8
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ashcantor"
+            ]
+        },
+        "slug": "forced-passage-wider"
+    },
+    "_id": "iSC5ErYHdhcS8fMG"
+}

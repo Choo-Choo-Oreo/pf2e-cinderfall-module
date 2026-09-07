@@ -1,0 +1,37 @@
+{
+    "name": "Wildfire",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "free"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Trigger</strong> Two areas of hazardous ground you created come within 15 feet of each other.</p><hr /><p>They reach for each other. The gap between the two areas becomes hazardous ground of the same type, and the whole connected mass counts as a single area for every other Foul Iron feat. A creature caught in the gap when it closes takes the persistent damage immediately.</p>"
+        },
+        "level": {
+            "value": 12
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "wildfire"
+    },
+    "_id": "8D9DFzvmiUDFjlzx"
+}

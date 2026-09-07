@@ -1,0 +1,37 @@
+{
+    "name": "Play It Back",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Cost</strong> 2 Encore</p><p><strong>Traits</strong> Signal, auditory</p><hr /><p>You spend 2 Encore and replay the previous 6 seconds of sound — the last round — audibly to every creature in range, exactly as it occurred. It reproduces sound and nothing else: no images, no thoughts, no unspoken intentions. It is not an illusion and cannot be disbelieved or counteracted. It provides no bonus to any check, though what it proves is often worth more than a bonus.</p>"
+        },
+        "level": {
+            "value": 6
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "the-signal"
+            ]
+        },
+        "slug": "play-it-back"
+    },
+    "_id": "cyGAEA1PaSKNxSqT"
+}

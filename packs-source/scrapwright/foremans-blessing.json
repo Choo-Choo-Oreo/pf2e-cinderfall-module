@@ -1,0 +1,37 @@
+{
+    "name": "Foreman's Blessing",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "free"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You attempt a Crafting check, or you roll on the Slippage Table.</p><p><strong>Requirement</strong> You petitioned the Foreman at 6th level or later, leaving a worthy scrap-offering at a shrine.</p><hr /><p>The weld takes, because He says it takes. Choose one: treat the triggering Crafting check as a success without rolling; or the triggering Slippage result does not occur and has no effect. You do not reroll the Slippage — it simply did not happen.</p>"
+        },
+        "level": {
+            "value": 18
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "scrapwright"
+            ]
+        },
+        "slug": "foremans-blessing"
+    },
+    "_id": "iVy0DAwvPkgYQauY"
+}

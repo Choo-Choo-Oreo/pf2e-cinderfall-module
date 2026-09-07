@@ -1,0 +1,37 @@
+{
+    "name": "Relay",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per hour</p><p><strong>Traits</strong> Signal</p><hr /><p>Choose one willing ally you can see. For 1 hour, that ally counts as being within the range of your Broadcast regardless of the actual distance between you, and regardless of whether you are on the same plane, as long as they are not deafened and are somewhere sound exists. If your Broadcast ends, the ally is simply in range of nothing until you begin another; the hour continues to run.</p>"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "the-signal"
+            ]
+        },
+        "slug": "relay"
+    },
+    "_id": "VJMtCdnFCD16LpIy"
+}

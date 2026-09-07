@@ -1,0 +1,37 @@
+{
+    "name": "Blackout Protocol",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per hour</p><p><strong>Cost</strong> 2 charges of Ghost-Static</p><p><strong>Duration</strong> 1 minute</p><hr /><p>Your Rig cuts its own power and runs cold. For the duration, you and your Rig are concealed, and you are undetectable by any sense that reads heat, power draw, soul-static, or machine signature. While blacked out your Rig cannot use any ability that would announce it — no Redline, no Static Jolt, no attack — because it is not running.</p>"
+        },
+        "level": {
+            "value": 8
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "scrapwright"
+            ]
+        },
+        "slug": "blackout-protocol"
+    },
+    "_id": "lCe2FMiQXwDk7s8I"
+}

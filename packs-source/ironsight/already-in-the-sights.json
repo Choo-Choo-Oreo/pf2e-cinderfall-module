@@ -1,0 +1,37 @@
+{
+    "name": "Already in the Sights",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>The first ranged Strike you make in each encounter is resolved as though it were made at your weapon’s maximum range increment, taking the full distance damage no matter where the target actually stands — across a valley or across the table. You are never off-guard at the start of an encounter, and you may make that Strike even if you have not yet acted in the initiative order.</p>"
+        },
+        "level": {
+            "value": 18
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "already-in-the-sights"
+    },
+    "_id": "Xguwbl91ZlFa1ikI"
+}

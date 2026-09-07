@@ -1,0 +1,37 @@
+{
+    "name": "Warranted",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You fail or critically fail an Install check performed on your own body.</p><p><strong>Requirement</strong> Cyber City issued you Warranted status — granted automatically at 10th level, chrome-attuned.</p><hr /><p>Immediately attempt the check again and take whichever result you prefer — Clean Take (§01) still applies to the reattempt. The status is worth more than the reroll: the counter's Restricted shelf treats you as vetted, no introduction or favor required.</p>"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "remade"
+            ]
+        },
+        "slug": "warranted"
+    },
+    "_id": "76n63loDVlRtzawa"
+}

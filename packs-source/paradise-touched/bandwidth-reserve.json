@@ -1,0 +1,37 @@
+{
+    "name": "Bandwidth Reserve",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Traits</strong> Paradise-Touched</p><hr /><p>If you have at least 1 unspent Bandwidth when you begin a night's rest, you wake with your maximum plus 1 rather than your maximum. If you spent everything, you wake at your maximum as normal. You can never hold more than 1 point above your cap by any means, and the extra point is ordinary Bandwidth once you have it.</p>"
+        },
+        "level": {
+            "value": 8
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "paradise-touched"
+            ]
+        },
+        "slug": "bandwidth-reserve"
+    },
+    "_id": "0hdMH1KCGloQ66Qi"
+}

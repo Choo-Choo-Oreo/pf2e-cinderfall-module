@@ -1,0 +1,37 @@
+{
+    "name": "The Suture Holds",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per round</p><p><strong>Trigger</strong> A creature you have applied a Graft to this encounter would be reduced to 0 Hit Points.</p><p><strong>Cost</strong> 2 Vitae</p><hr /><p>The creature is reduced to 1 Hit Point instead. It cannot benefit from this again until it rests, and any remaining duration on the Graft you applied to it is expended.</p>"
+        },
+        "level": {
+            "value": 18
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "fleshmancer"
+            ]
+        },
+        "slug": "the-suture-holds"
+    },
+    "_id": "loGztva8FfNknrSK"
+}

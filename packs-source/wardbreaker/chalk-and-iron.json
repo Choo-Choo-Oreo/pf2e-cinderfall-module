@@ -1,0 +1,37 @@
+{
+    "name": "Chalk and Iron",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "free"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per round</p><p><strong>Trigger</strong> You Name the Anchor.</p><hr /><p>As part of the same action, draw one Ward-Scrawled Charm and tear or burn it. The Charm resolves whether or not you succeed at Naming the Anchor, and it is spent either way. You must have a hand free to draw it.</p>"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "wardbreaker"
+            ]
+        },
+        "slug": "chalk-and-iron"
+    },
+    "_id": "ij8V42KqyEn8hhe2"
+}

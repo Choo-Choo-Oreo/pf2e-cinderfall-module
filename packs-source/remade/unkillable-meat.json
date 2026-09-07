@@ -1,0 +1,37 @@
+{
+    "name": "Unkillable Meat",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Requirement</strong> bio-attuned</p><p><strong>Duration</strong> constant</p><hr /><p>You gain an additional round before your first stabilization check when dying, on top of Overgrown Load's own extra round, and you gain this benefit starting at Straining Load rather than waiting for Overgrown.</p>"
+        },
+        "level": {
+            "value": 14
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "remade"
+            ]
+        },
+        "slug": "unkillable-meat"
+    },
+    "_id": "7QOcIPds9NMLy9wj"
+}

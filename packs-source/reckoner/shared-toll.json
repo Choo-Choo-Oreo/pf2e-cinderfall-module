@@ -1,0 +1,37 @@
+{
+    "name": "Shared Toll",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "free"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You would advance to a new Reckoning stage.</p><p><strong>Requirement</strong> A willing ally is within 30 feet and can perceive you.</p><hr /><p>The ally takes on half of what you owe. You and the ally each suffer the new stage's toll at half value, rounded in the target's favor where it is a number and shared where it is not — if the stage costs a trained skill, you each lose the use of one for the day. The ally's share is not a Reckoning stage: it does not advance any track the ally has, and it ends when yours does.</p>"
+        },
+        "level": {
+            "value": 8
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "reckoner"
+            ]
+        },
+        "slug": "shared-toll"
+    },
+    "_id": "2Q9mtyPC5pbWtlVg"
+}

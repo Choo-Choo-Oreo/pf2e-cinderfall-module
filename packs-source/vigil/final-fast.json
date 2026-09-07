@@ -1,0 +1,38 @@
+{
+    "name": "Final Fast",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per week</p><hr /><p>Fast without food, water, or rest for a full day. At the end you are drained 2 and your maximum Hit Points are halved until you next make daily preparations. Your next Miracle or Unmaking, taken within 24 hours, succeeds automatically and at the maximum effect its tier allows, with no negotiation about degree. If you do not use it within 24 hours, the cost stands and the benefit is lost.</p>"
+        },
+        "level": {
+            "value": 18
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "vigil",
+                "exploration"
+            ]
+        },
+        "slug": "final-fast"
+    },
+    "_id": "vvbLfAEHdTgsOasI"
+}

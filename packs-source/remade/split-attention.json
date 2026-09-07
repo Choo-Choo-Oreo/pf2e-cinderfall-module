@@ -1,0 +1,37 @@
+{
+    "name": "Split Attention",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>You gain a +1 circumstance bonus to Fortitude saves against anything that would raise your Load, Resonance, or Drift, and a +1 circumstance bonus to Will saves against anything that would make you act against your own judgment because either system is straining.</p>"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "remade"
+            ]
+        },
+        "slug": "split-attention"
+    },
+    "_id": "YqGcjOtRhO7CacdO"
+}

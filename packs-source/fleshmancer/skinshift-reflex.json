@@ -1,0 +1,37 @@
+{
+    "name": "Skinshift Reflex",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per hour</p><p><strong>Trigger</strong> You are the target of a critical hit.</p><p><strong>Cost</strong> 1 Vitae</p><hr /><p>The triggering hit is treated as a normal hit instead of a critical hit. The shed flesh regrows within the hour; until it does, you take a −1 status penalty to Fortitude saves.</p>"
+        },
+        "level": {
+            "value": 6
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "fleshmancer"
+            ]
+        },
+        "slug": "skinshift-reflex"
+    },
+    "_id": "gQ7m2h1UKOqAcFd8"
+}

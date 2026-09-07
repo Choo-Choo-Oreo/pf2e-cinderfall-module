@@ -1,0 +1,37 @@
+{
+    "name": "Pack Grown Strange",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Requirement</strong> Your Feral Bond is at least Alpha stage.</p><p><strong>Duration</strong> constant</p><hr /><p>Wherever Shared Strain lets your Feral Bond carry a mutation, it may instead carry a Major mutation in that Slot, at the same shared-Strain cost to you. Whatever grew in you over the years of the bond, it grew in your Bond too.</p>"
+        },
+        "level": {
+            "value": 14
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "waywarden"
+            ]
+        },
+        "slug": "pack-grown-strange"
+    },
+    "_id": "22hZ6UmrDZULK6XK"
+}

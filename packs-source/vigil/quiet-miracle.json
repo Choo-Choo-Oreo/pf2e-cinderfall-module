@@ -1,0 +1,37 @@
+{
+    "name": "Quiet Miracle",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 3
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Cost</strong> 1 Grace or Cinder</p><hr /><p>Produce an effect between a Lesser and a Greater Miracle in scale, affecting one creature or one object at personal scale — never a building, a crowd, or a region. Work the specific effect out with the GM using §4's Lesser column as the floor and its Greater column as the ceiling. This spends 1 point rather than your full banked resource.</p>"
+        },
+        "level": {
+            "value": 14
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "vigil"
+            ]
+        },
+        "slug": "quiet-miracle"
+    },
+    "_id": "C38RliwgIG9Rwdce"
+}

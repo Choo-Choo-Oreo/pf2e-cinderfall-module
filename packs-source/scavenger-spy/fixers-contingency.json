@@ -1,0 +1,37 @@
+{
+    "name": "Fixer's Contingency",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "free"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You or an ally within 30 feet fails a check, or a plan you stated aloud during preparation fails.</p><hr /><p>Declare the contingency you had already arranged. Choose one: reroll the triggering check with a +2 circumstance bonus; or produce one common item of your level or lower that you had cached nearby in advance; or reveal an escape route out of your current location that the party can reach this round.</p>"
+        },
+        "level": {
+            "value": 12
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "scavenger-spy"
+            ]
+        },
+        "slug": "fixers-contingency"
+    },
+    "_id": "QNi3bisrjjkbEeSJ"
+}

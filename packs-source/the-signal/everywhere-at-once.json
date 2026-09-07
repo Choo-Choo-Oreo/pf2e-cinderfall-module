@@ -1,0 +1,37 @@
+{
+    "name": "Everywhere At Once",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Traits</strong> Signal</p><hr /><p>While you are in exploration or downtime mode, your Broadcast's range is 120 feet instead of 60. The moment initiative is rolled the range returns to 60, including for a Broadcast already in play. Every other property of the Broadcast is unchanged.</p>"
+        },
+        "level": {
+            "value": 14
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "the-signal"
+            ]
+        },
+        "slug": "everywhere-at-once"
+    },
+    "_id": "lX43WXrckZWM0WWp"
+}

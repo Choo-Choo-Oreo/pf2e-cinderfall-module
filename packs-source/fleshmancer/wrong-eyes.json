@@ -1,0 +1,37 @@
+{
+    "name": "Wrong Eyes",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Cost</strong> 1 Vitae</p><p><strong>Duration</strong> 1 minute</p><hr /><p>You gain darkvision, and imprecise scent to 30 feet. For the duration you take a &minus;2 circumstance penalty to Deception checks and to any check that depends on someone reading your face kindly.</p>"
+        },
+        "level": {
+            "value": 6
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "fleshmancer"
+            ]
+        },
+        "slug": "wrong-eyes"
+    },
+    "_id": "ZQHmtKSk95DxxFgV"
+}

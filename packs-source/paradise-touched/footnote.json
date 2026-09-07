@@ -1,0 +1,37 @@
+{
+    "name": "Footnote",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Traits</strong> Paradise-Touched</p><hr /><p>When you Recall Knowledge, you may name aloud a specific dead person whose uploaded mind you are quoting. If the GM rules that person would plausibly have known the answer, you gain a +2 circumstance bonus to the check. You must name someone specific and the GM's ruling is made before you roll.</p>"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "paradise-touched"
+            ]
+        },
+        "slug": "footnote"
+    },
+    "_id": "12QyuKnZOaJXLOrI"
+}

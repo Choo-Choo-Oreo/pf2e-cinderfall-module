@@ -1,0 +1,37 @@
+{
+    "name": "Name and Date",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Traits</strong> Signal</p><hr /><p>You gain a +1 circumstance bonus to Diplomacy and Intimidation checks against a creature when you can publicly and specifically accuse its faction of something true. You must state the accusation aloud, name the faction, and be correct; a vague or unfalsifiable charge grants nothing. The GM is the arbiter of whether an accusation is specific enough and true.</p>"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "the-signal"
+            ]
+        },
+        "slug": "name-and-date"
+    },
+    "_id": "Ah8LhD94Hm6pudOo"
+}

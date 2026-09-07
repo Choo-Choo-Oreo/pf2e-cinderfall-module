@@ -1,0 +1,38 @@
+{
+    "name": "Wear the Room",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Cost</strong> 2 Vitae</p><p><strong>Duration</strong> 1 hour</p><hr /><p>Remodel your own features into those of a specific Small or Medium humanoid you have seen, gaining a +4 circumstance bonus to Impersonate that individual. Anyone who touches you knows immediately &mdash; the temperature is wrong. Ending the form early takes 1 minute and leaves you <em>sickened 1</em>.</p>"
+        },
+        "level": {
+            "value": 12
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "fleshmancer",
+                "exploration"
+            ]
+        },
+        "slug": "wear-the-room"
+    },
+    "_id": "L2uWaOqvNeurxd9b"
+}

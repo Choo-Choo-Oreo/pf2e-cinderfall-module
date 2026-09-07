@@ -1,0 +1,37 @@
+{
+    "name": "Local Repeater",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Requirements</strong> You are broadcasting</p><p><strong>Traits</strong> Signal</p><hr /><p>You place a repeater in an unoccupied 5-foot square within 30 feet. For 1 minute, your Broadcast's range is measured from the repeater as well as from you, so a creature within range of either is in range. The repeater is an object with AC 15 and 10 Hit Points; destroying it ends the effect early, as does ending your Broadcast.</p>"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "the-signal"
+            ]
+        },
+        "slug": "local-repeater"
+    },
+    "_id": "HDgOZHJyLkNvhBsi"
+}

@@ -1,0 +1,37 @@
+{
+    "name": "Quarry's Bane",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Your Strikes against your Marked quarry deal 1 additional die of the weapon's damage type. This increases to 2 additional dice at 14th level and 3 additional dice at 18th level.</p>"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "waywarden"
+            ]
+        },
+        "slug": "quarrys-bane"
+    },
+    "_id": "LEnrcTcEHHi4jqxO"
+}

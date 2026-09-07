@@ -1,0 +1,37 @@
+{
+    "name": "Plague Cloud",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 2
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Cost</strong> 2 Vitae</p><p><strong>Range</strong> 30 feet</p><p><strong>Area</strong> 15-foot burst</p><p><strong>Duration</strong> 1 minute</p><p><strong>Saving Throw</strong> Fortitude</p><hr /><p>Shatter a Graft into a lingering cloud. A creature that ends its turn in the area attempts a Fortitude save against your class DC. On a failure it takes 2d6 poison damage and is <em>sickened 1</em>; on a critical failure, 4d6 poison damage and <em>sickened 2</em>. You may Sustain this effect to move the cloud 15 feet.</p>"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "fleshmancer"
+            ]
+        },
+        "slug": "plague-cloud"
+    },
+    "_id": "3nT7B0oEyayaZdUB"
+}

@@ -1,0 +1,37 @@
+{
+    "name": "Chorus of Donors",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Trigger</strong> You Diagnose a creature bearing at least one bio-augment.</p><hr /><p>When you Diagnose a creature carrying bio-augments, you also read exactly how strained the grafts sit in it: its current Load, its current Resonance, and which of its slots the grafts occupy. If a Grafted or Wild-sourced augment among them carries a donor thread, you catch a flicker of it too — the GM decides how much.</p>"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "plaguesworn"
+            ]
+        },
+        "slug": "chorus-of-donors"
+    },
+    "_id": "PhKzIF3oyaR536jc"
+}

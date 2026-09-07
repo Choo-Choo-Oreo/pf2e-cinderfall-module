@@ -1,0 +1,37 @@
+{
+    "name": "Legendary Patchwork",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>When you Repair an item, a construct, or your Rig without proper tools or a workshop, treat the result as though you had both. Damage you repair this way is fully restored rather than temporarily patched, and an item you fix stays fixed until it is broken again.</p>"
+        },
+        "level": {
+            "value": 14
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "scrapwright"
+            ]
+        },
+        "slug": "legendary-patchwork"
+    },
+    "_id": "xHQyK5TlEpGXjuNe"
+}

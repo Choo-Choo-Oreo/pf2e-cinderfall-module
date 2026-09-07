@@ -1,0 +1,37 @@
+{
+    "name": "Overclock the Iron",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "free"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You make a Strike using a weaponized Black Market cyber-augment.</p><hr /><p>You redline the augment the way you'd redline a scrap gun, and it answers the same way — bigger, once, and it costs you after. Treat the augment as one grade higher for that single Strike. Whether the Strike hits or not, you permanently gain +1 Drift when you do this — the augment doesn't forget being pushed, even if you never do it again.</p>"
+        },
+        "level": {
+            "value": 14
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "overclock-the-iron"
+    },
+    "_id": "r0nsnKHd4L8oajpI"
+}

@@ -1,0 +1,37 @@
+{
+    "name": "Two Channels",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per turn</p><p><strong>Traits</strong> Paradise-Touched</p><hr /><p>On your turn you may declare two Paradise-Touched effects at once, one Signal and one Static — they must have different Declarations. Both are declared before either resolves, and you then choose the order in which they resolve, knowing the outcome of neither. Each carries its own Declaration's consequences in full.</p>"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "paradise-touched"
+            ]
+        },
+        "slug": "two-channels"
+    },
+    "_id": "MMUWpFEoEhQKc7uj"
+}

@@ -1,0 +1,37 @@
+{
+    "name": "The Whole Valley",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Every area of hazardous ground you create is permanent until you choose to end it, and you may maintain any number at once. Areas you have created remain across scenes and days — a building you worked last week is still working. Allies are never affected by any of it, and you may end any of your areas as a free action from any distance, which is the only mercy in this feat.</p>"
+        },
+        "level": {
+            "value": 20
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "the-whole-valley"
+    },
+    "_id": "aIJyZ47elHOP8drq"
+}

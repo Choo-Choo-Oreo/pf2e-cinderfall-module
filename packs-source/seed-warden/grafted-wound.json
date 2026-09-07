@@ -1,0 +1,37 @@
+{
+    "name": "Grafted Wound",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> 1 minute</p><hr /><p>Seed the Wound also grants its target temporary Hit Points equal to your level, lasting 1 minute. These do not stack with themselves — a second casting of Seed the Wound on the same creature replaces any remaining temporary Hit Points from the first rather than adding to them — and they are lost when the duration ends whether or not they were used.</p>"
+        },
+        "level": {
+            "value": 8
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "seed-warden"
+            ]
+        },
+        "slug": "grafted-wound"
+    },
+    "_id": "k5oV7FaJOwcmJpzB"
+}

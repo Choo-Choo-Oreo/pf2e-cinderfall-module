@@ -1,0 +1,37 @@
+{
+    "name": "Feeding the Graft",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Trigger</strong> You critically succeed at a Graft check to install a new augment into your own body.</p><p><strong>Requirement</strong> bio-attuned</p><p><strong>Duration</strong> permanent, per augment</p><hr /><p>That augment's Load cost is reduced by 1 (minimum 1) for as long as it's grafted into you.</p>"
+        },
+        "level": {
+            "value": 12
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "remade"
+            ]
+        },
+        "slug": "feeding-the-graft"
+    },
+    "_id": "7YHjVn99UrLg0a1k"
+}

@@ -1,0 +1,37 @@
+{
+    "name": "Deadeye's Longshot",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Precision damage you deal to your Marked quarry applies at any range, ignoring the usual limit that confines it to closer distances. Range increment penalties to the attack roll itself still apply as normal.</p>"
+        },
+        "level": {
+            "value": 12
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "waywarden"
+            ]
+        },
+        "slug": "deadeyes-longshot"
+    },
+    "_id": "YLIXQCmzNX7hlmRu"
+}

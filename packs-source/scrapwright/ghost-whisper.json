@@ -1,0 +1,38 @@
+{
+    "name": "Ghost Whisper",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Range</strong> 100 feet</p><hr /><p>You open your Static Cell and listen. The lost souls in the area answer with one piece of information about this place — something that happened here, something still present, or something hidden. The answer is fragmentary and the GM phrases it as the dead would: incomplete, out of order, and true. If nothing died here, nothing answers.</p>"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "scrapwright",
+                "exploration"
+            ]
+        },
+        "slug": "ghost-whisper"
+    },
+    "_id": "3dFMBvLNGmkWsV8Q"
+}

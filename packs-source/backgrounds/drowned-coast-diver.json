@@ -25,7 +25,7 @@
             "value": "<p>Made a living pulling scrap, bodies, and the occasional intact vault out of three meters of flooded old-world city, one held breath at a time.</p>"
         },
         "items": {
-            "held-breath": {
+            "feats.held-breath": {
                 "level": 1,
                 "name": "Held Breath"
             }

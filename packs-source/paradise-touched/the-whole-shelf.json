@@ -1,0 +1,37 @@
+{
+    "name": "The Whole Shelf",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Traits</strong> Paradise-Touched, exploration</p><hr /><p>For 10 minutes you are trained in every skill in which you are untrained. Skills in which you are already trained or better are unaffected — this never lowers a proficiency and never raises one above trained. You can attempt checks that require proficiency for the duration, and any activity you began under it that is still running when the duration ends fails if it required a proficiency you no longer have.</p>"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "paradise-touched"
+            ]
+        },
+        "slug": "the-whole-shelf"
+    },
+    "_id": "XYUruOg3bCUICkKc"
+}

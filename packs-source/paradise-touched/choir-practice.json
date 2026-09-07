@@ -1,0 +1,37 @@
+{
+    "name": "Choir Practice",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Traits</strong> Paradise-Touched, mental</p><hr /><p>Allies within your telepathy range gain a +1 circumstance bonus to checks made to Aid one another. This applies to the Aid check itself, not to the check being aided, and it applies whether or not you are the one being aided. If you do not have telepathy, this uses the Chorus Aperture's range of 30 feet.</p>"
+        },
+        "level": {
+            "value": 8
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "paradise-touched"
+            ]
+        },
+        "slug": "choir-practice"
+    },
+    "_id": "J5lyjRFyWd8zT2h0"
+}

@@ -1,0 +1,37 @@
+{
+    "name": "Half-Light Ascendant",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>When you critically succeed at RUST TOUCH, the corrosion spreads to one creature adjacent to the target, which suffers the same -1 item penalty to its worn armor or held metal weapon until repaired. The spread copies the base penalty, not the critical one, and does not spread again from there.</p>"
+        },
+        "level": {
+            "value": 12
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "reckoner"
+            ]
+        },
+        "slug": "half-light-ascendant"
+    },
+    "_id": "iGjQKkLUWkvP5JAh"
+}

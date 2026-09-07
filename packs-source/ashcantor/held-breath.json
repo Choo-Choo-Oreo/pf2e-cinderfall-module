@@ -1,0 +1,37 @@
+{
+    "name": "Held Breath",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "free"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per Walking Through</p><p><strong>Trigger</strong> Your Passage reaches the Cap during an encounter.</p><hr /><p>You hold it. Walking Through does not occur; it is delayed until the end of the current encounter, at which point it happens as normal. For the rest of the encounter you are at the Cap for every other purpose — every effect keyed to your Passage band applies at its highest — and you cannot lower your Passage or delay this again.</p>"
+        },
+        "level": {
+            "value": 8
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ashcantor"
+            ]
+        },
+        "slug": "held-breath"
+    },
+    "_id": "YtoWRIuel2rYFO8q"
+}

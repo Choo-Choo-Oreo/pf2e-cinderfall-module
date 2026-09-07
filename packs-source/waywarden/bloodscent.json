@@ -1,0 +1,37 @@
+{
+    "name": "Bloodscent",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Your Marked quarry can never be hidden or undetected from you or your Feral Bond by ordinary means; it is at best concealed. Magical, technological, or supernatural concealment still functions against you normally.</p>"
+        },
+        "level": {
+            "value": 14
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "waywarden"
+            ]
+        },
+        "slug": "bloodscent"
+    },
+    "_id": "FXu6H8EjeZKkPEhy"
+}

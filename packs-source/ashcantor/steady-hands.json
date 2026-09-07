@@ -1,0 +1,37 @@
+{
+    "name": "Steady Hands",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "free"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per turn</p><p><strong>Trigger</strong> Your turn begins, or you Interact to draw an Ember.</p><hr /><p>Drawing one Ember becomes a free action instead of an Interact. You must have a hand free, and this does not let you draw an Ember you are not carrying. Stowing still costs its usual action.</p>"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ashcantor"
+            ]
+        },
+        "slug": "steady-hands"
+    },
+    "_id": "TwkcWOz0AoWseFr2"
+}

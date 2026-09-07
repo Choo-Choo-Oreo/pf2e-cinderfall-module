@@ -1,0 +1,37 @@
+{
+    "name": "Loud Quiet",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Your Quiet-state boons remain active while you are Unveiled. Every other rule of the two states is unchanged: Unveiled still ends when it normally would, still costs what it normally costs, and the spirit is still no longer entirely you while it lasts.</p>"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "hollowbound"
+            ]
+        },
+        "slug": "loud-quiet"
+    },
+    "_id": "EymhzBXxnSpcaC8T"
+}

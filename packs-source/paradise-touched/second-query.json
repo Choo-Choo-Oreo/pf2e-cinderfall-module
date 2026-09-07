@@ -1,0 +1,37 @@
+{
+    "name": "Second Query",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per hour</p><p><strong>Requirements</strong> You have already used the chosen Glimpse this encounter</p><p><strong>Traits</strong> Paradise-Touched</p><hr /><p>You use a Glimpse you have already used in this encounter without spending any Bandwidth for it. It takes its own actions as normal. This use can only be declared Static — never Signal, and never with Wideband, which declares both at once. Everything else about the Glimpse is unchanged.</p>"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "paradise-touched"
+            ]
+        },
+        "slug": "second-query"
+    },
+    "_id": "Oaxpy0Vf3iAnnWVR"
+}

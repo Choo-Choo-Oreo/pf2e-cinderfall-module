@@ -1,0 +1,37 @@
+{
+    "name": "Ranging Shot",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Trigger</strong> You miss a target with a ranged Strike beyond your first range increment.</p><p><strong>Duration</strong> until the end of the encounter</p><hr /><p>Note where it went. For the rest of the encounter, your ranged Strikes against that specific target reduce the range penalty by 1 for each increment beyond the first, to a minimum of 0. This applies to one target at a time; ranging a new target ends it on the previous one.</p>"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "ranging-shot"
+    },
+    "_id": "tnPDpPUXiDDIngeJ"
+}

@@ -1,0 +1,37 @@
+{
+    "name": "Sovereign of the Bad Roll",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Hot Loading no longer widens your Failure Range at all — you may overcharge every shot you fire, for free, forever. When you do roll a Gun Failure, treat the result as one lower, to a minimum of 1. The die that ends other people’s fights is now a rounding error in yours.</p>"
+        },
+        "level": {
+            "value": 18
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "blowback-sovereign"
+    },
+    "_id": "3qME5JvRFUClNDU7"
+}

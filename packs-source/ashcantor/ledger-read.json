@@ -1,0 +1,37 @@
+{
+    "name": "Ledger-Read",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Range</strong> 30 feet</p><p><strong>Targets</strong> 1 creature or spirit you could attempt a Passing on</p><hr /><p>You read the ledger before you sign it. You learn exactly what that Passing would cost you in thresholds, and whether paying it would move you into a higher band of Passage — including whether it would reach the Cap. The answer accounts for anything currently modifying the cost, such as a deferred cost you are carrying or a Path feature that steepens it.</p>"
+        },
+        "level": {
+            "value": 6
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ashcantor"
+            ]
+        },
+        "slug": "ledger-read"
+    },
+    "_id": "yvPdCZAC0W14m0w8"
+}

@@ -1,0 +1,37 @@
+{
+    "name": "Signal Boost, Permanent",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Traits</strong> Signal</p><hr /><p>Choose one willing ally. That ally permanently counts as being within range of your Broadcast while you are both on the same continent, whether or not you are broadcasting at the time — when you begin a Broadcast, they are in range from the first moment. To choose a different ally, you must spend 1 week of downtime transmitting, during which you can undertake no other downtime activity.</p>"
+        },
+        "level": {
+            "value": 16
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "the-signal"
+            ]
+        },
+        "slug": "signal-boost-permanent"
+    },
+    "_id": "pQdMGpOHdyzWFrAO"
+}

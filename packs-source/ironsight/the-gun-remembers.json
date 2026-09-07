@@ -1,0 +1,37 @@
+{
+    "name": "The Gun Remembers",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> one stored memory at a time</p><p><strong>Requirement</strong> You have a bonded Good Gun.</p><hr /><p>When you critically hit with your bonded Good Gun, it banks the memory. Later, as a free action before any Strike with that weapon, spend the memory to gain a +2 circumstance bonus to that attack roll and treat the result as one degree of success better if it hits. A banked memory persists until spent and is lost if the weapon leaves your possession.</p>"
+        },
+        "level": {
+            "value": 16
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "the-gun-remembers"
+    },
+    "_id": "M6J0GqvjCgfyV1JO"
+}

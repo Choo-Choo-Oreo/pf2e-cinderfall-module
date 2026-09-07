@@ -1,0 +1,37 @@
+{
+    "name": "The Oath Made Manifest",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 2
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Cost</strong> 2 Conviction</p><p><strong>Area</strong> 20-foot emanation, fixed where you cast it</p><p><strong>Duration</strong> 1 minute</p><hr /><p>The Oath becomes ground. Allies in the area, your Ward included, gain a +2 circumstance bonus to AC against Strikes by any creature you have Answered this encounter, and they can't be forcibly moved out of the area. The area doesn't move with you; leave it and it stands without you. This does not extend The Answer to the allies in it — that is what Ascend the Oath does at 20th.</p>"
+        },
+        "level": {
+            "value": 18
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "sworn"
+            ]
+        },
+        "slug": "the-oath-made-manifest"
+    },
+    "_id": "bBHvweUQEhZ18Ayn"
+}

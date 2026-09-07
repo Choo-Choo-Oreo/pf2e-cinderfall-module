@@ -1,0 +1,37 @@
+{
+    "name": "The Change Sticks",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Choose one self-mutation effect you can produce. Its benefits apply to you constantly, at no Vitae cost and with no duration. You cannot suppress it, it is visible, and while it is active you cannot benefit from a second self-mutation of the same kind.</p>"
+        },
+        "level": {
+            "value": 16
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "fleshmancer"
+            ]
+        },
+        "slug": "the-change-sticks"
+    },
+    "_id": "DzjXclAiRpGO4fr6"
+}

@@ -1,0 +1,37 @@
+{
+    "name": "Your Number",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "free"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Trigger</strong> You roll initiative</p><p><strong>Requirements</strong> You are broadcasting or begin a Broadcast this turn</p><p><strong>Traits</strong> Signal, auditory, mental</p><hr /><p>Choose one creature you can perceive. For the rest of the encounter, that creature cannot benefit from fortune effects while it is within range of your Broadcast. Effects that would give it a fortune benefit simply do nothing; misfortune effects on it work normally. If your Broadcast ends, the effect is inert until you begin another, and the creature chosen does not change.</p>"
+        },
+        "level": {
+            "value": 14
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "the-signal"
+            ]
+        },
+        "slug": "your-number"
+    },
+    "_id": "0XlsXaGEfaghU7Nd"
+}

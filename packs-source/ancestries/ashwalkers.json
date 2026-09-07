@@ -52,11 +52,11 @@
                 "level": 0,
                 "name": "Burn-Pit Blood"
             },
-            "iron-stomach": {
+            "ancestry-features.iron-stomach": {
                 "level": 0,
                 "name": "Iron Stomach"
             },
-            "scrap-sense": {
+            "ancestry-features.scrap-sense": {
                 "level": 0,
                 "name": "Scrap Sense"
             }

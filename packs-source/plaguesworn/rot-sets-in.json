@@ -1,0 +1,37 @@
+{
+    "name": "Rot Sets In",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Persistent decay damage you inflict increases by 1d6 at 12th level, and by an additional 1d6 at 16th and at 20th. This applies only to persistent damage, not to the initial damage of the effect that caused it, and it does not change the DC to end the persistent damage.</p>"
+        },
+        "level": {
+            "value": 12
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "plaguesworn"
+            ]
+        },
+        "slug": "rot-sets-in"
+    },
+    "_id": "OcH0mpx53wCMpKen"
+}

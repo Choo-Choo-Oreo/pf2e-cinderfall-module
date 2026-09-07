@@ -1,0 +1,37 @@
+{
+    "name": "Grace Overflow / Cinder Overflow",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "free"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Trigger</strong> You would gain Grace or Cinders while already at your cap.</p><hr /><p>When you would gain Grace or Cinders while already at your cap, the point is not lost. Instead, choose one: regain Hit Points equal to twice your level; end one condition of your level or lower affecting you or an ally you can touch; or gain a +2 status bonus to your next check made within the minute. The overflow point itself is still spent — you gain a boon, not the resource.</p>"
+        },
+        "level": {
+            "value": 8
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "vigil"
+            ]
+        },
+        "slug": "grace-overflow-cinder-overflow"
+    },
+    "_id": "bz2gocWWIsCAeJaM"
+}

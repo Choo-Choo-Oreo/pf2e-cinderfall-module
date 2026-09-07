@@ -1,0 +1,38 @@
+{
+    "name": "Read as Something Else",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Cost</strong> 1 Vitae</p><p><strong>Duration</strong> 1 hour</p><hr /><p>Reshape your face, build and colouring. You gain a +2 circumstance bonus to Deception checks to Impersonate, and you may appear one size category smaller or larger. A creature that touches you, or that observes you for a full minute, may attempt to Perceive the change against your class DC.</p>"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "fleshmancer",
+                "exploration"
+            ]
+        },
+        "slug": "read-as-something-else"
+    },
+    "_id": "fX6ZArnb9e7o0NVZ"
+}

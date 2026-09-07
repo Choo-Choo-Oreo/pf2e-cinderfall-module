@@ -1,0 +1,37 @@
+{
+    "name": "The Choir's Fervor",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>When you would gain Cinders from a qualifying act of destruction — breaking what should be broken, unmaking a work, ending something that was holding on — you progress toward your next point as though you had performed two such acts. This does not raise your cap and does not apply to qualifying acts of other kinds.</p>"
+        },
+        "level": {
+            "value": 12
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "vigil"
+            ]
+        },
+        "slug": "the-choirs-fervor"
+    },
+    "_id": "A31qGuqY4a8m0iun"
+}

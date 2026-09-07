@@ -1,0 +1,38 @@
+{
+    "name": "Unnerving Presence",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> 1 hour</p><hr /><p>You display your patron's sigil openly. For the duration you gain a +2 circumstance bonus to Intimidation checks against anyone who knows what the sigil means, and a -2 circumstance penalty to Diplomacy checks against anyone who knows what the sigil means and disapproves. The GM decides who recognises it. You may end this effect by covering the sigil, which takes 1 action. When you Demoralize, you may use your class DC's key ability modifier in place of Charisma, and you never take the language penalty — the sigil does not need translating.</p>"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "cultist",
+                "exploration"
+            ]
+        },
+        "slug": "unnerving-presence"
+    },
+    "_id": "lSWt0qGdAYMD0g0G"
+}

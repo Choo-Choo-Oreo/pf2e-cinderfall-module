@@ -1,0 +1,37 @@
+{
+    "name": "Deep Shape",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Requirements</strong> You are in Blight-Shape and the needle is at 3 or further out on either side.</p><p><strong>Duration</strong> constant</p><hr /><p>While the needle is at Green 3 or further, or Grey 3 or further, your current Blight-Shape form grants both its Green load and its Grey load at the same time. If the needle moves back inside 3, you keep only the load for the side it is on, and anything the other load was renewing simply stops renewing, exactly as §4 handles a crossing. Nothing is doubled — a form's two loads are different benefits, not two instances of one.</p>"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "seed-warden"
+            ]
+        },
+        "slug": "deep-shape"
+    },
+    "_id": "6PlSkcB87jANQb6v"
+}

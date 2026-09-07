@@ -1,0 +1,37 @@
+{
+    "name": "Four Embers, Steady",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "free"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per round</p><p><strong>Trigger</strong> You would spend an action to move your Ash-Light to a different Ember.</p><hr /><p>Moving your Ash-Light from one Ember you are carrying to another is a free action. Any further switch in the same round costs its usual action. This does not let you switch to an Ember you are not carrying, and it does not let you switch while an effect prevents you from doing so.</p>"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ashcantor"
+            ]
+        },
+        "slug": "four-embers-steady"
+    },
+    "_id": "RQ5Xp7lBlMhsNAbz"
+}

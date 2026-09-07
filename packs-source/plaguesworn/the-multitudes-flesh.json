@@ -1,0 +1,37 @@
+{
+    "name": "The Multitude's Flesh",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Every Afflicted you control shares a single Resonance pool instead of tracking Resonance individually. When you graft a bio-augment into any of your Afflicted, its Resonance goes into the shared pool, and the whole horde's band effects are read off that one total. If the pool would exceed 10 (Legion), it's capped there for the horde exactly as it would be for a single creature.</p>"
+        },
+        "level": {
+            "value": 18
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "plaguesworn"
+            ]
+        },
+        "slug": "the-multitudes-flesh"
+    },
+    "_id": "DA23Q6yqWinCnV1m"
+}

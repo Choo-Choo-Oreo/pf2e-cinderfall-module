@@ -1,0 +1,37 @@
+{
+    "name": "Twin Answer",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "free"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Trigger</strong> You use The Answer.</p><hr /><p>You gain an additional reaction that lasts until the start of your next turn and can be used only for The Answer against a creature other than the one you just Answered. Two threats, two Answers; the second must be a different creature.</p>"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "sworn"
+            ]
+        },
+        "slug": "twin-answer"
+    },
+    "_id": "Ex8MkUWAvyDxaRyO"
+}

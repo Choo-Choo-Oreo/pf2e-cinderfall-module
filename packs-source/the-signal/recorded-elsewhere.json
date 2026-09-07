@@ -1,0 +1,37 @@
+{
+    "name": "Recorded Elsewhere",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "free"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> An ally in range would die</p><p><strong>Traits</strong> Signal, auditory</p><hr /><p>The triggering ally does not die. They are instead reduced to 0 Hit Points, fall unconscious, and are stable, with no dying condition. This works against any cause of death, including death effects and effects that would reduce them to 0 Hit Points and kill them outright. Their wounded value increases by 1 as normal. It does not work if their body is destroyed rather than killed.</p>"
+        },
+        "level": {
+            "value": 12
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "the-signal"
+            ]
+        },
+        "slug": "recorded-elsewhere"
+    },
+    "_id": "89NSyuKeAqkajwGh"
+}

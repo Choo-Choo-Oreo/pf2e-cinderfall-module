@@ -1,0 +1,37 @@
+{
+    "name": "Iron Word",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Targets</strong> 1 creature you can see</p><hr /><p>Name the target aloud and say one thing you will do to it before the end of your next turn: Strike it, Trip it, Shove it, Grapple it, or Disarm it. Until the end of your next turn you gain a +1 circumstance bonus to attack rolls and checks made to do that thing to that creature. If the target can hear and understand you, it heard the contract: it is <em>frightened 1</em>. If the end of your next turn comes and you have not done what you said, the wasteland heard you too: you take a −1 status penalty to attack rolls until the end of the turn after that.</p>"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "sworn"
+            ]
+        },
+        "slug": "iron-word"
+    },
+    "_id": "OWnxMFW7hFqfz5vg"
+}

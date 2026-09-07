@@ -1,0 +1,37 @@
+{
+    "name": "Standing Order",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Traits</strong> Signal</p><hr /><p>The Standing Rerolls granted by your Crescendo last 10 minutes instead of 1 minute. Everything else about Crescendo is unchanged: it still costs 1 action, still requires at least 5 Encore, still spends your entire pool, and still grants each ally in range exactly one Standing Reroll.</p>"
+        },
+        "level": {
+            "value": 14
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "the-signal"
+            ]
+        },
+        "slug": "standing-order"
+    },
+    "_id": "v88Abky6Y8HUZeF9"
+}

@@ -1,0 +1,37 @@
+{
+    "name": "Deeper Silence",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>When a creature fails — but does not critically fail — a saving throw against a Verse of yours that imposes a condition restricting its actions or movement, that effect lasts 1 round longer than it otherwise would. This applies to one such effect per casting and does not extend an effect that was already extended.</p>"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "plaguesworn"
+            ]
+        },
+        "slug": "deeper-silence"
+    },
+    "_id": "j0h4JPcFHIe2g5t6"
+}

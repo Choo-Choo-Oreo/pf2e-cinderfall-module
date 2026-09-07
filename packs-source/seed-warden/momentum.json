@@ -1,0 +1,37 @@
+{
+    "name": "Momentum",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "free"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Trigger</strong> Your needle crosses zero.</p><p><strong>Duration</strong> 1 round</p><hr /><p>The turn carries you. You gain a +1 status bonus to spell attack rolls and to your spell DCs for 1 round. This triggers on the first crossing of each encounter only, whichever direction it goes.</p>"
+        },
+        "level": {
+            "value": 6
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "seed-warden"
+            ]
+        },
+        "slug": "momentum"
+    },
+    "_id": "XhINn2MgMtHF4F1Q"
+}

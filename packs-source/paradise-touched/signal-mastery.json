@@ -1,0 +1,37 @@
+{
+    "name": "Signal Mastery",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Traits</strong> Paradise-Touched</p><hr /><p>The status bonus a Signal declaration grants increases from +2 to +3. At the same time, the damage you take when a Signal effect fails increases from 2 force damage per level to 3 force damage per level. The Signal Drift point is unchanged: still 1, still every time. Both halves of this feat are permanent and neither can be declined on a given effect.</p>"
+        },
+        "level": {
+            "value": 14
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "paradise-touched"
+            ]
+        },
+        "slug": "signal-mastery"
+    },
+    "_id": "zKee3LlGnoBhkluA"
+}

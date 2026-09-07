@@ -1,0 +1,37 @@
+{
+    "name": "Hardened Nerve",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Gain a +2 circumstance bonus to saves against effects that would directly force your actions through your augmentation — a donor thread's compulsion, a technomancy or EMP effect dictating what you do.</p>"
+        },
+        "level": {
+            "value": 14
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "remade"
+            ]
+        },
+        "slug": "hardened-nerve"
+    },
+    "_id": "iacut8iduWnF77qE"
+}

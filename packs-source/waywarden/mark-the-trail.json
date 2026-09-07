@@ -1,0 +1,37 @@
+{
+    "name": "Mark the Trail",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Requirement</strong> You have a Marked quarry.</p><hr /><p>Designate a second creature as a Marked quarry. Your Mark's bonus against this second target is half its normal value, rounded down, and the second Mark ends when your first Mark does.</p>"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "waywarden"
+            ]
+        },
+        "slug": "mark-the-trail"
+    },
+    "_id": "oapTA3O0sq6J3lT1"
+}

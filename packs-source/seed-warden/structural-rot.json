@@ -1,0 +1,37 @@
+{
+    "name": "Structural Rot",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Area</strong> a structure up to 20 feet on a side</p><hr /><p>Soften can target a structure up to 20 feet on a side rather than a single object. The whole targeted volume is affected as one thing — a wall, a floor, a span, a door and its frame — and the spell is otherwise unchanged in rank, duration and casting.</p>"
+        },
+        "level": {
+            "value": 8
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "seed-warden"
+            ]
+        },
+        "slug": "structural-rot"
+    },
+    "_id": "zbZ7tFASXa94gcgD"
+}

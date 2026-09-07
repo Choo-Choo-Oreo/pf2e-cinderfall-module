@@ -1,0 +1,37 @@
+{
+    "name": "Undertow Ascendant",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>A creature slowed 2 by THE SLOW PULL can take no actions except to attempt to break free, which requires a successful Athletics or Acrobatics check against your class DC as a single action; each failed attempt gives it a cumulative +2 circumstance bonus to its next attempt. Success ends THE SLOW PULL. It is not helpless.</p>"
+        },
+        "level": {
+            "value": 12
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "reckoner"
+            ]
+        },
+        "slug": "undertow-ascendant"
+    },
+    "_id": "390FQl7BopYCTFWA"
+}

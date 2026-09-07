@@ -1,0 +1,37 @@
+{
+    "name": "Read the Static",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "free"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> A Static effect of yours resolves successfully</p><p><strong>Traits</strong> Paradise-Touched</p><hr /><p>You ask the GM to reroll the secret flat check for that result. The GM rerolls it and uses the new result, whatever it is — the second roll replaces the first even if the first had succeeded. You are told nothing about either roll, then or ever, exactly as §3 requires.</p>"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "paradise-touched"
+            ]
+        },
+        "slug": "read-the-static"
+    },
+    "_id": "N5ASPtoUD9bnXs30"
+}

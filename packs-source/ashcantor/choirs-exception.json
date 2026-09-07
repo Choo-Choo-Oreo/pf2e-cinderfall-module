@@ -1,0 +1,37 @@
+{
+    "name": "Choir's Exception",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Targets</strong> 1 creature, body or fading spirit that does not meet a Passing's ordinary requirements</p><hr /><p>You perform a Passing on something the rite was not built to reach — a body with nobody left in it, a spirit already halfway gone, a soul with no name you know. Ignore the requirement that the target be an incapacitated or willing spirit or undead creature. The Passing costs two thresholds more than it otherwise would, and you pay that cost whether or not there was anything there to ferry.</p>"
+        },
+        "level": {
+            "value": 12
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ashcantor"
+            ]
+        },
+        "slug": "choirs-exception"
+    },
+    "_id": "dhZT24SPbooyLH4P"
+}

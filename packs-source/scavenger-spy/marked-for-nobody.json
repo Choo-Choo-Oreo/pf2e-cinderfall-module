@@ -1,0 +1,37 @@
+{
+    "name": "Marked for Nobody",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Duration</strong> for the rest of the scene</p><hr /><p>For the duration, attempts to track you, flag you at a checkpoint, match you against a description, or identify you from records automatically fail. Creatures who can currently see you can still follow you with their own eyes.</p>"
+        },
+        "level": {
+            "value": 14
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "scavenger-spy"
+            ]
+        },
+        "slug": "marked-for-nobody"
+    },
+    "_id": "wel0KOCRacFmnc20"
+}

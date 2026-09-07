@@ -1,0 +1,37 @@
+{
+    "name": "Face's Long Con",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> indefinite</p><hr /><p>Choose one false identity you have established. You maintain it without ever attempting a new check to Impersonate, no matter how long it lasts or how many people it is tested against. A creature that has already seen through this identity is unaffected, and a check you are forced to attempt for some other reason still happens normally.</p>"
+        },
+        "level": {
+            "value": 12
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "scavenger-spy"
+            ]
+        },
+        "slug": "faces-long-con"
+    },
+    "_id": "Vj0TJ90WY9MNBAyu"
+}

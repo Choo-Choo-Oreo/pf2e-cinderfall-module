@@ -1,0 +1,37 @@
+{
+    "name": "The Weight of Ash / The Weight of Grace",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Area</strong> 30-foot emanation</p><p><strong>Duration</strong> always active</p><hr /><p>Your Presence extends to a 30-foot emanation. Allies within it gain a +1 status bonus to saves against fear and despair effects; enemies within it take a −1 status penalty to the same. This is passive and always on — it costs nothing, requires no action, and cannot be dismissed.</p>"
+        },
+        "level": {
+            "value": 14
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "vigil"
+            ]
+        },
+        "slug": "the-weight-of-ash-the-weight-of-grace"
+    },
+    "_id": "M5wv8OLP5yXk7Q8N"
+}

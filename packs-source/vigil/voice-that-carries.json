@@ -1,0 +1,37 @@
+{
+    "name": "Voice That Carries",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Requirement</strong> You have Steady Word.</p><hr /><p>When you use Steady Word, or any feat or Liturgy effect that targets a single ally with speech, it instead affects all allies within 30 feet who can hear and understand you. This does not change the effect's action cost or frequency.</p>"
+        },
+        "level": {
+            "value": 14
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "vigil"
+            ]
+        },
+        "slug": "voice-that-carries"
+    },
+    "_id": "nKM3FrrA19uY1DOC"
+}

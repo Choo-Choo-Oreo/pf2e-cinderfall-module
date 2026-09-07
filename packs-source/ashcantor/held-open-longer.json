@@ -1,0 +1,37 @@
+{
+    "name": "Held Open, Longer",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Held Open's window lasts 1 additional round. Everything else about it is unchanged — the same once-per-encounter frequency, the same ally, the same reach. The gate simply takes a beat longer to reseal.</p>"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ashcantor"
+            ]
+        },
+        "slug": "held-open-longer"
+    },
+    "_id": "yRWK2Wbpyeflp0po"
+}

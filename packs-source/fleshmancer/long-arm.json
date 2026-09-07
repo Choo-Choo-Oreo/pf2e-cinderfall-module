@@ -1,0 +1,37 @@
+{
+    "name": "Long Arm",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Your thrown Grafts&rsquo; range increment increases from 30 feet to 60 feet, and you do not take the &minus;2 circumstance penalty for throwing a Graft while an enemy is adjacent to you.</p>"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "fleshmancer"
+            ]
+        },
+        "slug": "long-arm"
+    },
+    "_id": "4kD8VNTwPGcmydnp"
+}

@@ -1,0 +1,37 @@
+{
+    "name": "Cold Open",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "free"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Trigger</strong> You roll initiative</p><p><strong>Traits</strong> Signal</p><hr /><p>You begin a Broadcast. It is up before any creature takes its first turn, whatever your initiative result, and you gain Encore at the start of your first turn as normal. If you are unable to act when the encounter begins, you cannot use this.</p>"
+        },
+        "level": {
+            "value": 12
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "the-signal"
+            ]
+        },
+        "slug": "cold-open"
+    },
+    "_id": "bCMGaOtZsVNJ8qDp"
+}

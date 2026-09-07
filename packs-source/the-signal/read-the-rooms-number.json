@@ -1,0 +1,37 @@
+{
+    "name": "Read the Room's Number",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Cost</strong> 5 Encore</p><p><strong>Prerequisites</strong> access to The Gap</p><p><strong>Traits</strong> Signal</p><hr /><p>You spend 5 Encore and apply The Gap to every enemy in range at once, resolving it separately against each. Your Broadcast then ends, and you cannot begin another for 1 hour. Nothing that depends on broadcasting works during that hour: no Encore is gained, no Frequency applies, and no ally can spend Encore, because there is no pool.</p>"
+        },
+        "level": {
+            "value": 16
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "the-signal"
+            ]
+        },
+        "slug": "read-the-rooms-number"
+    },
+    "_id": "A1PntmMOPIBOQpN2"
+}

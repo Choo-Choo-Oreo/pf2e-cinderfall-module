@@ -1,0 +1,37 @@
+{
+    "name": "Trick Iron Ascendant",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Trigger</strong> A firearm you are wielding gains the Jammed condition.</p><hr /><p>Immediately clear the weapon and reload it, both as part of the triggering event and at no action cost. This has no frequency limit — a Gun Failure is its own trigger, and failures are not something you choose to suffer. Each one also banks a Trick Iron charge as normal, so the round the gun betrays you is the round you gain on it.</p>"
+        },
+        "level": {
+            "value": 12
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "trick-iron-ascendant"
+    },
+    "_id": "aRei8FwKgz1Nh3nr"
+}

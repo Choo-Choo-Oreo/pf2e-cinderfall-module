@@ -1,0 +1,38 @@
+{
+    "name": "Ward the Graft",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Requirement</strong> You possess a bio-augment.</p><hr /><p>You bind your Ward into one bio-augment you carry rather than into an object you hold or wear separately. The augment functions exactly as it did before, and your Ward functions exactly as it did before; the two simply now occupy the same slot on your body instead of two. This doesn't change either's Load, Resonance, or price.</p>"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "wardbreaker",
+                "exploration"
+            ]
+        },
+        "slug": "ward-the-graft"
+    },
+    "_id": "AOOu5C0GuU56Kmw2"
+}

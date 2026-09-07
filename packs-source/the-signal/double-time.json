@@ -1,0 +1,37 @@
+{
+    "name": "Double Time",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "free"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Trigger</strong> Your turn begins while you are broadcasting</p><p><strong>Traits</strong> Signal</p><hr /><p>You gain 2 Encore from the start of your turn instead of 1. Your cap applies normally: if the second point would take you past it, that point is lost like any other overflow, and this feat's use is still expended.</p>"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "the-signal"
+            ]
+        },
+        "slug": "double-time"
+    },
+    "_id": "vjw0HsAfTl6I9l8j"
+}

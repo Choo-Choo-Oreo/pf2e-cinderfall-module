@@ -1,0 +1,37 @@
+{
+    "name": "Twin Cut",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Requirement</strong> Both Grafts have the same Vitae cost.</p><hr /><p>When you prepare Grafts for the day, choose two you know of equal Vitae cost and pay that cost once for both. If you would prepare fewer than your normal daily maximum this way, this feat costs you nothing extra; it does not increase how many Grafts you may carry.</p>"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "fleshmancer"
+            ]
+        },
+        "slug": "twin-cut"
+    },
+    "_id": "zmLDbtGOzFARpCk9"
+}

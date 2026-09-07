@@ -1,0 +1,37 @@
+{
+    "name": "Integrated Iron",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Requirement</strong> You have a bonded Trick Iron and access to a cyber-augment install (Arm slot).</p><hr /><p>You have your Trick Iron built directly into an Arm-slot cyber-augment instead of carried in a holster. It counts as both your bonded weapon and your Arm-slot augment for all purposes — it takes the Arm slot's Drift like any augment, but it cannot be disarmed, dropped, or physically separated from you short of the slot itself being removed. Drawing it for the first time each turn no longer requires an Interact.</p>"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "integrated-iron"
+    },
+    "_id": "EmfpCDzAUaaPqC4q"
+}

@@ -1,0 +1,38 @@
+{
+    "name": "Cultured Hands",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Requirement</strong> You are personally performing the graft, as the surgeon.</p><p><strong>Cost</strong> 1 Vitae</p><hr /><p>When you personally perform a bio-augment graft — on yourself or a willing patient — and spend 1 Vitae as part of the procedure, treat the augment's sourcing as Cultured for the purpose of its Resonance value, regardless of whether the tissue was actually Grafted or Wild stock. This changes only the Resonance it adds; its price, its lead time, and a Grafted or Wild source's donor thread or rider are unchanged.</p>"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "fleshmancer",
+                "exploration"
+            ]
+        },
+        "slug": "cultured-hands"
+    },
+    "_id": "hL4e5bvZW3014j4q"
+}

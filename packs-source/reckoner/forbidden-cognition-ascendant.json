@@ -1,0 +1,37 @@
+{
+    "name": "Forbidden Cognition Ascendant",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>You may use THE ANSWER on yourself rather than on a target, asking after a hidden threat: the trap in this room, the creature that is watching, the thing that will kill you first. You learn one true, specific fact about it with no ordinary means of knowing it, and you pay THE ANSWER's usual small immediate cost, unchanged.</p>"
+        },
+        "level": {
+            "value": 16
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "reckoner"
+            ]
+        },
+        "slug": "forbidden-cognition-ascendant"
+    },
+    "_id": "1TuXvFCgwjfiQH7r"
+}

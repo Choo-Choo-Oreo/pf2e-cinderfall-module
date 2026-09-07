@@ -1,0 +1,37 @@
+{
+    "name": "Every Gun in the Wasteland",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>You are legendary with every firearm regardless of category, familiarity, or condition. Any firearm you hold loses a Failure Range for as long as you hold it, and you may use any feat on this page that names a specific weapon type with any firearm at all, provided the fiction survives the substitution.</p>"
+        },
+        "level": {
+            "value": 20
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "every-gun-in-the-wasteland"
+    },
+    "_id": "M5VWwU3YY53qUfqt"
+}

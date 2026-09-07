@@ -1,0 +1,37 @@
+{
+    "name": "Early Airtime",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Traits</strong> Signal</p><hr /><p>You gain access to The Gap at 10th level even if the Numbers Frequency is not yours, and you can use it while broadcasting any Frequency. Until you reach 15th level it costs 4 Encore instead of 3; from 15th level on it costs 3. If you have the Numbers Frequency, this feat changes only the level and the cost.</p>"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "the-signal"
+            ]
+        },
+        "slug": "early-airtime"
+    },
+    "_id": "6cn4D1URlxDvIB1a"
+}

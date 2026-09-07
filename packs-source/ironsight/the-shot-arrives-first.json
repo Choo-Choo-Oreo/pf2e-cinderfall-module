@@ -1,0 +1,37 @@
+{
+    "name": "The Shot Arrives First",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Your ranged Strikes ignore all range increments and their penalties out to your weapon's maximum range, and any target that has not yet acted in an encounter is off-guard against your Strikes. A target you hit does not learn your position from the shot itself unless it can otherwise see you.</p>"
+        },
+        "level": {
+            "value": 20
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "the-shot-arrives-first"
+    },
+    "_id": "k2tXjIaSiE3Bc4k3"
+}

@@ -1,0 +1,37 @@
+{
+    "name": "Two Hands, One Verdict",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Requirement</strong> You are wielding two firearms.</p><p><strong>Duration</strong> constant</p><hr /><p>Every action you take that makes a ranged Strike makes one with each firearm, at no additional cost and with no multiple attack penalty between them. Both weapons are emptied as normal, and Never Both Empty or Legendary Reload, if you have either, keeps this sustainable.</p>"
+        },
+        "level": {
+            "value": 20
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "two-hands-one-verdict"
+    },
+    "_id": "OEyFf8cIyiJwKa6p"
+}

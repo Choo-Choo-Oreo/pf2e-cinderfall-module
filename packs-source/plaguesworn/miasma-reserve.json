@@ -1,0 +1,37 @@
+{
+    "name": "Miasma Reserve",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> until your next Refocus</p><hr /><p>When you Refocus, you may recover 1 Miasma beyond your usual maximum, holding it in reserve. You cannot bank more than 1 point this way, you cannot bank a point while already holding one, and the banked point is lost the next time you Refocus, whether or not you spent it. Spending Miasma always draws from the banked point first.</p>"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "plaguesworn"
+            ]
+        },
+        "slug": "miasma-reserve"
+    },
+    "_id": "YfG8PzYLtspm8CqZ"
+}

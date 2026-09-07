@@ -1,0 +1,37 @@
+{
+    "name": "Borrowed Moment",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "free"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You would advance to a new Reckoning stage.</p><hr /><p>You hold the ledger open a moment longer. The new stage does not take effect yet: you continue at your current stage, and its toll arrives in full at the end of the current scene. You cannot delay the same stage twice, and delaying does not reduce, cancel, or reorder anything — the price is the same price, paid late.</p>"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "reckoner"
+            ]
+        },
+        "slug": "borrowed-moment"
+    },
+    "_id": "3bVfhw7lscicptgu"
+}

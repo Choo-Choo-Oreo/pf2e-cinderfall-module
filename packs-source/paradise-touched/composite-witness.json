@@ -1,0 +1,38 @@
+{
+    "name": "Composite Witness",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Requirements</strong> Declared Signal</p><p><strong>Traits</strong> Paradise-Touched, divination, exploration</p><hr /><p>Over an hour you assemble a single account of one past event from every uploaded mind that witnessed it. The GM narrates what those witnesses collectively saw and heard, noting where they disagree. Because this is declared Signal, what you get is real: it is not subject to a Static flat check and cannot be false. There is no roll, so there is no failure and no Drift — the only limit is that an event no uploaded mind witnessed produces nothing.</p>"
+        },
+        "level": {
+            "value": 12
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "paradise-touched",
+                "exploration"
+            ]
+        },
+        "slug": "composite-witness"
+    },
+    "_id": "DdIhQF2Uqoc0MrDI"
+}

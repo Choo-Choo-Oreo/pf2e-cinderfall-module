@@ -1,0 +1,37 @@
+{
+    "name": "Slow Burn",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Hazardous ground you create lasts 10 minutes instead of 1, and its persistent damage no longer allows the usual flat check to end early while a creature remains within the area. Stepping out of the area restores the ordinary flat check. What you put down stays down.</p>"
+        },
+        "level": {
+            "value": 6
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "slow-burn"
+    },
+    "_id": "fJD5RKB8bsnBu33T"
+}

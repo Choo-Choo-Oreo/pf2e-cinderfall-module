@@ -1,0 +1,37 @@
+{
+    "name": "Borrowed Warmth",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Range</strong> touch</p><p><strong>Targets</strong> 1 willing ally</p><p><strong>Duration</strong> 10 minutes</p><hr /><p>You share what Low Passage gave you. For the duration, the target can see and briefly speak with the recently dead in its presence exactly as you can, and Embers it holds glow faintly warm to the touch. It does not gain any other benefit of your Passage, and it does not accrue Passage of its own — this is borrowed, and it is the only thing being lent.</p>"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ashcantor"
+            ]
+        },
+        "slug": "borrowed-warmth"
+    },
+    "_id": "OdNADKqYhdguVrf9"
+}

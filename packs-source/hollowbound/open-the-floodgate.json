@@ -1,0 +1,37 @@
+{
+    "name": "Open the Floodgate",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 2
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Area</strong> 30-foot emanation</p><hr /><p>You open the Hollow to every unbound Drifter within reach. Every creature in a 30-foot emanation is subjected to your Covenant's signature effect at once — Dead Hand's Grip, Borrowed Grief, or The Long View — at its greatest intensity, with no target selection and no way to exclude allies. Afterward you suffer the maximum result on your Fraying die automatically. You do not roll, Weathered Seal cannot downgrade it, and no ability of yours or anyone else's may prevent, reduce, or delay it.</p>"
+        },
+        "level": {
+            "value": 18
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "hollowbound"
+            ]
+        },
+        "slug": "open-the-floodgate"
+    },
+    "_id": "XL6bE6qssUnmcDf8"
+}

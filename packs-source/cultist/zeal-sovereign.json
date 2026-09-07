@@ -1,0 +1,37 @@
+{
+    "name": "Zeal Sovereign",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> until the encounter ends</p><hr /><p>While you are in an encounter, your Zeal pool has no maximum and Zeal gained from any source accumulates without limit. Additionally, you may spend Zeal you do not have, down to a deficit of 3; a deficit is repaid from the next Zeal you gain. When the encounter ends, your Zeal returns to its normal value, and if you end an encounter in deficit you take 4d6 mental damage per point of deficit outstanding — the account closes whether or not you are ready.</p>"
+        },
+        "level": {
+            "value": 18
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "cultist"
+            ]
+        },
+        "slug": "zeal-sovereign"
+    },
+    "_id": "PFdoAYaugbVkUp5N"
+}

@@ -1,0 +1,38 @@
+{
+    "name": "Grafted Companion",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Cost</strong> 2 Vitae</p><hr /><p>Grow a Small symbiotic creature from your own flesh. It acts on your initiative, using your proficiencies, has Hit Points equal to 5 times your level, and takes 1 action on your turn without you spending an action to command it. If it is reduced to 0 Hit Points it dissolves; you may regrow it the next time you spend 10 minutes and 2 Vitae. It cannot be more than 30 feet from you or it dissolves.</p>"
+        },
+        "level": {
+            "value": 8
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "fleshmancer",
+                "exploration"
+            ]
+        },
+        "slug": "grafted-companion"
+    },
+    "_id": "0TmwlkWJy9wTjGJE"
+}

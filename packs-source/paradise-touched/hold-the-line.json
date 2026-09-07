@@ -1,0 +1,37 @@
+{
+    "name": "Hold the Line",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Traits</strong> Paradise-Touched</p><hr /><p>The first time each day that a Signal-declared effect of yours fails, you gain no Signal Drift from it. This is not optional and applies to the first failure whether or not you wanted to spend it there. You still take the force damage in full. Paradise registers the flinch; the GM may make something of that.</p>"
+        },
+        "level": {
+            "value": 12
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "paradise-touched"
+            ]
+        },
+        "slug": "hold-the-line"
+    },
+    "_id": "NvFUeCUMqh6JsAuB"
+}

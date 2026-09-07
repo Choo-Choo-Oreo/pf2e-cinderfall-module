@@ -1,0 +1,37 @@
+{
+    "name": "Second Channel",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Traits</strong> Signal</p><hr /><p>When you use the Sustain a Spell action, you may choose two of your Transmissions rather than one, and both are sustained. This does not extend to spells that are not Transmissions, and it does not let you sustain the same Transmission twice.</p>"
+        },
+        "level": {
+            "value": 8
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "the-signal"
+            ]
+        },
+        "slug": "second-channel"
+    },
+    "_id": "HFWhe1KsXs3FY3rr"
+}

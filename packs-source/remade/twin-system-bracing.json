@@ -1,0 +1,37 @@
+{
+    "name": "Twin-System Bracing",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> An effect that specifically targets augmented creatures would knock you prone, make you off-guard, or reduce your Speed.</p><hr /><p>Negate that effect entirely for this instance.</p>"
+        },
+        "level": {
+            "value": 8
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "remade"
+            ]
+        },
+        "slug": "twin-system-bracing"
+    },
+    "_id": "fsBQMyAuhidPOR4h"
+}

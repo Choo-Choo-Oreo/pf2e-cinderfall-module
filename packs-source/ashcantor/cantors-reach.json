@@ -1,0 +1,37 @@
+{
+    "name": "Cantor's Reach",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Range</strong> 30 feet</p><hr /><p>You no longer need a hand on them. A Passing you perform can target a creature within 30 feet instead of only an adjacent one. You must be able to see the target and have a clear line of effect to it; a Passing performed at range is otherwise identical, including its Passage cost, its requirements and how long it takes.</p>"
+        },
+        "level": {
+            "value": 12
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ashcantor"
+            ]
+        },
+        "slug": "cantors-reach"
+    },
+    "_id": "hMuBVG0HmF3eZt4n"
+}

@@ -1,0 +1,37 @@
+{
+    "name": "Shieldwall Instinct",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Trigger</strong> A creature targets your Ward with a Strike while the Ward is within 10 feet of you.</p><p><strong>Effect</strong> see below</p><hr /><p>You Step toward the Ward. If you end the Step adjacent to the Ward and the attacker could have targeted you with the triggering Strike, the Strike targets you instead. You find out afterward: this reaction is not a choice you make in the moment, so you can't decline the redirect once you have Stepped, and you can't use The Answer against the same triggering Strike.</p>"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "sworn"
+            ]
+        },
+        "slug": "shieldwall-instinct"
+    },
+    "_id": "J1C978GuPqCa16jn"
+}
