@@ -1,0 +1,44 @@
+{
+    "name": "Static Reader",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "skill",
+        "description": {
+            "value": "<p>Bonus to sense the presence and general mood of nearby bound souls or ghost-machines.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Trained"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "static-reader"
+    },
+    "_id": "dDXYYIvHDZe45h6v",
+    "flags": {
+        "cinderfall": {
+            "incomplete": [
+                "proficiency prerequisite 'Trained' names no skill",
+                "level is a stub (1); the source card carries none"
+            ]
+        }
+    }
+}

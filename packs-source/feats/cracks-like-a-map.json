@@ -1,0 +1,34 @@
+{
+    "name": "Cracks Like a Map",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "ancestry",
+        "description": {
+            "value": "<p>Bonus to Deception checks made specifically to bluff about your own condition or injuries — the cracks lie about how bad it really is, if you let them.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "cinderborn"
+            ]
+        },
+        "slug": "cracks-like-a-map"
+    },
+    "_id": "UivM0JWhcYqej12t"
+}

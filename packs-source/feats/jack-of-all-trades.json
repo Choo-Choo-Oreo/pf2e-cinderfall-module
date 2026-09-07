@@ -1,0 +1,38 @@
+{
+    "name": "Jack of All Trades",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "ancestry",
+        "description": {
+            "value": "<p>Generalist's Edge can be used twice per day, and its benefit now lasts a full encounter instead of a single check.</p>"
+        },
+        "level": {
+            "value": 5
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Generalist's Edge"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "human"
+            ]
+        },
+        "slug": "jack-of-all-trades"
+    },
+    "_id": "LLDc5x26jHckuP6L"
+}

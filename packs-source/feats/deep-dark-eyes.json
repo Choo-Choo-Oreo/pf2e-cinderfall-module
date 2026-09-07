@@ -1,0 +1,38 @@
+{
+    "name": "Deep-Dark Eyes",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "ancestry",
+        "description": {
+            "value": "<p>Darkvision functions in magical darkness as well as mundane, and Tunnel-Dark Eyes' scent-based Perception bonus increases and extends to 60 feet.</p>"
+        },
+        "level": {
+            "value": 13
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Tunnel-Dark Eyes"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ratkin"
+            ]
+        },
+        "slug": "deep-dark-eyes"
+    },
+    "_id": "aGHx7NSiu82Njkvv"
+}

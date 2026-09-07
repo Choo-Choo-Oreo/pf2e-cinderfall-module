@@ -1,0 +1,38 @@
+{
+    "name": "The Fragment's Full Voice",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "ancestry",
+        "description": {
+            "value": "<p>The initiative bonus from The Fragment Speaks becomes permanent and passive rather than a once-per-day trigger.</p>"
+        },
+        "level": {
+            "value": 13
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "The Fragment Speaks"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "residual"
+            ]
+        },
+        "slug": "the-fragments-full-voice"
+    },
+    "_id": "nIejMhxHMXfB2Eth"
+}

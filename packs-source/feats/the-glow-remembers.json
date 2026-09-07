@@ -1,0 +1,34 @@
+{
+    "name": "The Glow Remembers",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "ancestry",
+        "description": {
+            "value": "<p>Once per day, release a massive burst of stored radiation in a wide area — at the cost of losing Ambient Glow's light entirely until your next rest. It's spent.</p>"
+        },
+        "level": {
+            "value": 17
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "glassblood"
+            ]
+        },
+        "slug": "the-glow-remembers"
+    },
+    "_id": "NTHKJ5dhpkn46Ttf"
+}

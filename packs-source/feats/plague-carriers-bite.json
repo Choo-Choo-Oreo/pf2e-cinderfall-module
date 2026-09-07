@@ -1,0 +1,38 @@
+{
+    "name": "Plague Carrier's Bite",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "ancestry",
+        "description": {
+            "value": "<p>Once per day, when grappled, restrained, or hit in melee by your jaws, expose that creature to a minor wasting sickness without taking any harm from it yourself.</p>"
+        },
+        "level": {
+            "value": 9
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Vermin's Constitution"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ratkin"
+            ]
+        },
+        "slug": "plague-carriers-bite"
+    },
+    "_id": "4Zyl2MCsweAeBZpp"
+}

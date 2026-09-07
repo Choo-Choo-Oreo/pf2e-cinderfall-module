@@ -1,0 +1,44 @@
+{
+    "name": "Broker of Debts",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "skill",
+        "description": {
+            "value": "<p>Can formally arrange a favor-based transaction (an IOU) that local factions and merchants recognize as binding.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Expert"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "broker-of-debts"
+    },
+    "_id": "HFdaH1Dz2VfgnYv9",
+    "flags": {
+        "cinderfall": {
+            "incomplete": [
+                "proficiency prerequisite 'Expert' names no skill",
+                "level is a stub (1); the source card carries none"
+            ]
+        }
+    }
+}

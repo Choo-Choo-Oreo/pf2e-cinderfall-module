@@ -1,0 +1,38 @@
+{
+    "name": "Cracks Unhidden",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "ancestry",
+        "description": {
+            "value": "<p>Choose to fully suppress Hairline Cracks' glow at will, reversing the usual drawback exactly when you need to.</p>"
+        },
+        "level": {
+            "value": 13
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Bright Cinderborn heritage or Cracks Like a Map"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "cinderborn"
+            ]
+        },
+        "slug": "cracks-unhidden"
+    },
+    "_id": "nhkqfD3uKpkU4zFH"
+}

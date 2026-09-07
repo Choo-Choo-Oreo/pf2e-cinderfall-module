@@ -1,0 +1,38 @@
+{
+    "name": "Iron Gut Vermin",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "ancestry",
+        "description": {
+            "value": "<p>Vermin's Constitution's resistance to poison and disease increases, and you can safely eat and drink things that would sicken most people.</p>"
+        },
+        "level": {
+            "value": 5
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Vermin's Constitution"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ratkin"
+            ]
+        },
+        "slug": "iron-gut-vermin"
+    },
+    "_id": "ox2XUvs3k34KwyXV"
+}

@@ -1,0 +1,38 @@
+{
+    "name": "Burn-Pit Legend",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "ancestry",
+        "description": {
+            "value": "<p>Fire resistance increases enough that ordinary fire, not just heat exhaustion, barely troubles you.</p>"
+        },
+        "level": {
+            "value": 9
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Burn-Pit Hardened"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ashwalker"
+            ]
+        },
+        "slug": "burn-pit-legend"
+    },
+    "_id": "M6KeSNaA9WmVErqo"
+}

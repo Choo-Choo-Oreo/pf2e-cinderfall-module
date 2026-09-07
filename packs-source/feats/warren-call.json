@@ -1,0 +1,38 @@
+{
+    "name": "Warren-Call",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "ancestry",
+        "description": {
+            "value": "<p>Loose an ultrasonic call: every Ratkin ally within 60 feet becomes aware of your location and general urgency through walls and around corners, and gains a bonus to their next initiative roll.</p>"
+        },
+        "level": {
+            "value": 9
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Colony Instinct"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ratkin"
+            ]
+        },
+        "slug": "warren-call"
+    },
+    "_id": "WK4cmQRDEor0f3bV"
+}

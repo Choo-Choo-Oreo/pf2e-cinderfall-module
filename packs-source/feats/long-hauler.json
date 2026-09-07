@@ -1,0 +1,44 @@
+{
+    "name": "Long Hauler",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "skill",
+        "description": {
+            "value": "<p>Reduce the food, water, and fuel consumed by your group on long treks.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Expert"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "long-hauler"
+    },
+    "_id": "fd12LHOkagR5n7xI",
+    "flags": {
+        "cinderfall": {
+            "incomplete": [
+                "proficiency prerequisite 'Expert' names no skill",
+                "level is a stub (1); the source card carries none"
+            ]
+        }
+    }
+}

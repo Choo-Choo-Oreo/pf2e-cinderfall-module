@@ -1,0 +1,38 @@
+{
+    "name": "Shared Hymn",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "ancestry",
+        "description": {
+            "value": "<p>The steadying bonus from the Warding Hymnkin heritage, if taken, can now affect two allies instead of one.</p>"
+        },
+        "level": {
+            "value": 5
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Warding Hymnkin heritage or Harmonic Warning"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "hymnkin"
+            ]
+        },
+        "slug": "shared-hymn"
+    },
+    "_id": "jXFQOye4G9aGI8fb"
+}

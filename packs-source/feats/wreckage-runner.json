@@ -1,0 +1,44 @@
+{
+    "name": "Wreckage Runner",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "skill",
+        "description": {
+            "value": "<p>Move at full Speed across unstable rubble and debris fields, ignoring the usual difficult-terrain penalty.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Expert"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "wreckage-runner"
+    },
+    "_id": "NsNkvjr1tcQSTTDe",
+    "flags": {
+        "cinderfall": {
+            "incomplete": [
+                "proficiency prerequisite 'Expert' names no skill",
+                "level is a stub (1); the source card carries none"
+            ]
+        }
+    }
+}

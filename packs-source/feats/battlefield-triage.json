@@ -1,0 +1,44 @@
+{
+    "name": "Battlefield Triage",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "skill",
+        "description": {
+            "value": "<p>Treat an ally's wounds mid-combat with a single action instead of requiring downtime.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Trained"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "battlefield-triage"
+    },
+    "_id": "XG9U6MyQOTlWoZsZ",
+    "flags": {
+        "cinderfall": {
+            "incomplete": [
+                "proficiency prerequisite 'Trained' names no skill",
+                "level is a stub (1); the source card carries none"
+            ]
+        }
+    }
+}

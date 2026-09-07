@@ -1,0 +1,32 @@
+{
+    "name": "Unshakeable",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "general",
+        "description": {
+            "value": "<p>You're no longer affected by frightened 1 at all; only frightened 2 or higher affects you, and then at one less.</p>"
+        },
+        "level": {
+            "value": 11
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "unshakeable"
+    },
+    "_id": "EQpmqOQpdFbzzle5"
+}

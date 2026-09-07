@@ -1,0 +1,44 @@
+{
+    "name": "Faction Face",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "skill",
+        "description": {
+            "value": "<p>Bonus to Diplomacy and Society checks made with a faction that already knows your reputation.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Expert"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "faction-face"
+    },
+    "_id": "6rVhJHCoqxd3I0xU",
+    "flags": {
+        "cinderfall": {
+            "incomplete": [
+                "proficiency prerequisite 'Expert' names no skill",
+                "level is a stub (1); the source card carries none"
+            ]
+        }
+    }
+}

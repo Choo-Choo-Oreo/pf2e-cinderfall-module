@@ -1,0 +1,34 @@
+{
+    "name": "Familiar Stranger",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "ancestry",
+        "description": {
+            "value": "<p>Once per day, immediately retry a failed Diplomacy or Deception check as the fragment's memory of \"how this actually goes\" surfaces.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "residual"
+            ]
+        },
+        "slug": "familiar-stranger"
+    },
+    "_id": "GghV5nhDahECSWFe"
+}

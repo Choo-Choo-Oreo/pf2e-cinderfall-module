@@ -1,0 +1,34 @@
+{
+    "name": "Colony Instinct",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "ancestry",
+        "description": {
+            "value": "<p>While at least one other Ratkin is within 15 feet, gain a circumstance bonus to Aid Another, to Diplomacy checks to Request aid, and to Survival checks to Subsist or find safe warren-ground.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ratkin"
+            ]
+        },
+        "slug": "colony-instinct"
+    },
+    "_id": "vgVFBXDCQKEOEiXC"
+}

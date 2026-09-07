@@ -1,0 +1,44 @@
+{
+    "name": "Beast Whisperer",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "skill",
+        "description": {
+            "value": "<p>Bonus to calm, direct, or handle mutant beasts and tamed creatures.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Trained"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "beast-whisperer"
+    },
+    "_id": "8uKG7f5g4NC5fwkT",
+    "flags": {
+        "cinderfall": {
+            "incomplete": [
+                "proficiency prerequisite 'Trained' names no skill",
+                "level is a stub (1); the source card carries none"
+            ]
+        }
+    }
+}

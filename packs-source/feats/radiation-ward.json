@@ -1,0 +1,44 @@
+{
+    "name": "Radiation Ward",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "skill",
+        "description": {
+            "value": "<p>Bonus to treat radiation sickness specifically, beyond what a standard Rad-Ward Salve provides.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Expert"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "radiation-ward"
+    },
+    "_id": "HjoH6CBpge9Kyzt4",
+    "flags": {
+        "cinderfall": {
+            "incomplete": [
+                "proficiency prerequisite 'Expert' names no skill",
+                "level is a stub (1); the source card carries none"
+            ]
+        }
+    }
+}

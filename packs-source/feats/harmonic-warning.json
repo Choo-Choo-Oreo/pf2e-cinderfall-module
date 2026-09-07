@@ -1,0 +1,38 @@
+{
+    "name": "Harmonic Warning",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "ancestry",
+        "description": {
+            "value": "<p>When The Hymn Underneath triggers, also gain a bonus to your next Perception check, not just bare awareness of the danger.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "The Hymn Underneath"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "hymnkin"
+            ]
+        },
+        "slug": "harmonic-warning"
+    },
+    "_id": "TjjmjzaCEnRac5Av"
+}
