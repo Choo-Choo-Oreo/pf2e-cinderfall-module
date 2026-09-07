@@ -1,0 +1,40 @@
+{
+    "name": "Nanite-Touched Dedication",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "class",
+        "description": {
+            "value": "<p>You install and remove your own augments without a licensed shop, at no increase in risk, and your install and removal recovery periods are reduced by 1 day (minimum 1). You may carry one augment of a <strong>Grade</strong> one band above the one your character level allows, and your Drift from that augment is counted at double. The back room stops being necessary; the price of that is written into you rather than paid at the counter.</p>"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "trained in Medicine or Crafting"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "archetype",
+                "dedication",
+                "nanite-touched"
+            ]
+        },
+        "slug": "nanite-touched-dedication"
+    },
+    "_id": "sk6oDlKzkMFDxWGj"
+}

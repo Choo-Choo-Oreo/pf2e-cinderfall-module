@@ -1,0 +1,40 @@
+{
+    "name": "Paradise Ghost Dedication",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "class",
+        "description": {
+            "value": "<p>A copy of you is kept in Paradise, and you can feel the gap between it and you. While your <strong>Save</strong> is current — updated within the last 24 hours, which takes 10 minutes anywhere a terminal will answer — you gain a +1 status bonus to Recall Knowledge. While it is stale you take a −1 status penalty to Will saves instead, because part of you is reaching for somewhere that is not answering.</p>"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "trained in Occultism or Society"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "archetype",
+                "dedication",
+                "paradise-ghost"
+            ]
+        },
+        "slug": "paradise-ghost-dedication"
+    },
+    "_id": "xTQPWYuDPXmtpOIY"
+}

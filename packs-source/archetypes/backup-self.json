@@ -1,0 +1,39 @@
+{
+    "name": "Backup Self",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "class",
+        "description": {
+            "value": "<p>Once per campaign arc, if you would die while your Save is current, you instead restore from it at 1 Hit Point in the nearest safe space you have previously visited. You lose every memory formed since your last update — the GM narrates what that cost — and your Save is stale until you make a new one.</p>"
+        },
+        "level": {
+            "value": 8
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Warm Save"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "archetype",
+                "paradise-ghost"
+            ]
+        },
+        "slug": "backup-self"
+    },
+    "_id": "fN979SEphr3OaC9m"
+}

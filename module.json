@@ -177,13 +177,18 @@
         "featTraits": {
           "ashwalker": "Ashwalker",
           "cinderborn": "Cinderborn",
+          "deadhand": "Deadhand",
           "emberforged": "Emberforged",
           "glassblood": "Glassblood",
           "hymnkin": "Hymnkin",
+          "ironsight": "Ironsight",
           "kindled": "Kindled",
+          "nanite-touched": "Nanite-Touched",
           "old-world-construct": "Old-World Construct",
+          "paradise-ghost": "Paradise Ghost",
           "ratkin": "Ratkin",
           "residual": "Residual",
+          "soul-binder": "Soul-Binder",
           "vaultborn": "Vaultborn",
           "wire-ward": "Wire-Ward"
         },

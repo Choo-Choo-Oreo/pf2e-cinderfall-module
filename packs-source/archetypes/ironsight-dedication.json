@@ -1,0 +1,40 @@
+{
+    "name": "Ironsight Dedication",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "class",
+        "description": {
+            "value": "<p>Name one firearm as your Iron, the way an Ironsight does, and become trained in it — advanced firearms and crossbows included. When that one weapon suffers a Gun Failure you roll a d6 rather than a d8. You do not get the rest of <strong>Nothing Dies in Your Hands</strong>: the bottom two results still find you, and they still find every other gun you pick up.</p>"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Dexterity 14"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "archetype",
+                "dedication",
+                "ironsight"
+            ]
+        },
+        "slug": "ironsight-dedication"
+    },
+    "_id": "AuzAHwCYTQzUDOxk"
+}

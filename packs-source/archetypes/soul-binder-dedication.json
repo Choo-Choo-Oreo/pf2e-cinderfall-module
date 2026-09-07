@@ -1,0 +1,40 @@
+{
+    "name": "Soul-Binder Dedication",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "class",
+        "description": {
+            "value": "<p>Bind one soul — captured, willing, or cowed — into a single weapon, tool, or armor piece you own, and name it. While wielding that item you gain a +1 item bonus to one skill or saving throw, chosen when you bind and fixed after. The soul begins at <strong>Temper 0</strong>. Each time you critically fail a check with that item, or leave it unused for a week, Temper rises by 1. You may hold exactly one bind; a second requires <em>Dual Bind</em>.</p>"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "trained in Occultism or Crafting"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "archetype",
+                "dedication",
+                "soul-binder"
+            ]
+        },
+        "slug": "soul-binder-dedication"
+    },
+    "_id": "VPZB5h5H5Xdx6OOM"
+}
