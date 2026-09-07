@@ -217,6 +217,27 @@
             "label": "The Cut"
           }
         }
+      },
+      "languageRarities": {
+        "commonLanguage": "common-cant",
+        "uncommon": [
+          "ashen-liturgy",
+          "drill-cant",
+          "node-speak",
+          "threnody",
+          "vault-tongue",
+          "warband-tongue"
+        ],
+        "rare": [
+          "corporate-legal-cant",
+          "deep-vault-sign",
+          "glass-sign",
+          "machine-cant",
+          "pre-turning-standard"
+        ],
+        "secret": [
+          "echo-tongue"
+        ]
       }
     }
   }

@@ -138,10 +138,36 @@ language just never appears on the character. `build_pack.py` therefore fails
 the build if any ancestry grants a language `module.json` does not register.
 
 Cinderfall uses `common-cant`, not PF2e's `common`; no Cinderfall ancestry
-grants `common`. Language *rarity* (the "never known automatically" tier that
-`languages.html` S3 describes for the five faction tongues) is not module data
-at all -- it lives in PF2e's world settings menu, so it is a GM setting, not
-something this module can ship.
+grants `common`.
+
+### Language rarity
+
+Rarity has no document to ride in -- PF2e has no language Item, so unlike
+equipment (which carries `system.traits.rarity`) a language's tier lives in one
+world setting, `game.settings.get("pf2e", "homebrew.languageRarities")`: a
+DataModel of `{ commonLanguage, uncommon, rare, secret, unavailable }` where
+anything in none of the sets is common.
+
+It is authored on `languages.html` as `cc-tier-*` -- the same vocabulary
+`equipment.html` uses -- mirrored into each languages card as `rarity`, shipped
+in `flags.pf2e-cinderfall-module.languageRarities`, and written to the setting
+by `scripts/main.js` on ready. `build_pack.py` fails the build if the manifest
+and the cards disagree, so the manifest copy is never hand-edited. The script
+applies a map once and stamps it, so a GM who re-tiers a language by hand keeps
+that choice while a genuine change to the shipped map still lands.
+
+Rarity gates *choosing*, not *granting*: Glass-Sign sits at rare and Glassblood
+still receive it free from their ancestry.
+
+**PF2e's rarity ladders are frozen and cannot be extended.** Items validate
+against `Object.freeze(["common","uncommon","rare","unique"])` used as `choices`
+on a `StringField`; languages use a separate frozen
+`["common","uncommon","rare","secret"]`; and `rarities` is not among the 13
+homebrew-registerable categories. A fifth Cinderfall-named tier is therefore not
+possible -- only a relabel of an existing one, which would be global and would
+rename rarity on base PF2e content too. This is why `languages.html`'s
+`cc-tier-exotic` on Echo-Tongue maps down to `secret`, the same way
+`convert_equipment.py` maps the page's `epic` down to `rare`.
 
 `scripts/body-tab.js` adds a "Body" tab to the PF2e character sheet for
 tracking bio-augmentation, cybernetics and mutations against the ancestry's
