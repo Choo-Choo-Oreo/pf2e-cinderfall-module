@@ -1,0 +1,37 @@
+{
+    "name": "Answer for Them",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Trigger</strong> A foe within your reach attacks an ally adjacent to you and misses.</p><hr /><p>The Answer may trigger off an opening a foe hands an ally instead of one it hands you: a miss against an adjacent ally within your reach counts as an opening. This does not change how many Answers you may make in a round, and an Answer made this way still costs your reaction if it normally would.</p>"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "answer-for-them"
+    },
+    "_id": "IkOXa4o66NLJrdCH"
+}

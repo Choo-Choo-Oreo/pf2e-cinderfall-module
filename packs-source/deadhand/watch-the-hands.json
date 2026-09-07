@@ -1,0 +1,37 @@
+{
+    "name": "Watch the Hands",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per round</p><p><strong>Trigger</strong> Your marked target uses an action you can see.</p><hr /><p>You learn what that action was before it resolves — the spell, the manoeuvre, the ability — and you gain a +2 circumstance bonus to your AC and saving throw against it. If it targets someone other than you, an ally of your choice within 30 feet gains that bonus instead.</p>"
+        },
+        "level": {
+            "value": 6
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "watch-the-hands"
+    },
+    "_id": "MilTf2PEXjVAhKLV"
+}

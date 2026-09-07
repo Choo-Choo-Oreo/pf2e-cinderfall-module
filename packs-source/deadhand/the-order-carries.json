@@ -1,0 +1,37 @@
+{
+    "name": "The Order Carries",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>The range of your called command and of your other Cadre abilities increases to 60 feet, and they work on an ally who can see you even if they cannot hear you, provided you have fought alongside that ally before. Deafened allies count as able to hear you for this purpose.</p>"
+        },
+        "level": {
+            "value": 6
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "the-order-carries"
+    },
+    "_id": "t8MbgWx1Cp1Yz50H"
+}

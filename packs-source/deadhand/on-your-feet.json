@@ -1,0 +1,37 @@
+{
+    "name": "On Your Feet",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per round</p><p><strong>Range</strong> 30 feet</p><hr /><p>One ally who can hear and understand you may Stand, Step, or attempt a check to recover from the frightened or fleeing condition, as a free action on their turn or immediately if it is not their turn. An ally may benefit from this only once per round.</p>"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "on-your-feet"
+    },
+    "_id": "a2VWTahteuiaznLu"
+}

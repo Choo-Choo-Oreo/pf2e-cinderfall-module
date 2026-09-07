@@ -1,0 +1,37 @@
+{
+    "name": "Counted Cost",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "free"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You fail an Install check made without a proper table.</p><hr /><p>You retry the check immediately, as though you'd had a proper table and a surgeon's steady hands after all — you don't; you just know your own tolerances better than most surgeons know a stranger's. Use the second result even if it's worse. This doesn't apply to a critical failure — some mistakes only get made once.</p>"
+        },
+        "level": {
+            "value": 8
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "counted-cost"
+    },
+    "_id": "FkLMtw96Sez8DZ9k"
+}

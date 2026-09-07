@@ -1,0 +1,37 @@
+{
+    "name": "Take the Second Hit",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per round</p><p><strong>Trigger</strong> You redirect an attack onto yourself.</p><hr /><p>You gain resistance equal to half your level (minimum 2) against that attack's damage. This resistance applies after any other reduction, and it applies whether or not the attack would have hit the creature you took it from.</p>"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "take-the-second-hit"
+    },
+    "_id": "yGNY4JWd7du1TqyQ"
+}

@@ -1,0 +1,37 @@
+{
+    "name": "The Hand That's Free",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per round</p><p><strong>Trigger</strong> You redirect an attack onto yourself and it misses.</p><hr /><p>Make a melee Strike against the attacker if it is within your reach. This Strike does not count toward your multiple attack penalty. If The Answer has already triggered this round, this Strike gains a +2 circumstance bonus instead of being made — one body, two hands, and a limit on how much either can do.</p>"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "the-hand-thats-free"
+    },
+    "_id": "KFvFN35tG1Op3Gl5"
+}

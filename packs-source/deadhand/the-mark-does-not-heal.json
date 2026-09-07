@@ -1,0 +1,37 @@
+{
+    "name": "The Mark Does Not Heal",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> while the duel lasts</p><hr /><p>Your marked target regains half as many Hit Points as it otherwise would from any source, and any persistent damage you have dealt it cannot be ended by anything short of magical healing of 6th rank or higher. It knows this is happening, which has never once made it easier for them.</p>"
+        },
+        "level": {
+            "value": 18
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "the-mark-does-not-heal"
+    },
+    "_id": "40hZsH1WqN7f9G2O"
+}

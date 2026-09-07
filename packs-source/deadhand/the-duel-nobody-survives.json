@@ -1,0 +1,37 @@
+{
+    "name": "The Duel Nobody Survives",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> while the duel lasts</p><hr /><p>Your marked target cannot leave the encounter while you are both conscious: it cannot teleport, flee beyond 120 feet of you, become invisible to you, or be removed from the battlefield by any effect of your level or lower. Your Strikes against it ignore all resistance and all immunity to precision damage.</p>"
+        },
+        "level": {
+            "value": 20
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "the-duel-nobody-survives"
+    },
+    "_id": "zj668VWGkN1LPbJV"
+}

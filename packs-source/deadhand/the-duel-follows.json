@@ -1,0 +1,37 @@
+{
+    "name": "The Duel Follows",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per round</p><p><strong>Trigger</strong> Your marked target moves out of your reach.</p><hr /><p>Stride up to your Speed toward it. This costs no action and does not trigger reactions, and you may not use it to move anywhere except toward your mark. If you end adjacent to it, make a melee Strike that does not count toward your multiple attack penalty.</p>"
+        },
+        "level": {
+            "value": 14
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "the-duel-follows"
+    },
+    "_id": "bPRqisgkRHrsV1YA"
+}

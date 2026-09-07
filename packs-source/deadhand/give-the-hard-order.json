@@ -1,0 +1,37 @@
+{
+    "name": "Give the Hard Order",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Range</strong> 60 feet</p><hr /><p>One willing ally who can hear and understand you immediately takes a full turn of three actions, out of sequence, before anyone else acts. At the end of it they are fatigued until they next rest, and they take 4d6 damage that cannot be prevented or reduced. You do not get to use this on someone who has not agreed to it, and the agreement is worth asking for in advance.</p>"
+        },
+        "level": {
+            "value": 12
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "give-the-hard-order"
+    },
+    "_id": "pA81G6WxaO5t2uQv"
+}

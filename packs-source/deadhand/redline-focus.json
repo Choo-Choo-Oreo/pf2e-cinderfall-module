@@ -1,0 +1,37 @@
+{
+    "name": "Redline Focus",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "free"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Trigger</strong> You roll on the Slip table.</p><hr /><p>When you roll on the Slip table, you may take either the result you rolled or the result one row above it, your choice, seeing both first. This does not stack with Slip Ward's reroll; on a given Slip you may use either, not both.</p>"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "redline-focus"
+    },
+    "_id": "LgExV0RtvrwKigBM"
+}

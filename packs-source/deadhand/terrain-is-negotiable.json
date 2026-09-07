@@ -1,0 +1,37 @@
+{
+    "name": "Terrain Is Negotiable",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>You may Stride through walls, doors, and barriers of Hardness 10 or less as though they were difficult terrain, destroying the section you pass through. Your Strikes against objects and structures ignore all Hardness and all immunities to critical hits and precision damage.</p>"
+        },
+        "level": {
+            "value": 18
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "terrain-is-negotiable"
+    },
+    "_id": "mpLOJVlQJocRXf0u"
+}

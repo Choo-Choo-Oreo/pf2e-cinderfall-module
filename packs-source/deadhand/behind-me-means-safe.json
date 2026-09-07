@@ -1,0 +1,37 @@
+{
+    "name": "Behind Me Means Safe",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Allies in a space you could reach with a single Step gain resistance to physical damage equal to one-quarter your level, and cannot be critically hit by an attack you could have redirected. You do not have to redirect it, and you do not have to have a reaction available — the option existing is what downgrades the hit.</p>"
+        },
+        "level": {
+            "value": 14
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "behind-me-means-safe"
+    },
+    "_id": "vJ1pUHBsMEipvJZn"
+}

@@ -1,0 +1,37 @@
+{
+    "name": "One Mark at a Time",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>You may mark a new target as a free action once per round, rather than at the usual cost, but you may never have more than one mark at a time and a mark you abandon cannot be re-established this encounter. Against your mark, your melee Strikes with a one-handed weapon ignore the first 2 points of any resistance.</p>"
+        },
+        "level": {
+            "value": 6
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "one-mark-at-a-time"
+    },
+    "_id": "oSz3amZ9GS811iW9"
+}

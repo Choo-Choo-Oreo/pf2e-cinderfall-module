@@ -1,0 +1,37 @@
+{
+    "name": "Old Reliable",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> —</p><p><strong>Requirement</strong> You are wielding your named weapon.</p><hr /><p>Choose one weapon at the time you take this feat; renaming it takes a week of downtime and a good reason. While wielding it, The Answer also triggers when a foe within your reach Steps away from you, in addition to its usual trigger. You gain a +1 circumstance bonus to the damage roll of an Answer made with that weapon.</p>"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "old-reliable"
+    },
+    "_id": "CICc0DyItJvfeAiM"
+}

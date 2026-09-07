@@ -1,0 +1,37 @@
+{
+    "name": "Measure Them",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Trigger</strong> You Strike your marked target for the first time this encounter.</p><hr /><p>You learn the target's Armor Class, which of its saving throws is weakest, and whether it has any resistance or immunity relevant to the weapon in your hand. Until the end of your next turn you gain a +1 circumstance bonus to attack rolls against it. You learn this whether the Strike hit or missed — a miss tells you as much as a hit does.</p>"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "measure-them"
+    },
+    "_id": "jDZ4OsqcK1cArpCW"
+}

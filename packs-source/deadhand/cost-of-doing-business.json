@@ -1,0 +1,37 @@
+{
+    "name": "Cost of Doing Business",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Trigger</strong> You take damage of a type you have already taken this encounter.</p><hr /><p>You gain resistance 5 to that damage type until the end of the encounter, or resistance equal to half your level if that is higher. You can only be resistant to one damage type at a time this way; taking it for a new type ends the old one.</p>"
+        },
+        "level": {
+            "value": 8
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "cost-of-doing-business"
+    },
+    "_id": "AaUNIj63snMlbdOD"
+}

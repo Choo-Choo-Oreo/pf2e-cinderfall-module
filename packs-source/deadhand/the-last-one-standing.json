@@ -1,0 +1,37 @@
+{
+    "name": "The Last One Standing",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>While every other ally within 30 feet is unconscious, dying, or dead, you gain resistance 10 to all damage, a +2 circumstance bonus to attack rolls and saves, and you cannot be reduced below 1 Hit Point by any effect that does not deal at least twice your remaining Hit Points in a single blow.</p>"
+        },
+        "level": {
+            "value": 18
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "the-last-one-standing"
+    },
+    "_id": "l3vTE1HUeRiHwN1x"
+}

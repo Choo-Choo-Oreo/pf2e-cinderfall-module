@@ -1,0 +1,37 @@
+{
+    "name": "Fall Back in Order",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 2
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Range</strong> 60 feet</p><hr /><p>Up to four allies who can hear and understand you each Stride up to half their Speed. This movement does not trigger reactions, and each ally who ends it further from every enemy than they started gains temporary Hit Points equal to your level, lasting one minute.</p>"
+        },
+        "level": {
+            "value": 8
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "fall-back-in-order"
+    },
+    "_id": "Sg4VjsmkyRIaeoWC"
+}

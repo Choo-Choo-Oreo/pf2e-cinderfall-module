@@ -1,0 +1,37 @@
+{
+    "name": "Nothing Was Built to Hold",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>No non-magical structure, barrier, vehicle, or object can meaningfully impede you: you destroy or pass through any such thing as a single action, whatever its size or Hardness. Against magical barriers, walls, and force effects, your Strikes count as a counteract attempt at your level using your Class DC.</p>"
+        },
+        "level": {
+            "value": 20
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "nothing-was-built-to-hold"
+    },
+    "_id": "k1GvXRBcEn7aLp9u"
+}

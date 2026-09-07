@@ -1,0 +1,37 @@
+{
+    "name": "One Mark in Twenty Years",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Requirement</strong> Your marked target is below half its maximum Hit Points.</p><hr /><p>Make a melee Strike against your mark. It automatically hits, is a critical hit, and the target must succeed at a Fortitude save against your Class DC or die. On a success it instead takes the critical damage and is doomed 2. A creature that survives this cannot be targeted by it again for a year.</p>"
+        },
+        "level": {
+            "value": 20
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "one-mark-in-twenty-years"
+    },
+    "_id": "NPBKENwLpEGAJPEK"
+}

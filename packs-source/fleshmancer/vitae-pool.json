@@ -1,0 +1,44 @@
+{
+    "name": "Vitae Pool",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
+        "description": {
+            "value": "<p>Blood, tissue, and stolen vigor rendered down into usable current. You carry a pool of 10 Vitae, and nearly everything you do as a fleshmancer is paid for out of it.</p>\n<p>Vitae is gathered, not granted. It does not return on its own overnight: you refill the pool through grim ritual — drawing your own blood, harvesting a corpse, milking a captive.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "SpecialResource",
+                "slug": "vitae",
+                "max": 10,
+                "renew": false
+            }
+        ],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "fleshmancer"
+            ]
+        },
+        "slug": "vitae-pool"
+    },
+    "_id": "RYGGgqcbR41mLNk4"
+}

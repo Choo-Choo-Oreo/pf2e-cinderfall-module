@@ -1,0 +1,37 @@
+{
+    "name": "No Second Needed",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Trigger</strong> Your marked target's attack against you misses.</p><hr /><p>Make a melee Strike against that target. This Strike does not count toward your multiple attack penalty. If The Answer has already triggered this round, this Strike instead gains a +2 circumstance bonus to its attack roll — the two do not stack into a third swing.</p>"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "no-second-needed"
+    },
+    "_id": "EFKV3Tizxcmk3PBC"
+}

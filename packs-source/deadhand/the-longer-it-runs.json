@@ -1,0 +1,37 @@
+{
+    "name": "The Longer It Runs",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> while the duel lasts</p><hr /><p>Each round after the first in which you have both attacked your marked target and been attacked by it, you gain a cumulative +1 circumstance bonus to damage rolls against it, to a maximum of +3. The bonus resets if a full round passes in which neither of you attacks the other, or if you mark a different creature.</p>"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "the-longer-it-runs"
+    },
+    "_id": "nRyVkFKgwLFo9C0n"
+}

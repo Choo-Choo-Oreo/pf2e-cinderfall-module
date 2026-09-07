@@ -1,0 +1,37 @@
+{
+    "name": "The Second Never Falls",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Trigger</strong> An attack from your marked target would reduce you to 0 Hit Points.</p><hr /><p>You are reduced to 1 Hit Point instead, and your marked target takes damage equal to what it just dealt you, with no save. The duel does not end because one of you nearly did.</p>"
+        },
+        "level": {
+            "value": 14
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "the-second-never-falls"
+    },
+    "_id": "LjsI4jqFCzQFq4qc"
+}

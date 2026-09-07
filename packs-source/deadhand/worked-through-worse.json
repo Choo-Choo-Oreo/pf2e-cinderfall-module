@@ -1,0 +1,37 @@
+{
+    "name": "Worked Through Worse",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>The flat check to end persistent damage on you is DC 10 rather than DC 15, and you may attempt that check at the start of your turn as well as at the end of it. If someone assists you, the assisted DC drops by a further 2 rather than the usual amount.</p>"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "worked-through-worse"
+    },
+    "_id": "Qk60j1gWIYF64gcy"
+}

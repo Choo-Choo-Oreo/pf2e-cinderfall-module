@@ -1,0 +1,37 @@
+{
+    "name": "Immovable by Agreement",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>You cannot be moved, knocked prone, teleported, banished, or removed from your space by any effect you do not consent to, regardless of its level or origin. While you have not moved since the start of your last turn, you and every ally within 30 feet are immune to critical hits.</p>"
+        },
+        "level": {
+            "value": 20
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "immovable-by-agreement"
+    },
+    "_id": "Vl1yvxeLbVG8tOB3"
+}

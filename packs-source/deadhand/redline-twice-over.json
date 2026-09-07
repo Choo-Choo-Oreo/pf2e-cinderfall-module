@@ -1,0 +1,37 @@
+{
+    "name": "Redline Twice Over",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per round</p><hr /><p>You may spend two separate Redlines in the same turn. The second is never clean, whatever else would make it so, and you roll its Slip immediately rather than at the end of the turn. Everything that reduces or rerolls a Slip still applies to it.</p>"
+        },
+        "level": {
+            "value": 16
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "redline-twice-over"
+    },
+    "_id": "mbBXTOnOSHOi5xhK"
+}

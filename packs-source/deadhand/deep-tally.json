@@ -1,0 +1,37 @@
+{
+    "name": "Deep Tally",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Your Tally cap increases by 1. This stacks with the increases your level already grants. Tally above your old cap behaves exactly like any other Tally — it does not drain faster and it is not lost between fights.</p>"
+        },
+        "level": {
+            "value": 6
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "deep-tally"
+    },
+    "_id": "NdDDkN6UzGTbleU5"
+}

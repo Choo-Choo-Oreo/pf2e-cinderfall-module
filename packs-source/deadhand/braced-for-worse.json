@@ -1,0 +1,37 @@
+{
+    "name": "Braced for Worse",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Trigger</strong> You Raise a Shield.</p><hr /><p>You gain temporary Hit Points equal to your Constitution modifier (minimum 1), which last until the start of your next turn. If you have not moved since the start of your last turn, you gain twice that number instead. These temporary Hit Points do not stack with themselves.</p>"
+        },
+        "level": {
+            "value": 6
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "braced-for-worse"
+    },
+    "_id": "jN7GDlYpfLAkgNmU"
+}

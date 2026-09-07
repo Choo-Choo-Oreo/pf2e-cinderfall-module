@@ -1,0 +1,37 @@
+{
+    "name": "Nothing You Can Say",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>You gain a +2 circumstance bonus to saving throws against emotion and fear effects, and against any effect that would compel you to abandon, delay, or turn against a task you have agreed to. On a successful save against such an effect you also gain 1 Tally.</p>"
+        },
+        "level": {
+            "value": 8
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "nothing-you-can-say"
+    },
+    "_id": "gjVIjourPzYJQjRJ"
+}

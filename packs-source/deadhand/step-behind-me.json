@@ -1,0 +1,37 @@
+{
+    "name": "Step Behind Me",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Range</strong> your reach</p><hr /><p>One willing ally within your reach Steps up to 10 feet, and must end that movement adjacent to you or in a space you could reach with a single Step. This movement does not trigger reactions. If the ally is prone, they may Stand as part of it.</p>"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "step-behind-me"
+    },
+    "_id": "STC0gZsq8KJIUduA"
+}

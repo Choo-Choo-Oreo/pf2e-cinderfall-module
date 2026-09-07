@@ -1,0 +1,37 @@
+{
+    "name": "Clean Twice",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per encounter</p><hr /><p>The second Redline you spend in an encounter is also clean: you roll no Slip for it. This does not stack with any other effect that makes a Redline clean, and the third and later Redlines still roll normally.</p>"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "clean-twice"
+    },
+    "_id": "wZFdm4MVFTPnc0ix"
+}

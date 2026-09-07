@@ -1,0 +1,37 @@
+{
+    "name": "Dixie Custom",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Range</strong> 30 feet</p><hr /><p>Formally call out one creature that can hear and understand you. It must attempt a Will save against your Class DC. On a failure it is compelled to treat you as its only worthwhile opponent for 1 minute, taking a −2 circumstance penalty to attack rolls against anyone else; on a critical failure it also cannot willingly move further from you. It may attempt a new save at the end of each of its turns in which you have not attacked it.</p>"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "dixie-custom"
+    },
+    "_id": "joBygS4fLq0uhDTN"
+}

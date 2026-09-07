@@ -1,0 +1,37 @@
+{
+    "name": "Nothing Is Cover",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 2
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Requirement</strong> You are wielding a two-handed melee weapon.</p><hr /><p>Strike an object, barrier, or piece of terrain a creature is using for cover, within your reach. If your Strike deals damage to it, that creature loses the benefit of that cover until the end of your next turn, whether or not the obstruction was destroyed. Against a creature using another creature as cover, this does not apply — people are harder to remove than masonry.</p>"
+        },
+        "level": {
+            "value": 6
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "nothing-is-cover"
+    },
+    "_id": "T6H6syezo6dpENwk"
+}

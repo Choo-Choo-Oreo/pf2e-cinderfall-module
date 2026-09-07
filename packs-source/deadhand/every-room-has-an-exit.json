@@ -1,0 +1,37 @@
+{
+    "name": "Every Room Has an Exit",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per encounter</p><hr /><p>Stride up to twice your Speed. This movement ignores difficult terrain, does not trigger reactions, and may pass through spaces occupied by creatures no more than one size larger than you. You must end this movement in an unoccupied space, and if you cannot, you end it in the last legal space you passed through.</p>"
+        },
+        "level": {
+            "value": 16
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "every-room-has-an-exit"
+    },
+    "_id": "XEIBhgyRzwjBsKZr"
+}

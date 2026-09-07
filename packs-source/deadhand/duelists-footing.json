@@ -1,0 +1,37 @@
+{
+    "name": "Duelist's Footing",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per round</p><p><strong>Trigger</strong> Your marked target leaves your reach.</p><hr /><p>You Step to remain adjacent to it, if a single Step will do. This costs no action and does not use your reaction. If one Step will not reach, you instead gain a +1 circumstance bonus to your next attack roll against that target this round. You cannot use this while wielding a shield or a second weapon.</p>"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "duelists-footing"
+    },
+    "_id": "OT484yTcEtoksgnm"
+}

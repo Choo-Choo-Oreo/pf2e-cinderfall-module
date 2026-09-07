@@ -1,0 +1,37 @@
+{
+    "name": "One More Fight",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You would be reduced to 0 Hit Points.</p><hr /><p>You stay standing at 1 Hit Point instead, and bank 2 Tally. Tally banked this way may exceed your cap and is lost at the end of the encounter if unspent. Your wounded condition then increases by 1, exactly as though you had dropped and been brought back — you did not go down, but nothing about your body agrees that the difference matters.</p>"
+        },
+        "level": {
+            "value": 16
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "one-more-fight"
+    },
+    "_id": "3mulTwr9A53Ypj2T"
+}

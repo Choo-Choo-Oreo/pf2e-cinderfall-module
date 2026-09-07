@@ -1,0 +1,37 @@
+{
+    "name": "Paid in Advance",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>You begin every encounter with Tally equal to half the Tally you were holding when your previous encounter ended, rounded down, to a maximum of 3. This is the only way Tally has ever crossed from one fight into the next, and it is why nobody has ever seen you start one fresh.</p>"
+        },
+        "level": {
+            "value": 14
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "paid-in-advance"
+    },
+    "_id": "eAMdcTcy9zEx750m"
+}

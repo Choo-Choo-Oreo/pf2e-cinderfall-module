@@ -1,0 +1,37 @@
+{
+    "name": "The Whole Convoy",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Range</strong> 30 feet</p><hr /><p>Every ally you can see gains resistance 5 to physical damage and cannot be reduced below 1 Hit Point by an attack, until the start of your next turn. When this ends, you take 2d6 damage for each ally who was saved from dropping by it — the arithmetic of standing between people and consequences has never balanced any other way.</p>"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "the-whole-convoy"
+    },
+    "_id": "Kyk4cpCKHfRUOwUJ"
+}

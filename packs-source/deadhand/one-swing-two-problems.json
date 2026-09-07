@@ -1,0 +1,37 @@
+{
+    "name": "One Swing, Two Problems",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per round</p><p><strong>Trigger</strong> You critically hit with a two-handed melee weapon.</p><hr /><p>The critical hit's damage is also dealt, without the critical doubling, to one other creature within your reach and within 10 feet of the target. That creature may attempt a basic Reflex save against your Class DC. This cannot chain further, however tightly packed the room is.</p>"
+        },
+        "level": {
+            "value": 14
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "one-swing-two-problems"
+    },
+    "_id": "otw8nQM6b9IymB8c"
+}

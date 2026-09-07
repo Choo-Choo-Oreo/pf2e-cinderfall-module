@@ -1,0 +1,37 @@
+{
+    "name": "Trade Up",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "free"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per turn</p><hr /><p>Interact to draw, stow, or swap one held weapon. This does not trigger reactions that a manipulate action would normally trigger.</p>"
+        },
+        "level": {
+            "value": 6
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "trade-up"
+    },
+    "_id": "fJmLngKg3lNCF7WX"
+}

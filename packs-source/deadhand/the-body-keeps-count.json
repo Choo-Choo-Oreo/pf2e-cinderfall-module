@@ -1,0 +1,37 @@
+{
+    "name": "The Body Keeps Count",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>You gain 1 Tally the first time each encounter that you are reduced below half your maximum Hit Points, and 1 Tally the first time each encounter that an ally within 30 feet is reduced to 0 Hit Points. Tally gained this way may exceed your cap and is lost at the end of the encounter if unspent.</p>"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "the-body-keeps-count"
+    },
+    "_id": "O9565EaOjHBkicx6"
+}

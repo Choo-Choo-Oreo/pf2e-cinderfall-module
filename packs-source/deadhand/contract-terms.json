@@ -1,0 +1,37 @@
+{
+    "name": "Contract Terms",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>You gain a +1 circumstance bonus to Diplomacy and Society checks made to negotiate payment, terms, or conditions of work. When a job, contract, or bargain is first put to you, the GM tells you one specific thing about it that the offering party would rather you did not know yet. This does not tell you whether the job is wise — only what it actually is.</p>"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "contract-terms"
+    },
+    "_id": "cyZ61NVRFqK2Bdhh"
+}

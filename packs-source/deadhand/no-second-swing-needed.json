@@ -1,0 +1,37 @@
+{
+    "name": "No Second Swing Needed",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "free"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per round</p><p><strong>Requirement</strong> You are wielding a two-handed melee weapon.</p><p><strong>Cost</strong> 2 Tally</p><hr /><p>Your next Strike this turn treats a failure as a success and a success as a critical hit. It cannot upgrade a critical failure. Spending Tally this way is not a Redline and never causes a Slip, but the Tally is gone all the same.</p>"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "no-second-swing-needed"
+    },
+    "_id": "AEmkYN2LiXGWFYMo"
+}

@@ -1,0 +1,37 @@
+{
+    "name": "The Unit Holds",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Range</strong> 60 feet</p><hr /><p>Every ally who can hear and understand you immediately ends one condition of their choice from among frightened, fleeing, sickened, stupefied, and off-guard, and becomes immune to that condition from any source for one minute. You may not use this on yourself; nobody has ever given you the order.</p>"
+        },
+        "level": {
+            "value": 14
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "the-unit-holds"
+    },
+    "_id": "xyQHQoY71QhCzwHb"
+}

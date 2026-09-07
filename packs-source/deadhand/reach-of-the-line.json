@@ -1,0 +1,37 @@
+{
+    "name": "Reach of the Line",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Abilities of yours that redirect an attack onto yourself, or that protect an ally, work at 15 feet rather than at your reach. You must still be able to see the ally, and you must have a clear path to the space between them and the attack — if something is in the way, the line stops there.</p>"
+        },
+        "level": {
+            "value": 6
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "reach-of-the-line"
+    },
+    "_id": "G2vZpPx1MbdoQMO3"
+}

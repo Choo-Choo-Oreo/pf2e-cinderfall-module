@@ -1,0 +1,37 @@
+{
+    "name": "The Blade Remembers",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>When you mark a creature you have marked before, in any previous encounter, every duel bonus you would accumulate against it starts at its maximum value immediately. Your body files opponents the way other people file grudges, and it does not need to be reminded twice.</p>"
+        },
+        "level": {
+            "value": 12
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "the-blade-remembers"
+    },
+    "_id": "hNyXWLdr4NWWHjCf"
+}

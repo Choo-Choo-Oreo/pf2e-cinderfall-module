@@ -1,0 +1,37 @@
+{
+    "name": "The Duel Is Already Over",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> while the duel lasts</p><hr /><p>Once your marked target has attacked you three times this encounter, you automatically know the result of its attacks against you before it rolls, and may Step as a free action once per round in response. Against that target you also treat any critical failure on your own attack rolls as an ordinary failure.</p>"
+        },
+        "level": {
+            "value": 16
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "the-duel-is-already-over"
+    },
+    "_id": "g23ABs0A9jmAOFci"
+}

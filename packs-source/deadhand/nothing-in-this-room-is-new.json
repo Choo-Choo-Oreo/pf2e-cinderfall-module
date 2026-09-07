@@ -1,0 +1,37 @@
+{
+    "name": "Nothing in This Room Is New",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>You are never surprised, never off-guard to anything you can perceive, and you automatically succeed at flat checks caused by concealment or being unable to see. Once per encounter, when a creature uses an ability against you for the first time ever, you may treat it as though you had already seen it used — every benefit you would have had the second time applies to the first.</p>"
+        },
+        "level": {
+            "value": 20
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "nothing-in-this-room-is-new"
+    },
+    "_id": "4sEdK5ye69ZHQgGX"
+}

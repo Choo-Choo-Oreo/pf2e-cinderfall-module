@@ -1,0 +1,37 @@
+{
+    "name": "Wide Arc",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 2
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Requirement</strong> You are wielding a two-handed melee weapon.</p><hr /><p>Make a single Strike and compare the attack roll against two adjacent creatures, both within your reach. Roll damage once and apply it to each creature the roll hits; a critical hit applies to that creature only. This counts as one attack for your multiple attack penalty, which then increases by two steps.</p>"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "wide-arc"
+    },
+    "_id": "uQc6HhgyHqaZKBZF"
+}

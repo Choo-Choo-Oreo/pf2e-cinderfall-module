@@ -1,0 +1,37 @@
+{
+    "name": "Cadre Ascendant",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Any Deadhand ability, effect, or Trade feature of yours that issues a command to one ally may target two allies instead. Both must be within the ability's range and must be able to hear and understand you. If the ability grants a bonus, both allies receive it; if it grants an action, each ally receives that action separately.</p>"
+        },
+        "level": {
+            "value": 12
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "cadre-ascendant"
+    },
+    "_id": "PgOi0nJcDUuxBzyi"
+}

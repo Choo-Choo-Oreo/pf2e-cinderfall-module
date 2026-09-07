@@ -1,0 +1,37 @@
+{
+    "name": "The Body Does Not Consent",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You fail a save against an effect that would incapacitate, paralyse, dominate, or kill you.</p><hr /><p>Treat that failure as a success, or a critical failure as an ordinary failure. You then gain 2 Tally and are fatigued until you next rest. This works on effects of any level, including those a creature of your level normally cannot refuse.</p>"
+        },
+        "level": {
+            "value": 18
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "the-body-does-not-consent"
+    },
+    "_id": "eOekL4PvERTPDAi0"
+}

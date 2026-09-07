@@ -1,0 +1,37 @@
+{
+    "name": "Carried Out Alive",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Range</strong> 30 feet</p><hr /><p>Every dying ally you can see stabilises at 1 Hit Point and stands if able. Every unconscious ally you can see wakes. You take 3d6 damage for each creature affected, which cannot be prevented, reduced, or redirected, and you may not use this if it would reduce you to 0 Hit Points.</p>"
+        },
+        "level": {
+            "value": 18
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "carried-out-alive"
+    },
+    "_id": "gjpTsdcRtn7By3pf"
+}

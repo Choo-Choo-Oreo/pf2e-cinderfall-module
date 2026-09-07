@@ -1,0 +1,37 @@
+{
+    "name": "Orders Outrun Initiative",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Range</strong> 60 feet</p><hr /><p>At the start of an encounter, before anyone acts, up to four allies who can hear and understand you each take one action of their choice. This happens whether or not those allies were surprised, and an ally who acts this way is no longer surprised for the rest of the encounter.</p>"
+        },
+        "level": {
+            "value": 16
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "orders-outrun-initiative"
+    },
+    "_id": "ZkkmIJPWek6fWYmG"
+}

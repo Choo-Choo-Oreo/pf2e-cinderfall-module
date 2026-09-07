@@ -1,0 +1,37 @@
+{
+    "name": "Breaker Ascendant",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Your Strikes and abilities that require more than one action, or that state they can be reacted to, cannot be the trigger for a Ready action, and cannot be interrupted, disrupted, or counteracted by a reaction. Creatures may still react to the damage or effect after it resolves.</p>"
+        },
+        "level": {
+            "value": 12
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "breaker-ascendant"
+    },
+    "_id": "hpoeX5ZWhfGXSjcJ"
+}

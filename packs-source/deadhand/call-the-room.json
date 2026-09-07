@@ -1,0 +1,37 @@
+{
+    "name": "Call the Room",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Range</strong> 30 feet</p><hr /><p>Name one enemy you can see. Up to three allies who can hear and understand you gain a +1 circumstance bonus to attack rolls against that enemy until the end of your next turn. An ally who cannot hear you gains nothing, and saying it louder does not help.</p>"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "call-the-room"
+    },
+    "_id": "QTGAMMxPrvMdNzkx"
+}

@@ -1,0 +1,37 @@
+{
+    "name": "One Weapon, One Answer",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Requirement</strong> You are wielding a single one-handed melee weapon and nothing in your other hand.</p><hr /><p>Your Strikes with that weapon against your marked target gain a +2 circumstance bonus to attack rolls and increase the weapon's damage die by one step. If you ever take up a second weapon or a shield during the encounter, you lose this until the encounter ends, and no amount of putting it back down restores it.</p>"
+        },
+        "level": {
+            "value": 16
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "one-weapon-one-answer"
+    },
+    "_id": "qrXEk6w5Y4txbgbe"
+}

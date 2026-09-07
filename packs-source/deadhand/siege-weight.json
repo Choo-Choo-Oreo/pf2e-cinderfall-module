@@ -1,0 +1,37 @@
+{
+    "name": "Siege Weight",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Your Strikes against objects, structures, vehicles, and barriers deal double damage and ignore Hardness entirely. Against constructs and creatures made of worked stone, metal, or machinery, you ignore 5 points of any resistance and treat their Hardness, if any, as 0.</p>"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "siege-weight"
+    },
+    "_id": "C6Q3hdrmyquM4Rpw"
+}

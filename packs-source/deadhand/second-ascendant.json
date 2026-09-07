@@ -1,0 +1,37 @@
+{
+    "name": "Second Ascendant",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>A creature you have marked by any Deadhand ability, effect, or Trade feature gains no benefit from flanking you, from Aid, or from any circumstance bonus another creature grants it against you. It may still flank you for the purpose of its allies' own abilities; it simply gains nothing from doing so itself.</p>"
+        },
+        "level": {
+            "value": 12
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "second-ascendant"
+    },
+    "_id": "tnmgdwRBwtAseF9Y"
+}

@@ -1,0 +1,37 @@
+{
+    "name": "Through the Guard",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Requirement</strong> You are wielding a two-handed melee weapon.</p><hr /><p>Your Strikes with a two-handed melee weapon reduce the target's circumstance bonus to AC from cover, a raised shield, or a similar physical obstruction by 1. Against a target taking cover behind an object you could break, reduce it by 2 instead.</p>"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "through-the-guard"
+    },
+    "_id": "1o2jS41UwKcrV0Tn"
+}

@@ -1,0 +1,37 @@
+{
+    "name": "Two-Job Hands",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Your unarmed attacks gain the <em>versatile B/P/S</em> trait and their damage die increases by one step. Improvised weapons in your hands lose the improvised penalty entirely and count as martial weapons of the closest matching group for all your Deadhand abilities, including The Answer and your Trade's weapon fluency.</p>"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "two-job-hands"
+    },
+    "_id": "9yyfiYhveTwdVCC8"
+}

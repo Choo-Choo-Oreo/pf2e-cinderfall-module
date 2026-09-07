@@ -1,0 +1,37 @@
+{
+    "name": "The Ground Is Mine",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> 1 minute or until you move</p><hr /><p>Designate your space and every space within your reach as held ground. Enemies treat that area as difficult terrain, and an enemy that attempts to move through your own space must succeed at an Athletics check against your Class DC or the movement is wasted. You lose all of this the moment you move.</p>"
+        },
+        "level": {
+            "value": 8
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "the-ground-is-mine"
+    },
+    "_id": "OB8gjV4A0jxLlsmF"
+}

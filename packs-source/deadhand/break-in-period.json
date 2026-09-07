@@ -1,0 +1,37 @@
+{
+    "name": "Break-In Period",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>You've spent your whole Trade healing from things a civilian body wouldn't survive scheduling around. After any cyber-augment install or removal, reduce the clumsy 1 and drained 1 recovery period by 1 day (minimum 1 day). This doesn't change the augment's Grade or Drift, only how fast you're back on a contract.</p>"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "break-in-period"
+    },
+    "_id": "58u7NhBBGTc0twAd"
+}

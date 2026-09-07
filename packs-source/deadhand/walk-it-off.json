@@ -1,0 +1,38 @@
+{
+    "name": "Walk It Off",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per hour</p><hr /><p>You Treat your own Wounds, using your own Medicine modifier or a flat +2, whichever is higher, and you may do so even while walking, riding, or standing watch. You cannot benefit from this and from another creature's Treat Wounds within the same hour.</p>"
+        },
+        "level": {
+            "value": 6
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand",
+                "exploration"
+            ]
+        },
+        "slug": "walk-it-off"
+    },
+    "_id": "PZTJTecafw3SEfpJ"
+}

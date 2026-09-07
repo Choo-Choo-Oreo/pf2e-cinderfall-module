@@ -1,0 +1,37 @@
+{
+    "name": "The Shield Is the Room",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Your redirect abilities and protective effects reach 30 feet, and you no longer need a clear path to the ally — line of sight is enough. You may redirect an attack onto yourself even while prone, restrained, or grabbed, though not while unconscious.</p>"
+        },
+        "level": {
+            "value": 16
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "the-shield-is-the-room"
+    },
+    "_id": "E1V4vmoX5eEl5wRl"
+}

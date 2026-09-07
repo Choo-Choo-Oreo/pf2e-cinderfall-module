@@ -1,0 +1,37 @@
+{
+    "name": "Bulwark Ascendant",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>When an attack is redirected to you from another creature by any Deadhand ability, effect, or Trade feature, you take half damage from it. This applies before your resistances and your armor's item bonus, not after.</p>"
+        },
+        "level": {
+            "value": 12
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "bulwark-ascendant"
+    },
+    "_id": "SuqbF55N4TXlSMbv"
+}

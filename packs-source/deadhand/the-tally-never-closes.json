@@ -1,0 +1,37 @@
+{
+    "name": "The Tally Never Closes",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Your Tally has no maximum during an encounter, and Tally you are holding when an encounter ends carries over in full rather than being reduced. At the end of any day on which you are holding more Tally than your cap, you take 2d6 damage per point above it that no rest removes — the body is still keeping the account, and it charges interest.</p>"
+        },
+        "level": {
+            "value": 20
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "the-tally-never-closes"
+    },
+    "_id": "Ud4BWklkxLt3Fbn2"
+}

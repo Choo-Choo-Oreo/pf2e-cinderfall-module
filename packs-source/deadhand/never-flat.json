@@ -1,0 +1,37 @@
+{
+    "name": "Never Flat",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Trigger</strong> You roll initiative.</p><hr /><p>You are never surprised and never flat-footed to creatures that were hidden from you at the start of an encounter. When an encounter begins with an ambush, an attack from concealment, or any creature acting before you had reason to expect a fight, gain 1 Tally immediately, before the first turn is taken.</p>"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "never-flat"
+    },
+    "_id": "49oF0WLzsaE1IzxM"
+}

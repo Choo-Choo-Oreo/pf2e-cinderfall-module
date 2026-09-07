@@ -1,0 +1,37 @@
+{
+    "name": "One Job Left",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Trigger</strong> You drop below half your maximum Hit Points.</p><hr /><p>For the rest of the encounter, every Redline you spend counts as the first Redline of the encounter: it is clean and you roll no Slip. This persists even if you are healed back above half Hit Points — once the job is the last one, it stays the last one.</p>"
+        },
+        "level": {
+            "value": 18
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "one-job-left"
+    },
+    "_id": "WTqissogJ3cFSfxT"
+}

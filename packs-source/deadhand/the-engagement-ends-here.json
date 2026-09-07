@@ -1,0 +1,37 @@
+{
+    "name": "The Engagement Ends Here",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 3
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Requirement</strong> You are wielding a two-handed melee weapon.</p><hr /><p>Make one Strike against every creature within your reach, in an order you choose. Each of these Strikes uses your full attack modifier with no multiple attack penalty, and your multiple attack penalty does not increase from them. Afterwards you are off-guard until the start of your next turn, because a swing that wide has never once left a guard behind it.</p>"
+        },
+        "level": {
+            "value": 16
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "the-engagement-ends-here"
+    },
+    "_id": "oTdTU8I8RKWwz4Yz"
+}

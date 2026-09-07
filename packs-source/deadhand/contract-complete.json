@@ -1,0 +1,37 @@
+{
+    "name": "Contract Complete",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Trigger</strong> You reduce a creature of your level or higher to 0 Hit Points.</p><hr /><p>You regain Hit Points equal to twice your level, end one condition of your choice affecting you, and gain 1 Tally. This does not trigger off a creature that was already helpless, unconscious, or unable to fight back — the job has to have been a job.</p>"
+        },
+        "level": {
+            "value": 18
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "contract-complete"
+    },
+    "_id": "WTcYZu4ztyA6rm7Z"
+}

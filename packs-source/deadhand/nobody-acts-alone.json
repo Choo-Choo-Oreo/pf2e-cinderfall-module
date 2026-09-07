@@ -1,0 +1,37 @@
+{
+    "name": "Nobody Acts Alone",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Whenever an ally within 60 feet who can hear you critically fails a check, they may reroll it once, taking the second result. Each ally may benefit once per encounter. This costs you nothing, and you do not have to be aware the check was happening.</p>"
+        },
+        "level": {
+            "value": 18
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "nobody-acts-alone"
+    },
+    "_id": "FuruD4HUkTIXVjQo"
+}

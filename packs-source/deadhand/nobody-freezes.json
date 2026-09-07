@@ -1,0 +1,37 @@
+{
+    "name": "Nobody Freezes",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per round</p><p><strong>Trigger</strong> An ally who can hear you becomes frightened, or fails a save against a fear or emotion effect.</p><p><strong>Range</strong> 30 feet</p><hr /><p>Reduce the value of that ally's frightened condition by 1, to a minimum of 0. This costs no action and does not use your reaction. An ally can benefit from this only once per round no matter how many Cadre are shouting.</p>"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "nobody-freezes"
+    },
+    "_id": "e7EI3X5FO78DUKFz"
+}

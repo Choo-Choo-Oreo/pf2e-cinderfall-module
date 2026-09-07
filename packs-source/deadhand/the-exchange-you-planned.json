@@ -1,0 +1,37 @@
+{
+    "name": "The Exchange You Planned",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Trigger</strong> Your marked target critically fails an attack roll or a saving throw against you.</p><hr /><p>Make a melee Strike against it that automatically hits and is a critical hit. This Strike does not count toward your multiple attack penalty and does not cost an action. You may not use this in the first round of an encounter — the duel has to have been running for you to have been setting anything up.</p>"
+        },
+        "level": {
+            "value": 18
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "the-exchange-you-planned"
+    },
+    "_id": "dB0GOVVyrq1Q0mXK"
+}

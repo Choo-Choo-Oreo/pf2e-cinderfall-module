@@ -1,0 +1,37 @@
+{
+    "name": "Known Quantity",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>You gain a +2 circumstance bonus to Intimidation checks against creatures who have seen you fight, and to Diplomacy checks with any mercenary, guard, soldier, or contractor. Once per day, when you name a past employer or contract, the GM tells you whether anyone present has reason to care — and if they do, what that reason is.</p>"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "known-quantity"
+    },
+    "_id": "7OL3gK5jWBzpuGbZ"
+}

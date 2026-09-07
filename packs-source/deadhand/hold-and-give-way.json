@@ -1,0 +1,37 @@
+{
+    "name": "Hold and Give Way",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Range</strong> 60 feet</p><hr /><p>Choose up to four allies who can hear and understand you and split them into two groups. Until the start of your next turn, one group gains a +1 circumstance bonus to AC and cannot be moved against their will by any effect of your level or lower; the other group gains a +10-foot status bonus to all Speeds. You choose which group is which when you give the order.</p>"
+        },
+        "level": {
+            "value": 6
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "hold-and-give-way"
+    },
+    "_id": "gNCU511R0Opc4aLw"
+}

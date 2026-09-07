@@ -1,0 +1,37 @@
+{
+    "name": "The First Exchange Ends It",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Requirement</strong> You are wielding a two-handed melee weapon and have not yet acted this encounter.</p><hr /><p>Your first Strike this encounter deals an extra 2d10 damage and the target is pushed 10 feet directly away from you. If that Strike is a critical hit, the target is also knocked prone. Being delayed, readied, or surprised does not preserve this — it is the first swing or it is nothing.</p>"
+        },
+        "level": {
+            "value": 8
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "the-first-exchange-ends-it"
+    },
+    "_id": "4ZNoO9tSWs7wTnbb"
+}

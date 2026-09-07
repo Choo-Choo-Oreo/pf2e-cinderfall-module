@@ -1,0 +1,37 @@
+{
+    "name": "Planted",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> until you move</p><hr /><p>While you have not used a move action since the start of your last turn, each ally adjacent to you gains a +1 circumstance bonus to AC, and you gain a +2 circumstance bonus to your Fortitude DC against Shove, Trip, and Reposition. You lose both the moment you move for any reason, including a forced movement you did not resist.</p>"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "planted"
+    },
+    "_id": "g95eflMeggK4rt7L"
+}

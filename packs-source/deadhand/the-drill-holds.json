@@ -1,0 +1,37 @@
+{
+    "name": "The Drill Holds",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Allies who have benefited from your called command at least once this encounter gain a +1 status bonus to AC and to saving throws while they can see or hear you. This does not require another command; it is what having been commanded once already does to a unit.</p>"
+        },
+        "level": {
+            "value": 12
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "the-drill-holds"
+    },
+    "_id": "RUUhmK8XVQKsMZwn"
+}

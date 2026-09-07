@@ -1,0 +1,37 @@
+{
+    "name": "Ordnance Discipline",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Your two-handed melee weapon Strikes deal an additional die of the weapon's damage type against creatures that are prone, immobilized, restrained, grabbed, or have no space to retreat into. Your allies are never damaged by your own area effects, collapses, or structural failures — you have always known exactly where the people you like are standing.</p>"
+        },
+        "level": {
+            "value": 14
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "ordnance-discipline"
+    },
+    "_id": "Gb0eT116pk9uLuMg"
+}

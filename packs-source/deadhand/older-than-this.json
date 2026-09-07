@@ -1,0 +1,37 @@
+{
+    "name": "Older Than This",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>You gain a +2 status bonus to saving throws against death effects, and effects that would make you doomed increase that value by one less than they otherwise would, to a minimum of 1. You do not suffer any penalty from advanced age, and you never will.</p>"
+        },
+        "level": {
+            "value": 16
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "older-than-this"
+    },
+    "_id": "U6p23lykJ753nG1d"
+}
