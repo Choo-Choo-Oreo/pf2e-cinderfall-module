@@ -1,0 +1,25 @@
+{
+    "name": "Clean Warren",
+    "type": "heritage",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "ancestry": {
+            "name": "Ratkin",
+            "slug": "ratkin"
+        },
+        "description": {
+            "value": "<p>Something in your line burned out the worst of what makes other Ratkin dangerous to be around — safe to live and work beside, disease-wise, for once.</p><p><b>Effect —</b> No longer counts as a disease carrier under Vermin's Constitution; its resistance to disease and poison drops to a +2 circumstance bonus to saves against them instead.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "_id": "X3u7j82AXmlFCSyn"
+}

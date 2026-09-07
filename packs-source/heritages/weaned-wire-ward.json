@@ -1,0 +1,25 @@
+{
+    "name": "Weaned Wire-ward",
+    "type": "heritage",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "ancestry": {
+            "name": "Wire-wards",
+            "slug": "wire-wards"
+        },
+        "description": {
+            "value": "<p>The link was deliberately dulled, whether by the parent's choice or an accident during a server-core's collapse — quieter now, and steadier for it.</p><p><b>Effect —</b> Lose A Parent, Somewhere as an active GM hook; gain a permanent minor bonus to Will saves, reflecting a mind that finished growing up on its own terms.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "_id": "en8t2NqysHHqGAfZ"
+}

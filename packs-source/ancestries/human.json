@@ -46,7 +46,7 @@
         "items": {
             "adaptable": {
                 "level": 0,
-                "card": "ancestry-traits.adaptable"
+                "name": "Adaptable"
             }
         },
         "languages": {
@@ -76,6 +76,7 @@
     "_id": "1ThcrwqreUpGzTfz",
     "flags": {
         "cinderfall": {
+            "define": "Baseline",
             "bodyParts": {
                 "eyes": 2,
                 "heads": 1,

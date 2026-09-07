@@ -1,0 +1,25 @@
+{
+    "name": "Deep Vault",
+    "type": "heritage",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "ancestry": {
+            "name": "Vaultborn",
+            "slug": "vaultborn"
+        },
+        "description": {
+            "value": "<p>From one of the oldest, most sealed shelters — generations who never saw the sky at all until forced to.</p><p><b>Effect —</b> Darkvision extends to full clarity at long range; take a permanent minor penalty to Fortitude saves against bright light and sudden glare.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "_id": "vOpgcbd73uTajcEe"
+}

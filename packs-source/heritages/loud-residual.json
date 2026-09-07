@@ -1,0 +1,25 @@
+{
+    "name": "Loud Residual",
+    "type": "heritage",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "ancestry": {
+            "name": "Residuals",
+            "slug": "residuals"
+        },
+        "description": {
+            "value": "<p>The fragment talks. Not often in words, but you know when it disagrees with you — and it usually does.</p><p><b>Effect —</b> Bleed-Through can be used twice per day instead of once; involuntary quirks (a stranger's mannerism, a flash of unfamiliar memory) surface more often, GM's discretion.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "_id": "bkphNpJYM18C43ey"
+}

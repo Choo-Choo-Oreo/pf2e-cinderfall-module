@@ -1,0 +1,25 @@
+{
+    "name": "Stable Glass",
+    "type": "heritage",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "ancestry": {
+            "name": "Glassblood",
+            "slug": "glassblood"
+        },
+        "description": {
+            "value": "<p>A quieter mutation — less resistant to radiation than most Glassblood, but the skin doesn't glow and doesn't crack nearly as easily.</p><p><b>Effect —</b> Remove the Brittle drawback from Glass-Sheen Skin and dim Ambient Glow to nearly unnoticeable; Radiation Resistance drops to a minor bonus instead of a full resistance.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "_id": "yTmDnKpei0BgZBGT"
+}

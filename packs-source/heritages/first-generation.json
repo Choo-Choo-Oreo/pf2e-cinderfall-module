@@ -1,0 +1,25 @@
+{
+    "name": "First-Generation",
+    "type": "heritage",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "ancestry": {
+            "name": "Wire-wards",
+            "slug": "wire-wards"
+        },
+        "description": {
+            "value": "<p>Raised most recently, closest to the source — the node is strong, and so is the machine intelligence's opinion of you.</p><p><b>Effect —</b> Congenital Node's sensing range doubles; the parent intelligence occasionally reaches out unprompted, a standing GM hook rather than a bonus.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "_id": "5MEJF84cbwdv98by"
+}

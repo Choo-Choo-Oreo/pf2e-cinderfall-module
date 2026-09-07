@@ -1,0 +1,25 @@
+{
+    "name": "Feral Ashwalker",
+    "type": "heritage",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "ancestry": {
+            "name": "Ashwalkers",
+            "slug": "ashwalkers"
+        },
+        "description": {
+            "value": "<p>Raised further from any settlement than most — more comfortable moving through a collapsed structure alone than through a crowd.</p><p><b>Effect —</b> Bonus to Stealth checks made while moving through ruins or rubble; take a minor penalty to initial Diplomacy checks with strangers.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "_id": "0MC2K0s943MYUPWz"
+}

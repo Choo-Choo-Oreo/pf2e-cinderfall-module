@@ -45,19 +45,19 @@
         "items": {
             "tunnel-dark-eyes": {
                 "level": 0,
-                "card": "ancestry-traits.tunnel-dark-eyes"
+                "name": "Tunnel-Dark Eyes"
             },
             "vermins-constitution": {
                 "level": 0,
-                "card": "ancestry-traits.vermins-constitution"
+                "name": "Vermin's Constitution"
             },
             "warren-bond": {
                 "level": 0,
-                "card": "ancestry-traits.warren-bond"
+                "name": "Warren-Bond"
             },
             "warren-swift": {
                 "level": 0,
-                "card": "ancestry-traits.warren-swift"
+                "name": "Warren-Swift"
             }
         },
         "languages": {
@@ -88,6 +88,7 @@
     "_id": "tsfKlNxYbc8k2xVW",
     "flags": {
         "cinderfall": {
+            "define": "Sewer & Subway Warrens",
             "bodyParts": {
                 "eyes": 2,
                 "heads": 1,

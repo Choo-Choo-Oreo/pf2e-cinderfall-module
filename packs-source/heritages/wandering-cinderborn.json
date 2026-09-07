@@ -1,0 +1,25 @@
+{
+    "name": "Wandering Cinderborn",
+    "type": "heritage",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "ancestry": {
+            "name": "Cinderborn",
+            "slug": "cinderborn"
+        },
+        "description": {
+            "value": "<p>Put real distance between yourself and the cult that would claim you — enough that most Choir of Ash rank-and-file don't immediately recognize what you are.</p><p><b>Effect —</b> The Choir of Ash no longer immediately recognizes you on sight; lose the passive edge from A Fingerprint, Not a Coincidence when actually dealing with them directly.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "_id": "aNqxelCxiptsNTXG"
+}

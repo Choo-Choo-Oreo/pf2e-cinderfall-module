@@ -45,15 +45,15 @@
         "items": {
             "darkvision": {
                 "level": 0,
-                "card": "ancestry-traits.darkvision"
+                "name": "Darkvision"
             },
             "filtered-constitution": {
                 "level": 0,
-                "card": "ancestry-traits.filtered-constitution"
+                "name": "Filtered Constitution"
             },
             "structural-sense": {
                 "level": 0,
-                "card": "ancestry-traits.structural-sense"
+                "name": "Structural Sense"
             }
         },
         "languages": {
@@ -83,6 +83,7 @@
     "_id": "cGJ8dlndT6I95GH0",
     "flags": {
         "cinderfall": {
+            "define": "Baseline · Old-World Survivor",
             "bodyParts": {
                 "eyes": 2,
                 "heads": 1,

@@ -1,0 +1,25 @@
+{
+    "name": "Old Blood",
+    "type": "heritage",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "ancestry": {
+            "name": "Human",
+            "slug": "human"
+        },
+        "description": {
+            "value": "<p>Descended from a pre-Turning genetic-engineering line, faint enough now that it's mostly just a knack — a whisper of an upgrade nobody asked for and nobody can fully explain.</p><p><b>Effect —</b> Choose one at creation: resistance to poison, disease, or radiation. The player picks the category; the GM decides what counts as a source within it.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "_id": "H1vVDoejrIKtfSEo"
+}

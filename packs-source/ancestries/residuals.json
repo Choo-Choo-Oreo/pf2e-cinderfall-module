@@ -45,15 +45,15 @@
         "items": {
             "already-a-foothold": {
                 "level": 0,
-                "card": "ancestry-traits.already-a-foothold"
+                "name": "Already a Foothold"
             },
             "bleed-through": {
                 "level": 0,
-                "card": "ancestry-traits.bleed-through"
+                "name": "Bleed-Through"
             },
             "borrowed-instinct": {
                 "level": 0,
-                "card": "ancestry-traits.borrowed-instinct"
+                "name": "Borrowed Instinct"
             }
         },
         "languages": {
@@ -83,6 +83,7 @@
     "_id": "06zQUJReaQy7Vqfu",
     "flags": {
         "cinderfall": {
+            "define": "Soul-Economy",
             "bodyParts": {
                 "eyes": 2,
                 "heads": 1,

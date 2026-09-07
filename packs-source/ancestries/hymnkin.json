@@ -45,15 +45,15 @@
         "items": {
             "a-voice-recognized": {
                 "level": 0,
-                "card": "ancestry-traits.a-voice-recognized"
+                "name": "A Voice Recognized"
             },
             "plague-blood": {
                 "level": 0,
-                "card": "ancestry-traits.plague-blood"
+                "name": "Plague Blood"
             },
             "the-hymn-underneath": {
                 "level": 0,
-                "card": "ancestry-traits.the-hymn-underneath"
+                "name": "The Hymn Underneath"
             }
         },
         "languages": {
@@ -83,6 +83,7 @@
     "_id": "juvKI3F7ORiC5Z5n",
     "flags": {
         "cinderfall": {
+            "define": "The Gaunt Choir",
             "bodyParts": {
                 "eyes": 2,
                 "heads": 1,

@@ -51,19 +51,19 @@
         "items": {
             "a-body-of-fire": {
                 "level": 0,
-                "card": "ancestry-traits.a-body-of-fire"
+                "name": "A Body of Fire"
             },
             "an-escaped-tool": {
                 "level": 0,
-                "card": "ancestry-traits.an-escaped-tool"
+                "name": "An Escaped Tool"
             },
             "fed-not-fed": {
                 "level": 0,
-                "card": "ancestry-traits.fed-not-fed"
+                "name": "Fed, Not Fed"
             },
             "heat-surge": {
                 "level": 0,
-                "card": "ancestry-traits.heat-surge"
+                "name": "Heat Surge"
             }
         },
         "languages": {
@@ -94,6 +94,7 @@
     "_id": "ECJFnqair7xOBcpp",
     "flags": {
         "cinderfall": {
+            "define": "Soul-Economy · Ghost-Machines",
             "bodyParts": {
                 "eyes": 2,
                 "heads": 1,

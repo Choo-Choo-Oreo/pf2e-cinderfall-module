@@ -45,15 +45,15 @@
         "items": {
             "full-diagnostic": {
                 "level": 0,
-                "card": "ancestry-traits.full-diagnostic"
+                "name": "Full Diagnostic"
             },
             "suppression-protocol": {
                 "level": 0,
-                "card": "ancestry-traits.suppression-protocol"
+                "name": "Suppression Protocol"
             },
             "synthetic-body": {
                 "level": 0,
-                "card": "ancestry-traits.synthetic-body"
+                "name": "Synthetic Body"
             }
         },
         "languages": {
@@ -84,6 +84,7 @@
     "_id": "gs94xLOowL3cfDWp",
     "flags": {
         "cinderfall": {
+            "define": "Pre-Collapse Tech",
             "bodyParts": {
                 "eyes": 2,
                 "heads": 1,

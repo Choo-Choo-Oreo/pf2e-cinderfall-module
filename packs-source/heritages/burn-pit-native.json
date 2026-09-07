@@ -1,0 +1,25 @@
+{
+    "name": "Burn-Pit Native",
+    "type": "heritage",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "ancestry": {
+            "name": "Ashwalkers",
+            "slug": "ashwalkers"
+        },
+        "description": {
+            "value": "<p>Born and raised in the literal burn-pits — the ones that never fully go out, that everyone else routes around.</p><p><b>Effect —</b> Burn-Pit Blood's fire resistance increases; you can work directly beside an active burn-pit without penalty.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "_id": "gDqnjvsu3daFUnXS"
+}

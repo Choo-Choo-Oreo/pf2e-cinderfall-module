@@ -1,0 +1,25 @@
+{
+    "name": "Fractured Glass",
+    "type": "heritage",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "ancestry": {
+            "name": "Glassblood",
+            "slug": "glassblood"
+        },
+        "description": {
+            "value": "<p>Learned to control the one thing about the mutation that's usually just a liability — venting stored radiation on purpose, in a burst, when it actually matters.</p><p><b>Effect —</b> Once per day, release a short burst of radiation damage in melee reach; doing so worsens the Brittle drawback until your next rest.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "_id": "YuLyzqPvVzltAhGs"
+}

@@ -1,0 +1,25 @@
+{
+    "name": "Warding Hymnkin",
+    "type": "heritage",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "ancestry": {
+            "name": "Hymnkin",
+            "slug": "hymnkin"
+        },
+        "description": {
+            "value": "<p>Learned to push the hymn outward instead of just hearing it — a rare, unsettling gift for briefly steadying someone else's nerves with your own.</p><p><b>Effect —</b> Once per day, grant one adjacent ally a bonus to their next save against a fear or despair effect by humming the hymn where they can hear it.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "_id": "KrfWwgwGHkQwLIBH"
+}

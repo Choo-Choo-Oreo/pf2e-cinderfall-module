@@ -1,0 +1,25 @@
+{
+    "name": "Grafted-Chrome",
+    "type": "heritage",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "ancestry": {
+            "name": "Old-World Construct",
+            "slug": "old-world-construct"
+        },
+        "description": {
+            "value": "<p>A rarer manufacturing line, built or later retrofitted with a living, nanite-grown core rather than a fully synthetic one. Still fully Construct by trait and law; the line between built and born runs straight through the middle of it instead of around the outside.</p><p><b>Effect —</b> Gain slow, passive natural healing beyond Synthetic Body's normal upkeep; take a permanent minor penalty to saves against effects that specifically target living tissue (including flesh-mancy), on top of the Cybernetics-vs-Flesh-mancy matchup already applying to Constructs.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "_id": "kSptkjTwNNQIE5oP"
+}

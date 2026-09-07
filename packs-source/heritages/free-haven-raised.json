@@ -1,0 +1,25 @@
+{
+    "name": "Free Haven-Raised",
+    "type": "heritage",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "ancestry": {
+            "name": "Human",
+            "slug": "human"
+        },
+        "description": {
+            "value": "<p>Grew up in an independent settlement answering to no Republic or corporation — a childhood built on doing three jobs badly instead of one job well.</p><p><b>Effect —</b> Gain an additional general feat at 1st level.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "_id": "28g5vGR2IvQFzV83"
+}

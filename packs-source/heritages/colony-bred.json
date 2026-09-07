@@ -1,0 +1,25 @@
+{
+    "name": "Colony-Bred",
+    "type": "heritage",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "ancestry": {
+            "name": "Ratkin",
+            "slug": "ratkin"
+        },
+        "description": {
+            "value": "<p>Raised shoulder to shoulder in the thick of the colony — something in you never quite learned how to be without it close by.</p><p><b>Effect —</b> Warren-Bond triggers with just one nearby Ratkin ally instead of two, and its bonus is 1 higher; take a –1 circumstance penalty to Will saves while no ally of your ancestry is within 30 feet.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "_id": "jQT93FUTPW3HvqjH"
+}

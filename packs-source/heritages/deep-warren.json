@@ -1,0 +1,25 @@
+{
+    "name": "Deep Warren",
+    "type": "heritage",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "ancestry": {
+            "name": "Ratkin",
+            "slug": "ratkin"
+        },
+        "description": {
+            "value": "<p>Your eyes finished adapting to permanent dark generations before you were even born — daylight is the thing that's foreign now.</p><p><b>Effect —</b> Darkvision loses its range limit entirely and Tunnel-Dark Eyes' scent-based Perception bonus improves by 1; take a –1 penalty to Perception in bright light and are dazzled by the first sudden bright light or glare each scene.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "_id": "BCuBCFhfVzOyvwn6"
+}

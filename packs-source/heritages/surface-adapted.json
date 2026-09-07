@@ -1,0 +1,25 @@
+{
+    "name": "Surface-Adapted",
+    "type": "heritage",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "ancestry": {
+            "name": "Vaultborn",
+            "slug": "vaultborn"
+        },
+        "description": {
+            "value": "<p>A vault that opened its doors a generation or two early, or never fully sealed to begin with — more comfortable in the sun than most Vaultborn, and it shows socially too.</p><p><b>Effect —</b> Remove the Vaultborn Charisma flaw; gain no additional bonus in exchange — balance recovered, not created.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "_id": "VzpcbgxI9P5Jg77I"
+}

@@ -1,0 +1,25 @@
+{
+    "name": "Banked-Coal",
+    "type": "heritage",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "ancestry": {
+            "name": "Emberforged",
+            "slug": "emberforged"
+        },
+        "description": {
+            "value": "<p>A calmer flame, closer to embers than a blaze — less impressive in a fight, far easier to keep fed.</p><p><b>Effect —</b> Can go roughly twice as long between fuel or Ghost-Static sources before guttering; Heat Surge's bonus damage is reduced.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "_id": "gjxNx7MZS28MKcCe"
+}

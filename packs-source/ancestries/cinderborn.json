@@ -51,15 +51,15 @@
         "items": {
             "a-fingerprint-not-a-coincidence": {
                 "level": 0,
-                "card": "ancestry-traits.a-fingerprint-not-a-coincidence"
+                "name": "A Fingerprint, Not a Coincidence"
             },
             "banked-warmth": {
                 "level": 0,
-                "card": "ancestry-traits.banked-warmth"
+                "name": "Banked Warmth"
             },
             "hairline-cracks": {
                 "level": 0,
-                "card": "ancestry-traits.hairline-cracks"
+                "name": "Hairline Cracks"
             }
         },
         "languages": {
@@ -89,6 +89,7 @@
     "_id": "6vLvyIsybQoFxmpi",
     "flags": {
         "cinderfall": {
+            "define": "Uriel's Turning",
             "bodyParts": {
                 "eyes": 2,
                 "heads": 1,

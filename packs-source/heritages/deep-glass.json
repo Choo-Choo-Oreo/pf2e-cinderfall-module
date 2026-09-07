@@ -1,0 +1,25 @@
+{
+    "name": "Deep Glass",
+    "type": "heritage",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "ancestry": {
+            "name": "Glassblood",
+            "slug": "glassblood"
+        },
+        "description": {
+            "value": "<p>The crystalline sheen runs deeper than skin — more resistant, more radiant, harder to hide either way.</p><p><b>Effect —</b> Radiation Resistance increases; Ambient Glow becomes bright enough to be seen at long range, a permanent stealth penalty in darkness.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "_id": "GMhbZeSoB3xaz6mh"
+}

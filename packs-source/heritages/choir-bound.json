@@ -1,0 +1,25 @@
+{
+    "name": "Choir-Bound",
+    "type": "heritage",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "ancestry": {
+            "name": "Cinderborn",
+            "slug": "cinderborn"
+        },
+        "description": {
+            "value": "<p>Never really left, or came back, or simply never pretended the pull wasn't there — the Choir considers you one of its own, and means it.</p><p><b>Effect —</b> Banked Warmth's fire resistance improves; Choir of Ash NPCs treat you as a peer by default, for better and worse, at the GM's discretion.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "_id": "WjSzhDZSXKklW7kw"
+}

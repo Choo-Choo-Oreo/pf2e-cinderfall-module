@@ -1,0 +1,25 @@
+{
+    "name": "Sentinel-Line",
+    "type": "heritage",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "ancestry": {
+            "name": "Old-World Construct",
+            "slug": "old-world-construct"
+        },
+        "description": {
+            "value": "<p>Built for security and combat roles before the Turning — the chassis still remembers what it was for.</p><p><b>Effect —</b> Bonus to Fortitude saves; natural armor grants a small permanent bonus to AC.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "_id": "CEvTiAvGjNF3lD1J"
+}

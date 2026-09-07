@@ -1,0 +1,25 @@
+{
+    "name": "Escaped Emberforged",
+    "type": "heritage",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "ancestry": {
+            "name": "Emberforged",
+            "slug": "emberforged"
+        },
+        "description": {
+            "value": "<p>Closest to the Foreman's memory of what you were built to be — and the most actively hunted for it.</p><p><b>Effect —</b> Bonus to Stealth and Deception checks made specifically to pass as an inert or bound ghost-machine rather than a free one. <strong>Design note:</strong> the Foreman's agents pursuing you with unusual persistence is a standing GM hook, not a mechanical penalty.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "_id": "RECO6b2zG0r9jeqV"
+}

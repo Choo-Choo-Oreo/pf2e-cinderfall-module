@@ -50,15 +50,15 @@
         "items": {
             "burn-pit-blood": {
                 "level": 0,
-                "card": "ancestry-traits.burn-pit-blood"
+                "name": "Burn-Pit Blood"
             },
             "iron-stomach": {
                 "level": 0,
-                "card": "ancestry-traits.iron-stomach"
+                "name": "Iron Stomach"
             },
             "scrap-sense": {
                 "level": 0,
-                "card": "ancestry-traits.scrap-sense"
+                "name": "Scrap Sense"
             }
         },
         "languages": {
@@ -88,6 +88,7 @@
     "_id": "4yzhZQ0VT4TXTDla",
     "flags": {
         "cinderfall": {
+            "define": "Baseline · Wasteland Tribe",
             "bodyParts": {
                 "eyes": 2,
                 "heads": 1,

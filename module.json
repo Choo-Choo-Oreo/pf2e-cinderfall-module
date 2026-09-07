@@ -51,6 +51,18 @@
         "ASSISTANT": "OWNER"
       },
       "flags": {}
+    },
+    {
+      "name": "cinderfall-heritages",
+      "label": "Cinderfall Heritages",
+      "path": "packs/heritages",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
     }
   ],
   "packFolders": [
@@ -60,7 +72,8 @@
       "color": "#7a3b2e",
       "packs": [
         "cinderfall-ancestries",
-        "cinderfall-ancestry-features"
+        "cinderfall-ancestry-features",
+        "cinderfall-heritages"
       ]
     }
   ],

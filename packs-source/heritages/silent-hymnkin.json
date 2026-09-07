@@ -1,0 +1,25 @@
+{
+    "name": "Silent Hymnkin",
+    "type": "heritage",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "ancestry": {
+            "name": "Hymnkin",
+            "slug": "hymnkin"
+        },
+        "description": {
+            "value": "<p>The hymn is barely a whisper in you — present, but easy to ignore most days.</p><p><b>Effect —</b> Remove the despair-effect vulnerability tied to A Voice Recognized; The Hymn Underneath's awareness range shrinks to immediate proximity only.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "_id": "Fo0fvlXCEnNReAsa"
+}

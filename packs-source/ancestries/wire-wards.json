@@ -50,15 +50,15 @@
         "items": {
             "a-parent-somewhere": {
                 "level": 0,
-                "card": "ancestry-traits.a-parent-somewhere"
+                "name": "A Parent, Somewhere"
             },
             "congenital-node": {
                 "level": 0,
-                "card": "ancestry-traits.congenital-node"
+                "name": "Congenital Node"
             },
             "raised-without-a-script": {
                 "level": 0,
-                "card": "ancestry-traits.raised-without-a-script"
+                "name": "Raised Without a Script"
             }
         },
         "languages": {
@@ -88,6 +88,7 @@
     "_id": "a2dJRDj6SSfmuO9j",
     "flags": {
         "cinderfall": {
+            "define": "Paradise Servers",
             "bodyParts": {
                 "eyes": 2,
                 "heads": 1,

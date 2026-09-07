@@ -1,0 +1,25 @@
+{
+    "name": "Networked Wire-ward",
+    "type": "heritage",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "ancestry": {
+            "name": "Wire-wards",
+            "slug": "wire-wards"
+        },
+        "description": {
+            "value": "<p>Learned to open the node to more than just the one intelligence that raised you — shallower bonds, but more of them.</p><p><b>Effect —</b> Congenital Node can exchange data with any nearby machine intelligence, not only ghost-machines; the once-per-day exchange becomes twice-per-day, but each exchange is weaker.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "_id": "X1xsnZj0OnPQG5NU"
+}

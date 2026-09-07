@@ -1,0 +1,25 @@
+{
+    "name": "Engineer-Caste",
+    "type": "heritage",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "ancestry": {
+            "name": "Vaultborn",
+            "slug": "vaultborn"
+        },
+        "description": {
+            "value": "<p>Bred and trained specifically toward keeping the vault's machinery alive — every child apprenticed to a filtration system or a reactor core before they could read.</p><p><b>Effect —</b> Bonus to Crafting checks made specifically to repair or maintain machinery, on top of Structural Sense.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "_id": "oKEcSGIQYdZ5WmTX"
+}

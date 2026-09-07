@@ -1,0 +1,25 @@
+{
+    "name": "Combine-Bred",
+    "type": "heritage",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "ancestry": {
+            "name": "Human",
+            "slug": "human"
+        },
+        "description": {
+            "value": "<p>Raised inside Yankee Combine discipline — corporate-sponsored schooling, drills before breakfast, a chain of command internalized before you understood what it was.</p><p><b>Effect —</b> Bonus to Fortitude saves against fear effects while at least one ally is within reach; you were trained to hold a line.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "_id": "pzlDGY3dm6PXehk1"
+}

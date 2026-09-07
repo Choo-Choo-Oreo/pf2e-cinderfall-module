@@ -1,0 +1,25 @@
+{
+    "name": "Furnace-Core",
+    "type": "heritage",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "ancestry": {
+            "name": "Emberforged",
+            "slug": "emberforged"
+        },
+        "description": {
+            "value": "<p>Burns hot and bright, the way the original industrial furnace was built to — more power on tap, more hunger to match it.</p><p><b>Effect —</b> Heat Surge can be used one additional time per day; you need fuel or Ghost-Static roughly twice as often as other Emberforged.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "_id": "a18BZsy9eRBqlY5c"
+}

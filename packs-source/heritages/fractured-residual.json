@@ -1,0 +1,25 @@
+{
+    "name": "Fractured Residual",
+    "type": "heritage",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "ancestry": {
+            "name": "Residuals",
+            "slug": "residuals"
+        },
+        "description": {
+            "value": "<p>More than one fragment took root, none of them dominant — a crowded, unstable birth that never fully settled into one borrowed voice.</p><p><b>Effect —</b> Each day, choose which untrained skill Bleed-Through can apply to instead of it being fixed; take a permanent minor penalty to Will saves against possession and soul-based effects, on top of Already a Foothold.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "_id": "IlkdcCjxB0hOlTIe"
+}

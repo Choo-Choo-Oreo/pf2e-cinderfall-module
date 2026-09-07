@@ -1,0 +1,25 @@
+{
+    "name": "Companion-Line",
+    "type": "heritage",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "ancestry": {
+            "name": "Old-World Construct",
+            "slug": "old-world-construct"
+        },
+        "description": {
+            "value": "<p>Built for service, companionship, and public-facing roles — the parts of the old world that wanted a synthetic person, not a synthetic soldier.</p><p><b>Effect —</b> Bonus to Diplomacy or Performance checks (choose at creation); Suppression Protocol's \"reads as insincere\" drawback is reduced.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "_id": "q1PcbCI1G3rlCmze"
+}

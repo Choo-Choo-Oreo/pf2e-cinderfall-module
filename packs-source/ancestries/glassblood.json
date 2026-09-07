@@ -50,15 +50,15 @@
         "items": {
             "ambient-glow": {
                 "level": 0,
-                "card": "ancestry-traits.ambient-glow"
+                "name": "Ambient Glow"
             },
             "glass-sheen-skin": {
                 "level": 0,
-                "card": "ancestry-traits.glass-sheen-skin"
+                "name": "Glass-Sheen Skin"
             },
             "radiation-resistance": {
                 "level": 0,
-                "card": "ancestry-traits.radiation-resistance"
+                "name": "Radiation Resistance"
             }
         },
         "languages": {
@@ -89,6 +89,7 @@
     "_id": "GdcsJGdwkhXd4TW4",
     "flags": {
         "cinderfall": {
+            "define": "Radiation &amp; Fallout",
             "bodyParts": {
                 "eyes": 2,
                 "heads": 1,

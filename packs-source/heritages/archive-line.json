@@ -1,0 +1,25 @@
+{
+    "name": "Archive-Line",
+    "type": "heritage",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "ancestry": {
+            "name": "Old-World Construct",
+            "slug": "old-world-construct"
+        },
+        "description": {
+            "value": "<p>Built to hold and cross-reference records — a walking pre-Turning library that outlived every institution that used it.</p><p><b>Effect —</b> Bonus to Recall Knowledge checks about pre-Turning history, institutions, or technology; Full Diagnostic can also be used to recall one relevant fact instead of a condition check, once per day.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "_id": "z7ji1SMg8ZLuYgcv"
+}

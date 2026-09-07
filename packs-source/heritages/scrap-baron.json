@@ -1,0 +1,25 @@
+{
+    "name": "Scrap-Baron",
+    "type": "heritage",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "ancestry": {
+            "name": "Ashwalkers",
+            "slug": "ashwalkers"
+        },
+        "description": {
+            "value": "<p>Came up as trade royalty within scavenger-crew hierarchy — the one who negotiates prices, not the one who climbs into the collapsed structure first.</p><p><b>Effect —</b> Bonus to Diplomacy checks made when trading or negotiating within scavenger and salvage communities specifically.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "_id": "uwSiCW1RvxCIvXeQ"
+}

@@ -1,0 +1,25 @@
+{
+    "name": "Choir-Touched Hymnkin",
+    "type": "heritage",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "ancestry": {
+            "name": "Hymnkin",
+            "slug": "hymnkin"
+        },
+        "description": {
+            "value": "<p>The Gaunt Choir's pull runs strong in you — useful, in the right rooms, and heavy, in most of them.</p><p><b>Effect —</b> Bonus to Religion and Occultism checks involving the Gaunt Choir specifically; take a permanent minor penalty to saves against despair and fear effects.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "_id": "kzU3Fb9CitBVOnG1"
+}

@@ -1,0 +1,25 @@
+{
+    "name": "Bright Cinderborn",
+    "type": "heritage",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "ancestry": {
+            "name": "Cinderborn",
+            "slug": "cinderborn"
+        },
+        "description": {
+            "value": "<p>The cracks run brighter and closer to the surface than most — unmistakable the moment you're afraid, angry, or hurt.</p><p><b>Effect —</b> Bonus to Intimidation checks while Hairline Cracks are visibly glowing; take a permanent penalty to Stealth while below half HP or frightened.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "_id": "BxvTgs3hlrO61fQD"
+}

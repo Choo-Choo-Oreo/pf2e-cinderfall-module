@@ -1,0 +1,25 @@
+{
+    "name": "Quiet Residual",
+    "type": "heritage",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "ancestry": {
+            "name": "Residuals",
+            "slug": "residuals"
+        },
+        "description": {
+            "value": "<p>The fragment is dormant more often than not — a presence you'd almost forget about, if it weren't for the fact that you can't remember not having it.</p><p><b>Effect —</b> Reduce the Already a Foothold drawback's severity by one step; Bleed-Through and Borrowed Instinct function exactly as written, no more, no less.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "_id": "HrhZvHqxcZiMzZNL"
+}
