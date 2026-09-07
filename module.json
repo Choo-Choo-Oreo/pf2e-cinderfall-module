@@ -63,6 +63,30 @@
         "ASSISTANT": "OWNER"
       },
       "flags": {}
+    },
+    {
+      "name": "backgrounds",
+      "label": "Cinderfall Backgrounds",
+      "path": "packs/backgrounds",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "feats",
+      "label": "Cinderfall Feats",
+      "path": "packs/feats",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
     }
   ],
   "packFolders": [
@@ -121,7 +145,65 @@
           "residual": "Residual",
           "vaultborn": "Vaultborn",
           "wire-ward": "Wire-Ward"
-        }
+        },
+        "languages": [
+          [
+            "ashen-liturgy",
+            "Ashen Liturgy"
+          ],
+          [
+            "ashwalker-cant",
+            "Ashwalker Cant"
+          ],
+          [
+            "common-cant",
+            "Common Cant"
+          ],
+          [
+            "corporate-legal-cant",
+            "Corporate Legal-Cant"
+          ],
+          [
+            "deep-vault-sign",
+            "Deep Vault Sign"
+          ],
+          [
+            "drill-cant",
+            "Drill-Cant"
+          ],
+          [
+            "echo-tongue",
+            "Echo-Tongue"
+          ],
+          [
+            "glass-sign",
+            "Glass-Sign"
+          ],
+          [
+            "machine-cant",
+            "Machine-Cant"
+          ],
+          [
+            "node-speak",
+            "Node-Speak"
+          ],
+          [
+            "pre-turning-standard",
+            "Pre-Turning Standard"
+          ],
+          [
+            "threnody",
+            "Threnody"
+          ],
+          [
+            "vault-tongue",
+            "Vault-Tongue"
+          ],
+          [
+            "warband-tongue",
+            "Warband Tongue"
+          ]
+        ]
       }
     }
   }

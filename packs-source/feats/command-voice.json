@@ -1,0 +1,32 @@
+{
+    "name": "Command Voice",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "skill",
+        "description": {
+            "value": "<p>Bonus to Intimidation checks made to steady a routed ally or bark an enemy into hesitating mid-fight — the drill doesn't care whose side is currently winning.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "command-voice"
+    },
+    "_id": "hdgwseR8GsOiwRO5"
+}

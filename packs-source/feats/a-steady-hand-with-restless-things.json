@@ -1,0 +1,32 @@
+{
+    "name": "A Steady Hand With Restless Things",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "skill",
+        "description": {
+            "value": "<p>Bonus to checks made to calm, contain, or negotiate with a freshly-bound soul, ghost-machine, or raging spirit before it decides you're a threat rather than a handler.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "a-steady-hand-with-restless-things"
+    },
+    "_id": "ShRrflvtrH3HGlkC"
+}

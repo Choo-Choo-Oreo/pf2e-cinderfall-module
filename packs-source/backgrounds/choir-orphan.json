@@ -1,0 +1,57 @@
+{
+    "name": "Choir Orphan",
+    "type": "background",
+    "img": "systems/pf2e/icons/default-icons/background.svg",
+    "system": {
+        "boosts": {
+            "0": {
+                "value": [
+                    "wis",
+                    "cha"
+                ]
+            },
+            "1": {
+                "value": [
+                    "str",
+                    "dex",
+                    "con",
+                    "int",
+                    "wis",
+                    "cha"
+                ]
+            }
+        },
+        "description": {
+            "value": "<p>Raised inside or alongside the cult that believes Uriel's Turning was righteous and unfinished — whether you left by choice, by expulsion, or by simply walking far enough away, the liturgy doesn't leave easily.</p>"
+        },
+        "items": {
+            "cinders-remember": {
+                "level": 1,
+                "name": "Cinders Remember"
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "trainedSkills": {
+            "lore": [],
+            "value": [
+                "religion"
+            ]
+        },
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "choir-orphan"
+    },
+    "_id": "t51sNiUJAX8opCWo",
+    "flags": {
+        "cinderfall": {
+            "define": "The Choir of Ash"
+        }
+    }
+}

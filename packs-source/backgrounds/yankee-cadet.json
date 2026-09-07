@@ -1,0 +1,57 @@
+{
+    "name": "Yankee Cadet",
+    "type": "background",
+    "img": "systems/pf2e/icons/default-icons/background.svg",
+    "system": {
+        "boosts": {
+            "0": {
+                "value": [
+                    "str",
+                    "con"
+                ]
+            },
+            "1": {
+                "value": [
+                    "str",
+                    "dex",
+                    "con",
+                    "int",
+                    "wis",
+                    "cha"
+                ]
+            }
+        },
+        "description": {
+            "value": "<p>Ran the corporate-sponsored cadet track before washing out, aging out, or walking away — drilled hard enough that the posture and the bark never quite left.</p>"
+        },
+        "items": {
+            "command-voice": {
+                "level": 1,
+                "name": "Command Voice"
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "trainedSkills": {
+            "lore": [],
+            "value": [
+                "intimidation"
+            ]
+        },
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "yankee-cadet"
+    },
+    "_id": "1cWFbOHF4Xqk1Myw",
+    "flags": {
+        "cinderfall": {
+            "define": "The Yankee Combine"
+        }
+    }
+}

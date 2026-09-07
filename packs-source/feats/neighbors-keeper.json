@@ -1,0 +1,32 @@
+{
+    "name": "Neighbor's Keeper",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "skill",
+        "description": {
+            "value": "<p>Bonus to the Aid action when helping an ally defend a place or person you consider home — the least specialized set of instincts a person can walk in with, and proof that generalists are exactly what keeps a Free Haven standing.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "neighbors-keeper"
+    },
+    "_id": "YgbViMYnJU6zjmw8"
+}

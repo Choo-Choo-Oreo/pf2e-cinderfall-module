@@ -1,0 +1,61 @@
+{
+    "name": "Free Haven Militia",
+    "type": "background",
+    "img": "systems/pf2e/icons/default-icons/background.svg",
+    "system": {
+        "boosts": {
+            "0": {
+                "value": [
+                    "str",
+                    "dex",
+                    "con",
+                    "int",
+                    "wis",
+                    "cha"
+                ]
+            },
+            "1": {
+                "value": [
+                    "str",
+                    "dex",
+                    "con",
+                    "int",
+                    "wis",
+                    "cha"
+                ]
+            }
+        },
+        "description": {
+            "value": "<p>Not a soldier, not a specialist — just someone who picked up whatever was needed when the settlement's turn came to stand a watch, because in a Free Haven, that's everyone's job eventually.</p>"
+        },
+        "items": {
+            "neighbors-keeper": {
+                "level": 1,
+                "name": "Neighbor's Keeper"
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "trainedSkills": {
+            "lore": [],
+            "value": [
+                "athletics"
+            ]
+        },
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "free-haven-militia"
+    },
+    "_id": "B7rBePE4xngdrNH3",
+    "flags": {
+        "cinderfall": {
+            "define": "Free Havens"
+        }
+    }
+}

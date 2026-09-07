@@ -1,0 +1,57 @@
+{
+    "name": "Server Farmhand",
+    "type": "background",
+    "img": "systems/pf2e/icons/default-icons/background.svg",
+    "system": {
+        "boosts": {
+            "0": {
+                "value": [
+                    "int",
+                    "wis"
+                ]
+            },
+            "1": {
+                "value": [
+                    "str",
+                    "dex",
+                    "con",
+                    "int",
+                    "wis",
+                    "cha"
+                ]
+            }
+        },
+        "description": {
+            "value": "<p>You worked the Paradise server-farms — coolant lines, drive swaps, keeping the racks fed and the halls cold. Honest work, and it pays. Nobody who does it for long comes away clean: the ambient soul-static of the place gets under your skin and stays there.</p>"
+        },
+        "items": {
+            "half-logged-in": {
+                "level": 1,
+                "name": "Half-Logged-In"
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "trainedSkills": {
+            "lore": [],
+            "value": [
+                "occultism"
+            ]
+        },
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "server-farmhand"
+    },
+    "_id": "DhK9u2wapOGOavH3",
+    "flags": {
+        "cinderfall": {
+            "define": "New Veracruz / Paradise Servers"
+        }
+    }
+}

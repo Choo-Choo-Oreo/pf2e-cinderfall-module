@@ -1,0 +1,32 @@
+{
+    "name": "Company Manners",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "skill",
+        "description": {
+            "value": "<p>Bonus to Deception or Diplomacy when invoking a corporate rank, contract clause, or chain of command — but corporate security systems and rival-corp agents recognize the accent and posture just as easily as your own people do.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "company-manners"
+    },
+    "_id": "0B9pHB7mZEXymf7v"
+}

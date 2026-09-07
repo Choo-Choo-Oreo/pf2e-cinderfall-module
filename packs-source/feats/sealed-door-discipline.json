@@ -1,0 +1,32 @@
+{
+    "name": "Sealed-Door Discipline",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "skill",
+        "description": {
+            "value": "<p>Bonus to Crafting checks to repair or jury-rig airlocks, filtration systems, and pressure seals, and a bonus to saves against inhaled toxins and gas hazards specifically — the drill was never actually about the door.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "sealed-door-discipline"
+    },
+    "_id": "6Gz4VFLPdibkK6Q7"
+}

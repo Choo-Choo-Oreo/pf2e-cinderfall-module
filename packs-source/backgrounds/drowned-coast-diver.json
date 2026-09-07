@@ -1,0 +1,57 @@
+{
+    "name": "Drowned Coast Diver",
+    "type": "background",
+    "img": "systems/pf2e/icons/default-icons/background.svg",
+    "system": {
+        "boosts": {
+            "0": {
+                "value": [
+                    "con",
+                    "str"
+                ]
+            },
+            "1": {
+                "value": [
+                    "str",
+                    "dex",
+                    "con",
+                    "int",
+                    "wis",
+                    "cha"
+                ]
+            }
+        },
+        "description": {
+            "value": "<p>Made a living pulling scrap, bodies, and the occasional intact vault out of three meters of flooded old-world city, one held breath at a time.</p>"
+        },
+        "items": {
+            "held-breath": {
+                "level": 1,
+                "name": "Held Breath"
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "trainedSkills": {
+            "lore": [],
+            "value": [
+                "athletics"
+            ]
+        },
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "drowned-coast-diver"
+    },
+    "_id": "5pLuzd5BslpsWPnw",
+    "flags": {
+        "cinderfall": {
+            "define": "The Drowned Coast"
+        }
+    }
+}

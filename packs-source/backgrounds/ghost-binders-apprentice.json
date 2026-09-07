@@ -1,0 +1,57 @@
+{
+    "name": "Ghost-Binder's Apprentice",
+    "type": "background",
+    "img": "systems/pf2e/icons/default-icons/background.svg",
+    "system": {
+        "boosts": {
+            "0": {
+                "value": [
+                    "wis",
+                    "int"
+                ]
+            },
+            "1": {
+                "value": [
+                    "str",
+                    "dex",
+                    "con",
+                    "int",
+                    "wis",
+                    "cha"
+                ]
+            }
+        },
+        "description": {
+            "value": "<p>Apprenticed to someone who caught wandering souls for a living and pressed them into machinery — you never bound one solo, but you learned to read the difference between \"still lucid\" and \"about to go hostile.\"</p>"
+        },
+        "items": {
+            "a-steady-hand-with-restless-things": {
+                "level": 1,
+                "name": "A Steady Hand With Restless Things"
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "trainedSkills": {
+            "lore": [],
+            "value": [
+                "occultism"
+            ]
+        },
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "ghost-binders-apprentice"
+    },
+    "_id": "XnWHNW4NRklhccSN",
+    "flags": {
+        "cinderfall": {
+            "define": "Soul-Economy Trade Guilds"
+        }
+    }
+}

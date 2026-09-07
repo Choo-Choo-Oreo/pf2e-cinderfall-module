@@ -1,0 +1,57 @@
+{
+    "name": "Bunker Kid",
+    "type": "background",
+    "img": "systems/pf2e/icons/default-icons/background.svg",
+    "system": {
+        "boosts": {
+            "0": {
+                "value": [
+                    "int",
+                    "con"
+                ]
+            },
+            "1": {
+                "value": [
+                    "str",
+                    "dex",
+                    "con",
+                    "int",
+                    "wis",
+                    "cha"
+                ]
+            }
+        },
+        "description": {
+            "value": "<p>Raised inside a sealed bunker where the air is filtered, the rations are counted, and the drill for \"what to do if the door won't reseal\" gets run every month whether anyone's forgotten it or not.</p>"
+        },
+        "items": {
+            "sealed-door-discipline": {
+                "level": 1,
+                "name": "Sealed-Door Discipline"
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "trainedSkills": {
+            "lore": [],
+            "value": [
+                "crafting"
+            ]
+        },
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "bunker-kid"
+    },
+    "_id": "GanL8FHOgx8NQYGD",
+    "flags": {
+        "cinderfall": {
+            "define": "Vaultborn Enclaves"
+        }
+    }
+}

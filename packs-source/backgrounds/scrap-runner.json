@@ -1,0 +1,57 @@
+{
+    "name": "Scrap Runner",
+    "type": "background",
+    "img": "systems/pf2e/icons/default-icons/background.svg",
+    "system": {
+        "boosts": {
+            "0": {
+                "value": [
+                    "dex",
+                    "wis"
+                ]
+            },
+            "1": {
+                "value": [
+                    "str",
+                    "dex",
+                    "con",
+                    "int",
+                    "wis",
+                    "cha"
+                ]
+            }
+        },
+        "description": {
+            "value": "<p>Cut your teeth as the smallest, fastest member of a salvage crew — the one sent first into a collapsing structure because you're light enough that the floor might actually hold.</p>"
+        },
+        "items": {
+            "salvage-sense": {
+                "level": 1,
+                "name": "Salvage Sense"
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "trainedSkills": {
+            "lore": [],
+            "value": [
+                "survival"
+            ]
+        },
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "scrap-runner"
+    },
+    "_id": "nFsuPYrZnabBDGf5",
+    "flags": {
+        "cinderfall": {
+            "define": "Wasteland Scavenger Crews"
+        }
+    }
+}

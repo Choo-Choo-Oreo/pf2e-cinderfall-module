@@ -1,0 +1,57 @@
+{
+    "name": "Dixie Rider",
+    "type": "background",
+    "img": "systems/pf2e/icons/default-icons/background.svg",
+    "system": {
+        "boosts": {
+            "0": {
+                "value": [
+                    "wis",
+                    "dex"
+                ]
+            },
+            "1": {
+                "value": [
+                    "str",
+                    "dex",
+                    "con",
+                    "int",
+                    "wis",
+                    "cha"
+                ]
+            }
+        },
+        "description": {
+            "value": "<p>Grew up in warband culture, learning to read a mutant beast's temper before you learned to read much of anything else — the mount is a partner here, not a piece of gear.</p>"
+        },
+        "items": {
+            "beastborn-rapport": {
+                "level": 1,
+                "name": "Beastborn Rapport"
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "trainedSkills": {
+            "lore": [],
+            "value": [
+                "nature"
+            ]
+        },
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "dixie-rider"
+    },
+    "_id": "WQIw1QfFWLro3o8I",
+    "flags": {
+        "cinderfall": {
+            "define": "Dixie Territories"
+        }
+    }
+}

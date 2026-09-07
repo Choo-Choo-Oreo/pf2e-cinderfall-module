@@ -1,0 +1,57 @@
+{
+    "name": "The Sown",
+    "type": "background",
+    "img": "systems/pf2e/icons/default-icons/background.svg",
+    "system": {
+        "boosts": {
+            "0": {
+                "value": [
+                    "wis",
+                    "cha"
+                ]
+            },
+            "1": {
+                "value": [
+                    "str",
+                    "dex",
+                    "con",
+                    "int",
+                    "wis",
+                    "cha"
+                ]
+            }
+        },
+        "description": {
+            "value": "<p>You didn't grow up believing. You woke up already believing, fully formed, with nothing behind it — no childhood catechism, no crisis of doubt, no moment you can point to and call your conversion. Just faith, present and complete, the way a heartbeat is present and complete, attached to a body that remembers nothing before the day it started. You've built an entire life around the assumption that this makes you chosen. Marked out specifically, deliberately, for something. Nobody's told you otherwise. Nobody's told you anything at all.</p>"
+        },
+        "items": {
+            "borrowed-devotion": {
+                "level": 1,
+                "name": "Borrowed Devotion"
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "trainedSkills": {
+            "lore": [],
+            "value": [
+                "religion"
+            ]
+        },
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "the-sown"
+    },
+    "_id": "ayqhNejfLQLpfo1a",
+    "flags": {
+        "cinderfall": {
+            "define": "Faith — the Singularity, unattributed"
+        }
+    }
+}

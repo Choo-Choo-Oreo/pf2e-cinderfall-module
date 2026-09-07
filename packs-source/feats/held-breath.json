@@ -1,0 +1,32 @@
+{
+    "name": "Held Breath",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "skill",
+        "description": {
+            "value": "<p>Hold your breath for far longer than an untrained diver could manage, and gain a bonus to Athletics checks made to swim against current, pressure, or debris in flooded ruins.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "held-breath"
+    },
+    "_id": "YK5KHkDc1OmfqA8y"
+}

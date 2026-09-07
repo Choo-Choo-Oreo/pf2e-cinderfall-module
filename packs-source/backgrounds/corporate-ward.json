@@ -1,0 +1,57 @@
+{
+    "name": "Corporate Ward",
+    "type": "background",
+    "img": "systems/pf2e/icons/default-icons/background.svg",
+    "system": {
+        "boosts": {
+            "0": {
+                "value": [
+                    "int",
+                    "cha"
+                ]
+            },
+            "1": {
+                "value": [
+                    "str",
+                    "dex",
+                    "con",
+                    "int",
+                    "wis",
+                    "cha"
+                ]
+            }
+        },
+        "description": {
+            "value": "<p>Grew up in company housing, ate company food, and learned company etiquette before you learned much else — whether your family worked for the corp or was simply owned by it depends on which corp.</p>"
+        },
+        "items": {
+            "company-manners": {
+                "level": 1,
+                "name": "Company Manners"
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "trainedSkills": {
+            "lore": [],
+            "value": [
+                "society"
+            ]
+        },
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "corporate-ward"
+    },
+    "_id": "iTMMdx72ZOYZ657c",
+    "flags": {
+        "cinderfall": {
+            "define": "Megacorporations"
+        }
+    }
+}
