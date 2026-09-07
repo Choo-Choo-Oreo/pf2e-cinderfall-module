@@ -35,11 +35,14 @@ Built to the structure and manifest fields described in Foundry's own
   docstring. Not a built compendium pack (that needs Node tooling this
   machine doesn't have); see "Testing an export" below for how to load one
   anyway.
-- `scripts/augmentation-tab.js` — adds a crude "Augments" tab to the PF2e
-  character sheet. Slot counts (bodyParts/bodyWhole/inlays) are summed from
-  `flags.cinderfall` across every item on the actor, not hardcoded — a
-  future heritage/background/feat that carries its own `flags.cinderfall`
-  block adds slots automatically. Each slot is a free-text field saved to
+- `scripts/body-tab.js` — adds a crude "Body" tab to the PF2e character
+  sheet. Named "Body," not "Augmentations," because bio-augmentation,
+  cybernetic augmentation, and mutations all attach to the same body-slot
+  data — none of them owns the tab more than the others. Slot counts
+  (bodyParts/bodyWhole/inlays) are summed from `flags.cinderfall` across
+  every item on the actor, not hardcoded — a future heritage/background/feat
+  that carries its own `flags.cinderfall` block adds slots automatically.
+  Each slot is a free-text field saved to
   `flags["pf2e-cinderfall-module"].installed`; no drag-and-drop or capacity
   validation yet. PF2e has no rule element for adding a new labeled feat-slot
   group to the real Feats tab (checked against the system's own rule-element
@@ -97,7 +100,7 @@ files land.
 One real export staged and auto-imported on world load: `packs-source/ancestries/human.json`
 (Cinderfall's Human ancestry) -- verified live: `Test Dummy (Human)`, a
 disposable test-world character, resolves HP 8/8 and the ancestry's traits
-correctly with the item attached. A crude "Augments" tab
-(`scripts/augmentation-tab.js`) also exists for visually tracking installed
-augmentations against the ancestry's body-slot data. Everything else is
-still scaffold.
+correctly with the item attached. A crude "Body" tab
+(`scripts/body-tab.js`) also exists for visually tracking what's installed
+(bio, cyber, or mutation) against the ancestry's body-slot data. Everything
+else is still scaffold.

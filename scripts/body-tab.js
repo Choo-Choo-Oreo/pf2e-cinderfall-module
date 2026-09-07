@@ -1,10 +1,14 @@
 const MODULE_ID = "pf2e-cinderfall-module";
-const TAB_KEY = "cinderfall-augments";
+const TAB_KEY = "cinderfall-body";
 const FLAG_SCOPE = MODULE_ID;
 const FLAG_KEY = "installed";
 
 /**
- * Crude v1 augmentation slot tracker, added to the PF2e character sheet.
+ * Crude v1 body slot tracker, added to the PF2e character sheet.
+ *
+ * Called "Body" rather than "Augmentations" because bio-augmentation,
+ * cybernetic augmentation, and mutations all attach to the same underlying
+ * body-slot data -- none of them own the tab more than the others do.
  *
  * Slots aren't hardcoded -- they're summed from flags.cinderfall.bodyParts /
  * bodyWhole / inlays.capacity across every item on the actor that carries
@@ -19,7 +23,8 @@ const FLAG_KEY = "installed";
  * `flags["pf2e-cinderfall-module"].installed`, keyed by a stable slot id
  * ("bodyParts:eyes:0", "bodyWhole:skeleton:0", "inlays:capacity:2", ...).
  * No drag-and-drop, no capacity validation yet -- just a place to write
- * what's installed and see the slot count change as items grant more.
+ * what's installed (bio, cyber, or mutation) and see the slot count change
+ * as items grant more.
  */
 
 function collectSlots(actor) {
@@ -63,8 +68,8 @@ function capitalize(s) {
 function buildPanelHTML(actor, slots) {
   const installed = actor.getFlag(FLAG_SCOPE, FLAG_KEY) ?? {};
   if (!slots.length) {
-    return `<section class="tab cinderfall-augments-panel" data-tab="${TAB_KEY}" style="display:none">
-      <p class="notes">No augmentation slots yet -- this actor has no ancestry/item carrying a
+    return `<section class="tab cinderfall-body-panel" data-tab="${TAB_KEY}" style="display:none">
+      <p class="notes">No body slots yet -- this actor has no ancestry/item carrying a
       <code>flags.cinderfall</code> body block.</p>
     </section>`;
   }
@@ -88,9 +93,10 @@ function buildPanelHTML(actor, slots) {
     body += `</div>`;
   }
 
-  return `<section class="tab cinderfall-augments-panel" data-tab="${TAB_KEY}" style="display:none">
-    <p class="notes">Crude v1 -- free-text slots, no drag-and-drop yet. Slot counts come from
-    <code>flags.cinderfall</code> on this actor's items (ancestry, and later heritages/backgrounds/feats).</p>
+  return `<section class="tab cinderfall-body-panel" data-tab="${TAB_KEY}" style="display:none">
+    <p class="notes">Crude v1 -- free-text slots, no drag-and-drop yet. Bio-augmentations,
+    cybernetics, and mutations all go here; slot counts come from <code>flags.cinderfall</code>
+    on this actor's items (ancestry, and later heritages/backgrounds/feats).</p>
     ${body}
   </section>`;
 }
@@ -99,7 +105,7 @@ Hooks.on("renderCharacterSheetPF2e", (app, html) => {
   try {
     injectTab(app, html);
   } catch (err) {
-    console.error(`${MODULE_ID} | augmentation tab injection failed`, err);
+    console.error(`${MODULE_ID} | body tab injection failed`, err);
   }
 });
 
@@ -110,7 +116,7 @@ function injectTab(app, html) {
   const nav = root.querySelector("nav.sheet-tabs, .sheet-navigation nav, nav[data-group='sheet'], nav.tabs");
   const content = root.querySelector(".sheet-content, .sheet-body, section.sheet-body");
   if (!nav || !content) {
-    console.warn(`${MODULE_ID} | augmentation tab: couldn't find sheet nav/content, skipping injection`);
+    console.warn(`${MODULE_ID} | body tab: couldn't find sheet nav/content, skipping injection`);
     return;
   }
 
@@ -122,9 +128,9 @@ function injectTab(app, html) {
   const slots = collectSlots(actor);
 
   const link = document.createElement("a");
-  link.className = "item cinderfall-augment-tab";
+  link.className = "item cinderfall-body-tab";
   link.dataset.tab = TAB_KEY;
-  link.innerHTML = `<i class="fa-solid fa-microchip"></i> Augments`;
+  link.innerHTML = `<i class="fa-solid fa-dna"></i> Body`;
   nav.appendChild(link);
 
   content.insertAdjacentHTML("beforeend", buildPanelHTML(actor, slots));

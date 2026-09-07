@@ -15,7 +15,7 @@
   ],
   "esmodules": [
     "scripts/main.js",
-    "scripts/augmentation-tab.js"
+    "scripts/body-tab.js"
   ],
   "styles": [
     "styles/pf2e-cinderfall-module.css"
