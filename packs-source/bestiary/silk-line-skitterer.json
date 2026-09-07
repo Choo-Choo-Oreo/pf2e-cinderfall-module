@@ -1,0 +1,320 @@
+{
+    "name": "Silk-Line Skitterer",
+    "type": "npc",
+    "img": "systems/pf2e/icons/default-icons/npc.svg",
+    "system": {
+        "abilities": {
+            "str": {
+                "mod": 1
+            },
+            "dex": {
+                "mod": 4
+            },
+            "con": {
+                "mod": 2
+            },
+            "int": {
+                "mod": -4
+            },
+            "wis": {
+                "mod": 3
+            },
+            "cha": {
+                "mod": -2
+            }
+        },
+        "attributes": {
+            "ac": {
+                "details": "",
+                "value": 18
+            },
+            "hp": {
+                "details": "",
+                "max": 26,
+                "temp": 0,
+                "value": 26
+            },
+            "weaknesses": [
+                {
+                    "type": "fire",
+                    "value": 5
+                },
+                {
+                    "type": "area-damage",
+                    "value": 3
+                }
+            ],
+            "speed": {
+                "details": "ignores web difficult terrain",
+                "otherSpeeds": [
+                    {
+                        "type": "climb",
+                        "value": 25
+                    }
+                ],
+                "value": 25
+            }
+        },
+        "details": {
+            "blurb": "",
+            "languages": {
+                "details": "",
+                "value": []
+            },
+            "level": {
+                "value": 2
+            },
+            "privateNotes": "",
+            "publicNotes": "<p>Scout-caste. Fast, light, and always on a web line back to something bigger. Killing one is easy. Killing one quietly is the whole problem.</p>",
+            "publication": {
+                "license": "ORC",
+                "remaster": true,
+                "title": "Cinderfall"
+            }
+        },
+        "initiative": {
+            "statistic": "perception"
+        },
+        "perception": {
+            "details": "tremorsense (imprecise) 60 ft through webs",
+            "mod": 8,
+            "senses": [
+                {
+                    "type": "low-light-vision"
+                },
+                {
+                    "type": "tremorsense",
+                    "acuity": "imprecise",
+                    "range": 60
+                }
+            ]
+        },
+        "resources": {},
+        "saves": {
+            "fortitude": {
+                "saveDetail": "",
+                "value": 6
+            },
+            "reflex": {
+                "saveDetail": "",
+                "value": 10
+            },
+            "will": {
+                "saveDetail": "",
+                "value": 7
+            }
+        },
+        "skills": {
+            "acrobatics": {
+                "base": 9
+            },
+            "athletics": {
+                "base": 6
+            },
+            "stealth": {
+                "base": 10
+            }
+        },
+        "traits": {
+            "rarity": "common",
+            "size": {
+                "value": "sm"
+            },
+            "value": [
+                "animal"
+            ]
+        },
+        "slug": "silk-line-skitterer"
+    },
+    "_id": "ScrHRtgJObWdKMb3",
+    "items": [
+        {
+            "_id": "6XyQD7pLWToACd1R",
+            "img": "systems/pf2e/icons/default-icons/melee.svg",
+            "name": "fangs",
+            "sort": 100000,
+            "system": {
+                "attack": {
+                    "value": ""
+                },
+                "attackEffects": {
+                    "custom": "",
+                    "value": []
+                },
+                "bonus": {
+                    "value": 10
+                },
+                "damageRolls": {
+                    "0": {
+                        "damage": "1d8+3",
+                        "damageType": "piercing"
+                    }
+                },
+                "description": {
+                    "value": "<p>Damage 1d8+3 piercing plus spider venom (DC 17 Fortitude; 1d6 persistent poison, and slowed 1 for 1 round on a critical failure)</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "range": null,
+                "rules": [],
+                "slug": "fangs",
+                "traits": {
+                    "rarity": "common",
+                    "value": [
+                        "agile",
+                        "finesse"
+                    ]
+                },
+                "weaponType": {
+                    "value": "melee"
+                }
+            },
+            "type": "melee"
+        },
+        {
+            "_id": "Hj0rjAumpEkYnmyP",
+            "img": "systems/pf2e/icons/default-icons/melee.svg",
+            "name": "web",
+            "sort": 200000,
+            "system": {
+                "attack": {
+                    "value": ""
+                },
+                "attackEffects": {
+                    "custom": "",
+                    "value": []
+                },
+                "bonus": {
+                    "value": 10
+                },
+                "damageRolls": {},
+                "description": {
+                    "value": "<p><strong>Effect</strong> the target is immobilized (Escape DC 17)</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "range": {
+                    "increment": 20,
+                    "max": null
+                },
+                "rules": [],
+                "slug": "web",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                },
+                "weaponType": {
+                    "value": "ranged"
+                }
+            },
+            "type": "melee"
+        },
+        {
+            "_id": "xyUaFVJ5sWhH4tga",
+            "img": "systems/pf2e/icons/actions/Passive.webp",
+            "name": "Line Talk",
+            "sort": 1100000,
+            "system": {
+                "actionType": {
+                    "value": "passive"
+                },
+                "actions": {
+                    "value": null
+                },
+                "category": "interaction",
+                "description": {
+                    "value": "<p>While the Skitterer is touching a web strand connected to other Spiderlands creatures, it and every connected ally share sight and tremorsense; no creature can be undetected to any of them by being unseen.</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "line-talk",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "type": "action"
+        },
+        {
+            "_id": "jpRZ1rS6u90oU2WV",
+            "img": "systems/pf2e/icons/actions/Reaction.webp",
+            "name": "Bring the Others",
+            "sort": 1200000,
+            "system": {
+                "actionType": {
+                    "value": "reaction"
+                },
+                "actions": {
+                    "value": null
+                },
+                "category": "offensive",
+                "description": {
+                    "value": "<p><b>Trigger</b> the Skitterer takes damage or spots a non-Spiderlands creature; <b>Effect</b> it plucks the line. Within 1d4 rounds, one Funnel Ambusher or 1d4 more Skitterers arrive from elsewhere in the web (GM's discretion on the entry point).</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "bring-the-others",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "type": "action"
+        },
+        {
+            "_id": "qpECGNo2KBl8qJNC",
+            "img": "systems/pf2e/icons/actions/Reaction.webp",
+            "name": "Twitch Retreat",
+            "sort": 1300000,
+            "system": {
+                "actionType": {
+                    "value": "reaction"
+                },
+                "actions": {
+                    "value": null
+                },
+                "category": "offensive",
+                "description": {
+                    "value": "<p><b>Trigger</b> the Skitterer is critically hit or first drops below half HP; <b>Effect</b> it Climbs up to its Speed along a web line; this movement doesn't trigger reactions.</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "twitch-retreat",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "type": "action"
+        }
+    ],
+    "flags": {
+        "cinderfall": {
+            "alignment": "N",
+            "incomplete": [
+                "perception clause not representable as a pf2e sense: 'tremorsense (imprecise) 60 ft through webs'",
+                "Melee strike 'fangs': rider 'spider venom (DC 17 Fortitude; 1d6 persistent poison, and slowed 1 for 1 round on a critical failure)' kept as text only",
+                "Ranged strike 'web': note 'Frequency three times' is not a pf2e weapon trait",
+                "Ranged strike 'web' deals no damage; its Effect is text only"
+            ]
+        }
+    }
+}

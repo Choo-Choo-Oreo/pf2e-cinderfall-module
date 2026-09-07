@@ -1,0 +1,323 @@
+{
+    "name": "Glowscale Lurker",
+    "type": "npc",
+    "img": "systems/pf2e/icons/default-icons/npc.svg",
+    "system": {
+        "abilities": {
+            "str": {
+                "mod": 4
+            },
+            "dex": {
+                "mod": 2
+            },
+            "con": {
+                "mod": 4
+            },
+            "int": {
+                "mod": -4
+            },
+            "wis": {
+                "mod": 2
+            },
+            "cha": {
+                "mod": -2
+            }
+        },
+        "attributes": {
+            "ac": {
+                "details": "",
+                "value": 21
+            },
+            "hp": {
+                "details": "",
+                "max": 70,
+                "temp": 0,
+                "value": 70
+            },
+            "immunities": [
+                {
+                    "type": "radiation"
+                }
+            ],
+            "weaknesses": [
+                {
+                    "type": "cold",
+                    "value": 5
+                }
+            ],
+            "speed": {
+                "details": "",
+                "otherSpeeds": [
+                    {
+                        "type": "swim",
+                        "value": 30
+                    }
+                ],
+                "value": 25
+            }
+        },
+        "details": {
+            "blurb": "",
+            "languages": {
+                "details": "",
+                "value": []
+            },
+            "level": {
+                "value": 4
+            },
+            "privateNotes": "",
+            "publicNotes": "<p>A rad-adapted reptile the length of a person, faintly luminous, that lies in the warm pools with only its eyes above the surface.</p>",
+            "publication": {
+                "license": "ORC",
+                "remaster": true,
+                "title": "Cinderfall"
+            }
+        },
+        "initiative": {
+            "statistic": "perception"
+        },
+        "perception": {
+            "details": "",
+            "mod": 10,
+            "senses": [
+                {
+                    "type": "low-light-vision"
+                },
+                {
+                    "type": "scent",
+                    "acuity": "imprecise",
+                    "range": 30
+                }
+            ]
+        },
+        "resources": {},
+        "saves": {
+            "fortitude": {
+                "saveDetail": "",
+                "value": 12
+            },
+            "reflex": {
+                "saveDetail": "",
+                "value": 8
+            },
+            "will": {
+                "saveDetail": "",
+                "value": 8
+            }
+        },
+        "skills": {
+            "athletics": {
+                "base": 12
+            },
+            "stealth": {
+                "base": 10
+            }
+        },
+        "traits": {
+            "rarity": "common",
+            "size": {
+                "value": "med"
+            },
+            "value": [
+                "animal",
+                "mutant"
+            ]
+        },
+        "slug": "glowscale-lurker"
+    },
+    "_id": "0yMiauMIJaxmawRe",
+    "items": [
+        {
+            "_id": "2KG6fwLUhKHzzk3t",
+            "img": "systems/pf2e/icons/default-icons/melee.svg",
+            "name": "jaws",
+            "sort": 100000,
+            "system": {
+                "attack": {
+                    "value": ""
+                },
+                "attackEffects": {
+                    "custom": "",
+                    "value": []
+                },
+                "bonus": {
+                    "value": 14
+                },
+                "damageRolls": {
+                    "0": {
+                        "damage": "2d8+5",
+                        "damageType": "piercing"
+                    },
+                    "1": {
+                        "category": "persistent",
+                        "damage": "1d6",
+                        "damageType": "radiation"
+                    }
+                },
+                "description": {
+                    "value": ""
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "range": null,
+                "rules": [],
+                "slug": "jaws",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                },
+                "weaponType": {
+                    "value": "melee"
+                }
+            },
+            "type": "melee"
+        },
+        {
+            "_id": "catYVhMHdzPg6M9U",
+            "img": "systems/pf2e/icons/default-icons/melee.svg",
+            "name": "tail",
+            "sort": 200000,
+            "system": {
+                "attack": {
+                    "value": ""
+                },
+                "attackEffects": {
+                    "custom": "",
+                    "value": []
+                },
+                "bonus": {
+                    "value": 14
+                },
+                "damageRolls": {
+                    "0": {
+                        "damage": "2d6+5",
+                        "damageType": "bludgeoning"
+                    }
+                },
+                "description": {
+                    "value": ""
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "range": null,
+                "rules": [],
+                "slug": "tail",
+                "traits": {
+                    "rarity": "common",
+                    "value": [
+                        "agile",
+                        "reach-10"
+                    ]
+                },
+                "weaponType": {
+                    "value": "melee"
+                }
+            },
+            "type": "melee"
+        },
+        {
+            "_id": "7KOm7ghsVfzOaf73",
+            "img": "systems/pf2e/icons/actions/Reaction.webp",
+            "name": "Irradiated Blood",
+            "sort": 1100000,
+            "system": {
+                "actionType": {
+                    "value": "reaction"
+                },
+                "actions": {
+                    "value": null
+                },
+                "category": "offensive",
+                "description": {
+                    "value": "<p><b>Trigger</b> a creature hits the Lurker with a melee unarmed attack or a non-reach melee weapon; <b>Effect</b> that creature takes 1d6 persistent radiation damage (DC 21 flat check to end).</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "irradiated-blood",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "type": "action"
+        },
+        {
+            "_id": "cyOwLgepjowgAzWV",
+            "img": "systems/pf2e/icons/actions/OneAction.webp",
+            "name": "Lurk",
+            "sort": 1200000,
+            "system": {
+                "actionType": {
+                    "value": "action"
+                },
+                "actions": {
+                    "value": 1
+                },
+                "category": "offensive",
+                "description": {
+                    "value": "<p><b>Requirements</b> the Lurker is in water or sludge and is hidden; <b>Effect</b> it submerges fully and is undetected; its next jaws Strike this round deals an extra 2d6 precision damage.</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "lurk",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "type": "action"
+        },
+        {
+            "_id": "t1nUcxdb4ElXc4U8",
+            "img": "systems/pf2e/icons/actions/Passive.webp",
+            "name": "Half-Life Glow",
+            "sort": 1300000,
+            "system": {
+                "actionType": {
+                    "value": "passive"
+                },
+                "actions": {
+                    "value": null
+                },
+                "category": "interaction",
+                "description": {
+                    "value": "<p>The Lurker sheds dim light in a 10-foot radius. It can suppress or restore this with a single action, but takes a &minus;2 penalty to Stealth for 1 round after restoring it.</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "half-life-glow",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "type": "action"
+        }
+    ],
+    "flags": {
+        "cinderfall": {
+            "alignment": "N",
+            "incomplete": [
+                "skill 'Stealth' condition '+12 while submerged' kept as text only"
+            ]
+        }
+    }
+}

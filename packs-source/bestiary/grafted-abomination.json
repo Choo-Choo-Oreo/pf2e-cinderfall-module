@@ -1,0 +1,312 @@
+{
+    "name": "Grafted Abomination",
+    "type": "npc",
+    "img": "systems/pf2e/icons/default-icons/npc.svg",
+    "system": {
+        "abilities": {
+            "str": {
+                "mod": 5
+            },
+            "dex": {
+                "mod": 2
+            },
+            "con": {
+                "mod": 5
+            },
+            "int": {
+                "mod": -3
+            },
+            "wis": {
+                "mod": 1
+            },
+            "cha": {
+                "mod": 0
+            }
+        },
+        "attributes": {
+            "ac": {
+                "details": "",
+                "value": 19
+            },
+            "hp": {
+                "details": "",
+                "max": 95,
+                "temp": 0,
+                "value": 95
+            },
+            "weaknesses": [
+                {
+                    "type": "slashing",
+                    "value": 5
+                },
+                {
+                    "type": "the-cut",
+                    "value": 5
+                }
+            ],
+            "speed": {
+                "details": "",
+                "otherSpeeds": [],
+                "value": 25
+            }
+        },
+        "details": {
+            "blurb": "",
+            "languages": {
+                "details": "",
+                "value": []
+            },
+            "level": {
+                "value": 5
+            },
+            "privateNotes": "",
+            "publicNotes": "<p>Flesh and salvaged factory parts, sewn together by whatever authority still runs the Jail. It is in constant pain and has been built to take that out on whatever's nearest.</p>",
+            "publication": {
+                "license": "ORC",
+                "remaster": true,
+                "title": "Cinderfall"
+            }
+        },
+        "initiative": {
+            "statistic": "perception"
+        },
+        "perception": {
+            "details": "",
+            "mod": 11,
+            "senses": [
+                {
+                    "type": "low-light-vision"
+                },
+                {
+                    "type": "scent",
+                    "acuity": "imprecise",
+                    "range": 30
+                }
+            ]
+        },
+        "resources": {},
+        "saves": {
+            "fortitude": {
+                "saveDetail": "",
+                "value": 13
+            },
+            "reflex": {
+                "saveDetail": "",
+                "value": 9
+            },
+            "will": {
+                "saveDetail": "",
+                "value": 9
+            }
+        },
+        "skills": {
+            "athletics": {
+                "base": 15
+            },
+            "intimidation": {
+                "base": 11
+            }
+        },
+        "traits": {
+            "rarity": "common",
+            "size": {
+                "value": "lg"
+            },
+            "value": [
+                "aberration",
+                "mutant"
+            ]
+        },
+        "slug": "grafted-abomination"
+    },
+    "_id": "XwfHjxcKSIZGtDc6",
+    "items": [
+        {
+            "_id": "gXwrtreASzQ2iHA9",
+            "img": "systems/pf2e/icons/default-icons/melee.svg",
+            "name": "grafted claw",
+            "sort": 100000,
+            "system": {
+                "attack": {
+                    "value": ""
+                },
+                "attackEffects": {
+                    "custom": "",
+                    "value": [
+                        "grab"
+                    ]
+                },
+                "bonus": {
+                    "value": 16
+                },
+                "damageRolls": {
+                    "0": {
+                        "damage": "2d8+7",
+                        "damageType": "slashing"
+                    }
+                },
+                "description": {
+                    "value": ""
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "range": null,
+                "rules": [],
+                "slug": "grafted-claw",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                },
+                "weaponType": {
+                    "value": "melee"
+                }
+            },
+            "type": "melee"
+        },
+        {
+            "_id": "mb5f3hvrkkPuxQn9",
+            "img": "systems/pf2e/icons/default-icons/melee.svg",
+            "name": "piston-fist",
+            "sort": 200000,
+            "system": {
+                "attack": {
+                    "value": ""
+                },
+                "attackEffects": {
+                    "custom": "",
+                    "value": []
+                },
+                "bonus": {
+                    "value": 16
+                },
+                "damageRolls": {
+                    "0": {
+                        "damage": "2d10+7",
+                        "damageType": "bludgeoning"
+                    }
+                },
+                "description": {
+                    "value": "<p>Damage 2d10+7 bludgeoning plus Shove 10 ft</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "range": null,
+                "rules": [],
+                "slug": "piston-fist",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                },
+                "weaponType": {
+                    "value": "melee"
+                }
+            },
+            "type": "melee"
+        },
+        {
+            "_id": "ZNKRHkU57oDoGW25",
+            "img": "systems/pf2e/icons/actions/Reaction.webp",
+            "name": "Rejection Spasm",
+            "sort": 1100000,
+            "system": {
+                "actionType": {
+                    "value": "reaction"
+                },
+                "actions": {
+                    "value": null
+                },
+                "category": "offensive",
+                "description": {
+                    "value": "<p><b>Trigger</b> the Abomination takes vitality damage or is critically hit; <b>Effect</b> its body convulses &mdash; a 10-foot emanation, 2d6 bludgeoning damage, basic Reflex DC 20.</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "rejection-spasm",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "type": "action"
+        },
+        {
+            "_id": "9gxi3KVVAr9ton7Z",
+            "img": "systems/pf2e/icons/actions/Passive.webp",
+            "name": "Grafted Wrong",
+            "sort": 1200000,
+            "system": {
+                "actionType": {
+                    "value": "passive"
+                },
+                "actions": {
+                    "value": null
+                },
+                "category": "interaction",
+                "description": {
+                    "value": "<p>The Abomination is permanently sickened 1 and can't reduce this. A creature that succeeds at a DC 22 Medicine or Crafting check (or a Fleshmancer's Read the Meat) identifies a failing graft; an attack targeting it (AC 20, 15 HP) drops the Abomination to stunned 1 when the graft is destroyed.</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "grafted-wrong",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "type": "action"
+        },
+        {
+            "_id": "hVo9gKxKAMLxjA8T",
+            "img": "systems/pf2e/icons/actions/Passive.webp",
+            "name": "Won't Stay Down",
+            "sort": 1300000,
+            "system": {
+                "actionType": {
+                    "value": "passive"
+                },
+                "actions": {
+                    "value": null
+                },
+                "category": "interaction",
+                "description": {
+                    "value": "<p>The first time the Abomination is reduced to 0 HP, it stays up at 1 HP and is slowed 1 for its next turn; the second time, it falls.</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "wont-stay-down",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "type": "action"
+        }
+    ],
+    "flags": {
+        "cinderfall": {
+            "alignment": "CE",
+            "incomplete": [
+                "weakness note \"a Fleshmancer's Cut resource spends at +1 effect against it\" kept as text only",
+                "Melee strike 'piston-fist': rider 'Shove 10 ft' kept as text only"
+            ]
+        }
+    }
+}

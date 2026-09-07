@@ -1,0 +1,326 @@
+{
+    "name": "The Silent",
+    "type": "npc",
+    "img": "systems/pf2e/icons/default-icons/npc.svg",
+    "system": {
+        "abilities": {
+            "str": {
+                "mod": 3
+            },
+            "dex": {
+                "mod": 5
+            },
+            "con": {
+                "mod": 2
+            },
+            "int": {
+                "mod": -1
+            },
+            "wis": {
+                "mod": 4
+            },
+            "cha": {
+                "mod": -2
+            }
+        },
+        "attributes": {
+            "ac": {
+                "details": "",
+                "value": 22
+            },
+            "hp": {
+                "details": "",
+                "max": 65,
+                "temp": 0,
+                "value": 65
+            },
+            "weaknesses": [
+                {
+                    "type": "sonic",
+                    "value": 5
+                }
+            ],
+            "speed": {
+                "details": "",
+                "otherSpeeds": [
+                    {
+                        "type": "climb",
+                        "value": 20
+                    }
+                ],
+                "value": 30
+            }
+        },
+        "details": {
+            "blurb": "",
+            "languages": {
+                "details": "",
+                "value": []
+            },
+            "level": {
+                "value": 5
+            },
+            "privateNotes": "",
+            "publicNotes": "<p>Native to the labyrinth. It makes no noise at all -- not footfall, not breath, not the wet sound a mouth makes opening. You find out it's there when it's already adjacent.</p>",
+            "publication": {
+                "license": "ORC",
+                "remaster": true,
+                "title": "Cinderfall"
+            }
+        },
+        "initiative": {
+            "statistic": "perception"
+        },
+        "perception": {
+            "details": "blindsight 30 ft; no vision",
+            "mod": 13,
+            "senses": [
+                {
+                    "type": "scent",
+                    "acuity": "imprecise",
+                    "range": 60
+                }
+            ]
+        },
+        "resources": {},
+        "saves": {
+            "fortitude": {
+                "saveDetail": "",
+                "value": 9
+            },
+            "reflex": {
+                "saveDetail": "",
+                "value": 13
+            },
+            "will": {
+                "saveDetail": "",
+                "value": 11
+            }
+        },
+        "skills": {
+            "acrobatics": {
+                "base": 12
+            },
+            "stealth": {
+                "base": 15
+            }
+        },
+        "traits": {
+            "rarity": "common",
+            "size": {
+                "value": "med"
+            },
+            "value": [
+                "aberration"
+            ]
+        },
+        "slug": "the-silent"
+    },
+    "_id": "aZrl8zcEMgFosbcU",
+    "items": [
+        {
+            "_id": "r2ZNmEWPOVsuGuFG",
+            "img": "systems/pf2e/icons/default-icons/lore.svg",
+            "name": "Maze Lore",
+            "sort": 700000,
+            "system": {
+                "description": {
+                    "value": ""
+                },
+                "mod": {
+                    "value": 13
+                },
+                "proficient": {
+                    "value": 0
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "maze-lore"
+            },
+            "type": "lore"
+        },
+        {
+            "_id": "wX0bhdomrEZCXqNk",
+            "img": "systems/pf2e/icons/default-icons/melee.svg",
+            "name": "raking hands",
+            "sort": 100000,
+            "system": {
+                "attack": {
+                    "value": ""
+                },
+                "attackEffects": {
+                    "custom": "",
+                    "value": []
+                },
+                "bonus": {
+                    "value": 16
+                },
+                "damageRolls": {
+                    "0": {
+                        "damage": "2d6+6",
+                        "damageType": "slashing"
+                    },
+                    "1": {
+                        "category": "persistent",
+                        "damage": "1d6",
+                        "damageType": "bleed"
+                    }
+                },
+                "description": {
+                    "value": ""
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "range": null,
+                "rules": [],
+                "slug": "raking-hands",
+                "traits": {
+                    "rarity": "common",
+                    "value": [
+                        "agile"
+                    ]
+                },
+                "weaponType": {
+                    "value": "melee"
+                }
+            },
+            "type": "melee"
+        },
+        {
+            "_id": "PmSL7MNmPQz6FsQM",
+            "img": "systems/pf2e/icons/actions/Passive.webp",
+            "name": "Soundless",
+            "sort": 1100000,
+            "system": {
+                "actionType": {
+                    "value": "passive"
+                },
+                "actions": {
+                    "value": null
+                },
+                "category": "interaction",
+                "description": {
+                    "value": "<p>The Silent produces no sound whatsoever and is permanently undetected to detection that relies on hearing. It can't benefit from or be affected by auditory effects, and it can't speak. Effects that require the Silent to hear a sound automatically fail.</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "soundless",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "type": "action"
+        },
+        {
+            "_id": "sOHkK1nzMyUo11ZT",
+            "img": "systems/pf2e/icons/actions/Reaction.webp",
+            "name": "Take the Turn You Didn't",
+            "sort": 1200000,
+            "system": {
+                "actionType": {
+                    "value": "reaction"
+                },
+                "actions": {
+                    "value": null
+                },
+                "category": "offensive",
+                "description": {
+                    "value": "<p><b>Trigger</b> a creature within 15 feet takes a move action; <b>Effect</b> the Silent Strides up to 15 feet, staying outside that creature's line of sight if the layout allows. If it ends adjacent to a creature and undetected, its next raking hands Strike this round deals an extra 2d6 precision damage.</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "take-the-turn-you-didnt",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "type": "action"
+        },
+        {
+            "_id": "D9JUrUDp39s7o5VN",
+            "img": "systems/pf2e/icons/actions/Passive.webp",
+            "name": "The Walls Help",
+            "sort": 1300000,
+            "system": {
+                "actionType": {
+                    "value": "passive"
+                },
+                "actions": {
+                    "value": null
+                },
+                "category": "interaction",
+                "description": {
+                    "value": "<p>While in the Maze or any space no more than 10 feet wide, the Silent has cover at all times and its Stealth check result is 19. In open ground it is disoriented and takes a &minus;2 circumstance penalty to attack rolls.</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "the-walls-help",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "type": "action"
+        },
+        {
+            "_id": "wD7tKYyMAyUDlimo",
+            "img": "systems/pf2e/icons/actions/OneAction.webp",
+            "name": "Herd the Lost",
+            "sort": 1400000,
+            "system": {
+                "actionType": {
+                    "value": "action"
+                },
+                "actions": {
+                    "value": 1
+                },
+                "category": "offensive",
+                "description": {
+                    "value": "<p>A single 5-foot wall segment within 30 feet either appears (in an empty square) or vanishes. The Maze obliges.</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "herd-the-lost",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "type": "action"
+        }
+    ],
+    "flags": {
+        "cinderfall": {
+            "alignment": "NE",
+            "incomplete": [
+                "perception clause not representable as a pf2e sense: 'blindsight 30 ft'",
+                "perception clause not representable as a pf2e sense: 'no vision'"
+            ]
+        }
+    }
+}

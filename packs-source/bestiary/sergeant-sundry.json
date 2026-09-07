@@ -1,0 +1,454 @@
+{
+    "name": "Sergeant Sundry",
+    "type": "npc",
+    "img": "systems/pf2e/icons/default-icons/npc.svg",
+    "system": {
+        "abilities": {
+            "str": {
+                "mod": 5
+            },
+            "dex": {
+                "mod": 3
+            },
+            "con": {
+                "mod": 5
+            },
+            "int": {
+                "mod": 4
+            },
+            "wis": {
+                "mod": 5
+            },
+            "cha": {
+                "mod": 4
+            }
+        },
+        "attributes": {
+            "ac": {
+                "details": "",
+                "value": 27
+            },
+            "hp": {
+                "details": "",
+                "max": 140,
+                "temp": 0,
+                "value": 140
+            },
+            "immunities": [
+                {
+                    "type": "bleed"
+                },
+                {
+                    "type": "death-effects"
+                },
+                {
+                    "type": "disease"
+                },
+                {
+                    "type": "paralyzed"
+                },
+                {
+                    "type": "poison"
+                },
+                {
+                    "type": "unconscious"
+                }
+            ],
+            "weaknesses": [
+                {
+                    "type": "electricity",
+                    "value": 10
+                }
+            ],
+            "resistances": [
+                {
+                    "type": "physical",
+                    "value": 8,
+                    "exceptions": [
+                        "adamantine",
+                        "orichalcum"
+                    ]
+                }
+            ],
+            "speed": {
+                "details": "",
+                "otherSpeeds": [],
+                "value": 25
+            }
+        },
+        "details": {
+            "blurb": "",
+            "languages": {
+                "details": "Common, two dead military cants",
+                "value": []
+            },
+            "level": {
+                "value": 8
+            },
+            "privateNotes": "",
+            "publicNotes": "<p>A frontline command automaton that finished the war with its mind whole and walked to the Market instead of to the next objective. It keeps a stall, keeps the peace, and remembers every face that has ever passed its counter. (Authored name -- flagged for the GM's approval.)</p>",
+            "publication": {
+                "license": "ORC",
+                "remaster": true,
+                "title": "Cinderfall"
+            }
+        },
+        "initiative": {
+            "statistic": "perception"
+        },
+        "perception": {
+            "details": "",
+            "mod": 18,
+            "senses": [
+                {
+                    "type": "darkvision"
+                },
+                {
+                    "type": "motion-sense",
+                    "range": 60
+                }
+            ]
+        },
+        "resources": {},
+        "saves": {
+            "fortitude": {
+                "saveDetail": "",
+                "value": 17
+            },
+            "reflex": {
+                "saveDetail": "",
+                "value": 15
+            },
+            "will": {
+                "saveDetail": "",
+                "value": 18
+            }
+        },
+        "skills": {
+            "athletics": {
+                "base": 17
+            },
+            "diplomacy": {
+                "base": 16
+            },
+            "intimidation": {
+                "base": 18
+            },
+            "society": {
+                "base": 14
+            }
+        },
+        "traits": {
+            "rarity": "common",
+            "size": {
+                "value": "med"
+            },
+            "value": [
+                "construct"
+            ]
+        },
+        "slug": "sergeant-sundry"
+    },
+    "_id": "dUDvsmhvqyXH2RsK",
+    "items": [
+        {
+            "_id": "y2wyHqL4hM3fT6nr",
+            "img": "systems/pf2e/icons/default-icons/lore.svg",
+            "name": "Market Lore",
+            "sort": 700000,
+            "system": {
+                "description": {
+                    "value": ""
+                },
+                "mod": {
+                    "value": 16
+                },
+                "proficient": {
+                    "value": 0
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "market-lore"
+            },
+            "type": "lore"
+        },
+        {
+            "_id": "gUqyvqEi7Mv40Ofr",
+            "img": "systems/pf2e/icons/default-icons/lore.svg",
+            "name": "Warfare Lore",
+            "sort": 700001,
+            "system": {
+                "description": {
+                    "value": ""
+                },
+                "mod": {
+                    "value": 20
+                },
+                "proficient": {
+                    "value": 0
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "warfare-lore"
+            },
+            "type": "lore"
+        },
+        {
+            "_id": "5DYBJf5BxUVzo8JQ",
+            "img": "systems/pf2e/icons/default-icons/melee.svg",
+            "name": "bayonet",
+            "sort": 100000,
+            "system": {
+                "attack": {
+                    "value": ""
+                },
+                "attackEffects": {
+                    "custom": "",
+                    "value": []
+                },
+                "bonus": {
+                    "value": 19
+                },
+                "damageRolls": {
+                    "0": {
+                        "damage": "2d10+8",
+                        "damageType": "piercing"
+                    }
+                },
+                "description": {
+                    "value": ""
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "range": null,
+                "rules": [],
+                "slug": "bayonet",
+                "traits": {
+                    "rarity": "common",
+                    "value": [
+                        "reach"
+                    ]
+                },
+                "weaponType": {
+                    "value": "melee"
+                }
+            },
+            "type": "melee"
+        },
+        {
+            "_id": "cVmg0t5VzcE9WR1O",
+            "img": "systems/pf2e/icons/default-icons/melee.svg",
+            "name": "service rifle",
+            "sort": 200000,
+            "system": {
+                "attack": {
+                    "value": ""
+                },
+                "attackEffects": {
+                    "custom": "",
+                    "value": []
+                },
+                "bonus": {
+                    "value": 17
+                },
+                "damageRolls": {
+                    "0": {
+                        "damage": "2d8+6",
+                        "damageType": "piercing"
+                    }
+                },
+                "description": {
+                    "value": ""
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "range": {
+                    "increment": 100,
+                    "max": null
+                },
+                "rules": [],
+                "slug": "service-rifle",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                },
+                "weaponType": {
+                    "value": "ranged"
+                }
+            },
+            "type": "melee"
+        },
+        {
+            "_id": "zx5FOGb0yafHLjOe",
+            "img": "systems/pf2e/icons/actions/Passive.webp",
+            "name": "Lucid",
+            "sort": 1100000,
+            "system": {
+                "actionType": {
+                    "value": "passive"
+                },
+                "actions": {
+                    "value": null
+                },
+                "category": "interaction",
+                "description": {
+                    "value": "<p>Sundry has a full personality, memory, and will of its own. It is not a haunt, is not running a loop, and can't be commanded, turned, or bound. Effects that target a construct's programming or a spirit's anchor have no effect on it. It will, however, talk.</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "lucid",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "type": "action"
+        },
+        {
+            "_id": "Dt3vhYk4Wtq916MO",
+            "img": "systems/pf2e/icons/actions/Reaction.webp",
+            "name": "Keeper of the Peace",
+            "sort": 1200000,
+            "system": {
+                "actionType": {
+                    "value": "reaction"
+                },
+                "actions": {
+                    "value": null
+                },
+                "category": "offensive",
+                "description": {
+                    "value": "<p><b>Trigger</b> a creature within 30 feet makes an attack or draws a weapon on someone under Sundry's counter; <b>Effect</b> the triggering creature must succeed at a DC 26 Will save or lose that action as Sundry states, flatly, that there will be none of that here.</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "keeper-of-the-peace",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "type": "action"
+        },
+        {
+            "_id": "bDAuHtfV7jOOSEqH",
+            "img": "systems/pf2e/icons/actions/OneAction.webp",
+            "name": "Covering Fire",
+            "sort": 1300000,
+            "system": {
+                "actionType": {
+                    "value": "action"
+                },
+                "actions": {
+                    "value": 1
+                },
+                "category": "offensive",
+                "description": {
+                    "value": "<p>An ally within 60 feet gains a +1 circumstance bonus to AC and can Step as a free action. The next enemy to attack that ally becomes Sundry's designated target &mdash; its Strikes against that enemy ignore cover until the start of its next turn.</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "covering-fire",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "type": "action"
+        },
+        {
+            "_id": "2Wr1knlPk1FUeBpm",
+            "img": "systems/pf2e/icons/actions/OneAction.webp",
+            "name": "Old Rank",
+            "sort": 1400000,
+            "system": {
+                "actionType": {
+                    "value": "action"
+                },
+                "actions": {
+                    "value": 1
+                },
+                "category": "offensive",
+                "description": {
+                    "value": "<p><span class=\"act\">Frequency</span> once per day; <span class=\"act\">aura 60 feet</span>; <b>Effect</b> every creature that served in or was built for the war (most wasteland constructs, some NPCs) must succeed at a DC 26 Will save or obey one short lawful order from Sundry (\"stand down,\" \"let them through\") for 1 minute. Sundry uses this to end fights.</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "old-rank",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "type": "action"
+        },
+        {
+            "_id": "74JPedl3vSXWCi1P",
+            "img": "systems/pf2e/icons/actions/Passive.webp",
+            "name": "Won't Fire First",
+            "sort": 1500000,
+            "system": {
+                "actionType": {
+                    "value": "passive"
+                },
+                "actions": {
+                    "value": null
+                },
+                "category": "interaction",
+                "description": {
+                    "value": "<p>Sundry never makes the first attack of an encounter. If a party opens on it anyway, it is a Creature 8 with a rifle, full cover from its own counter, and nothing left to say.</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "wont-fire-first",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "type": "action"
+        }
+    ],
+    "flags": {
+        "cinderfall": {
+            "alignment": "LN",
+            "incomplete": [
+                "Ranged strike 'service rifle': note 'magazine 6' is not a pf2e weapon trait"
+            ]
+        }
+    }
+}

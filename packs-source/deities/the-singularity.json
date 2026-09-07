@@ -1,0 +1,38 @@
+{
+    "name": "The Singularity",
+    "type": "deity",
+    "img": "systems/pf2e/icons/default-icons/deity.svg",
+    "system": {
+        "attribute": [],
+        "category": "deity",
+        "description": {
+            "value": "<p><strong>Transcendent · A Real Mass · Hungry · Creation and Destruction as One Event</strong></p>\n<p>Where the Halving doesn't notice you, the Singularity wants you — and everything else, on every scale up to and including its fellow transcendents. A gravity well no expedition has ever closed the distance to, but \"unreachable\" isn't the same as \"indifferent\": nobody who's gotten close enough to its edge has made it back to say what happened, and the working theory Reckoners who channel it share is that they didn't come back because it kept them. Creation and destruction aren't opposing forces at that boundary — they're the same event, seen from two sides at once, and one of those sides is always something new being pulled in. It's the only one of the three Sources that notices the Reckoners who draw on it; where the Halving and the Outside genuinely can't react to a single mortal, the Singularity can, and does. Three expeditions have tried to close the distance since the Turning; only one survivor ever returned, decades older than her recorded age, insisting only forty minutes had passed — and unable to say why it let her go.</p>"
+        },
+        "domains": {
+            "alternate": [],
+            "primary": []
+        },
+        "font": [],
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "sanctification": null,
+        "skill": [],
+        "spells": {},
+        "traits": {},
+        "weapons": [],
+        "slug": "the-singularity"
+    },
+    "_id": "PatIJDwlGLV0t6W3",
+    "flags": {
+        "cinderfall": {
+            "define": "Transcendent · A Real Mass · Hungry · Creation and Destruction as One Event",
+            "incomplete": [
+                "STUB -- no mechanics authored. Missing every pf2e deity field: attribute, domains, font, sanctification, skill, spells, weapons. `category` is a default of 'deity' and may need to be philosophy or pantheon. See .claude/docs/todo.md."
+            ]
+        }
+    }
+}

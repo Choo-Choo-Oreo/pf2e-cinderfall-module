@@ -1,0 +1,399 @@
+{
+    "name": "Reclamation Frame",
+    "type": "npc",
+    "img": "systems/pf2e/icons/default-icons/npc.svg",
+    "system": {
+        "abilities": {
+            "str": {
+                "mod": 6
+            },
+            "dex": {
+                "mod": 1
+            },
+            "con": {
+                "mod": 5
+            },
+            "int": {
+                "mod": -4
+            },
+            "wis": {
+                "mod": 3
+            },
+            "cha": {
+                "mod": -4
+            }
+        },
+        "attributes": {
+            "ac": {
+                "details": "",
+                "value": 25
+            },
+            "hp": {
+                "details": "",
+                "max": 105,
+                "temp": 0,
+                "value": 105
+            },
+            "immunities": [
+                {
+                    "type": "bleed"
+                },
+                {
+                    "type": "death-effects"
+                },
+                {
+                    "type": "disease"
+                },
+                {
+                    "type": "mental"
+                },
+                {
+                    "type": "paralyzed"
+                },
+                {
+                    "type": "poison"
+                },
+                {
+                    "type": "unconscious"
+                }
+            ],
+            "weaknesses": [
+                {
+                    "type": "electricity",
+                    "value": 10
+                }
+            ],
+            "resistances": [
+                {
+                    "type": "physical",
+                    "value": 5,
+                    "exceptions": [
+                        "electricity"
+                    ]
+                }
+            ],
+            "speed": {
+                "details": "",
+                "otherSpeeds": [
+                    {
+                        "type": "climb",
+                        "value": 25
+                    }
+                ],
+                "value": 25
+            }
+        },
+        "details": {
+            "blurb": "",
+            "languages": {
+                "details": "",
+                "value": []
+            },
+            "level": {
+                "value": 7
+            },
+            "privateNotes": "",
+            "publicNotes": "<p>A factory salvage unit that collects raw material and returns it to the line. It classifies a person as material. It is not cruel -- it simply does not have the category \"person.\"</p>",
+            "publication": {
+                "license": "ORC",
+                "remaster": true,
+                "title": "Cinderfall"
+            }
+        },
+        "initiative": {
+            "statistic": "perception"
+        },
+        "perception": {
+            "details": "",
+            "mod": 15,
+            "senses": [
+                {
+                    "type": "darkvision"
+                },
+                {
+                    "type": "motion-sense",
+                    "range": 60
+                }
+            ]
+        },
+        "resources": {},
+        "saves": {
+            "fortitude": {
+                "saveDetail": "",
+                "value": 15
+            },
+            "reflex": {
+                "saveDetail": "",
+                "value": 11
+            },
+            "will": {
+                "saveDetail": "",
+                "value": 13
+            }
+        },
+        "skills": {
+            "athletics": {
+                "base": 17
+            },
+            "crafting": {
+                "base": 13
+            }
+        },
+        "traits": {
+            "rarity": "common",
+            "size": {
+                "value": "lg"
+            },
+            "value": [
+                "construct",
+                "mindless"
+            ]
+        },
+        "slug": "reclamation-frame"
+    },
+    "_id": "go8fIzOL5SYvIpSc",
+    "items": [
+        {
+            "_id": "L8e2Er8pR6Ilxu56",
+            "img": "systems/pf2e/icons/default-icons/melee.svg",
+            "name": "cutting torch",
+            "sort": 100000,
+            "system": {
+                "attack": {
+                    "value": ""
+                },
+                "attackEffects": {
+                    "custom": "",
+                    "value": []
+                },
+                "bonus": {
+                    "value": 19
+                },
+                "damageRolls": {
+                    "0": {
+                        "damage": "2d8+7",
+                        "damageType": "fire"
+                    },
+                    "1": {
+                        "category": "persistent",
+                        "damage": "1d6",
+                        "damageType": "fire"
+                    }
+                },
+                "description": {
+                    "value": ""
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "range": null,
+                "rules": [],
+                "slug": "cutting-torch",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                },
+                "weaponType": {
+                    "value": "melee"
+                }
+            },
+            "type": "melee"
+        },
+        {
+            "_id": "kqLCnnQzAMI4IsQV",
+            "img": "systems/pf2e/icons/default-icons/melee.svg",
+            "name": "grasping arm",
+            "sort": 200000,
+            "system": {
+                "attack": {
+                    "value": ""
+                },
+                "attackEffects": {
+                    "custom": "",
+                    "value": [
+                        "improved-grab"
+                    ]
+                },
+                "bonus": {
+                    "value": 19
+                },
+                "damageRolls": {
+                    "0": {
+                        "damage": "2d6+7",
+                        "damageType": "bludgeoning"
+                    }
+                },
+                "description": {
+                    "value": ""
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "range": null,
+                "rules": [],
+                "slug": "grasping-arm",
+                "traits": {
+                    "rarity": "common",
+                    "value": [
+                        "reach-10"
+                    ]
+                },
+                "weaponType": {
+                    "value": "melee"
+                }
+            },
+            "type": "melee"
+        },
+        {
+            "_id": "VriLTxFSfiQUe6Kd",
+            "img": "systems/pf2e/icons/default-icons/melee.svg",
+            "name": "magnetic hook",
+            "sort": 300000,
+            "system": {
+                "attack": {
+                    "value": ""
+                },
+                "attackEffects": {
+                    "custom": "",
+                    "value": []
+                },
+                "bonus": {
+                    "value": 15
+                },
+                "damageRolls": {
+                    "0": {
+                        "damage": "2d6+5",
+                        "damageType": "bludgeoning"
+                    }
+                },
+                "description": {
+                    "value": "<p>Damage 2d6+5 bludgeoning plus the target is pulled 10 feet toward the Frame</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "range": {
+                    "increment": 30,
+                    "max": null
+                },
+                "rules": [],
+                "slug": "magnetic-hook",
+                "traits": {
+                    "rarity": "common",
+                    "value": [
+                        "reload-1"
+                    ]
+                },
+                "weaponType": {
+                    "value": "ranged"
+                }
+            },
+            "type": "melee"
+        },
+        {
+            "_id": "YtqOayOUufI2cSJe",
+            "img": "systems/pf2e/icons/actions/TwoActions.webp",
+            "name": "Disassembly",
+            "sort": 1100000,
+            "system": {
+                "actionType": {
+                    "value": "action"
+                },
+                "actions": {
+                    "value": 2
+                },
+                "category": "offensive",
+                "description": {
+                    "value": "<p><b>Requirements</b> the Frame has a creature grabbed; <b>Effect</b> 3d8 slashing damage, DC 25 basic Fortitude; on a failure the creature also takes 2d6 persistent bleed and one worn non-armor item is torn free and dropped.</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "disassembly",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "type": "action"
+        },
+        {
+            "_id": "NBuIqiERd4KPx9Lz",
+            "img": "systems/pf2e/icons/actions/Passive.webp",
+            "name": "Sort and Store",
+            "sort": 1200000,
+            "system": {
+                "actionType": {
+                    "value": "passive"
+                },
+                "actions": {
+                    "value": null
+                },
+                "category": "interaction",
+                "description": {
+                    "value": "<p>A creature reduced to 0 HP by the Frame is loaded into its collection hopper (Escape DC 25, or freed if the Frame is destroyed). The Frame does not attack a creature it has already stored.</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "sort-and-store",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "type": "action"
+        },
+        {
+            "_id": "laYCb0jr6VgZpFKI",
+            "img": "systems/pf2e/icons/actions/Passive.webp",
+            "name": "Feedstock Priority",
+            "sort": 1300000,
+            "system": {
+                "actionType": {
+                    "value": "passive"
+                },
+                "actions": {
+                    "value": null
+                },
+                "category": "interaction",
+                "description": {
+                    "value": "<p>On each of its turns the Frame moves toward and targets the creature carrying the most metal and salvage. A creature that drops its haul is deprioritized until nothing else is available.</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "feedstock-priority",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "type": "action"
+        }
+    ],
+    "flags": {
+        "cinderfall": {
+            "alignment": "LN",
+            "incomplete": [
+                "skill 'Crafting' condition 'disassembly only' kept as text only",
+                "Ranged strike 'magnetic hook': rider 'the target is pulled 10 feet toward the Frame' kept as text only"
+            ]
+        }
+    }
+}

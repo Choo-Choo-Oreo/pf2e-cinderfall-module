@@ -1,0 +1,366 @@
+{
+    "name": "Factory Prototype",
+    "type": "npc",
+    "img": "systems/pf2e/icons/default-icons/npc.svg",
+    "system": {
+        "abilities": {
+            "str": {
+                "mod": 6
+            },
+            "dex": {
+                "mod": 4
+            },
+            "con": {
+                "mod": 5
+            },
+            "int": {
+                "mod": -2
+            },
+            "wis": {
+                "mod": 4
+            },
+            "cha": {
+                "mod": -2
+            }
+        },
+        "attributes": {
+            "ac": {
+                "details": "",
+                "value": 28
+            },
+            "hp": {
+                "details": "",
+                "max": 145,
+                "temp": 0,
+                "value": 145
+            },
+            "immunities": [
+                {
+                    "type": "bleed"
+                },
+                {
+                    "type": "death-effects"
+                },
+                {
+                    "type": "disease"
+                },
+                {
+                    "type": "paralyzed"
+                },
+                {
+                    "type": "poison"
+                },
+                {
+                    "type": "unconscious"
+                }
+            ],
+            "weaknesses": [
+                {
+                    "type": "electricity",
+                    "value": 10
+                }
+            ],
+            "resistances": [
+                {
+                    "type": "physical",
+                    "value": 8,
+                    "exceptions": [
+                        "adamantine"
+                    ]
+                }
+            ],
+            "speed": {
+                "details": "",
+                "otherSpeeds": [],
+                "value": 30
+            }
+        },
+        "details": {
+            "blurb": "",
+            "languages": {
+                "details": "",
+                "value": []
+            },
+            "level": {
+                "value": 9
+            },
+            "privateNotes": "",
+            "publicNotes": "<p>The current model off a line that has been quietly improving itself for two hundred years. It is a field test with legs, and you are the test.</p>",
+            "publication": {
+                "license": "ORC",
+                "remaster": true,
+                "title": "Cinderfall"
+            }
+        },
+        "initiative": {
+            "statistic": "perception"
+        },
+        "perception": {
+            "details": "all-around vision",
+            "mod": 18,
+            "senses": [
+                {
+                    "type": "darkvision"
+                }
+            ]
+        },
+        "resources": {},
+        "saves": {
+            "fortitude": {
+                "saveDetail": "",
+                "value": 16
+            },
+            "reflex": {
+                "saveDetail": "",
+                "value": 18
+            },
+            "will": {
+                "saveDetail": "",
+                "value": 15
+            }
+        },
+        "skills": {
+            "acrobatics": {
+                "base": 17
+            },
+            "athletics": {
+                "base": 19
+            }
+        },
+        "traits": {
+            "rarity": "common",
+            "size": {
+                "value": "lg"
+            },
+            "value": [
+                "construct"
+            ]
+        },
+        "slug": "factory-prototype"
+    },
+    "_id": "CsswICF76rVcYWco",
+    "items": [
+        {
+            "_id": "otEkTkVarFjxaeWq",
+            "img": "systems/pf2e/icons/default-icons/melee.svg",
+            "name": "arc glaive",
+            "sort": 100000,
+            "system": {
+                "attack": {
+                    "value": ""
+                },
+                "attackEffects": {
+                    "custom": "",
+                    "value": []
+                },
+                "bonus": {
+                    "value": 22
+                },
+                "damageRolls": {
+                    "0": {
+                        "damage": "2d10+9",
+                        "damageType": "slashing"
+                    }
+                },
+                "description": {
+                    "value": ""
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "range": null,
+                "rules": [],
+                "slug": "arc-glaive",
+                "traits": {
+                    "rarity": "common",
+                    "value": [
+                        "reach-10",
+                        "versatile-electricity"
+                    ]
+                },
+                "weaponType": {
+                    "value": "melee"
+                }
+            },
+            "type": "melee"
+        },
+        {
+            "_id": "Cq8m7l9g4MYybHl5",
+            "img": "systems/pf2e/icons/default-icons/melee.svg",
+            "name": "rail lance",
+            "sort": 200000,
+            "system": {
+                "attack": {
+                    "value": ""
+                },
+                "attackEffects": {
+                    "custom": "",
+                    "value": []
+                },
+                "bonus": {
+                    "value": 20
+                },
+                "damageRolls": {
+                    "0": {
+                        "damage": "2d12+6",
+                        "damageType": "piercing"
+                    }
+                },
+                "description": {
+                    "value": ""
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "range": {
+                    "increment": 90,
+                    "max": null
+                },
+                "rules": [],
+                "slug": "rail-lance",
+                "traits": {
+                    "rarity": "common",
+                    "value": [
+                        "deadly-d10"
+                    ]
+                },
+                "weaponType": {
+                    "value": "ranged"
+                }
+            },
+            "type": "melee"
+        },
+        {
+            "_id": "PwYtCw7PURC5Katk",
+            "img": "systems/pf2e/icons/actions/Reaction.webp",
+            "name": "Adaptive Plating",
+            "sort": 1100000,
+            "system": {
+                "actionType": {
+                    "value": "reaction"
+                },
+                "actions": {
+                    "value": null
+                },
+                "category": "offensive",
+                "description": {
+                    "value": "<p><b>Trigger</b> the Prototype takes damage of a listed type; <b>Effect</b> it reconfigures &mdash; gain resistance 10 to that damage type until the start of its next turn.</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "adaptive-plating",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "type": "action"
+        },
+        {
+            "_id": "JeHb6WITc2D08hA4",
+            "img": "systems/pf2e/icons/actions/OneAction.webp",
+            "name": "Field Test",
+            "sort": 1200000,
+            "system": {
+                "actionType": {
+                    "value": "action"
+                },
+                "actions": {
+                    "value": 1
+                },
+                "category": "offensive",
+                "description": {
+                    "value": "<p>The Prototype designates a creature it can see. For the rest of the encounter its Strikes against that creature gain a +1 circumstance bonus and score a critical hit on a 19&ndash;20. Only one Field Test target at a time.</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "field-test",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "type": "action"
+        },
+        {
+            "_id": "MN3Mx5DBeLk8pIYo",
+            "img": "systems/pf2e/icons/actions/ThreeActions.webp",
+            "name": "Iterate",
+            "sort": 1300000,
+            "system": {
+                "actionType": {
+                    "value": "action"
+                },
+                "actions": {
+                    "value": 3
+                },
+                "category": "offensive",
+                "description": {
+                    "value": "<p><span class=\"act\">Frequency</span> once per encounter, when first reduced below half HP; <b>Effect</b> the Prototype swaps a subsystem live &mdash; choose one, permanent for the encounter: +10-foot Speed; a second rail lance Strike each round with no additional MAP; or fast healing 10.</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "iterate",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "type": "action"
+        },
+        {
+            "_id": "orN6iKMOFzEQqhdW",
+            "img": "systems/pf2e/icons/actions/Passive.webp",
+            "name": "Rolls Off the Line",
+            "sort": 1400000,
+            "system": {
+                "actionType": {
+                    "value": "passive"
+                },
+                "actions": {
+                    "value": null
+                },
+                "category": "interaction",
+                "description": {
+                    "value": "<p>If destroyed with an intact factory node within a mile, an identical unit &mdash; same Iterate choice &mdash; is produced in 1d6 days. Wrecking the node is the only lasting answer.</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "rolls-off-the-line",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "type": "action"
+        }
+    ],
+    "flags": {
+        "cinderfall": {
+            "alignment": "LN",
+            "incomplete": [
+                "perception clause not representable as a pf2e sense: 'all-around vision'"
+            ]
+        }
+    }
+}

@@ -1,0 +1,329 @@
+{
+    "name": "Choir Warden",
+    "type": "npc",
+    "img": "systems/pf2e/icons/default-icons/npc.svg",
+    "system": {
+        "abilities": {
+            "str": {
+                "mod": 3
+            },
+            "dex": {
+                "mod": 2
+            },
+            "con": {
+                "mod": 2
+            },
+            "int": {
+                "mod": 0
+            },
+            "wis": {
+                "mod": 2
+            },
+            "cha": {
+                "mod": 1
+            }
+        },
+        "attributes": {
+            "ac": {
+                "details": "",
+                "value": 18
+            },
+            "hp": {
+                "details": "",
+                "max": 32,
+                "temp": 0,
+                "value": 32
+            },
+            "speed": {
+                "details": "",
+                "otherSpeeds": [],
+                "value": 25
+            }
+        },
+        "details": {
+            "blurb": "",
+            "languages": {
+                "details": "Common",
+                "value": []
+            },
+            "level": {
+                "value": 2
+            },
+            "privateNotes": "",
+            "publicNotes": "<p>The Choir's enforcement arm -- water rationing, pilgrim screening, gate order, all done with a ceremonial ash-iron blade and the flat certainty of someone who has read the liturgy and mostly believes it. Wardens do not patrol alone.</p>",
+            "publication": {
+                "license": "ORC",
+                "remaster": true,
+                "title": "Cinderfall"
+            }
+        },
+        "initiative": {
+            "statistic": "perception"
+        },
+        "perception": {
+            "details": "",
+            "mod": 8,
+            "senses": [
+                {
+                    "type": "low-light-vision"
+                }
+            ]
+        },
+        "resources": {},
+        "saves": {
+            "fortitude": {
+                "saveDetail": "",
+                "value": 9
+            },
+            "reflex": {
+                "saveDetail": "",
+                "value": 6
+            },
+            "will": {
+                "saveDetail": "",
+                "value": 8
+            }
+        },
+        "skills": {
+            "athletics": {
+                "base": 8
+            },
+            "intimidation": {
+                "base": 8
+            },
+            "society": {
+                "base": 5
+            }
+        },
+        "traits": {
+            "rarity": "common",
+            "size": {
+                "value": "med"
+            },
+            "value": [
+                "human",
+                "humanoid"
+            ]
+        },
+        "slug": "choir-warden"
+    },
+    "_id": "ZCZ0k4mieqdc9nEp",
+    "items": [
+        {
+            "_id": "Owkth3Q3ewxhsiY0",
+            "img": "systems/pf2e/icons/default-icons/lore.svg",
+            "name": "Springtown Lore",
+            "sort": 700000,
+            "system": {
+                "description": {
+                    "value": ""
+                },
+                "mod": {
+                    "value": 6
+                },
+                "proficient": {
+                    "value": 0
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "springtown-lore"
+            },
+            "type": "lore"
+        },
+        {
+            "_id": "jIoa9shzAaLA3Mxf",
+            "img": "systems/pf2e/icons/default-icons/melee.svg",
+            "name": "Choir Blade",
+            "sort": 100000,
+            "system": {
+                "attack": {
+                    "value": ""
+                },
+                "attackEffects": {
+                    "custom": "",
+                    "value": []
+                },
+                "bonus": {
+                    "value": 11
+                },
+                "damageRolls": {
+                    "0": {
+                        "damage": "1d10+3",
+                        "damageType": "slashing"
+                    }
+                },
+                "description": {
+                    "value": "<p>Damage 1d10+3 slashing plus Ash-Iron Edge</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "range": null,
+                "rules": [],
+                "slug": "choir-blade",
+                "traits": {
+                    "rarity": "common",
+                    "value": [
+                        "versatile-p"
+                    ]
+                },
+                "weaponType": {
+                    "value": "melee"
+                }
+            },
+            "type": "melee"
+        },
+        {
+            "_id": "Kj1l0hILnDEsJ9W2",
+            "img": "systems/pf2e/icons/default-icons/melee.svg",
+            "name": "crossbow",
+            "sort": 200000,
+            "system": {
+                "attack": {
+                    "value": ""
+                },
+                "attackEffects": {
+                    "custom": "",
+                    "value": []
+                },
+                "bonus": {
+                    "value": 8
+                },
+                "damageRolls": {
+                    "0": {
+                        "damage": "1d8",
+                        "damageType": "piercing"
+                    }
+                },
+                "description": {
+                    "value": ""
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "range": {
+                    "increment": 120,
+                    "max": null
+                },
+                "rules": [],
+                "slug": "crossbow",
+                "traits": {
+                    "rarity": "common",
+                    "value": [
+                        "reload-1"
+                    ]
+                },
+                "weaponType": {
+                    "value": "ranged"
+                }
+            },
+            "type": "melee"
+        },
+        {
+            "_id": "XjK0Fv65DP1rCsSc",
+            "img": "systems/pf2e/icons/actions/Passive.webp",
+            "name": "Ash-Iron Edge",
+            "sort": 1100000,
+            "system": {
+                "actionType": {
+                    "value": "passive"
+                },
+                "actions": {
+                    "value": null
+                },
+                "category": "interaction",
+                "description": {
+                    "value": "<p>A creature that is frightened, or that has the holy or unholy trait, is off-guard to the Warden's Choir Blade Strikes &mdash; the ceremonial edge answers to something the devout can feel.</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "ash-iron-edge",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "type": "action"
+        },
+        {
+            "_id": "oFGpgCn0TIvjZTKd",
+            "img": "systems/pf2e/icons/actions/OneAction.webp",
+            "name": "Rationer's Authority",
+            "sort": 1200000,
+            "system": {
+                "actionType": {
+                    "value": "action"
+                },
+                "actions": {
+                    "value": 1
+                },
+                "category": "offensive",
+                "description": {
+                    "value": "<p>(auditory, concentrate, emotion, mental) The Warden states what the Choir requires of the target and what refusing it costs. One creature within 30 feet that can hear and understand must succeed at a DC 18 Will save or be frightened 1 (frightened 2 on a critical failure). A creature that succeeds is temporarily immune for 1 minute.</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "rationers-authority",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "type": "action"
+        },
+        {
+            "_id": "lkxPbQMZMXhLw7ds",
+            "img": "systems/pf2e/icons/actions/Reaction.webp",
+            "name": "Screening Post",
+            "sort": 1300000,
+            "system": {
+                "actionType": {
+                    "value": "reaction"
+                },
+                "actions": {
+                    "value": null
+                },
+                "category": "offensive",
+                "description": {
+                    "value": "<p><b>Trigger</b> a creature the Warden can see uses a hostile action against a member of the Choir of Ash for the first time this encounter; <b>Effect</b> the Warden signals the post &mdash; one other Choir Warden within 60 feet may immediately Stride toward the triggering creature.</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "screening-post",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "type": "action"
+        }
+    ],
+    "flags": {
+        "cinderfall": {
+            "alignment": "LN",
+            "incomplete": [
+                "Melee strike 'Choir Blade': rider 'Ash-Iron Edge' kept as text only"
+            ]
+        }
+    }
+}

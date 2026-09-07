@@ -1,0 +1,38 @@
+{
+    "name": "The Outside",
+    "type": "deity",
+    "img": "systems/pf2e/icons/default-icons/deity.svg",
+    "system": {
+        "attribute": [],
+        "category": "deity",
+        "description": {
+            "value": "<p><strong>Transcendent · Not a Law, Not a Mass — A Direction · Unknowable, Not Merely Unknown</strong></p>\n<p>Where the Halving is provable math and the Singularity a real astronomical category just out of reach, the Outside is neither — no equation, no gravity well, nothing to plot a course toward. What channelers describe isn't a place or a thing but a direction, past even the border the Reckoner's own Outside pillar of Faith names. No two accounts of channeling it ever agree — on geometry, on how much time passed, on basic facts — and that persistent disagreement is the closest thing anyone has to evidence it's real. Its counterpart teaching order, the Unlettered, pass it down by voice only; every attempt to write it down has produced pages later readers can't agree on, word for word.</p>"
+        },
+        "domains": {
+            "alternate": [],
+            "primary": []
+        },
+        "font": [],
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "sanctification": null,
+        "skill": [],
+        "spells": {},
+        "traits": {},
+        "weapons": [],
+        "slug": "the-outside"
+    },
+    "_id": "vALEujVX3lYBKuBl",
+    "flags": {
+        "cinderfall": {
+            "define": "Transcendent · Not a Law, Not a Mass — A Direction · Unknowable, Not Merely Unknown",
+            "incomplete": [
+                "STUB -- no mechanics authored. Missing every pf2e deity field: attribute, domains, font, sanctification, skill, spells, weapons. `category` is a default of 'deity' and may need to be philosophy or pantheon. See .claude/docs/todo.md."
+            ]
+        }
+    }
+}

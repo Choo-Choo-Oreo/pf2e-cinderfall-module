@@ -87,6 +87,30 @@
         "ASSISTANT": "OWNER"
       },
       "flags": {}
+    },
+    {
+      "name": "deities",
+      "label": "Cinderfall Deities",
+      "path": "packs/deities",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "bestiary",
+      "label": "Cinderfall Bestiary",
+      "path": "packs/bestiary",
+      "type": "Actor",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
     }
   ],
   "packFolders": [
@@ -95,9 +119,13 @@
       "sorting": "m",
       "color": "#7a3b2e",
       "packs": [
-        "cinderfall-ancestries",
-        "cinderfall-ancestry-features",
-        "cinderfall-heritages"
+        "ancestries",
+        "ancestry-features",
+        "heritages",
+        "backgrounds",
+        "feats",
+        "deities",
+        "bestiary"
       ]
     }
   ],

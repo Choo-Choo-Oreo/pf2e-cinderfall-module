@@ -1,0 +1,307 @@
+{
+    "name": "Grief-Echo",
+    "type": "npc",
+    "img": "systems/pf2e/icons/default-icons/npc.svg",
+    "system": {
+        "abilities": {
+            "str": {
+                "mod": -5
+            },
+            "dex": {
+                "mod": 4
+            },
+            "con": {
+                "mod": 2
+            },
+            "int": {
+                "mod": -3
+            },
+            "wis": {
+                "mod": 2
+            },
+            "cha": {
+                "mod": 3
+            }
+        },
+        "attributes": {
+            "ac": {
+                "details": "",
+                "value": 18
+            },
+            "hp": {
+                "details": "negative healing",
+                "max": 30,
+                "temp": 0,
+                "value": 30
+            },
+            "immunities": [
+                {
+                    "type": "bleed"
+                },
+                {
+                    "type": "death-effects"
+                },
+                {
+                    "type": "disease"
+                },
+                {
+                    "type": "paralyzed"
+                },
+                {
+                    "type": "poison"
+                },
+                {
+                    "type": "precision"
+                },
+                {
+                    "type": "unconscious"
+                }
+            ],
+            "weaknesses": [
+                {
+                    "type": "vitality",
+                    "value": 5
+                },
+                {
+                    "type": "anchor",
+                    "value": 5
+                }
+            ],
+            "resistances": [
+                {
+                    "type": "all-damage",
+                    "value": 5,
+                    "doubleVs": [
+                        "non-magical"
+                    ]
+                }
+            ],
+            "speed": {
+                "details": "",
+                "otherSpeeds": [
+                    {
+                        "type": "fly",
+                        "value": 25
+                    }
+                ],
+                "value": 0
+            }
+        },
+        "details": {
+            "blurb": "",
+            "languages": {
+                "details": "",
+                "value": []
+            },
+            "level": {
+                "value": 2
+            },
+            "privateNotes": "",
+            "publicNotes": "<p>The imprint of one death, replaying. Barely aware there's a world around it. The single most common raging-spirit encounter in the wastes, and the one a Spirit-Warden can usually handle alone.</p>",
+            "publication": {
+                "license": "ORC",
+                "remaster": true,
+                "title": "Cinderfall"
+            }
+        },
+        "initiative": {
+            "statistic": "perception"
+        },
+        "perception": {
+            "details": "",
+            "mod": 8,
+            "senses": [
+                {
+                    "type": "darkvision"
+                }
+            ]
+        },
+        "resources": {},
+        "saves": {
+            "fortitude": {
+                "saveDetail": "",
+                "value": 6
+            },
+            "reflex": {
+                "saveDetail": "",
+                "value": 10
+            },
+            "will": {
+                "saveDetail": "",
+                "value": 8
+            }
+        },
+        "skills": {
+            "stealth": {
+                "base": 10
+            },
+            "intimidation": {
+                "base": 6
+            }
+        },
+        "traits": {
+            "rarity": "common",
+            "size": {
+                "value": "med"
+            },
+            "value": [
+                "incorporeal",
+                "spirit",
+                "undead"
+            ]
+        },
+        "slug": "grief-echo"
+    },
+    "_id": "MxW78BauKpIGBHjv",
+    "items": [
+        {
+            "_id": "VNAn6acpGn0LTfil",
+            "img": "systems/pf2e/icons/default-icons/melee.svg",
+            "name": "cold touch",
+            "sort": 100000,
+            "system": {
+                "attack": {
+                    "value": ""
+                },
+                "attackEffects": {
+                    "custom": "",
+                    "value": []
+                },
+                "bonus": {
+                    "value": 10
+                },
+                "damageRolls": {
+                    "0": {
+                        "damage": "2d6+3",
+                        "damageType": "void"
+                    },
+                    "1": {
+                        "category": "persistent",
+                        "damage": "1d4",
+                        "damageType": "void"
+                    }
+                },
+                "description": {
+                    "value": "<p>Damage 2d6+3 void plus 1d4 persistent void (DC 18 basic Will negates the persistent damage)</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "range": null,
+                "rules": [],
+                "slug": "cold-touch",
+                "traits": {
+                    "rarity": "common",
+                    "value": [
+                        "finesse",
+                        "magical"
+                    ]
+                },
+                "weaponType": {
+                    "value": "melee"
+                }
+            },
+            "type": "melee"
+        },
+        {
+            "_id": "ftyIm2qFALTXB8hw",
+            "img": "systems/pf2e/icons/actions/OneAction.webp",
+            "name": "Last Moment",
+            "sort": 1100000,
+            "system": {
+                "actionType": {
+                    "value": "action"
+                },
+                "actions": {
+                    "value": 1
+                },
+                "category": "offensive",
+                "description": {
+                    "value": "<p><span class=\"act\">Frequency</span> once per round; <b>Effect</b> the Grief-Echo replays its death in a 10-foot emanation. Each creature in the area must succeed at a DC 18 Will save or be frightened 1.</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "last-moment",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "type": "action"
+        },
+        {
+            "_id": "0KGOrTyaMmhUGp3Y",
+            "img": "systems/pf2e/icons/actions/Passive.webp",
+            "name": "Bound to the Spot",
+            "sort": 1200000,
+            "system": {
+                "actionType": {
+                    "value": "passive"
+                },
+                "actions": {
+                    "value": null
+                },
+                "category": "interaction",
+                "description": {
+                    "value": "<p>The Grief-Echo can't willingly move more than 60 feet from where its death occurred, and can't be forced further than that.</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "bound-to-the-spot",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "type": "action"
+        },
+        {
+            "_id": "Gyef8JLBPyse0ssM",
+            "img": "systems/pf2e/icons/actions/Passive.webp",
+            "name": "At Peace",
+            "sort": 1300000,
+            "system": {
+                "actionType": {
+                    "value": "passive"
+                },
+                "actions": {
+                    "value": null
+                },
+                "category": "interaction",
+                "description": {
+                    "value": "<p>A Vigil's Grant Peace, a successful Hollowbound Parley (DC 18), or any effect that lays an unquiet soul to rest ends the Grief-Echo with no attack roll.</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "at-peace",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "type": "action"
+        }
+    ],
+    "flags": {
+        "cinderfall": {
+            "alignment": "NE",
+            "incomplete": [
+                "Melee strike 'cold touch': rider '(DC 18 basic Will negates the persistent damage)' kept as text only"
+            ]
+        }
+    }
+}

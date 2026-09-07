@@ -1,0 +1,377 @@
+{
+    "name": "Choir-Touched Colossus",
+    "type": "npc",
+    "img": "systems/pf2e/icons/default-icons/npc.svg",
+    "system": {
+        "abilities": {
+            "str": {
+                "mod": -3
+            },
+            "dex": {
+                "mod": 6
+            },
+            "con": {
+                "mod": 7
+            },
+            "int": {
+                "mod": 3
+            },
+            "wis": {
+                "mod": 6
+            },
+            "cha": {
+                "mod": 9
+            }
+        },
+        "attributes": {
+            "ac": {
+                "details": "",
+                "value": 38
+            },
+            "hp": {
+                "details": "negative healing",
+                "max": 310,
+                "temp": 0,
+                "value": 310
+            },
+            "immunities": [
+                {
+                    "type": "bleed"
+                },
+                {
+                    "type": "death-effects"
+                },
+                {
+                    "type": "disease"
+                },
+                {
+                    "type": "fear-effects"
+                },
+                {
+                    "type": "paralyzed"
+                },
+                {
+                    "type": "poison"
+                },
+                {
+                    "type": "precision"
+                },
+                {
+                    "type": "unconscious"
+                }
+            ],
+            "weaknesses": [
+                {
+                    "type": "vitality",
+                    "value": 15
+                },
+                {
+                    "type": "coordinated-anchor",
+                    "value": 25
+                }
+            ],
+            "resistances": [
+                {
+                    "type": "all-damage",
+                    "value": 20,
+                    "doubleVs": [
+                        "non-magical"
+                    ]
+                }
+            ],
+            "speed": {
+                "details": "",
+                "otherSpeeds": [
+                    {
+                        "type": "fly",
+                        "value": 40
+                    }
+                ],
+                "value": 0
+            }
+        },
+        "details": {
+            "blurb": "",
+            "languages": {
+                "details": "",
+                "value": []
+            },
+            "level": {
+                "value": 16
+            },
+            "privateNotes": "",
+            "publicNotes": "<p>A raging spirit the Choir of Ash has been feeding and shaping toward godhood -- nearly the kind of thing Uriel is. When one of these forms, the seal on the Glasslands prison is measurably weaker for it. A capstone threat, or a mid-campaign \"the stakes just changed\" reveal.</p>",
+            "publication": {
+                "license": "ORC",
+                "remaster": true,
+                "title": "Cinderfall"
+            }
+        },
+        "initiative": {
+            "statistic": "perception"
+        },
+        "perception": {
+            "details": "",
+            "mod": 29,
+            "senses": [
+                {
+                    "type": "darkvision"
+                },
+                {
+                    "type": "truesight",
+                    "range": 60
+                }
+            ]
+        },
+        "resources": {},
+        "saves": {
+            "fortitude": {
+                "saveDetail": "",
+                "value": 28
+            },
+            "reflex": {
+                "saveDetail": "",
+                "value": 26
+            },
+            "will": {
+                "saveDetail": "",
+                "value": 31
+            }
+        },
+        "skills": {
+            "intimidation": {
+                "base": 31
+            },
+            "religion": {
+                "base": 27
+            },
+            "occultism": {
+                "base": 28
+            }
+        },
+        "traits": {
+            "rarity": "common",
+            "size": {
+                "value": "grg"
+            },
+            "value": [
+                "incorporeal",
+                "spirit",
+                "undead"
+            ]
+        },
+        "slug": "choir-touched-colossus"
+    },
+    "_id": "a8PtHvwjuuk9XJLW",
+    "items": [
+        {
+            "_id": "yDESzMsJTjHtCC4g",
+            "img": "systems/pf2e/icons/actions/Passive.webp",
+            "name": "Hymn (aura)",
+            "sort": 1100000,
+            "system": {
+                "actionType": {
+                    "value": "passive"
+                },
+                "actions": {
+                    "value": null
+                },
+                "category": "interaction",
+                "description": {
+                    "value": "<p>60 feet. A non-Choir creature that starts its turn in the aura must succeed at a DC 38 Will save or take 6d6 mental damage; while inside the aura, no creature can reduce its frightened condition below 1.</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "hymn-aura",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "type": "action"
+        },
+        {
+            "_id": "rqHF7JcczWM5L2yX",
+            "img": "systems/pf2e/icons/default-icons/melee.svg",
+            "name": "unmaking hand",
+            "sort": 100000,
+            "system": {
+                "attack": {
+                    "value": ""
+                },
+                "attackEffects": {
+                    "custom": "",
+                    "value": []
+                },
+                "bonus": {
+                    "value": 30
+                },
+                "damageRolls": {
+                    "0": {
+                        "damage": "4d10+16",
+                        "damageType": "void"
+                    },
+                    "1": {
+                        "category": "persistent",
+                        "damage": "2d6",
+                        "damageType": "void"
+                    }
+                },
+                "description": {
+                    "value": "<p>Damage 4d10+16 void plus 2d6 persistent void, and the target must succeed at a DC 38 Fortitude save or be drained 2</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "range": null,
+                "rules": [],
+                "slug": "unmaking-hand",
+                "traits": {
+                    "rarity": "common",
+                    "value": [
+                        "magical",
+                        "reach-15"
+                    ]
+                },
+                "weaponType": {
+                    "value": "melee"
+                }
+            },
+            "type": "melee"
+        },
+        {
+            "_id": "7y40E405gDXc6AS9",
+            "img": "systems/pf2e/icons/actions/Passive.webp",
+            "name": "Almost a God",
+            "sort": 1200000,
+            "system": {
+                "actionType": {
+                    "value": "passive"
+                },
+                "actions": {
+                    "value": null
+                },
+                "category": "interaction",
+                "description": {
+                    "value": "<p>The Colossus is unaffected by spells and effects of 5th rank or lower. It counteracts higher-rank effects at a +2 bonus.</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "almost-a-god",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "type": "action"
+        },
+        {
+            "_id": "1ubLDs0WUCflTJVI",
+            "img": "systems/pf2e/icons/actions/Passive.webp",
+            "name": "Coordinated Anchor",
+            "sort": 1300000,
+            "system": {
+                "actionType": {
+                    "value": "passive"
+                },
+                "actions": {
+                    "value": null
+                },
+                "category": "interaction",
+                "description": {
+                    "value": "<p>The Colossus's anchor weakness triggers only when three or more creatures use an <em>anchor</em>-trait effect against it in the same round &mdash; a single Wardbreaker isn't enough. When it triggers, it applies once, to the total damage of all of that round's anchor effects.</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "coordinated-anchor",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "type": "action"
+        },
+        {
+            "_id": "5n7S6L8xSjPg9WYo",
+            "img": "systems/pf2e/icons/actions/ThreeActions.webp",
+            "name": "The Seal Answers",
+            "sort": 1400000,
+            "system": {
+                "actionType": {
+                    "value": "action"
+                },
+                "actions": {
+                    "value": 3
+                },
+                "category": "offensive",
+                "description": {
+                    "value": "<p><span class=\"act\">Frequency</span> once per day; <b>Effect</b> every raging spirit within a mile turns and begins moving toward the Colossus. Narrative escalation, not a combat action &mdash; the GM decides what arrives, and when.</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "the-seal-answers",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "type": "action"
+        },
+        {
+            "_id": "nGvpplIli2EfDwIN",
+            "img": "systems/pf2e/icons/actions/Passive.webp",
+            "name": "Cannot Simply Be Killed",
+            "sort": 1500000,
+            "system": {
+                "actionType": {
+                    "value": "passive"
+                },
+                "actions": {
+                    "value": null
+                },
+                "category": "interaction",
+                "description": {
+                    "value": "<p>Reduced to 0 HP, the Colossus disperses for 1d4 days and re-forms at full strength unless, in that window, a Vigil completes a Great Unmaking on it, a Wardbreaker completes a full binding ritual, or the Choir of Ash cult site sustaining it is destroyed.</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "cannot-simply-be-killed",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "type": "action"
+        }
+    ],
+    "flags": {
+        "cinderfall": {
+            "alignment": "CE",
+            "incomplete": [
+                "Melee strike 'unmaking hand': rider 'and the target must succeed at a DC 38 Fortitude save or be drained 2' kept as text only"
+            ]
+        }
+    }
+}

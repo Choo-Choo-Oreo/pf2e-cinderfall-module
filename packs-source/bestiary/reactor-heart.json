@@ -1,0 +1,309 @@
+{
+    "name": "Reactor-Heart",
+    "type": "npc",
+    "img": "systems/pf2e/icons/default-icons/npc.svg",
+    "system": {
+        "abilities": {
+            "str": {
+                "mod": 9
+            },
+            "dex": {
+                "mod": 2
+            },
+            "con": {
+                "mod": 8
+            },
+            "int": {
+                "mod": 2
+            },
+            "wis": {
+                "mod": 5
+            },
+            "cha": {
+                "mod": 4
+            }
+        },
+        "attributes": {
+            "ac": {
+                "details": "",
+                "value": 37
+            },
+            "hp": {
+                "details": "",
+                "max": 300,
+                "temp": 0,
+                "value": 300
+            },
+            "immunities": [
+                {
+                    "type": "bleed"
+                },
+                {
+                    "type": "death-effects"
+                },
+                {
+                    "type": "disease"
+                },
+                {
+                    "type": "fire"
+                },
+                {
+                    "type": "paralyzed"
+                },
+                {
+                    "type": "poison"
+                },
+                {
+                    "type": "radiation"
+                }
+            ],
+            "weaknesses": [
+                {
+                    "type": "cold",
+                    "value": 20
+                },
+                {
+                    "type": "vitality",
+                    "value": 15
+                },
+                {
+                    "type": "anchor",
+                    "value": 15
+                }
+            ],
+            "resistances": [
+                {
+                    "type": "physical",
+                    "value": 15
+                }
+            ],
+            "speed": {
+                "details": "",
+                "otherSpeeds": [
+                    {
+                        "type": "climb",
+                        "value": 20
+                    }
+                ],
+                "value": 20
+            }
+        },
+        "details": {
+            "blurb": "",
+            "languages": {
+                "details": "",
+                "value": []
+            },
+            "level": {
+                "value": 15
+            },
+            "privateNotes": "",
+            "publicNotes": "<p>A district's fusion plant, half-melted and still running, because the chief engineer's ghost never accepted the scram order. It believes the meltdown is contained. It has believed this for two hundred years.</p>",
+            "publication": {
+                "license": "ORC",
+                "remaster": true,
+                "title": "Cinderfall"
+            }
+        },
+        "initiative": {
+            "statistic": "perception"
+        },
+        "perception": {
+            "details": "all-around vision",
+            "mod": 25,
+            "senses": [
+                {
+                    "type": "darkvision"
+                }
+            ]
+        },
+        "resources": {},
+        "saves": {
+            "fortitude": {
+                "saveDetail": "",
+                "value": 29
+            },
+            "reflex": {
+                "saveDetail": "",
+                "value": 24
+            },
+            "will": {
+                "saveDetail": "",
+                "value": 27
+            }
+        },
+        "skills": {
+            "crafting": {
+                "base": 29
+            },
+            "intimidation": {
+                "base": 26
+            }
+        },
+        "traits": {
+            "rarity": "common",
+            "size": {
+                "value": "huge"
+            },
+            "value": [
+                "construct",
+                "haunt",
+                "radiation",
+                "spirit"
+            ]
+        },
+        "slug": "reactor-heart"
+    },
+    "_id": "ZnSNjY8wtiCrPdtA",
+    "items": [
+        {
+            "_id": "vcsOApUcGVQzLpqy",
+            "img": "systems/pf2e/icons/actions/Passive.webp",
+            "name": "Criticality (aura)",
+            "sort": 1100000,
+            "system": {
+                "actionType": {
+                    "value": "passive"
+                },
+                "actions": {
+                    "value": null
+                },
+                "category": "interaction",
+                "description": {
+                    "value": "<p>30 feet. A creature that ends its turn in the aura takes 4d6 fire damage and 2d6 persistent radiation damage, basic Fortitude DC 35. While the Reactor-Heart is below half HP, the aura's radius doubles and its damage increases to 6d6 fire.</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "criticality-aura",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "type": "action"
+        },
+        {
+            "_id": "Avzcx5BRhJQ2OiLv",
+            "img": "systems/pf2e/icons/default-icons/melee.svg",
+            "name": "molten limb",
+            "sort": 100000,
+            "system": {
+                "attack": {
+                    "value": ""
+                },
+                "attackEffects": {
+                    "custom": "",
+                    "value": []
+                },
+                "bonus": {
+                    "value": 29
+                },
+                "damageRolls": {
+                    "0": {
+                        "damage": "3d12+16",
+                        "damageType": "fire"
+                    },
+                    "1": {
+                        "category": "persistent",
+                        "damage": "2d6",
+                        "damageType": "fire"
+                    }
+                },
+                "description": {
+                    "value": ""
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "range": null,
+                "rules": [],
+                "slug": "molten-limb",
+                "traits": {
+                    "rarity": "common",
+                    "value": [
+                        "reach-15"
+                    ]
+                },
+                "weaponType": {
+                    "value": "melee"
+                }
+            },
+            "type": "melee"
+        },
+        {
+            "_id": "lSYl8HKGOXMaG8ur",
+            "img": "systems/pf2e/icons/actions/Passive.webp",
+            "name": "Refused Scram",
+            "sort": 1200000,
+            "system": {
+                "actionType": {
+                    "value": "passive"
+                },
+                "actions": {
+                    "value": null
+                },
+                "category": "interaction",
+                "description": {
+                    "value": "<p>The Reactor-Heart cannot be permanently destroyed while any part of its containment housing still stands. Reduced to 0 HP, it goes dormant and rebuilds over 24 hours unless the housing itself is demolished (a job for a Breaker <a href=\"deadhand.html\">Deadhand</a>, a Vigil's Ash and Rebar, or a very large charge) in the meantime.</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "refused-scram",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "type": "action"
+        },
+        {
+            "_id": "zjBuRXPzeIoXmvXP",
+            "img": "systems/pf2e/icons/actions/Passive.webp",
+            "name": "The Engineer Still Believes",
+            "sort": 1300000,
+            "system": {
+                "actionType": {
+                    "value": "passive"
+                },
+                "actions": {
+                    "value": null
+                },
+                "category": "interaction",
+                "description": {
+                    "value": "<p>The Reactor-Heart is immune to the confused and controlled conditions. A creature that succeeds at a DC 35 Deception check can convince it to \"hand over a readout\" &mdash; a single true, useful fact about the surrounding area or an imminent hazard.</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "the-engineer-still-believes",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "type": "action"
+        }
+    ],
+    "flags": {
+        "cinderfall": {
+            "alignment": "CE",
+            "incomplete": [
+                "perception clause not representable as a pf2e sense: 'all-around vision'",
+                "skill 'Crafting' condition 'reactor operation' kept as text only"
+            ]
+        }
+    }
+}

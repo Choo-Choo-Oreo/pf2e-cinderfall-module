@@ -1,0 +1,363 @@
+{
+    "name": "Sump Crawler",
+    "type": "npc",
+    "img": "systems/pf2e/icons/default-icons/npc.svg",
+    "system": {
+        "abilities": {
+            "str": {
+                "mod": 6
+            },
+            "dex": {
+                "mod": 0
+            },
+            "con": {
+                "mod": 6
+            },
+            "int": {
+                "mod": -5
+            },
+            "wis": {
+                "mod": 2
+            },
+            "cha": {
+                "mod": -4
+            }
+        },
+        "attributes": {
+            "ac": {
+                "details": "",
+                "value": 22
+            },
+            "hp": {
+                "details": "",
+                "max": 110,
+                "temp": 0,
+                "value": 110
+            },
+            "immunities": [
+                {
+                    "type": "radiation"
+                }
+            ],
+            "weaknesses": [
+                {
+                    "type": "electricity",
+                    "value": 10
+                }
+            ],
+            "resistances": [
+                {
+                    "type": "physical",
+                    "value": 3
+                }
+            ],
+            "speed": {
+                "details": "",
+                "otherSpeeds": [
+                    {
+                        "type": "swim",
+                        "value": 30
+                    },
+                    {
+                        "type": "climb",
+                        "value": 15
+                    }
+                ],
+                "value": 20
+            }
+        },
+        "details": {
+            "blurb": "",
+            "languages": {
+                "details": "",
+                "value": []
+            },
+            "level": {
+                "value": 6
+            },
+            "privateNotes": "",
+            "publicNotes": "<p>Whatever lives at the bottom of the runoff sumps -- part crustacean, part filter. It eats the poison and keeps it, then wears it.</p>",
+            "publication": {
+                "license": "ORC",
+                "remaster": true,
+                "title": "Cinderfall"
+            }
+        },
+        "initiative": {
+            "statistic": "perception"
+        },
+        "perception": {
+            "details": "motion sense 60 ft in liquid; no vision",
+            "mod": 12,
+            "senses": [
+                {
+                    "type": "tremorsense",
+                    "acuity": "imprecise",
+                    "range": 30
+                },
+                {
+                    "type": "motion-sense",
+                    "range": 60
+                }
+            ]
+        },
+        "resources": {},
+        "saves": {
+            "fortitude": {
+                "saveDetail": "",
+                "value": 16
+            },
+            "reflex": {
+                "saveDetail": "",
+                "value": 10
+            },
+            "will": {
+                "saveDetail": "",
+                "value": 10
+            }
+        },
+        "skills": {
+            "athletics": {
+                "base": 16
+            },
+            "stealth": {
+                "base": 12
+            }
+        },
+        "traits": {
+            "rarity": "common",
+            "size": {
+                "value": "lg"
+            },
+            "value": [
+                "animal",
+                "mutant"
+            ]
+        },
+        "slug": "sump-crawler"
+    },
+    "_id": "2q3bCDCHYjgUFReV",
+    "items": [
+        {
+            "_id": "Kc0anselZL6qPPI9",
+            "img": "systems/pf2e/icons/default-icons/melee.svg",
+            "name": "claw",
+            "sort": 100000,
+            "system": {
+                "attack": {
+                    "value": ""
+                },
+                "attackEffects": {
+                    "custom": "",
+                    "value": [
+                        "grab"
+                    ]
+                },
+                "bonus": {
+                    "value": 16
+                },
+                "damageRolls": {
+                    "0": {
+                        "damage": "2d10+6",
+                        "damageType": "bludgeoning"
+                    }
+                },
+                "description": {
+                    "value": ""
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "range": null,
+                "rules": [],
+                "slug": "claw",
+                "traits": {
+                    "rarity": "common",
+                    "value": [
+                        "reach-10"
+                    ]
+                },
+                "weaponType": {
+                    "value": "melee"
+                }
+            },
+            "type": "melee"
+        },
+        {
+            "_id": "LjIgWiwaslMnSkxC",
+            "img": "systems/pf2e/icons/default-icons/melee.svg",
+            "name": "filthy bite",
+            "sort": 200000,
+            "system": {
+                "attack": {
+                    "value": ""
+                },
+                "attackEffects": {
+                    "custom": "",
+                    "value": []
+                },
+                "bonus": {
+                    "value": 16
+                },
+                "damageRolls": {
+                    "0": {
+                        "damage": "2d8+6",
+                        "damageType": "piercing"
+                    }
+                },
+                "description": {
+                    "value": "<p>Damage 2d8+6 piercing plus Sump Sickness</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "range": null,
+                "rules": [],
+                "slug": "filthy-bite",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                },
+                "weaponType": {
+                    "value": "melee"
+                }
+            },
+            "type": "melee"
+        },
+        {
+            "_id": "nDs5f3JJ5IdpZQGg",
+            "img": "systems/pf2e/icons/actions/Passive.webp",
+            "name": "Sump Sickness",
+            "sort": 1100000,
+            "system": {
+                "actionType": {
+                    "value": "passive"
+                },
+                "actions": {
+                    "value": null
+                },
+                "category": "interaction",
+                "description": {
+                    "value": "<p>(disease) DC 24 Fortitude. <b>Stage 1</b> fatigued and 1d6 persistent poison (1 round); <b>Stage 2</b> fatigued, enfeebled 1, and 1d6 persistent poison (1 day).</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "sump-sickness",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "type": "action"
+        },
+        {
+            "_id": "vNT7g8hYErvR5ip2",
+            "img": "systems/pf2e/icons/actions/Passive.webp",
+            "name": "Filter Feeder",
+            "sort": 1200000,
+            "system": {
+                "actionType": {
+                    "value": "passive"
+                },
+                "actions": {
+                    "value": null
+                },
+                "category": "interaction",
+                "description": {
+                    "value": "<p>The Crawler takes no damage from acid or poison and is instead healed for half that amount.</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "filter-feeder",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "type": "action"
+        },
+        {
+            "_id": "iOjSo6zs0pqk3SNC",
+            "img": "systems/pf2e/icons/actions/TwoActions.webp",
+            "name": "Toxic Sluff",
+            "sort": 1300000,
+            "system": {
+                "actionType": {
+                    "value": "action"
+                },
+                "actions": {
+                    "value": 2
+                },
+                "category": "offensive",
+                "description": {
+                    "value": "<p>The Crawler sheds contaminated slurry in a 15-foot cone: 3d6 poison plus 2d6 persistent poison, basic Fortitude DC 24; the area becomes hazardous sludge (difficult terrain; 1d6 poison to enter a square) for 1 minute.</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "toxic-sluff",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "type": "action"
+        },
+        {
+            "_id": "o3Lr1Oha0BMe4hrO",
+            "img": "systems/pf2e/icons/actions/TwoActions.webp",
+            "name": "Drag Under",
+            "sort": 1400000,
+            "system": {
+                "actionType": {
+                    "value": "action"
+                },
+                "actions": {
+                    "value": 2
+                },
+                "category": "offensive",
+                "description": {
+                    "value": "<p><b>Requirements</b> the Crawler has a creature grabbed and is in deep liquid; <b>Effect</b> the Crawler submerges with the grabbed creature, which begins drowning and is off-guard until it Escapes (DC 24).</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "drag-under",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "type": "action"
+        }
+    ],
+    "flags": {
+        "cinderfall": {
+            "alignment": "N",
+            "incomplete": [
+                "perception clause not representable as a pf2e sense: 'motion sense 60 ft in liquid'",
+                "perception clause not representable as a pf2e sense: 'no vision'",
+                "skill 'Stealth' condition 'in sludge' kept as text only",
+                "Melee strike 'filthy bite': rider 'Sump Sickness' kept as text only"
+            ]
+        }
+    }
+}

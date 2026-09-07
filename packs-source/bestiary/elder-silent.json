@@ -1,0 +1,338 @@
+{
+    "name": "Elder Silent",
+    "type": "npc",
+    "img": "systems/pf2e/icons/default-icons/npc.svg",
+    "system": {
+        "abilities": {
+            "str": {
+                "mod": 5
+            },
+            "dex": {
+                "mod": 5
+            },
+            "con": {
+                "mod": 4
+            },
+            "int": {
+                "mod": 2
+            },
+            "wis": {
+                "mod": 6
+            },
+            "cha": {
+                "mod": 0
+            }
+        },
+        "attributes": {
+            "ac": {
+                "details": "",
+                "value": 28
+            },
+            "hp": {
+                "details": "",
+                "max": 145,
+                "temp": 0,
+                "value": 145
+            },
+            "weaknesses": [
+                {
+                    "type": "sonic",
+                    "value": 10
+                }
+            ],
+            "resistances": [
+                {
+                    "type": "physical",
+                    "value": 5
+                }
+            ],
+            "speed": {
+                "details": "",
+                "otherSpeeds": [
+                    {
+                        "type": "climb",
+                        "value": 30
+                    }
+                ],
+                "value": 35
+            }
+        },
+        "details": {
+            "blurb": "",
+            "languages": {
+                "details": "",
+                "value": []
+            },
+            "level": {
+                "value": 9
+            },
+            "privateNotes": "",
+            "publicNotes": "<p>One that has been in the Maze long enough to be part of how it thinks. It doesn't chase -- it edits the room until you're where it wants you. Deep-Maze only.</p>",
+            "publication": {
+                "license": "ORC",
+                "remaster": true,
+                "title": "Cinderfall"
+            }
+        },
+        "initiative": {
+            "statistic": "perception"
+        },
+        "perception": {
+            "details": "blindsight 60 ft; no vision",
+            "mod": 19,
+            "senses": [
+                {
+                    "type": "tremorsense",
+                    "acuity": "imprecise",
+                    "range": 60
+                }
+            ]
+        },
+        "resources": {},
+        "saves": {
+            "fortitude": {
+                "saveDetail": "",
+                "value": 15
+            },
+            "reflex": {
+                "saveDetail": "",
+                "value": 18
+            },
+            "will": {
+                "saveDetail": "",
+                "value": 19
+            }
+        },
+        "skills": {
+            "acrobatics": {
+                "base": 17
+            },
+            "stealth": {
+                "base": 21
+            },
+            "occultism": {
+                "base": 16
+            }
+        },
+        "traits": {
+            "rarity": "common",
+            "size": {
+                "value": "lg"
+            },
+            "value": [
+                "aberration"
+            ]
+        },
+        "slug": "elder-silent"
+    },
+    "_id": "WKI5qAAZbTcNvoo9",
+    "items": [
+        {
+            "_id": "JpGbUO2LST405sJE",
+            "img": "systems/pf2e/icons/default-icons/lore.svg",
+            "name": "Maze Lore",
+            "sort": 700000,
+            "system": {
+                "description": {
+                    "value": ""
+                },
+                "mod": {
+                    "value": 21
+                },
+                "proficient": {
+                    "value": 0
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "maze-lore"
+            },
+            "type": "lore"
+        },
+        {
+            "_id": "ByQNwsKELF5kQyMC",
+            "img": "systems/pf2e/icons/default-icons/melee.svg",
+            "name": "raking hands",
+            "sort": 100000,
+            "system": {
+                "attack": {
+                    "value": ""
+                },
+                "attackEffects": {
+                    "custom": "",
+                    "value": [
+                        "grab"
+                    ]
+                },
+                "bonus": {
+                    "value": 20
+                },
+                "damageRolls": {
+                    "0": {
+                        "damage": "2d10+8",
+                        "damageType": "slashing"
+                    },
+                    "1": {
+                        "category": "persistent",
+                        "damage": "1d8",
+                        "damageType": "bleed"
+                    }
+                },
+                "description": {
+                    "value": ""
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "range": null,
+                "rules": [],
+                "slug": "raking-hands",
+                "traits": {
+                    "rarity": "common",
+                    "value": [
+                        "agile",
+                        "reach-10"
+                    ]
+                },
+                "weaponType": {
+                    "value": "melee"
+                }
+            },
+            "type": "melee"
+        },
+        {
+            "_id": "pjLJVnz8zz2RkbGR",
+            "img": "systems/pf2e/icons/actions/Passive.webp",
+            "name": "Soundless (30 ft)",
+            "sort": 1100000,
+            "system": {
+                "actionType": {
+                    "value": "passive"
+                },
+                "actions": {
+                    "value": null
+                },
+                "category": "interaction",
+                "description": {
+                    "value": "<p>As The Silent, and additionally sound is dampened in a 30-foot emanation &mdash; every creature in the area is deafened, can't deal sonic damage or use auditory effects, and must succeed at a DC 30 flat check to cast a spell with a verbal component.</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "soundless-30-ft",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "type": "action"
+        },
+        {
+            "_id": "hhThVoGzHMsJ5PmG",
+            "img": "systems/pf2e/icons/actions/TwoActions.webp",
+            "name": "Rewrite the Route",
+            "sort": 1200000,
+            "system": {
+                "actionType": {
+                    "value": "action"
+                },
+                "actions": {
+                    "value": 2
+                },
+                "category": "offensive",
+                "description": {
+                    "value": "<p><span class=\"act\">Frequency</span> three times per day; <b>Effect</b> the Elder Silent reshapes a 30-foot cube of the Maze &mdash; walls slide, a corridor opens or seals, and any map the party has drawn is now wrong. Each creature in the area must succeed at a DC 28 Reflex save or be moved to the nearest space the new layout permits and knocked prone.</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "rewrite-the-route",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "type": "action"
+        },
+        {
+            "_id": "wMAorCdARK4i5VmR",
+            "img": "systems/pf2e/icons/actions/Passive.webp",
+            "name": "The Maze Knows You're Here",
+            "sort": 1300000,
+            "system": {
+                "actionType": {
+                    "value": "passive"
+                },
+                "actions": {
+                    "value": null
+                },
+                "category": "interaction",
+                "description": {
+                    "value": "<p><span class=\"act\">aura, sustained</span> 60 feet. Enemies in the aura can't benefit from the Seek action against the Elder Silent and treat the area as difficult terrain (the floor pitches underfoot).</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "the-maze-knows-youre-here",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "type": "action"
+        },
+        {
+            "_id": "WHUjhjjliWhSApj0",
+            "img": "systems/pf2e/icons/actions/Passive.webp",
+            "name": "Part of the Building",
+            "sort": 1400000,
+            "system": {
+                "actionType": {
+                    "value": "passive"
+                },
+                "actions": {
+                    "value": null
+                },
+                "category": "interaction",
+                "description": {
+                    "value": "<p>While at least one Maze wall stands within 30 feet, the Elder Silent has resistance 10 to all damage and can't be moved by forced movement. Fighting it in a fully cleared chamber removes both.</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "part-of-the-building",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "type": "action"
+        }
+    ],
+    "flags": {
+        "cinderfall": {
+            "alignment": "NE",
+            "incomplete": [
+                "perception clause not representable as a pf2e sense: 'blindsight 60 ft'",
+                "perception clause not representable as a pf2e sense: 'no vision'"
+            ]
+        }
+    }
+}

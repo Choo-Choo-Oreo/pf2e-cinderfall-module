@@ -1,0 +1,334 @@
+{
+    "name": "Wailing Host",
+    "type": "npc",
+    "img": "systems/pf2e/icons/default-icons/npc.svg",
+    "system": {
+        "abilities": {
+            "str": {
+                "mod": -5
+            },
+            "dex": {
+                "mod": 5
+            },
+            "con": {
+                "mod": 4
+            },
+            "int": {
+                "mod": -2
+            },
+            "wis": {
+                "mod": 4
+            },
+            "cha": {
+                "mod": 6
+            }
+        },
+        "attributes": {
+            "ac": {
+                "details": "",
+                "value": 25
+            },
+            "hp": {
+                "details": "negative healing",
+                "max": 110,
+                "temp": 0,
+                "value": 110
+            },
+            "immunities": [
+                {
+                    "type": "bleed"
+                },
+                {
+                    "type": "death-effects"
+                },
+                {
+                    "type": "disease"
+                },
+                {
+                    "type": "paralyzed"
+                },
+                {
+                    "type": "poison"
+                },
+                {
+                    "type": "precision"
+                },
+                {
+                    "type": "unconscious"
+                }
+            ],
+            "weaknesses": [
+                {
+                    "type": "vitality",
+                    "value": 10
+                },
+                {
+                    "type": "anchor",
+                    "value": 10
+                }
+            ],
+            "resistances": [
+                {
+                    "type": "all-damage",
+                    "value": 10,
+                    "doubleVs": [
+                        "non-magical"
+                    ]
+                }
+            ],
+            "speed": {
+                "details": "",
+                "otherSpeeds": [
+                    {
+                        "type": "fly",
+                        "value": 35
+                    }
+                ],
+                "value": 0
+            }
+        },
+        "details": {
+            "blurb": "",
+            "languages": {
+                "details": "",
+                "value": []
+            },
+            "level": {
+                "value": 7
+            },
+            "privateNotes": "",
+            "publicNotes": "<p>A raging spirit that's been eating. A dozen deaths or more, fused into one thing with a voice and a want. This is the encounter that gets a settlement to hire outside help.</p>",
+            "publication": {
+                "license": "ORC",
+                "remaster": true,
+                "title": "Cinderfall"
+            }
+        },
+        "initiative": {
+            "statistic": "perception"
+        },
+        "perception": {
+            "details": "",
+            "mod": 15,
+            "senses": [
+                {
+                    "type": "darkvision"
+                },
+                {
+                    "type": "lifesense",
+                    "range": 30
+                }
+            ]
+        },
+        "resources": {},
+        "saves": {
+            "fortitude": {
+                "saveDetail": "",
+                "value": 13
+            },
+            "reflex": {
+                "saveDetail": "",
+                "value": 17
+            },
+            "will": {
+                "saveDetail": "",
+                "value": 16
+            }
+        },
+        "skills": {
+            "intimidation": {
+                "base": 17
+            },
+            "stealth": {
+                "base": 15
+            }
+        },
+        "traits": {
+            "rarity": "common",
+            "size": {
+                "value": "lg"
+            },
+            "value": [
+                "incorporeal",
+                "spirit",
+                "undead"
+            ]
+        },
+        "slug": "wailing-host"
+    },
+    "_id": "dqfwk3WlspHRcYyx",
+    "items": [
+        {
+            "_id": "X0TqpUCWBkqjOEws",
+            "img": "systems/pf2e/icons/actions/Passive.webp",
+            "name": "Chorus of the Dead (aura)",
+            "sort": 1100000,
+            "system": {
+                "actionType": {
+                    "value": "passive"
+                },
+                "actions": {
+                    "value": null
+                },
+                "category": "interaction",
+                "description": {
+                    "value": "<p>20 feet. A creature that starts its turn in the aura takes 2d6 mental damage, DC 25 basic Will.</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "chorus-of-the-dead-aura",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "type": "action"
+        },
+        {
+            "_id": "3UY3737cyKtMSYOz",
+            "img": "systems/pf2e/icons/default-icons/melee.svg",
+            "name": "rending grief",
+            "sort": 100000,
+            "system": {
+                "attack": {
+                    "value": ""
+                },
+                "attackEffects": {
+                    "custom": "",
+                    "value": [
+                        "grab"
+                    ]
+                },
+                "bonus": {
+                    "value": 17
+                },
+                "damageRolls": {
+                    "0": {
+                        "damage": "3d6+7",
+                        "damageType": "void"
+                    }
+                },
+                "description": {
+                    "value": ""
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "range": null,
+                "rules": [],
+                "slug": "rending-grief",
+                "traits": {
+                    "rarity": "common",
+                    "value": [
+                        "magical"
+                    ]
+                },
+                "weaponType": {
+                    "value": "melee"
+                }
+            },
+            "type": "melee"
+        },
+        {
+            "_id": "YI7Vb2TmFUEfO8Oj",
+            "img": "systems/pf2e/icons/actions/Passive.webp",
+            "name": "Feed",
+            "sort": 1200000,
+            "system": {
+                "actionType": {
+                    "value": "passive"
+                },
+                "actions": {
+                    "value": null
+                },
+                "category": "interaction",
+                "description": {
+                    "value": "<p>When the Wailing Host reduces a creature to 0 HP, it regains 20 HP and its Chorus of the Dead aura permanently expands by 5 feet for the rest of the encounter.</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "feed",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "type": "action"
+        },
+        {
+            "_id": "ZF8EBIT2Gj61K9S9",
+            "img": "systems/pf2e/icons/actions/TwoActions.webp",
+            "name": "Ride the Living",
+            "sort": 1300000,
+            "system": {
+                "actionType": {
+                    "value": "action"
+                },
+                "actions": {
+                    "value": 2
+                },
+                "category": "offensive",
+                "description": {
+                    "value": "<p><b>Requirements</b> the Host has a creature grabbed; <b>Effect</b> the grabbed creature must succeed at a DC 25 Will save or the Wailing Host possesses it (as the <em>possessed</em> condition), its own body collapsing to mist for the duration. A Hollowbound's Cut the Wire, a Wardbreaker's Break the Anchor, or reducing the Host's remaining mist form to 0 HP ends the possession.</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "ride-the-living",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "type": "action"
+        },
+        {
+            "_id": "CvDVPSdNa2E3DDnq",
+            "img": "systems/pf2e/icons/actions/Passive.webp",
+            "name": "Scattered, Not Slain",
+            "sort": 1400000,
+            "system": {
+                "actionType": {
+                    "value": "passive"
+                },
+                "actions": {
+                    "value": null
+                },
+                "category": "interaction",
+                "description": {
+                    "value": "<p>Reduced to 0 HP, the Wailing Host disperses and re-forms after 1d4 days at half HP unless every death it fed on is individually laid to rest, or a Vigil Miracle / completed Wardbreaker binding finishes it.</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "scattered-not-slain",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "type": "action"
+        }
+    ],
+    "flags": {
+        "cinderfall": {
+            "alignment": "CE"
+        }
+    }
+}

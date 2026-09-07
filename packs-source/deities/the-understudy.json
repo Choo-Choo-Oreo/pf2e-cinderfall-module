@@ -1,0 +1,38 @@
+{
+    "name": "The Understudy",
+    "type": "deity",
+    "img": "systems/pf2e/icons/default-icons/deity.svg",
+    "system": {
+        "attribute": [],
+        "category": "deity",
+        "description": {
+            "value": "<p><strong>Second Chances & Replacement</strong></p>\n<p>New. Feeds on the moment someone steps into a role that isn't theirs by right — taking over for a dead sibling, a fallen leader, an absent parent. Grants uncanny competence at a borrowed job, and a nagging, permanent sense that you're still just standing in for the real thing.</p>"
+        },
+        "domains": {
+            "alternate": [],
+            "primary": []
+        },
+        "font": [],
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "sanctification": null,
+        "skill": [],
+        "spells": {},
+        "traits": {},
+        "weapons": [],
+        "slug": "the-understudy"
+    },
+    "_id": "LHDGtgjLECn9QZW9",
+    "flags": {
+        "cinderfall": {
+            "define": "Second Chances & Replacement",
+            "incomplete": [
+                "STUB -- no mechanics authored. Missing every pf2e deity field: attribute, domains, font, sanctification, skill, spells, weapons. `category` is a default of 'deity' and may need to be philosophy or pantheon. See .claude/docs/todo.md."
+            ]
+        }
+    }
+}

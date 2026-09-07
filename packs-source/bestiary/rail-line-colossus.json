@@ -1,0 +1,342 @@
+{
+    "name": "Rail-Line Colossus",
+    "type": "npc",
+    "img": "systems/pf2e/icons/default-icons/npc.svg",
+    "system": {
+        "abilities": {
+            "str": {
+                "mod": 8
+            },
+            "dex": {
+                "mod": 1
+            },
+            "con": {
+                "mod": 7
+            },
+            "int": {
+                "mod": -2
+            },
+            "wis": {
+                "mod": 4
+            },
+            "cha": {
+                "mod": 3
+            }
+        },
+        "attributes": {
+            "ac": {
+                "details": "",
+                "value": 33
+            },
+            "hp": {
+                "details": "",
+                "max": 220,
+                "temp": 0,
+                "value": 220
+            },
+            "immunities": [
+                {
+                    "type": "bleed"
+                },
+                {
+                    "type": "death-effects"
+                },
+                {
+                    "type": "disease"
+                },
+                {
+                    "type": "mental"
+                },
+                {
+                    "type": "paralyzed"
+                },
+                {
+                    "type": "poison"
+                }
+            ],
+            "weaknesses": [
+                {
+                    "type": "vitality",
+                    "value": 15
+                },
+                {
+                    "type": "anchor",
+                    "value": 15
+                }
+            ],
+            "resistances": [
+                {
+                    "type": "physical",
+                    "value": 15,
+                    "exceptions": [
+                        "adamantine",
+                        "orichalcum"
+                    ]
+                }
+            ],
+            "speed": {
+                "details": "60 feet while on intact rail; cannot leave the rail without a ramp or a breach",
+                "otherSpeeds": [],
+                "value": 40
+            }
+        },
+        "details": {
+            "blurb": "",
+            "languages": {
+                "details": "",
+                "value": []
+            },
+            "level": {
+                "value": 12
+            },
+            "privateNotes": "",
+            "publicNotes": "<p>A derailed armored troop-transport section, reanimated by the entire gunnery crew that died aboard it. Too many ghosts to bargain with a single one -- and they are still, collectively, trying to reach the front.</p>",
+            "publication": {
+                "license": "ORC",
+                "remaster": true,
+                "title": "Cinderfall"
+            }
+        },
+        "initiative": {
+            "statistic": "perception"
+        },
+        "perception": {
+            "details": "",
+            "mod": 22,
+            "senses": [
+                {
+                    "type": "darkvision"
+                }
+            ]
+        },
+        "resources": {},
+        "saves": {
+            "fortitude": {
+                "saveDetail": "",
+                "value": 25
+            },
+            "reflex": {
+                "saveDetail": "",
+                "value": 19
+            },
+            "will": {
+                "saveDetail": "",
+                "value": 23
+            }
+        },
+        "skills": {
+            "athletics": {
+                "base": 25
+            },
+            "intimidation": {
+                "base": 21
+            }
+        },
+        "traits": {
+            "rarity": "common",
+            "size": {
+                "value": "grg"
+            },
+            "value": [
+                "construct",
+                "haunt",
+                "spirit"
+            ]
+        },
+        "slug": "rail-line-colossus"
+    },
+    "_id": "2yp3nfX2X9OQ9VWl",
+    "items": [
+        {
+            "_id": "QMkTZYUsHCvNW8Cl",
+            "img": "systems/pf2e/icons/actions/Passive.webp",
+            "name": "Crew of the Dead",
+            "sort": 1100000,
+            "system": {
+                "actionType": {
+                    "value": "passive"
+                },
+                "actions": {
+                    "value": null
+                },
+                "category": "interaction",
+                "description": {
+                    "value": "<p>The colossus takes its full turn on two separate initiative counts each round (roll initiative twice). Its <em>mental</em> immunity comes from the sheer number of minds crewing it &mdash; there is no one ghost to Name, and a Wardbreaker's Anchor and a Hollowbound's Parley both fail against it. <em>GM note:</em> the double turn roughly doubles its action economy &mdash; run the Colossus as a scripted set-piece worth about two levels more than its number, and don't stack it with other threats in the same fight.</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "crew-of-the-dead",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "type": "action"
+        },
+        {
+            "_id": "hbWtVsXB8dNvOOdL",
+            "img": "systems/pf2e/icons/default-icons/melee.svg",
+            "name": "crushing wheel",
+            "sort": 100000,
+            "system": {
+                "attack": {
+                    "value": ""
+                },
+                "attackEffects": {
+                    "custom": "",
+                    "value": [
+                        "knockdown"
+                    ]
+                },
+                "bonus": {
+                    "value": 25
+                },
+                "damageRolls": {
+                    "0": {
+                        "damage": "3d12+13",
+                        "damageType": "bludgeoning"
+                    }
+                },
+                "description": {
+                    "value": ""
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "range": null,
+                "rules": [],
+                "slug": "crushing-wheel",
+                "traits": {
+                    "rarity": "common",
+                    "value": [
+                        "reach-15"
+                    ]
+                },
+                "weaponType": {
+                    "value": "melee"
+                }
+            },
+            "type": "melee"
+        },
+        {
+            "_id": "k0FEhs3Ln6EF5Rz8",
+            "img": "systems/pf2e/icons/default-icons/melee.svg",
+            "name": "broadside",
+            "sort": 200000,
+            "system": {
+                "attack": {
+                    "value": ""
+                },
+                "attackEffects": {
+                    "custom": "",
+                    "value": []
+                },
+                "bonus": {
+                    "value": 23
+                },
+                "damageRolls": {
+                    "0": {
+                        "damage": "3d10+10",
+                        "damageType": "piercing"
+                    }
+                },
+                "description": {
+                    "value": "<p>Damage 3d10+10 piercing to each creature in a 5-foot-wide line</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "range": {
+                    "increment": 120,
+                    "max": null
+                },
+                "rules": [],
+                "slug": "broadside",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                },
+                "weaponType": {
+                    "value": "ranged"
+                }
+            },
+            "type": "melee"
+        },
+        {
+            "_id": "VssJHZttrFWVpUqS",
+            "img": "systems/pf2e/icons/actions/ThreeActions.webp",
+            "name": "Whistle Scream",
+            "sort": 1200000,
+            "system": {
+                "actionType": {
+                    "value": "action"
+                },
+                "actions": {
+                    "value": 3
+                },
+                "category": "offensive",
+                "description": {
+                    "value": "<p><span class=\"act\">Frequency</span> once per minute; <b>Effect</b> the colossus sounds its dead crew's alarm in a 60-foot cone: 8d6 sonic damage and deafened for 1 minute, basic Fortitude DC 32.</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "whistle-scream",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "type": "action"
+        },
+        {
+            "_id": "VrnOclGHQ41JSBom",
+            "img": "systems/pf2e/icons/actions/Passive.webp",
+            "name": "All Aboard",
+            "sort": 1300000,
+            "system": {
+                "actionType": {
+                    "value": "passive"
+                },
+                "actions": {
+                    "value": null
+                },
+                "category": "interaction",
+                "description": {
+                    "value": "<p>A creature the colossus critically hits with its crushing wheel is dragged into an interior compartment. An affected creature is trapped (Escape DC 32) and takes 2d10 bludgeoning damage at the start of each of its turns until it escapes.</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "all-aboard",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "type": "action"
+        }
+    ],
+    "flags": {
+        "cinderfall": {
+            "alignment": "CE",
+            "incomplete": [
+                "Ranged strike 'broadside': rider 'to each creature in a 5-foot-wide line' kept as text only"
+            ]
+        }
+    }
+}

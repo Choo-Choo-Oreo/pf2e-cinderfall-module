@@ -1,0 +1,38 @@
+{
+    "name": "The Croupier",
+    "type": "deity",
+    "img": "systems/pf2e/icons/default-icons/deity.svg",
+    "system": {
+        "attribute": [],
+        "category": "deity",
+        "description": {
+            "value": "<p><strong>Luck & Risk</strong></p>\n<p>Treats every wager, gunfight, and gamble in the wasteland as a table it's already sitting at. Rewards bold bets; punishes hedging.</p>"
+        },
+        "domains": {
+            "alternate": [],
+            "primary": []
+        },
+        "font": [],
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "sanctification": null,
+        "skill": [],
+        "spells": {},
+        "traits": {},
+        "weapons": [],
+        "slug": "the-croupier"
+    },
+    "_id": "0gRxOQIl6F9Y5qKV",
+    "flags": {
+        "cinderfall": {
+            "define": "Luck & Risk",
+            "incomplete": [
+                "STUB -- no mechanics authored. Missing every pf2e deity field: attribute, domains, font, sanctification, skill, spells, weapons. `category` is a default of 'deity' and may need to be philosophy or pantheon. See .claude/docs/todo.md."
+            ]
+        }
+    }
+}

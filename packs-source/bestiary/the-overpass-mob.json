@@ -1,0 +1,288 @@
+{
+    "name": "The Overpass Mob",
+    "type": "npc",
+    "img": "systems/pf2e/icons/default-icons/npc.svg",
+    "system": {
+        "abilities": {
+            "str": {
+                "mod": -5
+            },
+            "dex": {
+                "mod": 6
+            },
+            "con": {
+                "mod": 3
+            },
+            "int": {
+                "mod": -4
+            },
+            "wis": {
+                "mod": 3
+            },
+            "cha": {
+                "mod": 2
+            }
+        },
+        "attributes": {
+            "ac": {
+                "details": "",
+                "value": 28
+            },
+            "hp": {
+                "details": "",
+                "max": 150,
+                "temp": 0,
+                "value": 150
+            },
+            "immunities": [
+                {
+                    "type": "bleed"
+                },
+                {
+                    "type": "death-effects"
+                },
+                {
+                    "type": "disease"
+                },
+                {
+                    "type": "paralyzed"
+                },
+                {
+                    "type": "poison"
+                },
+                {
+                    "type": "precision"
+                },
+                {
+                    "type": "swarm-mind"
+                },
+                {
+                    "type": "unconscious"
+                }
+            ],
+            "weaknesses": [
+                {
+                    "type": "area-vitality-damage",
+                    "value": 15
+                },
+                {
+                    "type": "anchor",
+                    "value": 15
+                }
+            ],
+            "resistances": [
+                {
+                    "type": "all-damage",
+                    "value": 12
+                }
+            ],
+            "speed": {
+                "details": "",
+                "otherSpeeds": [
+                    {
+                        "type": "fly",
+                        "value": 30
+                    }
+                ],
+                "value": 0
+            }
+        },
+        "details": {
+            "blurb": "",
+            "languages": {
+                "details": "",
+                "value": []
+            },
+            "level": {
+                "value": 10
+            },
+            "privateNotes": "",
+            "publicNotes": "<p>The crowd that died when the overpass came down, still trying to cross it. As much a moving hazard as a monster -- it doesn't fight so much as it arrives, and everything in the way is in the way.</p>",
+            "publication": {
+                "license": "ORC",
+                "remaster": true,
+                "title": "Cinderfall"
+            }
+        },
+        "initiative": {
+            "statistic": "perception"
+        },
+        "perception": {
+            "details": "",
+            "mod": 17,
+            "senses": [
+                {
+                    "type": "darkvision"
+                }
+            ]
+        },
+        "resources": {},
+        "saves": {
+            "fortitude": {
+                "saveDetail": "",
+                "value": 18
+            },
+            "reflex": {
+                "saveDetail": "",
+                "value": 22
+            },
+            "will": {
+                "saveDetail": "",
+                "value": 19
+            }
+        },
+        "skills": {
+            "intimidation": {
+                "base": 18
+            },
+            "acrobatics": {
+                "base": 20
+            }
+        },
+        "traits": {
+            "rarity": "common",
+            "size": {
+                "value": "grg"
+            },
+            "value": [
+                "incorporeal",
+                "spirit",
+                "swarm",
+                "undead"
+            ]
+        },
+        "slug": "the-overpass-mob"
+    },
+    "_id": "MpRUDn7UkZwbSUNg",
+    "items": [
+        {
+            "_id": "GG0WO5e0zN0ndqUc",
+            "img": "systems/pf2e/icons/actions/Passive.webp",
+            "name": "Trampling Passage (aura)",
+            "sort": 1100000,
+            "system": {
+                "actionType": {
+                    "value": "passive"
+                },
+                "actions": {
+                    "value": null
+                },
+                "category": "interaction",
+                "description": {
+                    "value": "<p>A creature that starts its turn in the Mob's space, or first enters it, takes 4d6 void damage and 4d6 bludgeoning damage, DC 28 basic Reflex.</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "trampling-passage-aura",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "type": "action"
+        },
+        {
+            "_id": "tflEZt3dOPNa6sKR",
+            "img": "systems/pf2e/icons/actions/Passive.webp",
+            "name": "They Have To Cross",
+            "sort": 1200000,
+            "system": {
+                "actionType": {
+                    "value": "passive"
+                },
+                "actions": {
+                    "value": null
+                },
+                "category": "interaction",
+                "description": {
+                    "value": "<p>On its turn, the Overpass Mob always moves its full Speed toward the nearest bridge, doorway, threshold, or open route onward, regardless of where creatures are standing. It never Delays and never holds position. A crew that reads this can herd it, wall it off, or simply step aside.</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "they-have-to-cross",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "type": "action"
+        },
+        {
+            "_id": "CH8e4YsOtA2LBvit",
+            "img": "systems/pf2e/icons/actions/Passive.webp",
+            "name": "Dispersed",
+            "sort": 1300000,
+            "system": {
+                "actionType": {
+                    "value": "passive"
+                },
+                "actions": {
+                    "value": null
+                },
+                "category": "interaction",
+                "description": {
+                    "value": "<p>Physical and single-target effects treat the Mob as difficult to pin down &mdash; it takes half damage from anything that isn't an area or persistent effect (already reflected above).</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "dispersed",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "type": "action"
+        },
+        {
+            "_id": "luAHBXMWDlOmbcMk",
+            "img": "systems/pf2e/icons/actions/Passive.webp",
+            "name": "Made To Move On",
+            "sort": 1400000,
+            "system": {
+                "actionType": {
+                    "value": "passive"
+                },
+                "actions": {
+                    "value": null
+                },
+                "category": "interaction",
+                "description": {
+                    "value": "<p>A Vigil's One Call Answered forces it to converge on a single point instead of its bridge, a mass Parley talks it down, or destroying the thing it's trying to reach removes its reason to move at all — any of the three ends the chase for good.</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "made-to-move-on",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "type": "action"
+        }
+    ],
+    "flags": {
+        "cinderfall": {
+            "alignment": "NE",
+            "incomplete": [
+                "immunity 'swarm mind (single-target mental and control effects)' carries prose pf2e cannot store",
+                "weakness 'anchor' rider 'halves damage from non-area sources' kept as text only"
+            ]
+        }
+    }
+}

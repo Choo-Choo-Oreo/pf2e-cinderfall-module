@@ -1,0 +1,275 @@
+{
+    "name": "Slippage Manifestation",
+    "type": "npc",
+    "img": "systems/pf2e/icons/default-icons/npc.svg",
+    "system": {
+        "abilities": {
+            "str": {
+                "mod": 2
+            },
+            "dex": {
+                "mod": 4
+            },
+            "con": {
+                "mod": 3
+            },
+            "int": {
+                "mod": -2
+            },
+            "wis": {
+                "mod": 2
+            },
+            "cha": {
+                "mod": 4
+            }
+        },
+        "attributes": {
+            "ac": {
+                "details": "",
+                "value": 22
+            },
+            "hp": {
+                "details": "",
+                "max": 65,
+                "temp": 0,
+                "value": 65
+            },
+            "immunities": [
+                {
+                    "type": "controlled"
+                }
+            ],
+            "weaknesses": [
+                {
+                    "type": "anchor",
+                    "value": 5
+                },
+                {
+                    "type": "orichalcum",
+                    "value": 5
+                }
+            ],
+            "resistances": [
+                {
+                    "type": "physical",
+                    "value": 5
+                }
+            ],
+            "speed": {
+                "details": "",
+                "otherSpeeds": [
+                    {
+                        "type": "climb",
+                        "value": 30
+                    }
+                ],
+                "value": 30
+            }
+        },
+        "details": {
+            "blurb": "",
+            "languages": {
+                "details": "",
+                "value": []
+            },
+            "level": {
+                "value": 5
+            },
+            "privateNotes": "",
+            "publicNotes": "<p>What crawls out of a Scrapwright's Rig when the Redline rolls come up wrong -- a shard of the donor-soul that was never asked, loose now and furious about it. Hostile to everyone, its own maker most of all.</p>",
+            "publication": {
+                "license": "ORC",
+                "remaster": true,
+                "title": "Cinderfall"
+            }
+        },
+        "initiative": {
+            "statistic": "perception"
+        },
+        "perception": {
+            "details": "",
+            "mod": 13,
+            "senses": [
+                {
+                    "type": "darkvision"
+                }
+            ]
+        },
+        "resources": {},
+        "saves": {
+            "fortitude": {
+                "saveDetail": "",
+                "value": 11
+            },
+            "reflex": {
+                "saveDetail": "",
+                "value": 14
+            },
+            "will": {
+                "saveDetail": "",
+                "value": 11
+            }
+        },
+        "skills": {},
+        "traits": {
+            "rarity": "common",
+            "size": {
+                "value": "sm"
+            },
+            "value": [
+                "aberration",
+                "spirit"
+            ]
+        },
+        "slug": "slippage-manifestation"
+    },
+    "_id": "g7lF2T2UIniIxKls",
+    "items": [
+        {
+            "_id": "ZxKeWPdSEVsLDhcq",
+            "img": "systems/pf2e/icons/default-icons/melee.svg",
+            "name": "arcing lash",
+            "sort": 100000,
+            "system": {
+                "attack": {
+                    "value": ""
+                },
+                "attackEffects": {
+                    "custom": "",
+                    "value": []
+                },
+                "bonus": {
+                    "value": 14
+                },
+                "damageRolls": {
+                    "0": {
+                        "damage": "2d6+4",
+                        "damageType": "electricity"
+                    },
+                    "1": {
+                        "category": "persistent",
+                        "damage": "1d4",
+                        "damageType": "electricity"
+                    }
+                },
+                "description": {
+                    "value": ""
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "range": null,
+                "rules": [],
+                "slug": "arcing-lash",
+                "traits": {
+                    "rarity": "common",
+                    "value": [
+                        "agile",
+                        "magical"
+                    ]
+                },
+                "weaponType": {
+                    "value": "melee"
+                }
+            },
+            "type": "melee"
+        },
+        {
+            "_id": "cjLMLVawDqYZz3NS",
+            "img": "systems/pf2e/icons/actions/Reaction.webp",
+            "name": "Feedback Bite",
+            "sort": 1100000,
+            "system": {
+                "actionType": {
+                    "value": "reaction"
+                },
+                "actions": {
+                    "value": null
+                },
+                "category": "offensive",
+                "description": {
+                    "value": "<p><b>Trigger</b> the Scrapwright who spawned it uses a Redline effect within 30 feet; <b>Effect</b> the Manifestation moves up to its Speed toward that Scrapwright and makes a Strike against them.</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "feedback-bite",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "type": "action"
+        },
+        {
+            "_id": "FzszhI3zplyuCsSP",
+            "img": "systems/pf2e/icons/actions/Passive.webp",
+            "name": "Unstable",
+            "sort": 1200000,
+            "system": {
+                "actionType": {
+                    "value": "passive"
+                },
+                "actions": {
+                    "value": null
+                },
+                "category": "interaction",
+                "description": {
+                    "value": "<p>When the Manifestation drops to 0 HP it detonates: 3d6 electricity in a 10-foot burst, DC 20 basic Reflex.</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "unstable",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "type": "action"
+        },
+        {
+            "_id": "TJlNjdxddctL2Ot0",
+            "img": "systems/pf2e/icons/actions/Passive.webp",
+            "name": "Reclaim",
+            "sort": 1300000,
+            "system": {
+                "actionType": {
+                    "value": "passive"
+                },
+                "actions": {
+                    "value": null
+                },
+                "category": "interaction",
+                "description": {
+                    "value": "<p>The spawning Scrapwright can spend 3 actions adjacent to the Manifestation and attempt a DC 20 Crafting check to fold it back into the Rig, ending it; failure by 5 or more provokes Feedback Bite immediately.</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "reclaim",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "type": "action"
+        }
+    ],
+    "flags": {
+        "cinderfall": {
+            "alignment": "CE"
+        }
+    }
+}

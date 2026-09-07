@@ -1,0 +1,447 @@
+{
+    "name": "Uriel, Bound",
+    "type": "npc",
+    "img": "systems/pf2e/icons/default-icons/npc.svg",
+    "system": {
+        "abilities": {
+            "str": {
+                "mod": 9
+            },
+            "dex": {
+                "mod": 6
+            },
+            "con": {
+                "mod": 8
+            },
+            "int": {
+                "mod": 7
+            },
+            "wis": {
+                "mod": 9
+            },
+            "cha": {
+                "mod": 11
+            }
+        },
+        "attributes": {
+            "ac": {
+                "details": "",
+                "value": 45
+            },
+            "allSaves": {
+                "value": "+2 status to all saves vs magic"
+            },
+            "hp": {
+                "details": "",
+                "max": 310,
+                "temp": 0,
+                "value": 310
+            },
+            "immunities": [
+                {
+                    "type": "death-effects"
+                },
+                {
+                    "type": "disease"
+                },
+                {
+                    "type": "fear-effects"
+                },
+                {
+                    "type": "paralyzed"
+                },
+                {
+                    "type": "poison"
+                },
+                {
+                    "type": "sleep"
+                },
+                {
+                    "type": "unconscious"
+                }
+            ],
+            "resistances": [
+                {
+                    "type": "all-damage",
+                    "value": 15
+                },
+                {
+                    "type": "physical",
+                    "value": 10
+                }
+            ],
+            "speed": {
+                "details": "Fly 90 feet when Unbound only",
+                "otherSpeeds": [],
+                "value": 25
+            }
+        },
+        "details": {
+            "blurb": "",
+            "languages": {
+                "details": "every language; telepathy 100 ft (he rarely uses his voice — see The Word)",
+                "value": []
+            },
+            "level": {
+                "value": 20
+            },
+            "privateNotes": "",
+            "publicNotes": "<p>The Choir's bled-power weapons work on him because they're made from him, not because he reads as unholy. He doesn't.</p>",
+            "publication": {
+                "license": "ORC",
+                "remaster": true,
+                "title": "Cinderfall"
+            }
+        },
+        "initiative": {
+            "statistic": "perception"
+        },
+        "perception": {
+            "details": "reads every soul in sight (knows a killer, a bound soul, an Ashcantor)",
+            "mod": 37,
+            "senses": [
+                {
+                    "type": "truesight",
+                    "range": 60
+                }
+            ]
+        },
+        "resources": {},
+        "saves": {
+            "fortitude": {
+                "saveDetail": "",
+                "value": 35
+            },
+            "reflex": {
+                "saveDetail": "",
+                "value": 31
+            },
+            "will": {
+                "saveDetail": "",
+                "value": 40
+            }
+        },
+        "skills": {
+            "athletics": {
+                "base": 37
+            },
+            "diplomacy": {
+                "base": 35
+            },
+            "intimidation": {
+                "base": 40
+            },
+            "religion": {
+                "base": 38
+            },
+            "society": {
+                "base": 33
+            }
+        },
+        "traits": {
+            "rarity": "unique",
+            "size": {
+                "value": "med"
+            },
+            "value": [
+                "celestial",
+                "holy"
+            ]
+        },
+        "slug": "uriel-bound"
+    },
+    "_id": "UyVapASN89HZ9uTM",
+    "items": [
+        {
+            "_id": "FPe1QB4HfvefViy7",
+            "img": "systems/pf2e/icons/actions/Passive.webp",
+            "name": "The Binding",
+            "sort": 1100000,
+            "system": {
+                "actionType": {
+                    "value": "passive"
+                },
+                "actions": {
+                    "value": null
+                },
+                "category": "interaction",
+                "description": {
+                    "value": "<p>Uriel is held by the five Bonds (§05). This block is Uriel with <b>all five intact</b>: <b>slowed 2</b>, can't Fly, can't leave the Seat, can't use The Word. Each Bond destroyed: reduce his slowed by 1 (min 0), and his Strikes and DCs each gain a cumulative <b>+1 status bonus</b> (max +5). At three Bonds down, The Word unlocks. Destroy all five and he is <b>Unbound</b> — stop running this block (§07).</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "the-binding",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "type": "action"
+        },
+        {
+            "_id": "HOkY4pkpOcesLHvQ",
+            "img": "systems/pf2e/icons/default-icons/melee.svg",
+            "name": "the intervention",
+            "sort": 100000,
+            "system": {
+                "attack": {
+                    "value": ""
+                },
+                "attackEffects": {
+                    "custom": "",
+                    "value": []
+                },
+                "bonus": {
+                    "value": 34
+                },
+                "damageRolls": {
+                    "0": {
+                        "damage": "4d10+15",
+                        "damageType": "fire"
+                    },
+                    "1": {
+                        "category": "persistent",
+                        "damage": "2d6",
+                        "damageType": "fire"
+                    }
+                },
+                "description": {
+                    "value": "<p>Damage 4d10+15 fire plus 2d6 persistent fire; on a crit the target is also doomed 1</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "range": null,
+                "rules": [],
+                "slug": "the-intervention",
+                "traits": {
+                    "rarity": "common",
+                    "value": [
+                        "fire",
+                        "holy",
+                        "reach-10"
+                    ]
+                },
+                "weaponType": {
+                    "value": "melee"
+                }
+            },
+            "type": "melee"
+        },
+        {
+            "_id": "KBVREwgn90T1adcI",
+            "img": "systems/pf2e/icons/default-icons/melee.svg",
+            "name": "cast-off light",
+            "sort": 200000,
+            "system": {
+                "attack": {
+                    "value": ""
+                },
+                "attackEffects": {
+                    "custom": "",
+                    "value": []
+                },
+                "bonus": {
+                    "value": 32
+                },
+                "damageRolls": {
+                    "0": {
+                        "damage": "4d8+12",
+                        "damageType": "fire"
+                    }
+                },
+                "description": {
+                    "value": "<p>Damage 4d8+12 fire, basic Reflex</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "range": {
+                    "increment": 100,
+                    "max": null
+                },
+                "rules": [],
+                "slug": "cast-off-light",
+                "traits": {
+                    "rarity": "common",
+                    "value": [
+                        "holy"
+                    ]
+                },
+                "weaponType": {
+                    "value": "ranged"
+                }
+            },
+            "type": "melee"
+        },
+        {
+            "_id": "iTQmlxm5lnmUgCcN",
+            "img": "systems/pf2e/icons/actions/TwoActions.webp",
+            "name": "The Word",
+            "sort": 1200000,
+            "system": {
+                "actionType": {
+                    "value": "action"
+                },
+                "actions": {
+                    "value": 2
+                },
+                "category": "offensive",
+                "description": {
+                    "value": "<p>(auditory, concentrate, divine, incapacitation, mental); <b>Requirements</b> at least three Bonds destroyed. <b>Effect</b> Uriel says one word of what he was sent in 2100 to say. Each creature in a 60-ft cone attempts a <b>DC 45 Will</b> save — this is the message, not an attack. <b>Crit Success</b> unaffected. <b>Success</b> stunned 1. <b>Failure</b> stunned 3, and can't take hostile actions against Uriel for 1 minute (you understood him). <b>Crit Failure</b> as failure, and <em>overwhelmed</em> — GM and player decide together what the character does now that they completely agree the old world should have ended. Not domination; comprehension. He doesn't use it twice in one fight.</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "the-word",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "type": "action"
+        },
+        {
+            "_id": "QMvc7zfLOzbWMxLt",
+            "img": "systems/pf2e/icons/actions/Passive.webp",
+            "name": "Not Your Enemy Yet",
+            "sort": 1300000,
+            "system": {
+                "actionType": {
+                    "value": "passive"
+                },
+                "actions": {
+                    "value": null
+                },
+                "category": "interaction",
+                "description": {
+                    "value": "<p>Uriel takes no hostile action against a creature that hasn't attacked him, damaged a Bond, or channelled drawn angelic power in his sight. He'll speak — telepathically, plainly, unhurried — with anyone who reaches the Seat without a weapon raised. Negotiate / redeem / replace all run in that conversation; no skill DC wins it, only the keys the campaign planted.</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "not-your-enemy-yet",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "type": "action"
+        },
+        {
+            "_id": "qLtr2C6SYbxsL3vy",
+            "img": "systems/pf2e/icons/actions/Passive.webp",
+            "name": "Diminished",
+            "sort": 1400000,
+            "system": {
+                "actionType": {
+                    "value": "passive"
+                },
+                "actions": {
+                    "value": null
+                },
+                "category": "interaction",
+                "description": {
+                    "value": "<p>The first time he drops below half HP he stops fighting for one full round and asks the party, once, whether they're certain this is what they want. He does not escalate when hurt. He never has.</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "diminished",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "type": "action"
+        },
+        {
+            "_id": "0kDno7Ig9SOVeObo",
+            "img": "systems/pf2e/icons/actions/Passive.webp",
+            "name": "Cannot Simply Be Killed",
+            "sort": 1500000,
+            "system": {
+                "actionType": {
+                    "value": "passive"
+                },
+                "actions": {
+                    "value": null
+                },
+                "category": "interaction",
+                "description": {
+                    "value": "<p><b>0 HP with any Bond still standing:</b> he goes dormant, the Seat re-seals, and the Glasslands seal sets <em>measurably stronger</em> over 1d10 days — the Choir loses decades of work. A real win that doesn't end the threat, and buys the setting years. <b>0 HP with every Bond already gone:</b> he isn't dying. See The Binding and §07.</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "cannot-simply-be-killed",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "type": "action"
+        },
+        {
+            "_id": "KYTIt5LsJ4qOEnb8",
+            "img": "systems/pf2e/icons/actions/Passive.webp",
+            "name": "The Replace Option",
+            "sort": 1600000,
+            "system": {
+                "actionType": {
+                    "value": "passive"
+                },
+                "actions": {
+                    "value": null
+                },
+                "category": "interaction",
+                "description": {
+                    "value": "<p>Choir doctrine holds — unconfirmed — that a soul walked all the way through the gate by an Ashcantor's sacrament, into the empty Seat, could take up the Binding in his place and let him rest without waking. If a player wants this ending it's available; whose soul, and whether it holds, is the table's to set.</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "the-replace-option",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "type": "action"
+        }
+    ],
+    "flags": {
+        "cinderfall": {
+            "incomplete": [
+                "perception clause not representable as a pf2e sense: 'reads every soul in sight (knows a killer, a bound soul, an Ashcantor)'",
+                "resistance 'physical' rider 'except from drawn angelic power : ignores his resistances and deals +15' kept as text only",
+                "resistance note 'Choir Blades, bled-power ordnance, anything built from what was taken out of him' kept as text only",
+                "Melee strike 'the intervention': rider 'on a crit the target is also doomed 1' kept as text only",
+                "Ranged strike 'cast-off light': rider 'basic Reflex' kept as text only"
+            ]
+        }
+    }
+}

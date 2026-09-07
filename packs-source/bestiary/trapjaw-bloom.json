@@ -1,0 +1,313 @@
+{
+    "name": "Trapjaw Bloom",
+    "type": "npc",
+    "img": "systems/pf2e/icons/default-icons/npc.svg",
+    "system": {
+        "abilities": {
+            "str": {
+                "mod": 5
+            },
+            "dex": {
+                "mod": 0
+            },
+            "con": {
+                "mod": 4
+            },
+            "int": {
+                "mod": -5
+            },
+            "wis": {
+                "mod": 2
+            },
+            "cha": {
+                "mod": -4
+            }
+        },
+        "attributes": {
+            "ac": {
+                "details": "",
+                "value": 17
+            },
+            "hp": {
+                "details": "",
+                "max": 55,
+                "temp": 0,
+                "value": 55
+            },
+            "weaknesses": [
+                {
+                    "type": "fire",
+                    "value": 5
+                }
+            ],
+            "resistances": [
+                {
+                    "type": "piercing",
+                    "value": 5
+                },
+                {
+                    "type": "bludgeoning",
+                    "value": 3
+                }
+            ],
+            "speed": {
+                "details": "",
+                "otherSpeeds": [
+                    {
+                        "type": "burrow",
+                        "value": 5
+                    }
+                ],
+                "value": 5
+            }
+        },
+        "details": {
+            "blurb": "",
+            "languages": {
+                "details": "",
+                "value": []
+            },
+            "level": {
+                "value": 3
+            },
+            "privateNotes": "",
+            "publicNotes": "<p>A carnivorous plant that lies flat as ground cover with its jaws open in the leaf litter. It does not hunt. It waits, and it is very patient.</p>",
+            "publication": {
+                "license": "ORC",
+                "remaster": true,
+                "title": "Cinderfall"
+            }
+        },
+        "initiative": {
+            "statistic": "perception"
+        },
+        "perception": {
+            "details": "no vision",
+            "mod": 7,
+            "senses": [
+                {
+                    "type": "tremorsense",
+                    "acuity": "imprecise",
+                    "range": 30
+                }
+            ]
+        },
+        "resources": {},
+        "saves": {
+            "fortitude": {
+                "saveDetail": "",
+                "value": 11
+            },
+            "reflex": {
+                "saveDetail": "",
+                "value": 5
+            },
+            "will": {
+                "saveDetail": "",
+                "value": 7
+            }
+        },
+        "skills": {
+            "athletics": {
+                "base": 12
+            },
+            "stealth": {
+                "base": 13
+            }
+        },
+        "traits": {
+            "rarity": "common",
+            "size": {
+                "value": "lg"
+            },
+            "value": [
+                "plant"
+            ]
+        },
+        "slug": "trapjaw-bloom"
+    },
+    "_id": "yCtwIJh1k9n8snNj",
+    "items": [
+        {
+            "_id": "e6CXGqNRxWNBVBJ6",
+            "img": "systems/pf2e/icons/default-icons/melee.svg",
+            "name": "jaws",
+            "sort": 100000,
+            "system": {
+                "attack": {
+                    "value": ""
+                },
+                "attackEffects": {
+                    "custom": "",
+                    "value": [
+                        "grab"
+                    ]
+                },
+                "bonus": {
+                    "value": 13
+                },
+                "damageRolls": {
+                    "0": {
+                        "damage": "2d8+5",
+                        "damageType": "piercing"
+                    },
+                    "1": {
+                        "category": "persistent",
+                        "damage": "1d6",
+                        "damageType": "bleed"
+                    }
+                },
+                "description": {
+                    "value": ""
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "range": null,
+                "rules": [],
+                "slug": "jaws",
+                "traits": {
+                    "rarity": "common",
+                    "value": [
+                        "reach-10"
+                    ]
+                },
+                "weaponType": {
+                    "value": "melee"
+                }
+            },
+            "type": "melee"
+        },
+        {
+            "_id": "Bn8FzMJDQtQu0il5",
+            "img": "systems/pf2e/icons/actions/Reaction.webp",
+            "name": "Snap Shut",
+            "sort": 1100000,
+            "system": {
+                "actionType": {
+                    "value": "reaction"
+                },
+                "actions": {
+                    "value": null
+                },
+                "category": "offensive",
+                "description": {
+                    "value": "<p><b>Trigger</b> a creature moves into a square within reach, or stands from prone within reach; <b>Effect</b> the Bloom makes a jaws Strike against that creature.</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "snap-shut",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "type": "action"
+        },
+        {
+            "_id": "dw9qQWwEsBzIOFQf",
+            "img": "systems/pf2e/icons/actions/Passive.webp",
+            "name": "Digestive Sap",
+            "sort": 1200000,
+            "system": {
+                "actionType": {
+                    "value": "passive"
+                },
+                "actions": {
+                    "value": null
+                },
+                "category": "interaction",
+                "description": {
+                    "value": "<p>A creature grabbed by the Bloom takes 2d6 acid damage at the start of its turn, and the Bloom regains HP equal to half that amount.</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "digestive-sap",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "type": "action"
+        },
+        {
+            "_id": "o6vlDMt3RRWwR0T8",
+            "img": "systems/pf2e/icons/actions/Passive.webp",
+            "name": "Root-Locked",
+            "sort": 1300000,
+            "system": {
+                "actionType": {
+                    "value": "passive"
+                },
+                "actions": {
+                    "value": null
+                },
+                "category": "interaction",
+                "description": {
+                    "value": "<p>The Bloom can't leave its space under its own power. If moved by forced movement, it is off-guard until the end of its next turn.</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "root-locked",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "type": "action"
+        },
+        {
+            "_id": "uFZ6ZQlOhX2MJ3iC",
+            "img": "systems/pf2e/icons/actions/Passive.webp",
+            "name": "Draw of Rot",
+            "sort": 1400000,
+            "system": {
+                "actionType": {
+                    "value": "passive"
+                },
+                "actions": {
+                    "value": null
+                },
+                "category": "interaction",
+                "description": {
+                    "value": "<p>Animals and mindless creatures that start their turn within 20 feet must succeed at a DC 18 Will save or spend at least one action that turn moving toward the Bloom.</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "draw-of-rot",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "type": "action"
+        }
+    ],
+    "flags": {
+        "cinderfall": {
+            "alignment": "N",
+            "incomplete": [
+                "perception clause not representable as a pf2e sense: 'no vision'",
+                "skill 'Stealth' condition '+17 to pass as undergrowth while motionless' kept as text only"
+            ]
+        }
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "name": "Gluttoneth",
+    "type": "deity",
+    "img": "systems/pf2e/icons/default-icons/deity.svg",
+    "system": {
+        "attribute": [],
+        "category": "deity",
+        "description": {
+            "value": "<p><strong>Consumption & Excess</strong></p>\n<p>A god of appetite in a world of scarcity — the crueler for it. Followers rarely stay satisfied for long, by design.</p>"
+        },
+        "domains": {
+            "alternate": [],
+            "primary": []
+        },
+        "font": [],
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "sanctification": null,
+        "skill": [],
+        "spells": {},
+        "traits": {},
+        "weapons": [],
+        "slug": "gluttoneth"
+    },
+    "_id": "cMUQ5lyb8MOsQZ56",
+    "flags": {
+        "cinderfall": {
+            "define": "Consumption & Excess",
+            "incomplete": [
+                "STUB -- no mechanics authored. Missing every pf2e deity field: attribute, domains, font, sanctification, skill, spells, weapons. `category` is a default of 'deity' and may need to be philosophy or pantheon. See .claude/docs/todo.md."
+            ]
+        }
+    }
+}

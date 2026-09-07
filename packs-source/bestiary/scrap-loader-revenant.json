@@ -1,0 +1,345 @@
+{
+    "name": "Scrap-Loader Revenant",
+    "type": "npc",
+    "img": "systems/pf2e/icons/default-icons/npc.svg",
+    "system": {
+        "abilities": {
+            "str": {
+                "mod": 4
+            },
+            "dex": {
+                "mod": 0
+            },
+            "con": {
+                "mod": 3
+            },
+            "int": {
+                "mod": -2
+            },
+            "wis": {
+                "mod": 1
+            },
+            "cha": {
+                "mod": 1
+            }
+        },
+        "attributes": {
+            "ac": {
+                "details": "",
+                "value": 16
+            },
+            "hp": {
+                "details": "",
+                "max": 22,
+                "temp": 0,
+                "value": 22
+            },
+            "immunities": [
+                {
+                    "type": "bleed"
+                },
+                {
+                    "type": "death-effects"
+                },
+                {
+                    "type": "disease"
+                },
+                {
+                    "type": "paralyzed"
+                },
+                {
+                    "type": "poison"
+                },
+                {
+                    "type": "sleep"
+                }
+            ],
+            "weaknesses": [
+                {
+                    "type": "vitality",
+                    "value": 5
+                },
+                {
+                    "type": "anchor",
+                    "value": 5
+                }
+            ],
+            "resistances": [
+                {
+                    "type": "physical",
+                    "value": 3,
+                    "exceptions": [
+                        "adamantine",
+                        "bludgeoning"
+                    ]
+                }
+            ],
+            "speed": {
+                "details": "",
+                "otherSpeeds": [],
+                "value": 25
+            }
+        },
+        "details": {
+            "blurb": "",
+            "languages": {
+                "details": "",
+                "value": []
+            },
+            "level": {
+                "value": 1
+            },
+            "privateNotes": "",
+            "publicNotes": "<p>A cargo-handling frame welded back together around a factory hand's ghost, still working a shift that ended two centuries ago. It resents interruptions.</p>",
+            "publication": {
+                "license": "ORC",
+                "remaster": true,
+                "title": "Cinderfall"
+            }
+        },
+        "initiative": {
+            "statistic": "perception"
+        },
+        "perception": {
+            "details": "darkvision (optic sensors)",
+            "mod": 5,
+            "senses": [
+                {
+                    "type": "darkvision"
+                },
+                {
+                    "type": "motion-sense",
+                    "range": 30
+                }
+            ]
+        },
+        "resources": {},
+        "saves": {
+            "fortitude": {
+                "saveDetail": "",
+                "value": 9
+            },
+            "reflex": {
+                "saveDetail": "",
+                "value": 5
+            },
+            "will": {
+                "saveDetail": "",
+                "value": 7
+            }
+        },
+        "skills": {
+            "athletics": {
+                "base": 8
+            },
+            "crafting": {
+                "base": 6
+            }
+        },
+        "traits": {
+            "rarity": "common",
+            "size": {
+                "value": "med"
+            },
+            "value": [
+                "construct",
+                "haunt",
+                "spirit"
+            ]
+        },
+        "slug": "scrap-loader-revenant"
+    },
+    "_id": "7PhX64hfe6K6jkLI",
+    "items": [
+        {
+            "_id": "0NYn88hUqBU1j7OY",
+            "img": "systems/pf2e/icons/actions/Reaction.webp",
+            "name": "Static Discharge",
+            "sort": 1100000,
+            "system": {
+                "actionType": {
+                    "value": "reaction"
+                },
+                "actions": {
+                    "value": null
+                },
+                "category": "offensive",
+                "description": {
+                    "value": "<p><b>Trigger</b> a creature hits the revenant with a metal melee weapon; <b>Effect</b> the attacker takes 1d6 electricity damage.</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "static-discharge",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "type": "action"
+        },
+        {
+            "_id": "AooOj7DUywpwFaSy",
+            "img": "systems/pf2e/icons/default-icons/melee.svg",
+            "name": "hydraulic claw",
+            "sort": 100000,
+            "system": {
+                "attack": {
+                    "value": ""
+                },
+                "attackEffects": {
+                    "custom": "",
+                    "value": []
+                },
+                "bonus": {
+                    "value": 8
+                },
+                "damageRolls": {
+                    "0": {
+                        "damage": "1d8+4",
+                        "damageType": "bludgeoning"
+                    }
+                },
+                "description": {
+                    "value": ""
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "range": null,
+                "rules": [],
+                "slug": "hydraulic-claw",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                },
+                "weaponType": {
+                    "value": "melee"
+                }
+            },
+            "type": "melee"
+        },
+        {
+            "_id": "vnPdFIaPZqVcagcl",
+            "img": "systems/pf2e/icons/default-icons/melee.svg",
+            "name": "rivet gun",
+            "sort": 200000,
+            "system": {
+                "attack": {
+                    "value": ""
+                },
+                "attackEffects": {
+                    "custom": "",
+                    "value": []
+                },
+                "bonus": {
+                    "value": 6
+                },
+                "damageRolls": {
+                    "0": {
+                        "damage": "1d6+2",
+                        "damageType": "piercing"
+                    }
+                },
+                "description": {
+                    "value": ""
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "range": {
+                    "increment": 30,
+                    "max": null
+                },
+                "rules": [],
+                "slug": "rivet-gun",
+                "traits": {
+                    "rarity": "common",
+                    "value": [
+                        "reload-1"
+                    ]
+                },
+                "weaponType": {
+                    "value": "ranged"
+                }
+            },
+            "type": "melee"
+        },
+        {
+            "_id": "IDpwdnR1aymWqtrD",
+            "img": "systems/pf2e/icons/actions/Passive.webp",
+            "name": "Deadman's Routine",
+            "sort": 1200000,
+            "system": {
+                "actionType": {
+                    "value": "passive"
+                },
+                "actions": {
+                    "value": null
+                },
+                "category": "interaction",
+                "description": {
+                    "value": "<p>The first time the revenant is reduced to 0 HP, it takes one final action of the GM's choice before it collapses, then is destroyed.</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "deadmans-routine",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "type": "action"
+        },
+        {
+            "_id": "C9C7pZZbGbUhZvkv",
+            "img": "systems/pf2e/icons/actions/Passive.webp",
+            "name": "Old Shift",
+            "sort": 1300000,
+            "system": {
+                "actionType": {
+                    "value": "passive"
+                },
+                "actions": {
+                    "value": null
+                },
+                "category": "interaction",
+                "description": {
+                    "value": "<p>The revenant is compelled to continue its pre-death task. A creature can attempt a DC 16 Diplomacy check (or a Hollowbound Parley, or a Wardbreaker's Name the Anchor) to redirect or dismiss it without a fight; on a success it stands down for the scene.</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "old-shift",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "type": "action"
+        }
+    ],
+    "flags": {
+        "cinderfall": {
+            "alignment": "CE",
+            "incomplete": [
+                "perception clause not representable as a pf2e sense: 'darkvision (optic sensors)'",
+                "skill 'Crafting' condition 'rote assembly only' kept as text only"
+            ]
+        }
+    }
+}

@@ -1,0 +1,387 @@
+{
+    "name": "Warden-Captain",
+    "type": "npc",
+    "img": "systems/pf2e/icons/default-icons/npc.svg",
+    "system": {
+        "abilities": {
+            "str": {
+                "mod": 4
+            },
+            "dex": {
+                "mod": 3
+            },
+            "con": {
+                "mod": 3
+            },
+            "int": {
+                "mod": 2
+            },
+            "wis": {
+                "mod": 3
+            },
+            "cha": {
+                "mod": 2
+            }
+        },
+        "attributes": {
+            "ac": {
+                "details": "",
+                "value": 22
+            },
+            "hp": {
+                "details": "",
+                "max": 88,
+                "temp": 0,
+                "value": 88
+            },
+            "speed": {
+                "details": "",
+                "otherSpeeds": [],
+                "value": 25
+            }
+        },
+        "details": {
+            "blurb": "",
+            "languages": {
+                "details": "Common",
+                "value": []
+            },
+            "level": {
+                "value": 5
+            },
+            "privateNotes": "",
+            "publicNotes": "<p>The Choir does not need its muscle devout, only reliable. The Warden-Captain has never taken the Ash on their own tongue and runs Springtown's surface like a well-kept checkpoint -- rations logged, pilgrims screened, off-book cantors found before they reach the Lid. (Authored, unnamed -- flagged for the GM.)</p>",
+            "publication": {
+                "license": "ORC",
+                "remaster": true,
+                "title": "Cinderfall"
+            }
+        },
+        "initiative": {
+            "statistic": "perception"
+        },
+        "perception": {
+            "details": "",
+            "mod": 13,
+            "senses": [
+                {
+                    "type": "low-light-vision"
+                }
+            ]
+        },
+        "resources": {},
+        "saves": {
+            "fortitude": {
+                "saveDetail": "",
+                "value": 13
+            },
+            "reflex": {
+                "saveDetail": "",
+                "value": 12
+            },
+            "will": {
+                "saveDetail": "",
+                "value": 13
+            }
+        },
+        "skills": {
+            "athletics": {
+                "base": 13
+            },
+            "diplomacy": {
+                "base": 11
+            },
+            "intimidation": {
+                "base": 14
+            },
+            "society": {
+                "base": 10
+            }
+        },
+        "traits": {
+            "rarity": "common",
+            "size": {
+                "value": "med"
+            },
+            "value": [
+                "human",
+                "humanoid"
+            ]
+        },
+        "slug": "warden-captain"
+    },
+    "_id": "67BY3TgLS51VHKB0",
+    "items": [
+        {
+            "_id": "TVsbbE74CMUBRaW2",
+            "img": "systems/pf2e/icons/default-icons/lore.svg",
+            "name": "Springtown Lore",
+            "sort": 700000,
+            "system": {
+                "description": {
+                    "value": ""
+                },
+                "mod": {
+                    "value": 13
+                },
+                "proficient": {
+                    "value": 0
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "springtown-lore"
+            },
+            "type": "lore"
+        },
+        {
+            "_id": "0p9U3yggBkIXXdhF",
+            "img": "systems/pf2e/icons/default-icons/lore.svg",
+            "name": "Warfare Lore",
+            "sort": 700001,
+            "system": {
+                "description": {
+                    "value": ""
+                },
+                "mod": {
+                    "value": 11
+                },
+                "proficient": {
+                    "value": 0
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "warfare-lore"
+            },
+            "type": "lore"
+        },
+        {
+            "_id": "lQWwQgYRdxTzJ2KM",
+            "img": "systems/pf2e/icons/actions/Passive.webp",
+            "name": "Composure",
+            "sort": 1100000,
+            "system": {
+                "actionType": {
+                    "value": "passive"
+                },
+                "actions": {
+                    "value": null
+                },
+                "category": "interaction",
+                "description": {
+                    "value": "<p>The Warden-Captain is a professional. They gain a +2 status bonus to saves against emotion effects, and the first time each encounter they would become frightened, reduce that condition by 1.</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "composure",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "type": "action"
+        },
+        {
+            "_id": "7uzh61SGCGeo8GTi",
+            "img": "systems/pf2e/icons/default-icons/melee.svg",
+            "name": "Choir Blade",
+            "sort": 100000,
+            "system": {
+                "attack": {
+                    "value": ""
+                },
+                "attackEffects": {
+                    "custom": "",
+                    "value": []
+                },
+                "bonus": {
+                    "value": 16
+                },
+                "damageRolls": {
+                    "0": {
+                        "damage": "2d8+6",
+                        "damageType": "slashing"
+                    }
+                },
+                "description": {
+                    "value": "<p>Damage 2d8+6 slashing plus Ash-Iron Edge</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "range": null,
+                "rules": [],
+                "slug": "choir-blade",
+                "traits": {
+                    "rarity": "common",
+                    "value": [
+                        "versatile-p"
+                    ]
+                },
+                "weaponType": {
+                    "value": "melee"
+                }
+            },
+            "type": "melee"
+        },
+        {
+            "_id": "jfA34GDZFJpp5aWh",
+            "img": "systems/pf2e/icons/default-icons/melee.svg",
+            "name": "heavy crossbow",
+            "sort": 200000,
+            "system": {
+                "attack": {
+                    "value": ""
+                },
+                "attackEffects": {
+                    "custom": "",
+                    "value": []
+                },
+                "bonus": {
+                    "value": 14
+                },
+                "damageRolls": {
+                    "0": {
+                        "damage": "2d8+4",
+                        "damageType": "piercing"
+                    }
+                },
+                "description": {
+                    "value": ""
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "range": {
+                    "increment": 120,
+                    "max": null
+                },
+                "rules": [],
+                "slug": "heavy-crossbow",
+                "traits": {
+                    "rarity": "common",
+                    "value": [
+                        "reload-2"
+                    ]
+                },
+                "weaponType": {
+                    "value": "ranged"
+                }
+            },
+            "type": "melee"
+        },
+        {
+            "_id": "uJPHelafCWbrzCKQ",
+            "img": "systems/pf2e/icons/actions/Passive.webp",
+            "name": "Ash-Iron Edge",
+            "sort": 1200000,
+            "system": {
+                "actionType": {
+                    "value": "passive"
+                },
+                "actions": {
+                    "value": null
+                },
+                "category": "interaction",
+                "description": {
+                    "value": "<p>A creature that is frightened, or that has the holy or unholy trait, is off-guard to the Captain's Choir Blade Strikes, which also deal 1d6 extra slashing damage to such a creature.</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "ash-iron-edge",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "type": "action"
+        },
+        {
+            "_id": "ECmc7ywzs7sNVCUo",
+            "img": "systems/pf2e/icons/actions/TwoActions.webp",
+            "name": "Screening Sweep",
+            "sort": 1300000,
+            "system": {
+                "actionType": {
+                    "value": "action"
+                },
+                "actions": {
+                    "value": 2
+                },
+                "category": "offensive",
+                "description": {
+                    "value": "<p>(concentrate) <span class=\"act\">Frequency</span> once per encounter; <b>Effect</b> the Captain has been briefed on exactly one of the party. Choose a creature within 60 feet; until the end of the encounter, that creature is off-guard to the Captain, and the Captain gains a +2 circumstance bonus to AC and Will saves against it.</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "screening-sweep",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "type": "action"
+        },
+        {
+            "_id": "II9y07RZW7HmUglM",
+            "img": "systems/pf2e/icons/actions/Reaction.webp",
+            "name": "Take Them Whole",
+            "sort": 1400000,
+            "system": {
+                "actionType": {
+                    "value": "reaction"
+                },
+                "actions": {
+                    "value": null
+                },
+                "category": "offensive",
+                "description": {
+                    "value": "<p><b>Trigger</b> the Captain or an ally reduces a creature to 0 HP within the Captain's line of sight; <b>Effect</b> the Captain calls for the body, not the kill. That creature is knocked out and stable at 0 HP rather than dying, and Choir members spend their actions dragging it clear for the crematory rather than pressing the attack. The Choir would rather have ash and prisoners than corpses.</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "take-them-whole",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "type": "action"
+        }
+    ],
+    "flags": {
+        "cinderfall": {
+            "alignment": "LN",
+            "incomplete": [
+                "Melee strike 'Choir Blade': rider 'Ash-Iron Edge' kept as text only"
+            ]
+        }
+    }
+}

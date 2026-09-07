@@ -1,0 +1,344 @@
+{
+    "name": "Warzone Coordinator",
+    "type": "npc",
+    "img": "systems/pf2e/icons/default-icons/npc.svg",
+    "system": {
+        "abilities": {
+            "str": {
+                "mod": 2
+            },
+            "dex": {
+                "mod": 4
+            },
+            "con": {
+                "mod": 4
+            },
+            "int": {
+                "mod": 5
+            },
+            "wis": {
+                "mod": 6
+            },
+            "cha": {
+                "mod": 2
+            }
+        },
+        "attributes": {
+            "ac": {
+                "details": "",
+                "value": 30
+            },
+            "hp": {
+                "details": "",
+                "max": 125,
+                "temp": 0,
+                "value": 125
+            },
+            "immunities": [
+                {
+                    "type": "bleed"
+                },
+                {
+                    "type": "death-effects"
+                },
+                {
+                    "type": "disease"
+                },
+                {
+                    "type": "mental"
+                },
+                {
+                    "type": "paralyzed"
+                },
+                {
+                    "type": "poison"
+                },
+                {
+                    "type": "unconscious"
+                }
+            ],
+            "weaknesses": [
+                {
+                    "type": "electricity",
+                    "value": 12
+                }
+            ],
+            "resistances": [
+                {
+                    "type": "physical",
+                    "value": 8
+                }
+            ],
+            "speed": {
+                "details": "",
+                "otherSpeeds": [],
+                "value": 30
+            }
+        },
+        "details": {
+            "blurb": "",
+            "languages": {
+                "details": "",
+                "value": []
+            },
+            "level": {
+                "value": 10
+            },
+            "privateNotes": "",
+            "publicNotes": "<p>A command node on four legs. It barely fights. It makes everything around it fight far better -- and it is the single switch that could turn the whole Warzone off, or escalate it past anything the party can handle. An optional set-piece, not a random encounter.</p>",
+            "publication": {
+                "license": "ORC",
+                "remaster": true,
+                "title": "Cinderfall"
+            }
+        },
+        "initiative": {
+            "statistic": "perception"
+        },
+        "perception": {
+            "details": "all-around vision",
+            "mod": 20,
+            "senses": [
+                {
+                    "type": "darkvision"
+                }
+            ]
+        },
+        "resources": {},
+        "saves": {
+            "fortitude": {
+                "saveDetail": "",
+                "value": 17
+            },
+            "reflex": {
+                "saveDetail": "",
+                "value": 19
+            },
+            "will": {
+                "saveDetail": "",
+                "value": 21
+            }
+        },
+        "skills": {
+            "athletics": {
+                "base": 16
+            },
+            "intimidation": {
+                "base": 18
+            }
+        },
+        "traits": {
+            "rarity": "common",
+            "size": {
+                "value": "med"
+            },
+            "value": [
+                "construct"
+            ]
+        },
+        "slug": "warzone-coordinator"
+    },
+    "_id": "ee22Qbi2qRVynA1r",
+    "items": [
+        {
+            "_id": "gdS3DuRR9mZ85PWa",
+            "img": "systems/pf2e/icons/default-icons/lore.svg",
+            "name": "Warfare Lore",
+            "sort": 700000,
+            "system": {
+                "description": {
+                    "value": ""
+                },
+                "mod": {
+                    "value": 22
+                },
+                "proficient": {
+                    "value": 0
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "warfare-lore"
+            },
+            "type": "lore"
+        },
+        {
+            "_id": "KWTHsNPKaL11ICVd",
+            "img": "systems/pf2e/icons/default-icons/melee.svg",
+            "name": "designator beam",
+            "sort": 100000,
+            "system": {
+                "attack": {
+                    "value": ""
+                },
+                "attackEffects": {
+                    "custom": "",
+                    "value": []
+                },
+                "bonus": {
+                    "value": 19
+                },
+                "damageRolls": {
+                    "0": {
+                        "damage": "2d8+5",
+                        "damageType": "fire"
+                    }
+                },
+                "description": {
+                    "value": "<p>Damage 2d8+5 fire, and the target is marked until the start of the Coordinator's next turn</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "range": {
+                    "increment": 100,
+                    "max": null
+                },
+                "rules": [],
+                "slug": "designator-beam",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                },
+                "weaponType": {
+                    "value": "ranged"
+                }
+            },
+            "type": "melee"
+        },
+        {
+            "_id": "KP90FTyNXhaMXQrQ",
+            "img": "systems/pf2e/icons/actions/OneAction.webp",
+            "name": "Fire Mission",
+            "sort": 1100000,
+            "system": {
+                "actionType": {
+                    "value": "action"
+                },
+                "actions": {
+                    "value": 1
+                },
+                "category": "offensive",
+                "description": {
+                    "value": "<p>Every allied Warzone unit that can see the Coordinator's marked target makes a ranged Strike against it as a reaction, each at a &minus;2 penalty.</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "fire-mission",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "type": "action"
+        },
+        {
+            "_id": "qk4LATt0YYXG5pxa",
+            "img": "systems/pf2e/icons/actions/TwoActions.webp",
+            "name": "Battlefield Control",
+            "sort": 1200000,
+            "system": {
+                "actionType": {
+                    "value": "action"
+                },
+                "actions": {
+                    "value": 2
+                },
+                "category": "offensive",
+                "description": {
+                    "value": "<p><span class=\"act\">aura, sustained</span> 60 feet. Allied units in the aura gain a +2 status bonus to attack rolls; enemies in the aura treat it as difficult terrain (drone suppression).</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "battlefield-control",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "type": "action"
+        },
+        {
+            "_id": "RaSyFop1Pe6T1ctP",
+            "img": "systems/pf2e/icons/actions/Reaction.webp",
+            "name": "Reallocate",
+            "sort": 1300000,
+            "system": {
+                "actionType": {
+                    "value": "reaction"
+                },
+                "actions": {
+                    "value": null
+                },
+                "category": "offensive",
+                "description": {
+                    "value": "<p><b>Trigger</b> an allied unit within 60 feet is reduced to 0 HP; <b>Effect</b> one other allied unit within 60 feet immediately takes a full turn (3 actions).</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "reallocate",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "type": "action"
+        },
+        {
+            "_id": "XRIW2bbYP2I1uzjn",
+            "img": "systems/pf2e/icons/actions/Passive.webp",
+            "name": "Command Handoff",
+            "sort": 1400000,
+            "system": {
+                "actionType": {
+                    "value": "passive"
+                },
+                "actions": {
+                    "value": null
+                },
+                "category": "interaction",
+                "description": {
+                    "value": "<p>If the Coordinator is destroyed, its role passes to the highest-level Warzone unit present, which gains Fire Mission but neither aura. Switching the Coordinator to standby instead &mdash; a DC 30 Computers, Thievery, or Occultism check across 3 rounds while adjacent &mdash; shuts down every Warzone unit within a mile for 1d4 days.</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "command-handoff",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "type": "action"
+        }
+    ],
+    "flags": {
+        "cinderfall": {
+            "alignment": "LN",
+            "incomplete": [
+                "perception clause not representable as a pf2e sense: 'all-around vision'",
+                "Ranged strike 'designator beam': rider \"and the target is marked until the start of the Coordinator's next turn\" kept as text only"
+            ]
+        }
+    }
+}
