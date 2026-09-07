@@ -71,7 +71,8 @@
                 "humanoid"
             ]
         },
-        "vision": "normal"
+        "vision": "normal",
+        "slug": "human"
     },
     "_id": "1ThcrwqreUpGzTfz",
     "flags": {

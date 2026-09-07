@@ -78,7 +78,8 @@
                 "humanoid"
             ]
         },
-        "vision": "normal"
+        "vision": "normal",
+        "slug": "residuals"
     },
     "_id": "06zQUJReaQy7Vqfu",
     "flags": {

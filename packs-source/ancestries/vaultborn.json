@@ -78,7 +78,8 @@
                 "humanoid"
             ]
         },
-        "vision": "darkvision"
+        "vision": "darkvision",
+        "slug": "vaultborn"
     },
     "_id": "cGJ8dlndT6I95GH0",
     "flags": {

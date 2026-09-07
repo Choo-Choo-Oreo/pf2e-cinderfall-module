@@ -19,7 +19,8 @@
         "traits": {
             "rarity": "common",
             "value": []
-        }
+        },
+        "slug": "burn-pit-native"
     },
     "_id": "gDqnjvsu3daFUnXS"
 }

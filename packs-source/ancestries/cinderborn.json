@@ -84,7 +84,8 @@
                 "humanoid"
             ]
         },
-        "vision": "normal"
+        "vision": "normal",
+        "slug": "cinderborn"
     },
     "_id": "6vLvyIsybQoFxmpi",
     "flags": {

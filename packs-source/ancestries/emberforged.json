@@ -89,7 +89,8 @@
                 "fire"
             ]
         },
-        "vision": "normal"
+        "vision": "normal",
+        "slug": "emberforged"
     },
     "_id": "ECJFnqair7xOBcpp",
     "flags": {

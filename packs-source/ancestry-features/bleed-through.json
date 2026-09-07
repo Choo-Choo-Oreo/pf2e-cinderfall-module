@@ -30,7 +30,8 @@
             "value": [
                 "residual"
             ]
-        }
+        },
+        "slug": "bleed-through"
     },
     "_id": "ZbVFnX57piwJEkmW"
 }

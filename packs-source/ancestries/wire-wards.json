@@ -83,7 +83,8 @@
                 "humanoid"
             ]
         },
-        "vision": "normal"
+        "vision": "normal",
+        "slug": "wire-wards"
     },
     "_id": "a2dJRDj6SSfmuO9j",
     "flags": {

@@ -19,7 +19,8 @@
         "traits": {
             "rarity": "common",
             "value": []
-        }
+        },
+        "slug": "sentinel-line"
     },
     "_id": "CEvTiAvGjNF3lD1J"
 }

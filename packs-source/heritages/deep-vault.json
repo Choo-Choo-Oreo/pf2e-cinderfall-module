@@ -19,7 +19,8 @@
         "traits": {
             "rarity": "common",
             "value": []
-        }
+        },
+        "slug": "deep-vault"
     },
     "_id": "vOpgcbd73uTajcEe"
 }

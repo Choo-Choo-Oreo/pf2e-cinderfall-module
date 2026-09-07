@@ -84,7 +84,8 @@
                 "mutant"
             ]
         },
-        "vision": "normal"
+        "vision": "normal",
+        "slug": "glassblood"
     },
     "_id": "GdcsJGdwkhXd4TW4",
     "flags": {

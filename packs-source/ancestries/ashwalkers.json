@@ -83,7 +83,8 @@
                 "humanoid"
             ]
         },
-        "vision": "normal"
+        "vision": "normal",
+        "slug": "ashwalkers"
     },
     "_id": "4yzhZQ0VT4TXTDla",
     "flags": {

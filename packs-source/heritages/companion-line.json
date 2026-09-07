@@ -19,7 +19,8 @@
         "traits": {
             "rarity": "common",
             "value": []
-        }
+        },
+        "slug": "companion-line"
     },
     "_id": "q1PcbCI1G3rlCmze"
 }

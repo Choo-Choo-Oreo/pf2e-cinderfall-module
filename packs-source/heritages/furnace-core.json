@@ -19,7 +19,8 @@
         "traits": {
             "rarity": "common",
             "value": []
-        }
+        },
+        "slug": "furnace-core"
     },
     "_id": "a18BZsy9eRBqlY5c"
 }

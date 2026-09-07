@@ -83,7 +83,8 @@
                 "mutant"
             ]
         },
-        "vision": "darkvision"
+        "vision": "darkvision",
+        "slug": "ratkin"
     },
     "_id": "tsfKlNxYbc8k2xVW",
     "flags": {

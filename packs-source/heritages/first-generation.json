@@ -19,7 +19,8 @@
         "traits": {
             "rarity": "common",
             "value": []
-        }
+        },
+        "slug": "first-generation"
     },
     "_id": "5MEJF84cbwdv98by"
 }

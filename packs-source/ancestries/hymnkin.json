@@ -78,7 +78,8 @@
                 "humanoid"
             ]
         },
-        "vision": "normal"
+        "vision": "normal",
+        "slug": "hymnkin"
     },
     "_id": "juvKI3F7ORiC5Z5n",
     "flags": {

@@ -19,7 +19,8 @@
         "traits": {
             "rarity": "common",
             "value": []
-        }
+        },
+        "slug": "networked-wire-ward"
     },
     "_id": "X1xsnZj0OnPQG5NU"
 }

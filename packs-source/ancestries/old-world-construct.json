@@ -79,7 +79,8 @@
                 "construct"
             ]
         },
-        "vision": "normal"
+        "vision": "normal",
+        "slug": "old-world-construct"
     },
     "_id": "gs94xLOowL3cfDWp",
     "flags": {
