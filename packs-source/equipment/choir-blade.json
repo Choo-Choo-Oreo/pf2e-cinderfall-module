@@ -65,7 +65,8 @@
                 "level is a stub (0); the page carries no item levels",
                 "weapon category/bulk/usage stubbed; the page carries none of them",
                 "melee weapon group left null -- choosing one is design, not conversion"
-            ]
+            ],
+            "currency": "Balanced to the PF2e GP standard and denominated in Credits: 1 Credit = 1 gp. The whole list was scaled x10 from the retired scraps=sp anchor, so every relative price is unchanged from the page as authored."
         }
     }
 }
