@@ -137,8 +137,21 @@ grants `system.languages.value` at actor-prep time but only for slugs already in
 language just never appears on the character. `build_pack.py` therefore fails
 the build if any ancestry grants a language `module.json` does not register.
 
-Cinderfall uses `common-cant`, not PF2e's `common`; no Cinderfall ancestry
-grants `common`.
+Cinderfall keeps PF2e's own `common` slug and **renames** it rather than
+adding a second language beside it: `lang/en.json` overrides
+`PF2E.Actor.Creature.Language.common` to "Common Cant". One slug, one entry in
+the picker, and an imported PF2e creature shares a tongue with a Cinderfall PC
+instead of being mutually unintelligible with one.
+
+An earlier pass registered a separate `common-cant` homebrew language and had
+every ancestry grant it. That worked but put the same name in the list twice
+and split the setting's universal tongue away from every stat block PF2e ships.
+Dropped 2026-09-07. `build_pack.py` allows `common` as the one unregistered
+slug for this reason.
+
+Note the key is `PF2E.Actor.Creature.Language.common`, NOT `PF2E.TraitCommon` --
+the latter is the common *rarity* trait, and renaming it would relabel every
+common item in the game.
 
 ### Language rarity
 

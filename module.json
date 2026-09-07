@@ -190,7 +190,6 @@
         "languages": {
           "ashen-liturgy": "Ashen Liturgy",
           "ashwalker-cant": "Ashwalker Cant",
-          "common-cant": "Common Cant",
           "corporate-legal-cant": "Corporate Legal-Cant",
           "deep-vault-sign": "Deep Vault Sign",
           "drill-cant": "Drill-Cant",
@@ -219,7 +218,6 @@
         }
       },
       "languageRarities": {
-        "commonLanguage": "common-cant",
         "uncommon": [
           "ashen-liturgy",
           "drill-cant",
