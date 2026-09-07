@@ -79,5 +79,37 @@
   "url": "https://github.com/Choo-Choo-Oreo/pf2e-cinderfall-module",
   "manifest": "https://github.com/Choo-Choo-Oreo/pf2e-cinderfall-module/raw/main/module.json",
   "readme": "https://github.com/Choo-Choo-Oreo/pf2e-cinderfall-module/blob/main/README.md",
-  "bugs": "https://github.com/Choo-Choo-Oreo/pf2e-cinderfall-module/issues"
+  "bugs": "https://github.com/Choo-Choo-Oreo/pf2e-cinderfall-module/issues",
+  "flags": {
+    "pf2e-cinderfall-module": {
+      "pf2e-homebrew": {
+        "creatureTraits": {
+          "ashwalker": "Ashwalker",
+          "cinderborn": "Cinderborn",
+          "emberforged": "Emberforged",
+          "glassblood": "Glassblood",
+          "hymnkin": "Hymnkin",
+          "kindled": "Kindled",
+          "old-world-construct": "Old-World Construct",
+          "ratkin": "Ratkin",
+          "residual": "Residual",
+          "vaultborn": "Vaultborn",
+          "wire-ward": "Wire-Ward"
+        },
+        "featTraits": {
+          "ashwalker": "Ashwalker",
+          "cinderborn": "Cinderborn",
+          "emberforged": "Emberforged",
+          "glassblood": "Glassblood",
+          "hymnkin": "Hymnkin",
+          "kindled": "Kindled",
+          "old-world-construct": "Old-World Construct",
+          "ratkin": "Ratkin",
+          "residual": "Residual",
+          "vaultborn": "Vaultborn",
+          "wire-ward": "Wire-Ward"
+        }
+      }
+    }
+  }
 }
