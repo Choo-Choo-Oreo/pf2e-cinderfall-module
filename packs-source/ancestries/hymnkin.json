@@ -42,7 +42,20 @@
         },
         "hands": 2,
         "hp": 6,
-        "items": {},
+        "items": {
+            "a-voice-recognized": {
+                "level": 0,
+                "card": "ancestry-traits.a-voice-recognized"
+            },
+            "plague-blood": {
+                "level": 0,
+                "card": "ancestry-traits.plague-blood"
+            },
+            "the-hymn-underneath": {
+                "level": 0,
+                "card": "ancestry-traits.the-hymn-underneath"
+            }
+        },
         "languages": {
             "custom": "",
             "value": [

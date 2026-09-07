@@ -42,7 +42,24 @@
         },
         "hands": 2,
         "hp": 6,
-        "items": {},
+        "items": {
+            "tunnel-dark-eyes": {
+                "level": 0,
+                "card": "ancestry-traits.tunnel-dark-eyes"
+            },
+            "vermins-constitution": {
+                "level": 0,
+                "card": "ancestry-traits.vermins-constitution"
+            },
+            "warren-bond": {
+                "level": 0,
+                "card": "ancestry-traits.warren-bond"
+            },
+            "warren-swift": {
+                "level": 0,
+                "card": "ancestry-traits.warren-swift"
+            }
+        },
         "languages": {
             "custom": "",
             "value": [

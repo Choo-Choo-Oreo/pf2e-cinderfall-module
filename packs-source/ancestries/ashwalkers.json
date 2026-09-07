@@ -47,7 +47,20 @@
         },
         "hands": 2,
         "hp": 6,
-        "items": {},
+        "items": {
+            "burn-pit-blood": {
+                "level": 0,
+                "card": "ancestry-traits.burn-pit-blood"
+            },
+            "iron-stomach": {
+                "level": 0,
+                "card": "ancestry-traits.iron-stomach"
+            },
+            "scrap-sense": {
+                "level": 0,
+                "card": "ancestry-traits.scrap-sense"
+            }
+        },
         "languages": {
             "custom": "",
             "value": [

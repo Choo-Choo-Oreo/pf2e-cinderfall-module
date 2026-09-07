@@ -42,7 +42,20 @@
         },
         "hands": 2,
         "hp": 6,
-        "items": {},
+        "items": {
+            "already-a-foothold": {
+                "level": 0,
+                "card": "ancestry-traits.already-a-foothold"
+            },
+            "bleed-through": {
+                "level": 0,
+                "card": "ancestry-traits.bleed-through"
+            },
+            "borrowed-instinct": {
+                "level": 0,
+                "card": "ancestry-traits.borrowed-instinct"
+            }
+        },
         "languages": {
             "custom": "",
             "value": [

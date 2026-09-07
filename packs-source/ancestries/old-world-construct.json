@@ -42,7 +42,20 @@
         },
         "hands": 2,
         "hp": 8,
-        "items": {},
+        "items": {
+            "full-diagnostic": {
+                "level": 0,
+                "card": "ancestry-traits.full-diagnostic"
+            },
+            "suppression-protocol": {
+                "level": 0,
+                "card": "ancestry-traits.suppression-protocol"
+            },
+            "synthetic-body": {
+                "level": 0,
+                "card": "ancestry-traits.synthetic-body"
+            }
+        },
         "languages": {
             "custom": "",
             "value": [

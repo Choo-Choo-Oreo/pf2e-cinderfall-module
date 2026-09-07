@@ -47,7 +47,20 @@
         },
         "hands": 2,
         "hp": 8,
-        "items": {},
+        "items": {
+            "ambient-glow": {
+                "level": 0,
+                "card": "ancestry-traits.ambient-glow"
+            },
+            "glass-sheen-skin": {
+                "level": 0,
+                "card": "ancestry-traits.glass-sheen-skin"
+            },
+            "radiation-resistance": {
+                "level": 0,
+                "card": "ancestry-traits.radiation-resistance"
+            }
+        },
         "languages": {
             "custom": "",
             "value": [

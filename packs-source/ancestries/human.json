@@ -43,7 +43,12 @@
         },
         "hands": 2,
         "hp": 8,
-        "items": {},
+        "items": {
+            "adaptable": {
+                "level": 0,
+                "card": "ancestry-traits.adaptable"
+            }
+        },
         "languages": {
             "custom": "",
             "value": [

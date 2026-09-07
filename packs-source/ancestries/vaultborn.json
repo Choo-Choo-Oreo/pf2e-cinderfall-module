@@ -42,7 +42,20 @@
         },
         "hands": 2,
         "hp": 10,
-        "items": {},
+        "items": {
+            "darkvision": {
+                "level": 0,
+                "card": "ancestry-traits.darkvision"
+            },
+            "filtered-constitution": {
+                "level": 0,
+                "card": "ancestry-traits.filtered-constitution"
+            },
+            "structural-sense": {
+                "level": 0,
+                "card": "ancestry-traits.structural-sense"
+            }
+        },
         "languages": {
             "custom": "",
             "value": [

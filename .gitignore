@@ -1,0 +1,11 @@
+# Compiled compendium packs. Build output of tools/foundry/build_pack.py in
+# the Cinderfall site repo, generated from packs-source/**.json. LevelDB is a
+# binary directory that rewrites whole segments on every build, so it does not
+# belong in git while this module is installed locally via sync-to-foundry.py.
+#
+# This has to change before the module is ever installed from its manifest
+# URL: a downloaded module has no build step, so packs/ must ship in the repo
+# (or in a release artifact) or the compendiums arrive empty.
+packs/
+
+__pycache__/

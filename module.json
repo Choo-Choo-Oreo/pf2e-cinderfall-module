@@ -27,6 +27,43 @@
       "path": "lang/en.json"
     }
   ],
+  "packs": [
+    {
+      "name": "cinderfall-ancestries",
+      "label": "Cinderfall Ancestries",
+      "path": "packs/ancestries",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "cinderfall-ancestry-features",
+      "label": "Cinderfall Ancestry Features",
+      "path": "packs/ancestry-features",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Cinderfall",
+      "sorting": "m",
+      "color": "#7a3b2e",
+      "packs": [
+        "cinderfall-ancestries",
+        "cinderfall-ancestry-features"
+      ]
+    }
+  ],
   "relationships": {
     "systems": [
       {

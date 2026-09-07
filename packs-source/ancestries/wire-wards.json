@@ -47,7 +47,20 @@
         },
         "hands": 2,
         "hp": 6,
-        "items": {},
+        "items": {
+            "a-parent-somewhere": {
+                "level": 0,
+                "card": "ancestry-traits.a-parent-somewhere"
+            },
+            "congenital-node": {
+                "level": 0,
+                "card": "ancestry-traits.congenital-node"
+            },
+            "raised-without-a-script": {
+                "level": 0,
+                "card": "ancestry-traits.raised-without-a-script"
+            }
+        },
         "languages": {
             "custom": "",
             "value": [

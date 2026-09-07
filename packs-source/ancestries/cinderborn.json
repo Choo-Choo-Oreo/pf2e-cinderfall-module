@@ -48,7 +48,20 @@
         },
         "hands": 2,
         "hp": 8,
-        "items": {},
+        "items": {
+            "a-fingerprint-not-a-coincidence": {
+                "level": 0,
+                "card": "ancestry-traits.a-fingerprint-not-a-coincidence"
+            },
+            "banked-warmth": {
+                "level": 0,
+                "card": "ancestry-traits.banked-warmth"
+            },
+            "hairline-cracks": {
+                "level": 0,
+                "card": "ancestry-traits.hairline-cracks"
+            }
+        },
         "languages": {
             "custom": "",
             "value": [
