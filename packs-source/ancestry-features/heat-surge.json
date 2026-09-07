@@ -1,0 +1,36 @@
+{
+    "name": "Heat Surge",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "ancestryfeature",
+        "description": {
+            "value": "<p>Briefly burn brighter and hotter for extra fire damage on your next strike, at the cost of guttering closer to needing fuel sooner.</p>"
+        },
+        "level": {
+            "value": 0
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "emberforged"
+            ]
+        }
+    },
+    "_id": "9k6fomgAGw3hvnpP"
+}

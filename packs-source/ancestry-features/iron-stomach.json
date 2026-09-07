@@ -1,0 +1,36 @@
+{
+    "name": "Iron Stomach",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "ancestryfeature",
+        "description": {
+            "value": "<p>Immune to spoiled food and minor ingested poisons.</p>"
+        },
+        "level": {
+            "value": 0
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ashwalker"
+            ]
+        }
+    },
+    "_id": "U61RjMklcesDcsL5"
+}

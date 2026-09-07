@@ -1,0 +1,36 @@
+{
+    "name": "Ambient Glow",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "ancestryfeature",
+        "description": {
+            "value": "<p>Faint bioluminescence near high-radiation sources. Useful light source; terrible for stealth there.</p>"
+        },
+        "level": {
+            "value": 0
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "glassblood"
+            ]
+        }
+    },
+    "_id": "uP2i7qQRvsRLZCLD"
+}

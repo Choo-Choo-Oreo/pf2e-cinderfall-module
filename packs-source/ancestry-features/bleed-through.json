@@ -1,0 +1,36 @@
+{
+    "name": "Bleed-Through",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "ancestryfeature",
+        "description": {
+            "value": "<p>Once per day, treat one untrained skill as trained for a single check — the stranger's hands remembering something you never learned.</p>"
+        },
+        "level": {
+            "value": 0
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "residual"
+            ]
+        }
+    },
+    "_id": "ghjzNS1iDRGNeeIB"
+}

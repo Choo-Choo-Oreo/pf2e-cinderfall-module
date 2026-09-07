@@ -1,0 +1,36 @@
+{
+    "name": "A Parent, Somewhere",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "ancestryfeature",
+        "description": {
+            "value": "<p>A faint, permanent link to the specific server-core that raised you. <strong>Design note:</strong> a standing GM hook, not a mechanical bonus.</p>"
+        },
+        "level": {
+            "value": 0
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "wire-ward"
+            ]
+        }
+    },
+    "_id": "RZ0tFAR0DtnlQe9Y"
+}

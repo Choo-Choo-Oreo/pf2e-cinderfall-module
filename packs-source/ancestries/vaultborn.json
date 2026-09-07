@@ -1,0 +1,92 @@
+{
+    "name": "Vaultborn",
+    "type": "ancestry",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "additionalLanguages": {
+            "count": 1,
+            "custom": "",
+            "value": []
+        },
+        "boosts": {
+            "0": {
+                "value": [
+                    "con"
+                ]
+            },
+            "1": {
+                "value": [
+                    "wis"
+                ]
+            },
+            "2": {
+                "value": [
+                    "str",
+                    "dex",
+                    "con",
+                    "int",
+                    "wis",
+                    "cha"
+                ]
+            }
+        },
+        "description": {
+            "value": "<p><em>Generations of bunker-descendants: stout, insular, and raised on filtered air and rationed protein by people who took \"shelter in place\" seriously enough to still be doing it.</em></p>"
+        },
+        "flaws": {
+            "0": {
+                "value": [
+                    "cha"
+                ]
+            }
+        },
+        "hands": 2,
+        "hp": 10,
+        "items": {},
+        "languages": {
+            "custom": "",
+            "value": [
+                "common"
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "reach": 5,
+        "rules": [],
+        "size": "med",
+        "speed": 20,
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "vaultborn",
+                "humanoid"
+            ]
+        },
+        "vision": "darkvision"
+    },
+    "_id": "nemZvNoC6zy7MuW1",
+    "flags": {
+        "cinderfall": {
+            "bodyParts": {
+                "eyes": 2,
+                "heads": 1,
+                "hands": 2,
+                "torsos": 1,
+                "legs": 2
+            },
+            "bodyWhole": {
+                "skeleton": 1,
+                "neural": 1,
+                "circuitry": 1,
+                "dermal": 1,
+                "viscera": 1
+            },
+            "inlays": {
+                "capacity": 3
+            }
+        }
+    }
+}

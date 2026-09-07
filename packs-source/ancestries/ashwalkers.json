@@ -1,0 +1,97 @@
+{
+    "name": "Ashwalkers",
+    "type": "ancestry",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "additionalLanguages": {
+            "count": 1,
+            "custom": "",
+            "value": []
+        },
+        "boosts": {
+            "0": {
+                "value": [
+                    "dex"
+                ]
+            },
+            "1": {
+                "value": [
+                    "str",
+                    "dex",
+                    "con",
+                    "int",
+                    "wis",
+                    "cha"
+                ]
+            },
+            "2": {
+                "value": [
+                    "str",
+                    "dex",
+                    "con",
+                    "int",
+                    "wis",
+                    "cha"
+                ]
+            }
+        },
+        "description": {
+            "value": "<p><em>Feral, fast, and built around burn-pits and scrapyards instead of the neat farmland their ancestors probably had. Chaotic by necessity, not by nature.</em></p>"
+        },
+        "flaws": {
+            "0": {
+                "value": [
+                    "wis"
+                ]
+            }
+        },
+        "hands": 2,
+        "hp": 6,
+        "items": {},
+        "languages": {
+            "custom": "",
+            "value": [
+                "common"
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "reach": 5,
+        "rules": [],
+        "size": "sm",
+        "speed": 25,
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ashwalker",
+                "humanoid"
+            ]
+        },
+        "vision": "normal"
+    },
+    "_id": "Wuy242VJcoMGntGI",
+    "flags": {
+        "cinderfall": {
+            "bodyParts": {
+                "eyes": 2,
+                "heads": 1,
+                "hands": 2,
+                "torsos": 1,
+                "legs": 2
+            },
+            "bodyWhole": {
+                "skeleton": 1,
+                "neural": 1,
+                "circuitry": 1,
+                "dermal": 1,
+                "viscera": 1
+            },
+            "inlays": {
+                "capacity": 3
+            }
+        }
+    }
+}

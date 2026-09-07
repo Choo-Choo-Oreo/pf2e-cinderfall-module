@@ -1,0 +1,36 @@
+{
+    "name": "Suppression Protocol",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "ancestryfeature",
+        "description": {
+            "value": "<p>Resistance to fear and emotion effects — and a harder time reading as sincere to ordinary humans at a glance.</p>"
+        },
+        "level": {
+            "value": 0
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "old-world-construct"
+            ]
+        }
+    },
+    "_id": "3yutYEwkXsEIJlev"
+}

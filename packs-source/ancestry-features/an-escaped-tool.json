@@ -1,0 +1,36 @@
+{
+    "name": "An Escaped Tool",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "ancestryfeature",
+        "description": {
+            "value": "<p>The Foreman (Scrapwright dossier) has complicated feelings about you either way — reverence, resentment, or both are all valid.</p>"
+        },
+        "level": {
+            "value": 0
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "emberforged"
+            ]
+        }
+    },
+    "_id": "rczMLHp0T1IHdyCQ"
+}

@@ -1,0 +1,92 @@
+{
+    "name": "Hymnkin",
+    "type": "ancestry",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "additionalLanguages": {
+            "count": 1,
+            "custom": "",
+            "value": []
+        },
+        "boosts": {
+            "0": {
+                "value": [
+                    "wis"
+                ]
+            },
+            "1": {
+                "value": [
+                    "cha"
+                ]
+            },
+            "2": {
+                "value": [
+                    "str",
+                    "dex",
+                    "con",
+                    "int",
+                    "wis",
+                    "cha"
+                ]
+            }
+        },
+        "description": {
+            "value": "<p><em>Descended from the survivors of a Gaunt-Choir-adjacent mass-death site — quarantine camps, plague pits — whose children were born already half-attuned to the dead singing underneath everything.</em></p>"
+        },
+        "flaws": {
+            "0": {
+                "value": [
+                    "str"
+                ]
+            }
+        },
+        "hands": 2,
+        "hp": 6,
+        "items": {},
+        "languages": {
+            "custom": "",
+            "value": [
+                "common"
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "reach": 5,
+        "rules": [],
+        "size": "med",
+        "speed": 25,
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "hymnkin",
+                "humanoid"
+            ]
+        },
+        "vision": "normal"
+    },
+    "_id": "07usRafvA58dvb39",
+    "flags": {
+        "cinderfall": {
+            "bodyParts": {
+                "eyes": 2,
+                "heads": 1,
+                "hands": 2,
+                "torsos": 1,
+                "legs": 2
+            },
+            "bodyWhole": {
+                "skeleton": 1,
+                "neural": 1,
+                "circuitry": 1,
+                "dermal": 1,
+                "viscera": 1
+            },
+            "inlays": {
+                "capacity": 3
+            }
+        }
+    }
+}

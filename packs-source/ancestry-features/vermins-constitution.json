@@ -1,0 +1,36 @@
+{
+    "name": "Vermin's Constitution",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "ancestryfeature",
+        "description": {
+            "value": "<p>Resistance to poison and disease — but a carrier too; close quarters with you risk minor exposure.</p>"
+        },
+        "level": {
+            "value": 0
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ratkin"
+            ]
+        }
+    },
+    "_id": "0IMrTWInwWz4oJwa"
+}

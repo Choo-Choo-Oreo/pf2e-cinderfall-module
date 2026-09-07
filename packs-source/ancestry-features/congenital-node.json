@@ -1,0 +1,36 @@
+{
+    "name": "Congenital Node",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "ancestryfeature",
+        "description": {
+            "value": "<p>Sense nearby active machine intelligence or ghost-machines at short range; once per day, exchange a small amount of data with one directly.</p>"
+        },
+        "level": {
+            "value": 0
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "wire-ward"
+            ]
+        }
+    },
+    "_id": "17sqfVN3blKsuLuY"
+}

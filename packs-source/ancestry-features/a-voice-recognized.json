@@ -1,0 +1,36 @@
+{
+    "name": "A Voice Recognized",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "ancestryfeature",
+        "description": {
+            "value": "<p>The Gaunt Choir (Fleshmancer dossier) knows your bloodline by feel; a minor drawback of susceptibility to despair effects comes with it.</p>"
+        },
+        "level": {
+            "value": 0
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "hymnkin"
+            ]
+        }
+    },
+    "_id": "s65JOAfTWvo8Qg9a"
+}

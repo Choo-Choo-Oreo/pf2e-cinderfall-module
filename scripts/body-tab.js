@@ -1,33 +1,40 @@
 const MODULE_ID = "pf2e-cinderfall-module";
 const TAB_KEY = "cinderfall-body";
-const FLAG_SCOPE = MODULE_ID;
-const FLAG_KEY = "installed";
 
 /**
  * Crude v1 body slot tracker, added to the PF2e character sheet.
  *
  * Called "Body" rather than "Augmentations" because bio-augmentation,
  * cybernetic augmentation, and mutations all attach to the same underlying
- * body-slot data -- none of them own the tab more than the others do.
+ * body-slot data -- none of them owns the tab more than the others, and
+ * all three are treated identically (same slot mechanic, no layering/
+ * stacking multiple items into one slot).
  *
- * Slots aren't hardcoded -- they're summed from flags.cinderfall.bodyParts /
- * bodyWhole / inlays.capacity across every item on the actor that carries
- * one (today that's just the Human ancestry; a future heritage/background/
- * feat can add its own flags.cinderfall block -- e.g. a bonus hand slot from
- * a cybernetic third arm -- and it shows up here with no code change).
+ * Slot COUNTS are summed from flags.cinderfall.bodyParts / bodyWhole /
+ * inlays.capacity across every item on the actor that carries one (today
+ * that's just the Human ancestry; a future heritage/background/feat can add
+ * its own flags.cinderfall block and grow the slot list automatically).
+ * "Body Parts" slots (eyes, hands, legs, ...) are for things that affect one
+ * limb/organ; "Body Systems" slots (skeleton, neural, circuitry, dermal,
+ * viscera) are for things that affect the whole body (e.g. acidic blood is
+ * a viscera-wide effect, not an eyes/hands one) -- both come from the same
+ * ancestry data, just different sub-keys.
+ *
+ * What OCCUPIES a slot is a real embedded Item (type "equipment"), tagged
+ * `flags.cinderfall.slot = {category, key}` matching the slot it belongs to.
+ * Works like feats: a player or GM adds one whenever they like (the "+" on
+ * an empty slot creates a blank one and opens its sheet to fill in), and
+ * removing one is the normal "delete item" action -- no custom install/
+ * uninstall flow.
+ *
  * PF2e has no rule element for inventing a new labeled feat-slot group on
  * the real Feats tab (confirmed against foundryvtt/pf2e's own rule-element
- * wiki), so this is its own tab instead, not a piggyback on Feats.
- *
- * Each slot is a plain text field, saved to the actor flag
- * `flags["pf2e-cinderfall-module"].installed`, keyed by a stable slot id
- * ("bodyParts:eyes:0", "bodyWhole:skeleton:0", "inlays:capacity:2", ...).
- * No drag-and-drop, no capacity validation yet -- just a place to write
- * what's installed (bio, cyber, or mutation) and see the slot count change
- * as items grant more.
+ * wiki), so this is its own tab, built directly against the real sheet
+ * markup (templates/actors/character/sheet.hbs in the installed pf2e
+ * system) rather than piggybacking on Feats.
  */
 
-function collectSlots(actor) {
+function collectSlotCounts(actor) {
   const bodyParts = {};
   const bodyWhole = {};
   let inlays = 0;
@@ -43,62 +50,85 @@ function collectSlots(actor) {
     }
     inlays += Number(cf.inlays?.capacity || 0);
   }
-
-  const slots = [];
-  for (const [key, count] of Object.entries(bodyParts)) {
-    for (let i = 0; i < count; i++) {
-      slots.push({ id: `bodyParts:${key}:${i}`, label: `${capitalize(key)} ${count > 1 ? i + 1 : ""}`.trim(), group: "Body Parts" });
-    }
-  }
-  for (const [key, count] of Object.entries(bodyWhole)) {
-    for (let i = 0; i < count; i++) {
-      slots.push({ id: `bodyWhole:${key}:${i}`, label: `${capitalize(key)} ${count > 1 ? i + 1 : ""}`.trim(), group: "Body Systems" });
-    }
-  }
-  for (let i = 0; i < inlays; i++) {
-    slots.push({ id: `inlays:capacity:${i}`, label: `Inlay ${i + 1}`, group: "Inlays" });
-  }
-  return slots;
+  return { bodyParts, bodyWhole, inlays };
 }
 
 function capitalize(s) {
   return s.charAt(0).toUpperCase() + s.slice(1);
 }
 
-function buildPanelHTML(actor, slots) {
-  const installed = actor.getFlag(FLAG_SCOPE, FLAG_KEY) ?? {};
-  if (!slots.length) {
-    return `<section class="tab cinderfall-body-panel" data-tab="${TAB_KEY}" style="display:none">
+/** Items already installed in body slots, bucketed by "category:key". */
+function collectInstalled(actor) {
+  const byKey = new Map();
+  for (const item of actor.items) {
+    const slot = item.flags?.cinderfall?.slot;
+    if (!slot) continue;
+    const bucketKey = `${slot.category}:${slot.key}`;
+    if (!byKey.has(bucketKey)) byKey.set(bucketKey, []);
+    byKey.get(bucketKey).push(item);
+  }
+  return byKey;
+}
+
+function buildSlotRows(category, key, count, installed) {
+  const items = installed.get(`${category}:${key}`) ?? [];
+  const rows = [];
+  const total = Math.max(count, items.length);
+  for (let i = 0; i < total; i++) {
+    const item = items[i] ?? null;
+    const label = count > 1 ? `${capitalize(key)} ${i + 1}` : capitalize(key);
+    rows.push({ category, key, index: i, label, item });
+  }
+  return rows;
+}
+
+function rowHTML(row) {
+  const body = row.item
+    ? `<a class="cinderfall-slot-item" data-action="edit-item" data-item-id="${row.item.id}">
+         <img src="${row.item.img}" width="20" height="20">
+         ${foundry.utils.escapeHTML(row.item.name)}
+       </a>
+       <a class="cinderfall-slot-delete" data-action="delete-item" data-item-id="${row.item.id}" data-tooltip="Delete">
+         <i class="fa-solid fa-trash"></i>
+       </a>`
+    : `<span class="cinderfall-slot-empty">empty</span>
+       <a class="cinderfall-slot-add" data-action="add-item" data-category="${row.category}" data-key="${row.key}" data-tooltip="Add">
+         <i class="fa-solid fa-plus"></i>
+       </a>`;
+  return `<li class="cinderfall-slot-row"><span class="cinderfall-slot-label">${row.label}</span>${body}</li>`;
+}
+
+function buildPanelHTML(actor) {
+  const { bodyParts, bodyWhole, inlays } = collectSlotCounts(actor);
+  const installed = collectInstalled(actor);
+  const hasAny = Object.keys(bodyParts).length || Object.keys(bodyWhole).length || inlays;
+
+  if (!hasAny) {
+    return `<div class="tab cinderfall-body-panel" data-group="primary" data-tab="${TAB_KEY}">
       <p class="notes">No body slots yet -- this actor has no ancestry/item carrying a
       <code>flags.cinderfall</code> body block.</p>
-    </section>`;
+    </div>`;
   }
 
-  const groups = new Map();
-  for (const slot of slots) {
-    if (!groups.has(slot.group)) groups.set(slot.group, []);
-    groups.get(slot.group).push(slot);
-  }
+  const section = (title, rows) =>
+    rows.length ? `<h3>${title}</h3><ul class="cinderfall-slot-list">${rows.map(rowHTML).join("")}</ul>` : "";
 
-  let body = "";
-  for (const [group, groupSlots] of groups) {
-    body += `<h3>${group}</h3><div class="cinderfall-slot-grid">`;
-    for (const slot of groupSlots) {
-      const value = installed[slot.id] ?? "";
-      body += `<label class="cinderfall-slot">
-        <span>${slot.label}</span>
-        <input type="text" data-slot-id="${slot.id}" value="${foundry.utils.escapeHTML(value)}" placeholder="empty">
-      </label>`;
-    }
-    body += `</div>`;
-  }
+  let bodyPartsRows = [];
+  for (const [key, count] of Object.entries(bodyParts)) bodyPartsRows.push(...buildSlotRows("bodyParts", key, count, installed));
 
-  return `<section class="tab cinderfall-body-panel" data-tab="${TAB_KEY}" style="display:none">
-    <p class="notes">Crude v1 -- free-text slots, no drag-and-drop yet. Bio-augmentations,
-    cybernetics, and mutations all go here; slot counts come from <code>flags.cinderfall</code>
-    on this actor's items (ancestry, and later heritages/backgrounds/feats).</p>
-    ${body}
-  </section>`;
+  let bodyWholeRows = [];
+  for (const [key, count] of Object.entries(bodyWhole)) bodyWholeRows.push(...buildSlotRows("bodyWhole", key, count, installed));
+
+  const inlayRows = buildSlotRows("inlays", "inlay", inlays, installed);
+
+  return `<div class="tab cinderfall-body-panel" data-group="primary" data-tab="${TAB_KEY}">
+    <p class="notes">Crude v1 -- bio-augmentations, cybernetics, and mutations all go here, treated
+    identically. "Body Parts" affect one limb/organ; "Body Systems" affect the whole body (e.g. acidic
+    blood). Click a name to edit it, the trash to remove it, or + to add one.</p>
+    ${section("Body Parts", bodyPartsRows)}
+    ${section("Body Systems", bodyWholeRows)}
+    ${section("Inlays", inlayRows)}
+  </div>`;
 }
 
 Hooks.on("renderCharacterSheetPF2e", (app, html) => {
@@ -113,10 +143,10 @@ function injectTab(app, html) {
   const root = html instanceof HTMLElement ? html : html[0];
   if (!root) return;
 
-  const nav = root.querySelector("nav.sheet-tabs, .sheet-navigation nav, nav[data-group='sheet'], nav.tabs");
-  const content = root.querySelector(".sheet-content, .sheet-body, section.sheet-body");
+  const nav = root.querySelector("nav.sheet-navigation");
+  const content = root.querySelector("section.sheet-content");
   if (!nav || !content) {
-    console.warn(`${MODULE_ID} | body tab: couldn't find sheet nav/content, skipping injection`);
+    console.warn(`${MODULE_ID} | body tab: couldn't find nav.sheet-navigation / section.sheet-content, skipping`);
     return;
   }
 
@@ -125,42 +155,37 @@ function injectTab(app, html) {
   content.querySelector(`[data-tab="${TAB_KEY}"]`)?.remove();
 
   const actor = app.actor ?? app.document;
-  const slots = collectSlots(actor);
 
   const link = document.createElement("a");
-  link.className = "item cinderfall-body-tab";
+  link.className = "item";
   link.dataset.tab = TAB_KEY;
-  link.innerHTML = `<i class="fa-solid fa-dna"></i> Body`;
-  nav.appendChild(link);
+  link.dataset.group = "primary";
+  link.dataset.tooltip = "Body";
+  link.setAttribute("role", "tab");
+  link.setAttribute("aria-label", "Body");
+  link.innerHTML = `<i class="fa-solid fa-dna"></i>`;
+  nav.querySelector(".manage-tabs")?.before(link) ?? nav.appendChild(link);
 
-  content.insertAdjacentHTML("beforeend", buildPanelHTML(actor, slots));
+  content.insertAdjacentHTML("beforeend", buildPanelHTML(actor));
   const panel = content.querySelector(`[data-tab="${TAB_KEY}"]`);
 
-  link.addEventListener("click", (ev) => {
-    ev.preventDefault();
-    ev.stopPropagation();
-    for (const tab of content.querySelectorAll("[data-tab]")) {
-      tab.style.display = tab === panel ? "block" : "none";
-    }
-    for (const navLink of nav.querySelectorAll("[data-tab]")) {
-      navLink.classList.toggle("active", navLink === link);
-    }
-  });
+  panel.addEventListener("click", async (ev) => {
+    const target = ev.target.closest("[data-action]");
+    if (!target) return;
+    const { action, itemId, category, key } = target.dataset;
 
-  // Any native tab click should hide our panel again (native code doesn't know about it).
-  nav.addEventListener("click", (ev) => {
-    if (ev.target.closest(`[data-tab="${TAB_KEY}"]`)) return;
-    panel.style.display = "none";
-    link.classList.remove("active");
-  });
-
-  panel.querySelectorAll("input[data-slot-id]").forEach((input) => {
-    input.addEventListener("change", async (ev) => {
-      const installed = foundry.utils.deepClone(actor.getFlag(FLAG_SCOPE, FLAG_KEY) ?? {});
-      const slotId = ev.target.dataset.slotId;
-      if (ev.target.value.trim()) installed[slotId] = ev.target.value.trim();
-      else delete installed[slotId];
-      await actor.setFlag(FLAG_SCOPE, FLAG_KEY, installed);
-    });
+    if (action === "edit-item") {
+      actor.items.get(itemId)?.sheet.render(true);
+    } else if (action === "delete-item") {
+      await actor.deleteEmbeddedDocuments("Item", [itemId]);
+    } else if (action === "add-item") {
+      const [created] = await actor.createEmbeddedDocuments("Item", [{
+        name: "New Body Item",
+        type: "equipment",
+        system: { description: { value: "" } },
+        flags: { cinderfall: { slot: { category, key } } },
+      }]);
+      created?.sheet.render(true);
+    }
   });
 }

@@ -1,0 +1,93 @@
+{
+    "name": "Ratkin",
+    "type": "ancestry",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "additionalLanguages": {
+            "count": 1,
+            "custom": "",
+            "value": []
+        },
+        "boosts": {
+            "0": {
+                "value": [
+                    "dex"
+                ]
+            },
+            "1": {
+                "value": [
+                    "con"
+                ]
+            },
+            "2": {
+                "value": [
+                    "str",
+                    "dex",
+                    "con",
+                    "int",
+                    "wis",
+                    "cha"
+                ]
+            }
+        },
+        "description": {
+            "value": "<p><em>Not humans gone small and feral — actual rat descendants, bred fast and mutated faster across two centuries in the flooded subways and sewer runoff under every city that still thinks it's standing. The surface remembers what it lost; a warren never had anything to lose in the first place. The Understreet's hideout sits inside a dead drainage vault under the Slums and still doesn't know where its own tunnels end. The nearest warren does, and charges for the map.</em></p>"
+        },
+        "flaws": {
+            "0": {
+                "value": [
+                    "str"
+                ]
+            }
+        },
+        "hands": 2,
+        "hp": 6,
+        "items": {},
+        "languages": {
+            "custom": "",
+            "value": [
+                "common"
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "reach": 5,
+        "rules": [],
+        "size": "sm",
+        "speed": 25,
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ratkin",
+                "beastkin",
+                "mutant"
+            ]
+        },
+        "vision": "darkvision"
+    },
+    "_id": "6sBCSLxrjpVnnOin",
+    "flags": {
+        "cinderfall": {
+            "bodyParts": {
+                "eyes": 2,
+                "heads": 1,
+                "hands": 2,
+                "torsos": 1,
+                "legs": 2
+            },
+            "bodyWhole": {
+                "skeleton": 1,
+                "neural": 1,
+                "circuitry": 1,
+                "dermal": 1,
+                "viscera": 1
+            },
+            "inlays": {
+                "capacity": 3
+            }
+        }
+    }
+}

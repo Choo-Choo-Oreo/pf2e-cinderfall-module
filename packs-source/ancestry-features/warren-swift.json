@@ -1,0 +1,36 @@
+{
+    "name": "Warren-Swift",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "ancestryfeature",
+        "description": {
+            "value": "<p>Swim Speed equal to land Speed; squeezes through a gap one size smaller with no penalty.</p>"
+        },
+        "level": {
+            "value": 0
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ratkin"
+            ]
+        }
+    },
+    "_id": "KTNjhuuExEwqUSGa"
+}
