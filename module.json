@@ -89,6 +89,18 @@
       "flags": {}
     },
     {
+      "name": "classes",
+      "label": "Cinderfall Classes",
+      "path": "packs/classes",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
       "name": "deities",
       "label": "Cinderfall Deities",
       "path": "packs/deities",
