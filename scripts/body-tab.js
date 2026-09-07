@@ -11,9 +11,17 @@ const TAB_KEY = "cinderfall-body";
  * stacking multiple items into one slot).
  *
  * Slot COUNTS are summed from flags.cinderfall.bodyParts / bodyWhole /
- * inlays.capacity across every item on the actor that carries one (today
- * that's just the Human ancestry; a future heritage/background/feat can add
- * its own flags.cinderfall block and grow the slot list automatically).
+ * inlays.capacity across every item on the actor that carries one. All 11
+ * ancestries carry a block (verified 2026-09-07 against the built pack:
+ * 11/11, each 8 parts / 5 systems / 3 inlays); a future heritage/background/
+ * feat can add its own flags.cinderfall block and grow the list automatically.
+ *
+ * NOTE 2026-09-07: these slot keys do NOT match the "Nine Slots" table the
+ * bio-/cyber-augmentation pages author (Ocular, Neural, Frame, Dermal, Arm
+ * L/R, Legs, Viscera, Circulatory). Known conflicts: circuitry vs
+ * Circulatory, legs x2 here vs one paired Legs slot there, and heads/torsos
+ * with no page equivalent. Unresolved -- do not convert augments onto slot
+ * keys until the owner rules which taxonomy is canon.
  * "Body Parts" slots (eyes, hands, legs, ...) are for things that affect one
  * limb/organ; "Body Systems" slots (skeleton, neural, circuitry, dermal,
  * viscera) are for things that affect the whole body (e.g. acidic blood is

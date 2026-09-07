@@ -18,11 +18,11 @@ Built to the structure and manifest fields described in Foundry's own
   a `relationships.systems` entry requiring `pf2e`. `url`/`manifest`/`readme`/
   `bugs` point at this repo's existing GitHub remote; there's no `download`
   entry yet since no release/tag exists to point it at.
-- `scripts/main.js` — module entry point. On `init` it just logs. On `ready`,
-  if a GM is present, it automatically syncs every path listed in its own
-  `MANIFEST` array from `packs-source/` into World Items (create or update,
-  matched by minted `_id` via Foundry's `keepId` option) — this is the
-  module's real, self-contained update path. No macro, no manual step.
+- `scripts/main.js` — module entry point. It only logs on `init` and `ready`.
+  The old `MANIFEST` / `syncPacksSource()` runtime sync was **deleted**: a
+  World Item created at load would shadow the compendium copy and break the
+  `Compendium.*` UUIDs ancestries use to grant their features. Content ships
+  as compiled packs only.
 - `styles/pf2e-cinderfall-module.css` — module styles (empty stub).
 - `lang/en.json` — localization strings (empty-ish stub).
 - `sync-to-foundry.py` — dev-only copy tool, see below. Excluded from the
@@ -72,35 +72,68 @@ version 8.5.0).
 
 ## Testing an export
 
-There's no compendium-pack build in this loop yet (that's `classic-level` or
-`@foundryvtt/foundryvtt-cli`, both Node-based, and this machine has neither
-installed) -- so `packs-source/*.json` isn't something Foundry loads as a
-real compendium pack. Instead, `scripts/main.js` reads it directly:
+Everything ships as real compiled compendium packs; nothing is created at
+runtime. `scripts/main.js` no longer syncs anything -- the old `MANIFEST` /
+`syncPacksSource()` loop was **deleted**, not disabled, because a world Item
+created at load would shadow the compendium copy and break the `Compendium.*`
+UUIDs that ancestries use to grant their features.
 
-1. `python sync-to-foundry.py` from the site machine, so the module folder
-   (including `packs-source/`) is mirrored into your Foundry install.
-2. Reload the world (Module Management > Reload All Clients, or relaunch).
-   As GM, `main.js`'s `ready` hook automatically fetches every path in its
-   `MANIFEST` array (right now just `packs-source/ancestries/human.json`)
-   over your own local Foundry server and creates or updates a World Item
-   from it -- no macro, no manual step, nothing outside your own client
-   touched. Re-running after a source file changes updates the same Item
-   (matched by its minted `_id`, via Foundry's `keepId` create option)
-   rather than duplicating it.
-3. Open the created Item's sheet and check it against
-   `packs-source/ancestries/human.json` by eye -- this is the actual proof
-   that Foundry's `ancestry` DataModel accepted every field, not just that
-   the create call didn't throw.
+The loop is two commands from the Cinderfall site repo, in this order:
 
-Add more entries to `MANIFEST` in `scripts/main.js` as more `packs-source/*.json`
-files land.
+    python tools/foundry/export_all.py      # cards -> packs-source/
+    python tools/foundry/build_pack.py --install
+
+`build_pack.py` reads `packs-source/`, never the card layer, so skipping the
+export silently ships stale packs. It writes LevelDB directly via `plyvel`
+(Foundry's own CLI is Node). **LevelDB is single-writer and a loaded world
+holds the lock**, so close or relaunch the world around a build.
+
+Then relaunch the world and check the packs in the sidebar.
 
 ## Status
 
-One real export staged and auto-imported on world load: `packs-source/ancestries/human.json`
-(Cinderfall's Human ancestry) -- verified live: `Test Dummy (Human)`, a
-disposable test-world character, resolves HP 8/8 and the ancestry's traits
-correctly with the item attached. A crude "Body" tab
-(`scripts/body-tab.js`) also exists for visually tracking what's installed
-(bio, cyber, or mutation) against the ancestry's body-slot data. Everything
-else is still scaffold.
+**8 compiled packs, 346 documents** (verified live in Foundry 14.361 /
+pf2e 8.5.0 on 2026-09-07):
+
+| pack | type | documents |
+|---|---|---|
+| ancestries | Item | 11 |
+| ancestry-features | Item | 33 |
+| heritages | Item | 34 |
+| backgrounds | Item | 11 |
+| feats | Item | 163 |
+| deities | Item | 14 |
+| equipment | Item | 48 |
+| bestiary | Actor | 32 |
+
+Verified live: all 8 packs load; a `Cinderfall Equipment` weapon resolves with
+its price in gp and both `flags.cinderfall` blocks intact; a `Cinderfall
+Bestiary` NPC resolves with its embedded strikes as real Strikes (with MAP
+variants and persistent damage); and the homebrew `ratkin` trait renders on a
+real character sheet.
+
+`bestiary` is the only pack with `PLAYER: NONE` ownership, because it holds
+`uriel.uriel-bound` and `uriel` is a sealed owner on the site. Foundry has no
+per-document ownership inside a pack, so the whole pack takes the restrictive
+setting.
+
+### Homebrew registration
+
+`module.json`'s `flags.pf2e-cinderfall-module.pf2e-homebrew` block registers 11
+creature traits, 11 feat traits, 14 languages, and 4 custom damage types
+(`anchor`, `area-vitality-damage`, `coordinated-anchor`, `the-cut`). Without
+the damage-type entries, 10 bestiary creatures carried weakness types PF2e does
+not recognise. The accepted shape is validated by `isHomebrewCustomDamage` in
+the system bundle: each value needs a string `label`, and an optional
+`category` that must be `physical` or `energy` -- omitted here, because the
+statblocks never say which these are and guessing would be a design call.
+
+The 14 languages are registered but **not yet referenced by any document** --
+`ancestries.html` assigns no languages, so there is nothing to carry across.
+The registration is a prerequisite, not dead code.
+
+`scripts/body-tab.js` adds a "Body" tab to the PF2e character sheet for
+tracking bio-augmentation, cybernetics and mutations against the ancestry's
+body-slot data. **Its slot keys do not yet match the "Nine Slots" table the
+augmentation pages author** -- see the note at the top of that file. That
+conflict is unresolved and blocks converting the 241 augment records.

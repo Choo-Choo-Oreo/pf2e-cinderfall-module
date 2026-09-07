@@ -202,6 +202,20 @@
           "threnody": "Threnody",
           "vault-tongue": "Vault-Tongue",
           "warband-tongue": "Warband Tongue"
+        },
+        "damageTypes": {
+          "anchor": {
+            "label": "Anchor"
+          },
+          "area-vitality-damage": {
+            "label": "Area Vitality Damage"
+          },
+          "coordinated-anchor": {
+            "label": "Coordinated Anchor"
+          },
+          "the-cut": {
+            "label": "The Cut"
+          }
         }
       }
     }
