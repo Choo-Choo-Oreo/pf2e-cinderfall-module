@@ -1,0 +1,46 @@
+{
+    "name": "Smart-Link Chip",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "bulk": {
+            "value": 0
+        },
+        "description": {
+            "value": "<p>Fitted to a Scrap or Trade-Built gun, removes its misfire chance entirely — the assist Corporate guns come with built in. Salvaged corporate tech; hard to find, harder to fit.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 0
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "traits": {
+            "rarity": "rare",
+            "value": []
+        },
+        "price": {
+            "value": {
+                "gp": 50
+            }
+        },
+        "slug": "attach-smart-link-chip"
+    },
+    "_id": "yTBNlDzNOEDftIQq",
+    "flags": {
+        "cinderfall": {
+            "incomplete": [
+                "level is a stub (0); the page carries no item levels"
+            ]
+        }
+    }
+}

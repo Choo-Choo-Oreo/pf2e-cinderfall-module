@@ -1,0 +1,46 @@
+{
+    "name": "Ghost-Static Battery",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "bulk": {
+            "value": 0
+        },
+        "description": {
+            "value": "<p>Standard fuel cell for ghost-machines, Emberforged, and exosuits alike.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 0
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "price": {
+            "value": {
+                "gp": 2
+            }
+        },
+        "slug": "ghost-static-battery"
+    },
+    "_id": "ZmIY277oqr7jrBx8",
+    "flags": {
+        "cinderfall": {
+            "incomplete": [
+                "level is a stub (0); the page carries no item levels"
+            ]
+        }
+    }
+}

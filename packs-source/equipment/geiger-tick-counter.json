@@ -1,0 +1,46 @@
+{
+    "name": "Geiger-Tick Counter",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "bulk": {
+            "value": 0
+        },
+        "description": {
+            "value": "<p>Clicks faster near radiation; standard-issue for Glasslands travel.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 0
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "price": {
+            "value": {
+                "gp": 2
+            }
+        },
+        "slug": "geiger-tick-counter"
+    },
+    "_id": "FyJGM1FSSY3GhYKf",
+    "flags": {
+        "cinderfall": {
+            "incomplete": [
+                "level is a stub (0); the page carries no item levels"
+            ]
+        }
+    }
+}

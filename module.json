@@ -101,6 +101,18 @@
       "flags": {}
     },
     {
+      "name": "equipment",
+      "label": "Cinderfall Equipment",
+      "path": "packs/equipment",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
       "name": "bestiary",
       "label": "Cinderfall Bestiary",
       "path": "packs/bestiary",
@@ -125,6 +137,7 @@
         "backgrounds",
         "feats",
         "deities",
+        "equipment",
         "bestiary"
       ]
     }

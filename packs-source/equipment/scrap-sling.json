@@ -1,0 +1,70 @@
+{
+    "name": "Scrap Sling",
+    "type": "weapon",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "bulk": {
+            "value": 1
+        },
+        "description": {
+            "value": "<p>Ammo is free if you're near rubble.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 0
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "price": {
+            "value": {
+                "gp": 1
+            }
+        },
+        "bonus": {
+            "value": 0
+        },
+        "bonusDamage": {
+            "value": 0
+        },
+        "category": "simple",
+        "damage": {
+            "dice": 1,
+            "die": "d6",
+            "damageType": "bludgeoning"
+        },
+        "group": "sling",
+        "range": null,
+        "reload": {
+            "value": null
+        },
+        "splashDamage": {
+            "value": 0
+        },
+        "usage": {
+            "value": "held-in-one-hand"
+        },
+        "slug": "scrap-sling"
+    },
+    "_id": "gGfTxa5Dls1t3G7N",
+    "flags": {
+        "cinderfall": {
+            "incomplete": [
+                "level is a stub (0); the page carries no item levels",
+                "sling range and reload stubbed; the page posts no increments"
+            ]
+        }
+    }
+}

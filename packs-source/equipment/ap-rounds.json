@@ -1,0 +1,50 @@
+{
+    "name": "Armor-Piercing Rounds",
+    "type": "ammo",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "bulk": {
+            "value": 0
+        },
+        "description": {
+            "value": "<p>Hardened cores. Ignores 5 points of non-magical resistance. Triple the price of the matching standard bundle.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 0
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "traits": {
+            "rarity": "rare",
+            "value": [
+                "consumable"
+            ]
+        },
+        "craftableAs": [],
+        "uses": {
+            "autoDestroy": true,
+            "max": 1,
+            "value": 1
+        },
+        "slug": "ap-rounds"
+    },
+    "_id": "83dvpyScm50yegr3",
+    "flags": {
+        "cinderfall": {
+            "incomplete": [
+                "price '3× standard (rare)' is not a number; pf2e stores no relative price",
+                "level is a stub (0); the page carries no item levels"
+            ]
+        }
+    }
+}

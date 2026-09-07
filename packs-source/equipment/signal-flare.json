@@ -1,0 +1,55 @@
+{
+    "name": "Signal Flare",
+    "type": "consumable",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "bulk": {
+            "value": 0
+        },
+        "description": {
+            "value": "<p>Visible for miles; also draws whatever's listening.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 0
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "consumable"
+            ]
+        },
+        "price": {
+            "value": {
+                "gp": 1
+            }
+        },
+        "category": "other",
+        "damage": null,
+        "uses": {
+            "autoDestroy": true,
+            "max": 1,
+            "value": 1
+        },
+        "slug": "signal-flare"
+    },
+    "_id": "3r2baGcL3jo2ef7B",
+    "flags": {
+        "cinderfall": {
+            "incomplete": [
+                "level is a stub (0); the page carries no item levels"
+            ]
+        }
+    }
+}

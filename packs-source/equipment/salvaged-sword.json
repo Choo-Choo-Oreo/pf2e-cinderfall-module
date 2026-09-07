@@ -1,0 +1,71 @@
+{
+    "name": "Salvaged Sword",
+    "type": "weapon",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "bulk": {
+            "value": 1
+        },
+        "description": {
+            "value": "<p>Standard martial blade, endless minor variants.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 0
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "price": {
+            "value": {
+                "gp": 4
+            }
+        },
+        "bonus": {
+            "value": 0
+        },
+        "bonusDamage": {
+            "value": 0
+        },
+        "category": "simple",
+        "damage": {
+            "dice": 1,
+            "die": "d8",
+            "damageType": "slashing"
+        },
+        "group": null,
+        "range": null,
+        "reload": {
+            "value": null
+        },
+        "splashDamage": {
+            "value": 0
+        },
+        "usage": {
+            "value": "held-in-one-hand"
+        },
+        "slug": "salvaged-sword"
+    },
+    "_id": "jcdJg7SEiLhLoMwd",
+    "flags": {
+        "cinderfall": {
+            "incomplete": [
+                "level is a stub (0); the page carries no item levels",
+                "weapon category/bulk/usage stubbed; the page carries none of them",
+                "melee weapon group left null -- choosing one is design, not conversion"
+            ]
+        }
+    }
+}

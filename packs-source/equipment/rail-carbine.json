@@ -1,0 +1,72 @@
+{
+    "name": "Rail Carbine",
+    "type": "weapon",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "bulk": {
+            "value": 1
+        },
+        "description": {
+            "value": "<p>Pre-Turning railgun tech; ignores non-magical resistance and most cover. Campaign-arc-tier loot.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 0
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "traits": {
+            "rarity": "rare",
+            "value": []
+        },
+        "price": {
+            "value": {
+                "gp": 120
+            }
+        },
+        "bonus": {
+            "value": 0
+        },
+        "bonusDamage": {
+            "value": 0
+        },
+        "category": "simple",
+        "damage": {
+            "dice": 2,
+            "die": "d8",
+            "damageType": "piercing"
+        },
+        "group": "firearm",
+        "range": null,
+        "reload": {
+            "value": null
+        },
+        "splashDamage": {
+            "value": 0
+        },
+        "usage": {
+            "value": "held-in-one-hand"
+        },
+        "slug": "rail-carbine"
+    },
+    "_id": "ubReYldIb8S6HZvI",
+    "flags": {
+        "cinderfall": {
+            "incomplete": [
+                "tier is 'epic'; pf2e has no epic rarity, mapped to 'rare'",
+                "level is a stub (0); the page carries no item levels",
+                "weapon category/bulk/usage stubbed; the page carries none of them",
+                "firearm range and reload stubbed; the page posts no increments"
+            ]
+        }
+    }
+}

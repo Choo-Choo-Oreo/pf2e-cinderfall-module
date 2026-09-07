@@ -1,0 +1,57 @@
+{
+    "name": "Plate Scrap",
+    "type": "armor",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "bulk": {
+            "value": 1
+        },
+        "description": {
+            "value": "<p>Standard scavenger armor; ugly, functional.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 0
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "price": {
+            "value": {
+                "gp": 4
+            }
+        },
+        "acBonus": 0,
+        "category": "medium",
+        "checkPenalty": 0,
+        "dexCap": 0,
+        "group": null,
+        "speedPenalty": 0,
+        "strength": 0,
+        "usage": {
+            "value": "wornarmor"
+        },
+        "slug": "plate-scrap"
+    },
+    "_id": "laezuiB75PoNvQ4Q",
+    "flags": {
+        "cinderfall": {
+            "incomplete": [
+                "level is a stub (0); the page carries no item levels",
+                "armor acBonus/dexCap/checkPenalty/speedPenalty/strength/group all stubbed -- the page posts no AC, no Dex Cap and no penalties"
+            ]
+        }
+    }
+}
