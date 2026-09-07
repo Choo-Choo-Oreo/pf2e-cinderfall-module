@@ -120,7 +120,7 @@ setting.
 ### Homebrew registration
 
 `module.json`'s `flags.pf2e-cinderfall-module.pf2e-homebrew` block registers 11
-creature traits, 11 feat traits, 14 languages, and 4 custom damage types
+creature traits, 11 feat traits, 13 languages, and 4 custom damage types
 (`anchor`, `area-vitality-damage`, `coordinated-anchor`, `the-cut`). Without
 the damage-type entries, 10 bestiary creatures carried weakness types PF2e does
 not recognise. The accepted shape is validated by `isHomebrewCustomDamage` in
@@ -128,14 +128,28 @@ the system bundle: each value needs a string `label`, and an optional
 `category` that must be `physical` or `energy` -- omitted here, because the
 statblocks never say which these are and guessing would be a design call.
 
-The 14 languages are the setting's whole list, sourced from the `languages` card
-owner. `languages` is a real homebrew category (it heads the accepted-key array
+The 13 languages are the setting's whole list, and the block is **generated**
+from the `languages` card owner by `build_pack.py`'s `derive_languages()` --
+never hand-edited. Every card carrying `export_as_language: true` becomes one
+entry here, so adding a language is one card and nothing else. `languages` is a
+real homebrew category (it heads the accepted-key array
 in `readModuleHomebrewSettings`), and the `{slug: "Label"}` string form is
 accepted. Registration is load-bearing rather than cosmetic: `AncestryPF2e`
 grants `system.languages.value` at actor-prep time but only for slugs already in
 `CONFIG.PF2E.languages`, so an unregistered slug is dropped **silently** -- the
 language just never appears on the character. `build_pack.py` therefore fails
-the build if any ancestry grants a language `module.json` does not register.
+the build if any ancestry grants a language no card backs.
+
+A language card is Foundry-shaped (`system` + `type`) but is **not** a
+compendium document, because PF2e has no language Item type. `export_as_language`
+is what routes it: `export_all.py` sends it to the manifest instead of
+`packs-source/`. Without that flag the `system`/`type` pair alone made it a
+document, and it landed in `packs-source/languages/` -- a directory no declared
+pack ever built, so the card looked exported and reached nothing.
+`flags.cinderfall.foundry.kind` picks the channel, since registering and
+relabelling are different operations: `language` registers a new slug,
+`language-rename` overrides one PF2e already ships. Both are checked against
+the installed system's own 186-slug list when a system is present.
 
 Cinderfall keeps PF2e's own `common` slug and **renames** it rather than
 adding a second language beside it: `lang/en.json` overrides
@@ -161,11 +175,14 @@ world setting, `game.settings.get("pf2e", "homebrew.languageRarities")`: a
 DataModel of `{ commonLanguage, uncommon, rare, secret, unavailable }` where
 anything in none of the sets is common.
 
-It is authored on `languages.html` as `cc-tier-*` -- the same vocabulary
-`equipment.html` uses -- mirrored into each languages card as `rarity`, shipped
-in `flags.pf2e-cinderfall-module.languageRarities`, and written to the setting
-by `scripts/main.js` on ready. `build_pack.py` fails the build if the manifest
-and the cards disagree, so the manifest copy is never hand-edited. The script
+The card is the source: each language card carries
+`flags.cinderfall.foundry.rarity`, null meaning common (PF2e stores no common
+set -- it derives common as "in none of the sets"). `build_pack.py` **generates**
+`flags.pf2e-cinderfall-module.languageRarities` from those cards, and
+`scripts/main.js` writes it to the setting on ready. `languages.html` paints the
+same tier as `cc-tier-*` -- the vocabulary `equipment.html` uses, where the page
+word `exotic` bridges to PF2e's `secret` -- and the build fails if the page and
+the cards disagree, naming the page as the thing to fix. The script
 applies a map once and stamps it, so a GM who re-tiers a language by hand keeps
 that choice while a genuine change to the shipped map still lands.
 
