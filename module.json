@@ -1,0 +1,46 @@
+{
+  "id": "pf2e-cinderfall-module",
+  "title": "PF2e Cinderfall",
+  "description": "Companion module for the Cinderfall Pathfinder 2e homebrew setting. Work in progress.",
+  "version": "0.1.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "14.361",
+    "maximum": "14"
+  },
+  "authors": [
+    {
+      "name": "Orea"
+    }
+  ],
+  "esmodules": [
+    "scripts/main.js",
+    "scripts/augmentation-tab.js"
+  ],
+  "styles": [
+    "styles/pf2e-cinderfall-module.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "manifest": "https://github.com/foundryvtt/pf2e/releases/download/latest/system.json",
+        "compatibility": {
+          "minimum": "6.0.0"
+        }
+      }
+    ]
+  },
+  "url": "https://github.com/Choo-Choo-Oreo/pf2e-cinderfall-module",
+  "manifest": "https://github.com/Choo-Choo-Oreo/pf2e-cinderfall-module/raw/main/module.json",
+  "readme": "https://github.com/Choo-Choo-Oreo/pf2e-cinderfall-module/blob/main/README.md",
+  "bugs": "https://github.com/Choo-Choo-Oreo/pf2e-cinderfall-module/issues"
+}

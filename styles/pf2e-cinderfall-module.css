@@ -1,0 +1,22 @@
+/* PF2e Cinderfall module styles */
+
+.cinderfall-augments-panel h3 {
+  margin: 0.75em 0 0.25em;
+}
+
+.cinderfall-slot-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.cinderfall-slot {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.85em;
+}
+
+.cinderfall-slot input {
+  width: 100%;
+}
