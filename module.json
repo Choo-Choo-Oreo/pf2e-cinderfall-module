@@ -164,6 +164,26 @@
           "minimum": "6.0.0"
         }
       }
+    ],
+    "requires": [
+      {
+        "id": "pf2e-ranged-combat",
+        "type": "module",
+        "manifest": "https://github.com/JDCalvert/FVTT-PF2e-Ranged-Combat/releases/latest/download/module.json",
+        "compatibility": {
+          "minimum": "8.0.0",
+          "verified": "8.0.7"
+        }
+      },
+      {
+        "id": "itempiles-pf2e",
+        "type": "module",
+        "manifest": "https://github.com/fantasycalendar/FoundryVTT-ItemPiles-PF2E/releases/latest/download/module.json",
+        "compatibility": {
+          "minimum": "1.1.0",
+          "verified": "1.1.0"
+        }
+      }
     ]
   },
   "url": "https://github.com/Choo-Choo-Oreo/pf2e-cinderfall-module",
