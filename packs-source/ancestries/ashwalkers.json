@@ -64,7 +64,8 @@
         "languages": {
             "custom": "",
             "value": [
-                "common"
+                "ashwalker-cant",
+                "common-cant"
             ]
         },
         "publication": {

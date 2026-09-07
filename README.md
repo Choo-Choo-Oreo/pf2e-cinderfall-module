@@ -128,9 +128,20 @@ the system bundle: each value needs a string `label`, and an optional
 `category` that must be `physical` or `energy` -- omitted here, because the
 statblocks never say which these are and guessing would be a design call.
 
-The 14 languages are registered but **not yet referenced by any document** --
-`ancestries.html` assigns no languages, so there is nothing to carry across.
-The registration is a prerequisite, not dead code.
+The 14 languages are the setting's whole list, sourced from the `languages` card
+owner. `languages` is a real homebrew category (it heads the accepted-key array
+in `readModuleHomebrewSettings`), and the `{slug: "Label"}` string form is
+accepted. Registration is load-bearing rather than cosmetic: `AncestryPF2e`
+grants `system.languages.value` at actor-prep time but only for slugs already in
+`CONFIG.PF2E.languages`, so an unregistered slug is dropped **silently** -- the
+language just never appears on the character. `build_pack.py` therefore fails
+the build if any ancestry grants a language `module.json` does not register.
+
+Cinderfall uses `common-cant`, not PF2e's `common`; no Cinderfall ancestry
+grants `common`. Language *rarity* (the "never known automatically" tier that
+`languages.html` S3 describes for the five faction tongues) is not module data
+at all -- it lives in PF2e's world settings menu, so it is a GM setting, not
+something this module can ship.
 
 `scripts/body-tab.js` adds a "Body" tab to the PF2e character sheet for
 tracking bio-augmentation, cybernetics and mutations against the ancestry's

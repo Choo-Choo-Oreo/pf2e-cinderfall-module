@@ -59,7 +59,8 @@
         "languages": {
             "custom": "",
             "value": [
-                "common"
+                "common-cant",
+                "vault-tongue"
             ]
         },
         "publication": {

@@ -64,7 +64,8 @@
         "languages": {
             "custom": "",
             "value": [
-                "common"
+                "common-cant",
+                "node-speak"
             ]
         },
         "publication": {
