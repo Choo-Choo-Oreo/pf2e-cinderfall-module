@@ -1,0 +1,40 @@
+{
+    "name": "Deadhand Dedication",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "class",
+        "description": {
+            "value": "<p>You become trained in advanced weapons, and you gain <strong>Tally</strong> and <strong>Redline</strong> as the Deadhand class defines them. Your Tally cap is 2, not the class’s 5, and it fills only when you drop a foe — not from eating a critical hit and staying up, and not from a turn spent below half. You do not get the clean first Redline: <em>every</em> Redline you spend rolls on the Slip table, starting with the first one. Twenty years is what buys the free one, and you have not put in twenty years.</p>"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Strength 14 or Dexterity 14"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "archetype",
+                "dedication",
+                "deadhand"
+            ]
+        },
+        "slug": "deadhand-dedication"
+    },
+    "_id": "mq0tkTOr2xOD8htK"
+}

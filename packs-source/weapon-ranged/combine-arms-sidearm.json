@@ -1,0 +1,72 @@
+{
+    "name": "Combine Arms Sidearm",
+    "type": "weapon",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "bulk": {
+            "value": 1
+        },
+        "description": {
+            "value": "<p>Corporate-manufactured, smart-targeting assist; no misfire chance. Loot-tier.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 0
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "traits": {
+            "rarity": "rare",
+            "value": []
+        },
+        "price": {
+            "value": {
+                "gp": 30
+            }
+        },
+        "bonus": {
+            "value": 0
+        },
+        "bonusDamage": {
+            "value": 0
+        },
+        "category": "simple",
+        "damage": {
+            "dice": 1,
+            "die": "d8",
+            "damageType": "piercing"
+        },
+        "group": "firearm",
+        "range": null,
+        "reload": {
+            "value": null
+        },
+        "splashDamage": {
+            "value": 0
+        },
+        "usage": {
+            "value": "held-in-one-hand"
+        },
+        "slug": "combine-arms-sidearm"
+    },
+    "_id": "rfdw74hMn1UuvVhU",
+    "flags": {
+        "cinderfall": {
+            "incomplete": [
+                "level is a stub (0); the page carries no item levels",
+                "weapon category/bulk/usage stubbed; the page carries none of them",
+                "firearm range and reload stubbed; the page posts no increments"
+            ],
+            "currency": "Balanced to the PF2e GP standard and denominated in Credits: 1 Credit = 1 gp. The whole list was scaled x10 from the retired scraps=sp anchor, so every relative price is unchanged from the page as authored."
+        }
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "name": "Warm Save",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "class",
+        "description": {
+            "value": "<p>The current-Save bonus rises to +2 and applies to Perception as well. The stale penalty does not improve, and never will — the higher you run on a connection, the worse the silence is when it stops.</p>"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Paradise Ghost Dedication"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "archetype",
+                "paradise-ghost"
+            ]
+        },
+        "slug": "warm-save"
+    },
+    "_id": "U0FiIrjO6hO3ETnk"
+}

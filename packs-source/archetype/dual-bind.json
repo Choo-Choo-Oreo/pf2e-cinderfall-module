@@ -1,0 +1,39 @@
+{
+    "name": "Dual Bind",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "class",
+        "description": {
+            "value": "<p>House a second soul in the same item. Both item bonuses apply, to two different skills or saves. Temper rises twice as fast — every trigger raises it by 2 — because two souls in one housing have never once agreed about whose item it is.</p>"
+        },
+        "level": {
+            "value": 8
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Steady Bind"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "archetype",
+                "soul-binder"
+            ]
+        },
+        "slug": "dual-bind"
+    },
+    "_id": "3U8A4HAWZGMDx7gn"
+}

@@ -1,0 +1,39 @@
+{
+    "name": "Redundant Systems",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "category": "class",
+        "description": {
+            "value": "<p>Once per day, as a reaction when you would gain the blinded, deafened, sickened, or stupefied condition, ignore it for 1 round while an augment covers the gap. This adds no Drift — a rare part of the trade that doesn’t cost anything further, and the only one.</p>"
+        },
+        "level": {
+            "value": 8
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Overclock Augment"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "archetype",
+                "nanite-touched"
+            ]
+        },
+        "slug": "redundant-systems"
+    },
+    "_id": "kSgYotU67zNs2vRp"
+}

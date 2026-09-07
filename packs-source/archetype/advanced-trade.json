@@ -1,0 +1,39 @@
+{
+    "name": "Advanced Trade",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "class",
+        "description": {
+            "value": "<p>Gain one Deadhand class feat of 6th level or lower — any of the four 2nd-level general options listed under Basic Trade, the 4th-level general options <em>Contract Terms</em>, <em>Never Flat</em>, <em>Take It Standing</em> and <em>Worked Through Worse</em>, the 6th-level general options <em>Deep Tally</em>, <em>Read the Killer</em>, <em>Trade Up</em> and <em>Walk It Off</em>, plus any 2nd-, 4th- or 6th-level feat of the Trade you named with Chosen Trade. You may take this feat more than once, choosing a different feat each time.</p>"
+        },
+        "level": {
+            "value": 8
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Basic Trade"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "archetype",
+                "deadhand"
+            ]
+        },
+        "slug": "advanced-trade"
+    },
+    "_id": "5SV0mDBdnH0JQ900"
+}

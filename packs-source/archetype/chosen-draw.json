@@ -1,0 +1,39 @@
+{
+    "name": "Chosen Draw",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "class",
+        "description": {
+            "value": "<p>Commit permanently to one of the five Draws — Twin Iron, Long Iron, Close Iron, Trick Iron or Foul Iron. That Draw's restricted feats become legal picks for you at their stated levels. You never gain its Minor or Major Capstone: those are granted by the class itself at 10th and 20th, and a dip is not the class.</p>"
+        },
+        "level": {
+            "value": 6
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Basic Iron"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "archetype",
+                "ironsight"
+            ]
+        },
+        "slug": "chosen-draw"
+    },
+    "_id": "tTu4X3giS4KfZKyd"
+}

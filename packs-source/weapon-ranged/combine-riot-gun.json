@@ -1,0 +1,72 @@
+{
+    "name": "Combine Riot Gun",
+    "type": "weapon",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "bulk": {
+            "value": 1
+        },
+        "description": {
+            "value": "<p>Crowd-control shotgun out of a corporate security armory; no misfire chance, ignores half cover at close range. Loot-tier.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 0
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "traits": {
+            "rarity": "rare",
+            "value": []
+        },
+        "price": {
+            "value": {
+                "gp": 40
+            }
+        },
+        "bonus": {
+            "value": 0
+        },
+        "bonusDamage": {
+            "value": 0
+        },
+        "category": "simple",
+        "damage": {
+            "dice": 2,
+            "die": "d8",
+            "damageType": "piercing"
+        },
+        "group": "firearm",
+        "range": null,
+        "reload": {
+            "value": null
+        },
+        "splashDamage": {
+            "value": 0
+        },
+        "usage": {
+            "value": "held-in-one-hand"
+        },
+        "slug": "combine-riot-gun"
+    },
+    "_id": "MzrpyyVT8Pi3Ye3z",
+    "flags": {
+        "cinderfall": {
+            "incomplete": [
+                "level is a stub (0); the page carries no item levels",
+                "weapon category/bulk/usage stubbed; the page carries none of them",
+                "firearm range and reload stubbed; the page posts no increments"
+            ],
+            "currency": "Balanced to the PF2e GP standard and denominated in Credits: 1 Credit = 1 gp. The whole list was scaled x10 from the retired scraps=sp anchor, so every relative price is unchanged from the page as authored."
+        }
+    }
+}

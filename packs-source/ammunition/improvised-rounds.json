@@ -1,0 +1,51 @@
+{
+    "name": "Improvised Rounds",
+    "type": "ammo",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "bulk": {
+            "value": 0
+        },
+        "description": {
+            "value": "<p>Home-cast, uneven. Worsens the loaded gun's misfire chance by one step — even a gun that never misfires now misfires on a natural 1. Half the price of the matching standard bundle.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 0
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "consumable"
+            ]
+        },
+        "craftableAs": [],
+        "uses": {
+            "autoDestroy": true,
+            "max": 1,
+            "value": 1
+        },
+        "slug": "improvised-rounds"
+    },
+    "_id": "0AV8qMtRxXq8f4w0",
+    "flags": {
+        "cinderfall": {
+            "incomplete": [
+                "price 'half standard' is not a number; pf2e stores no relative price",
+                "level is a stub (0); the page carries no item levels"
+            ],
+            "currency": "Balanced to the PF2e GP standard and denominated in Credits: 1 Credit = 1 gp. The whole list was scaled x10 from the retired scraps=sp anchor, so every relative price is unchanged from the page as authored."
+        }
+    }
+}

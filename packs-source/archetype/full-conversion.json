@@ -1,0 +1,39 @@
+{
+    "name": "Full Conversion",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "class",
+        "description": {
+            "value": "<p>Choose one installed augment and raise it permanently to Grade 5, whatever your level. You gain the <em>Construct</em> trait in addition to your own, placing you on the Cybernetics side of the setting’s system matchup: flesh-mancy corrupts and overrides you more easily, and Spirit-Faith effects — possession, soul-based debuffs — find less of you to hold. This is a permanent change to what you are, and no augment removal undoes it.</p>"
+        },
+        "level": {
+            "value": 14
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Overclock Augment, and Drift at your highest permanent threshold"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "archetype",
+                "nanite-touched"
+            ]
+        },
+        "slug": "full-conversion"
+    },
+    "_id": "4FtcR7KBOahMbwg2"
+}

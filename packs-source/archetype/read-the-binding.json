@@ -1,0 +1,39 @@
+{
+    "name": "Read the Binding",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "class",
+        "description": {
+            "value": "<p>Sense whether any item within 30 feet holds a bound soul, and read its Temper exactly, not just your own. You gain a +2 circumstance bonus to checks to appraise, identify, or negotiate over salvaged ghost-machinery — knowing how angry a thing is has always been most of knowing what it is worth.</p>"
+        },
+        "level": {
+            "value": 6
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Soul-Binder Dedication"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "archetype",
+                "soul-binder"
+            ]
+        },
+        "slug": "read-the-binding"
+    },
+    "_id": "tD2f9b8J7X6zcHNr"
+}

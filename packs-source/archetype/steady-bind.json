@@ -1,0 +1,39 @@
+{
+    "name": "Steady Bind",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "class",
+        "description": {
+            "value": "<p>Your bind holds until you choose to release it rather than until something goes wrong. Reduce Temper by 1 each time you make a full night’s rest with the item on your person, and while Temper is 0 or 1 the item bonus is +2 instead of +1. At Temper 3 the bonus is 0; at Temper 4 it is −1 and the soul answers questions dishonestly.</p>"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Soul-Binder Dedication"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "archetype",
+                "soul-binder"
+            ]
+        },
+        "slug": "steady-bind"
+    },
+    "_id": "rRzc0vsEXVeyndV8"
+}

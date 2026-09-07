@@ -1,0 +1,39 @@
+{
+    "name": "Blooded Hands",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "class",
+        "description": {
+            "value": "<p>Your proficiency with simple and martial weapons and unarmed attacks rises to expert — <strong>Blooded</strong>, in the only vocabulary this class uses for it. It never rises past Blooded through this archetype. Veteran and Undying are the class’s, and a real Deadhand was already Blooded on the day they took their first contract.</p>"
+        },
+        "level": {
+            "value": 12
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Deadhand Dedication"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "archetype",
+                "deadhand"
+            ]
+        },
+        "slug": "blooded-hands"
+    },
+    "_id": "WAufxnbB4juvjTC7"
+}
