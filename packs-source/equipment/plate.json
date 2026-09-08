@@ -1,0 +1,43 @@
+{
+    "name": "Plate",
+    "type": "treasure",
+    "img": "systems/pf2e/icons/equipment/treasure/currency/platinum-pieces.webp",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 1
+        },
+        "category": "material",
+        "containerId": null,
+        "description": {
+            "value": "<p>A hundred marks pressed flat into a single hand-sized plate, edges milled so it cannot be shaved. Introduced for the simple reason that twenty-one thousand marks does not fit in a coat. Same metal, same stamp, same absence of any rate anyone else will honour.</p><p><strong>1 Plate = 100 Marks.</strong></p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 0
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {}
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "traits": {
+            "rarity": "uncommon",
+            "value": []
+        }
+    }
+}

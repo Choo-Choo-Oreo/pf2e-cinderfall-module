@@ -18,6 +18,14 @@ Hooks.once("init", () => {
     type: String,
     default: "",
   });
+  // Same idea for the Item Piles currency write below: stamp what we wrote so a
+  // GM's hand-edit to a currency survives, and only a shipped change writes again.
+  game.settings.register(MODULE_ID, "itemPilesCurrencyStamp", {
+    scope: "world",
+    config: false,
+    type: String,
+    default: "",
+  });
 });
 
 Hooks.once("ready", () => {
@@ -178,4 +186,101 @@ Hooks.once("ready", async () => {
   await game.settings.set("pf2e", "homebrew.languageRarities", next);
   await game.settings.set(MODULE_ID, "languageRarityStamp", stamp);
   console.log(`${MODULE_ID} | applied language rarities`, next);
+});
+
+/**
+ * Item Piles currency integration.
+ *
+ * Two jobs, both on the Item Piles side only -- nothing here touches PF2e's
+ * own money. See README "### Currency".
+ *
+ * 1. Relabel the four coins. `itempiles-pf2e/module.js` registers them with
+ *    hardcoded names and `abbreviation: "{#}GP"` strings, which do NOT read
+ *    PF2e's i18n, so the lang/en.json rename does not reach them.
+ *
+ * 2. Register the Butcher's Marks as SECONDARY currencies. Item Piles gives a
+ *    secondary currency `totalCost: 0` and excludes it from the primary
+ *    exchange math (see `getItemFlagPriceData` in item-piles.js), so it can be
+ *    held, priced and spent while having no rate to credits. That is exactly
+ *    what the setting says a mark is.
+ *
+ * Both live in world settings (`item-piles.currencies` /
+ * `item-piles.secondaryCurrencies`) -- there is no API setter, only getters
+ * over `getSetting(...)`. So this is a stamped one-shot in the same style as
+ * the language-rarity pass above: a GM who edits a currency by hand keeps that
+ * edit, and only a genuine change to the shipped map writes again.
+ */
+const CINDERFALL_COIN_LABELS = {
+  "Platinum Pieces": { name: "Packet", abbreviation: "{#}pk" },
+  "Gold Pieces": { name: "Credit", abbreviation: "{#}cr" },
+  "Silver Pieces": { name: "Byte", abbreviation: "{#}by" },
+  "Copper Pieces": { name: "Bit", abbreviation: "{#}bt" },
+};
+
+// exchangeRate is deliberately absent. A secondary currency that carries one
+// is convertible, and "no posted rate" is the whole point of a mark.
+const CINDERFALL_MARKS = [
+  { item: "Plate", abbreviation: "{#}pl" },
+  { item: "Mark", abbreviation: "{#}mk" },
+];
+
+async function resolveEquipmentUuid(name) {
+  const pack = game.packs.get(`${MODULE_ID}.equipment`);
+  if (!pack) return null;
+  // Resolved from the live index rather than hardcoded: build_pack.py assigns
+  // the _id, so an id pinned here would silently rot on the next rebuild.
+  const entry = (await pack.getIndex()).find((e) => e.name === name);
+  return entry ? `Compendium.${MODULE_ID}.equipment.${entry._id}` : null;
+}
+
+Hooks.once("ready", async () => {
+  if (!game.user.isGM) return;
+  if (!game.modules.get("item-piles")?.active) return;
+  if (game.system.id !== "pf2e") return;
+
+  const stamp = JSON.stringify({ CINDERFALL_COIN_LABELS, CINDERFALL_MARKS, v: 1 });
+  if (game.settings.get(MODULE_ID, "itemPilesCurrencyStamp") === stamp) return;
+
+  // --- 1. relabel the four coins -------------------------------------------
+  const coins = foundry.utils.deepClone(game.settings.get("item-piles", "currencies") ?? []);
+  if (!coins.length) {
+    console.warn(`${MODULE_ID} | item-piles has no currencies yet; skipping relabel`);
+    return;
+  }
+  const renamed = [];
+  for (const c of coins) {
+    const label = CINDERFALL_COIN_LABELS[c.name];
+    if (!label) continue;             // already renamed, or a currency we do not own
+    c.name = label.name;
+    c.abbreviation = label.abbreviation;
+    renamed.push(label.name);
+  }
+
+  // --- 2. register the Marks as secondary currencies ------------------------
+  const secondary = foundry.utils.deepClone(
+    game.settings.get("item-piles", "secondaryCurrencies") ?? [],
+  );
+  const added = [];
+  for (const mark of CINDERFALL_MARKS) {
+    if (secondary.some((s) => s.name === mark.item)) continue;   // GM already has it
+    const uuid = await resolveEquipmentUuid(mark.item);
+    if (!uuid) {
+      console.warn(`${MODULE_ID} | no "${mark.item}" in the equipment pack; not registered`);
+      continue;
+    }
+    const source = await fromUuid(uuid);
+    secondary.push({
+      type: "item",
+      name: mark.item,
+      img: source?.img ?? "icons/svg/coins.svg",
+      abbreviation: mark.abbreviation,
+      data: { uuid },
+    });
+    added.push(mark.item);
+  }
+
+  if (renamed.length) await game.settings.set("item-piles", "currencies", coins);
+  if (added.length) await game.settings.set("item-piles", "secondaryCurrencies", secondary);
+  await game.settings.set(MODULE_ID, "itemPilesCurrencyStamp", stamp);
+  console.log(`${MODULE_ID} | item-piles currencies -- renamed:`, renamed, "secondary:", added);
 });

@@ -209,6 +209,49 @@ via `game.itempiles.API.addSystemIntegration`, each with its own literal
 `exchangeRate: 1`). Its labels come from that array, not from PF2e's i18n, so a
 complete rename means overriding the Item Piles config too. Not done here.
 
+### The Butcher's Marks
+
+Marks are the setting's second currency -- hard coin, the Butcher's own, and
+explicitly rateless (`site/pages/bio-augmentation.html`: "no rate"). They cannot
+live in `system.price.value`: `CURRENCY_DENOMINATIONS` is frozen to
+`["pp","gp","sp","cp","credits","upb"]` (`values.ts:43`), `RawCoins` is
+`{pp?,gp?,sp?,cp?}` (`data.ts:132`), and `document.ts:274` re-runs
+`normalized()` on every prepare, so an unknown key is stripped.
+
+Item Piles has the concept instead. A **secondary currency** gets `totalCost: 0`
+and is excluded from the primary exchange math (`getItemFlagPriceData` in
+`item-piles.js`), so it is held and spent but never converted. Per-item prices
+live in `flags["item-piles"].item.prices` -- an array of price *groups*
+(alternative payment options), each entry carrying `quantity`, its own
+`abbreviation`, and a `fixed` flag that ignores merchant modifiers. Setting
+`disableNormalCost: true` on an item removes its credit price entirely, so
+Marks become the only accepted payment.
+
+Two denominations ship in `packs-source/equipment/`: **Mark** (`{#}mk`) and
+**Plate** (`{#}pl`, 100 marks). The second exists because the bio-augment table
+spans 20 to 21,000 marks; a plate turns 21,000 into 210.
+
+**Neither is `category: "coin"`, and that is load-bearing.**
+`PhysicalItemPF2e.isCoinage` is exactly `system.category === "coin"` (`pf2e.mjs`,
+`TreasurePF2e`), and a coin-category treasure dropped on an actor is **deleted**
+and folded into the coin pool via `addCoins(assetValue)`. A Mark has no gp
+value, so `category: "coin"` would make every Mark a player picked up vanish
+silently. `category: "material"` keeps it an ordinary item PF2e never converts.
+Their `price.value` is `{}` for the same reason: nothing can buy or sell a Mark
+for credits.
+
+`scripts/main.js` writes both the relabel and the secondary registration to the
+Item Piles world settings (`item-piles.currencies` /
+`item-piles.secondaryCurrencies` -- the API exposes getters over `getSetting`
+only, no setters). It is stamped the same way the language-rarity pass is, so a
+GM who edits a currency by hand keeps that edit. The Mark UUIDs are resolved
+from the live pack index rather than hardcoded, since `build_pack.py` assigns
+the `_id`.
+
+Still to do: the ~63 mark prices on the bio-augments are not yet written as
+Item Piles price flags. Item art is placeholder (PF2e's `upb.webp` and
+`platinum-pieces.webp`).
+
 `tests/currency-labels.test.mjs` covers the data: every denomination renamed, no
 two sharing a name or abbreviation, no vanilla metal left through, and the keys
 written flat rather than as a nested `PF2E` object (which Foundry would
