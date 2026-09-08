@@ -26,6 +26,13 @@ Hooks.once("init", () => {
     type: String,
     default: "",
   });
+  // And for the merchant-sheet rarity column extended at the bottom of this file.
+  game.settings.register(MODULE_ID, "itemPilesRarityStamp", {
+    scope: "world",
+    config: false,
+    type: String,
+    default: "",
+  });
 });
 
 Hooks.once("ready", () => {
@@ -521,4 +528,53 @@ async function cinderfallMarkPrice(quantity, { disableNormalCost = true } = {}) 
 Hooks.once("ready", () => {
   const module = game.modules.get(MODULE_ID);
   if (module) module.api = { ...(module.api ?? {}), cinderfallMarkPrice, CINDERFALL_MARKS };
+});
+
+/**
+ * Teach the Item Piles merchant sheet Cinderfall's rarity tiers.
+ *
+ * The pf2e integration ships a "Rarity" column in `item-piles.pileDefaults`
+ * (`merchantColumns`) whose `mapping` turns a rarity slug into an i18n key. It
+ * knows PF2e's four: common, uncommon, rare, unique. This module registers four
+ * more -- epic, legendary, mythic, exotic (see applyRarityTiers above) -- and an
+ * unmapped slug renders raw in that column, so an epic item on a shelf reads
+ * "epic" while the one beside it reads "Rare".
+ *
+ * The keys come from module.json's rarityTiers, which is the same map that
+ * feeds CONFIG.PF2E.rarityTraits, so the sheet and the rest of the game cannot
+ * disagree about a tier's label.
+ *
+ * Stamped like the currency write: a GM who edits the column keeps their edit.
+ * Additive only -- other columns, and PF2e's own four rarities, are untouched.
+ */
+Hooks.once("ready", async () => {
+  if (!game.user.isGM) return;
+  if (!game.modules.get("item-piles")?.active) return;
+
+  const tiers = game.modules.get(MODULE_ID)?.flags?.[MODULE_ID]?.rarityTiers;
+  if (!tiers) return;
+
+  const stamp = JSON.stringify({ tiers, v: 1 });
+  if (game.settings.get(MODULE_ID, "itemPilesRarityStamp") === stamp) return;
+
+  const defaults = foundry.utils.deepClone(game.settings.get("item-piles", "pileDefaults") ?? {});
+  const column = (defaults.merchantColumns ?? []).find((c) => c.path === "system.traits.rarity");
+  if (!column) {
+    console.warn(`${MODULE_ID} | item-piles has no rarity column to extend; skipping`);
+    return;
+  }
+
+  const added = [];
+  column.mapping = column.mapping ?? {};
+  for (const [slug, key] of Object.entries(tiers)) {
+    if (column.mapping[slug]) continue;   // never overwrite an existing label
+    column.mapping[slug] = key;
+    added.push(slug);
+  }
+
+  if (added.length) {
+    await game.settings.set("item-piles", "pileDefaults", defaults);
+    console.log(`${MODULE_ID} | taught the item-piles merchant sheet ${added.length} rarity tier(s)`, added);
+  }
+  await game.settings.set(MODULE_ID, "itemPilesRarityStamp", stamp);
 });
