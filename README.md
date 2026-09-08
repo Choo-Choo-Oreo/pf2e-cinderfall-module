@@ -97,8 +97,7 @@ Then relaunch the world and check the packs in the sidebar.
 
 ## Status
 
-**8 compiled packs, 346 documents** (verified live in Foundry 14.361 /
-pf2e 8.5.0 on 2026-09-07):
+**10 declared packs, 1907 documents** (counts from `build_pack.py`, 2026-09-08):
 
 | pack | type | documents |
 |---|---|---|
@@ -106,10 +105,29 @@ pf2e 8.5.0 on 2026-09-07):
 | ancestry-features | Item | 33 |
 | heritages | Item | 34 |
 | backgrounds | Item | 11 |
-| feats | Item | 163 |
+| feats | Item | 1627 |
+| classes | Item | 1 |
 | deities | Item | 14 |
-| equipment | Item | 48 |
+| equipment | Item | 143 |
 | bestiary | Actor | 32 |
+| npcs | Actor | 1 |
+
+STALE as of 2026-09-08: this table read "8 compiled packs, 346 documents" with
+feats at 163 and equipment at 48, and omitted `classes` entirely — the counts
+were from 2026-09-07 and the conversion work has moved a long way since.
+
+`build_pack.py` also builds an **eleventh** pack, `packs/journals` (53
+documents), which `module.json` does not declare — so Foundry never loads it.
+Noticed while adding `npcs`; not fixed here, as the journal work is in flight
+elsewhere. See the note in `.claude/docs/todo.md`.
+
+`npcs` holds one-off NPCs, as distinct from `bestiary`'s reusable enemy
+definitions. Its records carry live module configuration rather than statblocks
+alone: **The Butcher** ships with his `flags.item-piles` merchant block and
+priced stock baked in, so importing him gives a working shop with no setup. That
+block is exported from a verified working actor, never hand-authored — five of
+its flags fail *silently* when wrong, and `tests/merchant.test.mjs` asserts each
+of them (read the header of that file before adding another merchant).
 
 Verified live: all 8 packs load; a `Cinderfall Equipment` weapon resolves with
 its price in gp and both `flags.cinderfall` blocks intact; a `Cinderfall
