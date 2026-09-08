@@ -29,46 +29,53 @@ Hooks.once("ready", () => {
  *
  * The site authors eight tiers as `cc-tier-*` classes on the card pages --
  * common, uncommon, rare, epic, legendary, mythic, exotic, unique -- while
- * PF2e ships four. The extra four are merged into CONFIG.PF2E.rarityTraits
- * from module.json flags so they render wherever PF2e reads that record:
- * item sheets (item/base/sheet/sheet.ts:161), chat-card traits
- * (item/physical/document.ts:782), and the compendium browser's rarity filter
- * (tabs/equipment.ts:149), which builds its checkboxes by mapping whatever
- * record it is handed (tabs/base.svelte.ts:274). CONFIG.PF2E is a plain
- * object and the system never freezes it.
+ * PF2e ships four. Registering them takes TWO separate things, because the
+ * label and the stored value are separate gates:
  *
- * This registers the LABEL only. Whether a foreign value survives document
- * validation is a separate question -- RARITIES is frozen and used as
- * `choices` on RarityField (module/model.ts:7) -- and is measured against a
- * live world rather than asserted here. See README.
+ *  1. CONFIG.PF2E.rarityTraits -- the label. Every sheet, chat card and the
+ *     compendium browser filter reads this record and nothing else
+ *     (item/base/sheet/sheet.ts:161, item/physical/document.ts:782,
+ *     tabs/base.svelte.ts:274). CONFIG.PF2E is a plain object, never frozen.
+ *  2. `choices` on every rarity field -- the stored value. A schema-backed
+ *     document validates against PF2e's frozen RARITIES via RarityField
+ *     (module/model.ts:7). Without this, a tier shows in the dropdown and
+ *     then fails to save: "rarity: <tier> is not a valid choice".
  *
- * Runs on `setup`, not `init`: PF2e populates CONFIG.PF2E during its own init
- * hook, and hook order between a system and a module is not guaranteed.
+ * TIMING IS LOAD-BEARING, and getting it wrong is silent. Foundry's order is
+ * init -> initializePacks -> initializeDocuments -> setup -> ready, so every
+ * world document AND every compendium document is constructed and validated
+ * BEFORE `setup` runs. Doing this on `setup` (as this module did until
+ * 2026-09-07) widens the ladder in time for later edits but not in time for
+ * load: existing documents at a Cinderfall tier get flagged in Support &
+ * Issues > Document Issues on every boot, while new edits appear to work
+ * fine. That asymmetry is what makes it easy to miss.
+ *
+ * So this runs on `init`. CONFIG.Item/Actor.dataModels are assigned at script
+ * evaluation time (scripts/hooks/load.ts:63, "not an actual hook listener"),
+ * which is before any hook, so the schemas are always reachable here. But
+ * CONFIG.PF2E is assigned in PF2e's own `init` listener (hooks/init.ts:33),
+ * and listener order between a system and a module is not guaranteed -- so
+ * the label half falls back to a `setup` catch-up if it was not ready yet.
+ * Both halves are idempotent.
  */
-Hooks.once("setup", () => {
+function applyRarityTiers(phase) {
   const tiers = game.modules.get(MODULE_ID)?.flags?.[MODULE_ID]?.rarityTiers;
   if (!tiers) return;
-  if (!CONFIG.PF2E?.rarityTraits) {
-    console.warn(`${MODULE_ID} | CONFIG.PF2E.rarityTraits absent; rarity tiers not registered`);
-    return;
-  }
-  Object.assign(CONFIG.PF2E.rarityTraits, tiers);
-  console.log(`${MODULE_ID} | registered rarity tiers`, Object.keys(tiers));
-
-  // Labels alone are not enough. A schema-backed document validates rarity
-  // against `choices` on its RarityField (pf2e module/model.ts:7), which is
-  // PF2e's frozen RARITIES array -- so a sheet edit to a Cinderfall tier fails
-  // with "rarity: <tier> is not a valid choice" even though the dropdown offers
-  // it. Measured 2026-09-07 on pf2e 8.5.0 / Foundry 14.361.
-  //
-  // Note this only bites SOME types: in 8.5.0 only 10 item types and 6 actor
-  // types are registered as DataModels (pf2e scripts/hooks/load.ts:102-122).
-  // equipment, weapon and armor are NOT among them, so they carry no schema and
-  // accept any string -- which is why an unvalidated write path stores junk
-  // happily. Do not read that as "rarity is unvalidated"; it type-depends.
-  //
-  // RARITIES is Object.freeze'd, so the array is REPLACED, never pushed to.
   const extra = Object.keys(tiers);
+
+  // 1. Labels -- only possible once PF2e has populated CONFIG.PF2E.
+  if (CONFIG.PF2E?.rarityTraits) {
+    const missing = extra.filter((t) => !(t in CONFIG.PF2E.rarityTraits));
+    if (missing.length) {
+      Object.assign(CONFIG.PF2E.rarityTraits, tiers);
+      console.log(`${MODULE_ID} | registered rarity tiers on ${phase}`, extra);
+    }
+  } else if (phase === "setup") {
+    console.warn(`${MODULE_ID} | CONFIG.PF2E.rarityTraits absent at setup; labels not registered`);
+  }
+
+  // 2. Validation choices. RARITIES is Object.freeze'd, so the array is
+  //    REPLACED, never pushed to.
   const patched = [];
   for (const [group, cfg] of [["Item", CONFIG.Item], ["Actor", CONFIG.Actor]]) {
     for (const [docType, cls] of Object.entries(cfg?.dataModels ?? {})) {
@@ -79,16 +86,14 @@ Hooks.once("setup", () => {
       }
     }
   }
-  console.log(`${MODULE_ID} | extended rarity choices on ${patched.length} field(s)`, patched);
-});
+  if (patched.length) {
+    console.log(`${MODULE_ID} | extended rarity choices on ${patched.length} field(s) at ${phase}`, patched);
+  }
+}
 
-/**
- * Walk a SchemaField and widen the `choices` of every `rarity` StringField.
- *
- * Recurses because rarity sits at system.traits.rarity on items but is nested
- * differently on some actors; a name-and-shape match is more durable than a
- * hardcoded path. Depth-capped so a self-referential schema cannot hang setup.
- */
+Hooks.once("init", () => applyRarityTiers("init"));
+Hooks.once("setup", () => applyRarityTiers("setup"));
+
 function extendRarityChoices(schema, extra, found, path = "", depth = 0) {
   if (!schema?.fields || depth > 6) return;
   for (const [key, field] of Object.entries(schema.fields)) {

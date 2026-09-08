@@ -209,6 +209,22 @@ freezes. `scripts/main.js` registers `epic`, `legendary`, `mythic` and `exotic`
 into it on `setup` from `module.json` flags, with colours in
 `styles/pf2e-cinderfall-module.css`.
 
+*Timing is load-bearing, and getting it wrong is silent.* Foundry's order is
+`init` -> `initializePacks` -> `initializeDocuments` -> `setup` -> `ready`, so
+every world AND compendium document is constructed and validated BEFORE `setup`
+runs. Registering on `setup` widens the ladder in time for later edits but not
+in time for load: a stored document at a Cinderfall tier is rejected at
+construction and parked in `invalidDocumentIds` -- it vanishes from
+`game.items.get()` and appears under Support & Issues > Document Issues -- while
+every in-session edit keeps working. Measured 2026-09-07: with `setup` timing,
+1 invalid world item and `game.items.get(<id>)` returning nothing; with `init`
+timing, 0 invalid and the same id reading `epic`. Registration therefore happens
+on `init`, where `CONFIG.Item/Actor.dataModels` is already populated because
+PF2e assigns it at script-evaluation time (`scripts/hooks/load.ts:63`). The
+label half keeps a `setup` fallback, since `CONFIG.PF2E` is assigned in PF2e's
+own `init` listener (`hooks/init.ts:33`) and listener order between a system and
+a module is not guaranteed.
+
 *The storage side needed a second patch, and now works.* Labels alone are not
 enough: a schema-backed document validates rarity against `choices` on its
 `RarityField` (pf2e `module/model.ts:7`), which is the frozen `RARITIES` array,
