@@ -135,6 +135,18 @@
         "ASSISTANT": "OWNER"
       },
       "flags": {}
+    },
+    {
+      "name": "npcs",
+      "label": "Cinderfall NPCs",
+      "path": "packs/npcs",
+      "type": "Actor",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
     }
   ],
   "packFolders": [

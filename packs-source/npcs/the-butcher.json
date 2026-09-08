@@ -1,0 +1,641 @@
+{
+  "name": "The Butcher",
+  "type": "npc",
+  "img": "systems/pf2e/icons/default-icons/npc.svg",
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 135,
+        "temp": 0,
+        "max": 135,
+        "details": ""
+      },
+      "ac": {
+        "value": 26,
+        "details": ""
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "speed": {
+        "value": 25,
+        "otherSpeeds": [],
+        "details": ""
+      },
+      "immunities": [],
+      "weaknesses": [],
+      "resistances": []
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "details": {
+      "languages": {
+        "value": [
+          "Common Cant"
+        ],
+        "details": ""
+      },
+      "level": {
+        "value": 8
+      },
+      "blurb": "The only surgeon who will put meat in you and not ask where it came from. Deals in marks, and only marks.",
+      "publicNotes": "<p>There is no shop counter for bio-augmentation. There is the Butcher.</p><p>He works out of a room with a table, a knife and a recovery cot, and he keeps his own books. Prices are quoted in <strong>marks</strong> — hard coin, his own, off every Cyber City ledger. No rate to credits is posted anywhere and none is coming; what a mark is worth today is whatever he says it is.</p><p>He will buy back what he sold you. He will not pay what he charged.</p>",
+      "privateNotes": "",
+      "publication": {
+        "title": "",
+        "authors": "",
+        "license": "OGL",
+        "remaster": false
+      },
+      "alliance": null
+    },
+    "resources": {},
+    "_migration": {
+      "version": null,
+      "previous": null
+    },
+    "abilities": {
+      "str": {
+        "mod": 4
+      },
+      "dex": {
+        "mod": 3
+      },
+      "con": {
+        "mod": 4
+      },
+      "int": {
+        "mod": 5
+      },
+      "wis": {
+        "mod": 3
+      },
+      "cha": {
+        "mod": 1
+      }
+    },
+    "perception": {
+      "details": "",
+      "mod": 16,
+      "senses": [],
+      "vision": true
+    },
+    "saves": {
+      "fortitude": {
+        "value": 18,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 14,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 16,
+        "saveDetail": ""
+      }
+    },
+    "skills": {
+      "medicine": {
+        "base": 20
+      },
+      "crafting": {
+        "base": 18
+      },
+      "society": {
+        "base": 14
+      },
+      "intimidation": {
+        "base": 15
+      },
+      "occultism": {
+        "base": 16
+      }
+    },
+    "traits": {
+      "value": [
+        "human",
+        "humanoid"
+      ],
+      "rarity": "unique",
+      "size": {
+        "value": "med"
+      }
+    }
+  },
+  "_id": "TBL1UTdrOgomrFSe",
+  "items": [
+    {
+      "_id": "1HhHH5HU4bXFlomv",
+      "name": "Bone Saw",
+      "type": "melee",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "sort": 0,
+      "system": {
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "versatile-p"
+          ],
+          "config": {}
+        },
+        "action": "strike",
+        "area": null,
+        "damageRolls": {
+          "wDVBwZfwXKshNFYZ": {
+            "damage": "2d8+7",
+            "damageType": "slashing",
+            "category": null
+          }
+        },
+        "bonus": {
+          "value": 18
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "range": null,
+        "subjectToMAP": true,
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "_migration": {
+          "version": 0.959,
+          "previous": {
+            "schema": null,
+            "foundry": "14.361",
+            "system": "8.5.0"
+          }
+        }
+      }
+    },
+    {
+      "_id": "BkOdgEeldVbO4NBU",
+      "name": "Bolt Driver",
+      "type": "melee",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "sort": 0,
+      "system": {
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "config": {}
+        },
+        "action": "strike",
+        "area": null,
+        "damageRolls": {
+          "LCq3ZkHDsp4P0xwi": {
+            "damage": "2d6+4",
+            "damageType": "piercing",
+            "category": null
+          }
+        },
+        "bonus": {
+          "value": 15
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "range": {
+          "increment": 30,
+          "max": null
+        },
+        "subjectToMAP": true,
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "_migration": {
+          "version": 0.959,
+          "previous": {
+            "schema": null,
+            "foundry": "14.361",
+            "system": "8.5.0"
+          }
+        }
+      }
+    },
+    {
+      "_id": "0yLSTuDMEO5mwoqh",
+      "name": "Soot-Mark",
+      "type": "equipment",
+      "img": "systems/pf2e/icons/equipment/treasure/currency/upb.webp",
+      "sort": 0,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Grade 1 bio-augment. Priced in marks. The Butcher takes nothing else.</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.959,
+          "lastMigration": null,
+          "previous": {
+            "schema": null,
+            "foundry": "14.361",
+            "system": "8.5.0"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "rare"
+        },
+        "publication": {
+          "title": "Cinderfall",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 3
+        },
+        "quantity": 2,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {}
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null,
+          "handsHeld": 0
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "subitems": []
+      },
+      "flags": {
+        "item-piles": {
+          "item": {
+            "disableNormalCost": true,
+            "purchaseOptionsAsSellOption": true,
+            "keepOnMerchant": true,
+            "prices": [
+              [
+                {
+                  "type": "item",
+                  "name": "Mark",
+                  "img": "systems/pf2e/icons/equipment/treasure/currency/upb.webp",
+                  "abbreviation": "{#}mk",
+                  "data": {
+                    "uuid": "Compendium.pf2e-cinderfall-module.equipment.nDN9mERaLucoBQsK"
+                  },
+                  "quantity": 36,
+                  "fixed": false,
+                  "secondary": true
+                }
+              ]
+            ]
+          }
+        }
+      }
+    },
+    {
+      "_id": "egQLzCHqIZgBm9e0",
+      "name": "Ballast Gut-Plate",
+      "type": "equipment",
+      "img": "systems/pf2e/icons/equipment/treasure/currency/upb.webp",
+      "sort": 0,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Grade 3 bio-augment. Priced in marks. The Butcher takes nothing else.</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.959,
+          "lastMigration": null,
+          "previous": {
+            "schema": null,
+            "foundry": "14.361",
+            "system": "8.5.0"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "rare"
+        },
+        "publication": {
+          "title": "Cinderfall",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 12
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {}
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "subitems": []
+      },
+      "flags": {
+        "item-piles": {
+          "item": {
+            "disableNormalCost": true,
+            "purchaseOptionsAsSellOption": true,
+            "keepOnMerchant": true,
+            "prices": [
+              [
+                {
+                  "type": "item",
+                  "name": "Mark",
+                  "img": "systems/pf2e/icons/equipment/treasure/currency/upb.webp",
+                  "abbreviation": "{#}mk",
+                  "data": {
+                    "uuid": "Compendium.pf2e-cinderfall-module.equipment.nDN9mERaLucoBQsK"
+                  },
+                  "quantity": 3000,
+                  "fixed": false,
+                  "secondary": true
+                }
+              ]
+            ]
+          }
+        }
+      }
+    },
+    {
+      "_id": "edXVpB011EBgPoQa",
+      "name": "Second Heart",
+      "type": "equipment",
+      "img": "systems/pf2e/icons/equipment/treasure/currency/upb.webp",
+      "sort": 0,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Grade 5 bio-augment. Priced in marks. The Butcher takes nothing else.</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.959,
+          "lastMigration": null,
+          "previous": {
+            "schema": null,
+            "foundry": "14.361",
+            "system": "8.5.0"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "rare"
+        },
+        "publication": {
+          "title": "Cinderfall",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 18
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {}
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "subitems": []
+      },
+      "flags": {
+        "item-piles": {
+          "item": {
+            "disableNormalCost": true,
+            "purchaseOptionsAsSellOption": true,
+            "keepOnMerchant": true,
+            "prices": [
+              [
+                {
+                  "type": "item",
+                  "name": "Mark",
+                  "img": "systems/pf2e/icons/equipment/treasure/currency/upb.webp",
+                  "abbreviation": "{#}mk",
+                  "data": {
+                    "uuid": "Compendium.pf2e-cinderfall-module.equipment.nDN9mERaLucoBQsK"
+                  },
+                  "quantity": 21000,
+                  "fixed": false,
+                  "secondary": true
+                }
+              ]
+            ]
+          }
+        }
+      }
+    },
+    {
+      "_id": "xhm6JxMOHG8m3rql",
+      "name": "Mark",
+      "type": "treasure",
+      "img": "systems/pf2e/icons/equipment/treasure/currency/upb.webp",
+      "sort": 0,
+      "system": {
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "category": "material",
+        "containerId": null,
+        "description": {
+          "value": "<p>A stamped slug of grey metal, thumb-width, the Butcher's mark struck into one face and nothing at all on the other. Hard coin, and his own. Nobody else on the map quotes a price in marks and there is no posted rate to credits — what a mark is worth today is whatever he says it is. He deals in these first for the obvious reason: no Cyber City ledger, no digital trail.</p>",
+          "gm": ""
+        },
+        "hardness": 0,
+        "hp": {
+          "max": 0,
+          "value": 0
+        },
+        "level": {
+          "value": 0
+        },
+        "material": {
+          "grade": null,
+          "type": null
+        },
+        "price": {
+          "value": {},
+          "per": 1
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Cinderfall",
+          "authors": ""
+        },
+        "quantity": 90,
+        "rules": [],
+        "size": "med",
+        "traits": {
+          "rarity": "uncommon",
+          "value": [],
+          "otherTags": []
+        },
+        "slug": null,
+        "_migration": {
+          "version": 0.959,
+          "previous": {
+            "schema": null,
+            "foundry": "14.361",
+            "system": "8.5.0"
+          }
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": null
+        },
+        "temporary": false
+      }
+    }
+  ],
+  "flags": {
+    "item-piles": {
+      "data": {
+        "enabled": true,
+        "type": "merchant",
+        "distance": 5,
+        "description": "Bio-augmentation. Marks only. No rate posted, and none coming.",
+        "infiniteQuantity": true,
+        "onlyAcceptBasePrice": false,
+        "keepZeroQuantity": true,
+        "displayQuantity": "no"
+      },
+      "version": "3.3.4"
+    },
+    "cinderfall": {
+      "role": "merchant",
+      "currency": "Mark",
+      "note": "Item Piles merchant, shipped pre-configured. The three flags that are load-bearing and fail SILENTLY if wrong: actor onlyAcceptBasePrice=false (true makes a sell-back fall through to the item's normal cost, which is disabled here, so he would offer nothing for everything); item purchaseOptionsAsSellOption=true (gates whether the item's own price list is offered when the merchant is the buyer); and price fixed=false (fixed=true pins the modifier to 1, so buyback would pay the full asking price). A price entry also needs secondary=true or getItemFlagPriceData multiplies the mark by an absent exchangeRate and renders nothing.",
+      "sellPriceModifier": "default (0.5) -- he buys back at half",
+      "removedOnExport": [
+        "flags.item-piles.data.tablesForPopulate pointed at a world RollTable (RollTable.i6Byvno5eg4V2C6D). A compendium actor cannot resolve a world uuid, so restock-from-table is configured per world, not shipped."
+      ]
+    }
+  },
+  "prototypeToken": {
+    "name": "The Butcher",
+    "actorLink": true,
+    "disposition": 0,
+    "sight": {
+      "enabled": true
+    }
+  }
+}
