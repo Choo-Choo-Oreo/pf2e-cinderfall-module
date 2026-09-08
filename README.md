@@ -303,6 +303,15 @@ flag set, exposed on `game.modules.get("pf2e-cinderfall-module").api`. Anything
 writing a mark price should go through it rather than hand-rolling the object --
 which is how this was got wrong the first time.
 
+**The price flag belongs on the SOURCE item, not the merchant's copy.** A
+merchant holds embedded copies; a roll table hands out fresh ones cloned from the
+source. Fixing the copies fixes the shelf and nothing else, so the next restock
+quietly reintroduces whatever the source still says. Measured 2026-09-07: after
+the merchant's three items priced correctly, the three world items behind the
+roll table still read `36mk` with no `secondary` flag and `30pl` / `210pl` in a
+currency that no longer exists. That matters for the ~63 bio-augment prices --
+they go on the compendium items, so any merchant stocking one inherits the price.
+
 Confirmed both directions against the closed world's LevelDB: replaying the
 pre-fix flags through the same lookup reproduces `NaN -> [] -> ""` on all three
 items, and the post-fix flags classify as secondary with `totalCost: 0` and
