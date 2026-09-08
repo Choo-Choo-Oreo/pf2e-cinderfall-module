@@ -42,6 +42,19 @@
   opacity: 0.6;
 }
 
+/* A multi-slot item is listed once per slot it occupies; this badge is what
+   says those rows are one item. Its tooltip is the verbatim page slot line. */
+.cinderfall-slot-multi {
+  flex: 0 0 auto;
+  margin-right: 0.35em;
+  padding: 0 0.35em;
+  border: 1px solid var(--color-border-dark-3, #7a7971);
+  border-radius: 3px;
+  font-size: 0.8em;
+  opacity: 0.75;
+  cursor: help;
+}
+
 .cinderfall-slot-delete,
 .cinderfall-slot-add {
   cursor: pointer;

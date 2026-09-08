@@ -42,9 +42,14 @@ Built to the structure and manifest fields described in Foundry's own
   (bodyParts/bodyWhole/inlays) are summed from `flags.cinderfall` across
   every item on the actor, not hardcoded — a future heritage/background/feat
   that carries its own `flags.cinderfall` block adds slots automatically.
-  Each slot is a free-text field saved to
-  `flags["pf2e-cinderfall-module"].installed`; no drag-and-drop or capacity
-  validation yet. PF2e has no rule element for adding a new labeled feat-slot
+  What *fills* a slot is a real embedded Item, bucketed by its
+  `flags.cinderfall.slots` array (the atomic keys) — **not** by
+  `flags.cinderfall.slot`, which is the verbatim page string
+  (`"Frame + Dermal + Viscera (Multi-Slot)"`) that `tools/cards/check.py`
+  compares byte-for-byte against the site and so must never be parsed. An item
+  whose `slots` has more than one key fills one slot in each and is badged
+  `×N`. No drag-and-drop or capacity validation yet. PF2e has no rule element
+  for adding a new labeled feat-slot
   group to the real Feats tab (checked against the system's own rule-element
   wiki), so this lives as its own tab instead of piggybacking on Feats.
 
@@ -431,6 +436,9 @@ the site repo.
 
 `scripts/body-tab.js` adds a "Body" tab to the PF2e character sheet for
 tracking bio-augmentation, cybernetics and mutations against the ancestry's
-body-slot data. **Its slot keys do not yet match the "Nine Slots" table the
-augmentation pages author** -- see the note at the top of that file. That
-conflict is unresolved and blocks converting the 241 augment records.
+body-slot data. The "Nine Slots" (Ocular, Neural, Frame, Dermal, Arm, Legs,
+Viscera, Circulatory, Inlays) are canon as of the owner ruling 2026-09-07, and
+both sides now speak them: the 11 ancestries supply exactly those nine, and the
+slotted cards demand exactly those nine, zero unmatched either way
+(`node tests/body-slots.test.mjs`). The taxonomy conflict that previously
+blocked the augment conversion is closed.

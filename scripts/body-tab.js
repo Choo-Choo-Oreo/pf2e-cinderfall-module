@@ -16,20 +16,41 @@ const TAB_KEY = "cinderfall-body";
  * 11/11, each 8 parts / 5 systems / 3 inlays); a future heritage/background/
  * feat can add its own flags.cinderfall block and grow the list automatically.
  *
- * NOTE 2026-09-07: these slot keys do NOT match the "Nine Slots" table the
- * bio-/cyber-augmentation pages author (Ocular, Neural, Frame, Dermal, Arm
- * L/R, Legs, Viscera, Circulatory). Known conflicts: circuitry vs
- * Circulatory, legs x2 here vs one paired Legs slot there, and heads/torsos
- * with no page equivalent. Unresolved -- do not convert augments onto slot
- * keys until the owner rules which taxonomy is canon.
- * "Body Parts" slots (eyes, hands, legs, ...) are for things that affect one
- * limb/organ; "Body Systems" slots (skeleton, neural, circuitry, dermal,
- * viscera) are for things that affect the whole body (e.g. acidic blood is
- * a viscera-wide effect, not an eyes/hands one) -- both come from the same
- * ancestry data, just different sub-keys.
+ * The "Nine Slots" are canon -- owner ruling 2026-09-07, and the ancestry
+ * blocks were rewritten onto them (circuitry -> Circulatory, legs x2 -> one
+ * paired Legs, heads/torsos -> unmappedBodyParts). Supply and demand agree:
+ * the 11 ancestries supply exactly these nine and the augments/mutations
+ * demand exactly these nine, with zero unmatched either way.
  *
- * What OCCUPIES a slot is a real embedded Item (type "equipment"), tagged
- * `flags.cinderfall.slot = {category, key}` matching the slot it belongs to.
+ *   bodyParts   Ocular, Arm, Legs       affect one limb/organ. "Arm" is ONE
+ *                                       slot covering both arms (GM ruling:
+ *                                       augments balance per pair,
+ *                                       floor(n/2)) -- not Arm-L / Arm-R.
+ *   bodyWhole   Frame, Neural,          whole-body systems: acidic blood is
+ *               Circulatory, Dermal,    a Viscera-wide effect, not an
+ *               Viscera                 Ocular or Arm one.
+ *   inlays      Inlays                  counted, not named. The supply side
+ *                                       is flags.cinderfall.inlays.capacity,
+ *                                       a number -- do NOT rename that key
+ *                                       to {Inlays: n}; collectSlotCounts
+ *                                       reads .capacity, and the rename
+ *                                       would silently zero every character.
+ *
+ * What OCCUPIES a slot is a real embedded Item, tagged by the card data:
+ *   flags.cinderfall.slot      the VERBATIM page string, NEVER parsed here.
+ *                              Real values include "Arm - Left / Right",
+ *                              "Frame + Dermal + Viscera (Multi-Slot)" and
+ *                              "Every slot". tools/cards/check.py compares it
+ *                              to the site page byte for byte, so it cannot
+ *                              be reshaped into an object.
+ *   flags.cinderfall.slots     the atomic array, e.g. ["Frame", "Dermal",
+ *                              "Viscera"] -- THIS is what buckets an item.
+ *   flags.cinderfall.slotCost  == slots.length.
+ * An item with slots.length > 1 occupies one slot of EACH key listed, so it
+ * shows up in each of those rows (11 such augments are real). Items this tab
+ * creates write the same shape. The pre-2026-09-08 object shape
+ * ({category, key}) is still read, so items created by an older build of this
+ * tab keep working.
  * Works like feats: a player or GM adds one whenever they like (the "+" on
  * an empty slot creates a blank one and opens its sheet to fill in), and
  * removing one is the normal "delete item" action -- no custom install/
@@ -65,37 +86,98 @@ function capitalize(s) {
   return s.charAt(0).toUpperCase() + s.slice(1);
 }
 
-/** Items already installed in body slots, bucketed by "category:key". */
-function collectInstalled(actor) {
-  const byKey = new Map();
-  for (const item of actor.items) {
-    const slot = item.flags?.cinderfall?.slot;
-    if (!slot) continue;
-    const bucketKey = `${slot.category}:${slot.key}`;
-    if (!byKey.has(bucketKey)) byKey.set(bucketKey, []);
-    byKey.get(bucketKey).push(item);
-  }
-  return byKey;
+/**
+ * Canonical bucket key. Case- and alias-insensitive, so the card data's
+ * "Inlays" and this tab's own older "inlay" land in the same bucket instead
+ * of splitting into two that never meet.
+ */
+const SLOT_ALIASES = { inlay: "inlays" };
+function slotBucketKey(category, key) {
+  const k = String(key ?? "").toLowerCase();
+  return `${String(category ?? "").toLowerCase()}:${SLOT_ALIASES[k] ?? k}`;
 }
 
-function buildSlotRows(category, key, count, installed) {
-  const items = installed.get(`${category}:${key}`) ?? [];
+/**
+ * Which section a canonical slot key belongs to, derived from the SUPPLY side
+ * so that adding a key to an ancestry needs no change here.
+ */
+function categoryForKey(key, counts) {
+  const k = String(key ?? "").toLowerCase();
+  if ((SLOT_ALIASES[k] ?? k) === "inlays") return "inlays";
+  return Object.keys(counts.bodyParts).some((p) => p.toLowerCase() === k) ? "bodyParts" : "bodyWhole";
+}
+
+/**
+ * Items already installed in body slots, bucketed by slotBucketKey().
+ *
+ * Returns { byKey, unassigned }. `unassigned` is every item carrying a
+ * cinderfall slot flag that could not be placed -- it gets rendered rather
+ * than dropped. The version before 2026-09-08 read `slot.category` and
+ * `slot.key` off what the cards actually store as a STRING, so every bucket
+ * key was "undefined:undefined" and all 82 slotted mutations rendered as
+ * empty slots, with no error logged anywhere.
+ */
+function collectInstalled(actor, counts) {
+  const byKey = new Map();
+  const unassigned = [];
+  const push = (bucketKey, item) => {
+    if (!byKey.has(bucketKey)) byKey.set(bucketKey, []);
+    byKey.get(bucketKey).push(item);
+  };
+
+  for (const item of actor.items) {
+    const cf = item.flags?.cinderfall;
+    if (!cf) continue;
+    const slot = cf.slot;
+
+    // Legacy object shape, written by this tab before 2026-09-08.
+    if (slot && typeof slot === "object" && slot.key) {
+      push(slotBucketKey(slot.category ?? categoryForKey(slot.key, counts), slot.key), item);
+      continue;
+    }
+
+    const keys = Array.isArray(cf.slots) ? cf.slots.filter(Boolean) : [];
+    if (!keys.length) {
+      // "Every slot", a trust-gated augment with no slot line, or a shape we
+      // do not know yet. Surfaced, never silently swallowed.
+      if (slot) unassigned.push(item);
+      continue;
+    }
+    for (const key of new Set(keys)) push(slotBucketKey(categoryForKey(key, counts), key), item);
+  }
+  return { byKey, unassigned };
+}
+
+function buildSlotRows(category, key, count, installed, { singular } = {}) {
+  const items = installed.get(slotBucketKey(category, key)) ?? [];
   const rows = [];
+  // Max, not count: an over-installed slot shows the surplus rather than
+  // hiding it behind the supplied count.
   const total = Math.max(count, items.length);
+  const name = singular ?? capitalize(key);
   for (let i = 0; i < total; i++) {
-    const item = items[i] ?? null;
-    const label = count > 1 ? `${capitalize(key)} ${i + 1}` : capitalize(key);
-    rows.push({ category, key, index: i, label, item });
+    rows.push({
+      category, key, index: i,
+      label: total > 1 ? `${name} ${i + 1}` : name,
+      item: items[i] ?? null,
+    });
   }
   return rows;
 }
 
 function rowHTML(row) {
+  const cf = row.item?.flags?.cinderfall;
+  const cost = Number(cf?.slotCost ?? (Array.isArray(cf?.slots) ? cf.slots.length : 1)) || 1;
+  // A multi-slot item is listed in every slot it occupies; this marker is what
+  // tells the player those rows are one item, not several.
+  const multi = cost > 1
+    ? `<span class="cinderfall-slot-multi" data-tooltip="${foundry.utils.escapeHTML(String(cf?.slot ?? ""))}">&times;${cost}</span>`
+    : "";
   const body = row.item
     ? `<a class="cinderfall-slot-item" data-action="edit-item" data-item-id="${row.item.id}">
          <img src="${row.item.img}" width="20" height="20">
          ${foundry.utils.escapeHTML(row.item.name)}
-       </a>
+       </a>${multi}
        <a class="cinderfall-slot-delete" data-action="delete-item" data-item-id="${row.item.id}" data-tooltip="Delete">
          <i class="fa-solid fa-trash"></i>
        </a>`
@@ -107,45 +189,65 @@ function rowHTML(row) {
 }
 
 function buildPanelHTML(actor) {
-  const { bodyParts, bodyWhole, inlays } = collectSlotCounts(actor);
-  const installed = collectInstalled(actor);
-  const hasAny = Object.keys(bodyParts).length || Object.keys(bodyWhole).length || inlays;
+  const counts = collectSlotCounts(actor);
+  const { bodyParts, bodyWhole, inlays } = counts;
+  const { byKey: installed, unassigned } = collectInstalled(actor, counts);
 
-  if (!hasAny) {
+  const section = (title, rows) =>
+    rows.length ? `<h3>${title}</h3><ul class="cinderfall-slot-list">${rows.map(rowHTML).join("")}</ul>` : "";
+
+  const bodyPartsRows = [];
+  for (const [key, count] of Object.entries(bodyParts)) bodyPartsRows.push(...buildSlotRows("bodyParts", key, count, installed));
+
+  const bodyWholeRows = [];
+  for (const [key, count] of Object.entries(bodyWhole)) bodyWholeRows.push(...buildSlotRows("bodyWhole", key, count, installed));
+
+  // Canonical key "Inlays" (what the cards demand), singular label for display.
+  const inlayRows = buildSlotRows("inlays", "Inlays", inlays, installed, { singular: "Inlay" });
+
+  // Anything carrying a slot flag we could not place. Rendered, not dropped.
+  const unassignedRows = unassigned.map((item) => ({
+    category: "unassigned",
+    key: "unassigned",
+    index: 0,
+    label: String(item.flags?.cinderfall?.slot ?? "?"),
+    item,
+  }));
+
+  const rowCount = bodyPartsRows.length + bodyWholeRows.length + inlayRows.length + unassignedRows.length;
+  if (!rowCount) {
     return `<div class="tab cinderfall-body-panel" data-group="primary" data-tab="${TAB_KEY}">
       <p class="notes">No body slots yet -- this actor has no ancestry/item carrying a
       <code>flags.cinderfall</code> body block.</p>
     </div>`;
   }
 
-  const section = (title, rows) =>
-    rows.length ? `<h3>${title}</h3><ul class="cinderfall-slot-list">${rows.map(rowHTML).join("")}</ul>` : "";
-
-  let bodyPartsRows = [];
-  for (const [key, count] of Object.entries(bodyParts)) bodyPartsRows.push(...buildSlotRows("bodyParts", key, count, installed));
-
-  let bodyWholeRows = [];
-  for (const [key, count] of Object.entries(bodyWhole)) bodyWholeRows.push(...buildSlotRows("bodyWhole", key, count, installed));
-
-  const inlayRows = buildSlotRows("inlays", "inlay", inlays, installed);
-
   return `<div class="tab cinderfall-body-panel" data-group="primary" data-tab="${TAB_KEY}">
     <p class="notes">Crude v1 -- bio-augmentations, cybernetics, and mutations all go here, treated
     identically. "Body Parts" affect one limb/organ; "Body Systems" affect the whole body (e.g. acidic
-    blood). Click a name to edit it, the trash to remove it, or + to add one.</p>
+    blood). An item marked &times;N fills one slot in each of N rows. Click a name to edit it, the
+    trash to remove it, or + to add one.</p>
     ${section("Body Parts", bodyPartsRows)}
     ${section("Body Systems", bodyWholeRows)}
     ${section("Inlays", inlayRows)}
+    ${unassignedRows.length ? `<h3>Unassigned</h3><p class="notes">These carry a slot line this tab
+      could not resolve to a slot key -- e.g. "Every slot", or an augment with no slot line at all.
+      Listed here so they are visible rather than lost.</p>
+      <ul class="cinderfall-slot-list">${unassignedRows.map(rowHTML).join("")}</ul>` : ""}
   </div>`;
 }
 
-Hooks.on("renderCharacterSheetPF2e", (app, html) => {
-  try {
-    injectTab(app, html);
-  } catch (err) {
-    console.error(`${MODULE_ID} | body tab injection failed`, err);
-  }
-});
+// Guarded so tests/body-slots.test.mjs can import the pure functions below
+// under plain node, where there is no Hooks global.
+if (typeof Hooks !== "undefined") {
+  Hooks.on("renderCharacterSheetPF2e", (app, html) => {
+    try {
+      injectTab(app, html);
+    } catch (err) {
+      console.error(`${MODULE_ID} | body tab injection failed`, err);
+    }
+  });
+}
 
 function injectTab(app, html) {
   const root = html instanceof HTMLElement ? html : html[0];
@@ -191,9 +293,14 @@ function injectTab(app, html) {
         name: "New Body Item",
         type: "equipment",
         system: { description: { value: "" } },
-        flags: { cinderfall: { slot: { category, key } } },
+        // Same shape the card data uses, so tab-made and card-made items are
+        // read by one code path. `category` is re-derived on read from the
+        // supply side, so it is not stored.
+        flags: { cinderfall: { slot: key, slots: [key], slotCost: 1 } },
       }]);
       created?.sheet.render(true);
     }
   });
 }
+
+export { collectSlotCounts, collectInstalled, categoryForKey, slotBucketKey, buildSlotRows, buildPanelHTML };
