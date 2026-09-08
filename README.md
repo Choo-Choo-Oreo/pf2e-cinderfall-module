@@ -129,11 +129,25 @@ block is exported from a verified working actor, never hand-authored — five of
 its flags fail *silently* when wrong, and `tests/merchant.test.mjs` asserts each
 of them (read the header of that file before adding another merchant).
 
-Verified live: all 8 packs load; a `Cinderfall Equipment` weapon resolves with
+Verified live: the packs load; a `Cinderfall Equipment` weapon resolves with
 its price in gp and both `flags.cinderfall` blocks intact; a `Cinderfall
 Bestiary` NPC resolves with its embedded strikes as real Strikes (with MAP
 variants and persistent damage); and the homebrew `ratkin` trait renders on a
 real character sheet.
+
+`npcs` verified end-to-end 2026-09-08 — imported from the compendium into a
+world and traded with, no configuration step:
+
+```
+recognised:  isValidItemPile true, isItemPileMerchant true
+asking price 36mk -> paid 36
+sell quote   18mk -> refunded 18
+merchant stock 2 -> 2      (infinite; never decremented)
+flags propagated to the buyer's copy:
+             purchaseOptionsAsSellOption true, fixed false, secondary true
+no "undefined" in either price string
+7/7 checks pass
+```
 
 `bestiary` is the only pack with `PLAYER: NONE` ownership, because it holds
 `uriel.uriel-bound` and `uriel` is a sealed owner on the site. Foundry has no
