@@ -108,6 +108,24 @@ function categoryForKey(key, counts) {
 }
 
 /**
+ * Does this actor actually supply the slot a key names?
+ *
+ * Without this check, a key the actor does not supply still gets a bucket --
+ * and a bucket with no row renders nothing. Measured on a live character whose
+ * embedded ancestry predates the 2026-09-07 ruling and still carried the old
+ * taxonomy (eyes/heads/hands/torsos/legs, skeleton/circuitry/...): "Slow-Clot"
+ * bucketed cleanly into bodywhole:circulatory and then rendered in zero rows,
+ * because the supply side spells it "circuitry". Same silent disappearance as
+ * the bug this file was fixed for, one layer down.
+ */
+function isSupplied(key, counts) {
+  const k = String(key ?? "").toLowerCase();
+  if ((SLOT_ALIASES[k] ?? k) === "inlays") return counts.inlays > 0;
+  return [...Object.keys(counts.bodyParts), ...Object.keys(counts.bodyWhole)]
+    .some((p) => p.toLowerCase() === k);
+}
+
+/**
  * Items already installed in body slots, bucketed by slotBucketKey().
  *
  * Returns { byKey, unassigned }. `unassigned` is every item carrying a
@@ -143,7 +161,15 @@ function collectInstalled(actor, counts) {
       if (slot) unassigned.push(item);
       continue;
     }
-    for (const key of new Set(keys)) push(slotBucketKey(categoryForKey(key, counts), key), item);
+    let placed = false;
+    for (const key of new Set(keys)) {
+      // A key this actor does not supply has no row to render into, so
+      // bucketing it would hide the item. Fall through to Unassigned instead.
+      if (!isSupplied(key, counts)) continue;
+      push(slotBucketKey(categoryForKey(key, counts), key), item);
+      placed = true;
+    }
+    if (!placed) unassigned.push(item);
   }
   return { byKey, unassigned };
 }

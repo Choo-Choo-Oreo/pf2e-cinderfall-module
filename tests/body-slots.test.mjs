@@ -171,4 +171,27 @@ ok(() => {
   console.log(`  ${slotted} slotted cards, ${demanded.size} distinct keys, 0 unmatched`);
 });
 
+// 10. A key the actor does not SUPPLY must not be bucketed into a row that
+//     does not exist. Found live on a character whose embedded ancestry
+//     predates the 2026-09-07 ruling and still spells it "circuitry": the item
+//     bucketed cleanly and then rendered nowhere -- the same silent vanish,
+//     one layer down.
+ok(() => {
+  const stale = {
+    id: "old", name: "Ashwalkers (pre-ruling)", img: "",
+    flags: { cinderfall: {
+      bodyParts: { eyes: 2, heads: 1, hands: 2, torsos: 1, legs: 2 },
+      bodyWhole: { skeleton: 1, neural: 1, circuitry: 1, dermal: 1, viscera: 1 },
+      inlays: { capacity: 3 },
+    } },
+  };
+  const clot = item("s1", "Slow-Clot", { slot: "Circulatory", slots: ["Circulatory"], slotCost: 1 });
+  const actor = { items: [stale, clot] };
+  const counts = collectSlotCounts(actor);
+  const { unassigned } = collectInstalled(actor, counts);
+  assert.deepEqual(unassigned.map((i) => i.id), ["s1"],
+    "an unsupplied slot key must surface as Unassigned, not vanish into an empty bucket");
+  assert.ok(buildPanelHTML(actor).includes("Slow-Clot"), "it must still be rendered somewhere");
+});
+
 console.log(`body slots: ${checks}/${checks} checks passed`);
