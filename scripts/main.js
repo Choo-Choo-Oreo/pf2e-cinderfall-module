@@ -261,10 +261,23 @@ Hooks.once("ready", async () => {
     game.settings.get("item-piles", "secondaryCurrencies") ?? [],
   );
   const added = [];
+  const repointed = [];
   let incomplete = false;
   for (const mark of CINDERFALL_MARKS) {
-    if (secondary.some((s) => s.name === mark.item)) continue;   // GM already has it
+    const existing = secondary.find((s) => s.name === mark.item);
     const uuid = await resolveEquipmentUuid(mark.item);
+    if (existing) {
+      // An entry by this name is already registered. Leave a GM's own entry
+      // alone, but repoint one whose uuid no longer resolves -- Item Piles
+      // caches currencies by uuid (`getItemFromCache` reads COMPENDIUM_CACHE),
+      // and an unresolvable uuid drops every price built on it with no error,
+      // no warning, and an empty price string on the merchant sheet.
+      if (uuid && existing.data?.uuid !== uuid && !(await fromUuid(existing.data?.uuid ?? ""))) {
+        repointed.push(`${mark.item}: ${existing.data?.uuid} -> ${uuid}`);
+        existing.data = { ...(existing.data ?? {}), uuid };
+      }
+      continue;
+    }
     if (!uuid) {
       // Almost always "packs-source has it but build_pack.py has not run yet".
       // Do NOT stamp in this case -- see below.
@@ -284,7 +297,10 @@ Hooks.once("ready", async () => {
   }
 
   if (renamed.length) await game.settings.set("item-piles", "currencies", coins);
-  if (added.length) await game.settings.set("item-piles", "secondaryCurrencies", secondary);
+  if (added.length || repointed.length) {
+    await game.settings.set("item-piles", "secondaryCurrencies", secondary);
+    if (repointed.length) console.log(`${MODULE_ID} | repointed stale currency uuids`, repointed);
+  }
 
   // The stamp means "everything this module ships is registered", so a partial
   // run must not write it -- otherwise the next load early-returns and the
