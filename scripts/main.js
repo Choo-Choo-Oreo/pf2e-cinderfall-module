@@ -25,6 +25,86 @@ Hooks.once("ready", () => {
 });
 
 /**
+ * Cinderfall item rarity tiers.
+ *
+ * The site authors eight tiers as `cc-tier-*` classes on the card pages --
+ * common, uncommon, rare, epic, legendary, mythic, exotic, unique -- while
+ * PF2e ships four. The extra four are merged into CONFIG.PF2E.rarityTraits
+ * from module.json flags so they render wherever PF2e reads that record:
+ * item sheets (item/base/sheet/sheet.ts:161), chat-card traits
+ * (item/physical/document.ts:782), and the compendium browser's rarity filter
+ * (tabs/equipment.ts:149), which builds its checkboxes by mapping whatever
+ * record it is handed (tabs/base.svelte.ts:274). CONFIG.PF2E is a plain
+ * object and the system never freezes it.
+ *
+ * This registers the LABEL only. Whether a foreign value survives document
+ * validation is a separate question -- RARITIES is frozen and used as
+ * `choices` on RarityField (module/model.ts:7) -- and is measured against a
+ * live world rather than asserted here. See README.
+ *
+ * Runs on `setup`, not `init`: PF2e populates CONFIG.PF2E during its own init
+ * hook, and hook order between a system and a module is not guaranteed.
+ */
+Hooks.once("setup", () => {
+  const tiers = game.modules.get(MODULE_ID)?.flags?.[MODULE_ID]?.rarityTiers;
+  if (!tiers) return;
+  if (!CONFIG.PF2E?.rarityTraits) {
+    console.warn(`${MODULE_ID} | CONFIG.PF2E.rarityTraits absent; rarity tiers not registered`);
+    return;
+  }
+  Object.assign(CONFIG.PF2E.rarityTraits, tiers);
+  console.log(`${MODULE_ID} | registered rarity tiers`, Object.keys(tiers));
+
+  // Labels alone are not enough. A schema-backed document validates rarity
+  // against `choices` on its RarityField (pf2e module/model.ts:7), which is
+  // PF2e's frozen RARITIES array -- so a sheet edit to a Cinderfall tier fails
+  // with "rarity: <tier> is not a valid choice" even though the dropdown offers
+  // it. Measured 2026-09-07 on pf2e 8.5.0 / Foundry 14.361.
+  //
+  // Note this only bites SOME types: in 8.5.0 only 10 item types and 6 actor
+  // types are registered as DataModels (pf2e scripts/hooks/load.ts:102-122).
+  // equipment, weapon and armor are NOT among them, so they carry no schema and
+  // accept any string -- which is why an unvalidated write path stores junk
+  // happily. Do not read that as "rarity is unvalidated"; it type-depends.
+  //
+  // RARITIES is Object.freeze'd, so the array is REPLACED, never pushed to.
+  const extra = Object.keys(tiers);
+  const patched = [];
+  for (const [group, cfg] of [["Item", CONFIG.Item], ["Actor", CONFIG.Actor]]) {
+    for (const [docType, cls] of Object.entries(cfg?.dataModels ?? {})) {
+      try {
+        extendRarityChoices(cls.schema, extra, patched, `${group}.${docType}.`);
+      } catch (err) {
+        console.warn(`${MODULE_ID} | rarity choices not extended on ${group}.${docType}`, err);
+      }
+    }
+  }
+  console.log(`${MODULE_ID} | extended rarity choices on ${patched.length} field(s)`, patched);
+});
+
+/**
+ * Walk a SchemaField and widen the `choices` of every `rarity` StringField.
+ *
+ * Recurses because rarity sits at system.traits.rarity on items but is nested
+ * differently on some actors; a name-and-shape match is more durable than a
+ * hardcoded path. Depth-capped so a self-referential schema cannot hang setup.
+ */
+function extendRarityChoices(schema, extra, found, path = "", depth = 0) {
+  if (!schema?.fields || depth > 6) return;
+  for (const [key, field] of Object.entries(schema.fields)) {
+    if (key === "rarity" && Array.isArray(field.choices)) {
+      const missing = extra.filter((t) => !field.choices.includes(t));
+      if (missing.length) {
+        field.choices = [...field.choices, ...missing];
+        found.push(`${path}${key}`);
+      }
+    } else if (field?.fields) {
+      extendRarityChoices(field, extra, found, `${path}${key}.`, depth + 1);
+    }
+  }
+}
+
+/**
  * Language rarity.
  *
  * PF2e has no language Item, so a language's rarity cannot ride along in a
@@ -39,10 +119,13 @@ Hooks.once("ready", () => {
  * fails the build if the manifest and the cards disagree, so this map is never
  * hand-edited.
  *
- * NOT hardcoded, deliberately: pf2e's own ladder is frozen four wide
- * (Object.freeze(["common","uncommon","rare","unique"]) for items, and
- * ["common","uncommon","rare","secret"] for languages), so a fifth Cinderfall
- * tier is not registrable -- see README.
+ * NOT hardcoded, deliberately: the language ladder is a separate frozen list,
+ * ["common","uncommon","rare","secret"] (creature/values.ts:296), and the
+ * homebrew.languageRarities DataModel only has fields for those tiers -- so a
+ * Cinderfall-named LANGUAGE tier genuinely has nowhere to go and Echo-Tongue's
+ * cc-tier-exotic still maps down to `secret`. That is a narrower claim than the
+ * one this comment used to make; item rarity is a different mechanism and is
+ * handled by the setup hook below. See README.
  *
  * Applied once per map, not once per load: we stamp what we wrote, so a GM who
  * re-tiers a language by hand keeps their choice, while a genuine change to

@@ -52,3 +52,70 @@
 .cinderfall-slot-add:hover {
   opacity: 1;
 }
+
+/* ---------------------------------------------------------------------------
+   Cinderfall rarity tiers.
+
+   The site authors eight tiers; PF2e ships four and defines only four colour
+   tokens (--color-rarity-common/uncommon/rare/unique, pf2e _colors.scss:112).
+   The four extra tiers are registered as labels in scripts/main.js and given
+   their colours here.
+
+   Hues are taken from the site's own tier palette (site/assets/cards.css:40-47)
+   but DARKENED: the site paints neon accents on a dark card
+   (--cc-legendary: #ffcf40), while a PF2e tag is white text on a solid fill,
+   where those values fail legibility. Hue identity is preserved; luminance is
+   matched to PF2e's own band (its darkest tag is #002664, its lightest #98513d).
+
+   PF2e's own rules live at `.tags .tag.rarity.<name>` (pf2e _tags.scss:56) and
+   define nothing for these four names, so there is no specificity contest to
+   lose -- but the selectors below mirror that nesting depth rather than relying
+   on that staying true.
+   --------------------------------------------------------------------------- */
+
+:root {
+  --color-rarity-epic: #5c1f8f;      /* site --cc-epic      #b04dff */
+  --color-rarity-legendary: #7a5c00; /* site --cc-legendary #ffcf40 */
+  --color-rarity-mythic: #8a3d00;    /* site --cc-mythic    #ff8c1a */
+  --color-rarity-exotic: #8a1414;    /* site --cc-exotic    #ff3b3b */
+}
+
+.tags .tag.rarity.epic,
+.tags .tag.rarity[value="epic"],
+.tags .tag.rarity > option[value="epic"],
+.tag.rarity.epic {
+  background-color: var(--color-rarity-epic);
+}
+
+.tags .tag.rarity.legendary,
+.tags .tag.rarity[value="legendary"],
+.tags .tag.rarity > option[value="legendary"],
+.tag.rarity.legendary {
+  background-color: var(--color-rarity-legendary);
+}
+
+.tags .tag.rarity.mythic,
+.tags .tag.rarity[value="mythic"],
+.tags .tag.rarity > option[value="mythic"],
+.tag.rarity.mythic {
+  background-color: var(--color-rarity-mythic);
+}
+
+.tags .tag.rarity.exotic,
+.tags .tag.rarity[value="exotic"],
+.tags .tag.rarity > option[value="exotic"],
+.tag.rarity.exotic {
+  background-color: var(--color-rarity-exotic);
+}
+
+/* Inventory rows key off .rarity-<name> for border+text (pf2e _inventory.scss:204) */
+.rarity-epic      { border-color: var(--color-rarity-epic);      color: var(--color-rarity-epic); }
+.rarity-legendary { border-color: var(--color-rarity-legendary); color: var(--color-rarity-legendary); }
+.rarity-mythic    { border-color: var(--color-rarity-mythic);    color: var(--color-rarity-mythic); }
+.rarity-exotic    { border-color: var(--color-rarity-exotic);    color: var(--color-rarity-exotic); }
+
+/* The sheet's rarity <select> paints each option (pf2e actor/_index.scss:110) */
+.rarity-select option[value="epic"]      { background-color: var(--color-rarity-epic); }
+.rarity-select option[value="legendary"] { background-color: var(--color-rarity-legendary); }
+.rarity-select option[value="mythic"]    { background-color: var(--color-rarity-mythic); }
+.rarity-select option[value="exotic"]    { background-color: var(--color-rarity-exotic); }

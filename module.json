@@ -2,7 +2,7 @@
   "id": "pf2e-cinderfall-module",
   "title": "PF2e Cinderfall",
   "description": "Companion module for the Cinderfall Pathfinder 2e homebrew setting. Work in progress.",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "compatibility": {
     "minimum": "13",
     "verified": "14.361",
@@ -289,6 +289,12 @@
         "secret": [
           "echo-tongue"
         ]
+      },
+      "rarityTiers": {
+        "epic": "PF2E-CINDERFALL.Rarity.Epic",
+        "legendary": "PF2E-CINDERFALL.Rarity.Legendary",
+        "mythic": "PF2E-CINDERFALL.Rarity.Mythic",
+        "exotic": "PF2E-CINDERFALL.Rarity.Exotic"
       }
     }
   }

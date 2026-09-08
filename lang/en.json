@@ -1,6 +1,12 @@
 {
   "PF2E-CINDERFALL": {
-    "ModuleTitle": "PF2e Cinderfall"
+    "ModuleTitle": "PF2e Cinderfall",
+    "Rarity": {
+      "Epic": "Epic",
+      "Legendary": "Legendary",
+      "Mythic": "Mythic",
+      "Exotic": "Exotic"
+    }
   },
   "PF2E.Actor.Creature.Language.common": "Common Cant"
 }

@@ -189,15 +189,65 @@ that choice while a genuine change to the shipped map still lands.
 Rarity gates *choosing*, not *granting*: Glass-Sign sits at rare and Glassblood
 still receive it free from their ancestry.
 
-**PF2e's rarity ladders are frozen and cannot be extended.** Items validate
-against `Object.freeze(["common","uncommon","rare","unique"])` used as `choices`
-on a `StringField`; languages use a separate frozen
-`["common","uncommon","rare","secret"]`; and `rarities` is not among the 13
-homebrew-registerable categories. A fifth Cinderfall-named tier is therefore not
-possible -- only a relabel of an existing one, which would be global and would
-rename rarity on base PF2e content too. This is why `languages.html`'s
-`cc-tier-exotic` on Echo-Tongue maps down to `secret`, the same way
-`convert_equipment.py` maps the page's `epic` down to `rare`.
+**Language rarity is closed; item rarity is half-open.** `rarities` is not among
+the 13 homebrew-registerable categories, so neither ladder extends the way traits
+and languages do. Past that they differ, and this file used to flatten both into
+"not possible", which was wrong for items.
+
+*Languages are genuinely closed.* The tier list is a separate frozen
+`["common","uncommon","rare","secret"]` (pf2e `creature/values.ts:296`) and the
+`homebrew.languageRarities` setting is a DataModel with one field per tier, so a
+Cinderfall-named language tier has nowhere to be stored. `languages.html`'s
+`cc-tier-exotic` on Echo-Tongue still maps down to `secret`.
+
+*Items are open on the display side.* Every consumer of a rarity label reads
+`CONFIG.PF2E.rarityTraits` -- item sheets (`item/base/sheet/sheet.ts:161`), chat
+cards (`item/physical/document.ts:782`), and the compendium browser's rarity
+filter, which builds its checkboxes by mapping whatever record it is handed
+(`tabs/base.svelte.ts:274`) -- and that is a plain object the system never
+freezes. `scripts/main.js` registers `epic`, `legendary`, `mythic` and `exotic`
+into it on `setup` from `module.json` flags, with colours in
+`styles/pf2e-cinderfall-module.css`.
+
+*The storage side needed a second patch, and now works.* Labels alone are not
+enough: a schema-backed document validates rarity against `choices` on its
+`RarityField` (pf2e `module/model.ts:7`), which is the frozen `RARITIES` array,
+so a sheet edit to a Cinderfall tier failed with `rarity: <tier> is not a valid
+choice` even while the dropdown offered it. `scripts/main.js` therefore also
+widens `choices` on every rarity field it finds by walking the schemas of every
+registered Item and Actor DataModel. The array is replaced, never pushed to.
+
+Verified 2026-09-07 against a live world (pf2e 8.5.0, Foundry 14.361), via
+`Item.create`/`Item#update` rather than any bridge:
+
+    7 rarity fields patched: Item.class, Item.feat, Item.heritage,
+      Item.treasure, Actor.army, Actor.hazard, Actor.vehicle
+    feat create at `epic`      -> stored `epic`
+    feat update epic->mythic   -> stored `mythic`  (this threw before the patch)
+    all four tiers             -> epic/legendary/mythic/exotic all stick
+    NEGATIVE CONTROL: junk     -> silently dropped, value unchanged
+    `CONFIG.PF2E.rarityTraits.epic` localises to "Epic"
+
+That negative control is the load-bearing half: validation is still ON, so the
+patch widened the ladder rather than disabling the guard. Note Foundry does not
+throw on an invalid `choices` value in this path -- it drops the change and
+keeps the prior value, while surfacing a UI notification. Assert on the stored
+value, never on whether an exception was raised.
+
+Not every type is even validated: in 8.5.0 only 10 item and 6 actor types are
+DataModels (pf2e `scripts/hooks/load.ts:102-122`). `equipment`, `weapon`,
+`armor`, `spell` and `consumable` carry no schema and accept any string. Of the
+1903 documents in `packs-source`, 1240 (feat 1014, action 191, heritage 34,
+class 1) are schema-backed and depend on this patch; the other 663 never needed
+it. Do not generalise a result from an unvalidated type.
+
+One consequence to know: `choices` lives on shared field instances, so the four
+tiers become selectable on base Paizo content too, in memory, for the session.
+Nothing is written to PF2e's own files.
+
+`convert_equipment.py` still maps the page's `epic` down to `rare`; that mapping
+is now optional rather than forced, and changing it is a separate decision in
+the site repo.
 
 `scripts/body-tab.js` adds a "Body" tab to the PF2e character sheet for
 tracking bio-augmentation, cybernetics and mutations against the ancestry's
