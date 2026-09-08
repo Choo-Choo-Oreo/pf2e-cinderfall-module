@@ -177,14 +177,20 @@ currency, not four currencies:
 
 | PF2e | Cinderfall | abbrev | value    |
 |------|------------|--------|----------|
-| pp   | Plate      | `pp`   | 10 cr    |
+| pp   | Packet     | `pk`   | 10 cr    |
 | gp   | Credit     | `cr`   | 1 cr     |
-| sp   | Scrip      | `sp`   | 0.1 cr   |
-| cp   | Chip       | `cp`   | 0.01 cr  |
+| sp   | Byte       | `by`   | 0.1 cr   |
+| cp   | Bit        | `bt`   | 0.01 cr  |
 
-Three of the four abbreviations survive as true initials of the new names, so
-only `gp` -> `cr` actually changes shape on a sheet. Nothing about storage
-moves: prices stay `{"gp": N}`, `Coins`/`DENOMINATION_RATES` are untouched, and
+The ladder is deliberately made of computing words. Credits are Cyber City's
+*digital* currency -- a ledger entry, not metal -- so the denominations read as
+data sizes. That also keeps them textually distinct from the Butcher's Marks,
+which are hard coin and off-ledger; physical words (plate, scrip, chip) belong
+to that ladder, not this one. All four are near-absent from the corpus (`bit` 1
+hit, `byte` 4, `packet` 1), unlike `block` (138, mostly "stat block") and
+`ledger` (142, a Cultist patron), which were rejected for collision.
+
+Nothing about storage moves: prices stay `{"gp": N}`, `Coins`/`DENOMINATION_RATES` are untouched, and
 every published PF2e price still reads straight across. This is a label change
 only.
 

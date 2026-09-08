@@ -8,13 +8,13 @@
       "Exotic": "Exotic"
     }
   },
-  "PF2E.Currency.pp": "Plate",
+  "PF2E.Currency.pp": "Packet",
   "PF2E.Currency.gp": "Credit",
-  "PF2E.Currency.sp": "Scrip",
-  "PF2E.Currency.cp": "Chip",
-  "PF2E.CurrencyAbbreviations.pp": "pp",
+  "PF2E.Currency.sp": "Byte",
+  "PF2E.Currency.cp": "Bit",
+  "PF2E.CurrencyAbbreviations.pp": "pk",
   "PF2E.CurrencyAbbreviations.gp": "cr",
-  "PF2E.CurrencyAbbreviations.sp": "sp",
-  "PF2E.CurrencyAbbreviations.cp": "cp",
+  "PF2E.CurrencyAbbreviations.sp": "by",
+  "PF2E.CurrencyAbbreviations.cp": "bt",
   "PF2E.Actor.Creature.Language.common": "Common Cant"
 }
