@@ -278,14 +278,35 @@ GM who edits a currency by hand keeps that edit. The Mark UUIDs are resolved
 from the live pack index rather than hardcoded, since `build_pack.py` assigns
 the `_id`.
 
-**Open, measured 2026-09-07:** the three test items on the Butcher merchant
-return an empty price string with zero entries from `getPricesForItem`, even
-with both currencies resolving in the Item Piles cache. Reading `getPriceData`
-in `item-piles.js` narrows it: when `disableNormalCost` is true and
-`itemFlagData.prices` is empty, no price group is built at all and the function
-returns `[]` -- exactly the observed result. So the per-item price flags are not
-being read, and the next step is measuring where they actually landed (the
-merchant's embedded item copies, or the world items they came from).
+**A mark price must carry `secondary: true`, and this is the subtle one.**
+Measured 2026-09-07: the three test items on the Butcher returned an empty price
+string with zero entries, no error and no warning, with both currencies
+resolving correctly in the Item Piles cache. `getItemFlagPriceData` reads
+
+```js
+const isRegularCurrency = !price.secondary
+  ? currencyList.find((c) => c.name === price.name && ...) : false;
+const totalCost = isRegularCurrency ? price.quantity * isRegularCurrency.exchangeRate : 0;
+```
+
+Without the flag it looks the currency up and **finds** the mark -- secondary
+currencies are in `currencyList` too, `getCurrencyList` concatenates them with
+`secondary: true` -- treats it as a regular currency, and multiplies by
+`exchangeRate`. A mark has none, deliberately: that absence is what "no posted
+rate" *is*, mechanically. `36 * undefined` is NaN, `getPriceArray(NaN)` produces
+all-NaN costs, and `.filter((p) => p.cost)` drops every one. So the design
+decision and the bug are the same fact, and this one flag is all that separates
+them.
+
+`cinderfallMarkPrice(quantity)` in `scripts/main.js` builds the payload with the
+flag set, exposed on `game.modules.get("pf2e-cinderfall-module").api`. Anything
+writing a mark price should go through it rather than hand-rolling the object --
+which is how this was got wrong the first time.
+
+Confirmed both directions against the closed world's LevelDB: replaying the
+pre-fix flags through the same lookup reproduces `NaN -> [] -> ""` on all three
+items, and the post-fix flags classify as secondary with `totalCost: 0` and
+render `36mk` / `3000mk` / `21000mk`.
 
 Still to do: the ~63 mark prices on the bio-augments are not yet written as
 Item Piles price flags. Item art is placeholder (PF2e's `upb.webp`).

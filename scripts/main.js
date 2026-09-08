@@ -460,3 +460,65 @@ Hooks.once("ready", async () => {
     console.warn(`${MODULE_ID} | could not relabel the compendium index`, err);
   }
 });
+
+/**
+ * Build the Item Piles price flag for an item sold in Marks.
+ *
+ * This exists because the shape has one non-obvious requirement that fails
+ * silently, and it cost a full debugging pass to find. Measured 2026-09-07: the
+ * three test items on the Butcher returned an empty price string with zero
+ * entries, no error, no warning, with both currencies resolving correctly in
+ * the Item Piles cache.
+ *
+ * The cause is `secondary: true`. `getItemFlagPriceData` in item-piles.js reads:
+ *
+ *     const isRegularCurrency = !price.secondary
+ *       ? currencyList.find((c) => c.name === price.name && ...)
+ *       : false;
+ *     const totalCost = isRegularCurrency
+ *       ? price.quantity * isRegularCurrency.exchangeRate : 0;
+ *
+ * Without the flag it looks the currency up, FINDS the mark (secondary
+ * currencies are in `currencyList` too -- `getCurrencyList` concatenates them),
+ * treats it as a regular currency, and multiplies by `exchangeRate`. A mark has
+ * no exchangeRate, deliberately: that absence is what "no posted rate" means
+ * mechanically. `36 * undefined` is NaN, `getPriceArray(NaN)` produces all-NaN
+ * costs, and `.filter((p) => p.cost)` drops every one of them. Empty string.
+ *
+ * So the design decision and the bug are the same fact, and the only thing
+ * separating them is this flag. Anything writing a mark price should come
+ * through here rather than hand-rolling the object.
+ *
+ * @param {number} quantity  price in marks
+ * @param {object} [options]
+ * @param {boolean} [options.disableNormalCost=true]  marks-only, no credit price
+ * @returns {Promise<object|null>} the `flags["item-piles"].item` payload, or
+ *   null if the Mark item cannot be resolved (pack not built yet).
+ */
+async function cinderfallMarkPrice(quantity, { disableNormalCost = true } = {}) {
+  const mark = CINDERFALL_MARKS[0];
+  const uuid = await resolveEquipmentUuid(mark.item);
+  if (!uuid) {
+    console.warn(`${MODULE_ID} | cannot price in marks: no "${mark.item}" in the equipment pack`);
+    return null;
+  }
+  const source = await fromUuid(uuid);
+  return {
+    disableNormalCost,
+    prices: [[{
+      type: "item",
+      name: mark.item,
+      img: source?.img ?? "icons/svg/coins.svg",
+      abbreviation: mark.abbreviation,
+      data: { uuid },
+      quantity,
+      fixed: true,       // a mark price ignores merchant buy/sell modifiers
+      secondary: true,   // load-bearing -- see above
+    }]],
+  };
+}
+
+Hooks.once("ready", () => {
+  const module = game.modules.get(MODULE_ID);
+  if (module) module.api = { ...(module.api ?? {}), cinderfallMarkPrice, CINDERFALL_MARKS };
+});
