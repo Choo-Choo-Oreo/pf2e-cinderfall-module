@@ -1,0 +1,56 @@
+{
+    "name": "Last Rites, Reversed",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>A possessed, bound, or influenced creature immediately attempts a new save against that effect's original DC, at +4; a critical success forcibly evicts the intruding spirit or effect.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": ""
+        },
+        "level": {
+            "value": 5
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "touch"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "1 creature affected by possession, binding, or influence"
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "occult"
+            ],
+            "value": [
+                "hollowbound"
+            ]
+        },
+        "slug": "last-rites-reversed"
+    },
+    "_id": "QT988KZFqoZLux9W",
+    "flags": {
+        "cinderfall": {
+            "listing": "5th Rank"
+        }
+    }
+}

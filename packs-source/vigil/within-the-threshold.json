@@ -1,0 +1,61 @@
+{
+    "name": "Within the Threshold",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+            "save": {
+                "basic": false,
+                "statistic": "will"
+            }
+        },
+        "description": {
+            "value": "<p>Whenever a hostile creature within the emanation attempts a melee or ranged Strike against you directly, it must succeed at a Will save or the Strike is wasted outright — no attack roll made, no damage dealt, as though its nerve or its aim simply failed at the doorway. A creature only needs to attempt this save once per turn, no matter how many Strikes it tries. This effect ends immediately if you make an attack or use a hostile action against any creature. Doorways used to mean something. This is what's left of that.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "1 minute"
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "10-foot emanation centered on you"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": ""
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "divine"
+            ],
+            "value": [
+                "vigil"
+            ]
+        },
+        "slug": "within-the-threshold"
+    },
+    "_id": "NT2GeBOUBSSehw0g",
+    "flags": {
+        "cinderfall": {
+            "listing": "1st Rank"
+        }
+    }
+}

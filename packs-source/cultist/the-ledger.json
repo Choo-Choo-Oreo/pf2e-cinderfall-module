@@ -1,0 +1,57 @@
+{
+    "name": "The Ledger",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><hr /><p>Ask the GM a single yes/no question. The Ledger answers truthfully, in writing, somewhere on your person.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": ""
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "self"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": ""
+        },
+        "time": {
+            "value": "10 minutes"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "occult"
+            ],
+            "value": [
+                "cultist"
+            ]
+        },
+        "slug": "the-ledger"
+    },
+    "_id": "fRKRDU6iFBzLriBQ",
+    "flags": {
+        "cinderfall": {
+            "spellTag": "Revelation · 1st, Signature",
+            "listing": "Bargain Spells / The Ledger debts · secrets · everything written down"
+        }
+    }
+}

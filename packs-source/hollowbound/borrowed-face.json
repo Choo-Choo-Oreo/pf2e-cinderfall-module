@@ -1,0 +1,56 @@
+{
+    "name": "Borrowed Face",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>Take on a specific person's appearance or a generic member of a chosen ancestry for 10 minutes, as normal for a disguise effect; fools sight, not close scrutiny.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "10 minutes"
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "self"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": ""
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "occult"
+            ],
+            "value": [
+                "hollowbound"
+            ]
+        },
+        "slug": "borrowed-face"
+    },
+    "_id": "9hgn2qAWPmeU1urU",
+    "flags": {
+        "cinderfall": {
+            "listing": "1st Rank"
+        }
+    }
+}

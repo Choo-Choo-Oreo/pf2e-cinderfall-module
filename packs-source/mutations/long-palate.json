@@ -1,0 +1,66 @@
+{
+    "name": "Long Palate",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>There is more room in there than there should be.</p><p><b>Gift —</b> Swallow and later bring up one object of up to Light Bulk, safely. A normal search does not find it. <b>Tithe —</b> It's a real organ and it resents being empty: a full day carrying nothing leaves you sickened 1 until you swallow something.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 0
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {}
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "traits": {
+            "rarity": "uncommon",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "long-palate"
+    },
+    "_id": "l7Qci92hdRzwe4cQ",
+    "flags": {
+        "cinderfall": {
+            "mutationType": "minor",
+            "tier": "uncommon",
+            "slot": "Viscera",
+            "slots": [
+                "Viscera"
+            ],
+            "slotCost": 1,
+            "roll": "d100 — 61–62",
+            "incomplete": [
+                "level is a stub (0); mutations carry no level",
+                "price is empty; a mutation is not bought"
+            ],
+            "inferred": [
+                "system.usage"
+            ]
+        }
+    }
+}

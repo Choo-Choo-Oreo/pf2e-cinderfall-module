@@ -1,0 +1,61 @@
+{
+    "name": "Open the Whole Line",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+            "save": {
+                "basic": false,
+                "statistic": "will"
+            }
+        },
+        "description": {
+            "value": "<i>Failure</i> you learn the target's greatest goal, fear, and one active secret, as three separate true impressions. <i>Critical Failure</i> as failure, unnoticed. <i>Success</i> no effect, target senses the intrusion."
+        },
+        "duration": {
+            "sustained": false,
+            "value": ""
+        },
+        "level": {
+            "value": 7
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "1 creature"
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "occult"
+            ],
+            "value": [
+                "hollowbound"
+            ]
+        },
+        "slug": "open-the-whole-line"
+    },
+    "_id": "rffLbhxyjJw0CQ62",
+    "flags": {
+        "cinderfall": {
+            "listing": "7th Rank"
+        }
+    }
+}

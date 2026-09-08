@@ -1,0 +1,55 @@
+{
+    "name": "Grant Peace",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>The target's soul cannot be bound, harvested, or reanimated for the duration — a soul on the edge of becoming a raging spirit passes on cleanly instead.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "rest of the scene"
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "touch"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "1 dying or newly-dead creature (within 1 minute of death)"
+        },
+        "time": {
+            "value": "1"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [],
+            "value": [
+                "focus",
+                "vigil"
+            ]
+        },
+        "slug": "grant-peace"
+    },
+    "_id": "CR4JXYSTCWPTKIMA",
+    "flags": {
+        "cinderfall": {
+            "listing": "The Miracle / Unmaking Ladder / Lesser 1st level · 1 Grace or Cinder"
+        }
+    }
+}

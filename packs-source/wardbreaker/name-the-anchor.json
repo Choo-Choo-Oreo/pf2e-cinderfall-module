@@ -1,0 +1,57 @@
+{
+    "name": "Name the Anchor",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>Attempt a Perception or Occultism check (your choice) against the target's Will DC. On a success, you learn its Anchor and can target it with Break the Anchor for the rest of the encounter. Without a Name, Break the Anchor doesn't work. No daily limit — but a failed attempt tips the target off that you're looking.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": ""
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "1 hostile spirit or ghost-machine you can perceive"
+        },
+        "time": {
+            "value": "1"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "occult"
+            ],
+            "value": [
+                "wardbreaker"
+            ]
+        },
+        "slug": "name-the-anchor"
+    },
+    "_id": "HSPD4bnz5ZjFrrJE",
+    "flags": {
+        "cinderfall": {
+            "spellTag": "Innate · At-Will",
+            "listing": "Core Loop"
+        }
+    }
+}

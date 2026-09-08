@@ -1,0 +1,61 @@
+{
+    "name": "Verse of Rot",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+            "save": {
+                "basic": true,
+                "statistic": "fortitude"
+            }
+        },
+        "description": {
+            "value": "<span class=\"sdesc\">1d6 void damage per rank of this spell. <i>Failure</i> the wound also turns septic: 1d6 persistent void damage per 2 ranks of this spell (minimum 1d6), and sickened 1. <i>Critical Failure</i> sickened 2 instead of 1.</span>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": ""
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "1 creature"
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [],
+            "value": [
+                "focus",
+                "plaguesworn"
+            ]
+        },
+        "slug": "first-fever"
+    },
+    "_id": "Ziq1p13j4Uhci4Ft",
+    "flags": {
+        "cinderfall": {
+            "focusCost": "1",
+            "listing": "Verse Spells / Verse of Rot Spoilage — decay damage"
+        }
+    }
+}

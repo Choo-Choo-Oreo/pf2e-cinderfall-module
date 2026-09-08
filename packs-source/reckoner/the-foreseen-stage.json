@@ -1,0 +1,56 @@
+{
+    "name": "The Foreseen Stage",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>A large +3 status bonus to AC and Reflex saves; can't be caught flat-footed by a surprise attack for the duration.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "10 minutes"
+        },
+        "level": {
+            "value": 9
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "self"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": ""
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "divine"
+            ],
+            "value": [
+                "reckoner"
+            ]
+        },
+        "slug": "the-foreseen-stage"
+    },
+    "_id": "7YlbSyVOoHfLCCkP",
+    "flags": {
+        "cinderfall": {
+            "listing": "9th Rank"
+        }
+    }
+}

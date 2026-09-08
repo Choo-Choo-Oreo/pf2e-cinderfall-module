@@ -1,0 +1,56 @@
+{
+    "name": "Skip Trace",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>You learn the direction and rough distance to the target, and whether something is deliberately blocking you. Lasts until your next night's rest.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": ""
+        },
+        "level": {
+            "value": 3
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "unlimited"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "1 creature whose voice you have heard"
+        },
+        "time": {
+            "value": "10 minutes"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "occult"
+            ],
+            "value": [
+                "the-signal"
+            ]
+        },
+        "slug": "skip-trace"
+    },
+    "_id": "bMr36C7y0T5wkfBt",
+    "flags": {
+        "cinderfall": {
+            "listing": "3rd Rank"
+        }
+    }
+}

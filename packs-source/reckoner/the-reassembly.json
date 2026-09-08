@@ -1,0 +1,56 @@
+{
+    "name": "The Reassembly",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>Restore a severed limb or catastrophic damage over 10 minutes — as <i>Regenerate</i>, restoring a severed limb, ruined organ, or catastrophic damage, plus 7d8 Hit Points.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": ""
+        },
+        "level": {
+            "value": 7
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "touch"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "1 willing creature"
+        },
+        "time": {
+            "value": "10 minutes"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "divine"
+            ],
+            "value": [
+                "reckoner"
+            ]
+        },
+        "slug": "the-reassembly"
+    },
+    "_id": "WzMzwtsBXBWyxzJw",
+    "flags": {
+        "cinderfall": {
+            "listing": "7th Rank"
+        }
+    }
+}

@@ -1,0 +1,56 @@
+{
+    "name": "The Debt Collectors",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>Summon up to 4 temporary constructs (animated construct or advanced eidolon statistics, GM's choice, each of a level no higher than your level − 6) that fight for you for the duration. They vanish completely after, remembering nothing.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "1 minute"
+        },
+        "level": {
+            "value": 8
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": ""
+        },
+        "time": {
+            "value": "3"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "divine"
+            ],
+            "value": [
+                "reckoner"
+            ]
+        },
+        "slug": "the-debt-collectors"
+    },
+    "_id": "ifKjRAgkrkDTREwC",
+    "flags": {
+        "cinderfall": {
+            "listing": "8th Rank"
+        }
+    }
+}

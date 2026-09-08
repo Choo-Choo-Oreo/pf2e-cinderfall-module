@@ -1,0 +1,61 @@
+{
+    "name": "Chain of Iron Debt",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+            "save": {
+                "basic": false,
+                "statistic": "will"
+            }
+        },
+        "description": {
+            "value": "<i>Critical Success/Success</i> the spirit slips away, unbound. <i>Failure</i> bound to your service for the duration. <i>Critical Failure</i> the binding persists past the week until a working of at least equal rank frees it."
+        },
+        "duration": {
+            "sustained": false,
+            "value": "up to one week"
+        },
+        "level": {
+            "value": 7
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "one defeated or dying undead or spirit"
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "occult"
+            ],
+            "value": [
+                "cultist"
+            ]
+        },
+        "slug": "chain-of-iron-debt"
+    },
+    "_id": "mvLsH81PMKMGhwUM",
+    "flags": {
+        "cinderfall": {
+            "listing": "7th Rank"
+        }
+    }
+}

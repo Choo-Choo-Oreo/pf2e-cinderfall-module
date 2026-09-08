@@ -1,0 +1,66 @@
+{
+    "name": "Marrow-Echo",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>Your bones carry sound the way a rail carries a train.</p><p><b>Gift —</b> Press a bone to a surface and feel movement through it: imprecise sense of anything moving within 30 feet through connected stone, metal or earth. <b>Tithe —</b> You can't stop hearing it. The GM may deny you a full night's rest anywhere with machinery, traffic, or digging underneath.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 0
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {}
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "marrow-echo"
+    },
+    "_id": "xUSwhjL1P1n2Qara",
+    "flags": {
+        "cinderfall": {
+            "mutationType": "minor",
+            "tier": "common",
+            "slot": "Frame",
+            "slots": [
+                "Frame"
+            ],
+            "slotCost": 1,
+            "roll": "d100 — 31–32",
+            "incomplete": [
+                "level is a stub (0); mutations carry no level",
+                "price is empty; a mutation is not bought"
+            ],
+            "inferred": [
+                "system.usage"
+            ]
+        }
+    }
+}

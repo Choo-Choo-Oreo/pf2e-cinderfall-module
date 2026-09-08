@@ -1,0 +1,59 @@
+{
+    "name": "Marrow Cannon Shell",
+    "type": "ammo",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0.1
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p><strong>Craft Cost</strong> 4 Vitae Points</p><p><strong>Activate</strong> 1 action to fire</p><hr /><p>An attack-roll shell, no save: 7d10 piercing damage that ignores 5 Hardness or resistance. A critical hit lodges persistent bleed 2d8.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 11
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {}
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "craftableAs": null,
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "consumable",
+                "fleshmancer"
+            ]
+        },
+        "uses": {
+            "autoDestroy": true,
+            "max": 1,
+            "value": 1
+        },
+        "slug": "marrow-cannon-shell"
+    },
+    "_id": "lSfci5aLFdkoJUOL",
+    "flags": {
+        "cinderfall": {
+            "vitaeCost": 4,
+            "mk": "Mk III"
+        }
+    }
+}

@@ -1,0 +1,56 @@
+{
+    "name": "Small Mercy",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>Restore 1d8 Hit Points, redistributed from somewhere nearby rather than created — somewhere close goes fractionally colder or quieter as the ledger balances.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": ""
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "touch"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "1 creature"
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "divine"
+            ],
+            "value": [
+                "reckoner"
+            ]
+        },
+        "slug": "small-mercy"
+    },
+    "_id": "ib81E6n80EF3oeOg",
+    "flags": {
+        "cinderfall": {
+            "listing": "1st Rank"
+        }
+    }
+}

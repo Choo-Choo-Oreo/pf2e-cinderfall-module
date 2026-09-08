@@ -1,0 +1,57 @@
+{
+    "name": "Root-Sense",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>You perceive through the root and fungal network of an area you have previously seeded or Reclaimed, and know where every creature larger than a rat is standing within it. Seed-Wardens who have worked a valley for years are effectively unambushable in it.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "10 minutes"
+        },
+        "level": {
+            "value": 3
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "1 mile through connected growth"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": ""
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "primal"
+            ],
+            "value": [
+                "seed-warden"
+            ]
+        },
+        "slug": "root-sense"
+    },
+    "_id": "eSCVYa5gQW0AXSXk",
+    "flags": {
+        "cinderfall": {
+            "spellTag": "Bloom: either",
+            "listing": "3rd Rank"
+        }
+    }
+}

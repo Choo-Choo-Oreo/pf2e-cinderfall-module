@@ -1,0 +1,56 @@
+{
+    "name": "Undo the Rot",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>Automatically cure one disease, neutralize one ongoing poison, or remove paralysis affecting the target, provided the affliction is rank 4 or lower; against a higher-rank affliction, attempt a counteract check instead. Bigger and more certain than Set Right, and correspondingly harder to prepare and cast twice in a day.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": ""
+        },
+        "level": {
+            "value": 4
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "touch"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "1 creature"
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "divine"
+            ],
+            "value": [
+                "vigil"
+            ]
+        },
+        "slug": "undo-the-rot"
+    },
+    "_id": "fwbwEHpSenkFSFzR",
+    "flags": {
+        "cinderfall": {
+            "listing": "4th Rank"
+        }
+    }
+}

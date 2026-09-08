@@ -1,0 +1,56 @@
+{
+    "name": "Nothing Leaves This Room",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<span class=\"sdesc\">Absolute quarantine: no disease, poison, curse, undead, spirit, or Afflicted can cross out of the area, and no scrying reaches in. Anything that dies inside rises as an unbound Afflicted loyal to the Choir, not to you.</span>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "24 hours"
+        },
+        "level": {
+            "value": 10
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "100-foot burst"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": ""
+        },
+        "time": {
+            "value": "10 minutes"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "occult"
+            ],
+            "value": [
+                "plaguesworn"
+            ]
+        },
+        "slug": "nothing-leaves-this-room"
+    },
+    "_id": "3JKQhtskonTwSC3h",
+    "flags": {
+        "cinderfall": {
+            "listing": "10th Rank"
+        }
+    }
+}

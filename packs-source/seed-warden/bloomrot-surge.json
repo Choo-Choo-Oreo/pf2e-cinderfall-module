@@ -1,0 +1,57 @@
+{
+    "name": "Bloomrot Surge",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>Move the needle <b>two</b> steps in one direction instead of one, then take 1d6 mental damage per step taken past your previous position. You are forcing a season. It costs.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": ""
+        },
+        "level": {
+            "value": 2
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "self"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": ""
+        },
+        "time": {
+            "value": "1"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "primal"
+            ],
+            "value": [
+                "seed-warden"
+            ]
+        },
+        "slug": "bloomrot-surge"
+    },
+    "_id": "zZc56D2Q01bLJCYB",
+    "flags": {
+        "cinderfall": {
+            "spellTag": "Bloom: special",
+            "listing": "2nd Rank"
+        }
+    }
+}

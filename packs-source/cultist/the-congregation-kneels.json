@@ -1,0 +1,64 @@
+{
+    "name": "The Congregation Kneels",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": {
+            "type": "burst",
+            "value": 30
+        },
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+            "save": {
+                "basic": false,
+                "statistic": "will"
+            }
+        },
+        "description": {
+            "value": "<i>Critical Success/Success</i> unaffected. <i>Failure</i> charmed toward you, as Congregation. <i>Critical Failure</i> dominated instead."
+        },
+        "duration": {
+            "sustained": false,
+            "value": "1 minute"
+        },
+        "level": {
+            "value": 8
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": ""
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": ""
+        },
+        "time": {
+            "value": "3"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "occult"
+            ],
+            "value": [
+                "cultist"
+            ]
+        },
+        "slug": "the-congregation-kneels"
+    },
+    "_id": "OtBddKAJbVzMZJdv",
+    "flags": {
+        "cinderfall": {
+            "listing": "8th Rank"
+        }
+    }
+}

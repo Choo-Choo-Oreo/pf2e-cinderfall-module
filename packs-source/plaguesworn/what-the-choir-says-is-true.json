@@ -1,0 +1,61 @@
+{
+    "name": "What the Choir Says Is True",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+            "save": {
+                "basic": false,
+                "statistic": "will"
+            }
+        },
+        "description": {
+            "value": "<span class=\"sdesc\"><i>Failure</i> the targets accept a single stated falsehood as absolute, unquestionable truth for 1 week, with a new save each time they encounter direct evidence against it. <i>Critical Failure</i> as failure, and the first such save isn't attempted for 24 hours.</span>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": ""
+        },
+        "level": {
+            "value": 10
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "100 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "up to 5 creatures"
+        },
+        "time": {
+            "value": "3"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "occult"
+            ],
+            "value": [
+                "plaguesworn"
+            ]
+        },
+        "slug": "what-the-choir-says-is-true"
+    },
+    "_id": "LJlN2dUNs7smH7Jl",
+    "flags": {
+        "cinderfall": {
+            "listing": "10th Rank"
+        }
+    }
+}

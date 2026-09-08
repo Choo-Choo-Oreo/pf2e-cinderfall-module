@@ -1,0 +1,61 @@
+{
+    "name": "How This Ends",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+            "save": {
+                "basic": false,
+                "statistic": "will"
+            }
+        },
+        "description": {
+            "value": "<span class=\"sdesc\">You show it exactly how it dies. <i>Success</i> 4d6 mental damage. <i>Failure</i> 8d6 mental damage, and frightened 2. <i>Critical Failure</i> 12d6 mental damage, and the target must succeed at a Fortitude save or die; on a success it's instead drained 1d4 and fleeing for 1 round.</span>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": ""
+        },
+        "level": {
+            "value": 4
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "1 creature"
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "occult"
+            ],
+            "value": [
+                "plaguesworn"
+            ]
+        },
+        "slug": "how-this-ends"
+    },
+    "_id": "GYyLh6Y0W3V27aLY",
+    "flags": {
+        "cinderfall": {
+            "listing": "4th Rank"
+        }
+    }
+}

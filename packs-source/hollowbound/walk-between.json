@@ -1,0 +1,56 @@
+{
+    "name": "Walk Between",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>Vanish into the drifting dead for up to 8 hours; you and your body exist only in the crowd between worlds, observing the mortal plane faintly, and can return early at will. <b>Cost</b> the return automatically risks the Fraying Table, severity at GM's discretion based on time spent Between.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "up to 8 hours"
+        },
+        "level": {
+            "value": 10
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "self"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": ""
+        },
+        "time": {
+            "value": "10 minutes"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "occult"
+            ],
+            "value": [
+                "hollowbound"
+            ]
+        },
+        "slug": "walk-between"
+    },
+    "_id": "RC51wQgbwf0W09zQ",
+    "flags": {
+        "cinderfall": {
+            "listing": "10th Rank"
+        }
+    }
+}

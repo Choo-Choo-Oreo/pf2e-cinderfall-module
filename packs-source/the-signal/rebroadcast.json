@@ -1,0 +1,56 @@
+{
+    "name": "Rebroadcast",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p><strong>Trigger</strong> an ally in range finishes casting a spell of 5th rank or lower</p><hr /><p>The spell happens again immediately, targeting whatever the original caster chooses, using their statistics. You are not casting it. You are repeating it.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": ""
+        },
+        "level": {
+            "value": 6
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "60 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": ""
+        },
+        "time": {
+            "value": "reaction"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "occult"
+            ],
+            "value": [
+                "the-signal"
+            ]
+        },
+        "slug": "rebroadcast"
+    },
+    "_id": "fUz5oAownRIUL3IE",
+    "flags": {
+        "cinderfall": {
+            "listing": "6th Rank"
+        }
+    }
+}

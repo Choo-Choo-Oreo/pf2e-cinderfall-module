@@ -1,0 +1,57 @@
+{
+    "name": "Steady the Failing",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>The target's dying value stops increasing on its own and it loses no further ground, though it gains no Hit Points and its wounded value is unaffected. This doesn't heal — it just refuses to let someone slip further while you're standing there.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": ""
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "touch"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "1 dying creature"
+        },
+        "time": {
+            "value": "1"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "divine"
+            ],
+            "value": [
+                "cantrip",
+                "vigil"
+            ]
+        },
+        "slug": "steady-the-failing"
+    },
+    "_id": "EygXdHmNxwj7hbHR",
+    "flags": {
+        "cinderfall": {
+            "listing": "Cantrips"
+        }
+    }
+}

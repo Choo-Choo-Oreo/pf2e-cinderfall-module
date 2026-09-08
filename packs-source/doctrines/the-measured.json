@@ -1,0 +1,32 @@
+{
+    "_id": "GyqnWIdq8aGf9VYY",
+    "categories": [],
+    "name": "The Measured",
+    "ownership": {
+        "default": 0
+    },
+    "pages": [
+        {
+            "_id": "6YtkFgvkVAvFDoHL",
+            "category": null,
+            "image": {},
+            "name": "The Measured",
+            "sort": 100000,
+            "src": null,
+            "system": {},
+            "text": {
+                "content": "<p><em>Orthodox · The Founding Reading</em></p>        <p class=\"cc-desc\">The survivor came back because she was supposed to — the whole point of an approach is the return, carrying back whatever the edge revealed. The Measured treat every step of progress as data first, devotion second: catalog what channeling costs, how the pull changes as it deepens, anything that might one day let a fourth expedition succeed where three failed and actually report back. Getting kept would be a failure, not an honor, however it gets dressed up afterward.</p>",
+                "format": 1
+            },
+            "title": {
+                "level": 1,
+                "show": true
+            },
+            "type": "text",
+            "video": {
+                "controls": true,
+                "volume": 0.5
+            }
+        }
+    ]
+}

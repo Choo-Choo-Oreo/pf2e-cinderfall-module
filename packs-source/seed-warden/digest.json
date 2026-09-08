@@ -1,0 +1,62 @@
+{
+    "name": "Digest",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+            "save": {
+                "basic": false,
+                "statistic": "fortitude"
+            }
+        },
+        "description": {
+            "value": "<i>Failure</i> 8d6 poison and drained 1. <i>Critical Failure</i> 8d6 poison and drained 2, and the target cannot recover Hit Points by any means; it can attempt a new Fortitude save at the end of each of its turns, ending that effect on a success."
+        },
+        "duration": {
+            "sustained": false,
+            "value": "1 minute"
+        },
+        "level": {
+            "value": 6
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "one creature"
+        },
+        "time": {
+            "value": "3"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "primal"
+            ],
+            "value": [
+                "seed-warden"
+            ]
+        },
+        "slug": "digest"
+    },
+    "_id": "MvMQZAoJEaLUjiQf",
+    "flags": {
+        "cinderfall": {
+            "spellTag": "Requires Grey 3 · Bloom: Grey +1",
+            "listing": "6th Rank"
+        }
+    }
+}

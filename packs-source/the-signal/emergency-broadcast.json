@@ -1,0 +1,61 @@
+{
+    "name": "Emergency Broadcast",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+            "save": {
+                "basic": false,
+                "statistic": "will"
+            }
+        },
+        "description": {
+            "value": "<p>Allies in range gain a +2 status bonus to saves against fear and are immune to frightened. Enemies in range that fail are frightened 2. Everyone in earshot recognises the tone, including people born long after the last time it meant anything.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "1 minute"
+        },
+        "level": {
+            "value": 3
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "60 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": ""
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "occult"
+            ],
+            "value": [
+                "the-signal"
+            ]
+        },
+        "slug": "emergency-broadcast"
+    },
+    "_id": "tGZpZl3Vjrgsr5Ww",
+    "flags": {
+        "cinderfall": {
+            "listing": "3rd Rank"
+        }
+    }
+}

@@ -1,0 +1,64 @@
+{
+    "name": "The Cold Front",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": {
+            "type": "burst",
+            "value": 30
+        },
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+            "save": {
+                "basic": false,
+                "statistic": "will"
+            }
+        },
+        "description": {
+            "value": "<i>Critical Success/Success</i> unaffected. <i>Failure</i> frightened 2. <i>Critical Failure</i> frightened 2, and if three or more allies fail together, they also flee the area as a group for 1 round."
+        },
+        "duration": {
+            "sustained": false,
+            "value": "1 minute"
+        },
+        "level": {
+            "value": 4
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": ""
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": ""
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "occult"
+            ],
+            "value": [
+                "cultist"
+            ]
+        },
+        "slug": "the-cold-front"
+    },
+    "_id": "MgrapgcbwdxzLwr9",
+    "flags": {
+        "cinderfall": {
+            "listing": "4th Rank"
+        }
+    }
+}

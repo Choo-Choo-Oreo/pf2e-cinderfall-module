@@ -1,0 +1,64 @@
+{
+    "name": "Salt the Line",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": {
+            "type": "burst",
+            "value": 10
+        },
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+            "save": {
+                "basic": false,
+                "statistic": "will"
+            }
+        },
+        "description": {
+            "value": "<p>A warded boundary spirits and incorporeal creatures can't willingly cross for the duration — an incorporeal creature or spirit must succeed at a Will save to enter or act across it, and possession attempts from outside automatically fail.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "10 minutes"
+        },
+        "level": {
+            "value": 3
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": ""
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": ""
+        },
+        "time": {
+            "value": "3"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "occult"
+            ],
+            "value": [
+                "hollowbound"
+            ]
+        },
+        "slug": "salt-the-line"
+    },
+    "_id": "Njcm6XZX1IcqKTrn",
+    "flags": {
+        "cinderfall": {
+            "listing": "3rd Rank"
+        }
+    }
+}

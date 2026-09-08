@@ -1,0 +1,61 @@
+{
+    "name": "Open Line",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+            "save": {
+                "basic": false,
+                "statistic": "will"
+            }
+        },
+        "description": {
+            "value": "<i>Failure</i> read surface thoughts and intentions for the duration. <i>Critical Failure</i> as failure, and you also sense active lies. <i>Success</i> no effect."
+        },
+        "duration": {
+            "sustained": true,
+            "value": "1 minute (sustained)"
+        },
+        "level": {
+            "value": 5
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "1 creature"
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "occult"
+            ],
+            "value": [
+                "hollowbound"
+            ]
+        },
+        "slug": "open-line"
+    },
+    "_id": "x9UPDzyzL3sGgNOY",
+    "flags": {
+        "cinderfall": {
+            "listing": "5th Rank"
+        }
+    }
+}

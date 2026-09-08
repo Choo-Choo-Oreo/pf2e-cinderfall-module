@@ -1,0 +1,61 @@
+{
+    "name": "The Camp Empties",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+            "save": {
+                "basic": true,
+                "statistic": "fortitude"
+            }
+        },
+        "description": {
+            "value": "<span class=\"sdesc\">14d6 void damage.</span>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": ""
+        },
+        "level": {
+            "value": 8
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "120 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "up to 10 living creatures"
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "occult"
+            ],
+            "value": [
+                "plaguesworn"
+            ]
+        },
+        "slug": "the-camp-empties"
+    },
+    "_id": "EsQKSUHvMH6lMgb9",
+    "flags": {
+        "cinderfall": {
+            "listing": "8th Rank"
+        }
+    }
+}

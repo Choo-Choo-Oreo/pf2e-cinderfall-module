@@ -1,0 +1,56 @@
+{
+    "name": "Unbind",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>Attempt to counteract the binding using your spell DC as normal for a counteract check against the effect's rank and DC. Not guaranteed, but a real attempt where most people have none.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": ""
+        },
+        "level": {
+            "value": 3
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "touch"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "1 creature suffering under a curse, geas, or binding of rank 3 or lower"
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "divine"
+            ],
+            "value": [
+                "vigil"
+            ]
+        },
+        "slug": "unbind"
+    },
+    "_id": "GpHicvB6aLIosdHt",
+    "flags": {
+        "cinderfall": {
+            "listing": "3rd Rank"
+        }
+    }
+}

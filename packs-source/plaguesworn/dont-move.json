@@ -1,0 +1,62 @@
+{
+    "name": "Don't Move",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+            "save": {
+                "basic": false,
+                "statistic": "will"
+            }
+        },
+        "description": {
+            "value": "<span class=\"sdesc\"><i>Failure</i> paralyzed for 1 round. <i>Critical Failure</i> paralyzed for 4 rounds, with a new Will save at the end of each of its turns, ending the paralysis on a success.</span>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": ""
+        },
+        "level": {
+            "value": 3
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "1 creature"
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "occult"
+            ],
+            "value": [
+                "incapacitation",
+                "plaguesworn"
+            ]
+        },
+        "slug": "dont-move"
+    },
+    "_id": "WKxZQfLwWhbjHbaS",
+    "flags": {
+        "cinderfall": {
+            "listing": "3rd Rank"
+        }
+    }
+}

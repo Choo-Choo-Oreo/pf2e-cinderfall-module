@@ -1,0 +1,61 @@
+{
+    "name": "Redacted",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+            "save": {
+                "basic": false,
+                "statistic": "will"
+            }
+        },
+        "description": {
+            "value": "<p>You implant, alter, or erase a single specific memory of a real event. A willing or restrained target needs no save. Against an unwilling creature: <i>Critical Success</i> the target notices and the memory is untouched. <i>Success</i> untouched. <i>Failure</i> altered as you intend. <i>Critical Failure</i> as failure, and the target never notices anything was done.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": ""
+        },
+        "level": {
+            "value": 4
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "touch"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "one creature"
+        },
+        "time": {
+            "value": "1 minute"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "occult"
+            ],
+            "value": [
+                "cultist"
+            ]
+        },
+        "slug": "redacted"
+    },
+    "_id": "e2CXaTjaOEwylsx7",
+    "flags": {
+        "cinderfall": {
+            "listing": "4th Rank"
+        }
+    }
+}

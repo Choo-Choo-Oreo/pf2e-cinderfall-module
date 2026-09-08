@@ -1,0 +1,64 @@
+{
+    "name": "Split the Difference",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": {
+            "type": "burst",
+            "value": 20
+        },
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+            "save": {
+                "basic": false,
+                "statistic": "will"
+            }
+        },
+        "description": {
+            "value": "<p>Emotional extremes are flattened for the duration. <i>Failure</i> can't be affected by fear, rage, despair, or similarly extreme emotion effects (existing effects suppressed, not removed). <i>Critical Failure</i> as failure, plus a −2 status penalty to Will saves against emotion effects.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "1 minute"
+        },
+        "level": {
+            "value": 2
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "60 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "up to 4 creatures"
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "divine"
+            ],
+            "value": [
+                "reckoner"
+            ]
+        },
+        "slug": "split-the-difference"
+    },
+    "_id": "Vspg5J1DD9PNWQVT",
+    "flags": {
+        "cinderfall": {
+            "listing": "2nd Rank"
+        }
+    }
+}

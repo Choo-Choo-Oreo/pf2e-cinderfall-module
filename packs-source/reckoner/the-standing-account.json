@@ -1,0 +1,56 @@
+{
+    "name": "The Standing Account",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>Learn whether a stated course of action trends toward surplus or deficit — as <i>Augury</i>, but coarser: only whether it's \"good\" or \"bad\" within the next 10 minutes, no further detail.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": ""
+        },
+        "level": {
+            "value": 2
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "self"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": ""
+        },
+        "time": {
+            "value": "10 minutes"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "divine"
+            ],
+            "value": [
+                "reckoner"
+            ]
+        },
+        "slug": "the-standing-account"
+    },
+    "_id": "iG7Wz7NXlzVEUmsc",
+    "flags": {
+        "cinderfall": {
+            "listing": "2nd Rank"
+        }
+    }
+}

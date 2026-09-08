@@ -1,0 +1,64 @@
+{
+    "name": "Force-Render",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": {
+            "type": "cone",
+            "value": 15
+        },
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+            "save": {
+                "basic": true,
+                "statistic": "reflex"
+            }
+        },
+        "description": {
+            "value": "<p>Deal 4d6 force damage. Everything in the cone is briefly drawn in wireframe, and anything hidden inside it is visible for that instant.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": ""
+        },
+        "level": {
+            "value": 2
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "60 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": ""
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "occult"
+            ],
+            "value": [
+                "paradise-touched"
+            ]
+        },
+        "slug": "force-render"
+    },
+    "_id": "MnCyo8HBNJ8ewiJE",
+    "flags": {
+        "cinderfall": {
+            "listing": "2nd Rank"
+        }
+    }
+}

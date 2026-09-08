@@ -1,0 +1,57 @@
+{
+    "name": "The Many",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>Choose one: your reach increases by 5 feet until the end of your turn, or — if you're already taking an action that includes a Strike this turn — you gain one additional Strike as part of that action, using the same weapon or unarmed attack.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "1 round"
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "self"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": ""
+        },
+        "time": {
+            "value": "1"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [],
+            "value": [
+                "focus",
+                "reckoner"
+            ]
+        },
+        "slug": "the-many"
+    },
+    "_id": "KEJFTg79zyjopuVm",
+    "flags": {
+        "cinderfall": {
+            "focusCost": "1",
+            "spellTag": "The Many",
+            "listing": "Aspect Signatures / The Outside a direction, not a law or a mass"
+        }
+    }
+}

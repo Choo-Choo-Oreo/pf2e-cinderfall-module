@@ -1,0 +1,60 @@
+{
+    "name": "Blight the Path",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": {
+            "type": "line",
+            "value": 20
+        },
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>Everything growing along the line dies and stays dead, leaving bare, cracked, salted ground. Plant-based difficult terrain in the area is removed permanently — including a rival Seed-Warden's. This is the counter-spell to your own class, and it is deliberately available at 1st rank.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "permanent"
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "60 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": ""
+        },
+        "time": {
+            "value": "3"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "primal"
+            ],
+            "value": [
+                "seed-warden"
+            ]
+        },
+        "slug": "blight-the-path"
+    },
+    "_id": "VZDkTnNsWRqhHYxs",
+    "flags": {
+        "cinderfall": {
+            "spellTag": "[TERRAIN] · Bloom: Grey +1",
+            "listing": "1st Rank"
+        }
+    }
+}

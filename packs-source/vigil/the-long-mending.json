@@ -1,0 +1,56 @@
+{
+    "name": "The Long Mending",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>Restore 5d8 Hit Points to a single target, or divide 5d8 worth of healing among up to 4 creatures as you choose. The bigger sibling of Tend the Wound — still not a Miracle, but the difference is starting to show.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": ""
+        },
+        "level": {
+            "value": 5
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "touch, or 30 feet to divide among several"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "1 creature, or up to 4 creatures within 30 feet if dividing the healing"
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "divine"
+            ],
+            "value": [
+                "vigil"
+            ]
+        },
+        "slug": "the-long-mending"
+    },
+    "_id": "dKkLeAPvUj4GTAAG",
+    "flags": {
+        "cinderfall": {
+            "listing": "5th Rank"
+        }
+    }
+}

@@ -1,0 +1,56 @@
+{
+    "name": "Ride the Static",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>You and up to 5 willing creatures teleport up to a mile to a location you've personally been before.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": ""
+        },
+        "level": {
+            "value": 7
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "30 feet (to gather allies)"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "you and up to 5 willing creatures"
+        },
+        "time": {
+            "value": "3"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "occult"
+            ],
+            "value": [
+                "hollowbound"
+            ]
+        },
+        "slug": "ride-the-static"
+    },
+    "_id": "P8ePbRWPXo8Tvj9y",
+    "flags": {
+        "cinderfall": {
+            "listing": "7th Rank"
+        }
+    }
+}

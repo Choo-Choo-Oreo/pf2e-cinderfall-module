@@ -1,0 +1,61 @@
+{
+    "name": "The Final Toll",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+            "save": {
+                "basic": false,
+                "statistic": "fortitude"
+            }
+        },
+        "description": {
+            "value": "<i>Critical Success</i> unaffected. <i>Success</i> half damage. <i>Failure</i> 20d6 void damage. <i>Critical Failure</i> full damage, and the target's soul is consumed outright the instant it drops — no restoration short of divine intervention can bring it back. Either way, if the target dies to this damage, you gain a substantial temporary power surge (GM's call — typically a large pool of temporary HP and a free Rite use with no Zeal cost before your next turn)."
+        },
+        "duration": {
+            "sustained": false,
+            "value": ""
+        },
+        "level": {
+            "value": 10
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "one creature"
+        },
+        "time": {
+            "value": "3"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "occult"
+            ],
+            "value": [
+                "cultist"
+            ]
+        },
+        "slug": "the-final-toll"
+    },
+    "_id": "HXKOPzjlXqvsNsFQ",
+    "flags": {
+        "cinderfall": {
+            "listing": "10th Rank"
+        }
+    }
+}

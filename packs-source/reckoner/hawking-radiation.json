@@ -1,0 +1,57 @@
+{
+    "name": "Hawking Radiation",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>At the start of each of your turns, one enemy within range takes 1d4 void damage, no save (a given enemy can be affected by The Leak only once per round). This damage does not scale with your level.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": ""
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "1 enemy of your choice"
+        },
+        "time": {
+            "value": "passive, always-on once known — no action, no draw required"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [],
+            "value": [
+                "focus",
+                "reckoner"
+            ]
+        },
+        "slug": "hawking-radiation"
+    },
+    "_id": "YLUYf534kzj5f7Wr",
+    "flags": {
+        "cinderfall": {
+            "focusCost": "1",
+            "spellTag": "Hawking Radiation",
+            "listing": "Aspect Signatures / The Singularity creation and destruction as one event"
+        }
+    }
+}

@@ -1,0 +1,56 @@
+{
+    "name": "Full Coverage",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>Sign On and Sign Off both apply at once, without being sustained, and their bonuses and penalties increase to ±2.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "1 minute"
+        },
+        "level": {
+            "value": 4
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "60 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": ""
+        },
+        "time": {
+            "value": "3"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "occult"
+            ],
+            "value": [
+                "the-signal"
+            ]
+        },
+        "slug": "full-coverage"
+    },
+    "_id": "C9M06T5cWrU0ZX6s",
+    "flags": {
+        "cinderfall": {
+            "listing": "4th Rank"
+        }
+    }
+}

@@ -1,0 +1,64 @@
+{
+    "name": "The Choir Invites You",
+    "type": "consumable",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0.1
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p><strong>Craft Cost</strong> 8 Vitae Points</p><p><strong>Activate</strong> 1 action to inject or throw</p><p><strong>Frequency</strong> once per day</p><p><strong>Saving Throw</strong> Will</p><hr /><p>14d6 negative damage on a failed Will save — or, on a failure, the target instead falls under a permanent compulsion to spread the Choir's hymn to the next creature it meets, who must then also succeed at a Will save or become afflicted in turn.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 17
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {}
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "category": "poison",
+        "damage": null,
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "consumable",
+                "poison",
+                "fleshmancer"
+            ]
+        },
+        "usage": {
+            "value": "held-in-one-hand"
+        },
+        "uses": {
+            "autoDestroy": true,
+            "max": 1,
+            "value": 1
+        },
+        "slug": "the-choir-invites-you"
+    },
+    "_id": "nVCOPSjeF9Uh3b2s",
+    "flags": {
+        "cinderfall": {
+            "vitaeCost": 8,
+            "mk": "Mk IV"
+        }
+    }
+}

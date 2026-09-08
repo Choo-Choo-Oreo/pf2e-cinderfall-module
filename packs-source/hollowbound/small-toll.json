@@ -1,0 +1,62 @@
+{
+    "name": "Small Toll",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+            "save": {
+                "basic": false,
+                "statistic": "will"
+            }
+        },
+        "description": {
+            "value": "<p>A minor spirit takes a jab at your target on your behalf — the closest thing on this list to a slap. <i>Failure</i> 1d4 mental damage (<b>Heightened +1d4</b> every 2 levels). <i>Critical Failure</i> double damage and stupefied 1 until the start of your next turn. <i>Success</i> no effect.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": ""
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "1 creature"
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "occult"
+            ],
+            "value": [
+                "cantrip",
+                "hollowbound"
+            ]
+        },
+        "slug": "small-toll"
+    },
+    "_id": "4RomAz01o2oHAqSQ",
+    "flags": {
+        "cinderfall": {
+            "listing": "Cantrips"
+        }
+    }
+}

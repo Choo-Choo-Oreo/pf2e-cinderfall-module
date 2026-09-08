@@ -1,0 +1,56 @@
+{
+    "name": "On Loan",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<span class=\"sdesc\">The target returns at 1 Hit Point and wounded 2, permanently marked: it counts as one of your Afflicted for every Choir effect, and it hears the hymn faintly for the rest of its life. A given creature can be returned by On Loan only once, ever.</span>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": ""
+        },
+        "level": {
+            "value": 9
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "touch"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "1 creature dead no longer than 1 hour"
+        },
+        "time": {
+            "value": "10 minutes"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "occult"
+            ],
+            "value": [
+                "plaguesworn"
+            ]
+        },
+        "slug": "on-loan"
+    },
+    "_id": "IoV9X3HZ3Cgy7i9h",
+    "flags": {
+        "cinderfall": {
+            "listing": "9th Rank"
+        }
+    }
+}

@@ -1,0 +1,56 @@
+{
+    "name": "Instance Shift",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>You teleport to a location you can see. <i>Signal</i> you may instead swap places with a willing creature.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "instantaneous"
+        },
+        "level": {
+            "value": 3
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "60 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": ""
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "occult"
+            ],
+            "value": [
+                "paradise-touched"
+            ]
+        },
+        "slug": "instance-shift"
+    },
+    "_id": "x5Hs9qRoLndd6Ip5",
+    "flags": {
+        "cinderfall": {
+            "listing": "3rd Rank"
+        }
+    }
+}

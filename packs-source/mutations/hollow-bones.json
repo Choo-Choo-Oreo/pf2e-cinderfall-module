@@ -1,0 +1,66 @@
+{
+    "name": "Hollow Bones",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>Light, air-veined, and exactly as fragile as that sounds.</p><p><b>Gift —</b> Your Bulk counts 2 lower for anything carrying or lifting you; +2 circumstance to Acrobatics to Balance, and treat falls as 20 feet shorter. <b>Tithe —</b> They break. A critical hit against you that deals bludgeoning damage also inflicts clumsy 1 for 1 round.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 0
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {}
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "traits": {
+            "rarity": "rare",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "hollow-bones"
+    },
+    "_id": "ZWY7RK9xISnJeyw3",
+    "flags": {
+        "cinderfall": {
+            "mutationType": "minor",
+            "tier": "rare",
+            "slot": "Frame",
+            "slots": [
+                "Frame"
+            ],
+            "slotCost": 1,
+            "roll": "d100 — 85–86",
+            "incomplete": [
+                "level is a stub (0); mutations carry no level",
+                "price is empty; a mutation is not bought"
+            ],
+            "inferred": [
+                "system.usage"
+            ]
+        }
+    }
+}

@@ -1,0 +1,56 @@
+{
+    "name": "Not Quite Arrived",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>Invisible for the duration, as invisibility — genuinely hard to fix a gaze on, not silent or intangible; sound-based detection is unaffected.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "1 minute"
+        },
+        "level": {
+            "value": 6
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "self"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": ""
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "occult"
+            ],
+            "value": [
+                "hollowbound"
+            ]
+        },
+        "slug": "not-quite-arrived"
+    },
+    "_id": "7QGcEbabijhxIDED",
+    "flags": {
+        "cinderfall": {
+            "listing": "6th Rank"
+        }
+    }
+}

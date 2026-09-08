@@ -1,0 +1,61 @@
+{
+    "name": "Entry Made",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+            "save": {
+                "basic": false,
+                "statistic": "will"
+            }
+        },
+        "description": {
+            "value": "<i>Critical Success</i> the target notices the attempt and can't be targeted by Entry Made again today. <i>Success</i> unaffected. <i>Failure</i> you learn one true fact the target is actively trying to hide — not its deepest secret, just whatever's most relevant right now. <i>Critical Failure</i> as failure, and the target has no idea anything was read from it. Either way on a failure, the Ledger writes the fact down whether you wanted it to or not; it's now on record."
+        },
+        "duration": {
+            "sustained": false,
+            "value": ""
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "one creature"
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [],
+            "value": [
+                "cultist",
+                "focus"
+            ]
+        },
+        "slug": "entry-made"
+    },
+    "_id": "Ko6vtmHDaHyZIpEW",
+    "flags": {
+        "cinderfall": {
+            "spellTag": "Rite · 1st",
+            "listing": "Bargain Spells / The Ledger debts · secrets · everything written down"
+        }
+    }
+}

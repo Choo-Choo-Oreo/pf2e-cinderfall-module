@@ -1,0 +1,56 @@
+{
+    "name": "The Gaunt Choir Attends",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><hr /><span class=\"sdesc\">A fragment of the Choir itself arrives: a single undead entity of your level −2, not a minion, acting on its own initiative and broadly aligned with your intent. It isn't yours; it's visiting. Casting this always draws the Choir's Toll.</span>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "10 minutes"
+        },
+        "level": {
+            "value": 10
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "60 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": ""
+        },
+        "time": {
+            "value": "3"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "occult"
+            ],
+            "value": [
+                "plaguesworn"
+            ]
+        },
+        "slug": "the-gaunt-choir-attends"
+    },
+    "_id": "SIhFROMYFEM0NwUI",
+    "flags": {
+        "cinderfall": {
+            "listing": "10th Rank"
+        }
+    }
+}

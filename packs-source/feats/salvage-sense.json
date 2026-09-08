@@ -28,5 +28,11 @@
         },
         "slug": "salvage-sense"
     },
-    "_id": "eibCEYIFadSvl4H3"
+    "_id": "eibCEYIFadSvl4H3",
+    "flags": {
+        "cinderfall": {
+            "category": "background",
+            "sourceOwner": "backgrounds"
+        }
+    }
 }

@@ -1,0 +1,56 @@
+{
+    "name": "Pallbearers",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<span class=\"sdesc\">Each gains temporary Hit Points equal to twice your level and a +1 status bonus to attack rolls for the duration. Once per Afflicted per casting, an Afflicted destroyed by damage takes one final action before it collapses.</span>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "1 minute"
+        },
+        "level": {
+            "value": 2
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "up to 2 Afflicted you control"
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "occult"
+            ],
+            "value": [
+                "plaguesworn"
+            ]
+        },
+        "slug": "pallbearers"
+    },
+    "_id": "kOrngDxSilKIZAuC",
+    "flags": {
+        "cinderfall": {
+            "listing": "2nd Rank"
+        }
+    }
+}

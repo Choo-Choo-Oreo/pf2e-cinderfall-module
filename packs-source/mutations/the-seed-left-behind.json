@@ -1,0 +1,66 @@
+{
+    "name": "The Seed Left Behind",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>Something was planted. It is keeping you well because it is not finished.</p><p><b>Gift —</b> Fast healing 2, and you are immune to the enfeebled condition. <b>Tithe —</b> It is growing. The GM tracks its progress on a clock you cannot see, and when the clock fills, the GM decides what it has become — not you. No surgery and no ritual removes it.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 0
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {}
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "traits": {
+            "rarity": "exotic",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "the-seed-left-behind"
+    },
+    "_id": "AlCXhiDIYUYh0o0O",
+    "flags": {
+        "cinderfall": {
+            "mutationType": "major",
+            "tier": "exotic",
+            "slot": "Inlays",
+            "slots": [
+                "Inlays"
+            ],
+            "slotCost": 1,
+            "roll": "d20 — 19",
+            "incomplete": [
+                "level is a stub (0); mutations carry no level",
+                "price is empty; a mutation is not bought"
+            ],
+            "inferred": [
+                "system.usage"
+            ]
+        }
+    }
+}

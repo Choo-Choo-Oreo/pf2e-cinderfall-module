@@ -1,0 +1,64 @@
+{
+    "name": "Consensus",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": {
+            "type": "burst",
+            "value": 40
+        },
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+            "save": {
+                "basic": false,
+                "statistic": "will"
+            }
+        },
+        "description": {
+            "value": "<p>Every creature in the area agrees, sincerely and in the moment, with a single simple proposition you state aloud. A proposition that is obviously self-destructive, or clearly against a creature's nature, has no effect on that creature. <b>Failure</b> it acts accordingly for the duration. <b>Critical Failure</b> it still believes it afterward, and will defend the position.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "1 minute"
+        },
+        "level": {
+            "value": 6
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "100 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": ""
+        },
+        "time": {
+            "value": "3"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "occult"
+            ],
+            "value": [
+                "paradise-touched"
+            ]
+        },
+        "slug": "consensus"
+    },
+    "_id": "lKPdGdd9MXKJozY6",
+    "flags": {
+        "cinderfall": {
+            "listing": "6th Rank"
+        }
+    }
+}

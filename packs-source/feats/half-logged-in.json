@@ -28,5 +28,11 @@
         },
         "slug": "half-logged-in"
     },
-    "_id": "uLS8NjuXGUas2h0X"
+    "_id": "uLS8NjuXGUas2h0X",
+    "flags": {
+        "cinderfall": {
+            "category": "background",
+            "sourceOwner": "backgrounds"
+        }
+    }
 }

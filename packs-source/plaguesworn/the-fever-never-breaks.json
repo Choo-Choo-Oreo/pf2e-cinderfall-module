@@ -1,0 +1,61 @@
+{
+    "name": "The Fever Never Breaks",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+            "save": {
+                "basic": false,
+                "statistic": "will"
+            }
+        },
+        "description": {
+            "value": "<span class=\"sdesc\"><i>Failure</i> confused for 1 minute. <i>Critical Failure</i> confused indefinitely, with a new Will save every 10 minutes and after any full night's rest.</span>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": ""
+        },
+        "level": {
+            "value": 7
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "1 creature"
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "occult"
+            ],
+            "value": [
+                "plaguesworn"
+            ]
+        },
+        "slug": "the-fever-never-breaks"
+    },
+    "_id": "XE9sUPIkHbVu1BvO",
+    "flags": {
+        "cinderfall": {
+            "listing": "7th Rank"
+        }
+    }
+}

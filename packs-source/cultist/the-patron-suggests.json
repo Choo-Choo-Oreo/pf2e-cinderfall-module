@@ -1,0 +1,61 @@
+{
+    "name": "The Patron Suggests",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+            "save": {
+                "basic": false,
+                "statistic": "will"
+            }
+        },
+        "description": {
+            "value": "<i>Critical Success/Success</i> unaffected. <i>Failure</i> the target pursues a suggested course of action as its priority for the duration, or until it would obviously get it killed. <i>Critical Failure</i> as failure, but it won't abandon the course of action even when it becomes obviously lethal until it succeeds at a save at the end of each turn."
+        },
+        "duration": {
+            "sustained": false,
+            "value": "up to 1 hour"
+        },
+        "level": {
+            "value": 5
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "one creature"
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "occult"
+            ],
+            "value": [
+                "cultist"
+            ]
+        },
+        "slug": "the-patron-suggests"
+    },
+    "_id": "bAPWtzpnj0oZLtFj",
+    "flags": {
+        "cinderfall": {
+            "listing": "5th Rank"
+        }
+    }
+}

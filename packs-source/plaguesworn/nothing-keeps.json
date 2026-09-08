@@ -1,0 +1,61 @@
+{
+    "name": "Verse of Rot",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+            "save": {
+                "basic": false,
+                "statistic": "fortitude"
+            }
+        },
+        "description": {
+            "value": "<span class=\"sdesc\"><i>Failure</i> 1d4 persistent void damage per 2 ranks of this spell; if the creature already carries persistent void damage from you, that value increases by 1d4 instead of a new instance starting. <i>Critical Success</i> immune to Nothing Keeps cast by you for 1 minute.</span>"
+        },
+        "duration": {
+            "sustained": true,
+            "value": "sustained up to 1 minute"
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "15-foot emanation, centered on you"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": ""
+        },
+        "time": {
+            "value": "3"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [],
+            "value": [
+                "focus",
+                "plaguesworn"
+            ]
+        },
+        "slug": "nothing-keeps"
+    },
+    "_id": "fLRWvypSCNqig8LS",
+    "flags": {
+        "cinderfall": {
+            "focusCost": "1",
+            "listing": "Verse Spells / Verse of Rot Spoilage — decay damage"
+        }
+    }
+}

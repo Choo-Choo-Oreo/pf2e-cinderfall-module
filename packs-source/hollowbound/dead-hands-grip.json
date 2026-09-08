@@ -1,0 +1,60 @@
+{
+    "name": "Dead Hand's Grip",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+            "save": {
+                "basic": false,
+                "statistic": "will"
+            }
+        },
+        "description": {
+            "value": "<p>A construct or machine within 30 feet activates for you. If it's friendly or unowned it performs one simple function at no risk; a hostile target must succeed at a Will save or be stopped in place — off-guard and unable to act — for 1 round.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "1 round"
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "1 construct, ghost-machine, or piece of unpowered old-world machinery"
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [],
+            "value": [
+                "focus",
+                "hollowbound"
+            ]
+        },
+        "slug": "dead-hands-grip"
+    },
+    "_id": "VBzrcX13Cq5EUOv7",
+    "flags": {
+        "cinderfall": {
+            "listing": "Covenant Vessel Spells / Ghost-Static machine spirits · lowest risk"
+        }
+    }
+}

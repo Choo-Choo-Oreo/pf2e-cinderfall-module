@@ -32,7 +32,8 @@
             "define": "Mass-Death Spirit Collective",
             "incomplete": [
                 "STUB -- no mechanics authored. Missing every pf2e deity field: attribute, domains, font, sanctification, skill, spells, weapons. `category` is a default of 'deity' and may need to be philosophy or pantheon. See .claude/docs/todo.md."
-            ]
+            ],
+            "effect": "Full context: <a class=\"bref\" href=\"fleshmancer.html\">Fleshmancer</a> dossier (patron); <a class=\"bref\" href=\"ancestries.html\">Hymnkin</a> ancestry (\"A Voice Recognized\") — also the collective a Plaguesworn Death-Singer answers to."
         }
     }
 }

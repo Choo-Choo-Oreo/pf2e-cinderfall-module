@@ -1,0 +1,55 @@
+{
+    "name": "Ash and Rebar",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>The structure becomes rubble in an instant; a creature caught inside attempts a basic Reflex save.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": ""
+        },
+        "level": {
+            "value": 5
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "120 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "1 building or structure up to Gargantuan size"
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [],
+            "value": [
+                "focus",
+                "vigil"
+            ]
+        },
+        "slug": "ash-and-rebar"
+    },
+    "_id": "6rtCm0cQqgNyThdk",
+    "flags": {
+        "cinderfall": {
+            "listing": "The Miracle / Unmaking Ladder / Greater 9th level · full current pool"
+        }
+    }
+}

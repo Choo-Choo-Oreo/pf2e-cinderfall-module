@@ -1,0 +1,57 @@
+{
+    "name": "Held Ledger",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>The target takes a −1 status penalty to its next attack roll against you or an ally (<b>Heightened +4</b>: penalty increases to −2).</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "1 round"
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "1 creature"
+        },
+        "time": {
+            "value": "1"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "divine"
+            ],
+            "value": [
+                "cantrip",
+                "reckoner"
+            ]
+        },
+        "slug": "held-ledger"
+    },
+    "_id": "Onevc88Y5Ix9gKKL",
+    "flags": {
+        "cinderfall": {
+            "listing": "Cantrips"
+        }
+    }
+}

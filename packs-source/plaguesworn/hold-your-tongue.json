@@ -1,0 +1,61 @@
+{
+    "name": "Verse of Silence",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+            "save": {
+                "basic": false,
+                "statistic": "fortitude"
+            }
+        },
+        "description": {
+            "value": "<span class=\"sdesc\">If you have Read the target, it takes a −1 circumstance penalty to this save. <i>Failure</i> sickened 1. <i>Critical Failure</i> sickened 2, and it can't speak — no verbal components, no Command, no auditory actions — until the end of its next turn.</span>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "1 round"
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "1 creature"
+        },
+        "time": {
+            "value": "1"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [],
+            "value": [
+                "focus",
+                "plaguesworn"
+            ]
+        },
+        "slug": "hold-your-tongue"
+    },
+    "_id": "0sRGTc3GZGd1p29z",
+    "flags": {
+        "cinderfall": {
+            "focusCost": "1",
+            "listing": "Verse Spells / Verse of Silence Quiet Ward — quarantine and control"
+        }
+    }
+}

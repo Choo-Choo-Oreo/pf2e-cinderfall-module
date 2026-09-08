@@ -1,0 +1,60 @@
+{
+    "name": "Reclaim",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": {
+            "type": "burst",
+            "value": 20
+        },
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>Irradiated, salted, or fouled ground becomes clean. Not fertile — clean. Nothing will grow here for a year, and then things will. This spell is why anybody tolerates a Seed-Warden in their settlement, and casting it in front of the wrong faction is how you get recruited at gunpoint.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "permanent"
+        },
+        "level": {
+            "value": 3
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "touch"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": ""
+        },
+        "time": {
+            "value": "10 minutes"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "primal"
+            ],
+            "value": [
+                "seed-warden"
+            ]
+        },
+        "slug": "reclaim"
+    },
+    "_id": "MJwbcdkM3td5vyV7",
+    "flags": {
+        "cinderfall": {
+            "spellTag": "[TERRAIN] · Bloom: Green +1",
+            "listing": "3rd Rank"
+        }
+    }
+}

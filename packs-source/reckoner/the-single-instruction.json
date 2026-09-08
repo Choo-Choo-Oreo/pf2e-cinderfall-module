@@ -1,0 +1,61 @@
+{
+    "name": "The Single Instruction",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+            "save": {
+                "basic": false,
+                "statistic": "will"
+            }
+        },
+        "description": {
+            "value": "<i>Critical Success</i> unaffected, and remembers the attempt. <i>Success</i> unaffected. <i>Failure</i> the creature obeys a single one-word command (as <i>Command</i>) if not obviously self-destructive; otherwise it takes a −2 status penalty to its next save against you before the end of its next turn. <i>Critical Failure</i> as failure, penalty increases to −4."
+        },
+        "duration": {
+            "sustained": false,
+            "value": ""
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "1 creature"
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "divine"
+            ],
+            "value": [
+                "reckoner"
+            ]
+        },
+        "slug": "the-single-instruction"
+    },
+    "_id": "6dTaQvW4F4XsMH7a",
+    "flags": {
+        "cinderfall": {
+            "listing": "1st Rank"
+        }
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "name": "One More Breath",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>The target draws one final breath and can speak a short sentence or two before going still again — no return to life.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": ""
+        },
+        "level": {
+            "value": 5
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "1 creature dead less than 1 minute"
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [],
+            "value": [
+                "focus",
+                "vigil"
+            ]
+        },
+        "slug": "one-more-breath"
+    },
+    "_id": "LAZHHKHPIHXReStV",
+    "flags": {
+        "cinderfall": {
+            "listing": "The Miracle / Unmaking Ladder / Greater 9th level · full current pool"
+        }
+    }
+}

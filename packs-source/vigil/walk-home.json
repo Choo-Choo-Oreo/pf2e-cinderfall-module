@@ -1,0 +1,55 @@
+{
+    "name": "Walk Home",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>Every fresh corpse rises, walks home, and lies back down — permanently unable to be bound or reanimated.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "permanent"
+        },
+        "level": {
+            "value": 9
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "1-mile burst centered on you"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "all fresh corpses in the area"
+        },
+        "time": {
+            "value": "10 minutes"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [],
+            "value": [
+                "focus",
+                "vigil"
+            ]
+        },
+        "slug": "walk-home"
+    },
+    "_id": "WjCDw7RSOjjhbJuu",
+    "flags": {
+        "cinderfall": {
+            "listing": "The Miracle / Unmaking Ladder / Great 17th level · full pool at max cap · leaves a permanent Testament Mark"
+        }
+    }
+}

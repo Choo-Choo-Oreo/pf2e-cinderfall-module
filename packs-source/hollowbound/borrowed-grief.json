@@ -1,0 +1,60 @@
+{
+    "name": "Borrowed Grief",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+            "save": {
+                "basic": false,
+                "statistic": "will"
+            }
+        },
+        "description": {
+            "value": "<p>The target feels the spirit's unresolved dying moment. <i>Critical Success</i> no effect. <i>Success</i> 4d6 mental damage. <i>Failure</i> 8d6 mental damage. <i>Critical Failure</i> 16d6 mental damage. <b>Heightened</b> +2d6 every 2 levels. High cost, high payoff: this one always risks the Fraying Table, even on a clean cast.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": ""
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "touch"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "1 creature"
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [],
+            "value": [
+                "focus",
+                "hollowbound"
+            ]
+        },
+        "slug": "borrowed-grief"
+    },
+    "_id": "owvQ5ZXjag1Il5L7",
+    "flags": {
+        "cinderfall": {
+            "listing": "Covenant Vessel Spells / Wailing Debt restless dead · highest power &amp; risk"
+        }
+    }
+}

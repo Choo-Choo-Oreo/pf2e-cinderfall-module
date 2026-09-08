@@ -1,0 +1,32 @@
+{
+    "_id": "30gXtuymFDQ5KTNu",
+    "categories": [],
+    "name": "The Outside",
+    "ownership": {
+        "default": 0
+    },
+    "pages": [
+        {
+            "_id": "ebs94CitRdmzP4DZ",
+            "category": null,
+            "image": {},
+            "name": "The Outside",
+            "sort": 100000,
+            "src": null,
+            "system": {},
+            "text": {
+                "content": "<p><em>Not A Law, Not A Mass — A Direction</em></p>      <p class=\"cc-desc\">Start with what it isn't. It isn't a constant like the Halving — nothing about it is provable, measurable, or repeatable, and nobody has ever produced an equation for it the way the Long Chapter did for entropy. It isn't a mass like the Singularity, either — there's no gravity well, no boundary anyone could plot a course toward or away from. What channelers describe, when they describe anything at all, isn't a place or a thing. It's a direction. Beyond the Triangle, beyond even Faith — the Reckoner's own pillar names it more literally than anyone realized when they wrote it down: a border reality has, that the Outside sits past, not inside.</p>\n      <p class=\"cc-desc\">Accounts never corroborate. Two Reckoners describing the same channeling session will disagree, point-blank, on basic geometry — one says the space folded inward, the other insists it opened outward, and both are certain. Nobody agrees on how much time passed while they were channeling it; five minutes and forty-five minutes have both been reported for the same working, by people standing in the same room. Whatever obeys this world's physics clearly doesn't include whatever the Outside actually is.</p>\n      <p class=\"cc-desc\">That disagreement is the closest thing to evidence anyone has. The Halving is constant, provable, math — every account matches because everyone's measuring the same equation. The Singularity is a real astronomical category, even if this particular instance sits unreachably far off — everyone at least agrees on what kind of thing it is. Nobody has ever produced two independent accounts of the Outside that agree on basic facts. A convincing lie is usually more consistent than that. The disagreement itself, oddly, is the strongest evidence anyone has that there's something real out there to disagree about.</p>",
+                "format": 1
+            },
+            "title": {
+                "level": 1,
+                "show": true
+            },
+            "type": "text",
+            "video": {
+                "controls": true,
+                "volume": 0.5
+            }
+        }
+    ]
+}

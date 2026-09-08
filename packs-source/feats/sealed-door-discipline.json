@@ -28,5 +28,11 @@
         },
         "slug": "sealed-door-discipline"
     },
-    "_id": "6Gz4VFLPdibkK6Q7"
+    "_id": "6Gz4VFLPdibkK6Q7",
+    "flags": {
+        "cinderfall": {
+            "category": "background",
+            "sourceOwner": "backgrounds"
+        }
+    }
 }

@@ -1,0 +1,64 @@
+{
+    "name": "The Long Change",
+    "type": "consumable",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0.1
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p><strong>Craft Cost</strong> 4 Vitae Points</p><p><strong>Activate</strong> 1 action to drink</p><hr /><p>For 10 minutes, +3 status bonus to two physical skills, resistance 5 to physical damage, and a natural weapon (2d6). The Bloom risk is rolled twice, taking the worse result if either roll comes up bad (Bloom risk uses the class's Bloom-check mechanic, not a standard save).</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 11
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {}
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "category": "elixir",
+        "damage": null,
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "consumable",
+                "elixir",
+                "fleshmancer"
+            ]
+        },
+        "usage": {
+            "value": "held-in-one-hand"
+        },
+        "uses": {
+            "autoDestroy": true,
+            "max": 1,
+            "value": 1
+        },
+        "slug": "the-long-change"
+    },
+    "_id": "M6yl4Y5jMp2kruKm",
+    "flags": {
+        "cinderfall": {
+            "vitaeCost": 4,
+            "mk": "Mk III"
+        }
+    }
+}

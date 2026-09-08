@@ -1,0 +1,56 @@
+{
+    "name": "Verse of the Multitude",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<span class=\"sdesc\">For the rest of the encounter, you may Command every Afflicted you control with a single action, once per turn.</span>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "until the end of the encounter"
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "self"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": ""
+        },
+        "time": {
+            "value": "1"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [],
+            "value": [
+                "focus",
+                "plaguesworn"
+            ]
+        },
+        "slug": "all-of-you-at-once"
+    },
+    "_id": "2XZ1ZIdIRP9mvydZ",
+    "flags": {
+        "cinderfall": {
+            "focusCost": "1",
+            "listing": "Verse Spells / Verse of the Multitude Full Chorus — thrall handling"
+        }
+    }
+}

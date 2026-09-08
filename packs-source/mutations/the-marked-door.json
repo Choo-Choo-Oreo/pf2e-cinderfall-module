@@ -1,0 +1,62 @@
+{
+    "name": "The Marked Door",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>The Teratoma knows exactly which door you'll walk through eventually. It already owns the other side.</p><p><b>Gift —</b> Once per day, open any door, gate, or barrier you can physically touch as if you had the means to — a locked door, a barred gate, a sealed hatch simply isn't locked to you. No check, no key. <b>Tithe —</b> Somewhere, the Teratoma is deciding what's waiting on the other side the next time it matters. The GM tracks it, doesn't tell you, and when it decides to spend it, one door you open is not the door you expected — no save, and it happens the moment you're already through.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 0
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {}
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "traits": {
+            "rarity": "exotic",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "the-marked-door"
+    },
+    "_id": "KbivHkAQgk4mIDiu",
+    "flags": {
+        "cinderfall": {
+            "mutationType": "teratoma",
+            "tier": "exotic",
+            "prerequisite": "carries a Teratoma Trait",
+            "access": "radiation",
+            "incomplete": [
+                "level is a stub (0); mutations carry no level",
+                "price is empty; a mutation is not bought"
+            ],
+            "inferred": [
+                "system.usage"
+            ]
+        }
+    }
+}

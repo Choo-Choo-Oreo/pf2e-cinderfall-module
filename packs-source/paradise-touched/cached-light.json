@@ -1,0 +1,57 @@
+{
+    "name": "Cached Light",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>A soft, sourceless light in a 20-foot radius, the colour of a room somebody remembers being happy in. It never flickers, and it makes people uneasy in a way they can't place.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "1 hour"
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": ""
+        },
+        "time": {
+            "value": "1"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "occult"
+            ],
+            "value": [
+                "cantrip",
+                "paradise-touched"
+            ]
+        },
+        "slug": "cached-light"
+    },
+    "_id": "UAoRYHePhpd9blN4",
+    "flags": {
+        "cinderfall": {
+            "listing": "Cantrips"
+        }
+    }
+}

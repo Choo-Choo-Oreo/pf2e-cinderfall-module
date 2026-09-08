@@ -1,0 +1,68 @@
+{
+    "name": "Apotheosis, Uninvited",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>You are becoming something. Nobody asked you which.</p><p><b>Gift —</b> Resistance 5 to all physical damage, and you no longer need to eat, drink or sleep. <b>Tithe —</b> Occupies three slots. Once per session the GM may declare a part of you has finished changing — a limb, a sense, a need — and rules what it is now. No save, no veto, and it does not change back.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 0
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {}
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "traits": {
+            "rarity": "exotic",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "apotheosis-uninvited"
+    },
+    "_id": "ZGoBCmXkZcBVwAcw",
+    "flags": {
+        "cinderfall": {
+            "mutationType": "major",
+            "tier": "exotic",
+            "slot": "Frame + Dermal + Viscera (Multi-Slot)",
+            "slots": [
+                "Frame",
+                "Dermal",
+                "Viscera"
+            ],
+            "slotCost": 3,
+            "roll": "d20 — 20",
+            "incomplete": [
+                "level is a stub (0); mutations carry no level",
+                "price is empty; a mutation is not bought"
+            ],
+            "inferred": [
+                "system.usage"
+            ]
+        }
+    }
+}

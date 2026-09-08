@@ -1,0 +1,66 @@
+{
+    "name": "Split Nail-Bed",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>The nails come back different every time.</p><p><b>Gift —</b> They regrow overnight into whatever shape you last filed them: spend 10 minutes shaping and take +1 circumstance to Thievery or Crafting fine work with them. <b>Tithe —</b> You have no fixed prints. Biometric identification of you simply fails — which is a problem the first time a door, a ledger, or an ally's ward expects your print and doesn't get it.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 0
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {}
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "traits": {
+            "rarity": "uncommon",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "split-nail-bed"
+    },
+    "_id": "vPZUXx6EFlGS0KT5",
+    "flags": {
+        "cinderfall": {
+            "mutationType": "minor",
+            "tier": "uncommon",
+            "slot": "Arm",
+            "slots": [
+                "Arm"
+            ],
+            "slotCost": 1,
+            "roll": "d100 — 51–52",
+            "incomplete": [
+                "level is a stub (0); mutations carry no level",
+                "price is empty; a mutation is not bought"
+            ],
+            "inferred": [
+                "system.usage"
+            ]
+        }
+    }
+}

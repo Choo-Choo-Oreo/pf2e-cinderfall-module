@@ -1,0 +1,56 @@
+{
+    "name": "All Frequencies",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>For the duration, every ally in range may reroll one failed check <b>per round</b>, spending no Encore and no action. Your own pool does not build while this is running, and when it ends Broadcast ends with it.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "3 rounds"
+        },
+        "level": {
+            "value": 9
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "120 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": ""
+        },
+        "time": {
+            "value": "3"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "occult"
+            ],
+            "value": [
+                "the-signal"
+            ]
+        },
+        "slug": "all-frequencies"
+    },
+    "_id": "CqHthfgQg0bOimoR",
+    "flags": {
+        "cinderfall": {
+            "listing": "9th Rank"
+        }
+    }
+}

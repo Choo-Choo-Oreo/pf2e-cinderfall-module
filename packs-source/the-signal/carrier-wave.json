@@ -1,0 +1,57 @@
+{
+    "name": "Carrier Wave",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>You speak one sentence into the target's ear, wherever it is in range, in your own voice. It cannot reply. Every Signal eventually learns to say a lot in one sentence.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": ""
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "500 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "1 creature you have met"
+        },
+        "time": {
+            "value": "1"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "occult"
+            ],
+            "value": [
+                "cantrip",
+                "the-signal"
+            ]
+        },
+        "slug": "carrier-wave"
+    },
+    "_id": "8vXhVKn82YhTb6K7",
+    "flags": {
+        "cinderfall": {
+            "listing": "Transmissions"
+        }
+    }
+}

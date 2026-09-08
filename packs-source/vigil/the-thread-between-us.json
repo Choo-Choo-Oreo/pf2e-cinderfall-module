@@ -1,0 +1,56 @@
+{
+    "name": "The Thread Between Us",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>Whenever a bound creature would take damage, it may divide that damage among any other bound creatures within the emanation as it chooses. Whenever you restore Hit Points to one bound creature with a spell, each other bound creature within the emanation regains Hit Points equal to half that amount. Nobody carries the whole weight alone while this holds — which is, in the end, the entire argument of the Unanswered's faith, made mechanical for a few minutes.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "10 minutes"
+        },
+        "level": {
+            "value": 7
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "30-foot emanation centered on you"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "you and up to 4 allies"
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "divine"
+            ],
+            "value": [
+                "vigil"
+            ]
+        },
+        "slug": "the-thread-between-us"
+    },
+    "_id": "tisSVQv7NMALaX7R",
+    "flags": {
+        "cinderfall": {
+            "listing": "7th Rank"
+        }
+    }
+}

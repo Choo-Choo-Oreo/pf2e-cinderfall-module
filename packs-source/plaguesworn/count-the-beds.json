@@ -1,0 +1,60 @@
+{
+    "name": "Count the Beds",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": {
+            "type": "emanation",
+            "value": 60
+        },
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<span class=\"sdesc\">Sense the rough direction and number of creatures within the emanation that are sick, diseased, poisoned, dying, dead, or undead. Never which is which.</span>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "1 minute"
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "self"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": ""
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "occult"
+            ],
+            "value": [
+                "cantrip",
+                "plaguesworn"
+            ]
+        },
+        "slug": "count-the-beds"
+    },
+    "_id": "PrSyqqPF1xgryVOr",
+    "flags": {
+        "cinderfall": {
+            "listing": "Cantrips"
+        }
+    }
+}

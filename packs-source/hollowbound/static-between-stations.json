@@ -1,0 +1,55 @@
+{
+    "name": "Static Between Stations",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>You and the Hollow gain concealment specifically against electronic, mechanical-sensory, or ghost-machine-sighted detection for the duration.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "1 minute"
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "self"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": ""
+        },
+        "time": {
+            "value": "1"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [],
+            "value": [
+                "focus",
+                "hollowbound"
+            ]
+        },
+        "slug": "static-between-stations"
+    },
+    "_id": "ZIhTXw2pBvxEyMVn",
+    "flags": {
+        "cinderfall": {
+            "listing": "Covenant Vessel Spells / Ghost-Static machine spirits · lowest risk"
+        }
+    }
+}

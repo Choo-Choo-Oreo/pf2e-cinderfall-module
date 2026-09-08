@@ -1,0 +1,62 @@
+{
+    "name": "Test Tone",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+            "save": {
+                "basic": true,
+                "statistic": "fortitude"
+            }
+        },
+        "description": {
+            "value": "<p>Deal 1d4 sonic damage (<i>Heightened</i> +1d4 at 3rd level and every 2 levels thereafter). A single flat tone at exactly the wrong pitch.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": ""
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "60 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "1 creature"
+        },
+        "time": {
+            "value": "1"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "occult"
+            ],
+            "value": [
+                "cantrip",
+                "the-signal"
+            ]
+        },
+        "slug": "test-tone"
+    },
+    "_id": "t7UnxTA9MPQYNmnI",
+    "flags": {
+        "cinderfall": {
+            "listing": "Transmissions"
+        }
+    }
+}

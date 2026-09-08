@@ -1,0 +1,62 @@
+{
+    "name": "The Mark That Waits",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+            "save": {
+                "basic": false,
+                "statistic": "will"
+            }
+        },
+        "description": {
+            "value": "<p>You leave an invisible sign on a creature, door, or object. Once, at a moment of your choosing while within 1 mile, you sense that the marked thing has crossed a threshold, changed hands, or come to harm (the GM sets the specific trigger when you cast this). Old churches carved marks in doorframes for the same reason: so someone, someday, would know you'd been there.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "until triggered, or 1 month, whichever comes first"
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "touch"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": ""
+        },
+        "time": {
+            "value": "1"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "divine"
+            ],
+            "value": [
+                "cantrip",
+                "vigil"
+            ]
+        },
+        "slug": "the-mark-that-waits"
+    },
+    "_id": "vNubtjgymaLSUdv9",
+    "flags": {
+        "cinderfall": {
+            "listing": "Cantrips"
+        }
+    }
+}

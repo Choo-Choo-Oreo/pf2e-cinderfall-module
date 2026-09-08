@@ -1,0 +1,56 @@
+{
+    "name": "The Vigil Holds",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>Choose attack rolls or saving throws when you cast this; affected creatures gain a +1 status bonus to rolls of that kind for the duration. <i>Read As — Unanswered: a held-together line, refusing to break. Choir of Ash: a shared certainty that whatever's coming next is deserved, and worth meeting.</i></p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "1 minute"
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "30-foot emanation centered on you"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "you and any allies in the emanation"
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "divine"
+            ],
+            "value": [
+                "vigil"
+            ]
+        },
+        "slug": "the-vigil-holds"
+    },
+    "_id": "ggyLLSfiIhFOijdy",
+    "flags": {
+        "cinderfall": {
+            "listing": "1st Rank"
+        }
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "name": "Patron's Nudge",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>The target gains a +1 status bonus to the next check it attempts before the duration ends. You can't target the same creature again until it's had a full night's rest.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "until the start of your next turn"
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "touch"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "one creature (usually yourself)"
+        },
+        "time": {
+            "value": "1"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "occult"
+            ],
+            "value": [
+                "cantrip",
+                "cultist"
+            ]
+        },
+        "slug": "patrons-nudge"
+    },
+    "_id": "XC4bpFKmBwwXtLnb",
+    "flags": {
+        "cinderfall": {
+            "listing": "Cantrips"
+        }
+    }
+}

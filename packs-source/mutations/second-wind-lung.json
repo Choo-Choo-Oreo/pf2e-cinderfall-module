@@ -1,0 +1,66 @@
+{
+    "name": "Second Wind Lung",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>A true second lung, not just augmented capacity.</p><p><b>Gift —</b> Once per day, when reduced below half your maximum HP, take a breath as a free action and remove one of fatigued, sickened, or frightened (choose one). <b>Tithe —</b> Your breathing is loud and unmistakable under exertion: Stealth checks that would let you hold your breath silently instead take a −2 circumstance penalty while winded.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 0
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {}
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "traits": {
+            "rarity": "rare",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "second-wind-lung"
+    },
+    "_id": "KsMzPrWxkZGdNyRJ",
+    "flags": {
+        "cinderfall": {
+            "mutationType": "major",
+            "tier": "rare",
+            "slot": "Viscera",
+            "slots": [
+                "Viscera"
+            ],
+            "slotCost": 1,
+            "roll": "d20 — 9",
+            "incomplete": [
+                "level is a stub (0); mutations carry no level",
+                "price is empty; a mutation is not bought"
+            ],
+            "inferred": [
+                "system.usage"
+            ]
+        }
+    }
+}

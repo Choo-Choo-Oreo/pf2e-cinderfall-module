@@ -1,0 +1,56 @@
+{
+    "name": "The Unclaimed Return",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>Recover a soul dead under 24 hours before any harvester claims it — as <i>True Resurrection</i>, calling the soul back into a fully repaired body. Costs 1 permanent Reckoning stage beyond your current maximum, paid regardless, which never resets and stacks on repeated use.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": ""
+        },
+        "level": {
+            "value": 9
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "touch"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "1 creature dead no more than 24 hours, soul unclaimed"
+        },
+        "time": {
+            "value": "10 minutes"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "divine"
+            ],
+            "value": [
+                "reckoner"
+            ]
+        },
+        "slug": "the-unclaimed-return"
+    },
+    "_id": "kMMVfgaGEBKENSJ1",
+    "flags": {
+        "cinderfall": {
+            "listing": "9th Rank"
+        }
+    }
+}

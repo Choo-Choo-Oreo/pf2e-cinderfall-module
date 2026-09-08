@@ -1,0 +1,64 @@
+{
+    "name": "The Final Shape",
+    "type": "consumable",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0.1
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p><strong>Craft Cost</strong> 8 Vitae Points</p><p><strong>Activate</strong> 1 action to drink</p><p><strong>Frequency</strong> once per day</p><hr /><p>A 10-minute battle-form: +4 status bonus to all melee damage, resistance 10 to all physical damage, +15 feet status bonus to Speed, immunity to your own Bloom results, and +5 feet reach. When it ends you collapse drained 3 and need a full rest before attempting the form again.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 17
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {}
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "category": "elixir",
+        "damage": null,
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "consumable",
+                "elixir",
+                "fleshmancer"
+            ]
+        },
+        "usage": {
+            "value": "held-in-one-hand"
+        },
+        "uses": {
+            "autoDestroy": true,
+            "max": 1,
+            "value": 1
+        },
+        "slug": "the-final-shape"
+    },
+    "_id": "ew59E67jhzItRU39",
+    "flags": {
+        "cinderfall": {
+            "vitaeCost": 8,
+            "mk": "Mk IV"
+        }
+    }
+}

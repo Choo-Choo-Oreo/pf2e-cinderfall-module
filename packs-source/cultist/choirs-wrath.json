@@ -1,0 +1,64 @@
+{
+    "name": "Choir's Wrath",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": {
+            "type": "burst",
+            "value": 60
+        },
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+            "save": {
+                "basic": false,
+                "statistic": "fortitude"
+            }
+        },
+        "description": {
+            "value": "<i>Critical Success</i> unaffected. <i>Success</i> half damage, frightened 2 regardless. <i>Failure</i> 16d6 void damage, frightened 2. <i>Critical Failure</i> double damage, frightened 2."
+        },
+        "duration": {
+            "sustained": false,
+            "value": ""
+        },
+        "level": {
+            "value": 9
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": ""
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": ""
+        },
+        "time": {
+            "value": "3"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "occult"
+            ],
+            "value": [
+                "cultist"
+            ]
+        },
+        "slug": "choirs-wrath"
+    },
+    "_id": "uHZEbbpQHlcg7sp0",
+    "flags": {
+        "cinderfall": {
+            "listing": "9th Rank"
+        }
+    }
+}

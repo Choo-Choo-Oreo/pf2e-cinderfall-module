@@ -1,0 +1,58 @@
+{
+    "name": "Collateral Ward",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p><strong>Focus</strong> 1</p><hr /><p>A contract clause made briefly, physically real. Touch an ally and bind their next injury to yourself: the next time the target would take damage before the duration ends, you can redirect half that damage (round down), to a maximum equal to your level, onto yourself instead. This redirection can trigger only once per casting — the instant it fires, or the moment the duration lapses, the Vow closes out.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "until the end of your next turn"
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "touch"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "1 willing ally"
+        },
+        "time": {
+            "value": "1"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [],
+            "value": [
+                "concentrate",
+                "focus",
+                "manipulate",
+                "sworn"
+            ]
+        },
+        "slug": "collateral-ward"
+    },
+    "_id": "8ncWsaVcmdKMhURv",
+    "flags": {
+        "cinderfall": {
+            "spellTag": "Vow · 1st",
+            "listing": "The Binding Clause Corporate Oath"
+        }
+    }
+}

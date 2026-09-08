@@ -1,0 +1,55 @@
+{
+    "name": "The Unburied Say",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>Learn how the spirit's death is connected to something present right now.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": ""
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "self"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": ""
+        },
+        "time": {
+            "value": "1"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [],
+            "value": [
+                "focus",
+                "hollowbound"
+            ]
+        },
+        "slug": "the-unburied-say"
+    },
+    "_id": "vajLUai6DvdqAsWV",
+    "flags": {
+        "cinderfall": {
+            "listing": "Covenant Vessel Spells / Wailing Debt restless dead · highest power &amp; risk"
+        }
+    }
+}

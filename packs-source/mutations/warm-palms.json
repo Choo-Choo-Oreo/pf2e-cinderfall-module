@@ -1,0 +1,66 @@
+{
+    "name": "Warm Palms",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>Your hands run fever-warm.</p><p><b>Gift —</b> +1 circumstance to Medicine checks to Treat Wounds when you personally tend someone. <b>Tithe —</b> You can't play cold or dead convincingly; frostbite and cold-numbness never mask pain for you.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 0
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {}
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "traits": {
+            "rarity": "epic",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "warm-palms"
+    },
+    "_id": "qbogeHjvKNUZWWgY",
+    "flags": {
+        "cinderfall": {
+            "mutationType": "minor",
+            "tier": "epic",
+            "slot": "Arm",
+            "slots": [
+                "Arm"
+            ],
+            "slotCost": 1,
+            "roll": "d100 — 91–92",
+            "incomplete": [
+                "level is a stub (0); mutations carry no level",
+                "price is empty; a mutation is not bought"
+            ],
+            "inferred": [
+                "system.usage"
+            ]
+        }
+    }
+}

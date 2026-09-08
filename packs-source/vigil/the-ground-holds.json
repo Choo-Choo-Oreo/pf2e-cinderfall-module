@@ -1,0 +1,61 @@
+{
+    "name": "The Ground Holds",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+            "save": {
+                "basic": false,
+                "statistic": "will"
+            }
+        },
+        "description": {
+            "value": "<p>As The Ring Unbroken, but larger, and creatures of your choosing within the area also gain a +2 status bonus to saves against fear and despair effects for as long as the ward holds. Settlements have been known to hire a Vigil for exactly this, on exactly this scale, for exactly one bad night.</p>"
+        },
+        "duration": {
+            "sustained": true,
+            "value": "sustained up to 1 hour, or until dismissed with continued attendance"
+        },
+        "level": {
+            "value": 8
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "60-foot burst centered on a fixed point"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": ""
+        },
+        "time": {
+            "value": "10 minutes"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "divine"
+            ],
+            "value": [
+                "vigil"
+            ]
+        },
+        "slug": "the-ground-holds"
+    },
+    "_id": "TTCIkbnth0EUZ3Rj",
+    "flags": {
+        "cinderfall": {
+            "listing": "8th Rank"
+        }
+    }
+}

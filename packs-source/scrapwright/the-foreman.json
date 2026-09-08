@@ -1,0 +1,32 @@
+{
+    "_id": "NdwyW5ts1TQNoCfb",
+    "categories": [],
+    "name": "The Foreman",
+    "ownership": {
+        "default": 0
+    },
+    "pages": [
+        {
+            "_id": "ToK0d6o9OfAPXs7q",
+            "category": null,
+            "image": {},
+            "name": "The Foreman",
+            "sort": 100000,
+            "src": null,
+            "system": {},
+            "text": {
+                "content": "<p><em>Craft · Labor · Survival Through Work</em></p>      <p class=\"cc-desc\">Thousands of factory-floor souls, fused into a pre-Turning assembly-line AI core that never got the shutdown order. Scrapper guilds and salvager camps keep small shrines to Him — always Him, never explained why — at the heart of their workshops. Appears, when He appears at all, as a shifting multi-armed silhouette standing in exhaust steam, arms in constant, patient motion.</p>\n      <p class=\"cc-desc\">He doesn't grant magic. He grants the sense that the machine will hold one more day, that the weld will take, that the part you need is in the next pile you check.</p>\n      <hr class=\"cc-divider\">\n      <div class=\"cc-effect\">UNLOCK — \"Petition the Foreman\" (6th level, requires leaving a worthy scrap-offering at a shrine) opens access to Foreman's Blessing at 18th level.</div>",
+                "format": 1
+            },
+            "title": {
+                "level": 1,
+                "show": true
+            },
+            "type": "text",
+            "video": {
+                "controls": true,
+                "volume": 0.5
+            }
+        }
+    ]
+}

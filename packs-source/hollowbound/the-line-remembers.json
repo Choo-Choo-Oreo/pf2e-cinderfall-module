@@ -1,0 +1,55 @@
+{
+    "name": "The Line Remembers",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>Recall one relevant fact about your own (or your ally's) bloodline, home, or people that you didn't consciously know.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": ""
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "touch"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "you or 1 ally"
+        },
+        "time": {
+            "value": "1"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [],
+            "value": [
+                "focus",
+                "hollowbound"
+            ]
+        },
+        "slug": "the-line-remembers"
+    },
+    "_id": "wvGGqIwNTkUH2GCB",
+    "flags": {
+        "cinderfall": {
+            "listing": "Covenant Vessel Spells / Long-Shadow ancestor/residual-adjacent · narrative-first"
+        }
+    }
+}

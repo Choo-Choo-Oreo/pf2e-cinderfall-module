@@ -1,0 +1,60 @@
+{
+    "name": "Borrowed Obedience",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+            "save": {
+                "basic": false,
+                "statistic": "will"
+            }
+        },
+        "description": {
+            "value": "<i>Failure</i> the target follows one harmless instruction from you this turn."
+        },
+        "duration": {
+            "sustained": false,
+            "value": "1 round"
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "1 machine-spirit or ghost-machine"
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [],
+            "value": [
+                "focus",
+                "vigil"
+            ]
+        },
+        "slug": "borrowed-obedience"
+    },
+    "_id": "uPvXKatzMcGjkAFg",
+    "flags": {
+        "cinderfall": {
+            "listing": "The Miracle / Unmaking Ladder / Lesser 1st level · 1 Grace or Cinder"
+        }
+    }
+}

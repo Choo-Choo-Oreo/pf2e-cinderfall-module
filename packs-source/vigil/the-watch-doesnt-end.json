@@ -1,0 +1,56 @@
+{
+    "name": "The Watch Doesn't End",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>Every wounded creature within the area is stabilized if dying, and at the end of each hour regains 4d8 Hit Points if it has rested quietly for that hour. You cannot be everywhere. This is the closest a Vigil gets to it, and it is still, by design, only ever \"closest.\"</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "24 hours, no concentration required"
+        },
+        "level": {
+            "value": 10
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "120-foot burst centered on a fixed point"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": ""
+        },
+        "time": {
+            "value": "1 hour"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "divine"
+            ],
+            "value": [
+                "vigil"
+            ]
+        },
+        "slug": "the-watch-doesnt-end"
+    },
+    "_id": "fv4sgdVBGXUNyTm6",
+    "flags": {
+        "cinderfall": {
+            "listing": "10th Rank"
+        }
+    }
+}

@@ -1,0 +1,62 @@
+{
+    "name": "Hollow Out",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+            "save": {
+                "basic": false,
+                "statistic": "fortitude"
+            }
+        },
+        "description": {
+            "value": "<i>Success</i> enfeebled 1. <i>Failure</i> enfeebled 2. <i>Critical Failure</i> enfeebled 3, and the target takes 4d6 poison. Whatever was holding it up is being digested."
+        },
+        "duration": {
+            "sustained": false,
+            "value": "1 minute"
+        },
+        "level": {
+            "value": 3
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "one creature"
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "primal"
+            ],
+            "value": [
+                "seed-warden"
+            ]
+        },
+        "slug": "hollow-out"
+    },
+    "_id": "YrA3tcN5m3M7TQiv",
+    "flags": {
+        "cinderfall": {
+            "spellTag": "Bloom: Grey +1",
+            "listing": "3rd Rank"
+        }
+    }
+}

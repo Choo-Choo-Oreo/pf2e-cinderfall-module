@@ -1,0 +1,59 @@
+{
+    "name": "The Long Odds",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": {
+            "type": "burst",
+            "value": 30
+        },
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>Every creature in the area — allies included — rerolls its next saving throw or skill check and must use the new result. You don't get to choose who benefits. This is the Croupier's actual sense of humor: the \"greater\" version of Loaded Dice is the version you can't rig.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": ""
+        },
+        "level": {
+            "value": 7
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": ""
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": ""
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [],
+            "value": [
+                "cultist",
+                "focus"
+            ]
+        },
+        "slug": "the-long-odds"
+    },
+    "_id": "4YOj6siCz0enoour",
+    "flags": {
+        "cinderfall": {
+            "spellTag": "Rite · 13th",
+            "listing": "Bargain Spells / The Croupier chance · reversal · cruel fairness"
+        }
+    }
+}

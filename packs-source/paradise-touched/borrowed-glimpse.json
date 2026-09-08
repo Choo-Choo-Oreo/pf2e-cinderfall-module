@@ -1,0 +1,56 @@
+{
+    "name": "Borrowed Glimpse",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>You read the target's surface thoughts — what it is thinking about right now, not its history. Attempt an Occultism check against its Will DC. <i>Signal</i> +2 status to the check; on a failure, 2 force damage per level and +1 Signal Drift. <i>Static</i> no bonus, a free failure, and a success subject to the flat check. The worked example for the whole class: Signal buys a read you can plan on, Static is free to fish with and may hand you a guard's thought that the guard never had.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "instantaneous"
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "60 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "1 creature"
+        },
+        "time": {
+            "value": "1"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [],
+            "value": [
+                "focus",
+                "paradise-touched"
+            ]
+        },
+        "slug": "borrowed-glimpse"
+    },
+    "_id": "dmvemNCyeuDfiusa",
+    "flags": {
+        "cinderfall": {
+            "spellTag": "1st · 1 Bandwidth",
+            "listing": "Glimpses / The Archive everything anyone ever uploaded"
+        }
+    }
+}

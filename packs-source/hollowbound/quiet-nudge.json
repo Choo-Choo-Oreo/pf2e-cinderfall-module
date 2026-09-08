@@ -1,0 +1,57 @@
+{
+    "name": "Quiet Nudge",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>Touch; the target's next check before the duration ends gains a +1 status bonus. You can't target the same creature with Quiet Nudge again until it has taken a full night's rest.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "until the end of your next turn"
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "touch"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "1 willing creature"
+        },
+        "time": {
+            "value": "1"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "occult"
+            ],
+            "value": [
+                "cantrip",
+                "hollowbound"
+            ]
+        },
+        "slug": "quiet-nudge"
+    },
+    "_id": "51eI20i820M7rONf",
+    "flags": {
+        "cinderfall": {
+            "listing": "Cantrips"
+        }
+    }
+}

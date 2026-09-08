@@ -30,7 +30,7 @@
         },
         "price": {
             "value": {
-                "gp": 40
+                "gp": 4
             }
         },
         "bonus": {
@@ -66,7 +66,7 @@
                 "weapon category/bulk/usage stubbed; the page carries none of them",
                 "melee weapon group left null -- choosing one is design, not conversion"
             ],
-            "currency": "Balanced to the PF2e GP standard and denominated in Credits: 1 Credit = 1 gp. The whole list was scaled x10 from the retired scraps=sp anchor, so every relative price is unchanged from the page as authored."
+            "currency": "Balanced to the PF2e GP standard and denominated in Credits: 1 Credit = 1 gp, per currency.credits: a credit IS a gold piece and any published price reads straight across. Scraps are retired at 1:1 to Credits, so scrap-quoted prices read across unchanged too."
         }
     }
 }

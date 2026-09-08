@@ -1,0 +1,57 @@
+{
+    "name": "The House Always Wins",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>Immediately grant the target a huge, decisive edge on one specific upcoming check — treat a success as a critical success. In exchange, you take a permanent −1 status penalty to a saving throw of the GM's choice (the Croupier's cut) until you go an entire session without invoking any Croupier Rite or Revelation, at which point the debt is paid and the penalty lifts.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "until the exchange described below"
+        },
+        "level": {
+            "value": 3
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "one creature you can see (yourself included)"
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "occult"
+            ],
+            "value": [
+                "cultist"
+            ]
+        },
+        "slug": "the-house-always-wins"
+    },
+    "_id": "w4Y6MDgQ35Y93Nnd",
+    "flags": {
+        "cinderfall": {
+            "spellTag": "Revelation · 5th",
+            "listing": "Bargain Spells / The Croupier chance · reversal · cruel fairness"
+        }
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "name": "Grove-Bind",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": {
+            "type": "burst",
+            "value": 30
+        },
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>The area becomes a living grove. Allies who rest a full night within it recover as though they had rested somewhere safe and comfortable, and regain 1 additional Focus Point. The grove is a landmark; it will still be here in a decade.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "permanent"
+        },
+        "level": {
+            "value": 4
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": ""
+        },
+        "time": {
+            "value": "3"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "primal"
+            ],
+            "value": [
+                "seed-warden"
+            ]
+        },
+        "slug": "grove-bind"
+    },
+    "_id": "XnLKqQmC4py7zd4a",
+    "flags": {
+        "cinderfall": {
+            "spellTag": "[TERRAIN] · Requires Green 2 · Bloom: Green +1",
+            "listing": "4th Rank"
+        }
+    }
+}

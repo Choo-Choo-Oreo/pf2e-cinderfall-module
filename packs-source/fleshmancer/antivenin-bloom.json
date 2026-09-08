@@ -1,0 +1,64 @@
+{
+    "name": "Antivenin Bloom",
+    "type": "consumable",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0.1
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p><strong>Craft Cost</strong> 4 Vitae Points</p><p><strong>Activate</strong> 1 action to drink or apply</p><hr /><p>Removes any number of diseases or poisons instantly, then grants a +4 item bonus against disease and poison for the next 24 hours.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 11
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {}
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "category": "elixir",
+        "damage": null,
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "consumable",
+                "elixir",
+                "fleshmancer"
+            ]
+        },
+        "usage": {
+            "value": "held-in-one-hand"
+        },
+        "uses": {
+            "autoDestroy": true,
+            "max": 1,
+            "value": 1
+        },
+        "slug": "antivenin-bloom"
+    },
+    "_id": "6jOlmrKqHuVxSq5e",
+    "flags": {
+        "cinderfall": {
+            "vitaeCost": 4,
+            "mk": "Mk III"
+        }
+    }
+}

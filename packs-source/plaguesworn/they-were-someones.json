@@ -1,0 +1,64 @@
+{
+    "name": "Verse of the Multitude",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": {
+            "type": "burst",
+            "value": 10
+        },
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+            "save": {
+                "basic": true,
+                "statistic": "fortitude"
+            }
+        },
+        "description": {
+            "value": "<span class=\"sdesc\">The Afflicted collapses permanently, and everyone caught in the burst takes 1d6 void damage per rank of this spell. <i>Failure</i> also sickened 1.</span>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": ""
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "1 Afflicted you control"
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [],
+            "value": [
+                "focus",
+                "plaguesworn"
+            ]
+        },
+        "slug": "they-were-someones"
+    },
+    "_id": "OC5RygWX39j2RbwX",
+    "flags": {
+        "cinderfall": {
+            "focusCost": "1",
+            "listing": "Verse Spells / Verse of the Multitude Full Chorus — thrall handling"
+        }
+    }
+}

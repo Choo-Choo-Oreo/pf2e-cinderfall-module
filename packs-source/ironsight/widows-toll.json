@@ -1,0 +1,71 @@
+{
+    "name": "Widow's Toll",
+    "type": "weapon",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "bonus": {
+            "value": 0
+        },
+        "bonusDamage": {
+            "value": 0
+        },
+        "bulk": {
+            "value": 0
+        },
+        "category": "simple",
+        "damage": {
+            "dice": 0,
+            "die": "d6",
+            "damageType": "piercing"
+        },
+        "description": {
+            "value": "<p>Pulled from a flooded ruin along the Drowned Coast, pitted with rust that should have ruined it and somehow didn't touch the mechanism at all. Every confirmed kill leaves a faint, almost musical chime nobody else can hear. Local rumor says it's counting toward something, and nobody's found anyone willing to find out what happens at the total.</p>"
+        },
+        "group": "firearm",
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 0
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "range": null,
+        "reload": {
+            "value": null
+        },
+        "rules": [],
+        "slug": "widows-toll",
+        "splashDamage": {
+            "value": 0
+        },
+        "traits": {
+            "rarity": "unique",
+            "value": []
+        },
+        "usage": {
+            "value": "held-in-two-hands"
+        }
+    },
+    "_id": "w7ZidkP5jeO53tGh",
+    "flags": {
+        "cinderfall": {
+            "define": "Salt-Corroded Rifle · Unique · Drowned Coast Recovery",
+            "special": "Every confirmed kill leaves a faint chime only the wielder hears, said to be counting toward something. Deliberately unresolved in the fiction; no trigger, total or payoff is authored.",
+            "incomplete": [
+                "damage is a stub (0 dice); no page states this gun's damage",
+                "bulk is a stub (0); no page states it",
+                "range and reload are stubs (null); no page states them",
+                "category is a stub ('simple'); no page says simple or martial",
+                "level is a stub (0); no page states it",
+                "price is absent; no page prices either gun"
+            ]
+        }
+    }
+}

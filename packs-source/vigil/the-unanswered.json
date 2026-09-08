@@ -1,0 +1,32 @@
+{
+    "_id": "7hmBdbJPo0r6SVPr",
+    "categories": [],
+    "name": "The Unanswered",
+    "ownership": {
+        "default": 0
+    },
+    "pages": [
+        {
+            "_id": "IE8WwzG0bHNe5rsl",
+            "category": null,
+            "image": {},
+            "name": "The Unanswered",
+            "sort": 100000,
+            "src": null,
+            "system": {},
+            "text": {
+                "content": "<p><em>Holdout Faith in the Silent God</em></p>        <p class=\"cc-desc\">You pray to something that hasn't answered in two hundred years and has given you no reason to believe it ever will again — and you keep doing it anyway, because the alternative is admitting the wasteland is all there is. You gain Grace by enduring hardship faithfully, protecting the powerless at real cost to yourself, and refusing shortcuts that would betray what you still believe.</p>\n        <hr class=\"cc-divider\">\n        <div class=\"cc-effect\"><b>PRESENCE —</b> allies near you resist despair and fear more easily. Nothing dramatic. Just steadier than they'd be alone.</div>",
+                "format": 1
+            },
+            "title": {
+                "level": 1,
+                "show": true
+            },
+            "type": "text",
+            "video": {
+                "controls": true,
+                "volume": 0.5
+            }
+        }
+    ]
+}

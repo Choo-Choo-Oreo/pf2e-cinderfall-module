@@ -1,0 +1,64 @@
+{
+    "name": "The Mercy Cut",
+    "type": "consumable",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0.1
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p><strong>Craft Cost</strong> 8 Vitae Points</p><p><strong>Activate</strong> 1 action to drink or apply</p><hr /><p>Restores 12d8 HP and clears drained, enfeebled, clumsy, sickened, and bleed all in the same breath; auto-stabilizes the recipient once if they would otherwise die within the next minute.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 17
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {}
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "category": "elixir",
+        "damage": null,
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "consumable",
+                "elixir",
+                "fleshmancer"
+            ]
+        },
+        "usage": {
+            "value": "held-in-one-hand"
+        },
+        "uses": {
+            "autoDestroy": true,
+            "max": 1,
+            "value": 1
+        },
+        "slug": "the-mercy-cut"
+    },
+    "_id": "eQUFVtamALmvGR3n",
+    "flags": {
+        "cinderfall": {
+            "vitaeCost": 8,
+            "mk": "Mk IV"
+        }
+    }
+}

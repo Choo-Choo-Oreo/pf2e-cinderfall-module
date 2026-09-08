@@ -1,0 +1,32 @@
+{
+    "_id": "WFV540opzVs363ew",
+    "categories": [],
+    "name": "The Unwritten Oath",
+    "ownership": {
+        "default": 0
+    },
+    "pages": [
+        {
+            "_id": "8XvsDXjdrkPQioYI",
+            "category": null,
+            "image": {},
+            "name": "The Unwritten Oath",
+            "sort": 100000,
+            "src": null,
+            "system": {},
+            "text": {
+                "content": "<p><em>Free Oath</em></p>      <p class=\"cc-desc\">No corporation, no cult — you swore this one to yourself, out loud, to no god or ledger that's listening. At character creation, name your Ward: one person, place, or ideal. It's yours to define and, at 7th and 15th level, yours to expand. You get no institutional gear, no relic cache, no repossession clause to hide behind — only the fact that nobody can rewrite these terms but you.</p>\n      <hr class=\"cc-divider\">\n      <div class=\"cc-effect\">\n        <h4>The Answer</h4>\n        <p>Triggers whenever your named Ward is directly threatened, anywhere you can reasonably reach it — broader and less specialized than the other two Oaths, but with no bonus rider. What it lacks in sharpness it makes up in never having fine print you didn't write.</p>\n      </div>\n      <div class=\"cc-effect\">\n        <h4>Vows (spend Resolve)</h4>\n        <p class=\"sec-intro\">Two Vows per Oath — full crunch in <a href=\"spells-abilities.html\">What You Learned</a>. Further Vows are picked up as Sworn feats.</p>\n        <ul>\n          <li><b>My Word Alone</b> — touch an ally and give them your word; a +1 circumstance bonus to their next save.</li>\n          <li><b>Nobody Else's Rules</b> — name one fear, compulsion, or authority effect aloud; you're immune to that one thing for a minute.</li>\n        </ul>\n      </div>",
+                "format": 1
+            },
+            "title": {
+                "level": 1,
+                "show": true
+            },
+            "type": "text",
+            "video": {
+                "controls": true,
+                "volume": 0.5
+            }
+        }
+    ]
+}

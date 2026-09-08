@@ -1,0 +1,57 @@
+{
+    "name": "Static Mark",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>You and any Hollowbound you designate can sense the marked creature or object's general direction and rough distance for as long as the mark holds.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "unlimited (until released)"
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "touch"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "1 creature or object"
+        },
+        "time": {
+            "value": "1"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "occult"
+            ],
+            "value": [
+                "cantrip",
+                "hollowbound"
+            ]
+        },
+        "slug": "static-mark"
+    },
+    "_id": "9Sx6fD7PSNkf8YIV",
+    "flags": {
+        "cinderfall": {
+            "listing": "Cantrips"
+        }
+    }
+}

@@ -1,0 +1,61 @@
+{
+    "name": "Overwrite",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+            "save": {
+                "basic": true,
+                "statistic": "fortitude"
+            }
+        },
+        "description": {
+            "value": "<p>Deal 2d6 force damage (<i>Heightened</i> +1d6 every 2 levels). The damage looks like the target briefly being rendered as something else. <i>Signal</i> +2 to the spell DC and the damage die becomes d8.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": ""
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "60 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "1 creature"
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [],
+            "value": [
+                "focus",
+                "paradise-touched"
+            ]
+        },
+        "slug": "overwrite"
+    },
+    "_id": "bc2PC7q3qUWHJuVq",
+    "flags": {
+        "cinderfall": {
+            "spellTag": "1st · 1 Bandwidth",
+            "listing": "Glimpses / The Render Paradise building the world it wants"
+        }
+    }
+}

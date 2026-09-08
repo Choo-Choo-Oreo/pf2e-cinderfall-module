@@ -1,0 +1,56 @@
+{
+    "name": "Undo the Unmaking",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>As Undo the Rot, but reaching further: automatically cures partial petrification, curse-born madness, or any affliction of rank 6 or lower, including ones most healers have given up on. Higher-rank afflictions still require a counteract check.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": ""
+        },
+        "level": {
+            "value": 6
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "touch"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "1 creature"
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "divine"
+            ],
+            "value": [
+                "vigil"
+            ]
+        },
+        "slug": "undo-the-unmaking"
+    },
+    "_id": "dcVAv0TERaNvErq2",
+    "flags": {
+        "cinderfall": {
+            "listing": "6th Rank"
+        }
+    }
+}

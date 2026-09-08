@@ -1,0 +1,66 @@
+{
+    "name": "Deep-Root Legs",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>Given a minute and bare earth, you stop being a thing that moves.</p><p><b>Gift —</b> Root as a 1-minute action. While rooted, nothing short of a critical success moves you, and you gain +2 circumstance to Fortitude saves. <b>Tithe —</b> Rooted, your Speed is 0 and unrooting costs a full action. The GM is under no obligation to warn you that rooting was the wrong call.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 0
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {}
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "traits": {
+            "rarity": "rare",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "deep-root-legs"
+    },
+    "_id": "W33dcbsUbaUfU3vp",
+    "flags": {
+        "cinderfall": {
+            "mutationType": "minor",
+            "tier": "rare",
+            "slot": "Legs",
+            "slots": [
+                "Legs"
+            ],
+            "slotCost": 1,
+            "roll": "d100 — 81–82",
+            "incomplete": [
+                "level is a stub (0); mutations carry no level",
+                "price is empty; a mutation is not bought"
+            ],
+            "inferred": [
+                "system.usage"
+            ]
+        }
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "name": "Half-Seen",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>A minor illusory image, sound, or both, no bigger than yourself, that holds still or performs one simple repeating action. A creature that actively interacts with it gets a chance to disbelieve as normal for an illusion.</p>"
+        },
+        "duration": {
+            "sustained": true,
+            "value": "sustained up to 1 minute"
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": ""
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "occult"
+            ],
+            "value": [
+                "cantrip",
+                "hollowbound"
+            ]
+        },
+        "slug": "half-seen"
+    },
+    "_id": "OrmR6PMgexMPIX1r",
+    "flags": {
+        "cinderfall": {
+            "listing": "Cantrips"
+        }
+    }
+}

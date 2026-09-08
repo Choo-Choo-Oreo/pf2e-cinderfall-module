@@ -1,0 +1,64 @@
+{
+    "name": "Cascading Plague Draught",
+    "type": "consumable",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0.1
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p><strong>Craft Cost</strong> 4 Vitae Points</p><p><strong>Activate</strong> 1 action to inject or throw</p><p><strong>Saving Throw</strong> Fortitude</p><hr /><p>6d6 poison damage and a 4-stage affliction ending in drained 2 and slowed 1 on a failed Fortitude save; adjacent creatures risk catching stage 1 at the start of each of their turns unless they succeed at their own Fortitude save, until the source is quarantined.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 11
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {}
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "category": "poison",
+        "damage": null,
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "consumable",
+                "poison",
+                "fleshmancer"
+            ]
+        },
+        "usage": {
+            "value": "held-in-one-hand"
+        },
+        "uses": {
+            "autoDestroy": true,
+            "max": 1,
+            "value": 1
+        },
+        "slug": "cascading-plague-draught"
+    },
+    "_id": "Y79bNBAVcC8JDqxM",
+    "flags": {
+        "cinderfall": {
+            "vitaeCost": 4,
+            "mk": "Mk III"
+        }
+    }
+}

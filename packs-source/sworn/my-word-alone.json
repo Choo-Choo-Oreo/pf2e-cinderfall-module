@@ -1,0 +1,57 @@
+{
+    "name": "My Word Alone",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p><strong>Focus</strong> 1</p><hr /><p>Touch an ally and give them your word — nothing more, no institution backing it. The target gains a +1 circumstance bonus to its next saving throw.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "until the target's next saving throw or the end of your next turn, whichever comes first"
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "touch"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "1 ally"
+        },
+        "time": {
+            "value": "1"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [],
+            "value": [
+                "concentrate",
+                "focus",
+                "sworn"
+            ]
+        },
+        "slug": "my-word-alone"
+    },
+    "_id": "lAAzN3eKgIh2OKo8",
+    "flags": {
+        "cinderfall": {
+            "spellTag": "Vow · 1st",
+            "listing": "The Unwritten Oath Free Oath"
+        }
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "name": "Compel the Truth",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+            "save": {
+                "basic": false,
+                "statistic": "will"
+            }
+        },
+        "description": {
+            "value": "<p>The target must speak one true sentence in answer to a question you ask. A target willing to speak but not to speak truthfully gets no save — the compulsion only bites on those who'd otherwise stay silent.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "until it speaks, or 1 minute"
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "1 creature"
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [],
+            "value": [
+                "focus",
+                "vigil"
+            ]
+        },
+        "slug": "compel-the-truth"
+    },
+    "_id": "uZTPhdOtNzziTOr3",
+    "flags": {
+        "cinderfall": {
+            "listing": "The Miracle / Unmaking Ladder / Lesser 1st level · 1 Grace or Cinder"
+        }
+    }
+}

@@ -1,0 +1,61 @@
+{
+    "name": "The Ring Unbroken",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+            "save": {
+                "basic": false,
+                "statistic": "will"
+            }
+        },
+        "description": {
+            "value": "<p>Any undead, possessed, or raging-spirit-touched creature attempting to enter the area must succeed at a Will save (against your spell DC) or be unable to enter for the duration; a creature that fails may attempt the save again once every 24 hours. Old ground used to be consecrated this way. This is the closest thing left.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "24 hours, or until dismissed"
+        },
+        "level": {
+            "value": 6
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "30-foot burst centered on a fixed point"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": ""
+        },
+        "time": {
+            "value": "10 minutes"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "divine"
+            ],
+            "value": [
+                "vigil"
+            ]
+        },
+        "slug": "the-ring-unbroken"
+    },
+    "_id": "cXoDiIStj46WPWoo",
+    "flags": {
+        "cinderfall": {
+            "listing": "6th Rank"
+        }
+    }
+}

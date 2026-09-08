@@ -1,0 +1,62 @@
+{
+    "name": "Nobody Leaves",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+            "save": {
+                "basic": false,
+                "statistic": "fortitude"
+            }
+        },
+        "description": {
+            "value": "<span class=\"sdesc\"><i>Failure</i> slowed 1 and can't willingly leave the area. <i>Critical Failure</i> paralyzed; a new Fortitude save at the end of each of its turns ends the paralysis (but not the confinement) on a success.</span>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "1 minute"
+        },
+        "level": {
+            "value": 9
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "40-foot burst"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": ""
+        },
+        "time": {
+            "value": "3"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "occult"
+            ],
+            "value": [
+                "incapacitation",
+                "plaguesworn"
+            ]
+        },
+        "slug": "nobody-leaves"
+    },
+    "_id": "3TQa9VqT2vtzOk5E",
+    "flags": {
+        "cinderfall": {
+            "listing": "9th Rank"
+        }
+    }
+}

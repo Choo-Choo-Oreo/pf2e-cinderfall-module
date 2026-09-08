@@ -1,0 +1,60 @@
+{
+    "name": "Wake the Deep Root",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": {
+            "type": "burst",
+            "value": 50
+        },
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>Something enormous and old that was still alive under the rockcrete comes up. The entire area becomes broken, root-buckled, permanently difficult terrain, and every structure in it takes 10d6 bludgeoning as its foundation is lifted apart. Cast this inside a settlement and you have committed an act of war.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "permanent"
+        },
+        "level": {
+            "value": 6
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "100 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": ""
+        },
+        "time": {
+            "value": "3"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "primal"
+            ],
+            "value": [
+                "seed-warden"
+            ]
+        },
+        "slug": "wake-the-deep-root"
+    },
+    "_id": "wty9cJfSFOmPuSOo",
+    "flags": {
+        "cinderfall": {
+            "spellTag": "[TERRAIN] · Requires Green 3 · Bloom: Green +1",
+            "listing": "6th Rank"
+        }
+    }
+}

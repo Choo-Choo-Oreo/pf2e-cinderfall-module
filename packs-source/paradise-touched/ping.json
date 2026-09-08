@@ -1,0 +1,57 @@
+{
+    "name": "Ping",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>You learn the number of thinking creatures within range and roughly where they are. Not what they are. Not whether they're hostile. Subject to the Static flat check like anything else, which is exactly as useful as it sounds.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "instantaneous"
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "120 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": ""
+        },
+        "time": {
+            "value": "1"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "occult"
+            ],
+            "value": [
+                "cantrip",
+                "paradise-touched"
+            ]
+        },
+        "slug": "ping"
+    },
+    "_id": "teooRoORzL0CXdC4",
+    "flags": {
+        "cinderfall": {
+            "listing": "Cantrips"
+        }
+    }
+}

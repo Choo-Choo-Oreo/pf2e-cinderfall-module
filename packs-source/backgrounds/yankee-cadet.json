@@ -51,7 +51,8 @@
     "_id": "1cWFbOHF4Xqk1Myw",
     "flags": {
         "cinderfall": {
-            "define": "The Yankee Combine"
+            "define": "The Yankee Combine",
+            "foundAmong": "Found among: washed-out Yankee cadets, corporate-sponsored militia, drill instructors"
         }
     }
 }

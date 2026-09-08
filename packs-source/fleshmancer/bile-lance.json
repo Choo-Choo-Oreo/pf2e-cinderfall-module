@@ -1,0 +1,90 @@
+{
+    "name": "Bile Lance",
+    "type": "weapon",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0.1
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p><strong>Craft Cost</strong> 1 Vitae Point</p><p><strong>Activate</strong> 1 action to throw</p><hr /><p>A thrown Strike that bursts into 2d6 acid damage plus 1 splash; the acid eats at armor rather than skin — the target's plating takes a permanent −1 item bonus to AC after the third exposure.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 1
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {}
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "ammo": null,
+        "bonus": {
+            "value": 0
+        },
+        "bonusDamage": {
+            "value": 0
+        },
+        "category": "simple",
+        "damage": {
+            "damageType": "acid",
+            "dice": 2,
+            "die": "d6"
+        },
+        "expend": null,
+        "grade": null,
+        "group": null,
+        "range": 20,
+        "reload": {
+            "value": "-"
+        },
+        "runes": {
+            "potency": 0,
+            "property": [],
+            "striking": 0
+        },
+        "splashDamage": {
+            "value": 1
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "consumable",
+                "splash",
+                "thrown",
+                "fleshmancer"
+            ]
+        },
+        "usage": {
+            "canBeAmmo": false,
+            "value": "held-in-one-hand"
+        },
+        "slug": "bile-lance"
+    },
+    "_id": "HbyJOmxz0IdYMIBs",
+    "flags": {
+        "cinderfall": {
+            "vitaeCost": 1,
+            "mk": "Mk I",
+            "inferred": [
+                "system.range"
+            ]
+        }
+    }
+}

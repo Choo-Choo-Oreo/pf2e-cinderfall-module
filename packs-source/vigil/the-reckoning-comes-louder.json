@@ -1,0 +1,64 @@
+{
+    "name": "The Reckoning Comes, Louder",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": {
+            "type": "burst",
+            "value": 40
+        },
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+            "save": {
+                "basic": false,
+                "statistic": "fortitude"
+            }
+        },
+        "description": {
+            "value": "<i>Critical Success</i> no damage. <i>Success</i> half damage. <i>Failure</i> 14d6 spirit damage. <i>Critical Failure</i> 14d6 spirit damage and the target is stunned 1. A wider, harder-to-shrug-off version of The Reckoning Comes."
+        },
+        "duration": {
+            "sustained": false,
+            "value": ""
+        },
+        "level": {
+            "value": 7
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "120 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "only creatures you can see that are corrupted, undead, or machine-possessed"
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "divine"
+            ],
+            "value": [
+                "vigil"
+            ]
+        },
+        "slug": "the-reckoning-comes-louder"
+    },
+    "_id": "x6akVtvjKNHjJz0q",
+    "flags": {
+        "cinderfall": {
+            "listing": "7th Rank"
+        }
+    }
+}

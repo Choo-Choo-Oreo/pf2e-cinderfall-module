@@ -1,0 +1,56 @@
+{
+    "name": "The Watcher Grows Teeth",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>As The Watcher at Your Back, but the automatic attack at the end of an adjacent creature's turn deals 5d6 spirit damage (double on a critical hit), and once per round as a single action you may instead direct the presence to make a spell attack roll against one creature within 30 feet for the same damage. What started as an idea has picked a side.</p>"
+        },
+        "duration": {
+            "sustained": true,
+            "value": "sustained up to 1 minute"
+        },
+        "level": {
+            "value": 5
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "self (5-foot emanation), or a directed strike at 1 creature within 30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": ""
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "divine"
+            ],
+            "value": [
+                "vigil"
+            ]
+        },
+        "slug": "the-watcher-grows-teeth"
+    },
+    "_id": "Szum43iHqp67yxu0",
+    "flags": {
+        "cinderfall": {
+            "listing": "5th Rank"
+        }
+    }
+}

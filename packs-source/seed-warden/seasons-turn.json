@@ -1,0 +1,65 @@
+{
+    "name": "Season's Turn",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": {
+            "type": "burst",
+            "value": 60
+        },
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+            "save": {
+                "basic": true,
+                "statistic": "fortitude"
+            }
+        },
+        "description": {
+            "value": "<p>Choose Green or Grey as you cast. <i>Green</i> allies in the area regain 8d8 Hit Points and gain a +2 status bonus to saves for the duration. <i>Grey</i> enemies in the area take 8d8 poison and are enfeebled 2 on a failure. You are running a whole season through one field in ten seconds.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "1 minute"
+        },
+        "level": {
+            "value": 8
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "120 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": ""
+        },
+        "time": {
+            "value": "3"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "primal"
+            ],
+            "value": [
+                "seed-warden"
+            ]
+        },
+        "slug": "seasons-turn"
+    },
+    "_id": "ejpQdbb3QBUS6OJs",
+    "flags": {
+        "cinderfall": {
+            "spellTag": "Bloom: either",
+            "listing": "8th Rank"
+        }
+    }
+}

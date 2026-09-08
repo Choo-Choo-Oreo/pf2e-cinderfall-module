@@ -1,0 +1,57 @@
+{
+    "name": "The Turning",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><hr /><p>Snap the needle from its current position to the mirrored position on the opposite side — Green 3 becomes Grey 3. You immediately regain a spell slot of 3rd rank or lower. Turnwise Seed-Wardens build entire days around this one action.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": ""
+        },
+        "level": {
+            "value": 5
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "self"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": ""
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "primal"
+            ],
+            "value": [
+                "seed-warden"
+            ]
+        },
+        "slug": "the-turning"
+    },
+    "_id": "LabioxTtbPFBlLwB",
+    "flags": {
+        "cinderfall": {
+            "spellTag": "Bloom: special",
+            "listing": "5th Rank"
+        }
+    }
+}

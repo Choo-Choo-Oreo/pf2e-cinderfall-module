@@ -1,0 +1,57 @@
+{
+    "name": "Ash-Chill Touch",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>A ranged spell attack that pulls the residual cold of a nuclear winter into a thin, precise lance. <i>Hit</i> 1d4 cold damage (<b>Heightened +1d4</b> every 2 levels). <i>Critical Hit</i> as a hit, and the target's footing goes brittle — its Speed is reduced by 10 feet until the start of your next turn.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": ""
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "60 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "one creature"
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "occult"
+            ],
+            "value": [
+                "cantrip",
+                "cultist"
+            ]
+        },
+        "slug": "ash-chill-touch"
+    },
+    "_id": "fGAlySMCkR9AOyq5",
+    "flags": {
+        "cinderfall": {
+            "listing": "Cantrips"
+        }
+    }
+}

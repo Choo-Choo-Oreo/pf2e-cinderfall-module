@@ -1,0 +1,32 @@
+{
+    "_id": "dPTBmv8em0hoPisZ",
+    "categories": [],
+    "name": "The Choir of Ash",
+    "ownership": {
+        "default": 0
+    },
+    "pages": [
+        {
+            "_id": "O95OtK5F6JNEPOSy",
+            "category": null,
+            "image": {},
+            "name": "The Choir of Ash",
+            "sort": 100000,
+            "src": null,
+            "system": {},
+            "text": {
+                "content": "<p><em>Devotion to the Caged Angel</em></p>        <p class=\"cc-desc\">You believe Uriel's Turning was a mercy the world flinched away from before it finished, and that a second, cleaner burning is still owed. You gain Cinders by committing violence in Uriel's name, recovering relics of the Turning, and feeding the belief — yours and others' — that the world must break again to be made right.</p>\n        <hr class=\"cc-divider\">\n        <div class=\"cc-effect\"><b>PRESENCE —</b> enemies near you find their resolve harder to hold onto. Nothing dramatic. Just a little closer to breaking than they'd be otherwise.</div>",
+                "format": 1
+            },
+            "title": {
+                "level": 1,
+                "show": true
+            },
+            "type": "text",
+            "video": {
+                "controls": true,
+                "volume": 0.5
+            }
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "_id": "FN1c0cXWZI4lXPVf",
+    "categories": [],
+    "name": "The Ashroad Circuit",
+    "ownership": {
+        "default": 0
+    },
+    "pages": [
+        {
+            "_id": "BokRawvB4mMgXJxU",
+            "category": null,
+            "image": {},
+            "name": "The Ashroad Circuit",
+            "sort": 100000,
+            "src": null,
+            "system": {},
+            "text": {
+                "content": "<p><em>Traveling Order · Exorcism-for-Hire · The Manifest</em></p>      <p class=\"cc-desc\">No megacorp or Aristocratic Republic wants to pay full-time staff to handle a haunting that might happen twice a decade in any given town, so the work fell to riders instead — Wardbreakers who circuit old rail lines and drowned-coast roads on fixed routes, taking contracts from towns that can't afford a corporate exorcism rider and settlements the Free Havens can't spare a garrison for. Every chapter keeps a shared coded ledger of known Anchors, called the Manifest, cross-referenced by hand and passed rider to rider so nobody has to Name the same recurring horror from scratch twice.</p>\n      <p class=\"cc-desc\">Every rider swears the Unbroken Oath at their first Naming: never leave an Anchor merely wounded. Half-measures don't end a haunting, they just teach it to hide better — and the Circuit has buried too many half-hearted riders to pretend otherwise. The Circuit keeps an uneasy distance from the Choir of Ash, who consider every raging spirit a fragment of Uriel's own suffering to be preserved and venerated rather than broken, and from the corporate exorcism contractors, who work faster, charge more, and leave more Anchors behind than they clear.</p>\n      <hr class=\"cc-divider\">\n      <div class=\"cc-effect\">MECHANICAL TIE-IN — Hunter's Ledger (§5, 4th level) and Circuit Rider's Oath (§5, 11th level) both assume Circuit membership or at least good standing; a Wardbreaker who trained outside the Circuit can retrain into it, or work the Manifest secondhand through a rider who owes them.</div>",
+                "format": 1
+            },
+            "title": {
+                "level": 1,
+                "show": true
+            },
+            "type": "text",
+            "video": {
+                "controls": true,
+                "volume": 0.5
+            }
+        }
+    ]
+}

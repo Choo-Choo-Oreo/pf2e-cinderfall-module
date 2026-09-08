@@ -1,0 +1,61 @@
+{
+    "name": "Nothing But This Station",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+            "save": {
+                "basic": false,
+                "statistic": "will"
+            }
+        },
+        "description": {
+            "value": "<p>Every creature in range hears only you — not each other, not their own spellcasting, not the building coming down. <b>Failure</b> a creature can't communicate, cast with verbal components, or benefit from any auditory effect but yours, and takes a −2 status penalty to all checks; once each, an ally of yours may spend Encore on its behalf to make it reroll a <i>successful</i> check and keep the worse result. For ten minutes you are the only thing being transmitted anywhere, and every Signal who has cast it describes it the same way: quiet.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "10 minutes"
+        },
+        "level": {
+            "value": 10
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "500 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": ""
+        },
+        "time": {
+            "value": "3"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "occult"
+            ],
+            "value": [
+                "the-signal"
+            ]
+        },
+        "slug": "nothing-but-this-station"
+    },
+    "_id": "LFaj2kapaqxGmjcr",
+    "flags": {
+        "cinderfall": {
+            "listing": "10th Rank"
+        }
+    }
+}

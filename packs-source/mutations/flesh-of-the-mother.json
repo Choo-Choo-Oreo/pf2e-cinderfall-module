@@ -1,0 +1,61 @@
+{
+    "name": "Flesh of the Mother",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>A Teratoma takes a keepsake, literally: one true rib, replaced with a graft that never quite matches. This is the original Marrow of the Mother.</p><p><b>Gift —</b> Fast healing 5 while below half HP; wounds close visibly, audibly wetly. <b>Tithe —</b> Mother Marrow considers this an open account, and she is a mother who remembers what she's owed.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 0
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {}
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "traits": {
+            "rarity": "legendary",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "flesh-of-the-mother"
+    },
+    "_id": "jF42U3gP8yt5gRBg",
+    "flags": {
+        "cinderfall": {
+            "mutationType": "teratoma",
+            "tier": "legendary",
+            "chosen": "pick of 6",
+            "incomplete": [
+                "level is a stub (0); mutations carry no level",
+                "price is empty; a mutation is not bought"
+            ],
+            "inferred": [
+                "system.usage"
+            ]
+        }
+    }
+}

@@ -1,0 +1,61 @@
+{
+    "name": "The Open Ear",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>The Teratoma whispers half a second early.</p><p><b>Gift —</b> +2 status bonus to initiative, and living creatures can't catch you flat-footed from being undetected. <b>Tithe —</b> You are never entirely alone again; the GM may have the Teratoma's attention notice things about you that you'd rather it didn't.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 0
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {}
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "traits": {
+            "rarity": "legendary",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "the-open-ear"
+    },
+    "_id": "8fzuIRZufzIGTCVy",
+    "flags": {
+        "cinderfall": {
+            "mutationType": "teratoma",
+            "tier": "legendary",
+            "chosen": "pick of 6",
+            "incomplete": [
+                "level is a stub (0); mutations carry no level",
+                "price is empty; a mutation is not bought"
+            ],
+            "inferred": [
+                "system.usage"
+            ]
+        }
+    }
+}

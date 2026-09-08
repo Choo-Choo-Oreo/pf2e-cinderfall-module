@@ -1,0 +1,57 @@
+{
+    "name": "Hold Still",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<span class=\"sdesc\">The target adds a +1 status bonus to the next check it attempts. You can't target the same creature with Hold Still again until it's had a full night's rest.</span>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "until the end of your next turn"
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "touch"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "1 willing creature"
+        },
+        "time": {
+            "value": "1"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "occult"
+            ],
+            "value": [
+                "cantrip",
+                "plaguesworn"
+            ]
+        },
+        "slug": "hold-still"
+    },
+    "_id": "GwFQRTXbMxjzr6qX",
+    "flags": {
+        "cinderfall": {
+            "listing": "Cantrips"
+        }
+    }
+}

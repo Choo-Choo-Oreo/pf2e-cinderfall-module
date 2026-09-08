@@ -1,0 +1,56 @@
+{
+    "name": "The Last Transmission",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>Each target regains 8d8 Hit Points, loses the frightened and fleeing conditions, and immediately gains a Standing Reroll as though you had spent a full Crescendo. You will be hoarse for a day.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "instantaneous"
+        },
+        "level": {
+            "value": 8
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "120 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "every ally in range"
+        },
+        "time": {
+            "value": "3"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "occult"
+            ],
+            "value": [
+                "the-signal"
+            ]
+        },
+        "slug": "the-last-transmission"
+    },
+    "_id": "iAX4yaskpPdRG92e",
+    "flags": {
+        "cinderfall": {
+            "listing": "8th Rank"
+        }
+    }
+}

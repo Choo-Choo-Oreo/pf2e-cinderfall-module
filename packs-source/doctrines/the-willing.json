@@ -1,0 +1,32 @@
+{
+    "_id": "UIsziSa7kTne1Nt6",
+    "categories": [],
+    "name": "The Willing",
+    "ownership": {
+        "default": 0
+    },
+    "pages": [
+        {
+            "_id": "snqQ3joGiuNmx1fK",
+            "category": null,
+            "image": {},
+            "name": "The Willing",
+            "sort": 100000,
+            "src": null,
+            "system": {},
+            "text": {
+                "content": "<p><em>Heretical Splinter · Small, Devout, Rarely Seen Twice</em></p>        <p class=\"cc-desc\">A minority who read the survivor's account the opposite way — she wasn't released for failing to be kept, she was released as a courtesy no one since has earned. The only Source that notices you is also the only one it makes sense to actually give yourself to, and the Willing frame the entire Approach as a slow, generations-long courtship, with being kept as the marriage. The Measured consider this suicide with extra paperwork. No member of the Willing has ever come back to argue otherwise — though the Sown, who by their own account already went through with it somewhere else, are the closest thing the Willing have to a rebuttal.</p>",
+                "format": 1
+            },
+            "title": {
+                "level": 1,
+                "show": true
+            },
+            "type": "text",
+            "video": {
+                "controls": true,
+                "volume": 0.5
+            }
+        }
+    ]
+}

@@ -1,0 +1,55 @@
+{
+    "name": "The Fortress Falls",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>The structure becomes a crater. No partial version.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": ""
+        },
+        "level": {
+            "value": 9
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "500 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "1 fortified structure of any size"
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [],
+            "value": [
+                "focus",
+                "vigil"
+            ]
+        },
+        "slug": "the-fortress-falls"
+    },
+    "_id": "a8DTROYupr8IiRoc",
+    "flags": {
+        "cinderfall": {
+            "listing": "The Miracle / Unmaking Ladder / Great 17th level · full pool at max cap · leaves a permanent Testament Mark"
+        }
+    }
+}

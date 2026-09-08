@@ -1,0 +1,60 @@
+{
+    "name": "The Green Answer",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": {
+            "type": "burst",
+            "value": 200
+        },
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>The region comes back. Cracked ground splits with growth, dead water runs clear, the air stops tasting of iron. Every hostile plant, fungal, and blight effect in the area ends, and the area is permanently Reclaimed and permanently fertile. This is a Seed-Warden's one unambiguous good act at scale, it takes three actions, and the world does not give it back if you waste it.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "permanent"
+        },
+        "level": {
+            "value": 9
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "500 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": ""
+        },
+        "time": {
+            "value": "3"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "primal"
+            ],
+            "value": [
+                "seed-warden"
+            ]
+        },
+        "slug": "the-green-answer"
+    },
+    "_id": "EJM0lLXYClRolyTe",
+    "flags": {
+        "cinderfall": {
+            "spellTag": "[TERRAIN] · Requires Green 4 · Bloom: Green +1",
+            "listing": "9th Rank"
+        }
+    }
+}

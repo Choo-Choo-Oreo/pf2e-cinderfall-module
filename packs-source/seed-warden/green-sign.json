@@ -1,0 +1,58 @@
+{
+    "name": "Green Sign",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>A living mark — lichen, a knot of vine, a ring of pale fungus — grows on a surface you touch in a pattern you choose. Any Seed-Warden who sees it reads it exactly as you meant it. Everybody else sees a plant.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "until removed"
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "touch"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": ""
+        },
+        "time": {
+            "value": "1"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "primal"
+            ],
+            "value": [
+                "cantrip",
+                "seed-warden"
+            ]
+        },
+        "slug": "green-sign"
+    },
+    "_id": "CbgB5lnaTk3th5mI",
+    "flags": {
+        "cinderfall": {
+            "spellTag": "Bloom: either",
+            "listing": "Cantrips"
+        }
+    }
+}

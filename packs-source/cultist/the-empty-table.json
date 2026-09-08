@@ -1,0 +1,64 @@
+{
+    "name": "The Empty Table",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": {
+            "type": "emanation",
+            "value": 20
+        },
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+            "save": {
+                "basic": false,
+                "statistic": "fortitude"
+            }
+        },
+        "description": {
+            "value": "<i>Critical Success/Success</i> unaffected. <i>Failure</i> drained 2 and sickened 1 for the duration. <i>Critical Failure</i> drained 3 and sickened 2. You and your allies in the area are sated instead — remove one instance of drained, sickened, or fatigued from each ally present, no save needed. One meal, redistributed."
+        },
+        "duration": {
+            "sustained": false,
+            "value": "1 minute"
+        },
+        "level": {
+            "value": 7
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": ""
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": ""
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [],
+            "value": [
+                "cultist",
+                "focus"
+            ]
+        },
+        "slug": "the-empty-table"
+    },
+    "_id": "r98OvIgHuxnFvnfG",
+    "flags": {
+        "cinderfall": {
+            "spellTag": "Rite · 13th",
+            "listing": "Bargain Spells / Gluttoneth, the Ever-Fasting hunger · want · a meal that never comes"
+        }
+    }
+}

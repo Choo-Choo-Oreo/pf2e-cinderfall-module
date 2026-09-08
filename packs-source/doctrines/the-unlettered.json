@@ -1,0 +1,32 @@
+{
+    "_id": "Y8a40ahJTG8jWYmn",
+    "categories": [],
+    "name": "The Unlettered",
+    "ownership": {
+        "default": 0
+    },
+    "pages": [
+        {
+            "_id": "80Nb8KvH2sXYZUbC",
+            "category": null,
+            "image": {},
+            "name": "The Unlettered",
+            "sort": 100000,
+            "src": null,
+            "system": {},
+            "text": {
+                "content": "<p><em>Orthodox · The Voice-Only Line</em></p>        <p class=\"cc-desc\">The archive stands as the order's founding cautionary tale, the way the Grey Mile stands for the Long Chapter — proof that transcription doesn't just fail to capture the Outside, it does something to it, and to whoever reads the result afterward. Locking it away rather than burning it was itself a divided decision at the time; orthodoxy today is simply to leave it locked, visit it never, and treat the question of what it says as closed.</p>",
+                "format": 1
+            },
+            "title": {
+                "level": 1,
+                "show": true
+            },
+            "type": "text",
+            "video": {
+                "controls": true,
+                "volume": 0.5
+            }
+        }
+    ]
+}

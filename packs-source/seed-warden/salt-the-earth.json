@@ -1,0 +1,60 @@
+{
+    "name": "Salt the Earth",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": {
+            "type": "burst",
+            "value": 100
+        },
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>Nothing grows here again. Not for you, not for anyone, not ever, short of a 3rd-rank Reclaim cast a hundred times over. The Wastes have places like this, and most of them have a Seed-Warden's name attached in somebody's oral history.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "permanent"
+        },
+        "level": {
+            "value": 7
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "touch"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": ""
+        },
+        "time": {
+            "value": "1 minute"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "primal"
+            ],
+            "value": [
+                "seed-warden"
+            ]
+        },
+        "slug": "salt-the-earth"
+    },
+    "_id": "3lRpjhvIMGXGU8yk",
+    "flags": {
+        "cinderfall": {
+            "spellTag": "[TERRAIN] · Requires Grey 3 · Bloom: Grey +1",
+            "listing": "7th Rank"
+        }
+    }
+}

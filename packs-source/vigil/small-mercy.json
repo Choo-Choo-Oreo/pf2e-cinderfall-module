@@ -1,0 +1,57 @@
+{
+    "name": "Small Mercy",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>The target gains a +1 status bonus to the next skill check or attack roll it attempts before the duration ends. You can't target the same creature with Small Mercy again until 1 hour has passed. It isn't faith moving mountains — it's faith making sure a hand doesn't shake at the wrong moment.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "until the end of the target's next turn"
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "1 creature"
+        },
+        "time": {
+            "value": "1"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "divine"
+            ],
+            "value": [
+                "cantrip",
+                "vigil"
+            ]
+        },
+        "slug": "small-mercy"
+    },
+    "_id": "3jJW7M0huTn3mGuY",
+    "flags": {
+        "cinderfall": {
+            "listing": "Cantrips"
+        }
+    }
+}

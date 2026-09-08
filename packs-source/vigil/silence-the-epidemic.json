@@ -1,0 +1,55 @@
+{
+    "name": "Silence the Epidemic",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>Every raging spirit in the area falls permanently still — not destroyed, released.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "permanent"
+        },
+        "level": {
+            "value": 9
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "multi-mile radius"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "every raging spirit in the area"
+        },
+        "time": {
+            "value": "1 hour"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [],
+            "value": [
+                "focus",
+                "vigil"
+            ]
+        },
+        "slug": "silence-the-epidemic"
+    },
+    "_id": "sLKAdyBOVqdTy9fq",
+    "flags": {
+        "cinderfall": {
+            "listing": "The Miracle / Unmaking Ladder / Great 17th level · full pool at max cap · leaves a permanent Testament Mark"
+        }
+    }
+}

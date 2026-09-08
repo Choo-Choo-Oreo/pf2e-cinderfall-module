@@ -1,0 +1,64 @@
+{
+    "name": "The Reckoning Comes",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": {
+            "type": "burst",
+            "value": 20
+        },
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+            "save": {
+                "basic": false,
+                "statistic": "fortitude"
+            }
+        },
+        "description": {
+            "value": "<p>A burst of judgment strikes everything you designate within the area, leaving the rest untouched. <i>Critical Success</i> no damage. <i>Success</i> half damage. <i>Failure</i> 8d6 spirit damage. <i>Critical Failure</i> 8d6 spirit damage and the target is slowed 1 until the end of its next turn. <i>Read As — Unanswered: an old law finally, briefly, enforced. Choir of Ash: Uriel's fire, borrowed for a moment and put where it's owed.</i></p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": ""
+        },
+        "level": {
+            "value": 4
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "60 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "only creatures you can see that are corrupted, undead, or machine-possessed"
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "divine"
+            ],
+            "value": [
+                "vigil"
+            ]
+        },
+        "slug": "the-reckoning-comes"
+    },
+    "_id": "NZ2HBJiABaWuEHyQ",
+    "flags": {
+        "cinderfall": {
+            "listing": "4th Rank"
+        }
+    }
+}

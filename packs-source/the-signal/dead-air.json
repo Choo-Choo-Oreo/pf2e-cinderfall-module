@@ -1,0 +1,57 @@
+{
+    "name": "Dead Air",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>The target must succeed at a DC 5 flat check or the spell is lost. Not counteraction — you simply put a hole in the sound.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "1 round"
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "1 creature casting a spell with a verbal component"
+        },
+        "time": {
+            "value": "1"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "occult"
+            ],
+            "value": [
+                "cantrip",
+                "the-signal"
+            ]
+        },
+        "slug": "dead-air"
+    },
+    "_id": "hZmOGbI0visqCZ0L",
+    "flags": {
+        "cinderfall": {
+            "listing": "Transmissions"
+        }
+    }
+}

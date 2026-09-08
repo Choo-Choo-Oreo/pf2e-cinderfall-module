@@ -28,5 +28,11 @@
         },
         "slug": "neighbors-keeper"
     },
-    "_id": "YgbViMYnJU6zjmw8"
+    "_id": "YgbViMYnJU6zjmw8",
+    "flags": {
+        "cinderfall": {
+            "category": "background",
+            "sourceOwner": "backgrounds"
+        }
+    }
 }

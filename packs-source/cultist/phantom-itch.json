@@ -1,0 +1,57 @@
+{
+    "name": "Phantom Itch",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>A crawling, electric wrongness under the skin. Make a ranged spell attack. <i>Hit</i> 1d4 electricity damage (<b>Heightened +1d4</b> every 2 levels), and the target is enfeebled 1 until the end of its next turn as its own muscles start arguing with it.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": ""
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "one creature"
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "occult"
+            ],
+            "value": [
+                "cantrip",
+                "cultist"
+            ]
+        },
+        "slug": "phantom-itch"
+    },
+    "_id": "QxmdS3qYkLFfqRfQ",
+    "flags": {
+        "cinderfall": {
+            "listing": "Cantrips"
+        }
+    }
+}

@@ -51,7 +51,8 @@
     "_id": "5pLuzd5BslpsWPnw",
     "flags": {
         "cinderfall": {
-            "define": "The Drowned Coast"
+            "define": "The Drowned Coast",
+            "foundAmong": "Found among: Drowned Coast salvage divers, Widow of Rust-adjacent enclaves, coastal smuggler crews"
         }
     }
 }

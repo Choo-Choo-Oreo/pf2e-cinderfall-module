@@ -1,0 +1,62 @@
+{
+    "name": "Primordial",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>This one is older than the Bloom, older than the Teratoma, older than anything Cinderfall has a name for yet.</p><p><b>Gift —</b> Placeholder. The payoff — the mutation hive mechanic — is delivered through the Chimerist class once it's properly activated; nothing here is finalized until that class is. <b>Tithe —</b> Placeholder, same reason.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 0
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {}
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "traits": {
+            "rarity": "unique",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "primordial"
+    },
+    "_id": "GjtmSDu5JB6D0ZnI",
+    "flags": {
+        "cinderfall": {
+            "mutationType": "teratoma",
+            "tier": "unique",
+            "prerequisite": "1+ mutation carried",
+            "access": "radiation",
+            "incomplete": [
+                "level is a stub (0); mutations carry no level",
+                "price is empty; a mutation is not bought"
+            ],
+            "inferred": [
+                "system.usage"
+            ]
+        }
+    }
+}

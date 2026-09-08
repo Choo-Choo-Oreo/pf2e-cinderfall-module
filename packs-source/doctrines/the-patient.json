@@ -1,0 +1,32 @@
+{
+    "_id": "OChRUMJBYzZCcQ3c",
+    "categories": [],
+    "name": "The Patient",
+    "ownership": {
+        "default": 0
+    },
+    "pages": [
+        {
+            "_id": "WGAxeEXpQhSZErPp",
+            "category": null,
+            "image": {},
+            "name": "The Patient",
+            "sort": 100000,
+            "src": null,
+            "system": {},
+            "text": {
+                "content": "<p><em>Orthodox · The Majority</em></p>        <p class=\"cc-desc\">Endurance is the whole practice, not a means to some faster end. God left over a failure of the world's character, not its balance sheet, and the only honest response is to be better anyway — for its own sake, whether or not anyone is keeping score. Impatience, to the Patient, is itself proof the lesson hasn't landed yet.</p>",
+                "format": 1
+            },
+            "title": {
+                "level": 1,
+                "show": true
+            },
+            "type": "text",
+            "video": {
+                "controls": true,
+                "volume": 0.5
+            }
+        }
+    ]
+}

@@ -1,0 +1,55 @@
+{
+    "name": "Steadying Hand",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>An ally within 30 feet gains a +1 status bonus to the next saving throw they attempt before the duration ends.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "until the target's next saving throw"
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "1 ally"
+        },
+        "time": {
+            "value": "1"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [],
+            "value": [
+                "focus",
+                "hollowbound"
+            ]
+        },
+        "slug": "steadying-hand"
+    },
+    "_id": "4fPNOwnGHaQ1AQ3f",
+    "flags": {
+        "cinderfall": {
+            "listing": "Covenant Vessel Spells / Long-Shadow ancestor/residual-adjacent · narrative-first"
+        }
+    }
+}

@@ -1,0 +1,62 @@
+{
+    "name": "The Waiting Room",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>Somewhere, a room is being kept ready. It is being kept ready for you.</p><p><b>Gift —</b> Once per day, when you would die, you don't — not yet. You stabilize automatically at 1 HP, no check required, regardless of the damage that would have killed you. <b>Tithe —</b> The Teratoma isn't saving you for free. It's deciding when your account comes due, and the GM keeps that clock hidden. When it fills, the Teratoma calls you home — how and when is the GM's to decide, and nothing removes the trait or stops the clock.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 0
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {}
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "traits": {
+            "rarity": "exotic",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "the-waiting-room"
+    },
+    "_id": "Xwp6Yx5lMz9AeNBL",
+    "flags": {
+        "cinderfall": {
+            "mutationType": "teratoma",
+            "tier": "exotic",
+            "prerequisite": "carries a Teratoma Trait",
+            "access": "radiation",
+            "incomplete": [
+                "level is a stub (0); mutations carry no level",
+                "price is empty; a mutation is not bought"
+            ],
+            "inferred": [
+                "system.usage"
+            ]
+        }
+    }
+}

@@ -32,7 +32,17 @@
             "define": "Transcendent · Vast · Unreachable · Unaware of Any Single Mortal",
             "incomplete": [
                 "STUB -- no mechanics authored. Missing every pf2e deity field: attribute, domains, font, sanctification, skill, spells, weapons. `category` is a default of 'deity' and may need to be philosophy or pantheon. See .claude/docs/todo.md."
-            ]
+            ],
+            "effect": "Full writeup: <a class=\"bref\" href=\"reckoner.html\">Reckoner</a> dossier, §7",
+            "pov": {
+                "flag": "attrition_seen_v1",
+                "code": "Sealed Record · Field Index terminal",
+                "text": "Belief feeds it the way belief feeds all four — and it would keep decaying the universe on schedule with zero worshippers, so the feeding changes nothing it does. <strong>It does not compete, because competing requires noticing there's a race.</strong> The Long Chapter reads that indifference as the closest thing to peace on offer at this tier of existence: the one Transcendent that isn't, even a little, trying to win.",
+                "link": {
+                    "href": "what-runs-without-us.html",
+                    "label": "What Runs Without Us →"
+                }
+            }
         }
     }
 }

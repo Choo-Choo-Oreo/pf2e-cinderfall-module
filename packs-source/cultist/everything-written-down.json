@@ -1,0 +1,65 @@
+{
+    "name": "Everything Written Down",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": {
+            "type": "burst",
+            "value": 30
+        },
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+            "save": {
+                "basic": false,
+                "statistic": "will"
+            }
+        },
+        "description": {
+            "value": "<i>Critical Success/Success</i> the lie lands clean. <i>Failure</i> the liar takes a −1 status penalty to that check. <i>Critical Failure</i> as failure, and the liar visibly stumbles over the lie."
+        },
+        "duration": {
+            "sustained": false,
+            "value": "10 minutes"
+        },
+        "level": {
+            "value": 3
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": ""
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": ""
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "occult"
+            ],
+            "value": [
+                "cultist"
+            ]
+        },
+        "slug": "everything-written-down"
+    },
+    "_id": "fyCITnrv7WbSWrho",
+    "flags": {
+        "cinderfall": {
+            "spellTag": "Revelation · 5th",
+            "listing": "Bargain Spells / The Ledger debts · secrets · everything written down"
+        }
+    }
+}

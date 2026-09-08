@@ -1,0 +1,57 @@
+{
+    "name": "Hollow Ration",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>The target doesn't need to eat or drink for the duration, and suffers no ill effect from an empty stomach — a small, quietly enormous mercy in Cinderfall.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "24 hours"
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "touch"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "one creature"
+        },
+        "time": {
+            "value": "1 minute"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "occult"
+            ],
+            "value": [
+                "cultist"
+            ]
+        },
+        "slug": "hollow-ration"
+    },
+    "_id": "pJAl9gfmpU2dbUXD",
+    "flags": {
+        "cinderfall": {
+            "spellTag": "Revelation · 1st",
+            "listing": "Bargain Spells / Gluttoneth, the Ever-Fasting hunger · want · a meal that never comes"
+        }
+    }
+}

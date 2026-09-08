@@ -1,0 +1,62 @@
+{
+    "name": "The Guest Hour",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>Once in a while, the Teratoma would like to wear you for a minute.</p><p><b>Gift —</b> Once per day, invite it fully: for 1 round, act with the Teratoma's own reflexes — reroll any one attack roll, skill check, or saving throw you just made and take the better result. <b>Tithe —</b> Once per session, the GM may decide the Teratoma didn't wait to be invited. It takes one full turn — your actions, your movement, spent on whatever it wants — and you are simply present for it. No save.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 0
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {}
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "traits": {
+            "rarity": "mythic",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "the-guest-hour"
+    },
+    "_id": "cnzzoL3B78uJR58R",
+    "flags": {
+        "cinderfall": {
+            "mutationType": "teratoma",
+            "tier": "mythic",
+            "prerequisite": "carries a Teratoma Trait",
+            "access": "radiation",
+            "incomplete": [
+                "level is a stub (0); mutations carry no level",
+                "price is empty; a mutation is not bought"
+            ],
+            "inferred": [
+                "system.usage"
+            ]
+        }
+    }
+}

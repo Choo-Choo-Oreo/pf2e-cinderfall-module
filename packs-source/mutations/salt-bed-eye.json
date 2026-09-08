@@ -1,0 +1,66 @@
+{
+    "name": "Salt-Bed Eye",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>The residue of violence stays visible to you after everyone else stops seeing it.</p><p><b>Gift —</b> Blood, scorch and disturbance glow faintly to you for up to 24 hours after the fact: +2 circumstance to Perception to reconstruct what happened somewhere. <b>Tithe —</b> You cannot stop seeing it. In a mass grave, a battlefield, or a Cut site you take −2 circumstance to all checks until you leave.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 0
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {}
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "traits": {
+            "rarity": "rare",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "salt-bed-eye"
+    },
+    "_id": "0qU0PUQgff5gmKvC",
+    "flags": {
+        "cinderfall": {
+            "mutationType": "minor",
+            "tier": "rare",
+            "slot": "Ocular",
+            "slots": [
+                "Ocular"
+            ],
+            "slotCost": 1,
+            "roll": "d100 — 77–78",
+            "incomplete": [
+                "level is a stub (0); mutations carry no level",
+                "price is empty; a mutation is not bought"
+            ],
+            "inferred": [
+                "system.usage"
+            ]
+        }
+    }
+}

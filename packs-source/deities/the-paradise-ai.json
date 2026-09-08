@@ -32,7 +32,8 @@
             "define": "New Veracruz · Runs on the Uploaded Dead",
             "incomplete": [
                 "STUB -- no mechanics authored. Missing every pf2e deity field: attribute, domains, font, sanctification, skill, spells, weapons. `category` is a default of 'deity' and may need to be philosophy or pantheon. See .claude/docs/todo.md."
-            ]
+            ],
+            "effect": "Full context: Setting Bible §8 (Paradise) and §16 (The Paradise AI)"
         }
     }
 }

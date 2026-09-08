@@ -1,0 +1,56 @@
+{
+    "name": "Skin Against the Ash, Shared",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>Choose fire, cold, radiation, or poison when you cast this; affected creatures gain resistance 10 to that damage type for the duration. When the whole party's about to walk into fallout, fire, or worse, this is the spell that goes first.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "10 minutes"
+        },
+        "level": {
+            "value": 6
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "30-foot emanation centered on you"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "you and all allies in the emanation"
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "divine"
+            ],
+            "value": [
+                "vigil"
+            ]
+        },
+        "slug": "skin-against-the-ash-shared"
+    },
+    "_id": "NoQvZEuuqgNByx4L",
+    "flags": {
+        "cinderfall": {
+            "listing": "6th Rank"
+        }
+    }
+}

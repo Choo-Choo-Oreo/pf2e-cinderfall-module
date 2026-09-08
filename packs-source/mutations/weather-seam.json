@@ -1,0 +1,66 @@
+{
+    "name": "Weather-Seam",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>A raised line across the ribs that tightens before a storm.</p><p><b>Gift —</b> You know the weather twelve hours out, reliably; +1 circumstance to Survival to predict or prepare for it. <b>Tithe —</b> Pressure hurts. During any storm, or inside any sealed or pressurized space, you take −1 circumstance to all checks.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 0
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {}
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "traits": {
+            "rarity": "uncommon",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "weather-seam"
+    },
+    "_id": "iF5GkJ9ndDPswtuB",
+    "flags": {
+        "cinderfall": {
+            "mutationType": "minor",
+            "tier": "uncommon",
+            "slot": "Dermal",
+            "slots": [
+                "Dermal"
+            ],
+            "slotCost": 1,
+            "roll": "d100 — 59–60",
+            "incomplete": [
+                "level is a stub (0); mutations carry no level",
+                "price is empty; a mutation is not bought"
+            ],
+            "inferred": [
+                "system.usage"
+            ]
+        }
+    }
+}

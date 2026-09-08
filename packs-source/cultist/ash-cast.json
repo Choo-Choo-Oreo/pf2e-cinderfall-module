@@ -1,0 +1,61 @@
+{
+    "name": "Ash-Cast",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+            "save": {
+                "basic": false,
+                "statistic": "fortitude"
+            }
+        },
+        "description": {
+            "value": "<i>Critical Success/Success</i> unaffected. <i>Failure</i> the target turns to ash from the extremities in: it is unable to act and takes 8d6 persistent void damage. At the end of each of its turns it attempts a new Fortitude save, ending both effects on a success. <i>Critical Failure</i> as failure, and the target immediately takes 8d6 void damage as the ashing accelerates."
+        },
+        "duration": {
+            "sustained": false,
+            "value": "until freed, cured, or destroyed"
+        },
+        "level": {
+            "value": 8
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "one creature"
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "occult"
+            ],
+            "value": [
+                "cultist"
+            ]
+        },
+        "slug": "ash-cast"
+    },
+    "_id": "lKi2ZqCdyt6RpXmf",
+    "flags": {
+        "cinderfall": {
+            "listing": "8th Rank"
+        }
+    }
+}

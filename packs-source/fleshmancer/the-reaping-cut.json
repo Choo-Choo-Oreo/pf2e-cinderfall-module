@@ -1,0 +1,63 @@
+{
+    "name": "The Reaping Cut",
+    "type": "consumable",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0.1
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p><strong>Craft Cost</strong> 8 Vitae Points</p><p><strong>Activate</strong> 1 action to detonate</p><p><strong>Saving Throw</strong> Reflex (basic)</p><hr /><p>14d6 negative damage in a 30-foot burst with a basic Reflex save; you regain Vitae Points equal to a quarter of the damage dealt to the worst-hit creature, the charge feeding on what it takes.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 17
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {}
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "category": "other",
+        "damage": null,
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "consumable",
+                "fleshmancer"
+            ]
+        },
+        "usage": {
+            "value": "held-in-one-hand"
+        },
+        "uses": {
+            "autoDestroy": true,
+            "max": 1,
+            "value": 1
+        },
+        "slug": "the-reaping-cut"
+    },
+    "_id": "CrcqNtw0fmKxzcz2",
+    "flags": {
+        "cinderfall": {
+            "vitaeCost": 8,
+            "mk": "Mk IV"
+        }
+    }
+}

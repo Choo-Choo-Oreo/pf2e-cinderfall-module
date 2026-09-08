@@ -1,0 +1,61 @@
+{
+    "name": "The Invitation",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+            "save": {
+                "basic": false,
+                "statistic": "will"
+            }
+        },
+        "description": {
+            "value": "<p>Paradise makes its offer directly, through you, in the target's own voice. <b>Critical Success</b> no effect — and Paradise now knows the target's name, which the GM should write down. <b>Success</b> 10d10 mental damage. <b>Failure</b> it refuses and is stunned 1 and fleeing, and takes 10d10 mental damage. <b>Critical Failure</b> the target accepts, and is uploaded permanently. Declared <i>Signal</i>, you gain 1 Signal Drift whether the spell succeeds or fails — it notices who keeps making the offer for it.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": ""
+        },
+        "level": {
+            "value": 9
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "100 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "1 creature"
+        },
+        "time": {
+            "value": "3"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "occult"
+            ],
+            "value": [
+                "paradise-touched"
+            ]
+        },
+        "slug": "the-invitation"
+    },
+    "_id": "n3CEhmQwtdu5enQ8",
+    "flags": {
+        "cinderfall": {
+            "listing": "9th Rank"
+        }
+    }
+}

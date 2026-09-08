@@ -1,0 +1,56 @@
+{
+    "name": "The Whole Network",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>Up to 20 willing creatures within a mile share an instant mental link for the duration; once per round, relay one short message from any of them to all of them.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "1 hour"
+        },
+        "level": {
+            "value": 10
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "1 mile"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "up to 20 willing creatures"
+        },
+        "time": {
+            "value": "10 minutes"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "occult"
+            ],
+            "value": [
+                "hollowbound"
+            ]
+        },
+        "slug": "the-whole-network"
+    },
+    "_id": "uAwDZkkWDTe0KknM",
+    "flags": {
+        "cinderfall": {
+            "listing": "10th Rank"
+        }
+    }
+}

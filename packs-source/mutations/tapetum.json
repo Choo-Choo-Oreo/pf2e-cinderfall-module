@@ -1,0 +1,66 @@
+{
+    "name": "Tapetum",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>A reflective layer behind the retina, the way night animals have.</p><p><b>Gift —</b> Low-light vision, or +1 circumstance to Perception in dim light if you already have it. <b>Tithe —</b> Your eyes flare like an animal's. Anyone with a light facing you sees exactly where you are: −2 circumstance to Stealth while a light source is pointed your way, and you cannot hide from a lantern.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 0
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {}
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "traits": {
+            "rarity": "uncommon",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "tapetum"
+    },
+    "_id": "RZxiIIzwWbqyKWDB",
+    "flags": {
+        "cinderfall": {
+            "mutationType": "minor",
+            "tier": "uncommon",
+            "slot": "Ocular",
+            "slots": [
+                "Ocular"
+            ],
+            "slotCost": 1,
+            "roll": "d100 — 47–48",
+            "incomplete": [
+                "level is a stub (0); mutations carry no level",
+                "price is empty; a mutation is not bought"
+            ],
+            "inferred": [
+                "system.usage"
+            ]
+        }
+    }
+}

@@ -51,7 +51,8 @@
     "_id": "iTMMdx72ZOYZ657c",
     "flags": {
         "cinderfall": {
-            "define": "Megacorporations"
+            "define": "Megacorporations",
+            "foundAmong": "Found among: corporate housing blocks, indentured families, junior admin staff"
         }
     }
 }

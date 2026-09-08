@@ -51,7 +51,8 @@
     "_id": "nFsuPYrZnabBDGf5",
     "flags": {
         "cinderfall": {
-            "define": "Wasteland Scavenger Crews"
+            "define": "Wasteland Scavenger Crews",
+            "foundAmong": "Found among: scrap crews, ruin-divers, independent scavenger gangs"
         }
     }
 }

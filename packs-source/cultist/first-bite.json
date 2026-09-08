@@ -1,0 +1,56 @@
+{
+    "name": "First Bite",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>Make a melee spell attack. <i>Hit</i> the target takes 1d4 void damage (<b>Heightened +1d4</b> every 2 levels) and must succeed at a Fortitude save or be drained 1 for 1 minute (drained 2 on a critical failure) — their vitality, briefly, is what's being eaten. You gain temporary HP equal to the void damage dealt.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": ""
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "melee touch"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "one creature"
+        },
+        "time": {
+            "value": "1"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [],
+            "value": [
+                "cultist",
+                "focus"
+            ]
+        },
+        "slug": "first-bite"
+    },
+    "_id": "D3HI2Q4oR2iLHGkq",
+    "flags": {
+        "cinderfall": {
+            "spellTag": "Rite · 1st",
+            "listing": "Bargain Spells / Gluttoneth, the Ever-Fasting hunger · want · a meal that never comes"
+        }
+    }
+}

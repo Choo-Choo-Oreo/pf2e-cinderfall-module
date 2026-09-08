@@ -1,0 +1,62 @@
+{
+    "name": "Soften",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+            "save": {
+                "basic": false,
+                "statistic": "fortitude"
+            }
+        },
+        "description": {
+            "value": "<p>Structure goes punky and yielding. <i>Failure</i> the target takes a −2 status penalty to AC and its resistances to physical damage are reduced by 5. Against an object or structure there's no save — its Hardness is halved, which is how a Seed-Warden opens a vault door without dealing a point of damage.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "1 minute"
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "one creature or object"
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "primal"
+            ],
+            "value": [
+                "seed-warden"
+            ]
+        },
+        "slug": "soften"
+    },
+    "_id": "qBBs6QKS35aiY7RR",
+    "flags": {
+        "cinderfall": {
+            "spellTag": "Bloom: Grey +1",
+            "listing": "1st Rank"
+        }
+    }
+}

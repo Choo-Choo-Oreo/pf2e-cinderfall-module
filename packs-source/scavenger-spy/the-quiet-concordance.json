@@ -1,0 +1,32 @@
+{
+    "_id": "8rPLK6sJrI1KpKZ0",
+    "categories": [],
+    "name": "The Quiet Concordance",
+    "ownership": {
+        "default": 0
+    },
+    "pages": [
+        {
+            "_id": "32SWoYpcsf3ACut7",
+            "category": null,
+            "image": {},
+            "name": "The Quiet Concordance",
+            "sort": 100000,
+            "src": null,
+            "system": {},
+            "text": {
+                "content": "<p><em>Professional Courtesy · Mutual Survival</em></p>      <p class=\"cc-desc\">An unspoken truce among rival corporate spies, freelance operators, and career criminals: don't blow another professional's cover unless you're being paid specifically to do it. Nobody signed anything. Everybody who's still working knows the rule anyway, because the ones who broke it stopped being anybody's problem shortly after.</p>\n      <p class=\"cc-desc\">Breaking the Concordance doesn't bring the law down on you. It brings every other person like you down on you instead, which is worse.</p>",
+                "format": 1
+            },
+            "title": {
+                "level": 1,
+                "show": true
+            },
+            "type": "text",
+            "video": {
+                "controls": true,
+                "volume": 0.5
+            }
+        }
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "name": "Regrower",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>Your body has relearned how to grow back what it loses.</p><p><b>Gift —</b> Reattach severed digits by holding them in place for 10 minutes; regrow lost ones over a week. Persistent bleed on you is easier to stop (DC 10 instead of 15). <b>Tithe —</b> Your flesh wants to grow: Blooms you suffer are one step worse.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 0
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {}
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "traits": {
+            "rarity": "uncommon",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "regrower"
+    },
+    "_id": "aQUxrE3m1Osgjj0m",
+    "flags": {
+        "cinderfall": {
+            "mutationType": "major",
+            "tier": "uncommon",
+            "slot": "Dermal",
+            "slots": [
+                "Dermal"
+            ],
+            "slotCost": 1,
+            "roll": "d20 — 3",
+            "incomplete": [
+                "level is a stub (0); mutations carry no level",
+                "price is empty; a mutation is not bought"
+            ],
+            "inferred": [
+                "system.usage"
+            ]
+        }
+    }
+}

@@ -323,7 +323,32 @@
             "alignment": "LN",
             "incomplete": [
                 "Melee strike 'Choir Blade': rider 'Ash-Iron Edge' kept as text only"
-            ]
+            ],
+            "bodyParts": {
+                "Ocular": 1,
+                "Arm": 1,
+                "Legs": 1
+            },
+            "bodyWhole": {
+                "Frame": 1,
+                "Neural": 1,
+                "Circulatory": 1,
+                "Dermal": 1,
+                "Viscera": 1
+            },
+            "inlays": {
+                "capacity": 3
+            },
+            "ancestry": "human",
+            "inferred": [
+                "body-slot block copied verbatim from the Human ancestry. Owner ruling 2026-09-07: augmentations are humanoid-only, and any PC or NPC belonging to a main ancestry can carry them, so a human NPC is trackable exactly like a player character. The counts themselves are still the conversion's generic baseline -- see the same `inferred` note on the 11 ancestry cards.",
+                "bodyParts / bodyWhole / inlays counts are a generic humanoid baseline, identical on all 11 ancestries. ancestries.html states no body-part or slot count for any ancestry, so the numbers came from the conversion, not the page. The slot TERMS are authored (the Nine Slots on bio-/cyber-augmentation.html); the per-ancestry COUNTS still need a GM ruling.",
+                "unmappedBodyParts: pre-schema keys with no Nine Slots equivalent. Kept verbatim and deliberately NOT counted as slots -- the pages name no head or torso slot, and inventing one would be a design call, not a conversion."
+            ],
+            "unmappedBodyParts": {
+                "heads": 1,
+                "torsos": 1
+            }
         }
     }
 }

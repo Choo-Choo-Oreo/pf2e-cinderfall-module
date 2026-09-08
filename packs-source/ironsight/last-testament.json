@@ -1,0 +1,72 @@
+{
+    "name": "Last Testament",
+    "type": "weapon",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "bonus": {
+            "value": 0
+        },
+        "bonusDamage": {
+            "value": 0
+        },
+        "bulk": {
+            "value": 0
+        },
+        "category": "simple",
+        "damage": {
+            "dice": 0,
+            "die": "d6",
+            "damageType": "piercing"
+        },
+        "description": {
+            "value": "<p>A priest kept firing it after his church burned down around him, and kept firing it for three days after that, by every account that survived to tell the story. Nobody's found the priest. The gun turned up decades later, and it still shoots like something's aiming it besides you — called shots seem to land exactly where you meant them, as if the gun already remembers where the bullet goes.</p>"
+        },
+        "group": "firearm",
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 0
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "range": null,
+        "reload": {
+            "value": null
+        },
+        "rules": [],
+        "slug": "last-testament",
+        "splashDamage": {
+            "value": 0
+        },
+        "traits": {
+            "rarity": "unique",
+            "value": []
+        },
+        "usage": {
+            "value": "held-in-one-hand"
+        }
+    },
+    "_id": "GVnrvq0fkOYsOvnH",
+    "flags": {
+        "cinderfall": {
+            "define": "Pre-Collapse Revolver · Unique · Old World, no Failure Range",
+            "special": "Called shots seem to land exactly where you meant them, as if the gun already remembers where the bullet goes. Not expressed as a rule element: the prose states no bonus, DC or frequency.",
+            "failureRange": "no Failure Range (Old World -- ironsight.html:115, 'Old World (Legendary) never fails')",
+            "incomplete": [
+                "damage is a stub (0 dice); no page states this gun's damage",
+                "bulk is a stub (0); no page states it",
+                "range and reload are stubs (null); no page states them",
+                "category is a stub ('simple'); no page says simple or martial",
+                "level is a stub (0); no page states it",
+                "price is absent; no page prices either gun"
+            ]
+        }
+    }
+}

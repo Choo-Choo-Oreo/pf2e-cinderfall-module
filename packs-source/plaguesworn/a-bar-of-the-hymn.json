@@ -1,0 +1,57 @@
+{
+    "name": "A Bar of the Hymn",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<span class=\"sdesc\">Your words arrive as a fragment of the fever hymn that only the target hears; it can whisper back the same way.</span>"
+        },
+        "duration": {
+            "sustained": true,
+            "value": "sustained"
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "120 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": ""
+        },
+        "time": {
+            "value": "1"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "occult"
+            ],
+            "value": [
+                "cantrip",
+                "plaguesworn"
+            ]
+        },
+        "slug": "a-bar-of-the-hymn"
+    },
+    "_id": "JkVFyxbayjiSRFM5",
+    "flags": {
+        "cinderfall": {
+            "listing": "Cantrips"
+        }
+    }
+}

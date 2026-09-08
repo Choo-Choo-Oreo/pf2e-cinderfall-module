@@ -1,0 +1,32 @@
+{
+    "_id": "cQUmYMVUbADGIRBR",
+    "categories": [],
+    "name": "Thicketback",
+    "ownership": {
+        "default": 0
+    },
+    "pages": [
+        {
+            "_id": "BTYvfLJusVMWtlu7",
+            "category": null,
+            "image": {},
+            "name": "Thicketback",
+            "sort": 100000,
+            "src": null,
+            "system": {},
+            "text": {
+                "content": "<p><em>Available 1st level · Bramble-armored, slow, extremely hard to move</em></p>      <div class=\"cc-effect base\">Speed 20 ft · AC +2 item · Athletics +2 circumstance to Grapple and to resist forced movement · Melee thorn-arm (agile, reach 10 ft) 2d6 piercing</div>\n      <hr class=\"cc-divider\">\n      <div class=\"loads\">\n        <div class=\"lg\"><h5>Green load</h5><p>10 temporary Hit Points, renewing each round while the needle stays on Green. Bramble grows as fast as it's cut away.</p></div>\n        <div class=\"lr\"><h5>Grey load</h5><p>Your thorn-arm deals +1d6 persistent bleed, and creatures that Grapple you or hit you unarmed take 1d6 persistent bleed. Dead thorn is dirtier than live thorn.</p></div>\n      </div>",
+                "format": 1
+            },
+            "title": {
+                "level": 1,
+                "show": true
+            },
+            "type": "text",
+            "video": {
+                "controls": true,
+                "volume": 0.5
+            }
+        }
+    ]
+}

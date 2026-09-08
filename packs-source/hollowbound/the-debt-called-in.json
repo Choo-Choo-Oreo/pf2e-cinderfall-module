@@ -1,0 +1,61 @@
+{
+    "name": "The Debt Called In",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+            "save": {
+                "basic": false,
+                "statistic": "will"
+            }
+        },
+        "description": {
+            "value": "<i>Failure</i> the target follows your commands for 1 minute, but attempts a new Will save each time you order it into something clearly against its nature or its safety, ending the effect on a success. <i>Critical Failure</i> the target falls fully under your control for 1 minute; it still gets that save against an obviously suicidal order. <i>Success</i> no effect. The ugliest spell on this list — pushing it further with extra Toll risks the Fraying Table, as with any pushed Vessel spell."
+        },
+        "duration": {
+            "sustained": false,
+            "value": "1 minute"
+        },
+        "level": {
+            "value": 7
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "1 creature"
+        },
+        "time": {
+            "value": "3"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "occult"
+            ],
+            "value": [
+                "hollowbound"
+            ]
+        },
+        "slug": "the-debt-called-in"
+    },
+    "_id": "7GNqa7hyec4ynwIQ",
+    "flags": {
+        "cinderfall": {
+            "listing": "7th Rank"
+        }
+    }
+}

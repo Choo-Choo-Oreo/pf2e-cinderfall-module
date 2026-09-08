@@ -1,0 +1,67 @@
+{
+    "name": "The Congregation",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>You are not alone in a fight, and you haven't been for some time.</p><p><b>Gift —</b> Once per encounter, as a reaction, let it take over: reroll any failed save, attack roll or check and use the new result. <b>Tithe —</b> It is awake now. Once per session the GM may spend one of your actions on what the Congregation wants, with no save. You narrate what your body did. You do not choose it.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 0
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {}
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "traits": {
+            "rarity": "mythic",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "the-congregation"
+    },
+    "_id": "WJWqeoZBdvog2kce",
+    "flags": {
+        "cinderfall": {
+            "mutationType": "major",
+            "tier": "mythic",
+            "slot": "Neural + Viscera (Multi-Slot)",
+            "slots": [
+                "Neural",
+                "Viscera"
+            ],
+            "slotCost": 2,
+            "roll": "d20 — 15",
+            "incomplete": [
+                "level is a stub (0); mutations carry no level",
+                "price is empty; a mutation is not bought"
+            ],
+            "inferred": [
+                "system.usage"
+            ]
+        }
+    }
+}

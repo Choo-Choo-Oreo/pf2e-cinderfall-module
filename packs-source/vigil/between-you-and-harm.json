@@ -1,0 +1,57 @@
+{
+    "name": "Between You and Harm",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>You and the target each gain a +1 status bonus to AC against the next attack made against you before the start of your next turn. This is the spell version of the thing Vigils do constantly without a spell at all.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "until the start of your next turn"
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "you and 1 ally"
+        },
+        "time": {
+            "value": "1"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "divine"
+            ],
+            "value": [
+                "cantrip",
+                "vigil"
+            ]
+        },
+        "slug": "between-you-and-harm"
+    },
+    "_id": "HIz1aYAIKJAUGqYj",
+    "flags": {
+        "cinderfall": {
+            "listing": "Cantrips"
+        }
+    }
+}

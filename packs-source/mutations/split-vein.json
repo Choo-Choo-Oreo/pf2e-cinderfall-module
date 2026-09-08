@@ -1,0 +1,66 @@
+{
+    "name": "Split Vein",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>You can give it directly. That is the entire mutation.</p><p><b>Gift —</b> Once per day, open a vein as an action: an adjacent ally gains fast healing 2 for 1 minute, drawn out of you. <b>Tithe —</b> It comes out of you literally — 1 damage per round for the duration, unavoidable and not reducible by any resistance — and it can never be turned on yourself.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 0
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {}
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "traits": {
+            "rarity": "rare",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "split-vein"
+    },
+    "_id": "ho21Np6OjSFb9Svs",
+    "flags": {
+        "cinderfall": {
+            "mutationType": "major",
+            "tier": "rare",
+            "slot": "Circulatory",
+            "slots": [
+                "Circulatory"
+            ],
+            "slotCost": 1,
+            "roll": "d20 — 10",
+            "incomplete": [
+                "level is a stub (0); mutations carry no level",
+                "price is empty; a mutation is not bought"
+            ],
+            "inferred": [
+                "system.usage"
+            ]
+        }
+    }
+}

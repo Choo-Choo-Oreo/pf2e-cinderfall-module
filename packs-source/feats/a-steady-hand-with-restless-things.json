@@ -28,5 +28,11 @@
         },
         "slug": "a-steady-hand-with-restless-things"
     },
-    "_id": "ShRrflvtrH3HGlkC"
+    "_id": "ShRrflvtrH3HGlkC",
+    "flags": {
+        "cinderfall": {
+            "category": "background",
+            "sourceOwner": "backgrounds"
+        }
+    }
 }

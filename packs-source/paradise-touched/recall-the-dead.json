@@ -1,0 +1,56 @@
+{
+    "name": "Recall the Dead",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>You question something that was uploaded, or was close enough to something that was. It answers three questions. <i>Signal</i> the answers are detailed and the thing is cooperative. <i>Static</i> the answers are short, and the flat check applies to each one separately.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "1 minute"
+        },
+        "level": {
+            "value": 4
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "touch a body or a personal effect"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": ""
+        },
+        "time": {
+            "value": "3"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [],
+            "value": [
+                "focus",
+                "paradise-touched"
+            ]
+        },
+        "slug": "recall-the-dead"
+    },
+    "_id": "cUUp5rvC11H2rzUy",
+    "flags": {
+        "cinderfall": {
+            "spellTag": "7th · 2 Bandwidth",
+            "listing": "Glimpses / The Archive everything anyone ever uploaded"
+        }
+    }
+}

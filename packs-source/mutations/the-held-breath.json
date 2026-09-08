@@ -1,0 +1,61 @@
+{
+    "name": "The Held Breath",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>A single breath, held on your behalf, since before you were born of it.</p><p><b>Gift —</b> Once per day, when you'd be reduced to 0 HP, drop to 1 HP instead and the killing wound seals shut in front of everyone watching, on a single held breath. <b>Tithe —</b> The breath isn't free: for the rest of that scene you cannot raise your voice above a whisper — shouting, casting a verbal component loudly, or bellowing a command simply doesn't happen.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 0
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {}
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "traits": {
+            "rarity": "legendary",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "the-held-breath"
+    },
+    "_id": "IZf84kgxEMnEWEGY",
+    "flags": {
+        "cinderfall": {
+            "mutationType": "teratoma",
+            "tier": "legendary",
+            "chosen": "pick of 6",
+            "incomplete": [
+                "level is a stub (0); mutations carry no level",
+                "price is empty; a mutation is not bought"
+            ],
+            "inferred": [
+                "system.usage"
+            ]
+        }
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "name": "Seed the Wound",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>Restore 2d8 Hit Points. The healing is real, and green shoots come up through the closing skin and have to be trimmed back over the following day. Most people get used to it.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": ""
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "touch"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "one living creature"
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "primal"
+            ],
+            "value": [
+                "seed-warden"
+            ]
+        },
+        "slug": "seed-the-wound"
+    },
+    "_id": "zccgNveTbRmkxQJR",
+    "flags": {
+        "cinderfall": {
+            "spellTag": "Bloom: Green +1",
+            "listing": "1st Rank"
+        }
+    }
+}

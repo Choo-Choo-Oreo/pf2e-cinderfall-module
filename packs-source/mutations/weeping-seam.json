@@ -1,0 +1,66 @@
+{
+    "name": "Weeping Seam",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>An old Cut that never sealed.</p><p><b>Gift —</b> Your blood runs easy on purpose too: a fleshmancer harvesting Vitae from you (willingly) gets +1 from the draw. <b>Tithe —</b> The first persistent bleed you take each day has its flat check DC raised by 5.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 0
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {}
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "weeping-seam"
+    },
+    "_id": "9IotIH7uwmC7orQ5",
+    "flags": {
+        "cinderfall": {
+            "mutationType": "scar",
+            "tier": "common",
+            "slot": "Circulatory",
+            "slots": [
+                "Circulatory"
+            ],
+            "slotCost": 1,
+            "roll": "d12 — 1",
+            "incomplete": [
+                "level is a stub (0); mutations carry no level",
+                "price is empty; a mutation is not bought"
+            ],
+            "inferred": [
+                "system.usage"
+            ]
+        }
+    }
+}

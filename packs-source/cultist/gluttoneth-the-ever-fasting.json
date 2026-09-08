@@ -1,0 +1,32 @@
+{
+    "_id": "cPqC7jv1e7abJjHe",
+    "categories": [],
+    "name": "Gluttoneth, the Ever-Fasting",
+    "ownership": {
+        "default": 0
+    },
+    "pages": [
+        {
+            "_id": "O2GHV66GHU5UaQwl",
+            "category": null,
+            "image": {},
+            "name": "Gluttoneth, the Ever-Fasting",
+            "sort": 100000,
+            "src": null,
+            "system": {},
+            "text": {
+                "content": "<p><em>Hunger · Want · A Meal That Never Comes</em></p>      <p class=\"cc-desc\">It arrived starving, from somewhere that apparently starves gods, and found nothing in this drowned, dead world worth eating. So it settled for the next best thing: lending its hunger out, one cultist at a time, in exchange for the strength that hunger carries. Followers describe an ever-present, low-grade craving for something they can never quite name — and a strength that shows up exactly when they need to take something by force.</p>\n      <p class=\"cc-desc\">Gluttoneth's shrines are always near food, however scarce — granaries, ration lines, butcher stalls — not because it wants an offering, but because it likes to watch.</p>",
+                "format": 1
+            },
+            "title": {
+                "level": 1,
+                "show": true
+            },
+            "type": "text",
+            "video": {
+                "controls": true,
+                "volume": 0.5
+            }
+        }
+    ]
+}

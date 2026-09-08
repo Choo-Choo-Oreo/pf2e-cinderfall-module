@@ -1,0 +1,66 @@
+{
+    "name": "Thin Pulse",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>Your heartbeat runs faint, hard to find.</p><p><b>Gift —</b> A killer checking for a pulse to confirm a kill may walk away thinking you're already dead. <b>Tithe —</b> Creatures relying on a heartbeat to find or check you (a Medicine check to confirm you're alive, scent- or pulse-based detection) treat you as already dying or dead at a glance; allies may hesitate to heal you first in a triage.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 0
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {}
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "traits": {
+            "rarity": "uncommon",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "thin-pulse"
+    },
+    "_id": "boatMCOaUJLbTQFw",
+    "flags": {
+        "cinderfall": {
+            "mutationType": "scar",
+            "tier": "uncommon",
+            "slot": "Circulatory",
+            "slots": [
+                "Circulatory"
+            ],
+            "slotCost": 1,
+            "roll": "d12 — 10",
+            "incomplete": [
+                "level is a stub (0); mutations carry no level",
+                "price is empty; a mutation is not bought"
+            ],
+            "inferred": [
+                "system.usage"
+            ]
+        }
+    }
+}

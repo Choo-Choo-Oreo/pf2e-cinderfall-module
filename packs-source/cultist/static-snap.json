@@ -1,0 +1,62 @@
+{
+    "name": "Static Snap",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+            "save": {
+                "basic": false,
+                "statistic": "will"
+            }
+        },
+        "description": {
+            "value": "<p>A burst of dead-channel noise fired directly into a target's skull. <i>Critical Success/Success</i> the target shakes off the static, unaffected. <i>Failure</i> the target takes 1d4 mental damage (<b>Heightened +1d4</b> every 2 levels, capping around 9d4–10d4 at 19th–20th level). <i>Critical Failure</i> as failure, and the target is also stunned 1 as their thoughts short out entirely.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": ""
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "one creature"
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "occult"
+            ],
+            "value": [
+                "cantrip",
+                "cultist"
+            ]
+        },
+        "slug": "static-snap"
+    },
+    "_id": "nqoJFetaQjJXBhHA",
+    "flags": {
+        "cinderfall": {
+            "listing": "Cantrips"
+        }
+    }
+}

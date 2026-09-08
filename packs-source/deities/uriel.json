@@ -32,7 +32,17 @@
             "define": "Dormant · Imprisoned · The Campaign's Endgame Threat",
             "incomplete": [
                 "STUB -- no mechanics authored. Missing every pf2e deity field: attribute, domains, font, sanctification, skill, spells, weapons. `category` is a default of 'deity' and may need to be philosophy or pantheon. See .claude/docs/todo.md."
-            ]
+            ],
+            "effect": "Full writeup: <a class=\"bref\" href=\"vigil.html\">Vigil</a> dossier, Setting Bible <a class=\"bref\" href=\"setting-bible.html#s2\">§2</a>/<a class=\"bref\" href=\"setting-bible.html#s9\">§9</a>/§13; cult activity: Cinderborn ancestry, <a class=\"bref\" href=\"sworn.html\">Sworn</a>'s Cinder Vow subclass",
+            "pov": {
+                "flag": "choir_seen_v1",
+                "code": "Sealed Record · Field Index terminal",
+                "text": "The Choir doesn't just worship the wait — they staff it, water it, and feed it. What's underneath Springtown has a name now, and so does what they're growing down there.",
+                "link": {
+                    "href": "what-the-warren-holds.html",
+                    "label": "What The Warren Holds →"
+                }
+            }
         }
     }
 }

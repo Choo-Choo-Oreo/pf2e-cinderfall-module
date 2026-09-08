@@ -4,10 +4,10 @@
     "img": "icons/svg/mystery-man.svg",
     "system": {
         "actionType": {
-            "value": "passive"
+            "value": "action"
         },
         "actions": {
-            "value": null
+            "value": 1
         },
         "category": "class",
         "description": {
@@ -33,5 +33,13 @@
         },
         "slug": "full-integration"
     },
-    "_id": "IOZIbDP6bgoTHxSy"
+    "_id": "IOZIbDP6bgoTHxSy",
+    "flags": {
+        "cinderfall": {
+            "inferred": [
+                "system.actionType",
+                "system.actions"
+            ]
+        }
+    }
 }

@@ -1,0 +1,56 @@
+{
+    "name": "What the Silence Allows",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>Once between full rests, and at real personal cost you choose at the time of casting (the GM sets or approves the cost — a scar, a memory, a day struck from your life), send one true, short message to the target, regardless of distance. No reply is possible, and there's no guarantee it changes anything. This is the largest crack the Silence permits in the ordinary list, which is exactly why it still isn't a Miracle: it never promises the message will matter.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "instant"
+        },
+        "level": {
+            "value": 10
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "unlimited"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "1 named creature anywhere you can name"
+        },
+        "time": {
+            "value": "1 hour"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "divine"
+            ],
+            "value": [
+                "vigil"
+            ]
+        },
+        "slug": "what-the-silence-allows"
+    },
+    "_id": "KUGeFEvezsgtTy4B",
+    "flags": {
+        "cinderfall": {
+            "listing": "10th Rank"
+        }
+    }
+}

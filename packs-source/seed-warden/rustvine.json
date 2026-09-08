@@ -1,0 +1,65 @@
+{
+    "name": "Rustvine",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": {
+            "type": "burst",
+            "value": 20
+        },
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+            "save": {
+                "basic": true,
+                "statistic": "reflex"
+            }
+        },
+        "description": {
+            "value": "<p>Corrosive vine floods the area, making it difficult terrain. 4d6 acid damage. Unattended metal in the area is permanently ruined.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "1 minute"
+        },
+        "level": {
+            "value": 4
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "60 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": ""
+        },
+        "time": {
+            "value": "3"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "primal"
+            ],
+            "value": [
+                "seed-warden"
+            ]
+        },
+        "slug": "rustvine"
+    },
+    "_id": "d4cNEk3mM7OMmUEu",
+    "flags": {
+        "cinderfall": {
+            "spellTag": "Requires Grey 2 · Bloom: Grey +1",
+            "listing": "4th Rank"
+        }
+    }
+}

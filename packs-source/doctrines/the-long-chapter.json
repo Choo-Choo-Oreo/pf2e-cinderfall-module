@@ -1,0 +1,32 @@
+{
+    "_id": "LvXmgpnFqao7158b",
+    "categories": [],
+    "name": "The Long Chapter",
+    "ownership": {
+        "default": 0
+    },
+    "pages": [
+        {
+            "_id": "ontErmr3vzYzU9j3",
+            "category": null,
+            "image": {},
+            "name": "The Long Chapter",
+            "sort": 100000,
+            "src": null,
+            "system": {},
+            "text": {
+                "content": "<p><em>Orthodox · The Overwhelming Majority</em></p>        <p class=\"cc-desc\">The Grey Mile is doctrine's cautionary tale, recited to every novice: proof carried past what it should have touched, with consequences that are still, decades on, aging a stretch of land no one can walk across without growing old faster than they should. The lesson taken is patience — refine the equation, never the exposure. Nobody in the Long Chapter will explain what actually happened there in more detail than \"we know exactly what did that, and it was ours.\"</p>",
+                "format": 1
+            },
+            "title": {
+                "level": 1,
+                "show": true
+            },
+            "type": "text",
+            "video": {
+                "controls": true,
+                "volume": 0.5
+            }
+        }
+    ]
+}

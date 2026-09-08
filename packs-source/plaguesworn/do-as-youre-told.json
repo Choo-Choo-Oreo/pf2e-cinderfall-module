@@ -1,0 +1,62 @@
+{
+    "name": "Do As You're Told",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+            "save": {
+                "basic": false,
+                "statistic": "will"
+            }
+        },
+        "description": {
+            "value": "<span class=\"sdesc\"><i>Failure</i> the target obeys your commands, but attempts a new Will save each time you order it into something clearly against its nature or safety, ending the effect on a success. <i>Critical Failure</i> fully controlled — though it still gets that save against an obviously suicidal order.</span>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "1 minute"
+        },
+        "level": {
+            "value": 6
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "1 creature"
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "occult"
+            ],
+            "value": [
+                "incapacitation",
+                "plaguesworn"
+            ]
+        },
+        "slug": "do-as-youre-told"
+    },
+    "_id": "IiD5FK9xvwfXNH7d",
+    "flags": {
+        "cinderfall": {
+            "listing": "6th Rank"
+        }
+    }
+}

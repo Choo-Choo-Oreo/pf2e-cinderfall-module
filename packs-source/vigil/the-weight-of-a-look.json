@@ -1,0 +1,62 @@
+{
+    "name": "The Weight of a Look",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+            "save": {
+                "basic": false,
+                "statistic": "will"
+            }
+        },
+        "description": {
+            "value": "<p>You meet a creature's eyes and let it feel, briefly and completely, how small it is against what you serve. <i>Failure</i> the target takes 1d4 mental damage (<b>Heightened +1d4</b>: the damage increases by 1d4 at 3rd level and every 2 levels thereafter). <i>Critical Failure</i> as failure, and the target is off-guard until the start of its next turn. <i>Success</i> no effect. It fades fast. The feeling of having been seen does not.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": ""
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "1 creature"
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "divine"
+            ],
+            "value": [
+                "cantrip",
+                "vigil"
+            ]
+        },
+        "slug": "the-weight-of-a-look"
+    },
+    "_id": "pNSMsNIkuhagKJTC",
+    "flags": {
+        "cinderfall": {
+            "listing": "Cantrips"
+        }
+    }
+}

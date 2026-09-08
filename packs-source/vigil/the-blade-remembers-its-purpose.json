@@ -1,0 +1,56 @@
+{
+    "name": "The Blade Remembers Its Purpose",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>Name a category — corrupted, undead, or machine-possessed — when you cast this. While wielded against a creature of that category, the weapon gains a +1 circumstance bonus to attack rolls and deals an additional 4d6 damage of its own type on a hit, as though it recalls, briefly, what it was actually forged for.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "10 minutes"
+        },
+        "level": {
+            "value": 8
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "touch"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "1 weapon"
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "divine"
+            ],
+            "value": [
+                "vigil"
+            ]
+        },
+        "slug": "the-blade-remembers-its-purpose"
+    },
+    "_id": "IUe8OalhUOTf2BBa",
+    "flags": {
+        "cinderfall": {
+            "listing": "8th Rank"
+        }
+    }
+}

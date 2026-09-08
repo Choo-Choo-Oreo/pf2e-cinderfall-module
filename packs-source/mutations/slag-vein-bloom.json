@@ -1,0 +1,66 @@
+{
+    "name": "Slag-Vein Bloom",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>Molten-glass veins thread visible under the skin, cooled to hard glass.</p><p><b>Gift —</b> Resistance 3 to fire. <b>Tithe —</b> Your veins are brittle where they show: a natural 20 against you in melee also inflicts 1d4 persistent bleed as a vein cracks.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 0
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {}
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "traits": {
+            "rarity": "epic",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "slag-vein-bloom"
+    },
+    "_id": "DKCWKUTrJEbSUzVL",
+    "flags": {
+        "cinderfall": {
+            "mutationType": "major",
+            "tier": "epic",
+            "slot": "Circulatory",
+            "slots": [
+                "Circulatory"
+            ],
+            "slotCost": 1,
+            "roll": "d20 — 11",
+            "incomplete": [
+                "level is a stub (0); mutations carry no level",
+                "price is empty; a mutation is not bought"
+            ],
+            "inferred": [
+                "system.usage"
+            ]
+        }
+    }
+}

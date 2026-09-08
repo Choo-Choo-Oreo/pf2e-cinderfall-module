@@ -1,0 +1,66 @@
+{
+    "name": "Loyal Blood",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>Your blood runs true to kin.</p><p><b>Gift —</b> Once per day, reaction, when an ally within reach is reduced to 0 HP: will a portion of your own vitality into them, and they stabilize automatically, no flat check needed. <b>Tithe —</b> Your blood is different enough to matter; you can't safely receive a normal blood transfusion or a Treat Wounds boost from anyone who hasn't specifically studied your blood first (GM adjudicates the method) — the first attempt each scene simply fails and wastes the action.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 0
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {}
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "traits": {
+            "rarity": "uncommon",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "loyal-blood"
+    },
+    "_id": "1NdjKbySYuBQUBkZ",
+    "flags": {
+        "cinderfall": {
+            "mutationType": "minor",
+            "tier": "uncommon",
+            "slot": "Circulatory",
+            "slots": [
+                "Circulatory"
+            ],
+            "slotCost": 1,
+            "roll": "d100 — 35–36",
+            "incomplete": [
+                "level is a stub (0); mutations carry no level",
+                "price is empty; a mutation is not bought"
+            ],
+            "inferred": [
+                "system.usage"
+            ]
+        }
+    }
+}

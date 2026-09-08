@@ -1,0 +1,61 @@
+{
+    "name": "Send It Back",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+            "save": {
+                "basic": false,
+                "statistic": "will"
+            }
+        },
+        "description": {
+            "value": "<i>Critical Success</i> the target is unaffected and aware of the attempt. <i>Success</i> no effect. <i>Failure</i> the target is forced out of the scene, returning to wherever it came from; it may find its way back after the encounter ends. <i>Critical Failure</i> as failure, but it cannot return for 24 hours. Neither destroyed nor freed. Just, for now, somewhere else."
+        },
+        "duration": {
+            "sustained": false,
+            "value": ""
+        },
+        "level": {
+            "value": 5
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "1 creature not native to the Material Plane (a raging spirit, a possessing entity, a bound thing acting outside its terms)"
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "divine"
+            ],
+            "value": [
+                "vigil"
+            ]
+        },
+        "slug": "send-it-back"
+    },
+    "_id": "a5F9g8y059IfyS11",
+    "flags": {
+        "cinderfall": {
+            "listing": "5th Rank"
+        }
+    }
+}

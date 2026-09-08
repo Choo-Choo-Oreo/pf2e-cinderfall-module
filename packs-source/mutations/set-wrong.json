@@ -1,0 +1,66 @@
+{
+    "name": "Set Wrong",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>It healed. It did not heal straight.</p><p><b>Gift —</b> The ridge where it knit is harder than the bone around it, and it shows: +1 circumstance to Intimidation when the deformity is visible. <b>Tithe —</b> The break knit at an angle and it catches: −1 circumstance to Athletics and to any check needing full range of motion in that limb, worse in cold.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 0
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {}
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "set-wrong"
+    },
+    "_id": "uscTD4qMsOxB98mn",
+    "flags": {
+        "cinderfall": {
+            "mutationType": "scar",
+            "tier": "common",
+            "slot": "Frame",
+            "slots": [
+                "Frame"
+            ],
+            "slotCost": 1,
+            "roll": "d12 — 7",
+            "incomplete": [
+                "level is a stub (0); mutations carry no level",
+                "price is empty; a mutation is not bought"
+            ],
+            "inferred": [
+                "system.usage"
+            ]
+        }
+    }
+}

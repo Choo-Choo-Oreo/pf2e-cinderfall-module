@@ -1,0 +1,61 @@
+{
+    "name": "Cold Storage",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+            "save": {
+                "basic": false,
+                "statistic": "will"
+            }
+        },
+        "description": {
+            "value": "<p>This has the <b>incapacitation</b> trait. <b>Failure</b> the target is stunned 2 as part of it is briefly filed away. <b>Critical Failure</b> the target is uploaded — removed from play entirely, stored, aware, and retrievable only by a caster who casts this spell again to release it. There is no save to escape from inside. This is the cruellest thing in the class, and it is placed at 7th rank deliberately.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "unlimited"
+        },
+        "level": {
+            "value": 7
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "1 creature"
+        },
+        "time": {
+            "value": "3"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "occult"
+            ],
+            "value": [
+                "paradise-touched"
+            ]
+        },
+        "slug": "cold-storage"
+    },
+    "_id": "6CvXYRK6dV2sIhB0",
+    "flags": {
+        "cinderfall": {
+            "listing": "7th Rank"
+        }
+    }
+}

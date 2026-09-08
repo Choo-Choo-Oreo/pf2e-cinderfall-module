@@ -1,0 +1,57 @@
+{
+    "name": "The Knock",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>Make a ranged spell attack against the target; on a hit, deal 1d4 spirit damage (<b>Heightened +1d4</b>: the damage increases by 1d4 at 3rd level and every 2 levels thereafter). It's not much of a weapon. It's the sound of someone still knocking on a door that hasn't opened in two hundred years, and something on the other end still flinches.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": ""
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "60 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "1 creature"
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "divine"
+            ],
+            "value": [
+                "cantrip",
+                "vigil"
+            ]
+        },
+        "slug": "the-knock"
+    },
+    "_id": "BiXPg4uUc3WkXzDM",
+    "flags": {
+        "cinderfall": {
+            "listing": "Cantrips"
+        }
+    }
+}

@@ -1,0 +1,61 @@
+{
+    "name": "Cast Them Out",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+            "save": {
+                "basic": false,
+                "statistic": "will"
+            }
+        },
+        "description": {
+            "value": "<p>As Send It Back, but every qualifying entity in the area must contend with the working at once. <i>Failure</i> forced out of the scene. <i>Critical Failure</i> forced out and unable to return for 24 hours. <i>Read As — Unanswered: a door slammed shut on everything trying to get through it. Choir of Ash: a warning shot, clearing room for something worse to arrive later.</i></p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": ""
+        },
+        "level": {
+            "value": 7
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "60-foot burst"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "all qualifying \"not of this world\" creatures in the area"
+        },
+        "time": {
+            "value": "3"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "divine"
+            ],
+            "value": [
+                "vigil"
+            ]
+        },
+        "slug": "cast-them-out"
+    },
+    "_id": "oZqIMEMgrOxStsWq",
+    "flags": {
+        "cinderfall": {
+            "listing": "7th Rank"
+        }
+    }
+}

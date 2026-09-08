@@ -1,0 +1,61 @@
+{
+    "name": "Fixed Point",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+            "save": {
+                "basic": false,
+                "statistic": "will"
+            }
+        },
+        "description": {
+            "value": "<p>For 1 minute, the first time each creature tries to target the warded creature with an attack or harmful spell, it attempts a Will save; a given attacker only ever makes this save once per casting. <i>Critical Success</i> the attacker acts freely. <i>Success</i> the attacker acts normally. <i>Failure</i> that one action is wasted. <i>Critical Failure</i> as failure, and the attacker is off-guard against the warded creature until the start of its own next turn.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "1 minute"
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "you or 1 willing creature"
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "divine"
+            ],
+            "value": [
+                "reckoner"
+            ]
+        },
+        "slug": "fixed-point"
+    },
+    "_id": "YvwyJYZH61UUDgID",
+    "flags": {
+        "cinderfall": {
+            "listing": "1st Rank"
+        }
+    }
+}

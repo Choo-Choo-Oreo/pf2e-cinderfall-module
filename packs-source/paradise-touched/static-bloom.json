@@ -1,0 +1,62 @@
+{
+    "name": "Static Bloom",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+            "save": {
+                "basic": true,
+                "statistic": "will"
+            }
+        },
+        "description": {
+            "value": "<p>Deal 1d4 mental damage (<i>Heightened</i> +1d4 at 3rd level and every 2 levels thereafter). The target hears a half-second of something enormous and pleasant, and then doesn't.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": ""
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "60 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "1 creature"
+        },
+        "time": {
+            "value": "1"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "occult"
+            ],
+            "value": [
+                "cantrip",
+                "paradise-touched"
+            ]
+        },
+        "slug": "static-bloom"
+    },
+    "_id": "YmOu9LMO3FYduT7H",
+    "flags": {
+        "cinderfall": {
+            "listing": "Cantrips"
+        }
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "name": "First Ward",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>Until your next turn, the next single instance of incorporeal-source or spirit-touched damage or a condition that would affect you is reduced by 2 (+2 per 2 levels above 1st), or, for a valued condition, reduced by 1 stage.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "until the start of your next turn"
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "self"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": ""
+        },
+        "time": {
+            "value": "1"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "occult"
+            ],
+            "value": [
+                "cantrip",
+                "hollowbound"
+            ]
+        },
+        "slug": "first-ward"
+    },
+    "_id": "o8gnGHWkt3uKlpHC",
+    "flags": {
+        "cinderfall": {
+            "listing": "Cantrips"
+        }
+    }
+}

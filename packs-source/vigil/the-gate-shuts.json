@@ -1,0 +1,61 @@
+{
+    "name": "The Gate Shuts",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+            "save": {
+                "basic": false,
+                "statistic": "will"
+            }
+        },
+        "description": {
+            "value": "<p>As Cast Them Out, but the area is larger and the working holds for a genuinely long time — long enough to clear a battlefield, a besieged block, or a haunted stretch of highway of everything not of this world, at least for now. A qualifying creature that later tries to re-enter the area during the duration must reattempt its save.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "24 hours"
+        },
+        "level": {
+            "value": 9
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "120-foot burst"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "all qualifying \"not of this world\" creatures in the area"
+        },
+        "time": {
+            "value": "10 minutes"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "divine"
+            ],
+            "value": [
+                "vigil"
+            ]
+        },
+        "slug": "the-gate-shuts"
+    },
+    "_id": "1GFrCQXtUYDkI3NX",
+    "flags": {
+        "cinderfall": {
+            "listing": "9th Rank"
+        }
+    }
+}

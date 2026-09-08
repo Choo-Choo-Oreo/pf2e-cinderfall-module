@@ -1,0 +1,57 @@
+{
+    "name": "Tune",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>You learn every active broadcast, working transmitter, and powered comms device within a mile, and roughly where. The most useful thing this class does out of combat, and it never appears on an encounter sheet.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "instantaneous"
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "1 mile"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": ""
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "occult"
+            ],
+            "value": [
+                "cantrip",
+                "the-signal"
+            ]
+        },
+        "slug": "tune"
+    },
+    "_id": "XhCIpowRnDjDICIN",
+    "flags": {
+        "cinderfall": {
+            "listing": "Transmissions"
+        }
+    }
+}

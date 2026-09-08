@@ -1,0 +1,62 @@
+{
+    "name": "The Kept Name",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>A Teratoma had your name memorized before you gave it to anyone, including yourself.</p><p><b>Gift —</b> You cannot be compelled, tricked, or magically bound through your true name; any effect that requires knowing or speaking it against you automatically fails. <b>Tithe —</b> The Teratoma owns the name, not you. Once per session it may answer to it somewhere you are not, as you — and the GM decides what that conversation cost you when you find out. No save.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 0
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {}
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "traits": {
+            "rarity": "mythic",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "the-kept-name"
+    },
+    "_id": "02mcfesaslUTAN5B",
+    "flags": {
+        "cinderfall": {
+            "mutationType": "teratoma",
+            "tier": "mythic",
+            "prerequisite": "carries a Teratoma Trait",
+            "access": "radiation",
+            "incomplete": [
+                "level is a stub (0); mutations carry no level",
+                "price is empty; a mutation is not bought"
+            ],
+            "inferred": [
+                "system.usage"
+            ]
+        }
+    }
+}

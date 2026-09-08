@@ -1,0 +1,58 @@
+{
+    "name": "Wither the Hold",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>One rope frays, one strap parts, one weld gives. Nothing large — you cannot rot a door off its hinges with a cantrip. You can rot the one rope holding the thing above the door.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": ""
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "one unattended object, or one held object (Reflex negates)"
+        },
+        "time": {
+            "value": "1"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "primal"
+            ],
+            "value": [
+                "cantrip",
+                "seed-warden"
+            ]
+        },
+        "slug": "wither-the-hold"
+    },
+    "_id": "iyAteYXAIQAo8cQp",
+    "flags": {
+        "cinderfall": {
+            "spellTag": "Bloom: Grey +1",
+            "listing": "Cantrips"
+        }
+    }
+}

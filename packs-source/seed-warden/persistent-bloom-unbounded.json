@@ -1,0 +1,57 @@
+{
+    "name": "Persistent Bloom, Unbounded",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>Your Persistent Bloom aura (17th-level feature) expands to a 1-mile radius and reclaims ground at a hundred times its normal rate. Everything inside it that is trying to grow, grows. Everything inside it that is trying to rot, rots. You do not get to choose which things are which, and it will not stop because you asked it to.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "1 hour"
+        },
+        "level": {
+            "value": 10
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "self"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": ""
+        },
+        "time": {
+            "value": "3"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "primal"
+            ],
+            "value": [
+                "seed-warden"
+            ]
+        },
+        "slug": "persistent-bloom-unbounded"
+    },
+    "_id": "7sCCahKvrbIfNxBw",
+    "flags": {
+        "cinderfall": {
+            "spellTag": "Bloom: either",
+            "listing": "10th Rank"
+        }
+    }
+}

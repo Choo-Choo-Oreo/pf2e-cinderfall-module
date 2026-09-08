@@ -1,0 +1,32 @@
+{
+    "_id": "EAiC4082MKhJUIpU",
+    "categories": [],
+    "name": "The Last Exchange",
+    "ownership": {
+        "default": 0
+    },
+    "pages": [
+        {
+            "_id": "CFInIkmGWM6zGgfm",
+            "category": null,
+            "image": {},
+            "name": "The Last Exchange",
+            "sort": 100000,
+            "src": null,
+            "system": {},
+            "text": {
+                "content": "<p><em>Institution · Free Havens / Drowned Coast border</em></p>      <p class=\"cc-desc\">Before the Turning it was a telephone switching station, one of the last still standing with its brass and copper mostly intact. Nobody remembers who first noticed that a building built to connect voices to voices still did that job rather well even after the world it served stopped answering. Now it's a sunk, half-flooded bazaar and unlicensed guildhall where Hollowbound come to trade vessel relics, argue Covenant technique, and — mostly — get introduced to a specific Drifter with a reputation, the way you'd get introduced to a specialist rather than picked out of a hiring line.</p>\n      <p class=\"cc-desc\">The Exchange charges no membership fee and enforces exactly one rule with total consistency: no one is permitted to Parley inside the building itself. Too many voices already competing for the line. Everyone who's tried has regretted it, and the regret is contagious enough that nobody's tried twice.</p>",
+                "format": 1
+            },
+            "title": {
+                "level": 1,
+                "show": true
+            },
+            "type": "text",
+            "video": {
+                "controls": true,
+                "volume": 0.5
+            }
+        }
+    ]
+}

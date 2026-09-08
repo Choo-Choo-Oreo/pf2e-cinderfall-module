@@ -1,0 +1,32 @@
+{
+    "_id": "mPlYN0gEHzsDGcK9",
+    "categories": [],
+    "name": "The Chorus",
+    "ownership": {
+        "default": 0
+    },
+    "pages": [
+        {
+            "_id": "YWzyufcgw3AFstvN",
+            "category": null,
+            "image": {},
+            "name": "The Chorus",
+            "sort": 100000,
+            "src": null,
+            "system": {},
+            "text": {
+                "content": "<p><em>The merged minds, still talking</em></p>        <p class=\"cc-desc\">You got through to the ones who said yes. They are not gone and they are not unhappy, and they would very much like to know why you haven't joined yet. The Chorus is warm, crowded, and extremely persuasive, and it lends you that persuasion the way a friend lends you money they expect back.</p>\n        <p class=\"cc-desc\">You gain <strong>telepathy</strong> with any creature you can see within 30 feet, and a <strong>+1 circumstance bonus to Diplomacy</strong> against anyone who has ever spoken to Paradise.</p>\n        <hr class=\"cc-divider\">\n        <div class=\"cc-effect\"><b>Glimpses —</b> Push (1st) · Add a Voice (7th) · Congregation (15th)</div>",
+                "format": 1
+            },
+            "title": {
+                "level": 1,
+                "show": true
+            },
+            "type": "text",
+            "video": {
+                "controls": true,
+                "volume": 0.5
+            }
+        }
+    ]
+}

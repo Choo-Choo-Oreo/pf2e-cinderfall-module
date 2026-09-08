@@ -1,0 +1,61 @@
+{
+    "name": "The Long Suggestion",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+            "save": {
+                "basic": false,
+                "statistic": "will"
+            }
+        },
+        "description": {
+            "value": "<i>Failure</i> target follows one reasonable-sounding suggested course of action for the duration. <i>Critical Failure</i> as failure, and the target doesn't get a fresh save just because the course of action runs against its interest — though a demonstrably suicidal instruction still ends the effect. <i>Success</i> no effect."
+        },
+        "duration": {
+            "sustained": false,
+            "value": "up to 1 minute or until completed"
+        },
+        "level": {
+            "value": 3
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "1 creature"
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "occult"
+            ],
+            "value": [
+                "hollowbound"
+            ]
+        },
+        "slug": "the-long-suggestion"
+    },
+    "_id": "qyq5IHanjv0UADQU",
+    "flags": {
+        "cinderfall": {
+            "listing": "3rd Rank"
+        }
+    }
+}

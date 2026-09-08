@@ -1,0 +1,61 @@
+{
+    "name": "What the Grave Remembers",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+            "save": {
+                "basic": false,
+                "statistic": "will"
+            }
+        },
+        "description": {
+            "value": "<p>A known sleeping target within a mile takes 12d6 mental damage. <i>Failure/Critical Failure</i> full damage; the target wakes exhausted and shaken with no rest benefits, and on a critical failure that exhaustion persists until a full night's undisturbed rest. <i>Success</i> half damage, wakes normally.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": ""
+        },
+        "level": {
+            "value": 6
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "1 mile"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "1 sleeping creature you know and can locate"
+        },
+        "time": {
+            "value": "10 minutes"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "occult"
+            ],
+            "value": [
+                "hollowbound"
+            ]
+        },
+        "slug": "what-the-grave-remembers"
+    },
+    "_id": "AW8156mx2Fq7NElr",
+    "flags": {
+        "cinderfall": {
+            "listing": "6th Rank"
+        }
+    }
+}

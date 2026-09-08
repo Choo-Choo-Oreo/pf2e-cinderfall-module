@@ -1,0 +1,55 @@
+{
+    "name": "Ask the Elder",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>Consult the spirit for a genuine, in-character hint from the GM on a real decision the party's facing.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": ""
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "self"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": ""
+        },
+        "time": {
+            "value": "10 minutes"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [],
+            "value": [
+                "focus",
+                "hollowbound"
+            ]
+        },
+        "slug": "ask-the-elder"
+    },
+    "_id": "V9VckNH7xYzenAP3",
+    "flags": {
+        "cinderfall": {
+            "listing": "Covenant Vessel Spells / Long-Shadow ancestor/residual-adjacent · narrative-first"
+        }
+    }
+}

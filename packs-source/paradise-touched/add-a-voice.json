@@ -1,0 +1,61 @@
+{
+    "name": "Add a Voice",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+            "save": {
+                "basic": false,
+                "statistic": "will"
+            }
+        },
+        "description": {
+            "value": "<p>The target hears one more person in its own head, and that person is you. <b>Failure</b> it treats you as a trusted friend for the duration; this ends at once if you or your allies use a hostile action against it. <b>Critical Failure</b> as failure, and it does not remember afterward that you were ever a stranger.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "1 minute"
+        },
+        "level": {
+            "value": 4
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "60 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "1 creature"
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [],
+            "value": [
+                "focus",
+                "paradise-touched"
+            ]
+        },
+        "slug": "add-a-voice"
+    },
+    "_id": "lDQt26A3kBdVP84m",
+    "flags": {
+        "cinderfall": {
+            "spellTag": "7th · 2 Bandwidth",
+            "listing": "Glimpses / The Chorus the merged minds, still talking"
+        }
+    }
+}

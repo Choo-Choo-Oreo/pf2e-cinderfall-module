@@ -28,5 +28,11 @@
         },
         "slug": "company-manners"
     },
-    "_id": "0B9pHB7mZEXymf7v"
+    "_id": "0B9pHB7mZEXymf7v",
+    "flags": {
+        "cinderfall": {
+            "category": "background",
+            "sourceOwner": "backgrounds"
+        }
+    }
 }

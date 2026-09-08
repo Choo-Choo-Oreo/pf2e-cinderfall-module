@@ -1,0 +1,56 @@
+{
+    "name": "Deep Query",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>Ask Paradise one question about anything that has ever been uploaded, observed by a networked system, or thought near a node. <i>Signal</i> you get a real, direct answer and the GM does not roll. <i>Static</i> you get an answer that is DC 5 flat-check reliable, and you will never find out which kind you got. This spell is the reason parties both bring a Paradise-Touched and regret it.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "instantaneous"
+        },
+        "level": {
+            "value": 3
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "self"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": ""
+        },
+        "time": {
+            "value": "1 minute"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "occult"
+            ],
+            "value": [
+                "paradise-touched"
+            ]
+        },
+        "slug": "deep-query"
+    },
+    "_id": "HSTS6AaesY70WJFt",
+    "flags": {
+        "cinderfall": {
+            "listing": "3rd Rank"
+        }
+    }
+}

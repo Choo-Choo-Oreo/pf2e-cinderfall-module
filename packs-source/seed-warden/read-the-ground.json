@@ -1,0 +1,58 @@
+{
+    "name": "Read the Ground",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>You learn what has grown here, what died here, and roughly how long ago — plus whether the soil is clean, salted, or hot with radiation. The single most useful thing a Seed-Warden does, and it never appears on an encounter sheet.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "instantaneous"
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "60-foot emanation"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": ""
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "primal"
+            ],
+            "value": [
+                "cantrip",
+                "seed-warden"
+            ]
+        },
+        "slug": "read-the-ground"
+    },
+    "_id": "ESiFqh7hwtMmvXW1",
+    "flags": {
+        "cinderfall": {
+            "spellTag": "Bloom: either",
+            "listing": "Cantrips"
+        }
+    }
+}

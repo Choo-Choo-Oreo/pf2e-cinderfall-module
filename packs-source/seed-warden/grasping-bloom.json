@@ -1,0 +1,65 @@
+{
+    "name": "Grasping Bloom",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": {
+            "type": "burst",
+            "value": 10
+        },
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+            "save": {
+                "basic": false,
+                "statistic": "reflex"
+            }
+        },
+        "description": {
+            "value": "<p>Growth erupts through the area, which becomes difficult terrain. <i>Failure</i> the creature is immobilized for 1 round, after which the tangle is merely difficult terrain for it. <i>Critical Failure</i> the creature is immobilized until it Escapes (DC = your spell DC), and it takes 2d6 piercing as the thorns close.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "1 minute"
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": ""
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "primal"
+            ],
+            "value": [
+                "seed-warden"
+            ]
+        },
+        "slug": "grasping-bloom"
+    },
+    "_id": "RZWoiYijolhiLCFt",
+    "flags": {
+        "cinderfall": {
+            "spellTag": "Bloom: Green +1",
+            "listing": "1st Rank"
+        }
+    }
+}

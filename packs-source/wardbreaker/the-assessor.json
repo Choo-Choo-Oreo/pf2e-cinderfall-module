@@ -1,0 +1,32 @@
+{
+    "_id": "3E3PgaDhL8LKiNU5",
+    "categories": [],
+    "name": "The Assessor",
+    "ownership": {
+        "default": 0
+    },
+    "pages": [
+        {
+            "_id": "zaorhouIYjiYlgKw",
+            "category": null,
+            "image": {},
+            "name": "The Assessor",
+            "sort": 100000,
+            "src": null,
+            "system": {},
+            "text": {
+                "content": "<p><em>Ghost-Machine · Drowned Coast · The Manifest's Reddest Entry</em></p>      <p class=\"cc-desc\">Before the Turning, it was a mobile debt-collection walker — a legged crane-rig an Aristocratic Republic's tax authority used to physically repossess property from defaulters who couldn't be reasoned with by mail. When the firebombing came, its operating crew and a firebombed block's worth of foreclosed debtors' souls fused into its boiler at once, all in the same few seconds, all still owing the same unpayable balance.</p>\n      <p class=\"cc-desc\">It still works its old route through the Drowned Coast, foreclosing on ruins that have had no owner in two centuries, dragging away scrap, salvage, and the occasional unlucky scavenger toward a debt that was already meaningless before the world ended. Bolted into its chest is a literal ledger-book, fused to the chassis, its balance always reading a figure that can never reach zero — and a petty god, known as the Ledger, is rumored to slip it fresh entries out of pure amusement, just to watch it try.</p>\n      <p class=\"cc-desc\">A full chapter of Circuit riders — the Nine of Redlake — went in to Name and re-bind it thirty years back. One rider came out. Her final charm-scrawled account of what went wrong is copied into every new Wardbreaker's training packet, under a title that's become Circuit shorthand for overreach: <em>never let it total you</em>.</p>\n      <hr class=\"cc-divider\">\n      <div class=\"cc-effect\">TABLE USE — a high-level, near-unkillable hazard encounter or long-form pursuit; its Anchor (the unpayable ledger entry) can theoretically be Named and Broken, but doing so has never once been done cleanly.</div>",
+                "format": 1
+            },
+            "title": {
+                "level": 1,
+                "show": true
+            },
+            "type": "text",
+            "video": {
+                "controls": true,
+                "volume": 0.5
+            }
+        }
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "name": "Sun-Yolk Eye",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>One eye has gone solid, warm gold — a fleck of the first fire.</p><p><b>Gift —</b> Ignore dazzled, and take no penalty from bright light or open flame. <b>Tithe —</b> The eye is unmistakably inhuman, a flat iris with no pupil; −1 circumstance to Diplomacy first impressions with anyone who gets a good look, and it can't be hidden by squinting.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 0
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {}
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "sun-yolk-eye"
+    },
+    "_id": "tofJnLIzYAspFOAO",
+    "flags": {
+        "cinderfall": {
+            "mutationType": "minor",
+            "tier": "common",
+            "slot": "Ocular",
+            "slots": [
+                "Ocular"
+            ],
+            "slotCost": 1,
+            "roll": "d100 — 09–10",
+            "incomplete": [
+                "level is a stub (0); mutations carry no level",
+                "price is empty; a mutation is not bought"
+            ],
+            "inferred": [
+                "system.usage"
+            ]
+        }
+    }
+}

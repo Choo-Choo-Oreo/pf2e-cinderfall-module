@@ -32,7 +32,17 @@
             "define": "Transcendent · A Real Mass · Hungry · Creation and Destruction as One Event",
             "incomplete": [
                 "STUB -- no mechanics authored. Missing every pf2e deity field: attribute, domains, font, sanctification, skill, spells, weapons. `category` is a default of 'deity' and may need to be philosophy or pantheon. See .claude/docs/todo.md."
-            ]
+            ],
+            "effect": "Full writeup: <a class=\"bref\" href=\"reckoner.html\">Reckoner</a> dossier, §8",
+            "pov": {
+                "flag": "absorption_seen_v1",
+                "code": "Sealed Record · Field Index terminal",
+                "text": "Every conversion anywhere on the board is mass added to its pull — it is the only one of the four that keeps score, and it is not shy about what it's counting toward. <strong>Every mortal the Halving's faithful never bothered to fully claim, every soul the withdrawn God left on the table, is territory it would very much like to close the distance to.</strong> It didn't invent the rivalry. It's simply the only one of the four that would call it one.",
+                "link": {
+                    "href": "what-it-keeps.html",
+                    "label": "What It Keeps →"
+                }
+            }
         }
     }
 }

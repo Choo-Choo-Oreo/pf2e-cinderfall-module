@@ -1,0 +1,62 @@
+{
+    "name": "The Unspeakable",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+            "save": {
+                "basic": false,
+                "statistic": "will"
+            }
+        },
+        "description": {
+            "value": "<i>Success</i> unaffected, though the memory is faintly uncomfortable. <i>Failure</i> the target can't accurately describe you to anyone else for the duration, though it still recognizes you on sight. <i>Critical Failure</i> as failure, plus a −2 status penalty on its Perception checks to identify you specifically."
+        },
+        "duration": {
+            "sustained": false,
+            "value": "24 hours"
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "1 creature that saw you cast this spell"
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [],
+            "value": [
+                "focus",
+                "reckoner"
+            ]
+        },
+        "slug": "the-unspeakable"
+    },
+    "_id": "3UreJuPJNDIL7HNk",
+    "flags": {
+        "cinderfall": {
+            "focusCost": "1",
+            "spellTag": "The Unspeakable",
+            "listing": "Aspect Signatures / The Outside a direction, not a law or a mass"
+        }
+    }
+}

@@ -1,0 +1,62 @@
+{
+    "name": "Nothing Stays Off the Books",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+            "save": {
+                "basic": false,
+                "statistic": "will"
+            }
+        },
+        "description": {
+            "value": "<i>Critical Success</i> unaffected, target senses the attempt. <i>Success</i> unaffected. <i>Failure</i> the target can't benefit from concealment, disguise, invisibility, or false-identity effects for the duration. <i>Critical Failure</i> as failure, and every creature within 30 feet at the moment of failure becomes immediately aware of its true nature and location, once. In exchange, whether the save succeeds or fails, you must immediately reveal one true secret of your own out loud."
+        },
+        "duration": {
+            "sustained": false,
+            "value": "24 hours"
+        },
+        "level": {
+            "value": 7
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "one creature"
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "occult"
+            ],
+            "value": [
+                "cultist"
+            ]
+        },
+        "slug": "nothing-stays-off-the-books"
+    },
+    "_id": "9Pf8tsmlcjxXqa0e",
+    "flags": {
+        "cinderfall": {
+            "spellTag": "Revelation · 13th",
+            "listing": "Bargain Spells / The Ledger debts · secrets · everything written down"
+        }
+    }
+}

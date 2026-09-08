@@ -1,0 +1,65 @@
+{
+    "name": "Event Horizon",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": {
+            "type": "line",
+            "value": 30
+        },
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+            "save": {
+                "basic": true,
+                "statistic": "reflex"
+            }
+        },
+        "description": {
+            "value": "<p>A one-directional line etched into the world. The first time a creature crosses it each encounter, it takes 2d6 damage per rank of this spell and can't cross back over that same line for the rest of the encounter.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "until the encounter ends"
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": ""
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [],
+            "value": [
+                "focus",
+                "reckoner"
+            ]
+        },
+        "slug": "event-horizon"
+    },
+    "_id": "gvCe7MfdjXpVJ5Tw",
+    "flags": {
+        "cinderfall": {
+            "focusCost": "1",
+            "spellTag": "Event Horizon",
+            "listing": "Aspect Signatures / The Singularity creation and destruction as one event"
+        }
+    }
+}

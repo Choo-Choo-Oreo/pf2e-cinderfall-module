@@ -1,0 +1,61 @@
+{
+    "name": "Cold Front",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+            "save": {
+                "basic": false,
+                "statistic": "fortitude"
+            }
+        },
+        "description": {
+            "value": "<p>Momentum and warmth bleed measurably out of the target. <i>Failure</i> enfeebled 1 for the duration. <i>Critical Failure</i> enfeebled 2. <i>Halving:</i> the target's cells age past their prime for a minute. <i>Singularity:</i> the air around them thins as though gravity briefly forgot they were dense. <i>Outside:</i> their limbs answer half a second behind command.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "1 minute"
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "1 creature"
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "divine"
+            ],
+            "value": [
+                "reckoner"
+            ]
+        },
+        "slug": "cold-front"
+    },
+    "_id": "L7ayklbi7uNOKS7I",
+    "flags": {
+        "cinderfall": {
+            "listing": "1st Rank"
+        }
+    }
+}

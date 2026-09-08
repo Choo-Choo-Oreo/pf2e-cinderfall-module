@@ -32,7 +32,17 @@
             "define": "Transcendent · Not a Law, Not a Mass — A Direction · Unknowable, Not Merely Unknown",
             "incomplete": [
                 "STUB -- no mechanics authored. Missing every pf2e deity field: attribute, domains, font, sanctification, skill, spells, weapons. `category` is a default of 'deity' and may need to be philosophy or pantheon. See .claude/docs/todo.md."
-            ]
+            ],
+            "effect": "Full writeup: <a class=\"bref\" href=\"reckoner.html\">Reckoner</a> dossier, §9",
+            "pov": {
+                "flag": "divergence_seen_v1",
+                "code": "Sealed Record · Field Index terminal",
+                "text": "The other three are at least in the same argument — a mass, a math, a withdrawal, all things a rival could in principle contest. <strong>There is no confirmed account of it noticing the other three exist, or that a rivalry is even the right shape of question to ask about it.</strong> The Unlettered take that as the whole point: whatever it is, it never agreed to sit at the table the others are fighting over.",
+                "link": {
+                    "href": "what-nobody-wrote-down.html",
+                    "label": "What Nobody Wrote Down →"
+                }
+            }
         }
     }
 }

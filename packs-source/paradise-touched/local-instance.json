@@ -1,0 +1,59 @@
+{
+    "name": "Local Instance",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": {
+            "type": "burst",
+            "value": 20
+        },
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>Reality inside the burst runs on Paradise's rules instead of the world's. Choose one: gravity points a direction you name; all damage in the area becomes force; or nothing in the area can die (dying creatures stabilize at 0 and stay there). <i>Signal</i> choose two.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "1 minute"
+        },
+        "level": {
+            "value": 8
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "60 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": ""
+        },
+        "time": {
+            "value": "3"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [],
+            "value": [
+                "focus",
+                "paradise-touched"
+            ]
+        },
+        "slug": "local-instance"
+    },
+    "_id": "LiBDalJRwnbKIz27",
+    "flags": {
+        "cinderfall": {
+            "spellTag": "15th · 3 Bandwidth",
+            "listing": "Glimpses / The Render Paradise building the world it wants"
+        }
+    }
+}

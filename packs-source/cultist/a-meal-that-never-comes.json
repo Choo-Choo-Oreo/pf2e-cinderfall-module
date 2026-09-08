@@ -1,0 +1,57 @@
+{
+    "name": "A Meal That Never Comes",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>The target is permanently, magically hungry from this moment on — mechanically, perpetually fatigued 1 unless it spends an hour eating far more than a person needs, resetting the clock for 24 hours. Removable only by a working at least as powerful as this spell.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "permanent until removed"
+        },
+        "level": {
+            "value": 7
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "one creature"
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "occult"
+            ],
+            "value": [
+                "cultist"
+            ]
+        },
+        "slug": "a-meal-that-never-comes"
+    },
+    "_id": "PNAdsENdUOssD8r8",
+    "flags": {
+        "cinderfall": {
+            "spellTag": "Revelation · 13th",
+            "listing": "Bargain Spells / Gluttoneth, the Ever-Fasting hunger · want · a meal that never comes"
+        }
+    }
+}

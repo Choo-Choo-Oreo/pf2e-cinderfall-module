@@ -28,5 +28,11 @@
         },
         "slug": "command-voice"
     },
-    "_id": "hdgwseR8GsOiwRO5"
+    "_id": "hdgwseR8GsOiwRO5",
+    "flags": {
+        "cinderfall": {
+            "category": "background",
+            "sourceOwner": "backgrounds"
+        }
+    }
 }

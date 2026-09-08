@@ -1,0 +1,56 @@
+{
+    "name": "Verse of Rot",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per round</p><hr /><span class=\"sdesc\">The persistent damage ticks again immediately — the existing value dealt a second time, no fresh flat check — and until the end of the target's next turn, the flat check to end that persistent damage rises to DC 20 instead of DC 15.</span>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": ""
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "1 creature you have Read that is currently taking persistent damage"
+        },
+        "time": {
+            "value": "1"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [],
+            "value": [
+                "focus",
+                "plaguesworn"
+            ]
+        },
+        "slug": "the-wound-remembers"
+    },
+    "_id": "I7Ohs6XTOIYYX6r1",
+    "flags": {
+        "cinderfall": {
+            "focusCost": "1",
+            "listing": "Verse Spells / Verse of Rot Spoilage — decay damage"
+        }
+    }
+}

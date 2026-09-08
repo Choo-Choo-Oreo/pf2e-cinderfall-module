@@ -1,0 +1,57 @@
+{
+    "name": "Thicket Wall",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>Raise a wall of living bramble up to 30 feet long and 10 feet high — AC 10, Hardness 5, 40 HP per 10-foot section. It grows back at 10 HP per day so long as any section still lives.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "permanent"
+        },
+        "level": {
+            "value": 2
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "60 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": ""
+        },
+        "time": {
+            "value": "3"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "primal"
+            ],
+            "value": [
+                "seed-warden"
+            ]
+        },
+        "slug": "thicket-wall"
+    },
+    "_id": "p0IRMYGxcpdUyof8",
+    "flags": {
+        "cinderfall": {
+            "spellTag": "[TERRAIN] · Requires Green 1 · Bloom: Green +1",
+            "listing": "2nd Rank"
+        }
+    }
+}

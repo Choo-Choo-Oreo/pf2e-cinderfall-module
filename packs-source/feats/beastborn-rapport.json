@@ -28,5 +28,11 @@
         },
         "slug": "beastborn-rapport"
     },
-    "_id": "mfGAttThytQz0k9B"
+    "_id": "mfGAttThytQz0k9B",
+    "flags": {
+        "cinderfall": {
+            "category": "background",
+            "sourceOwner": "backgrounds"
+        }
+    }
 }

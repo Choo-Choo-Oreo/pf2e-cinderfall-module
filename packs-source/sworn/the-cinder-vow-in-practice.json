@@ -1,0 +1,32 @@
+{
+    "_id": "mkmdtGZ2nz9ZUd8w",
+    "categories": [],
+    "name": "The Cinder Vow, in Practice",
+    "ownership": {
+        "default": 0
+    },
+    "pages": [
+        {
+            "_id": "3UF1U7fJb1Qkio1v",
+            "category": null,
+            "image": {},
+            "name": "The Cinder Vow, in Practice",
+            "sort": 100000,
+            "src": null,
+            "system": {},
+            "text": {
+                "content": "    <p class=\"cc-desc\">A Cinder Vow Sworn is the Choir of Ash's field arm, not its contemplative wing — that role belongs to the Choir-sworn Vigil, whose whole discipline is patient faith banked slowly toward one enormous, campaign-defining act. The two paths share theology (Uriel's Turning as corruption-forced tragedy, not villainy) but split hard on doctrine of action. Where a Choir-sworn Vigil waits and prays for the day the Cage cracks on its own, a Cinder Vow Sworn does not wait: day to day, they escort relic-recovery teams into the Glasslands, hold ground against anyone trying to cap an unstable reactor the Choir has declared sacred, and stand sentinel over half-melted ghost-machine shrines they read as proof Uriel's will still moves in the world. Their operating belief is that small, controlled acts of destruction now are mercy that prevents a worse, uncontrolled Turning-repeat later — consistent with the Choir's core faith, but urgent where Vigil is patient. Not every Cinder Vow recruit holds the full theology sincerely; some are cynics bought with protection and power. Most, though, believe every word of it, which is what makes them dangerous to travel with.</p>",
+                "format": 1
+            },
+            "title": {
+                "level": 1,
+                "show": true
+            },
+            "type": "text",
+            "video": {
+                "controls": true,
+                "volume": 0.5
+            }
+        }
+    ]
+}

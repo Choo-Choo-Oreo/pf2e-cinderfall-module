@@ -238,7 +238,7 @@ Hooks.once("ready", async () => {
   if (!game.modules.get("item-piles")?.active) return;
   if (game.system.id !== "pf2e") return;
 
-  const stamp = JSON.stringify({ CINDERFALL_COIN_LABELS, CINDERFALL_MARKS, v: 1 });
+  const stamp = JSON.stringify({ CINDERFALL_COIN_LABELS, CINDERFALL_MARKS, v: 2 });
   if (game.settings.get(MODULE_ID, "itemPilesCurrencyStamp") === stamp) return;
 
   // --- 1. relabel the four coins -------------------------------------------
@@ -261,11 +261,15 @@ Hooks.once("ready", async () => {
     game.settings.get("item-piles", "secondaryCurrencies") ?? [],
   );
   const added = [];
+  let incomplete = false;
   for (const mark of CINDERFALL_MARKS) {
     if (secondary.some((s) => s.name === mark.item)) continue;   // GM already has it
     const uuid = await resolveEquipmentUuid(mark.item);
     if (!uuid) {
+      // Almost always "packs-source has it but build_pack.py has not run yet".
+      // Do NOT stamp in this case -- see below.
       console.warn(`${MODULE_ID} | no "${mark.item}" in the equipment pack; not registered`);
+      incomplete = true;
       continue;
     }
     const source = await fromUuid(uuid);
@@ -281,6 +285,109 @@ Hooks.once("ready", async () => {
 
   if (renamed.length) await game.settings.set("item-piles", "currencies", coins);
   if (added.length) await game.settings.set("item-piles", "secondaryCurrencies", secondary);
-  await game.settings.set(MODULE_ID, "itemPilesCurrencyStamp", stamp);
+
+  // The stamp means "everything this module ships is registered", so a partial
+  // run must not write it -- otherwise the next load early-returns and the
+  // missing currency never registers, with the only trace a console warning
+  // nobody reads. Measured 2026-09-07: the first live run stamped with zero
+  // secondaries because the pack had not been built, and would have stayed
+  // that way forever.
+  if (incomplete) {
+    console.warn(`${MODULE_ID} | item-piles registration incomplete; not stamping, will retry next load`);
+  } else {
+    await game.settings.set(MODULE_ID, "itemPilesCurrencyStamp", stamp);
+  }
   console.log(`${MODULE_ID} | item-piles currencies -- renamed:`, renamed, "secondary:", added);
+});
+
+/**
+ * Rename the coin ITEMS.
+ *
+ * The lang/en.json rename covers PF2E.Currency.* and PF2E.CurrencyAbbreviations.*
+ * -- every price string in the game. It does NOT cover the four treasure items
+ * in `pf2e.equipment-srd`, because a pack document's name is data, not an i18n
+ * key. So an inventory still read "Gold Pieces" while every price beside it read
+ * in credits. Caught by the owner on the first live look.
+ *
+ * Renaming these is safe, and that was checked rather than assumed:
+ * `TreasurePF2e.unit` derives a coin's denomination from which key is set in
+ * `price.value` (`pf2e.mjs`), `isCoinage` is `category === "coin"`, and the ONLY
+ * place in pf2e.mjs that mentions the `gold-pieces`-style slugs is a category
+ * dropdown gate in TreasureSheetPF2e. Nothing identifies a coin by its name.
+ * Slugs are left untouched regardless -- they are what the system keys on.
+ */
+const CINDERFALL_COIN_ITEM_NAMES = {
+  "platinum-pieces": "Packets",
+  "gold-pieces": "Credits",
+  "silver-pieces": "Bytes",
+  "copper-pieces": "Bits",
+};
+
+// The compendium INDEX carries only a subset of fields and system.slug is not
+// among it -- measured live 2026-09-07, an index-side slug match found 0 of 4.
+// So the index patch keys on the pack ids instead, which are stable pf2e data
+// (the same four `itempiles-pf2e` hardcodes in its own CURRENCIES array).
+const CINDERFALL_COIN_PACK_IDS = {
+  JuNPeK5Qm1w6wpb4: "Packets",
+  B6B7tBWJSqOBz5zz: "Credits",
+  "5Ew82vBF9YfaiY9f": "Bytes",
+  lzJ8AVhRcbFul5fh: "Bits",
+};
+
+function cinderfallCoinName(doc) {
+  const src = doc?._source ?? doc;
+  if (src?.type !== "treasure") return null;
+  const slug = src.system?.slug ?? doc?.slug;
+  const renamed = CINDERFALL_COIN_ITEM_NAMES[slug];
+  return renamed && src.name !== renamed ? renamed : null;
+}
+
+// Catches every coin that enters play: dragged from the compendium, looted,
+// split from a party stash, granted by a merchant.
+Hooks.on("preCreateItem", (doc) => {
+  const name = cinderfallCoinName(doc);
+  if (name) doc.updateSource({ name });
+});
+
+// One-shot for coins that were already sitting in the world before this shipped.
+Hooks.once("ready", async () => {
+  if (!game.user.isGM) return;
+  if (game.system.id !== "pf2e") return;
+
+  const fix = [];
+  for (const item of game.items) {
+    const name = cinderfallCoinName(item);
+    if (name) fix.push(item.update({ name }));
+  }
+  for (const actor of game.actors) {
+    const updates = [];
+    for (const item of actor.items) {
+      const name = cinderfallCoinName(item);
+      if (name) updates.push({ _id: item.id, name });
+    }
+    if (updates.length) fix.push(actor.updateEmbeddedDocuments("Item", updates));
+  }
+  if (fix.length) {
+    await Promise.all(fix);
+    console.log(`${MODULE_ID} | renamed ${fix.length} existing coin stack(s)`);
+  }
+
+  // Best-effort: the compendium browser reads pack.index, which is built from
+  // the pack on disk and cannot be written. Patching it in memory is what makes
+  // the sidebar agree with the sheets. Guarded because it is not a documented
+  // surface -- if a Foundry version rebuilds the index this simply stops working
+  // and nothing else breaks.
+  try {
+    const pack = game.packs.get("pf2e.equipment-srd");
+    if (pack?.index) {
+      let n = 0;
+      for (const [id, renamed] of Object.entries(CINDERFALL_COIN_PACK_IDS)) {
+        const entry = pack.index.get(id);
+        if (entry && entry.name !== renamed) { entry.name = renamed; n += 1; }
+      }
+      if (n) console.log(`${MODULE_ID} | relabelled ${n} coin entries in the pf2e compendium index`);
+    }
+  } catch (err) {
+    console.warn(`${MODULE_ID} | could not relabel the compendium index`, err);
+  }
 });

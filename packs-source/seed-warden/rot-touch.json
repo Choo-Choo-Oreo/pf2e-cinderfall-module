@@ -1,0 +1,63 @@
+{
+    "name": "Rot-Touch",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+            "save": {
+                "basic": true,
+                "statistic": "fortitude"
+            }
+        },
+        "description": {
+            "value": "<p>Deal 1d8 poison damage (<i>Heightened +1d8</i> the damage increases by 1d8 at 3rd level and every 2 levels thereafter). Against an unattended object, skip the save — the damage lands and keeps working inward the way real rot does.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": ""
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "touch"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "one object or creature"
+        },
+        "time": {
+            "value": "1"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "primal"
+            ],
+            "value": [
+                "cantrip",
+                "seed-warden"
+            ]
+        },
+        "slug": "rot-touch"
+    },
+    "_id": "LQi2p8eU6G6SKMzY",
+    "flags": {
+        "cinderfall": {
+            "spellTag": "Bloom: Grey +1",
+            "listing": "Cantrips"
+        }
+    }
+}

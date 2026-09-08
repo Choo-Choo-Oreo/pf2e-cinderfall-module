@@ -1,0 +1,56 @@
+{
+    "name": "Verse of the Multitude",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<span class=\"sdesc\">Raise one Afflicted at the standard level rule (a corpse becomes an Afflicted at the level Summon Undead would produce at this spell's rank). If your Verse is the Multitude, a single casting instead raises two, each at −2 level for being raised alongside another.</span>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "encounter, or 10 minutes outside one"
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "1 corpse or dying creature"
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [],
+            "value": [
+                "focus",
+                "plaguesworn"
+            ]
+        },
+        "slug": "raise-the-chorus"
+    },
+    "_id": "EnU55LGMiHL6CFkX",
+    "flags": {
+        "cinderfall": {
+            "focusCost": "1",
+            "listing": "Verse Spells / Verse of the Multitude Full Chorus — thrall handling"
+        }
+    }
+}

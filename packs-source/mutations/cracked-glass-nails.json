@@ -1,0 +1,66 @@
+{
+    "name": "Cracked-Glass Nails",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>Your nails have set hard and faceted, glasslands-glass.</p><p><b>Gift —</b> +1 circumstance to Crafting checks to work stone or glass; they double as an improvised piercing tool. <b>Tithe —</b> They chip instead of bending: any bare-handed check that fails by 5 or more leaves you clumsy 1 until you file them smooth (10 minutes).</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 0
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {}
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "traits": {
+            "rarity": "rare",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "cracked-glass-nails"
+    },
+    "_id": "RSkm560GkGmv42kd",
+    "flags": {
+        "cinderfall": {
+            "mutationType": "minor",
+            "tier": "rare",
+            "slot": "Arm",
+            "slots": [
+                "Arm"
+            ],
+            "slotCost": 1,
+            "roll": "d100 — 67–68",
+            "incomplete": [
+                "level is a stub (0); mutations carry no level",
+                "price is empty; a mutation is not bought"
+            ],
+            "inferred": [
+                "system.usage"
+            ]
+        }
+    }
+}

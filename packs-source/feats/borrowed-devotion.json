@@ -28,5 +28,11 @@
         },
         "slug": "borrowed-devotion"
     },
-    "_id": "dWBNYvK9ibtkLViB"
+    "_id": "dWBNYvK9ibtkLViB",
+    "flags": {
+        "cinderfall": {
+            "category": "background",
+            "sourceOwner": "backgrounds"
+        }
+    }
 }

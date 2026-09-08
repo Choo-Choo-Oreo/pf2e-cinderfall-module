@@ -1,0 +1,61 @@
+{
+    "name": "The Last Exhale",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>You carry a Teratoma's own dying breath in your chest.</p><p><b>Gift —</b> You don't need to breathe for up to 1 hour, and when you finally do, the breath heals you: regain HP equal to your level. <b>Tithe —</b> The Teratoma gave up part of its own last breath to grant this. It remembers what dying felt like, through you, every time you use it — and it always eventually asks why you're keeping it waiting.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 0
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {}
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "traits": {
+            "rarity": "legendary",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "the-last-exhale"
+    },
+    "_id": "SxsScQuVMluS2kcv",
+    "flags": {
+        "cinderfall": {
+            "mutationType": "teratoma",
+            "tier": "legendary",
+            "chosen": "pick of 6",
+            "incomplete": [
+                "level is a stub (0); mutations carry no level",
+                "price is empty; a mutation is not bought"
+            ],
+            "inferred": [
+                "system.usage"
+            ]
+        }
+    }
+}

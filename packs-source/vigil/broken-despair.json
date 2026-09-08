@@ -1,0 +1,55 @@
+{
+    "name": "Broken Despair",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>Every affected creature that is frightened, sickened by grief, or otherwise emotionally wrecked has that condition end immediately, and gains a +2 status bonus to Will saves for the next 24 hours.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "instant, plus 24 hours"
+        },
+        "level": {
+            "value": 5
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "60-foot burst"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "all allies and bystanders in the area"
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [],
+            "value": [
+                "focus",
+                "vigil"
+            ]
+        },
+        "slug": "broken-despair"
+    },
+    "_id": "rX9mSQ3v4yXOPILj",
+    "flags": {
+        "cinderfall": {
+            "listing": "The Miracle / Unmaking Ladder / Greater 9th level · full current pool"
+        }
+    }
+}

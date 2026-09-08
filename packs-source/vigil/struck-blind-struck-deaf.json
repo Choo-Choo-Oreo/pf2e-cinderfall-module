@@ -1,0 +1,61 @@
+{
+    "name": "Struck Blind, Struck Deaf",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+            "save": {
+                "basic": false,
+                "statistic": "will"
+            }
+        },
+        "description": {
+            "value": "<p>Choose blinded, deafened, or both when you cast this. <i>Critical Success</i> the target is unaffected. <i>Success</i> no effect. <i>Failure</i> the target gains the chosen condition(s) for the duration. <i>Critical Failure</i> as failure, and the target cannot attempt to end the condition early by any means short of magical healing. Cruelly effective against anything that relies on either sense to track its prey — which, in a world this broken, is most things.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "10 minutes"
+        },
+        "level": {
+            "value": 6
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "60 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "up to 4 creatures"
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "divine"
+            ],
+            "value": [
+                "vigil"
+            ]
+        },
+        "slug": "struck-blind-struck-deaf"
+    },
+    "_id": "ig3BZqtO1G6izyBr",
+    "flags": {
+        "cinderfall": {
+            "listing": "6th Rank"
+        }
+    }
+}

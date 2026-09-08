@@ -1,0 +1,56 @@
+{
+    "name": "Call the Static Chorus",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>You call a fragment of bound, restless dead through your Idol. It manifests as a Medium spirit combatant, acts on your initiative, follows your directions, and dissolves back into static when the encounter ends or it's destroyed.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "until the end of the encounter"
+        },
+        "level": {
+            "value": 3
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": ""
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "occult"
+            ],
+            "value": [
+                "cultist"
+            ]
+        },
+        "slug": "call-the-static-chorus"
+    },
+    "_id": "LamlX6yCf4VSnDlb",
+    "flags": {
+        "cinderfall": {
+            "listing": "3rd Rank"
+        }
+    }
+}

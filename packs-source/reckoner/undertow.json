@@ -1,0 +1,62 @@
+{
+    "name": "Undertow",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+            "save": {
+                "basic": false,
+                "statistic": "fortitude"
+            }
+        },
+        "description": {
+            "value": "<p>The ground behaves as if the target were already ankle-deep in rising water. <i>Failure</i> slowed 1 for the duration. <i>Critical Failure</i> slowed 2.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "1 minute"
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "1 creature"
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [],
+            "value": [
+                "focus",
+                "reckoner"
+            ]
+        },
+        "slug": "undertow"
+    },
+    "_id": "hEM5RcZg2hEVmw1X",
+    "flags": {
+        "cinderfall": {
+            "focusCost": "1",
+            "spellTag": "Undertow",
+            "listing": "Aspect Signatures / The Halving decay / entropy"
+        }
+    }
+}

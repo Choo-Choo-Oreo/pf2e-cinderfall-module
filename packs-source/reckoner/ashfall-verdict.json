@@ -1,0 +1,61 @@
+{
+    "name": "Ashfall Verdict",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+            "save": {
+                "basic": false,
+                "statistic": "fortitude"
+            }
+        },
+        "description": {
+            "value": "<p>The target begins turning to ash over a minute — a preview of the inevitable. <i>Critical Success</i> unaffected. <i>Success</i> 6d6 acid damage, then knits back before it matters. <i>Failure</i> 6d6 acid damage and 6d6 persistent acid damage. <i>Critical Failure</i> as failure, and if the persistent damage isn't removed within 1 minute, the target is destroyed outright — reduced entirely to ash, no save.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": ""
+        },
+        "level": {
+            "value": 6
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "1 creature"
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "divine"
+            ],
+            "value": [
+                "reckoner"
+            ]
+        },
+        "slug": "ashfall-verdict"
+    },
+    "_id": "hx61698A2qMFQUln",
+    "flags": {
+        "cinderfall": {
+            "listing": "6th Rank"
+        }
+    }
+}

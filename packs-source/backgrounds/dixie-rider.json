@@ -51,7 +51,8 @@
     "_id": "WQIw1QfFWLro3o8I",
     "flags": {
         "cinderfall": {
-            "define": "Dixie Territories"
+            "define": "Dixie Territories",
+            "foundAmong": "Found among: Dixie warbands, monster-riding clans, wasteland beast-handlers"
         }
     }
 }

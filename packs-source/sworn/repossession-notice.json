@@ -1,0 +1,58 @@
+{
+    "name": "Repossession Notice",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p><strong>Focus</strong> 1</p><hr /><p>An enemy within 30 feet is served formal, mechanically-enforced notice that something of theirs is now collateral. There's no save against the notice itself — it simply lands — but it leaves the target owing: a status penalty to its next Will save equal to 2 (+1 at 10th level, +2 at 16th level).</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "until the target attempts a Will save or 1 minute passes, whichever comes first"
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "1 enemy"
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [],
+            "value": [
+                "concentrate",
+                "focus",
+                "manipulate",
+                "sworn"
+            ]
+        },
+        "slug": "repossession-notice"
+    },
+    "_id": "5VPb0cL5jPJMnv5k",
+    "flags": {
+        "cinderfall": {
+            "spellTag": "Vow · 1st",
+            "listing": "The Binding Clause Corporate Oath"
+        }
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "_id": "OhzwVC5fSmkASyjV",
+    "categories": [],
+    "name": "The Last Approach",
+    "ownership": {
+        "default": 0
+    },
+    "pages": [
+        {
+            "_id": "iIsQfHmWbccyjKdV",
+            "category": null,
+            "image": {},
+            "name": "The Last Approach",
+            "sort": 100000,
+            "src": null,
+            "system": {},
+            "text": {
+                "content": "<p><em>Failed Expeditions · Silence At The Edge</em></p>      <p class=\"cc-desc\">Three separate expeditions are recorded trying to close the distance in the two centuries since the Turning gave anyone spare enough resources to try. None returned with matching accounts. Only one returned at all — a single survivor, decades older than her recorded age, insisting only forty minutes had passed. Nobody's mounted a fourth expedition since; not from fear exactly, more because nobody's found a compelling reason to spend that many resources confirming what channeling the Singularity already tells a Reckoner for free: something happens at that boundary, and it happens to you whether you go looking for it or not.</p>\n      <p class=\"cc-desc\">The survivor is the detail Reckoners come back to. Decades spent for forty minutes felt, and no account anyone found satisfying of why she was let go at all — released, most now think, rather than escaped. Reckoners who channel the Singularity long enough tend to stop describing their own progress as study or practice and start describing it the way she described the journey: as an approach, measured from the other end. The track in §4 takes its name from her expedition, and is not a coincidence.</p>\n      <div class=\"pov sealed\" data-flag=\"absorption_seen_v1\" data-key=\"45df65c8e475308c\">\n        <div class=\"pov-code\">Sealed Record · Field Index terminal</div>\n        <p class=\"pov-text\">Every so often, someone joins the order fluent in the Singularity-facing half of the Litany before anyone taught them a word of it — certain of things a career Reckoner spends years working out, and strangely untroubled by where they learned it. <strong>Nobody in the Approach has agreed on what to call them, only that the count of them is slowly rising.</strong></p>\n        <a class=\"pov-link\" href=\"what-it-keeps.html\">Sealed record: What It Keeps →</a>\n      </div>",
+                "format": 1
+            },
+            "title": {
+                "level": 1,
+                "show": true
+            },
+            "type": "text",
+            "video": {
+                "controls": true,
+                "volume": 0.5
+            }
+        }
+    ]
+}

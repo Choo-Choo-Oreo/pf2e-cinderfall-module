@@ -1,0 +1,61 @@
+{
+    "name": "Push",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+            "save": {
+                "basic": false,
+                "statistic": "will"
+            }
+        },
+        "description": {
+            "value": "<b>Failure</b> the target is stupefied 1 and must spend its next action on something you name that isn't obviously self-destructive. <i>Signal</i> +2 to your spell DC for this and the target is also off-guard until the end of its next turn."
+        },
+        "duration": {
+            "sustained": false,
+            "value": ""
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "1 creature"
+        },
+        "time": {
+            "value": "1"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [],
+            "value": [
+                "focus",
+                "paradise-touched"
+            ]
+        },
+        "slug": "push"
+    },
+    "_id": "eV28JUMv2i2qZy1P",
+    "flags": {
+        "cinderfall": {
+            "spellTag": "1st · 1 Bandwidth",
+            "listing": "Glimpses / The Chorus the merged minds, still talking"
+        }
+    }
+}

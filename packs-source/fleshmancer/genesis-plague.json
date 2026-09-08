@@ -1,0 +1,63 @@
+{
+    "name": "Genesis Plague",
+    "type": "consumable",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0.1
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p><strong>Craft Cost</strong> 8 Vitae Points</p><p><strong>Activate</strong> 1 action to release</p><p><strong>Saving Throw</strong> Fortitude (initial exposure and airborne spread)</p><hr /><p>12d6 poison damage and a 5-stage affliction ending in paralysis and drained 4 on a failed Fortitude save; the plague goes airborne-contagious in a 30-foot radius for 1 minute, reapplying the same save to anyone it reaches. You are permanently immune to it.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 17
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {}
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "category": "other",
+        "damage": null,
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "consumable",
+                "fleshmancer"
+            ]
+        },
+        "usage": {
+            "value": "held-in-one-hand"
+        },
+        "uses": {
+            "autoDestroy": true,
+            "max": 1,
+            "value": 1
+        },
+        "slug": "genesis-plague"
+    },
+    "_id": "lk8AkhCZkUfzr7mz",
+    "flags": {
+        "cinderfall": {
+            "vitaeCost": 8,
+            "mk": "Mk IV"
+        }
+    }
+}

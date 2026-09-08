@@ -1,0 +1,64 @@
+{
+    "name": "Congregation",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": {
+            "type": "burst",
+            "value": 30
+        },
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+            "save": {
+                "basic": false,
+                "statistic": "will"
+            }
+        },
+        "description": {
+            "value": "<p>Every creature in the area hears every other creature's surface thoughts, including yours. Allies gain +2 circumstance to checks made to Aid each other. Enemies are off-guard to each other and take −2 to Deception and Stealth. It is not a subtle effect and nobody inside it enjoys it.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "1 minute"
+        },
+        "level": {
+            "value": 8
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "100 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": ""
+        },
+        "time": {
+            "value": "3"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [],
+            "value": [
+                "focus",
+                "paradise-touched"
+            ]
+        },
+        "slug": "congregation"
+    },
+    "_id": "gsqfDpN4ZlRftLZE",
+    "flags": {
+        "cinderfall": {
+            "spellTag": "15th · 3 Bandwidth",
+            "listing": "Glimpses / The Chorus the merged minds, still talking"
+        }
+    }
+}

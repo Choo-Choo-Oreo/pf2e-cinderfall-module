@@ -32,7 +32,17 @@
             "define": "Transcendent · Withdrawn, Not Dead",
             "incomplete": [
                 "STUB -- no mechanics authored. Missing every pf2e deity field: attribute, domains, font, sanctification, skill, spells, weapons. `category` is a default of 'deity' and may need to be philosophy or pantheon. See .claude/docs/todo.md."
-            ]
+            ],
+            "effect": "Full writeup: <a class=\"bref\" href=\"vigil.html\">Vigil</a> dossier",
+            "pov": {
+                "flag": "divestment_seen_v1",
+                "code": "Sealed Record · Field Index terminal",
+                "text": "The public story is grief, and it isn't a lie — watching what happened to Uriel, and to itself, was real. It's just not the whole ledger. <strong>Uriel was the stake that made holding a world this far from the center worth the cost.</strong> Once the corporations and kingdoms bled that stake dry, the accounting simply changed: a costly, half-abandoned holding, hungered after by something that never stops counting converts, that could no longer be defended from here. Leaving looked like sorrow because sorrow was also true. It was still, underneath that, a withdrawal.",
+                "link": {
+                    "href": "what-theyre-waiting-for.html",
+                    "label": "What They're Waiting For →"
+                }
+            }
         }
     }
 }

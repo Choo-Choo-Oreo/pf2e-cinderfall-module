@@ -1,0 +1,62 @@
+{
+    "name": "The Second Word",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>The Teratoma gets to speak sometimes, and it uses your mouth to do it.</p><p><b>Gift —</b> Once per day, speak with total, borrowed conviction: one creature that hears you must treat what you said as true for the rest of the scene unless directly, physically contradicted. <b>Tithe —</b> Once per session, the Teratoma may speak through you without warning. The GM writes the line, you say it, and everyone present hears it as yours. No save, no veto.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 0
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {}
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "traits": {
+            "rarity": "mythic",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "the-second-word"
+    },
+    "_id": "4RhClrvi2MxReO8g",
+    "flags": {
+        "cinderfall": {
+            "mutationType": "teratoma",
+            "tier": "mythic",
+            "prerequisite": "carries a Teratoma Trait",
+            "access": "radiation",
+            "incomplete": [
+                "level is a stub (0); mutations carry no level",
+                "price is empty; a mutation is not bought"
+            ],
+            "inferred": [
+                "system.usage"
+            ]
+        }
+    }
+}

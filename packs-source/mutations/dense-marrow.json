@@ -1,0 +1,66 @@
+{
+    "name": "Dense Marrow",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>Your bone structure sets denser and meaner.</p><p><b>Gift —</b> +1 status bonus to melee damage rolls. <b>Tithe —</b> Bones that don't flex: −1 circumstance to Acrobatics to Tumble Through or Squeeze, and you count 1 Bulk heavier for anything carrying or lifting you.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 0
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {}
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "dense-marrow"
+    },
+    "_id": "3GXucaGhutRwxUWl",
+    "flags": {
+        "cinderfall": {
+            "mutationType": "minor",
+            "tier": "common",
+            "slot": "Frame",
+            "slots": [
+                "Frame"
+            ],
+            "slotCost": 1,
+            "roll": "d100 — 03–04",
+            "incomplete": [
+                "level is a stub (0); mutations carry no level",
+                "price is empty; a mutation is not bought"
+            ],
+            "inferred": [
+                "system.usage"
+            ]
+        }
+    }
+}

@@ -1,0 +1,56 @@
+{
+    "name": "Hold the Line",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>Affected creatures gain a +2 status bonus to saving throws against fear, mental control, and persuasion effects. This is the spell version of what Presence does passively, turned up loud for the moments that actually call for it.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "10 minutes"
+        },
+        "level": {
+            "value": 4
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "60-foot emanation centered on you"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "you and all allies in the emanation"
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "divine"
+            ],
+            "value": [
+                "vigil"
+            ]
+        },
+        "slug": "hold-the-line"
+    },
+    "_id": "Tg6hZkXfsraZgJsc",
+    "flags": {
+        "cinderfall": {
+            "listing": "4th Rank"
+        }
+    }
+}

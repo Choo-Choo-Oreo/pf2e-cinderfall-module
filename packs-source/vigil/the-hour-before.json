@@ -1,0 +1,56 @@
+{
+    "name": "The Hour Before",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>As A Glimpse Past the Hour, but you may ask two questions instead of one, and may hold the answers in mind for the rest of the day rather than needing to act on them immediately. Still narrow. Still no answers about tomorrow. Just slightly more of today.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "until your next full rest"
+        },
+        "level": {
+            "value": 9
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "unlimited"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": ""
+        },
+        "time": {
+            "value": "10 minutes"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "divine"
+            ],
+            "value": [
+                "vigil"
+            ]
+        },
+        "slug": "the-hour-before"
+    },
+    "_id": "Wfl00FOsVGvhrTSY",
+    "flags": {
+        "cinderfall": {
+            "listing": "9th Rank"
+        }
+    }
+}

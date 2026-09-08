@@ -1,0 +1,58 @@
+{
+    "name": "Thorn-Cast",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>Make a ranged spell attack. On a hit, deal 1d6 piercing plus 1d4 persistent bleed (<i>Heightened</i> +1d6 and +1d4 at 5th level and every 4 levels thereafter). A seed goes in fast and opens once it's inside.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": ""
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "60 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "one creature"
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "primal"
+            ],
+            "value": [
+                "cantrip",
+                "seed-warden"
+            ]
+        },
+        "slug": "thorn-cast"
+    },
+    "_id": "HvvWExNfmoKPO9NE",
+    "flags": {
+        "cinderfall": {
+            "spellTag": "Bloom: Green +1",
+            "listing": "Cantrips"
+        }
+    }
+}

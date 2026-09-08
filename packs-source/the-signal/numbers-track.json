@@ -1,0 +1,32 @@
+{
+    "_id": "tgelpc8epr1dZSuS",
+    "categories": [],
+    "name": "Numbers",
+    "ownership": {
+        "default": 0
+    },
+    "pages": [
+        {
+            "_id": "rLpVVYOTNVskaKrC",
+            "category": null,
+            "image": {},
+            "name": "Numbers",
+            "sort": 100000,
+            "src": null,
+            "system": {},
+            "text": {
+                "content": "<p><em>The station that never stopped</em></p>        <p class=\"cc-desc\">A flat voice reading groups of five, on the same band, since before the Turning. Nobody has found the transmitter and nobody has decoded it. Numbers Signals learned to read along — and at some point, something on the other end started leaving gaps for them.</p>\n        <p class=\"cc-desc\">Enemies in range take a <strong>−1 status penalty to Will saves</strong>. They are being counted, and on some level they know it.</p>\n        <hr class=\"cc-divider\">\n        <div class=\"cc-effect\"><b>7th — Off-Book:</b> once per round, an enemy in range that fails a save against your spell is also off-guard until the end of its next turn.</div>\n        <div class=\"cc-effect\"><b>15th — The Gap:</b> spend 3 Encore to force one creature in range to attempt a Will save against your spell DC; on a failure it treats its next check as its lowest possible result. The station reads its number.</div>",
+                "format": 1
+            },
+            "title": {
+                "level": 1,
+                "show": true
+            },
+            "type": "text",
+            "video": {
+                "controls": true,
+                "volume": 0.5
+            }
+        }
+    ]
+}

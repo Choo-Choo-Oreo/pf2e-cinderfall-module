@@ -1,0 +1,64 @@
+{
+    "name": "Grasping Ash",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": {
+            "type": "line",
+            "value": 30
+        },
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+            "save": {
+                "basic": false,
+                "statistic": "reflex"
+            }
+        },
+        "description": {
+            "value": "<p>Ash coalesces into clutching hands along the line. <i>Critical Success</i> the ash falls inert. <i>Success</i> the hands close on nothing. <i>Failure</i> 2d6 bludgeoning damage. <i>Critical Failure</i> as failure, and the hands don't let go — the target takes 2d6 bludgeoning damage again, automatically, at the start of its next turn.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": ""
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": ""
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": ""
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "occult"
+            ],
+            "value": [
+                "cultist"
+            ]
+        },
+        "slug": "grasping-ash"
+    },
+    "_id": "giXPLUxrS0A9Um4g",
+    "flags": {
+        "cinderfall": {
+            "listing": "1st Rank"
+        }
+    }
+}

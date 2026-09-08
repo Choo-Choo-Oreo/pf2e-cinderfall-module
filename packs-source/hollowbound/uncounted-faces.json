@@ -1,0 +1,56 @@
+{
+    "name": "Uncounted Faces",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>Two illusory duplicates of yourself mirror your movements. Whenever you'd be hit while a duplicate remains, roll a flat check: on 1–33 the attack destroys a duplicate instead of striking you; otherwise it hits normally.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "1 minute or until duplicates are used up"
+        },
+        "level": {
+            "value": 3
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "self"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": ""
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "occult"
+            ],
+            "value": [
+                "hollowbound"
+            ]
+        },
+        "slug": "uncounted-faces"
+    },
+    "_id": "91LWUxblyL70mSKh",
+    "flags": {
+        "cinderfall": {
+            "listing": "3rd Rank"
+        }
+    }
+}

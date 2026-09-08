@@ -1,0 +1,56 @@
+{
+    "name": "Called In",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>Your checks made specifically to leverage, threaten, or persuade that creature gain a status bonus equal to your proficiency rank in Diplomacy or Intimidation, whichever is higher.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "until the end of the encounter"
+        },
+        "level": {
+            "value": 4
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "unlimited (must know of the creature)"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "one creature that owes you anything — coin, a favor, a life"
+        },
+        "time": {
+            "value": "1"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [],
+            "value": [
+                "cultist",
+                "focus"
+            ]
+        },
+        "slug": "called-in"
+    },
+    "_id": "D4ayT7TeiVqu1FHJ",
+    "flags": {
+        "cinderfall": {
+            "spellTag": "Rite · 7th",
+            "listing": "Bargain Spells / The Ledger debts · secrets · everything written down"
+        }
+    }
+}

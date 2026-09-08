@@ -1,0 +1,32 @@
+{
+    "_id": "wDG5q7L3bQHT8VF8",
+    "categories": [],
+    "name": "The Binding Clause",
+    "ownership": {
+        "default": 0
+    },
+    "pages": [
+        {
+            "_id": "NBhYQlsiL9C4nwkn",
+            "category": null,
+            "image": {},
+            "name": "The Binding Clause",
+            "sort": 100000,
+            "src": null,
+            "system": {},
+            "text": {
+                "content": "<p><em>Corporate Oath</em></p>      <p class=\"cc-desc\">You signed with a megacorp — and the ink was ensouled. A sliver of your own soul is written into the contract as collateral, which is why the corp trusts you with power armor and live ordnance instead of a pension. Your Ward is whoever or whatever the current contract names: a VIP, a convoy, an asset, an objective. Command can reassign your Ward between engagements as terms are renegotiated above your head.</p>\n      <hr class=\"cc-divider\">\n      <div class=\"cc-effect\">\n        <h4>The Answer</h4>\n        <p>Triggers the instant your named Ward is struck. You close distance and strike whoever dealt the damage, and the debt comes due whether they meant to incur it or not.</p>\n      </div>\n      <div class=\"cc-effect\">\n        <h4>Vows (spend Leverage)</h4>\n        <p class=\"sec-intro\">Two Vows per Oath — full crunch in <a href=\"spells-abilities.html\">What You Learned</a>. Further Vows are picked up as Sworn feats.</p>\n        <ul>\n          <li><b>Collateral Ward</b> — redirect a portion of harm meant for your Ward onto yourself, on demand.</li>\n          <li><b>Repossession Notice</b> — serve a foe formal notice that something of theirs is now collateral; it owes a penalty on its next Will save.</li>\n        </ul>\n      </div>",
+                "format": 1
+            },
+            "title": {
+                "level": 1,
+                "show": true
+            },
+            "type": "text",
+            "video": {
+                "controls": true,
+                "volume": 0.5
+            }
+        }
+    ]
+}

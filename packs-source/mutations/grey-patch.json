@@ -1,0 +1,66 @@
+{
+    "name": "Grey Patch",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>A palm-sized stretch of skin gone dead-nerved, inert as spent ground.</p><p><b>Gift —</b> Pain delivered through the patch doesn't land either: ignore pain-based penalties from effects that strike it. <b>Tithe —</b> You can't feel damage there; the GM may delay telling you about injuries, poisons, or parasites that enter through it.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 0
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {}
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "grey-patch"
+    },
+    "_id": "aNJWdgN2yPRT606M",
+    "flags": {
+        "cinderfall": {
+            "mutationType": "scar",
+            "tier": "common",
+            "slot": "Dermal",
+            "slots": [
+                "Dermal"
+            ],
+            "slotCost": 1,
+            "roll": "d12 — 5",
+            "incomplete": [
+                "level is a stub (0); mutations carry no level",
+                "price is empty; a mutation is not bought"
+            ],
+            "inferred": [
+                "system.usage"
+            ]
+        }
+    }
+}

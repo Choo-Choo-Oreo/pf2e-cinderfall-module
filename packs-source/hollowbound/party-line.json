@@ -1,0 +1,56 @@
+{
+    "name": "Party Line",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>Up to 5 willing creatures within 120 feet share a mental line, conversing with each other for the duration regardless of distance thereafter.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "1 hour"
+        },
+        "level": {
+            "value": 6
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "120 feet (at time of casting)"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "up to 5 willing creatures"
+        },
+        "time": {
+            "value": "10 minutes"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "occult"
+            ],
+            "value": [
+                "hollowbound"
+            ]
+        },
+        "slug": "party-line"
+    },
+    "_id": "bomiX3Fccg85U9mx",
+    "flags": {
+        "cinderfall": {
+            "listing": "6th Rank"
+        }
+    }
+}

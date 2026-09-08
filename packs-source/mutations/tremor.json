@@ -1,0 +1,66 @@
+{
+    "name": "Tremor",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>A fine hand-shake under pressure.</p><p><b>Gift —</b> The shake reads as harmless: +1 circumstance to Deception to appear feeble, drunk, or no threat. <b>Tithe —</b> −1 circumstance to fine-work checks (Thievery, surgery, Crafting detail passes) while in an encounter or observed.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 0
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {}
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "tremor"
+    },
+    "_id": "HSTUT2nlIsAqmCAq",
+    "flags": {
+        "cinderfall": {
+            "mutationType": "scar",
+            "tier": "common",
+            "slot": "Neural",
+            "slots": [
+                "Neural"
+            ],
+            "slotCost": 1,
+            "roll": "d12 — 4",
+            "incomplete": [
+                "level is a stub (0); mutations carry no level",
+                "price is empty; a mutation is not bought"
+            ],
+            "inferred": [
+                "system.usage"
+            ]
+        }
+    }
+}

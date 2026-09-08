@@ -1,0 +1,61 @@
+{
+    "name": "Second Opinion",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+            "save": {
+                "basic": false,
+                "statistic": "fortitude"
+            }
+        },
+        "description": {
+            "value": "<span class=\"sdesc\">Against a target already suffering an affliction, disease, poison, or curse: <i>Critical Success</i> it sloughs off entirely, and the target is immune to Second Opinion cast by you for 24 hours. <i>Success</i> the affliction's DC becomes your class DC for the rest of its duration. <i>Failure</i> as success, and you choose whether its next stage advances or resets. <i>Critical Failure</i> as failure, and it advances one stage immediately. Cast against a target carrying nothing to seize, it instead functions as The First Symptom — a Plaguewright optimizes the payload; you just sign your name over theirs.</span>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": ""
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "1 creature you have Read"
+        },
+        "time": {
+            "value": "1"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "occult"
+            ],
+            "value": [
+                "plaguesworn"
+            ]
+        },
+        "slug": "second-opinion"
+    },
+    "_id": "py0fZkvfn44lA1WK",
+    "flags": {
+        "cinderfall": {
+            "listing": "1st Rank"
+        }
+    }
+}

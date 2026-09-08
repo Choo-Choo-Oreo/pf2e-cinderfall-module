@@ -1,0 +1,56 @@
+{
+    "name": "Second Helping",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>As First Bite, but you may pay this Rite's cost by taking damage yourself equal to what you'd deal to the target, instead of spending Zeal — Gluttoneth doesn't care whose hunger it's eating, only that something is fed.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": ""
+        },
+        "level": {
+            "value": 4
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "melee touch"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "one creature"
+        },
+        "time": {
+            "value": "1"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [],
+            "value": [
+                "cultist",
+                "focus"
+            ]
+        },
+        "slug": "second-helping"
+    },
+    "_id": "qmAymsIkETB7QHFU",
+    "flags": {
+        "cinderfall": {
+            "spellTag": "Rite · 7th",
+            "listing": "Bargain Spells / Gluttoneth, the Ever-Fasting hunger · want · a meal that never comes"
+        }
+    }
+}

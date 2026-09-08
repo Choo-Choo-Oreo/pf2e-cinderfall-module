@@ -1,0 +1,56 @@
+{
+    "name": "A Glimpse Past the Hour",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>Once before you next make your daily preparations, ask the GM a single yes-or-no question about the immediate, practical near future — the next few minutes, not the shape of fate. The Silence doesn't answer prayers about tomorrow. This is the narrowest possible crack in that rule.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "instant"
+        },
+        "level": {
+            "value": 7
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "unlimited"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": ""
+        },
+        "time": {
+            "value": "10 minutes"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "divine"
+            ],
+            "value": [
+                "vigil"
+            ]
+        },
+        "slug": "a-glimpse-past-the-hour"
+    },
+    "_id": "l5Uc79ccfP3b8E5V",
+    "flags": {
+        "cinderfall": {
+            "listing": "7th Rank"
+        }
+    }
+}

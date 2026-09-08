@@ -200,9 +200,18 @@ Two keys per denomination, both flat dotted strings in `lang/en.json`:
 `CONFIG.PF2E`'s currency map stores the *key* (`pp: "PF2E.Currency.pp"` in
 `pf2e.mjs`), not the string, so overriding the key covers both surfaces at once.
 
-**Two label surfaces this does not reach.** The coin *items* in
-`Compendium.pf2e.equipment-srd` are still named "Gold Pieces" etc. -- pack
-document names are not i18n'd. And Item Piles ships its own pf2e integration
+**The coin items are renamed separately**, in `scripts/main.js`, because a pack
+document's name is data rather than an i18n key -- so an inventory read "Gold
+Pieces" beside a price in credits until this was added. A `preCreateItem` hook
+catches every coin entering play and a GM one-shot fixes coins already in the
+world; the `pf2e.equipment-srd` index is patched in memory by pack id so the
+compendium browser agrees. Verified live: `unit`, `isCoinage` and every slug
+survive, and a test character's total still reads `167 cr, 5 by, 3 bt`. That was
+checked, not assumed -- `TreasurePF2e.unit` derives the denomination from
+`price.value` and the only slug reference in `pf2e.mjs` is a sheet dropdown gate,
+so nothing identifies a coin by name.
+
+**One label surface this does not reach.** Item Piles ships its own pf2e integration
 (`modules/itempiles-pf2e/module.js`) that registers four item-backed currencies
 via `game.itempiles.API.addSystemIntegration`, each with its own literal
 `abbreviation` (`"{#}GP"`) and `exchangeRate` (gp is `primary: true`,

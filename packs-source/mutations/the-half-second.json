@@ -1,0 +1,66 @@
+{
+    "name": "The Half-Second",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>Some part of you is always already moving.</p><p><b>Gift —</b> Once per encounter, reroll a failed initiative check. <b>Tithe —</b> The same part sometimes moves on false alarms: once per session the GM may hand you a hunch that's wrong; acting on it costs you your reaction that round when it turns out to be nothing.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 0
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {}
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "traits": {
+            "rarity": "epic",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "the-half-second"
+    },
+    "_id": "fcMRI8QKc4Bn8kMA",
+    "flags": {
+        "cinderfall": {
+            "mutationType": "minor",
+            "tier": "epic",
+            "slot": "Neural",
+            "slots": [
+                "Neural"
+            ],
+            "slotCost": 1,
+            "roll": "d100 — 93–94",
+            "incomplete": [
+                "level is a stub (0); mutations carry no level",
+                "price is empty; a mutation is not bought"
+            ],
+            "inferred": [
+                "system.usage"
+            ]
+        }
+    }
+}

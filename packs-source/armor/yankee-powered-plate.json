@@ -30,7 +30,7 @@
         },
         "price": {
             "value": {
-                "gp": 80
+                "gp": 8
             }
         },
         "acBonus": 0,
@@ -52,7 +52,8 @@
                 "level is a stub (0); the page carries no item levels",
                 "armor acBonus/dexCap/checkPenalty/speedPenalty/strength/group all stubbed -- the page posts no AC, no Dex Cap and no penalties"
             ],
-            "currency": "Balanced to the PF2e GP standard and denominated in Credits: 1 Credit = 1 gp. The whole list was scaled x10 from the retired scraps=sp anchor, so every relative price is unchanged from the page as authored."
+            "currency": "Balanced to the PF2e GP standard and denominated in Credits: 1 Credit = 1 gp, per currency.credits: a credit IS a gold piece and any published price reads straight across. Scraps are retired at 1:1 to Credits, so scrap-quoted prices read across unchanged too.",
+            "define": "Heavy (Exosuit)"
         }
     }
 }

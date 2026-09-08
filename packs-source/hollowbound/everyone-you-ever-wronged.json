@@ -1,0 +1,61 @@
+{
+    "name": "Everyone You Ever Wronged",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+            "save": {
+                "basic": false,
+                "statistic": "will"
+            }
+        },
+        "description": {
+            "value": "<p>20d6 mental damage. <i>Failure</i> full damage, paralyzed with terror for 1 minute; the target attempts a new Will save at the end of each of its turns, ending the paralysis on a success. <i>Critical Failure</i> as failure, and additionally gains a permanent flaw — a −2 status penalty to a single skill or save fitting the flaw — until it is removed by an equal or greater working. <i>Success</i> half damage, no paralysis.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": ""
+        },
+        "level": {
+            "value": 10
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "1 creature"
+        },
+        "time": {
+            "value": "3"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "occult"
+            ],
+            "value": [
+                "hollowbound"
+            ]
+        },
+        "slug": "everyone-you-ever-wronged"
+    },
+    "_id": "PoX3Lgt4JyowWdQC",
+    "flags": {
+        "cinderfall": {
+            "listing": "10th Rank"
+        }
+    }
+}

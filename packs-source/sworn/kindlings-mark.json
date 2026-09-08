@@ -1,0 +1,58 @@
+{
+    "name": "Kindling's Mark",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p><strong>Focus</strong> 1</p><hr /><p>Touch a target judged worth hastening toward its end. For the duration, your Strikes and damaging Vows deal an additional +2 damage against the marked target (increasing to +3 at 10th level, +4 at 16th level) — easier to destroy, for as long as the mark holds. Only one target can be marked by you at a time; marking a new target ends the old mark.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "until the end of the encounter or scene"
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "touch"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "1 creature, object, or location you touch"
+        },
+        "time": {
+            "value": "1"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [],
+            "value": [
+                "concentrate",
+                "focus",
+                "manipulate",
+                "sworn"
+            ]
+        },
+        "slug": "kindlings-mark"
+    },
+    "_id": "ARcYiYV8Wjs57GTA",
+    "flags": {
+        "cinderfall": {
+            "spellTag": "Vow · 1st",
+            "listing": "The Cinder Vow Choir Oath"
+        }
+    }
+}

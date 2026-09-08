@@ -1,0 +1,55 @@
+{
+    "name": "Rail Line's Memory",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>The Hollow briefly channels a conductor-spirit's decades of route-knowledge. You and allies within 30 feet treat unfamiliar mechanical terrain as familiar for Perception and Survival checks for the duration. Low Toll cost.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "10 minutes"
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "self (30-foot emanation)"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": ""
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [],
+            "value": [
+                "focus",
+                "hollowbound"
+            ]
+        },
+        "slug": "rail-lines-memory"
+    },
+    "_id": "cVSQvfgz5xlgLz6a",
+    "flags": {
+        "cinderfall": {
+            "listing": "Covenant Vessel Spells / Ghost-Static machine spirits · lowest risk"
+        }
+    }
+}

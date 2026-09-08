@@ -1,0 +1,57 @@
+{
+    "name": "Sign On",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>Allies in range gain a +1 status bonus to attack rolls and to damage rolls with weapons and unarmed attacks. The bedrock support Transmission; you will have this running most rounds.</p>"
+        },
+        "duration": {
+            "sustained": true,
+            "value": "sustained"
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "60 feet (Broadcast range)"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": ""
+        },
+        "time": {
+            "value": "1"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "occult"
+            ],
+            "value": [
+                "cantrip",
+                "the-signal"
+            ]
+        },
+        "slug": "sign-on"
+    },
+    "_id": "ctgiHnyh8x6c4kFT",
+    "flags": {
+        "cinderfall": {
+            "listing": "Transmissions"
+        }
+    }
+}

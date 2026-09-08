@@ -1,0 +1,56 @@
+{
+    "name": "Borrowed Instant",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>Act freely for several rounds while the world holds still — as <i>Time Stop</i>, act freely for 1d4+1 rounds while everything else is frozen. When the effect ends, 1 permanent Reckoning stage comes due.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "special"
+        },
+        "level": {
+            "value": 9
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "self"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": ""
+        },
+        "time": {
+            "value": "3"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "divine"
+            ],
+            "value": [
+                "reckoner"
+            ]
+        },
+        "slug": "borrowed-instant"
+    },
+    "_id": "wwNeyPBa4NLQQHIY",
+    "flags": {
+        "cinderfall": {
+            "listing": "9th Rank"
+        }
+    }
+}

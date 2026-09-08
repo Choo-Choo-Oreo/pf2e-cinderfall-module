@@ -1,0 +1,66 @@
+{
+    "name": "Kiln Heart",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>It runs hot enough to warm a room, and it costs what that costs.</p><p><b>Gift —</b> Resistance 3 to cold, and your presence keeps a small space above freezing. <b>Tithe —</b> You burn fuel to do it: you eat twice as much as normal, and a full day without food leaves you fatigued rather than merely hungry.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 0
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {}
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "traits": {
+            "rarity": "rare",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "kiln-heart"
+    },
+    "_id": "qjEOVQWyDF2eux3P",
+    "flags": {
+        "cinderfall": {
+            "mutationType": "minor",
+            "tier": "rare",
+            "slot": "Circulatory",
+            "slots": [
+                "Circulatory"
+            ],
+            "slotCost": 1,
+            "roll": "d100 — 79–80",
+            "incomplete": [
+                "level is a stub (0); mutations carry no level",
+                "price is empty; a mutation is not bought"
+            ],
+            "inferred": [
+                "system.usage"
+            ]
+        }
+    }
+}

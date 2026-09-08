@@ -1,0 +1,32 @@
+{
+    "_id": "HEEeqKWgFITORkiQ",
+    "categories": [],
+    "name": "Greenline",
+    "ownership": {
+        "default": 0
+    },
+    "pages": [
+        {
+            "_id": "an7VXiAjvJBwyW6c",
+            "category": null,
+            "image": {},
+            "name": "Greenline",
+            "sort": 100000,
+            "src": null,
+            "system": {},
+            "text": {
+                "content": "<p><em>Growth · Reclamation · The long game</em></p>        <p class=\"cc-desc\">You were taught by someone who believed the world could be brought back, and you have not yet found the evidence that finishes the argument either way. Greenline Wardens are the ones settlements send for. They are also the ones who get told, politely, to move on once the field is producing.</p>\n        <p class=\"cc-desc\">While the needle is on <strong>Green</strong>, your terrain effects cover 50% more area and your healing spells restore additional Hit Points equal to your level.</p>\n        <hr class=\"cc-divider\">\n        <div class=\"cc-effect\"><b>7th — Deep Furrow:</b> your [TERRAIN] spells can be cast one rank lower than normal.</div>\n        <div class=\"cc-effect\"><b>15th — The Standing Grove:</b> once per day, a [TERRAIN] effect you create also heals every ally standing in it to full as it takes root.</div>",
+                "format": 1
+            },
+            "title": {
+                "level": 1,
+                "show": true
+            },
+            "type": "text",
+            "video": {
+                "controls": true,
+                "volume": 0.5
+            }
+        }
+    ]
+}

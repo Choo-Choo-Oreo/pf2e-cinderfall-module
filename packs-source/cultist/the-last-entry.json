@@ -1,0 +1,57 @@
+{
+    "name": "The Last Entry",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>You alter one small, specific, recent fact about reality — no fixed mechanical formula, its scope and consequence set by the GM. You cannot cast this spell again for the rest of your life.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": ""
+        },
+        "level": {
+            "value": 10
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "unlimited"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": ""
+        },
+        "time": {
+            "value": "10 minutes"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "occult"
+            ],
+            "value": [
+                "cultist"
+            ]
+        },
+        "slug": "the-last-entry"
+    },
+    "_id": "3fpnWLf9Xc4NrDdf",
+    "flags": {
+        "cinderfall": {
+            "spellTag": "usable once ever per Cultist",
+            "listing": "10th Rank"
+        }
+    }
+}

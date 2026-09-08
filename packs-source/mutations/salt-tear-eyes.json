@@ -1,0 +1,66 @@
+{
+    "name": "Salt-Tear Eyes",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>Your eyes weep a faint mineral salt.</p><p><b>Gift —</b> Once per day, weep a pinch of true salt: a real reagent, usable as a cheap alchemical or ritual salt component. <b>Tithe —</b> −1 circumstance to Perception in bright glare or dust; your eyes never fully adjust to harsh light.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 0
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {}
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "traits": {
+            "rarity": "rare",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "salt-tear-eyes"
+    },
+    "_id": "MKzVkmivAbpVqO8k",
+    "flags": {
+        "cinderfall": {
+            "mutationType": "minor",
+            "tier": "rare",
+            "slot": "Ocular",
+            "slots": [
+                "Ocular"
+            ],
+            "slotCost": 1,
+            "roll": "d100 — 65–66",
+            "incomplete": [
+                "level is a stub (0); mutations carry no level",
+                "price is empty; a mutation is not bought"
+            ],
+            "inferred": [
+                "system.usage"
+            ]
+        }
+    }
+}

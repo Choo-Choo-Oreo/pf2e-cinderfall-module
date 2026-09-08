@@ -28,5 +28,11 @@
         },
         "slug": "cinders-remember"
     },
-    "_id": "LjPial4JKfk8EtS2"
+    "_id": "LjPial4JKfk8EtS2",
+    "flags": {
+        "cinderfall": {
+            "category": "background",
+            "sourceOwner": "backgrounds"
+        }
+    }
 }

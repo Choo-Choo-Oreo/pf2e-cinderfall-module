@@ -1,0 +1,57 @@
+{
+    "name": "Cold Arithmetic",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>A ranged spell attack roll against the target's AC as force damage is deducted without ceremony. <i>Success</i> 1d4 force damage (<b>Heightened +1d4</b> every 2 levels). <i>Critical Success</i> double damage. <i>Halving:</i> the target looks faintly aged for a moment. <i>Singularity:</i> a thumbnail of dark compresses the air around the hit. <i>Outside:</i> the wound is in a slightly wrong place relative to where you aimed.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": ""
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "60 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "1 creature"
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "divine"
+            ],
+            "value": [
+                "cantrip",
+                "reckoner"
+            ]
+        },
+        "slug": "cold-arithmetic"
+    },
+    "_id": "6FzlTWNshpRzg9TV",
+    "flags": {
+        "cinderfall": {
+            "listing": "Cantrips"
+        }
+    }
+}

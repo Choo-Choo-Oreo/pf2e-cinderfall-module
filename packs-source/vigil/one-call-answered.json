@@ -1,0 +1,55 @@
+{
+    "name": "One Call Answered",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>Every raging spirit in the area converges on a single point.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "converges over the following hour"
+        },
+        "level": {
+            "value": 9
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "miles"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "every raging spirit in the area"
+        },
+        "time": {
+            "value": "1 hour"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [],
+            "value": [
+                "focus",
+                "vigil"
+            ]
+        },
+        "slug": "one-call-answered"
+    },
+    "_id": "ZRjxS3zEN7R5bXXt",
+    "flags": {
+        "cinderfall": {
+            "listing": "The Miracle / Unmaking Ladder / Great 17th level · full pool at max cap · leaves a permanent Testament Mark"
+        }
+    }
+}

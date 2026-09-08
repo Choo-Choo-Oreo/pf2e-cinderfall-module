@@ -1,0 +1,61 @@
+{
+    "name": "Verse of Silence",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+            "save": {
+                "basic": false,
+                "statistic": "fortitude"
+            }
+        },
+        "description": {
+            "value": "<span class=\"sdesc\"><i>Failure</i> slowed 1 for 1 round. <i>Critical Failure</i> paralyzed; the target attempts a new Fortitude save at the end of its turn, ending the paralysis on a success.</span>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "1 round"
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "1 creature you have Read"
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [],
+            "value": [
+                "focus",
+                "incapacitation",
+                "plaguesworn"
+            ]
+        },
+        "slug": "stop-struggling"
+    },
+    "_id": "OceEd0wfRK8PiVeZ",
+    "flags": {
+        "cinderfall": {
+            "listing": "Verse Spells / Verse of Silence Quiet Ward — quarantine and control"
+        }
+    }
+}

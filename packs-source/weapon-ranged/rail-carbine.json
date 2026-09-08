@@ -25,12 +25,12 @@
         "quantity": 1,
         "rules": [],
         "traits": {
-            "rarity": "rare",
+            "rarity": "epic",
             "value": []
         },
         "price": {
             "value": {
-                "gp": 120
+                "gp": 12
             }
         },
         "bonus": {
@@ -62,12 +62,11 @@
     "flags": {
         "cinderfall": {
             "incomplete": [
-                "tier is 'epic'; pf2e has no epic rarity, mapped to 'rare'",
                 "level is a stub (0); the page carries no item levels",
                 "weapon category/bulk/usage stubbed; the page carries none of them",
                 "firearm range and reload stubbed; the page posts no increments"
             ],
-            "currency": "Balanced to the PF2e GP standard and denominated in Credits: 1 Credit = 1 gp. The whole list was scaled x10 from the retired scraps=sp anchor, so every relative price is unchanged from the page as authored."
+            "currency": "Balanced to the PF2e GP standard and denominated in Credits: 1 Credit = 1 gp, per currency.credits: a credit IS a gold piece and any published price reads straight across. Scraps are retired at 1:1 to Credits, so scrap-quoted prices read across unchanged too."
         }
     }
 }

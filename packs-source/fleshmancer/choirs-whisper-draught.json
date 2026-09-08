@@ -1,0 +1,64 @@
+{
+    "name": "Choir's Whisper Draught",
+    "type": "consumable",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0.1
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p><strong>Craft Cost</strong> 4 Vitae Points</p><p><strong>Activate</strong> 1 action to inject or throw</p><p><strong>Saving Throw</strong> Will</p><hr /><p>5d6 poison damage; a failed Will save adds stupefied 2 and frightened 1 for 1 minute as something else's voice crowds in.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 11
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {}
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "category": "poison",
+        "damage": null,
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "consumable",
+                "poison",
+                "fleshmancer"
+            ]
+        },
+        "usage": {
+            "value": "held-in-one-hand"
+        },
+        "uses": {
+            "autoDestroy": true,
+            "max": 1,
+            "value": 1
+        },
+        "slug": "choirs-whisper-draught"
+    },
+    "_id": "HYDYfqPW6kUH6phm",
+    "flags": {
+        "cinderfall": {
+            "vitaeCost": 4,
+            "mk": "Mk III"
+        }
+    }
+}

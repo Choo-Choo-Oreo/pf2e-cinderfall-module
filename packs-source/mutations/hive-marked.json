@@ -1,0 +1,66 @@
+{
+    "name": "Hive-Marked",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>Something in the deep biology recognizes you as kin.</p><p><b>Gift —</b> Hive-adjacent creatures hesitate before attacking you, a real, usable beat. <b>Tithe —</b> Things that hunt Hive-adjacent creatures read you as prey. The GM owns what this means. Cannot be chosen; only rolled or bargained.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 0
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {}
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "traits": {
+            "rarity": "exotic",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "hive-marked"
+    },
+    "_id": "Y0XfazNY5uDsezLL",
+    "flags": {
+        "cinderfall": {
+            "mutationType": "major",
+            "tier": "exotic",
+            "slot": "Neural",
+            "slots": [
+                "Neural"
+            ],
+            "slotCost": 1,
+            "roll": "d20 — 18",
+            "incomplete": [
+                "level is a stub (0); mutations carry no level",
+                "price is empty; a mutation is not bought"
+            ],
+            "inferred": [
+                "system.usage"
+            ]
+        }
+    }
+}

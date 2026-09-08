@@ -1,0 +1,32 @@
+{
+    "_id": "2Pd3DcZp0tlh4JVL",
+    "categories": [],
+    "name": "Blightline",
+    "ownership": {
+        "default": 0
+    },
+    "pages": [
+        {
+            "_id": "8rhr8x9MqaRCW3dp",
+            "category": null,
+            "image": {},
+            "name": "Blightline",
+            "sort": 100000,
+            "src": null,
+            "system": {},
+            "text": {
+                "content": "<p><em>Rot · Unmaking · Honest about it</em></p>        <p class=\"cc-desc\">Rot is the half of the cycle people pretend they're not standing in. Blightline Wardens do the work nobody thanks them for: collapsing a structure before it falls on its own, killing a bloom before it reaches a water table, hollowing out the thing that cannot be fought head-on.</p>\n        <p class=\"cc-desc\">While the needle is on <strong>Grey</strong>, your poison and acid damage ignores 5 points of resistance, and objects and structures you damage lose Hardness equal to how far out on Grey the needle currently sits.</p>\n        <hr class=\"cc-divider\">\n        <div class=\"cc-effect\"><b>7th — Nothing Wasted:</b> when a creature dies within 30 feet of you, move the needle one step toward Grey without casting.</div>\n        <div class=\"cc-effect\"><b>15th — What's Underneath:</b> once per day, reduce a non-magical structure of any size to rubble over one minute.</div>",
+                "format": 1
+            },
+            "title": {
+                "level": 1,
+                "show": true
+            },
+            "type": "text",
+            "video": {
+                "controls": true,
+                "volume": 0.5
+            }
+        }
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "name": "Flinch-Twin",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>Your body sometimes reacts to a threat a beat before you consciously do, and it isn't always in sync with what you meant.</p><p><b>Gift —</b> The same reflex occasionally saves you for real: once per day, if you'd be hit by an attack you didn't see coming, reroll your Reflex save against it. <b>Tithe —</b> Once per encounter, the GM may have you flinch away from something harmless (a shadow, a loud noise), costing you your reaction that round.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 0
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {}
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "traits": {
+            "rarity": "rare",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "flinch-twin"
+    },
+    "_id": "1MNLVIsvnB953xfq",
+    "flags": {
+        "cinderfall": {
+            "mutationType": "scar",
+            "tier": "rare",
+            "slot": "Neural",
+            "slots": [
+                "Neural"
+            ],
+            "slotCost": 1,
+            "roll": "d12 — 12",
+            "incomplete": [
+                "level is a stub (0); mutations carry no level",
+                "price is empty; a mutation is not bought"
+            ],
+            "inferred": [
+                "system.usage"
+            ]
+        }
+    }
+}

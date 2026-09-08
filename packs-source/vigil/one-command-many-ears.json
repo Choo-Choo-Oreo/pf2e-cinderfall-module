@@ -1,0 +1,61 @@
+{
+    "name": "One Command, Many Ears",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+            "save": {
+                "basic": false,
+                "statistic": "will"
+            }
+        },
+        "description": {
+            "value": "<p>As One Word, but every qualifying enemy in the area must reckon with the same single-word imperative at once. <i>Failure</i> the target spends its first action next turn obeying. <i>Critical Failure</i> the target spends its entire turn obeying. <i>Success</i> no effect. Not every crowd breaks the same way — some kneel, some flee, some simply stop — but for one action, none of them do what they meant to.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "1 round"
+        },
+        "level": {
+            "value": 8
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "60-foot burst"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "all enemies in the area who can hear you"
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "divine"
+            ],
+            "value": [
+                "vigil"
+            ]
+        },
+        "slug": "one-command-many-ears"
+    },
+    "_id": "73AMaxAJkhaygsql",
+    "flags": {
+        "cinderfall": {
+            "listing": "8th Rank"
+        }
+    }
+}

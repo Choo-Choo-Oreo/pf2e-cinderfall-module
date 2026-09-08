@@ -1,0 +1,61 @@
+{
+    "name": "The Last Word Spoken Kindly",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+            "save": {
+                "basic": false,
+                "statistic": "will"
+            }
+        },
+        "description": {
+            "value": "<i>Critical Success</i> the target is unaffected. <i>Success</i> the target may act normally but feels the pull of the working all the same. <i>Failure</i> the target cannot attack, cast harmful spells, or otherwise act violently for 1 round, and any ongoing panicked flight ends. <i>Critical Failure</i> as failure, and the target also can't take hostile actions on its following turn unless it or an ally is directly attacked first. Nobody's harmed. Nobody's compelled forever. It just, for one round, gets a little easier for everyone present to put the weapon down."
+        },
+        "duration": {
+            "sustained": false,
+            "value": "1 round"
+        },
+        "level": {
+            "value": 10
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "120-foot burst"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "all creatures in the area, friend, foe, and bystander alike"
+        },
+        "time": {
+            "value": "3"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "divine"
+            ],
+            "value": [
+                "vigil"
+            ]
+        },
+        "slug": "the-last-word-spoken-kindly"
+    },
+    "_id": "pIXnlp7jV3Oyg0ij",
+    "flags": {
+        "cinderfall": {
+            "listing": "10th Rank"
+        }
+    }
+}

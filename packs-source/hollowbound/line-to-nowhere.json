@@ -1,0 +1,57 @@
+{
+    "name": "Line to Nowhere",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>Hand a whispered message to whichever dead thing is closest to your destination. The target hears it, in a voice they recognize as yours, a few minutes later — reaching someone you've met, on the same stretch of ground.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "delivered 1d4 minutes later"
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "special (GM's call — anywhere on the same stretch of ground)"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "1 creature you've met"
+        },
+        "time": {
+            "value": "1"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "occult"
+            ],
+            "value": [
+                "cantrip",
+                "hollowbound"
+            ]
+        },
+        "slug": "line-to-nowhere"
+    },
+    "_id": "fc3geV4TlG0xTaoD",
+    "flags": {
+        "cinderfall": {
+            "listing": "Cantrips"
+        }
+    }
+}

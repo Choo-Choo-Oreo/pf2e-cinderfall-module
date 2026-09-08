@@ -1,0 +1,61 @@
+{
+    "name": "Ash Over the Threshold",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+            "save": {
+                "basic": false,
+                "statistic": "will"
+            }
+        },
+        "description": {
+            "value": "<p>As The Ring Unbroken, at the scale of an entire settlement's worth of ground: undead, possessed, and raging-spirit-touched creatures attempting to enter must succeed at a Will save against your spell DC or be turned away for the duration. <i>Read As — Unanswered: a town remembers what it feels like to be watched over. Choir of Ash: a town learns what it feels like to be spared, and wonders by whom.</i></p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "24 hours"
+        },
+        "level": {
+            "value": 10
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "up to a full settlement (the GM sets the fixed radius, typically several hundred feet to a few miles)"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": ""
+        },
+        "time": {
+            "value": "1 hour"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "divine"
+            ],
+            "value": [
+                "vigil"
+            ]
+        },
+        "slug": "ash-over-the-threshold"
+    },
+    "_id": "UdcJapZQmRYkrAmy",
+    "flags": {
+        "cinderfall": {
+            "listing": "10th Rank"
+        }
+    }
+}

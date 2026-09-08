@@ -1,0 +1,32 @@
+{
+    "_id": "efRkEyVXjpf3e6Jt",
+    "categories": [],
+    "name": "The Iron Vow",
+    "ownership": {
+        "default": 0
+    },
+    "pages": [
+        {
+            "_id": "YYn268lFSEBA7UZn",
+            "category": null,
+            "image": {},
+            "name": "The Iron Vow",
+            "sort": 100000,
+            "src": null,
+            "system": {},
+            "text": {
+                "content": "<p><em>Unwritten Veteran's Creed · Cross-Faction</em></p>      <p class=\"cc-desc\">No chapter house, no oath ceremony, no enforcement beyond the fact that everyone who's earned it recognizes everyone else who has. The Iron Vow is just three things, passed soldier to soldier regardless of which banner either of them currently flies: never let a green recruit die alone if you can put your body between them and it. Never trust a contract that pays better than the job should. Always carry one piece of gear that isn't yours — a reminder, every time your hand closes on it, that the person who carried it first didn't get to keep carrying it. Deadhands who've kept the Vow recognize each other by the tally-notches filed into a stock or a pommel, and by the specific, unhurried way they check a room before anyone younger does.</p>",
+                "format": 1
+            },
+            "title": {
+                "level": 1,
+                "show": true
+            },
+            "type": "text",
+            "video": {
+                "controls": true,
+                "volume": 0.5
+            }
+        }
+    ]
+}

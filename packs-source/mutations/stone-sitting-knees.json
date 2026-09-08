@@ -1,0 +1,66 @@
+{
+    "name": "Stone-Sitting Knees",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>The joints lock comfortably, and they like it there.</p><p><b>Gift —</b> Hold a crouch, kneel or brace indefinitely without fatigue; +1 circumstance to Athletics to hold position against forced movement while braced. <b>Tithe —</b> Getting up is slow. The first time each encounter you stand from prone or release a brace, it costs an extra action.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 0
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {}
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "traits": {
+            "rarity": "uncommon",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "stone-sitting-knees"
+    },
+    "_id": "WY394M4jk8Jfx5jW",
+    "flags": {
+        "cinderfall": {
+            "mutationType": "minor",
+            "tier": "uncommon",
+            "slot": "Legs",
+            "slots": [
+                "Legs"
+            ],
+            "slotCost": 1,
+            "roll": "d100 — 55–56",
+            "incomplete": [
+                "level is a stub (0); mutations carry no level",
+                "price is empty; a mutation is not bought"
+            ],
+            "inferred": [
+                "system.usage"
+            ]
+        }
+    }
+}

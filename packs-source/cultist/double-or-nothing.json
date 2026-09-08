@@ -1,0 +1,56 @@
+{
+    "name": "Double or Nothing",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p><strong>Trigger</strong> you or a creature within 30 feet just rolled a check</p><hr /><p>Force a reroll of that check using the new result even if it's worse. If you forced your own reroll and it came out worse, you clear your entire Zeal pool as the Croupier collects immediately — no Backlash roll needed, the debt's just paid.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": ""
+        },
+        "level": {
+            "value": 4
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": ""
+        },
+        "time": {
+            "value": "reaction"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [],
+            "value": [
+                "cultist",
+                "focus"
+            ]
+        },
+        "slug": "double-or-nothing"
+    },
+    "_id": "fZe32ufccX4LyTpr",
+    "flags": {
+        "cinderfall": {
+            "spellTag": "Rite · 7th",
+            "listing": "Bargain Spells / The Croupier chance · reversal · cruel fairness"
+        }
+    }
+}

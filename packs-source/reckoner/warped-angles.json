@@ -1,0 +1,57 @@
+{
+    "name": "Warped Angles",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>For 1 round you ignore facing, flanking requirements, and the normal requirement that movement follow a straight, unobstructed line.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "1 round"
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "self"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": ""
+        },
+        "time": {
+            "value": "1"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [],
+            "value": [
+                "focus",
+                "reckoner"
+            ]
+        },
+        "slug": "warped-angles"
+    },
+    "_id": "ovQjUCwO0SAtuy07",
+    "flags": {
+        "cinderfall": {
+            "focusCost": "1",
+            "spellTag": "Warped Angles",
+            "listing": "Aspect Signatures / The Outside a direction, not a law or a mass"
+        }
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "name": "Green Season",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p><strong>Area</strong> 1 acre</p><hr /><p>A radiation-scarred acre becomes safe and fertile for the duration.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "one full season"
+        },
+        "level": {
+            "value": 5
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "touch (you must stand within the area)"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": ""
+        },
+        "time": {
+            "value": "1 hour"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [],
+            "value": [
+                "focus",
+                "vigil"
+            ]
+        },
+        "slug": "green-season"
+    },
+    "_id": "NpneYixDSNxoC475",
+    "flags": {
+        "cinderfall": {
+            "listing": "The Miracle / Unmaking Ladder / Greater 9th level · full current pool"
+        }
+    }
+}

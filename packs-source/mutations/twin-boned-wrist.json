@@ -1,0 +1,66 @@
+{
+    "name": "Twin-Boned Wrist",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>An extra small bone in the wrist, inherited-shaped.</p><p><b>Gift —</b> +1 circumstance to Athletics checks to Grapple or resist being Disarmed. <b>Tithe —</b> The wrist doesn't rotate as far: fine two-handed work (lockpicking, surgery, instruments) takes a −1 circumstance penalty.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 0
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {}
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "traits": {
+            "rarity": "rare",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "twin-boned-wrist"
+    },
+    "_id": "1QGOVKJiwNfiS8z3",
+    "flags": {
+        "cinderfall": {
+            "mutationType": "minor",
+            "tier": "rare",
+            "slot": "Arm",
+            "slots": [
+                "Arm"
+            ],
+            "slotCost": 1,
+            "roll": "d100 — 71–72",
+            "incomplete": [
+                "level is a stub (0); mutations carry no level",
+                "price is empty; a mutation is not bought"
+            ],
+            "inferred": [
+                "system.usage"
+            ]
+        }
+    }
+}

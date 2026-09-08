@@ -1,0 +1,60 @@
+{
+    "name": "Keep Wailing",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+            "save": {
+                "basic": false,
+                "statistic": "will"
+            }
+        },
+        "description": {
+            "value": "<p>The target attempts a Will save, taking a −2 circumstance penalty to it if already off-guard. <i>Success</i> no effect. <i>Failure</i> frightened 2. <i>Critical Failure</i> frightened 3.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "1 minute"
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "1 creature"
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [],
+            "value": [
+                "focus",
+                "hollowbound"
+            ]
+        },
+        "slug": "keep-wailing"
+    },
+    "_id": "XhFvlbgMyLiP5hfJ",
+    "flags": {
+        "cinderfall": {
+            "listing": "Covenant Vessel Spells / Wailing Debt restless dead · highest power &amp; risk"
+        }
+    }
+}

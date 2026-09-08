@@ -1,0 +1,61 @@
+{
+    "name": "Given Weight",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+            "save": {
+                "basic": false,
+                "statistic": "will"
+            }
+        },
+        "description": {
+            "value": "<i>Failure</i> the target takes a −1 status penalty to attack rolls and skill checks for its next 3 actions, as the weight of what it's doing settles onto it all at once. <i>Critical Failure</i> the penalty is −2 instead. <i>Success</i> no effect. <i>Read As — Unanswered: the creeping arrival of a guilty conscience. Choir of Ash: the dawning understanding that they picked the wrong thing to stand against.</i>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "their next 3 actions"
+        },
+        "level": {
+            "value": 3
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "60 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "up to 3 creatures"
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "divine"
+            ],
+            "value": [
+                "vigil"
+            ]
+        },
+        "slug": "given-weight"
+    },
+    "_id": "QshvDDEn8XXxQCtD",
+    "flags": {
+        "cinderfall": {
+            "listing": "3rd Rank"
+        }
+    }
+}

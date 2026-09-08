@@ -1,0 +1,66 @@
+{
+    "name": "Ballast Heels",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>The heel bone sets dense and low, like something meant to stay put.</p><p><b>Gift —</b> +1 circumstance bonus to Athletics and Acrobatics to resist being Shoved, Tripped, or otherwise moved while you're standing on solid ground. <b>Tithe —</b> You do not float. −2 circumstance to Athletics to Swim, and you sink fast in mud, silt, or ash-drift.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 0
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {}
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "ballast-heels"
+    },
+    "_id": "w3s6Ng5McCbZjatQ",
+    "flags": {
+        "cinderfall": {
+            "mutationType": "minor",
+            "tier": "common",
+            "slot": "Legs",
+            "slots": [
+                "Legs"
+            ],
+            "slotCost": 1,
+            "roll": "d100 — 15–16",
+            "incomplete": [
+                "level is a stub (0); mutations carry no level",
+                "price is empty; a mutation is not bought"
+            ],
+            "inferred": [
+                "system.usage"
+            ]
+        }
+    }
+}

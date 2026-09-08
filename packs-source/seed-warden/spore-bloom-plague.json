@@ -1,0 +1,65 @@
+{
+    "name": "Spore-Bloom Plague",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": {
+            "type": "burst",
+            "value": 20
+        },
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+            "save": {
+                "basic": true,
+                "statistic": "fortitude"
+            }
+        },
+        "description": {
+            "value": "<p>6d6 poison. A creature that critically fails becomes a vector: at the start of each of its turns it repeats the save against creatures adjacent to it. The vector effect ends when the creature succeeds at one of these saves, or after 1 minute.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "1 minute"
+        },
+        "level": {
+            "value": 5
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "60 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": ""
+        },
+        "time": {
+            "value": "3"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "primal"
+            ],
+            "value": [
+                "seed-warden"
+            ]
+        },
+        "slug": "spore-bloom-plague"
+    },
+    "_id": "KaA3zb5LJPlXB3Qv",
+    "flags": {
+        "cinderfall": {
+            "spellTag": "Requires Grey 2 · Bloom: Grey +1",
+            "listing": "5th Rank"
+        }
+    }
+}

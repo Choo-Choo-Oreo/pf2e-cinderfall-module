@@ -1,0 +1,56 @@
+{
+    "name": "Unmake the Local",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>The target stops having been there. It is not destroyed — the space simply reads as empty, and always did. Anything resting on it falls. <i>Signal</i> up to 20 feet on a side.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "instantaneous"
+        },
+        "level": {
+            "value": 4
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "1 unattended object or structure up to 10 feet on a side"
+        },
+        "time": {
+            "value": "3"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [],
+            "value": [
+                "focus",
+                "paradise-touched"
+            ]
+        },
+        "slug": "unmake-the-local"
+    },
+    "_id": "QCXruSwXieoYEShb",
+    "flags": {
+        "cinderfall": {
+            "spellTag": "7th · 2 Bandwidth",
+            "listing": "Glimpses / The Render Paradise building the world it wants"
+        }
+    }
+}

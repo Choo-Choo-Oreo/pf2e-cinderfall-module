@@ -1,0 +1,57 @@
+{
+    "name": "Nobody Else's Rules",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p><strong>Focus</strong> 1</p><hr /><p>At the moment of casting, name one specific fear, compulsion, or institutional-authority effect out loud. You are immune to that named effect for the duration — this doesn't grant broad immunity, only to the one thing you named. The Unwritten Oath keeps no fine print; you have to say what you're refusing.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "1 minute"
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "self"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": ""
+        },
+        "time": {
+            "value": "1"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [],
+            "value": [
+                "concentrate",
+                "focus",
+                "sworn"
+            ]
+        },
+        "slug": "nobody-elses-rules"
+    },
+    "_id": "eHayZFn4tXg4F5fp",
+    "flags": {
+        "cinderfall": {
+            "spellTag": "Vow · 1st",
+            "listing": "The Unwritten Oath Free Oath"
+        }
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "_id": "0BOgkQRtsHKIpdM5",
+    "categories": [],
+    "name": "The Foreclosure",
+    "ownership": {
+        "default": 0
+    },
+    "pages": [
+        {
+            "_id": "ijvVXlRX6DL5uVKX",
+            "category": null,
+            "image": {},
+            "name": "The Foreclosure",
+            "sort": 100000,
+            "src": null,
+            "system": {},
+            "text": {
+                "content": "<p><em>Heretical Splinter · Small, Quiet, Unforgiven</em></p>        <p class=\"cc-desc\">A splinter who read the Grey Mile as proof of concept rather than warning — decay isn't merely provable, it's directable, and a mortal frame carried far enough into the Litany can point that direction somewhere on purpose. The Foreclosure frames this as mercy: a plague pit collapsed to dust in an afternoon instead of a generation, a dying region's suffering shortened by force. The Long Chapter calls it exactly what the Grey Mile already proved it becomes — an amputation dressed as medicine — and has quietly expelled every Foreclosure member it's ever caught mid-working.</p>",
+                "format": 1
+            },
+            "title": {
+                "level": 1,
+                "show": true
+            },
+            "type": "text",
+            "video": {
+                "controls": true,
+                "volume": 0.5
+            }
+        }
+    ]
+}

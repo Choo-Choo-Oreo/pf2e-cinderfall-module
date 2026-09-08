@@ -1,0 +1,55 @@
+{
+    "name": "Kindled Edge",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>The next time the weapon hits this turn, it deals an additional 2d6 fire damage.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "until the end of your turn"
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "touch"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "1 weapon"
+        },
+        "time": {
+            "value": "1"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [],
+            "value": [
+                "focus",
+                "vigil"
+            ]
+        },
+        "slug": "kindled-edge"
+    },
+    "_id": "2LMckhGv0A7EvCIo",
+    "flags": {
+        "cinderfall": {
+            "listing": "The Miracle / Unmaking Ladder / Lesser 1st level · 1 Grace or Cinder"
+        }
+    }
+}

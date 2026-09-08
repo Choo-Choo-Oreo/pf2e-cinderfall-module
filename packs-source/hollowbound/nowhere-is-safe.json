@@ -1,0 +1,56 @@
+{
+    "name": "Nowhere Is Safe",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>Learn a known target's exact current location — unblockable, save for a ward built specifically to stop the dead from looking.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": ""
+        },
+        "level": {
+            "value": 9
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "unlimited (continent-wide)"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "1 creature (requires an object of the target's or deep personal knowledge)"
+        },
+        "time": {
+            "value": "10 minutes"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "occult"
+            ],
+            "value": [
+                "hollowbound"
+            ]
+        },
+        "slug": "nowhere-is-safe"
+    },
+    "_id": "nn3y4f1Jd98xN8jP",
+    "flags": {
+        "cinderfall": {
+            "listing": "9th Rank"
+        }
+    }
+}

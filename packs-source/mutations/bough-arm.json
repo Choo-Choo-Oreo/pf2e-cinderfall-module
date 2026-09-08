@@ -1,0 +1,67 @@
+{
+    "name": "Bough-Arm",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>Bark and branch structure has grown through one forearm, and set.</p><p><b>Gift —</b> The arm is a shield: once per day, Raise a Shield as a free action with Hardness 5. <b>Tithe —</b> It occupies both the Arm and Dermal slots on that side, and it doesn't bend the way an arm should: permanent −1 circumstance to two-handed weapon attacks and to Athletics to Swim.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 0
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {}
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "traits": {
+            "rarity": "uncommon",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "bough-arm"
+    },
+    "_id": "D7uoIV7KceG2wmTF",
+    "flags": {
+        "cinderfall": {
+            "mutationType": "minor",
+            "tier": "uncommon",
+            "slot": "Arm + Dermal (Multi-Slot)",
+            "slots": [
+                "Arm",
+                "Dermal"
+            ],
+            "slotCost": 2,
+            "roll": "d100 — 63–64",
+            "incomplete": [
+                "level is a stub (0); mutations carry no level",
+                "price is empty; a mutation is not bought"
+            ],
+            "inferred": [
+                "system.usage"
+            ]
+        }
+    }
+}

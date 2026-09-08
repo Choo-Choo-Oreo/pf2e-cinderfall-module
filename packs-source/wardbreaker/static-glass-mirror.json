@@ -1,0 +1,57 @@
+{
+    "name": "Static-Glass Mirror",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p><strong>Frequency</strong> 2/day (+1 at 5th, 9th, 13th, 17th)</p><hr /><p>For the duration, you automatically perceive the target's true form and true location — no check required, through disguise, invisibility, or possession. At any point during that minute, you can spend this casting to trigger another Break the Anchor effect you have access to against this target at the Mirror's 60-foot range instead of that effect's normal melee or emanation range, this one time.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "1 minute or until expended"
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "60 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "1 Named creature"
+        },
+        "time": {
+            "value": "1"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "occult"
+            ],
+            "value": [
+                "wardbreaker"
+            ]
+        },
+        "slug": "static-glass-mirror"
+    },
+    "_id": "EKh2cWg1DZasu0UM",
+    "flags": {
+        "cinderfall": {
+            "spellTag": "Innate",
+            "listing": "Break the Anchor, by Ward"
+        }
+    }
+}

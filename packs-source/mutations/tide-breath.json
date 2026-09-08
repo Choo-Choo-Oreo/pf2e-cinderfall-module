@@ -1,0 +1,66 @@
+{
+    "name": "Tide Breath",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>Fluttering slits along the ribs, tide-fed.</p><p><b>Gift —</b> Breathe water for 10 minutes per Con modifier per day. <b>Tithe —</b> Dry climates parch you: double your water needs, or take fatigued on a forced march through one.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 0
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {}
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "tide-breath"
+    },
+    "_id": "W6I27MdboMfW3PP8",
+    "flags": {
+        "cinderfall": {
+            "mutationType": "minor",
+            "tier": "common",
+            "slot": "Viscera",
+            "slots": [
+                "Viscera"
+            ],
+            "slotCost": 1,
+            "roll": "d100 — 07–08",
+            "incomplete": [
+                "level is a stub (0); mutations carry no level",
+                "price is empty; a mutation is not bought"
+            ],
+            "inferred": [
+                "system.usage"
+            ]
+        }
+    }
+}

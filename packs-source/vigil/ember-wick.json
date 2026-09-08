@@ -1,0 +1,57 @@
+{
+    "name": "Ember-Wick",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>A point of steady light kindles at your fingertip, on an object, or hovering nearby, shedding light in a 20-foot radius, bright enough to read or work by and no brighter. It doesn't gutter in wind or rain. <i>Read As — Unanswered: a candle-flame, warm and plain. Choir of Ash: a coal-red ember that never quite goes out, like something still banked under ash.</i></p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "until dismissed"
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "touch, or 30 feet to affect an unattended object"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": ""
+        },
+        "time": {
+            "value": "1"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "divine"
+            ],
+            "value": [
+                "cantrip",
+                "vigil"
+            ]
+        },
+        "slug": "ember-wick"
+    },
+    "_id": "2NK3IOKlTfkUadTu",
+    "flags": {
+        "cinderfall": {
+            "listing": "Cantrips"
+        }
+    }
+}
