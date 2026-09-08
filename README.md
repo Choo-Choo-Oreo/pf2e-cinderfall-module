@@ -167,6 +167,47 @@ Note the key is `PF2E.Actor.Creature.Language.common`, NOT `PF2E.TraitCommon` --
 the latter is the common *rarity* trait, and renaming it would relabel every
 common item in the game.
 
+### Currency
+
+The coin ladder is renamed the same way `common` is -- by shadowing PF2e's own
+i18n keys from `lang/en.json`, not by adding denominations. The setting has
+exactly one currency (`site/data/cards/journals/currency/currency.credits.json`:
+"One credit is one gold piece"), so the four coins are tiers of that one
+currency, not four currencies:
+
+| PF2e | Cinderfall | abbrev | value    |
+|------|------------|--------|----------|
+| pp   | Plate      | `pp`   | 10 cr    |
+| gp   | Credit     | `cr`   | 1 cr     |
+| sp   | Scrip      | `sp`   | 0.1 cr   |
+| cp   | Chip       | `cp`   | 0.01 cr  |
+
+Three of the four abbreviations survive as true initials of the new names, so
+only `gp` -> `cr` actually changes shape on a sheet. Nothing about storage
+moves: prices stay `{"gp": N}`, `Coins`/`DENOMINATION_RATES` are untouched, and
+every published PF2e price still reads straight across. This is a label change
+only.
+
+Two keys per denomination, both flat dotted strings in `lang/en.json`:
+`PF2E.Currency.<d>` (the long name) and `PF2E.CurrencyAbbreviations.<d>` (what
+`Coins#toString` prints, so it is the one on nearly every price in the game).
+`CONFIG.PF2E`'s currency map stores the *key* (`pp: "PF2E.Currency.pp"` in
+`pf2e.mjs`), not the string, so overriding the key covers both surfaces at once.
+
+**Two label surfaces this does not reach.** The coin *items* in
+`Compendium.pf2e.equipment-srd` are still named "Gold Pieces" etc. -- pack
+document names are not i18n'd. And Item Piles ships its own pf2e integration
+(`modules/itempiles-pf2e/module.js`) that registers four item-backed currencies
+via `game.itempiles.API.addSystemIntegration`, each with its own literal
+`abbreviation` (`"{#}GP"`) and `exchangeRate` (gp is `primary: true`,
+`exchangeRate: 1`). Its labels come from that array, not from PF2e's i18n, so a
+complete rename means overriding the Item Piles config too. Not done here.
+
+`tests/currency-labels.test.mjs` covers the data: every denomination renamed, no
+two sharing a name or abbreviation, no vanilla metal left through, and the keys
+written flat rather than as a nested `PF2E` object (which Foundry would
+deep-merge into a sibling branch and override nothing).
+
 ### Language rarity
 
 Rarity has no document to ride in -- PF2e has no language Item, so unlike

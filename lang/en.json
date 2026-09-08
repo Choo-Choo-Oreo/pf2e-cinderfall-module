@@ -8,5 +8,13 @@
       "Exotic": "Exotic"
     }
   },
+  "PF2E.Currency.pp": "Plate",
+  "PF2E.Currency.gp": "Credit",
+  "PF2E.Currency.sp": "Scrip",
+  "PF2E.Currency.cp": "Chip",
+  "PF2E.CurrencyAbbreviations.pp": "pp",
+  "PF2E.CurrencyAbbreviations.gp": "cr",
+  "PF2E.CurrencyAbbreviations.sp": "sp",
+  "PF2E.CurrencyAbbreviations.cp": "cp",
   "PF2E.Actor.Creature.Language.common": "Common Cant"
 }
