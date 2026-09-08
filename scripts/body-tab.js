@@ -63,6 +63,20 @@ const TAB_KEY = "cinderfall-body";
  * system) rather than piggybacking on Feats.
  */
 
+/**
+ * Add a supplied slot to a bag, merging case-insensitively.
+ *
+ * Two spellings of one key ("dermal" from a pre-ruling embedded copy, "Dermal"
+ * from a current one) would otherwise each build their own row, and since both
+ * resolve to the same bucket, the SAME item renders in both -- measured live as
+ * a two-slot item appearing in three rows. First spelling seen wins the label.
+ */
+function addSlot(bag, key, count) {
+  const k = String(key).toLowerCase();
+  const existing = Object.keys(bag).find((p) => p.toLowerCase() === k) ?? key;
+  bag[existing] = (bag[existing] ?? 0) + Number(count || 0);
+}
+
 function collectSlotCounts(actor) {
   const bodyParts = {};
   const bodyWhole = {};
@@ -71,12 +85,8 @@ function collectSlotCounts(actor) {
   for (const item of actor.items) {
     const cf = item.flags?.cinderfall;
     if (!cf) continue;
-    for (const [key, count] of Object.entries(cf.bodyParts ?? {})) {
-      bodyParts[key] = (bodyParts[key] ?? 0) + Number(count || 0);
-    }
-    for (const [key, count] of Object.entries(cf.bodyWhole ?? {})) {
-      bodyWhole[key] = (bodyWhole[key] ?? 0) + Number(count || 0);
-    }
+    for (const [key, count] of Object.entries(cf.bodyParts ?? {})) addSlot(bodyParts, key, count);
+    for (const [key, count] of Object.entries(cf.bodyWhole ?? {})) addSlot(bodyWhole, key, count);
     inlays += Number(cf.inlays?.capacity || 0);
   }
   return { bodyParts, bodyWhole, inlays };

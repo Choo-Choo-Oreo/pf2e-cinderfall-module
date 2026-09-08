@@ -194,4 +194,23 @@ ok(() => {
   assert.ok(buildPanelHTML(actor).includes("Slow-Clot"), "it must still be rendered somewhere");
 });
 
+// 11. Two spellings of one supplied key must not build two rows. Measured
+//     live: an actor carrying both a pre-ruling and a current body block
+//     supplied "dermal" and "Dermal", and a two-slot item rendered in three
+//     rows -- the same item, twice, in what looks like two different slots.
+ok(() => {
+  const old = { id: "o", name: "old block", img: "", flags: { cinderfall: {
+    bodyParts: { hands: 2 }, bodyWhole: { dermal: 1 }, inlays: { capacity: 3 } } } };
+  const now = { id: "n", name: "new block", img: "", flags: { cinderfall: {
+    bodyParts: { Arm: 1 }, bodyWhole: { Dermal: 1 }, inlays: { capacity: 0 } } } };
+  const aug = item("b1", "Bough-Arm", {
+    slot: "Arm + Dermal (Multi-Slot)", slots: ["Arm", "Dermal"], slotCost: 2 });
+  const actor = { items: [old, now, aug] };
+  const counts = collectSlotCounts(actor);
+  assert.equal(Object.keys(counts.bodyWhole).length, 1,
+    `"dermal" and "Dermal" must merge into one slot, got ${Object.keys(counts.bodyWhole).join(", ")}`);
+  const rows = (buildPanelHTML(actor).match(/data-action="edit-item" data-item-id="b1"/g) ?? []).length;
+  assert.equal(rows, 2, "a two-slot item must occupy exactly two rows");
+});
+
 console.log(`body slots: ${checks}/${checks} checks passed`);
