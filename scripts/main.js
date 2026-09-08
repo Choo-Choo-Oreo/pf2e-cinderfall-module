@@ -219,9 +219,31 @@ const CINDERFALL_COIN_LABELS = {
 
 // exchangeRate is deliberately absent. A secondary currency that carries one
 // is convertible, and "no posted rate" is the whole point of a mark.
+//
+// ONE denomination, by owner ruling 2026-09-07: "the Butcher's meant to have
+// one static currency". The shipped set is Bit / Byte / Credit / Packet (the
+// four coins above) plus Mark, and nothing else. A "Plate" worth 100 marks
+// existed briefly and is archived at packs-source/equipment/_retired/plate.json
+// -- a second denomination implies a rate between the two, which is the one
+// thing a mark is not supposed to have.
 const CINDERFALL_MARKS = [
-  { item: "Plate", abbreviation: "{#}pl" },
   { item: "Mark", abbreviation: "{#}mk" },
+];
+
+// Secondary currencies this module registered in a past version and no longer
+// ships. The stamp alone cannot retire one: it only gates whether the hook
+// runs, and the hook only ever pushes. Without this, Plate would sit in the
+// world's secondaryCurrencies forever, priced on every merchant sheet.
+//
+// Matched on name AND abbreviation, not on the uuid. The obvious guard -- only
+// pull an entry pointing into our own compendium -- looked tighter and was
+// wrong: the live world's entries pointed at WORLD items (Item.Lb3pogx...),
+// left over from an earlier A/B test of where Item Piles will resolve a
+// currency from, so a uuid guard would have retired nothing and said it had.
+// name+abbreviation is the pair this module actually wrote, and a GM's own
+// "Plate" under a different abbreviation survives it.
+const CINDERFALL_RETIRED_MARKS = [
+  { item: "Plate", abbreviation: "{#}pl" },
 ];
 
 async function resolveEquipmentUuid(name) {
@@ -238,7 +260,7 @@ Hooks.once("ready", async () => {
   if (!game.modules.get("item-piles")?.active) return;
   if (game.system.id !== "pf2e") return;
 
-  const stamp = JSON.stringify({ CINDERFALL_COIN_LABELS, CINDERFALL_MARKS, v: 2 });
+  const stamp = JSON.stringify({ CINDERFALL_COIN_LABELS, CINDERFALL_MARKS, CINDERFALL_RETIRED_MARKS, v: 3 });
   if (game.settings.get(MODULE_ID, "itemPilesCurrencyStamp") === stamp) return;
 
   // --- 1. relabel the four coins -------------------------------------------
@@ -262,7 +284,17 @@ Hooks.once("ready", async () => {
   );
   const added = [];
   const repointed = [];
+  const retired = [];
   let incomplete = false;
+
+  // Retire first, so a name that moved from shipped to retired cannot be both.
+  for (const old of CINDERFALL_RETIRED_MARKS) {
+    const i = secondary.findIndex((s) => s.name === old.item && s.abbreviation === old.abbreviation);
+    if (i === -1) continue;
+    secondary.splice(i, 1);
+    retired.push(old.item);
+  }
+
   for (const mark of CINDERFALL_MARKS) {
     const existing = secondary.find((s) => s.name === mark.item);
     const uuid = await resolveEquipmentUuid(mark.item);
@@ -297,8 +329,9 @@ Hooks.once("ready", async () => {
   }
 
   if (renamed.length) await game.settings.set("item-piles", "currencies", coins);
-  if (added.length || repointed.length) {
+  if (added.length || repointed.length || retired.length) {
     await game.settings.set("item-piles", "secondaryCurrencies", secondary);
+    if (retired.length) console.log(`${MODULE_ID} | retired currencies`, retired);
     if (repointed.length) console.log(`${MODULE_ID} | repointed stale currency uuids`, repointed);
   }
 
@@ -313,7 +346,7 @@ Hooks.once("ready", async () => {
   } else {
     await game.settings.set(MODULE_ID, "itemPilesCurrencyStamp", stamp);
   }
-  console.log(`${MODULE_ID} | item-piles currencies -- renamed:`, renamed, "secondary:", added);
+  console.log(`${MODULE_ID} | item-piles currencies -- renamed:`, renamed, "secondary:", added, "retired:", retired);
 });
 
 /**
@@ -393,15 +426,35 @@ Hooks.once("ready", async () => {
   // the sidebar agree with the sheets. Guarded because it is not a documented
   // surface -- if a Foundry version rebuilds the index this simply stops working
   // and nothing else breaks.
+  //
+  // Two things this has to get right, both measured live 2026-09-07:
+  //
+  //  - `pack.index` is EMPTY at ready for a compendium nobody has opened yet.
+  //    The first version patched it there and reported success having renamed
+  //    nothing; the four coins read "Platinum Pieces" etc. on the next look.
+  //    So: await getIndex() first, which is what actually populates it.
+  //  - getIndex() REBUILDS the index from disk whenever it is called with
+  //    fields it has not cached (pf2e's compendium browser does exactly this),
+  //    which throws the rename away again. A one-shot patch cannot hold. So the
+  //    method is wrapped and the rename re-applied after every rebuild.
   try {
     const pack = game.packs.get("pf2e.equipment-srd");
-    if (pack?.index) {
-      let n = 0;
-      for (const [id, renamed] of Object.entries(CINDERFALL_COIN_PACK_IDS)) {
-        const entry = pack.index.get(id);
-        if (entry && entry.name !== renamed) { entry.name = renamed; n += 1; }
+    if (pack) {
+      const relabel = () => {
+        let n = 0;
+        for (const [id, renamed] of Object.entries(CINDERFALL_COIN_PACK_IDS)) {
+          const entry = pack.index?.get(id);
+          if (entry && entry.name !== renamed) { entry.name = renamed; n += 1; }
+        }
+        return n;
+      };
+      if (!pack[`${MODULE_ID}-indexPatched`]) {
+        const original = pack.getIndex.bind(pack);
+        pack.getIndex = async (...args) => { const index = await original(...args); relabel(); return index; };
+        pack[`${MODULE_ID}-indexPatched`] = true;
       }
-      if (n) console.log(`${MODULE_ID} | relabelled ${n} coin entries in the pf2e compendium index`);
+      await pack.getIndex();
+      console.log(`${MODULE_ID} | coin entries relabelled in the pf2e compendium index; ${relabel()} still stale after`);
     }
   } catch (err) {
     console.warn(`${MODULE_ID} | could not relabel the compendium index`, err);

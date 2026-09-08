@@ -236,17 +236,38 @@ live in `flags["item-piles"].item.prices` -- an array of price *groups*
 `disableNormalCost: true` on an item removes its credit price entirely, so
 Marks become the only accepted payment.
 
-Two denominations ship in `packs-source/equipment/`: **Mark** (`{#}mk`) and
-**Plate** (`{#}pl`, 100 marks). The second exists because the bio-augment table
-spans 20 to 21,000 marks; a plate turns 21,000 into 210.
+**One denomination ships**, by owner ruling 2026-09-07 -- "the Butcher's meant
+to have one static currency". `packs-source/equipment/mark.json` is **Mark**
+(`{#}mk`) and that is the whole ladder. A second denomination briefly existed
+(**Plate**, `{#}pl`, 100 marks, to keep the 21,000-mark end of the bio-augment
+table readable) and is archived at `packs-source/equipment/_retired/plate.json`
+-- `build_pack.py` globs `packs-source/<owner>/*.json` non-recursively
+(`build_pack.py:273`), so a file in that subdirectory stays in the repo and out
+of every pack. Two denominations imply a rate between them, which is the one
+property a mark is not supposed to have.
 
-**Neither is `category: "coin"`, and that is load-bearing.**
+Removing it from the shipped list is not enough on its own: the stamp only gates
+whether the registration hook runs, and the hook only ever pushes, so a currency
+this module registered in a past version would sit in the world's
+`secondaryCurrencies` forever. `CINDERFALL_RETIRED_MARKS` in `scripts/main.js`
+pulls those back out, matched on **name and abbreviation** -- not on the uuid.
+The uuid guard was written first and was wrong: the live world's entries pointed
+at world items (`Item.Lb3pogx...`) left over from an A/B test of where Item Piles
+will resolve a currency from, so it would have retired nothing and reported
+success.
+
+**The Mark carries no bulk.** `bulk.value` is `0`, because marks are held in the
+hundreds and a bulk of 1 each made a 500-mark purse weigh 500 Bulk. PF2e's own
+coins get an exemption through `isCoinage`, which a `material`-category treasure
+never qualifies for, so the field has to say 0 outright.
+
+**It is not `category: "coin"`, and that is load-bearing.**
 `PhysicalItemPF2e.isCoinage` is exactly `system.category === "coin"` (`pf2e.mjs`,
 `TreasurePF2e`), and a coin-category treasure dropped on an actor is **deleted**
 and folded into the coin pool via `addCoins(assetValue)`. A Mark has no gp
 value, so `category: "coin"` would make every Mark a player picked up vanish
 silently. `category: "material"` keeps it an ordinary item PF2e never converts.
-Their `price.value` is `{}` for the same reason: nothing can buy or sell a Mark
+Its `price.value` is `{}` for the same reason: nothing can buy or sell a Mark
 for credits.
 
 `scripts/main.js` writes both the relabel and the secondary registration to the
@@ -257,14 +278,28 @@ GM who edits a currency by hand keeps that edit. The Mark UUIDs are resolved
 from the live pack index rather than hardcoded, since `build_pack.py` assigns
 the `_id`.
 
+**Open, measured 2026-09-07:** the three test items on the Butcher merchant
+return an empty price string with zero entries from `getPricesForItem`, even
+with both currencies resolving in the Item Piles cache. Reading `getPriceData`
+in `item-piles.js` narrows it: when `disableNormalCost` is true and
+`itemFlagData.prices` is empty, no price group is built at all and the function
+returns `[]` -- exactly the observed result. So the per-item price flags are not
+being read, and the next step is measuring where they actually landed (the
+merchant's embedded item copies, or the world items they came from).
+
 Still to do: the ~63 mark prices on the bio-augments are not yet written as
-Item Piles price flags. Item art is placeholder (PF2e's `upb.webp` and
-`platinum-pieces.webp`).
+Item Piles price flags. Item art is placeholder (PF2e's `upb.webp`).
 
 `tests/currency-labels.test.mjs` covers the data: every denomination renamed, no
 two sharing a name or abbreviation, no vanilla metal left through, and the keys
 written flat rather than as a nested `PF2E` object (which Foundry would
 deep-merge into a sibling branch and override nothing).
+
+`tests/marks.test.mjs` covers the mark ladder, parsing the lists out of
+`scripts/main.js` rather than restating them: exactly one denomination, the
+`{#}` placeholder present, no collision with a coin abbreviation, shipped and
+retired disjoint, every shipped mark buildable and every retired one not, and
+the Mark item itself non-coinage, weightless, and priceless.
 
 ### Language rarity
 

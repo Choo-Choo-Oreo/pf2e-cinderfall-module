@@ -6,7 +6,7 @@
     "system": {
         "baseItem": null,
         "bulk": {
-            "value": 1
+            "value": 0
         },
         "category": "material",
         "containerId": null,

@@ -40,5 +40,6 @@
             "rarity": "uncommon",
             "value": []
         }
-    }
+    },
+    "_retired": "Archived 2026-09-07, not deleted. Owner ruling: the Butcher deals in ONE static currency, so Plate (1 Plate = 100 Marks) is out of the shipped set. build_pack.py globs packs-source/<owner>/*.json non-recursively (tools/foundry/build_pack.py:273), so a file in this subdirectory is not built into any pack. Restore by moving it back up one level and rebuilding."
 }
