@@ -1,0 +1,31 @@
+{
+    "name": "Tempo Break",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Trigger</strong> an opponent begins a multi-attack action against you</p><p><strong>Effect</strong> −2 status penalty on their next attack roll this turn</p><hr /><p>Interrupt a combo mid-swing.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "tempo-break"
+    },
+    "_id": "tSOgkEvsuO1yLk8p"
+}

@@ -1,0 +1,31 @@
+{
+    "name": "Crack the Plate",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Effect</strong> each hit against the same armored foe reduces its Hardness or resistance to physical damage by 2, stacking to a maximum of −6, for the rest of the encounter</p><hr /><p>Solid hits against armor compound, stripping more integrity each time.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "crack-the-plate"
+    },
+    "_id": "mNxk9J4EptSsc8ds"
+}

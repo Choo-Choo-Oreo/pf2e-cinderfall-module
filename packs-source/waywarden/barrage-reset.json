@@ -1,0 +1,31 @@
+{
+    "name": "Barrage Reset",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Frequency</strong> 1/round</p><hr /><p>A quick half-step and re-grip converts what would be your third, heavily-penalized attack of the turn into a fresh Strike against your current Mark only, with your multiple attack penalty on it reduced by 2 instead of the usual amount.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "waywarden"
+            ]
+        },
+        "slug": "barrage-reset"
+    },
+    "_id": "V9VvEKD7bj87d3tf"
+}

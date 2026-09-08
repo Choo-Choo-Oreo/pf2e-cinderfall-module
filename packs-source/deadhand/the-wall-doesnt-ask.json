@@ -1,0 +1,31 @@
+{
+    "name": "The Wall Doesn't Ask",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Effect</strong> raising your shield or bracing against a blow you clearly saw coming no longer requires a check below DC 20</p><hr /><p>Muscle Memory, extended to the shield hand.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "the-wall-doesnt-ask"
+    },
+    "_id": "1tAqC5Ce5d0GxS2u"
+}

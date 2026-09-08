@@ -1,0 +1,31 @@
+{
+    "name": "Chain Load",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Effect</strong> on a hit, also strikes a second target within 15 feet, dealing half the weapon's normal damage (round down)</p><p><strong>Blowback</strong> Moderate-to-high — 15% (natural 1–3)</p><hr /><p></p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "chain-load"
+    },
+    "_id": "zIO1jFSu41dKCrQL"
+}

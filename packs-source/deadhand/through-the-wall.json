@@ -1,0 +1,31 @@
+{
+    "name": "Through the Wall",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Effect</strong> ignores cover entirely and ignores 10 points of Hardness or physical resistance from walls, barricades, or structural interference on a solid connection</p><hr /><p>Nothing built stands between you and the target for long.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "through-the-wall"
+    },
+    "_id": "86R7XOWZNauRiy4T"
+}

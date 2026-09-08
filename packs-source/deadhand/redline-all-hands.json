@@ -1,0 +1,31 @@
+{
+    "name": "Redline: All Hands",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Duration</strong> until the start of your next turn</p><p><strong>Effect</strong> each ally who can hear you gains +2 circumstance to their next attack roll or saving throw</p><hr /><p>Channel your push into every ally who can hear you.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "redline-all-hands"
+    },
+    "_id": "RE2kLz8nnyEEP2Vf"
+}

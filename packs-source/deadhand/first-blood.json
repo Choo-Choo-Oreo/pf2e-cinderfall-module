@@ -1,0 +1,31 @@
+{
+    "name": "First Blood",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Effect</strong> on a hit, the target also takes a −1 circumstance penalty to its next attack roll or skill check</p><hr /><p>A precise testing strike that rattles nerve on landing.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "first-blood"
+    },
+    "_id": "oSAb7CjACaziTW5V"
+}

@@ -1,0 +1,31 @@
+{
+    "name": "The Answer — Because I Said So",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Trigger</strong> Your self-named Ward is threatened</p><hr /><p>Make an immediate Strike. No institutional bonus or restriction is attached to it — the plainest, least mechanically flashy Answer, and the one with the most room for the player to define what it means.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "sworn"
+            ]
+        },
+        "slug": "the-answer-because-i-said-so"
+    },
+    "_id": "qs20wPMBhDnh4Bvm"
+}

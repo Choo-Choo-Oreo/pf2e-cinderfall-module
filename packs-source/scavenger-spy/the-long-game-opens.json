@@ -1,0 +1,32 @@
+{
+    "name": "The Long Game Opens",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Effect</strong> each session invested grants a stacking +1 circumstance bonus (max +4) to the Deception check made when the ask finally comes</p><hr /><p>Establish a fabricated identity through small, believable interactions before ever asking for anything.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "scavenger-spy",
+                "exploration"
+            ]
+        },
+        "slug": "the-long-game-opens"
+    },
+    "_id": "w9NLMpWLc7FvWkn1"
+}

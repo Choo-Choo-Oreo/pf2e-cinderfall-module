@@ -1,0 +1,31 @@
+{
+    "name": "Mark the Breach",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Effect</strong> whoever tries to pass triggers The Answer against them automatically (no further setup needed), dealing an extra 2d6 damage</p><hr /><p>Plant your shield in a gap in the enemy's formation.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "mark-the-breach"
+    },
+    "_id": "JTU1BF1EmpwrI9Ln"
+}

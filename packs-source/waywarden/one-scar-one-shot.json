@@ -1,0 +1,31 @@
+{
+    "name": "One Scar, One Shot",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Frequency</strong> at will</p><p><strong>Requirement</strong> Marked quarry at or below half its maximum Hit Points</p><hr /><p>Your Strike deals an extra 4d8 precision damage instead of your normal precision bonus, and this damage ignores that creature's resistance to precision damage.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "waywarden"
+            ]
+        },
+        "slug": "one-scar-one-shot"
+    },
+    "_id": "s3Vl7TjSF6HPOWur"
+}

@@ -1,0 +1,31 @@
+{
+    "name": "Thicketback",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Speed</strong> 20 feet</p><p><strong>AC</strong> +2 item</p><p><strong>Melee</strong> thorn-arm (agile, reach 10 ft) 2d6 piercing</p><p><strong>Skills</strong> +2 circumstance to Grapple and to resist forced movement</p><hr /><i>Green load</i> 10 temporary Hit Points, renewing each round while the needle stays on Green. <i>Grey load</i> thorn-arm deals an additional 1d6 persistent bleed, and creatures that Grapple you or hit you with an unarmed attack take 1d6 persistent bleed."
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "seed-warden"
+            ]
+        },
+        "slug": "thicketback"
+    },
+    "_id": "XfjdZ3MZALsIfocY"
+}

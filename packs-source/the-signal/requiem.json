@@ -1,0 +1,31 @@
+{
+    "name": "Requiem",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>At-will</strong> dying allies in range gain +2 circumstance to recovery checks, and you always know when one drops</p><hr /><i>7th — Hold the Line</i> spend 2 Encore to leave an ally at 1 Hit Point instead of 0, once per ally per day. <i>15th — Encore Performance</i> spend your whole pool to return a creature dead less than a minute to 1 HP, once per day."
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "the-signal"
+            ]
+        },
+        "slug": "requiem"
+    },
+    "_id": "P0B4ZBp6Nzgne6xw"
+}

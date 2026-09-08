@@ -1,0 +1,31 @@
+{
+    "name": "Field Splice",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Frequency</strong> 3/day</p><hr /><span class=\"sdesc\">Spend a chunk of scrap to patch your Rig for 2d8 + your level Hit Points.</span>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "scrapwright"
+            ]
+        },
+        "slug": "field-splice"
+    },
+    "_id": "VF64vzT8GpZmDpeN"
+}

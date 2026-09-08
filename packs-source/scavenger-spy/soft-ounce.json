@@ -1,0 +1,31 @@
+{
+    "name": "Soft Ounce",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Check</strong> Thievery (Steal) vs. mark's Perception DC</p><p><strong>Effect</strong> the theft goes unnoticed until the mark specifically checks for the item or 1 hour passes, whichever comes first</p><hr /><p>Lift something without ever fully separating from the mark: a data-chit skimmed and re-holstered, a rad-badge cloned and returned before the wearer clears the checkpoint.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "scavenger-spy"
+            ]
+        },
+        "slug": "soft-ounce"
+    },
+    "_id": "fVEC2bovhemSW2K8"
+}

@@ -1,0 +1,31 @@
+{
+    "name": "The Voice That Doesn't Miss",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Effect</strong> any ally who has fought beside you for at least this encounter can be targeted by your Cadre commands regardless of distance or intervening obstacles, so long as they're on the same field of battle</p><hr /><p>Distance stops mattering to anyone who has fought beside you.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "the-voice-that-doesnt-miss"
+    },
+    "_id": "mJM1QFyzY1ZFGDAJ"
+}

@@ -1,0 +1,31 @@
+{
+    "name": "Give Ground, Take None",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Trigger</strong> you're hit, or an ally behind you would be exposed</p><p><strong>Effect</strong> Step without provoking; allies covered by Hold the Corner remain covered through the move</p><hr /><p>Fall back a step under pressure without losing footing, facing, or your line.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "give-ground-take-none"
+    },
+    "_id": "x8Nzb5Zccabp03Lt"
+}

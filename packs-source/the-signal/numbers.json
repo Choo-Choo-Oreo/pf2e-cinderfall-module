@@ -1,0 +1,31 @@
+{
+    "name": "Numbers",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>At-will</strong> enemies in range take a −1 status penalty to Will saves</p><hr /><i>7th — Off-Book</i> once per round, an enemy in range that fails a save against your spell is also off-guard until the end of its next turn. <i>15th — The Gap</i> spend 3 Encore to force one creature in range to attempt a Will save against your spell DC; on a failure it treats its next check as its lowest possible result."
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "the-signal"
+            ]
+        },
+        "slug": "numbers"
+    },
+    "_id": "fHP6gHnAaaeoFxwl"
+}

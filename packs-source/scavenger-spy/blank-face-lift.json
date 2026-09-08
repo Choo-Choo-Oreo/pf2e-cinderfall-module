@@ -1,0 +1,31 @@
+{
+    "name": "Blank-Face Lift",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Check</strong> Thievery vs. mark's Perception DC (Steal)</p><p><strong>Effect</strong> a Perception check to notice takes a status penalty equal to your Deception proficiency rank (+2 trained, +4 expert, +6 master, +8 legendary)</p><hr /><p>Pick a pocket, plant an item, or swap a sealed cargo tag while holding unbroken eye contact and small talk. Roll Thievery against the mark's Perception DC as normal to Steal — nobody watches hands when the face is talking, and the mark's own attentiveness is working against them.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "scavenger-spy"
+            ]
+        },
+        "slug": "blank-face-lift"
+    },
+    "_id": "9lObaGUrBCykdbtG"
+}

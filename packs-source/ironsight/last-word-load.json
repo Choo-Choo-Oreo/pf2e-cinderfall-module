@@ -1,0 +1,31 @@
+{
+    "name": "Last Word Load",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Effect</strong> deals an extra 3d8 damage and always counts as a called shot regardless of setup</p><p><strong>Blowback</strong> High — 20% (natural 1–4); a triggered Blowback on this shot always resolves as the most severe result on the table</p><hr /><p></p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "last-word-load"
+    },
+    "_id": "pXvzbKRg2RH6dnId"
+}

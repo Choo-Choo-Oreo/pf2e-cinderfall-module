@@ -1,0 +1,31 @@
+{
+    "name": "The Collector's Patience",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Check</strong> Intimidation vs. target's Will DC</p><p><strong>Effect</strong> on success, they're off-guard against you specifically the next time you meet, for the rest of the adventure or until the debt is settled</p><hr /><p>Make it clear you'll be back, and that next time won't be a conversation.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "scavenger-spy"
+            ]
+        },
+        "slug": "the-collectors-patience"
+    },
+    "_id": "87ZXTreQYicthT7i"
+}

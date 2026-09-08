@@ -1,0 +1,31 @@
+{
+    "name": "Never Closer",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "free"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per round</p><p><strong>Trigger</strong> you make a reaction shot from The Doorway or The Threshold</p><p><strong>Effect</strong> follow the shot with a Step, no provoked reactions</p><hr /><p>Fire, then simply not be there anymore.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "never-closer"
+    },
+    "_id": "S8ltgzZjLoIn5p2H"
+}

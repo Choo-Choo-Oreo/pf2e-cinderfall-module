@@ -1,0 +1,31 @@
+{
+    "name": "The Answering Shot",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Trigger</strong> an ally is struck in your line of sight</p><p><strong>Effect</strong> off-hand shot at the attacker at a −2 circumstance penalty beyond your normal MAP, weapon damage only</p><hr /><p>Snap off a shot at whoever just hurt someone you're covering.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "the-answering-shot"
+    },
+    "_id": "Fj1PqXKYzH1yx3ol"
+}

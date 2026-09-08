@@ -1,0 +1,31 @@
+{
+    "name": "Nothing's Ever Really Broken",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Effect</strong> all Trick Iron reload triggers (crit, Jam, ally down) also remove the Jam trait entirely from the weapon for the rest of the scene</p><hr /><p>You've stopped believing the gun can fail you.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "nothings-ever-really-broken"
+    },
+    "_id": "LIHKypfV7kyFZCwP"
+}

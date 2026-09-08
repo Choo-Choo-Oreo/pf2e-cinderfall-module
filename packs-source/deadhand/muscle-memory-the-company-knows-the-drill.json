@@ -1,0 +1,31 @@
+{
+    "name": "Muscle Memory: The Company Knows the Drill",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Effect</strong> routine coordinated maneuvers you've called a hundred times no longer cost an action to call below DC 20</p><hr /><p>Muscle Memory, extended to orders you've given a hundred times.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "muscle-memory-the-company-knows-the-drill"
+    },
+    "_id": "6dVxX8Ku6RDkusd7"
+}

@@ -1,0 +1,31 @@
+{
+    "name": "The Last Exchange",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 2
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Requirement</strong> the target takes the duel (attacks you or accepts the challenge)</p><p><strong>Effect</strong> both of you make a single Strike against the other simultaneously; whichever hit deals more damage is treated as a critical hit, the other as a complete miss</p><hr /><p>A formally offered duel resolves in one exchange.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "the-last-exchange"
+    },
+    "_id": "2NgwwGfkA2RWgP0y"
+}

@@ -1,0 +1,31 @@
+{
+    "name": "The Last Order",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Effect</strong> one ally may act immediately, out of turn order, as though it were their turn right now — a full set of three actions, spent on the spot</p><hr /><p>Hand an ally a whole turn, right now, out of sequence.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "the-last-order"
+    },
+    "_id": "jED5APR86tc8vpA4"
+}

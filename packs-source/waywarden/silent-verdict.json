@@ -1,0 +1,31 @@
+{
+    "name": "Silent Verdict",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Frequency</strong> at will</p><p><strong>Requirement</strong> Marked quarry hasn't noticed you, or you've lost track of it via a Ghostwalker technique</p><hr /><p>Deals an extra 3d8 precision damage (4d8 at Undying tier) — well beyond what being off-guard alone would grant.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "waywarden"
+            ]
+        },
+        "slug": "silent-verdict"
+    },
+    "_id": "1rTS28Io7o4lCl8a"
+}

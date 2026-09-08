@@ -1,0 +1,31 @@
+{
+    "name": "The Room Remembers",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Effect</strong> against any enemy that has already closed to melee against you once this encounter and broken away, your Doorway/Threshold reactions gain +4 circumstance to hit and are never spent for the scene</p><hr /><p>Try that door again. It's still guarded.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "the-room-remembers"
+    },
+    "_id": "90kRCLvTPVDe78vi"
+}

@@ -1,0 +1,31 @@
+{
+    "name": "Scrap and Prayer",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "free"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Trigger</strong> an ally within your reach is reduced to 0 HP</p><p><strong>Effect</strong> reload using an improvised object — a bolt, a nail, a chunk of rebar</p><hr /><p>Whatever's closest becomes ammunition.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "scrap-and-prayer"
+    },
+    "_id": "VrTYA9z4yrhoqO5x"
+}

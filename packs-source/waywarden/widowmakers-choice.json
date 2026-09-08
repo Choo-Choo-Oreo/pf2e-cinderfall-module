@@ -1,0 +1,31 @@
+{
+    "name": "Widowmaker's Choice",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Frequency</strong> 1/round</p><hr /><p>Spend your action lining up instead of firing. Your next Strike against that Mark before the start of your next turn deals full precision damage — an extra 2d8 (3d8 at Veteran, 4d8 at Undying) — whether or not it crits.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "waywarden"
+            ]
+        },
+        "slug": "widowmakers-choice"
+    },
+    "_id": "mnjMpuEiDRElVHXY"
+}

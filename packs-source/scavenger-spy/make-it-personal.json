@@ -1,0 +1,31 @@
+{
+    "name": "Make It Personal",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Check</strong> Intimidation vs. target's Will DC</p><p><strong>Effect</strong> off-guard, plus a −3 status penalty (Expert) on their next save against a fear or emotion effect from you</p><hr /><p>Threaten not the target but something they value.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "scavenger-spy"
+            ]
+        },
+        "slug": "make-it-personal"
+    },
+    "_id": "Megujk0LffYUJwyF"
+}

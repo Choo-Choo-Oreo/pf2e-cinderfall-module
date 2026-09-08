@@ -1,0 +1,31 @@
+{
+    "name": "Both Barrels, No Warning",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Trigger</strong> an enemy closes to melee</p><p><strong>Effect</strong> upgrade the reaction to a full called shot at maximum severity, dealing an extra 2d8 damage, with no setup required</p><hr /><p>No time to line it up — you don't need to anymore.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "both-barrels-no-warning"
+    },
+    "_id": "OT57mSZy5TUED6mh"
+}

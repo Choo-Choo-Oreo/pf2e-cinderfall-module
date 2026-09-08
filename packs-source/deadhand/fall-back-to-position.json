@@ -1,0 +1,31 @@
+{
+    "name": "Fall Back to Position",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Target</strong> 1 ally within 30 feet</p><p><strong>Effect</strong> that ally may immediately Step or Stride up to their Speed without provoking reactions</p><hr /><p>Direct an ally out of danger.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "fall-back-to-position"
+    },
+    "_id": "2euaURLg62rMSFgV"
+}

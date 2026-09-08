@@ -1,0 +1,32 @@
+{
+    "name": "The Long Con of Record",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Check</strong> Society or Deception vs. DC 20 (flat, Master)</p><p><strong>Effect</strong> investigators, rival fixers, and the Underledger itself accept it as settled fact</p><hr /><p>Fabricate a false operational history so thorough that it holds up to scrutiny.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "scavenger-spy",
+                "exploration"
+            ]
+        },
+        "slug": "the-long-con-of-record"
+    },
+    "_id": "cYtpKl6Q3NwFkyEd"
+}

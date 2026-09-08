@@ -1,0 +1,31 @@
+{
+    "name": "The Frame That Won't Quit",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Trigger</strong> a hit would reduce you to 0 HP</p><p><strong>Emergency Vent</strong> 1/day</p><hr /><span class=\"sdesc\">Mod slots cap at \"as many small ones as you can scrounge,\" plating resistance extends to 10 against all physical damage types simultaneously, and once per day, when a hit would reduce you to 0 HP, you can instead vent the suit into full Slippage and drop to 1 HP.</span>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "scrapwright"
+            ]
+        },
+        "slug": "the-frame-that-wont-quit"
+    },
+    "_id": "1scO5DwMwIQazkOR"
+}

@@ -1,0 +1,31 @@
+{
+    "name": "Two Shots, One Grave",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Trigger</strong> your first shot on a target misses</p><p><strong>Effect</strong> your second shot automatically gains +4 circumstance to hit</p><hr /><p>Your pistols have fired together so many times they no longer miss in the same place twice.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "two-shots-one-grave"
+    },
+    "_id": "emFfQQPkt9Yvveq1"
+}

@@ -1,0 +1,31 @@
+{
+    "name": "Borrowed Sympathy",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Check</strong> Deception vs. target's Will DC</p><p><strong>Effect</strong> works even on marks too cynical for a straight Diplomacy check to land on at all</p><hr /><p>Fabricate a hardship convincing enough that a target's guard drops out of pity.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "scavenger-spy"
+            ]
+        },
+        "slug": "borrowed-sympathy"
+    },
+    "_id": "GLsFiKkoMgRRKH1u"
+}

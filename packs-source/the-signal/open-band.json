@@ -1,0 +1,31 @@
+{
+    "name": "Open Band",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>At-will</strong> allies in range gain a +1 status bonus to saves against fear and emotion effects</p><hr /><i>7th — Talk Back</i> allies may spend Encore to reroll a failed <i>save</i>, not just a check, with +1 circumstance on the reroll. <i>15th — Everybody Listening</i> Broadcast range becomes 120 feet, and allies who leave it keep the benefits for 1 round."
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "the-signal"
+            ]
+        },
+        "slug": "open-band"
+    },
+    "_id": "eLyvifzMsZVfOpIp"
+}

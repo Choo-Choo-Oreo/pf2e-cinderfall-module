@@ -1,0 +1,31 @@
+{
+    "name": "Spore-Strider",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Speed</strong> 35 feet, climb 20 feet</p><p><strong>Melee</strong> cap-strike (agile, finesse) 2d4 bludgeoning</p><p><strong>Movement</strong> ignore plant and fungal difficult terrain</p><hr /><i>Green load</i> allies who begin their turn adjacent to you gain 5 temporary Hit Points. <i>Grey load</i> each creature that ends its turn adjacent to you takes 1d6 poison (basic Fortitude against your Class DC)."
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "seed-warden"
+            ]
+        },
+        "slug": "spore-strider"
+    },
+    "_id": "Mj6P0WjqQA69zYgj"
+}

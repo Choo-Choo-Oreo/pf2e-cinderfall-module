@@ -1,0 +1,31 @@
+{
+    "name": "Say What They Need to Hear",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "free"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Trigger</strong> reading what the target wants</p><p><strong>Check</strong> Deception vs. target's Will DC, +3 status bonus (Expert) in place of rebuilding a cover from scratch</p><hr /><p>Reforge your personality, allegiance, and history mid-conversation.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "scavenger-spy"
+            ]
+        },
+        "slug": "say-what-they-need-to-hear"
+    },
+    "_id": "PHDHOzW9sTJW5rgh"
+}

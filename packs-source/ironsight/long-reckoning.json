@@ -1,0 +1,31 @@
+{
+    "name": "Long Reckoning",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Effect</strong> time-in-sights cap increases to +4; a shot taken at full time-in-sights also deals an extra 1d8 damage</p><hr /><p>Time-in-sights adds to damage too, once held for several rounds.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "long-reckoning"
+    },
+    "_id": "XNJm2gySosNuD27j"
+}

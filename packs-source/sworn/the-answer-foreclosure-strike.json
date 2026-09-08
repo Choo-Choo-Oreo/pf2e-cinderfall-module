@@ -1,0 +1,31 @@
+{
+    "name": "The Answer — Foreclosure Strike",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Trigger</strong> Your Ward takes damage</p><hr /><p>The instant your Ward is hurt, you answer: make an immediate melee or ranged Strike against whoever dealt the damage, with no MAP increase from this Strike specifically. On a hit, the target takes a status penalty equal to 2 to its next saving throw against an effect you create before the end of your next turn — the debt comes due whether they meant to incur it or not.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "sworn"
+            ]
+        },
+        "slug": "the-answer-foreclosure-strike"
+    },
+    "_id": "z8CRi7cVL2XsEGAN"
+}

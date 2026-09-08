@@ -1,0 +1,32 @@
+{
+    "name": "The Unbreakable Alibi",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Check</strong> Deception vs. the DC of any single piece of contrary evidence</p><p><strong>Effect</strong> witnesses, corroborators, or doubt planted days in advance explain it away regardless</p><hr /><p>Fabricate an airtight account of your whereabouts.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "scavenger-spy",
+                "exploration"
+            ]
+        },
+        "slug": "the-unbreakable-alibi"
+    },
+    "_id": "ZwFdcR57eriCRsBS"
+}

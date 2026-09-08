@@ -1,0 +1,31 @@
+{
+    "name": "Take the Hit",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Trigger</strong> an adjacent ally is about to take a hit</p><p><strong>Effect</strong> take the damage in their place, reduced by your shield's Hardness +2</p><hr /><p>Step bodily into a blow meant for the ally beside you.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "take-the-hit"
+    },
+    "_id": "ctwrQvuNpQ5X4Vus"
+}

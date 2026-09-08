@@ -1,0 +1,31 @@
+{
+    "name": "The Duel Doesn't End",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Effect</strong> any creature that Steps, Strides, or otherwise moves away from you while adjacent automatically provokes The Answer; that reaction gains a +2 circumstance bonus to hit, and on a hit the creature's movement is disrupted — it wastes that action</p><hr /><p>Disengaging from you once engaged one-on-one costs everything.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "the-duel-doesnt-end"
+    },
+    "_id": "ZY9IWE9IALVZujo0"
+}

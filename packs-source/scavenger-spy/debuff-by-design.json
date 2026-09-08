@@ -1,0 +1,32 @@
+{
+    "name": "Debuff by Design",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Check</strong> Society, Diplomacy, or a relevant Lore vs. target's Will DC (or a flat DC 10, Skilled, working from records alone)</p><p><strong>Effect</strong> −2 status penalty (Skilled) on that target's checks or saves tied to the exploited weakness for the rest of the job</p><hr /><p>Identify a target's specific weakness ahead of time.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "scavenger-spy",
+                "exploration"
+            ]
+        },
+        "slug": "debuff-by-design"
+    },
+    "_id": "elYC3UvRthU0VT0W"
+}

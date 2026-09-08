@@ -1,0 +1,31 @@
+{
+    "name": "Walking Wire",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 2
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Check</strong> Thievery vs. the system's DC</p><p><strong>Effect</strong> success defeats it outright; failure by 9 or less still lets you through, but leaves the system convinced it authenticated someone — just not you</p><hr /><p>Bypass an active security system by treating its authentication chain like a lock with several tumblers.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "scavenger-spy"
+            ]
+        },
+        "slug": "walking-wire"
+    },
+    "_id": "Qg9KA7IF2OlxeSZq"
+}

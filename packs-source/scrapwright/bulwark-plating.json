@@ -1,0 +1,31 @@
+{
+    "name": "Bulwark Plating",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Effect</strong> +2 item bonus to AC or resistance 5 to physical (choose on activation)</p><hr /><span class=\"sdesc\">Bolt on extra plate to your Iron Lung, Rig, or Widowmaker shell.</span>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "scrapwright"
+            ]
+        },
+        "slug": "bulwark-plating"
+    },
+    "_id": "tzKWVKHkBcuRsqGt"
+}

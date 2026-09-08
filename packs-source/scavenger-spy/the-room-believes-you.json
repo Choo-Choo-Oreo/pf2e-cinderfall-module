@@ -1,0 +1,31 @@
+{
+    "name": "The Room Believes You",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 2
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Check</strong> one Deception roll vs. the highest Perception DC present, treating the boardroom, checkpoint crew, or warlord's court as a single target</p><p><strong>Effect</strong> each individual's success reinforces the others' rather than compounding against you</p><hr /><p>Convince an entire group simultaneously that you belong.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "scavenger-spy"
+            ]
+        },
+        "slug": "the-room-believes-you"
+    },
+    "_id": "dVVVZ6SAeaXQjXQd"
+}

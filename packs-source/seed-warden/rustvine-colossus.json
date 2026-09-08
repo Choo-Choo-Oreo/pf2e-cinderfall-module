@@ -1,0 +1,31 @@
+{
+    "name": "Rustvine Colossus",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Saves</strong> +2 status to Fortitude</p><p><strong>Size</strong> Large</p><p><strong>Speed</strong> 25 feet</p><p><strong>AC</strong> +2 item</p><p><strong>Melee</strong> vine-sweep (reach 15 ft, sweep) 3d8 bludgeoning, Grapple at reach</p><hr /><i>Green load</i> at the start of each of your turns, one 10-foot square within 30 feet you can see becomes overgrown difficult terrain, permanently. <i>Grey load</i> vine-sweep also deals 2d6 acid, and unattended metal it touches takes a permanent −1 item penalty."
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "seed-warden"
+            ]
+        },
+        "slug": "rustvine-colossus"
+    },
+    "_id": "pMonz3uvqAP7nPdB"
+}

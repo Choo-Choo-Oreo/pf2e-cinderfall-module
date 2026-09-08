@@ -1,0 +1,31 @@
+{
+    "name": "Ghost Load",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Effect</strong> on a hit: frightened 1, sickened 1, or (against anything spirit-touched) an extra 2d6 damage, GM's call for best fit</p><p><strong>Blowback</strong> unpredictable — roll 1d4 before firing (1 Low/5%, 2 Moderate/10%, 3 Moderate-to-high/15%, 4 High/20%), then check the attack roll against it</p><hr /><p></p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "ghost-load"
+    },
+    "_id": "Y6jCDFdIPxfbGOrr"
+}

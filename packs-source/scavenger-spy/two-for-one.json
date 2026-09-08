@@ -1,0 +1,31 @@
+{
+    "name": "Two-for-One",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Check</strong> Intimidation vs. primary target's Will DC</p><p><strong>Effect</strong> a second creature observing within 30 feet also becomes off-guard, no separate roll, so long as its Will DC is equal to or lower than the first</p><hr /><p>Intimidate one target hard enough that a second target nearby flinches too.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "scavenger-spy"
+            ]
+        },
+        "slug": "two-for-one"
+    },
+    "_id": "jpIh80yR5Y7sUFOv"
+}

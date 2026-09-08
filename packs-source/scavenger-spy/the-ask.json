@@ -1,0 +1,31 @@
+{
+    "name": "The Ask",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Check</strong> Intimidation (Coerce) vs. target's Will DC</p><p><strong>Effect</strong> what you actually said stays deniable — no Deception check can be used against you to prove a threat was made</p><hr /><p>Phrase a demand so it's technically a question and legally a threat.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "scavenger-spy"
+            ]
+        },
+        "slug": "the-ask"
+    },
+    "_id": "PeHfrcF0iFeGOY8e"
+}

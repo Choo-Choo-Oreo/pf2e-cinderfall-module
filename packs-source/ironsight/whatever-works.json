@@ -1,0 +1,31 @@
+{
+    "name": "Whatever Works",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Effect</strong> your free-action reloads (from crits, Jams, or an ally falling) also clear one step of that weapon's Jam instability for the rest of the encounter</p><hr /><p>The gun gets more reliable the more you use it wrong.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "whatever-works"
+    },
+    "_id": "rEjmBuRYoJFkSkk3"
+}

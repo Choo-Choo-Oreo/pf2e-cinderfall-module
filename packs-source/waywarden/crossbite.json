@@ -1,0 +1,31 @@
+{
+    "name": "Crossbite",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Frequency</strong> at will</p><hr /><p>Make two Strikes, one with each weapon (or your weapon and your Snapjaw's jaws, if it's adjacent), against a single target, committing both into one overlapping attack and trading accuracy for the chance both connect. Both use your current multiple attack penalty, but against your Marked quarry the second Strike's penalty is reduced by 1 (2 at Veteran tier or higher) — the go-to opener.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "waywarden"
+            ]
+        },
+        "slug": "crossbite"
+    },
+    "_id": "lld2Yd3LSE5a4wsD"
+}

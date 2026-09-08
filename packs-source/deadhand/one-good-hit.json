@@ -1,0 +1,31 @@
+{
+    "name": "One Good Hit",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 2
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Effect</strong> a visibly telegraphed blow hits at Redline: Momentum's full weight (the extra 2d6 and its follow-up Strike) without spending any Tally</p><hr /><p>One good hit, free of charge.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "one-good-hit"
+    },
+    "_id": "bc4vcgAR5bY6PtaO"
+}

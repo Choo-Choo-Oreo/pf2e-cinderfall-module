@@ -1,0 +1,31 @@
+{
+    "name": "Whatever's Loaded",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "free"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Trigger</strong> you score a critical hit</p><p><strong>Effect</strong> reload instantly using whatever scrap or salvaged parts are on hand</p><hr /><p>A perfect shot always leaves you time to feed the next one.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "whatevers-loaded"
+    },
+    "_id": "5FYuGbwyhtmDNQDe"
+}

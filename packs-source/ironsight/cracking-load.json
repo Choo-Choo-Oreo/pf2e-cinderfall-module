@@ -1,0 +1,31 @@
+{
+    "name": "Cracking Load",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Effect</strong> ignores 5 points of the target's resistance to physical damage on this shot</p><p><strong>Blowback</strong> Low — 5% (natural 1)</p><hr /><p></p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "cracking-load"
+    },
+    "_id": "EqGdLVlAk7WQXhaH"
+}

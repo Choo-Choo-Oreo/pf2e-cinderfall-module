@@ -1,0 +1,31 @@
+{
+    "name": "The Cutpurse Was Never There",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "free"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Freq</strong> 1/job</p><p><strong>Effect</strong> automatically succeeds, no roll, against any DC 30 or lower attempt to disprove it — the world's paperwork simply agrees with you</p><hr /><p>Retroactively declare that a theft you're accused of was committed by someone else entirely.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "scavenger-spy"
+            ]
+        },
+        "slug": "the-cutpurse-was-never-there"
+    },
+    "_id": "Ny20aJOPdoC55EmB"
+}

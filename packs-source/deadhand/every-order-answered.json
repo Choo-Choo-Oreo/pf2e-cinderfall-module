@@ -1,0 +1,31 @@
+{
+    "name": "Every Order, Answered",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Effect</strong> every ally on the field can act simultaneously on a single command, each gaining On My Mark's +1 circumstance (or Rolling Volley's stacked bonus, if already called)</p><hr /><p>One command, and the whole field moves at once.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "every-order-answered"
+    },
+    "_id": "DzJ7fcinPr6eu64J"
+}

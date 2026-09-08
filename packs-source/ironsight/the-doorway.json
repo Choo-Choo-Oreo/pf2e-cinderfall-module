@@ -1,0 +1,31 @@
+{
+    "name": "The Doorway",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Trigger</strong> an enemy ends its movement adjacent to you</p><p><strong>Requirement</strong> shotgun loaded</p><p><strong>Effect</strong> called shot at +1 circumstance to hit, weapon damage as normal</p><hr /><p>Anyone who closes distance on you gets to meet the barrel first.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "the-doorway"
+    },
+    "_id": "ylW78r2WcgHHU2b8"
+}

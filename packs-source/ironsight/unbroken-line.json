@@ -1,0 +1,31 @@
+{
+    "name": "Unbroken Line",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Effect</strong> time-in-sights on a target no longer resets on a brief break in line of sight — only a full round fully out of view clears the count</p><hr /><p>A held aim survives a flicker of cover.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "unbroken-line"
+    },
+    "_id": "R2ZnHrBlxC44u1wM"
+}

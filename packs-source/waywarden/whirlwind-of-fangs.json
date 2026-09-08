@@ -1,0 +1,31 @@
+{
+    "name": "Whirlwind of Fangs",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Frequency</strong> 1/round</p><p><strong>Requirement</strong> You've drawn blood from your Marked quarry this turn</p><hr /><p>Loose a wide double-strike: make a Strike against the quarry as normal; each other creature adjacent to it takes your weapon's damage (no ability modifier added) in the same type as that hit, with a basic Reflex save against your class DC.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "waywarden"
+            ]
+        },
+        "slug": "whirlwind-of-fangs"
+    },
+    "_id": "xy37ov1EiUbc49Db"
+}

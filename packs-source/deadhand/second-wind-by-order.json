@@ -1,0 +1,31 @@
+{
+    "name": "Second Wind, By Order",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Target</strong> 1 prone, dying, or badly hurt ally within 30 feet</p><p><strong>Effect</strong> that ally stands up as a free action and gains 3d6 temporary Hit Points</p><hr /><p>Command a downed ally back to their feet through sheer authority.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "second-wind-by-order"
+    },
+    "_id": "JjbvL0oKBZye29F2"
+}

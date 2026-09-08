@@ -1,0 +1,31 @@
+{
+    "name": "Redline: Momentum",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Trigger</strong> a Strike hits</p><p><strong>Effect</strong> immediately make a second Strike against a different creature within reach, no additional MAP, dealing an extra 2d6 damage on a hit</p><hr /><p>Spend Tally mid-swing to turn one hit into two.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "redline-momentum"
+    },
+    "_id": "zBKXWYOJenq7cO2f"
+}

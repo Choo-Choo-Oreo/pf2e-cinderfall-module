@@ -1,0 +1,32 @@
+{
+    "name": "Read the Whole Board",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Check</strong> Society, Perception, or a relevant Lore vs. DC 15 (flat, Expert)</p><p><strong>Effect</strong> produces an accurate tactical picture of forces you haven't even seen yet</p><hr /><p>Analyze an entire hostile organization's structure from partial information.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "scavenger-spy",
+                "exploration"
+            ]
+        },
+        "slug": "read-the-whole-board"
+    },
+    "_id": "138cYNFMCIiusenK"
+}

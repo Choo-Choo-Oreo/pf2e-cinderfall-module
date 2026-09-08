@@ -1,0 +1,31 @@
+{
+    "name": "One Motion",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Requirement</strong> unnoticed or undetected by all observers</p><p><strong>Check</strong> one Thievery roll resolves both Pick a Lock and the Search behind it</p><hr /><p>So long as nobody's watching, open a mundane lock and search whatever's behind it in a single flowing motion instead of the usual two separate actions.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "scavenger-spy"
+            ]
+        },
+        "slug": "one-motion"
+    },
+    "_id": "JjqKl67Ew2ZqmoPN"
+}

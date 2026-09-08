@@ -1,0 +1,31 @@
+{
+    "name": "Patch-Job Plus",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Type</strong> Passive</p><hr /><span class=\"sdesc\">Your Field Splice also restores 1d8 HP to one adjacent living ally.</span>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "scrapwright"
+            ]
+        },
+        "slug": "patch-job-plus"
+    },
+    "_id": "QtpayxNgIdBePw70"
+}

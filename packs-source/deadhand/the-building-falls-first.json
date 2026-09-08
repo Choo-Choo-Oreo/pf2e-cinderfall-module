@@ -1,0 +1,31 @@
+{
+    "name": "The Building Falls First",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Effect</strong> every hit against an object or construct deals an extra 4d6 damage and is treated as having found its load-bearing point (ignoring remaining Hardness or resistance entirely on a critical hit)</p><hr /><p>Every blow lands where the structure was holding itself up.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "the-building-falls-first"
+    },
+    "_id": "b73syjxlbkSgcsjC"
+}

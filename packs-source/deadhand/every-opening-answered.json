@@ -1,0 +1,31 @@
+{
+    "name": "Every Opening, Answered",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Duration</strong> rest of the encounter</p><p><strong>Effect</strong> The Answer stops being limited to a single trigger — any opening an opponent within your reach gives you gets punished as a reaction, up to once per enemy turn</p><hr /><p>The Answer stops rationing itself.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "every-opening-answered"
+    },
+    "_id": "JcgXoZOt6LbH4Ake"
+}

@@ -1,0 +1,31 @@
+{
+    "name": "Grey Man's Gambit",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per round</p><p><strong>Trigger</strong> Your Marked quarry attempts a reaction (such as an attack of opportunity) against you or your Feral Bond, or spends an action to move adjacent to either of you</p><hr /><p>The quarry must succeed at a Will save against your class DC or that action is wasted outright — it swings at empty air or moves to the wrong square.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "waywarden"
+            ]
+        },
+        "slug": "grey-mans-gambit"
+    },
+    "_id": "QHJJauEhZZTC5bNw"
+}

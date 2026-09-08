@@ -1,0 +1,31 @@
+{
+    "name": "The Enforcer's Due",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "free"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Freq</strong> 1/job</p><p><strong>Effect</strong> automatically succeeds, no roll, against any obstacle of DC 30 or lower standing between you and collection — the right door opens, the right person shows up</p><hr /><p>Name a debt someone owes you and have the world conspire to make them pay it.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "scavenger-spy"
+            ]
+        },
+        "slug": "the-enforcers-due"
+    },
+    "_id": "HLVnxKLYcjKIqCwM"
+}

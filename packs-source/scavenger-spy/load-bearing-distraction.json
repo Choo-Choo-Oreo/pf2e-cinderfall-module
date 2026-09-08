@@ -1,0 +1,31 @@
+{
+    "name": "Load-Bearing Distraction",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Check</strong> vs. observers' Perception DC</p><p><strong>Effect</strong> anyone who fails to notice is off-guard; spend a second action before the start of your next turn to work a lock, a pocket, or a checkpoint gate uninterrupted</p><hr /><p>Stage a minor, deniable mishap that pulls eyes where you want them.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "scavenger-spy"
+            ]
+        },
+        "slug": "load-bearing-distraction"
+    },
+    "_id": "bxZbQOT1BLERBpri"
+}

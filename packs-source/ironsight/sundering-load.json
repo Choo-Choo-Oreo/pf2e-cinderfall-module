@@ -1,0 +1,31 @@
+{
+    "name": "Sundering Load",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Effect</strong> a hit against an object, armor, or war-machine plating deals an extra 2d6 damage and ignores 10 points of Hardness</p><p><strong>Blowback</strong> Moderate — 10% (natural 1–2)</p><hr /><p></p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "sundering-load"
+    },
+    "_id": "m5JsEUUSEIH02KRV"
+}

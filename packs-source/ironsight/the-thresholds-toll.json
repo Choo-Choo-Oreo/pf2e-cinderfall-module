@@ -1,0 +1,31 @@
+{
+    "name": "The Threshold's Toll",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Effect</strong> your reaction shot now triggers against every enemy that ends its movement adjacent to you in the same turn, one shot per attacker; the first such shot each round gains +3 circumstance to hit</p><hr /><p>The doorway remembers everyone who came through it this round.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "the-thresholds-toll"
+    },
+    "_id": "EypihLH8pmVOP7dr"
+}

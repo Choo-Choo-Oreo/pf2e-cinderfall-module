@@ -1,0 +1,31 @@
+{
+    "name": "Two-Hand Split",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Check</strong> two separate Thievery rolls, one for the lock and one for the key ring</p><p><strong>Effect</strong> if either roll would draw notice, only the worse result actually happens — the other slides through clean</p><hr /><p>Pick a lock and lift the guard's key ring at the same time.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "scavenger-spy"
+            ]
+        },
+        "slug": "two-hand-split"
+    },
+    "_id": "MzxcadZA1oZOVxfU"
+}

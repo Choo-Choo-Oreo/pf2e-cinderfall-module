@@ -1,0 +1,31 @@
+{
+    "name": "Give an Opening",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Trigger</strong> the target attacks you before the start of your next turn</p><p><strong>Effect</strong> respond with The Answer as a reaction, dealing an extra 1d6 damage</p><hr /><p>Bait a predictable attack, then answer the overcommitment.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "give-an-opening"
+    },
+    "_id": "dxGYyryibwBOE0gg"
+}

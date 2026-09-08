@@ -1,0 +1,31 @@
+{
+    "name": "Everyone's Opening",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 2
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Check</strong> one Deception or Perception roll vs. a chosen target's Perception DC (Feint-equivalent) or Will DC (psychological)</p><p><strong>Effect</strong> every ally gains the resulting off-guard/opening benefit against that target until the end of your next turn</p><hr /><p>Feed tactical information to the entire party at once.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "scavenger-spy"
+            ]
+        },
+        "slug": "everyones-opening"
+    },
+    "_id": "5IK6LRFdcM9QJ2Qx"
+}

@@ -1,0 +1,31 @@
+{
+    "name": "Mirror Match",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Check</strong> Deception vs. target's Will DC</p><p><strong>Effect</strong> off-guard against your next Diplomacy or Deception check this conversation</p><hr /><p>Adopt a target's own speech patterns, values, and worldview back at them.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "scavenger-spy"
+            ]
+        },
+        "slug": "mirror-match"
+    },
+    "_id": "AVVQE7GOrjMe32CE"
+}

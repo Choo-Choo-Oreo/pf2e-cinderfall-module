@@ -1,0 +1,31 @@
+{
+    "name": "Stand-In For Somebody Real",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Check</strong> Deception vs. target's Perception DC (or Will DC for a voice-match test or shared-memory challenge), +3 circumstance bonus (Expert) from prior research on the real person</p><hr /><p>Impersonate a specific named individual the target has met before.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "scavenger-spy"
+            ]
+        },
+        "slug": "stand-in-for-somebody-real"
+    },
+    "_id": "g6HkYZJQl9nEigIc"
+}

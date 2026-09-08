@@ -1,0 +1,31 @@
+{
+    "name": "Vanish Between Blinks",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Frequency</strong> at will</p><hr /><p>Attempt a Stealth check to Hide from your Marked quarry specifically, gaining a +2 circumstance bonus (+4 at Veteran, +6 at Undying) and ignoring the normal requirement for cover or concealment against it. On success you're undetected by that quarry alone; other creatures perceive you as normal.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "waywarden"
+            ]
+        },
+        "slug": "vanish-between-blinks"
+    },
+    "_id": "UOunRqONRUpnffec"
+}

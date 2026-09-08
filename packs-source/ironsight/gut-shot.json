@@ -1,0 +1,31 @@
+{
+    "name": "Gut-Shot",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Effect</strong> a melee called shot can inflict persistent bleed 1d8 instead of a burst of immediate harm</p><hr /><p>Center mass, and let the wound do the rest of the work.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "gut-shot"
+    },
+    "_id": "rsF6Y6G7IUFY0s74"
+}

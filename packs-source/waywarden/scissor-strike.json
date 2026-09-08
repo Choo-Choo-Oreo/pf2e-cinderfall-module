@@ -1,0 +1,31 @@
+{
+    "name": "Scissor Strike",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Trigger</strong> Both Strikes from a single Crossbite land on the same Marked target</p><hr /><p>The wound opens ragged: it takes 1d6 persistent bleed damage (1d8 at Veteran tier, 1d10 at Undying), the crossing wounds still working after your turn ends.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "waywarden"
+            ]
+        },
+        "slug": "scissor-strike"
+    },
+    "_id": "XctnQXGaMIwMcdSS"
+}

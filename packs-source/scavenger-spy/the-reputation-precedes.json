@@ -1,0 +1,31 @@
+{
+    "name": "The Reputation Precedes",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "free"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Trigger</strong> you're recognized on entering a scene</p><p><strong>Effect</strong> no roll — anyone who's heard the stories is off-guard against you on sight (doesn't work twice against the same crowd if you don't deliver within the scene)</p><hr /><p>Skip the Intimidation roll entirely against anyone who's heard the stories.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "scavenger-spy"
+            ]
+        },
+        "slug": "the-reputation-precedes"
+    },
+    "_id": "Z3Kni4Z3Nvsu4bq4"
+}

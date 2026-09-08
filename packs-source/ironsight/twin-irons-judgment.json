@@ -1,0 +1,31 @@
+{
+    "name": "Twin Iron's Judgment",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Effect</strong> unload both pistols against one target with no multiple attack penalty; each hit deals an extra 2d8 damage, and if both connect the target is off-guard until the end of your next turn and frightened 2</p><hr /><p>Declare a target and unload both pistols in the same breath.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "twin-irons-judgment"
+    },
+    "_id": "60FSd16O95J04DsU"
+}

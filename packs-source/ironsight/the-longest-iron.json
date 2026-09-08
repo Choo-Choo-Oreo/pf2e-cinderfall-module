@@ -1,0 +1,31 @@
+{
+    "name": "The Longest Iron",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Effect</strong> your time-in-sights bonus keeps stacking at +1 per full round, up to a maximum of +8</p><hr /><p>There is no such thing as too patient anymore.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "the-longest-iron"
+    },
+    "_id": "IkAxkajt7uPVucbS"
+}

@@ -1,0 +1,31 @@
+{
+    "name": "Borrowed Sight",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Frequency</strong> 1/day</p><p><strong>Duration</strong> 1 minute</p><hr /><span class=\"sdesc\">Tap a bound fragment for darkvision or 30-foot tremorsense, or a clairvoyant glimpse of a location you've previously been.</span>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "scrapwright"
+            ]
+        },
+        "slug": "borrowed-sight"
+    },
+    "_id": "T7H5Z21pZRpABUQ5"
+}

@@ -1,0 +1,31 @@
+{
+    "name": "Shove and Square",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 2
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Effect</strong> Shove a foe back a stride, then raise your shield for a +1 circumstance bonus to AC until the start of your next turn</p><hr /><p>Bash a foe back, then reset your guard before they can capitalize.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "shove-and-square"
+    },
+    "_id": "OZL7xPjQ5F8xD6uK"
+}

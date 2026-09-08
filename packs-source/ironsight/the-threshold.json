@@ -1,0 +1,31 @@
+{
+    "name": "The Threshold",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Trigger</strong> an enemy ends its movement adjacent to you</p><p><strong>Effect</strong> The Doorway now gains +2 circumstance to hit, and also triggers against a second enemy closing the same round, at a −2 circumstance penalty</p><hr /><p>One shotgun, two doors, in the same round.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "the-threshold"
+    },
+    "_id": "FfFLpnI6BawL7dz5"
+}

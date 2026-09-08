@@ -1,0 +1,31 @@
+{
+    "name": "Bind Lesser Static",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Trigger</strong> you defeat a construct/spirit</p><p><strong>Cap</strong> 2 stored charges</p><hr /><span class=\"sdesc\">Capture the fragment, banking a charge usable once to power a Redline surge without spending a Static Cell.</span>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "scrapwright"
+            ]
+        },
+        "slug": "bind-lesser-static"
+    },
+    "_id": "3lmcB7WyXgHZuEsh"
+}

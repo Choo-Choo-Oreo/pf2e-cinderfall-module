@@ -1,0 +1,31 @@
+{
+    "name": "Ash-Step",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Frequency</strong> at will</p><hr /><p>You and your Feral Bond each Stride up to your Speed + 10 feet, leaving no trail and triggering no reactions (including attacks of opportunity) for this movement.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "waywarden"
+            ]
+        },
+        "slug": "ash-step"
+    },
+    "_id": "5iMvzz1JWiyAfjPZ"
+}

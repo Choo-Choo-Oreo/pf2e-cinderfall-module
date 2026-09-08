@@ -1,0 +1,31 @@
+{
+    "name": "Skeleton Read",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Effect</strong> DC 20 or lower needs no check at all; harder locks grant a +1 circumstance bonus (Novice) to the Thievery check that follows</p><hr /><p>Run a hand along any mundane lock or checkpoint scanner and know its make, its weak point, and roughly how long it'll take to beat — all in the time it takes to check a wristwatch.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "scavenger-spy"
+            ]
+        },
+        "slug": "skeleton-read"
+    },
+    "_id": "rZZPfqwfA8UcZiR5"
+}

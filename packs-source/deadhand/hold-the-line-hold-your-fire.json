@@ -1,0 +1,31 @@
+{
+    "name": "Hold the Line, Hold Your Fire",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Effect</strong> a chosen ally either braces (+2 circumstance to AC until your next turn) or holds for a bigger response (their next Strike against a target that attacks them this round deals an extra 2d6 damage) — their choice, made when you give the order</p><hr /><p>Give an ally the choice: brace now, or hit harder in a moment.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "hold-the-line-hold-your-fire"
+    },
+    "_id": "ao3oIoNpLHQHhhQn"
+}

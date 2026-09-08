@@ -1,0 +1,31 @@
+{
+    "name": "Redline: Immovable",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Duration</strong> 1 round</p><p><strong>Effect</strong> automatically succeed against any forced-movement or knockdown effect</p><hr /><p>For one round, nothing moves you that you don't choose to move.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "redline-immovable"
+    },
+    "_id": "Gp1PVL75jYAkBXlY"
+}

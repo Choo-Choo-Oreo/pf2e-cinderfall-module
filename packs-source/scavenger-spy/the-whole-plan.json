@@ -1,0 +1,31 @@
+{
+    "name": "The Whole Plan",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Trigger</strong> the situation shifts unexpectedly mid-job</p><p><strong>Effect</strong> swap to a prepared branch instead of losing tempo — automatically succeeds where an improvised response would otherwise require a check</p><hr /><p>Lay out a multi-stage job covering several contingencies in advance.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "scavenger-spy"
+            ]
+        },
+        "slug": "the-whole-plan"
+    },
+    "_id": "Get6Wr4NUHQOylEZ"
+}

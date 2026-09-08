@@ -1,0 +1,31 @@
+{
+    "name": "The Trap Already Set",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "free"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Freq</strong> 1/job</p><p><strong>Effect</strong> automatically succeeds, no roll, converting a lucky break the party just had into a planned one, and grants a +3 circumstance bonus (Expert) to whatever check exploits it</p><hr /><p>Retroactively reveal that a seemingly spontaneous advantage was actually pre-arranged by you.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "scavenger-spy"
+            ]
+        },
+        "slug": "the-trap-already-set"
+    },
+    "_id": "HUVPyYnJKVl6tP1J"
+}

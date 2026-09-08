@@ -1,0 +1,31 @@
+{
+    "name": "Own the Ground",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Trigger</strong> the first exchange of attacks against a chosen foe each encounter</p><p><strong>Duration</strong> rest of the encounter</p><p><strong>Effect</strong> +3 circumstance bonus to your next attack roll against that foe and to Acrobatics/Athletics checks to control positioning against them</p><hr /><p>Winning the first clash sets footing, range, and tempo on your terms.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "own-the-ground"
+    },
+    "_id": "wTmdEkpkZScof5S0"
+}

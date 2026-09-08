@@ -1,0 +1,31 @@
+{
+    "name": "Bent Frame",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Check</strong> Intimidation vs. target's Perception DC (Feint)</p><p><strong>Effect</strong> off-guard against your next attack before the end of your next turn</p><hr /><p>Casually demonstrate you could break something — a chair, a door, a wrist.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "scavenger-spy"
+            ]
+        },
+        "slug": "bent-frame"
+    },
+    "_id": "tqGgR19XRkVwvn1h"
+}

@@ -1,0 +1,31 @@
+{
+    "name": "The Panic Chamber",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "free"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Trigger</strong> your weapon Jams</p><p><strong>Effect</strong> immediately clear the Jam and fire again in the same action instead of spending the normal Clear action</p><hr /><p>One panicked heartbeat, and the gun works again.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "the-panic-chamber"
+    },
+    "_id": "ZQLHAiCiWGVElMpb"
+}

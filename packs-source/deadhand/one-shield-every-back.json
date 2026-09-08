@@ -1,0 +1,31 @@
+{
+    "name": "One Shield, Every Back",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Duration</strong> rest of the encounter</p><p><strong>Effect</strong> every ally on the field counts as standing behind your shield, gaining its circumstance bonus to AC against any attack you could plausibly intercept</p><hr /><p>Every back on the field, covered by one shield.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "one-shield-every-back"
+    },
+    "_id": "MdCHeaZt7Vkeg8r2"
+}

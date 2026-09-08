@@ -1,0 +1,31 @@
+{
+    "name": "Hold the Corner",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Effect</strong> so long as you don't move from that square, anyone behind you counts as behind your shield too, gaining its circumstance bonus to AC against attacks from the covered arc</p><hr /><p>Post yourself in a doorway, breach, or barricade gap and don't move.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "hold-the-corner"
+    },
+    "_id": "il9cLlBegYJMcu23"
+}

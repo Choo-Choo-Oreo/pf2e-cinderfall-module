@@ -1,0 +1,31 @@
+{
+    "name": "The Face Behind Every Face",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "free"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Freq</strong> 1/job</p><p><strong>Effect</strong> automatically succeeds, no roll, against any DC 30 or lower attempt by the world to contradict it — the evidence simply agrees with you</p><hr /><p>Retroactively declare you were the unnamed figure behind some past event the party discovers.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "scavenger-spy"
+            ]
+        },
+        "slug": "the-face-behind-every-face"
+    },
+    "_id": "1FFN9taf8SSz5nfi"
+}

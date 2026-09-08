@@ -1,0 +1,31 @@
+{
+    "name": "The Legend Walks In",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "free"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Trigger</strong> you're identified</p><p><strong>Effect</strong> no roll — every target in the scene who's ever heard of you is off-guard</p><hr /><p>Corp security radios in sick rather than take the shift.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "scavenger-spy"
+            ]
+        },
+        "slug": "the-legend-walks-in"
+    },
+    "_id": "dHrXiOWN2xbVHg7X"
+}

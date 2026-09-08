@@ -1,0 +1,31 @@
+{
+    "name": "Ram Protocol",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Trigger</strong> Strike after moving at least 10 feet in a straight line</p><p><strong>Damage</strong> +1d6</p><p><strong>Type</strong> Passive</p><hr /><span class=\"sdesc\">On a hit, you can also attempt to knock the target prone or push it 5 feet.</span>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "scrapwright"
+            ]
+        },
+        "slug": "ram-protocol"
+    },
+    "_id": "72KkfngaGRBhWcuy"
+}

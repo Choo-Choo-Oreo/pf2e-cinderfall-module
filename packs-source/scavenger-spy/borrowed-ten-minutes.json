@@ -1,0 +1,31 @@
+{
+    "name": "Borrowed Ten Minutes",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Check</strong> Thievery vs. the mark's Perception DC on both the lift and the return</p><hr /><p>Lift a keycard, override chip, or authorization token and use it before returning it with the mark none the wiser — the window closes the moment they'd naturally check for it.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "scavenger-spy"
+            ]
+        },
+        "slug": "borrowed-ten-minutes"
+    },
+    "_id": "C35f9grlX4XzgY56"
+}

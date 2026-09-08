@@ -1,0 +1,31 @@
+{
+    "name": "Fortress Stance",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Effect</strong> +2 item bonus to AC, resistance 5 to all damage</p><p><strong>Condition</strong> ends if you move more than 5 feet on your turn</p><hr /><span class=\"sdesc\">Plant your feet and let the Warframe absorb what comes, so long as you don't go anywhere.</span>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "scrapwright"
+            ]
+        },
+        "slug": "fortress-stance"
+    },
+    "_id": "vCAEInLM3Zo7Y8jN"
+}

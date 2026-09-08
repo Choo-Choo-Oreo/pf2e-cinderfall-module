@@ -1,0 +1,31 @@
+{
+    "name": "The Switch That Isn't",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Check</strong> Thievery vs. the owner's Perception DC</p><p><strong>Effect</strong> on success, they register only that you dropped something, apologized, and left</p><hr /><p>Swap a genuine high-value item for a convincing fake in full view of its owner.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "scavenger-spy"
+            ]
+        },
+        "slug": "the-switch-that-isnt"
+    },
+    "_id": "x5XI36vfFidqQHP9"
+}

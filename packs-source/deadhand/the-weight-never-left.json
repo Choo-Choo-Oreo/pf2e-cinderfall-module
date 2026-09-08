@@ -1,0 +1,31 @@
+{
+    "name": "The Weight Never Left",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Effect</strong> the second time you use Redline: Momentum or One Good Hit in a single encounter, it no longer requires a Slip Table roll at all</p><hr /><p>Pushing twice in one fight stops costing you anything.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "the-weight-never-left"
+    },
+    "_id": "SJaavnINzIL4fBvP"
+}

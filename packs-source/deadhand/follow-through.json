@@ -1,0 +1,31 @@
+{
+    "name": "Follow-Through",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Effect</strong> up to 2d6 of the damage dealt carries through in a straight line to the next creature or object directly behind your target</p><hr /><p>A hit that should stop at one target carries into whatever's behind it.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "follow-through"
+    },
+    "_id": "5sHh1Sl9nD7t2qvp"
+}

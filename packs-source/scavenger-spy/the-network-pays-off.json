@@ -1,0 +1,31 @@
+{
+    "name": "The Network Pays Off",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Check</strong> relevant Lore or Society vs. DC 10 (flat, Skilled)</p><p><strong>Effect</strong> produces information, an asset, or a distraction on the spot, at the cost of the favor spent</p><hr /><p>Call in a favor from the Underledger or another contact web.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "scavenger-spy"
+            ]
+        },
+        "slug": "the-network-pays-off"
+    },
+    "_id": "XYoqKWOv3Uepgi2h"
+}

@@ -1,0 +1,31 @@
+{
+    "name": "The Last Wall",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Effect</strong> Step or Stride up to your Speed and intercept the triggering attack or fall, applying Take the Hit's damage reduction automatically at no action cost</p><hr /><p>Your body plugs a collapsing line before your mind finishes registering the threat.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "the-last-wall"
+    },
+    "_id": "VoFXNTDkCaltDP1q"
+}

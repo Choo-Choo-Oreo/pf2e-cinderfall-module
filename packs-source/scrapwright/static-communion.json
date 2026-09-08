@@ -1,0 +1,32 @@
+{
+    "name": "Static Communion",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per unique spirit/machine encountered</p><hr /><span class=\"sdesc\">Hold a halting, one-sided conversation with any Ghost-Static machine or spirit for a short window.</span>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "scrapwright",
+                "exploration"
+            ]
+        },
+        "slug": "static-communion"
+    },
+    "_id": "vVQuKhIK76iitFRS"
+}

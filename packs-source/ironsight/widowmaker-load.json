@@ -1,0 +1,31 @@
+{
+    "name": "Widowmaker Load",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Effect</strong> a called shot fired this way ignores range-increment penalties entirely</p><p><strong>Blowback</strong> High — 20% (natural 1–4)</p><hr /><p></p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "widowmaker-load"
+    },
+    "_id": "gqo4eNMELpQne1tN"
+}

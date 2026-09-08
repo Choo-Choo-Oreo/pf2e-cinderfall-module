@@ -1,0 +1,31 @@
+{
+    "name": "Patient Bead",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Effect</strong> each full round a target stays in your sights before you fire adds +1 circumstance to the eventual shot, capping at +2 (Green tier)</p><hr /><p>Sight down a target and hold; the longer you wait, the surer the shot.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "patient-bead"
+    },
+    "_id": "4ybDsim1Pkq0hmM3"
+}

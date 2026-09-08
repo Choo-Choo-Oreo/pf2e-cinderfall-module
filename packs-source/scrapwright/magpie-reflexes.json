@@ -1,0 +1,31 @@
+{
+    "name": "Magpie Reflexes",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "free"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Frequency</strong> 1/turn</p><p><strong>Trigger</strong> you or your Rig end movement adjacent to wrecked machinery or debris</p><hr /><span class=\"sdesc\">Gain a +1 circumstance bonus to your next Acrobatics or Athletics check that round.</span>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "scrapwright"
+            ]
+        },
+        "slug": "magpie-reflexes"
+    },
+    "_id": "PnhkXrVnWyxPcJyg"
+}

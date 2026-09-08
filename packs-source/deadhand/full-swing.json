@@ -1,0 +1,31 @@
+{
+    "name": "Full Swing",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Effect</strong> Strike deals an extra 1d6 damage; you take a −2 circumstance penalty to AC until the start of your next turn</p><hr /><p>Commit fully to a huge blow, trading guard for weight.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "full-swing"
+    },
+    "_id": "3Dg3PtbfNKA19dME"
+}

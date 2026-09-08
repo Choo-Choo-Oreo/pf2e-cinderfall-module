@@ -1,0 +1,31 @@
+{
+    "name": "Muscle Memory: The Grind",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Effect</strong> routine structural demolition work no longer requires a check below DC 20</p><hr /><p>Muscle Memory, extended to taking a structure apart.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "muscle-memory-the-grind"
+    },
+    "_id": "pk3oozb5bzbVad61"
+}

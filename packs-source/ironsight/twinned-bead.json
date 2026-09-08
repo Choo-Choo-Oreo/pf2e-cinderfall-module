@@ -1,0 +1,31 @@
+{
+    "name": "Twinned Bead",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Trigger</strong> your first pistol hits</p><p><strong>Effect</strong> +1 circumstance bonus to your next attack this turn</p><hr /><p>Take aim down both barrels at once as a single stance-like action; the moment your first pistol connects, the second's hand tightens on nothing but instinct.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "twinned-bead"
+    },
+    "_id": "DVScGMmIRaOOz484"
+}

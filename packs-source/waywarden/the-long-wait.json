@@ -1,0 +1,31 @@
+{
+    "name": "The Long Wait",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Frequency</strong> at will</p><hr /><p>Hold still and keep a Marked quarry in view for a full round; your next Strike against it before the end of your following turn ignores lesser and standard cover entirely (greater cover still applies) and deals an extra 1d8 precision damage (2d8 at Blooded, 3d8 at Veteran, 4d8 at Undying).</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "waywarden"
+            ]
+        },
+        "slug": "the-long-wait"
+    },
+    "_id": "1VCIBlLlWWtAMxYm"
+}

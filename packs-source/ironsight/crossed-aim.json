@@ -1,0 +1,31 @@
+{
+    "name": "Crossed Aim",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Effect</strong> your second shot at the same target this turn has its multiple attack penalty reduced by 1</p><hr /><p>Point both pistols at one target instead of splitting your attention between two.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "crossed-aim"
+    },
+    "_id": "enXf8F6z97RiKh8W"
+}

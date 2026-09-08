@@ -1,0 +1,31 @@
+{
+    "name": "The Whole Junkyard",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "free"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Trigger</strong> any Trick Iron reload effect</p><p><strong>Effect</strong> swap your entire loadout of improvised weapons at once</p><hr /><p>Every scrap of scrap you're carrying, ready at once.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "the-whole-junkyard"
+    },
+    "_id": "JCDwXBnUYsTiGuQ3"
+}

@@ -1,0 +1,31 @@
+{
+    "name": "Steady Breath",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Effect</strong> your next shot this turn gains a flat +1 circumstance bonus to hit, regardless of time-in-sights</p><hr /><p>Spend a full action doing nothing but breathing and aiming.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "steady-breath"
+    },
+    "_id": "8VGZH1m7ZYzQVNI5"
+}

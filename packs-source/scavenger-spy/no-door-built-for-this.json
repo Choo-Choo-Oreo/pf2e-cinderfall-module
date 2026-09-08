@@ -1,0 +1,31 @@
+{
+    "name": "No Door Built for This",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Effect</strong> no roll — it simply opens, unless warded by something beyond mundane engineering, in which case its effective DC is merely +10 harder rather than impossible</p><hr /><p>Any lock, vault, checkpoint, or containment ward you can physically touch, you open — full stop.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "scavenger-spy"
+            ]
+        },
+        "slug": "no-door-built-for-this"
+    },
+    "_id": "1B8lKSd4Gzji575T"
+}

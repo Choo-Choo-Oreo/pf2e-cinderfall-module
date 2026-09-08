@@ -1,0 +1,31 @@
+{
+    "name": "The Confession Trap",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Check</strong> Deception vs. target's Will DC, +2 circumstance bonus (Skilled)</p><p><strong>Effect</strong> extracts one piece of real information as though from a successful Make a Request</p><hr /><p>Bait a target into revealing something true by first pretending to reveal something true about yourself.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "scavenger-spy"
+            ]
+        },
+        "slug": "the-confession-trap"
+    },
+    "_id": "7auVrNOAH3ieyFbU"
+}

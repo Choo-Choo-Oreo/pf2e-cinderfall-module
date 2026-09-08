@@ -1,0 +1,31 @@
+{
+    "name": "Adrenal Overclock",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Frequency</strong> 1/encounter</p><p><strong>Effect</strong> temporary HP equal to twice your level, no Redline roll required</p><hr /><span class=\"sdesc\">A surge of adrenaline through the Warframe's overrides buys you a cushion with none of the usual Slippage risk.</span>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "scrapwright"
+            ]
+        },
+        "slug": "adrenal-overclock"
+    },
+    "_id": "OO9IpkWgz6WjxoK2"
+}

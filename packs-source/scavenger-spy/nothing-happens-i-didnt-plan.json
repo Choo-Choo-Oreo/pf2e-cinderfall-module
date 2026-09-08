@@ -1,0 +1,31 @@
+{
+    "name": "Nothing Happens I Didn't Plan",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "free"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Freq</strong> 1/session</p><p><strong>Trigger</strong> a current complication</p><p><strong>Effect</strong> automatically succeeds, no roll, converting any single ongoing crisis into a controlled outcome on terms you dictate</p><hr /><p>Declare that a current complication was actually anticipated and prepared for from the start.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "scavenger-spy"
+            ]
+        },
+        "slug": "nothing-happens-i-didnt-plan"
+    },
+    "_id": "5ZEwfM5vBnfa6ejp"
+}

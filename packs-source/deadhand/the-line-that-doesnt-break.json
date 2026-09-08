@@ -1,0 +1,31 @@
+{
+    "name": "The Line That Doesn't Break",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Effect</strong> mundane forced-movement, knockdown, and repositioning effects automatically fail against you; magical or supernatural sources need a critical success to move, trip, or reposition you at all</p><hr /><p>Knockback simply stops working on you, most of the time.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "the-line-that-doesnt-break"
+    },
+    "_id": "DLnCCrAMoegsrWaZ"
+}

@@ -1,0 +1,32 @@
+{
+    "name": "The Standing Order",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Effect</strong> the first time combat or a crisis begins after the briefing, every ally who follows the plan gains a +2 circumstance bonus (Skilled) to their first action of the encounter</p><hr /><p>Brief the whole team with a plan detailed enough to cover their first move.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "scavenger-spy",
+                "exploration"
+            ]
+        },
+        "slug": "the-standing-order"
+    },
+    "_id": "04MePnDXkQSkWWa1"
+}

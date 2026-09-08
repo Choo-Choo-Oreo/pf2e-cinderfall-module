@@ -1,0 +1,31 @@
+{
+    "name": "Flash Exorcism",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Trigger</strong> a hostile spirit, ghost-construct, or Slippage manifestation acts or comes within reach</p><p><strong>Damage</strong> 2d6 + half your level force</p><hr /><span class=\"sdesc\">The target takes force damage and a −2 status penalty to its next action.</span>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "scrapwright"
+            ]
+        },
+        "slug": "flash-exorcism"
+    },
+    "_id": "D1N1vr0zBHbEBTdK"
+}

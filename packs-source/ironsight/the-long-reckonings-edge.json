@@ -1,0 +1,31 @@
+{
+    "name": "The Long Reckoning's Edge",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Requirement</strong> target is fully marked (maximum time-in-sights, cap now +6)</p><p><strong>Effect</strong> the called shot deals an extra 2d8 damage and can target a called location — an eye, a fuel line, a joint — inflicting blinded, staggered 1, or a crippled limb (GM's call) on a hit</p><hr /><p>A maximum-marked called shot can end a fight before it starts.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "the-long-reckonings-edge"
+    },
+    "_id": "yzwf6AmG5FeAL77D"
+}

@@ -1,0 +1,31 @@
+{
+    "name": "Volume Control",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Check</strong> Intimidation vs. target's Will DC</p><p><strong>Effect</strong> bystanders within 30 feet treat the scene as none of their business for 1 minute</p><hr /><p>Escalate a confrontation loud enough that bystanders start looking for an exit, isolating the target socially.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "scavenger-spy"
+            ]
+        },
+        "slug": "volume-control"
+    },
+    "_id": "WyFMnIWZfOv13EOB"
+}

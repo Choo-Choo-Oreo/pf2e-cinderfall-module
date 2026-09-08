@@ -1,0 +1,31 @@
+{
+    "name": "Backstep Load",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Trigger</strong> stepping away from an adjacent enemy</p><p><strong>Effect</strong> reload as part of the Step</p><hr /><p>Buy a pace of distance while racking the slide.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "backstep-load"
+    },
+    "_id": "TyebuPkVVGrDi6Cg"
+}

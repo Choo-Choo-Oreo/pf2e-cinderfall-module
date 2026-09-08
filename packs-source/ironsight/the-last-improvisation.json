@@ -1,0 +1,31 @@
+{
+    "name": "The Last Improvisation",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "free"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> any Trick Iron reload effect</p><p><strong>Effect</strong> treat your next shot as fired from a Good Gun for Jam-trait purposes, plus one Good Gun quality of your choice, for that single shot</p><hr /><p>For one shot, the scrap remembers what it used to be.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "the-last-improvisation"
+    },
+    "_id": "4SilV31pWBfnRIKY"
+}

@@ -1,0 +1,31 @@
+{
+    "name": "Cinder Load",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Effect</strong> a hit also leaves the target with persistent fire damage 1d6</p><p><strong>Blowback</strong> Moderate — 10% (natural 1–2)</p><hr /><p></p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "cinder-load"
+    },
+    "_id": "9LO36pzNerIAZ79b"
+}

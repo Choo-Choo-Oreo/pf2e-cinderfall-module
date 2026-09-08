@@ -1,0 +1,31 @@
+{
+    "name": "The Warm Handoff",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Check</strong> Deception vs. mark's Perception DC</p><p><strong>Effect</strong> anyone who hasn't independently verified you and fails treats the story as established fact for the scene</p><hr /><p>Introduce yourself with a fabricated name, job, and just enough shared context.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "scavenger-spy"
+            ]
+        },
+        "slug": "the-warm-handoff"
+    },
+    "_id": "uuhAKOhgxUqS1JKs"
+}

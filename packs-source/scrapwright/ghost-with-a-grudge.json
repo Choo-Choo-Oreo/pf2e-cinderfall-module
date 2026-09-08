@@ -1,0 +1,31 @@
+{
+    "name": "Ghost with a Grudge",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Frequency</strong> 1/encounter</p><p><strong>Damage</strong> ~4d6+10 or equivalent control effect</p><p><strong>Signature Maneuver</strong> 2 actions</p><hr /><span class=\"sdesc\">The fragment has grown into something that would object to being called an \"it.\" Your Ghost-Rig acts on its own initiative count as a fully independent ally whether or not you spend any actions on it, retains its personality and memories across chassis repairs or even full rebuilds, and gains a once-per-encounter signature maneuver (a name and effect you set at this tier) that ignores its own Slippage risk.</span>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "scrapwright"
+            ]
+        },
+        "slug": "ghost-with-a-grudge"
+    },
+    "_id": "6wdGXmx0OXudCGBb"
+}

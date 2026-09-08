@@ -1,0 +1,31 @@
+{
+    "name": "Riposte",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Trigger</strong> you avoid an attack (a successful Parry, or an attack that misses you by 5 or more)</p><p><strong>Effect</strong> Strike the attacker, dealing an extra 2d6 damage</p><hr /><p>Turn a dodged or parried blow directly into your own strike.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "riposte"
+    },
+    "_id": "ijogO2t4NeotX0ER"
+}

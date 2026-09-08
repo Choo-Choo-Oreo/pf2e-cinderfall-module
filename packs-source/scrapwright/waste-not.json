@@ -1,0 +1,31 @@
+{
+    "name": "Waste Not",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Type</strong> Passive</p><hr /><span class=\"sdesc\">Destroying a construct, vehicle, or Ghost-Static machine recovers 1 extra Static Cell charge beyond the normal reward.</span>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "scrapwright"
+            ]
+        },
+        "slug": "waste-not"
+    },
+    "_id": "p5RPK9VdR3LR6r1O"
+}

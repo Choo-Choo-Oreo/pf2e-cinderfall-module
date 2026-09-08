@@ -1,0 +1,31 @@
+{
+    "name": "The Answer — Hasten the End",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Trigger</strong> Your Ward — the sanctioned Kindling — would be denied its ending: saved, repaired, extinguished, or rescued against the Choir's judgment</p><hr /><p>Someone is interrupting a death you were sent to guarantee. Make an immediate Strike, or attempt a damaging/destructive action, against whatever is doing the saving, with a +1 circumstance bonus — the Choir does not forgive a sentence commuted.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "sworn"
+            ]
+        },
+        "slug": "the-answer-hasten-the-end"
+    },
+    "_id": "1sUx749ifwfC0GFe"
+}
