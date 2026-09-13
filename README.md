@@ -79,6 +79,76 @@ changes — sync alone doesn't push the update to a running world.
 Tested against Foundry V14 (build 361) with the PF2e system (installed system
 version 8.5.0).
 
+## Cutting a release
+
+**Read this whole section before touching anything — do not improvise a subset
+of it.** A version bump is only real once a GitHub release exists; pushing
+`module.json`'s `version` field to `main` without doing the rest below changes
+nothing for anyone installing via the manifest URL. This was set up 2026-09-13
+because installs via manifest URL were failing outright (see the `v0.3.0`
+commit and release for the incident). GitHub's `gh` CLI is **not installed**
+on this machine — everything here goes through raw `git` and the GitHub REST
+API instead; don't stop and ask for `gh` for this.
+
+1. **Make sure `packs/` is current.** From the Cinderfall site repo:
+   `python tools/foundry/export_all.py` then `python tools/foundry/build_pack.py --install`.
+   Close/relaunch the Foundry world first — LevelDB is single-writer and a
+   loaded world holds the lock. Confirm `packs/` in this repo actually changed
+   (`git status` will show nothing since `packs/` is gitignored — check file
+   mtimes/sizes instead, e.g. `du -sh packs/*`).
+2. **Bump `version` in `module.json`.** Also update the `download` field's
+   embedded tag (`releases/download/vX.Y.Z/module.zip`) to match the new
+   version — it does not update itself. `manifest` stays pointed at
+   `releases/latest/download/module.json` permanently; never change that one.
+3. **Commit and push `module.json`** (and any other real changes) to `main`
+   first, before tagging, so the tag lands on the commit that actually matches
+   the release.
+4. **Tag and push it:** `git tag -a vX.Y.Z -m "..."` then `git push origin vX.Y.Z`.
+5. **Stage a release payload** in a scratch directory (never inside this repo
+   — it's a build artifact, not source) containing only what Foundry needs at
+   runtime: `module.json`, `scripts/`, `styles/`, `lang/`, `README.md`,
+   `packs/`. **Leave out `packs-source/` (13MB+ of raw dev JSON) and `tests/`
+   (dev-only Node scripts)** — neither is needed to run the module, and
+   shipping them just bloats every install. (If a future session wants the
+   release to exactly mirror the local dev copy instead, that's a decision to
+   surface, not assume.)
+6. **Zip it — but not with `Compress-Archive`.** On this machine, Windows
+   PowerShell 5.1's `Compress-Archive` (and likely `ZipFile.CreateFromDirectory`
+   on the same .NET Framework build) silently writes **backslash-separated**
+   entry paths (`packs\ancestries\CURRENT`) instead of the zip-spec-required
+   forward slash. Node/Foundry's unzip does not treat `\` as a directory
+   separator, so a zip built that way installs with every nested file as one
+   flat garbage-named file and empty folders. Verify before trusting any zip
+   you build: open it with `System.IO.Compression.ZipFile.OpenRead` and check
+   `.Entries` for backslashes. If you find any, rebuild it by walking the
+   staged files yourself and calling `ZipArchive.CreateEntry` with an
+   explicitly forward-slash-joined relative path (see commit `00d9956`'s
+   session history for the exact PowerShell used) — do not just re-run
+   `Compress-Archive` and hope.
+7. **Create the GitHub release via the REST API**, since `gh` isn't
+   available: `POST https://api.github.com/repos/Choo-Choo-Oreo/pf2e-cinderfall-module/releases`
+   with `tag_name`/`name` matching the tag, `draft: false`, `prerelease: false`.
+   For auth, don't ask the user for a token — a credential for `github.com` is
+   already cached in the local Git Credential Manager (the same one `git push`
+   already uses). Retrieve it non-interactively and never print it:
+   `printf 'protocol=https\nhost=github.com\n' | git credential fill`, pull
+   the `password=` line into a variable, use it as `Authorization: Bearer
+   <token>`, and `unset` it immediately after use. Never echo it, log it, or
+   write it to a file.
+8. **Upload both assets** to the `upload_url` the release response returned
+   (strip the `{?name,label}` template suffix): `module.zip` as
+   `Content-Type: application/zip`, and the repo's own `module.json` *as a
+   separate asset literally named `module.json`* — this is what
+   `releases/latest/download/module.json` actually resolves to, it is not the
+   same as the raw file on `main`.
+9. **Verify live, don't just trust the upload response:**
+   `curl -sSL https://github.com/Choo-Choo-Oreo/pf2e-cinderfall-module/releases/latest/download/module.json`
+   and confirm `version`/`download` match what you just shipped, then `curl -sSL
+   -w "%{http_code} %{size_download}"` the `download` URL itself and confirm
+   `200` and the exact byte size of the zip you built.
+10. **Clean up the scratch build directory** once verified — it's build
+    output, not something to leave lying around outside the repo.
+
 ## Testing an export
 
 Everything ships as real compiled compendium packs; nothing is created at
