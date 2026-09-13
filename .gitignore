@@ -3,9 +3,10 @@
 # binary directory that rewrites whole segments on every build, so it does not
 # belong in git while this module is installed locally via sync-to-foundry.py.
 #
-# This has to change before the module is ever installed from its manifest
-# URL: a downloaded module has no build step, so packs/ must ship in the repo
-# (or in a release artifact) or the compendiums arrive empty.
+# Resolved 2026-09-13: ships in the release artifact instead (the v0.3.0
+# GitHub release zip bundles a real built packs/ copied in at package time),
+# not by un-ignoring it here. Still git-ignored on purpose -- a new release
+# means rebuilding this locally and re-zipping it in, not committing it.
 packs/
 
 __pycache__/

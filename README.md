@@ -16,8 +16,12 @@ Built to the structure and manifest fields described in Foundry's own
   Foundry V14 (build 361) install this is tested against, not to the pf2e
   system's own stated range. Declares `esmodules`, `styles`, `languages`, and
   a `relationships.systems` entry requiring `pf2e`. `url`/`manifest`/`readme`/
-  `bugs` point at this repo's existing GitHub remote; there's no `download`
-  entry yet since no release/tag exists to point it at.
+  `bugs` point at this repo's existing GitHub remote. `manifest` points at
+  `releases/latest/download/module.json` and `download` at the matching
+  `releases/download/v<version>/module.zip`, since the `v0.3.0` release cut
+  2026-09-13 — Foundry's installer needs a packaged zip, not the raw repo, and
+  a new version now means cutting a release (tag + zip + release-asset
+  module.json), not just pushing to `main`.
 - `scripts/main.js` — module entry point. It only logs on `init` and `ready`.
   The old `MANIFEST` / `syncPacksSource()` runtime sync was **deleted**: a
   World Item created at load would shadow the compendium copy and break the
