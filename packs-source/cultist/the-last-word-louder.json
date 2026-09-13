@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Cost</strong> 3 Zeal</p><p><strong>Range</strong> 30 feet</p><p><strong>Area</strong> 25-foot burst</p><p><strong>Frequency</strong> once per day</p><p><strong>Saving Throw</strong> basic Reflex</p><hr /><p>Each creature in the area takes 10d6 fire damage (basic Reflex save against your class DC). You are <em>deafened</em> until the end of your next turn from the sound of your own fury.</p>"
+            "value": "<p><strong>Cost</strong> 3 Zeal</p><p><strong>Range</strong> 30 feet</p><p><strong>Area</strong> 25-foot burst</p><p><strong>Frequency</strong> once per day</p><p><strong>Saving Throw</strong> basic Reflex</p><hr /><p>Each creature in the area takes @Damage[10d6[fire]] damage (basic Reflex save against your class DC). You are <em>deafened</em> until the end of your next turn from the sound of your own fury.</p>"
         },
         "level": {
             "value": 18

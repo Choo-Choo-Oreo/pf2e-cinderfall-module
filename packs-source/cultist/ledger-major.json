@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p>Once per day, as a single action, every creature within 60 feet that owes you a debt must attempt a Will save against your class DC simultaneously. Each that fails settles its debt in full and takes 10d6 mental damage (doubled on a critical failure), with no limit on how many debts you may call in at once. Every account, closed, on the same page, the same day.</p>"
+            "value": "<p>Once per day, as a single action, every creature within 60 feet that owes you a debt must attempt a Will save against your class DC simultaneously. Each that fails settles its debt in full and takes @Damage[10d6[mental]] damage (doubled on a critical failure), with no limit on how many debts you may call in at once. Every account, closed, on the same page, the same day.</p>"
         },
         "level": {
             "value": 20

@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Cost</strong> 2 Zeal</p><p><strong>Range</strong> 30 feet</p><p><strong>Targets</strong> 1 creature</p><p><strong>Frequency</strong> once per day</p><p><strong>Saving Throw</strong> Fortitude</p><hr /><p>The target attempts a Fortitude save against your class DC. On a failure, it takes 7d6 negative damage and you gain temporary Hit Points equal to the damage dealt, lasting 1 minute (on a critical failure it's also <em>drained 1</em>). On a success, it takes half damage and you gain half as many temporary Hit Points.</p>"
+            "value": "<p><strong>Cost</strong> 2 Zeal</p><p><strong>Range</strong> 30 feet</p><p><strong>Targets</strong> 1 creature</p><p><strong>Frequency</strong> once per day</p><p><strong>Saving Throw</strong> Fortitude</p><hr /><p>The target attempts a Fortitude save against your class DC. On a failure, it takes @Damage[7d6[void]] damage and you gain temporary Hit Points equal to the damage dealt, lasting 1 minute (on a critical failure it's also <em>drained 1</em>). On a success, it takes half damage and you gain half as many temporary Hit Points.</p>"
         },
         "level": {
             "value": 16

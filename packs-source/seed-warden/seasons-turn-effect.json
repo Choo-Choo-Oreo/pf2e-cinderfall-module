@@ -4,7 +4,7 @@
     "img": "icons/svg/mystery-man.svg",
     "system": {
         "description": {
-            "value": "<p><em>Applied by <strong>Season's Turn</strong> to each affected ally.</em></p>\n<hr />\n<p>Choose Green or Grey as you cast. <i>Green</i> allies in the area regain 8d8 Hit Points and gain a +2 status bonus to saves for the duration. <i>Grey</i> enemies in the area take 8d8 poison and are enfeebled 2 on a failure. You are running a whole season through one field in ten seconds.</p>"
+            "value": "<p><em>Applied by <strong>Season's Turn</strong> to each affected ally.</em></p>\n<hr />\n<p>Choose Green or Grey as you cast. <i>Green</i> allies in the area regain 8d8 Hit Points and gain a +2 status bonus to saves for the duration. <i>Grey</i> enemies in the area take @Damage[8d8[poison]] and are enfeebled 2 on a failure. You are running a whole season through one field in ten seconds.</p>"
         },
         "duration": {
             "expiry": "turn-start",

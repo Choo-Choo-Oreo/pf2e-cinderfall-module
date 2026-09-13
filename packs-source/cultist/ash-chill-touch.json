@@ -8,7 +8,18 @@
             "value": ""
         },
         "counteraction": false,
-        "damage": {},
+        "damage": {
+            "0": {
+                "applyMod": false,
+                "category": null,
+                "formula": "1d4",
+                "kinds": [
+                    "damage"
+                ],
+                "materials": [],
+                "type": "cold"
+            }
+        },
         "defense": null,
         "description": {
             "value": "<p>A ranged spell attack that pulls the residual cold of a nuclear winter into a thin, precise lance. <i>Hit</i> 1d4 cold damage (<b>Heightened +1d4</b> every 2 levels). <i>Critical Hit</i> as a hit, and the target's footing goes brittle — its Speed is reduced by 10 feet until the start of your next turn.</p>"
@@ -16,6 +27,13 @@
         "duration": {
             "sustained": false,
             "value": ""
+        },
+        "heightening": {
+            "damage": {
+                "0": "1d4"
+            },
+            "interval": 2,
+            "type": "interval"
         },
         "level": {
             "value": 1

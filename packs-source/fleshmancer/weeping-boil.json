@@ -35,7 +35,11 @@
         "rules": [],
         "size": "med",
         "category": "other",
-        "damage": null,
+        "damage": {
+            "formula": "4d6",
+            "kind": "damage",
+            "type": "acid"
+        },
         "traits": {
             "rarity": "common",
             "value": [
@@ -56,6 +60,7 @@
     "_id": "ySYfnojO6ORDuIc9",
     "flags": {
         "cinderfall": {
+            "incomplete": "The persistent acid 1d4 applied on a failed save isn't separately encoded: type:\"consumable\"'s flat damage field only holds one entry (populated here with the primary 4d6 acid burst).",
             "vitaeCost": 2,
             "mk": "Mk II"
         }

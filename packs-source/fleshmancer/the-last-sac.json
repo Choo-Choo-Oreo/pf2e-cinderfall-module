@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Cost</strong> 6 Vitae</p><p><strong>Range</strong> 30 feet</p><p><strong>Area</strong> 30-foot burst</p><p><strong>Saving Throw</strong> basic Reflex</p><hr /><p>Cut and throw a Graft of a Mark above your own capacity. It deals 16d6 damage of a type you choose. Creatures that critically fail are <em>sickened 3</em> and take persistent damage of the same type equal to your level. You are <em>drained 1</em> until you next rest.</p>"
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Cost</strong> 6 Vitae</p><p><strong>Range</strong> 30 feet</p><p><strong>Area</strong> 30-foot burst</p><p><strong>Saving Throw</strong> basic Reflex</p><hr /><p>Cut and throw a Graft of a Mark above your own capacity. It deals @Damage[16d6[force]] damage of a type you choose. Creatures that critically fail are <em>sickened 3</em> and take persistent damage of the same type equal to your level. You are <em>drained 1</em> until you next rest.</p>"
         },
         "level": {
             "value": 20
@@ -39,6 +39,7 @@
     "_id": "k1gf1fEaa92DgwSq",
     "flags": {
         "cinderfall": {
+            "incomplete": "The real feature lets the player choose the damage type at time of use; Foundry can only store one, so the inline token defaults to force -- adjust manually at the table if a different type is chosen. The persistent damage on a critical failure (equal to your level, same type) also isn't encoded: it scales dynamically with character level, which a fixed @Damage token can't represent.",
             "track": "butchers"
         }
     }

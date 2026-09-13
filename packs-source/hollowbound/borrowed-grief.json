@@ -8,7 +8,18 @@
             "value": ""
         },
         "counteraction": false,
-        "damage": {},
+        "damage": {
+            "0": {
+                "applyMod": false,
+                "category": null,
+                "formula": "8d6",
+                "kinds": [
+                    "damage"
+                ],
+                "materials": [],
+                "type": "mental"
+            }
+        },
         "defense": {
             "save": {
                 "basic": false,
@@ -54,6 +65,7 @@
     "_id": "owvQ5ZXjag1Il5L7",
     "flags": {
         "cinderfall": {
+            "incomplete": "Three-degree damage (Success 4d6, Failure 8d6, Critical Failure 16d6 mental; Heightened +2d6 every 2 levels) collapses to one Foundry formula since defense.save.basic is false and the schema has no per-degree formula; system.damage.0.formula holds the Failure/base value (8d6).",
             "listing": "Covenant Vessel Spells / Wailing Debt restless dead · highest power &amp; risk"
         }
     }

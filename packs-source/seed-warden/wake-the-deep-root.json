@@ -11,7 +11,18 @@
             "value": ""
         },
         "counteraction": false,
-        "damage": {},
+        "damage": {
+            "0": {
+                "applyMod": false,
+                "category": null,
+                "formula": "10d6",
+                "kinds": [
+                    "damage"
+                ],
+                "materials": [],
+                "type": "bludgeoning"
+            }
+        },
         "defense": null,
         "description": {
             "value": "<p>Something enormous and old that was still alive under the rockcrete comes up. The entire area becomes broken, root-buckled, permanently difficult terrain, and every structure in it takes 10d6 bludgeoning as its foundation is lifted apart. Cast this inside a settlement and you have committed an act of war.</p>"

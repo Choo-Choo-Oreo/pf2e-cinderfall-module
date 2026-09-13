@@ -8,7 +8,18 @@
             "value": ""
         },
         "counteraction": false,
-        "damage": {},
+        "damage": {
+            "0": {
+                "applyMod": false,
+                "category": null,
+                "formula": "1d4",
+                "kinds": [
+                    "damage"
+                ],
+                "materials": [],
+                "type": "electricity"
+            }
+        },
         "defense": null,
         "description": {
             "value": "<p>A crawling, electric wrongness under the skin. Make a ranged spell attack. <i>Hit</i> 1d4 electricity damage (<b>Heightened +1d4</b> every 2 levels), and the target is enfeebled 1 until the end of its next turn as its own muscles start arguing with it.</p>"
@@ -16,6 +27,13 @@
         "duration": {
             "sustained": false,
             "value": ""
+        },
+        "heightening": {
+            "damage": {
+                "0": "1d4"
+            },
+            "interval": 2,
+            "type": "interval"
         },
         "level": {
             "value": 1

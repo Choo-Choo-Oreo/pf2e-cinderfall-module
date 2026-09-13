@@ -35,7 +35,11 @@
         "rules": [],
         "size": "med",
         "category": "other",
-        "damage": null,
+        "damage": {
+            "formula": "2d4",
+            "kind": "damage",
+            "type": "piercing"
+        },
         "traits": {
             "rarity": "common",
             "value": [
@@ -56,6 +60,7 @@
     "_id": "ZeWeg8TC7OneHMYd",
     "flags": {
         "cinderfall": {
+            "incomplete": "The persistent bleed 1d4 component isn't separately encoded: type:\"consumable\"'s flat damage field only holds one entry (populated here with the primary 2d4 piercing).",
             "vitaeCost": 1,
             "mk": "Mk I"
         }

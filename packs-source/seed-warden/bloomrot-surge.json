@@ -8,7 +8,18 @@
             "value": ""
         },
         "counteraction": false,
-        "damage": {},
+        "damage": {
+            "0": {
+                "applyMod": false,
+                "category": null,
+                "formula": "1d6",
+                "kinds": [
+                    "damage"
+                ],
+                "materials": [],
+                "type": "mental"
+            }
+        },
         "defense": null,
         "description": {
             "value": "<p>Move the needle <b>two</b> steps in one direction instead of one, then take 1d6 mental damage per step taken past your previous position. You are forcing a season. It costs.</p>"

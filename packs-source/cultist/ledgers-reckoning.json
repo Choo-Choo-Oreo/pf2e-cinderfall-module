@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Range</strong> 60 feet</p><p><strong>Saving Throw</strong> Will</p><hr /><p>The Ledger reads out what is owed. Choose any number of creatures within range that owe you a debt — one you have bargained with, spared, healed, or bound. Each takes 4d6 mental damage per debt it owes you (maximum 3 debts), with a basic Will save against your class DC. On a critical failure, the creature also cannot act against you until the end of its next turn. Every debt called in this way is settled and cannot be called again. The GM adjudicates what counts as a debt; a debt you did not earn is not on the Ledger.</p>"
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Range</strong> 60 feet</p><p><strong>Saving Throw</strong> Will</p><hr /><p>The Ledger reads out what is owed. Choose any number of creatures within range that owe you a debt — one you have bargained with, spared, healed, or bound. Each takes @Damage[4d6[mental]] damage per debt it owes you (maximum 3 debts), with a basic Will save against your class DC. On a critical failure, the creature also cannot act against you until the end of its next turn. Every debt called in this way is settled and cannot be called again. The GM adjudicates what counts as a debt; a debt you did not earn is not on the Ledger.</p>"
         },
         "level": {
             "value": 14

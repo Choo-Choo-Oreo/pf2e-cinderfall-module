@@ -35,7 +35,11 @@
         "rules": [],
         "size": "med",
         "category": "other",
-        "damage": null,
+        "damage": {
+            "formula": "16d6",
+            "kind": "damage",
+            "type": "acid"
+        },
         "traits": {
             "rarity": "common",
             "value": [
@@ -56,6 +60,7 @@
     "_id": "ReSJ0FySD7NfDGNS",
     "flags": {
         "cinderfall": {
+            "incomplete": "The real feature lets the player choose the damage type at time of use (options: acid, bleed, negative/void); Foundry can only store one, so this defaults to acid -- adjust manually at the table if a different type is chosen.",
             "vitaeCost": 8,
             "mk": "Mk IV"
         }

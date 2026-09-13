@@ -40,6 +40,24 @@
                 "selector": "athletics",
                 "type": "item",
                 "value": 1
+            },
+            {
+                "category": "unarmed",
+                "damage": {
+                    "base": {
+                        "damageType": "bludgeoning",
+                        "dice": 1,
+                        "die": "d8"
+                    }
+                },
+                "group": "brawling",
+                "img": "systems/pf2e/icons/unarmed-attacks/fist.webp",
+                "key": "Strike",
+                "label": "Grafted Arm Strike",
+                "slug": "grafted-arm-heavy-fist",
+                "traits": [
+                    "unarmed"
+                ]
             }
         ],
         "size": "med",

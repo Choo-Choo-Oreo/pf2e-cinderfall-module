@@ -8,7 +8,18 @@
             "value": ""
         },
         "counteraction": false,
-        "damage": {},
+        "damage": {
+            "0": {
+                "applyMod": false,
+                "category": null,
+                "formula": "3d6",
+                "kinds": [
+                    "damage"
+                ],
+                "materials": [],
+                "type": "spirit"
+            }
+        },
         "defense": null,
         "description": {
             "value": "<p>At the end of each creature's turn, if it is adjacent to you, make a ranged spirit attack roll against it with no action required; on a hit it takes 3d6 spirit damage (double on a critical hit). It isn't a spirit you've bound — Wardbreakers do that work — it's closer to an idea given just enough shape to swing.</p>"

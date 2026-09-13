@@ -8,7 +8,28 @@
             "value": ""
         },
         "counteraction": false,
-        "damage": {},
+        "damage": {
+            "0": {
+                "applyMod": false,
+                "category": null,
+                "formula": "1d6",
+                "kinds": [
+                    "damage"
+                ],
+                "materials": [],
+                "type": "piercing"
+            },
+            "1": {
+                "applyMod": false,
+                "category": "persistent",
+                "formula": "1d4",
+                "kinds": [
+                    "damage"
+                ],
+                "materials": [],
+                "type": "bleed"
+            }
+        },
         "defense": null,
         "description": {
             "value": "<p>Make a ranged spell attack. On a hit, deal 1d6 piercing plus 1d4 persistent bleed (<i>Heightened</i> +1d6 and +1d4 at 5th level and every 4 levels thereafter). A seed goes in fast and opens once it's inside.</p>"

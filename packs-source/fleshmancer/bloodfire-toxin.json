@@ -35,7 +35,11 @@
         "rules": [],
         "size": "med",
         "category": "poison",
-        "damage": null,
+        "damage": {
+            "formula": "4d6",
+            "kind": "damage",
+            "type": "poison"
+        },
         "traits": {
             "rarity": "common",
             "value": [
@@ -57,6 +61,7 @@
     "_id": "xIm0dv4rJLpo5lkO",
     "flags": {
         "cinderfall": {
+            "incomplete": "The persistent fire 1d6 component isn't separately encoded: type:\"consumable\"'s flat damage field only holds one entry (populated here with the primary 4d6 poison), so it has no room for the additional persistent fire 1d6.",
             "vitaeCost": 2,
             "mk": "Mk II"
         }

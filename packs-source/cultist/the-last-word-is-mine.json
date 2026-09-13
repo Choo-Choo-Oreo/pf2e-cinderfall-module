@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Cost</strong> 2 Zeal</p><p><strong>Range</strong> 60 feet</p><p><strong>Targets</strong> 1 creature</p><p><strong>Frequency</strong> once per day</p><p><strong>Saving Throw</strong> Will</p><hr /><p>The target must succeed at a Will save against your class DC or take 6d6 mental damage and become <em>frightened 2</em>; on a critical failure it also can't act against you until the end of its next turn. On a success, it takes half damage and is frightened 1 instead. Wrath doesn't ask twice.</p>"
+            "value": "<p><strong>Cost</strong> 2 Zeal</p><p><strong>Range</strong> 60 feet</p><p><strong>Targets</strong> 1 creature</p><p><strong>Frequency</strong> once per day</p><p><strong>Saving Throw</strong> Will</p><hr /><p>The target must succeed at a Will save against your class DC or take @Damage[6d6[mental]] damage and become <em>frightened 2</em>; on a critical failure it also can't act against you until the end of its next turn. On a success, it takes half damage and is frightened 1 instead. Wrath doesn't ask twice.</p>"
         },
         "level": {
             "value": 12

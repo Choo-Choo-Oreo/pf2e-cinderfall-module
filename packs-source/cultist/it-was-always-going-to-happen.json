@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Range</strong> 60 feet</p><p><strong>Targets</strong> 1 creature</p><p><strong>Frequency</strong> once per day</p><p><strong>Saving Throw</strong> Will</p><hr /><p>The target must succeed at a Will save against your class DC or be marked for the rest of the encounter: the next three times it takes damage from any source, each instance is increased by 4d6 mental damage (6d6 on a critical failure). On a success, only the next such instance is increased, by 4d6.</p>"
+            "value": "<p><strong>Range</strong> 60 feet</p><p><strong>Targets</strong> 1 creature</p><p><strong>Frequency</strong> once per day</p><p><strong>Saving Throw</strong> Will</p><hr /><p>The target must succeed at a Will save against your class DC or be marked for the rest of the encounter: the next three times it takes damage from any source, each instance is increased by @Damage[4d6[mental]] damage (@Damage[6d6[mental]] on a critical failure). On a success, only the next such instance is increased, by @Damage[4d6[mental]].</p>"
         },
         "level": {
             "value": 20

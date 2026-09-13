@@ -52,6 +52,7 @@
     "_id": "lSfci5aLFdkoJUOL",
     "flags": {
         "cinderfall": {
+            "incomplete": "The stated fixed damage (7d10 piercing, ignoring 5 Hardness/resistance, no save) has no rule-element or dedicated-field equivalent: this is a type:\"ammo\" item, and Foundry's ammo schema only modifies a fired weapon's own Strike (damage die/type, traits) -- it has no field to override the Strike's damage formula, force a Hardness/resistance bypass, or add a separate critical-hit effect (persistent bleed 2d8), confirmed against real pf2e's own explosive-ammo pattern (Bomb Launcher, pf2e-source/packs/pf2e/equipment/bomb-launcher.json). Unlike the AoE-with-save ammo cards in equipment/ammunition/, this shell is a plain attack-roll item with no save to omit -- what's missing is the fixed damage override, the Hardness-ignoring clause, and the crit persistent bleed, none of which ammo's own schema can carry.",
             "vitaeCost": 4,
             "mk": "Mk III"
         }

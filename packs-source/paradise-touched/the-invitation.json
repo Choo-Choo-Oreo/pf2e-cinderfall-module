@@ -8,7 +8,18 @@
             "value": ""
         },
         "counteraction": false,
-        "damage": {},
+        "damage": {
+            "0": {
+                "applyMod": false,
+                "category": null,
+                "formula": "10d10",
+                "kinds": [
+                    "damage"
+                ],
+                "materials": [],
+                "type": "mental"
+            }
+        },
         "defense": {
             "save": {
                 "basic": false,
@@ -55,7 +66,7 @@
     "_id": "n3CEhmQwtdu5enQ8",
     "flags": {
         "cinderfall": {
-            "incomplete": "Complex outcome table (mental damage/stun/uploaded on various results); Signal: 1 Signal Drift regardless of success or failure. A real, unconditional number riding on the unbuildable Drift track; the damage/stun/uploaded outcomes are otherwise damage-pipeline/out-of-scope. The 0-10 Signal Drift track has the same absence as Bandwidth: no `SpecialResource`/counter representation anywhere in the corpus.",
+            "incomplete": "Complex outcome table (mental damage/stun/uploaded on various results); Signal: 1 Signal Drift regardless of success or failure. A real, unconditional number riding on the unbuildable Drift track; the stun/uploaded outcomes are otherwise damage-pipeline/out-of-scope (system.damage now holds the 10d10 mental dealt on both Success and Failure). The 0-10 Signal Drift track has the same absence as Bandwidth: no `SpecialResource`/counter representation anywhere in the corpus.",
             "listing": "9th Rank"
         }
     }

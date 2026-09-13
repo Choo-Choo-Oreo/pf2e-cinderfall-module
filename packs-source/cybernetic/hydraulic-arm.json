@@ -40,6 +40,25 @@
                 "selector": "athletics",
                 "type": "item",
                 "value": 1
+            },
+            {
+                "category": "unarmed",
+                "damage": {
+                    "base": {
+                        "damageType": "bludgeoning",
+                        "dice": 1,
+                        "die": "d6"
+                    }
+                },
+                "group": "brawling",
+                "img": "systems/pf2e/icons/unarmed-attacks/fist.webp",
+                "key": "Strike",
+                "label": "Hydraulic Arm Strike",
+                "slug": "hydraulic-arm-fist",
+                "traits": [
+                    "unarmed",
+                    "shove"
+                ]
             }
         ],
         "size": "med",

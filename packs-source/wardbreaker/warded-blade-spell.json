@@ -8,7 +8,18 @@
             "value": ""
         },
         "counteraction": false,
-        "damage": {},
+        "damage": {
+            "0": {
+                "applyMod": false,
+                "category": "precision",
+                "formula": "1d6",
+                "kinds": [
+                    "damage"
+                ],
+                "materials": [],
+                "type": "slashing"
+            }
+        },
         "defense": null,
         "description": {
             "value": "<p><strong>Frequency</strong> 2/day (+1 at 5th, 9th, 13th, 17th — 6/day at 17th and beyond)</p><hr /><p>Make a melee Strike with your Warded Blade against the Named target. On a hit, the target takes an extra 1d6 precision damage (+1d6 at 5th level, +1d6 more every 4 levels after — 3d6 at 9th, 4d6 at 13th, 5d6 at 17th) that ignores any resistance the target has purely by virtue of being non-physical or supernatural.</p>"
@@ -50,6 +61,7 @@
     "_id": "oUHeyqQ5oQ5KmJNa",
     "flags": {
         "cinderfall": {
+            "incomplete": "This is bonus precision damage added to a melee Strike the caster makes as part of casting the spell. Real PF2e models 'extra precision damage on a strike' via a DamageDice rule element scoped to the strike (e.g. pf2e-source's Avarek and Blune Bandersworth statblocks), which inherits whatever type the underlying weapon deals rather than carrying a fixed type of its own -- the prose here never states one either, so the base value below defaults to slashing (Warded Blade being a literal blade). The level-gated scaling (+1d6 at 5th, +1d6 every 4 levels after) also isn't automated, for the same reason as Ash-Iron Lantern: only the base 1d6 rolls in Foundry; a GM needs to manually track the higher-level bonus.",
             "signatureSpellOf": "wardbreaker.warded-blade"
         }
     }

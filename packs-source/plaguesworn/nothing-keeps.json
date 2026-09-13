@@ -8,7 +8,18 @@
             "value": ""
         },
         "counteraction": false,
-        "damage": {},
+        "damage": {
+            "0": {
+                "applyMod": false,
+                "category": "persistent",
+                "formula": "1d4",
+                "kinds": [
+                    "damage"
+                ],
+                "materials": [],
+                "type": "void"
+            }
+        },
         "defense": {
             "save": {
                 "basic": false,
@@ -21,6 +32,13 @@
         "duration": {
             "sustained": true,
             "value": "sustained up to 1 minute"
+        },
+        "heightening": {
+            "damage": {
+                "0": "1d4"
+            },
+            "interval": 2,
+            "type": "interval"
         },
         "level": {
             "value": 1

@@ -453,27 +453,7 @@
             "lootable": true
         },
         "cinderfall": {
-            "alignment": "LN",
-            "bodyParts": {
-                "Ocular": 1,
-                "Arm": 1,
-                "Legs": 1
-            },
-            "bodyWhole": {
-                "Frame": 1,
-                "Neural": 1,
-                "Circulatory": 1,
-                "Dermal": 1,
-                "Viscera": 1
-            },
-            "inlays": {
-                "capacity": 3
-            },
-            "ancestry": "human",
-            "unmappedBodyParts": {
-                "heads": 1,
-                "torsos": 1
-            }
+            "alignment": "LN"
         }
     }
 }

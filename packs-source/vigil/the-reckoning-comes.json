@@ -11,7 +11,18 @@
             "value": ""
         },
         "counteraction": false,
-        "damage": {},
+        "damage": {
+            "0": {
+                "applyMod": false,
+                "category": null,
+                "formula": "8d6",
+                "kinds": [
+                    "damage"
+                ],
+                "materials": [],
+                "type": "spirit"
+            }
+        },
         "defense": {
             "save": {
                 "basic": false,

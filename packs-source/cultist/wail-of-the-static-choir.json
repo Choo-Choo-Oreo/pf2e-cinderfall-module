@@ -11,7 +11,28 @@
             "value": ""
         },
         "counteraction": false,
-        "damage": {},
+        "damage": {
+            "0": {
+                "applyMod": false,
+                "category": null,
+                "formula": "5d6",
+                "kinds": [
+                    "damage"
+                ],
+                "materials": [],
+                "type": "sonic"
+            },
+            "1": {
+                "applyMod": false,
+                "category": null,
+                "formula": "4d6",
+                "kinds": [
+                    "damage"
+                ],
+                "materials": [],
+                "type": "mental"
+            }
+        },
         "defense": {
             "save": {
                 "basic": false,

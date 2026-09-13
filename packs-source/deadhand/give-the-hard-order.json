@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Range</strong> 60 feet</p><hr /><p>One willing ally who can hear and understand you immediately takes a full turn of three actions, out of sequence, before anyone else acts. At the end of it they are fatigued until they next rest, and they take 4d6 damage that cannot be prevented or reduced. You do not get to use this on someone who has not agreed to it, and the agreement is worth asking for in advance.</p>"
+            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Range</strong> 60 feet</p><hr /><p>One willing ally who can hear and understand you immediately takes a full turn of three actions, out of sequence, before anyone else acts. At the end of it they are fatigued until they next rest, and they take @Damage[4d6[untyped]] damage that cannot be prevented or reduced. You do not get to use this on someone who has not agreed to it, and the agreement is worth asking for in advance.</p>"
         },
         "level": {
             "value": 12

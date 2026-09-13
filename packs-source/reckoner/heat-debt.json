@@ -8,7 +8,18 @@
             "value": ""
         },
         "counteraction": false,
-        "damage": {},
+        "damage": {
+            "0": {
+                "applyMod": false,
+                "category": null,
+                "formula": "2d6 * @item.rank",
+                "kinds": [
+                    "damage"
+                ],
+                "materials": [],
+                "type": "cold"
+            }
+        },
         "defense": {
             "save": {
                 "basic": true,

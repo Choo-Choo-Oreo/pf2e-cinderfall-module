@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per hour</p><p><strong>Requirement</strong> The target is <em>unconscious</em>, <em>restrained</em>, or willing.</p><p><strong>Range</strong> touch</p><hr /><p>You harvest usable tissue. The target takes 4d6 slashing damage and is <em>drained 1</em>; a willing target takes half damage and is not drained. You gain 3 Vitae, which cannot take you above your daily maximum.</p>"
+            "value": "<p><strong>Frequency</strong> once per hour</p><p><strong>Requirement</strong> The target is <em>unconscious</em>, <em>restrained</em>, or willing.</p><p><strong>Range</strong> touch</p><hr /><p>You harvest usable tissue. The target takes @Damage[4d6[slashing]] damage and is <em>drained 1</em>; a willing target takes half damage and is not drained. You gain 3 Vitae, which cannot take you above your daily maximum.</p>"
         },
         "level": {
             "value": 6

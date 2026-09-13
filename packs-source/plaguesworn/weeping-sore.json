@@ -8,7 +8,28 @@
             "value": ""
         },
         "counteraction": false,
-        "damage": {},
+        "damage": {
+            "0": {
+                "applyMod": false,
+                "category": null,
+                "formula": "2d4",
+                "kinds": [
+                    "damage"
+                ],
+                "materials": [],
+                "type": "poison"
+            },
+            "1": {
+                "applyMod": false,
+                "category": "persistent",
+                "formula": "1d4",
+                "kinds": [
+                    "damage"
+                ],
+                "materials": [],
+                "type": "poison"
+            }
+        },
         "defense": null,
         "description": {
             "value": "<span class=\"sdesc\">A ranged spell attack roll against the target's AC. <i>Success</i> 2d4 poison damage (<b>Heightened +1d4</b> every 2 levels). <i>Critical Success</i> double damage, and 1d4 persistent poison damage.</span>"
@@ -51,6 +72,7 @@
     "_id": "1bmFP7839fnXdKcJ",
     "flags": {
         "cinderfall": {
+            "incomplete": "The 1d4 persistent poison damage in system.damage.1 is meant to apply only on a Critical Success, but the schema has no per-degree restriction, so as encoded it would apply on every successful hit.",
             "listing": "Cantrips"
         }
     }

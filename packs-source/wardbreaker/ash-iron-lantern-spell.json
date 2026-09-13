@@ -11,7 +11,18 @@
             "value": ""
         },
         "counteraction": false,
-        "damage": {},
+        "damage": {
+            "0": {
+                "applyMod": false,
+                "category": null,
+                "formula": "6d6",
+                "kinds": [
+                    "damage"
+                ],
+                "materials": [],
+                "type": "force"
+            }
+        },
         "defense": {
             "save": {
                 "basic": true,
@@ -58,6 +69,7 @@
     "_id": "1dlsonSr8xZkd2ce",
     "flags": {
         "cinderfall": {
+            "incomplete": "The card's own prose never names a damage type for this burst -- defaulted to force (the standard PF2e placeholder for unspecified magical damage) since no other type is stated anywhere in the text. The level-gated damage increase (8d6 at 5th, 10d6 at 9th, 12d6 at 13th, 14d6 at 17th) also isn't automated: PF2e's heightening mechanism scales by spell rank, not character level, and this corpus has no rule-element equivalent for a level-gated spell-damage increase. Only the base (6d6, as cast at 1st level) value rolls automatically in Foundry; a GM needs to manually bump the die count at the stated character-level thresholds.",
             "signatureSpellOf": "wardbreaker.ash-iron-lantern"
         }
     }

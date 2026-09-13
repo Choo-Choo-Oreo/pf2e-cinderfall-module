@@ -40,6 +40,26 @@
                 "selector": "ac",
                 "type": "item",
                 "value": 2
+            },
+            {
+                "category": "unarmed",
+                "damage": {
+                    "base": {
+                        "damageType": "bludgeoning",
+                        "dice": 1,
+                        "die": "d10"
+                    }
+                },
+                "group": "brawling",
+                "img": "systems/pf2e/icons/unarmed-attacks/fist.webp",
+                "key": "Strike",
+                "label": "Warframe Chassis Strike",
+                "slug": "warframe-chassis-fist",
+                "traits": [
+                    "unarmed",
+                    "shove",
+                    "forceful"
+                ]
             }
         ],
         "size": "med",

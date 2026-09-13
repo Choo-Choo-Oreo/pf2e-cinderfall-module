@@ -8,7 +8,18 @@
             "value": ""
         },
         "counteraction": false,
-        "damage": {},
+        "damage": {
+            "0": {
+                "applyMod": false,
+                "category": null,
+                "formula": "8d6",
+                "kinds": [
+                    "damage"
+                ],
+                "materials": [],
+                "type": "mental"
+            }
+        },
         "defense": {
             "save": {
                 "basic": false,
@@ -55,6 +66,7 @@
     "_id": "GYyLh6Y0W3V27aLY",
     "flags": {
         "cinderfall": {
+            "incomplete": "Damage is tiered by save outcome (Success 4d6, Failure 8d6, Critical Failure 12d6 mental, plus a Fortitude save-or-die on critical failure). Only the Failure-tier formula (8d6) is encoded in system.damage; the Success/Critical Failure variants and the death-save rider are not modeled.",
             "listing": "4th Rank"
         }
     }

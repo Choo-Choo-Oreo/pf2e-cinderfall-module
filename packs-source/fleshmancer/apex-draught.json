@@ -57,6 +57,7 @@
     "_id": "t5FJDlAyaOSs3NB5",
     "flags": {
         "cinderfall": {
+            "incomplete": "The grown claw (1d8 slashing, no traits, for 1 minute) granted while this elixir is in effect isn't automated in Foundry: modeling a temporary Strike grant needs a linked Effect item carrying its own Strike rule element, and this consumable's own schema has no room for one.",
             "vitaeCost": 2,
             "mk": "Mk II"
         }

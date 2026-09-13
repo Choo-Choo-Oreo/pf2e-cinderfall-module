@@ -8,7 +8,18 @@
             "value": ""
         },
         "counteraction": false,
-        "damage": {},
+        "damage": {
+            "0": {
+                "applyMod": false,
+                "category": null,
+                "formula": "1d6 * @item.rank",
+                "kinds": [
+                    "damage"
+                ],
+                "materials": [],
+                "type": "sonic"
+            }
+        },
         "defense": null,
         "description": {
             "value": "<p><strong>Trigger</strong> a creature within 60 feet casts a spell</p><hr /><p>Attempt to counteract the triggering spell using your spell DC. On a success you take 1d6 sonic damage per rank of the spell counteracted — the noise has to go somewhere.</p>"

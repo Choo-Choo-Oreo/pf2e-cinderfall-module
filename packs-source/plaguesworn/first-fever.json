@@ -8,7 +8,18 @@
             "value": ""
         },
         "counteraction": false,
-        "damage": {},
+        "damage": {
+            "0": {
+                "applyMod": false,
+                "category": null,
+                "formula": "1d6 * @item.rank",
+                "kinds": [
+                    "damage"
+                ],
+                "materials": [],
+                "type": "void"
+            }
+        },
         "defense": {
             "save": {
                 "basic": true,
@@ -55,6 +66,7 @@
     "flags": {
         "cinderfall": {
             "focusCost": "1",
+            "incomplete": "Failure also turns the wound septic for 1d6 persistent void damage per 2 ranks of this spell (minimum 1d6); only the primary per-rank hit damage is encoded in system.damage, not the persistent secondary.",
             "listing": "Verse Spells / Verse of Rot Spoilage — decay damage"
         }
     }

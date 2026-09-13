@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Range</strong> 30 feet</p><p><strong>Targets</strong> up to 3 creatures</p><p><strong>Frequency</strong> once per day</p><p><strong>Saving Throw</strong> Will</p><hr /><p>Each target attempts a Will save against your class DC. On a failure it takes 4d6 mental damage and becomes <em>off-guard</em> to you until the end of your next turn, distracted by its own guilt; on a critical failure the damage is doubled. On a success, it takes half damage only.</p>"
+            "value": "<p><strong>Range</strong> 30 feet</p><p><strong>Targets</strong> up to 3 creatures</p><p><strong>Frequency</strong> once per day</p><p><strong>Saving Throw</strong> Will</p><hr /><p>Each target attempts a Will save against your class DC. On a failure it takes @Damage[4d6[mental]] damage and becomes <em>off-guard</em> to you until the end of your next turn, distracted by its own guilt; on a critical failure the damage is doubled. On a success, it takes half damage only.</p>"
         },
         "level": {
             "value": 10

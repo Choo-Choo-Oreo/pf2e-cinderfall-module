@@ -8,7 +8,18 @@
             "value": ""
         },
         "counteraction": false,
-        "damage": {},
+        "damage": {
+            "0": {
+                "applyMod": false,
+                "category": null,
+                "formula": "1d8",
+                "kinds": [
+                    "damage"
+                ],
+                "materials": [],
+                "type": "poison"
+            }
+        },
         "defense": {
             "save": {
                 "basic": true,

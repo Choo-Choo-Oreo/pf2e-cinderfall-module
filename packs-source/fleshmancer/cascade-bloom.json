@@ -35,7 +35,11 @@
         "rules": [],
         "size": "med",
         "category": "other",
-        "damage": null,
+        "damage": {
+            "formula": "6d6",
+            "kind": "damage",
+            "type": "acid"
+        },
         "traits": {
             "rarity": "common",
             "value": [
@@ -56,6 +60,7 @@
     "_id": "YILPWVzeRrINiCxi",
     "flags": {
         "cinderfall": {
+            "incomplete": "Only the initial 6d6 acid burst is encoded. The three follow-up 4d6 acid detonations (each 1 round apart, each with its own basic Reflex save) aren't separately encoded: type:\"consumable\"'s flat damage field only holds one entry.",
             "vitaeCost": 4,
             "mk": "Mk III"
         }

@@ -8,7 +8,18 @@
             "value": ""
         },
         "counteraction": false,
-        "damage": {},
+        "damage": {
+            "0": {
+                "applyMod": false,
+                "category": null,
+                "formula": "8d8",
+                "kinds": [
+                    "healing"
+                ],
+                "materials": [],
+                "type": "vitality"
+            }
+        },
         "defense": null,
         "description": {
             "value": "<p>Restore 8d8 Hit Points and end one persistent damage condition and one of the following affecting the target: drained, enfeebled, sickened, or clumsy. This is as far as ordinary faith reaches before the ladder takes over.</p>"

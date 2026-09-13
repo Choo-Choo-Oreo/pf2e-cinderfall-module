@@ -8,7 +8,18 @@
             "value": ""
         },
         "counteraction": false,
-        "damage": {},
+        "damage": {
+            "0": {
+                "applyMod": false,
+                "category": null,
+                "formula": "5d6",
+                "kinds": [
+                    "damage"
+                ],
+                "materials": [],
+                "type": "spirit"
+            }
+        },
         "defense": null,
         "description": {
             "value": "<p>As The Watcher at Your Back, but the automatic attack at the end of an adjacent creature's turn deals 5d6 spirit damage (double on a critical hit), and once per round as a single action you may instead direct the presence to make a spell attack roll against one creature within 30 feet for the same damage. What started as an idea has picked a side.</p>"

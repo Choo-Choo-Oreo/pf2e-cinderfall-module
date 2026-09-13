@@ -8,7 +8,28 @@
             "value": ""
         },
         "counteraction": false,
-        "damage": {},
+        "damage": {
+            "0": {
+                "applyMod": false,
+                "category": null,
+                "formula": "2d8",
+                "kinds": [
+                    "damage"
+                ],
+                "materials": [],
+                "type": "poison"
+            },
+            "1": {
+                "applyMod": false,
+                "category": "persistent",
+                "formula": "1d6",
+                "kinds": [
+                    "damage"
+                ],
+                "materials": [],
+                "type": "poison"
+            }
+        },
         "defense": {
             "save": {
                 "basic": true,
@@ -55,6 +76,7 @@
     "_id": "i0utHpNv7DDEdNy7",
     "flags": {
         "cinderfall": {
+            "incomplete": "Critical Failure raises the persistent poison damage from 1d6 to 2d6 instead of the Failure-tier 1d6; only the Failure-tier value is encoded in system.damage.1 since the schema has no per-degree branching.",
             "listing": "2nd Rank"
         }
     }

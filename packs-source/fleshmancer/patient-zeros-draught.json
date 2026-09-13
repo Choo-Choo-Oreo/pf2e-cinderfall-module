@@ -35,7 +35,11 @@
         "rules": [],
         "size": "med",
         "category": "poison",
-        "damage": null,
+        "damage": {
+            "formula": "3d6",
+            "kind": "damage",
+            "type": "poison"
+        },
         "traits": {
             "rarity": "common",
             "value": [
