@@ -33,5 +33,10 @@
         },
         "slug": "local-repeater"
     },
-    "_id": "HDgOZHJyLkNvhBsi"
+    "_id": "HDgOZHJyLkNvhBsi",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "No rule element in the 34-key inventory (P12) creates a placed, independently-targetable object with its own AC/HP — that is a Foundry scene/token operation, well outside rule-element scope. Also SB3-adjacent (modifies where Broadcast's range is measured from)."
+        }
+    }
 }

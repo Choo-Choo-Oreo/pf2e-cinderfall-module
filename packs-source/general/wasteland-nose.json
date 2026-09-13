@@ -1,0 +1,37 @@
+{
+    "name": "Wasteland Nose",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "general",
+        "description": {
+            "value": "<p>Bonus to Perception checks to notice ambient radiation, gas, or spoiled food/water before it becomes a problem.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "wasteland-nose"
+    },
+    "_id": "3ulxe2QXv4rPz183",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "A Perception bonus narrow to noticing ambient radiation/gas/spoiled food has no clean predicate: the real Stonemason's Eye and Scavenger's Search feats use narrow Perception bonuses, but each hooks a real predicate (item:tag:object, or a terrain:unusual-stonework roll option) that already exists in the engine or on real compendium items -- no equivalent 'terrain:radiation' or 'terrain:hazard' roll option exists anywhere in pf2e or in this corpus, so a predicate here would be invented and would silently never fire (a clause is not the claim)."
+        }
+    }
+}

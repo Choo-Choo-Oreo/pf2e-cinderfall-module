@@ -1,0 +1,41 @@
+{
+    "name": "Lock and Ledger",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "skill",
+        "description": {
+            "value": "<p>Bonus to bypass corporate security locks and systems specifically.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Trained in Thievery"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "lock-and-ledger"
+    },
+    "_id": "sceiv04HQiTRO0uO",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The card states a bonus but gives no numeric value, bonus type, or specific action tag to build a FlatModifier from without inventing one."
+        }
+    }
+}

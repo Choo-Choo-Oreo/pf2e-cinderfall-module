@@ -1,0 +1,41 @@
+{
+    "name": "Company Voice",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "skill",
+        "description": {
+            "value": "<p>Bonus to Deception checks made to impersonate corporate authority, credentials, or standing.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Trained in Deception"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "company-voice"
+    },
+    "_id": "gMZo1j33xxglyFGU",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The card states a bonus but gives no numeric value, bonus type, or specific action tag to build a FlatModifier from without inventing one."
+        }
+    }
+}

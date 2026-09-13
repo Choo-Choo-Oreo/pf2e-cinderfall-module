@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "deadhand-cadre"
+            ],
             "rarity": "common",
             "value": [
                 "deadhand"
@@ -33,5 +36,11 @@
         },
         "slug": "fall-back-in-order"
     },
-    "_id": "Sg4VjsmkyRIaeoWC"
+    "_id": "Sg4VjsmkyRIaeoWC",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Up to 4 allies Stride half Speed without triggering reactions; those who end farther from every enemy gain temp HP = level for 1 minute. The temp-HP clause is gated on a dynamic positional outcome (\"ended farther from every enemy\") with no rule-element analog, and no companion effect exists to carry ally temp HP for this slug.",
+            "track": "cadre"
+        }
+    }
 }

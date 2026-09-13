@@ -24,7 +24,9 @@
             "type": null
         },
         "price": {
-            "value": {}
+            "value": {
+                "gp": 0
+            }
         },
         "publication": {
             "license": "ORC",
@@ -32,7 +34,14 @@
             "title": "Cinderfall"
         },
         "quantity": 1,
-        "rules": [],
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "deception",
+                "type": "circumstance",
+                "value": 1
+            }
+        ],
         "size": "med",
         "traits": {
             "rarity": "common",
@@ -46,21 +55,14 @@
     "_id": "HSTUT2nlIsAqmCAq",
     "flags": {
         "cinderfall": {
+            "incomplete": "\"−1 circumstance to fine-work checks (Thievery, surgery, Crafting detail passes) while in an encounter or observed\" has no clean predicate: 'observed' and the 'fine-work'/'detail pass' subsets of Thievery and Crafting have no standard action-slug (unlike Climb, Swim, or Escape), so scoping the penalty correctly isn't possible without either missing the restriction or over-penalizing all Thievery/Crafting checks.",
             "mutationType": "scar",
             "tier": "common",
-            "slot": "Neural",
             "slots": [
                 "Neural"
             ],
             "slotCost": 1,
-            "roll": "d12 — 4",
-            "incomplete": [
-                "level is a stub (0); mutations carry no level",
-                "price is empty; a mutation is not bought"
-            ],
-            "inferred": [
-                "system.usage"
-            ]
+            "roll": "d12 — 4"
         }
     }
 }

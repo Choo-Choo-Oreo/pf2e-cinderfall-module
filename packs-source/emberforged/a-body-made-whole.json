@@ -1,0 +1,48 @@
+{
+    "name": "A Body Made Whole",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "ancestry",
+        "description": {
+            "value": "<p>Become permanently immune to fire, cold, and water-based effects alike. The fire that is you finally stabilizes completely.</p>"
+        },
+        "level": {
+            "value": 17
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "Immunity",
+                "type": "fire"
+            },
+            {
+                "key": "Immunity",
+                "type": "cold"
+            }
+        ],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "emberforged"
+            ]
+        },
+        "slug": "a-body-made-whole"
+    },
+    "_id": "302YyAgScZ04GHbo",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "'Water-based effects' has no engine-recognized damage type or trait in pf2e -- A Body of Fire itself never encoded the water half of this same drawback/benefit pair, only Weakness type:\"cold\". The fire and cold immunities are built above."
+        }
+    }
+}

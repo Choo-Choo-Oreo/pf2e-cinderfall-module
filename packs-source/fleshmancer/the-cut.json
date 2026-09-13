@@ -1,0 +1,42 @@
+{
+    "name": "The Cut",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
+        "description": {
+            "value": "<p>Opening flesh — yours or someone else's — and working Vitae into it to prepare a Graft. Your version of \"infuse.\"</p>\n<p>Each day you Cut a number of Grafts from your Vitae pool. Push a Cut past your training — improvised, rushed, done on the wrong table — and you risk a Bloom.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "fleshmancer"
+            ]
+        },
+        "slug": "the-cut"
+    },
+    "_id": "z2GGmBUjnxabzbvz",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The class's entire \"prepare Grafts from your Vitae pool, risk a Bloom if you overreach\" mechanic is purely narrative -- no rule element models \"Cut\"-based crafting at all. A large fraction of this class's other cards build directly on this feat, and it has nothing real to extend."
+        }
+    }
+}

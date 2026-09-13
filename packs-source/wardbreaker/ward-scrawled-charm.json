@@ -27,5 +27,10 @@
         },
         "slug": "ward-scrawled-charm"
     },
-    "_id": "igrWqkxdKMUgasmz"
+    "_id": "igrWqkxdKMUgasmz",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The two abilities this item can store (Static, Name the Anchor) are themselves both INCOMPLETE above -- neither has a rule-element representation to package into a consumable. Separately, 'an item usable by anyone that resolves using a different, absent creature's proficiency rank and key ability' has no real pf2e precedent: ordinary wands/scrolls bake a fixed DC/attack bonus into the item at creation, not a live reference to another actor's current stats."
+        }
+    }
 }

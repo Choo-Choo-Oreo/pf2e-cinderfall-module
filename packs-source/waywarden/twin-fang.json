@@ -1,0 +1,49 @@
+{
+    "name": "Twin Fang",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
+        "description": {
+            "value": "<p>Two weapons, or one weapon and one set of jaws. You and your Feral Bond both go for the throat at once.</p><hr /><p><strong>SIGNATURE —</strong> reduced penalty when making a second attack against your Marked quarry the same turn.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "otherTags": [
+                "waywarden-wasteland-edge"
+            ],
+            "rarity": "common",
+            "value": [
+                "waywarden"
+            ]
+        },
+        "slug": "twin-fang"
+    },
+    "_id": "dFOKosS7dnzZ46oC",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Real analog: Ranger's Flurry Hunter's-Edge classfeature (pf2e-source/packs/pf2e/class-features/flurry.json) is the same shape (a MAP discount vs. hunted prey) — buildable once the Mark exists and this card states its actual discount. The Waywarden's central subsystem, The Mark (classes.waywarden.json flags.cinderfall.terms[0]: \"designate a creature as your quarry, gaining a growing bonus to track, target, and punish it specifically\"), has zero Foundry-schema footprint anywhere in the corpus. classes.waywarden.json:65 itself carries \"rules\": []. No card anywhere grants a TokenMark effect (site/data/cards/abilities/, class-features/, feat-effects/ are all empty scaffold directories -- confirmed via ls, contents are .gitkeep only). Real pf2e's own equivalent mechanic (Ranger's Hunt Prey) is fully buildable and precedented, but that infrastructure (an action item + a TokenMark-carrying effect item) does not exist for Waywarden and is not one of the 56 files in scope for this draft. This card is blocked until a future pass authors the base Mark action/effect.",
+            "subclassOf": "waywarden",
+            "subclassChoice": "Choose Your Wasteland Edge",
+            "subclassLayer": "wasteland-edge",
+            "role": "Dual Assault"
+        }
+    }
+}

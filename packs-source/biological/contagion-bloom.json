@@ -1,0 +1,70 @@
+{
+    "name": "Contagion Bloom",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>Harvested from something that treated other bodies as spare storage and meant it. On a critical hit with a natural weapon or unarmed Strike against a living creature, plant a Seed in them, no save. You always sense the rough direction and distance to any creature carrying your Seed. Once per day, 1 action: inflict 1d6 persistent bleed remotely on a seeded creature within a mile.</p><p><b>Rider:</b> It was built to spread, not to stay put. Once per session in a chaotic fight, the GM may have a Seed root in whoever you crit next regardless of intent — friend, civilian, or foe.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 19
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "mk": 30000
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "traits": {
+            "rarity": "mythic",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "contagion-bloom"
+    },
+    "_id": "PBCxJn1UqufdtIsd",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The whole ability (plant a trackable Seed on crit, sense its bearer, remotely inflict bleed on it) targets another creature's condition/HP from a self-held item with no selector for that anywhere in pf2e -- same architecture gap as the mutations pass's Grave-Quiet/Root-of-the-First-Fire, compounded by a remote-damage component that has no precedent at all.",
+            "augmentKind": "biological",
+            "augmentType": "graft",
+            "tier": "mythic",
+            "slots": [
+                "Viscera"
+            ],
+            "slotCost": 1,
+            "grade": 5,
+            "availability": "Wild",
+            "level": 19,
+            "load": "+8",
+            "resonance": "+7",
+            "augTags": [
+                "wild",
+                "apex"
+            ]
+        }
+    }
+}

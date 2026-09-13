@@ -1,0 +1,52 @@
+{
+    "name": "Hardened Faith",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>You gain a +1 circumstance bonus to saving throws against spells and abilities with the divine or occult trait, unless you are the source.</p>"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "saving-throw",
+                "type": "circumstance",
+                "value": 1,
+                "predicate": [
+                    {
+                        "or": [
+                            "item:trait:divine",
+                            "item:trait:occult"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "cultist"
+            ]
+        },
+        "slug": "hardened-faith"
+    },
+    "_id": "t4xcArBBMSaboDX0"
+}

@@ -1,0 +1,43 @@
+{
+    "name": "Beacon Mastery",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "ancestry",
+        "description": {
+            "value": "<p>The intensified Ambient Glow can also dazzle enemies who look directly at it.</p>"
+        },
+        "level": {
+            "value": 13
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Beacon in the Dark"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "glassblood"
+            ]
+        },
+        "slug": "beacon-mastery"
+    },
+    "_id": "lkyYh0ns0im3hUs2",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Upgrades Beacon in the Dark, itself unbuildable for lack of a radius value, and 'dazzle enemies who look directly at it' is This affects another creature's own roll, HP, or condition from the card holder's passive/item, which has no rule-element hook in real pf2e.."
+        }
+    }
+}

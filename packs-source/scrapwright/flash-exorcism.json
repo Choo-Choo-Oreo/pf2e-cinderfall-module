@@ -27,5 +27,10 @@
         },
         "slug": "flash-exorcism"
     },
-    "_id": "D1N1vr0zBHbEBTdK"
+    "_id": "D1N1vr0zBHbEBTdK",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Bucket 3 -- a full triggered attack action with damage and a follow-on penalty. This is the shape of a reaction feat real pf2e ships with rules: [] and a macro, not a system.rules-only build."
+        }
+    }
 }

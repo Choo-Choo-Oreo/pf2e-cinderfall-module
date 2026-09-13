@@ -1,0 +1,37 @@
+{
+    "name": "Read the Room",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><hr /><p>Attempt a Perception check against the highest Deception DC of any creature you can see. On a success, you learn whether that creature intends you harm in the immediate future — a plain yes or no, nothing more specific. The GM answers honestly within that scope.</p>"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "cultist"
+            ]
+        },
+        "slug": "read-the-room"
+    },
+    "_id": "Nr3I6wINmk4tlmVV"
+}

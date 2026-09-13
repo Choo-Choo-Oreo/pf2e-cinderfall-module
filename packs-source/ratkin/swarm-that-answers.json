@@ -1,0 +1,39 @@
+{
+    "name": "Swarm That Answers",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "ancestry",
+        "description": {
+            "value": "<p>Once per day, call a skittering swarm of mundane or lightly mutated rats from every drain and burrow within 30 feet, fighting under your loose command for 1 minute.</p>"
+        },
+        "level": {
+            "value": 17
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ratkin"
+            ]
+        },
+        "slug": "swarm-that-answers"
+    },
+    "_id": "Luw4jo5M8290F9zL",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Granting a new limited-use activated action/reaction has no rule-element hook in real pf2e -- confirmed corpus-wide this pass (Reactive Shield itself ships rules: []). ('once per day, call a skittering swarm... fighting under your loose command' is a full summon effect, far beyond a rule-element hook.)"
+        }
+    }
+}

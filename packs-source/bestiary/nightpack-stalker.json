@@ -102,7 +102,16 @@
                 "base": 8
             },
             "stealth": {
-                "base": 10
+                "base": 10,
+                "special": [
+                    {
+                        "base": 22,
+                        "label": "in forest",
+                        "predicate": [
+                            "forest"
+                        ]
+                    }
+                ]
             }
         },
         "traits": {
@@ -297,14 +306,54 @@
                 }
             },
             "type": "action"
+        },
+        {
+            "_id": "KTPZm890ILs4gSIC",
+            "img": "systems/pf2e/icons/default-icons/treasure.svg",
+            "name": "Stalker Pelt",
+            "sort": 1400000,
+            "system": {
+                "bulk": {
+                    "value": 0
+                },
+                "category": "material",
+                "description": {
+                    "value": "<p>A lean canopy-predator's hide, torn but salvageable &mdash; worth something to the right buyer, or a Crafting check away from being worth more.</p>"
+                },
+                "hardness": 0,
+                "hp": {
+                    "max": 0,
+                    "value": 0
+                },
+                "level": {
+                    "value": 0
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "quantity": 1,
+                "rules": [],
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                },
+                "price": {
+                    "value": {
+                        "gp": 1
+                    }
+                }
+            },
+            "type": "treasure"
         }
     ],
     "flags": {
+        "pf2e": {
+            "lootable": true
+        },
         "cinderfall": {
-            "alignment": "N",
-            "incomplete": [
-                "skill 'Stealth' condition '+12 in forest' kept as text only"
-            ]
+            "alignment": "N"
         }
     }
 }

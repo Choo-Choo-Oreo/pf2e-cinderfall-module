@@ -24,7 +24,23 @@
             "remaster": true,
             "title": "Cinderfall"
         },
-        "rules": [],
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "strike-damage",
+                "type": "circumstance",
+                "value": 1,
+                "predicate": [
+                    {
+                        "or": [
+                            "item:hands-held:2",
+                            "item:slug:grown-edge",
+                            "item:slug:bolted-edge"
+                        ]
+                    }
+                ]
+            }
+        ],
         "traits": {
             "rarity": "common",
             "value": [

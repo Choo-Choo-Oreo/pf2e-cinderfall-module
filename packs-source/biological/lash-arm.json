@@ -1,0 +1,92 @@
+{
+    "name": "Lash Arm",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>A tendril-limb off something from the Spiderlands or the deep Forest. Melee Strike: reach 10 feet, 1d6 slashing, agile, finesse. On a hit you can attempt to Grapple the target at reach (Athletics vs its Fortitude DC).</p><p><b>Rider:</b> It reacts to movement on its own. While you are Hiding or Sneaking and a creature moves within 15 feet of you, the GM may have the arm twitch toward it, ending your cover.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 10
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "mk": 1000
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "Strike",
+                "slug": "lash-arm",
+                "label": "Lash Arm",
+                "category": "unarmed",
+                "group": "brawling",
+                "img": "systems/pf2e/icons/unarmed-attacks/tentacle.webp",
+                "range": null,
+                "traits": [
+                    "unarmed",
+                    "agile",
+                    "finesse",
+                    "reach-10"
+                ],
+                "damage": {
+                    "base": {
+                        "damageType": "slashing",
+                        "dice": 1,
+                        "die": "d6"
+                    }
+                }
+            }
+        ],
+        "size": "med",
+        "traits": {
+            "rarity": "rare",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "lash-arm"
+    },
+    "_id": "X6Vl5S6lK4wFGn2R",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The grapple-at-reach rider (an Athletics check against Fortitude DC on a hit) and the stealth-breaking twitch-toward-movement rider both have no clean hook: a Strike granting a free follow-up maneuver has no generic rule-element representation, and 'a GM may end your cover when something moves nearby' is a narrative trigger, not an engine-recognizable one.",
+            "augmentKind": "biological",
+            "augmentType": "graft",
+            "tier": "rare",
+            "slots": [
+                "Arm"
+            ],
+            "slotCost": 1,
+            "grade": 3,
+            "availability": "Wild",
+            "level": 10,
+            "load": "+2",
+            "resonance": "+3",
+            "augTags": [
+                "wild"
+            ]
+        }
+    }
+}

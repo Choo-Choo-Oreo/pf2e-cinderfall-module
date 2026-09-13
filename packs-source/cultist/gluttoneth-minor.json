@@ -1,0 +1,46 @@
+{
+    "name": "Standing Hunger",
+    "type": "capstone",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p>Whenever a Gluttoneth feat or Rite of yours grants you temporary Hit Points, increase the amount by your level. The hunger doesn't get bigger meals. It just keeps more of every one it gets.</p>"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "otherTags": [
+                "cultist-gluttoneth"
+            ],
+            "value": [
+                "cultist"
+            ]
+        },
+        "slug": "gluttoneth-minor"
+    },
+    "_id": "YjwU11BLdi1ljHWy",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "\"Whenever a Gluttoneth feat/Rite of yours grants temp HP, increase the amount by your level\" amplifies a temp-HP grant that itself has no rule-element existence to attach an amplifier to (real pf2e never encodes triggered temp-HP grants via system.rules; see dismal-harvest.json, rules: []) -- no hook exists for this card to modify.",
+            "track": "gluttoneth"
+        }
+    }
+}

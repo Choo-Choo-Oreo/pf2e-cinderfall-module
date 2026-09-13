@@ -27,5 +27,10 @@
         },
         "slug": "eyes-up"
     },
-    "_id": "sllgVWMbItIvATyJ"
+    "_id": "sllgVWMbItIvATyJ",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Each ally who can hear the caster gains +1 circumstance to attacks/checks against a called-out threat, for 1 round. This class's own convention for a flat ally-numeric bonus is a companion type:\"effect\" record (13 real examples in this corpus); no deadhand.eyes-up-effect.json exists, and a bare ally bonus grant (not an action grant) doesn't match the real precedent found for mass ally action grants (pf2e-source/packs/pf2e/actions/class/commander/*.json)."
+        }
+    }
 }

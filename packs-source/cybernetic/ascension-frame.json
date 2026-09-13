@@ -1,0 +1,109 @@
+{
+    "name": "Ascension Frame",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p><em>Every slot.</em> GM-permission item. Functionally a ghost-machine wearing a face. +2 item bonus to AC, resistance 10 all, +30-ft Speed, flight 40 ft, +2 to all saves, Regeneration 10. Construct trait; no rest/vitality healing; no longer a person under Cyber City law.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 20
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "gp": 125000
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "ac",
+                "type": "item",
+                "value": 2
+            },
+            {
+                "key": "Resistance",
+                "type": "all-damage",
+                "value": 10
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "land-speed",
+                "type": "item",
+                "value": 30
+            },
+            {
+                "key": "BaseSpeed",
+                "selector": "fly",
+                "value": 40
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "saving-throw",
+                "type": "item",
+                "value": 2
+            },
+            {
+                "key": "FastHealing",
+                "value": 10,
+                "type": "regeneration"
+            }
+        ],
+        "size": "med",
+        "traits": {
+            "rarity": "legendary",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "ascension-frame"
+    },
+    "_id": "yWN8mUINdnR3aKCS",
+    "flags": {
+        "cinderfall": {
+            "augmentKind": "cybernetic",
+            "augmentType": "implant",
+            "tier": "legendary",
+            "slots": [
+                "Ocular",
+                "Neural",
+                "Frame",
+                "Dermal",
+                "Arm",
+                "Legs",
+                "Viscera",
+                "Circulatory"
+            ],
+            "slotCost": 8,
+            "grade": 5,
+            "availability": "Black Market",
+            "level": 20,
+            "drift": "+4",
+            "augTags": [
+                "apex",
+                "soul-tech"
+            ]
+        }
+    }
+}

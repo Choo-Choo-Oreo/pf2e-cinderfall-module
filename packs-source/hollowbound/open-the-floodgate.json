@@ -33,5 +33,10 @@
         },
         "slug": "open-the-floodgate"
     },
-    "_id": "XL6bE6qssUnmcDf8"
+    "_id": "XL6bE6qssUnmcDf8",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Grants a wholly new usable multi-target action built from an existing ability -- per this pass's fixed bucket-3 convention, always INCOMPLETE regardless of real analogs shipping rules: []. Compounding: the \"signature effect\" varies per Covenant (three different abilities, each independently SKIP/informational on its own card), so there is no single mechanical hook to AoE-ify even setting bucket 3 aside. The automatic max-Fraying-die trigger is unbuildable regardless -- Fraying has no rule-element representation anywhere (see classes.hollowbound.json)."
+        }
+    }
 }

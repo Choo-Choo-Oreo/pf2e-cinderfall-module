@@ -1,0 +1,77 @@
+{
+    "name": "Wall-Runner Legs",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>+20-ft item bonus to Speed and a climb Speed of 20 ft. Once per round, move through a larger creature's space.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 11
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "gp": 1500
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "land-speed",
+                "type": "item",
+                "value": 20
+            },
+            {
+                "key": "BaseSpeed",
+                "selector": "climb",
+                "value": 20
+            }
+        ],
+        "size": "med",
+        "traits": {
+            "rarity": "rare",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "wall-runner-legs"
+    },
+    "_id": "SMBfeIdFMBNkL8S3",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Moving through a larger creature's space once per round has no hook: no rule element grants an exception to the 'can't move through an occupied space' base movement rule conditioned on relative size.",
+            "augmentKind": "cybernetic",
+            "augmentType": "implant",
+            "tier": "rare",
+            "slots": [
+                "Legs"
+            ],
+            "slotCost": 1,
+            "grade": 3,
+            "availability": "Restricted",
+            "level": 11,
+            "drift": "+3"
+        }
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "name": "Effect: Chameleon's Bloom",
+    "type": "effect",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "description": {
+            "value": "<p><em>Applied by <strong>Chameleon's Bloom</strong> to the character who used it.</em></p>\n<hr />\n<p>For 1 minute, +4 status bonus to Stealth and a minor disguise as pigment and texture shift. Fail the graft's Fortitude save and the pigment change sticks — locked in place for a week.</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "minutes",
+            "value": 1
+        },
+        "level": {
+            "value": 5
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "stealth",
+                "type": "status",
+                "value": 4
+            }
+        ],
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "value": []
+        },
+        "slug": "chameleons-bloom-effect"
+    },
+    "_id": "VV9lyka5QXpmhEcE",
+    "flags": {
+        "cinderfall": {
+            "effectOf": "fleshmancer.chameleons-bloom",
+            "landsOn": "self"
+        }
+    }
+}

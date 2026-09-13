@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "paradise-touched-render"
+            ],
             "rarity": "common",
             "value": [
                 "paradise-touched"
@@ -33,5 +36,11 @@
         },
         "slug": "preferred-instance"
     },
-    "_id": "VZD6Gd4gA6bi0dDJ"
+    "_id": "VZD6Gd4gA6bi0dDJ",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Prerequisite Local Instance; extends its duration and lets you swap its chosen rule once/minute. Inherits `local-instance`'s own INCOMPLETE status (bucket 7, genuinely novel world-state overrides with no rule-element representation); this card only modifies an already-unbuildable ability.",
+            "track": "render"
+        }
+    }
 }

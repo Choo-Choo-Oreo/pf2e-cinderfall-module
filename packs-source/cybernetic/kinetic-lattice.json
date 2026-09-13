@@ -1,0 +1,65 @@
+{
+    "name": "Kinetic Lattice",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>Energy-shunting skeleton. Resistance 5 to forced-movement, fall, and crashed-vehicle damage. 1/day, store physical damage taken and release it as bonus damage on your next unarmed Strike (same type, capped 30).</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 12
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "gp": 2250
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "traits": {
+            "rarity": "rare",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "kinetic-lattice"
+    },
+    "_id": "FTv3J71QTBBlwZ4d",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The Resistance clause targets forced-movement/fall/crashed-vehicle damage specifically, which has no matching Resistance type: pf2e's damage types don't distinguish fall or forced-movement damage from ordinary bludgeoning, and no roll option marks a damage instance as coming from one of those sources for a predicate to test against -- granting a plain bludgeoning resistance would overstate the card (it would also reduce ordinary weapon damage). The store-and-release mechanic is a separate limited-use (1/day) activated ability needing a granted Action item.",
+            "augmentKind": "cybernetic",
+            "augmentType": "implant",
+            "tier": "rare",
+            "slots": [
+                "Frame"
+            ],
+            "slotCost": 1,
+            "grade": 3,
+            "availability": "Black Market",
+            "level": 12,
+            "drift": "+3"
+        }
+    }
+}

@@ -24,7 +24,32 @@
             "remaster": true,
             "title": "Cinderfall"
         },
-        "rules": [],
+        "rules": [
+            {
+                "key": "RollOption",
+                "option": "twice-is-practice",
+                "toggleable": true,
+                "label": "You have seen this exact effect used before"
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "ac",
+                "type": "circumstance",
+                "value": 1,
+                "predicate": [
+                    "twice-is-practice"
+                ]
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "saving-throw",
+                "type": "circumstance",
+                "value": 1,
+                "predicate": [
+                    "twice-is-practice"
+                ]
+            }
+        ],
         "traits": {
             "rarity": "common",
             "value": [

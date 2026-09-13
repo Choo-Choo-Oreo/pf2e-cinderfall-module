@@ -1,32 +1,15 @@
 {
-    "_id": "Ghx2IsadRhqE63hN",
-    "categories": [],
     "name": "The Standing Order",
-    "ownership": {
-        "default": 0
+    "type": "lore",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "description": {
+            "value": "<p>Older than most of the factions it currently sells soldiers to, the Standing Order is the reason a Yankee drill company and a Dixie warband and an Aristocratic Republic house guard can all end up fielding veterans who trained the exact same way. It doesn't care who wins. It cares that its people keep working. Standard contracts are unremarkable — wages, terms, an exit clause. The infamous one is the <strong>Continuance Clause</strong>, offered quietly to soldiers who've outlived enough contracts to stop flinching at the offer: die under a Standing Order banner, and your soul doesn't linger loose or go looking for a petty god's attention. It gets bound directly into your kit, or into whatever war-machine you died defending, so the job still gets finished. The Foreman (Dossier 01, §7) is on record hating these bindings specifically — a soul that signed away its own afterlife out of professional obligation comes back resentful in a way an honest ghost-machine doesn't, and Continuance-bound war-engines slide toward raging-spirit instability faster than anything built clean.</p><hr /><p>Hook: the Widow of Rust is rumored to have walked away from a Standing Order contract mid-Continuance — the only confirmed case of someone getting out of the clause alive. Nobody's asked her about it twice.</p>"
+        },
+        "slug": "the-standing-order"
     },
-    "pages": [
-        {
-            "_id": "FquyNMqvctMjk2JI",
-            "category": null,
-            "image": {},
-            "name": "The Standing Order",
-            "sort": 100000,
-            "src": null,
-            "system": {},
-            "text": {
-                "content": "<p><em>Mercenary Contractor Consortium · Pre-Turning Charter</em></p>      <p class=\"cc-desc\">Older than most of the factions it currently sells soldiers to, the Standing Order is the reason a Yankee drill company and a Dixie warband and an Aristocratic Republic house guard can all end up fielding veterans who trained the exact same way. It doesn't care who wins. It cares that its people keep working. Standard contracts are unremarkable — wages, terms, an exit clause. The infamous one is the <strong>Continuance Clause</strong>, offered quietly to soldiers who've outlived enough contracts to stop flinching at the offer: die under a Standing Order banner, and your soul doesn't linger loose or go looking for a petty god's attention. It gets bound directly into your kit, or into whatever war-machine you died defending, so the job still gets finished. The Foreman (Dossier 01, §7) is on record hating these bindings specifically — a soul that signed away its own afterlife out of professional obligation comes back resentful in a way an honest ghost-machine doesn't, and Continuance-bound war-engines slide toward raging-spirit instability faster than anything built clean.</p>\n      <hr class=\"cc-divider\">\n      <div class=\"cc-effect\">Hook: the Widow of Rust is rumored to have walked away from a Standing Order contract mid-Continuance — the only confirmed case of someone getting out of the clause alive. Nobody's asked her about it twice.</div>",
-                "format": 1
-            },
-            "title": {
-                "level": 1,
-                "show": true
-            },
-            "type": "text",
-            "video": {
-                "controls": true,
-                "volume": 0.5
-            }
-        }
-    ]
+    "_id": "Ghx2IsadRhqE63hN",
+    "flags": {
+        "cinderfall": {}
+    }
 }

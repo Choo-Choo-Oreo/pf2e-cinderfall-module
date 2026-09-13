@@ -1,0 +1,46 @@
+{
+    "name": "Already Landed",
+    "type": "capstone",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p>There is no longer a moment between your decision and its arrival. You do not fire on a target — you conclude one, and the shot is the paperwork. At the range you work at nobody has ever heard the round that ended them, and the ones who survive describe it as the world simply deciding something without asking. You are not in the fight. You are the reason the fight has a shape.</p>"
+        },
+        "level": {
+            "value": 20
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "otherTags": [
+                "ironsight-long-iron"
+            ],
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "long-iron-major"
+    },
+    "_id": "vPUgMcEefWkkzQLv",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Zero-number flavor text for a Draw's Minor/Major Capstone grant point named in classes.ironsight.json's own progression table. States no number, DC, duration, or selector of any kind -- a real content gap, not a search failure.",
+            "track": "long-iron"
+        }
+    }
+}

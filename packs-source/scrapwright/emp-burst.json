@@ -33,5 +33,10 @@
         },
         "slug": "emp-burst"
     },
-    "_id": "xNOVtXxNdE504u3F"
+    "_id": "xNOVtXxNdE504u3F",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Bucket 3 (activated AoE save action) -- [NO-SPECIALRESOURCE] for the 2-Ghost-Static cost. Also no clean way to gate an automated save-and-branch condition application to \"constructs and machines only\" via a static predicate; this is the shape of a full spell-like effect, which real pf2e always builds via spellcasting infrastructure, never via a bare feat's system.rules."
+        }
+    }
 }

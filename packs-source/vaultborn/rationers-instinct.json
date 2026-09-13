@@ -1,0 +1,39 @@
+{
+    "name": "Rationer's Instinct",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "ancestry",
+        "description": {
+            "value": "<p>Bonus to Survival checks made to stretch food, water, or supplies over a long journey. Your people never had enough to waste.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "vaultborn"
+            ]
+        },
+        "slug": "rationers-instinct"
+    },
+    "_id": "43dZdJK4powLtf7f",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "'Bonus to Survival checks made to stretch food, water, or supplies' states no numeric value. The card states a bonus/effect but gives no numeric value or formula to build a rule element from without inventing one."
+        }
+    }
+}

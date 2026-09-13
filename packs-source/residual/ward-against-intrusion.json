@@ -1,0 +1,39 @@
+{
+    "name": "Ward Against Intrusion",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "ancestry",
+        "description": {
+            "value": "<p>Reduce the severity of Already a Foothold's drawback slightly. The door isn't quite so far ajar.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "residual"
+            ]
+        },
+        "slug": "ward-against-intrusion"
+    },
+    "_id": "VtrWX0p5CI1nFhxj",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Already a Foothold's drawback is a single -1 circumstance FlatModifier; 'reduce the severity... slightly' has no intermediate value between -1 and full removal (see Foothold Closed) to build without inventing one."
+        }
+    }
+}

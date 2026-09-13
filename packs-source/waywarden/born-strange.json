@@ -33,5 +33,10 @@
         },
         "slug": "born-strange"
     },
-    "_id": "hAeYuf8Q4gz8D1Ai"
+    "_id": "hAeYuf8Q4gz8D1Ai",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The ChoiceSet+GrantItem shape (P2) is real and buildable in the abstract, but there's nothing to choose *from* in Foundry-schema terms — no Bloom Table of selectable mutation items exists as item:tag:-filterable records, and \"never counts against Strain\" has no resource to exempt it from. The Strain/Bloom-Table/mutation-Slot economy has no SpecialResource or other Foundry-schema representation anywhere in the corpus (confirmed via grep -rli '\"strain\"' site/data/cards/classes/, no hits, and grep -rl '\"key\": \"SpecialResource\"' site/data/cards/, one unrelated hit in fleshmancer.vitae-pool.json)."
+        }
+    }
 }

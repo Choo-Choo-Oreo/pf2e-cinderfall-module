@@ -56,6 +56,7 @@
     "_id": "yzaDYcxAufOolqci",
     "flags": {
         "cinderfall": {
+            "incomplete": "An unscrubbable tracking mark + always knowing a specific marked creature's presence within 60 ft. TokenMark (PAT-TOKENMARK) can tag the target as 'marked' for use elsewhere, but no concrete rule-element JSON for that half was worked out with confidence to cite, and there is no rule element that grants a distance/direction sense to a specific individually-marked creature at all (Sense only grants standard named senses like darkvision with a fixed radius, not target-specific tracking) -- the tracking half is confirmed unbuildable.",
             "listing": "Cantrips"
         }
     }

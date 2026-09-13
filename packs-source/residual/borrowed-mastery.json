@@ -1,0 +1,43 @@
+{
+    "name": "Borrowed Mastery",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "ancestry",
+        "description": {
+            "value": "<p>Borrowed Instinct's reroll can now apply to any check, not only Perception, Recall Knowledge, or saves.</p>"
+        },
+        "level": {
+            "value": 13
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Steadier Hands"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "residual"
+            ]
+        },
+        "slug": "borrowed-mastery"
+    },
+    "_id": "TPMV4mhs5N7qRpYC",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The parent card this upgrades ships rules: [] itself (confirmed by direct read), so there is nothing real to extend or increase. (Borrowed Instinct itself ships rules: [] -- No Reroll rule-element key exists anywhere in the compendium (reconfirmed this pass).)"
+        }
+    }
+}

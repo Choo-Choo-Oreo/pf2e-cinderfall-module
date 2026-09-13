@@ -33,5 +33,10 @@
         },
         "slug": "no-such-thing-as-unarmed"
     },
-    "_id": "G78nfibLTHxwOVaP"
+    "_id": "G78nfibLTHxwOVaP",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Claims any lifted object becomes a martial weapon at the caster's best proficiency dealing weapon-shaped damage with no improvised penalty; unarmed attacks count as martial for every purpose; no effect can leave the caster unable to Strike. pf2e-source/src/module/rules/rule-element/martial-proficiency.ts:36 confirms MartialProficiency's sameAs field is a fixed WeaponCategory/ArmorCategory string chosen at authoring time, not a dynamic \"your own highest\" lookup -- it cannot express \"proficiency matching whatever category the caster is already best in.\" The \"no effect can leave you unable to Strike\" guarantee has no rule-element analog regardless."
+        }
+    }
 }

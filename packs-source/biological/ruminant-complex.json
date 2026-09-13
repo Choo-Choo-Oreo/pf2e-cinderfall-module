@@ -1,0 +1,66 @@
+{
+    "name": "Ruminant Complex",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>A cultured multi-chamber stomach. You need only a quarter the normal food; you last three times as long before a starvation clock starts; once per day you can spend 10 minutes \"chewing over\" an ingested poison you've taken to end it.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 3
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "mk": 60
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "ruminant-complex"
+    },
+    "_id": "BDr34AIbtMboVjFg",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "None of the three clauses have a rule-element hook: pf2e has no hunger/food-clock mechanism anywhere to reduce (confirmed absence -- metabolic-control.json ships an equally concrete 'no need to eat' claim with rules: []), and 'spend 10 minutes to end an ingested poison' is a limited-use activated ability that needs a granted Action, not a rule element.",
+            "augmentKind": "biological",
+            "augmentType": "graft",
+            "tier": "common",
+            "slots": [
+                "Viscera"
+            ],
+            "slotCost": 1,
+            "grade": 1,
+            "availability": "Cultured",
+            "level": 3,
+            "load": "+2",
+            "resonance": "+0"
+        }
+    }
+}

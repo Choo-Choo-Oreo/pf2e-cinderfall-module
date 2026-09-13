@@ -33,5 +33,10 @@
         },
         "slug": "tandem-strike"
     },
-    "_id": "B99KjIm23qAiEk8S"
+    "_id": "B99KjIm23qAiEk8S",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Bucket 5 -- no roll-option/predicate exists for \"a specific companion/item is within 30 ft of the current target\" generically in pf2e-source; that's positional-template territory, not a testable predicate. [RIG-GENERIC-AMBIGUOUS] for what \"the Rig\" being in range even means depending on the chosen pattern."
+        }
+    }
 }

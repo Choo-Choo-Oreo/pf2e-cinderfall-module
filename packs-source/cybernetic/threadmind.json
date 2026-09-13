@@ -1,0 +1,79 @@
+{
+    "name": "Threadmind",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>Parallel task cores. Sustain up to two effects with a single action. +1 item bonus to Identify Magic and Decipher Writing.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 11
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "gp": 1500
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "skill-check",
+                "type": "item",
+                "value": 1,
+                "predicate": [
+                    {
+                        "or": [
+                            "action:identify-magic",
+                            "action:decipher-writing"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "size": "med",
+        "traits": {
+            "rarity": "rare",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "threadmind"
+    },
+    "_id": "g92RzCeLCuPLig66",
+    "flags": {
+        "cinderfall": {
+            "augmentKind": "cybernetic",
+            "augmentType": "implant",
+            "tier": "rare",
+            "slots": [
+                "Neural"
+            ],
+            "slotCost": 1,
+            "grade": 3,
+            "availability": "Restricted",
+            "level": 11,
+            "drift": "+3"
+        }
+    }
+}

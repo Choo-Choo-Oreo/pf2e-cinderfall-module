@@ -27,5 +27,10 @@
         },
         "slug": "redline-the-killing-stroke"
     },
-    "_id": "x197OdzFipcsLJY9"
+    "_id": "x197OdzFipcsLJY9",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Strike +2d6, and on a mere success (not just a critical) applies the weapon's critical specialization effect. Named \"Redline\" per the class's own defined term (spending Tally in a lump) even though this card's own description doesn't restate a numeric Tally cost -- Deadhand's Tally is entirely homebrew with zero schema footprint anywhere in this corpus."
+        }
+    }
 }

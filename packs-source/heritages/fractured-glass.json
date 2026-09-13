@@ -15,12 +15,32 @@
             "remaster": true,
             "title": "Cinderfall"
         },
-        "rules": [],
+        "rules": [
+            {
+                "key": "RollOption",
+                "option": "fractured-glass-vented",
+                "toggleable": true,
+                "label": "Vented a radiation burst since your last rest"
+            },
+            {
+                "key": "Weakness",
+                "type": "physical",
+                "value": 2,
+                "predicate": [
+                    "fractured-glass-vented"
+                ]
+            }
+        ],
         "traits": {
             "rarity": "common",
             "value": []
         },
         "slug": "fractured-glass"
     },
-    "_id": "YuLyzqPvVzltAhGs"
+    "_id": "YuLyzqPvVzltAhGs",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The once-per-day radiation burst itself (damage amount, area, save DC) has no rule element: this schema's heritage records only carry passive modifiers, never a new activated-strike-style action, and no card anywhere states the burst's actual damage. Only the 'worsens Brittle until next rest' half is wired (Weakness physical raised to 2 while fractured-glass-vented is toggled on)."
+        }
+    }
 }

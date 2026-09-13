@@ -33,5 +33,10 @@
         },
         "slug": "second-aperture"
     },
-    "_id": "dpjOCndmXI8T5vIA"
+    "_id": "dpjOCndmXI8T5vIA",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Choose another Aperture's 15th-level Glimpse; gain and use it like that Aperture's own Warden. In principle the same `ChoiceSet` + `GrantItem` shape already real in `aperture.json`, but it depends on the three 15th-level Glimpses (`the-whole-stack`, `congregation`, `local-instance`) sharing a common `otherTags` value to filter on -- none of the three currently carries a shared tag for '15th-level Glimpse,' so the `ChoiceSet` filter this card needs doesn't have anything to match against today. Also inherits the Bandwidth cost of whichever Glimpse is chosen. No `SpecialResource` rule element exists anywhere in the corpus for Bandwidth -- confirmed corpus-wide (`grep -rl \"\\\"key\\\": \\\"SpecialResource\\\"\" site/data/cards/` returns zero hits), and the class card itself (`site/data/cards/classes/classes.paradise-touched.json:49`) ships `system.rules: []`. Same absence class as Cultist Zeal/Ironsight Drift/Fleshmancer Vitae."
+        }
+    }
 }

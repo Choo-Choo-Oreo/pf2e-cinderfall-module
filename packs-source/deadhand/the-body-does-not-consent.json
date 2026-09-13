@@ -33,5 +33,10 @@
         },
         "slug": "the-body-does-not-consent"
     },
-    "_id": "eOekL4PvERTPDAi0"
+    "_id": "eOekL4PvERTPDAi0",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Treats a failed save (vs. incapacitate/paralyze/dominate/kill) as a success, and a critical failure as a failure; gains 2 Tally, fatigued until rest. AdjustDegreeOfSuccess only ever shifts the degree of a roll that already happened for the better in the real precedent found (success to critical-success) -- converting an actual failure into a success is the one direction it cannot do. Deadhand's Tally is also entirely homebrew with zero schema footprint."
+        }
+    }
 }

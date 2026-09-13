@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "seed-warden-turnwise"
+            ],
             "rarity": "common",
             "value": [
                 "seed-warden"
@@ -33,5 +36,11 @@
         },
         "slug": "endless-turning"
     },
-    "_id": "ZwVhcxn1HkTLNU6P"
+    "_id": "ZwVhcxn1HkTLNU6P",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "`BLOOMROT-NULL`.",
+            "track": "turnwise"
+        }
+    }
 }

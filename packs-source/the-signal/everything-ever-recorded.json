@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "the-signal-requiem"
+            ],
             "rarity": "common",
             "value": [
                 "the-signal",
@@ -34,5 +37,10 @@
         },
         "slug": "everything-ever-recorded"
     },
-    "_id": "h5b1u5KRmV7bHKd1"
+    "_id": "h5b1u5KRmV7bHKd1",
+    "flags": {
+        "cinderfall": {
+            "track": "requiem"
+        }
+    }
 }

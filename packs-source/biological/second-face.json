@@ -1,0 +1,65 @@
+{
+    "name": "Second Face",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>A donor's face and a working slice of their memory, layered under your own skin and skull. Once per day, 10 minutes: assume the donor's face and voice (as Disguise Self, no check); +2 item bonus to Deception and to Recall Knowledge on anything the donor personally knew.</p><p><b>Donor:</b> It doesn't wait for Loud to surface. Every time you wear their face, roll: on a 1 in 6, they answer a question the way they would have, not you.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 13
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "mk": 3250
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "traits": {
+            "rarity": "epic",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "second-face"
+    },
+    "_id": "T1SrvlKwgsrL9pCk",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The once-per-day 10-minute Disguise-Self-as-a-specific-person effect, plus the Recall Knowledge bonus scoped to 'anything the donor personally knew,' both need a granted limited-use Action (same class of gap as the mutations pass's activated-disguise entries); the 1-in-6 donor-answers-instead rider is a narrative trigger with no engine hook.",
+            "augmentKind": "biological",
+            "augmentType": "graft",
+            "tier": "epic",
+            "slots": [
+                "Dermal"
+            ],
+            "slotCost": 1,
+            "grade": 4,
+            "availability": "Grafted",
+            "level": 13,
+            "resonance": "+6"
+        }
+    }
+}

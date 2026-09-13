@@ -27,5 +27,10 @@
         },
         "slug": "magpie-reflexes"
     },
-    "_id": "PnhkXrVnWyxPcJyg"
+    "_id": "PnhkXrVnWyxPcJyg",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Bucket 5 -- no roll-option exists (or could exist generically) for \"ended movement adjacent to terrain the GM has called wrecked machinery\"; this is GM-adjudicated terrain, not a testable predicate."
+        }
+    }
 }

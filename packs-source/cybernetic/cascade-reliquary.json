@@ -1,0 +1,76 @@
+{
+    "name": "Cascade Reliquary",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>Resurrection tech, same pitch as Phoenix Womb — except the you that comes back is a little more compliant each time. Regeneration 10; if the body is at least half intact, rebuild over 1d4 days on death, clearing one persistent condition, mental effect, or debt the GM deems inconvenient to the augment's actual owner. Each time the rebuild triggers, permanent Drift rises by +1, uncapped.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 19
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "gp": 70000
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "FastHealing",
+                "type": "fast-healing",
+                "value": 10
+            }
+        ],
+        "size": "med",
+        "traits": {
+            "rarity": "mythic",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "cascade-reliquary"
+    },
+    "_id": "fKDTWczeX1Zs1IMQ",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The death-triggered 1d4-day rebuild that clears a persistent condition/mental effect/GM-deemed debt, and the permanent uncapped Drift increase per rebuild, both have no rule-element hook: pf2e's dying/death sequence is a built-in engine flow with no override for 'come back after N days instead' (same finding as the mutations pass's The-Waiting-Room), and Drift is a Cinderfall-homebrew resource with no representation in the schema.",
+            "augmentKind": "cybernetic",
+            "augmentType": "implant",
+            "tier": "mythic",
+            "slots": [
+                "Viscera",
+                "Circulatory"
+            ],
+            "slotCost": 2,
+            "grade": 5,
+            "availability": "Black Market",
+            "level": 19,
+            "drift": "+7",
+            "augTags": [
+                "soul-tech",
+                "apex"
+            ]
+        }
+    }
+}

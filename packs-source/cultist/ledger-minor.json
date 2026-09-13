@@ -1,0 +1,46 @@
+{
+    "name": "The Ledger Never Loses a Page",
+    "type": "capstone",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p>You always know, without asking, exactly how many debts any creature you can see currently owes you and the nature of each one. Once per day, treat a debtor's failed saving throw against one of your Ledger effects as a critical failure instead. Nothing is ever misfiled.</p>"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "otherTags": [
+                "cultist-ledger"
+            ],
+            "value": [
+                "cultist"
+            ]
+        },
+        "slug": "ledger-minor"
+    },
+    "_id": "Z6BCxhig8gl93ACK",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "\"Once per day, treat a debtor's failed save vs a Ledger effect as a critical failure instead\" is blocked twice over: P-DEGREE-REACTIVE (a reactive, frequency-gated fix applied after an unwanted roll is already known) and P-CROSS (the roll being fixed is a DIFFERENT creature's -- the debtor's save, not the card holder's own). The always-know-your-debts clause is purely informational and needs no rule element on its own.",
+            "track": "ledger"
+        }
+    }
+}

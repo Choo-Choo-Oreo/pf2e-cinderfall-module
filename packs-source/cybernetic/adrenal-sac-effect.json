@@ -1,0 +1,51 @@
+{
+    "name": "Effect: Adrenal Sac",
+    "type": "effect",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "description": {
+            "value": "<p><em>Applied by <strong>Adrenal Sac</strong> to the character who used it.</em></p>\n<hr />\n<p>Manual-trigger gland. 1/day, free action at the start of your turn: +2 status bonus to your next save this round.</p>"
+        },
+        "duration": {
+            "expiry": "turn-end",
+            "sustained": false,
+            "unit": "rounds",
+            "value": 1
+        },
+        "level": {
+            "value": 4
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "saving-throw",
+                "type": "status",
+                "value": 2,
+                "removeAfterRoll": true
+            }
+        ],
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "value": []
+        },
+        "slug": "adrenal-sac-effect"
+    },
+    "_id": "AQOTWz4TCwHkA5VP",
+    "flags": {
+        "cinderfall": {
+            "effectOf": "cybernetic.adrenal-sac",
+            "landsOn": "self"
+        }
+    }
+}

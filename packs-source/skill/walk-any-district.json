@@ -1,0 +1,36 @@
+{
+    "name": "Walk Any District",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "skill",
+        "description": {
+            "value": "<p>Cyber City's checkpoints and the Slums' back alleys both open up for you the same way. You don't take a circumstance penalty for lacking proper documentation or standing when entering a settlement's restricted district, so long as you can talk your way past the first challenge.</p>"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Expert in Society"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "walk-any-district"
+    },
+    "_id": "MT6bKttHDBRQNmv3"
+}

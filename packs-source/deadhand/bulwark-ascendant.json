@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "flavored"
+            ],
             "rarity": "common",
             "value": [
                 "deadhand"
@@ -33,5 +36,11 @@
         },
         "slug": "bulwark-ascendant"
     },
-    "_id": "SuqbF55N4TXlSMbv"
+    "_id": "SuqbF55N4TXlSMbv",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Claims redirected attacks deal half damage to the caster before resistances/armor are applied. Every damage-reduction rule element in pf2e-source/src/module/rules/rule-element/ (Resistance, Weakness as negative, DexterityModifierCap) works on a flat integer value -- no percentage-based damage-reduction key exists anywhere in the engine.",
+            "flavored": true
+        }
+    }
 }

@@ -1,0 +1,49 @@
+{
+    "name": "Foul Iron",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
+        "description": {
+            "value": "<p>Flamethrowers, chem-throwers, acid sprayers — anything that leaves the ground worse than it found it. You are the only Ironsight who does not aim at people. You aim at the space they have to cross, and the space stays dangerous long after you have stopped firing.</p><hr /><p><strong>SIGNATURE —</strong> Your shots leave the ground burning, caustic or choking — and when a chem weapon fails, it fails onto the floor, exactly where you wanted it.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "otherTags": [
+                "ironsight-draw"
+            ],
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "foul-iron"
+    },
+    "_id": "tKJdLH3PDnZRCaiI",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "the actual mechanical content (hazardous ground from chem-weapon fire) lives across open-the-valve and its siblings, none of which are numerically hookable either (see open-the-valve below, which is itself the unencoded parent of the whole branch). Zero-number level-1 Draw-signature flavor grant. No numeric follow-through exists anywhere else on this Draw's own card family -- a genuine content gap, not a search failure.",
+            "subclassOf": "ironsight",
+            "subclassChoice": "Choose Your Draw",
+            "role": "An Area · Persistence",
+            "subclassLayer": "draw"
+        }
+    }
+}

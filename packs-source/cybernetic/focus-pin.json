@@ -1,0 +1,80 @@
+{
+    "name": "Focus Pin",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>Attention regulator. Can't be made off-guard by Feint; +1 item bonus to saves vs effects that would confuse or fascinate you.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 3
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "gp": 60
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "will",
+                "type": "item",
+                "value": 1,
+                "predicate": [
+                    {
+                        "or": [
+                            "item:trait:emotion",
+                            "item:trait:fear"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "size": "med",
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "focus-pin"
+    },
+    "_id": "e95O2mjiGjqolt03",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "'Can't be made off-guard by Feint' has no clean predicate: Feint's off-guard rider is applied by the Feint action itself against the target's Perception DC, and no rule element exposes a way to except one specific actor from that application. The save bonus above approximates 'confuse or fascinate' via the emotion/fear trait tags real confusing/fascinating effects carry; if that undercounts effects without either trait at review, narrow further rather than broadening the predicate.",
+            "augmentKind": "cybernetic",
+            "augmentType": "implant",
+            "tier": "common",
+            "slots": [
+                "Neural"
+            ],
+            "slotCost": 1,
+            "grade": 1,
+            "availability": "Licensed",
+            "level": 3,
+            "drift": "+1"
+        }
+    }
+}

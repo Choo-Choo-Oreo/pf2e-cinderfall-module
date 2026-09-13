@@ -1,0 +1,43 @@
+{
+    "name": "Chorus of Fragments",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "ancestry",
+        "description": {
+            "value": "<p>Once per day, Bleed-Through can grant trained status in two different untrained skills at once instead of one.</p>"
+        },
+        "level": {
+            "value": 9
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Fractured Residual heritage or Second Voice"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "residual"
+            ]
+        },
+        "slug": "chorus-of-fragments"
+    },
+    "_id": "fiPMtgD38FkyrkyY",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The parent card this upgrades ships rules: [] itself (confirmed by direct read), so there is nothing real to extend or increase. (Bleed-Through itself ships rules: [] and grants trained status, which has no rule-element hook regardless.)"
+        }
+    }
+}

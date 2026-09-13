@@ -33,5 +33,10 @@
         },
         "slug": "hot-load"
     },
-    "_id": "JljG9OjGUJD9GWe4"
+    "_id": "JljG9OjGUJD9GWe4",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "improves a mechanic (Hot Load) that has zero rule-element footprint anywhere. Confirmed: classes.ironsight.json describes Hot Load only in flags.cinderfall.terms prose ([\"Hot Load\", \"...\"]), never in system.rules — there's no baseline hook for this card to modify. This card depends on (upgrades, extends, or is gated behind) another Ironsight card in this same package that itself ships rules: [] -- if the parent has nothing real to build on, the child has nothing real to extend either."
+        }
+    }
 }

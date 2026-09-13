@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "deadhand-bulwark"
+            ],
             "rarity": "common",
             "value": [
                 "deadhand"
@@ -33,5 +36,11 @@
         },
         "slug": "carried-out-alive"
     },
-    "_id": "gjpTsdcRtn7By3pf"
+    "_id": "gjpTsdcRtn7By3pf",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Every dying ally stabilizes at 1 HP and stands, every unconscious ally wakes, and the caster takes 3d6 per creature affected. No rule-element key ends the dying/unconscious condition on a different creature (matches pf2e-source/packs/pf2e/actions/class/champion/liberating-step.json's own unencoded shape for the closest real analog -- confirming the effect-class ships unencoded, but providing no actual hook to reach for). The self-damage-scaled-by-count clause is moot without the condition-removal half.",
+            "track": "bulwark"
+        }
+    }
 }

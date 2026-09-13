@@ -1,0 +1,63 @@
+{
+    "name": "Choose Your Wasteland Edge",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
+        "description": {
+            "value": "<p><em>Choose Your Wasteland Edge</em></p><p>Choose one: Deadeye, Ghostwalker, Twin Fang.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "ChoiceSet",
+                "adjustName": false,
+                "flag": "wastelandEdge",
+                "prompt": "Choose Your Wasteland Edge",
+                "choices": {
+                    "filter": [
+                        "item:tag:waywarden-wasteland-edge"
+                    ]
+                }
+            },
+            {
+                "key": "GrantItem",
+                "uuid": "{item|flags.system.rulesSelections.wastelandEdge}"
+            }
+        ],
+        "traits": {
+            "otherTags": [],
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "wasteland-edge"
+    },
+    "_id": "CjtdSnbE5LgS6Jri",
+    "flags": {
+        "cinderfall": {
+            "subclassOf": "waywarden",
+            "subclassLayer": "wasteland-edge",
+            "grants": [
+                "waywarden.deadeye",
+                "waywarden.ghostwalker",
+                "waywarden.twin-fang"
+            ]
+        }
+    }
+}

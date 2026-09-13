@@ -34,5 +34,10 @@
         },
         "slug": "final-fast"
     },
-    "_id": "vvbLfAEHdTgsOasI"
+    "_id": "vvbLfAEHdTgsOasI",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Bucket 3, plus STRUCT-EFFECT-COMPANION: structurally identical to the-long-fast/the-long-fast-effect (which does have a companion) but has no companion of its own. If built, the debuff half would look like {key: ActiveEffectLike, mode: multiply, path: system.attributes.hp.max, value: 0.5} (multiply confirmed a real mode at pf2e-source/src/module/rules/rule-element/ae-like.ts:122-206); drained 2 is a standard condition applied once, not via a rule element. The 'next Miracle auto-succeeds at max' clause is pure GM narrative with no number to encode."
+        }
+    }
 }

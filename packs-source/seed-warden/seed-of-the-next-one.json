@@ -33,5 +33,10 @@
         },
         "slug": "seed-of-the-next-one"
     },
-    "_id": "Pv9vyUNvjOP57gX8"
+    "_id": "Pv9vyUNvjOP57gX8",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "`TERRAIN-NULL` for the persistence/radius-halving. Same open question as Persistent Bloom, Unbounded: the base \"Persistent Bloom\" feature this modifies isn't present in this file set."
+        }
+    }
 }

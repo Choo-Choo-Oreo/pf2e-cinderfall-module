@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "ironsight-close-iron"
+            ],
             "rarity": "common",
             "value": [
                 "ironsight"
@@ -33,5 +36,11 @@
         },
         "slug": "at-this-range-nothing-matters"
     },
-    "_id": "0dzsFyo85UHMf2LJ"
+    "_id": "0dzsFyo85UHMf2LJ",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "checked DamageAlteration's valid property values (pf2e-source/src/module/rules/rule-element/damage-alteration/rule-element.ts:20-27): only damage-type, dice-faces, dice-number, tags. No \"ignore resistance\" or \"ignore Hardness\" property exists, and a compendium-wide grep for ignoreResistance/ignoredResistances returned zero hits anywhere in pf2e-source/packs. The natural-19 crit-range clause also has no selector that restricts an expanded crit threshold to adjacency alone (the real \"keen\" property is a permanent, unconditional weapon-trait ItemAlteration).",
+            "track": "close-iron"
+        }
+    }
 }

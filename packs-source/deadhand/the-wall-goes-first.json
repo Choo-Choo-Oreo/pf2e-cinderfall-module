@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "deadhand-breaker"
+            ],
             "rarity": "common",
             "value": [
                 "deadhand"
@@ -33,5 +36,10 @@
         },
         "slug": "the-wall-goes-first"
     },
-    "_id": "SUSv9cLbARaCQpSK"
+    "_id": "SUSv9cLbARaCQpSK",
+    "flags": {
+        "cinderfall": {
+            "track": "breaker"
+        }
+    }
 }

@@ -1,0 +1,830 @@
+{
+    "name": "Scavenger-Spy",
+    "type": "class",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "ancestryFeatLevels": {
+            "value": [
+                1,
+                5,
+                9,
+                13,
+                17
+            ]
+        },
+        "attacks": {
+            "simple": 1,
+            "martial": 1,
+            "advanced": 1,
+            "unarmed": 1,
+            "other": {
+                "name": "weapons",
+                "rank": 1
+            }
+        },
+        "classFeatLevels": {
+            "value": [
+                2,
+                4,
+                6,
+                8,
+                10,
+                12,
+                14,
+                16,
+                18,
+                20
+            ]
+        },
+        "defenses": {
+            "unarmored": 1,
+            "light": 1,
+            "medium": 0,
+            "heavy": 0
+        },
+        "description": {
+            "value": "<p>Every corp thinks you work for someone else's corp. That's the job going well.</p>"
+        },
+        "generalFeatLevels": {
+            "value": [
+                3,
+                7,
+                11,
+                15,
+                19
+            ]
+        },
+        "hp": 8,
+        "items": {
+            "scavenger-spy.angle": {
+                "level": 1,
+                "name": "Choose Your Angle"
+            },
+            "scavenger-spy.whatevers-in-your-hand-is-the-right-tool": {
+                "level": 11,
+                "name": "Whatever's In Your Hand Is the Right Tool"
+            },
+            "scavenger-spy.you-finish-the-job-with-what-youve-got": {
+                "level": 17,
+                "name": "You Finish the Job With What You've Got"
+            },
+            "scavenger-spy.you-make-do-with-whats-on-you": {
+                "level": 5,
+                "name": "You Make Do With What's On You"
+            }
+        },
+        "keyAbility": {
+            "value": [
+                "dex",
+                "str",
+                "cha",
+                "int"
+            ]
+        },
+        "perception": 2,
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "savingThrows": {
+            "fortitude": 1,
+            "reflex": 1,
+            "will": 2
+        },
+        "skillFeatLevels": {
+            "value": [
+                2,
+                4,
+                6,
+                8,
+                10,
+                12,
+                14,
+                16,
+                18,
+                20
+            ]
+        },
+        "skillIncreaseLevels": {
+            "value": [
+                3,
+                5,
+                7,
+                9,
+                11,
+                13,
+                15,
+                17,
+                19
+            ]
+        },
+        "slug": "scavenger-spy",
+        "spellcasting": 0,
+        "trainedSkills": {
+            "additional": 7,
+            "value": []
+        },
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "_id": "FqfxGH240byP3DSW",
+    "flags": {
+        "cinderfall": {
+            "tagline": "Every corp thinks you work for someone else's corp. That's the job going well.",
+            "role": "Infiltrator / Skill Specialist",
+            "pillar": "Skills &amp; Subterfuge — outside the Triangle",
+            "hpFormula": "8 + Con / level",
+            "keyAbilityText": "Varies by Angle",
+            "terms": [
+                [
+                    "The Opening",
+                    "Bonus precision damage against a target that's off-guard, distracted, or hasn't clocked you yet."
+                ],
+                [
+                    "First Move",
+                    "If you act before a foe knows the fight's started, that foe is off-guard against you until it acts."
+                ],
+                [
+                    "Angle",
+                    "Your working specialty and reputation on the street. Functions as your subclass, chosen at 1st level."
+                ],
+                [
+                    "Overreach",
+                    "Attempting something past what your training should allow, for a much bigger result right now. One use per day; one more at 5th, 9th, 13th, and 17th. Risks Blown Cover."
+                ],
+                [
+                    "Blown Cover",
+                    "What happens when an Overreach fails to stay quiet. Roll on the Blown Cover Table (§3) — the consequences of a heist are rarely just damage."
+                ]
+            ],
+            "classDC": [
+                {
+                    "term": "class dc",
+                    "rank": 1
+                }
+            ],
+            "playerChosenSkill": [
+                {
+                    "term": "angle key skill",
+                    "rank": 1
+                }
+            ],
+            "progression": [
+                {
+                    "level": 1,
+                    "grants": [
+                        [
+                            "Angle",
+                            ",",
+                            null
+                        ],
+                        [
+                            " The Opening",
+                            ",",
+                            null
+                        ],
+                        [
+                            " First Move",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Overreach",
+                            ",",
+                            null
+                        ],
+                        [
+                            " wide initial skill training",
+                            ",",
+                            null
+                        ],
+                        [
+                            " initial proficiencies",
+                            ",",
+                            "initial proficiencies"
+                        ],
+                        [
+                            " ancestry feat",
+                            "",
+                            "ancestry feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Trained: light armor",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Class DC",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Fortitude",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Reflex",
+                            ",",
+                            null
+                        ],
+                        [
+                            " unarmored defense",
+                            ",",
+                            null
+                        ],
+                        [
+                            " weapons",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Angle key skill",
+                            ";",
+                            null
+                        ],
+                        [
+                            " Expert: Perception",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Will",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 2,
+                    "grants": [
+                        [
+                            "Skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Scavenger-Spy feat",
+                            "",
+                            "class feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 3,
+                    "grants": [
+                        [
+                            "General feat",
+                            ",",
+                            "general feat"
+                        ],
+                        [
+                            " skill increase",
+                            ",",
+                            "skill increase"
+                        ],
+                        [
+                            " expert Angle key skill",
+                            "",
+                            null
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Expert: Angle key skill",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 4,
+                    "grants": [
+                        [
+                            "Skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Scavenger-Spy feat",
+                            "",
+                            "class feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 5,
+                    "grants": [
+                        [
+                            "Ability boosts",
+                            ",",
+                            "ability boosts"
+                        ],
+                        [
+                            " ancestry feat",
+                            ",",
+                            "ancestry feat"
+                        ],
+                        [
+                            " skill increase",
+                            ",",
+                            "skill increase"
+                        ],
+                        [
+                            " expert Reflex",
+                            ",",
+                            "expert reflex"
+                        ],
+                        [
+                            " expert weapon proficiency",
+                            "",
+                            "expert weapon proficiency"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Expert: Reflex",
+                            ",",
+                            null
+                        ],
+                        [
+                            " weapons",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 6,
+                    "grants": [
+                        [
+                            "Skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Scavenger-Spy feat",
+                            "",
+                            "class feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 7,
+                    "grants": [
+                        [
+                            "General feat",
+                            ",",
+                            "general feat"
+                        ],
+                        [
+                            " skill increase",
+                            ",",
+                            "skill increase"
+                        ],
+                        [
+                            " master Perception",
+                            ",",
+                            "master perception"
+                        ],
+                        [
+                            " Angle feature II",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Overreach Mastery",
+                            "",
+                            null
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Master: Perception",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 8,
+                    "grants": [
+                        [
+                            "Skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Scavenger-Spy feat",
+                            "",
+                            "class feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 9,
+                    "grants": [
+                        [
+                            "Ancestry feat",
+                            ",",
+                            "ancestry feat"
+                        ],
+                        [
+                            " skill increase",
+                            ",",
+                            "skill increase"
+                        ],
+                        [
+                            " Blown Cover Control (reroll one/day)",
+                            ",",
+                            null
+                        ],
+                        [
+                            " expert Class DC",
+                            "",
+                            "expert class dc"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Expert: Class DC",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Fortitude",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 10,
+                    "grants": [
+                        [
+                            "Ability boosts",
+                            ",",
+                            "ability boosts"
+                        ],
+                        [
+                            " skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Scavenger-Spy feat",
+                            "",
+                            "class feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 11,
+                    "grants": [
+                        [
+                            "General feat",
+                            ",",
+                            "general feat"
+                        ],
+                        [
+                            " skill increase",
+                            ",",
+                            "skill increase"
+                        ],
+                        [
+                            " master weapon proficiency",
+                            ",",
+                            "master weapon proficiency"
+                        ],
+                        [
+                            " <strong>The Opening improves</strong>",
+                            "",
+                            null
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Master: weapons",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 12,
+                    "grants": [
+                        [
+                            "Skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Scavenger-Spy feat",
+                            "",
+                            "class feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 13,
+                    "grants": [
+                        [
+                            "Ancestry feat",
+                            ",",
+                            "ancestry feat"
+                        ],
+                        [
+                            " skill increase",
+                            ",",
+                            "skill increase"
+                        ],
+                        [
+                            " master Will",
+                            "",
+                            "master will"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Expert: light armor",
+                            ",",
+                            null
+                        ],
+                        [
+                            " unarmored defense",
+                            ";",
+                            null
+                        ],
+                        [
+                            " Master: Will",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 14,
+                    "grants": [
+                        [
+                            "Skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Scavenger-Spy feat",
+                            "",
+                            "class feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 15,
+                    "grants": [
+                        [
+                            "Ability boosts",
+                            ",",
+                            "ability boosts"
+                        ],
+                        [
+                            " general feat",
+                            ",",
+                            "general feat"
+                        ],
+                        [
+                            " skill increase",
+                            ",",
+                            "skill increase"
+                        ],
+                        [
+                            " <strong>Angle capstone</strong>",
+                            ",",
+                            null
+                        ],
+                        [
+                            " master Reflex",
+                            ",",
+                            "master reflex"
+                        ],
+                        [
+                            " legendary Perception",
+                            "",
+                            null
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Master: Reflex",
+                            ";",
+                            null
+                        ],
+                        [
+                            " Legendary: Perception",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 16,
+                    "grants": [
+                        [
+                            "Skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Scavenger-Spy feat",
+                            "",
+                            "class feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 17,
+                    "grants": [
+                        [
+                            "Ancestry feat",
+                            ",",
+                            "ancestry feat"
+                        ],
+                        [
+                            " skill increase",
+                            ",",
+                            "skill increase"
+                        ],
+                        [
+                            " legendary weapon proficiency",
+                            ",",
+                            "legendary weapon proficiency"
+                        ],
+                        [
+                            " <strong>The Opening improves further</strong>",
+                            "",
+                            null
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Legendary: weapons",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 18,
+                    "grants": [
+                        [
+                            "Skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Scavenger-Spy feat",
+                            "",
+                            "class feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 19,
+                    "grants": [
+                        [
+                            "General feat",
+                            ",",
+                            "general feat"
+                        ],
+                        [
+                            " skill increase",
+                            ",",
+                            "skill increase"
+                        ],
+                        [
+                            " <strong>Nobody's Face</strong>",
+                            "",
+                            null
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Master: light armor",
+                            ",",
+                            null
+                        ],
+                        [
+                            " unarmored defense",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Class DC",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 20,
+                    "grants": [
+                        [
+                            "Ability boosts",
+                            ",",
+                            "ability boosts"
+                        ],
+                        [
+                            " skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Scavenger-Spy feat",
+                            ",",
+                            "class feat"
+                        ],
+                        [
+                            " <strong>The Perfect Job</strong>",
+                            "",
+                            null
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                }
+            ]
+        }
+    }
+}

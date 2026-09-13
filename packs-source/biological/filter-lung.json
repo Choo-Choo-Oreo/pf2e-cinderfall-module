@@ -1,0 +1,81 @@
+{
+    "name": "Filter Lung",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>A lung grafted from someone who lived in the Radiation Zone longer than anyone should have. Resistance 5 to poison; +1 item bonus to Fortitude saves against inhaled hazards, radiation, and disease; you can hold your breath about ten times as long as normal.</p><p><b>Donor:</b> They walked out of the Zone. This lung is why, and it is also why they didn't walk far.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 7
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "mk": 360
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "fortitude",
+                "type": "item",
+                "value": 1,
+                "predicate": [
+                    {
+                        "or": [
+                            "item:trait:inhaled",
+                            "item:trait:disease",
+                            "item:trait:radiation"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "size": "med",
+        "traits": {
+            "rarity": "uncommon",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "filter-lung"
+    },
+    "_id": "5czIJk29ecIIZW7w",
+    "flags": {
+        "cinderfall": {
+            "augmentKind": "biological",
+            "augmentType": "graft",
+            "tier": "uncommon",
+            "slots": [
+                "Viscera"
+            ],
+            "slotCost": 1,
+            "grade": 2,
+            "availability": "Grafted",
+            "level": 7,
+            "load": "+1",
+            "resonance": "+1"
+        }
+    }
+}

@@ -33,5 +33,10 @@
         },
         "slug": "contagious-verse"
     },
-    "_id": "GCQZ1xsZEt9fVjv4"
+    "_id": "GCQZ1xsZEt9fVjv4",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "This clause is an ongoing effect targeting a different creature's roll/HP/condition/behavior, sourced from the holder's own passive (P-CROSSCREATURE), with no selector anywhere in pf2e-source for one actor's rule element to reach into a separate actor on an ongoing basis. Searched for a \"spell re-applies itself to a new target on a trigger\" pattern (spell-echo/reflection feats, e.g. reflecting-force style reactions) and found nothing that duplicates a resolved spell onto a second, un-targeted creature; every real analog only redirects or reflects a spell back at its original caster/target, never propagates it forward."
+        }
+    }
 }

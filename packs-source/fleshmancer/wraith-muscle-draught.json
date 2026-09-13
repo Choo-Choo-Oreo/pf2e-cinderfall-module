@@ -57,6 +57,7 @@
     "_id": "dmulRddaOEO59Ov5",
     "flags": {
         "cinderfall": {
+            "incomplete": "This is an activated, duration-limited self-buff shaped exactly like this corpus's own 13 companion-effect pairs (apex-draught -> apex-draught-effect, etc.) and the real pf2e precedent for that shape (pf2e-source/packs/pf2e/equipment/juggernaut-mutagen-lesser.json + equipment-effects/effect-juggernaut-mutagen-lesser.json; feats/class/monk/level-1/gorilla-stance.json + feat-effects/stance-gorilla-stance.json) -- in both, the triggering card's rules: [] is correct and the numeric payload lives on a separate companion Effect item the triggering card GrantItems into. No matching *-effect.json companion exists for this card, so the mechanism is real but the sibling file it would need is missing -- a card-authoring gap, not an engine limitation.",
             "vitaeCost": 4,
             "mk": "Mk III"
         }

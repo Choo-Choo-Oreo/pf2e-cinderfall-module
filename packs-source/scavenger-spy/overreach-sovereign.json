@@ -33,5 +33,10 @@
         },
         "slug": "overreach-sovereign"
     },
-    "_id": "x8iXA1eWhMgZDukP"
+    "_id": "x8iXA1eWhMgZDukP",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "\"Overreach\" / the Blown Cover Table has zero Foundry-schema footprint. classes.scavenger-spy.json has no SpecialResource for Overreach uses/day (SpecialResource can model a one-way daily pool via renew:false, but none is defined here), and the Blown Cover Table itself is a GM random table with no representation in any card."
+        }
+    }
 }

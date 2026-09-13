@@ -3,37 +3,55 @@
     "type": "deity",
     "img": "systems/pf2e/icons/default-icons/deity.svg",
     "system": {
-        "attribute": [],
+        "attribute": [
+            "wis",
+            "con"
+        ],
         "category": "deity",
         "description": {
             "value": "<p><strong>Transcendent · Vast · Unreachable · Unaware of Any Single Mortal</strong></p>\n<p>Not a relationship — a background process at reality-scale. Too vast to summon, petition, or hold a grudge against one person; reached even by its own faithful through liturgy rather than contact. The Reckoner doesn't bargain with it; they draw on the overflow of whatever it's always doing regardless of anyone watching. Thematically tied to entropy, decay, and the half-life of everything — nuclear, mortal, and otherwise. Its Curse isn't punishment; it's what channeling something that scale costs a mortal frame, worsening the more they draw on it. Unlike the thing at the center of a black hole, it isn't reaching for anything — not converts, not other transcendents, not even itself, continuing.</p>"
         },
         "domains": {
-            "alternate": [],
-            "primary": []
+            "alternate": [
+                "void"
+            ],
+            "primary": [
+                "decay",
+                "time"
+            ]
         },
-        "font": [],
+        "font": [
+            "harm"
+        ],
         "publication": {
             "license": "ORC",
             "remaster": true,
             "title": "Cinderfall"
         },
         "rules": [],
-        "sanctification": null,
-        "skill": [],
-        "spells": {},
+        "sanctification": {
+            "modal": "can",
+            "what": [
+                "unholy"
+            ]
+        },
+        "skill": [
+            "arcana"
+        ],
+        "spells": {
+            "1": "Compendium.pf2e.spells-srd.Item.Enfeeble",
+            "6": "Compendium.pf2e.spells-srd.Item.Awaken Entropy",
+            "7": "Compendium.pf2e.spells-srd.Item.Time Beacon"
+        },
         "traits": {},
-        "weapons": [],
+        "weapons": [
+            "staff"
+        ],
         "slug": "the-halving"
     },
     "_id": "O9iNlJnr7tPuujHZ",
     "flags": {
         "cinderfall": {
-            "define": "Transcendent · Vast · Unreachable · Unaware of Any Single Mortal",
-            "incomplete": [
-                "STUB -- no mechanics authored. Missing every pf2e deity field: attribute, domains, font, sanctification, skill, spells, weapons. `category` is a default of 'deity' and may need to be philosophy or pantheon. See .claude/docs/todo.md."
-            ],
-            "effect": "Full writeup: <a class=\"bref\" href=\"reckoner.html\">Reckoner</a> dossier, §7",
             "pov": {
                 "flag": "attrition_seen_v1",
                 "code": "Sealed Record · Field Index terminal",

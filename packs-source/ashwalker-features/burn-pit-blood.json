@@ -1,0 +1,43 @@
+{
+    "name": "Burn-Pit Blood",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "ancestryfeature",
+        "description": {
+            "value": "<p>Minor resistance to fire.</p>"
+        },
+        "level": {
+            "value": 0
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "Resistance",
+                "type": "fire",
+                "value": "max(1,floor(@actor.level/2))"
+            }
+        ],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ashwalker"
+            ]
+        },
+        "slug": "burn-pit-blood"
+    },
+    "_id": "RNpg0iIlbWPyqbm0"
+}

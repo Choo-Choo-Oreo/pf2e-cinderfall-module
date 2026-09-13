@@ -24,7 +24,9 @@
             "type": null
         },
         "price": {
-            "value": {}
+            "value": {
+                "gp": 0
+            }
         },
         "publication": {
             "license": "ORC",
@@ -46,21 +48,14 @@
     "_id": "yO1cvXrh2kaREiJq",
     "flags": {
         "cinderfall": {
+            "incomplete": "\"Creatures grabbing or swallowing you take a −1 circumstance penalty to their attacks and Athletics against you\" has no rule-element equivalent: it modifies another creature's roll from this actor's own passive trait -- the same architecture gap as Grave-Quiet/Root-of-the-First-Fire.",
             "mutationType": "major",
             "tier": "rare",
-            "slot": "Dermal",
             "slots": [
                 "Dermal"
             ],
             "slotCost": 1,
-            "roll": "d20 — 6",
-            "incomplete": [
-                "level is a stub (0); mutations carry no level",
-                "price is empty; a mutation is not bought"
-            ],
-            "inferred": [
-                "system.usage"
-            ]
+            "roll": "d20 — 6"
         }
     }
 }

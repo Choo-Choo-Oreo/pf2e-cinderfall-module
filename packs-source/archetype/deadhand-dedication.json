@@ -25,7 +25,14 @@
             "remaster": true,
             "title": "Cinderfall"
         },
-        "rules": [],
+        "rules": [
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "system.proficiencies.attacks.advanced.rank",
+                "value": 1
+            }
+        ],
         "traits": {
             "rarity": "common",
             "value": [
@@ -36,5 +43,10 @@
         },
         "slug": "deadhand-dedication"
     },
-    "_id": "mq0tkTOr2xOD8htK"
+    "_id": "mq0tkTOr2xOD8htK",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Trained in advanced weapons is implemented. Tally and Redline (including the Tally cap of 2, fill-only-on-a-kill condition, and the forced Slip-table roll on every Redline spend) are Cinderfall's own class-resource subsystem with no counterpart anywhere in the actor schema or rule-element vocabulary -- there is no generic 'resource pool' rule element, only the class-specific ones core classes hardcode in engine code."
+        }
+    }
 }

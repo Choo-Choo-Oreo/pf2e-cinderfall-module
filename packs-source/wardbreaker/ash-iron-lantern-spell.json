@@ -1,0 +1,64 @@
+{
+    "name": "Ash-Iron Lantern",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": {
+            "type": "emanation",
+            "value": 15
+        },
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+            "save": {
+                "basic": true,
+                "statistic": "will"
+            }
+        },
+        "description": {
+            "value": "<p><strong>Frequency</strong> 2/day (+1 at 5th, 9th, 13th, 17th)</p><hr /><p>Named targets in the area take 6d6 damage (8d6 at 5th, 10d6 at 9th, 12d6 at 13th, 14d6 at 17th) as the Anchor is wrenched against — no attack roll; a Named target resists with a basic Will save. Allies in the area can't be possessed or Anchored themselves until the start of your next turn.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "until the start of your next turn"
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "self"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": ""
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "occult"
+            ],
+            "value": [
+                "wardbreaker"
+            ]
+        },
+        "slug": "ash-iron-lantern-spell"
+    },
+    "_id": "1dlsonSr8xZkd2ce",
+    "flags": {
+        "cinderfall": {
+            "signatureSpellOf": "wardbreaker.ash-iron-lantern"
+        }
+    }
+}

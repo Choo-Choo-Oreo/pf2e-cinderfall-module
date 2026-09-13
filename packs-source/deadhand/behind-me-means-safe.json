@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "deadhand-bulwark"
+            ],
             "rarity": "common",
             "value": [
                 "deadhand"
@@ -33,5 +36,11 @@
         },
         "slug": "behind-me-means-safe"
     },
-    "_id": "vJ1pUHBsMEipvJZn"
+    "_id": "vJ1pUHBsMEipvJZn",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Grants adjacent allies resistance = 1/4 level to physical damage, and immunity to a critical hit from any attack the caster \"could have redirected\" (no actual reaction spent). No selector applies a resistance grant from the caster's own passive to a different creature (the default absence confirmed across this whole pass), and no companion effect item exists for this slug to carry it. Real precedent for ally-defense grants tied to a protector's stance/action exists (pf2e-source/packs/pf2e/feats/class/guardian/level-8/shield-from-arrows.json, level-2/covering-stance.json, both rules: []), but every example found ties the benefit to an actual stance/action state, never to a pure hypothetical (\"you didn't have to have a reaction available\") -- no matching precedent for that stronger claim.",
+            "track": "bulwark"
+        }
+    }
 }

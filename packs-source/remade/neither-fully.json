@@ -33,5 +33,10 @@
         },
         "slug": "neither-fully"
     },
-    "_id": "t47vkTMhce6iJ4sy"
+    "_id": "t47vkTMhce6iJ4sy",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "P-TARGET-IMMUNITY-GAP. No opt-out mechanism exists for target-eligibility checks that live in the effect's own logic."
+        }
+    }
 }

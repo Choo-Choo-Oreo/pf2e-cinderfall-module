@@ -1,0 +1,50 @@
+{
+    "name": "Effect: The Long Reach",
+    "type": "effect",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "description": {
+            "value": "<p><em>Applied by <strong>The Long Reach</strong> to each affected ally.</em></p>\n<hr />\n<p>The ally gains 5 additional feet of reach and a +2 circumstance bonus to melee damage rolls.</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "minutes",
+            "value": 1
+        },
+        "level": {
+            "value": 2
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "melee-strike-damage",
+                "type": "circumstance",
+                "value": 2
+            }
+        ],
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "value": []
+        },
+        "slug": "the-long-reach-effect"
+    },
+    "_id": "2fgvEkbKGOMSGFRs",
+    "flags": {
+        "cinderfall": {
+            "effectOf": "cultist.the-long-reach",
+            "landsOn": "ally"
+        }
+    }
+}

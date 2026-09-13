@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "deadhand-cadre"
+            ],
             "rarity": "common",
             "value": [
                 "deadhand"
@@ -33,5 +36,10 @@
         },
         "slug": "give-the-hard-order"
     },
-    "_id": "pA81G6WxaO5t2uQv"
+    "_id": "pA81G6WxaO5t2uQv",
+    "flags": {
+        "cinderfall": {
+            "track": "cadre"
+        }
+    }
 }

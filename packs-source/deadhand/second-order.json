@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "deadhand-cadre"
+            ],
             "rarity": "common",
             "value": [
                 "deadhand"
@@ -33,5 +36,11 @@
         },
         "slug": "second-order"
     },
-    "_id": "e7jz6vjznkfdlrve"
+    "_id": "e7jz6vjznkfdlrve",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Lets the called command be used twice per round (never twice to the same ally); the second use costs an action even if the first didn't. The base \"called command\" mechanic carries no rule element to double -- same \"nothing to extend\" gap as cadre-ascendant. (Note: this card's own description is entirely about the Cadre \"called command\" mechanic despite being numbered into the Second trade's own tier progression in classes.deadhand.json -- a pre-existing content anomaly noted here, not corrected, since it's outside this pass's system.rules scope.)",
+            "track": "cadre"
+        }
+    }
 }

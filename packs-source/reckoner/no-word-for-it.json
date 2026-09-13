@@ -1,0 +1,60 @@
+{
+    "name": "No Word For It",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+            "save": {
+                "basic": false,
+                "statistic": "will"
+            }
+        },
+        "description": {
+            "value": "<i>Success</i> unaffected, though the memory is faintly uncomfortable. <i>Failure</i> the target can't accurately describe you to anyone else for the duration, though it still recognizes you on sight. <i>Critical Failure</i> as failure, plus a −2 status penalty on its Perception checks to identify you specifically."
+        },
+        "duration": {
+            "sustained": false,
+            "value": "24 hours"
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "1 creature that saw you cast this spell"
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [],
+            "value": [
+                "focus",
+                "reckoner"
+            ]
+        },
+        "slug": "no-word-for-it"
+    },
+    "_id": "LB2qCOOowkB8V1S2",
+    "flags": {
+        "cinderfall": {
+            "signatureSpellOf": "reckoner.the-unspeakable"
+        }
+    }
+}

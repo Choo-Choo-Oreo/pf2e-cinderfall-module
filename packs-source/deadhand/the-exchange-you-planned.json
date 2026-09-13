@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "deadhand-second"
+            ],
             "rarity": "common",
             "value": [
                 "deadhand"
@@ -33,5 +36,11 @@
         },
         "slug": "the-exchange-you-planned"
     },
-    "_id": "dB0GOVVyrq1Q0mXK"
+    "_id": "dB0GOVVyrq1Q0mXK",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "On the mark critically failing against the caster: an auto-hit, auto-crit melee Strike against it at no MAP cost, not usable round 1. No rule element guarantees an outright hit or crit, compounded by the confirmed-unfireable mark predicate.",
+            "track": "second"
+        }
+    }
 }

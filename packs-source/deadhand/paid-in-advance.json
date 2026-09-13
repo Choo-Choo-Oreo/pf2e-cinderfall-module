@@ -33,5 +33,10 @@
         },
         "slug": "paid-in-advance"
     },
-    "_id": "eAMdcTcy9zEx750m"
+    "_id": "eAMdcTcy9zEx750m",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Start each encounter with half of the previous encounter's leftover Tally, capped at 3. Deadhand's Tally is entirely homebrew with zero schema footprint anywhere in this corpus."
+        }
+    }
 }

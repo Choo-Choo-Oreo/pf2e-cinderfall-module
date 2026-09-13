@@ -29,7 +29,21 @@
             "value": "30 feet"
         },
         "requirements": "",
-        "rules": [],
+        "rules": [
+            {
+                "key": "Immunity",
+                "type": [
+                    "poison",
+                    "disease",
+                    "mental"
+                ]
+            },
+            {
+                "key": "Resistance",
+                "type": "all-damage",
+                "value": 5
+            }
+        ],
         "target": {
             "value": "you and up to 8 allies"
         },

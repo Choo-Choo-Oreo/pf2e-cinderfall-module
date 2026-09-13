@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "paradise-touched-render"
+            ],
             "rarity": "common",
             "value": [
                 "paradise-touched"
@@ -33,5 +36,11 @@
         },
         "slug": "preferred-geometry"
     },
-    "_id": "kE3RNxvMqcbwiuZn"
+    "_id": "kE3RNxvMqcbwiuZn",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Cost 1 Bandwidth: fixed 30-ft-radius area ignores difficult terrain for you and allies, 1 minute. Hands a new usable capability (bucket 3) on top of the Bandwidth cost; also no clean selector for 'ignore difficult terrain in a fixed area' regardless. No `SpecialResource` rule element exists anywhere in the corpus for Bandwidth -- confirmed corpus-wide (`grep -rl \"\\\"key\\\": \\\"SpecialResource\\\"\" site/data/cards/` returns zero hits), and the class card itself (`site/data/cards/classes/classes.paradise-touched.json:49`) ships `system.rules: []`. Same absence class as Cultist Zeal/Ironsight Drift/Fleshmancer Vitae.",
+            "track": "render"
+        }
+    }
 }

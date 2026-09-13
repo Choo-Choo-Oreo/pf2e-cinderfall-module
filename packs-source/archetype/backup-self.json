@@ -35,5 +35,10 @@
         },
         "slug": "backup-self"
     },
-    "_id": "yIHrIjGsioKu2xQF"
+    "_id": "yIHrIjGsioKu2xQF",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Restoring from a Save at 1 HP in place of dying, once per campaign arc, has no engine hook: nothing lets a rule element intercept or override the built-in death sequence (same absence as Defy the Reaper), and 'Save' itself is a bespoke narrative-memory mechanic with no attribute anywhere in the actor schema."
+        }
+    }
 }

@@ -1,46 +1,36 @@
 {
     "name": "Inspiral",
-    "type": "spell",
+    "type": "feat",
     "img": "icons/svg/mystery-man.svg",
     "system": {
-        "area": null,
-        "cost": {
-            "value": ""
+        "actionType": {
+            "value": "passive"
         },
-        "counteraction": false,
-        "damage": {},
-        "defense": null,
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
         "description": {
-            "value": "<p>Each round you Sustain this spell, the two targets are pulled 5 feet directly toward one another (movement stops early rather than force a target into a solid obstruction).</p>"
-        },
-        "duration": {
-            "sustained": true,
-            "value": "sustained up to 1 minute"
+            "value": "<p>Not a yank. A slow, patient tightening between two things — two targets, or a target and a point you designate — that gets worse every round it's allowed to continue.</p><hr /><p><strong>THE ORBIT —</strong> draw two targets — or a target and a fixed point — 5 feet toward one another each round you Sustain it.</p>"
         },
         "level": {
             "value": 1
+        },
+        "prerequisites": {
+            "value": []
         },
         "publication": {
             "license": "ORC",
             "remaster": true,
             "title": "Cinderfall"
         },
-        "range": {
-            "value": "60 feet"
-        },
-        "requirements": "",
         "rules": [],
-        "target": {
-            "value": "2 creatures, or 1 creature and 1 fixed point, within 60 feet of each other"
-        },
-        "time": {
-            "value": "2"
-        },
         "traits": {
+            "otherTags": [
+                "reckoner-aspect"
+            ],
             "rarity": "common",
-            "traditions": [],
             "value": [
-                "focus",
                 "reckoner"
             ]
         },
@@ -49,9 +39,15 @@
     "_id": "uF2yuiwRs5atiDYN",
     "flags": {
         "cinderfall": {
+            "incomplete": "This Aspect base feat plausibly wants a GrantItem granting its signature focus spell/ability, matching the ChoiceSet+GrantItem pattern already used for the Aspect subclass choice itself (reckoner.aspect.json). Not shipped: the only intra-corpus GrantItem precedents are a dynamic ChoiceSet-selection token or a fixed UUID into the real pf2e system's own compendiums -- there is no existing example of a fixed GrantItem pointing at another Cinderfall-authored card by literal compendium UUID, and the Cinderfall Foundry module's actual pack/document naming (tools/foundry/build_pack.py / pf2e-cinderfall-module) was not checked in this cards-only research pass. See feats-class-reckoner-draft.md open question 1 (GRANTITEM-UUID-OPEN).",
             "focusCost": "1",
             "spellTag": "Inspiral",
-            "listing": "Aspect Signatures / The Singularity creation and destruction as one event"
+            "listing": "Aspect Signatures / The Singularity creation and destruction as one event",
+            "subclassOf": "reckoner",
+            "subclassChoice": "Choose Your Source, Then Your Aspect",
+            "role": "Compounding Pull · Tightens Over Time",
+            "followUp": "signature spell 'The Orbit' is record reckoner.the-orbit; the card renders on spells-abilities.html as a spell-entry and its statline/body are authored above",
+            "subclassLayer": "aspect"
         }
     }
 }

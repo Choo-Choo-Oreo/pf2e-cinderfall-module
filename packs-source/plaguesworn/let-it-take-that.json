@@ -50,6 +50,7 @@
     "_id": "KLDUUJJtC8zvbFNa",
     "flags": {
         "cinderfall": {
+            "incomplete": "This clause is an ongoing effect targeting a different creature's roll/HP/condition/behavior, sourced from the holder's own passive (P-CROSSCREATURE), with no selector anywhere in pf2e-source for one actor's rule element to reach into a separate actor on an ongoing basis. Searched Champion reaction abilities (Liberating Step, Retributive Strike) and companion/eidolon protection feats for a \"redirect an incoming Strike to a third creature\" mechanic; the closest analogs only add or reduce damage after the attack roll resolves, none intercept the attack roll itself onto a different creature. No selector exists for this.",
             "listing": "5th Rank"
         }
     }

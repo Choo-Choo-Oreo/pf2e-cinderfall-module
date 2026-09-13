@@ -1,0 +1,41 @@
+{
+    "name": "Silent Among the Wreckage",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "skill",
+        "description": {
+            "value": "<p>Rubble that would announce anyone else's approach just doesn't, under your feet. You don't take a circumstance penalty to Sneak across debris, broken glass, or loose scrap, and such terrain doesn't force you to reveal your position the way it normally would.</p>"
+        },
+        "level": {
+            "value": 8
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Expert in Stealth"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "silent-among-the-wreckage"
+    },
+    "_id": "oTvLLw7BV8On75p4",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The Sneak penalty removal and the no-reveal-position clause are both gated on 'debris, broken glass, or loose scrap', an environmental condition with no roll-option hook: pf2e's terrain roll options come from a closed environmentTypes enum (aquatic/arctic/desert/forest/mountain/plains/swamp/underground/urban; pf2e-source/src/module/scene/region-behavior/environment.ts:16-20, StringField choices restricted to that list) that has none of Cinderfall's wasteland terrain, and there is no GM-facing way to add to it. Real Rock Runner's own terrain:stone/terrain:earth predicate values aren't in that enum either, confirming this is a closed system, not a GM-extensible one."
+        }
+    }
+}

@@ -1,46 +1,36 @@
 {
     "name": "Warped Angles",
-    "type": "spell",
+    "type": "feat",
     "img": "icons/svg/mystery-man.svg",
     "system": {
-        "area": null,
-        "cost": {
-            "value": ""
+        "actionType": {
+            "value": "passive"
         },
-        "counteraction": false,
-        "damage": {},
-        "defense": null,
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
         "description": {
-            "value": "<p>For 1 round you ignore facing, flanking requirements, and the normal requirement that movement follow a straight, unobstructed line.</p>"
-        },
-        "duration": {
-            "sustained": false,
-            "value": "1 round"
+            "value": "<p>For one action, the straight line stops being the shortest distance between two points, and nobody watching can explain how you got where you are.</p><hr /><p><strong>WRONG WAY —</strong> for one action, ignore facing, flanking, and straight-line movement restrictions entirely — how you got there doesn't have to make geometric sense.</p>"
         },
         "level": {
             "value": 1
+        },
+        "prerequisites": {
+            "value": []
         },
         "publication": {
             "license": "ORC",
             "remaster": true,
             "title": "Cinderfall"
         },
-        "range": {
-            "value": "self"
-        },
-        "requirements": "",
         "rules": [],
-        "target": {
-            "value": ""
-        },
-        "time": {
-            "value": "1"
-        },
         "traits": {
+            "otherTags": [
+                "reckoner-aspect"
+            ],
             "rarity": "common",
-            "traditions": [],
             "value": [
-                "focus",
                 "reckoner"
             ]
         },
@@ -49,9 +39,15 @@
     "_id": "ovQjUCwO0SAtuy07",
     "flags": {
         "cinderfall": {
+            "incomplete": "This Aspect base feat plausibly wants a GrantItem granting its signature focus spell/ability, matching the ChoiceSet+GrantItem pattern already used for the Aspect subclass choice itself (reckoner.aspect.json). Not shipped: the only intra-corpus GrantItem precedents are a dynamic ChoiceSet-selection token or a fixed UUID into the real pf2e system's own compendiums -- there is no existing example of a fixed GrantItem pointing at another Cinderfall-authored card by literal compendium UUID, and the Cinderfall Foundry module's actual pack/document naming (tools/foundry/build_pack.py / pf2e-cinderfall-module) was not checked in this cards-only research pass. See feats-class-reckoner-draft.md open question 1 (GRANTITEM-UUID-OPEN).",
             "focusCost": "1",
             "spellTag": "Warped Angles",
-            "listing": "Aspect Signatures / The Outside a direction, not a law or a mass"
+            "listing": "Aspect Signatures / The Outside a direction, not a law or a mass",
+            "subclassOf": "reckoner",
+            "subclassChoice": "Choose Your Source, Then Your Aspect",
+            "role": "Spatial Impossibility · Wrong Geometry",
+            "followUp": "signature spell 'Wrong Way' is record reckoner.wrong-way; the card renders on spells-abilities.html as a spell-entry and its statline/body are authored above",
+            "subclassLayer": "aspect"
         }
     }
 }

@@ -1,0 +1,72 @@
+{
+    "name": "Kangaroo Legs",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>Digitigrade replacements. +15-ft item bonus to Speed. Vertical Leap 5 ft, horizontal 15 ft without a check; no falling damage from ≤ 20 ft.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 6
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "gp": 250
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "land-speed",
+                "type": "item",
+                "value": 15
+            }
+        ],
+        "size": "med",
+        "traits": {
+            "rarity": "uncommon",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "kangaroo-legs"
+    },
+    "_id": "qBZj2h6P8QIM4Zsd",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Jump distance without a check and no falling damage from 20 feet or less both have no hook, same finding as Spring-Tendons: no distance-multiplier or fall-damage rule element exists anywhere in pf2e (confirmed absence via the real Cat Fall feat, which ships rules: [] for an equally concrete claim).",
+            "augmentKind": "cybernetic",
+            "augmentType": "implant",
+            "tier": "uncommon",
+            "slots": [
+                "Legs"
+            ],
+            "slotCost": 1,
+            "grade": 2,
+            "availability": "Licensed",
+            "level": 6,
+            "drift": "+2"
+        }
+    }
+}

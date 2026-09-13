@@ -1,0 +1,64 @@
+{
+    "name": "Effect: Cursed Gift",
+    "type": "effect",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "description": {
+            "value": "<p><em>Applied by <strong>Cursed Gift</strong> to the target.</em></p>\n<hr />\n<p>On a failed save, the target takes a -1 status penalty to Perception and to saving throws against emotion and fear effects for the duration, and your patron's sigil appears somewhere on its body where it can see it. On a critical failure, the penalty is -2 and the target cannot remove or conceal the sigil. On a success, the sigil appears and nothing else happens; the target still knows it has been noticed. This is a curse effect.</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "hours",
+            "value": 24
+        },
+        "level": {
+            "value": 8
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "perception",
+                "type": "status",
+                "value": -1
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "saving-throw",
+                "type": "status",
+                "value": -1,
+                "predicate": [
+                    {
+                        "or": [
+                            "item:trait:emotion",
+                            "item:trait:fear"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "value": []
+        },
+        "slug": "cursed-gift-effect"
+    },
+    "_id": "zd7o5TpfVis3PUXi",
+    "flags": {
+        "cinderfall": {
+            "effectOf": "cultist.cursed-gift",
+            "landsOn": "target"
+        }
+    }
+}

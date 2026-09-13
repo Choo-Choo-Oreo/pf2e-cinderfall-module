@@ -1,0 +1,50 @@
+{
+    "name": "Effect: Thirty Seconds of Work (Aftermath)",
+    "type": "effect",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "description": {
+            "value": "<p><em>The aftermath half of <strong>Thirty Seconds of Work</strong>, applied to the character who used it.</em></p>\n<hr />\n<p>For the duration you gain an additional action at the start of each of your turns, your Strikes ignore resistance and all but the highest immunity, and you cannot be reduced below 1 Hit Point. When it ends you are unconscious for 1 minute and cannot be woken, and you take a −2 status penalty to everything until you next make a full night's rest.</p>"
+        },
+        "duration": {
+            "expiry": null,
+            "sustained": false,
+            "unit": "unlimited",
+            "value": -1
+        },
+        "level": {
+            "value": 20
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "all",
+                "type": "status",
+                "value": -2
+            }
+        ],
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "value": []
+        },
+        "slug": "thirty-seconds-of-work-aftermath-effect"
+    },
+    "_id": "cEDgEVyfHqichzTW",
+    "flags": {
+        "cinderfall": {
+            "effectOf": "deadhand.thirty-seconds-of-work",
+            "landsOn": "self"
+        }
+    }
+}

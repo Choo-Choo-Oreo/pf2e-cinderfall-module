@@ -1,0 +1,46 @@
+{
+    "name": "The Duel Does Not Reset",
+    "type": "capstone",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p>Your mark, and everything the duel has accumulated against it, persists between encounters and through unconsciousness — theirs or yours. Nobody has ever escaped a Second by leaving the room.</p>"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "otherTags": [
+                "deadhand-second"
+            ],
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "second-minor"
+    },
+    "_id": "IRwY2zbEIPzhxSBn",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The mark and its accumulated duel effects persist across encounters and through unconsciousness. No rule element persists a target identity/relationship across separate encounters -- the mark predicate is confirmed unfireable even within a single encounter, let alone across a rest boundary.",
+            "track": "second"
+        }
+    }
+}

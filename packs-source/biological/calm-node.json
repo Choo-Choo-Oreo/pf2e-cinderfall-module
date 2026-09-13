@@ -1,0 +1,80 @@
+{
+    "name": "Calm Node",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>A cultured gland spliced into the fear-response loop. +1 item bonus to saves against fear and emotion effects; once per hour, when you succeed at a save against fear, treat it as a critical success.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 6
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "mk": 250
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "saving-throw",
+                "type": "item",
+                "value": 1,
+                "predicate": [
+                    {
+                        "or": [
+                            "item:trait:fear",
+                            "item:trait:emotion"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "size": "med",
+        "traits": {
+            "rarity": "uncommon",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "calm-node"
+    },
+    "_id": "9m42ZeiVvlBJRTed",
+    "flags": {
+        "cinderfall": {
+            "augmentKind": "biological",
+            "augmentType": "graft",
+            "tier": "uncommon",
+            "slots": [
+                "Neural"
+            ],
+            "slotCost": 1,
+            "grade": 2,
+            "availability": "Cultured",
+            "level": 6,
+            "load": "+1",
+            "resonance": "+2"
+        }
+    }
+}

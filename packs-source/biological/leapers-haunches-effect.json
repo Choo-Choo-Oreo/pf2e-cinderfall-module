@@ -1,0 +1,50 @@
+{
+    "name": "Effect: Leaper's Haunches",
+    "type": "effect",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "description": {
+            "value": "<p><em>Applied by <strong>Leaper's Haunches</strong> to the character who used it.</em></p>\n<hr />\n<p><b>Rider:</b> It wants the high ground and the drop. If you pass up an obvious ambush perch, you take a –1 status penalty to attack rolls until the end of your next turn.</p>"
+        },
+        "duration": {
+            "expiry": "turn-end",
+            "sustained": false,
+            "unit": "rounds",
+            "value": 1
+        },
+        "level": {
+            "value": 13
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "attack",
+                "type": "status",
+                "value": -1
+            }
+        ],
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "value": []
+        },
+        "slug": "leapers-haunches-effect"
+    },
+    "_id": "AVz4fuQ7z6GtBfuL",
+    "flags": {
+        "cinderfall": {
+            "effectOf": "biological.leapers-haunches",
+            "landsOn": "self"
+        }
+    }
+}

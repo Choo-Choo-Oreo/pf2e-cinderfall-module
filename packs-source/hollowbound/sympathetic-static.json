@@ -33,5 +33,10 @@
         },
         "slug": "sympathetic-static"
     },
-    "_id": "0kcRGc98ECn3aDEg"
+    "_id": "0kcRGc98ECn3aDEg",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Splits Dead Hand's Grip (dead-hands-grip.json, itself real-shipping rules: [] per Command-spell precedent) across two targets at half strength -- the parent spell has no rule-element base to split in half, so there is nothing real for this child to extend."
+        }
+    }
 }

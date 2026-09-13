@@ -24,7 +24,9 @@
             "type": null
         },
         "price": {
-            "value": {}
+            "value": {
+                "gp": 0
+            }
         },
         "publication": {
             "license": "ORC",
@@ -32,7 +34,12 @@
             "title": "Cinderfall"
         },
         "quantity": 1,
-        "rules": [],
+        "rules": [
+            {
+                "key": "Immunity",
+                "type": "dazzled"
+            }
+        ],
         "size": "med",
         "traits": {
             "rarity": "uncommon",
@@ -48,19 +55,11 @@
         "cinderfall": {
             "mutationType": "scar",
             "tier": "uncommon",
-            "slot": "Ocular",
             "slots": [
                 "Ocular"
             ],
             "slotCost": 1,
-            "roll": "d12 — 8",
-            "incomplete": [
-                "level is a stub (0); mutations carry no level",
-                "price is empty; a mutation is not bought"
-            ],
-            "inferred": [
-                "system.usage"
-            ]
+            "roll": "d12 — 8"
         }
     }
 }

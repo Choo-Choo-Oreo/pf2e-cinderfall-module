@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "fleshmancer-skinwalkers"
+            ],
             "rarity": "common",
             "value": [
                 "fleshmancer"
@@ -33,5 +36,10 @@
         },
         "slug": "the-long-shape"
     },
-    "_id": "G2LT7xrf7516Asw1"
+    "_id": "G2LT7xrf7516Asw1",
+    "flags": {
+        "cinderfall": {
+            "track": "skinwalkers"
+        }
+    }
 }

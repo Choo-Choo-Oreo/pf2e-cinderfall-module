@@ -1,0 +1,46 @@
+{
+    "name": "It Keeps Burning",
+    "type": "capstone",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p>What you put on the floor stays on the floor. Your chemicals no longer thin out, wash off, or burn down on any schedule but yours — they spread along the ground toward whatever is still standing, and a fight in your presence has become a question of where a person is allowed to be rather than what they are able to do.</p>"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "otherTags": [
+                "ironsight-foul-iron"
+            ],
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "foul-iron-minor"
+    },
+    "_id": "v8Kq0czB4mpeEUqL",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Zero-number flavor text for a Draw's Minor/Major Capstone grant point named in classes.ironsight.json's own progression table. States no number, DC, duration, or selector of any kind -- a real content gap, not a search failure.",
+            "track": "foul-iron"
+        }
+    }
+}

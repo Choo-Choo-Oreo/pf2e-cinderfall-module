@@ -1,0 +1,50 @@
+{
+    "name": "It Remembers Every Name It's Broken",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
+        "description": {
+            "value": "<span class=\"sdesc\">Every Anchor it's ever cut through left something behind. Your proficiency rank with your Ward's weapon or implement increases to legendary.</span>"
+        },
+        "level": {
+            "value": 17
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "system.proficiencies.attacks.ward-weapon.rank",
+                "value": 4
+            }
+        ],
+        "traits": {
+            "otherTags": [],
+            "rarity": "common",
+            "value": [
+                "wardbreaker"
+            ]
+        },
+        "slug": "it-remembers-every-name-its-broken"
+    },
+    "_id": "6kysJhiKS2rxxgjw",
+    "flags": {
+        "cinderfall": {
+            "grantedAtLevel": 17
+        }
+    }
+}

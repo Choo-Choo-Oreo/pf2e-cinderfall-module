@@ -60,14 +60,26 @@
                     "type": "unconscious"
                 }
             ],
+            "weaknesses": [
+                {
+                    "type": "drawn-angelic-power",
+                    "value": 15
+                }
+            ],
             "resistances": [
                 {
                     "type": "all-damage",
-                    "value": 15
+                    "value": 15,
+                    "exceptions": [
+                        "drawn angelic power"
+                    ]
                 },
                 {
                     "type": "physical",
-                    "value": 10
+                    "value": 10,
+                    "exceptions": [
+                        "drawn angelic power"
+                    ]
                 }
             ],
             "speed": {
@@ -193,7 +205,9 @@
                 },
                 "attackEffects": {
                     "custom": "",
-                    "value": []
+                    "value": [
+                        "interventions-judgment"
+                    ]
                 },
                 "bonus": {
                     "value": 34
@@ -210,7 +224,7 @@
                     }
                 },
                 "description": {
-                    "value": "<p>Damage 4d10+15 fire plus 2d6 persistent fire; on a crit the target is also doomed 1</p>"
+                    "value": "<p>Damage 4d10+15 fire plus 2d6 persistent fire</p>"
                 },
                 "publication": {
                     "license": "ORC",
@@ -235,38 +249,25 @@
             "type": "melee"
         },
         {
-            "_id": "KBVREwgn90T1adcI",
-            "img": "systems/pf2e/icons/default-icons/melee.svg",
-            "name": "cast-off light",
+            "_id": "iTQmlxm5lnmUgCcN",
+            "img": "systems/pf2e/icons/actions/TwoActions.webp",
+            "name": "Cast-Off Light",
             "sort": 200000,
             "system": {
-                "attack": {
-                    "value": ""
+                "actionType": {
+                    "value": "action"
                 },
-                "attackEffects": {
-                    "custom": "",
-                    "value": []
+                "actions": {
+                    "value": 2
                 },
-                "bonus": {
-                    "value": 32
-                },
-                "damageRolls": {
-                    "0": {
-                        "damage": "4d8+12",
-                        "damageType": "fire"
-                    }
-                },
+                "category": "offensive",
                 "description": {
-                    "value": "<p>Damage 4d8+12 fire, basic Reflex</p>"
+                    "value": "<p><span class=\"act\">Frequency</span> once per round; <b>Effect</b> Uriel sheds a lance of holy radiance at a target within 100 feet. That creature takes 4d8+12 fire damage, DC 40 basic Reflex.</p>"
                 },
                 "publication": {
                     "license": "ORC",
                     "remaster": true,
                     "title": "Cinderfall"
-                },
-                "range": {
-                    "increment": 100,
-                    "max": null
                 },
                 "rules": [],
                 "slug": "cast-off-light",
@@ -275,15 +276,12 @@
                     "value": [
                         "holy"
                     ]
-                },
-                "weaponType": {
-                    "value": "ranged"
                 }
             },
-            "type": "melee"
+            "type": "action"
         },
         {
-            "_id": "iTQmlxm5lnmUgCcN",
+            "_id": "QMvc7zfLOzbWMxLt",
             "img": "systems/pf2e/icons/actions/TwoActions.webp",
             "name": "The Word",
             "sort": 1200000,
@@ -313,7 +311,7 @@
             "type": "action"
         },
         {
-            "_id": "QMvc7zfLOzbWMxLt",
+            "_id": "qLtr2C6SYbxsL3vy",
             "img": "systems/pf2e/icons/actions/Passive.webp",
             "name": "Not Your Enemy Yet",
             "sort": 1300000,
@@ -343,7 +341,7 @@
             "type": "action"
         },
         {
-            "_id": "qLtr2C6SYbxsL3vy",
+            "_id": "0kDno7Ig9SOVeObo",
             "img": "systems/pf2e/icons/actions/Passive.webp",
             "name": "Diminished",
             "sort": 1400000,
@@ -373,7 +371,7 @@
             "type": "action"
         },
         {
-            "_id": "0kDno7Ig9SOVeObo",
+            "_id": "KYTIt5LsJ4qOEnb8",
             "img": "systems/pf2e/icons/actions/Passive.webp",
             "name": "Cannot Simply Be Killed",
             "sort": 1500000,
@@ -403,7 +401,7 @@
             "type": "action"
         },
         {
-            "_id": "KYTIt5LsJ4qOEnb8",
+            "_id": "koXg2dc0E3QH08wZ",
             "img": "systems/pf2e/icons/actions/Passive.webp",
             "name": "The Replace Option",
             "sort": 1600000,
@@ -431,17 +429,39 @@
                 }
             },
             "type": "action"
+        },
+        {
+            "_id": "TgD6aJ8gsUE9hFwZ",
+            "img": "systems/pf2e/icons/actions/Passive.webp",
+            "name": "Intervention's Judgment",
+            "sort": 1700000,
+            "system": {
+                "actionType": {
+                    "value": "passive"
+                },
+                "actions": {
+                    "value": null
+                },
+                "category": "offensive",
+                "description": {
+                    "value": "<p>On a critical hit, the target is also doomed 1.</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "interventions-judgment",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "type": "action"
         }
     ],
     "flags": {
-        "cinderfall": {
-            "incomplete": [
-                "perception clause not representable as a pf2e sense: 'reads every soul in sight (knows a killer, a bound soul, an Ashcantor)'",
-                "resistance 'physical' rider 'except from drawn angelic power : ignores his resistances and deals +15' kept as text only",
-                "resistance note 'Choir Blades, bled-power ordnance, anything built from what was taken out of him' kept as text only",
-                "Melee strike 'the intervention': rider 'on a crit the target is also doomed 1' kept as text only",
-                "Ranged strike 'cast-off light': rider 'basic Reflex' kept as text only"
-            ]
-        }
+        "cinderfall": {}
     }
 }

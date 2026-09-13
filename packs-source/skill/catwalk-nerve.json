@@ -1,0 +1,37 @@
+{
+    "name": "Catwalk Nerve",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "skill",
+        "description": {
+            "value": "<p>You've crossed enough collapsed catwalks and rebar bridges to stop flinching at the drop. When you Balance across unstable wreckage or debris, treat the DC as if it were one step lower (never below the terrain's own minimum).</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "catwalk-nerve"
+    },
+    "_id": "RsKV6WcbEw9e0dce",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "No rule-element key shifts a check's DC by 'a step'; and the trigger ('unstable wreckage or debris') is gated on the same closed-enum terrain problem as several other wasteland skill feats, an environmental condition with no roll-option hook: pf2e's terrain roll options come from a closed environmentTypes enum (aquatic/arctic/desert/forest/mountain/plains/swamp/underground/urban; pf2e-source/src/module/scene/region-behavior/environment.ts:16-20, StringField choices restricted to that list) that has none of Cinderfall's wasteland terrain, and there is no GM-facing way to add to it. Real Rock Runner's own terrain:stone/terrain:earth predicate values aren't in that enum either, confirming this is a closed system, not a GM-extensible one."
+        }
+    }
+}

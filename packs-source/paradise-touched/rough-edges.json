@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "paradise-touched-render"
+            ],
             "rarity": "common",
             "value": [
                 "paradise-touched"
@@ -33,5 +36,11 @@
         },
         "slug": "rough-edges"
     },
-    "_id": "3XKEfhtrNn5s9QtF"
+    "_id": "3XKEfhtrNn5s9QtF",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "On a spell-attack crit with a force-damage spell, add 1 persistent bleed (once per target per spell). The trigger/selector side is real (`\"spell-damage\"` is a live selector for exactly this kind of class-feature-level `DamageDice` addition, confirmed on `pf2e-source/packs/pf2e/class-features/the-distant-grasp.json`), but every real instance of `DamageDice` found adds genuine dice (`d6`, `d8`...); a bare flat '1' point of persistent damage has no confirmed-valid `DamageDice` shape (a `dieSize: \"d1\"` workaround is unverified and not seen anywhere in `pf2e-source`).",
+            "track": "render"
+        }
+    }
 }

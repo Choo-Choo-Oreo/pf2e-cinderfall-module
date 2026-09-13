@@ -1,0 +1,38 @@
+{
+    "name": "Uriel's Distance",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Requirement</strong> target held in sight for the full possible duration</p><p><strong>Range</strong> any distance you can physically see the target, no range penalty</p><p><strong>Effect</strong> the shot always counts as a critical hit and ignores all resistance the target has to its damage type</p><hr /><p>One shot, at any distance the eye can reach, that simply does not miss.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "uriels-distance"
+    },
+    "_id": "7rQYSf0L4s2vrmPI",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "unlimited-range guaranteed-crit shot ignoring resistance. (auto-crit + ignore-resistance, both pre-confirmed absent). This card's entire effect is a limited-use activated action/reaction that hands the actor a wholly new usable action -- per this pass's fixed bucket-3 convention this is always INCOMPLETE regardless of precedent. Ironsight's own real-world analog, the Gunslinger, ships this exact shape unencoded across dozens of its own Strike-variant/reload-trick/called-shot feats (e.g. pf2e-source/packs/pf2e/feats/class/gunslinger/level-10/called-shot.json, level-6/scatter-blast.json, level-1/dual-weapon-reload.json, all rules: []) -- confirming this is the standard shape for a gunfighter class, not license to SKIP. This effect is defined entirely in terms of a Cinderfall-homebrew subsystem with zero Foundry schema footprint (the Gun Failure Table/Failure Range, hazardous ground, time-in-sights, Trick Iron charge bank, or Drift/augment-slot cost). Confirmed via the full rule-element type listing (pf2e-source/src/module/rules/rule-element/, 40 files): no RollTable-manipulation, no persistent-terrain-hazard, and no arbitrary stacking-counter rule element type exists to hook any of these to. This is a cross-creature effect: it changes a DIFFERENT creature's own roll, HP, condition, healing, or item from the actor's own passive or activated ability, with no companion linked Effect item in this corpus to carry it (unlike the six real *-effect cards this class does have). No selector exists for this anywhere in pf2e-source.",
+            "spellTag": "Undying",
+            "notSpell": "ironsight's class document carries system.spellcasting 0, so this is an ability, not a spell, and convert_class_spells.py declines it by design as a NON_CASTERS owner"
+        }
+    }
+}

@@ -1,0 +1,78 @@
+{
+    "name": "Rot-Nose",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>A grafted second olfactory organ tuned to decay and to the dead. Imprecise scent 30 feet; you smell fresh blood, disease, undeath, and recent death through walls; +2 item bonus to Survival to track a wounded or dead creature.</p><p><b>Rider:</b> It always knows where the nearest corpse is, and it tells you. On a battlefield or in a graveyard the noise of it costs you –1 status to Perception for anything else.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 6
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "mk": 200
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "survival",
+                "type": "item",
+                "value": 2,
+                "predicate": [
+                    "action:track"
+                ]
+            }
+        ],
+        "size": "med",
+        "traits": {
+            "rarity": "uncommon",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "rot-nose"
+    },
+    "_id": "J3oHk7FKZcRaTXjn",
+    "flags": {
+        "cinderfall": {
+            "augmentKind": "biological",
+            "augmentType": "graft",
+            "tier": "uncommon",
+            "slots": [
+                "Inlays"
+            ],
+            "slotCost": 1,
+            "grade": 2,
+            "availability": "Wild",
+            "level": 6,
+            "load": "+0",
+            "resonance": "+3",
+            "augTags": [
+                "wild"
+            ]
+        }
+    }
+}

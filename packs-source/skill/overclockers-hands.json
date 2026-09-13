@@ -1,0 +1,41 @@
+{
+    "name": "Overclocker's Hands",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "skill",
+        "description": {
+            "value": "<p>You've learned to push scavenged tech past its rated limits, at a little risk. You can push a device, weapon, or augment 1 step past its normal performance ceiling for 1 minute; afterward it's broken until repaired unless you succeed at a Crafting check against its level DC.</p>"
+        },
+        "level": {
+            "value": 8
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Expert in Crafting"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "overclockers-hands"
+    },
+    "_id": "kYBGBMdl9XGeN3sc",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Temporarily pushing a device/weapon/augment past its normal performance ceiling, then having it become broken unless repaired, is a custom subsystem interaction with no rule-element representation."
+        }
+    }
+}

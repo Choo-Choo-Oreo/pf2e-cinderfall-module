@@ -24,7 +24,9 @@
             "type": null
         },
         "price": {
-            "value": {}
+            "value": {
+                "gp": 0
+            }
         },
         "publication": {
             "license": "ORC",
@@ -32,7 +34,14 @@
             "title": "Cinderfall"
         },
         "quantity": 1,
-        "rules": [],
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "intimidation",
+                "type": "circumstance",
+                "value": 1
+            }
+        ],
         "size": "med",
         "traits": {
             "rarity": "uncommon",
@@ -46,21 +55,14 @@
     "_id": "VFJoMgcqnHFIUhV0",
     "flags": {
         "cinderfall": {
+            "incomplete": "\"A −1 circumstance penalty to any check using that hand while frightened or in freezing conditions\" has no clean rule-element hook: there is no selector for 'checks that physically use one specific hand' (pf2e skills don't distinguish hand use), and 'freezing conditions' has no engine-recognized trigger. The frightened half could in principle predicate on self:condition:frightened, but without the hand-specific selector the effective scope can't be stated correctly, so it's flagged rather than guessed.",
             "mutationType": "scar",
             "tier": "uncommon",
-            "slot": "Arm",
             "slots": [
                 "Arm"
             ],
             "slotCost": 1,
-            "roll": "d12 — 9",
-            "incomplete": [
-                "level is a stub (0); mutations carry no level",
-                "price is empty; a mutation is not bought"
-            ],
-            "inferred": [
-                "system.usage"
-            ]
+            "roll": "d12 — 9"
         }
     }
 }

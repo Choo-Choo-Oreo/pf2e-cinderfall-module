@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "ironsight-trick-iron"
+            ],
             "rarity": "common",
             "value": [
                 "ironsight"
@@ -33,5 +36,11 @@
         },
         "slug": "trick-iron-ascendant"
     },
-    "_id": "aRei8FwKgz1Nh3nr"
+    "_id": "aRei8FwKgz1Nh3nr",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "(Trick Iron's own charge economy is unencoded — see trick-iron below). This card's entire effect is a limited-use activated action/reaction that hands the actor a wholly new usable action -- per this pass's fixed bucket-3 convention this is always INCOMPLETE regardless of precedent. Ironsight's own real-world analog, the Gunslinger, ships this exact shape unencoded across dozens of its own Strike-variant/reload-trick/called-shot feats (e.g. pf2e-source/packs/pf2e/feats/class/gunslinger/level-10/called-shot.json, level-6/scatter-blast.json, level-1/dual-weapon-reload.json, all rules: []) -- confirming this is the standard shape for a gunfighter class, not license to SKIP. This effect is defined entirely in terms of a Cinderfall-homebrew subsystem with zero Foundry schema footprint (the Gun Failure Table/Failure Range, hazardous ground, time-in-sights, Trick Iron charge bank, or Drift/augment-slot cost). Confirmed via the full rule-element type listing (pf2e-source/src/module/rules/rule-element/, 40 files): no RollTable-manipulation, no persistent-terrain-hazard, and no arbitrary stacking-counter rule element type exists to hook any of these to. This card depends on (upgrades, extends, or is gated behind) another Ironsight card in this same package that itself ships rules: [] -- if the parent has nothing real to build on, the child has nothing real to extend either.",
+            "track": "trick-iron"
+        }
+    }
 }

@@ -27,5 +27,10 @@
         },
         "slug": "every-opening-answered"
     },
-    "_id": "JcgXoZOt6LbH4Ake"
+    "_id": "JcgXoZOt6LbH4Ake",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Removes The Answer's once-per-round trigger limit, up to once per enemy turn. Granting an additional/extra use of an existing named reaction is a fixed bucket-3 case in this pass: always INCOMPLETE regardless of actionType or any real analog's own unencoded shape."
+        }
+    }
 }

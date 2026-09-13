@@ -1,0 +1,52 @@
+{
+    "name": "Old World Cipher",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "skill",
+        "description": {
+            "value": "<p>You read pre-Cinder arcane texts the way scholars read dead languages — which, functionally, they are. You can Decipher Writing on arcane texts written before the Turning without the normal time penalty for an unfamiliar tradition, and a failure never turns into a critical failure.</p>"
+        },
+        "level": {
+            "value": 14
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Master in Arcana"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "AdjustDegreeOfSuccess",
+                "selector": "skill-check",
+                "adjustment": {
+                    "criticalFailure": "one-degree-better"
+                },
+                "predicate": [
+                    "action:decipher-writing"
+                ]
+            }
+        ],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "old-world-cipher"
+    },
+    "_id": "oTNQoe7aQHmE2bzj",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The 'a failure never turns into a critical failure' clause is real (AdjustDegreeOfSuccess, matching the confirmed shape from pf2e-source/packs/pf2e/feats/skill/level-2/magical-shorthand.json's selector:'skill-check' + action predicate). The 'without the normal time penalty for an unfamiliar tradition' clause has no hook -- time-penalty removal for a skill action is never rule-element-encoded in real pf2e (e.g. Hobnobber and Forensic Acumen both leave their own time-halving unencoded)."
+        }
+    }
+}

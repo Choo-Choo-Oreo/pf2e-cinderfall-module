@@ -1,0 +1,75 @@
+{
+    "name": "Phoenix Womb",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>Nanite regrowth vat with a bound spirit steward. Regeneration 10 (deactivated by fire or acid). If you die and the body is ≥ half intact, you rebuild over 1d4 days, missing time and something of yourself.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 18
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "gp": 35000
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "FastHealing",
+                "type": "fast-healing",
+                "value": 10
+            }
+        ],
+        "size": "med",
+        "traits": {
+            "rarity": "legendary",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "phoenix-womb"
+    },
+    "_id": "DQHFtlkvla2yUvWq",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "'Deactivated by fire or acid' can't be predicated: no roll option tracks 'took fire/acid damage recently' for a FastHealing predicate to test against, so the deactivation is not modeled -- granting the flat value above is a real approximation, not a full implementation. The 1d4-day death-rebuild overrides the built-in dying/death sequence with no rule element for that anywhere in pf2e (same finding as Cascade-Reliquary/Ghost-Marrow).",
+            "augmentKind": "cybernetic",
+            "augmentType": "implant",
+            "tier": "legendary",
+            "slots": [
+                "Viscera"
+            ],
+            "slotCost": 1,
+            "grade": 5,
+            "availability": "Black Market",
+            "level": 18,
+            "drift": "+4",
+            "augTags": [
+                "apex",
+                "soul-tech"
+            ]
+        }
+    }
+}

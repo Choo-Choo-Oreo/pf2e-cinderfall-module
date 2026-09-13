@@ -1,0 +1,41 @@
+{
+    "name": "Read the Silence",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "skill",
+        "description": {
+            "value": "<p>God withdrew, but you can still read the shape of the silence He left. You gain a +2 circumstance bonus to Recall Knowledge checks about the withdrawal, angels, or Uriel's binding specifically, as distinct from general theological knowledge.</p>"
+        },
+        "level": {
+            "value": 6
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Expert in Religion"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "read-the-silence"
+    },
+    "_id": "sC3XyAWT9jHgHAhL",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The +2 Recall Knowledge bonus is scoped to 'the withdrawal, angels, or Uriel's binding specifically' -- the same topic-has-no-roll-option problem as Faction Ledger."
+        }
+    }
+}

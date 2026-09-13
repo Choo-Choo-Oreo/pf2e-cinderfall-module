@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "paradise-touched-archive"
+            ],
             "rarity": "common",
             "value": [
                 "paradise-touched"
@@ -33,5 +36,11 @@
         },
         "slug": "the-whole-shelf"
     },
-    "_id": "XYUruOg3bCUICkKc"
+    "_id": "XYUruOg3bCUICkKc",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Once/day, 10 minutes: trained in every skill you're currently untrained in (never lowers, never exceeds trained). The real technique (`ActiveEffectLike`, `mode:\"upgrade\"`, `path:\"system.skills.<slug>.rank\"`) is confirmed real and matches this card's stated behavior exactly, but the payload belongs on a new, not-yet-authored 10-minute companion `Effect: The Whole Shelf` item, not on this activating feat item -- matching how activated abilities hand off their payload to a linked Effect item in this corpus, but that companion file does not exist and creating it is out of scope for this pass. This card's own `system.rules` therefore correctly stays `[]` until that companion is authored.",
+            "track": "archive"
+        }
+    }
 }

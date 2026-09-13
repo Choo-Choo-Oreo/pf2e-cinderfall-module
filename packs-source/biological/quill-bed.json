@@ -1,0 +1,80 @@
+{
+    "name": "Quill Bed",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>A layer of flat quills seated under the skin that stand up on impact. Resistance 2 to piercing and slashing. A creature that hits you with an unarmed Strike or a natural weapon, or that grabs you, takes 1d6 piercing.</p><p><b>Rider:</b> They rise when you are afraid, visibly and audibly. You take a –2 penalty to Deception checks to feign calm, and you can't conceal that you're rattled.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 8
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "mk": 300
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "Resistance",
+                "type": "piercing",
+                "value": 2
+            },
+            {
+                "key": "Resistance",
+                "type": "slashing",
+                "value": 2
+            }
+        ],
+        "size": "med",
+        "traits": {
+            "rarity": "uncommon",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "quill-bed"
+    },
+    "_id": "ALTGkliGUOteMd5l",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The reactive 1d6 piercing damage to whoever hits or grabs you with an unarmed/natural attack targets another creature's HP from a self-held item -- same architecture gap as Grave-Quiet/Root-of-the-First-Fire (mutations pass). The narrow -2 penalty to Deception checks specifically to feign calm also has no clean predicate: Deception has no 'feign calm' sub-action slug (unlike Impersonate or Feint), so scoping it correctly isn't possible without over-applying it to all Deception.",
+            "augmentKind": "biological",
+            "augmentType": "graft",
+            "tier": "uncommon",
+            "slots": [
+                "Dermal"
+            ],
+            "slotCost": 1,
+            "grade": 2,
+            "availability": "Wild",
+            "level": 8,
+            "load": "+2",
+            "resonance": "+3",
+            "augTags": [
+                "wild"
+            ]
+        }
+    }
+}

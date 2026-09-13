@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "deadhand-bulwark"
+            ],
             "rarity": "common",
             "value": [
                 "deadhand"
@@ -33,5 +36,11 @@
         },
         "slug": "reach-of-the-line"
     },
-    "_id": "G2vZpPx1MbdoQMO3"
+    "_id": "G2vZpPx1MbdoQMO3",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Extends the caster's redirect/protect abilities from reach to 15 feet. The abilities this would extend (bulwark, take-the-hit, etc.) are themselves shipped entirely through description with no rule-element range value to modify -- there is nothing here to extend.",
+            "track": "bulwark"
+        }
+    }
 }

@@ -27,5 +27,10 @@
         },
         "slug": "the-last-exchange"
     },
-    "_id": "2NgwwGfkA2RWgP0y"
+    "_id": "2NgwwGfkA2RWgP0y",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Both combatants make a single Strike against each other simultaneously; whichever deals more damage is treated as a critical hit, the other as a complete miss. No rule element compares two separately-rolled Strikes' outcomes to reclassify one as a guaranteed crit and the other as a guaranteed miss -- this is a different shape of \"manufactured\" result than AdjustDegreeOfSuccess can reach (which only reclassifies a single roll's own degree, never compares it against a second roll), and no analog exists anywhere in the engine."
+        }
+    }
 }

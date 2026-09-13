@@ -1,0 +1,71 @@
+{
+    "name": "Ablative Plating",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>Sacrificial ceramic plates. Resistance 5 to B/P/S; drops by 1 each time you take physical damage (min 0), resetting to 5 after a 10-minute rest.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 7
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "gp": 360
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "Resistance",
+                "type": "physical",
+                "value": 5
+            }
+        ],
+        "size": "med",
+        "traits": {
+            "rarity": "uncommon",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "ablative-plating"
+    },
+    "_id": "gsUdd0yAddtsXaDh",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The drop-by-1-per-hit / reset-after-10-minutes mechanic has no precedent anywhere in pf2e: 'ablative' returns zero hits across the entire engine source and compendium (checked, not just this schema), so there is no degrading-resistance rule element to build on. Granting the flat Resistance 5 above and leaving the degrade unmodeled overstates the card less than omitting it entirely would understate it, but it is a real approximation, not a full implementation -- noted here rather than silently accepted.",
+            "augmentKind": "cybernetic",
+            "augmentType": "implant",
+            "tier": "uncommon",
+            "slots": [
+                "Dermal"
+            ],
+            "slotCost": 1,
+            "grade": 2,
+            "availability": "Licensed",
+            "level": 7,
+            "drift": "+2"
+        }
+    }
+}

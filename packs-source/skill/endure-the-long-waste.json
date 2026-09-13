@@ -1,0 +1,41 @@
+{
+    "name": "Endure the Long Waste",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "skill",
+        "description": {
+            "value": "<p>Days-long treks across the Glasslands with nothing but what you can carry have stopped costing you the way they cost most people. You need only half the normal food and water to avoid the effects of privation, and you recover from fatigue caused by forced marches in half the normal time.</p>"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Expert in Survival"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "endure-the-long-waste"
+    },
+    "_id": "nZittNaIWr45ncmy",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "No rule-element key governs subsistence consumption rate or fatigue-recovery time; these are downtime/exploration narrative mechanics with no schema representation."
+        }
+    }
+}

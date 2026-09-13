@@ -1,0 +1,71 @@
+{
+    "name": "Clot-Nanites",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>Marrow seeded with sealants. Reduce persistent bleed you take by 3 (min 0). +2 item bonus to the flat check to end persistent bleed.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 2
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "gp": 40
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "Resistance",
+                "type": "bleed",
+                "value": 3
+            }
+        ],
+        "size": "med",
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "clot-nanites"
+    },
+    "_id": "7AG9oq0UefEY2eMG",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The +2 item bonus to the flat check to end persistent bleed has no hook: confirmed absence, since the real official Stanching rune (pf2e-source/packs/pf2e/equipment/stanching-major.json), which does exactly this, ships rules: [] too. The persistent-bleed reduction above is real (Resistance applies to persistent damage of the matching type; bleed is a confirmed Resistance type).",
+            "augmentKind": "cybernetic",
+            "augmentType": "implant",
+            "tier": "common",
+            "slots": [
+                "Circulatory"
+            ],
+            "slotCost": 1,
+            "grade": 1,
+            "availability": "Licensed",
+            "level": 2,
+            "drift": "+1"
+        }
+    }
+}

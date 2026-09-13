@@ -1,0 +1,69 @@
+{
+    "name": "Ink Bladder",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>A grafted sac low in the gut that voids a cloud on command. 1 action, 3/day: a 10-foot emanation of concealing haze (15-foot cone underwater) until the start of your next turn — creatures inside are concealed from those outside and vice versa. You may Step or Stride 10 feet as part of the same action.</p><p><b>Rider:</b> A bad enough scare sets it off. On a failed save against fear the cloud goes up around you whether you wanted it or not.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 6
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "mk": 200
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "traits": {
+            "rarity": "uncommon",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "ink-bladder"
+    },
+    "_id": "pVfa0Ixd7400idgv",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The whole ability is a limited-use (3/day) activated concealment cloud plus a free Step/Stride -- a limited-use area effect needs a granted Action item, not a rule element (same class of gap as Ink-Bladder's sibling activated-ability cards throughout this pass).",
+            "augmentKind": "biological",
+            "augmentType": "graft",
+            "tier": "uncommon",
+            "slots": [
+                "Viscera"
+            ],
+            "slotCost": 1,
+            "grade": 2,
+            "availability": "Wild",
+            "level": 6,
+            "load": "+1",
+            "resonance": "+3",
+            "augTags": [
+                "wild"
+            ]
+        }
+    }
+}

@@ -1,0 +1,72 @@
+{
+    "name": "Grave-Eye",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>An eye grafted from someone who died looking at something. You see souls, ghost-static, bound spirits, and the recently dead as clearly as living creatures, out to 30 feet and through up to 1 foot of material.</p><p><b>Donor:</b> The donor died mid-look. Whatever they were seeing, you get a half-second of it the first time you sleep after the graft — GM's to define.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 5
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "mk": 160
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "Sense",
+                "selector": "spiritsense",
+                "acuity": "precise",
+                "range": 30
+            }
+        ],
+        "size": "med",
+        "traits": {
+            "rarity": "uncommon",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "grave-eye"
+    },
+    "_id": "K32XWFy2NbnXQr6y",
+    "flags": {
+        "cinderfall": {
+            "augmentKind": "biological",
+            "augmentType": "graft",
+            "tier": "uncommon",
+            "slots": [
+                "Ocular"
+            ],
+            "slotCost": 1,
+            "grade": 2,
+            "availability": "Grafted",
+            "level": 5,
+            "load": "+0",
+            "resonance": "+2"
+        }
+    }
+}

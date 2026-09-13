@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "fleshmancer-butchers"
+            ],
             "rarity": "common",
             "value": [
                 "fleshmancer"
@@ -33,5 +36,11 @@
         },
         "slug": "reload-the-hand"
     },
-    "_id": "HHauWRfanT96ZIvk"
+    "_id": "HHauWRfanT96ZIvk",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "No rule element un-consumes an already-used consumable item.",
+            "track": "butchers"
+        }
+    }
 }

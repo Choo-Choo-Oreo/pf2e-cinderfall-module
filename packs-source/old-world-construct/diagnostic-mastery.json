@@ -1,0 +1,43 @@
+{
+    "name": "Diagnostic Mastery",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "ancestry",
+        "description": {
+            "value": "<p>Full Diagnostic can also be used to grant an ally a bonus to their next check, by relaying precise tactical data.</p>"
+        },
+        "level": {
+            "value": 5
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Full Diagnostic"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "old-world-construct"
+            ]
+        },
+        "slug": "diagnostic-mastery"
+    },
+    "_id": "PwoCKmWfcMTWOLvB",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The parent card this upgrades ships rules: [] itself (confirmed by direct read), so there is nothing real to extend or increase. (Full Diagnostic ships rules: [] despite having a frequency field.) This is also This affects another creature's own roll, HP, or condition from the card holder's passive/item, which has no rule-element hook in real pf2e.."
+        }
+    }
+}

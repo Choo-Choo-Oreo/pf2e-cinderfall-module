@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "deadhand-cadre"
+            ],
             "rarity": "common",
             "value": [
                 "deadhand"
@@ -33,5 +36,10 @@
         },
         "slug": "orders-outrun-initiative"
     },
-    "_id": "ZkkmIJPWek6fWYmG"
+    "_id": "ZkkmIJPWek6fWYmG",
+    "flags": {
+        "cinderfall": {
+            "track": "cadre"
+        }
+    }
 }

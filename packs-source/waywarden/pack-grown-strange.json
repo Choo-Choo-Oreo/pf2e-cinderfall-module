@@ -33,5 +33,10 @@
         },
         "slug": "pack-grown-strange"
     },
-    "_id": "22hZ6UmrDZULK6XK"
+    "_id": "22hZ6UmrDZULK6XK",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The Strain/Bloom-Table/mutation-Slot economy has no SpecialResource or other Foundry-schema representation anywhere in the corpus (confirmed via grep -rli '\"strain\"' site/data/cards/classes/, no hits, and grep -rl '\"key\": \"SpecialResource\"' site/data/cards/, one unrelated hit in fleshmancer.vitae-pool.json). Feral Bond growth stages (Whelp / Bonded / Alpha / Apex-Touched, classes.waywarden.json:95 terms) have no tracked data field anywhere in the corpus, so a stage requirement like \"at least Alpha stage\" has no roll option or actor property to predicate against."
+        }
+    }
 }

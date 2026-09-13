@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "fleshmancer-butchers"
+            ],
             "rarity": "common",
             "value": [
                 "fleshmancer"
@@ -33,5 +36,11 @@
         },
         "slug": "sympathetic-burst"
     },
-    "_id": "hvHTDOEtq05wmsdr"
+    "_id": "hvHTDOEtq05wmsdr",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "No combo rule element resolves two Grafts thrown as one activity with one attack roll each, same reasoning as Both Hands/Two in the Air.",
+            "track": "butchers"
+        }
+    }
 }

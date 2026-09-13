@@ -4,7 +4,7 @@
     "img": "icons/svg/mystery-man.svg",
     "system": {
         "bulk": {
-            "value": 1
+            "value": 2
         },
         "description": {
             "value": "<p>Re-barreled and properly balanced; treat its range increment as one step better than a Scrap Rifle's. Misfires on a natural 1.</p>"
@@ -33,40 +33,36 @@
                 "gp": 10
             }
         },
+        "ammo": {
+            "baseType": "rifle-rounds"
+        },
         "bonus": {
             "value": 0
         },
         "bonusDamage": {
             "value": 0
         },
-        "category": "simple",
+        "category": "martial",
         "damage": {
             "dice": 1,
             "die": "d10",
             "damageType": "piercing"
         },
         "group": "firearm",
-        "range": null,
+        "range": 80,
         "reload": {
-            "value": null
+            "value": 1
         },
         "splashDamage": {
             "value": 0
         },
         "usage": {
-            "value": "held-in-one-hand"
+            "value": "held-in-two-hands"
         },
         "slug": "longshot-rifle"
     },
     "_id": "x0TYU594bnpHM0wC",
     "flags": {
-        "cinderfall": {
-            "incomplete": [
-                "level is a stub (0); the page carries no item levels",
-                "weapon category/bulk/usage stubbed; the page carries none of them",
-                "firearm range and reload stubbed; the page posts no increments"
-            ],
-            "currency": "Balanced to the PF2e GP standard and denominated in Credits: 1 Credit = 1 gp. The whole list was scaled x10 from the retired scraps=sp anchor, so every relative price is unchanged from the page as authored."
-        }
+        "cinderfall": {}
     }
 }

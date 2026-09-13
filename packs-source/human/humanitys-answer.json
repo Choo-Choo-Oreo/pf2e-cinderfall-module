@@ -1,0 +1,39 @@
+{
+    "name": "Humanity's Answer",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "ancestry",
+        "description": {
+            "value": "<p>Once per day, grant your entire party a reroll on one failed check or save — raw human adaptability, spreading to whoever's standing near you.</p>"
+        },
+        "level": {
+            "value": 17
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "human"
+            ]
+        },
+        "slug": "humanitys-answer"
+    },
+    "_id": "2upId8w7UHlNSKU9",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "No Reroll rule-element key exists anywhere in the compendium (reconfirmed this pass). This is also This affects another creature's own roll, HP, or condition from the card holder's passive/item, which has no rule-element hook in real pf2e. (granting the whole party a reroll)."
+        }
+    }
+}

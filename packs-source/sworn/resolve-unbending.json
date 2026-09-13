@@ -24,7 +24,23 @@
             "remaster": true,
             "title": "Cinderfall"
         },
-        "rules": [],
+        "rules": [
+            {
+                "key": "RollOption",
+                "option": "resolve-unbending",
+                "toggleable": true,
+                "label": "Effect would compel you to act against your Ward or abandon it"
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "saving-throw",
+                "type": "circumstance",
+                "value": 2,
+                "predicate": [
+                    "resolve-unbending"
+                ]
+            }
+        ],
         "traits": {
             "rarity": "common",
             "value": [

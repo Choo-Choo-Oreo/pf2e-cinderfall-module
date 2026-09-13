@@ -1,0 +1,43 @@
+{
+    "name": "Scrapyard Sovereign",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "ancestry",
+        "description": {
+            "value": "<p>Scrap-Sense Mastery can be used twice per day, and can find a specific kind of item you're looking for rather than just something generically useful.</p>"
+        },
+        "level": {
+            "value": 13
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Scrap-Sense Mastery"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ashwalker"
+            ]
+        },
+        "slug": "scrapyard-sovereign"
+    },
+    "_id": "ocNoX5Bh8vawi8tI",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Upgrades Scrap-Sense Mastery, itself unbuildable (Granting a new limited-use activated action/reaction has no rule-element hook in real pf2e -- confirmed corpus-wide this pass (Reactive Shield itself ships rules: []).)."
+        }
+    }
+}

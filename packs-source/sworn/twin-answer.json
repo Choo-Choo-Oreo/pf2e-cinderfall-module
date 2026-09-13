@@ -33,5 +33,10 @@
         },
         "slug": "twin-answer"
     },
-    "_id": "Ex8MkUWAvyDxaRyO"
+    "_id": "Ex8MkUWAvyDxaRyO",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Granting a new/extra limited-use activated action/reaction has no rule-element hook in real pf2e -- confirmed corpus-wide this pass (even real Reactive Shield and Reactive Strike ship rules: []). ('Grants an additional reaction, usable only for The Answer against a different creature, until the start of the caster's next turn.')"
+        }
+    }
 }

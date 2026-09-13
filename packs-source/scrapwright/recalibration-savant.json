@@ -34,5 +34,10 @@
         },
         "slug": "recalibration-savant"
     },
-    "_id": "cWc0igcWBB1nKP4k"
+    "_id": "cWc0igcWBB1nKP4k",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "[DRIFT-NO-SCHEMA] + no ItemAlteration property exists for cost/price adjustment (confirmed exhaustive list has no price/cost field)."
+        }
+    }
 }

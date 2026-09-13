@@ -1,0 +1,41 @@
+{
+    "name": "Legend Sung in Ash",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "skill",
+        "description": {
+            "value": "<p>Wanderers will be singing your act in settlements you've never set foot in within a season. Once per day, after a successful Impressive Performance, you can choose to have your reputation precede you into the next settlement you visit within a week, granting the same starting attitude you achieved there.</p>"
+        },
+        "level": {
+            "value": 16
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Master in Performance"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "legend-sung-in-ash"
+    },
+    "_id": "vOEXUn4InArsOl7m",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "No rule-element key carries a reputation/attitude result over to a different settlement visited later."
+        }
+    }
+}

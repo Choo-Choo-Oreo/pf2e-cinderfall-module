@@ -1,32 +1,15 @@
 {
-    "_id": "dqV9nNkDgFqdzQLC",
-    "categories": [],
     "name": "One Bargain, Not Two",
-    "ownership": {
-        "default": 0
+    "type": "lore",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "description": {
+            "value": "<p>Taking the offer doesn't touch the side you didn't pick. A bio-attuned Remade's Drift climbs exactly as fast as a first-timer's the day Cyber City's chrome goes in. A chrome-attuned Remade's Load and Resonance pile up exactly like anyone else's the day the Rendery starts cutting. Attunement is a discount at one counter — never a membership card good at both.</p><p>The Rendery and Cyber City each protect their own investment, and only their own. Neither has ever once covered the other's mistake, and a Remade who forgets that finds out the hard way which shop actually likes them.</p>"
+        },
+        "slug": "one-bargain-not-two"
     },
-    "pages": [
-        {
-            "_id": "AfhAi64IkQC7TSSm",
-            "category": null,
-            "image": {},
-            "name": "One Bargain, Not Two",
-            "sort": 100000,
-            "src": null,
-            "system": {},
-            "text": {
-                "content": "<p><em>The invitation only covers half</em></p>    <p class=\"cc-desc\">Taking the offer doesn't touch the side you didn't pick. A bio-attuned Remade's Drift climbs exactly as fast as a first-timer's the day Cyber City's chrome goes in. A chrome-attuned Remade's Load and Resonance pile up exactly like anyone else's the day the Rendery starts cutting. Attunement is a discount at one counter — never a membership card good at both.</p>\n    <p class=\"cc-desc\">The Rendery and Cyber City each protect their own investment, and only their own. Neither has ever once covered the other's mistake, and a Remade who forgets that finds out the hard way which shop actually likes them.</p>",
-                "format": 1
-            },
-            "title": {
-                "level": 1,
-                "show": true
-            },
-            "type": "text",
-            "video": {
-                "controls": true,
-                "volume": 0.5
-            }
-        }
-    ]
+    "_id": "dqV9nNkDgFqdzQLC",
+    "flags": {
+        "cinderfall": {}
+    }
 }

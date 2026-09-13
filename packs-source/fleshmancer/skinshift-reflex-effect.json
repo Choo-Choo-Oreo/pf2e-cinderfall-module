@@ -1,0 +1,50 @@
+{
+    "name": "Effect: Skinshift Reflex",
+    "type": "effect",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "description": {
+            "value": "<p><em>Applied by <strong>Skinshift Reflex</strong> to the character who used it.</em></p>\n<hr />\n<p>The triggering hit is treated as a normal hit instead of a critical hit. The shed flesh regrows within the hour; until it does, you take a −1 status penalty to Fortitude saves.</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "hours",
+            "value": 1
+        },
+        "level": {
+            "value": 6
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "fortitude",
+                "type": "status",
+                "value": -1
+            }
+        ],
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "value": []
+        },
+        "slug": "skinshift-reflex-effect"
+    },
+    "_id": "eYSyL73JjfJ5YrbZ",
+    "flags": {
+        "cinderfall": {
+            "effectOf": "fleshmancer.skinshift-reflex",
+            "landsOn": "self"
+        }
+    }
+}

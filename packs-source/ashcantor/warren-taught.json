@@ -24,7 +24,14 @@
             "remaster": true,
             "title": "Cinderfall"
         },
-        "rules": [],
+        "rules": [
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "system.skills.religion.rank",
+                "value": 1
+            }
+        ],
         "traits": {
             "rarity": "common",
             "value": [
@@ -33,5 +40,10 @@
         },
         "slug": "warren-taught"
     },
-    "_id": "g0QFHewBMKbMAvNm"
+    "_id": "g0QFHewBMKbMAvNm",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The 'if you are not trained in Religion, you become trained in it' clause is built above -- real precedent for the ActiveEffectLike mode:\"upgrade\" path:\"system.skills.<skill>.rank\" shape (which only raises the rank, leaving an already-trained-or-higher character unaffected, matching this card's own conditional) is confirmed via pf2e-source/packs/pf2e/feats/ancestry/anadi/level-1/anadi-lore.json (that real card uses system.skills.crafting.rank and system.skills.survival.rank -- the mechanism generalizes across skills, so it is applied here against religion.rank per this card's own text, not copied verbatim). The separate 'use Religion in place of the skill an ability/feat/Path feature would otherwise call for' clause is confirmed unbuildable-by-design, not a gap: real skill-substitution feats pf2e-source/packs/pf2e/feats/skill/level-1/courtly-graces.json and the Athletics-for-Balance clause of pf2e-source/packs/pf2e/feats/class/barbarian/level-10/determined-dash.json both ship rules: [] for 'use skill X instead of skill Y' -- no rule element performs skill substitution."
+        }
+    }
 }

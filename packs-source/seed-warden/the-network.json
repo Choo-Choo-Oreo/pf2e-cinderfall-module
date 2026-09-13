@@ -33,5 +33,10 @@
         },
         "slug": "the-network"
     },
-    "_id": "StM5EzfgAj6fNiLI"
+    "_id": "StM5EzfgAj6fNiLI",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Same reasoning as Root-Sense: the `Sense` chassis is real, but the card's explicit scoping (\"through exactly one effect you've made, switchable\") has no predicate/roll-option to express, and an unconditional grant would overreach the card (rule 14). Held at INCOMPLETE, not MIXED, for the same \"no honest partial version\" reason as Root-Sense."
+        }
+    }
 }

@@ -36,5 +36,10 @@
         },
         "slug": "nanite-touched-dedication"
     },
-    "_id": "fNVgoBgpyq6u0AZ6"
+    "_id": "fNVgoBgpyq6u0AZ6",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Self-installing/removing augments, the 1-day (minimum 1) recovery reduction, carrying an augment one Grade band above the level cap, and double-counted Drift are all built on Cinderfall's own augment-economy bookkeeping (install/removal downtime, Grade, Drift) -- none of it exists anywhere in the actor schema for a rule element to read or modify."
+        }
+    }
 }

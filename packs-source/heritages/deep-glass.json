@@ -15,7 +15,28 @@
             "remaster": true,
             "title": "Cinderfall"
         },
-        "rules": [],
+        "rules": [
+            {
+                "key": "RollOption",
+                "option": "deep-glass-darkness",
+                "toggleable": true,
+                "label": "In darkness, where your Ambient Glow shows"
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "stealth",
+                "type": "circumstance",
+                "value": -1,
+                "predicate": [
+                    "deep-glass-darkness"
+                ]
+            },
+            {
+                "key": "Resistance",
+                "type": "radiation",
+                "value": "max(1,floor(@actor.level/2)) + 2"
+            }
+        ],
         "traits": {
             "rarity": "common",
             "value": []

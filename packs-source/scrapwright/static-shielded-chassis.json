@@ -33,5 +33,10 @@
         },
         "slug": "static-shielded-chassis"
     },
-    "_id": "X6EZOnFKgyU4x4L4"
+    "_id": "X6EZOnFKgyU4x4L4",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "[DRIFT-NO-SCHEMA]."
+        }
+    }
 }

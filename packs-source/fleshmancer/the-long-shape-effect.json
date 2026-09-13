@@ -1,0 +1,50 @@
+{
+    "name": "Effect: The Long Shape",
+    "type": "effect",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "description": {
+            "value": "<p><em>Applied by <strong>The Long Shape</strong> to the character who used it.</em></p>\n<hr />\n<p>Your size increases to Large if you are Medium or smaller, your reach increases by 5 feet, you gain a +2 circumstance bonus to Athletics checks, and your unarmed attacks deal one additional damage die. When the form ends you are <em>enfeebled 1</em> for 10 minutes.</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "minutes",
+            "value": 10
+        },
+        "level": {
+            "value": 10
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "athletics",
+                "type": "circumstance",
+                "value": 2
+            }
+        ],
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "value": []
+        },
+        "slug": "the-long-shape-effect"
+    },
+    "_id": "mCy6uSDUIwzvZoxh",
+    "flags": {
+        "cinderfall": {
+            "effectOf": "fleshmancer.the-long-shape",
+            "landsOn": "self"
+        }
+    }
+}

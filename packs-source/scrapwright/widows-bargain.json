@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "flavored"
+            ],
             "rarity": "common",
             "value": [
                 "scrapwright"
@@ -33,5 +36,11 @@
         },
         "slug": "widows-bargain"
     },
-    "_id": "CKwU9uIejqpdoRRi"
+    "_id": "CKwU9uIejqpdoRRi",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "[REDLINE-NO-SCHEMA] -- even though a real RollTwice rule element exists (pf2e-source/src/module/rules/rule-element/roll-twice.ts) and could in principle model \"roll twice, take worse\" for a genuine Foundry check, \"the roll that determines Slippage\" is not a Foundry check at all (it's a GM-side fictional table), so there is nothing for RollTwice to attach selector to.",
+            "flavored": true
+        }
+    }
 }

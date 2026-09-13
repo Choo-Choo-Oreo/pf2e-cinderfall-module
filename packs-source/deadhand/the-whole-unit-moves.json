@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "deadhand-cadre"
+            ],
             "rarity": "common",
             "value": [
                 "deadhand"
@@ -33,5 +36,10 @@
         },
         "slug": "the-whole-unit-moves"
     },
-    "_id": "1Q0eIFgptrvS930E"
+    "_id": "1Q0eIFgptrvS930E",
+    "flags": {
+        "cinderfall": {
+            "track": "cadre"
+        }
+    }
 }

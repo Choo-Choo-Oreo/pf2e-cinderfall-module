@@ -33,5 +33,10 @@
         },
         "slug": "blasphemous-rite"
     },
-    "_id": "yz4Kodpn1qCsmyfw"
+    "_id": "yz4Kodpn1qCsmyfw",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Casts another patron's Rite unheightened knowledge heightened to max, then rolls the homebrew Backlash Table twice with no mitigation allowed. This is defined entirely in terms of a Cinderfall-homebrew subsystem (the Backlash Table) with zero Foundry schema footprint -- no RollTable-manipulation rule element exists anywhere in pf2e-source's 40 rule-element type files to hook a homebrew random table to. Also carries a Zeal cost, separately unbuildable (see P-ZEAL) but not the deciding factor here."
+        }
+    }
 }

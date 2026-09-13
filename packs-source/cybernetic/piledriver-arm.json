@@ -1,0 +1,89 @@
+{
+    "name": "Piledriver Arm",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>Hydraulic ram limb. Strike: 1d12 bludgeoning, shove, forceful. On a crit, target is knocked back 10 ft and prone.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 10
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "gp": 1000
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "Strike",
+                "slug": "piledriver-arm",
+                "label": "Piledriver Arm",
+                "category": "unarmed",
+                "group": "brawling",
+                "img": "systems/pf2e/icons/unarmed-attacks/fist.webp",
+                "range": null,
+                "traits": [
+                    "unarmed",
+                    "forceful"
+                ],
+                "damage": {
+                    "base": {
+                        "damageType": "bludgeoning",
+                        "dice": 1,
+                        "die": "d12"
+                    }
+                }
+            }
+        ],
+        "size": "med",
+        "traits": {
+            "rarity": "rare",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "piledriver-arm"
+    },
+    "_id": "fKPMF6ol5bf2VHlY",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The on-crit 10-foot knockback-and-prone rider has no hook: a Strike's own critical-success rider beyond its listed traits (shove is a real trait but 'push 10 feet and knock prone specifically on a crit' is more than the shove trait grants) isn't something the Strike rule element can add.",
+            "augmentKind": "cybernetic",
+            "augmentType": "implant",
+            "tier": "rare",
+            "slots": [
+                "Arm"
+            ],
+            "slotCost": 1,
+            "grade": 3,
+            "availability": "Restricted",
+            "level": 10,
+            "drift": "+3",
+            "augTags": [
+                "weapon"
+            ]
+        }
+    }
+}

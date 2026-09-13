@@ -33,5 +33,10 @@
         },
         "slug": "the-city-never-lets-go"
     },
-    "_id": "jc7mrk1oBOBuShIj"
+    "_id": "jc7mrk1oBOBuShIj",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "BAND-GAP (the \"while at Hollowed Drift\" gate blocks this regardless of Weakness's own formula-string support being otherwise real)."
+        }
+    }
 }

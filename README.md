@@ -97,7 +97,9 @@ Then relaunch the world and check the packs in the sidebar.
 
 ## Status
 
-**10 declared packs, 1907 documents** (counts from `build_pack.py`, 2026-09-08):
+**11 declared packs, 2040 documents** — measured 2026-09-08 with
+`py -3.11 tools/foundry/build_pack.py --dry-run`, which reports what a build
+*would* write from `packs-source/` right now:
 
 | pack | type | documents |
 |---|---|---|
@@ -105,21 +107,128 @@ Then relaunch the world and check the packs in the sidebar.
 | ancestry-features | Item | 33 |
 | heritages | Item | 34 |
 | backgrounds | Item | 11 |
-| feats | Item | 1627 |
-| classes | Item | 1 |
+| feats | Item | 1688 |
+| classes | Item | 18 |
 | deities | Item | 14 |
 | equipment | Item | 143 |
 | bestiary | Actor | 32 |
 | npcs | Actor | 1 |
+| journals | JournalEntry | 55 |
+
+**Do not trust these numbers; re-run the dry run.** They are *source* counts,
+and `packs-source/` currently holds another session's in-flight conversion work
+— ~300 modified files plus untracked `biological/` (75), `cybernetic/` (108),
+`currency/` (2) and `mutations/`. Two dry runs minutes apart on 2026-09-08
+returned **2040** and then **2072** documents, so the table above is a snapshot
+of a moving target, not a status. The built LevelDBs lag it further still: the
+same day, `packs-source` held 55 journal entries, the repo's `packs/journals`
+had 53, and Foundry's installed copy had 51 — three different answers to
+"how many journals are there", all correct for their own layer.
+
+`journals` also has a real duplicate: `load_docs` returns 55 entries with 55
+distinct `_id`s but only 53 distinct **names** — `The Long Chapter` and
+`The Unlettered` each appear twice, from two different owner directories.
+`every_owner: True` means both copies ship. Not investigated here; it is in the
+other session's area.
 
 STALE as of 2026-09-08: this table read "8 compiled packs, 346 documents" with
 feats at 163 and equipment at 48, and omitted `classes` entirely — the counts
 were from 2026-09-07 and the conversion work has moved a long way since.
 
-`build_pack.py` also builds an **eleventh** pack, `packs/journals` (53
-documents), which `module.json` does not declare — so Foundry never loads it.
-Noticed while adding `npcs`; not fixed here, as the journal work is in flight
-elsewhere. See the note in `.claude/docs/todo.md`.
+**Update 2026-09-09 — `tools/foundry/{export_card,export_all,build_pack}.py`
+rewritten from scratch** (the prior copies were archived to
+`.claude/_archive/tools/foundry/` in the Cinderfall site repo; see that repo's
+own history for why). Verified with a REAL build, not a dry run:
+`python tools/foundry/export_all.py` then `py -3.11 tools/foundry/build_pack.py`,
+both run clean, zero errors, zero orphans:
+
+| pack | type | documents |
+|---|---|---|
+| journals | JournalEntry | 41 |
+| ancestries | Item | 11 |
+| ancestry-features | Item | 33 |
+| heritages | Item | 35 |
+| backgrounds | Item | 11 |
+| feats | Item | 1821 |
+| classes | Item | 18 |
+| deities | Item | 14 |
+| equipment | Item | 329 |
+| bestiary | Actor | 31 |
+| npcs | Actor | 2 |
+
+**2346 documents, every one reaching a pack** (`build()`'s own orphan check
+passed). `npcs` is now 2, not 1: Uriel moved here from `bestiary` because its
+card now lives at `site/data/cards/actors/non-playable-characters/uriel/` —
+the actors/ restructure this section used to say was still pending has
+landed, so the placement in `PACKS` follows the card's own directory rather
+than repeating the old ruling from memory. `journals` dropped from 55 to 41:
+14 of the "journal" cards (`feats/class/{paradise-touched,seed-warden,sworn,
+the-signal,vigil}/*`, all subclass-path `classfeature`s) turned out to also
+carry a full `system`/`type` block, and the previous exporter checked
+`export_as_journal` first and returned unconditionally — so those 14 silently
+built as contentless, mechanic-less Journal stubs and their real feat prose
+never reached any pack. The new `export_card.convert()` checks system/type
+first; those 14 now export as real `feats` documents with their authored
+`system.description` intact. Verified: `git diff` on e.g.
+`packs-source/vigil/the-choir-of-ash.json` shows the swap from an empty
+`JournalEntry` page to a full `feat`/`classfeature` document.
+
+**Still open, not a tooling bug:** the journals duplicate-name issue noted
+below is unchanged — `doctrines.the-long-chapter`/`reckoner.the-long-chapter`
+and `doctrines.the-unlettered`/`reckoner.the-unlettered` are still two
+distinct cards sharing a display name, and both still ship (`every_owner:
+True` is doing its job correctly; the duplication is upstream, in
+`site/data/cards/`, which is outside `tools/foundry`'s remit to edit).
+
+Also still open: 41/41 journal-flagged cards carry no `body`/`desc` field on
+disk any more, so every JournalEntry page this build produces is titled but
+textually empty — see `export_card.journal_entry`'s docstring. Not fixed here
+either, for the same reason: the missing prose would have to be re-authored
+on the card, and this pass only touches `tools/foundry/`.
+
+`journals` was built but **undeclared** until 2026-09-08: `build_pack.py` wrote
+its lore entries into `packs/journals` on every run and `module.json` never
+mentioned it, so Foundry loaded none of them. There was nothing to notice — the
+build succeeded, the LevelDB existed, and the compendium simply was not in the
+sidebar. It ships with `PLAYER: NONE`, matching `bestiary` and `npcs`: setting
+lore is revealed per entry by the GM, not handed out wholesale.
+
+`tests/packs-declared.test.mjs` now compares the two lists directly, because
+they are maintained by hand in different files in different languages and
+nothing had ever compared them. It skips cleanly on a fresh clone, where
+`packs/` (gitignored) does not exist yet.
+
+**Declaring it was not enough — the pack was keyed wrong.** `write_pack()` in
+`tools/foundry/build_pack.py` special-cases only `document == "Actor"`; every
+other class falls through to `!items!<id>`. A JournalEntry pack keyed that way
+mounts and then reports **zero documents**, because Foundry looks under
+`!journal!` and finds nothing there. Nothing errors: the manifest is right, the
+LevelDB is right there on disk with 53 keys in it, and the compendium is simply
+empty. Measured against four unlocked journal packs shipped by other packages
+(`dnd5e/rules`, `dnd5e/content24`, `dsa5/gamemanualen`, `wiki-en-rqg/*`), the
+required shape is:
+
+```
+!journal!<entryId>                     the entry; `pages` holds page id STRINGS
+!journal.pages!<entryId>.<pageId>      one key per page
+```
+
+— exactly parallel to the `!actors!` / `!actors.items!` split the Actor branch
+already implements. `CONFIG.JournalEntry.documentClass.metadata.collection` is
+`"journal"`, singular, and that is what the key namespace comes from; do not
+guess it from the class name or the pack name.
+
+**This is not fixed in `build_pack.py` yet** (the main repo was locked when it
+was found), so the next build re-breaks the pack. The patch is a `JournalEntry`
+branch mirroring the Actor one; until it lands, the built `packs/journals` must
+be re-keyed by hand. STALE as of 2026-09-08: this paragraph is wrong the moment
+that branch is added — check `write_pack()` before believing it.
+
+STALE as of 2026-09-09: the branch landed in the from-scratch rewrite of
+`write_pack()` — `!journal!<id>` / `!journal.pages!<id>.<pageId>`, exactly as
+described above. Verified: the real (non-dry-run) 2026-09-09 build wrote
+`packs/journals` with 41 entries and Foundry's own key namespace, no re-keying
+by hand needed.
 
 `npcs` holds one-off NPCs, as distinct from `bestiary`'s reusable enemy
 definitions. Its records carry live module configuration rather than statblocks
@@ -148,6 +257,41 @@ flags propagated to the buyer's copy:
 no "undefined" in either price string
 7/7 checks pass
 ```
+
+**He also sells abilities.** `itempiles-pf2e` filters `action` and `feat` out of
+every pile (`module.js:29-32`), so an ability cannot be stocked or sold anywhere
+by default — and it fails by simply never appearing: no error, no empty row.
+That list is *per-pile*: `isValidItemPile()` prefers a pile's own
+`overrideItemFilters` over the global `ITEM_FILTERS`, so the Butcher carries the
+compat patch's list minus those two entries. Ability trade opens on this
+merchant only; every other pile in the world keeps the stock filter. No fork of
+the compat patch was needed.
+
+Verified live 2026-09-08, against a second merchant with no override as a
+control:
+
+```
+                      butcher                control (no override)
+action        TRADEABLE                      filtered(action)
+feat          TRADEABLE                      filtered(feat)
+equipment     TRADEABLE                      TRADEABLE
+spell         filtered(spell)                filtered(spell)
+melee         filtered(melee)                filtered(melee)
+7/7 checks pass
+```
+
+`melee` stays filtered so his Bone Saw and Bolt Driver read as attacks rather
+than stock. Two gotchas cost time here and are worth knowing before touching
+this: the filter list is **cached per actor uuid**, so a change set and re-read
+in the same tick returns the stale list; and `API.isItemInvalid` takes **one**
+argument (it derives the actor from `item.parent`), so a three-argument call
+returns `false` for everything and reports a pass that means nothing.
+
+Rarity above `unique` needs no per-pile work: the compat patch's Rarity column
+maps only PF2e's four, and an unmapped slug renders raw (`mythic` beside
+`Rare`), so `scripts/main.js` extends that mapping from `module.json`'s
+`rarityTiers` at `ready`. Measured: all eight tiers localise —
+`epic/legendary/mythic/exotic` resolve through `PF2E-CINDERFALL.Rarity.*`.
 
 `bestiary` is the only pack with `PLAYER: NONE` ownership, because it holds
 `uriel.uriel-bound` and `uriel` is a sealed owner on the site. Foundry has no
@@ -466,6 +610,90 @@ Nothing is written to PF2e's own files.
 is now optional rather than forced, and changing it is a separate decision in
 the site repo.
 
+### Hiding base PF2e content
+
+**Update 2026-09-09.** A new world setting, "Hide base Pathfinder 2e content"
+(`hideBaseSystemContent` in `scripts/main.js`, **default on**), forces every
+pf2e-owned pack out of the Compendium Browser's Actions, Bestiary, Campaign
+Features, Equipment, Feats, Hazards and Spells tabs, so a fresh world offers
+only Cinderfall's own content there.
+
+The real mechanism is pf2e's own: `game.settings.get("pf2e",
+"compendiumBrowserPacks")`, a world setting the `CompendiumBrowser` class
+(`pf2e.mjs`) reads in `initCompendiumList()` to decide, per pack per tab,
+whether to load it (`load !== false`, so an entry has to exist to hide one).
+`package` on each entry comes from `pack.metadata.packageName` -- `"pf2e"` for
+every base-system pack, never that for this module's own.
+
+**Does not cover ancestries, heritages, backgrounds, classes or deities, and
+never will for a GM's own view.** `CompendiumBrowser.dataTabsList` names
+exactly seven tabs and none of those five are among them -- checked directly
+in `pf2e.mjs`, grepped twice for any other picker/browsing mechanism (once
+before shipping, once again 2026-09-09 chasing a user report that base
+content was still visible when accessing these five in-game), and there is no
+per-pack visibility toggle for them anywhere in the system bundle. They are
+accessed by dragging raw compendium Items straight out of Foundry's own core
+Compendium sidebar directory, a completely different UI surface pf2e's
+browser setting has no reach into.
+
+Live-inspected 2026-09-09 (macro against a running world, pf2e 8.5.0/Foundry
+14.361) whether Foundry core itself has a lever here: `core
+.compendiumConfiguration` (a real world setting, confirmed present) turned
+out to store only each pack's sidebar **folder**, not visibility. The actual
+per-pack visibility lever is `CompendiumCollection#ownership`
+(`{PLAYER: "OBSERVER", ...}` on `pf2e.ancestries`, live-read) -- setting
+`PLAYER`/`TRUSTED` to `"NONE"` does hide a pack from the sidebar, but only for
+non-GM users; Foundry core does not restrict a GM's own sidebar view by
+ownership at all ([foundryvtt/foundryvtt#9394](https://github.com/foundryvtt/foundryvtt/issues/9394)
+asks this exact question; the answer is no, by design). This module's test
+world currently has one active user, the GM, so this gap cannot be
+demonstrated as fixed in that world even if ownership were changed --
+whatever the GM browses in the sidebar, the GM sees, regardless of any
+setting. Extending this feature to also lock those five packs' `PLAYER`
+ownership to `NONE` (hiding them for players only, never for the GM) is a
+real, implementable option, not yet built -- it is a scope decision, not a
+technical unknown, so it is left for the owner to ask for explicitly rather
+than added unasked.
+
+**Timing: the setting is written on `ready`, not `setup` -- corrected
+2026-09-09 after live verification caught the original design wrong.**
+`game.pf2e.compendiumBrowser` is built exactly once, inside pf2e's own
+`ready` hook, and Foundry does not guarantee listener order between a
+system's and a module's registrations on the same hook name (this file's own
+rarity-tier registration hit the same fact on `init`, see above). The
+original implementation reasoned this was still safe by writing on `setup`
+instead -- phase order (`setup` fully completing before `ready`) is
+guaranteed, and `CompendiumBrowser`'s constructor calls its own
+`initCompendiumList()` on construction, so a setting written during `setup`
+should be there the moment the browser is later built during `ready`. **That
+reasoning was shipped without a live boot to check it, and it was wrong.**
+Verified live via the `foundry-mcp` macro bridge: a fresh world boot with the
+toggle on left `compendiumBrowserPacks` completely empty after `setup` ran --
+the callback never wrote anything, most likely because `game.user.isGM` is
+not yet reliably populated that early (this is the only gate anywhere in this
+file that read `game.user` at `setup`; every other one reads it at `ready`).
+Moved to `Hooks.once("ready", ...)`, writing unconditionally and always
+calling `initCompendiumList()` (plus a re-render if the browser is already
+open) so the fix does not depend on which of the two `ready` listeners runs
+first. Re-verified live after a forced client reload: all 98 base pf2e packs
+correctly hidden across all seven tabs, `loadedPacksAll()` down from 90+ base
+packs to exactly 6 (5 Cinderfall packs, 1 unrelated third-party pack).
+
+Scope inside those seven tabs is deliberately coarse: every pf2e pack is
+forced off in ALL seven, not just the tabs pf2e's own (unexported,
+inaccessible) type-routing would actually place it in. An entry in a tab a
+pack was never relevant to is simply never read back out -- harmless, a few
+orphaned keys in the stored setting.
+
+Turning the setting off hands back only the packs this module hid, tracked in
+a stamp (`hiddenBaseContentStamp`, same shape and purpose as the
+`languageRarityStamp`/`itemPiles*Stamp` pattern elsewhere in this file) --
+never a pf2e pack a GM hid independently, on their own initiative. `node
+tests/base-content.test.mjs` covers the pure merge logic (`5/5`): forcing off,
+preserving a pack's other stored fields, handing back only stamped entries
+while a GM's own unrelated hide survives, a no-op when there is nothing
+stamped, and no mutation of the setting object passed in.
+
 `scripts/body-tab.js` adds a "Body" tab to the PF2e character sheet for
 tracking bio-augmentation, cybernetics and mutations against the ancestry's
 body-slot data. The "Nine Slots" (Ocular, Neural, Frame, Dermal, Arm, Legs,
@@ -474,3 +702,56 @@ both sides now speak them: the 11 ancestries supply exactly those nine, and the
 slotted cards demand exactly those nine, zero unmatched either way
 (`node tests/body-slots.test.mjs`). The taxonomy conflict that previously
 blocked the augment conversion is closed.
+
+**FIXED 2026-09-10 — every class's `system.items` read back `{}` in a live
+world, so no class ever popped its subclass `ChoiceSet` picker.** All 18
+classes, no exceptions — confirmed by querying every resolved class id
+through the `foundry-mcp` bridge in the same session. Root-caused with a
+control test (real pf2e's own Rogue, fetched through the identical bridge
+call in the same session, came back with a fully populated `items`, proving
+the bridge/schema/session were never the problem) and then a direct `plyvel`
+read of the installed LevelDB pack once Foundry was closed:
+
+```
+KEY: !items!yL07iYdaYqHjR2uX          (Fleshmancer)
+items: {
+  "fleshmancer": {
+    "stock": {"img": ..., "level": 1, "name": "Choose Your Stock", "uuid": ...},
+    "vitae-pool": {"img": ..., "level": 1, "name": "Vitae Pool", "uuid": ...}
+  }
+}
+```
+
+That is not what `packs-source/classes/fleshmancer.json` or the freshly-built
+`packs/classes` in this repo contain — both have flat keys
+`"fleshmancer.stock"` / `"fleshmancer.vitae-pool"`. Foundry's own document
+read/write path (`expandObject`/`mergeObject`, run on every document load —
+evidenced by a fresh `_stats` block Foundry backfilled onto the document the
+first time it loaded it) treats a literal `.` in an object key as a
+nested-path separator, and silently exploded the dotted key into the nested
+shape shown above. PF2e's `ClassSystemData` schema
+(`ABCFeatureEntryField` in the installed system's `pf2e.mjs`) requires
+`uuid`/`img`/`name`/`level` directly on each `items` entry; the exploded
+shape doesn't have them at that nesting level, so PF2e's DataModel validation
+silently drops the entry. Real pf2e's own classes never hit this because
+their `items` keys are short random Foundry ids (`"0kdn2"`, never a slug),
+not the `<owner>.<slug>` convention this module's cards use.
+
+Two things were tried and ruled out first, for the record, so a future
+session doesn't repeat them: a `sync-to-foundry.py --clean` re-mirror (in
+case stale LevelDB segments were the cause — verified clean via `plyvel`,
+did not fix it, because the corruption happens at Foundry's own load/write
+time, not from stale files) and a stale-process check (`Get-CimInstance
+Win32_Process` showed Foundry had genuinely restarted).
+
+**The fix** is in `resolve_grants()` in `tools/foundry/build_pack.py`: the
+key it writes into a class's `system.items` is now
+`slot_key.replace(".", "-")` — the *lookup* against `packs-source` still
+uses the qualified `<owner>.<slug>` form to disambiguate, only the key that
+actually ends up on disk is sanitized. Verified with a real (non-dry-run)
+build: `packs/classes/yL07iYdaYqHjR2uX`'s `items` now reads
+`"fleshmancer-stock"` / `"fleshmancer-vitae-pool"`, both with `uuid`/`img`/
+`name`/`level` intact, checked directly via `plyvel` against the freshly
+built pack before ever loading Foundry. **Not yet re-verified inside a live
+world** (that a class add now actually pops the `ChoiceSet` picker) — do
+that first before trusting this note past this line.

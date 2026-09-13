@@ -24,7 +24,9 @@
             "type": null
         },
         "price": {
-            "value": {}
+            "value": {
+                "gp": 0
+            }
         },
         "publication": {
             "license": "ORC",
@@ -32,7 +34,21 @@
             "title": "Cinderfall"
         },
         "quantity": 1,
-        "rules": [],
+        "rules": [
+            {
+                "key": "FastHealing",
+                "type": "fast-healing",
+                "value": 5,
+                "predicate": [
+                    {
+                        "lte": [
+                            "hp-percent",
+                            50
+                        ]
+                    }
+                ]
+            }
+        ],
         "size": "med",
         "traits": {
             "rarity": "legendary",
@@ -48,14 +64,7 @@
         "cinderfall": {
             "mutationType": "teratoma",
             "tier": "legendary",
-            "chosen": "pick of 6",
-            "incomplete": [
-                "level is a stub (0); mutations carry no level",
-                "price is empty; a mutation is not bought"
-            ],
-            "inferred": [
-                "system.usage"
-            ]
+            "chosen": "pick of 6"
         }
     }
 }

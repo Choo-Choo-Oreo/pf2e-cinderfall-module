@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "flavored"
+            ],
             "rarity": "common",
             "value": [
                 "scavenger-spy"
@@ -33,5 +36,10 @@
         },
         "slug": "fixers-contingency"
     },
-    "_id": "QNi3bisrjjkbEeSJ"
+    "_id": "QNi3bisrjjkbEeSJ",
+    "flags": {
+        "cinderfall": {
+            "flavored": true
+        }
+    }
 }

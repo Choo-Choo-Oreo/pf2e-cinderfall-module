@@ -1,0 +1,64 @@
+{
+    "name": "Ledger Inlay",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>Subdermal comms + credit chip. Short-range encrypted voice to other inlays; can't be pickpocketed or dropped. Carries a Licensed proofmark / doubles as ID.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 1
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "gp": 20
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "ledger-inlay"
+    },
+    "_id": "c4TlA7tClMklLOoq",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Pure narrative/utility function (comms, anti-theft, ID) with no numeric claim to automate.",
+            "augmentKind": "cybernetic",
+            "augmentType": "implant",
+            "tier": "common",
+            "slots": [
+                "Inlays"
+            ],
+            "slotCost": 1,
+            "availability": "Licensed",
+            "level": 1,
+            "drift": "+0"
+        }
+    }
+}

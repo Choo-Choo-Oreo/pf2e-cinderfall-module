@@ -1,0 +1,43 @@
+{
+    "name": "Structural Mastery",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "ancestry",
+        "description": {
+            "value": "<p>Structural Instinct's once-per-day warning becomes an always-on passive sense within a wide radius.</p>"
+        },
+        "level": {
+            "value": 13
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Structural Instinct"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "vaultborn"
+            ]
+        },
+        "slug": "structural-mastery"
+    },
+    "_id": "BM555VV9frXQphLa",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Upgrading Structural Instinct's warning into 'an always-on passive sense within a wide radius' has the same no-matching-sense-type problem as Deep Roots."
+        }
+    }
+}

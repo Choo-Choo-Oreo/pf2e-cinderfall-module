@@ -616,7 +616,13 @@
         "infiniteQuantity": true,
         "onlyAcceptBasePrice": false,
         "keepZeroQuantity": true,
-        "displayQuantity": "no"
+        "displayQuantity": "no",
+        "overrideItemFilters": [
+          {
+            "path": "type",
+            "filters": "ancestry,background,class,condition,deity,effect,heritage,lore,melee,spell,spellcastingEntry"
+          }
+        ]
       },
       "version": "3.3.4"
     },
@@ -625,6 +631,7 @@
       "currency": "Mark",
       "note": "Item Piles merchant, shipped pre-configured. The three flags that are load-bearing and fail SILENTLY if wrong: actor onlyAcceptBasePrice=false (true makes a sell-back fall through to the item's normal cost, which is disabled here, so he would offer nothing for everything); item purchaseOptionsAsSellOption=true (gates whether the item's own price list is offered when the merchant is the buyer); and price fixed=false (fixed=true pins the modifier to 1, so buyback would pay the full asking price). A price entry also needs secondary=true or getItemFlagPriceData multiplies the mark by an absent exchangeRate and renders nothing.",
       "sellPriceModifier": "default (0.5) -- he buys back at half",
+      "overrideItemFilters": "The itempiles-pf2e compat patch filters `action` and `feat` out of every pile, so an ability cannot be stocked or sold anywhere by default. That list is PER-PILE: isValidItemPile() prefers pileData.overrideItemFilters over the global ITEM_FILTERS, so dropping those two entries here opens ability trade on this merchant ONLY -- every other pile in the world keeps the stock filter. The remaining eleven entries are the compat patch's list verbatim; `melee` stays filtered so his Bone Saw and Bolt Driver read as attacks, not stock. Note the filter list is CACHED per actor uuid, so a change set and re-read in the same tick returns the stale list -- verify after a cache turnover, not immediately.",
       "removedOnExport": [
         "flags.item-piles.data.tablesForPopulate pointed at a world RollTable (RollTable.i6Byvno5eg4V2C6D). A compendium actor cannot resolve a world uuid, so restock-from-table is configured per world, not shipped."
       ]

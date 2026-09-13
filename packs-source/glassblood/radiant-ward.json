@@ -1,0 +1,39 @@
+{
+    "name": "Radiant Ward",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "ancestry",
+        "description": {
+            "value": "<p>Bonus to Fortitude saves specifically against radiation-based hazards and attacks, on top of Radiation Resistance.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "glassblood"
+            ]
+        },
+        "slug": "radiant-ward"
+    },
+    "_id": "OpP5zDOf2mEkPUcP",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "'Bonus to Fortitude saves specifically against radiation-based hazards and attacks' has no predicate hook -- pf2e predicates gate on the triggering item's traits, not a hazard's damage type, and no radiation-hazard trait exists in this corpus. No engine-recognizable predicate or roll-option exists for the specific gating condition described, and none can be built without inventing one."
+        }
+    }
+}

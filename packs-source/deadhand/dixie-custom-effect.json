@@ -1,0 +1,55 @@
+{
+    "name": "Effect: Dixie Custom",
+    "type": "effect",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "description": {
+            "value": "<p><em>Applied by <strong>Dixie Custom</strong> to the target.</em></p>\n<hr />\n<p>Formally call out one creature that can hear and understand you. It must attempt a Will save against your Class DC. On a failure it is compelled to treat you as its only worthwhile opponent for 1 minute, taking a −2 circumstance penalty to attack rolls against anyone else; on a critical failure it also cannot willingly move further from you. It may attempt a new save at the end of each of its turns in which you have not attacked it.</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "minutes",
+            "value": 1
+        },
+        "level": {
+            "value": 10
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "attack",
+                "type": "circumstance",
+                "value": -2,
+                "predicate": [
+                    {
+                        "not": "target:signature:{item|origin.signature}"
+                    }
+                ]
+            }
+        ],
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "value": []
+        },
+        "slug": "dixie-custom-effect"
+    },
+    "_id": "lOA5HegBk7UZkCJR",
+    "flags": {
+        "cinderfall": {
+            "effectOf": "deadhand.dixie-custom",
+            "landsOn": "target"
+        }
+    }
+}

@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "paradise-touched-archive"
+            ],
             "rarity": "common",
             "value": [
                 "paradise-touched",
@@ -34,5 +37,11 @@
         },
         "slug": "everything-ever-said"
     },
-    "_id": "B3rmVx8zJe2fWukJ"
+    "_id": "B3rmVx8zJe2fWukJ",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Once/day: any question, always true; unconditional 2 Signal Drift. The 0-10 Signal Drift track has the same absence as Bandwidth: no `SpecialResource`/counter representation anywhere in the corpus.",
+            "track": "archive"
+        }
+    }
 }

@@ -62,12 +62,8 @@
             ],
             "weaknesses": [
                 {
-                    "type": "area-vitality-damage",
-                    "value": 15
-                },
-                {
                     "type": "anchor",
-                    "value": 15
+                    "value": 8
                 }
             ],
             "resistances": [
@@ -236,7 +232,24 @@
                     "remaster": true,
                     "title": "Cinderfall"
                 },
-                "rules": [],
+                "rules": [
+                    {
+                        "key": "Weakness",
+                        "type": "anchor",
+                        "value": 7,
+                        "predicate": [
+                            "area-damage"
+                        ]
+                    },
+                    {
+                        "key": "Weakness",
+                        "type": "vitality",
+                        "value": 15,
+                        "predicate": [
+                            "area-damage"
+                        ]
+                    }
+                ],
                 "slug": "dispersed",
                 "traits": {
                     "rarity": "common",
@@ -278,11 +291,7 @@
     ],
     "flags": {
         "cinderfall": {
-            "alignment": "NE",
-            "incomplete": [
-                "immunity 'swarm mind (single-target mental and control effects)' carries prose pf2e cannot store",
-                "weakness 'anchor' rider 'halves damage from non-area sources' kept as text only"
-            ]
+            "alignment": "NE"
         }
     }
 }

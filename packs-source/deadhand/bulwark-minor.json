@@ -1,0 +1,45 @@
+{
+    "name": "Nobody Gets Past Twice",
+    "type": "capstone",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p>The first time each round you put yourself between an ally and an attack, it costs you no reaction — only the second and later ones do. A Bulwark at 10th stops choosing which ally to save and starts saving whichever one the enemy picked.</p>"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "otherTags": [
+                "deadhand-bulwark"
+            ],
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "bulwark-minor"
+    },
+    "_id": "55KpYNoDLoXgv1BG",
+    "flags": {
+        "cinderfall": {
+            "track": "bulwark"
+        }
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "name": "The Line You Own",
+    "type": "capstone",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p>Every fight you have ever won was won before it started, from somewhere the enemy had not thought to look. Distance has stopped being a factor you manage and become terrain you own: cover does not obstruct you, range does not degrade you, and the further out a target stands the more certain the answer becomes. People learn not to stand in the open near you. They learn it late.</p>"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "otherTags": [
+                "ironsight-long-iron"
+            ],
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "long-iron-minor"
+    },
+    "_id": "cm4LWCLjlAqmscsp",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Zero-number flavor text for a Draw's Minor/Major Capstone grant point named in classes.ironsight.json's own progression table. States no number, DC, duration, or selector of any kind -- a real content gap, not a search failure.",
+            "track": "long-iron"
+        }
+    }
+}

@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "plaguesworn-verse"
+            ],
             "rarity": "common",
             "value": [
                 "plaguesworn"
@@ -33,5 +36,11 @@
         },
         "slug": "rot-sets-in"
     },
-    "_id": "OcH0mpx53wCMpKen"
+    "_id": "OcH0mpx53wCMpKen",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "No clean predicate. DamageDice with category:\"persistent\" is real and precedented (pf2e-source/packs/pf2e/feats/class/inventor/level-16/persistent-boost.json), but that precedent is scoped to a single known trigger item (strike-damage selector, predicated on one specific weapon/innovation). This card's persistent decay damage comes from many different sources across the whole spell list (any Verse of Rot spell, Verse of Rot's own SPOILAGE conversion, etc.), and there's no single selector/predicate that catches \"any persistent decay damage you deal from any of your abilities\" the way persistent-boost.json's narrower version does.",
+            "track": "verse"
+        }
+    }
 }

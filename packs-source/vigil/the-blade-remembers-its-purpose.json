@@ -50,6 +50,7 @@
     "_id": "IUe8OalhUOTf2BBa",
     "flags": {
         "cinderfall": {
+            "incomplete": "STRUCT-EFFECT-COMPANION: shape is real and buildable (DamageDice + a plain FlatModifier, both predicated on a ChoiceSet-recorded category flag, per pf2e-source/packs/pf2e/actions/class/gunslinger/vital-shot.json's DamageDice precedent), but it is a lasting weapon buff with no companion effect file to carry it -- same structural gap as the resistance spells, compounded with the category-choice plumbing.",
             "listing": "8th Rank"
         }
     }

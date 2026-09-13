@@ -33,5 +33,10 @@
         },
         "slug": "twin-rite"
     },
-    "_id": "Y6hrfqa5Qeb7Fz38"
+    "_id": "Y6hrfqa5Qeb7Fz38",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "\"Cast two known Rites paying only the costlier's Zeal, both resolving before any other action\" -- no confirmed precedent found either way for casting two spells simultaneously as a single action within this pass's research budget. Also separately gated by Zeal accounting (P-ZEAL doesn't apply to the cost-waiver mechanism itself, but the underlying Zeal pool it references still doesn't exist as a rule element)."
+        }
+    }
 }

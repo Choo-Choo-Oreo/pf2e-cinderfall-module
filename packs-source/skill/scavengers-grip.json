@@ -1,0 +1,37 @@
+{
+    "name": "Scavenger's Grip",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "skill",
+        "description": {
+            "value": "<p>Years of climbing collapsed parking structures and gutted towers taught you where wreckage holds weight. You don't take a circumstance penalty to Climb checks on unstable rubble or debris the way an untrained climber would.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "scavengers-grip"
+    },
+    "_id": "razjlZIe1gudQ7YO",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The Climb penalty removal is gated on 'unstable rubble or debris', an environmental condition with no roll-option hook: pf2e's terrain roll options come from a closed environmentTypes enum (aquatic/arctic/desert/forest/mountain/plains/swamp/underground/urban; pf2e-source/src/module/scene/region-behavior/environment.ts:16-20, StringField choices restricted to that list) that has none of Cinderfall's wasteland terrain, and there is no GM-facing way to add to it. Real Rock Runner's own terrain:stone/terrain:earth predicate values aren't in that enum either, confirming this is a closed system, not a GM-extensible one."
+        }
+    }
+}

@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "seed-warden-turnwise"
+            ],
             "rarity": "common",
             "value": [
                 "seed-warden"
@@ -33,5 +36,11 @@
         },
         "slug": "momentum"
     },
-    "_id": "XhINn2MgMtHF4F1Q"
+    "_id": "XhINn2MgMtHF4F1Q",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "`BLOOMROT-NULL` — there is no \"the needle crossed zero\" event on the actor to trigger from. Even setting that aside, this is an automatic/passive trigger (not a player-clicked action), so the real P5 pattern (`selfEffect` fired by using an action, as in Rage) doesn't apply either — there is no button-press to hang `selfEffect` off of. `momentum-effect.json`'s real rules are consequently orphaned data with no path to ever apply.",
+            "track": "turnwise"
+        }
+    }
 }

@@ -1,0 +1,39 @@
+{
+    "name": "Glow Control",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "ancestry",
+        "description": {
+            "value": "<p>Suppress Ambient Glow at will for short periods, at the cost of minor Fortitude strain.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "glassblood"
+            ]
+        },
+        "slug": "glow-control"
+    },
+    "_id": "EpcBLcjqPDYmdmA6",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Suppressing Ambient Glow's stealth penalty at will would require adding a new flag to Ambient Glow's own predicate's nor-list (a cross-file change to a different card, out of scope for this file), and no number is given for the 'minor Fortitude strain' cost."
+        }
+    }
+}

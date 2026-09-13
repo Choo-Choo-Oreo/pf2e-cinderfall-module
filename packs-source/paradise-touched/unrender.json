@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "paradise-touched-render"
+            ],
             "rarity": "common",
             "value": [
                 "paradise-touched"
@@ -33,5 +36,11 @@
         },
         "slug": "unrender"
     },
-    "_id": "XFGfZNzPn0HowqnM"
+    "_id": "XFGfZNzPn0HowqnM",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Cost 3 Bandwidth: counteract a magical effect using your highest spell rank and spell DC; on success the effect is erased rather than dispelled. Hands a new usable counteract/dispel-like action (bucket 3) on top of the Bandwidth cost. No `SpecialResource` rule element exists anywhere in the corpus for Bandwidth -- confirmed corpus-wide (`grep -rl \"\\\"key\\\": \\\"SpecialResource\\\"\" site/data/cards/` returns zero hits), and the class card itself (`site/data/cards/classes/classes.paradise-touched.json:49`) ships `system.rules: []`. Same absence class as Cultist Zeal/Ironsight Drift/Fleshmancer Vitae.",
+            "track": "render"
+        }
+    }
 }

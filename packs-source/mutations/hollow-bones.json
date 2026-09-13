@@ -24,7 +24,9 @@
             "type": null
         },
         "price": {
-            "value": {}
+            "value": {
+                "gp": 0
+            }
         },
         "publication": {
             "license": "ORC",
@@ -32,7 +34,17 @@
             "title": "Cinderfall"
         },
         "quantity": 1,
-        "rules": [],
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "acrobatics",
+                "type": "circumstance",
+                "value": 2,
+                "predicate": [
+                    "action:balance"
+                ]
+            }
+        ],
         "size": "med",
         "traits": {
             "rarity": "rare",
@@ -46,21 +58,14 @@
     "_id": "ZWY7RK9xISnJeyw3",
     "flags": {
         "cinderfall": {
+            "incomplete": "\"A critical hit against you that deals bludgeoning damage also inflicts clumsy 1\" has no confirmed rule-element hook: no generic 'gain a condition when critically hit by damage type X' actor-level rule element was found in pf2e-source. The Bulk-for-others'-carrying-purposes and shorter-fall clauses are correct as-is, not gaps: real pf2e ships an equally concrete falling-damage claim (Cat Fall, pf2e-source/packs/pf2e/feats/skill/level-1/cat-fall.json) with rules: [], confirming no engine hook exists anywhere for either.",
             "mutationType": "minor",
             "tier": "rare",
-            "slot": "Frame",
             "slots": [
                 "Frame"
             ],
             "slotCost": 1,
-            "roll": "d100 — 85–86",
-            "incomplete": [
-                "level is a stub (0); mutations carry no level",
-                "price is empty; a mutation is not bought"
-            ],
-            "inferred": [
-                "system.usage"
-            ]
+            "roll": "d100 — 85–86"
         }
     }
 }

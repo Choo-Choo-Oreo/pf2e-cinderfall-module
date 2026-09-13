@@ -1,0 +1,32 @@
+{
+    "name": "Cannibal Rig",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "skill",
+        "description": {
+            "value": "<p>You can strip a broken device for parts fast enough to matter mid-crisis. Disassembling a broken item you have on hand to recover Crafting materials takes 1 minute instead of 10.</p>"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "cannibal-rig"
+    },
+    "_id": "OKlSM7J0txwbodbf"
+}

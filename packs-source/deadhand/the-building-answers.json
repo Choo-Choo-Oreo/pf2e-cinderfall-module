@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "deadhand-breaker"
+            ],
             "rarity": "common",
             "value": [
                 "deadhand"
@@ -33,5 +36,10 @@
         },
         "slug": "the-building-answers"
     },
-    "_id": "7hRJPqTG8t9hNYmc"
+    "_id": "7hRJPqTG8t9hNYmc",
+    "flags": {
+        "cinderfall": {
+            "track": "breaker"
+        }
+    }
 }

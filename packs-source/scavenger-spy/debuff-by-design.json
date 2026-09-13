@@ -28,5 +28,10 @@
         },
         "slug": "debuff-by-design"
     },
-    "_id": "elYC3UvRthU0VT0W"
+    "_id": "elYC3UvRthU0VT0W",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Stated number applied to an external target for an open-ended duration -- needs the distracting-feint.json/effect-distracting-feint.json two-file companion-effect pattern, outside this card's scope."
+        }
+    }
 }

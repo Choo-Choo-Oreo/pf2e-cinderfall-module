@@ -1,0 +1,55 @@
+{
+    "name": "The Answer",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>You instantly and truly know one specific fact about the target — no save, no resistance — at a small immediate personal cost: you lose 1 point of maximum HP until your next daily preparations, as something of yours is spent to buy the fact outright.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": ""
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "60 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "1 creature"
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [],
+            "value": [
+                "focus",
+                "reckoner"
+            ]
+        },
+        "slug": "the-answer-spell"
+    },
+    "_id": "jOWdvm9UQz004gG2",
+    "flags": {
+        "cinderfall": {
+            "signatureSpellOf": "reckoner.forbidden-cognition"
+        }
+    }
+}

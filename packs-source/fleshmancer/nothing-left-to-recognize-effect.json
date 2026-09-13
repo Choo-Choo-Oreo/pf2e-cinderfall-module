@@ -1,0 +1,55 @@
+{
+    "name": "Effect: Nothing Left to Recognize",
+    "type": "effect",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "description": {
+            "value": "<p><em>Applied by <strong>Nothing Left to Recognize</strong> to the character who used it.</em></p>\n<hr />\n<p>Your size increases by one step, to a maximum of Huge. You gain a +3 status bonus to melee damage rolls, resistance 10 to physical damage, and reach 10 feet with your unarmed attacks. You cannot speak, cast, or apply Grafts for the duration, and when it ends you are <em>stunned 1</em> and <em>enfeebled 2</em> for 1 minute.</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "minutes",
+            "value": 1
+        },
+        "level": {
+            "value": 16
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "melee-strike-damage",
+                "type": "status",
+                "value": 3
+            },
+            {
+                "key": "Resistance",
+                "type": "physical",
+                "value": 10
+            }
+        ],
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "value": []
+        },
+        "slug": "nothing-left-to-recognize-effect"
+    },
+    "_id": "aalPnR6rJPhHHkrz",
+    "flags": {
+        "cinderfall": {
+            "effectOf": "fleshmancer.nothing-left-to-recognize",
+            "landsOn": "self"
+        }
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "name": "The Pull Returned",
+    "type": "capstone",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p>Once per day, when a creature within 30 feet fails a save against an Overflow effect you drew from the Singularity, you gain temporary Hit Points equal to your level, lasting until the start of your next turn. Something is always escaping outward from the same moment something else is destroyed. This time, a little of it escapes toward you.</p>"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "TempHP",
+                "value": "@actor.level"
+            }
+        ],
+        "traits": {
+            "rarity": "common",
+            "otherTags": [
+                "reckoner-singularity"
+            ],
+            "value": [
+                "reckoner"
+            ]
+        },
+        "slug": "singularity-minor"
+    },
+    "_id": "SYZ04tLi9W2iW30e",
+    "flags": {
+        "cinderfall": {
+            "track": "singularity"
+        }
+    }
+}

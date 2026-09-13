@@ -50,6 +50,7 @@
     "_id": "fUz5oAownRIUL3IE",
     "flags": {
         "cinderfall": {
+            "incomplete": "No rule element re-triggers or duplicates a triggering spellcast using another actor's statistics — confirmed absent across the full 34-key inventory (P12; no \"reflect\"/\"echo\"/duplicate-cast key exists, verified via `grep -rli \"reflect\" pf2e-source/src/module/rules/rule-element/*.ts` → 0 hits). This is bucket 4 in spirit (a cross-creature effect keyed off a third party's own action) even though the trigger source is a reaction rather than a passive.",
             "listing": "6th Rank"
         }
     }

@@ -1,0 +1,41 @@
+{
+    "name": "Ghost of the Vaults",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "skill",
+        "description": {
+            "value": "<p>Combine vaults and corporate strongrooms have started attributing your work to rumors instead of a person. Once per day, after successfully Picking a Lock or Disabling a Device on a secured container, you can conceal all evidence of tampering, requiring a successful Perception check against your Thievery DC to notice the container was ever opened.</p>"
+        },
+        "level": {
+            "value": 16
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Master in Thievery"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "ghost-of-the-vaults"
+    },
+    "_id": "NqMqSEdizenvLt2K",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "No rule-element key conceals evidence of a successful Pick a Lock/Disable a Device from later detection."
+        }
+    }
+}

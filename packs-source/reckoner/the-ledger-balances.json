@@ -33,5 +33,10 @@
         },
         "slug": "the-ledger-balances"
     },
-    "_id": "AQViDEJInooUt0ye"
+    "_id": "AQViDEJInooUt0ye",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Replacing a Reckoning-stage toll with a GM-introduced story complication -- the Reckoning (this class's own 4-stage penalty track) has zero Foundry-schema footprint: classes.reckoner.json ships \"rules\": [] and defines no SpecialResource, counter, or stage-tracking rule element of any kind to hook. See feats-class-reckoner-draft.md (RECKONING-BLOCKER)."
+        }
+    }
 }

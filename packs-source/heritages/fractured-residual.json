@@ -15,7 +15,22 @@
             "remaster": true,
             "title": "Cinderfall"
         },
-        "rules": [],
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "will",
+                "type": "circumstance",
+                "value": -1,
+                "predicate": [
+                    {
+                        "or": [
+                            "item:trait:possession",
+                            "item:trait:mental"
+                        ]
+                    }
+                ]
+            }
+        ],
         "traits": {
             "rarity": "common",
             "value": []

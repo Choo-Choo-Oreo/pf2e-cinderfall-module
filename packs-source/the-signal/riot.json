@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "the-signal-openband"
+            ],
             "rarity": "common",
             "value": [
                 "the-signal"
@@ -33,5 +36,11 @@
         },
         "slug": "riot"
     },
-    "_id": "igeGN149dOsLwQWK"
+    "_id": "igeGN149dOsLwQWK",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "SB1 (cost), and separately: forcing a specific future action choice onto a creature is a compulsion effect handled by GM/manual chat-card adjudication in real pf2e (comparable compulsion spells — e.g. Confusion/Command-style \"attack\" clauses — carry no rule element for the compulsion itself, consistent with P3's spell-convention statistic, though this specific card is a feat, not a spell, so this line is a reasoned extension of that convention rather than a directly cited example).",
+            "track": "openband"
+        }
+    }
 }

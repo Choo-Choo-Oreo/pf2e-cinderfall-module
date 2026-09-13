@@ -1,0 +1,62 @@
+{
+    "name": "Choose Your Attunement",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
+        "description": {
+            "value": "<p><em>Choose Your Attunement</em></p><p>Choose one: Bio-attuned, Chrome-attuned.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "ChoiceSet",
+                "adjustName": false,
+                "flag": "attunement",
+                "prompt": "Choose Your Attunement",
+                "choices": {
+                    "filter": [
+                        "item:tag:remade-attunement"
+                    ]
+                }
+            },
+            {
+                "key": "GrantItem",
+                "uuid": "{item|flags.system.rulesSelections.attunement}"
+            }
+        ],
+        "traits": {
+            "otherTags": [],
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "attunement"
+    },
+    "_id": "jk3E3ZUScprdDUiE",
+    "flags": {
+        "cinderfall": {
+            "subclassOf": "remade",
+            "subclassLayer": "attunement",
+            "grants": [
+                "remade.bio-attuned",
+                "remade.chrome-attuned"
+            ]
+        }
+    }
+}

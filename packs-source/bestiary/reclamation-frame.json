@@ -136,7 +136,8 @@
                 "base": 17
             },
             "crafting": {
-                "base": 13
+                "base": 13,
+                "note": "disassembly only"
             }
         },
         "traits": {
@@ -259,7 +260,9 @@
                 },
                 "attackEffects": {
                     "custom": "",
-                    "value": []
+                    "value": [
+                        "magnetic-pull"
+                    ]
                 },
                 "bonus": {
                     "value": 15
@@ -271,7 +274,7 @@
                     }
                 },
                 "description": {
-                    "value": "<p>Damage 2d6+5 bludgeoning plus the target is pulled 10 feet toward the Frame</p>"
+                    "value": ""
                 },
                 "publication": {
                     "license": "ORC",
@@ -385,15 +388,84 @@
                 }
             },
             "type": "action"
+        },
+        {
+            "_id": "FnbZFSznvpnX75xB",
+            "img": "systems/pf2e/icons/actions/Passive.webp",
+            "name": "Magnetic Pull",
+            "sort": 1400000,
+            "system": {
+                "actionType": {
+                    "value": "passive"
+                },
+                "actions": {
+                    "value": null
+                },
+                "category": "offensive",
+                "description": {
+                    "value": "<p>On a hit, the target is pulled 10 feet toward the Frame.</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "magnetic-pull",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "type": "action"
+        },
+        {
+            "_id": "PCzGhQBk5U6FUqnJ",
+            "img": "systems/pf2e/icons/default-icons/treasure.svg",
+            "name": "Salvage Servo",
+            "sort": 1500000,
+            "system": {
+                "bulk": {
+                    "value": 0
+                },
+                "category": "material",
+                "description": {
+                    "value": "<p>A servo pried out before it seized &mdash; factory-standard, and still worth something to a scavenger with the right buyer.</p>"
+                },
+                "hardness": 0,
+                "hp": {
+                    "max": 0,
+                    "value": 0
+                },
+                "level": {
+                    "value": 0
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "quantity": 1,
+                "rules": [],
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                },
+                "price": {
+                    "value": {
+                        "gp": 2
+                    }
+                }
+            },
+            "type": "treasure"
         }
     ],
     "flags": {
+        "pf2e": {
+            "lootable": true
+        },
         "cinderfall": {
-            "alignment": "LN",
-            "incomplete": [
-                "skill 'Crafting' condition 'disassembly only' kept as text only",
-                "Ranged strike 'magnetic hook': rider 'the target is pulled 10 feet toward the Frame' kept as text only"
-            ]
+            "alignment": "LN"
         }
     }
 }

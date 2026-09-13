@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "deadhand-bulwark"
+            ],
             "rarity": "common",
             "value": [
                 "deadhand"
@@ -33,5 +36,11 @@
         },
         "slug": "braced-for-worse"
     },
-    "_id": "jN7GDlYpfLAkgNmU"
+    "_id": "jN7GDlYpfLAkgNmU",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Self temp HP = Con mod (min 1), doubled if the caster hasn't moved, on Raising a Shield as a reaction. Matches pf2e-source/packs/pf2e/feats/class/barbarian/level-8/renewed-vigor.json (rules: []) + pf2e-source/packs/pf2e/feat-effects/effect-renewed-vigor.json -- a triggered, resolved-once TempHP grant lives on a separate companion effect item applied when the ability resolves, never as a bare rule element on the triggering card itself. No deadhand.braced-for-worse-effect.json exists in this corpus.",
+            "track": "bulwark"
+        }
+    }
 }

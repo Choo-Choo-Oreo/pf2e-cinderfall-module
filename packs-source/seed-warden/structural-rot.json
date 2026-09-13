@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "seed-warden-blightline"
+            ],
             "rarity": "common",
             "value": [
                 "seed-warden"
@@ -33,5 +36,11 @@
         },
         "slug": "structural-rot"
     },
-    "_id": "zbZ7tFASXa94gcgD"
+    "_id": "zbZ7tFASXa94gcgD",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Retargets another named spell's `target`/`area` field — no RE for that (`CF-list`). Bucket 5.",
+            "track": "blightline"
+        }
+    }
 }

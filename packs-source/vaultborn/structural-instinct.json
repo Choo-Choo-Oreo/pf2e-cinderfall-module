@@ -1,0 +1,43 @@
+{
+    "name": "Structural Instinct",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "ancestry",
+        "description": {
+            "value": "<p>Once per day, know with certainty whether a structure is about to fail — a clear warning, not just a bonus to notice.</p>"
+        },
+        "level": {
+            "value": 5
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Structural Sense"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "vaultborn"
+            ]
+        },
+        "slug": "structural-instinct"
+    },
+    "_id": "JlDMeOKE2ANOYwvp",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Granting a new limited-use activated action/reaction has no rule-element hook in real pf2e -- confirmed corpus-wide this pass (Reactive Shield itself ships rules: []). There is no rule-element that guarantees an outright success or converts a failed save/check to a success after the fact; AdjustDegreeOfSuccess only shifts the degree of an actual roll."
+        }
+    }
+}

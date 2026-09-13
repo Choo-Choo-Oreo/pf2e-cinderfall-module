@@ -1,0 +1,72 @@
+{
+    "name": "Grafted Arm — Heavy",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>A larger, stronger arm off a donor who used it for a living. +1 item bonus to Athletics; unarmed Strike with this arm: 1d8 bludgeoning, no traits. You can hold and use one-handed a weapon or object one size larger than normal in it.</p><p><b>Donor:</b> The arm has muscle memory. The GM picks one trained-level physical skill it \"knows\"; you have its guidance the first time each day you attempt that skill.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 5
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "mk": 160
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "athletics",
+                "type": "item",
+                "value": 1
+            }
+        ],
+        "size": "med",
+        "traits": {
+            "rarity": "uncommon",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "grafted-arm-heavy"
+    },
+    "_id": "73cvKZjBPx3wdSCX",
+    "flags": {
+        "cinderfall": {
+            "augmentKind": "biological",
+            "augmentType": "graft",
+            "tier": "uncommon",
+            "slots": [
+                "Arm"
+            ],
+            "slotCost": 1,
+            "grade": 2,
+            "availability": "Grafted",
+            "level": 5,
+            "load": "+2",
+            "resonance": "+2"
+        }
+    }
+}

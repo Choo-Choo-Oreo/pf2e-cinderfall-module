@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "flavored"
+            ],
             "rarity": "common",
             "value": [
                 "reckoner"
@@ -33,5 +36,11 @@
         },
         "slug": "cold-reckoning-ascendant"
     },
-    "_id": "imw8Gk7jaUmJkQqD"
+    "_id": "imw8Gk7jaUmJkQqD",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Reducing the Reckoning by one stage (this card also removes HEAT DEBT, itself a homebrew condition with no schema representation anywhere in the corpus) -- the Reckoning (this class's own 4-stage penalty track) has zero Foundry-schema footprint: classes.reckoner.json ships \"rules\": [] and defines no SpecialResource, counter, or stage-tracking rule element of any kind to hook. See feats-class-reckoner-draft.md (RECKONING-BLOCKER).",
+            "flavored": true
+        }
+    }
 }

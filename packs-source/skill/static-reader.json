@@ -1,0 +1,41 @@
+{
+    "name": "Static Reader",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "skill",
+        "description": {
+            "value": "<p>Bonus to sense the presence and general mood of nearby bound souls or ghost-machines.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Trained in Occultism"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "static-reader"
+    },
+    "_id": "uhToomiOYqVFgncR",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The card states a bonus but gives no numeric value, bonus type, or specific action tag to build a FlatModifier from without inventing one."
+        }
+    }
+}

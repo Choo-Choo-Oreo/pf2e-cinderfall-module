@@ -24,7 +24,9 @@
             "type": null
         },
         "price": {
-            "value": {}
+            "value": {
+                "gp": 0
+            }
         },
         "publication": {
             "license": "ORC",
@@ -32,7 +34,14 @@
             "title": "Cinderfall"
         },
         "quantity": 1,
-        "rules": [],
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "athletics",
+                "type": "circumstance",
+                "value": 1
+            }
+        ],
         "size": "med",
         "traits": {
             "rarity": "uncommon",
@@ -46,21 +55,14 @@
     "_id": "WY394M4jk8Jfx5jW",
     "flags": {
         "cinderfall": {
+            "incomplete": "\"The first time each encounter you stand from prone or release a brace, it costs an extra action\" has no rule-element equivalent: no hook exists for changing the action cost of an existing baseline action (Standing) the first time it's used each encounter -- pf2e's per-encounter-use tracking is built for granted actions with their own frequency field, not for modifying a universal action everyone already has.",
             "mutationType": "minor",
             "tier": "uncommon",
-            "slot": "Legs",
             "slots": [
                 "Legs"
             ],
             "slotCost": 1,
-            "roll": "d100 — 55–56",
-            "incomplete": [
-                "level is a stub (0); mutations carry no level",
-                "price is empty; a mutation is not bought"
-            ],
-            "inferred": [
-                "system.usage"
-            ]
+            "roll": "d100 — 55–56"
         }
     }
 }

@@ -1,0 +1,91 @@
+{
+    "name": "Ordnance Arm",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>Arm replaced with an integrated scrap-cannon. Strike: 2d10 piercing, range 60 ft, kickback, reload 1. Ammo is any loose scrap (free). Scans as a firearm.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 14
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "gp": 5000
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "Strike",
+                "slug": "ordnance-arm",
+                "label": "Ordnance Arm",
+                "category": "weapon",
+                "group": "firearm",
+                "img": "systems/pf2e/icons/equipment/weapons/apparatus-gun.webp",
+                "range": {
+                    "increment": 60
+                },
+                "traits": [
+                    "kickback",
+                    "reload-1"
+                ],
+                "damage": {
+                    "base": {
+                        "damageType": "piercing",
+                        "dice": 2,
+                        "die": "d10"
+                    }
+                }
+            }
+        ],
+        "size": "med",
+        "traits": {
+            "rarity": "epic",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "ordnance-arm"
+    },
+    "_id": "33wzPZs0keY3Hndk",
+    "flags": {
+        "cinderfall": {
+            "augmentKind": "cybernetic",
+            "augmentType": "implant",
+            "tier": "epic",
+            "slots": [
+                "Arm"
+            ],
+            "slotCost": 1,
+            "grade": 4,
+            "availability": "Black Market",
+            "level": 14,
+            "drift": "+3",
+            "augTags": [
+                "weapon",
+                "apex"
+            ]
+        }
+    }
+}

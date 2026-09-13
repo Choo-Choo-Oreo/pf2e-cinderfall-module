@@ -1,0 +1,45 @@
+{
+    "name": "The Long Wait",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Range</strong> 30 feet</p><p><strong>Targets</strong> 1 creature</p><p><strong>Frequency</strong> once per day</p><p><strong>Saving Throw</strong> Will</p><p><strong>Duration</strong> 1 minute</p><hr /><p>The target must succeed at a Will save against your class DC or become <em>slowed 1</em> for the duration (<em>slowed 2</em> on a critical failure). This slowed value doesn't tick down early — it lasts the full duration regardless of what the target does. Some things simply take as long as they take.</p>"
+        },
+        "level": {
+            "value": 12
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "otherTags": [
+                "cultist-someday"
+            ],
+            "rarity": "common",
+            "value": [
+                "cultist"
+            ]
+        },
+        "slug": "the-long-wait"
+    },
+    "_id": "VALbT2W0I6Gn8FxR",
+    "flags": {
+        "cinderfall": {
+            "track": "someday"
+        }
+    }
+}

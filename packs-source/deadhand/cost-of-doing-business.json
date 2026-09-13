@@ -33,5 +33,10 @@
         },
         "slug": "cost-of-doing-business"
     },
-    "_id": "AaUNIj63snMlbdOD"
+    "_id": "AaUNIj63snMlbdOD",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Taking a repeated damage type grants resistance 5 (or half level) to that type until the encounter ends, replacing any prior instance. The resisted type is chosen dynamically at trigger time and must persist/override -- Resistance's own type field is fixed at authoring time, and no rule element records a dynamically-selected value at trigger-time the way a ChoiceSet records a feat-selection-time choice."
+        }
+    }
 }

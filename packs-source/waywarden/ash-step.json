@@ -27,5 +27,10 @@
         },
         "slug": "ash-step"
     },
-    "_id": "5iMvzz1JWiyAfjPZ"
+    "_id": "5iMvzz1JWiyAfjPZ",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Hands the actor a new, distinct movement action (extended Stride + reaction immunity) — bucket 3 territory regardless of \"at will\" framing (see P8/P9: even real pf2e's own bespoke movement/Strike actions need hardcoded system support beyond system.rules). Applying the same benefit to the Feral Bond simultaneously is also cross-creature. This hands the actor a wholly new usable action/reaction. Confirmed absent per two direct spot checks: Fighter's Double Slice only rule-encodes its minor non-agile penalty -- the actual \"resolve two Strikes as one attack, combine damage\" behavior is hardcoded PF2e system logic. Fighter's Reactive Strike is granted via a bare GrantItem whose trigger is likewise hardcoded system behavior tied to one specific compendium action UUID, not a generic rule-element hook. Any Waywarden card proposing an equivalent bespoke Strike-triggering or multi-Strike-resolving action inherits the same gap. This effect buffs, protects, or grants actions to the Feral Bond (the companion beast) from the holder's own card. No rule-element selector in pf2e-source lets one actor's item grant a stat bonus, temp HP, an extra action, or a shared sense to a different actor's sheet -- confirmed by spot-checking real pf2e's own fully-built Animal Companion subsystem (Ranger/Druid), where virtually every companion-buff/companion-action-economy feat ships with rules: [] too."
+        }
+    }
 }

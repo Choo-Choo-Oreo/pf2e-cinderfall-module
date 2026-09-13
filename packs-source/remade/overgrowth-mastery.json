@@ -33,5 +33,10 @@
         },
         "slug": "overgrowth-mastery"
     },
-    "_id": "08ckOkD9qVDOdsGk"
+    "_id": "08ckOkD9qVDOdsGk",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "BAND-GAP (the flat check being removed isn't modeled)."
+        }
+    }
 }

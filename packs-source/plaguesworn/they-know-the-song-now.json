@@ -50,6 +50,7 @@
     "_id": "zSkE6TBT1FWEnWO7",
     "flags": {
         "cinderfall": {
+            "incomplete": "\"Command all/multiple Afflicted with one action\" has no rule-element automation anywhere in pf2e-source: grep -rli \"command\" pf2e-source/src/module/rules/rule-element/ and find pf2e-source/src/module/rules/rule-element -iname \"*command*\" both return zero hits. Minion \"Command\" in real pf2e is a manually GM-tracked action with no rule-element automation of any kind. Afflicted is this class's minion subsystem: a raise-cap, a collapse timer, and (at level 18) a shared cross-actor Resonance pool. pf2e's schema has no generic \"max controlled minions\" field, no \"minion lifespan\" field, and no mechanism for one actor's rule element to modify a different actor's stats on an ongoing basis. Removing the minion trait from a different creature and granting it autonomous behavior has no cross-actor mechanism; ItemAlteration's traits property (add/remove/subtract) only touches items (weapons/armor), never a creature's own trait list, and never across actors regardless.",
             "listing": "9th Rank"
         }
     }

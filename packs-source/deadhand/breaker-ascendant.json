@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "flavored"
+            ],
             "rarity": "common",
             "value": [
                 "deadhand"
@@ -33,5 +36,11 @@
         },
         "slug": "breaker-ascendant"
     },
-    "_id": "hpoeX5ZWhfGXSjcJ"
+    "_id": "hpoeX5ZWhfGXSjcJ",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Claims the caster's multi-action/reactable Strikes \"cannot be the trigger for a Ready action, and cannot be interrupted, disrupted, or counteracted by a reaction.\" No rule-element key anywhere in the engine tracks whether an action can be Readied against or reacted to -- a genuinely novel absence for this whole pass, not specific to this class.",
+            "flavored": true
+        }
+    }
 }

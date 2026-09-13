@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "flavored"
+            ],
             "rarity": "common",
             "value": [
                 "reckoner"
@@ -33,5 +36,11 @@
         },
         "slug": "long-arithmetic-ascendant"
     },
-    "_id": "xIksiuYC2As4lNvT"
+    "_id": "xIksiuYC2As4lNvT",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "THE FAILURE POINT's DC degrades hourly on its own -- an info-only mechanic being given an auto-decrementing DC, which has no counter mechanism (NOSTACK-adjacent).",
+            "flavored": true
+        }
+    }
 }

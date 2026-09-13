@@ -1,0 +1,43 @@
+{
+    "name": "Choir's Voice",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "ancestry",
+        "description": {
+            "value": "<p>Once per day, actively call on a nearby Choir of Ash member for aid, not just information.</p>"
+        },
+        "level": {
+            "value": 9
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Choir's Attention"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "cinderborn"
+            ]
+        },
+        "slug": "choirs-voice"
+    },
+    "_id": "qN2wqr5W59Fe268R",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Granting a new limited-use activated action/reaction has no rule-element hook in real pf2e -- confirmed corpus-wide this pass (Reactive Shield itself ships rules: []). ('actively call on a nearby Choir of Ash member for aid' is a new granted action.)"
+        }
+    }
+}

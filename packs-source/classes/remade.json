@@ -1,0 +1,541 @@
+{
+    "name": "Remade",
+    "type": "class",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "ancestryFeatLevels": {
+            "value": [
+                1,
+                5,
+                9,
+                13,
+                17
+            ]
+        },
+        "attacks": {
+            "simple": 1,
+            "martial": 1,
+            "advanced": 0,
+            "unarmed": 1,
+            "other": {
+                "name": "",
+                "rank": 0
+            }
+        },
+        "classFeatLevels": {
+            "value": [
+                2,
+                4,
+                6,
+                8,
+                10,
+                12,
+                14,
+                16,
+                18,
+                20
+            ]
+        },
+        "defenses": {
+            "unarmored": 1,
+            "light": 1,
+            "medium": 1,
+            "heavy": 0
+        },
+        "description": {
+            "value": "<p>Cyber City fits you with chrome. The Rendery grafts you Wild. Most people who take both walk away with two separate ways to fail. The Remade struck a different bargain — with whichever side they trusted first.</p>"
+        },
+        "generalFeatLevels": {
+            "value": [
+                3,
+                7,
+                11,
+                15,
+                19
+            ]
+        },
+        "hp": 10,
+        "items": {
+            "remade.attunement": {
+                "level": 1,
+                "name": "Choose Your Attunement"
+            }
+        },
+        "keyAbility": {
+            "value": [
+                "con"
+            ]
+        },
+        "perception": 1,
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "savingThrows": {
+            "fortitude": 2,
+            "reflex": 1,
+            "will": 1
+        },
+        "skillFeatLevels": {
+            "value": [
+                2,
+                4,
+                6,
+                8,
+                10,
+                12,
+                14,
+                16,
+                18,
+                20
+            ]
+        },
+        "skillIncreaseLevels": {
+            "value": [
+                3,
+                5,
+                7,
+                9,
+                11,
+                13,
+                15,
+                17,
+                19
+            ]
+        },
+        "slug": "remade",
+        "spellcasting": 0,
+        "trainedSkills": {
+            "additional": 3,
+            "value": [
+                "medicine"
+            ]
+        },
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "_id": "RZAph50vWVtwCfmr",
+    "flags": {
+        "cinderfall": {
+            "tagline": "Cyber City fits you with chrome. The Rendery grafts you Wild. Most people who take both walk away with two separate ways to fail. The Remade struck a different bargain — with whichever side they trusted first.",
+            "role": "Frontline hybrid — martial base, augment-flavored features layered on",
+            "pillar": "The Augment Economy — Cyber City's chrome and the Rendery's bio-graft, both at once",
+            "hpFormula": "10 + Con modifier per level",
+            "keyAbilityText": "Constitution",
+            "terms": [
+                [
+                    "Attunement",
+                    "The 1st-level choice between bio-attuned and chrome-attuned — see §03. A one-time fork, not a stance you swap later."
+                ],
+                [
+                    "Clean Take",
+                    "1st-level feature, both attunements. A critical failure on an Install check (cybernetic) or a Graft check (bio-organic) performed on your body is instead treated as a normal failure — you never roll on the Install Mishap table or the Rejection table. Applies no matter who makes the check: a shop surgeon, an ally, or yourself."
+                ]
+            ],
+            "section2": {
+                "perception": "Perception — Trained.",
+                "savingThrows": "Saving Throws — Fortitude Expert; Reflex and Will Trained.",
+                "skills": "Skills — 3 + Int modifier trained skills, always including Medicine.",
+                "attacks": "Attacks — Simple weapons, martial weapons, and unarmed attacks, Trained.",
+                "defenses": "Defenses — Light and medium armor, Trained. No heavy — the augment slot is the tradeoff, not encumbrance.",
+                "classDC": "Class DC — Trained, keyed to Constitution."
+            },
+            "progression": [
+                {
+                    "level": 1,
+                    "grants": [
+                        [
+                            "Initial proficiencies (see §02)",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Attunement (bio-attuned or chrome-attuned, see §03)",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Clean Take (see §01)",
+                            ",",
+                            null
+                        ],
+                        [
+                            " ancestry feat",
+                            "",
+                            "ancestry feat"
+                        ]
+                    ]
+                },
+                {
+                    "level": 2,
+                    "grants": [
+                        [
+                            "Class feat",
+                            ",",
+                            "class feat"
+                        ],
+                        [
+                            " choice of 6 (2 shared / 2 bio / 2 chrome)",
+                            ",",
+                            null
+                        ],
+                        [
+                            " skill feat",
+                            "",
+                            "skill feat"
+                        ]
+                    ]
+                },
+                {
+                    "level": 3,
+                    "grants": [
+                        [
+                            "General feat",
+                            ",",
+                            "general feat"
+                        ],
+                        [
+                            " skill increase",
+                            "",
+                            "skill increase"
+                        ]
+                    ]
+                },
+                {
+                    "level": 4,
+                    "grants": [
+                        [
+                            "Class feat",
+                            ",",
+                            "class feat"
+                        ],
+                        [
+                            " choice of 6 (2 shared / 2 bio / 2 chrome)",
+                            ",",
+                            null
+                        ],
+                        [
+                            " skill feat",
+                            "",
+                            "skill feat"
+                        ]
+                    ]
+                },
+                {
+                    "level": 5,
+                    "grants": [
+                        [
+                            "Ancestry feat",
+                            ",",
+                            "ancestry feat"
+                        ],
+                        [
+                            " skill increase",
+                            ",",
+                            "skill increase"
+                        ],
+                        [
+                            " ability boosts",
+                            "",
+                            "ability boosts"
+                        ]
+                    ]
+                },
+                {
+                    "level": 6,
+                    "grants": [
+                        [
+                            "Class feat",
+                            ",",
+                            "class feat"
+                        ],
+                        [
+                            " choice of 6 (2 shared / 2 bio / 2 chrome)",
+                            ",",
+                            null
+                        ],
+                        [
+                            " skill feat",
+                            "",
+                            "skill feat"
+                        ]
+                    ]
+                },
+                {
+                    "level": 7,
+                    "grants": [
+                        [
+                            "General feat",
+                            ",",
+                            "general feat"
+                        ],
+                        [
+                            " skill increase",
+                            "",
+                            "skill increase"
+                        ]
+                    ]
+                },
+                {
+                    "level": 8,
+                    "grants": [
+                        [
+                            "Class feat",
+                            ",",
+                            "class feat"
+                        ],
+                        [
+                            " choice of 6 (2 shared / 2 bio / 2 chrome)",
+                            ",",
+                            null
+                        ],
+                        [
+                            " skill feat",
+                            "",
+                            "skill feat"
+                        ]
+                    ]
+                },
+                {
+                    "level": 9,
+                    "grants": [
+                        [
+                            "Ancestry feat",
+                            ",",
+                            "ancestry feat"
+                        ],
+                        [
+                            " skill increase",
+                            "",
+                            "skill increase"
+                        ]
+                    ]
+                },
+                {
+                    "level": 10,
+                    "grants": [
+                        [
+                            "Class feat",
+                            ",",
+                            "class feat"
+                        ],
+                        [
+                            " choice of 6 (2 shared / 2 bio / 2 chrome)",
+                            ",",
+                            null
+                        ],
+                        [
+                            " skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " ability boosts",
+                            ",",
+                            "ability boosts"
+                        ],
+                        [
+                            " plus your subclass's <b>Minor Capstone</b> — see §07.",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 11,
+                    "grants": [
+                        [
+                            "General feat",
+                            ",",
+                            "general feat"
+                        ],
+                        [
+                            " skill increase",
+                            "",
+                            "skill increase"
+                        ]
+                    ]
+                },
+                {
+                    "level": 12,
+                    "grants": [
+                        [
+                            "Class feat",
+                            ",",
+                            "class feat"
+                        ],
+                        [
+                            " choice of 6 (2 shared / 2 bio / 2 chrome)",
+                            ",",
+                            null
+                        ],
+                        [
+                            " skill feat",
+                            "",
+                            "skill feat"
+                        ]
+                    ]
+                },
+                {
+                    "level": 13,
+                    "grants": [
+                        [
+                            "Ancestry feat",
+                            ",",
+                            "ancestry feat"
+                        ],
+                        [
+                            " skill increase",
+                            "",
+                            "skill increase"
+                        ]
+                    ]
+                },
+                {
+                    "level": 14,
+                    "grants": [
+                        [
+                            "Class feat",
+                            ",",
+                            "class feat"
+                        ],
+                        [
+                            " choice of 6 (2 shared / 2 bio / 2 chrome)",
+                            ",",
+                            null
+                        ],
+                        [
+                            " skill feat",
+                            "",
+                            "skill feat"
+                        ]
+                    ]
+                },
+                {
+                    "level": 15,
+                    "grants": [
+                        [
+                            "General feat",
+                            ",",
+                            "general feat"
+                        ],
+                        [
+                            " skill increase",
+                            ",",
+                            "skill increase"
+                        ],
+                        [
+                            " ability boosts",
+                            "",
+                            "ability boosts"
+                        ]
+                    ]
+                },
+                {
+                    "level": 16,
+                    "grants": [
+                        [
+                            "Class feat",
+                            ",",
+                            "class feat"
+                        ],
+                        [
+                            " choice of 6 (2 shared / 2 bio / 2 chrome)",
+                            ",",
+                            null
+                        ],
+                        [
+                            " skill feat",
+                            "",
+                            "skill feat"
+                        ]
+                    ]
+                },
+                {
+                    "level": 17,
+                    "grants": [
+                        [
+                            "Ancestry feat",
+                            ",",
+                            "ancestry feat"
+                        ],
+                        [
+                            " skill increase",
+                            "",
+                            "skill increase"
+                        ]
+                    ]
+                },
+                {
+                    "level": 18,
+                    "grants": [
+                        [
+                            "Class feat",
+                            ",",
+                            "class feat"
+                        ],
+                        [
+                            " choice of 6 (2 shared / 2 bio / 2 chrome)",
+                            ",",
+                            null
+                        ],
+                        [
+                            " skill feat",
+                            "",
+                            "skill feat"
+                        ]
+                    ]
+                },
+                {
+                    "level": 19,
+                    "grants": [
+                        [
+                            "General feat",
+                            ",",
+                            "general feat"
+                        ],
+                        [
+                            " skill increase",
+                            "",
+                            "skill increase"
+                        ]
+                    ]
+                },
+                {
+                    "level": 20,
+                    "grants": [
+                        [
+                            "Class feat",
+                            ",",
+                            "class feat"
+                        ],
+                        [
+                            " choice of 6 (2 shared / 2 bio / 2 chrome)",
+                            ",",
+                            null
+                        ],
+                        [
+                            " skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " ability boosts",
+                            ",",
+                            "ability boosts"
+                        ],
+                        [
+                            " plus your subclass's <b>Major Capstone</b> — see §07.",
+                            "",
+                            null
+                        ]
+                    ]
+                }
+            ]
+        }
+    }
+}

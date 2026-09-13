@@ -1,0 +1,58 @@
+{
+    "name": "Effect: Warding Hymnkin",
+    "type": "effect",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "description": {
+            "value": "<p><em>Applied by <strong>Warding Hymnkin</strong> to each affected ally.</em></p>\n<hr />\n<p>Learned to push the hymn outward instead of just hearing it — a rare, unsettling gift for briefly steadying someone else's nerves with your own.</p><p><b>Effect —</b> Once per day, grant one adjacent ally a bonus to their next save against a fear or despair effect by humming the hymn where they can hear it.</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "minutes",
+            "value": 1
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "saving-throw",
+                "type": "circumstance",
+                "value": 1,
+                "predicate": [
+                    {
+                        "or": [
+                            "item:trait:fear",
+                            "item:trait:emotion"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "value": []
+        },
+        "slug": "warding-hymnkin-effect"
+    },
+    "_id": "XKhNrzLNH9cA3jjw",
+    "flags": {
+        "cinderfall": {
+            "effectOf": "heritages.warding-hymnkin",
+            "landsOn": "ally"
+        }
+    }
+}

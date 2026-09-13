@@ -1,0 +1,61 @@
+{
+    "name": "Effect: The Long Change",
+    "type": "effect",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "description": {
+            "value": "<p><em>Applied by <strong>The Long Change</strong> to the character who used it.</em></p>\n<hr />\n<p>For 10 minutes, +3 status bonus to two physical skills, resistance 5 to physical damage, and a natural weapon (2d6). The Bloom risk is rolled twice, taking the worse result if either roll comes up bad (Bloom risk uses the class's Bloom-check mechanic, not a standard save).</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "minutes",
+            "value": 10
+        },
+        "level": {
+            "value": 11
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "Resistance",
+                "type": "physical",
+                "value": 5
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "athletics",
+                "type": "status",
+                "value": 3
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "acrobatics",
+                "type": "status",
+                "value": 3
+            }
+        ],
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "value": []
+        },
+        "slug": "the-long-change-effect"
+    },
+    "_id": "m42X0cjtiqHxX0Cx",
+    "flags": {
+        "cinderfall": {
+            "effectOf": "fleshmancer.the-long-change",
+            "landsOn": "self"
+        }
+    }
+}

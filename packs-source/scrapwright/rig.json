@@ -1,0 +1,63 @@
+{
+    "name": "Choose Your Rig",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
+        "description": {
+            "value": "<p><em>Choose Your Rig</em></p><p>Choose one: Ghost-Rig, Iron Lung, Widowmaker.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "ChoiceSet",
+                "adjustName": false,
+                "flag": "rig",
+                "prompt": "Choose Your Rig",
+                "choices": {
+                    "filter": [
+                        "item:tag:scrapwright-rig"
+                    ]
+                }
+            },
+            {
+                "key": "GrantItem",
+                "uuid": "{item|flags.system.rulesSelections.rig}"
+            }
+        ],
+        "traits": {
+            "otherTags": [],
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "rig"
+    },
+    "_id": "nvOfa4whg1HaDl7e",
+    "flags": {
+        "cinderfall": {
+            "subclassOf": "scrapwright",
+            "subclassLayer": "rig",
+            "grants": [
+                "scrapwright.ghost-rig",
+                "scrapwright.iron-lung",
+                "scrapwright.widowmaker"
+            ]
+        }
+    }
+}

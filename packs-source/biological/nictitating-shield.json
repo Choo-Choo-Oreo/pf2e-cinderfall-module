@@ -1,0 +1,75 @@
+{
+    "name": "Nictitating Shield",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>A cultured third eyelid that closes faster than a blink. +1 item bonus to saves against visual effects (dazzled, blinded, glare, gaze, visual illusions); you see clearly underwater, in blowing dust, and through smoke.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 5
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "mk": 160
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "saving-throw",
+                "type": "item",
+                "value": 1,
+                "predicate": [
+                    "item:trait:visual"
+                ]
+            }
+        ],
+        "size": "med",
+        "traits": {
+            "rarity": "uncommon",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "nictitating-shield"
+    },
+    "_id": "zE7GKm7qK3keqVV5",
+    "flags": {
+        "cinderfall": {
+            "augmentKind": "biological",
+            "augmentType": "graft",
+            "tier": "uncommon",
+            "slots": [
+                "Ocular"
+            ],
+            "slotCost": 1,
+            "grade": 2,
+            "availability": "Cultured",
+            "level": 5,
+            "load": "+0",
+            "resonance": "+1"
+        }
+    }
+}

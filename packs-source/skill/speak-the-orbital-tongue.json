@@ -1,0 +1,41 @@
+{
+    "name": "Speak the Orbital Tongue",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "skill",
+        "description": {
+            "value": "<p>You've studied the Orbital AI's fragments long enough to construct fragments of its own dead syntax. Once per day, you can attempt to Decipher Writing on or directly Request information from any surviving fragment of the Orbital AI's old network, treating your proficiency rank as one step higher for that attempt alone.</p>"
+        },
+        "level": {
+            "value": 18
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Legendary in Occultism"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "speak-the-orbital-tongue"
+    },
+    "_id": "dLbUszSP2C3wAfRM",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Same problem as Envoy of the Free Havens: 'treating your proficiency rank as one step higher for that attempt alone' has no confirmed rule-element shape -- the real ActiveEffectLike upgrade path for proficiency rank is a permanent change, not scoped to a single once-per-day check."
+        }
+    }
+}

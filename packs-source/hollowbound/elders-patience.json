@@ -33,5 +33,10 @@
         },
         "slug": "elders-patience"
     },
-    "_id": "CHcY7yPqQPCvvdup"
+    "_id": "CHcY7yPqQPCvvdup",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The frequency-doubling clause needs \"The Long View\" (a Long-Shadow covenant ability) to exist as its own card with a trackable frequency -- it has none; it is flavor text only inside long-shadow-covenant.json's description, itself SKIP for the same reason. This grants a different creature use of, or a piggyback on, this actor's own resource/ability. No selector or rule element exists anywhere in pf2e-source for letting a different creature use this actor's own class feature for free -- confirmed corpus-wide this pass."
+        }
+    }
 }

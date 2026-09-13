@@ -1,0 +1,46 @@
+{
+    "name": "Both Hands Working",
+    "type": "capstone",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p>Ten years of firing two guns at once and the off hand has stopped being the second one. Your hands no longer take turns — they simply both work, and the penalty for splitting your attention between them is gone for good. A Gun Failure on one weapon has never once made you stop, and now it does not even slow you down: the other hand covers the gap in the same motion that clears the jam.</p>"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "otherTags": [
+                "ironsight-twin-iron"
+            ],
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "twin-iron-minor"
+    },
+    "_id": "aGFZo84qkNL7UOx7",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Zero-number flavor text for a Draw's Minor/Major Capstone grant point named in classes.ironsight.json's own progression table. States no number, DC, duration, or selector of any kind -- a real content gap, not a search failure.",
+            "track": "twin-iron"
+        }
+    }
+}

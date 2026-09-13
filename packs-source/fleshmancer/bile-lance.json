@@ -81,10 +81,7 @@
     "flags": {
         "cinderfall": {
             "vitaeCost": 1,
-            "mk": "Mk I",
-            "inferred": [
-                "system.range"
-            ]
+            "mk": "Mk I"
         }
     }
 }

@@ -1,0 +1,43 @@
+{
+    "name": "Community Anchor",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "ancestry",
+        "description": {
+            "value": "<p>Combine-Bred's bonus to Fortitude against fear now extends to any ally within reach, not just yourself.</p>"
+        },
+        "level": {
+            "value": 9
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Combine-Bred"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "human"
+            ]
+        },
+        "slug": "community-anchor"
+    },
+    "_id": "T4APcWkv4sLA3oub",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "This affects another creature's own roll, HP, or condition from the card holder's passive/item, which has no rule-element hook in real pf2e. (extending Combine-Bred's Fortitude bonus to allies within reach.)"
+        }
+    }
+}

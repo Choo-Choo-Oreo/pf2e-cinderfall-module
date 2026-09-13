@@ -1,0 +1,55 @@
+{
+    "name": "The Failure Point",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>You identify the exact point at which the target is going to fail — a DC and a flat, always-true description, no matter how much the GM would rather it weren't.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": ""
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "1 object, structure, or stated plan"
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [],
+            "value": [
+                "focus",
+                "reckoner"
+            ]
+        },
+        "slug": "the-failure-point"
+    },
+    "_id": "TTBTXu55bJQwCxUz",
+    "flags": {
+        "cinderfall": {
+            "signatureSpellOf": "reckoner.long-arithmetic"
+        }
+    }
+}

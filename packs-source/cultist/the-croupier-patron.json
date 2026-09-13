@@ -1,32 +1,15 @@
 {
-    "_id": "wWVzILZ7e08YBkT3",
-    "categories": [],
     "name": "The Croupier",
-    "ownership": {
-        "default": 0
+    "type": "lore",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "description": {
+            "value": "<p>Nobody knows what The Croupier looked like before it slipped through. What's left is an idea wearing whatever shape is handy — a dealer's visor made of static, a stack of chips that's really teeth. It runs games nobody remembers agreeing to enter, and it never, ever cheats. It doesn't need to. It just tells you the odds, exactly and honestly, and lets the wasteland do the rest.</p><p>Cults to the Croupier gather wherever fortune already runs thin — casinos gutted by the Turning, scrap-auction rings, dueling pits. It rewards audacity and punishes hesitation in equal, scrupulous measure.</p>"
+        },
+        "slug": "the-croupier-patron"
     },
-    "pages": [
-        {
-            "_id": "wCp0mp61jt98FC6b",
-            "category": null,
-            "image": {},
-            "name": "The Croupier",
-            "sort": 100000,
-            "src": null,
-            "system": {},
-            "text": {
-                "content": "<p><em>Chance · Reversal · Cruel Fairness</em></p>      <p class=\"cc-desc\">Nobody knows what The Croupier looked like before it slipped through. What's left is an idea wearing whatever shape is handy — a dealer's visor made of static, a stack of chips that's really teeth. It runs games nobody remembers agreeing to enter, and it never, ever cheats. It doesn't need to. It just tells you the odds, exactly and honestly, and lets the wasteland do the rest.</p>\n      <p class=\"cc-desc\">Cults to the Croupier gather wherever fortune already runs thin — casinos gutted by the Turning, scrap-auction rings, dueling pits. It rewards audacity and punishes hesitation in equal, scrupulous measure.</p>",
-                "format": 1
-            },
-            "title": {
-                "level": 1,
-                "show": true
-            },
-            "type": "text",
-            "video": {
-                "controls": true,
-                "volume": 0.5
-            }
-        }
-    ]
+    "_id": "wWVzILZ7e08YBkT3",
+    "flags": {
+        "cinderfall": {}
+    }
 }

@@ -1,0 +1,68 @@
+{
+    "name": "One Gun, Many Grudges",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
+        "description": {
+            "value": "<span class=\"sdesc\">Reconfigure damage type once per day among a small starting list (fire/acid/electricity/cold); carries one bonus weapon trait baked in (reach/backswing/versatile).</span>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "ChoiceSet",
+                "flag": "widowmakerWeapon",
+                "prompt": "Choose Your Widowmaker",
+                "choices": {
+                    "ownedItems": true,
+                    "types": [
+                        "weapon"
+                    ]
+                }
+            },
+            {
+                "key": "MartialProficiency",
+                "kind": "attack",
+                "slug": "widowmaker-weapon",
+                "label": "Widowmaker",
+                "definition": [
+                    "item:id:{item|flags.system.rulesSelections.widowmakerWeapon}"
+                ],
+                "value": 1
+            }
+        ],
+        "traits": {
+            "otherTags": [],
+            "rarity": "common",
+            "value": [
+                "scrapwright"
+            ]
+        },
+        "slug": "one-gun-many-grudges"
+    },
+    "_id": "yEr95GdgeJcIRrAC",
+    "flags": {
+        "cinderfall": {
+            "spellTag": "Mk I · 1st",
+            "ghostRigTier": "Mk I",
+            "grantedAtLevel": 1,
+            "notSpell": "scrapwright's class document carries system.spellcasting 0, so this is an ability, not a spell, and convert_class_spells.py declines it by design as a NON_CASTERS owner"
+        }
+    }
+}

@@ -1,0 +1,81 @@
+{
+    "name": "Oracle Eye",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>+3 item bonus to Perception (initiative included). 1/hour, glimpse ~6 seconds ahead: reroll one attack, save, or skill check you just made and take the better.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 18
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "gp": 35000
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "perception",
+                "type": "item",
+                "value": 3
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "initiative",
+                "type": "item",
+                "value": 3
+            }
+        ],
+        "size": "med",
+        "traits": {
+            "rarity": "legendary",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "oracle-eye"
+    },
+    "_id": "7GynGwMvLxjTgDoy",
+    "flags": {
+        "cinderfall": {
+            "augmentKind": "cybernetic",
+            "augmentType": "implant",
+            "tier": "legendary",
+            "slots": [
+                "Ocular"
+            ],
+            "slotCost": 1,
+            "grade": 5,
+            "availability": "Black Market",
+            "level": 18,
+            "drift": "+3",
+            "augTags": [
+                "apex",
+                "soul-tech"
+            ]
+        }
+    }
+}

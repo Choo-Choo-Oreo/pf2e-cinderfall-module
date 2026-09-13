@@ -1,0 +1,72 @@
+{
+    "name": "Second Heart",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>A redundant heart, grafted low in the chest. +2 item bonus to Fortitude saves. Your dying value increases by 1 before you die (you die at dying 5, not 4). Once per day, when you would be reduced to 0 Hit Points, you are reduced to 1 instead.</p><p><b>Donor:</b> The donor's heart is keeping you alive. At Resonance 6+ it beats to someone else's fear, not yours — the GM decides when that matters.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 13
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "mk": 3250
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "fortitude",
+                "type": "item",
+                "value": 2
+            }
+        ],
+        "size": "med",
+        "traits": {
+            "rarity": "epic",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "second-heart"
+    },
+    "_id": "5I2v1V70fjC0TUdx",
+    "flags": {
+        "cinderfall": {
+            "augmentKind": "biological",
+            "augmentType": "graft",
+            "tier": "epic",
+            "slots": [
+                "Circulatory"
+            ],
+            "slotCost": 1,
+            "grade": 4,
+            "availability": "Grafted",
+            "level": 13,
+            "load": "+2",
+            "resonance": "+3"
+        }
+    }
+}

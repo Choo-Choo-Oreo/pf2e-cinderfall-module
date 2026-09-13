@@ -1,0 +1,72 @@
+{
+    "name": "Suppression Protocol",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "ancestryfeature",
+        "description": {
+            "value": "<p>Resistance to fear and emotion effects — and a harder time reading as sincere to ordinary humans at a glance.</p>"
+        },
+        "level": {
+            "value": 0
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "saving-throw",
+                "type": "circumstance",
+                "value": 1,
+                "predicate": [
+                    {
+                        "or": [
+                            "item:trait:fear",
+                            "item:trait:emotion"
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "RollOption",
+                "option": "suppression-protocol-sincerity",
+                "toggleable": true,
+                "label": "Trying to read as sincere to an ordinary human"
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "deception",
+                "type": "circumstance",
+                "value": -1,
+                "predicate": [
+                    "suppression-protocol-sincerity",
+                    {
+                        "nor": [
+                            "companion-line"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "old-world-construct"
+            ]
+        },
+        "slug": "suppression-protocol"
+    },
+    "_id": "2P6qf8ESy6uwwy4a"
+}

@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "paradise-touched-archive"
+            ],
             "rarity": "common",
             "value": [
                 "paradise-touched"
@@ -33,5 +36,11 @@
         },
         "slug": "the-index-itself"
     },
-    "_id": "ZLGVZxEqZDyJyL5B"
+    "_id": "ZLGVZxEqZDyJyL5B",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Once/hour, cost 1 Bandwidth: attempt the triggering Recall Knowledge check with legendary proficiency and your Intelligence modifier, regardless of normal skill/proficiency. A same-skill, same-ability proficiency-rank bump alone would be buildable via `ActiveEffectLike` `mode:\"upgrade\"` on `system.skills.<slug>.rank` (the technique used for The Whole Shelf), but this card additionally swaps which ability score applies ('regardless of the skill it would normally use,' using Int instead) -- no rule element in `pf2e-source/src/module/rules/rule-element/` overrides which ability modifies an existing skill statistic, and none was found for this shape. Stacked with the Bandwidth cost. No `SpecialResource` rule element exists anywhere in the corpus for Bandwidth -- confirmed corpus-wide (`grep -rl \"\\\"key\\\": \\\"SpecialResource\\\"\" site/data/cards/` returns zero hits), and the class card itself (`site/data/cards/classes/classes.paradise-touched.json:49`) ships `system.rules: []`. Same absence class as Cultist Zeal/Ironsight Drift/Fleshmancer Vitae.",
+            "track": "archive"
+        }
+    }
 }

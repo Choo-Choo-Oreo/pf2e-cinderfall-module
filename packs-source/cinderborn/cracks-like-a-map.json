@@ -1,0 +1,39 @@
+{
+    "name": "Cracks Like a Map",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "ancestry",
+        "description": {
+            "value": "<p>Bonus to Deception checks made specifically to bluff about your own condition or injuries — the cracks lie about how bad it really is, if you let them.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "cinderborn"
+            ]
+        },
+        "slug": "cracks-like-a-map"
+    },
+    "_id": "Mq6pVmALmRdbLWLh",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "'Bonus to Deception checks made specifically to bluff about your own condition or injuries' narrows past the real 'action:lie' tag with no further engine hook, and states no value. The card states a bonus/effect but gives no numeric value or formula to build a rule element from without inventing one."
+        }
+    }
+}

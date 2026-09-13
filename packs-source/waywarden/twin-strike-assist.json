@@ -33,5 +33,10 @@
         },
         "slug": "twin-strike-assist"
     },
-    "_id": "sZ1yo1ZqGOnQHxGl"
+    "_id": "sZ1yo1ZqGOnQHxGl",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Even setting the cross-creature sourcing aside, the predicate needed is a three-way relation (\"my companion can currently see my target\") — no roll option expresses a second creature's line of sight to a third creature. This effect buffs, protects, or grants actions to the Feral Bond (the companion beast) from the holder's own card. No rule-element selector in pf2e-source lets one actor's item grant a stat bonus, temp HP, an extra action, or a shared sense to a different actor's sheet -- confirmed by spot-checking real pf2e's own fully-built Animal Companion subsystem (Ranger/Druid), where virtually every companion-buff/companion-action-economy feat ships with rules: [] too."
+        }
+    }
 }

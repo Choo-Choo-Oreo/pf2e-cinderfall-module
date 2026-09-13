@@ -1,0 +1,43 @@
+{
+    "name": "Radiant Mastery",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "ancestry",
+        "description": {
+            "value": "<p>The Fortitude bonus from Radiant Ward becomes a stacking resistance alongside Radiation Resistance.</p>"
+        },
+        "level": {
+            "value": 9
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Radiant Ward"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "glassblood"
+            ]
+        },
+        "slug": "radiant-mastery"
+    },
+    "_id": "Vtq02UonCbspjYLT",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Upgrades Radiant Ward, itself unbuildable (no predicate exists for 'radiation-based hazards and attacks' as a saving-throw gate)."
+        }
+    }
+}

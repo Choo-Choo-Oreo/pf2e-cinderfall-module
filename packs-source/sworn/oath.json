@@ -1,0 +1,63 @@
+{
+    "name": "The Oath",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
+        "description": {
+            "value": "<p><em>The Oath</em></p><p>Choose one: The Binding Clause, The Cinder Vow, The Unwritten Oath.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "ChoiceSet",
+                "adjustName": false,
+                "flag": "oath",
+                "prompt": "The Oath",
+                "choices": {
+                    "filter": [
+                        "item:tag:sworn-oath"
+                    ]
+                }
+            },
+            {
+                "key": "GrantItem",
+                "uuid": "{item|flags.system.rulesSelections.oath}"
+            }
+        ],
+        "traits": {
+            "otherTags": [],
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "oath"
+    },
+    "_id": "dzEO4toerusjUcrD",
+    "flags": {
+        "cinderfall": {
+            "subclassOf": "sworn",
+            "subclassLayer": "oath",
+            "grants": [
+                "sworn.the-binding-clause",
+                "sworn.the-cinder-vow",
+                "sworn.the-unwritten-oath"
+            ]
+        }
+    }
+}

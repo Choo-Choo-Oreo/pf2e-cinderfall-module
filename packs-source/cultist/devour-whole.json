@@ -1,0 +1,45 @@
+{
+    "name": "Devour Whole",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 2
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Cost</strong> 3 Zeal</p><p><strong>Range</strong> 30 feet</p><p><strong>Targets</strong> 1 creature</p><p><strong>Frequency</strong> once per day</p><p><strong>Saving Throw</strong> Fortitude</p><hr /><p>The target attempts a Fortitude save against your class DC. On a failure, it takes 9d6 negative damage and is <em>drained 2</em> (also <em>enfeebled 1</em> until the drained condition is fully removed, on a critical failure). You gain temporary Hit Points equal to the damage dealt, lasting 1 minute, either way; on a success, it takes half damage, you gain half the temporary Hit Points, and it isn't drained.</p>"
+        },
+        "level": {
+            "value": 18
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "otherTags": [
+                "cultist-gluttoneth"
+            ],
+            "rarity": "common",
+            "value": [
+                "cultist"
+            ]
+        },
+        "slug": "devour-whole"
+    },
+    "_id": "dSuAkFjw7fAqfh9a",
+    "flags": {
+        "cinderfall": {
+            "track": "gluttoneth"
+        }
+    }
+}

@@ -33,5 +33,10 @@
         },
         "slug": "quiet-the-donor"
     },
-    "_id": "yM7Xz0atfopoW5mw"
+    "_id": "yM7Xz0atfopoW5mw",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "P-BUCKET3 stacked on BAND-GAP (Resonance/donor mechanic unmodeled)."
+        }
+    }
 }

@@ -1,0 +1,39 @@
+{
+    "name": "Wreckage Runner",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "skill",
+        "description": {
+            "value": "<p>Move at full Speed across unstable rubble and debris fields, ignoring the usual difficult-terrain penalty.</p>"
+        },
+        "level": {
+            "value": 6
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Expert in Acrobatics"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "wreckage-runner"
+    },
+    "_id": "oBfalM68uNRfUQuR",
+    "flags": {
+        "cinderfall": {}
+    }
+}

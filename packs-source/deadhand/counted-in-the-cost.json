@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "deadhand-bulwark"
+            ],
             "rarity": "common",
             "value": [
                 "deadhand"
@@ -33,5 +36,11 @@
         },
         "slug": "counted-in-the-cost"
     },
-    "_id": "EfvC5mamm7ndbGni"
+    "_id": "EfvC5mamm7ndbGni",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Gain 1 Tally per redirected-and-landed attack, max 3/encounter. Deadhand's Tally is entirely homebrew with zero schema footprint anywhere in this corpus.",
+            "track": "bulwark"
+        }
+    }
 }

@@ -1,0 +1,68 @@
+{
+    "name": "Every Gun You'll Ever Need",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
+        "description": {
+            "value": "<span class=\"sdesc\">There is no gun left that can teach you anything. Your proficiency ranks for simple weapons, martial weapons, unarmed attacks, and advanced firearms &amp; crossbows increase to legendary.</span>"
+        },
+        "level": {
+            "value": 17
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "system.proficiencies.attacks.simple.rank",
+                "value": 4
+            },
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "system.proficiencies.attacks.martial.rank",
+                "value": 4
+            },
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "system.proficiencies.attacks.unarmed.rank",
+                "value": 4
+            },
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "system.proficiencies.attacks.advanced-firearms-crossbows.rank",
+                "value": 4
+            }
+        ],
+        "traits": {
+            "otherTags": [],
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "every-gun-youll-ever-need"
+    },
+    "_id": "J4C1SdQeanR4Xorv",
+    "flags": {
+        "cinderfall": {
+            "grantedAtLevel": 17
+        }
+    }
+}

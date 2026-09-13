@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "ironsight-long-iron"
+            ],
             "rarity": "common",
             "value": [
                 "ironsight"
@@ -33,5 +36,11 @@
         },
         "slug": "the-shot-arrives-first"
     },
-    "_id": "k2tXjIaSiE3Bc4k3"
+    "_id": "k2tXjIaSiE3Bc4k3",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "overall — the range-ignoring clause would likely be REAL via AdjustStrike (mode: \"override\"), same mechanism as long-iron-discipline above, but the \"target hasn't acted yet this encounter\" off-guard clause has no confirmed roll option to predicate on, and the stealth clause has no selector at all. Flagged as a partial-REAL candidate on the range clause alone, net INCOMPLETE.",
+            "track": "long-iron"
+        }
+    }
 }

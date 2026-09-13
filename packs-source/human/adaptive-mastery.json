@@ -1,0 +1,43 @@
+{
+    "name": "Adaptive Mastery",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "ancestry",
+        "description": {
+            "value": "<p>Generalist's Edge and Jack of All Trades can grant trained status in two different untrained skills simultaneously per use.</p>"
+        },
+        "level": {
+            "value": 13
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Jack of All Trades"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "human"
+            ]
+        },
+        "slug": "adaptive-mastery"
+    },
+    "_id": "Xq7KK1vXX7f0lZdE",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Granting temporary trained status in two skills at once has the same no-hook problem as Generalist's Edge (see below) -- there is no rule element for a temporary, per-check proficiency grant."
+        }
+    }
+}

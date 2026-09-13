@@ -24,8 +24,16 @@
             "remaster": true,
             "title": "Cinderfall"
         },
-        "rules": [],
+        "rules": [
+            {
+                "key": "GrantItem",
+                "uuid": "Compendium.<pack-id>.<pack>.Item.paradise-touched.congregation-permanent"
+            }
+        ],
         "traits": {
+            "otherTags": [
+                "paradise-touched-chorus"
+            ],
             "rarity": "common",
             "value": [
                 "paradise-touched"
@@ -33,5 +41,11 @@
         },
         "slug": "full-chorus"
     },
-    "_id": "aGhJjMACZMcMG6Op"
+    "_id": "aGhJjMACZMcMG6Op",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Open question, not silently picked: the card text says 'gain Congregation,' but there are two candidate targets in this file set -- the 14th-level feat `congregation-permanent` (permanent, non-focus) and the 15th-level Chorus Glimpse spell `congregation` (focus, 3 Bandwidth, matches 'costs Bandwidth exactly as a Chorus Warden' far more literally). The spell `congregation` is the more likely intended target given the explicit Bandwidth-cost-parity clause, but the card doesn't disambiguate; the `GrantItem` UUID above targets `congregation-permanent` as a placeholder pending owner confirmation, and would need correcting to point at the spell instead if that reading is right. The Bandwidth-cost-parity clause itself is moot only if the target is the focus spell (Bandwidth otherwise has no `SpecialResource` representation in the corpus at all).",
+            "track": "chorus"
+        }
+    }
 }

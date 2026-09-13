@@ -27,5 +27,10 @@
         },
         "slug": "the-frame-that-wont-quit"
     },
-    "_id": "1scO5DwMwIQazkOR"
+    "_id": "1scO5DwMwIQazkOR",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Bucket 3 -- but an unusually strong precedent match: pf2e-source/packs/pf2e/feats/ancestry/orc/level-1/orc-ferocity.json is the exact same mechanic (once/day, reduced-to-0-but-not-killed -> stay at 1 HP) and real pf2e ships it with rules: []. That is evidence of a genuine, standing content gap in real pf2e itself, not license to SKIP. [REDLINE-NO-SCHEMA] for the \"full Slippage\" cost, independently."
+        }
+    }
 }

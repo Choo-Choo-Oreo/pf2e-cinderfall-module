@@ -24,7 +24,35 @@
             "remaster": true,
             "title": "Cinderfall"
         },
-        "rules": [],
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "attack",
+                "type": "circumstance",
+                "value": 1,
+                "predicate": [
+                    "target:mark:marked-witness"
+                ]
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "spell-attack",
+                "type": "circumstance",
+                "value": 1,
+                "predicate": [
+                    "target:mark:marked-witness"
+                ]
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "skill-check",
+                "type": "circumstance",
+                "value": 1,
+                "predicate": [
+                    "target:mark:marked-witness"
+                ]
+            }
+        ],
         "traits": {
             "rarity": "common",
             "value": [

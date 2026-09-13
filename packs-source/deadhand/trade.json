@@ -1,0 +1,64 @@
+{
+    "name": "Choose Your Trade",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
+        "description": {
+            "value": "<p><em>Choose Your Trade</em></p><p>Choose one: Breaker, Bulwark, Cadre, Second.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "ChoiceSet",
+                "adjustName": false,
+                "flag": "trade",
+                "prompt": "Choose Your Trade",
+                "choices": {
+                    "filter": [
+                        "item:tag:deadhand-trade"
+                    ]
+                }
+            },
+            {
+                "key": "GrantItem",
+                "uuid": "{item|flags.system.rulesSelections.trade}"
+            }
+        ],
+        "traits": {
+            "otherTags": [],
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "trade"
+    },
+    "_id": "rGFuXUQLqW6KQNzA",
+    "flags": {
+        "cinderfall": {
+            "subclassOf": "deadhand",
+            "subclassLayer": "trade",
+            "grants": [
+                "deadhand.breaker",
+                "deadhand.bulwark",
+                "deadhand.cadre",
+                "deadhand.second"
+            ]
+        }
+    }
+}

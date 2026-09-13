@@ -1,46 +1,35 @@
 {
     "name": "Binding Chain",
-    "type": "spell",
+    "type": "feat",
     "img": "icons/svg/mystery-man.svg",
     "system": {
-        "area": null,
-        "cost": {
-            "value": ""
+        "actionType": {
+            "value": "passive"
         },
-        "counteraction": false,
-        "damage": {},
-        "defense": null,
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
         "description": {
-            "value": "<p><strong>Frequency</strong> 2/day (+1 at 5th, 9th, 13th, 17th)</p><p><strong>Trigger</strong> a Named creature within 30 feet is reduced to 0 Hit Points or otherwise defeated</p><hr /><p>Instead of letting the Named creature go wherever the unhoused dead go, you bind it as a servant-spirit — soul-economy salvage instead of an exorcism, mechanically similar to the Soul-Binder archetype's Dedication effect.</p>"
-        },
-        "duration": {
-            "sustained": false,
-            "value": "permanent"
+            "value": "<p>Consecrated wire-chain stripped from a decommissioned soul-battery harness and retrofitted for capture instead of containment failure. The setting's soul economy runs on exactly this kind of salvage — you just do it to things still screaming.</p><hr /><p><strong>SIGNATURE —</strong> reaction when a Named creature within 30 feet drops to 0 HP or is otherwise defeated; instead of losing it, you bind it permanently into the Chain as a servant-spirit — no roll.</p>"
         },
         "level": {
             "value": 1
+        },
+        "prerequisites": {
+            "value": []
         },
         "publication": {
             "license": "ORC",
             "remaster": true,
             "title": "Cinderfall"
         },
-        "range": {
-            "value": "30 feet"
-        },
-        "requirements": "",
         "rules": [],
-        "target": {
-            "value": "the triggering creature"
-        },
-        "time": {
-            "value": "reaction"
-        },
         "traits": {
-            "rarity": "common",
-            "traditions": [
-                "occult"
+            "otherTags": [
+                "wardbreaker-ward"
             ],
+            "rarity": "common",
             "value": [
                 "wardbreaker"
             ]
@@ -51,7 +40,12 @@
     "flags": {
         "cinderfall": {
             "spellTag": "Innate · Reaction",
-            "listing": "Break the Anchor, by Ward"
+            "listing": "Break the Anchor, by Ward",
+            "subclassOf": "wardbreaker",
+            "subclassChoice": "Choose Your Ward",
+            "role": "Re-Bind, Don't Destroy",
+            "followUp": "signature spell 'Binding Chain' is record wardbreaker.binding-chain-spell; the card renders on spells-abilities.html as a spell-entry and its statline/body are authored above",
+            "subclassLayer": "ward"
         }
     }
 }

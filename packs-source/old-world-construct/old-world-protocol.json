@@ -1,0 +1,43 @@
+{
+    "name": "Old-World Protocol",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "ancestry",
+        "description": {
+            "value": "<p>Bonus to Society or Crafting checks (choose at creation) involving pre-Turning technology and systems specifically.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Full Diagnostic"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "old-world-construct"
+            ]
+        },
+        "slug": "old-world-protocol"
+    },
+    "_id": "kXRNWjFMiHXiqOo1",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Recall-Knowledge-about-a-specific-lore-topic bonuses have no predicate hook -- confirmed via liminal-catfolk.json's real but trait-scoped precedent; a free-text lore topic like this one can't be targeted. ('Society or Crafting checks... involving pre-Turning technology and systems specifically' is the same shape, broadened past Recall Knowledge.)"
+        }
+    }
+}

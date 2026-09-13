@@ -1,0 +1,91 @@
+{
+    "name": "Living Armor",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>Self-repairing plate skin. +1 item bonus to AC and resistance 10 physical. Fast Healing 3 while below half HP.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 14
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "gp": 5000
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "ac",
+                "type": "item",
+                "value": 1
+            },
+            {
+                "key": "Resistance",
+                "type": "physical",
+                "value": 10
+            },
+            {
+                "key": "FastHealing",
+                "value": 3,
+                "predicate": [
+                    {
+                        "lt": [
+                            "hp-percent",
+                            50
+                        ]
+                    }
+                ]
+            }
+        ],
+        "size": "med",
+        "traits": {
+            "rarity": "epic",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "living-armor"
+    },
+    "_id": "nRzixz4bWCBKleKN",
+    "flags": {
+        "cinderfall": {
+            "augmentKind": "cybernetic",
+            "augmentType": "implant",
+            "tier": "epic",
+            "slots": [
+                "Dermal"
+            ],
+            "slotCost": 1,
+            "grade": 4,
+            "availability": "Restricted",
+            "level": 14,
+            "drift": "+3",
+            "augTags": [
+                "apex"
+            ]
+        }
+    }
+}

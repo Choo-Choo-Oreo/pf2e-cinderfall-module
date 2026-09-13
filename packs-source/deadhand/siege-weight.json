@@ -24,8 +24,22 @@
             "remaster": true,
             "title": "Cinderfall"
         },
-        "rules": [],
+        "rules": [
+            {
+                "key": "DamageDice",
+                "selector": "strike-damage",
+                "override": {
+                    "upgrade": true
+                },
+                "predicate": [
+                    "target:trait:object"
+                ]
+            }
+        ],
         "traits": {
+            "otherTags": [
+                "deadhand-breaker"
+            ],
             "rarity": "common",
             "value": [
                 "deadhand"
@@ -33,5 +47,11 @@
         },
         "slug": "siege-weight"
     },
-    "_id": "C6Q3hdrmyquM4Rpw"
+    "_id": "C6Q3hdrmyquM4Rpw",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The damage-doubling-vs-objects clause reuses this class's own already-shipped DamageDice override:{upgrade:true} mechanism (deadhand.one-weapon-one-answer.json). The Hardness-ignoring and resistance-ignoring clauses are unbuilt -- no rule-element key lets a Strike bypass a target's own Hardness/resistance value.",
+            "track": "breaker"
+        }
+    }
 }

@@ -25,7 +25,30 @@
             "remaster": true,
             "title": "Cinderfall"
         },
-        "rules": [],
+        "rules": [
+            {
+                "key": "ChoiceSet",
+                "flag": "advancedTrade",
+                "prompt": "Choose Your Deadhand Feat",
+                "choices": {
+                    "itemType": "feat",
+                    "filter": [
+                        "item:category:class",
+                        "item:trait:deadhand",
+                        {
+                            "lte": [
+                                "item:level",
+                                6
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "key": "GrantItem",
+                "uuid": "{item|flags.system.rulesSelections.advancedTrade}"
+            }
+        ],
         "traits": {
             "rarity": "common",
             "value": [
@@ -35,5 +58,10 @@
         },
         "slug": "advanced-trade"
     },
-    "_id": "5SV0mDBdnH0JQ900"
+    "_id": "5SV0mDBdnH0JQ900",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The filter is 'any Deadhand class feat of 6th level or lower' -- matching the real Basic Fury/Advanced Fury precedent (filters only by class trait and level); the narrower named-list and Trade-restriction text is unenforced here exactly as the analogous restriction is unenforced in the real feat."
+        }
+    }
 }

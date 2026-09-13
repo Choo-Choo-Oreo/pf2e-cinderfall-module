@@ -33,5 +33,10 @@
         },
         "slug": "weathered-growth"
     },
-    "_id": "9qBMvP0bv0tJjWUc"
+    "_id": "9qBMvP0bv0tJjWUc",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "BAND-GAP."
+        }
+    }
 }

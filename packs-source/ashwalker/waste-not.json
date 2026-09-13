@@ -1,0 +1,43 @@
+{
+    "name": "Waste Not",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "ancestry",
+        "description": {
+            "value": "<p>Extract a usable ration or minor crafting component from scraps others would discard; reduces the cost of Crafting checks for improvised gear.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Iron Stomach"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ashwalker"
+            ]
+        },
+        "slug": "waste-not"
+    },
+    "_id": "An7SP61v8TQd4bfu",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "'Reduces the cost of Crafting checks' and 'extract a usable ration' state no numeric discount or DC, and pf2e has no rule element for reducing an item's Price from a feat. The card states a bonus/effect but gives no numeric value or formula to build a rule element from without inventing one."
+        }
+    }
+}

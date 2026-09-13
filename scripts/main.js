@@ -33,11 +33,183 @@ Hooks.once("init", () => {
     type: String,
     default: "",
   });
+
+  // See "Hiding base PF2e content" below for the full trace. The visible
+  // toggle; default true per the owner's ask -- Cinderfall content only,
+  // unless a GM opts back in.
+  game.settings.register(MODULE_ID, "hideBaseSystemContent", {
+    name: "PF2E-CINDERFALL.Settings.HideBaseContent.Name",
+    hint: "PF2E-CINDERFALL.Settings.HideBaseContent.Hint",
+    scope: "world",
+    config: true,
+    type: Boolean,
+    default: true,
+    onChange: () => applyBaseContentVisibility("onChange"),
+  });
+  // Which (tab, pack collection) pairs THIS module forced to `load: false`
+  // last time, so turning the toggle back off hands back only what we took --
+  // never a GM's own independent choice to hide some other pf2e pack. Same
+  // shape and purpose as the three stamps above.
+  game.settings.register(MODULE_ID, "hiddenBaseContentStamp", {
+    scope: "world",
+    config: false,
+    type: Object,
+    default: {},
+  });
 });
 
 Hooks.once("ready", () => {
   console.log(`${MODULE_ID} | ready`);
 });
+
+/**
+ * Hiding base PF2e content.
+ *
+ * The setting is real and it is pf2e's own: `game.settings.register("pf2e",
+ * "compendiumBrowserPacks", ...)` (`pf2e.mjs`), a world-scoped `{tab:
+ * {packCollectionId: {load, name, package}}}` map. `CompendiumBrowser`
+ * (`pf2e.mjs`, minified as `Gd`) reads it in `initCompendiumList()`: for
+ * every pack the current user has at least LIMITED permission on, for every
+ * one of its SEVEN `dataTabsList` tabs (`action`, `bestiary`,
+ * `campaignFeature`, `equipment`, `feat`, `hazard`, `spell`) the pack's
+ * indexed document types route into, it writes
+ * `{load: stored[tab]?.[collection]?.load !== false, name, package}` --
+ * missing or non-`false` means visible, so an entry has to be written to hide
+ * one. `package` comes from `pack.metadata.packageName`, which is `"pf2e"`
+ * for every pack the base system ships and never that for this module's own.
+ *
+ * **This does not cover ancestries, heritages, backgrounds, classes or
+ * deities.** `dataTabsList` names exactly seven tabs and none of those five
+ * are among them -- there is no per-pack visibility toggle for them anywhere
+ * found in `pf2e.mjs` (checked: no ancestry/heritage/class/deity picker
+ * application exists there with a settings-backed pack filter; the only
+ * other per-pack-ish mechanism, `compendiumBrowserSources`, filters by
+ * rulebook *source* within the same seven tabs, not by pack, and is a
+ * different setting this does not touch). A base ancestry, heritage,
+ * background, class or deity therefore still appears wherever pf2e shows
+ * those -- e.g. the Ancestry & Heritage picker during character creation --
+ * regardless of this setting. "Hide all base game Pathfinder content" is
+ * true for the Compendium Browser's seven tabs and not yet true beyond it;
+ * closing that gap needs a mechanism this pass did not find.
+ *
+ * TIMING, the load-bearing part, and a mistake caught live rather than
+ * shipped. `game.pf2e.compendiumBrowser` is constructed exactly once, inside
+ * pf2e's own `Hooks.once("ready", ...)` (`pf2e.mjs`: `onReady: () => {
+ * game.pf2e.compendiumBrowser = new Gd(), ... }`), and Foundry does NOT
+ * guarantee listener order between a system's and a module's registrations
+ * on the same hook name -- this file already establishes that above, for
+ * `CONFIG.PF2E.rarityTraits` on `init`. The first version of this function
+ * therefore ran on `setup` instead of `ready`, reasoning that `setup`
+ * completes in full before `ready` begins, so writing the setting there
+ * would land before `Gd`'s constructor (which calls its own
+ * `initCompendiumList()`) could ever read it -- no dependency on hook order
+ * at all, in theory.
+ *
+ * Measured 2026-09-09 against this live world: it never ran. A fresh boot
+ * with the toggle on left `game.settings.get("pf2e",
+ * "compendiumBrowserPacks")` completely empty (`{}`) and `hiddenBaseContentStamp`
+ * empty too -- not a partial write, no write at all. The guard `if
+ * (!game.user.isGM) return` was the first line to touch anything
+ * session-specific, and it is the one thing in this function with no
+ * precedent anywhere else in this file at `setup` -- every other
+ * `game.user.isGM` gate here (`languageRarities`, both Item Piles passes,
+ * the rarity merchant-column pass) reads it on `ready`, never `setup`. Never
+ * verified before shipping; exactly the "blind guess" this project rules
+ * out, and the live boot is what caught it. Manually invoking the same logic
+ * from a GM-context macro (i.e. at a point equivalent to well after `ready`)
+ * wrote both settings correctly on the first try, which is what pins the
+ * fault on `setup` timing specifically and not on the merge logic.
+ *
+ * So this now runs on `ready` instead, and handles both possible orderings
+ * explicitly rather than leaning on either one: it writes the setting
+ * unconditionally, and if `game.pf2e.compendiumBrowser` already exists (pf2e's
+ * `ready` ran first), it also calls that instance's own `initCompendiumList()`
+ * to force it to re-read what was just written. If pf2e's `ready` instead
+ * runs after this module's, there is nothing to refresh yet -- `Gd`'s own
+ * constructor will read the now-already-written setting on its first
+ * `initCompendiumList()` call regardless. Either order lands correctly; nothing
+ * here still depends on which fires first.
+ *
+ * Scope, deliberately coarse: every pf2e-owned pack is forced off in ALL
+ * seven tabs, not just the tabs pf2e's own type-routing would actually place
+ * it in. Replicating that per-document-type routing exactly would mean
+ * copying `initCompendiumList()`'s internal type->tab map (`pf2e.mjs`, an
+ * unexported local built from a physical-item-type Set this module has no
+ * access to) -- reconstructing it from a guess is the thing to avoid. An
+ * entry in a tab a pack was never relevant to is simply never read back out
+ * by `initCompendiumList()` (it only ever writes keys for tabs it found the
+ * pack's own indexed types in), so the imprecision costs nothing but a few
+ * orphaned keys in the stored setting.
+ */
+const BASE_CONTENT_TABS = ["action", "bestiary", "campaignFeature", "equipment", "feat", "hazard", "spell"];
+
+/**
+ * Pure and side-effect-free on purpose -- see tests/base-content.test.mjs,
+ * which extracts this function verbatim rather than duplicating it.
+ *
+ * `hide === true`: every base-pf2e (tab, collection) pair in `basePairs` is
+ * forced to `load: false`, unconditionally -- the ask was "hide ALL base
+ * content", not "hide it unless a GM already had an opinion" -- and every
+ * pair touched is recorded in the returned stamp.
+ *
+ * `hide === false`: only pairs THIS module forced last time (present in
+ * `stamp`) are handed back, by deleting the entry so it falls through to
+ * pf2e's own default (`load !== false`, i.e. visible). A pf2e pack a GM hid
+ * independently, before ever turning this setting on, is never in `stamp`
+ * and is therefore never touched -- the same "a GM's own choice survives"
+ * shape as the languageRarities/currency stamps elsewhere in this file. The
+ * one known gap, worth knowing before debugging a report that "my
+ * compendium setting keeps reverting": if a GM manually re-hides a pack this
+ * module is currently forcing hidden, in the same session, there is no way
+ * to tell that apart from this module's own prior write, and the next
+ * toggle-off will show it again.
+ */
+function computeBaseContentPacks(current, stamp, hide, basePairs) {
+  const next = structuredClone(current ?? {});
+  const nextStamp = {};
+  for (const { tab, collection } of basePairs) {
+    const wasOurs = (stamp[tab] ?? []).includes(collection);
+    if (hide) {
+      next[tab] ??= {};
+      next[tab][collection] = { ...(next[tab][collection] ?? {}), load: false };
+      (nextStamp[tab] ??= []).push(collection);
+    } else if (wasOurs && next[tab]) {
+      delete next[tab][collection];
+    }
+  }
+  return { next, nextStamp };
+}
+
+async function applyBaseContentVisibility(trigger) {
+  if (game.system.id !== "pf2e") return;
+  if (!game.user.isGM) return;
+
+  const hide = game.settings.get(MODULE_ID, "hideBaseSystemContent");
+  const stamp = game.settings.get(MODULE_ID, "hiddenBaseContentStamp") ?? {};
+  const current = game.settings.get("pf2e", "compendiumBrowserPacks") ?? {};
+
+  const basePacks = game.packs.filter((p) => p.metadata.packageName === "pf2e");
+  const basePairs = basePacks.flatMap((p) => BASE_CONTENT_TABS.map((tab) => ({ tab, collection: p.collection })));
+
+  const hadStamp = Object.values(stamp).some((v) => v?.length);
+  if (!hide && !hadStamp) return;  // nothing to force, nothing to hand back
+
+  const { next, nextStamp } = computeBaseContentPacks(current, stamp, hide, basePairs);
+  await game.settings.set("pf2e", "compendiumBrowserPacks", next);
+  await game.settings.set(MODULE_ID, "hiddenBaseContentStamp", hide ? nextStamp : {});
+  console.log(`${MODULE_ID} | base PF2e content ${hide ? "hidden" : "restored"} in the compendium browser (${trigger})`);
+
+  // See the docstring above: this covers pf2e's `ready` having already run
+  // (the browser exists, so force it to re-read what was just written) AND
+  // pf2e's `ready` running later (nothing to refresh yet; its constructor
+  // reads the setting fresh on its own). Either order lands correctly.
+  if (game.pf2e?.compendiumBrowser) {
+    game.pf2e.compendiumBrowser.initCompendiumList();
+    if (game.pf2e.compendiumBrowser.rendered) game.pf2e.compendiumBrowser.render();
+  }
+}
+
+Hooks.once("ready", () => applyBaseContentVisibility("ready"));
 
 /**
  * Cinderfall item rarity tiers.

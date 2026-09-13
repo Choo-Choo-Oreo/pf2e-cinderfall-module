@@ -1,0 +1,41 @@
+{
+    "name": "Scrap Alchemy",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "skill",
+        "description": {
+            "value": "<p>Craft consumables (charms, salves, ammunition) at reduced cost when using only found scrap as raw material.</p>"
+        },
+        "level": {
+            "value": 6
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Expert in Crafting"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "scrap-alchemy"
+    },
+    "_id": "VD6Cu1veS4chnGst",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The card states a bonus but gives no numeric value, bonus type, or specific action tag to build a FlatModifier from without inventing one. and no rule-element key reduces Craft costs for a category of raw material."
+        }
+    }
+}

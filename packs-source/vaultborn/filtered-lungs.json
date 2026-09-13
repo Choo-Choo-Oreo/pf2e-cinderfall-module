@@ -1,0 +1,43 @@
+{
+    "name": "Filtered Lungs",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "ancestry",
+        "description": {
+            "value": "<p>Extend Filtered Constitution's resistance to cover inhaled toxins and gas hazards specifically.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Filtered Constitution"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "vaultborn"
+            ]
+        },
+        "slug": "filtered-lungs"
+    },
+    "_id": "e8aqOqD4ilT93kR8",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "'Extend Filtered Constitution's resistance to cover inhaled toxins and gas hazards' adds no new engine-recognized type -- pf2e's poison damage type already covers inhaled poison regardless of vector, so there is no distinct predicate or type left to add."
+        }
+    }
+}

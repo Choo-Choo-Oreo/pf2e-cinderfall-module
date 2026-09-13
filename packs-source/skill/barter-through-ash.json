@@ -1,0 +1,32 @@
+{
+    "name": "Barter Through Ash",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "skill",
+        "description": {
+            "value": "<p>Everyone in the wastes has learned to dicker, but you've learned to dicker fast, before the Geiger counter or the raiders catch up. Make Your Case takes half the normal time when the negotiation concerns an immediate trade of goods rather than a long-term deal.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "barter-through-ash"
+    },
+    "_id": "SMXciRTPidpEw4ri"
+}

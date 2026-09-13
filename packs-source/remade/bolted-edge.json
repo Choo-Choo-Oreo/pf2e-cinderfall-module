@@ -24,7 +24,45 @@
             "remaster": true,
             "title": "Cinderfall"
         },
-        "rules": [],
+        "rules": [
+            {
+                "key": "ChoiceSet",
+                "adjustName": false,
+                "flag": "damageType",
+                "prompt": "Choose this blade's damage type",
+                "choices": [
+                    {
+                        "label": "PF2E.TraitSlashing",
+                        "value": "slashing"
+                    },
+                    {
+                        "label": "PF2E.TraitPiercing",
+                        "value": "piercing"
+                    }
+                ]
+            },
+            {
+                "key": "Strike",
+                "slug": "bolted-edge",
+                "label": "Bolted Edge",
+                "category": "unarmed",
+                "group": "brawling",
+                "img": "systems/pf2e/icons/unarmed-attacks/fist.webp",
+                "range": null,
+                "traits": [
+                    "agile",
+                    "finesse",
+                    "unarmed"
+                ],
+                "damage": {
+                    "base": {
+                        "damageType": "{item|flags.system.rulesSelections.damageType}",
+                        "dice": 1,
+                        "die": "d6"
+                    }
+                }
+            }
+        ],
         "traits": {
             "rarity": "common",
             "value": [

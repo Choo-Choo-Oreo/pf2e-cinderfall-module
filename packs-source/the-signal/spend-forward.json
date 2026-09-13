@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "the-signal-enc"
+            ],
             "rarity": "common",
             "value": [
                 "the-signal"
@@ -33,5 +36,11 @@
         },
         "slug": "spend-forward"
     },
-    "_id": "6lb1ZOsYrrc0uNET"
+    "_id": "6lb1ZOsYrrc0uNET",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "SB1 — this clause is interesting because it *substitutes* a `FlatModifier` for the SB2-blocked reroll, which in isolation would be real (a toggleable pre-roll bonus, per P7's shape) — but it is still entirely gated behind spending from the SB1-nonexistent Encore pool and the \"once per round\" shared-spend tracking, which has no vehicle either. Net: INCOMPLETE.",
+            "track": "enc"
+        }
+    }
 }

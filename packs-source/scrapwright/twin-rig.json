@@ -33,5 +33,10 @@
         },
         "slug": "twin-rig"
     },
-    "_id": "XGtsWQ3Ew4gqMX0W"
+    "_id": "XGtsWQ3Ew4gqMX0W",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "[RIG-NO-ACTOR]/[NO-SPECIALRESOURCE] -- this creates a second, independent minion actor on top of an already-unmodeled Rig; no generic pf2e rule element spawns a full combat-capable minion actor (unlike the familiar case, there is no \"summon a battle minion\" equivalent generic key -- animal companions/eidolons/summoned minions are each their own deep, class-specific Foundry subsystem, not something a homebrew class can hook via system.rules)."
+        }
+    }
 }

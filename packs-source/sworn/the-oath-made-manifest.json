@@ -33,5 +33,10 @@
         },
         "slug": "the-oath-made-manifest"
     },
-    "_id": "bBHvweUQEhZ18Ayn"
+    "_id": "bBHvweUQEhZ18Ayn",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "No roll option or predicate tracks 'a specific enemy this actor has already Answered this encounter' -- a dynamic, per-creature, per-encounter list with no analog anywhere in pf2e-source (the closest real predicate shape, self:effect:<slug>, flags a condition on the caster, not a rolling list of enemy identities). No rule element restricts forced movement conditioned on remaining inside a fixed, non-following battlefield area either."
+        }
+    }
 }

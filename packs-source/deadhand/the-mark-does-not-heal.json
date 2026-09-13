@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "deadhand-second"
+            ],
             "rarity": "common",
             "value": [
                 "deadhand"
@@ -33,5 +36,11 @@
         },
         "slug": "the-mark-does-not-heal"
     },
-    "_id": "40hZsH1WqN7f9G2O"
+    "_id": "40hZsH1WqN7f9G2O",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The mark regains only half as much HP from any source; persistent damage from the caster can't be ended below 6th-rank magical healing. No selector reduces a different creature's own healing receipt or raises the bar for ending their persistent damage, compounded by the confirmed-unfireable mark predicate.",
+            "track": "second"
+        }
+    }
 }

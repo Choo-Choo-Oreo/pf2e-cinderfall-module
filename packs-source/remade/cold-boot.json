@@ -33,5 +33,10 @@
         },
         "slug": "cold-boot"
     },
-    "_id": "HWhgjYgRpN5bPu6M"
+    "_id": "HWhgjYgRpN5bPu6M",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "P-BUCKET3. \"Negate the triggering effect entirely, this instance only\" has no generic rule-element hook."
+        }
+    }
 }

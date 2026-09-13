@@ -1,0 +1,32 @@
+{
+    "name": "Ash-Cracked Glare",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "skill",
+        "description": {
+            "value": "<p>You've stared down raiders across a cookfire more times than you can count, and it shows. You can Demoralize a creature that doesn't share a language with you without the normal circumstance penalty, so long as it can see your face clearly.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "ash-cracked-glare"
+    },
+    "_id": "LiFSAwo8Rj3K8TCy"
+}

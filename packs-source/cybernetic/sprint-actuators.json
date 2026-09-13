@@ -1,0 +1,74 @@
+{
+    "name": "Sprint Actuators",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>Calf drive units. +10-ft item bonus to Speed on any turn your first action is Stride. +1 item bonus to Acrobatics to Balance.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 2
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "gp": 40
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "acrobatics",
+                "type": "item",
+                "value": 1,
+                "predicate": [
+                    "action:balance"
+                ]
+            }
+        ],
+        "size": "med",
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "sprint-actuators"
+    },
+    "_id": "YMVy5E8UixwwrRQH",
+    "flags": {
+        "cinderfall": {
+            "augmentKind": "cybernetic",
+            "augmentType": "implant",
+            "tier": "common",
+            "slots": [
+                "Legs"
+            ],
+            "slotCost": 1,
+            "grade": 1,
+            "availability": "Licensed",
+            "level": 2,
+            "drift": "+1"
+        }
+    }
+}

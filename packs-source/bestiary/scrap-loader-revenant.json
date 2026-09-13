@@ -101,7 +101,7 @@
             "statistic": "perception"
         },
         "perception": {
-            "details": "darkvision (optic sensors)",
+            "details": "",
             "mod": 5,
             "senses": [
                 {
@@ -133,7 +133,8 @@
                 "base": 8
             },
             "crafting": {
-                "base": 6
+                "base": 6,
+                "note": "rote assembly only"
             }
         },
         "traits": {
@@ -331,15 +332,54 @@
                 }
             },
             "type": "action"
+        },
+        {
+            "_id": "zT1rVfzvLxeWTn5Y",
+            "img": "systems/pf2e/icons/default-icons/treasure.svg",
+            "name": "Loader Hydraulic Line",
+            "sort": 1400000,
+            "system": {
+                "bulk": {
+                    "value": 0
+                },
+                "category": "material",
+                "description": {
+                    "value": "<p>A length of hydraulic line, cracked but intact &mdash; the kind of part a Combine loader never stops needing.</p>"
+                },
+                "hardness": 0,
+                "hp": {
+                    "max": 0,
+                    "value": 0
+                },
+                "level": {
+                    "value": 0
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "quantity": 1,
+                "rules": [],
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                },
+                "price": {
+                    "value": {
+                        "gp": 1
+                    }
+                }
+            },
+            "type": "treasure"
         }
     ],
     "flags": {
+        "pf2e": {
+            "lootable": true
+        },
         "cinderfall": {
-            "alignment": "CE",
-            "incomplete": [
-                "perception clause not representable as a pf2e sense: 'darkvision (optic sensors)'",
-                "skill 'Crafting' condition 'rote assembly only' kept as text only"
-            ]
+            "alignment": "CE"
         }
     }
 }

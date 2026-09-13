@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "the-signal-numbers"
+            ],
             "rarity": "common",
             "value": [
                 "the-signal"
@@ -33,5 +36,11 @@
         },
         "slug": "nobody-decoded-it"
     },
-    "_id": "9MwMNJdXlqpI3luo"
+    "_id": "9MwMNJdXlqpI3luo",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "No rule element grants \"my active effects are immune to counteract\" (not in the 34-key inventory, P12) — confirmed absent, distinct from and narrower than `Immunity`'s condition-slug shape (P9). Also SB3.",
+            "track": "numbers"
+        }
+    }
 }

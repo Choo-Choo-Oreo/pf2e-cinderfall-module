@@ -1,0 +1,41 @@
+{
+    "name": "Wire-Walker's Poise",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "skill",
+        "description": {
+            "value": "<p>You've balanced on live power lines strung across the Slums for coin. You're not off-guard from being on narrow or uneven surfaces, and a critical failure to Balance on such a surface is treated as a normal failure instead.</p>"
+        },
+        "level": {
+            "value": 6
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Expert in Acrobatics"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "wire-walkers-poise"
+    },
+    "_id": "p84xosGAs0JqFUCL",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "'Not off-guard from being on narrow or uneven surfaces' has no rule element removing a terrain-caused off-guard status, and the Balance critical-failure downgrade is gated on the same kind of surface-condition roll option that real Rock Runner's own terrain:stone/terrain:earth predicates turn out not to have a working hook for either (see the terrain-enum finding on several other cards in this batch) -- neither clause has anything solid to predicate on."
+        }
+    }
+}

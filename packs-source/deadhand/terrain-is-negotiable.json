@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "deadhand-breaker"
+            ],
             "rarity": "common",
             "value": [
                 "deadhand"
@@ -33,5 +36,10 @@
         },
         "slug": "terrain-is-negotiable"
     },
-    "_id": "mpLOJVlQJocRXf0u"
+    "_id": "mpLOJVlQJocRXf0u",
+    "flags": {
+        "cinderfall": {
+            "track": "breaker"
+        }
+    }
 }

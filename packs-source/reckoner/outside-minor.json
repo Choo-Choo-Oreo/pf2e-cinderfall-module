@@ -1,0 +1,45 @@
+{
+    "name": "A Question Answered Wrong",
+    "type": "capstone",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p>Once per day, when you or an ally within 30 feet fails a check by 5 or more, you may declare that the geometry briefly disagreed: reroll the check and use the better result. Nobody watching, including the roller, can afterward agree on which attempt actually happened.</p>"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "otherTags": [
+                "reckoner-outside"
+            ],
+            "value": [
+                "reckoner"
+            ]
+        },
+        "slug": "outside-minor"
+    },
+    "_id": "kMaGDsMaptURVBzX",
+    "flags": {
+        "cinderfall": {
+            "track": "outside"
+        }
+    }
+}

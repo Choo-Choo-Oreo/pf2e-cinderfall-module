@@ -1,0 +1,53 @@
+{
+    "name": "No Longer a Direction",
+    "type": "capstone",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p>Once per day, for 1 round, you stop being reachable in any way this world's physics accounts for: you're immune to all damage and conditions, can't be targeted by any effect, and your location doesn't meaningfully exist for anyone trying to perceive or track you. At the end of the round you return, exactly where you left, having gone nowhere anyone can describe. Using it twice in the same day was never actually observed happening, by anyone, ever.</p>"
+        },
+        "level": {
+            "value": 20
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "Immunity",
+                "type": [
+                    "all-damage"
+                ]
+            }
+        ],
+        "traits": {
+            "rarity": "common",
+            "otherTags": [
+                "reckoner-outside"
+            ],
+            "value": [
+                "reckoner"
+            ]
+        },
+        "slug": "outside-major"
+    },
+    "_id": "eB83PAKgM8xZBbhb",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "'Can't be targeted by any effect' / 'location doesn't meaningfully exist' has no rule-element equivalent and stays unbuilt. The Immunity(all-damage) block above is buildable but [UNVERIFIED]: the literal \"all-damage\" string needs checking against the ImmunityType enum in pf2e-source/src/module/rules/rule-element/iwr/immunity.ts before treating it as final -- only that the field is an array was confirmed, not every valid literal. See feats-class-reckoner-draft.md open question 5.",
+            "track": "outside"
+        }
+    }
+}

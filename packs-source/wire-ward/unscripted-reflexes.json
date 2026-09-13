@@ -1,0 +1,49 @@
+{
+    "name": "Unscripted Reflexes",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "ancestry",
+        "description": {
+            "value": "<p>Extend the resistance from Raised Without a Script to cover Intimidation-based coercion as well as Deception.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Raised Without a Script"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "perception-dc",
+                "type": "circumstance",
+                "value": 1,
+                "predicate": [
+                    "raised-without-a-script-scripts",
+                    "action:coerce"
+                ]
+            }
+        ],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "wire-ward"
+            ]
+        },
+        "slug": "unscripted-reflexes"
+    },
+    "_id": "jlMTCztq233YLrg6"
+}

@@ -1,0 +1,39 @@
+{
+    "name": "Scrap Incarnate",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "ancestry",
+        "description": {
+            "value": "<p>Your own presence registers as valuable salvage to Scrap Sense — allies with that ability treat you as a walking parts bin, gaining a bonus to their own Crafting checks while you're nearby.</p>"
+        },
+        "level": {
+            "value": 17
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ashwalker"
+            ]
+        },
+        "slug": "scrap-incarnate"
+    },
+    "_id": "WYNvIqdKJZ60d8oN",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "This affects another creature's own roll, HP, or condition from the card holder's passive/item, which has no rule-element hook in real pf2e. (allies gain a Crafting bonus from your own passive presence)."
+        }
+    }
+}

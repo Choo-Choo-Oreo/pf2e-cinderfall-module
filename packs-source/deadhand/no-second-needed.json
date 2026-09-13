@@ -24,8 +24,27 @@
             "remaster": true,
             "title": "Cinderfall"
         },
-        "rules": [],
+        "rules": [
+            {
+                "key": "RollOption",
+                "option": "no-second-needed-answer-fired",
+                "toggleable": true,
+                "label": "The Answer has already triggered this round"
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "melee-strike-attack-roll",
+                "type": "circumstance",
+                "value": 2,
+                "predicate": [
+                    "no-second-needed-answer-fired"
+                ]
+            }
+        ],
         "traits": {
+            "otherTags": [
+                "deadhand-second"
+            ],
             "rarity": "common",
             "value": [
                 "deadhand"
@@ -33,5 +52,10 @@
         },
         "slug": "no-second-needed"
     },
-    "_id": "EFKV3Tizxcmk3PBC"
+    "_id": "EFKV3Tizxcmk3PBC",
+    "flags": {
+        "cinderfall": {
+            "track": "second"
+        }
+    }
 }

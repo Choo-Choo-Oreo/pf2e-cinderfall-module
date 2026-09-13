@@ -140,7 +140,8 @@
                 "attackEffects": {
                     "custom": "",
                     "value": [
-                        "grab"
+                        "grab",
+                        "killing-venom"
                     ]
                 },
                 "bonus": {
@@ -153,7 +154,7 @@
                     }
                 },
                 "description": {
-                    "value": "<p>Damage 2d12+8 piercing plus Grab plus killing venom (DC 26 Fortitude; Stage 1 2d6 persistent poison and enfeebled 1; Stage 2 3d6 persistent poison, enfeebled 2, and clumsy 1; Stage 3 4d6 persistent poison and drained 1)</p>"
+                    "value": ""
                 },
                 "publication": {
                     "license": "ORC",
@@ -176,48 +177,37 @@
             "type": "melee"
         },
         {
-            "_id": "v3J4ZXga4jyRUIcs",
-            "img": "systems/pf2e/icons/default-icons/melee.svg",
-            "name": "web volley",
+            "_id": "7M1eMC3cmZQ9gK73",
+            "img": "systems/pf2e/icons/actions/TwoActions.webp",
+            "name": "Web Volley",
             "sort": 200000,
             "system": {
-                "attack": {
-                    "value": ""
+                "actionType": {
+                    "value": "action"
                 },
-                "attackEffects": {
-                    "custom": "",
-                    "value": []
+                "actions": {
+                    "value": 2
                 },
-                "bonus": {
-                    "value": 16
-                },
-                "damageRolls": {},
+                "category": "offensive",
                 "description": {
-                    "value": "<p><strong>Effect</strong> each creature in the area must succeed at a DC 26 Reflex save or be immobilized (Escape DC 26)</p>"
+                    "value": "<p><span class=\"act\">Frequency</span> once every 1d4 rounds; <b>Effect</b> the Broodmother spits a mass of webbing at a point within 40 feet. Each creature in a 10-foot burst must succeed at a DC 26 Reflex save or be immobilized (Escape DC 26).</p>"
                 },
                 "publication": {
                     "license": "ORC",
                     "remaster": true,
                     "title": "Cinderfall"
                 },
-                "range": {
-                    "increment": 40,
-                    "max": null
-                },
                 "rules": [],
                 "slug": "web-volley",
                 "traits": {
                     "rarity": "common",
                     "value": []
-                },
-                "weaponType": {
-                    "value": "ranged"
                 }
             },
-            "type": "melee"
+            "type": "action"
         },
         {
-            "_id": "7M1eMC3cmZQ9gK73",
+            "_id": "cCphahZOo4VsDzzg",
             "img": "systems/pf2e/icons/actions/TwoActions.webp",
             "name": "Spill the Brood",
             "sort": 1100000,
@@ -247,7 +237,7 @@
             "type": "action"
         },
         {
-            "_id": "cCphahZOo4VsDzzg",
+            "_id": "UANb4aSfWZQVz9Oi",
             "img": "systems/pf2e/icons/actions/Reaction.webp",
             "name": "Broodguard",
             "sort": 1200000,
@@ -277,7 +267,7 @@
             "type": "action"
         },
         {
-            "_id": "UANb4aSfWZQVz9Oi",
+            "_id": "mZNGTQwha9uxiid7",
             "img": "systems/pf2e/icons/actions/Passive.webp",
             "name": "Matriarch's Pull (aura)",
             "sort": 1300000,
@@ -307,7 +297,7 @@
             "type": "action"
         },
         {
-            "_id": "mZNGTQwha9uxiid7",
+            "_id": "L4k4JUNGa8HNCeaO",
             "img": "systems/pf2e/icons/actions/Passive.webp",
             "name": "She Won't Say",
             "sort": 1400000,
@@ -335,16 +325,86 @@
                 }
             },
             "type": "action"
+        },
+        {
+            "_id": "RQTYmzrS2wmEiawO",
+            "img": "systems/pf2e/icons/actions/Passive.webp",
+            "name": "Killing Venom",
+            "sort": 1500000,
+            "system": {
+                "actionType": {
+                    "value": "passive"
+                },
+                "actions": {
+                    "value": null
+                },
+                "category": "offensive",
+                "description": {
+                    "value": "<p><strong>Saving Throw</strong> DC 26 Fortitude. <strong>Stage 1</strong> 2d6 persistent poison and enfeebled 1 (1 round); <strong>Stage 2</strong> 3d6 persistent poison, enfeebled 2, and clumsy 1 (1 round); <strong>Stage 3</strong> 4d6 persistent poison and drained 1 (1 round).</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "killing-venom",
+                "traits": {
+                    "rarity": "common",
+                    "value": [
+                        "poison"
+                    ]
+                }
+            },
+            "type": "action"
+        },
+        {
+            "_id": "rWMp2oR1Yii7kCOD",
+            "img": "systems/pf2e/icons/default-icons/treasure.svg",
+            "name": "Broodmother Silk Sac",
+            "sort": 1700000,
+            "system": {
+                "bulk": {
+                    "value": 0
+                },
+                "category": "material",
+                "description": {
+                    "value": "<p>A silk sac, translucent and heavy, drawn straight from the matriarch &mdash; the Spiderlands' brood spins nothing this fine.</p>"
+                },
+                "hardness": 0,
+                "hp": {
+                    "max": 0,
+                    "value": 0
+                },
+                "level": {
+                    "value": 0
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "quantity": 1,
+                "rules": [],
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                },
+                "price": {
+                    "value": {
+                        "gp": 2
+                    }
+                }
+            },
+            "type": "treasure"
         }
     ],
     "flags": {
+        "pf2e": {
+            "lootable": true
+        },
         "cinderfall": {
-            "alignment": "N",
-            "incomplete": [
-                "Melee strike 'fangs': rider 'killing venom (DC 26 Fortitude; Stage 1 2d6 persistent poison and enfeebled 1; Stage 2 3d6 persistent poison, enfeebled 2, and clumsy 1; Stage 3 4d6 persistent poison and drained 1)' kept as text only",
-                "Ranged strike 'web volley': note '10-foot burst' is not a pf2e weapon trait",
-                "Ranged strike 'web volley' deals no damage; its Effect is text only"
-            ]
+            "alignment": "N"
         }
     }
 }

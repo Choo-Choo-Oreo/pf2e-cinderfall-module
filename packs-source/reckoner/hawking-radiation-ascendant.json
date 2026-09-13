@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "flavored"
+            ],
             "rarity": "common",
             "value": [
                 "reckoner"
@@ -33,5 +36,11 @@
         },
         "slug": "hawking-radiation-ascendant"
     },
-    "_id": "4nFm3bKU3omVNeRb"
+    "_id": "4nFm3bKU3omVNeRb",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Cumulative -1 AC (max -4) to whatever THE LEAK hits -- no rule element auto-increments a custom counter round over round outside a named condition's own badge-increment or a SpecialResource (NOSTACK); THE LEAK itself (a passive always-on drip to a player-chosen enemy each turn) is also unbuildable, same reasoning as Faint Leak.",
+            "flavored": true
+        }
+    }
 }

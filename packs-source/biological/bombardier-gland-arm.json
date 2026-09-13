@@ -1,0 +1,69 @@
+{
+    "name": "Bombardier Gland-Arm",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>A forearm that ends in a muscular spray-nozzle gland. Ranged Strike: 15-foot cone, 2d4 acid, basic Reflex against your class DC (or DC 14 + half level), usable again after 1d4 rounds.</p><p><b>Rider:</b> It seeps under stress. In a tense scene the GM may call a DC 5 flat check or you scorch a surface, a document, or a handshake you didn't mean to.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 10
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "mk": 600
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "traits": {
+            "rarity": "rare",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "bombardier-gland-arm"
+    },
+    "_id": "T5LwdD8Wp8kOGo2V",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The whole ability is a new 15-foot cone attack with its own save DC and a 1d4-round recharge -- an AoE ability with a save is a spell-like granted Action, not something the Strike rule element (single-target attacks only) can produce; same class of gap as the equipment pass's ammo cards.",
+            "augmentKind": "biological",
+            "augmentType": "graft",
+            "tier": "rare",
+            "slots": [
+                "Arm"
+            ],
+            "slotCost": 1,
+            "grade": 3,
+            "availability": "Wild",
+            "level": 10,
+            "load": "+2",
+            "resonance": "+3",
+            "augTags": [
+                "wild"
+            ]
+        }
+    }
+}

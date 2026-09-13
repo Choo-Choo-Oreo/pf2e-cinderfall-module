@@ -1,0 +1,50 @@
+{
+    "name": "It Stopped Arguing With You",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
+        "description": {
+            "value": "<span class=\"sdesc\">Whatever resistance the relic once had to being used this way is gone. Your proficiency rank with your Ward's weapon or implement increases to master.</span>"
+        },
+        "level": {
+            "value": 13
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "system.proficiencies.attacks.ward-weapon.rank",
+                "value": 3
+            }
+        ],
+        "traits": {
+            "otherTags": [],
+            "rarity": "common",
+            "value": [
+                "wardbreaker"
+            ]
+        },
+        "slug": "it-stopped-arguing-with-you"
+    },
+    "_id": "1Rx9d0Grd0SG0ohk",
+    "flags": {
+        "cinderfall": {
+            "grantedAtLevel": 13
+        }
+    }
+}

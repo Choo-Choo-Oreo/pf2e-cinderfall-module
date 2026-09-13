@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "paradise-touched-sig"
+            ],
             "rarity": "common",
             "value": [
                 "paradise-touched"
@@ -33,5 +36,10 @@
         },
         "slug": "two-channels"
     },
-    "_id": "MMUWpFEoEhQKc7uj"
+    "_id": "MMUWpFEoEhQKc7uj",
+    "flags": {
+        "cinderfall": {
+            "track": "sig"
+        }
+    }
 }

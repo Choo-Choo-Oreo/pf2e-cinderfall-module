@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "ironsight-close-iron"
+            ],
             "rarity": "common",
             "value": [
                 "ironsight"
@@ -33,5 +36,10 @@
         },
         "slug": "nobody-crosses"
     },
-    "_id": "VWAKpu94ucWuzDOa"
+    "_id": "VWAKpu94ucWuzDOa",
+    "flags": {
+        "cinderfall": {
+            "track": "close-iron"
+        }
+    }
 }

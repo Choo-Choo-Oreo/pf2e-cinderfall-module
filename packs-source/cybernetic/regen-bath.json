@@ -1,0 +1,82 @@
+{
+    "name": "Regen Bath",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>Organ cavity flooded with medical nanites. Fast Healing 5 while above 0 and below full. When you'd drop to 0, once per day drop to 1 instead, then drained 1.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 12
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "gp": 2250
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "FastHealing",
+                "type": "fast-healing",
+                "value": 5,
+                "predicate": [
+                    {
+                        "lt": [
+                            "hp-percent",
+                            100
+                        ]
+                    }
+                ]
+            }
+        ],
+        "size": "med",
+        "traits": {
+            "rarity": "rare",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "regen-bath"
+    },
+    "_id": "rOCa5Fwag5lBY2Bn",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "'Once per day, drop to 1 HP instead of 0, then drained 1' overrides the built-in dying/unconsciousness sequence at 0 HP -- same class of gap as the mutations pass's The-Held-Breath, with no rule element for that override found anywhere in pf2e.",
+            "augmentKind": "cybernetic",
+            "augmentType": "implant",
+            "tier": "rare",
+            "slots": [
+                "Viscera"
+            ],
+            "slotCost": 1,
+            "grade": 3,
+            "availability": "Restricted",
+            "level": 12,
+            "drift": "+3",
+            "augTags": [
+                "apex"
+            ]
+        }
+    }
+}

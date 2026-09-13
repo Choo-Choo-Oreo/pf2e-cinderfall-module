@@ -34,5 +34,10 @@
         },
         "slug": "foretell-the-break"
     },
-    "_id": "TuMUbmwT5rxKlk49"
+    "_id": "TuMUbmwT5rxKlk49",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Extends THE FAILURE POINT (pure GM-narrated info, correctly rules:[]) to structures -- an info-only mechanic being extended in scope, nothing new to build."
+        }
+    }
 }

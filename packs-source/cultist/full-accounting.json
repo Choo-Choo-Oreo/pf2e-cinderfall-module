@@ -1,0 +1,45 @@
+{
+    "name": "Full Accounting",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 2
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Range</strong> 30 feet</p><p><strong>Targets</strong> up to 3 creatures</p><p><strong>Frequency</strong> once per day</p><p><strong>Saving Throw</strong> Will</p><hr /><p>Each target attempts a Will save against your class DC. On a failure it takes 4d6 mental damage and becomes <em>off-guard</em> to you until the end of your next turn, distracted by its own guilt; on a critical failure the damage is doubled. On a success, it takes half damage only.</p>"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "otherTags": [
+                "cultist-ledger"
+            ],
+            "rarity": "common",
+            "value": [
+                "cultist"
+            ]
+        },
+        "slug": "full-accounting"
+    },
+    "_id": "6E0a8qX3aJeiGI0z",
+    "flags": {
+        "cinderfall": {
+            "track": "ledger"
+        }
+    }
+}

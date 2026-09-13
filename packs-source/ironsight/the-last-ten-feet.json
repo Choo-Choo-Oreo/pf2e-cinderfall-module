@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "ironsight-close-iron"
+            ],
             "rarity": "common",
             "value": [
                 "ironsight"
@@ -33,5 +36,11 @@
         },
         "slug": "the-last-ten-feet"
     },
-    "_id": "dqaIsN1IlC7xcluQ"
+    "_id": "dqaIsN1IlC7xcluQ",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "overall — on the cover/concealment-suppression clause, no selector found for suppressing a creature's size-based AC bonus specifically. The extra-crit-damage-die-vs-adjacent clause alone would likely be REAL via DamageDice with a predicate (similar shape to Gunslinger's Blast Tackle, pf2e-source/packs/pf2e/feats/class/gunslinger/level-14/blast-tackle.json, \"key\": \"DamageDice\"), but two of the card's three clauses are unbuildable, so this is not proposed as MIXED — flagged in Open Questions as a partial-REAL candidate for a future narrower pass. \"Ignore/downgrade cover\" clauses have no confirmed rule element: the full rule-element/ directory listing contains nothing named for cover. This is flagged rather than asserted as a confirmed absence, since the actual cover-to-AC/Reflex calculation code path itself wasn't traced independently.",
+            "track": "close-iron"
+        }
+    }
 }

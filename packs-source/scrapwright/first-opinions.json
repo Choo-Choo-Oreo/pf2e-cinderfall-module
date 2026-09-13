@@ -1,0 +1,47 @@
+{
+    "name": "First Opinions",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
+        "description": {
+            "value": "<span class=\"sdesc\">The fragment inside the chassis has been running long enough to start forming preferences. Your Ghost-Rig gains a second Command an Action per turn, resistance to its own damage type, and a scavenged limb upgrade (a pneumatic claw, a saw-arm, a grapple spool) it can use to Trip, Grapple, or Interact without your say-so. Once per encounter it can act without being commanded when directly threatened.</span>"
+        },
+        "level": {
+            "value": 5
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "otherTags": [],
+            "rarity": "common",
+            "value": [
+                "scrapwright"
+            ]
+        },
+        "slug": "first-opinions"
+    },
+    "_id": "ecbJFRcHq5lwKl2b",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "[RIG-NO-ACTOR] -- all clauses target the non-existent companion actor.",
+            "spellTag": "Mk II · 5th",
+            "ghostRigTier": "Mk II",
+            "grantedAtLevel": 5,
+            "notSpell": "scrapwright's class document carries system.spellcasting 0, so this is an ability, not a spell, and convert_class_spells.py declines it by design as a NON_CASTERS owner"
+        }
+    }
+}

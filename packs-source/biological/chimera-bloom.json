@@ -1,0 +1,118 @@
+{
+    "name": "Chimera Bloom",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>A single, total-body transformation graft, grown from something that was never one species to begin with. +2 apex item bonus to Strength and Constitution. Two natural weapon Strikes — claw 1d10 slashing, tail 1d8 bludgeoning reach 10 ft — usable together as a single action. Climb Speed 20 ft.</p><p><b>Rider:</b> It doesn't ask what shape you wanted. Once a week the GM may have an instinct that isn't yours pick the target of your next attack.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 19
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "mk": 70000
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "Strike",
+                "slug": "chimera-bloom-claw",
+                "label": "Claw",
+                "category": "unarmed",
+                "group": "brawling",
+                "img": "systems/pf2e/icons/unarmed-attacks/claw.webp",
+                "range": null,
+                "traits": [
+                    "unarmed",
+                    "agile"
+                ],
+                "damage": {
+                    "base": {
+                        "damageType": "slashing",
+                        "dice": 1,
+                        "die": "d10"
+                    }
+                }
+            },
+            {
+                "key": "Strike",
+                "slug": "chimera-bloom-tail",
+                "label": "Tail",
+                "category": "unarmed",
+                "group": "brawling",
+                "img": "systems/pf2e/icons/unarmed-attacks/tail.webp",
+                "range": null,
+                "traits": [
+                    "unarmed",
+                    "reach-10"
+                ],
+                "damage": {
+                    "base": {
+                        "damageType": "bludgeoning",
+                        "dice": 1,
+                        "die": "d8"
+                    }
+                }
+            },
+            {
+                "key": "BaseSpeed",
+                "selector": "climb",
+                "value": 20
+            }
+        ],
+        "size": "med",
+        "traits": {
+            "rarity": "mythic",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "chimera-bloom"
+    },
+    "_id": "37MVSWKWQlLdJsbp",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The +2 apex item bonus to Strength and Constitution has no confirmed rule-element hook: real pf2e 'apex' items (Mask of Allure, Angelic Opera Cloak) grant FlatModifier item bonuses to specific skills tied to an ability, never to the raw ability score -- apex is a first-class Automatic Bonus Progression character-build attribute (system.build.attributes.apex, src/module/actor/character/data.ts:188,343), not something a generic item's rules set. Using both new Strikes as a single action, and the once-a-week forced-target rider, also have no hook: nothing reduces the action cost of two of an item's own granted Strikes together, and nothing lets a held item override the player's choice of attack target.",
+            "augmentKind": "biological",
+            "augmentType": "graft",
+            "tier": "mythic",
+            "slots": [
+                "Frame",
+                "Arm",
+                "Legs"
+            ],
+            "slotCost": 3,
+            "grade": 5,
+            "availability": "Wild",
+            "level": 19,
+            "load": "+9",
+            "resonance": "+7",
+            "augTags": [
+                "wild",
+                "apex"
+            ]
+        }
+    }
+}

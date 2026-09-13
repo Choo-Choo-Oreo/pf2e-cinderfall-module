@@ -1,0 +1,50 @@
+{
+    "name": "Nothing You Wear Was Ever Light",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
+        "description": {
+            "value": "<span class=\"sdesc\">A promise this size was never going to be comfortable. Your proficiency rank for heavy armor increases to master.</span>"
+        },
+        "level": {
+            "value": 15
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "system.proficiencies.defenses.heavy.rank",
+                "value": 3
+            }
+        ],
+        "traits": {
+            "otherTags": [],
+            "rarity": "common",
+            "value": [
+                "sworn"
+            ]
+        },
+        "slug": "nothing-you-wear-was-ever-light"
+    },
+    "_id": "QBoN0QagegdpbwJL",
+    "flags": {
+        "cinderfall": {
+            "grantedAtLevel": 15
+        }
+    }
+}

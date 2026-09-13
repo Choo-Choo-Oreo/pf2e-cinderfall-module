@@ -1,0 +1,54 @@
+{
+    "name": "Armor-Piercing Rifle Rounds (10)",
+    "type": "ammo",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": "rifle-rounds",
+        "bulk": {
+            "value": 0
+        },
+        "description": {
+            "value": "<p>Hardened penetrator cores. Ignores 5 points of non-magical resistance.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 0
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "traits": {
+            "rarity": "rare",
+            "value": [
+                "consumable"
+            ]
+        },
+        "price": {
+            "per": 10,
+            "value": {
+                "gp": 3
+            }
+        },
+        "craftableAs": [],
+        "uses": {
+            "autoDestroy": true,
+            "max": 1,
+            "value": 1
+        },
+        "slug": "ap-rounds-rifle"
+    },
+    "_id": "4jbUc78YXP5yZy2n",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "\"Ignores 5 points of non-magical resistance\" has no rule-element equivalent: confirmed against the real pf2e engine source (pf2e-source/src/module/rules/rule-element/damage-alteration/rule-element.ts:124, DamageAlterationProperty = \"dice-faces\"|\"dice-number\"|\"damage-type\"|\"tags\", and item-alteration/handlers.ts's full 24-property ITEM_ALTERATION_HANDLERS list) that neither DamageAlteration nor ItemAlteration has any resistance/weakness/immunity-bypassing property at all -- 0 hits for resistance/weakness/immunity in either file. No real pf2e material or rune ignores resistance this way either (cold iron/silver bypass specific creature vulnerabilities via the actor-side materials system, not a generic '-5 resistance' bypass)."
+        }
+    }
+}

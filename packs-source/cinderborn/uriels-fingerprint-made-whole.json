@@ -1,0 +1,44 @@
+{
+    "name": "Uriel's Fingerprint Made Whole",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "ancestry",
+        "description": {
+            "value": "<p>Become permanently immune to fire and gain strong resistance to radiation. The Choir of Ash treats you as a living relic.</p>"
+        },
+        "level": {
+            "value": 17
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "Immunity",
+                "type": "fire"
+            }
+        ],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "cinderborn"
+            ]
+        },
+        "slug": "uriels-fingerprint-made-whole"
+    },
+    "_id": "vwbpNBS5bpyfq6a1",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "'Gain strong resistance to radiation' states no formula or number -- 'strong' isn't a value, and reusing the standard max(1,floor(@actor.level/2)) tier would contradict the card's own claim that this is stronger than Banked Warmth's baseline. The fire immunity half is built above."
+        }
+    }
+}

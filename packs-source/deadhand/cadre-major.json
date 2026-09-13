@@ -1,0 +1,46 @@
+{
+    "name": "The Unit Outlives the Officer",
+    "type": "capstone",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p>When you drop to 0 Hit Points or die, your commands do not stop. Every ally who could hear you keeps the benefit of your last called command for one minute and may use it once per round without you. The unit you built goes on being a unit.</p>"
+        },
+        "level": {
+            "value": 20
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "otherTags": [
+                "deadhand-cadre"
+            ],
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "cadre-major"
+    },
+    "_id": "2pIpZLbQZS2ae3Et",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "On the caster's own drop/death, allies keep the last command's benefit for one minute, usable without the caster. Same \"nothing to extend\" gap as cadre-ascendant, compounded by persisting a benefit after its own source is removed -- no rule element tracks a since-removed passive's effect persisting.",
+            "track": "cadre"
+        }
+    }
+}

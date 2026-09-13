@@ -1,0 +1,43 @@
+{
+    "name": "Stoke the Flame",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "ancestry",
+        "description": {
+            "value": "<p>Heat Surge can be triggered as a reaction when struck, not only on your own turn.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Heat Surge"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "emberforged"
+            ]
+        },
+        "slug": "stoke-the-flame"
+    },
+    "_id": "oIf6BoVCDYyR1jdJ",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Changing Heat Surge's trigger from your own turn to a reaction when struck requires granting a new reaction action, which has no rule-element hook (Granting a new limited-use activated action/reaction has no rule-element hook in real pf2e -- confirmed corpus-wide this pass (Reactive Shield itself ships rules: []).)."
+        }
+    }
+}

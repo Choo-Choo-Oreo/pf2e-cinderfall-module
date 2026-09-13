@@ -25,7 +25,31 @@
             "remaster": true,
             "title": "Cinderfall"
         },
-        "rules": [],
+        "rules": [
+            {
+                "key": "ChoiceSet",
+                "flag": "basicTrade",
+                "prompt": "Choose Your Deadhand Feat",
+                "choices": {
+                    "itemType": "feat",
+                    "filter": [
+                        "item:category:class",
+                        {
+                            "or": [
+                                "item:slug:break-in-period",
+                                "item:slug:old-reliable",
+                                "item:slug:twice-is-practice",
+                                "item:slug:two-job-hands"
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "key": "GrantItem",
+                "uuid": "{item|flags.system.rulesSelections.basicTrade}"
+            }
+        ],
         "traits": {
             "rarity": "common",
             "value": [

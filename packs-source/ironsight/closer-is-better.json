@@ -24,8 +24,24 @@
             "remaster": true,
             "title": "Cinderfall"
         },
-        "rules": [],
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "attack",
+                "type": "circumstance",
+                "value": -1,
+                "predicate": [
+                    "item:ranged",
+                    {
+                        "not": "target:range-increment:1"
+                    }
+                ]
+            }
+        ],
         "traits": {
+            "otherTags": [
+                "ironsight-close-iron"
+            ],
             "rarity": "common",
             "value": [
                 "ironsight"
@@ -33,5 +49,10 @@
         },
         "slug": "closer-is-better"
     },
-    "_id": "1a6wSYFjDBNhxU3y"
+    "_id": "1a6wSYFjDBNhxU3y",
+    "flags": {
+        "cinderfall": {
+            "track": "close-iron"
+        }
+    }
 }

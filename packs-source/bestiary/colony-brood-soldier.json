@@ -309,14 +309,54 @@
                 }
             },
             "type": "action"
+        },
+        {
+            "_id": "BuNebFSrqGrhdkZS",
+            "img": "systems/pf2e/icons/default-icons/treasure.svg",
+            "name": "Chitin Plating",
+            "sort": 1400000,
+            "system": {
+                "bulk": {
+                    "value": 1
+                },
+                "category": "material",
+                "description": {
+                    "value": "<p>A section of chitin plating, light and surprisingly tough &mdash; scavengers layer it into makeshift armor.</p>"
+                },
+                "hardness": 0,
+                "hp": {
+                    "max": 0,
+                    "value": 0
+                },
+                "level": {
+                    "value": 0
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "quantity": 1,
+                "rules": [],
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                },
+                "price": {
+                    "value": {
+                        "gp": 1
+                    }
+                }
+            },
+            "type": "treasure"
         }
     ],
     "flags": {
+        "pf2e": {
+            "lootable": true
+        },
         "cinderfall": {
-            "alignment": "N",
-            "incomplete": [
-                "resistance note 'chitin' kept as text only"
-            ]
+            "alignment": "N"
         }
     }
 }

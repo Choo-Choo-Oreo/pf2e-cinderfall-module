@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "fleshmancer-butchers"
+            ],
             "rarity": "common",
             "value": [
                 "fleshmancer"
@@ -33,5 +36,11 @@
         },
         "slug": "butchers-discretion"
     },
-    "_id": "KAfe9AZlqAYzHy5z"
+    "_id": "KAfe9AZlqAYzHy5z",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The 1d6 bonus crit damage clause resembles DamageDice (a real key, confirmed in use at pf2e-source/packs/pf2e/feats/ancestry/automaton/level-1/energy-beam.json) but no minimal example close enough in shape was found to draft literal JSON without guessing unverified field values -- reported as plausibly buildable, not confidently drafted, so nothing is shipped. \"Apply the Graft's critical specialization effect\" is unhookable: homebrew Grafts have no defined weapon-group critical specialization to reference.",
+            "track": "butchers"
+        }
+    }
 }

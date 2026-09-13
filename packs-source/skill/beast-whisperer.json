@@ -1,0 +1,41 @@
+{
+    "name": "Beast Whisperer",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "skill",
+        "description": {
+            "value": "<p>Bonus to calm, direct, or handle mutant beasts and tamed creatures.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Trained in Nature"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "beast-whisperer"
+    },
+    "_id": "LNgn1NW4SKCYeqo5",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The card states a bonus but gives no numeric value, bonus type, or specific action tag to build a FlatModifier from without inventing one."
+        }
+    }
+}

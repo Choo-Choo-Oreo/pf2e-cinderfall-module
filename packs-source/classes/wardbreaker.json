@@ -1,0 +1,840 @@
+{
+    "name": "Wardbreaker",
+    "type": "class",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "ancestryFeatLevels": {
+            "value": [
+                1,
+                5,
+                9,
+                13,
+                17
+            ]
+        },
+        "attacks": {
+            "simple": 0,
+            "martial": 0,
+            "advanced": 0,
+            "unarmed": 0,
+            "other": {
+                "name": "ward weapon or implement",
+                "rank": 1
+            }
+        },
+        "classFeatLevels": {
+            "value": [
+                2,
+                4,
+                6,
+                8,
+                10,
+                12,
+                14,
+                16,
+                18,
+                20
+            ]
+        },
+        "defenses": {
+            "unarmored": 1,
+            "light": 1,
+            "medium": 1,
+            "heavy": 0
+        },
+        "description": {
+            "value": "<p>Every raging spirit is grieving something, and every haunted engine is still following an order nobody countermanded. Find the wound, and the monster stops being a monster for exactly as long as it takes to end it — or end its suffering instead.</p>"
+        },
+        "generalFeatLevels": {
+            "value": [
+                3,
+                7,
+                11,
+                15,
+                19
+            ]
+        },
+        "hp": 8,
+        "items": {
+            "wardbreaker.it-remembers-every-name-its-broken": {
+                "level": 17,
+                "name": "It Remembers Every Name It's Broken"
+            },
+            "wardbreaker.it-stopped-arguing-with-you": {
+                "level": 13,
+                "name": "It Stopped Arguing With You"
+            },
+            "wardbreaker.the-relic-knows-your-hand": {
+                "level": 11,
+                "name": "The Relic Knows Your Hand"
+            },
+            "wardbreaker.ward": {
+                "level": 1,
+                "name": "Choose Your Ward"
+            }
+        },
+        "keyAbility": {
+            "value": [
+                "int"
+            ]
+        },
+        "perception": 1,
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "savingThrows": {
+            "fortitude": 1,
+            "reflex": 1,
+            "will": 1
+        },
+        "skillFeatLevels": {
+            "value": [
+                2,
+                4,
+                6,
+                8,
+                10,
+                12,
+                14,
+                16,
+                18,
+                20
+            ]
+        },
+        "skillIncreaseLevels": {
+            "value": [
+                3,
+                5,
+                7,
+                9,
+                11,
+                13,
+                15,
+                17,
+                19
+            ]
+        },
+        "slug": "wardbreaker",
+        "spellcasting": 0,
+        "trainedSkills": {
+            "additional": 3,
+            "value": []
+        },
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "_id": "nv48ry7JVrPUWcAu",
+    "flags": {
+        "cinderfall": {
+            "tagline": "Every raging spirit is grieving something, and every haunted engine is still following an order nobody countermanded. Find the wound, and the monster stops being a monster for exactly as long as it takes to end it — or end its suffering instead.",
+            "role": "Exorcist / Anchor-Hunter",
+            "pillar": "Combat — Spiritual Faith turned to hunting, not worship",
+            "hpFormula": "8 + Con / level",
+            "keyAbilityText": "Intelligence",
+            "terms": [
+                [
+                    "The Ward",
+                    "Your bound relic — Blade, Lantern, Chain, or Mirror — carries a fragment of captured spirit-static and channels every anchor-rite you perform. Chosen at 1st level; it can be stolen, but never simply lost."
+                ],
+                [
+                    "Anchor",
+                    "The unresolved grief, trauma, or corrupted directive that keeps a raging spirit or hostile ghost-machine locked into violence instead of dissipating naturally. Every hostile haunting has exactly one, however deep it's buried."
+                ],
+                [
+                    "Static",
+                    "Your inborn early-warning sense — a prickle at the back molars, a hiss under the ears — that flares near an Anchor-bound hostile. Passive by default; can be focused deliberately into Naming an Anchor."
+                ],
+                [
+                    "Name the Anchor",
+                    "The act of reading a hostile spirit or ghost-machine closely enough to identify its Anchor. Success Names it for the rest of the encounter, unlocking your Ward's signature Break effect against that target specifically."
+                ],
+                [
+                    "Break the Anchor",
+                    "Your Ward's answer to a Named target — different for every Ward, from a blade that cuts straight past the rage to the grief underneath, to a chain offering the spirit a way to stop that isn't dissolution."
+                ],
+                [
+                    "Ward-Scrawled Charm",
+                    "A one-use chalk-and-ash sigil, prepared before you head out and torn or burned in the field for an immediate esoteric effect. You know a small repertoire and can only carry so many at once."
+                ]
+            ],
+            "classDC": [
+                {
+                    "term": "class dc",
+                    "rank": 1
+                }
+            ],
+            "progression": [
+                {
+                    "level": 1,
+                    "grants": [
+                        [
+                            "Choose your Ward",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Static Sense",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Name the Anchor",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Break the Anchor",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Ward-Scrawled Charms (2 prepared)",
+                            ",",
+                            null
+                        ],
+                        [
+                            " initial proficiencies (trained Perception, trained saves, trained Class DC, trained in your Ward's weapon or implement category)",
+                            ",",
+                            null
+                        ],
+                        [
+                            " ancestry feat",
+                            "",
+                            "ancestry feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Trained: light &amp",
+                            ";",
+                            null
+                        ],
+                        [
+                            " medium armor",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Class DC",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Fortitude",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Perception",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Reflex",
+                            ",",
+                            null
+                        ],
+                        [
+                            " unarmored defense",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Ward weapon or implement",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Will",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 2,
+                    "grants": [
+                        [
+                            "Skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Wardbreaker feat",
+                            "",
+                            "class feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 3,
+                    "grants": [
+                        [
+                            "General feat",
+                            ",",
+                            "general feat"
+                        ],
+                        [
+                            " skill increase",
+                            ",",
+                            "skill increase"
+                        ],
+                        [
+                            " expert Will",
+                            "",
+                            "expert will"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Expert: Will",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 4,
+                    "grants": [
+                        [
+                            "Skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Wardbreaker feat",
+                            "",
+                            "class feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 5,
+                    "grants": [
+                        [
+                            "Ability boosts",
+                            ",",
+                            "ability boosts"
+                        ],
+                        [
+                            " ancestry feat",
+                            ",",
+                            "ancestry feat"
+                        ],
+                        [
+                            " skill increase",
+                            ",",
+                            "skill increase"
+                        ],
+                        [
+                            " expert Perception",
+                            "",
+                            "expert perception"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Expert: Perception",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 6,
+                    "grants": [
+                        [
+                            "Skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Wardbreaker feat",
+                            "",
+                            "class feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 7,
+                    "grants": [
+                        [
+                            "General feat",
+                            ",",
+                            "general feat"
+                        ],
+                        [
+                            " skill increase",
+                            ",",
+                            "skill increase"
+                        ],
+                        [
+                            " expert Fortitude",
+                            ",",
+                            "expert fortitude"
+                        ],
+                        [
+                            " <strong>Ward feature II</strong>",
+                            ",",
+                            null
+                        ],
+                        [
+                            " expert Class DC",
+                            "",
+                            "expert class dc"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Expert: Class DC",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Fortitude",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 8,
+                    "grants": [
+                        [
+                            "Skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Wardbreaker feat",
+                            "",
+                            "class feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 9,
+                    "grants": [
+                        [
+                            "Ancestry feat",
+                            ",",
+                            "ancestry feat"
+                        ],
+                        [
+                            " skill increase",
+                            ",",
+                            "skill increase"
+                        ],
+                        [
+                            " <strong>Anchor Mastery</strong> (Named anchors persist across scenes; you may hold more than one Named target at once)",
+                            ",",
+                            null
+                        ],
+                        [
+                            " expert Reflex",
+                            "",
+                            "expert reflex"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Expert: Reflex",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 10,
+                    "grants": [
+                        [
+                            "Ability boosts",
+                            ",",
+                            "ability boosts"
+                        ],
+                        [
+                            " skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Wardbreaker feat",
+                            "",
+                            "class feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 11,
+                    "grants": [
+                        [
+                            "General feat",
+                            ",",
+                            "general feat"
+                        ],
+                        [
+                            " skill increase",
+                            ",",
+                            "skill increase"
+                        ],
+                        [
+                            " master Will",
+                            ",",
+                            "master will"
+                        ],
+                        [
+                            " expert Ward proficiency",
+                            "",
+                            null
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Expert: light &amp",
+                            ";",
+                            null
+                        ],
+                        [
+                            " medium armor",
+                            ",",
+                            null
+                        ],
+                        [
+                            " unarmored defense",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Ward weapon or implement",
+                            ";",
+                            null
+                        ],
+                        [
+                            " Master: Will",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 12,
+                    "grants": [
+                        [
+                            "Skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Wardbreaker feat",
+                            "",
+                            "class feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 13,
+                    "grants": [
+                        [
+                            "Ancestry feat",
+                            ",",
+                            "ancestry feat"
+                        ],
+                        [
+                            " skill increase",
+                            ",",
+                            "skill increase"
+                        ],
+                        [
+                            " master Perception",
+                            "",
+                            "master perception"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Master: Perception",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Ward weapon or implement",
+                            ";",
+                            null
+                        ],
+                        [
+                            " Legendary: Will",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 14,
+                    "grants": [
+                        [
+                            "Skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Wardbreaker feat",
+                            "",
+                            "class feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 15,
+                    "grants": [
+                        [
+                            "Ability boosts",
+                            ",",
+                            "ability boosts"
+                        ],
+                        [
+                            " general feat",
+                            ",",
+                            "general feat"
+                        ],
+                        [
+                            " skill increase",
+                            ",",
+                            "skill increase"
+                        ],
+                        [
+                            " <strong>Ward feature III (mastery)</strong>",
+                            ",",
+                            null
+                        ],
+                        [
+                            " master Fortitude",
+                            ",",
+                            "master fortitude"
+                        ],
+                        [
+                            " master Class DC",
+                            "",
+                            null
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Master: Class DC",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Fortitude",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 16,
+                    "grants": [
+                        [
+                            "Skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Wardbreaker feat",
+                            "",
+                            "class feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 17,
+                    "grants": [
+                        [
+                            "Ancestry feat",
+                            ",",
+                            "ancestry feat"
+                        ],
+                        [
+                            " skill increase",
+                            ",",
+                            "skill increase"
+                        ],
+                        [
+                            " master Reflex",
+                            ",",
+                            "master reflex"
+                        ],
+                        [
+                            " legendary Ward proficiency",
+                            "",
+                            null
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Master: Reflex",
+                            ";",
+                            null
+                        ],
+                        [
+                            " Legendary: Ward weapon or implement",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 18,
+                    "grants": [
+                        [
+                            "Skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Wardbreaker feat",
+                            "",
+                            "class feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 19,
+                    "grants": [
+                        [
+                            "General feat",
+                            ",",
+                            "general feat"
+                        ],
+                        [
+                            " skill increase",
+                            ",",
+                            "skill increase"
+                        ],
+                        [
+                            " <strong>Anchorless</strong> (19th-level capstone)",
+                            "",
+                            null
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Master: light &amp",
+                            ";",
+                            null
+                        ],
+                        [
+                            " medium armor",
+                            ",",
+                            null
+                        ],
+                        [
+                            " unarmored defense",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 20,
+                    "grants": [
+                        [
+                            "Ability boosts",
+                            ",",
+                            "ability boosts"
+                        ],
+                        [
+                            " skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Wardbreaker feat",
+                            ",",
+                            "class feat"
+                        ],
+                        [
+                            " <strong>the Last Reckoning</strong> (20th-level dual-fork capstone)",
+                            "",
+                            null
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                }
+            ]
+        }
+    }
+}

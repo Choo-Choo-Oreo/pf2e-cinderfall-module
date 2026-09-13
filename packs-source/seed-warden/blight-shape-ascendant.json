@@ -50,6 +50,7 @@
     "_id": "DWtcgwF8q3u5ohfx",
     "flags": {
         "cinderfall": {
+            "incomplete": "Blocked by `BLIGHTSHAPE-NULL` (no companion effect item exists for any Blight-Shape form to attach a bonus to) and `BLOOMROT-NULL` (which form/load is active isn't tracked). Even the \"free shift between forms\" clause needs the same missing form-tracking infrastructure.",
             "spellTag": "Bloom: either",
             "listing": "7th Rank"
         }

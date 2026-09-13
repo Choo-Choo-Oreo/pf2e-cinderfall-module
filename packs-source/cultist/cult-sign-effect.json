@@ -1,0 +1,62 @@
+{
+    "name": "Effect: Cult Sign",
+    "type": "effect",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "description": {
+            "value": "<p><em>Applied by <strong>Cult Sign</strong> to each affected ally.</em></p>\n<hr />\n<p>The target is marked with your patron's sigil, with no save. You and any ally who can see the sigil gain a +1 circumstance bonus to attack rolls and to Rite spell attack rolls against the marked creature. You always know the direction and rough distance to a creature carrying your sigil, even out of sight. Only one creature may carry your sigil at a time.</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "minutes",
+            "value": 10
+        },
+        "level": {
+            "value": 4
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "attack",
+                "type": "circumstance",
+                "value": 1,
+                "predicate": [
+                    "target:mark:cult-sign"
+                ]
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "spell-attack",
+                "type": "circumstance",
+                "value": 1,
+                "predicate": [
+                    "target:mark:cult-sign"
+                ]
+            }
+        ],
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "value": []
+        },
+        "slug": "cult-sign-effect"
+    },
+    "_id": "Z1YRTSPVQtC7Cnhu",
+    "flags": {
+        "cinderfall": {
+            "effectOf": "cultist.cult-sign",
+            "landsOn": "ally"
+        }
+    }
+}

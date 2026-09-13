@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "fleshmancer-grafters"
+            ],
             "rarity": "common",
             "value": [
                 "fleshmancer",
@@ -34,5 +37,11 @@
         },
         "slug": "talkative"
     },
-    "_id": "WNlRXUdbuOulOMIT"
+    "_id": "WNlRXUdbuOulOMIT",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "This effect changes a different creature's own roll, HP, condition, or item, sourced from the card holder's own passive/item/action. No selector exists anywhere in pf2e-source for this -- confirmed corpus-wide this pass. Both the Will-save penalty on a restrained target's future Coerce/Request saves and the Medicine bonus for the caster affect a different creature's future rolls/checks-against-it.",
+            "track": "grafters"
+        }
+    }
 }

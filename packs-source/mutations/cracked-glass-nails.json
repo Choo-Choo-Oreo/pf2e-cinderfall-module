@@ -24,7 +24,9 @@
             "type": null
         },
         "price": {
-            "value": {}
+            "value": {
+                "gp": 0
+            }
         },
         "publication": {
             "license": "ORC",
@@ -32,7 +34,14 @@
             "title": "Cinderfall"
         },
         "quantity": 1,
-        "rules": [],
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "crafting",
+                "type": "circumstance",
+                "value": 1
+            }
+        ],
         "size": "med",
         "traits": {
             "rarity": "rare",
@@ -46,21 +55,14 @@
     "_id": "RSkm560GkGmv42kd",
     "flags": {
         "cinderfall": {
+            "incomplete": "\"Any bare-handed check that fails by 5 or more leaves you clumsy 1 until filed smooth\" has no rule-element equivalent: no generic actor-level hook exists for 'inflict a condition on yourself when any check, of any kind, fails by 5+' -- pf2e's degree-of-failure consequences are always authored per-action (a spell's own critical-failure branch, an item's own effect), never as a standing actor-wide rule reacting to arbitrary checks.",
             "mutationType": "minor",
             "tier": "rare",
-            "slot": "Arm",
             "slots": [
                 "Arm"
             ],
             "slotCost": 1,
-            "roll": "d100 — 67–68",
-            "incomplete": [
-                "level is a stub (0); mutations carry no level",
-                "price is empty; a mutation is not bought"
-            ],
-            "inferred": [
-                "system.usage"
-            ]
+            "roll": "d100 — 67–68"
         }
     }
 }

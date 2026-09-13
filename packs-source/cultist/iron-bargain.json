@@ -1,0 +1,49 @@
+{
+    "name": "Iron Bargain",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>You gain a +1 circumstance bonus to Fortitude saves. This bonus is doubled against effects that specifically target your Zeal, your Rites, or your spellcasting.</p>"
+        },
+        "level": {
+            "value": 12
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "fortitude",
+                "type": "circumstance",
+                "value": 1
+            }
+        ],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "cultist"
+            ]
+        },
+        "slug": "iron-bargain"
+    },
+    "_id": "FXwuWtKnoilYAVMi",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "\"This bonus is doubled against effects that specifically target your Zeal, your Rites, or your spellcasting\" is blocked twice over: Zeal has no rule-element existence anywhere in this class to be \"targeted\" in the first place (cultist.bargain.json's own system.rules is only ChoiceSet+GrantItem -- no SpecialResource), and no predicate exists in pf2e-source distinguishing a save's target-of-attack at that granularity (\"this save is specifically against an effect targeting my Zeal/Rites/spellcasting\")."
+        }
+    }
+}

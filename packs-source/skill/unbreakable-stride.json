@@ -1,0 +1,36 @@
+{
+    "name": "Unbreakable Stride",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "skill",
+        "description": {
+            "value": "<p>Rubble, wreckage, and collapsed roadway stop being an obstacle at all. You ignore difficult terrain caused by rubble, debris, or wreckage, and treat greater difficult terrain from the same sources as merely difficult.</p>"
+        },
+        "level": {
+            "value": 14
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Master in Athletics"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "unbreakable-stride"
+    },
+    "_id": "I7geXpk3OcfY38P8"
+}

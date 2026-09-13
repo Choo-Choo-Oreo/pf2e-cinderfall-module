@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "paradise-touched-archive"
+            ],
             "rarity": "common",
             "value": [
                 "paradise-touched"
@@ -33,5 +36,10 @@
         },
         "slug": "cross-reference"
     },
-    "_id": "frH1YM1uZ3108FOj"
+    "_id": "frH1YM1uZ3108FOj",
+    "flags": {
+        "cinderfall": {
+            "track": "archive"
+        }
+    }
 }

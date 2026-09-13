@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "flavored"
+            ],
             "rarity": "common",
             "value": [
                 "reckoner"
@@ -33,5 +36,11 @@
         },
         "slug": "inspiral-ascendant"
     },
-    "_id": "EAyyOt6k6qKXj36x"
+    "_id": "EAyyOt6k6qKXj36x",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "THE ORBIT begins at full strength -- no forced-movement/pull/drag rule element exists anywhere in pf2e-source (NOMOVE), so THE ORBIT itself is unbuildable and this extension has nothing to hook.",
+            "flavored": true
+        }
+    }
 }

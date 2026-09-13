@@ -1,0 +1,48 @@
+{
+    "name": "Warframe",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
+        "description": {
+            "value": "<p>Bigger armor, bigger gun, smaller problems once you're standing in the way of them. The pattern of the wall that walks.</p><hr /><p><strong>FULL BURN —</strong> once per encounter, overclock your entire Rig for one round of drastically boosted output — at a steeper Slippage risk than a normal Redline.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "otherTags": [
+                "scrapwright-pattern"
+            ],
+            "rarity": "common",
+            "value": [
+                "scrapwright"
+            ]
+        },
+        "slug": "warframe"
+    },
+    "_id": "WiNC3Cla7RqWhp1j",
+    "flags": {
+        "cinderfall": {
+            "subclassOf": "scrapwright",
+            "subclassChoice": "Choose Your Pattern",
+            "subclassLayer": "pattern",
+            "role": "Heavy Integration · Front Line"
+        }
+    }
+}

@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "ironsight-long-iron"
+            ],
             "rarity": "common",
             "value": [
                 "ironsight",
@@ -34,5 +37,11 @@
         },
         "slug": "one-position-one-day"
     },
-    "_id": "ggIZK4HBElCxEDvf"
+    "_id": "ggIZK4HBElCxEDvf",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "the automatic-critical clause matches \"No rule element guarantees an outright success or converts... a success into a critical success from nothing\" (here it's actually already-a-hit → auto-crit, still the same \"manufacture a better outcome than the roll earned\" problem). This card's entire effect is a limited-use activated action/reaction that hands the actor a wholly new usable action -- per this pass's fixed bucket-3 convention this is always INCOMPLETE regardless of precedent. Ironsight's own real-world analog, the Gunslinger, ships this exact shape unencoded across dozens of its own Strike-variant/reload-trick/called-shot feats (e.g. pf2e-source/packs/pf2e/feats/class/gunslinger/level-10/called-shot.json, level-6/scatter-blast.json, level-1/dual-weapon-reload.json, all rules: []) -- confirming this is the standard shape for a gunfighter class, not license to SKIP. This is a cross-creature effect: it changes a DIFFERENT creature's own roll, HP, condition, healing, or item from the actor's own passive or activated ability, with no companion linked Effect item in this corpus to carry it (unlike the six real *-effect cards this class does have). No selector exists for this anywhere in pf2e-source.",
+            "track": "long-iron"
+        }
+    }
 }

@@ -27,5 +27,10 @@
         },
         "slug": "rolling-volley"
     },
-    "_id": "F8lEaPH87TKEZanO"
+    "_id": "F8lEaPH87TKEZanO",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Sequenced allies get +1/+2/+2(cap) circumstance to their attack rolls in turn. Same \"no companion, bare ally bonus\" gap as eyes-up/on-my-mark/redline-all-hands."
+        }
+    }
 }

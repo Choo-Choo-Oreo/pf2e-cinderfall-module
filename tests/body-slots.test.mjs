@@ -37,7 +37,7 @@ globalThis.foundry = {
 
 const here = dirname(fileURLToPath(import.meta.url));
 const root = join(here, "..");
-const { collectSlotCounts, collectInstalled, categoryForKey, slotBucketKey, buildPanelHTML } =
+const { collectSlotCounts, collectInstalled, categoryForKey, slotBucketKey, buildPanelHTML, augmentMatchesSlot, augmentKindLabel, slotsConflict } =
   await import("../scripts/body-tab.js");
 
 const NINE = ["Ocular", "Neural", "Frame", "Dermal", "Arm", "Legs", "Viscera", "Circulatory", "Inlays"];
@@ -211,6 +211,84 @@ ok(() => {
     `"dermal" and "Dermal" must merge into one slot, got ${Object.keys(counts.bodyWhole).join(", ")}`);
   const rows = (buildPanelHTML(actor).match(/data-action="edit-item" data-item-id="b1"/g) ?? []).length;
   assert.equal(rows, 2, "a two-slot item must occupy exactly two rows");
+});
+
+// 12. augmentMatchesSlot: case/alias-insensitive, and false for a slot the
+//     item does not occupy -- the picker's whole filter rests on this.
+ok(() => {
+  assert.ok(augmentMatchesSlot({ slots: ["Dermal"] }, "dermal"), "must match case-insensitively");
+  assert.ok(augmentMatchesSlot({ slots: ["inlay"] }, "Inlays"), "must match through the inlay/inlays alias");
+  assert.ok(!augmentMatchesSlot({ slots: ["Ocular"] }, "Arm"), "must not match an unrelated slot");
+  assert.ok(!augmentMatchesSlot({}, "Arm"), "an item with no slots array matches nothing");
+  assert.ok(augmentMatchesSlot({ slots: ["Frame", "Dermal", "Viscera"] }, "Viscera"),
+    "a multi-slot item must match on any one of its slots");
+});
+
+// 13. augmentKindLabel: mutationType wins over augmentKind (they never
+//     coexist in real data, but a card that carried both should not silently
+//     pick the wrong one), and an item with neither still gets a label.
+ok(() => {
+  assert.equal(augmentKindLabel({ mutationType: "major" }), "Mutation");
+  assert.equal(augmentKindLabel({ augmentKind: "cybernetic" }), "Cybernetic");
+  assert.equal(augmentKindLabel({ augmentKind: "biological" }), "Biological");
+  assert.equal(augmentKindLabel({}), "Augment");
+});
+
+// 14. THE PICKER'S REAL FAILURE MODE, pinned as a regression: biological and
+//     cybernetic augments carry augmentKind; mutations never do, and carry
+//     mutationType instead. Filtering the compendium on augmentKind alone
+//     (the obvious first instinct) would silently drop every one of the 94
+//     mutations from the picker with no error. Every card with a `slots`
+//     array must be classifiable AND matchable on each slot it names.
+ok(() => {
+  let checked = 0;
+  let mutationsWithAugmentKind = 0;
+  for (const dir of ["biological", "cybernetic", "mutations"]) {
+    for (const f of packFiles(dir)) {
+      const cf = readJSON(join(packDir(dir), f)).flags?.cinderfall ?? {};
+      if (!Array.isArray(cf.slots) || !cf.slots.length) continue;
+      checked += 1;
+      if (dir === "mutations" && cf.augmentKind) mutationsWithAugmentKind += 1;
+      const label = augmentKindLabel(cf);
+      assert.notEqual(label, "Augment", `${dir}/${f}: unclassifiable -- neither augmentKind nor mutationType`);
+      for (const k of cf.slots) {
+        assert.ok(augmentMatchesSlot(cf, k), `${dir}/${f}: does not match its own declared slot "${k}"`);
+      }
+    }
+  }
+  assert.ok(checked > 200, `expected 200+ slotted augments/mutations across the three folders, found ${checked}`);
+  assert.equal(mutationsWithAugmentKind, 0,
+    "a mutation now carries augmentKind -- augmentKindLabel's mutationType-first check may need revisiting");
+});
+
+// 15. THE PICKER'S "ONE AUGMENT PER SLOT" GUARANTEE, pinned as a regression.
+//     The site is explicit (cyber-augmentation.html:146,161): "One augment
+//     per slot" and multi-slot augments "lock out anything else in those
+//     slots." Measured live 2026-09-09: Ascension Frame ("every slot")
+//     installed on top of an existing Symbiote Mantle in Frame/Circulatory/
+//     Dermal/Viscera instead of being blocked from them.
+ok(() => {
+  const counts = collectSlotCounts(actorOf());
+  const mantle = item("mantle", "Symbiote Mantle", {
+    slot: "Frame + Circulatory + Dermal + Viscera (Multi-Slot)",
+    slots: ["Frame", "Circulatory", "Dermal", "Viscera"],
+    slotCost: 4,
+  });
+  const { byKey: installed } = collectInstalled(actorOf(mantle), counts);
+
+  const everySlot = { slots: ["Ocular", "Neural", "Frame", "Dermal", "Arm", "Legs", "Viscera", "Circulatory"] };
+  assert.ok(slotsConflict(everySlot, counts, installed),
+    "an every-slot candidate must conflict once ANY of its slots is occupied");
+
+  const armOnly = { slots: ["Arm"] };
+  assert.ok(!slotsConflict(armOnly, counts, installed),
+    "a candidate touching only genuinely empty slots must not be blocked");
+
+  const unsuppliedOnly = { slots: ["Not-A-Real-Slot"] };
+  assert.ok(!slotsConflict(unsuppliedOnly, counts, installed),
+    "a slot key the actor does not supply cannot be 'occupied' -- nothing can ever be installed there");
+
+  assert.ok(!slotsConflict({}, counts, installed), "an item with no slots array conflicts with nothing");
 });
 
 console.log(`body slots: ${checks}/${checks} checks passed`);

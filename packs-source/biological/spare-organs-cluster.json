@@ -1,0 +1,72 @@
+{
+    "name": "Spare Organs Cluster",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>A redundant liver, kidney, and spleen packed into the torso cavity. +2 item bonus to Fortitude saves; you recover from drained and enfeebled one step faster; once per day you ignore an effect that specifically damages or destroys an internal organ; poison and disease stages progress on you one step slower.</p><p><b>Donor:</b> A person's worth of spare parts — which is to say several people's. The GM has a small crowd to draw the donor thread from.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 14
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "mk": 5000
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "fortitude",
+                "type": "item",
+                "value": 2
+            }
+        ],
+        "size": "med",
+        "traits": {
+            "rarity": "epic",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "spare-organs-cluster"
+    },
+    "_id": "uzk7lKz3d4c6PVtn",
+    "flags": {
+        "cinderfall": {
+            "augmentKind": "biological",
+            "augmentType": "graft",
+            "tier": "epic",
+            "slots": [
+                "Viscera"
+            ],
+            "slotCost": 1,
+            "grade": 4,
+            "availability": "Grafted",
+            "level": 14,
+            "load": "+3",
+            "resonance": "+4"
+        }
+    }
+}

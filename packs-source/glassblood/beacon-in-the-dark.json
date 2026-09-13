@@ -1,0 +1,43 @@
+{
+    "name": "Beacon in the Dark",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "ancestry",
+        "description": {
+            "value": "<p>Intensify Ambient Glow on command into a real light source covering a wide area — useful as illumination, a distraction, or a signal.</p>"
+        },
+        "level": {
+            "value": 5
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Glow Control"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "glassblood"
+            ]
+        },
+        "slug": "beacon-in-the-dark"
+    },
+    "_id": "VymKtI7IGb04Zxah",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "A real tool exists for this (TokenLight rule element, confirmed real and player-facing via pf2e-source's Crystal Luminescence feat), but the card states no bright/dim radius to build from -- 'a real light source covering a wide area' isn't a foot value. The card states a bonus/effect but gives no numeric value or formula to build a rule element from without inventing one."
+        }
+    }
+}

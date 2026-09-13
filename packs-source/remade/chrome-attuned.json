@@ -1,0 +1,53 @@
+{
+    "name": "Chrome-attuned",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
+        "description": {
+            "value": "<p>Raises what your body can carry against Drift — Cyber City's punishment system — while bio's Load/Resonance still punishes you at the full standard rate. Discovered via the trust tier reachable through What's Bolted On; that shop's deeper stock suggests, never forces, this path.</p><hr /><p><b>Attunement Effect —</b> Read your Drift band one step lower for effect purposes (Drift 3 reads as Settling instead of Frayed, and so on).</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "RollOption",
+                "option": "chrome-attuned"
+            }
+        ],
+        "traits": {
+            "otherTags": [
+                "remade-attunement"
+            ],
+            "rarity": "common",
+            "value": [
+                "remade"
+            ]
+        },
+        "slug": "chrome-attuned"
+    },
+    "_id": "5tNaNLQnR2RBkNk8",
+    "flags": {
+        "cinderfall": {
+            "subclassOf": "remade",
+            "subclassChoice": "Choose Your Attunement",
+            "role": "Cyber City · Trust Tier",
+            "subclassLayer": "attunement"
+        }
+    }
+}

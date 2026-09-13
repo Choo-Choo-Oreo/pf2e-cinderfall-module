@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "deadhand-cadre"
+            ],
             "rarity": "common",
             "value": [
                 "deadhand"
@@ -33,5 +36,11 @@
         },
         "slug": "the-unit-holds"
     },
-    "_id": "xyQHQoY71QhCzwHb"
+    "_id": "xyQHQoY71QhCzwHb",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Every ally ends one condition of their choice (frightened/fleeing/sickened/stupefied/off-guard) and is immune to it for 1 minute; not usable on the caster. Condition removal and a following immunity window on multiple different creatures has no rule-element path -- the closest real precedent (Liberating Step) confirms the general effect-class ships unencoded but provides no actual hook, and this card's scale (every ally, their choice of condition, plus a following immunity window) goes further than any single real precedent found in this pass.",
+            "track": "cadre"
+        }
+    }
 }

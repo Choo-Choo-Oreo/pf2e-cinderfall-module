@@ -1,0 +1,48 @@
+{
+    "name": "Ghost-Rig",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
+        "description": {
+            "value": "<p>A scavenged chassis housing a scrap of unquiet soul-static. Small-to-medium construct ally that acts on your turn, fights beside you, and grows more <em>itself</em> as it levels — by Mk III it has opinions it didn't used to have.</p><hr /><p><strong>SIGNATURE —</strong> at Mk III, roll to see whether the bound fragment has enough coherence left to have a name. If it does, it remembers it forever.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "otherTags": [
+                "scrapwright-rig"
+            ],
+            "rarity": "common",
+            "value": [
+                "scrapwright"
+            ]
+        },
+        "slug": "ghost-rig"
+    },
+    "_id": "UKon8nOFgP6FzED6",
+    "flags": {
+        "cinderfall": {
+            "subclassOf": "scrapwright",
+            "subclassChoice": "Choose Your Rig",
+            "subclassLayer": "rig",
+            "role": "Construct Companion"
+        }
+    }
+}

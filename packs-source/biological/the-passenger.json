@@ -1,0 +1,83 @@
+{
+    "name": "The Passenger",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p><em>Every slot.</em> GM-permission item. Cells you were always carrying, cultured back into a body and given senses — where The Last Graft overwrites you with pieces of many donors, this is one donor who never finished being born. Darkvision, imprecise scent 30 feet, +2 item bonus to Perception from the Passenger's own independent senses. Once per day for 1 minute, the Passenger acts as a bonded second presence sharing your space — an extra skill or Aid action on your turn, no separate initiative needed.</p><p><b>Rider:</b> It isn't a tool, it's a roommate, permanently and not occasionally. It has one standing veto: once per session it can flatly refuse to let you take an action that would hurt whoever it's decided counts as \"family\" — no override, no negotiation in the moment.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 20
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "mk": 40000
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "perception",
+                "type": "item",
+                "value": 2
+            }
+        ],
+        "size": "med",
+        "traits": {
+            "rarity": "exotic",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "the-passenger"
+    },
+    "_id": "1dk1rRT2E5VDGG1I",
+    "flags": {
+        "cinderfall": {
+            "augmentKind": "biological",
+            "augmentType": "graft",
+            "tier": "exotic",
+            "slots": [
+                "Ocular",
+                "Neural",
+                "Frame",
+                "Dermal",
+                "Arm",
+                "Legs",
+                "Viscera",
+                "Circulatory"
+            ],
+            "slotCost": 8,
+            "grade": 5,
+            "availability": "Wild",
+            "level": 20,
+            "load": "+8",
+            "resonance": "→ 9",
+            "augTags": [
+                "wild",
+                "apex"
+            ]
+        }
+    }
+}

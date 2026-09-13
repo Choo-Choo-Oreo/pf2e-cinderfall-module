@@ -33,5 +33,10 @@
         },
         "slug": "guardians-momentum"
     },
-    "_id": "qVmwu2Dej1m1ZVQg"
+    "_id": "qVmwu2Dej1m1ZVQg",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Granting a new/extra limited-use activated action/reaction has no rule-element hook in real pf2e -- confirmed corpus-wide this pass (even real Reactive Shield and Reactive Strike ship rules: []). ('Answer it without using a reaction and without spending anything, plus a half-Speed Stride' grants an additional free use of an existing reaction-shaped ability.)"
+        }
+    }
 }

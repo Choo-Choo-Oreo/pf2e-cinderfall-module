@@ -1,0 +1,71 @@
+{
+    "name": "Hydraulic Arm",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>Full limb replacement. +1 item bonus to Athletics; count as one size larger for Shove and one-handed weapon Bulk; unarmed Strikes deal 1d6 bludgeoning with shove.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 6
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "gp": 250
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "athletics",
+                "type": "item",
+                "value": 1
+            }
+        ],
+        "size": "med",
+        "traits": {
+            "rarity": "uncommon",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "hydraulic-arm"
+    },
+    "_id": "H6oDj5eXna7HEuzE",
+    "flags": {
+        "cinderfall": {
+            "augmentKind": "cybernetic",
+            "augmentType": "implant",
+            "tier": "uncommon",
+            "slots": [
+                "Arm"
+            ],
+            "slotCost": 1,
+            "grade": 2,
+            "availability": "Licensed",
+            "level": 6,
+            "drift": "+2"
+        }
+    }
+}

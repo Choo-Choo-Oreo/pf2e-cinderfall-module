@@ -1,0 +1,43 @@
+{
+    "name": "Burning True",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "ancestry",
+        "description": {
+            "value": "<p>Ember Beneath the Skin can trigger multiple times per encounter instead of once per day.</p>"
+        },
+        "level": {
+            "value": 9
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Ember Beneath the Skin"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "cinderborn"
+            ]
+        },
+        "slug": "burning-true"
+    },
+    "_id": "UBTFzt6D3lxY5vHq",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Upgrades Ember Beneath the Skin, itself unbuildable (Granting a new limited-use activated action/reaction has no rule-element hook in real pf2e -- confirmed corpus-wide this pass (Reactive Shield itself ships rules: []).)."
+        }
+    }
+}

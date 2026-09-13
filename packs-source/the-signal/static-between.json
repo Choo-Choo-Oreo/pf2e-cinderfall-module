@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "the-signal-numbers"
+            ],
             "rarity": "common",
             "value": [
                 "the-signal"
@@ -33,5 +36,11 @@
         },
         "slug": "static-between"
     },
-    "_id": "5mbkQLahmIWKxaVi"
+    "_id": "5mbkQLahmIWKxaVi",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "SB4 — extends a base aura (Numbers' −1 to Will) that is itself unencoded. All three Frequency-track base auras (Numbers, Open Band, Requiem, and their action-card twins) ship \"rules\": [] despite describing at-will auras with real numbers. Buildable in principle via Aura + a companion effect (same shape as SB3), unbuildable in practice because no such companion item exists, and because the base aura's own radius/uptime is itself gated on the un-encoded Broadcast (SB3).",
+            "track": "numbers"
+        }
+    }
 }

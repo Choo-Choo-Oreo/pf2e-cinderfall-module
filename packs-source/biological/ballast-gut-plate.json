@@ -1,0 +1,90 @@
+{
+    "name": "Ballast Gut-Plate",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>A cultured weighted keel grown along the abdomen and pelvis. You cannot be knocked prone except on a critical hit; +2 circumstance bonus to your DCs against Shove, Trip, Reposition, and forced movement, and to Balance. –5-foot penalty to all Speeds.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 9
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "mk": 700
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "saving-throw",
+                "type": "circumstance",
+                "value": 2,
+                "predicate": [
+                    "forced-movement"
+                ]
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "acrobatics",
+                "type": "circumstance",
+                "value": 2,
+                "predicate": [
+                    "action:balance"
+                ]
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "land-speed",
+                "value": -5
+            }
+        ],
+        "size": "med",
+        "traits": {
+            "rarity": "rare",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "ballast-gut-plate"
+    },
+    "_id": "yoXNYYA5efh3Y3ul",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The bonus to your DCs against Shove/Trip/Reposition specifically, and immunity to being knocked prone except on a critical hit, have no clean hook: no selector exists for 'a bonus to the DC another creature rolls against your maneuver defense' (the one real precedent found, alchemist-goggles.json's EphemeralEffect, only targets attack rolls), and a blanket Fortitude/Reflex bonus would overstate a narrower claim. The forced-movement save bonus, Balance bonus, and Speed penalty above are real and automated.",
+            "augmentKind": "biological",
+            "augmentType": "graft",
+            "tier": "rare",
+            "slots": [
+                "Frame"
+            ],
+            "slotCost": 1,
+            "grade": 3,
+            "availability": "Cultured",
+            "level": 9,
+            "load": "+3",
+            "resonance": "+1"
+        }
+    }
+}

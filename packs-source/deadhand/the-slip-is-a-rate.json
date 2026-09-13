@@ -33,5 +33,10 @@
         },
         "slug": "the-slip-is-a-rate"
     },
-    "_id": "Fmh6vIHOtbwVQI4E"
+    "_id": "Fmh6vIHOtbwVQI4E",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Roll twice on the Slip table and choose either; doesn't stack with Slip Ward's reroll or Redline Focus's downgrade. Deadhand's Slip table is entirely homebrew with zero schema footprint anywhere in this corpus."
+        }
+    }
 }

@@ -1,0 +1,52 @@
+{
+    "name": "Iron Composure",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>You gain a +1 circumstance bonus to saving throws against effects that would make you frightened, sickened, or stupefied.</p>"
+        },
+        "level": {
+            "value": 8
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "saving-throw",
+                "type": "circumstance",
+                "value": 1,
+                "predicate": [
+                    "item:trait:fear"
+                ]
+            }
+        ],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "cultist"
+            ]
+        },
+        "slug": "iron-composure"
+    },
+    "_id": "wJWsjybGrs2LHkKG",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The sickened/stupefied clause has no clean predicate: unlike fear, neither sickened nor stupefied has a single universal pf2e trait covering their sources (sickened sources are frequently poison/disease-trait, not uniformly tagged; stupefied sources are frequently but not always mental-trait) -- no predicate covers \"any effect that would impose sickened or stupefied\" without also excluding real cases or including unintended ones."
+        }
+    }
+}

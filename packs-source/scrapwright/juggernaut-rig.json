@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "flavored"
+            ],
             "rarity": "common",
             "value": [
                 "scrapwright"
@@ -33,5 +36,11 @@
         },
         "slug": "juggernaut-rig"
     },
-    "_id": "oiZOoXx2TNjNOkzo"
+    "_id": "oiZOoXx2TNjNOkzo",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Triggered/activated temp-HP-only grant (would be SKIP on that basis alone) and the pool it grants belongs to \"the Rig's own\" HP, i.e. presupposes the Rig has a real, separately-tracked HP total -- [RIG-NO-ACTOR]/[RIG-GENERIC-AMBIGUOUS]. Called INCOMPLETE rather than SKIP because the structural blocker (no HP pool exists to attach temp HP to) is the dominant reason, not merely the triggered-grant convention.",
+            "flavored": true
+        }
+    }
 }

@@ -1,0 +1,47 @@
+{
+    "name": "Scrap-Bound Chassis",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
+        "description": {
+            "value": "<span class=\"sdesc\">A cobbled-together frame — servo motors from a dead loader-bot, a fuel-drum torso, optics scavenged from a traffic camera — animated by a single Tiny fragment of Ghost-Static bound into its core. It fights, flanks, and hauls at your Command an Action, carries a light shield or basic melee slam, and has just enough of its donor soul left in it to flinch at loud noises and hate the cold. It's a tool that happens to twitch.</span>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "otherTags": [],
+            "rarity": "common",
+            "value": [
+                "scrapwright"
+            ]
+        },
+        "slug": "scrap-bound-chassis"
+    },
+    "_id": "3PDHGGagrDug9dAu",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "[RIG-NO-ACTOR].",
+            "spellTag": "Mk I · 1st",
+            "ghostRigTier": "Mk I",
+            "grantedAtLevel": 1,
+            "notSpell": "scrapwright's class document carries system.spellcasting 0, so this is an ability, not a spell, and convert_class_spells.py declines it by design as a NON_CASTERS owner"
+        }
+    }
+}

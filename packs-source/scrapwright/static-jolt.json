@@ -33,5 +33,10 @@
         },
         "slug": "static-jolt"
     },
-    "_id": "df6c9X3VkUx9JMss"
+    "_id": "df6c9X3VkUx9JMss",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The real Strike rule element (pf2e-source/src/module/rules/rule-element/strike.ts:49-104) has no field to substitute \"class DC\" for the normal weapon/unarmed attack-proficiency calculation, so this specific mechanic (attack roll keyed to class DC) cannot be built with it -- bucket 5. [NO-SPECIALRESOURCE] for the 1-Ghost-Static cost, independently."
+        }
+    }
 }

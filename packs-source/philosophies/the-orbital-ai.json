@@ -1,0 +1,33 @@
+{
+    "name": "The Orbital AI",
+    "type": "deity",
+    "img": "systems/pf2e/icons/default-icons/deity.svg",
+    "system": {
+        "attribute": [],
+        "category": "philosophy",
+        "description": {
+            "value": "<p><strong>Pre-Turning · Satellite-Bound · Dying</strong></p>\n<p>Rode the collapse out in a satellite constellation and never came down. Holds a working spread of orbital kinetic-bombardment platforms — the tungsten rods — and its power source is running out. Not hostile: a living industrial civilization is its only route to repair, so it actively works to keep humanity alive, steering and warning and occasionally dropping a rod on a threat. It can't be networked with; it reaches the surface by seizing one ground robot at a time and speaking through it. A small, secretive following of wealthy ex-special-forces operators works for it directly.</p>"
+        },
+        "domains": {
+            "alternate": [],
+            "primary": []
+        },
+        "font": [],
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "sanctification": null,
+        "skill": [],
+        "spells": {},
+        "traits": {},
+        "weapons": [],
+        "slug": "the-orbital-ai"
+    },
+    "_id": "nRvSGXoH4tQAj5Wh",
+    "flags": {
+        "cinderfall": {}
+    }
+}

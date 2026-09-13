@@ -52,6 +52,7 @@
     "_id": "LiBDalJRwnbKIz27",
     "flags": {
         "cinderfall": {
+            "incomplete": "Choose 1 (Signal: 2) of: gravity direction / all-damage-becomes-force / nothing-can-die, in a burst for 1 minute. Rewriting gravity, universally retyping all damage in an area, and suspending the dying rule for everyone in an area are three separate bespoke world-state overrides with zero rule-element equivalent; also cross-creature-adjacent since it alters outcomes for every creature in the area, not just the caster.",
             "spellTag": "15th · 3 Bandwidth",
             "listing": "Glimpses / The Render Paradise building the world it wants"
         }

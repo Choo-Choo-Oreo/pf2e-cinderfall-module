@@ -33,5 +33,10 @@
         },
         "slug": "two-voices-at-once"
     },
-    "_id": "XWcOrP9EU07o1517"
+    "_id": "XWcOrP9EU07o1517",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Spends \"double Toll (minimum 2),\" which has zero rule-element representation anywhere in the corpus -- the doubled-cost mechanic has nothing to double. Its prerequisite, \"Widen the Hollow,\" is a level-5 baseline class-progression grant described only in classes.hollowbound.json's flags.cinderfall.progression table, not a card of its own anywhere in this corpus -- there is no base \"second dormant spirit slot\" mechanic to attach a Parley-cost-doubling rule to either."
+        }
+    }
 }

@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "deadhand-second"
+            ],
             "rarity": "common",
             "value": [
                 "deadhand"
@@ -33,5 +36,11 @@
         },
         "slug": "watch-the-hands"
     },
-    "_id": "MilTf2PEXjVAhKLV"
+    "_id": "MilTf2PEXjVAhKLV",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "On the mark using a visible action: learn the action before it resolves; +2 circumstance to AC/save against it, or redirect that bonus to an ally within 30 feet. No rule element grants foreknowledge of a resolving action's identity, and the ally-redirect branch has no selector reaching a different creature's own roll -- compounded by the confirmed-unfireable mark predicate.",
+            "track": "second"
+        }
+    }
 }

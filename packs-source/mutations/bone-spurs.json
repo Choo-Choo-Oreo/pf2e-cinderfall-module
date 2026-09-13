@@ -24,7 +24,9 @@
             "type": null
         },
         "price": {
-            "value": {}
+            "value": {
+                "gp": 0
+            }
         },
         "publication": {
             "license": "ORC",
@@ -32,7 +34,28 @@
             "title": "Cinderfall"
         },
         "quantity": 1,
-        "rules": [],
+        "rules": [
+            {
+                "key": "Strike",
+                "slug": "bone-spurs",
+                "label": "Bone Spurs",
+                "category": "unarmed",
+                "group": "brawling",
+                "img": "systems/pf2e/icons/unarmed-attacks/fist.webp",
+                "range": null,
+                "traits": [
+                    "unarmed",
+                    "finesse"
+                ],
+                "damage": {
+                    "base": {
+                        "damageType": "slashing",
+                        "dice": 1,
+                        "die": "d6"
+                    }
+                }
+            }
+        ],
         "size": "med",
         "traits": {
             "rarity": "uncommon",
@@ -48,19 +71,11 @@
         "cinderfall": {
             "mutationType": "major",
             "tier": "uncommon",
-            "slot": "Arm",
             "slots": [
                 "Arm"
             ],
             "slotCost": 1,
-            "roll": "d20 — 2",
-            "incomplete": [
-                "level is a stub (0); mutations carry no level",
-                "price is empty; a mutation is not bought"
-            ],
-            "inferred": [
-                "system.usage"
-            ]
+            "roll": "d20 — 2"
         }
     }
 }

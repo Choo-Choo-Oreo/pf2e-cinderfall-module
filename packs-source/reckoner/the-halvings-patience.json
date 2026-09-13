@@ -33,5 +33,10 @@
         },
         "slug": "the-halvings-patience"
     },
-    "_id": "gCxhxoDVcLsvjeMU"
+    "_id": "gCxhxoDVcLsvjeMU",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The Reckoning's morning-reset and first-advance-of-the-day suppression -- the Reckoning (this class's own 4-stage penalty track) has zero Foundry-schema footprint: classes.reckoner.json ships \"rules\": [] and defines no SpecialResource, counter, or stage-tracking rule element of any kind to hook. See feats-class-reckoner-draft.md (RECKONING-BLOCKER)."
+        }
+    }
 }

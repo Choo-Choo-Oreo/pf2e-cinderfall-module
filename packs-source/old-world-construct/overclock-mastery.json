@@ -1,0 +1,43 @@
+{
+    "name": "Overclock Mastery",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "ancestry",
+        "description": {
+            "value": "<p>Overclock can be used twice per day, and no longer leaves you vulnerable afterward.</p>"
+        },
+        "level": {
+            "value": 9
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Overclock"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "old-world-construct"
+            ]
+        },
+        "slug": "overclock-mastery"
+    },
+    "_id": "i8Bu8Xa5icF5taCb",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Upgrades Overclock, itself unbuildable (Granting a new limited-use activated action/reaction has no rule-element hook in real pf2e -- confirmed corpus-wide this pass (Reactive Shield itself ships rules: []).)."
+        }
+    }
+}

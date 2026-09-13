@@ -1,0 +1,43 @@
+{
+    "name": "Archive Complete",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "ancestry",
+        "description": {
+            "value": "<p>Automatically succeed at Recall Knowledge checks about pre-Turning history, technology, or institutions.</p>"
+        },
+        "level": {
+            "value": 13
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Archive-Line heritage or Old-World Protocol"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "old-world-construct"
+            ]
+        },
+        "slug": "archive-complete"
+    },
+    "_id": "b4fNQOWlVHFigcIP",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Recall-Knowledge-about-a-specific-lore-topic bonuses have no predicate hook -- confirmed via liminal-catfolk.json's real but trait-scoped precedent; a free-text lore topic like this one can't be targeted. There is no rule-element that guarantees an outright success or converts a failed save/check to a success after the fact; AdjustDegreeOfSuccess only shifts the degree of an actual roll."
+        }
+    }
+}

@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "the-signal-openband"
+            ],
             "rarity": "common",
             "value": [
                 "the-signal"
@@ -33,5 +36,11 @@
         },
         "slug": "the-whole-story"
     },
-    "_id": "sDSzhPqXBP00C05s"
+    "_id": "sDSzhPqXBP00C05s",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Same compulsion-effect reasoning as Riot and The Long Wave, but as a **feat** rather than a spell — treated as INCOMPLETE rather than SKIP/REAL since it isn't covered by the spell-convention statistic (P3 only measured spells) and no real player-feat precedent for \"forces a truthful spoken answer\" was found in the time available.",
+            "track": "openband"
+        }
+    }
 }

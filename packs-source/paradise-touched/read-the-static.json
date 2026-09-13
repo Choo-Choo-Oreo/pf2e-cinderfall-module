@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "paradise-touched-sig"
+            ],
             "rarity": "common",
             "value": [
                 "paradise-touched"
@@ -33,5 +36,10 @@
         },
         "slug": "read-the-static"
     },
-    "_id": "N5ASPtoUD9bnXs30"
+    "_id": "N5ASPtoUD9bnXs30",
+    "flags": {
+        "cinderfall": {
+            "track": "sig"
+        }
+    }
 }

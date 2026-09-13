@@ -1,0 +1,43 @@
+{
+    "name": "Cold Iron Mastery",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "ancestry",
+        "description": {
+            "value": "<p>Remove the vulnerability to cold and water-based effects entirely.</p>"
+        },
+        "level": {
+            "value": 13
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Cold Iron Nerve"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "emberforged"
+            ]
+        },
+        "slug": "cold-iron-mastery"
+    },
+    "_id": "iJfaSnvkLwiBO64Z",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Removing or reducing a Weakness granted by a separate ancestry-feature card isn't expressible: Weakness values from multiple sources don't subtract, only the highest applies, and there is no rule-element for negating another item's Weakness."
+        }
+    }
+}

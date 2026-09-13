@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "ironsight-twin-iron"
+            ],
             "rarity": "common",
             "value": [
                 "ironsight"
@@ -33,5 +36,11 @@
         },
         "slug": "quickdraw-mastery"
     },
-    "_id": "3i2njbffE51CXu3k"
+    "_id": "3i2njbffE51CXu3k",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "same initiative-order-override problem as already-in-the- sights: grepped for \"act first\"/\"acts first\" across pf2e-source/packs/pf2e/ feats, zero hits; no rule-element hook into combat-tracker sequencing exists.",
+            "track": "twin-iron"
+        }
+    }
 }

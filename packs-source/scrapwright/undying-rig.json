@@ -34,5 +34,10 @@
         },
         "slug": "undying-rig"
     },
-    "_id": "WzPvFLGvEEsbXjlM"
+    "_id": "WzPvFLGvEEsbXjlM",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "[RIG-NO-ACTOR]/[RIG-GENERIC-AMBIGUOUS] -- restoring \"the Rig's\" HP/tier/mods presupposes those are tracked game-state values (true only if Rig = a companion actor, which doesn't exist); for Iron Lung/Widowmaker there's no \"destroyed gear\" state machine either. Not purely narrative (it references concrete restorable data), so INCOMPLETE rather than SKIP."
+        }
+    }
 }

@@ -24,7 +24,9 @@
             "type": null
         },
         "price": {
-            "value": {}
+            "value": {
+                "gp": 0
+            }
         },
         "publication": {
             "license": "ORC",
@@ -46,21 +48,14 @@
     "_id": "KsMzPrWxkZGdNyRJ",
     "flags": {
         "cinderfall": {
+            "incomplete": "The once-per-day reaction that removes fatigued, sickened, or frightened when dropping below half HP has no rule-element equivalent: it is a limited-use, player-choice-of-one-condition reaction, not a passive always-on effect, and granting it requires a new Reaction-type item (same class of gap as Loyal-Blood/Second-Skin).",
             "mutationType": "major",
             "tier": "rare",
-            "slot": "Viscera",
             "slots": [
                 "Viscera"
             ],
             "slotCost": 1,
-            "roll": "d20 — 9",
-            "incomplete": [
-                "level is a stub (0); mutations carry no level",
-                "price is empty; a mutation is not bought"
-            ],
-            "inferred": [
-                "system.usage"
-            ]
+            "roll": "d20 — 9"
         }
     }
 }

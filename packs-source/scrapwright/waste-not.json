@@ -27,5 +27,10 @@
         },
         "slug": "waste-not"
     },
-    "_id": "p5RPK9VdR3LR6r1O"
+    "_id": "p5RPK9VdR3LR6r1O",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "[NO-SPECIALRESOURCE] -- bare resource-regen grant, same carve-out as Salvage Surge/Scavenger."
+        }
+    }
 }

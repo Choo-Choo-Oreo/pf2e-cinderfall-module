@@ -3,16 +3,28 @@
     "type": "deity",
     "img": "systems/pf2e/icons/default-icons/deity.svg",
     "system": {
-        "attribute": [],
+        "attribute": [
+            "cha",
+            "dex"
+        ],
         "category": "deity",
         "description": {
-            "value": "<p><strong>Luck & Risk</strong></p>\n<p>Treats every wager, gunfight, and gamble in the wasteland as a table it's already sitting at. Rewards bold bets; punishes hedging.</p>"
+            "value": "<p><strong>Luck & Risk</strong></p>\n<p>Treats every wager, gunfight, and gamble in the wasteland as a table it's already sitting at. Rewards bold bets; punishes hedging. It never cheats — it doesn't have to. It just states the odds exactly and lets the wasteland do the rest.</p>\n<p><strong>Areas of Concern</strong> gambling, fair odds, cruel reversal of fortune</p>\n<p><strong>Edicts</strong> state the true odds before any wager; let every game run its full course, win or lose; reward audacity</p>\n<p><strong>Anathema</strong> rig a game in your own favor; refuse a bet once the terms are set; show mercy to someone who folds early</p>\n<p><strong>Religious Symbol</strong> a die frozen mid-roll</p>\n<p><strong>Sacred Animal</strong> magpie</p>\n<p><strong>Sacred Colors</strong> felt green, chip red, dealer white</p>"
         },
         "domains": {
-            "alternate": [],
-            "primary": []
+            "alternate": [
+                "destruction",
+                "indulgence"
+            ],
+            "primary": [
+                "fate",
+                "trickery"
+            ]
         },
-        "font": [],
+        "font": [
+            "harm",
+            "heal"
+        ],
         "publication": {
             "license": "ORC",
             "remaster": true,
@@ -20,19 +32,22 @@
         },
         "rules": [],
         "sanctification": null,
-        "skill": [],
-        "spells": {},
+        "skill": [
+            "society"
+        ],
+        "spells": {
+            "1": "Compendium.pf2e.spells-srd.Item.Sure Strike",
+            "2": "Compendium.pf2e.spells-srd.Item.Lucky Number",
+            "6": "Compendium.pf2e.spells-srd.Item.Fateful Condemnation"
+        },
         "traits": {},
-        "weapons": [],
+        "weapons": [
+            "starknife"
+        ],
         "slug": "the-croupier"
     },
     "_id": "0gRxOQIl6F9Y5qKV",
     "flags": {
-        "cinderfall": {
-            "define": "Luck & Risk",
-            "incomplete": [
-                "STUB -- no mechanics authored. Missing every pf2e deity field: attribute, domains, font, sanctification, skill, spells, weapons. `category` is a default of 'deity' and may need to be philosophy or pantheon. See .claude/docs/todo.md."
-            ]
-        }
+        "cinderfall": {}
     }
 }

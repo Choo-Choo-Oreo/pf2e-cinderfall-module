@@ -35,5 +35,10 @@
         },
         "slug": "redundant-systems"
     },
-    "_id": "kSgYotU67zNs2vRp"
+    "_id": "kSgYotU67zNs2vRp",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The once-per-day reaction to ignore a newly-gained condition for 1 round has no engine hook: no rule element grants a new usable reaction (same absence as Reactive Shield), and there is no rule element that suppresses an already-applied condition's effects for a fixed duration -- only permanent Immunity exists, which would overstate this as blanket immunity rather than a once-a-day, one-round reprieve."
+        }
+    }
 }

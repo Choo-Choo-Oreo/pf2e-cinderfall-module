@@ -33,5 +33,10 @@
         },
         "slug": "salvage-surge"
     },
-    "_id": "8S1ZOVxilwk9Sw11"
+    "_id": "8S1ZOVxilwk9Sw11",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "[NO-SPECIALRESOURCE] -- the card's only content is a bare resource grant with no real Foundry-schema resource behind it (Ghost-Static has no SpecialResource defined on classes.scrapwright.json)."
+        }
+    }
 }

@@ -1,0 +1,48 @@
+{
+    "name": "Reliquary",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
+        "description": {
+            "value": "<p>You don't just wire scrap together — you bind soul-code into it and let it run. The pattern that edges closest to Faith and pays for it in strange dreams.</p><hr /><p><strong>SOUL-CODE DOWNLOAD —</strong> once per day, run a salvaged fragment of soul-code as a minor utility effect (short telepathy with a bound spirit, a flash exorcism zap, borrowed sight through your Rig's sensors).</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "otherTags": [
+                "scrapwright-pattern"
+            ],
+            "rarity": "common",
+            "value": [
+                "scrapwright"
+            ]
+        },
+        "slug": "reliquary"
+    },
+    "_id": "x56VjojyqQwpyG6v",
+    "flags": {
+        "cinderfall": {
+            "subclassOf": "scrapwright",
+            "subclassChoice": "Choose Your Pattern",
+            "subclassLayer": "pattern",
+            "role": "Soul-Tech · Quasi-Magical"
+        }
+    }
+}

@@ -1,0 +1,56 @@
+{
+    "name": "Effect: Borrowed Certainty",
+    "type": "effect",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "description": {
+            "value": "<p><em>Applied by <strong>Borrowed Certainty</strong> to the target.</em></p>\n<hr />\n<p>The target gains a +1 status bonus to attack rolls and Will saves. <i>Signal</i> the bonus applies to all the target's saves, not only Will. They are borrowing somebody else's conviction, and it is not clear whose.</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "minutes",
+            "value": 1
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "attack",
+                "type": "status",
+                "value": 1
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "will",
+                "type": "status",
+                "value": 1
+            }
+        ],
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "value": []
+        },
+        "slug": "borrowed-certainty-effect"
+    },
+    "_id": "ubz9y8hBeYaE8OWR",
+    "flags": {
+        "cinderfall": {
+            "effectOf": "paradise-touched.borrowed-certainty",
+            "landsOn": "target"
+        }
+    }
+}

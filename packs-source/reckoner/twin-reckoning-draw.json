@@ -33,5 +33,10 @@
         },
         "slug": "twin-reckoning-draw"
     },
-    "_id": "eWm9Vxk5Q383baz2"
+    "_id": "eWm9Vxk5Q383baz2",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Advancing the Reckoning by two stages -- the Reckoning (this class's own 4-stage penalty track) has zero Foundry-schema footprint: classes.reckoner.json ships \"rules\": [] and defines no SpecialResource, counter, or stage-tracking rule element of any kind to hook. See feats-class-reckoner-draft.md (RECKONING-BLOCKER)."
+        }
+    }
 }

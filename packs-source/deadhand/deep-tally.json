@@ -33,5 +33,10 @@
         },
         "slug": "deep-tally"
     },
-    "_id": "NdDDkN6UzGTbleU5"
+    "_id": "NdDDkN6UzGTbleU5",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Raises the caster's Tally cap by 1. Deadhand's Tally is entirely homebrew with zero schema footprint anywhere in this corpus."
+        }
+    }
 }

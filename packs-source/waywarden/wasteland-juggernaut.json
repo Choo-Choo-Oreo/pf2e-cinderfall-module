@@ -33,5 +33,10 @@
         },
         "slug": "wasteland-juggernaut"
     },
-    "_id": "Uu1lx5wy7TQIhnBV"
+    "_id": "Uu1lx5wy7TQIhnBV",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "A recurring temp-HP grant to a *different* actor. Confirmed no such cross-actor pattern exists: grep -rl \"TempHP\" pf2e-source/packs/pf2e/feats/class/ranger/ pf2e-source/packs/pf2e/ class-features/ | grep -i companion returns zero hits. This effect buffs, protects, or grants actions to the Feral Bond (the companion beast) from the holder's own card. No rule-element selector in pf2e-source lets one actor's item grant a stat bonus, temp HP, an extra action, or a shared sense to a different actor's sheet -- confirmed by spot-checking real pf2e's own fully-built Animal Companion subsystem (Ranger/Druid), where virtually every companion-buff/companion-action-economy feat ships with rules: [] too."
+        }
+    }
 }

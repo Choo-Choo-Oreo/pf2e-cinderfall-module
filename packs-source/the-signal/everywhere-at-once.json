@@ -33,5 +33,10 @@
         },
         "slug": "everywhere-at-once"
     },
-    "_id": "lX43WXrckZWM0WWp"
+    "_id": "lX43WXrckZWM0WWp",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "SB3 — modifies a range value on an item (Broadcast) that doesn't exist in this file set. No \"Broadcast\" stance/aura item is ever instantiated as an Item with its own system.rules anywhere in this corpus. The shape (a stance whose aura buffs allies) is real and buildable in pf2e via Aura + a companion effect item -- but no such Broadcast item exists among this class's files to attach a rule element to."
+        }
+    }
 }

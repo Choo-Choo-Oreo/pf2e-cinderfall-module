@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "ironsight-long-iron"
+            ],
             "rarity": "common",
             "value": [
                 "ironsight"
@@ -33,5 +36,11 @@
         },
         "slug": "long-iron-ascendant"
     },
-    "_id": "0kpVEAwK7Vr2Fzxe"
+    "_id": "0kpVEAwK7Vr2Fzxe",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "modifies the unencoded called-shot parent (see above), plus on its own terms. This card depends on (upgrades, extends, or is gated behind) another Ironsight card in this same package that itself ships rules: [] -- if the parent has nothing real to build on, the child has nothing real to extend either. \"Ignore/downgrade cover\" clauses have no confirmed rule element: the full rule-element/ directory listing contains nothing named for cover. This is flagged rather than asserted as a confirmed absence, since the actual cover-to-AC/Reflex calculation code path itself wasn't traced independently.",
+            "track": "long-iron"
+        }
+    }
 }

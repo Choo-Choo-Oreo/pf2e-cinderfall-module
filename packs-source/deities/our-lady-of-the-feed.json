@@ -3,16 +3,25 @@
     "type": "deity",
     "img": "systems/pf2e/icons/default-icons/deity.svg",
     "system": {
-        "attribute": [],
+        "attribute": [
+            "cha",
+            "wis"
+        ],
         "category": "deity",
         "description": {
             "value": "<p><strong>Connection & Isolation</strong></p>\n<p>New. Born from the ambient noise of the Paradise servers themselves — worshipped quietly by New Veracruz dock workers and server technicians who spend too many hours listening to the uploaded dead hum. Offers comfort, company, and the sense of being heard; delivers exactly that, and nothing more, ever again.</p>"
         },
         "domains": {
-            "alternate": [],
-            "primary": []
+            "alternate": [
+                "pain"
+            ],
+            "primary": [
+                "family"
+            ]
         },
-        "font": [],
+        "font": [
+            "heal"
+        ],
         "publication": {
             "license": "ORC",
             "remaster": true,
@@ -20,19 +29,22 @@
         },
         "rules": [],
         "sanctification": null,
-        "skill": [],
-        "spells": {},
+        "skill": [
+            "diplomacy"
+        ],
+        "spells": {
+            "1": "Compendium.pf2e.spells-srd.Item.Charm",
+            "3": "Compendium.pf2e.spells-srd.Item.Enthrall",
+            "4": "Compendium.pf2e.spells-srd.Item.Rewrite Memory"
+        },
         "traits": {},
-        "weapons": [],
+        "weapons": [
+            "sap"
+        ],
         "slug": "our-lady-of-the-feed"
     },
     "_id": "Q5T5BUWs9ujenBVz",
     "flags": {
-        "cinderfall": {
-            "define": "Connection & Isolation",
-            "incomplete": [
-                "STUB -- no mechanics authored. Missing every pf2e deity field: attribute, domains, font, sanctification, skill, spells, weapons. `category` is a default of 'deity' and may need to be philosophy or pantheon. See .claude/docs/todo.md."
-            ]
-        }
+        "cinderfall": {}
     }
 }

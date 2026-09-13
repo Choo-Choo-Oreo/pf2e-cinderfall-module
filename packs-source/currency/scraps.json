@@ -1,0 +1,32 @@
+{
+    "_id": "Lxs8w4Eaz6VufLNl",
+    "categories": [],
+    "name": "Scraps",
+    "ownership": {
+        "default": 0
+    },
+    "pages": [
+        {
+            "_id": "FiYlwy7CNGyUkDSw",
+            "category": null,
+            "image": {},
+            "name": "Scraps",
+            "sort": 100000,
+            "src": null,
+            "system": {},
+            "text": {
+                "content": "",
+                "format": 1
+            },
+            "title": {
+                "level": 1,
+                "show": true
+            },
+            "type": "text",
+            "video": {
+                "controls": true,
+                "volume": 0.5
+            }
+        }
+    ]
+}

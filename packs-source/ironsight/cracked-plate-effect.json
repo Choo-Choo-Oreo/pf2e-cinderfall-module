@@ -1,0 +1,66 @@
+{
+    "name": "Effect: Cracked Plate",
+    "type": "effect",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "description": {
+            "value": "<p><em>Applied by <strong>Cracked Plate</strong> to the target.</em></p>\n<hr />\n<p>Make a ranged Strike at a −2 penalty. On a hit, the target takes a −1 circumstance penalty to AC until the end of your next turn; on a critical hit, −2 instead.</p>"
+        },
+        "duration": {
+            "expiry": "turn-end",
+            "sustained": false,
+            "unit": "rounds",
+            "value": 1
+        },
+        "level": {
+            "value": 4
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "ChoiceSet",
+                "adjustName": false,
+                "flag": "penalty",
+                "prompt": "PF2E.SpecificRule.Prompt.DegreeOfSuccess",
+                "choices": [
+                    {
+                        "label": "PF2E.Check.Result.Degree.Check.success",
+                        "value": -1
+                    },
+                    {
+                        "label": "PF2E.Check.Result.Degree.Check.criticalSuccess",
+                        "value": -2
+                    }
+                ]
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "ac",
+                "type": "circumstance",
+                "value": "@item.flags.system.rulesSelections.penalty"
+            }
+        ],
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "value": []
+        },
+        "slug": "cracked-plate-effect"
+    },
+    "_id": "F6G8KzpMSGkZIXrH",
+    "flags": {
+        "cinderfall": {
+            "effectOf": "ironsight.cracked-plate",
+            "landsOn": "target"
+        }
+    }
+}

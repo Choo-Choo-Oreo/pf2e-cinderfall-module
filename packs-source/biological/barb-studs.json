@@ -1,0 +1,66 @@
+{
+    "name": "Barb Studs",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>A line of small keratin barbs grafted along your knuckles and shins. Your unarmed Strikes lose the ability to deal nonlethal damage but change to 1d4 slashing and count as a light slashing weapon for anything that cares (runes on a handwrap, critical specialization, etc.).</p><p><b>Donor:</b> A brawler. Their reflexes came with the barbs — you flinch into a guard you were never taught.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 2
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "mk": 35
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "barb-studs"
+    },
+    "_id": "YFDYAqxv7nSNFdce",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Converting your existing unarmed Strike's damage type, die, and lethality all at once is too compound to safely automate: the base fist Strike is itself granted by a hardcoded rule (pf2e-source/src/module/rules/rule-element/strike.ts:157-178) and no confirmed 'alter an existing granted Strike' rule element exists to redirect it rather than duplicate it.",
+            "augmentKind": "biological",
+            "augmentType": "graft",
+            "tier": "common",
+            "slots": [
+                "Inlays"
+            ],
+            "slotCost": 1,
+            "grade": 1,
+            "availability": "Grafted",
+            "level": 2,
+            "load": "+0",
+            "resonance": "+1"
+        }
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "name": "Burn-Pit Hardened",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "ancestry",
+        "description": {
+            "value": "<p>Fire resistance increases further; bonus to Fortitude against smoke inhalation and heat exhaustion.</p>"
+        },
+        "level": {
+            "value": 5
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Burn-Pit Blood"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ashwalker"
+            ]
+        },
+        "slug": "burn-pit-hardened"
+    },
+    "_id": "PgOfwtxy9H2THE2Y",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "'Fire resistance increases further' states no new formula beyond Burn-Pit Blood's existing max(1,floor(@actor.level/2)), and 'bonus to Fortitude against smoke inhalation and heat exhaustion' has no matching trait/predicate. The card states a bonus/effect but gives no numeric value or formula to build a rule element from without inventing one."
+        }
+    }
+}

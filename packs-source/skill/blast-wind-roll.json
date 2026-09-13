@@ -1,0 +1,37 @@
+{
+    "name": "Blast-Wind Roll",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "skill",
+        "description": {
+            "value": "<p>Combine drill taught you to fall with a shockwave instead of fighting it. When you're knocked prone or shoved by an explosion, you can Tumble Through as a free action immediately after, provided you end the movement prone.</p>"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "blast-wind-roll"
+    },
+    "_id": "W3MslS1uyoOBpk7M",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Granting a free-action Tumble Through after being knocked prone/shoved is a new usable-action grant. Granting free/new use of an action has no rule-element hook -- real Reactive Shield (pf2e-source/packs/pf2e/feats/class/shared-class-feats/level-1/reactive-shield.json), which grants a reaction use of an existing action, itself ships rules: []."
+        }
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "name": "Master of the Blasted Land",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "skill",
+        "description": {
+            "value": "<p>The Glasslands, the Drowned Coast, and every irradiated dead zone between them have stopped being able to surprise you. You automatically succeed at checks to avoid getting lost, and treat all wasteland hazardous terrain as if it were one severity category lower for the purpose of environmental damage.</p>"
+        },
+        "level": {
+            "value": 18
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Legendary in Survival"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "master-of-the-blasted-land"
+    },
+    "_id": "K5FqObNFkB9iEjf0",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "'Automatically succeed' has no rule-element key (Assurance-style fixed results are the closest real mechanism and only ever guarantee a result equal to a fixed number, never an unconditional success), and 'treat hazardous terrain as one severity category lower' has no hook -- hazard severity isn't exposed to a predicate."
+        }
+    }
+}

@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "flavored"
+            ],
             "rarity": "common",
             "value": [
                 "sworn"
@@ -33,5 +36,10 @@
         },
         "slug": "binding-clause-ascendant"
     },
-    "_id": "gq8VgFwWr3lvLjUi"
+    "_id": "gq8VgFwWr3lvLjUi",
+    "flags": {
+        "cinderfall": {
+            "flavored": true
+        }
+    }
 }

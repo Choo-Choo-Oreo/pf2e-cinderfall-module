@@ -24,7 +24,38 @@
             "remaster": true,
             "title": "Cinderfall"
         },
-        "rules": [],
+        "rules": [
+            {
+                "key": "RollOption",
+                "option": "split-attention-load",
+                "toggleable": true,
+                "label": "Effect would raise your Load, Resonance or Drift"
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "fortitude",
+                "type": "circumstance",
+                "value": 1,
+                "predicate": [
+                    "split-attention-load"
+                ]
+            },
+            {
+                "key": "RollOption",
+                "option": "split-attention-judgment",
+                "toggleable": true,
+                "label": "Effect would make you act against your judgment"
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "will",
+                "type": "circumstance",
+                "value": 1,
+                "predicate": [
+                    "split-attention-judgment"
+                ]
+            }
+        ],
         "traits": {
             "rarity": "common",
             "value": [

@@ -27,5 +27,10 @@
         },
         "slug": "blank-face-lift"
     },
-    "_id": "9lObaGUrBCykdbtG"
+    "_id": "9lObaGUrBCykdbtG",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The penalty targets an observer's Perception check, scaled by the actor's unrelated Deception rank. No selector exists in pf2e for an external creature's check, scaled by this actor's proficiency in a different skill (distracting-feint.json/effect-distracting-feint.json two-file gap for the external-target part; no cross-skill-rank selector precedent found either)."
+        }
+    }
 }

@@ -1,0 +1,72 @@
+{
+    "name": "Servo-Spine",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>Powered vertebral column. +10-ft item bonus to Speed. No off-guard penalty for being prone; standing is always 1 action.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 8
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "gp": 500
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "land-speed",
+                "type": "item",
+                "value": 10
+            }
+        ],
+        "size": "med",
+        "traits": {
+            "rarity": "uncommon",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "servo-spine"
+    },
+    "_id": "DxDLA7wvUm4o1VkV",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "'No off-guard penalty for being prone' and 'standing is always 1 action' both have no hook: prone's off-guard penalty and the 2-action base cost to Stand are built-in engine rules with no exception rule element found for either (the closest real precedent, a feat that reduces Stand's action cost, applies to the Stand action's own cost outright, not conditionally per-actor via a generic rule).",
+            "augmentKind": "cybernetic",
+            "augmentType": "implant",
+            "tier": "uncommon",
+            "slots": [
+                "Frame"
+            ],
+            "slotCost": 1,
+            "grade": 2,
+            "availability": "Licensed",
+            "level": 8,
+            "drift": "+2"
+        }
+    }
+}

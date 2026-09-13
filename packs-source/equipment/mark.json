@@ -1,17 +1,14 @@
 {
-    "_id": "nDN9mERaLucoBQsK",
     "name": "Mark",
     "type": "treasure",
-    "img": "systems/pf2e/icons/equipment/treasure/currency/upb.webp",
+    "img": "icons/svg/mystery-man.svg",
     "system": {
-        "baseItem": null,
         "bulk": {
             "value": 0
         },
         "category": "material",
-        "containerId": null,
         "description": {
-            "value": "<p>A stamped slug of grey metal, thumb-width, the Butcher's mark struck into one face and nothing at all on the other. Hard coin, and his own. Nobody else on the map quotes a price in marks and there is no posted rate to credits &mdash; what a mark is worth today is whatever he says it is. He deals in these first for the obvious reason: no Cyber City ledger, no digital trail.</p>"
+            "value": "<p>A stamped slug of grey metal, thumb-width, the Butcher's mark struck into one face and nothing at all on the other. Hard coin, and his own. Nobody else on the map quotes a price in marks and there is no posted rate to credits — what a mark is worth today is whatever he says it is. He deals in these first for the obvious reason: no Cyber City ledger, no digital trail.</p>"
         },
         "hardness": 0,
         "hp": {
@@ -21,13 +18,6 @@
         "level": {
             "value": 0
         },
-        "material": {
-            "grade": null,
-            "type": null
-        },
-        "price": {
-            "value": {}
-        },
         "publication": {
             "license": "ORC",
             "remaster": true,
@@ -35,10 +25,17 @@
         },
         "quantity": 1,
         "rules": [],
-        "size": "med",
         "traits": {
             "rarity": "uncommon",
             "value": []
-        }
+        },
+        "price": {
+            "value": {}
+        },
+        "slug": "mark"
+    },
+    "_id": "KMGhKarfi4KHFmWA",
+    "flags": {
+        "cinderfall": {}
     }
 }

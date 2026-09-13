@@ -33,5 +33,10 @@
         },
         "slug": "charm-weave"
     },
-    "_id": "DiH7uirwh8eLGABA"
+    "_id": "DiH7uirwh8eLGABA",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The entire effect is defined in terms of 'the Charm's stored effect,' which is itself undefined at the rule-element level -- Ward-Scrawled Charm's own card stores one of two abilities chosen at craft time with no fixed numeric effect. With no base effect to heighten or double, there is nothing concrete here to build against."
+        }
+    }
 }

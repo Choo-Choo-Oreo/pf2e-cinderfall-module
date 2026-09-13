@@ -24,7 +24,21 @@
             "remaster": true,
             "title": "Cinderfall"
         },
-        "rules": [],
+        "rules": [
+            {
+                "key": "Resistance",
+                "type": "all-damage",
+                "value": "floor(@actor.level/2)",
+                "predicate": [
+                    {
+                        "lte": [
+                            "hp-percent",
+                            50
+                        ]
+                    }
+                ]
+            }
+        ],
         "traits": {
             "rarity": "common",
             "value": [

@@ -24,7 +24,9 @@
             "type": null
         },
         "price": {
-            "value": {}
+            "value": {
+                "gp": 0
+            }
         },
         "publication": {
             "license": "ORC",
@@ -32,7 +34,23 @@
             "title": "Cinderfall"
         },
         "quantity": 1,
-        "rules": [],
+        "rules": [
+            {
+                "key": "RollOption",
+                "option": "glass-inlay",
+                "toggleable": true,
+                "label": "Bare-armed, flecks visible"
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "intimidation",
+                "type": "circumstance",
+                "value": 1,
+                "predicate": [
+                    "glass-inlay"
+                ]
+            }
+        ],
         "size": "med",
         "traits": {
             "rarity": "common",
@@ -48,19 +66,11 @@
         "cinderfall": {
             "mutationType": "minor",
             "tier": "common",
-            "slot": "Inlays",
             "slots": [
                 "Inlays"
             ],
             "slotCost": 1,
-            "roll": "d100 — 23–24",
-            "incomplete": [
-                "level is a stub (0); mutations carry no level",
-                "price is empty; a mutation is not bought"
-            ],
-            "inferred": [
-                "system.usage"
-            ]
+            "roll": "d100 — 23–24"
         }
     }
 }

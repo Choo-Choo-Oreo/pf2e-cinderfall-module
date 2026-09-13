@@ -230,6 +230,11 @@
             "name": "broadside",
             "sort": 200000,
             "system": {
+                "action": "area-fire",
+                "area": {
+                    "type": "line",
+                    "value": 5
+                },
                 "attack": {
                     "value": ""
                 },
@@ -262,7 +267,9 @@
                 "slug": "broadside",
                 "traits": {
                     "rarity": "common",
-                    "value": []
+                    "value": [
+                        "area-line"
+                    ]
                 },
                 "weaponType": {
                     "value": "ranged"
@@ -329,14 +336,54 @@
                 }
             },
             "type": "action"
+        },
+        {
+            "_id": "igOgdHNK4OWu0RxL",
+            "img": "systems/pf2e/icons/default-icons/treasure.svg",
+            "name": "Trans-Plate Scrap",
+            "sort": 1400000,
+            "system": {
+                "bulk": {
+                    "value": 2
+                },
+                "category": "material",
+                "description": {
+                    "value": "<p>A slab of transit-plate armor, torn loose from the derailed hull &mdash; heavier than it looks, and worth its weight in scrap.</p>"
+                },
+                "hardness": 0,
+                "hp": {
+                    "max": 0,
+                    "value": 0
+                },
+                "level": {
+                    "value": 0
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "quantity": 1,
+                "rules": [],
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                },
+                "price": {
+                    "value": {
+                        "gp": 3
+                    }
+                }
+            },
+            "type": "treasure"
         }
     ],
     "flags": {
+        "pf2e": {
+            "lootable": true
+        },
         "cinderfall": {
-            "alignment": "CE",
-            "incomplete": [
-                "Ranged strike 'broadside': rider 'to each creature in a 5-foot-wide line' kept as text only"
-            ]
+            "alignment": "CE"
         }
     }
 }

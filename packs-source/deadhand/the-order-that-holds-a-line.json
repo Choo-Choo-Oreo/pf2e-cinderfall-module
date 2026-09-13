@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "deadhand-cadre"
+            ],
             "rarity": "common",
             "value": [
                 "deadhand"
@@ -33,5 +36,10 @@
         },
         "slug": "the-order-that-holds-a-line"
     },
-    "_id": "swl11KnDeaczxLUm"
+    "_id": "swl11KnDeaczxLUm",
+    "flags": {
+        "cinderfall": {
+            "track": "cadre"
+        }
+    }
 }

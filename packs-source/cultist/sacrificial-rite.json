@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "cultist-gluttoneth"
+            ],
             "rarity": "common",
             "value": [
                 "cultist"
@@ -33,5 +36,11 @@
         },
         "slug": "sacrificial-rite"
     },
-    "_id": "XLBcRVPnqz30tKcq"
+    "_id": "XLBcRVPnqz30tKcq",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "\"The Rite cast counts as heightened +2 ranks (max your highest)\" is a heightening-override with no confirmed precedent found in pf2e-source within this pass's research budget; the self/ally damage-as-cost clause itself needs no rule element (a stated cost paid in HP needs no encoding, same as any other resource cost described in prose). Flagged as absence-of-evidence on the heightening-override half specifically.",
+            "track": "gluttoneth"
+        }
+    }
 }

@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "fleshmancer-grafters"
+            ],
             "rarity": "common",
             "value": [
                 "fleshmancer"
@@ -33,5 +36,11 @@
         },
         "slug": "stitch-and-move"
     },
-    "_id": "7SG4oH2sW9XsBrvz"
+    "_id": "7SG4oH2sW9XsBrvz",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "No rule element automatically grants a Step upon another action's resolution -- only player-triggered movement exists. The \"ally Steps instead\" branch is additionally This effect changes a different creature's own roll, HP, condition, or item, sourced from the card holder's own passive/item/action. No selector exists anywhere in pf2e-source for this -- confirmed corpus-wide this pass.",
+            "track": "grafters"
+        }
+    }
 }

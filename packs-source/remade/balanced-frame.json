@@ -33,5 +33,10 @@
         },
         "slug": "balanced-frame"
     },
-    "_id": "UZfFxKD6GgHD4FgZ"
+    "_id": "UZfFxKD6GgHD4FgZ",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "MIXED-FRAME-GAP (no predicate exists for \"mixed frame\") stacked on BAND-GAP (the penalties being removed -- extra Load, extra Interact-to-reboot -- aren't modeled themselves)."
+        }
+    }
 }

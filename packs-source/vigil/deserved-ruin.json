@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "vigil-choir"
+            ],
             "rarity": "common",
             "value": [
                 "vigil"
@@ -33,5 +36,11 @@
         },
         "slug": "deserved-ruin"
     },
-    "_id": "MYDMLVGpvkC2NWBm"
+    "_id": "MYDMLVGpvkC2NWBm",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Bucket 3: a limited-use (1/hr) activated action hands the player a new usable action, which this pass's convention always marks INCOMPLETE regardless of how clean the predicate/number available for the debuff half is.",
+            "track": "choir"
+        }
+    }
 }

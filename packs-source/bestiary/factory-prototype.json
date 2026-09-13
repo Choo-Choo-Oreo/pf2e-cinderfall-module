@@ -25,7 +25,7 @@
         },
         "attributes": {
             "ac": {
-                "details": "",
+                "details": "all-around vision",
                 "value": 28
             },
             "hp": {
@@ -96,7 +96,7 @@
             "statistic": "perception"
         },
         "perception": {
-            "details": "all-around vision",
+            "details": "",
             "mod": 18,
             "senses": [
                 {
@@ -140,6 +140,43 @@
     },
     "_id": "CsswICF76rVcYWco",
     "items": [
+        {
+            "_id": "PwYtCw7PURC5Katk",
+            "img": "systems/pf2e/icons/actions/Passive.webp",
+            "name": "All-Around Vision",
+            "sort": 1050000,
+            "system": {
+                "actionType": {
+                    "value": "passive"
+                },
+                "actions": {
+                    "value": null
+                },
+                "category": "defensive",
+                "description": {
+                    "value": "<p>The Prototype's optics ring its entire body; it can't be flanked.</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [
+                    {
+                        "key": "ActiveEffectLike",
+                        "mode": "override",
+                        "path": "system.attributes.flanking.flankable",
+                        "value": false
+                    }
+                ],
+                "slug": "all-around-vision",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "type": "action"
+        },
         {
             "_id": "otEkTkVarFjxaeWq",
             "img": "systems/pf2e/icons/default-icons/melee.svg",
@@ -235,7 +272,7 @@
             "type": "melee"
         },
         {
-            "_id": "PwYtCw7PURC5Katk",
+            "_id": "JeHb6WITc2D08hA4",
             "img": "systems/pf2e/icons/actions/Reaction.webp",
             "name": "Adaptive Plating",
             "sort": 1100000,
@@ -265,7 +302,7 @@
             "type": "action"
         },
         {
-            "_id": "JeHb6WITc2D08hA4",
+            "_id": "MN3Mx5DBeLk8pIYo",
             "img": "systems/pf2e/icons/actions/OneAction.webp",
             "name": "Field Test",
             "sort": 1200000,
@@ -295,7 +332,7 @@
             "type": "action"
         },
         {
-            "_id": "MN3Mx5DBeLk8pIYo",
+            "_id": "orN6iKMOFzEQqhdW",
             "img": "systems/pf2e/icons/actions/ThreeActions.webp",
             "name": "Iterate",
             "sort": 1300000,
@@ -325,7 +362,7 @@
             "type": "action"
         },
         {
-            "_id": "orN6iKMOFzEQqhdW",
+            "_id": "PF58ApttoZtrD7Ul",
             "img": "systems/pf2e/icons/actions/Passive.webp",
             "name": "Rolls Off the Line",
             "sort": 1400000,
@@ -353,14 +390,84 @@
                 }
             },
             "type": "action"
+        },
+        {
+            "_id": "LPWALSxOebq5zeOI",
+            "img": "systems/pf2e/icons/default-icons/weapon.svg",
+            "name": "Rail Lance",
+            "sort": 1500000,
+            "system": {
+                "bonus": {
+                    "value": 0
+                },
+                "bonusDamage": {
+                    "value": 0
+                },
+                "bulk": {
+                    "value": 2
+                },
+                "category": "advanced",
+                "damage": {
+                    "dice": 1,
+                    "die": "d12",
+                    "damageType": "piercing"
+                },
+                "description": {
+                    "value": "<p>A field-test energy rail lance off the current model line &mdash; two hundred years of quiet iteration in one weapon. Not for sale; you took it.</p>"
+                },
+                "equipped": {
+                    "carryType": "held",
+                    "handsHeld": 2,
+                    "invested": null
+                },
+                "group": "polearm",
+                "hardness": 0,
+                "hp": {
+                    "max": 0,
+                    "value": 0
+                },
+                "level": {
+                    "value": 0
+                },
+                "price": {
+                    "value": {
+                        "gp": 10
+                    }
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "quantity": 1,
+                "range": null,
+                "reload": {
+                    "value": null
+                },
+                "rules": [],
+                "slug": "rail-lance",
+                "splashDamage": {
+                    "value": 0
+                },
+                "traits": {
+                    "rarity": "uncommon",
+                    "value": [
+                        "reach"
+                    ]
+                },
+                "usage": {
+                    "value": "held-in-two-hands"
+                }
+            },
+            "type": "weapon"
         }
     ],
     "flags": {
+        "pf2e": {
+            "lootable": true
+        },
         "cinderfall": {
-            "alignment": "LN",
-            "incomplete": [
-                "perception clause not representable as a pf2e sense: 'all-around vision'"
-            ]
+            "alignment": "LN"
         }
     }
 }

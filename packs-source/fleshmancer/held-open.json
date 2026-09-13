@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "fleshmancer-grafters"
+            ],
             "rarity": "common",
             "value": [
                 "fleshmancer"
@@ -33,5 +36,11 @@
         },
         "slug": "held-open"
     },
-    "_id": "4skuQk8xMZejvJKk"
+    "_id": "4skuQk8xMZejvJKk",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "This effect changes a different creature's own roll, HP, condition, or item, sourced from the card holder's own passive/item/action. No selector exists anywhere in pf2e-source for this -- confirmed corpus-wide this pass. This sets up bonus future healing plus a save penalty on a creature the caster previously used Quick Suture on -- a status placed on someone else's future rolls.",
+            "track": "grafters"
+        }
+    }
 }

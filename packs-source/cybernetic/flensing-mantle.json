@@ -1,0 +1,75 @@
+{
+    "name": "Flensing Mantle",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>Dermal replacement grown to harvest, not protect. +1 item bonus to AC. Whenever you deal slashing or piercing damage to a living creature, harvest a sample — GM-tracked currency, redeemable later for favors, black-market credit, or ritual material — for a buyer who is never in the room.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 18
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "gp": 35000
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "ac",
+                "type": "item",
+                "value": 1
+            }
+        ],
+        "size": "med",
+        "traits": {
+            "rarity": "legendary",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "flensing-mantle"
+    },
+    "_id": "OtgwPMoWJIHzIVnr",
+    "flags": {
+        "cinderfall": {
+            "augmentKind": "cybernetic",
+            "augmentType": "implant",
+            "tier": "legendary",
+            "slots": [
+                "Dermal"
+            ],
+            "slotCost": 1,
+            "grade": 5,
+            "availability": "Black Market",
+            "level": 18,
+            "drift": "+6",
+            "augTags": [
+                "soul-tech",
+                "apex"
+            ]
+        }
+    }
+}

@@ -33,5 +33,10 @@
         },
         "slug": "backup-battery"
     },
-    "_id": "YmY1zZDoi8p15nu4"
+    "_id": "YmY1zZDoi8p15nu4",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "P-BUCKET3 (no rule element delays a condition's onset) stacked on BAND-GAP (the nanite-dependency effect being delayed isn't itself modeled anywhere)."
+        }
+    }
 }

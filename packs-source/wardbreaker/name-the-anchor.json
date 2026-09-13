@@ -50,6 +50,7 @@
     "_id": "HSPD4bnz5ZjFrrJE",
     "flags": {
         "cinderfall": {
+            "incomplete": "This is the foundational mechanic that marks a specific perceived creature as 'Named' after a successful check, and it has no real pf2e analog: no rule element marks a specific creature with a persistent custom tag after a check success without a companion Effect item applied directly to that creature. The one real precedent for a comparable 'flag this specific foe' pattern, Warding Aggression (pf2e-source/packs/pf2e/spells/spells/rank-3/warding-aggression.json), does exactly that via a second, linked Spell Effect item (Compendium.pf2e.spell-effects.Item.Spell Effect: Warding Aggression), not a field on the spell itself. Building an equivalent companion effect record for 'Named' is out of scope for this single-file rule-element pass. This also explains why anchor-break, chain-reaction, chalk-and-iron, hunters-ledger, and mass-exorcism can't be built: they all key off 'Named,' which has no rule-element representation to extend.",
             "spellTag": "Innate · At-Will",
             "listing": "Core Loop"
         }

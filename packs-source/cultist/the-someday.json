@@ -1,0 +1,50 @@
+{
+    "name": "It'll Keep",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
+        "description": {
+            "value": "<p>Means to act. Will, definitely, right after this. The power was always coming — it just comes on its own schedule, and that schedule rewards followers who don't rush it.</p><hr /><p><strong>IT'LL KEEP —</strong> delay the consequence of a single failed save by one round. The Someday never cancels a debt, only postpones it.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "otherTags": [
+                "cultist-bargain"
+            ],
+            "rarity": "common",
+            "value": [
+                "cultist"
+            ]
+        },
+        "slug": "the-someday"
+    },
+    "_id": "rGC3SIBs3LS3qIme",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "This is one of the 7 \"Choose Your Bargain\" option cards (classfeature, otherTags:[\"cultist-bargain\"], selected by cultist.bargain's ChoiceSet). The mechanical benefit of choosing it is entirely \"you can now cast its signature Rite,\" a sibling spell card in this same folder -- granting it via a static GrantItem pointing at that slug is not resolvable by this repo's own Foundry build pipeline (tools/foundry/build_pack.py: resolve_grants only rewrites system.items slots at build time; resolve_ancestry only rewrites system.ancestry.slug). A cross-slug GrantItem.uuid inside a feat's own system.rules is exactly the already-confirmed-absent case for this pass.",
+            "subclassOf": "cultist",
+            "subclassChoice": "Choose Your Bargain",
+            "role": "Inertia · Delay · Patience Rewarded",
+            "followUp": "signature spell 'It'll Keep' still needs its own spell document; the card renders on spells-abilities.html as a spell-entry and its statline/body are authored above",
+            "subclassLayer": "bargain"
+        }
+    }
+}

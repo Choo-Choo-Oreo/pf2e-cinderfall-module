@@ -1,0 +1,65 @@
+{
+    "name": "Nanite Cloud",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>Externalizing swarm. 1/day, 1 action: a 10-ft cloud of your nanites for 1 minute — allies gain fast healing 2, enemies take 1d6 persistent piercing.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 12
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "gp": 2250
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "traits": {
+            "rarity": "rare",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "nanite-cloud"
+    },
+    "_id": "c9Z4DWAmhDXFvifz",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The whole ability is a 1/day activated 10-foot cloud that splits its effect between allies (fast healing) and enemies (persistent piercing) -- a single area effect applying two different effects by disposition needs a granted Action item with linked effects, not a rule element (compounds the usual activated-ability gap with a friend/foe-split the schema can't express).",
+            "augmentKind": "cybernetic",
+            "augmentType": "implant",
+            "tier": "rare",
+            "slots": [
+                "Circulatory"
+            ],
+            "slotCost": 1,
+            "grade": 3,
+            "availability": "Black Market",
+            "level": 12,
+            "drift": "+3"
+        }
+    }
+}

@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "fleshmancer-grafters"
+            ],
             "rarity": "common",
             "value": [
                 "fleshmancer"
@@ -33,5 +36,11 @@
         },
         "slug": "mass-graft"
     },
-    "_id": "pMciPeZ4shLjatNy"
+    "_id": "pMciPeZ4shLjatNy",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "No rule element retargets a willing-creature Graft to a 15-ft ally-only burst -- same AoE-conversion issue as Chain Cut.",
+            "track": "grafters"
+        }
+    }
 }

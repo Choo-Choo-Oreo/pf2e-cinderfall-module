@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "paradise-touched-chorus"
+            ],
             "rarity": "common",
             "value": [
                 "paradise-touched",
@@ -34,5 +37,10 @@
         },
         "slug": "congregation-permanent"
     },
-    "_id": "K7tLr2WJQ9oJlzk2"
+    "_id": "K7tLr2WJQ9oJlzk2",
+    "flags": {
+        "cinderfall": {
+            "track": "chorus"
+        }
+    }
 }

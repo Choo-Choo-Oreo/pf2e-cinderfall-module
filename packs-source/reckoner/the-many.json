@@ -1,46 +1,36 @@
 {
     "name": "The Many",
-    "type": "spell",
+    "type": "feat",
     "img": "icons/svg/mystery-man.svg",
     "system": {
-        "area": null,
-        "cost": {
-            "value": ""
+        "actionType": {
+            "value": "passive"
         },
-        "counteraction": false,
-        "damage": {},
-        "defense": null,
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
         "description": {
-            "value": "<p>Choose one: your reach increases by 5 feet until the end of your turn, or — if you're already taking an action that includes a Strike this turn — you gain one additional Strike as part of that action, using the same weapon or unarmed attack.</p>"
-        },
-        "duration": {
-            "sustained": false,
-            "value": "1 round"
+            "value": "<p>Briefly, there is more of you than the space you're standing in should physically allow. It's gone the moment it stops being useful, and nobody who saw it agrees on what exactly they saw extra of.</p><hr /><p><strong>ONE MORE —</strong> briefly gain extra reach or make a simultaneous second Strike; the excess vanishes the instant the action resolves.</p>"
         },
         "level": {
             "value": 1
+        },
+        "prerequisites": {
+            "value": []
         },
         "publication": {
             "license": "ORC",
             "remaster": true,
             "title": "Cinderfall"
         },
-        "range": {
-            "value": "self"
-        },
-        "requirements": "",
         "rules": [],
-        "target": {
-            "value": ""
-        },
-        "time": {
-            "value": "1"
-        },
         "traits": {
+            "otherTags": [
+                "reckoner-aspect"
+            ],
             "rarity": "common",
-            "traditions": [],
             "value": [
-                "focus",
                 "reckoner"
             ]
         },
@@ -49,9 +39,15 @@
     "_id": "KEJFTg79zyjopuVm",
     "flags": {
         "cinderfall": {
+            "incomplete": "This Aspect base feat plausibly wants a GrantItem granting its signature focus spell/ability, matching the ChoiceSet+GrantItem pattern already used for the Aspect subclass choice itself (reckoner.aspect.json). Not shipped: the only intra-corpus GrantItem precedents are a dynamic ChoiceSet-selection token or a fixed UUID into the real pf2e system's own compendiums -- there is no existing example of a fixed GrantItem pointing at another Cinderfall-authored card by literal compendium UUID, and the Cinderfall Foundry module's actual pack/document naming (tools/foundry/build_pack.py / pf2e-cinderfall-module) was not checked in this cards-only research pass. See feats-class-reckoner-draft.md open question 1 (GRANTITEM-UUID-OPEN).",
             "focusCost": "1",
             "spellTag": "The Many",
-            "listing": "Aspect Signatures / The Outside a direction, not a law or a mass"
+            "listing": "Aspect Signatures / The Outside a direction, not a law or a mass",
+            "subclassOf": "reckoner",
+            "subclassChoice": "Choose Your Source, Then Your Aspect",
+            "role": "Impossible Excess · More Than Fits",
+            "followUp": "signature spell 'One More' is record reckoner.one-more; the card renders on spells-abilities.html as a spell-entry and its statline/body are authored above",
+            "subclassLayer": "aspect"
         }
     }
 }

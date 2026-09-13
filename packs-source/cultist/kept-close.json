@@ -1,0 +1,45 @@
+{
+    "name": "Kept Close",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> A creature within 30 feet that is fascinated with you, or that failed a Will save against one of your effects this encounter, attempts to move away from you.</p><p><strong>Saving Throw</strong> Will</p><hr /><p>The creature must succeed at a Will save against your class DC or its Speed is reduced by half until the start of its next turn. This is a mental effect.</p>"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "otherTags": [
+                "cultist-claimant"
+            ],
+            "rarity": "common",
+            "value": [
+                "cultist"
+            ]
+        },
+        "slug": "kept-close"
+    },
+    "_id": "8YZTikiqUbmGVHRf",
+    "flags": {
+        "cinderfall": {
+            "track": "claimant"
+        }
+    }
+}

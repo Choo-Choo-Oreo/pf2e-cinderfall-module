@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "ironsight-close-iron"
+            ],
             "rarity": "common",
             "value": [
                 "ironsight"
@@ -33,5 +36,10 @@
         },
         "slug": "iron-curtain"
     },
-    "_id": "tH5JxfBfatTj52DH"
+    "_id": "tH5JxfBfatTj52DH",
+    "flags": {
+        "cinderfall": {
+            "track": "close-iron"
+        }
+    }
 }

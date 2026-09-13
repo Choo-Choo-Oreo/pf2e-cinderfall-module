@@ -1,0 +1,43 @@
+{
+    "name": "Choir's Attention",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "ancestry",
+        "description": {
+            "value": "<p>Choir of Ash NPCs give you real, actionable information more readily — a stronger, actively usable version of the ancestry's passive recognition.</p>"
+        },
+        "level": {
+            "value": 5
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Turning's Mark"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "cinderborn"
+            ]
+        },
+        "slug": "choirs-attention"
+    },
+    "_id": "MbVssr0qLlDw6T8U",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "'Give you real, actionable information more readily' names no skill, no value, and no predicate beyond what A Fingerprint, Not a Coincidence already covers. The card states a bonus/effect but gives no numeric value or formula to build a rule element from without inventing one."
+        }
+    }
+}

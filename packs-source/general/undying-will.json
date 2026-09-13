@@ -1,0 +1,48 @@
+{
+    "name": "Undying Will",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "general",
+        "description": {
+            "value": "<p>Immune to death effects; your dying condition can never increase to its maximum value — it always stops one step short.</p>"
+        },
+        "level": {
+            "value": 19
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "Immunity",
+                "type": "death-effects"
+            },
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "system.attributes.dying.max",
+                "value": 5
+            }
+        ],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "undying-will"
+    },
+    "_id": "HteSivEUnRDDiSQw",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The immunity to death effects and the dying-cap increase (via system.attributes.dying.max, matching the real Diehard feat's exact mechanism) are implemented. 'Stops one step short' is modeled as the same dying.max=5 upgrade Diehard uses -- there is no separate rule-element concept of a dying value that is barred from ever reaching its cap independent of raising the cap itself."
+        }
+    }
+}

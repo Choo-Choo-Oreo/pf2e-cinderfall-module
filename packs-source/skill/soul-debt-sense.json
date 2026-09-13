@@ -1,0 +1,32 @@
+{
+    "name": "Soul-Debt Sense",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "skill",
+        "description": {
+            "value": "<p>Soul-harvesting rights leave a mark on a person that most can't see and you can't unsee. You can attempt an Occultism check to determine whether a creature is currently bound by a soul-debt contract, opposed by the contract holder's Deception DC if they wish to conceal it.</p>"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "soul-debt-sense"
+    },
+    "_id": "n4tGqm3oweHrL274"
+}

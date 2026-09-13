@@ -50,6 +50,7 @@
     "_id": "wR5ham1kmkpw6uAb",
     "flags": {
         "cinderfall": {
+            "incomplete": "Summon a copy of yourself: your stats, 1 HP, 1 action/round, silent, GM may have it act on things 'you don't know.' A temporary duplicate-actor-with-the-caster's-own-statblock has no rule-element representation; this needs an actual second combatant/token, out of scope for `system.rules` entirely.",
             "listing": "5th Rank"
         }
     }

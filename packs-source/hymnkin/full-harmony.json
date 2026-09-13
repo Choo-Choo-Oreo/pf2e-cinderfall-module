@@ -1,0 +1,43 @@
+{
+    "name": "Full Harmony",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "ancestry",
+        "description": {
+            "value": "<p>Whichever steadying or Perception bonus you carry from Warding Hymnkin or Harmonic Warning now affects your entire party, not just one or two allies.</p>"
+        },
+        "level": {
+            "value": 13
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Shared Hymn"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "hymnkin"
+            ]
+        },
+        "slug": "full-harmony"
+    },
+    "_id": "2UmRm72RcDCbptPi",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "This affects another creature's own roll, HP, or condition from the card holder's passive/item, which has no rule-element hook in real pf2e. (extending an ally-scoped bonus to the entire party.)"
+        }
+    }
+}

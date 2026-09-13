@@ -1,0 +1,39 @@
+{
+    "name": "One With the Signal",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "ancestry",
+        "description": {
+            "value": "<p>Permanently sense every active machine intelligence and ghost-machine within a wide radius.</p>"
+        },
+        "level": {
+            "value": 17
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "wire-ward"
+            ]
+        },
+        "slug": "one-with-the-signal"
+    },
+    "_id": "hQZVcASv6B3ahjoY",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "'electromagnetic-sense' is a real, confirmed sense type (pf2e-source SENSE_TYPES) that matches sensing machine intelligences, but it is not in SENSES_WITH_UNLIMITED_RANGE, so a finite range is required and 'a wide radius' states no foot value. The card states a bonus/effect but gives no numeric value or formula to build a rule element from without inventing one."
+        }
+    }
+}

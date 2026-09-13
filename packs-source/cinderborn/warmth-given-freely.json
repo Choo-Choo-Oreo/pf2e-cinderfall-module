@@ -1,0 +1,43 @@
+{
+    "name": "Warmth Given Freely",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "ancestry",
+        "description": {
+            "value": "<p>Once per day, briefly share your fire resistance with an adjacent ally.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Banked Warmth"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "cinderborn"
+            ]
+        },
+        "slug": "warmth-given-freely"
+    },
+    "_id": "Kc7C6DfqCQfTzRJi",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Granting a new limited-use activated action/reaction has no rule-element hook in real pf2e -- confirmed corpus-wide this pass (Reactive Shield itself ships rules: []). and This affects another creature's own roll, HP, or condition from the card holder's passive/item, which has no rule-element hook in real pf2e. ('briefly share your fire resistance with an adjacent ally', once per day.)"
+        }
+    }
+}

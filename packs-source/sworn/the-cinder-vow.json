@@ -1,32 +1,49 @@
 {
-    "_id": "kXB6U0Ou0DONEyfn",
-    "categories": [],
     "name": "The Cinder Vow",
-    "ownership": {
-        "default": 0
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
+        "description": {
+            "value": "<p>      <p class=\"cc-desc\">You believe, as the Choir of Ash believes, that Uriel's Turning was corruption-forced tragedy rather than evil intent — and that it was also unfinished mercy the world still owes itself. Your Ward is not usually a person: it is <em>the Kindling</em>, a specific act of hastening-the-end that the Choir has entrusted to you — a wildfire left to burn, a dying reactor left uncapped, a soul marked for release rather than salvage. You protect the ending from being stopped.</p>\n      <hr class=\"cc-divider\">\n      <div class=\"cc-effect\">\n        <h4>The Answer</h4>\n        <p>Triggers when someone tries to extinguish, salvage, or \"mercifully\" interrupt your Kindling — including an ally trying to save someone you've marked. You intervene against the interloper, not the fire.</p>\n        <p><strong>Design note:</strong> this triggers against allies as readily as enemies. It's meant to create real friction at the table — use it deliberately.</p>\n      </div>\n      <div class=\"cc-effect\">\n        <h4>Vows (spend Cinders)</h4>\n        <p class=\"sec-intro\">Two Vows per Oath — full crunch in <a href=\"spells-abilities.html\">What You Learned</a>. Further Vows are picked up as Sworn feats.</p>\n        <ul>\n          <li><b>Kindling's Mark</b> — touch a target judged worth hastening toward its end; your Strikes and Vows hit it harder for the encounter.</li>\n          <li><b>Ash Already Falling</b> — you and nearby allies gain fire resistance scaling with your level for a minute.</li>\n        </ul>\n      </div></p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "otherTags": [
+                "sworn-oath"
+            ],
+            "rarity": "common",
+            "value": [
+                "sworn"
+            ]
+        },
+        "slug": "the-cinder-vow"
     },
-    "pages": [
-        {
-            "_id": "fotv4563QAYy02CP",
-            "category": null,
-            "image": {},
-            "name": "The Cinder Vow",
-            "sort": 100000,
-            "src": null,
-            "system": {},
-            "text": {
-                "content": "<p><em>Choir Oath</em></p>      <p class=\"cc-desc\">You believe, as the Choir of Ash believes, that Uriel's Turning was corruption-forced tragedy rather than evil intent — and that it was also unfinished mercy the world still owes itself. Your Ward is not usually a person: it is <em>the Kindling</em>, a specific act of hastening-the-end that the Choir has entrusted to you — a wildfire left to burn, a dying reactor left uncapped, a soul marked for release rather than salvage. You protect the ending from being stopped.</p>\n      <hr class=\"cc-divider\">\n      <div class=\"cc-effect\">\n        <h4>The Answer</h4>\n        <p>Triggers when someone tries to extinguish, salvage, or \"mercifully\" interrupt your Kindling — including an ally trying to save someone you've marked. You intervene against the interloper, not the fire.</p>\n        <p><strong>Design note:</strong> this triggers against allies as readily as enemies. It's meant to create real friction at the table — use it deliberately.</p>\n      </div>\n      <div class=\"cc-effect\">\n        <h4>Vows (spend Cinders)</h4>\n        <p class=\"sec-intro\">Two Vows per Oath — full crunch in <a href=\"spells-abilities.html\">What You Learned</a>. Further Vows are picked up as Sworn feats.</p>\n        <ul>\n          <li><b>Kindling's Mark</b> — touch a target judged worth hastening toward its end; your Strikes and Vows hit it harder for the encounter.</li>\n          <li><b>Ash Already Falling</b> — you and nearby allies gain fire resistance scaling with your level for a minute.</li>\n        </ul>\n      </div>",
-                "format": 1
-            },
-            "title": {
-                "level": 1,
-                "show": true
-            },
-            "type": "text",
-            "video": {
-                "controls": true,
-                "volume": 0.5
-            }
+    "_id": "kXB6U0Ou0DONEyfn",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Real pf2e's own subclass-choice cards do auto-grant their signature reaction via a static GrantItem -- confirmed via pf2e-source/packs/pf2e/class-features/liberation.json (Champion's Cause card grants 'Compendium.pf2e.actionspf2e.Item.Liberating Step' directly, off the same ChoiceSet+GrantItem parent as this corpus's own sworn.oath.json). But tools/foundry/build_pack.py's resolve_grants() (line 368) only rewrites system.items slot entries into real UUIDs, and resolve_ancestry() (line 431) only resolves system.ancestry.slug on heritage cards -- there is no resolver for a literal GrantItem inside a feat's own system.rules pointing at a sibling card by slug. Every existing GrantItem in site/data/cards/feats/class/** uses only the dynamic {item|flags.system.rulesSelections.<flag>} form Foundry resolves at runtime from a ChoiceSet, never a static literal UUID pointing at another Cinderfall card -- shipping a hand-written Compendium string here would be a fabricated, unconfirmed value. This is a build-tooling gap, not specific to this card, and blocks the same pattern for every other class with an Oath/Path/Cause-style subclass.",
+            "subclassOf": "sworn",
+            "subclassChoice": "The Oath",
+            "role": "Choir Oath",
+            "subclassLayer": "oath"
         }
-    ]
+    }
 }

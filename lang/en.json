@@ -6,6 +6,12 @@
       "Legendary": "Legendary",
       "Mythic": "Mythic",
       "Exotic": "Exotic"
+    },
+    "Settings": {
+      "HideBaseContent": {
+        "Name": "Hide base Pathfinder 2e content",
+        "Hint": "Hides every base pf2e-system pack from the Compendium Browser's Actions, Bestiary, Campaign Features, Equipment, Feats, Hazards and Spells tabs, so only Cinderfall's own content is offered there. Does not affect Ancestries, Heritages, Backgrounds, Classes or Deities -- the Compendium Browser has no per-pack visibility toggle for those. Turning this off hands back only the packs this module hid; a pack a GM hid by hand keeps that choice either way."
+      }
     }
   },
   "PF2E.Currency.pp": "Packet",

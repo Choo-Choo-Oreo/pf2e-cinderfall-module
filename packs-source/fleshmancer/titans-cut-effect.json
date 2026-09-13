@@ -1,0 +1,50 @@
+{
+    "name": "Effect: Titan's Cut",
+    "type": "effect",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "description": {
+            "value": "<p><em>Applied by <strong>Titan's Cut</strong> to the character who used it.</em></p>\n<hr />\n<p>For 1 minute, +4 status bonus to melee damage, +10 temporary HP, and Shove or Trip against creatures up to two sizes larger without penalty; joints grind audibly out to 30 feet the whole time.</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "minutes",
+            "value": 1
+        },
+        "level": {
+            "value": 11
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "melee-strike-damage",
+                "type": "status",
+                "value": 4
+            }
+        ],
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "value": []
+        },
+        "slug": "titans-cut-effect"
+    },
+    "_id": "9XxgawGY6PpUlaak",
+    "flags": {
+        "cinderfall": {
+            "effectOf": "fleshmancer.titans-cut",
+            "landsOn": "self"
+        }
+    }
+}

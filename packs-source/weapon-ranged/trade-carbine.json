@@ -4,7 +4,7 @@
     "img": "icons/svg/mystery-man.svg",
     "system": {
         "bulk": {
-            "value": 1
+            "value": 2
         },
         "description": {
             "value": "<p>Belt-fed scrap carbine built from three different rifles by someone who knew what they were doing. Misfires on a natural 1.</p>"
@@ -33,40 +33,36 @@
                 "gp": 12
             }
         },
+        "ammo": {
+            "baseType": "rifle-rounds"
+        },
         "bonus": {
             "value": 0
         },
         "bonusDamage": {
             "value": 0
         },
-        "category": "simple",
+        "category": "martial",
         "damage": {
             "dice": 1,
             "die": "d10",
             "damageType": "piercing"
         },
         "group": "firearm",
-        "range": null,
+        "range": 60,
         "reload": {
-            "value": null
+            "value": 1
         },
         "splashDamage": {
             "value": 0
         },
         "usage": {
-            "value": "held-in-one-hand"
+            "value": "held-in-two-hands"
         },
         "slug": "trade-carbine"
     },
     "_id": "1o4xmPbAgLiIVn4b",
     "flags": {
-        "cinderfall": {
-            "incomplete": [
-                "level is a stub (0); the page carries no item levels",
-                "weapon category/bulk/usage stubbed; the page carries none of them",
-                "firearm range and reload stubbed; the page posts no increments"
-            ],
-            "currency": "Balanced to the PF2e GP standard and denominated in Credits: 1 Credit = 1 gp. The whole list was scaled x10 from the retired scraps=sp anchor, so every relative price is unchanged from the page as authored."
-        }
+        "cinderfall": {}
     }
 }

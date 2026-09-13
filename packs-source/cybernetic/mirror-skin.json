@@ -1,0 +1,81 @@
+{
+    "name": "Mirror Skin",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>Prismatic dermal coating. Resistance 8 to fire, cold, and acid. 1/day, reflect a ranged energy effect back at the origin (basic save vs your class DC).</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 12
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "gp": 2250
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "Resistance",
+                "type": "fire",
+                "value": 8
+            },
+            {
+                "key": "Resistance",
+                "type": "cold",
+                "value": 8
+            },
+            {
+                "key": "Resistance",
+                "type": "acid",
+                "value": 8
+            }
+        ],
+        "size": "med",
+        "traits": {
+            "rarity": "rare",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "mirror-skin"
+    },
+    "_id": "rhwctFK0fnMEXnOh",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The 1/day reflect-a-ranged-energy-effect-back-at-its-origin is a limited-use reaction/reflection ability that targets another creature (the original attacker) from a self-held item -- same architecture gap as Grave-Quiet, compounded by needing a reaction with its own frequency.",
+            "augmentKind": "cybernetic",
+            "augmentType": "implant",
+            "tier": "rare",
+            "slots": [
+                "Dermal"
+            ],
+            "slotCost": 1,
+            "grade": 3,
+            "availability": "Black Market",
+            "level": 12,
+            "drift": "+3"
+        }
+    }
+}

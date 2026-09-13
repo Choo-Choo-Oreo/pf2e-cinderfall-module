@@ -33,5 +33,10 @@
         },
         "slug": "rebuke-machine-spirit"
     },
-    "_id": "7toGL7Ak7T8vaA3L"
+    "_id": "7toGL7Ak7T8vaA3L",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Bucket 3 -- full counteract-check combat action with branching outcomes. [NO-SPECIALRESOURCE] for the 2-Ghost-Static cost, independently."
+        }
+    }
 }

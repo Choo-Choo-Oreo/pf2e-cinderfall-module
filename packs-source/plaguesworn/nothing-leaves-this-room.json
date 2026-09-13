@@ -50,6 +50,7 @@
     "_id": "3JKQhtskonTwSC3h",
     "flags": {
         "cinderfall": {
+            "incomplete": "The ward itself is narrative/environmental (no bonus, would SKIP alone), but the death-triggers-a-new-Afflicted clause is a real, stated mechanical effect -- bumped to INCOMPLETE rather than SKIP because of that rider. Raising/creating a new minion or ally creature (P-SUMMON) has no system.rules representation. Real pf2e itself ships rules: [] for the equivalent case (pf2e-source/packs/pf2e/spells/spells/rank-1/summon-undead.json, system.summons left unpopulated too), but per this pass's own convention that is evidence of the gap, not license to treat the clause as correctly-empty -- it is dispositioned INCOMPLETE, not SKIP.",
             "listing": "10th Rank"
         }
     }

@@ -18,7 +18,30 @@
             "remaster": true,
             "title": "Cinderfall"
         },
-        "rules": [],
+        "rules": [
+            {
+                "key": "RollOption",
+                "option": "fortress-stance",
+                "toggleable": true
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "ac",
+                "type": "item",
+                "value": 2,
+                "predicate": [
+                    "fortress-stance"
+                ]
+            },
+            {
+                "key": "Resistance",
+                "type": "all",
+                "value": 5,
+                "predicate": [
+                    "fortress-stance"
+                ]
+            }
+        ],
         "traits": {
             "rarity": "common",
             "value": [

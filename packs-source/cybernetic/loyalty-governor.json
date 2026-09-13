@@ -1,0 +1,68 @@
+{
+    "name": "Loyalty Governor",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>Repurposed corp control-chip. 1/day, immediately end one effect making you controlled, fascinated, or frightened. If hacked, its original leash function is still in there.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 7
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "gp": 360
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "traits": {
+            "rarity": "uncommon",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "loyalty-governor"
+    },
+    "_id": "i2bVry3NtRJ5U0S2",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The whole ability is a 1/day activated condition-clear (ends one effect making you controlled, fascinated, or frightened) -- needs a granted Action item with its own frequency, not a passive rule element.",
+            "augmentKind": "cybernetic",
+            "augmentType": "implant",
+            "tier": "uncommon",
+            "slots": [
+                "Neural"
+            ],
+            "slotCost": 1,
+            "grade": 2,
+            "availability": "Black Market",
+            "level": 7,
+            "drift": "+3",
+            "augTags": [
+                "soul-tech"
+            ]
+        }
+    }
+}

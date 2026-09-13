@@ -1,0 +1,53 @@
+{
+    "name": "Effect: Measure Them",
+    "type": "effect",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "description": {
+            "value": "<p><em>Applied by <strong>Measure Them</strong> to the character who used it.</em></p>\n<hr />\n<p>You learn the target's Armor Class, which of its saving throws is weakest, and whether it has any resistance or immunity relevant to the weapon in your hand. Until the end of your next turn you gain a +1 circumstance bonus to attack rolls against it. You learn this whether the Strike hit or missed — a miss tells you as much as a hit does.</p>"
+        },
+        "duration": {
+            "expiry": "turn-end",
+            "sustained": false,
+            "unit": "rounds",
+            "value": 1
+        },
+        "level": {
+            "value": 2
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "attack",
+                "type": "circumstance",
+                "value": 1,
+                "predicate": [
+                    "target:mark:measure-them"
+                ]
+            }
+        ],
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "value": []
+        },
+        "slug": "measure-them-effect"
+    },
+    "_id": "hL5WUfwhzLM59R3T",
+    "flags": {
+        "cinderfall": {
+            "effectOf": "deadhand.measure-them",
+            "landsOn": "self"
+        }
+    }
+}

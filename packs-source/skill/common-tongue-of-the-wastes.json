@@ -1,0 +1,32 @@
+{
+    "name": "Common Tongue of the Wastes",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "skill",
+        "description": {
+            "value": "<p>Combine slang, Dixie cant, Slum trade-pidgin — you flow between all of them without thinking. You don't take a circumstance penalty to Diplomacy actions against a creature for not sharing a common dialect, so long as you share a language's root.</p>"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "common-tongue-of-the-wastes"
+    },
+    "_id": "NGQZB1f01L9Ksvyu"
+}

@@ -33,5 +33,10 @@
         },
         "slug": "the-bet-always-pays"
     },
-    "_id": "Z6yr81UsqXKPAvsv"
+    "_id": "Z6yr81UsqXKPAvsv",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "a daily-use formula for a resource (Hot Load charges) that has no rule-element representation anywhere to attach a formula to. This card depends on (upgrades, extends, or is gated behind) another Ironsight card in this same package that itself ships rules: [] -- if the parent has nothing real to build on, the child has nothing real to extend either."
+        }
+    }
 }

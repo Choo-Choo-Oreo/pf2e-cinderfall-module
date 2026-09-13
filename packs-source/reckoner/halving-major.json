@@ -1,0 +1,59 @@
+{
+    "name": "The Halving Made Personal",
+    "type": "capstone",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p>Once per day, spend 1 minute marking a single creature, object, or structure as Overdue. For the rest of the encounter it takes a -2 status penalty to AC and all saves, and at the end of each of your turns it takes moderate void damage that can't be reduced by resistance or immunity. Overdue can't be removed by any means short of ending the encounter or destroying you. You've decided, for one target, that entropy runs faster than everywhere else. It agrees without needing to be asked.</p>"
+        },
+        "level": {
+            "value": 20
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "ac",
+                "type": "status",
+                "value": -2
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "saving-throw",
+                "type": "status",
+                "value": -2
+            }
+        ],
+        "traits": {
+            "rarity": "common",
+            "otherTags": [
+                "reckoner-halving"
+            ],
+            "value": [
+                "reckoner"
+            ]
+        },
+        "slug": "halving-major"
+    },
+    "_id": "zKmB3OS8Oztyk4Yd",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "'Overdue': the -2 status AC/saves penalty is buildable and has been added to system.rules. The recurring void damage each turn stays unbuilt: it would need the Persistent Damage condition's own badge fields set via ItemAlteration, but no worked example of setting a NEW persistent-damage badge (as opposed to altering an existing item's already-stated persistent damage) was found to cite with confidence. The 'can't be removed by any means short of ending the encounter or destroying you' absolute-removal clause has no mechanism at all and stays narrative-only. See feats-class-reckoner-draft.md open question 7.",
+            "track": "halving"
+        }
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "name": "Standing Orders",
+    "type": "capstone",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p>Once per round, giving a called command costs you no action. You are still held to one command a round; what changes is that giving it no longer costs you the turn you needed in order to also be fighting.</p>"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "otherTags": [
+                "deadhand-cadre"
+            ],
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "cadre-minor"
+    },
+    "_id": "bnUIc1X917B90EuE",
+    "flags": {
+        "cinderfall": {
+            "track": "cadre"
+        }
+    }
+}

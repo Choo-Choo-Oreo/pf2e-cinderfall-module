@@ -33,5 +33,10 @@
         },
         "slug": "second-wind-grown"
     },
-    "_id": "g52tTcxXiVb82MPg"
+    "_id": "g52tTcxXiVb82MPg",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "P-BARE-REGAIN, same reasoning as Hungry Growth."
+        }
+    }
 }

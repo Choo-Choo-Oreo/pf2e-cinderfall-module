@@ -1,0 +1,43 @@
+{
+    "name": "Old World Mastery",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "ancestry",
+        "description": {
+            "value": "<p>Recall Knowledge checks about pre-Turning history, technology, or culture automatically succeed at trained-level difficulty.</p>"
+        },
+        "level": {
+            "value": 9
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Old World Echo"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "human"
+            ]
+        },
+        "slug": "old-world-mastery"
+    },
+    "_id": "xQrUA53QivaJhNc2",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Recall-Knowledge-about-a-specific-lore-topic bonuses have no predicate hook -- confirmed via liminal-catfolk.json's real but trait-scoped precedent; a free-text lore topic like this one can't be targeted. There is no rule-element that guarantees an outright success or converts a failed save/check to a success after the fact; AdjustDegreeOfSuccess only shifts the degree of an actual roll."
+        }
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "name": "Mine",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Range</strong> 30 feet</p><p><strong>Targets</strong> 1 creature</p><p><strong>Frequency</strong> once per day</p><p><strong>Saving Throw</strong> Will</p><p><strong>Duration</strong> 1 minute</p><hr /><p>The target must succeed at a Will save against your class DC or, for the duration, take a -1 circumstance penalty to attack rolls and damage rolls against anyone other than you (-2 on a critical failure). This is a mental effect. It isn't jealousy. It's just clarity about who matters.</p>"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "otherTags": [
+                "cultist-claimant"
+            ],
+            "rarity": "common",
+            "value": [
+                "cultist"
+            ]
+        },
+        "slug": "mine"
+    },
+    "_id": "PiMhlhpZCRTyuaAV",
+    "flags": {
+        "cinderfall": {
+            "track": "claimant"
+        }
+    }
+}

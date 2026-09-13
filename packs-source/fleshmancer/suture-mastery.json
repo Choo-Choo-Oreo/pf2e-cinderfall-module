@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "fleshmancer-grafters"
+            ],
             "rarity": "common",
             "value": [
                 "fleshmancer"
@@ -33,5 +36,10 @@
         },
         "slug": "suture-mastery"
     },
-    "_id": "gAEmiv1REeCenBAt"
+    "_id": "gAEmiv1REeCenBAt",
+    "flags": {
+        "cinderfall": {
+            "track": "grafters"
+        }
+    }
 }

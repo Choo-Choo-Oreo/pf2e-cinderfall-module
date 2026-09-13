@@ -1,0 +1,866 @@
+{
+    "name": "Paradise-Touched",
+    "type": "class",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "ancestryFeatLevels": {
+            "value": [
+                1,
+                5,
+                9,
+                13,
+                17
+            ]
+        },
+        "attacks": {
+            "simple": 1,
+            "martial": 0,
+            "advanced": 0,
+            "unarmed": 1,
+            "other": {
+                "name": "",
+                "rank": 0
+            }
+        },
+        "classFeatLevels": {
+            "value": [
+                2,
+                4,
+                6,
+                8,
+                10,
+                12,
+                14,
+                16,
+                18,
+                20
+            ]
+        },
+        "defenses": {
+            "unarmored": 1,
+            "light": 0,
+            "medium": 0,
+            "heavy": 0
+        },
+        "description": {
+            "value": "<p>It answers instantly, every time, and it has never once been wrong in a way you could prove.</p>"
+        },
+        "generalFeatLevels": {
+            "value": [
+                3,
+                7,
+                11,
+                15,
+                19
+            ]
+        },
+        "hp": 8,
+        "items": {
+            "paradise-touched.aperture": {
+                "level": 1,
+                "name": "Choose Your Aperture"
+            }
+        },
+        "keyAbility": {
+            "value": [
+                "int"
+            ]
+        },
+        "perception": 1,
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "savingThrows": {
+            "fortitude": 1,
+            "reflex": 1,
+            "will": 1
+        },
+        "skillFeatLevels": {
+            "value": [
+                2,
+                4,
+                6,
+                8,
+                10,
+                12,
+                14,
+                16,
+                18,
+                20
+            ]
+        },
+        "skillIncreaseLevels": {
+            "value": [
+                3,
+                5,
+                7,
+                9,
+                11,
+                13,
+                15,
+                17,
+                19
+            ]
+        },
+        "slug": "paradise-touched",
+        "spellcasting": 1,
+        "trainedSkills": {
+            "additional": 3,
+            "value": [
+                "occultism"
+            ]
+        },
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "_id": "Jq8WzxjmcxBMkkXX",
+    "flags": {
+        "cinderfall": {
+            "tagline": "It answers instantly, every time, and it has never once been wrong in a way you could prove.",
+            "role": "Ambiguous-resolution caster",
+            "pillar": "Paradise — the pleasant wrong answer",
+            "hpFormula": "8 + Con / level",
+            "keyAbilityText": "Intelligence",
+            "spellcastingText": "Occult, spontaneous (Int)",
+            "spellcastingTradition": "Occult",
+            "spellcastingPreparation": "spontaneous",
+            "terms": [
+                [
+                    "The Declaration",
+                    "<strong>The rule the whole class hangs on.</strong> Before any Paradise-Touched effect resolves, you privately choose <em>Signal</em> or <em>Static</em> (§3). You do not announce it. The table does not get told."
+                ],
+                [
+                    "Signal",
+                    "<strong>Channel open wide.</strong> The effect gets better — usually +2 status to the roll, or one step up the ladder. If it fails, you take force damage and gain a point of Signal Drift."
+                ],
+                [
+                    "Static",
+                    "<strong>Channel kept narrow.</strong> No benefit. Failing costs you nothing at all. But a <em>success</em> is subject to a secret DC 5 flat check, and on a failed flat check the result is false and the GM tells it to you as though it were true."
+                ],
+                [
+                    "Bandwidth",
+                    "<strong>Your class resource.</strong> Pays for Glimpses — the Aperture abilities in §2. Regained by <em>Re-sync</em>. Separate from your spell slots, which work like any spontaneous occult caster's."
+                ],
+                [
+                    "Re-sync",
+                    "<strong>Your Refocus.</strong> Ten minutes doing nothing but listening. Recovers 1 Bandwidth. Doing it in a settlement makes people nervous, and they are right to be."
+                ],
+                [
+                    "Glimpse",
+                    "<strong>An Aperture ability bought with Bandwidth</strong> — one at 1st, 7th, and 15th, set by which Aperture you chose. Declared Signal or Static like everything else."
+                ],
+                [
+                    "Signal Drift",
+                    "<strong>The permanent one.</strong> A 0–10 track that only ever goes up, and only when a Signal-declared effect fails (§4). Deliberately built as the sibling of the cybernetic Drift track — same bands, same one-way door, different axis."
+                ],
+                [
+                    "Aperture",
+                    "<strong>Your subclass</strong> — The Archive, The Chorus, or The Render (§2). Chosen at 1st level. It decides which part of Paradise is open to you, and therefore what it hands you when you ask."
+                ],
+                [
+                    "The Feed",
+                    "<strong>The signal itself.</strong> The ambient broadcast every live Paradise node puts out, whether or not anyone's tuned in. What you draw on when you Re-sync, and what a body thinned far enough by Drift has to substitute for sleep."
+                ]
+            ],
+            "classDC": [
+                {
+                    "term": "class dc",
+                    "rank": 1
+                }
+            ],
+            "progression": [
+                {
+                    "level": 1,
+                    "grants": [
+                        [
+                            "Aperture",
+                            ",",
+                            null
+                        ],
+                        [
+                            " the Declaration",
+                            ",",
+                            null
+                        ],
+                        [
+                            " <strong>Bandwidth 2</strong>",
+                            ",",
+                            null
+                        ],
+                        [
+                            " first Glimpse",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Signal Drift 0",
+                            ",",
+                            null
+                        ],
+                        [
+                            " initial occult spellcasting",
+                            ",",
+                            "initial occult spellcasting"
+                        ],
+                        [
+                            " initial proficiencies",
+                            ",",
+                            "initial proficiencies"
+                        ],
+                        [
+                            " ancestry feat",
+                            "",
+                            "ancestry feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Trained: Class DC",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Fortitude",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Perception",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Reflex",
+                            ",",
+                            null
+                        ],
+                        [
+                            " spellcasting",
+                            ",",
+                            null
+                        ],
+                        [
+                            " unarmored defense",
+                            ",",
+                            null
+                        ],
+                        [
+                            " simple weapons",
+                            ",",
+                            null
+                        ],
+                        [
+                            " unarmed",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Will",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Occultism",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 2,
+                    "grants": [
+                        [
+                            "Skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Paradise-Touched feat",
+                            "",
+                            "class feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 3,
+                    "grants": [
+                        [
+                            "General feat",
+                            ",",
+                            "general feat"
+                        ],
+                        [
+                            " skill increase",
+                            ",",
+                            "skill increase"
+                        ],
+                        [
+                            " expert Occultism",
+                            ",",
+                            null
+                        ],
+                        [
+                            " <strong>Signal Discipline</strong> (reroll one failed Signal effect per day)",
+                            "",
+                            null
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Expert: Occultism",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 4,
+                    "grants": [
+                        [
+                            "Skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Paradise-Touched feat",
+                            "",
+                            "class feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 5,
+                    "grants": [
+                        [
+                            "Ability boosts",
+                            ",",
+                            "ability boosts"
+                        ],
+                        [
+                            " ancestry feat",
+                            ",",
+                            "ancestry feat"
+                        ],
+                        [
+                            " skill increase",
+                            ",",
+                            "skill increase"
+                        ],
+                        [
+                            " <strong>expert spellcasting</strong>",
+                            ",",
+                            "expert spellcasting"
+                        ],
+                        [
+                            " expert Will",
+                            "",
+                            "expert will"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Expert: spellcasting",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Will",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Reflex",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 6,
+                    "grants": [
+                        [
+                            "Skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Paradise-Touched feat",
+                            "",
+                            "class feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 7,
+                    "grants": [
+                        [
+                            "General feat",
+                            ",",
+                            "general feat"
+                        ],
+                        [
+                            " skill increase",
+                            ",",
+                            "skill increase"
+                        ],
+                        [
+                            " master Reflex",
+                            ",",
+                            "master reflex"
+                        ],
+                        [
+                            " <strong>Bandwidth 3</strong>",
+                            ",",
+                            null
+                        ],
+                        [
+                            " <strong>second Glimpse</strong>",
+                            "",
+                            null
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Master: Reflex",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 8,
+                    "grants": [
+                        [
+                            "Skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Paradise-Touched feat",
+                            "",
+                            "class feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 9,
+                    "grants": [
+                        [
+                            "Ancestry feat",
+                            ",",
+                            "ancestry feat"
+                        ],
+                        [
+                            " skill increase",
+                            ",",
+                            "skill increase"
+                        ],
+                        [
+                            " expert Class DC",
+                            ",",
+                            "expert class dc"
+                        ],
+                        [
+                            " <strong>Wideband</strong> (once per round, declare one effect as Signal <em>and</em> Static together — you take the Signal benefit and eat the Static failure cost in the same breath, by choice rather than luck)",
+                            "",
+                            null
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Expert: Class DC",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Fortitude",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 10,
+                    "grants": [
+                        [
+                            "Ability boosts",
+                            ",",
+                            "ability boosts"
+                        ],
+                        [
+                            " skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Paradise-Touched feat",
+                            "",
+                            "class feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 11,
+                    "grants": [
+                        [
+                            "General feat",
+                            ",",
+                            "general feat"
+                        ],
+                        [
+                            " skill increase",
+                            ",",
+                            "skill increase"
+                        ],
+                        [
+                            " <strong>master spellcasting</strong>",
+                            ",",
+                            "master spellcasting"
+                        ],
+                        [
+                            " master Will/Occultism",
+                            "",
+                            null
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Expert: Perception",
+                            ",",
+                            null
+                        ],
+                        [
+                            " simple weapons",
+                            ",",
+                            null
+                        ],
+                        [
+                            " unarmed",
+                            ";",
+                            null
+                        ],
+                        [
+                            " Master: Occultism",
+                            ",",
+                            null
+                        ],
+                        [
+                            " spellcasting",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Will",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 12,
+                    "grants": [
+                        [
+                            "Skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Paradise-Touched feat",
+                            "",
+                            "class feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 13,
+                    "grants": [
+                        [
+                            "Ancestry feat",
+                            ",",
+                            "ancestry feat"
+                        ],
+                        [
+                            " skill increase",
+                            ",",
+                            "skill increase"
+                        ],
+                        [
+                            " master Fortitude",
+                            ",",
+                            "master fortitude"
+                        ],
+                        [
+                            " <strong>Bandwidth 4</strong>",
+                            "",
+                            null
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Expert: unarmored defense",
+                            ";",
+                            null
+                        ],
+                        [
+                            " Master: Fortitude",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 14,
+                    "grants": [
+                        [
+                            "Skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Paradise-Touched feat",
+                            "",
+                            "class feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 15,
+                    "grants": [
+                        [
+                            "Ability boosts",
+                            ",",
+                            "ability boosts"
+                        ],
+                        [
+                            " general feat",
+                            ",",
+                            "general feat"
+                        ],
+                        [
+                            " skill increase",
+                            ",",
+                            "skill increase"
+                        ],
+                        [
+                            " <strong>third Glimpse</strong>",
+                            ",",
+                            null
+                        ],
+                        [
+                            " legendary Occultism",
+                            "",
+                            null
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Legendary: Occultism",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 16,
+                    "grants": [
+                        [
+                            "Skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Paradise-Touched feat",
+                            "",
+                            "class feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 17,
+                    "grants": [
+                        [
+                            "Ancestry feat",
+                            ",",
+                            "ancestry feat"
+                        ],
+                        [
+                            " skill increase",
+                            ",",
+                            "skill increase"
+                        ],
+                        [
+                            " <strong>legendary spellcasting</strong>",
+                            ",",
+                            "legendary spellcasting"
+                        ],
+                        [
+                            " <strong>Clean Line</strong>",
+                            ",",
+                            null
+                        ],
+                        [
+                            " <strong>Nothing Is Noise</strong>",
+                            "",
+                            null
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Legendary: spellcasting",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 18,
+                    "grants": [
+                        [
+                            "Skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Paradise-Touched feat",
+                            "",
+                            "class feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 19,
+                    "grants": [
+                        [
+                            "General feat",
+                            ",",
+                            "general feat"
+                        ],
+                        [
+                            " skill increase",
+                            ",",
+                            "skill increase"
+                        ],
+                        [
+                            " <strong>Bandwidth 5</strong>",
+                            ",",
+                            null
+                        ],
+                        [
+                            " legendary Will",
+                            "",
+                            null
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Legendary: Will",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 20,
+                    "grants": [
+                        [
+                            "Ability boosts",
+                            ",",
+                            "ability boosts"
+                        ],
+                        [
+                            " skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Paradise-Touched feat",
+                            ",",
+                            "class feat"
+                        ],
+                        [
+                            " <strong>The Standing Offer</strong>",
+                            "",
+                            null
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                }
+            ],
+            "spellcastingCastingAbility": "Int"
+        }
+    }
+}

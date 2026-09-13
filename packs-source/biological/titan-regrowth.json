@@ -1,0 +1,96 @@
+{
+    "name": "Titan Regrowth",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>A full musculo-skeletal regrowth off something enormous that used to live in the Reaches. +2 apex item bonus to Strength (to 22 if it was lower). You can operate at Large size (10-foot reach, +1 to melee damage dice count, but you no longer fit through a standard door or corridor).</p><p><b>Rider:</b> It is always a little hungry. Each day you don't eat roughly twice a person's food, you take a −1 status penalty to attack rolls and Fortitude saves until you do.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 17
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "mk": 20000
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "RollOption",
+                "option": "titan-regrowth-underfed",
+                "toggleable": true,
+                "label": "You have not eaten roughly twice a person's food today"
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "attack",
+                "type": "status",
+                "value": -1,
+                "predicate": [
+                    "titan-regrowth-underfed"
+                ]
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "fortitude",
+                "type": "status",
+                "value": -1,
+                "predicate": [
+                    "titan-regrowth-underfed"
+                ]
+            }
+        ],
+        "size": "med",
+        "traits": {
+            "rarity": "legendary",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "titan-regrowth"
+    },
+    "_id": "wbrfPvbUZ5fXST0U",
+    "flags": {
+        "cinderfall": {
+            "augmentKind": "biological",
+            "augmentType": "graft",
+            "tier": "legendary",
+            "slots": [
+                "Frame",
+                "Legs",
+                "Arm"
+            ],
+            "slotCost": 3,
+            "grade": 5,
+            "availability": "Wild",
+            "level": 17,
+            "load": "+6",
+            "resonance": "+5",
+            "augTags": [
+                "wild",
+                "apex"
+            ]
+        }
+    }
+}

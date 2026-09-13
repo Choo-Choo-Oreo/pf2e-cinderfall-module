@@ -27,5 +27,10 @@
         },
         "slug": "numbers"
     },
-    "_id": "fHP6gHnAaaeoFxwl"
+    "_id": "fHP6gHnAaaeoFxwl",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Open question: this file is not referenced by `frequency.json`'s `flags.cinderfall.grants` list (`the-signal.numbers-track`, `the-signal.open-band-track`, `the-signal.requiem-track` are the three grants — `numbers`/`open-band`/`requiem` are absent from that list). Unclear whether this is a live, separately-granted reference card or an orphaned duplicate; flagged under Open Questions rather than assumed."
+        }
+    }
 }

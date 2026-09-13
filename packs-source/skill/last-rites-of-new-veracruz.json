@@ -1,0 +1,41 @@
+{
+    "name": "Last Rites of New Veracruz",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "skill",
+        "description": {
+            "value": "<p>You can perform a genuine last rite for a mind about to be uploaded into Paradise — not to save them, but to make sure whatever's left afterward remembers it was once a person. Once per day, performing this rite over a willing subject grants them a +2 circumstance bonus to any one save related to mental domination or possession for the next 24 hours, uploaded or not.</p>"
+        },
+        "level": {
+            "value": 18
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Legendary in Religion"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "last-rites-of-new-veracruz"
+    },
+    "_id": "HO83qApMa1VBXi57",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Granting a willing subject a future +2 save bonus for 24 hours is an effect on another creature's own roll, requiring a granted buff-effect item with a duration -- no such mechanism is established anywhere in this corpus for a skill feat."
+        }
+    }
+}

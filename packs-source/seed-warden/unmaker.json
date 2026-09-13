@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "seed-warden-blightline"
+            ],
             "rarity": "common",
             "value": [
                 "seed-warden"
@@ -33,5 +36,11 @@
         },
         "slug": "unmaker"
     },
-    "_id": "JpSbdHNlnBXwgBGo"
+    "_id": "JpSbdHNlnBXwgBGo",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Retargets Blight the Path's `area` (no RE, `CF-list`) and adds an automatic, un-rolled counteract-like effect against a rank threshold — no real precedent found for an automatic (non-counteract-roll) dispel gated purely by rank. Bucket 5.",
+            "track": "blightline"
+        }
+    }
 }

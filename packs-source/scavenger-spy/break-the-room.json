@@ -27,5 +27,10 @@
         },
         "slug": "break-the-room"
     },
-    "_id": "DpU4EUQx5tuvBHx9"
+    "_id": "DpU4EUQx5tuvBHx9",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The off-guard portion needs no rule element (real pf2e ships condition-only outcomes as \"rules\": [], e.g. feint.json and terrifying-howl.json for the AoE case) and is applied manually via the description. The -2 status penalty to the group's Will saves/Perception is a stated number applied to external targets (the whole affected group) -- that needs the distracting-feint.json/effect-distracting-feint.json two-file companion-effect pattern, which building is outside this card's scope. Left INCOMPLETE for that penalty; the off-guard part needs no fix."
+        }
+    }
 }

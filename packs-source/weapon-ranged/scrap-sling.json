@@ -33,6 +33,9 @@
                 "gp": 1
             }
         },
+        "ammo": {
+            "baseType": "sling-bullets"
+        },
         "bonus": {
             "value": 0
         },
@@ -46,7 +49,7 @@
             "damageType": "bludgeoning"
         },
         "group": "sling",
-        "range": null,
+        "range": 50,
         "reload": {
             "value": null
         },
@@ -60,12 +63,6 @@
     },
     "_id": "mve1nFCbhUdesUpe",
     "flags": {
-        "cinderfall": {
-            "incomplete": [
-                "level is a stub (0); the page carries no item levels",
-                "sling range and reload stubbed; the page posts no increments"
-            ],
-            "currency": "Balanced to the PF2e GP standard and denominated in Credits: 1 Credit = 1 gp. The whole list was scaled x10 from the retired scraps=sp anchor, so every relative price is unchanged from the page as authored."
-        }
+        "cinderfall": {}
     }
 }

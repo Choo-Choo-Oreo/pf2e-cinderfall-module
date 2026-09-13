@@ -1,0 +1,70 @@
+{
+    "name": "Combine Service Carbine",
+    "type": "weapon",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "bulk": {
+            "value": 1
+        },
+        "description": {
+            "value": "<p>Factory-sealed, smart-tagged, no misfire. Standard long arm for Combine security details — which is exactly why carrying one openly in the Slums gets you shot first.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 0
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "traits": {
+            "rarity": "rare",
+            "value": []
+        },
+        "price": {
+            "value": {
+                "gp": 3
+            }
+        },
+        "ammo": {
+            "baseType": "rifle-rounds"
+        },
+        "bonus": {
+            "value": 0
+        },
+        "bonusDamage": {
+            "value": 0
+        },
+        "category": "advanced",
+        "damage": {
+            "dice": 1,
+            "die": "d8",
+            "damageType": "piercing"
+        },
+        "group": "firearm",
+        "range": 90,
+        "reload": {
+            "value": 1
+        },
+        "splashDamage": {
+            "value": 0
+        },
+        "usage": {
+            "value": "held-in-two-hands"
+        },
+        "slug": "combine-service-carbine"
+    },
+    "_id": "GAbfqUL3ja6hPPk3",
+    "flags": {
+        "cinderfall": {
+            "categoryNormalized": "Export stored category as 'martial'; normalized to 'advanced' to match its Combine-brand siblings (Arms Sidearm, Longrifle, Riot Gun), all advanced -- confirmed 'advanced' is a real base PF2e weapon category (pf2e-source WEAPON_CATEGORIES), not a Cinderfall invention."
+        }
+    }
+}

@@ -33,5 +33,10 @@
         },
         "slug": "steady-word"
     },
-    "_id": "SeMtXXdAqQPGKo1l"
+    "_id": "SeMtXXdAqQPGKo1l",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Bucket 3 (limited-use activated action) and, independently, reducing a condition's numeric value (rather than granting/removing it wholesale) has no rule-element precedent anywhere in pf2e-source -- both stand-firm.json and fear-no-law-fear-no-one.json (the closest real analogs, both reducing frightened by a stated amount) ship rules: []. Two independent reasons this can't be more than flavor text today."
+        }
+    }
 }

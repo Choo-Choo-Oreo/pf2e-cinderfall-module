@@ -25,7 +25,7 @@
         },
         "attributes": {
             "ac": {
-                "details": "",
+                "details": "all-around vision",
                 "value": 30
             },
             "hp": {
@@ -96,7 +96,7 @@
             "statistic": "perception"
         },
         "perception": {
-            "details": "all-around vision",
+            "details": "",
             "mod": 20,
             "senses": [
                 {
@@ -141,6 +141,43 @@
     "_id": "ee22Qbi2qRVynA1r",
     "items": [
         {
+            "_id": "KP90FTyNXhaMXQrQ",
+            "img": "systems/pf2e/icons/actions/Passive.webp",
+            "name": "All-Around Vision",
+            "sort": 1050000,
+            "system": {
+                "actionType": {
+                    "value": "passive"
+                },
+                "actions": {
+                    "value": null
+                },
+                "category": "defensive",
+                "description": {
+                    "value": "<p>The Coordinator's sensor array covers every angle; it can't be flanked.</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [
+                    {
+                        "key": "ActiveEffectLike",
+                        "mode": "override",
+                        "path": "system.attributes.flanking.flankable",
+                        "value": false
+                    }
+                ],
+                "slug": "all-around-vision",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "type": "action"
+        },
+        {
             "_id": "gdS3DuRR9mZ85PWa",
             "img": "systems/pf2e/icons/default-icons/lore.svg",
             "name": "Warfare Lore",
@@ -176,7 +213,9 @@
                 },
                 "attackEffects": {
                     "custom": "",
-                    "value": []
+                    "value": [
+                        "designation-mark"
+                    ]
                 },
                 "bonus": {
                     "value": 19
@@ -188,7 +227,7 @@
                     }
                 },
                 "description": {
-                    "value": "<p>Damage 2d8+5 fire, and the target is marked until the start of the Coordinator's next turn</p>"
+                    "value": ""
                 },
                 "publication": {
                     "license": "ORC",
@@ -212,7 +251,7 @@
             "type": "melee"
         },
         {
-            "_id": "KP90FTyNXhaMXQrQ",
+            "_id": "qk4LATt0YYXG5pxa",
             "img": "systems/pf2e/icons/actions/OneAction.webp",
             "name": "Fire Mission",
             "sort": 1100000,
@@ -242,7 +281,7 @@
             "type": "action"
         },
         {
-            "_id": "qk4LATt0YYXG5pxa",
+            "_id": "RaSyFop1Pe6T1ctP",
             "img": "systems/pf2e/icons/actions/TwoActions.webp",
             "name": "Battlefield Control",
             "sort": 1200000,
@@ -272,7 +311,7 @@
             "type": "action"
         },
         {
-            "_id": "RaSyFop1Pe6T1ctP",
+            "_id": "XRIW2bbYP2I1uzjn",
             "img": "systems/pf2e/icons/actions/Reaction.webp",
             "name": "Reallocate",
             "sort": 1300000,
@@ -302,7 +341,7 @@
             "type": "action"
         },
         {
-            "_id": "XRIW2bbYP2I1uzjn",
+            "_id": "EEm3YxNKc59FfqVv",
             "img": "systems/pf2e/icons/actions/Passive.webp",
             "name": "Command Handoff",
             "sort": 1400000,
@@ -330,15 +369,84 @@
                 }
             },
             "type": "action"
+        },
+        {
+            "_id": "A9UakhCOWcgbfskU",
+            "img": "systems/pf2e/icons/actions/Passive.webp",
+            "name": "Designation Mark",
+            "sort": 1500000,
+            "system": {
+                "actionType": {
+                    "value": "passive"
+                },
+                "actions": {
+                    "value": null
+                },
+                "category": "offensive",
+                "description": {
+                    "value": "<p>On a hit, the target is marked until the start of the Coordinator's next turn.</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "designation-mark",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "type": "action"
+        },
+        {
+            "_id": "EX2a06GVAcmZJf5O",
+            "img": "systems/pf2e/icons/default-icons/treasure.svg",
+            "name": "Coordinator Targeting Core",
+            "sort": 1600000,
+            "system": {
+                "bulk": {
+                    "value": 0
+                },
+                "category": "material",
+                "description": {
+                    "value": "<p>A targeting core pulled from the wreck, still faintly warm &mdash; worth a great deal to the right buyer, and a great deal of trouble to anyone else.</p>"
+                },
+                "hardness": 0,
+                "hp": {
+                    "max": 0,
+                    "value": 0
+                },
+                "level": {
+                    "value": 0
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "quantity": 1,
+                "rules": [],
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                },
+                "price": {
+                    "value": {
+                        "gp": 3
+                    }
+                }
+            },
+            "type": "treasure"
         }
     ],
     "flags": {
+        "pf2e": {
+            "lootable": true
+        },
         "cinderfall": {
-            "alignment": "LN",
-            "incomplete": [
-                "perception clause not representable as a pf2e sense: 'all-around vision'",
-                "Ranged strike 'designator beam': rider \"and the target is marked until the start of the Coordinator's next turn\" kept as text only"
-            ]
+            "alignment": "LN"
         }
     }
 }

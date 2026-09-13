@@ -15,7 +15,27 @@
             "remaster": true,
             "title": "Cinderfall"
         },
-        "rules": [],
+        "rules": [
+            {
+                "key": "RollOption",
+                "option": "grafted-chrome-living-tissue",
+                "toggleable": true,
+                "label": "Effect specifically targets living tissue, flesh-mancy included"
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "saving-throw",
+                "type": "circumstance",
+                "value": -1,
+                "predicate": [
+                    "grafted-chrome-living-tissue"
+                ]
+            },
+            {
+                "key": "FastHealing",
+                "value": 1
+            }
+        ],
         "traits": {
             "rarity": "common",
             "value": []

@@ -1,0 +1,68 @@
+{
+    "name": "Predator Optics",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>Ranged Strikes ignore concealment and treat standard cover as lesser, greater as standard. Once per round, Recall Knowledge on a creature's weaknesses as a free action.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 14
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "gp": 5000
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "traits": {
+            "rarity": "epic",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "predator-optics"
+    },
+    "_id": "H7ZYvR1qtShepsao",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "'Ranged Strikes ignore concealment, treat standard cover as lesser and greater as standard' is the same real EphemeralEffect/cover-level mechanism confirmed on Gunfighter-Loadout (pf2e-source/packs/pf2e/equipment/alchemist-goggles.json) but needs a linked companion Effect item to implement correctly, out of scope for a rules-only splice here. The once-per-round free Recall Knowledge on a creature's weaknesses is a limited-use granted action, not a passive modifier.",
+            "augmentKind": "cybernetic",
+            "augmentType": "implant",
+            "tier": "epic",
+            "slots": [
+                "Ocular"
+            ],
+            "slotCost": 1,
+            "grade": 4,
+            "availability": "Black Market",
+            "level": 14,
+            "drift": "+3",
+            "augTags": [
+                "apex"
+            ]
+        }
+    }
+}

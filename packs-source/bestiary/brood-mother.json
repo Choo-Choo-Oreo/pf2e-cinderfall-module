@@ -348,9 +348,52 @@
                 }
             },
             "type": "action"
+        },
+        {
+            "_id": "lrX2woPvfwdNiAjy",
+            "img": "systems/pf2e/icons/default-icons/treasure.svg",
+            "name": "Matriarch Ichor Gland",
+            "sort": 1500000,
+            "system": {
+                "bulk": {
+                    "value": 0
+                },
+                "category": "material",
+                "description": {
+                    "value": "<p>A ruptured acid gland, thick and still faintly caustic; handle it with something you don't mind losing.</p>"
+                },
+                "hardness": 0,
+                "hp": {
+                    "max": 0,
+                    "value": 0
+                },
+                "level": {
+                    "value": 0
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "quantity": 1,
+                "rules": [],
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                },
+                "price": {
+                    "value": {
+                        "gp": 2
+                    }
+                }
+            },
+            "type": "treasure"
         }
     ],
     "flags": {
+        "pf2e": {
+            "lootable": true
+        },
         "cinderfall": {
             "alignment": "N"
         }

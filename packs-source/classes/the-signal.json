@@ -1,0 +1,872 @@
+{
+    "name": "The Signal",
+    "type": "class",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "ancestryFeatLevels": {
+            "value": [
+                1,
+                5,
+                9,
+                13,
+                17
+            ]
+        },
+        "attacks": {
+            "simple": 1,
+            "martial": 1,
+            "advanced": 0,
+            "unarmed": 1,
+            "other": {
+                "name": "",
+                "rank": 0
+            }
+        },
+        "classFeatLevels": {
+            "value": [
+                2,
+                4,
+                6,
+                8,
+                10,
+                12,
+                14,
+                16,
+                18,
+                20
+            ]
+        },
+        "defenses": {
+            "unarmored": 1,
+            "light": 1,
+            "medium": 0,
+            "heavy": 0
+        },
+        "description": {
+            "value": "<p>Somebody is still transmitting. Nobody has ever found the tower.</p>"
+        },
+        "generalFeatLevels": {
+            "value": [
+                3,
+                7,
+                11,
+                15,
+                19
+            ]
+        },
+        "hp": 8,
+        "items": {
+            "the-signal.frequency": {
+                "level": 1,
+                "name": "Choose Your Frequency"
+            }
+        },
+        "keyAbility": {
+            "value": [
+                "cha"
+            ]
+        },
+        "perception": 2,
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "savingThrows": {
+            "fortitude": 1,
+            "reflex": 1,
+            "will": 1
+        },
+        "skillFeatLevels": {
+            "value": [
+                2,
+                4,
+                6,
+                8,
+                10,
+                12,
+                14,
+                16,
+                18,
+                20
+            ]
+        },
+        "skillIncreaseLevels": {
+            "value": [
+                3,
+                5,
+                7,
+                9,
+                11,
+                13,
+                15,
+                17,
+                19
+            ]
+        },
+        "slug": "the-signal",
+        "spellcasting": 1,
+        "trainedSkills": {
+            "additional": 4,
+            "value": [
+                "performance"
+            ]
+        },
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "_id": "h3FoSsHxHILDjUYd",
+    "flags": {
+        "cinderfall": {
+            "tagline": "Somebody is still transmitting. Nobody has ever found the tower.",
+            "role": "Banked-reroll support",
+            "pillar": "Culture — what got kept",
+            "hpFormula": "8 + Con / level",
+            "keyAbilityText": "Charisma",
+            "spellcastingText": "Occult, spontaneous (Cha)",
+            "spellcastingTradition": "Occult",
+            "spellcastingPreparation": "spontaneous",
+            "terms": [
+                [
+                    "Broadcast",
+                    "<strong>Your stance — 1 action, free to sustain.</strong> While it's up you are transmitting, everyone within 60 feet who can hear you is <em>in range</em>, and you build Encore. Ends if you Dismiss it, fall unconscious, or are deafened."
+                ],
+                [
+                    "Encore",
+                    "<strong>Your class resource, and your party's.</strong> Builds 1 at the start of each of your turns while Broadcast is up. Cap 3/5/7/9 at levels 1/7/13/19; overflow is lost, and the pool empties when Broadcast ends."
+                ],
+                [
+                    "In range",
+                    "<strong>Within 60 feet of you and able to hear you.</strong> Both allies and enemies — every Broadcast effect that helps also has a version that lands on whoever else is listening."
+                ],
+                [
+                    "Spending Encore",
+                    "<strong>Once per round, an ally who fails a check may spend 1 Encore from your pool to reroll it</strong> and keep the new result. It costs them no action of any kind. It is your resource, spent by them, at the moment they need it."
+                ],
+                [
+                    "Crescendo",
+                    "<strong>Blowing the whole bank</strong> (§3). 1 action, needs 5+ Encore. Converts your entire pool into one Standing Reroll for every ally in range, good for a minute."
+                ],
+                [
+                    "Standing Reroll",
+                    "<strong>A banked second chance sitting in an ally's pocket.</strong> One use, expires after a minute, costs no action and no Encore to cash in."
+                ],
+                [
+                    "Frequency",
+                    "<strong>Your subclass</strong> — Numbers, Open Band, or Requiem (§2). Chosen at 1st level. What you are actually transmitting, and what that does to the people who hear it."
+                ],
+                [
+                    "Transmission",
+                    "<strong>What this class calls its cantrips</strong> — Sign On, Sign Off, Test Tone and the rest. Auditory, occult, and useless against anything that can't hear."
+                ]
+            ],
+            "classDC": [
+                {
+                    "term": "class dc",
+                    "rank": 1
+                }
+            ],
+            "progression": [
+                {
+                    "level": 1,
+                    "grants": [
+                        [
+                            "Frequency",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Broadcast",
+                            ",",
+                            null
+                        ],
+                        [
+                            " <strong>Encore (cap 3)</strong>",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Transmissions",
+                            ",",
+                            null
+                        ],
+                        [
+                            " initial occult spellcasting",
+                            ",",
+                            "initial occult spellcasting"
+                        ],
+                        [
+                            " initial proficiencies",
+                            ",",
+                            "initial proficiencies"
+                        ],
+                        [
+                            " ancestry feat",
+                            "",
+                            "ancestry feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Trained: light armor",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Class DC",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Fortitude",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Reflex",
+                            ",",
+                            null
+                        ],
+                        [
+                            " spellcasting",
+                            ",",
+                            null
+                        ],
+                        [
+                            " unarmored defense",
+                            ",",
+                            null
+                        ],
+                        [
+                            " simple &amp",
+                            ";",
+                            null
+                        ],
+                        [
+                            " martial weapons",
+                            ",",
+                            null
+                        ],
+                        [
+                            " unarmed",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Will",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Performance",
+                            ";",
+                            null
+                        ],
+                        [
+                            " Expert: Perception",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 2,
+                    "grants": [
+                        [
+                            "Skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Signal feat",
+                            "",
+                            "class feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 3,
+                    "grants": [
+                        [
+                            "General feat",
+                            ",",
+                            "general feat"
+                        ],
+                        [
+                            " skill increase",
+                            ",",
+                            "skill increase"
+                        ],
+                        [
+                            " expert Performance",
+                            "",
+                            null
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Expert: Performance",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Reflex",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 4,
+                    "grants": [
+                        [
+                            "Skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Signal feat",
+                            "",
+                            "class feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 5,
+                    "grants": [
+                        [
+                            "Ability boosts",
+                            ",",
+                            "ability boosts"
+                        ],
+                        [
+                            " ancestry feat",
+                            ",",
+                            "ancestry feat"
+                        ],
+                        [
+                            " skill increase",
+                            ",",
+                            "skill increase"
+                        ],
+                        [
+                            " <strong>expert spellcasting</strong>",
+                            ",",
+                            "expert spellcasting"
+                        ],
+                        [
+                            " expert Will",
+                            "",
+                            "expert will"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Expert: spellcasting",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Will",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 6,
+                    "grants": [
+                        [
+                            "Skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Signal feat",
+                            "",
+                            "class feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 7,
+                    "grants": [
+                        [
+                            "General feat",
+                            ",",
+                            "general feat"
+                        ],
+                        [
+                            " skill increase",
+                            ",",
+                            "skill increase"
+                        ],
+                        [
+                            " master Fortitude",
+                            ",",
+                            "master fortitude"
+                        ],
+                        [
+                            " <strong>Encore cap 5</strong>",
+                            ",",
+                            null
+                        ],
+                        [
+                            " <strong>Frequency feature II</strong>",
+                            ",",
+                            null
+                        ],
+                        [
+                            " <strong>Crescendo</strong>",
+                            "",
+                            null
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Master: Fortitude",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 8,
+                    "grants": [
+                        [
+                            "Skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Signal feat",
+                            "",
+                            "class feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 9,
+                    "grants": [
+                        [
+                            "Ancestry feat",
+                            ",",
+                            "ancestry feat"
+                        ],
+                        [
+                            " skill increase",
+                            ",",
+                            "skill increase"
+                        ],
+                        [
+                            " expert Class DC",
+                            ",",
+                            "expert class dc"
+                        ],
+                        [
+                            " <strong>Wide Band</strong> (Broadcast range 90 feet)",
+                            "",
+                            null
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Expert: Class DC",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 10,
+                    "grants": [
+                        [
+                            "Ability boosts",
+                            ",",
+                            "ability boosts"
+                        ],
+                        [
+                            " skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Signal feat",
+                            "",
+                            "class feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 11,
+                    "grants": [
+                        [
+                            "General feat",
+                            ",",
+                            "general feat"
+                        ],
+                        [
+                            " skill increase",
+                            ",",
+                            "skill increase"
+                        ],
+                        [
+                            " <strong>master spellcasting</strong>",
+                            ",",
+                            "master spellcasting"
+                        ],
+                        [
+                            " master Will/Performance",
+                            "",
+                            null
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Expert: simple &amp",
+                            ";",
+                            null
+                        ],
+                        [
+                            " martial weapons",
+                            ",",
+                            null
+                        ],
+                        [
+                            " unarmed",
+                            ";",
+                            null
+                        ],
+                        [
+                            " Master: Perception",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Performance",
+                            ",",
+                            null
+                        ],
+                        [
+                            " spellcasting",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Will",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 12,
+                    "grants": [
+                        [
+                            "Skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Signal feat",
+                            "",
+                            "class feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 13,
+                    "grants": [
+                        [
+                            "Ancestry feat",
+                            ",",
+                            "ancestry feat"
+                        ],
+                        [
+                            " skill increase",
+                            ",",
+                            "skill increase"
+                        ],
+                        [
+                            " master Reflex",
+                            ",",
+                            "master reflex"
+                        ],
+                        [
+                            " <strong>Encore cap 7</strong>",
+                            "",
+                            null
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Expert: light armor",
+                            ",",
+                            null
+                        ],
+                        [
+                            " unarmored defense",
+                            ";",
+                            null
+                        ],
+                        [
+                            " Master: Reflex",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 14,
+                    "grants": [
+                        [
+                            "Skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Signal feat",
+                            "",
+                            "class feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 15,
+                    "grants": [
+                        [
+                            "Ability boosts",
+                            ",",
+                            "ability boosts"
+                        ],
+                        [
+                            " general feat",
+                            ",",
+                            "general feat"
+                        ],
+                        [
+                            " skill increase",
+                            ",",
+                            "skill increase"
+                        ],
+                        [
+                            " <strong>Frequency capstone</strong>",
+                            ",",
+                            null
+                        ],
+                        [
+                            " legendary Performance",
+                            "",
+                            null
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Legendary: Performance",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 16,
+                    "grants": [
+                        [
+                            "Skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Signal feat",
+                            "",
+                            "class feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 17,
+                    "grants": [
+                        [
+                            "Ancestry feat",
+                            ",",
+                            "ancestry feat"
+                        ],
+                        [
+                            " skill increase",
+                            ",",
+                            "skill increase"
+                        ],
+                        [
+                            " <strong>legendary spellcasting</strong>",
+                            ",",
+                            "legendary spellcasting"
+                        ],
+                        [
+                            " <strong>Always On</strong>",
+                            ",",
+                            null
+                        ],
+                        [
+                            " <strong>Two Spends</strong>",
+                            "",
+                            null
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Legendary: spellcasting",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 18,
+                    "grants": [
+                        [
+                            "Skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Signal feat",
+                            "",
+                            "class feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 19,
+                    "grants": [
+                        [
+                            "General feat",
+                            ",",
+                            "general feat"
+                        ],
+                        [
+                            " skill increase",
+                            ",",
+                            "skill increase"
+                        ],
+                        [
+                            " <strong>Encore cap 9</strong>",
+                            ",",
+                            null
+                        ],
+                        [
+                            " legendary Will",
+                            "",
+                            null
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Legendary: Will",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 20,
+                    "grants": [
+                        [
+                            "Ability boosts",
+                            ",",
+                            "ability boosts"
+                        ],
+                        [
+                            " skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Signal feat",
+                            ",",
+                            "class feat"
+                        ],
+                        [
+                            " <strong>The Tower</strong>",
+                            "",
+                            null
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                }
+            ],
+            "spellcastingCastingAbility": "Cha"
+        }
+    }
+}

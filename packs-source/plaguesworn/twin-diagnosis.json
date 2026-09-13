@@ -33,5 +33,10 @@
         },
         "slug": "twin-diagnosis"
     },
-    "_id": "ZXjo2QkKy6Pzpkgt"
+    "_id": "ZXjo2QkKy6Pzpkgt",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Diagnosis is this class's own signature action (per the class card's flags.cinderfall.terms entry, classes.plaguesworn.json:82). A corpus-wide search (find site/data/cards -iname \"*diagnos*\") turns up only unrelated Old World Construct ancestry cards plus the three plaguesworn feats that reference it -- there is no \"Diagnosis\" action card anywhere in the corpus for a feat that keys off \"when you Diagnose\" to hook into or modify. The action itself doesn't exist as a card to retarget."
+        }
+    }
 }

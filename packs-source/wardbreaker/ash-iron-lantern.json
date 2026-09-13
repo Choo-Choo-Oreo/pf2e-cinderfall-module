@@ -1,54 +1,35 @@
 {
     "name": "Ash-Iron Lantern",
-    "type": "spell",
+    "type": "feat",
     "img": "icons/svg/mystery-man.svg",
     "system": {
-        "area": {
-            "type": "emanation",
-            "value": 15
+        "actionType": {
+            "value": "passive"
         },
-        "cost": {
-            "value": ""
+        "actions": {
+            "value": null
         },
-        "counteraction": false,
-        "damage": {},
-        "defense": {
-            "save": {
-                "basic": true,
-                "statistic": "will"
-            }
-        },
+        "category": "classfeature",
         "description": {
-            "value": "<p><strong>Frequency</strong> 2/day (+1 at 5th, 9th, 13th, 17th)</p><hr /><p>Named targets in the area take 6d6 damage (8d6 at 5th, 10d6 at 9th, 12d6 at 13th, 14d6 at 17th) as the Anchor is wrenched against — no attack roll; a Named target resists with a basic Will save. Allies in the area can't be possessed or Anchored themselves until the start of your next turn.</p>"
-        },
-        "duration": {
-            "sustained": false,
-            "value": "until the start of your next turn"
+            "value": "<p>A lantern housing one stable ember of bound static. Crack the shutter and it hauls once on every Anchor in reach — nothing can take an ally standing inside that light, and the light does not last.</p><hr /><p><strong>SIGNATURE —</strong> Named creatures in the emanation take scaling damage as the Anchor is wrenched against them — no attack roll, basic Will vs. your class DC; allies inside can't be possessed or Anchored until the start of your next turn.</p>"
         },
         "level": {
             "value": 1
+        },
+        "prerequisites": {
+            "value": []
         },
         "publication": {
             "license": "ORC",
             "remaster": true,
             "title": "Cinderfall"
         },
-        "range": {
-            "value": "self"
-        },
-        "requirements": "",
         "rules": [],
-        "target": {
-            "value": ""
-        },
-        "time": {
-            "value": "2"
-        },
         "traits": {
-            "rarity": "common",
-            "traditions": [
-                "occult"
+            "otherTags": [
+                "wardbreaker-ward"
             ],
+            "rarity": "common",
             "value": [
                 "wardbreaker"
             ]
@@ -59,7 +40,12 @@
     "flags": {
         "cinderfall": {
             "spellTag": "Innate",
-            "listing": "Break the Anchor, by Ward"
+            "listing": "Break the Anchor, by Ward",
+            "subclassOf": "wardbreaker",
+            "subclassChoice": "Choose Your Ward",
+            "role": "Warding Ground",
+            "followUp": "signature spell 'Ash-Iron Lantern' is record wardbreaker.ash-iron-lantern-spell; the card renders on spells-abilities.html as a spell-entry and its statline/body are authored above",
+            "subclassLayer": "ward"
         }
     }
 }

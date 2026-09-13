@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "ironsight-close-iron"
+            ],
             "rarity": "common",
             "value": [
                 "ironsight"
@@ -33,5 +36,11 @@
         },
         "slug": "close-iron-ascendant"
     },
-    "_id": "YrlrHCVmyDiPyDXk"
+    "_id": "YrlrHCVmyDiPyDXk",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "this suppresses a Cinderfall house-rule penalty (ranged Strikes within melee reach → off-guard + trigger an AoO-style reaction) that isn't itself encoded anywhere in this corpus or in real PF2E (which has no universal \"ranged-in-melee causes off-guard\" rule — Attack of Opportunity/Reactive Strike is a specific class/monster reaction, not a baseline penalty). There's nothing here to suppress with a rule element.",
+            "track": "close-iron"
+        }
+    }
 }

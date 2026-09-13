@@ -53,6 +53,7 @@
     "_id": "N3B91EOz2xNzRF0I",
     "flags": {
         "cinderfall": {
+            "incomplete": "Burst: undo the last round's damage/movement/conditions/spells-spent for everything in the area (Will save keeps the memory). A full round-state-undo for arbitrary creatures/effects has no rule-element representation; would need a macro/hook capturing prior game state.",
             "listing": "8th Rank"
         }
     }

@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "ironsight-trick-iron"
+            ],
             "rarity": "common",
             "value": [
                 "ironsight"
@@ -33,5 +36,11 @@
         },
         "slug": "integrated-iron"
     },
-    "_id": "EmfpCDzAUaaPqC4q"
+    "_id": "EmfpCDzAUaaPqC4q",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "\"Drift\" (augment-slot resource) has no confirmed Foundry field; I did not locate the augment card schema to verify total absence versus just unfamiliarity (flagged in Open Questions). The free-first-draw clause alone would match but is inseparable from the larger unbuildable fusion mechanic. This effect is defined entirely in terms of a Cinderfall-homebrew subsystem with zero Foundry schema footprint (the Gun Failure Table/Failure Range, hazardous ground, time-in-sights, Trick Iron charge bank, or Drift/augment-slot cost). Confirmed via the full rule-element type listing (pf2e-source/src/module/rules/rule-element/, 40 files): no RollTable-manipulation, no persistent-terrain-hazard, and no arbitrary stacking-counter rule element type exists to hook any of these to. Pure action-cost-to-free conversion with no secondary numeric effect -- matches the pre-confirmed absence directly (pf2e-source/packs/pf2e/feats/class/barbarian/level-14/vengeful-strike.json and .../shared-class-feats/level-2/quick-draw.json, both rules: []).",
+            "track": "trick-iron"
+        }
+    }
 }

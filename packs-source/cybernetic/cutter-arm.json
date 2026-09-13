@@ -1,0 +1,89 @@
+{
+    "name": "Cutter Arm",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>Integrated forearm blade. Strike: 1d6 slashing, agile, finesse, unarmed. Can't be Disarmed; deploys/retracts free. Scans illegal.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 4
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "gp": 70
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "Strike",
+                "slug": "cutter-arm",
+                "label": "Cutter Arm",
+                "category": "unarmed",
+                "group": "brawling",
+                "img": "systems/pf2e/icons/unarmed-attacks/claw.webp",
+                "range": null,
+                "traits": [
+                    "unarmed",
+                    "agile",
+                    "finesse"
+                ],
+                "damage": {
+                    "base": {
+                        "damageType": "slashing",
+                        "dice": 1,
+                        "die": "d6"
+                    }
+                }
+            }
+        ],
+        "size": "med",
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "cutter-arm"
+    },
+    "_id": "YQpBocuKzvhLI479",
+    "flags": {
+        "cinderfall": {
+            "augmentKind": "cybernetic",
+            "augmentType": "implant",
+            "tier": "common",
+            "slots": [
+                "Arm"
+            ],
+            "slotCost": 1,
+            "grade": 1,
+            "availability": "Black Market",
+            "level": 4,
+            "drift": "+2",
+            "augTags": [
+                "weapon"
+            ]
+        }
+    }
+}

@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "flavored"
+            ],
             "rarity": "common",
             "value": [
                 "reckoner"
@@ -33,5 +36,11 @@
         },
         "slug": "the-many-ascendant"
     },
-    "_id": "A9ExZW8H3Gh3wvBf"
+    "_id": "A9ExZW8H3Gh3wvBf",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Extends ONE MORE's duration -- ONE MORE itself is unbuildable (no generic extra-Strike/extra-reach rule element exists), so this extension has nothing to hook.",
+            "flavored": true
+        }
+    }
 }

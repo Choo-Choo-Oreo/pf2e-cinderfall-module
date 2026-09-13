@@ -1,0 +1,49 @@
+{
+    "name": "Vault-Deep Constitution",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "ancestry",
+        "description": {
+            "value": "<p>Filtered Constitution's resistance value increases, and now covers radiation as well as poison and disease.</p>"
+        },
+        "level": {
+            "value": 5
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Filtered Constitution"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "Resistance",
+                "type": "radiation",
+                "value": "max(1,floor(@actor.level/2))"
+            }
+        ],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "vaultborn"
+            ]
+        },
+        "slug": "vault-deep-constitution"
+    },
+    "_id": "18AdkN9RJWM4Qioz",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "'Filtered Constitution's resistance value increases' states no new formula beyond the existing max(1,floor(@actor.level/2)) tier. The 'now covers radiation as well' half is built above, applying that same standard tier to the new type."
+        }
+    }
+}

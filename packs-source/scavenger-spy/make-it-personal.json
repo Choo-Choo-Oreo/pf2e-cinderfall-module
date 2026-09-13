@@ -27,5 +27,10 @@
         },
         "slug": "make-it-personal"
     },
-    "_id": "Megujk0LffYUJwyF"
+    "_id": "Megujk0LffYUJwyF",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The off-guard portion needs no rule element (real pf2e ships condition-only outcomes as \"rules\": [], e.g. feint.json) and is applied manually via the description. The -3 status penalty on the target's next fear/emotion save is a stated number on an external target -- needs the distracting-feint.json/effect-distracting-feint.json two-file companion-effect pattern, outside this card's scope. Left INCOMPLETE for that penalty; the off-guard part needs no fix."
+        }
+    }
 }

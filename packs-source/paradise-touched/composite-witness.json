@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "paradise-touched-archive"
+            ],
             "rarity": "common",
             "value": [
                 "paradise-touched",
@@ -34,5 +37,10 @@
         },
         "slug": "composite-witness"
     },
-    "_id": "DdIhQF2Uqoc0MrDI"
+    "_id": "DdIhQF2Uqoc0MrDI",
+    "flags": {
+        "cinderfall": {
+            "track": "archive"
+        }
+    }
 }

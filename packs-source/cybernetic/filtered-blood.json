@@ -1,0 +1,80 @@
+{
+    "name": "Filtered Blood",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>Inline blood scrubber. +1 item bonus to Fortitude saves against poison, disease, and radiation. The first time each day you'd be sickened, reduce the value by 1.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 3
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "gp": 60
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "fortitude",
+                "type": "item",
+                "value": 1,
+                "predicate": [
+                    {
+                        "or": [
+                            "item:trait:poison",
+                            "item:trait:disease",
+                            "item:trait:radiation"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "size": "med",
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "filtered-blood"
+    },
+    "_id": "vE8VyoZIXzgag6PI",
+    "flags": {
+        "cinderfall": {
+            "augmentKind": "cybernetic",
+            "augmentType": "implant",
+            "tier": "common",
+            "slots": [
+                "Circulatory"
+            ],
+            "slotCost": 1,
+            "grade": 1,
+            "availability": "Licensed",
+            "level": 3,
+            "drift": "+1"
+        }
+    }
+}

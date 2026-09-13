@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "fleshmancer-butchers"
+            ],
             "rarity": "common",
             "value": [
                 "fleshmancer"
@@ -33,5 +36,11 @@
         },
         "slug": "splash-discipline"
     },
-    "_id": "QzCRHzMCvIFTKzVd"
+    "_id": "QzCRHzMCvIFTKzVd",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "No selector exempts specific creatures from an item's own splash area.",
+            "track": "butchers"
+        }
+    }
 }

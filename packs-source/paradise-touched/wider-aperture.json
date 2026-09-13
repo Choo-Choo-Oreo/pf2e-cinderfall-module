@@ -33,5 +33,10 @@
         },
         "slug": "wider-aperture"
     },
-    "_id": "5xeZjlwU5mSJhqn5"
+    "_id": "5xeZjlwU5mSJhqn5",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Choose any other Aperture's Glimpse; usable once your level exceeds its listed level by 1. Same `ChoiceSet`/`GrantItem` shape issue as `second-aperture`: buildable in principle, but needs a shared tag across all nine Glimpse cards (1st/7th/15th x three Apertures) to filter on, which doesn't exist today. Also inherits the Bandwidth cost of whichever Glimpse is chosen. No `SpecialResource` rule element exists anywhere in the corpus for Bandwidth -- confirmed corpus-wide (`grep -rl \"\\\"key\\\": \\\"SpecialResource\\\"\" site/data/cards/` returns zero hits), and the class card itself (`site/data/cards/classes/classes.paradise-touched.json:49`) ships `system.rules: []`. Same absence class as Cultist Zeal/Ironsight Drift/Fleshmancer Vitae."
+        }
+    }
 }

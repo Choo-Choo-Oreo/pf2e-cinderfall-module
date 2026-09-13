@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "flavored"
+            ],
             "rarity": "common",
             "value": [
                 "scavenger-spy"
@@ -33,5 +36,10 @@
         },
         "slug": "faces-long-con"
     },
-    "_id": "Vj0TJ90WY9MNBAyu"
+    "_id": "Vj0TJ90WY9MNBAyu",
+    "flags": {
+        "cinderfall": {
+            "flavored": true
+        }
+    }
 }

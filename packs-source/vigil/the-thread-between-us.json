@@ -50,6 +50,7 @@
     "_id": "tisSVQv7NMALaX7R",
     "flags": {
         "cinderfall": {
+            "incomplete": "Cross-creature effect (bucket 4): redistributing incoming damage/outgoing healing between bound creatures. pf2e-source/packs/pf2e/actions/class/guardian/intercept-attack.json -- Guardian's own 'take the hit for an ally' reaction, the closest real analog -- ships rules: [], confirming no selector exists for redirecting or splitting damage/healing between creatures. Spot-checked specifically for a novel Vigil-side shape; found none.",
             "listing": "7th Rank"
         }
     }

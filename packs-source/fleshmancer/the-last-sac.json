@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "fleshmancer-butchers"
+            ],
             "rarity": "common",
             "value": [
                 "fleshmancer"
@@ -33,5 +36,10 @@
         },
         "slug": "the-last-sac"
     },
-    "_id": "k1gf1fEaa92DgwSq"
+    "_id": "k1gf1fEaa92DgwSq",
+    "flags": {
+        "cinderfall": {
+            "track": "butchers"
+        }
+    }
 }

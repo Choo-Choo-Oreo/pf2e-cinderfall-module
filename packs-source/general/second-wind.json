@@ -1,0 +1,37 @@
+{
+    "name": "Second Wind",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "general",
+        "description": {
+            "value": "<p>Once per day as an action, recover HP equal to twice your level.</p>"
+        },
+        "level": {
+            "value": 7
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "second-wind"
+    },
+    "_id": "Iz2W9KZ5iIHkCquk",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The once-per-day self-triggered healing action has no engine hook: nothing lets an item rule element grant a new usable action (same absence as the real Reactive Shield and Numb to Death feats, both of which ship rules: [] for an equally concrete granted-action claim)."
+        }
+    }
+}

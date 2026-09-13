@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "the-signal-requiem"
+            ],
             "rarity": "common",
             "value": [
                 "the-signal"
@@ -33,5 +36,11 @@
         },
         "slug": "recorded-elsewhere"
     },
-    "_id": "89NSyuKeAqkajwGh"
+    "_id": "89NSyuKeAqkajwGh",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "No death-prevention/death-interception rule element exists in the 34-key inventory (P12) — pf2e's own dying/wounded system is adjusted via `ActiveEffectLike` on fixed numeric fields (e.g., dying max), not via a \"prevent this specific death\" hook, and this is additionally a cross-creature trigger (bucket 4).",
+            "track": "requiem"
+        }
+    }
 }

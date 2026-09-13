@@ -1,0 +1,74 @@
+{
+    "name": "Immortal Coil",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>Sealed synthetic circulatory system. No blood to lose: immune to persistent bleed, drained, and precision damage. +2 item bonus to Fortitude. Only Repair works on you, not Treat Wounds.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 17
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "gp": 20000
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "fortitude",
+                "type": "item",
+                "value": 2
+            }
+        ],
+        "size": "med",
+        "traits": {
+            "rarity": "legendary",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "immortal-coil"
+    },
+    "_id": "nCxZeBZxAXzcPJrp",
+    "flags": {
+        "cinderfall": {
+            "augmentKind": "cybernetic",
+            "augmentType": "implant",
+            "tier": "legendary",
+            "slots": [
+                "Circulatory"
+            ],
+            "slotCost": 1,
+            "grade": 5,
+            "availability": "Restricted",
+            "level": 17,
+            "drift": "+4",
+            "augTags": [
+                "apex"
+            ]
+        }
+    }
+}

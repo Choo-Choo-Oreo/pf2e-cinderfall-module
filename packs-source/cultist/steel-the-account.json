@@ -1,0 +1,37 @@
+{
+    "name": "Steel the Account",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You would gain a condition's value from a failed save (frightened, sickened, enfeebled, or similar).</p><hr /><p>Reduce the condition's value by 1 (minimum 0) before it's applied.</p>"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "cultist"
+            ]
+        },
+        "slug": "steel-the-account"
+    },
+    "_id": "VuS5imECx9j6I1Aa"
+}

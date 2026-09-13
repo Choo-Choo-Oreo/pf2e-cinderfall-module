@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "fleshmancer-grafters"
+            ],
             "rarity": "common",
             "value": [
                 "fleshmancer"
@@ -33,5 +36,11 @@
         },
         "slug": "open-cavity"
     },
-    "_id": "6E5MEgIWajFgh1Dx"
+    "_id": "6E5MEgIWajFgh1Dx",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "This effect changes a different creature's own roll, HP, condition, or item, sourced from the card holder's own passive/item/action. No selector exists anywhere in pf2e-source for this -- confirmed corpus-wide this pass. for the heal/condition-reduction half. The temporary max-HP penalty as a drawback is additionally unhookable: no rule element applies a self-inflicted-by-the-caster, temporary max-HP penalty to a different creature as a side effect of healing it.",
+            "track": "grafters"
+        }
+    }
 }

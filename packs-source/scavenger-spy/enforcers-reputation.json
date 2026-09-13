@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "flavored"
+            ],
             "rarity": "common",
             "value": [
                 "scavenger-spy"
@@ -33,5 +36,10 @@
         },
         "slug": "enforcers-reputation"
     },
-    "_id": "Ew0KM9y1CYzmC3tB"
+    "_id": "Ew0KM9y1CYzmC3tB",
+    "flags": {
+        "cinderfall": {
+            "flavored": true
+        }
+    }
 }

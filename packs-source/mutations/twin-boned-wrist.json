@@ -24,7 +24,9 @@
             "type": null
         },
         "price": {
-            "value": {}
+            "value": {
+                "gp": 0
+            }
         },
         "publication": {
             "license": "ORC",
@@ -32,7 +34,22 @@
             "title": "Cinderfall"
         },
         "quantity": 1,
-        "rules": [],
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "athletics",
+                "type": "circumstance",
+                "value": 1,
+                "predicate": [
+                    {
+                        "or": [
+                            "action:grapple",
+                            "action:disarm"
+                        ]
+                    }
+                ]
+            }
+        ],
         "size": "med",
         "traits": {
             "rarity": "rare",
@@ -46,21 +63,14 @@
     "_id": "1QGOVKJiwNfiS8z3",
     "flags": {
         "cinderfall": {
+            "incomplete": "\"Fine two-handed work (lockpicking, surgery, instruments) takes a −1 circumstance penalty\" has no clean predicate for the same reason as Tremor -- no standard action-slug distinguishes 'fine two-handed work' from ordinary Thievery/Crafting/Performance use, so an unconditional penalty would overstate the restriction.",
             "mutationType": "minor",
             "tier": "rare",
-            "slot": "Arm",
             "slots": [
                 "Arm"
             ],
             "slotCost": 1,
-            "roll": "d100 — 71–72",
-            "incomplete": [
-                "level is a stub (0); mutations carry no level",
-                "price is empty; a mutation is not bought"
-            ],
-            "inferred": [
-                "system.usage"
-            ]
+            "roll": "d100 — 71–72"
         }
     }
 }

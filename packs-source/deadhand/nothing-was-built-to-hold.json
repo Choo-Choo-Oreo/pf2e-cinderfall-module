@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "deadhand-breaker"
+            ],
             "rarity": "common",
             "value": [
                 "deadhand"
@@ -33,5 +36,11 @@
         },
         "slug": "nothing-was-built-to-hold"
     },
-    "_id": "k1GvXRBcEn7aLp9u"
+    "_id": "k1GvXRBcEn7aLp9u",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Destroys/passes through any mundane structure as one action of any size/Hardness; against magical barriers, Strikes count as a counteract attempt at the caster's level using Class DC. No \"Counteract\" rule-element key exists anywhere in the module list -- granting a Strike the ability to function as a counteract attempt has no hook.",
+            "track": "breaker"
+        }
+    }
 }

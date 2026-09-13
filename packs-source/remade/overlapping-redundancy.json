@@ -33,5 +33,10 @@
         },
         "slug": "overlapping-redundancy"
     },
-    "_id": "VO9kcD6j42dsatRV"
+    "_id": "VO9kcD6j42dsatRV",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "P-BUCKET3 stacked on BAND-GAP (the disabling effects it counters aren't modeled either)."
+        }
+    }
 }

@@ -39,13 +39,13 @@
         "bonusDamage": {
             "value": 0
         },
-        "category": "simple",
+        "category": "advanced",
         "damage": {
             "dice": 2,
             "die": "d6",
             "damageType": "slashing"
         },
-        "group": null,
+        "group": "axe",
         "range": null,
         "reload": {
             "value": null
@@ -60,13 +60,6 @@
     },
     "_id": "7ftGFbBCMTwRLHaU",
     "flags": {
-        "cinderfall": {
-            "incomplete": [
-                "level is a stub (0); the page carries no item levels",
-                "weapon category/bulk/usage stubbed; the page carries none of them",
-                "melee weapon group left null -- choosing one is design, not conversion"
-            ],
-            "currency": "Balanced to the PF2e GP standard and denominated in Credits: 1 Credit = 1 gp, per currency.credits: a credit IS a gold piece and any published price reads straight across. Scraps are retired at 1:1 to Credits, so scrap-quoted prices read across unchanged too."
-        }
+        "cinderfall": {}
     }
 }

@@ -1,0 +1,64 @@
+{
+    "name": "Ident-Spoofer Inlay",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>1/day: defeat one augment scan or one identity check, projecting a clean Licensed profile. Owning it is itself an offence.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 5
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "gp": 160
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "traits": {
+            "rarity": "uncommon",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "ident-spoofer-inlay"
+    },
+    "_id": "1VsNmxFzS1H6Qenh",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "'Defeat an augment scan or identity check' has no engine mechanism to hook: Cinderfall's scan/Licensed-status system is narrative/GM-adjudicated with no represented DC or check in the schema, so there's nothing for a rule element to modify.",
+            "augmentKind": "cybernetic",
+            "augmentType": "implant",
+            "tier": "uncommon",
+            "slots": [
+                "Inlays"
+            ],
+            "slotCost": 1,
+            "availability": "Black Market",
+            "level": 5,
+            "drift": "+2"
+        }
+    }
+}

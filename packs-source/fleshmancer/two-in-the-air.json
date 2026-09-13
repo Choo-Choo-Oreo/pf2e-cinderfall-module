@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "fleshmancer-butchers"
+            ],
             "rarity": "common",
             "value": [
                 "fleshmancer"
@@ -33,5 +36,11 @@
         },
         "slug": "two-in-the-air"
     },
-    "_id": "qKbSOigX34PjJ4Ao"
+    "_id": "qKbSOigX34PjJ4Ao",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "No combo rule element resolves two independent consumable applications as one activity, same reasoning as Both Hands/Sympathetic Burst.",
+            "track": "butchers"
+        }
+    }
 }

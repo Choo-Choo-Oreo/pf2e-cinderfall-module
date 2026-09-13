@@ -1,0 +1,42 @@
+{
+    "name": "Blood Price",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Cost</strong> 2 Hit Points</p><p><strong>Frequency</strong> once per day</p><hr /><p>Gain 1 Zeal, which may exceed your normal maximum by 1 point; excess is lost after 1 minute. Paying in blood instead of devotion works just as well, for now.</p>"
+        },
+        "level": {
+            "value": 8
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "cultist"
+            ]
+        },
+        "slug": "blood-price"
+    },
+    "_id": "BFdxpYbZQ1qPNbat",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The entire mechanical content of this card is a Zeal cost/gain/regain clause. cultist.bargain.json's own system.rules is [{\"key\":\"ChoiceSet\",...},{\"key\":\"GrantItem\",...}] -- no SpecialResource or resource-pool rule element of any kind is defined anywhere in this class for Zeal, confirmed via pf2e-source/src/module/rules/rule-element/special-resource.ts's own shape (a permanent, one-way-only-increases resource track) and a direct read of the class card. Every \"Cost N Zeal\"/\"gain N Zeal\"/\"regain spent Zeal\" clause in this class is unbuildable regardless of the rest of that card's content, since there is no resource for a rule element to reference."
+        }
+    }
+}

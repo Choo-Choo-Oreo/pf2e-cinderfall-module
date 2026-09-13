@@ -1,0 +1,52 @@
+{
+    "name": "The Claimant",
+    "type": "deity",
+    "img": "systems/pf2e/icons/default-icons/deity.svg",
+    "system": {
+        "attribute": [
+            "cha",
+            "con"
+        ],
+        "category": "deity",
+        "description": {
+            "value": "<p><strong>Fixation & Possession</strong></p>\n<p>Doesn't crave broadly — fixates completely on one specific thing per follower (an object, a place, a cause) and will not loosen its grip, ever. Jealous of anything else that thing's attention goes to.</p>\n<p><strong>Areas of Concern</strong> fixation, possession, the one thing kept</p>\n<p><strong>Edicts</strong> never willingly release what you've claimed; guard it against all other attention</p>\n<p><strong>Anathema</strong> give up something you've marked as yours; share it freely</p>\n<p><strong>Religious Symbol</strong> a closed fist around a small object</p>\n<p><strong>Sacred Animal</strong> the jealous crow</p>\n<p><strong>Sacred Colors</strong> bruise-purple, tarnished gold</p>"
+        },
+        "domains": {
+            "alternate": [],
+            "primary": [
+                "confidence",
+                "passion"
+            ]
+        },
+        "font": [],
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "sanctification": {
+            "modal": "can",
+            "what": [
+                "unholy"
+            ]
+        },
+        "skill": [
+            "diplomacy"
+        ],
+        "spells": {
+            "1": "Compendium.pf2e.spells-srd.Item.Charm",
+            "4": "Compendium.pf2e.spells-srd.Item.Grasp of the Deep",
+            "7": "Compendium.pf2e.spells-srd.Item.Possession"
+        },
+        "traits": {},
+        "weapons": [
+            "whip"
+        ],
+        "slug": "the-claimant"
+    },
+    "_id": "sEWpzItzwE1ae2uK",
+    "flags": {
+        "cinderfall": {}
+    }
+}

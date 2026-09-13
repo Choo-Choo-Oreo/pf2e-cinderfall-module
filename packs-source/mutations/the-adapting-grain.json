@@ -24,7 +24,9 @@
             "type": null
         },
         "price": {
-            "value": {}
+            "value": {
+                "gp": 0
+            }
         },
         "publication": {
             "license": "ORC",
@@ -32,7 +34,40 @@
             "title": "Cinderfall"
         },
         "quantity": 1,
-        "rules": [],
+        "rules": [
+            {
+                "key": "ChoiceSet",
+                "flag": "resistance",
+                "prompt": "Choose a damage type",
+                "choices": [
+                    {
+                        "label": "Acid",
+                        "value": "acid"
+                    },
+                    {
+                        "label": "Cold",
+                        "value": "cold"
+                    },
+                    {
+                        "label": "Electricity",
+                        "value": "electricity"
+                    },
+                    {
+                        "label": "Fire",
+                        "value": "fire"
+                    },
+                    {
+                        "label": "Poison",
+                        "value": "poison"
+                    }
+                ]
+            },
+            {
+                "key": "Resistance",
+                "type": "{item|flags.rulesSelections.resistance}",
+                "value": 10
+            }
+        ],
         "size": "med",
         "traits": {
             "rarity": "legendary",
@@ -46,16 +81,10 @@
     "_id": "BxHtbhZT1YWe8A1K",
     "flags": {
         "cinderfall": {
+            "incomplete": "'The first time each day one of the other listed types damages you, you may switch to it as a reaction' is not modeled: ChoiceSet (real precedent: pf2e-source/packs/pf2e/adventure-specific-actions/undying-flesh.json) only supports a single standing choice made once, not a reactive mid-day re-selection triggered by taking damage.",
             "mutationType": "teratoma",
             "tier": "legendary",
-            "chosen": "pick of 6",
-            "incomplete": [
-                "level is a stub (0); mutations carry no level",
-                "price is empty; a mutation is not bought"
-            ],
-            "inferred": [
-                "system.usage"
-            ]
+            "chosen": "pick of 6"
         }
     }
 }

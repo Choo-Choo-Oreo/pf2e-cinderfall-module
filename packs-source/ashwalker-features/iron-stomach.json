@@ -1,0 +1,82 @@
+{
+    "name": "Iron Stomach",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "ancestryfeature",
+        "description": {
+            "value": "<p>Immune to spoiled food and minor ingested poisons.</p>"
+        },
+        "level": {
+            "value": 0
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "Immunity",
+                "type": "custom",
+                "definition": [
+                    {
+                        "or": [
+                            "item:trait:poison",
+                            "damage:type:poison",
+                            "item:trait:radiation"
+                        ]
+                    },
+                    {
+                        "or": [
+                            "item:trait:ingested",
+                            "item:tag:alchemical-food",
+                            "item:trait:elixir",
+                            "item:trait:potion"
+                        ]
+                    }
+                ],
+                "label": "Poison and radiation from anything you eat or drink"
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "saving-throw",
+                "type": "circumstance",
+                "value": 1,
+                "predicate": [
+                    {
+                        "or": [
+                            "item:trait:ingested",
+                            "item:tag:alchemical-food",
+                            "item:trait:elixir",
+                            "item:trait:potion"
+                        ]
+                    },
+                    {
+                        "or": [
+                            "inflicts:sickened",
+                            "item:type:affliction"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ashwalker"
+            ]
+        },
+        "slug": "iron-stomach"
+    },
+    "_id": "MjE4XmbL6gZNNMeR"
+}

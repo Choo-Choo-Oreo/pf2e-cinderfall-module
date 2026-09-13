@@ -1,0 +1,80 @@
+{
+    "name": "Spec-Eye",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>Replacement optic with a reticle overlay. +1 item bonus to Perception for sight-based checks; low-light vision (or +1 to Seek within 30 ft if you already have it).</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 1
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "gp": 20
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "RollOption",
+                "option": "spec-eye",
+                "toggleable": true,
+                "label": "Perception for a sight-based check"
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "perception",
+                "type": "item",
+                "value": 1,
+                "predicate": [
+                    "spec-eye"
+                ]
+            }
+        ],
+        "size": "med",
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "spec-eye"
+    },
+    "_id": "QxbtMhhiz7rZEJd8",
+    "flags": {
+        "cinderfall": {
+            "augmentKind": "cybernetic",
+            "augmentType": "implant",
+            "tier": "common",
+            "slots": [
+                "Ocular"
+            ],
+            "slotCost": 1,
+            "grade": 1,
+            "availability": "Licensed",
+            "level": 1,
+            "drift": "+0"
+        }
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "name": "Burn-Pit Legend",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "ancestry",
+        "description": {
+            "value": "<p>Fire resistance increases enough that ordinary fire, not just heat exhaustion, barely troubles you.</p>"
+        },
+        "level": {
+            "value": 9
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Burn-Pit Hardened"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ashwalker"
+            ]
+        },
+        "slug": "burn-pit-legend"
+    },
+    "_id": "JYvo5RirZF4LSdL0",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "'Fire resistance increases enough that ordinary fire barely troubles you' gives no new formula or immunity threshold to build from. The card states a bonus/effect but gives no numeric value or formula to build a rule element from without inventing one."
+        }
+    }
+}

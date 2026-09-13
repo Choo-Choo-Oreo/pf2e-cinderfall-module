@@ -33,5 +33,10 @@
         },
         "slug": "shape-the-season"
     },
-    "_id": "dIoWS6j5pZm1dPAA"
+    "_id": "dIoWS6j5pZm1dPAA",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "`BLOOMROT-NULL`."
+        }
+    }
 }

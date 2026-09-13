@@ -3,37 +3,54 @@
     "type": "deity",
     "img": "systems/pf2e/icons/default-icons/deity.svg",
     "system": {
-        "attribute": [],
+        "attribute": [
+            "con",
+            "wis"
+        ],
         "category": "deity",
         "description": {
             "value": "<p><strong>Mass-Death Spirit Collective</strong></p>\n<p>Not one spirit but many, bound together by a shared mass-death origin (quarantine camps, plague pits). Recognizes its own bloodline by feel and occasionally answers a call directly.</p>"
         },
         "domains": {
-            "alternate": [],
-            "primary": []
+            "alternate": [
+                "pain"
+            ],
+            "primary": [
+                "death",
+                "decay"
+            ]
         },
-        "font": [],
+        "font": [
+            "harm"
+        ],
         "publication": {
             "license": "ORC",
             "remaster": true,
             "title": "Cinderfall"
         },
         "rules": [],
-        "sanctification": null,
-        "skill": [],
-        "spells": {},
+        "sanctification": {
+            "modal": "can",
+            "what": [
+                "unholy"
+            ]
+        },
+        "skill": [
+            "medicine"
+        ],
+        "spells": {
+            "1": "Compendium.pf2e.spells-srd.Item.Grim Tendrils",
+            "3": "Compendium.pf2e.spells-srd.Item.Bind Undead",
+            "5": "Compendium.pf2e.spells-srd.Item.Wave of Despair"
+        },
         "traits": {},
-        "weapons": [],
+        "weapons": [
+            "scythe"
+        ],
         "slug": "the-gaunt-choir"
     },
     "_id": "nXojA1wIFd2GJT2h",
     "flags": {
-        "cinderfall": {
-            "define": "Mass-Death Spirit Collective",
-            "incomplete": [
-                "STUB -- no mechanics authored. Missing every pf2e deity field: attribute, domains, font, sanctification, skill, spells, weapons. `category` is a default of 'deity' and may need to be philosophy or pantheon. See .claude/docs/todo.md."
-            ],
-            "effect": "Full context: <a class=\"bref\" href=\"fleshmancer.html\">Fleshmancer</a> dossier (patron); <a class=\"bref\" href=\"ancestries.html\">Hymnkin</a> ancestry (\"A Voice Recognized\") — also the collective a Plaguesworn Death-Singer answers to."
-        }
+        "cinderfall": {}
     }
 }

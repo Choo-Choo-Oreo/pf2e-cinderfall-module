@@ -24,7 +24,43 @@
             "remaster": true,
             "title": "Cinderfall"
         },
-        "rules": [],
+        "rules": [
+            {
+                "key": "RollOption",
+                "option": "ghost-machine-quarry",
+                "toggleable": true,
+                "label": "Quarry is a construct or hostile ghost-machine"
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "survival",
+                "type": "circumstance",
+                "value": 2,
+                "predicate": [
+                    "action:track",
+                    {
+                        "or": [
+                            "target:trait:construct",
+                            "ghost-machine-quarry"
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "perception",
+                "type": "circumstance",
+                "value": 2,
+                "predicate": [
+                    {
+                        "or": [
+                            "target:trait:construct",
+                            "ghost-machine-quarry"
+                        ]
+                    }
+                ]
+            }
+        ],
         "traits": {
             "rarity": "common",
             "value": [

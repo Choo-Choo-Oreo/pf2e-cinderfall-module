@@ -33,5 +33,10 @@
         },
         "slug": "unbroken-ward"
     },
-    "_id": "fuoSoTpYk2cZiVbl"
+    "_id": "fuoSoTpYk2cZiVbl",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "A guaranteed-return-after-a-fixed-time effect on a specific held item has no selector or key anywhere in pf2e -- no rule element creates or relocates a specific physical item back to an actor's inventory after a time delay; that is scripted automation, out of scope for a rule-element pass by default."
+        }
+    }
 }

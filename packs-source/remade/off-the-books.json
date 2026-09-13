@@ -33,5 +33,10 @@
         },
         "slug": "off-the-books"
     },
-    "_id": "5ZvzQcdLzbIBE1kU"
+    "_id": "5ZvzQcdLzbIBE1kU",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "INSTALL-GRAFT-GAP (the -2 being removed was never itself encoded)."
+        }
+    }
 }

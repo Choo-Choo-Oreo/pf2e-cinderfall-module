@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "ironsight-trick-iron"
+            ],
             "rarity": "common",
             "value": [
                 "ironsight"
@@ -33,5 +36,11 @@
         },
         "slug": "the-workshop-in-your-pockets"
     },
-    "_id": "lB8Kj9hofdrrVK2D"
+    "_id": "lB8Kj9hofdrrVK2D",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "(all three referenced abilities are themselves INCOMPLETE — see above) and independently matches the pre-confirmed absence: \"Downtime time-halving/time-compression is never rule-element-encoded\" (cited precedent: Hobnobber, Forensic Acumen, Unweave the Donor, all rules: []). This card depends on (upgrades, extends, or is gated behind) another Ironsight card in this same package that itself ships rules: [] -- if the parent has nothing real to build on, the child has nothing real to extend either.",
+            "track": "trick-iron"
+        }
+    }
 }

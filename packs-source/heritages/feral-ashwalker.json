@@ -15,7 +15,32 @@
             "remaster": true,
             "title": "Cinderfall"
         },
-        "rules": [],
+        "rules": [
+            {
+                "key": "RollOption",
+                "option": "feral-ashwalker-rubble",
+                "toggleable": true,
+                "label": "Moving through ruins or rubble"
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "stealth",
+                "type": "circumstance",
+                "value": 1,
+                "predicate": [
+                    "feral-ashwalker-rubble"
+                ]
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "diplomacy",
+                "type": "circumstance",
+                "value": -1,
+                "predicate": [
+                    "action:make-an-impression"
+                ]
+            }
+        ],
         "traits": {
             "rarity": "common",
             "value": []

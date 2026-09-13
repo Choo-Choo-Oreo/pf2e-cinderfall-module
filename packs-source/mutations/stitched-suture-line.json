@@ -24,7 +24,9 @@
             "type": null
         },
         "price": {
-            "value": {}
+            "value": {
+                "gp": 0
+            }
         },
         "publication": {
             "license": "ORC",
@@ -32,7 +34,38 @@
             "title": "Cinderfall"
         },
         "quantity": 1,
-        "rules": [],
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "fortitude",
+                "type": "circumstance",
+                "value": 1,
+                "predicate": [
+                    {
+                        "or": [
+                            "action:shove",
+                            "action:trip",
+                            "action:reposition"
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "RollOption",
+                "option": "suture-line-cold",
+                "toggleable": true,
+                "label": "Freezing conditions"
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "athletics",
+                "type": "circumstance",
+                "value": -1,
+                "predicate": [
+                    "suture-line-cold"
+                ]
+            }
+        ],
         "size": "med",
         "traits": {
             "rarity": "rare",
@@ -48,19 +81,11 @@
         "cinderfall": {
             "mutationType": "minor",
             "tier": "rare",
-            "slot": "Frame",
             "slots": [
                 "Frame"
             ],
             "slotCost": 1,
-            "roll": "d100 — 69–70",
-            "incomplete": [
-                "level is a stub (0); mutations carry no level",
-                "price is empty; a mutation is not bought"
-            ],
-            "inferred": [
-                "system.usage"
-            ]
+            "roll": "d100 — 69–70"
         }
     }
 }

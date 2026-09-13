@@ -53,6 +53,7 @@
     "_id": "yThkbzEHdkSB5gr2",
     "flags": {
         "cinderfall": {
+            "incomplete": "Shared HP pool/initiative/skill proficiencies among all willing creatures in the area; 1 Signal Drift for every participant, including non-Paradise-Touched ones. Pooling multiple actors' HP into one shared pool has zero rule-element analog, and granting Drift to creatures who may not even have the track compounds the Drift-track absence. The 0-10 Signal Drift track has the same absence as Bandwidth: no `SpecialResource`/counter representation anywhere in the corpus.",
             "listing": "10th Rank"
         }
     }

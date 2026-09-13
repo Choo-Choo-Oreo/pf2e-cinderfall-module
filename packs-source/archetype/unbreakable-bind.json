@@ -35,5 +35,10 @@
         },
         "slug": "unbreakable-bind"
     },
-    "_id": "tWvI72rwGVaCNx1Q"
+    "_id": "tWvI72rwGVaCNx1Q",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Capping Temper at 2 and preventing a bound soul from turning hostile both require a Temper attribute the actor schema does not have; there is nothing for a rule element to cap or gate."
+        }
+    }
 }

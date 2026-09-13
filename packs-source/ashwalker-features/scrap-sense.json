@@ -1,0 +1,53 @@
+{
+    "name": "Scrap Sense",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "ancestryfeature",
+        "description": {
+            "value": "<p>Bonus to Crafting checks made with improvised or salvaged materials.</p>"
+        },
+        "level": {
+            "value": 0
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "RollOption",
+                "option": "scrap-sense-salvage",
+                "toggleable": true,
+                "label": "Crafting with improvised or salvaged materials"
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "crafting",
+                "type": "circumstance",
+                "value": 1,
+                "predicate": [
+                    "scrap-sense-salvage"
+                ]
+            }
+        ],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ashwalker"
+            ]
+        },
+        "slug": "scrap-sense"
+    },
+    "_id": "XWk5aQ5nJ1Ja7XqY"
+}

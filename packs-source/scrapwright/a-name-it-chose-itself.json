@@ -1,0 +1,47 @@
+{
+    "name": "A Name It Chose Itself",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
+        "description": {
+            "value": "<span class=\"sdesc\">The fragment has enough continuity now to answer to a name. Your Ghost-Rig becomes immune to fear effects, gains resistance 10 (from its scavenged plating, extending to precision damage), and can take a reaction of its own once per round (a Static Discharge slam dealing 3d6+7 damage, or an intercepting body-block) even on a turn you don't spend commanding it. It can manage three or four words of broken speech.</span>"
+        },
+        "level": {
+            "value": 11
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "otherTags": [],
+            "rarity": "common",
+            "value": [
+                "scrapwright"
+            ]
+        },
+        "slug": "a-name-it-chose-itself"
+    },
+    "_id": "UwUnfltfKiTWfAFg",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "[RIG-NO-ACTOR] -- every clause targets a companion actor that doesn't exist in this corpus's Foundry pipeline (bucket 4: cross-creature effect from the holder's own passive; no selector for \"your uninstantiated companion\" exists anywhere in pf2e-source).",
+            "spellTag": "Mk III · 11th",
+            "ghostRigTier": "Mk III",
+            "grantedAtLevel": 11,
+            "notSpell": "scrapwright's class document carries system.spellcasting 0, so this is an ability, not a spell, and convert_class_spells.py declines it by design as a NON_CASTERS owner"
+        }
+    }
+}

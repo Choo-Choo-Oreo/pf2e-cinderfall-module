@@ -1,0 +1,59 @@
+{
+    "name": "Effect: Marrow Shard Charge",
+    "type": "effect",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "description": {
+            "value": "<p><em>Applied by <strong>Marrow Shard Charge</strong> to the target.</em></p>\n<hr />\n<p>2d4 piercing damage plus persistent bleed 1d4 as a shard of cured bone lodges in the wound; until the bleed is treated, the target takes a −1 circumstance penalty to pain-tolerance Perception checks.</p>"
+        },
+        "duration": {
+            "expiry": null,
+            "sustained": false,
+            "unit": "unlimited",
+            "value": -1
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "RollOption",
+                "option": "marrow-shard-pain",
+                "toggleable": true,
+                "label": "Perception check that pain would interfere with"
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "perception",
+                "type": "circumstance",
+                "value": -1,
+                "predicate": [
+                    "marrow-shard-pain"
+                ]
+            }
+        ],
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "value": []
+        },
+        "slug": "marrow-shard-charge-effect"
+    },
+    "_id": "hm1X2R5HJI1v6Urr",
+    "flags": {
+        "cinderfall": {
+            "effectOf": "fleshmancer.marrow-shard-charge",
+            "landsOn": "target"
+        }
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "name": "The Stretch",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+            "save": {
+                "basic": false,
+                "statistic": "fortitude"
+            }
+        },
+        "description": {
+            "value": "<i>Failure</i> slowed 1; each round you Sustain this spell the slowed value worsens by 1, no additional save. <i>Critical Failure</i> as failure, but starting at slowed 2."
+        },
+        "duration": {
+            "sustained": true,
+            "value": "sustained up to 1 minute"
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "1 creature"
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [],
+            "value": [
+                "focus",
+                "reckoner"
+            ]
+        },
+        "slug": "the-stretch-spell"
+    },
+    "_id": "9iyHOcsAnIr0nvPv",
+    "flags": {
+        "cinderfall": {
+            "signatureSpellOf": "reckoner.spaghettification"
+        }
+    }
+}

@@ -1,0 +1,56 @@
+{
+    "name": "The Armor Keeps Its Word",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
+        "description": {
+            "value": "<span class=\"sdesc\">Whatever you've bound yourself to hold, your armor holds with you. Your proficiency ranks for light and medium armor increase to master.</span>"
+        },
+        "level": {
+            "value": 11
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "system.proficiencies.defenses.light.rank",
+                "value": 3
+            },
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "system.proficiencies.defenses.medium.rank",
+                "value": 3
+            }
+        ],
+        "traits": {
+            "otherTags": [],
+            "rarity": "common",
+            "value": [
+                "sworn"
+            ]
+        },
+        "slug": "the-armor-keeps-its-word"
+    },
+    "_id": "gCIBFhr8R0QC1wzO",
+    "flags": {
+        "cinderfall": {
+            "grantedAtLevel": 11
+        }
+    }
+}

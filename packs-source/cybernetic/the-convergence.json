@@ -1,0 +1,93 @@
+{
+    "name": "The Convergence",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>A single shard of a Ghost in the Machine, grafted onto one nerve cluster — it doesn't need the rest of you. You can't be surprised and always act in the surprise round; +4 item bonus to AC and all saves against anything you'd normally get to react to. No other change to slots, body, or Bulk. Installing it sets Drift to 10 immediately, from any starting value — the cheapest possible route to the hard cap.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 20
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "gp": 150000
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "RollOption",
+                "option": "the-convergence",
+                "toggleable": true,
+                "label": "Against something you would normally get to react to"
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "ac",
+                "type": "item",
+                "value": 4,
+                "predicate": [
+                    "the-convergence"
+                ]
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "saving-throw",
+                "type": "item",
+                "value": 4,
+                "predicate": [
+                    "the-convergence"
+                ]
+            }
+        ],
+        "size": "med",
+        "traits": {
+            "rarity": "exotic",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "the-convergence"
+    },
+    "_id": "kWlLH1mFXRoW1s0C",
+    "flags": {
+        "cinderfall": {
+            "augmentKind": "cybernetic",
+            "augmentType": "implant",
+            "tier": "exotic",
+            "slots": [
+                "Neural"
+            ],
+            "slotCost": 1,
+            "grade": 5,
+            "availability": "Black Market",
+            "level": 20,
+            "drift": "→ 10",
+            "augTags": [
+                "soul-tech",
+                "apex"
+            ]
+        }
+    }
+}

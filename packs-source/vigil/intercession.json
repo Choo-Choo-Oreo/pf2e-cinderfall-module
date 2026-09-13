@@ -33,5 +33,10 @@
         },
         "slug": "intercession"
     },
-    "_id": "b3pf07prCgWoO3O6"
+    "_id": "b3pf07prCgWoO3O6",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Bucket 4, cross-creature: Guardian's own Intercept Attack (pf2e-source/packs/pf2e/actions/class/guardian/intercept-attack.json), the closest real analog to this card's 'take the hit meant for an ally' concept, ships rules: [], confirming no selector exists for redirecting an attack's target/damage to another creature."
+        }
+    }
 }

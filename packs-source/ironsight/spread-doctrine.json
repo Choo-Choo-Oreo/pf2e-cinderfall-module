@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "ironsight-close-iron"
+            ],
             "rarity": "common",
             "value": [
                 "ironsight"
@@ -33,5 +36,11 @@
         },
         "slug": "spread-doctrine"
     },
-    "_id": "w4HeIRhX4FHczTLw"
+    "_id": "w4HeIRhX4FHczTLw",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "on the cover-downgrade half. The range-penalty-increase half is the mirror image of long-iron-discipline's buildable clause (also AdjustStrike/property: \"range-increment\"-adjacent, but in the penalty- increasing direction) — flagged in Open Questions as a possible partial-REAL companion to that card, not confident enough on its own to call MIXED here. \"Ignore/downgrade cover\" clauses have no confirmed rule element: the full rule-element/ directory listing contains nothing named for cover. This is flagged rather than asserted as a confirmed absence, since the actual cover-to-AC/Reflex calculation code path itself wasn't traced independently.",
+            "track": "close-iron"
+        }
+    }
 }

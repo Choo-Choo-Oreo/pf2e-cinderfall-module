@@ -234,9 +234,52 @@
                 }
             },
             "type": "action"
+        },
+        {
+            "_id": "cfWqokiC8vp3k1he",
+            "img": "systems/pf2e/icons/default-icons/treasure.svg",
+            "name": "Bloom Spore Sac",
+            "sort": 1300000,
+            "system": {
+                "bulk": {
+                    "value": 0
+                },
+                "category": "material",
+                "description": {
+                    "value": "<p>A cluster of spore pods still clinging to the reanimated flesh, faintly warm &mdash; whatever raised this thing left some of itself behind.</p>"
+                },
+                "hardness": 0,
+                "hp": {
+                    "max": 0,
+                    "value": 0
+                },
+                "level": {
+                    "value": 0
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "quantity": 1,
+                "rules": [],
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                },
+                "price": {
+                    "value": {
+                        "gp": 1
+                    }
+                }
+            },
+            "type": "treasure"
         }
     ],
     "flags": {
+        "pf2e": {
+            "lootable": true
+        },
         "cinderfall": {
             "alignment": "NE"
         }

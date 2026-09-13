@@ -1,0 +1,91 @@
+{
+    "name": "Silent Verdict",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>An internal railgun spine built around a kill-switch the buyer never gets the code to. Strike: 2d10 piercing, range 90 ft, no reload, no ammo, ignores 5 points of resistance. Once per week a third party can fire it at you instead, at any range — no save.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 15
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "gp": 7500
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "Strike",
+                "slug": "silent-verdict",
+                "label": "Silent Verdict",
+                "category": "weapon",
+                "group": "firearm",
+                "img": "systems/pf2e/icons/equipment/weapons/apparatus-gun.webp",
+                "range": {
+                    "increment": 90
+                },
+                "traits": [
+                    "reload-0"
+                ],
+                "damage": {
+                    "base": {
+                        "damageType": "piercing",
+                        "dice": 2,
+                        "die": "d10"
+                    }
+                }
+            }
+        ],
+        "size": "med",
+        "traits": {
+            "rarity": "epic",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "silent-verdict"
+    },
+    "_id": "BC5LKhJKRfttVkpY",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "'Ignores 5 points of resistance' has no hook: pf2e's resistance-ignoring mechanism (precision damage, or specific weapon properties like a rune) is never expressed as a flat 'ignore N points,' and no generic rule element for it exists (same gap already flagged on the equipment pass's ammo cards). The once-per-week remote-kill-switch fired by a third party targets the wielder from outside the item entirely -- no selector exists for an item harming its own bearer on someone else's trigger with no save.",
+            "augmentKind": "cybernetic",
+            "augmentType": "implant",
+            "tier": "epic",
+            "slots": [
+                "Frame"
+            ],
+            "slotCost": 1,
+            "grade": 4,
+            "availability": "Black Market",
+            "level": 15,
+            "drift": "+5",
+            "augTags": [
+                "weapon",
+                "apex"
+            ]
+        }
+    }
+}

@@ -3,37 +3,55 @@
     "type": "deity",
     "img": "systems/pf2e/icons/default-icons/deity.svg",
     "system": {
-        "attribute": [],
+        "attribute": [
+            "wis",
+            "cha"
+        ],
         "category": "deity",
         "description": {
             "value": "<p><strong>Transcendent · Withdrawn, Not Dead</strong></p>\n<p>Watched what humanity did to itself and to Uriel, and simply left. Heaven's gates locked; Hell stopped taking calls too. Not divine death — a deliberate absence, which means the door is not necessarily closed forever. Vigil is the class built entirely around this: patient, rare, slow to act on any individual scale, aimed at maybe someday earning that attention back.</p>"
         },
         "domains": {
-            "alternate": [],
-            "primary": []
+            "alternate": [
+                "fate"
+            ],
+            "primary": [
+                "truth",
+                "protection"
+            ]
         },
-        "font": [],
+        "font": [
+            "heal"
+        ],
         "publication": {
             "license": "ORC",
             "remaster": true,
             "title": "Cinderfall"
         },
         "rules": [],
-        "sanctification": null,
-        "skill": [],
-        "spells": {},
+        "sanctification": {
+            "modal": "must",
+            "what": [
+                "holy"
+            ]
+        },
+        "skill": [
+            "religion"
+        ],
+        "spells": {
+            "1": "Compendium.pf2e.spells-srd.Item.Sanctuary",
+            "3": "Compendium.pf2e.spells-srd.Item.Ring of Truth",
+            "8": "Compendium.pf2e.spells-srd.Item.Divine Aura"
+        },
         "traits": {},
-        "weapons": [],
+        "weapons": [
+            "sling"
+        ],
         "slug": "the-abrahamic-god"
     },
     "_id": "B6wGODjXDIv37HOs",
     "flags": {
         "cinderfall": {
-            "define": "Transcendent · Withdrawn, Not Dead",
-            "incomplete": [
-                "STUB -- no mechanics authored. Missing every pf2e deity field: attribute, domains, font, sanctification, skill, spells, weapons. `category` is a default of 'deity' and may need to be philosophy or pantheon. See .claude/docs/todo.md."
-            ],
-            "effect": "Full writeup: <a class=\"bref\" href=\"vigil.html\">Vigil</a> dossier",
             "pov": {
                 "flag": "divestment_seen_v1",
                 "code": "Sealed Record · Field Index terminal",

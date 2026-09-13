@@ -33,5 +33,10 @@
         },
         "slug": "counted-cost"
     },
-    "_id": "FkLMtw96Sez8DZ9k"
+    "_id": "FkLMtw96Sez8DZ9k",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Retry a failed Install check, taking the new result even if worse (not on a critical failure). Confirmed vocabulary: no Reroll rule-element key exists anywhere in the compendium."
+        }
+    }
 }

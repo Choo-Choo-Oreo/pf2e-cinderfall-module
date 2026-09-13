@@ -1,0 +1,55 @@
+{
+    "name": "Rust Touch",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>Melee touch — this doesn't age flesh, only metal. Make a melee spell attack roll against the item's AC (an unwilling wielder may instead attempt a Reflex save to snatch it clear). <i>Success</i> the item corrodes, taking a permanent −1 item penalty until repaired by a smith (1 hour, Crafting DC equal to the item's level). <i>Critical Success</i> as success, but the penalty is −2. This penalty does not stack past −2 from repeated castings.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": ""
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "melee"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "1 creature's worn armor or held metal weapon"
+        },
+        "time": {
+            "value": "1"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [],
+            "value": [
+                "focus",
+                "reckoner"
+            ]
+        },
+        "slug": "rust-touch-spell"
+    },
+    "_id": "8QmxWMkVuqJekyBJ",
+    "flags": {
+        "cinderfall": {
+            "signatureSpellOf": "reckoner.half-light"
+        }
+    }
+}

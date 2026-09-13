@@ -1,0 +1,65 @@
+{
+    "name": "Choose Your Draw",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
+        "description": {
+            "value": "<p><em>Choose Your Draw</em></p><p>Choose one: Close Iron, Foul Iron, Long Iron, Trick Iron, Twin Iron.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "ChoiceSet",
+                "adjustName": false,
+                "flag": "draw",
+                "prompt": "Choose Your Draw",
+                "choices": {
+                    "filter": [
+                        "item:tag:ironsight-draw"
+                    ]
+                }
+            },
+            {
+                "key": "GrantItem",
+                "uuid": "{item|flags.system.rulesSelections.draw}"
+            }
+        ],
+        "traits": {
+            "otherTags": [],
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "draw"
+    },
+    "_id": "ceVJ1NeP6GvsTgMn",
+    "flags": {
+        "cinderfall": {
+            "subclassOf": "ironsight",
+            "subclassLayer": "draw",
+            "grants": [
+                "ironsight.close-iron",
+                "ironsight.foul-iron",
+                "ironsight.long-iron",
+                "ironsight.trick-iron",
+                "ironsight.twin-iron"
+            ]
+        }
+    }
+}

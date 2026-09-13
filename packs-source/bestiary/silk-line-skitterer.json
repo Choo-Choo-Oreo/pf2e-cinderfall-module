@@ -76,7 +76,7 @@
             "statistic": "perception"
         },
         "perception": {
-            "details": "tremorsense (imprecise) 60 ft through webs",
+            "details": "through webs",
             "mod": 8,
             "senses": [
                 {
@@ -139,7 +139,9 @@
                 },
                 "attackEffects": {
                     "custom": "",
-                    "value": []
+                    "value": [
+                        "spider-venom"
+                    ]
                 },
                 "bonus": {
                     "value": 10
@@ -151,7 +153,7 @@
                     }
                 },
                 "description": {
-                    "value": "<p>Damage 1d8+3 piercing plus spider venom (DC 17 Fortitude; 1d6 persistent poison, and slowed 1 for 1 round on a critical failure)</p>"
+                    "value": ""
                 },
                 "publication": {
                     "license": "ORC",
@@ -185,14 +187,16 @@
                 },
                 "attackEffects": {
                     "custom": "",
-                    "value": []
+                    "value": [
+                        "web-trap"
+                    ]
                 },
                 "bonus": {
                     "value": 10
                 },
                 "damageRolls": {},
                 "description": {
-                    "value": "<p><strong>Effect</strong> the target is immobilized (Escape DC 17)</p>"
+                    "value": ""
                 },
                 "publication": {
                     "license": "ORC",
@@ -304,17 +308,116 @@
                 }
             },
             "type": "action"
+        },
+        {
+            "_id": "CW402QMnMULFW2W5",
+            "img": "systems/pf2e/icons/actions/Passive.webp",
+            "name": "Spider Venom",
+            "sort": 1400000,
+            "system": {
+                "actionType": {
+                    "value": "passive"
+                },
+                "actions": {
+                    "value": null
+                },
+                "category": "offensive",
+                "description": {
+                    "value": "<p><strong>Saving Throw</strong> DC 17 Fortitude. 1d6 persistent poison, and slowed 1 for 1 round on a critical failure.</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "spider-venom",
+                "traits": {
+                    "rarity": "common",
+                    "value": [
+                        "poison"
+                    ]
+                }
+            },
+            "type": "action"
+        },
+        {
+            "_id": "aOZ6OLNzO9114kHa",
+            "img": "systems/pf2e/icons/actions/Passive.webp",
+            "name": "Web Trap",
+            "sort": 1500000,
+            "system": {
+                "actionType": {
+                    "value": "passive"
+                },
+                "actions": {
+                    "value": null
+                },
+                "category": "offensive",
+                "description": {
+                    "value": "<p>A creature hit by the Skitterer's web Strike is immobilized (Escape DC 17).</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "web-trap",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "type": "action"
+        },
+        {
+            "_id": "GHw8YzC2rRqm9Tdo",
+            "img": "systems/pf2e/icons/default-icons/treasure.svg",
+            "name": "Skitterer Silk Gland",
+            "sort": 1600000,
+            "system": {
+                "bulk": {
+                    "value": 0
+                },
+                "category": "material",
+                "description": {
+                    "value": "<p>A small silk gland, barely worth the trouble &mdash; but the trouble is usually low.</p>"
+                },
+                "hardness": 0,
+                "hp": {
+                    "max": 0,
+                    "value": 0
+                },
+                "level": {
+                    "value": 0
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "quantity": 1,
+                "rules": [],
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                },
+                "price": {
+                    "value": {
+                        "gp": 1
+                    }
+                }
+            },
+            "type": "treasure"
         }
     ],
     "flags": {
+        "pf2e": {
+            "lootable": true
+        },
         "cinderfall": {
-            "alignment": "N",
-            "incomplete": [
-                "perception clause not representable as a pf2e sense: 'tremorsense (imprecise) 60 ft through webs'",
-                "Melee strike 'fangs': rider 'spider venom (DC 17 Fortitude; 1d6 persistent poison, and slowed 1 for 1 round on a critical failure)' kept as text only",
-                "Ranged strike 'web': note 'Frequency three times' is not a pf2e weapon trait",
-                "Ranged strike 'web' deals no damage; its Effect is text only"
-            ]
+            "alignment": "N"
         }
     }
 }

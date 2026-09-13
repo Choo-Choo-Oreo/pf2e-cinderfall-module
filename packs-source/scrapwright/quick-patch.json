@@ -33,5 +33,10 @@
         },
         "slug": "quick-patch"
     },
-    "_id": "dhD5O78XN38lmLyJ"
+    "_id": "dhD5O78XN38lmLyJ",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Bucket 3 (reaction handing a new usable damage-mitigation ability) + [NO-SPECIALRESOURCE] for the 1-Ghost-Static cost + [RIG-GENERIC-AMBIGUOUS] for the \"or your Rig\" half of the trigger. No rule element performs a flat reduction to an already-in-progress damage instance on a reaction trigger (that requires a script/macro hook, same category as Shield Block's built-in system support, which this class does not have)."
+        }
+    }
 }

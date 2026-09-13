@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "cultist-croupier"
+            ],
             "rarity": "common",
             "value": [
                 "cultist"
@@ -33,5 +36,10 @@
         },
         "slug": "croupiers-reversal"
     },
-    "_id": "oJz4yFS3pUxZcuLw"
+    "_id": "oJz4yFS3pUxZcuLw",
+    "flags": {
+        "cinderfall": {
+            "track": "croupier"
+        }
+    }
 }

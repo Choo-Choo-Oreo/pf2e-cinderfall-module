@@ -33,5 +33,10 @@
         },
         "slug": "denmothers-ward"
     },
-    "_id": "BCi1MZ5tKu5NDGKD"
+    "_id": "BCi1MZ5tKu5NDGKD",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "A death-prevention floor applied to a different actor's HP total — no cross-actor HP-floor rule element exists (P7's absence pattern applies). This effect buffs, protects, or grants actions to the Feral Bond (the companion beast) from the holder's own card. No rule-element selector in pf2e-source lets one actor's item grant a stat bonus, temp HP, an extra action, or a shared sense to a different actor's sheet -- confirmed by spot-checking real pf2e's own fully-built Animal Companion subsystem (Ranger/Druid), where virtually every companion-buff/companion-action-economy feat ships with rules: [] too."
+        }
+    }
 }

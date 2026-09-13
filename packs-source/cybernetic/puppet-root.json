@@ -1,0 +1,87 @@
+{
+    "name": "Puppet Root",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>Full spinal takeover architecture; whoever holds the key was wired in at install. +3 item bonus to Athletics and Acrobatics, +3 to initiative. Blocks any effect, feat, or item that would grant immunity or resistance to being controlled — Puppet Root's channel overrides them by design. Once per week the keyholder can seize one full round of your actions, no save.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 19
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "gp": 70000
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "athletics",
+                "type": "item",
+                "value": 3
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "acrobatics",
+                "type": "item",
+                "value": 3
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "initiative",
+                "type": "item",
+                "value": 3
+            }
+        ],
+        "size": "med",
+        "traits": {
+            "rarity": "mythic",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "puppet-root"
+    },
+    "_id": "4dQIYjJXT6WwrGgU",
+    "flags": {
+        "cinderfall": {
+            "augmentKind": "cybernetic",
+            "augmentType": "implant",
+            "tier": "mythic",
+            "slots": [
+                "Frame"
+            ],
+            "slotCost": 1,
+            "grade": 5,
+            "availability": "Black Market",
+            "level": 19,
+            "drift": "+7",
+            "augTags": [
+                "soul-tech",
+                "apex"
+            ]
+        }
+    }
+}

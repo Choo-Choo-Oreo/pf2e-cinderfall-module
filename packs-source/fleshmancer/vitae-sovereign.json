@@ -33,5 +33,10 @@
         },
         "slug": "vitae-sovereign"
     },
-    "_id": "bsrZ1bUU2pxQIdh3"
+    "_id": "bsrZ1bUU2pxQIdh3",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "special-resource.ts's schema has max as a single ResolvableValueField per rule element instance, with no confirmed mechanism for temporarily overriding it conditional on \"currently in an encounter\" and then reverting after. Not asserted as definitively impossible, but not confidently buildable either."
+        }
+    }
 }

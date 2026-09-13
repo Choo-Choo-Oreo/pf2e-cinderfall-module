@@ -27,5 +27,10 @@
         },
         "slug": "the-answer-foreclosure-strike"
     },
-    "_id": "z8CRi7cVL2XsEGAN"
+    "_id": "z8CRi7cVL2XsEGAN",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The Strike-with-no-MAP-bump portion needs no rule element (a fixed rules-text exception, same as Reactive Strike's own 'doesn't count toward your MAP' clause shipping unencoded, confirmed via pf2e-source/packs/pf2e/actions/class/shared/reactive-strike.json). But the 'target takes a penalty to its own next saving throw' clause is not buildable: No rule element can set a modifier, apply a condition, or read a value on/from a different creature's own roll or resource from the card holder's own item -- confirmed corpus-wide this pass. (rule elements set modifiers only on the actor that owns the item, never a different creature's future roll.)"
+        }
+    }
 }

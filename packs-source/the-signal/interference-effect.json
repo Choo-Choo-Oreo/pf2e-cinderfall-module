@@ -1,0 +1,50 @@
+{
+    "name": "Effect: Interference",
+    "type": "effect",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "description": {
+            "value": "<p><em>Applied by <strong>Interference</strong> to the target.</em></p>\n<hr />\n<p><b>Failure</b> creatures take a −2 status penalty to Perception and cannot use auditory-based abilities. <b>Critical Failure</b> they are deafened for the duration.</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "minutes",
+            "value": 1
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "perception",
+                "type": "status",
+                "value": -2
+            }
+        ],
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "value": []
+        },
+        "slug": "interference-effect"
+    },
+    "_id": "p4Vsjz2oPJUwk3CO",
+    "flags": {
+        "cinderfall": {
+            "effectOf": "the-signal.interference",
+            "landsOn": "target"
+        }
+    }
+}

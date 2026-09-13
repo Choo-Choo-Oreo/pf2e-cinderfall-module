@@ -1,0 +1,41 @@
+{
+    "name": "Ghost-Circuit Mastery",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "skill",
+        "description": {
+            "value": "<p>Dead machines still whisper their old wiring diagrams to you. Once per day, you can attempt to Repair a destroyed (not merely broken) item as though it were merely broken, provided at least half its housing remains.</p>"
+        },
+        "level": {
+            "value": 16
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Master in Crafting"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "ghost-circuit-mastery"
+    },
+    "_id": "e4Zv7cp7XyLNV6Q0",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "No rule-element key lets Repair treat a destroyed item as merely broken; the engine doesn't distinguish those states for the Repair action."
+        }
+    }
+}

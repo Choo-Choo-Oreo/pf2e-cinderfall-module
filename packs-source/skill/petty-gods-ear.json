@@ -1,0 +1,41 @@
+{
+    "name": "Petty God's Ear",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "skill",
+        "description": {
+            "value": "<p>Small gods slip through the wastes looking for worship, and you've learned how to get one's attention without inviting its whole entourage. You gain a +2 circumstance bonus to checks made to Request minor favors from a petty god you've successfully identified, and a critical failure doesn't attract a second, uninvited god the way it might for the untrained.</p>"
+        },
+        "level": {
+            "value": 6
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Expert in Occultism"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "petty-gods-ear"
+    },
+    "_id": "zeo7eVSYbWqzHubm",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The +2 to Request needs a target trait for 'a petty god you've successfully identified,' which doesn't exist in this corpus, and the critical-failure protection ('doesn't attract a second god') has no hook."
+        }
+    }
+}

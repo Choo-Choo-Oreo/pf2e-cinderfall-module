@@ -33,5 +33,10 @@
         },
         "slug": "unweave-the-donor"
     },
-    "_id": "cBERuxWernXwCOoi"
+    "_id": "cBERuxWernXwCOoi",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Downtime time-compression ('perform a week-long rite in a single action instead') matches this pass's pre-confirmed finding that downtime time-adjustment is never rule-element-encoded in real pf2e. The actual Resonance-adjustment number belongs to whatever record defines the underlying 'Walk-back 2' rite, which is shared with the Choir of Ash archetype and a Seed-Warden feat and is not one of this class's own files -- out of scope to touch here."
+        }
+    }
 }

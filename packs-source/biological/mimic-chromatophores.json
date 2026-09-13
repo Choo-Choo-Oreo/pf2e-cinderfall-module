@@ -1,0 +1,69 @@
+{
+    "name": "Mimic Chromatophores",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>Deep colour-and-texture cells grown off a cephalopod-thing from the Drowned Coast. At will, 1 action: become concealed by a blur of shifting pattern until you move more than 10 feet or use a hostile action. Hold still for 1 minute (2 actions to begin) to take on the look of an object or a person of your size — a Deception check to Impersonate, with a +2 item bonus to the visual component.</p><p><b>Rider:</b> Strong feeling strobes you. On a failed save against fear, or a natural 1 on any save, you flash a vivid warning pattern and every creature within 30 feet that can see you knows exactly where you are until the end of your next turn.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 14
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "mk": 3000
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "traits": {
+            "rarity": "epic",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "mimic-chromatophores"
+    },
+    "_id": "FVaOP60FKZwbRzT2",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The core ability is a two-tier activated disguise (an at-will blur and a 1-minute transformation with its own Deception check) -- an activated ability with its own duration and check needs a granted Action item; the fear-triggered warning-flash rider is a narrative trigger, not an engine-recognizable one.",
+            "augmentKind": "biological",
+            "augmentType": "graft",
+            "tier": "epic",
+            "slots": [
+                "Dermal"
+            ],
+            "slotCost": 1,
+            "grade": 4,
+            "availability": "Wild",
+            "level": 14,
+            "load": "+2",
+            "resonance": "+4",
+            "augTags": [
+                "wild"
+            ]
+        }
+    }
+}

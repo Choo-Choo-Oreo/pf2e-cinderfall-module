@@ -1,0 +1,72 @@
+{
+    "name": "Third Arm",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>A smaller extra arm grafted at the flank. It can't wield a weapon well (–2 if you try) but it can hold, carry, brace, reload, steady a shield, or maintain a grapple. You have a third hand for Interact actions; draw or stow one item as a free action once per turn; +1 item bonus to Athletics to Climb and to checks to do two manual things at once.</p><p><b>Donor:</b> Three-handed now. The arm keeps its own small habits — reaching for door-frames, worrying at a loose thread, catching things before you notice they're falling.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 11
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "mk": 1500
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "athletics",
+                "type": "item",
+                "value": 1
+            }
+        ],
+        "size": "med",
+        "traits": {
+            "rarity": "rare",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "third-arm"
+    },
+    "_id": "0i9LVOGzeO6cZO41",
+    "flags": {
+        "cinderfall": {
+            "augmentKind": "biological",
+            "augmentType": "graft",
+            "tier": "rare",
+            "slots": [
+                "Arm"
+            ],
+            "slotCost": 1,
+            "grade": 3,
+            "availability": "Grafted",
+            "level": 11,
+            "load": "+3",
+            "resonance": "+3"
+        }
+    }
+}

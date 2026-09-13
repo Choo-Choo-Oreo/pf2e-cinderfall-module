@@ -33,5 +33,10 @@
         },
         "slug": "static-overflow"
     },
-    "_id": "eccvEv34eEKpFEgt"
+    "_id": "eccvEv34eEKpFEgt",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "[NO-SPECIALRESOURCE] -- the trigger condition itself (\"would gain Ghost-Static above capacity\") requires the Static Cell to exist as a tracked value, which it doesn't."
+        }
+    }
 }

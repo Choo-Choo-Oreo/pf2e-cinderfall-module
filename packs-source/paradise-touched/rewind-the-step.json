@@ -50,6 +50,7 @@
     "_id": "lBgrcqjGVgrMr8GQ",
     "flags": {
         "cinderfall": {
+            "incomplete": "Trigger: hit by an attack. Take 2 fewer damage per level from that attack. A one-shot reactive flat damage reduction to a single named triggering attack has no precedent: the only live use of a `\"damage-received\"` selector found (`pf2e-source/packs/pf2e/class-features/adept-benefit-chalice.json`, `pf2e-source/packs/pf2e/abomination-vaults-bestiary/.../bone-gladiator.json`) pairs it only with `Note` (a chat-flavor annotation), never `FlatModifier`. `Resistance` is a standing, type-keyed value, not a one-shot flat reduction to one named triggering attack.",
             "listing": "1st Rank"
         }
     }

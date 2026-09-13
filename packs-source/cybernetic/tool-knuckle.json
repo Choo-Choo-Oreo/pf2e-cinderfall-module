@@ -1,0 +1,65 @@
+{
+    "name": "Tool-Knuckle",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>Fold-out integrated tools — artisan's, healer's, or thieves' (chosen at install). Always in hand, can't be taken, frees the other hand.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 2
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "gp": 35
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "tool-knuckle"
+    },
+    "_id": "daOE3OS7Nb5EiIdO",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Pure narrative/utility tool-access with no numeric bonus to automate (equivalent to owning a set of tools, not a bonus to using them).",
+            "augmentKind": "cybernetic",
+            "augmentType": "implant",
+            "tier": "common",
+            "slots": [
+                "Arm"
+            ],
+            "slotCost": 1,
+            "grade": 1,
+            "availability": "Licensed",
+            "level": 2,
+            "drift": "+1"
+        }
+    }
+}

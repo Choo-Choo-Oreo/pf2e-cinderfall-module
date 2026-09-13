@@ -1,0 +1,36 @@
+{
+    "name": "Impossible Vector",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "skill",
+        "description": {
+            "value": "<p>Once per day, when you fall from a height, you can spend a reaction to treat the fall as if it were from 10 feet, twisting through debris, blast-wind, and wreckage on the way down as though the wasteland itself slowed you.</p>"
+        },
+        "level": {
+            "value": 16
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Master in Acrobatics"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "impossible-vector"
+    },
+    "_id": "w4j7bBuJxFVg51F7"
+}

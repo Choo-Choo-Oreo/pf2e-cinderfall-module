@@ -1,0 +1,43 @@
+{
+    "name": "Wider Signal",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "ancestry",
+        "description": {
+            "value": "<p>Increase the sensing range of Congenital Node.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Congenital Node"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "wire-ward"
+            ]
+        },
+        "slug": "wider-signal"
+    },
+    "_id": "HsBx0FHMfeR2EicC",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The parent card this upgrades ships rules: [] itself (confirmed by direct read), so there is nothing real to extend or increase. (Congenital Node ships rules: [] and has no Sense rule element or range value to increase.)"
+        }
+    }
+}

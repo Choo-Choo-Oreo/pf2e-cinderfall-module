@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "deadhand-second"
+            ],
             "rarity": "common",
             "value": [
                 "deadhand"
@@ -33,5 +36,11 @@
         },
         "slug": "one-mark-at-a-time"
     },
-    "_id": "oSz3amZ9GS811iW9"
+    "_id": "oSz3amZ9GS811iW9",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Marking becomes a free action usable once/round, exclusive to one mark at a time; melee Strikes with a one-handed weapon against the mark ignore the first 2 points of its resistance. This class's own target:mark:<slug> predicate idiom is confirmed unfireable (no card anywhere in this corpus ever applies a mark:<slug> option to a target), and separately no rule-element key lets a Strike ignore a target's own resistance value (only Resistance/Weakness grants exist, nothing subtracts or bypasses a target's own value).",
+            "track": "second"
+        }
+    }
 }

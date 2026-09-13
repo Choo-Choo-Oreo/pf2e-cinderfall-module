@@ -1,0 +1,65 @@
+{
+    "name": "Shock Bracing",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>Impact-dispersing internal cage. Reduce falling and forced-movement collision damage by 5. Not knocked prone by an effect unless it also deals damage.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 4
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "gp": 100
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "shock-bracing"
+    },
+    "_id": "5sz3Q0py9HtfswMp",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Reducing falling/forced-movement collision damage by a flat 5 has no matching selector: as with Kinetic-Lattice, pf2e has no damage type or roll option distinguishing fall/collision damage from ordinary bludgeoning, so a flat Resistance would incorrectly also blunt ordinary attacks. 'Not knocked prone unless the effect also deals damage' has no hook: no rule element conditions prone-immunity on whether the triggering effect happened to deal damage.",
+            "augmentKind": "cybernetic",
+            "augmentType": "implant",
+            "tier": "common",
+            "slots": [
+                "Frame"
+            ],
+            "slotCost": 1,
+            "grade": 1,
+            "availability": "Licensed",
+            "level": 4,
+            "drift": "+1"
+        }
+    }
+}

@@ -33,5 +33,10 @@
         },
         "slug": "one-with-the-chrome"
     },
-    "_id": "Au3lv09iTSGDRqhp"
+    "_id": "Au3lv09iTSGDRqhp",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "[DRIFT-NO-SCHEMA] (the Drift-9 gate) + [RIG-GENERIC-AMBIGUOUS] (the \"Rig active and nearby\" condition) + no roll-option for \"all your augments are suppressed at once\" either. Three independent unencodable predicates stacked on one card."
+        }
+    }
 }

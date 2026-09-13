@@ -1,0 +1,32 @@
+{
+    "_id": "z1DGZfMaDGhN5fEI",
+    "categories": [],
+    "name": "Credits",
+    "ownership": {
+        "default": 0
+    },
+    "pages": [
+        {
+            "_id": "1MTscLwblzveQV5A",
+            "category": null,
+            "image": {},
+            "name": "Credits",
+            "sort": 100000,
+            "src": null,
+            "system": {},
+            "text": {
+                "content": "",
+                "format": 1
+            },
+            "title": {
+                "level": 1,
+                "show": true
+            },
+            "type": "text",
+            "video": {
+                "controls": true,
+                "volume": 0.5
+            }
+        }
+    ]
+}

@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "fleshmancer-grafters"
+            ],
             "rarity": "common",
             "value": [
                 "fleshmancer"
@@ -33,5 +36,10 @@
         },
         "slug": "take-it-out"
     },
-    "_id": "KbUeHWpyYVcwNaGq"
+    "_id": "KbUeHWpyYVcwNaGq",
+    "flags": {
+        "cinderfall": {
+            "track": "grafters"
+        }
+    }
 }

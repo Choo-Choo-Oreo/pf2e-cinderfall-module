@@ -1,0 +1,94 @@
+{
+    "name": "Grafthand",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>Fine-manipulator replacement. +2 item bonus to Crafting, to Medicine for Treat Wounds/surgery, and to Thievery for Disable a Device / Pick a Lock. Repair in half the time.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 8
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "gp": 500
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "crafting",
+                "type": "item",
+                "value": 2
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "medicine",
+                "type": "item",
+                "value": 2,
+                "predicate": [
+                    "action:treat-wounds"
+                ]
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "thievery",
+                "type": "item",
+                "value": 2,
+                "predicate": [
+                    {
+                        "or": [
+                            "action:disable-a-device",
+                            "action:pick-a-lock"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "size": "med",
+        "traits": {
+            "rarity": "uncommon",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "grafthand"
+    },
+    "_id": "JA6oOxQk9XDszA98",
+    "flags": {
+        "cinderfall": {
+            "augmentKind": "cybernetic",
+            "augmentType": "implant",
+            "tier": "uncommon",
+            "slots": [
+                "Arm"
+            ],
+            "slotCost": 1,
+            "grade": 2,
+            "availability": "Licensed",
+            "level": 8,
+            "drift": "+2"
+        }
+    }
+}

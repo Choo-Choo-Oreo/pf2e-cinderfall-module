@@ -1,0 +1,77 @@
+{
+    "name": "Effect: Bulwark Plating",
+    "type": "effect",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "description": {
+            "value": "<p><em>Applied by <strong>Bulwark Plating</strong> to the character who used it.</em></p>\n<hr />\n<p><span class=\"sdesc\">Bolt on extra plate to your Iron Lung, Rig, or Widowmaker shell.</span></p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "minutes",
+            "value": 1
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "ChoiceSet",
+                "flag": "bulwarkPlating",
+                "rollOption": "bulwark-plating",
+                "prompt": "Plate for cover or for impact",
+                "choices": [
+                    {
+                        "label": "+2 item bonus to AC",
+                        "value": "ac"
+                    },
+                    {
+                        "label": "Resistance 5 to physical",
+                        "value": "physical"
+                    }
+                ]
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "ac",
+                "type": "item",
+                "value": 2,
+                "predicate": [
+                    "bulwark-plating:ac"
+                ]
+            },
+            {
+                "key": "Resistance",
+                "type": "physical",
+                "value": 5,
+                "predicate": [
+                    "bulwark-plating:physical"
+                ]
+            }
+        ],
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "value": []
+        },
+        "slug": "bulwark-plating-effect"
+    },
+    "_id": "dU1ea2G6GoA4fwOr",
+    "flags": {
+        "cinderfall": {
+            "effectOf": "scrapwright.bulwark-plating",
+            "landsOn": "self"
+        }
+    }
+}

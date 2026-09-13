@@ -27,5 +27,10 @@
         },
         "slug": "open-band"
     },
-    "_id": "eLyvifzMsZVfOpIp"
+    "_id": "eLyvifzMsZVfOpIp",
+    "flags": {
+        "cinderfall": {
+            "incomplete": ""
+        }
+    }
 }

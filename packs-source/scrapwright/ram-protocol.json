@@ -27,5 +27,10 @@
         },
         "slug": "ram-protocol"
     },
-    "_id": "72KkfngaGRBhWcuy"
+    "_id": "72KkfngaGRBhWcuy",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Bucket 5 -- no roll-option exists for \"moved at least 10 feet in a straight line this turn\" (pf2e's real movement-triggered feats are built as their own action macros, not generic predicates); DamageDice (a real key) could add the bonus die if such a predicate existed, but it doesn't."
+        }
+    }
 }

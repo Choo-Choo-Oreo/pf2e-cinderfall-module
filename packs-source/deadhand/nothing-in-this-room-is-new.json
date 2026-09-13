@@ -33,5 +33,10 @@
         },
         "slug": "nothing-in-this-room-is-new"
     },
-    "_id": "4sEdK5ye69ZHQgGX"
+    "_id": "4sEdK5ye69ZHQgGX",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Never surprised/off-guard to anything perceived; auto-succeeds flat checks made to notice something from concealment; once/encounter, treats a foe's first-ever use of an ability against the caster as though already seen. The off-guard clause alone would ship unencoded (real precedent: pf2e-source/packs/pf2e/feats/class/shared-class-feats/level-8/blind-fight.json, rules: []), but \"auto-succeed a flat check\" unconditionally has no confirmed real precedent, and \"treat as already seen\" needs a per-ability, per-instance memory with no rule-element analog anywhere in the engine -- the load-bearing clauses don't resolve, so the card nets INCOMPLETE."
+        }
+    }
 }

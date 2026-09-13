@@ -24,7 +24,9 @@
             "type": null
         },
         "price": {
-            "value": {}
+            "value": {
+                "gp": 0
+            }
         },
         "publication": {
             "license": "ORC",
@@ -46,21 +48,14 @@
     "_id": "9IotIH7uwmC7orQ5",
     "flags": {
         "cinderfall": {
+            "incomplete": "\"A fleshmancer harvesting Vitae from you gets +1 from the draw\" and \"the first persistent bleed you take each day has its flat check DC raised by 5\" both have no rule-element equivalent: Vitae is a Cinderfall-homebrew resource with no representation in the pf2e schema at all, and a persistent condition's flat-check DC is tracked per-instance on the condition, not adjustable via a generic actor rule (same gap as Regrower).",
             "mutationType": "scar",
             "tier": "common",
-            "slot": "Circulatory",
             "slots": [
                 "Circulatory"
             ],
             "slotCost": 1,
-            "roll": "d12 — 1",
-            "incomplete": [
-                "level is a stub (0); mutations carry no level",
-                "price is empty; a mutation is not bought"
-            ],
-            "inferred": [
-                "system.usage"
-            ]
+            "roll": "d12 — 1"
         }
     }
 }

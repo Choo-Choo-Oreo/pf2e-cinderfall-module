@@ -1,0 +1,69 @@
+{
+    "name": "Adrenal Sac",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>Manual-trigger gland. 1/day, free action at the start of your turn: +2 status bonus to your next save this round.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "frequency": {
+            "max": 1,
+            "per": "day"
+        },
+        "level": {
+            "value": 4
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "gp": 100
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "adrenal-sac"
+    },
+    "_id": "ICAFnm8VMLIBkmWo",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The whole ability is a 1/day free-action +2 status bonus to your next save -- a limited-use, player-triggered buff needs a granted Action item with its own frequency tracker, not a rule element (same class of gap as every other once-per-day activation in this pass).",
+            "augmentKind": "cybernetic",
+            "augmentType": "implant",
+            "tier": "common",
+            "slots": [
+                "Viscera"
+            ],
+            "slotCost": 1,
+            "grade": 1,
+            "availability": "Licensed",
+            "level": 4,
+            "drift": "+1"
+        }
+    }
+}

@@ -33,5 +33,10 @@
         },
         "slug": "faint-leak"
     },
-    "_id": "vjMEYg3cXnSweWoe"
+    "_id": "vjMEYg3cXnSweWoe",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Passive, no-action per-turn damage to a player-chosen enemy / temp-HP to a player-chosen ally. Aura rule elements apply to every valid creature in a radius automatically -- they do not support 'the caster picks one creature each turn', so this does not fit Aura either. No selector exists for player-directed, per-turn, no-action single-target damage/healing."
+        }
+    }
 }

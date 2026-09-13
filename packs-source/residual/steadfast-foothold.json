@@ -1,0 +1,43 @@
+{
+    "name": "Steadfast Foothold",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "ancestry",
+        "description": {
+            "value": "<p>Reduce Already a Foothold's severity further — possession and soul-based effects targeting you now take a real penalty instead of just losing their usual edge.</p>"
+        },
+        "level": {
+            "value": 9
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Ward Against Intrusion"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "residual"
+            ]
+        },
+        "slug": "steadfast-foothold"
+    },
+    "_id": "H9uuOhkbg039sX3l",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Turning Already a Foothold's drawback into a penalty against the *attacker* rather than the card holder is This affects another creature's own roll, HP, or condition from the card holder's passive/item, which has no rule-element hook in real pf2e., with no existing predicate to build from."
+        }
+    }
+}

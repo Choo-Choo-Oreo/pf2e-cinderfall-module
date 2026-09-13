@@ -55,6 +55,7 @@
     "_id": "NT2GeBOUBSSehw0g",
     "flags": {
         "cinderfall": {
+            "incomplete": "Bucket 5: searched for a mechanism that negates an incoming Strike entirely, pre-damage, on a save (adjacent to the spell-deflection IWR type, which only applies to spells, and to Shield Block, which is hard-coded, not a rule element) -- found none in pf2e-source. Also self-cancelling on the caster's own hostile action, which compounds the gap: no rule element watches the caster's own subsequent actions either.",
             "listing": "1st Rank"
         }
     }

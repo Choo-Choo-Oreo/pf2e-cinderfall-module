@@ -1,0 +1,91 @@
+{
+    "name": "Mantis Blade Arm",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>A forearm that splits along a seam to deploy a curved chitin blade. Melee Strike: 1d8 slashing, agile, deadly d8. Deploying or retracting is free at the start of your turn; while deployed, that hand can't hold anything.</p><p><b>Rider:</b> It deploys when you're startled. On a failed save against fear, or when you take a critical hit, the blade snaps out and an adjacent creature (GM's pick if there's a choice, and it may be an ally) takes 1d8 slashing.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 8
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "mk": 300
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "Strike",
+                "slug": "mantis-blade-arm",
+                "label": "Mantis Blade",
+                "category": "unarmed",
+                "group": "brawling",
+                "img": "systems/pf2e/icons/unarmed-attacks/claw.webp",
+                "range": null,
+                "traits": [
+                    "unarmed",
+                    "agile",
+                    "deadly-d8"
+                ],
+                "damage": {
+                    "base": {
+                        "damageType": "slashing",
+                        "dice": 1,
+                        "die": "d8"
+                    }
+                }
+            }
+        ],
+        "size": "med",
+        "traits": {
+            "rarity": "uncommon",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "mantis-blade-arm"
+    },
+    "_id": "cXpJpUkl1Dz3SkMX",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The fear-triggered/crit-triggered involuntary strike against an adjacent creature (possibly an ally) has no hook: nothing lets a held item make an attack roll and choose a target on the player's behalf in response to a save or being crit.",
+            "augmentKind": "biological",
+            "augmentType": "graft",
+            "tier": "uncommon",
+            "slots": [
+                "Arm"
+            ],
+            "slotCost": 1,
+            "grade": 2,
+            "availability": "Wild",
+            "level": 8,
+            "load": "+2",
+            "resonance": "+3",
+            "augTags": [
+                "wild"
+            ]
+        }
+    }
+}

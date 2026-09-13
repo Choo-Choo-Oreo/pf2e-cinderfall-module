@@ -24,8 +24,29 @@
             "remaster": true,
             "title": "Cinderfall"
         },
-        "rules": [],
+        "rules": [
+            {
+                "key": "RollOption",
+                "option": "nothing-is-load-bearing",
+                "toggleable": true,
+                "label": "You have studied this structure's failure point this encounter"
+            },
+            {
+                "key": "AdjustDegreeOfSuccess",
+                "selector": "strike-attack-roll",
+                "predicate": [
+                    "nothing-is-load-bearing",
+                    "target:trait:object"
+                ],
+                "adjustment": {
+                    "success": "one-degree-better"
+                }
+            }
+        ],
         "traits": {
+            "otherTags": [
+                "deadhand-breaker"
+            ],
             "rarity": "common",
             "value": [
                 "deadhand"
@@ -33,5 +54,11 @@
         },
         "slug": "nothing-is-load-bearing"
     },
-    "_id": "VrTr2pxBFIb0EZGO"
+    "_id": "VrTr2pxBFIb0EZGO",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The crit-upgrade-vs-objects half is confirmed real and matches pf2e-source/packs/pf2e/feats/class/gunslinger/level-18/final-shot.json almost exactly (RollOption toggle + AdjustDegreeOfSuccess on selector strike-attack-roll). The separate \"-2 circumstance AC to occupants\" clause stays unbuilt: no selector reaches a different creature's AC from the attacker's own action, and no companion effect exists to carry it.",
+            "track": "breaker"
+        }
+    }
 }

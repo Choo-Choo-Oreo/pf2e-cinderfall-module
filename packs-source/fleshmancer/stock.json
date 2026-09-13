@@ -1,0 +1,63 @@
+{
+    "name": "Choose Your Stock",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
+        "description": {
+            "value": "<p><em>Choose Your Stock</em></p><p>Choose one: Butcher's, Grafter's, Skinwalker's.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "ChoiceSet",
+                "adjustName": false,
+                "flag": "stock",
+                "prompt": "Choose Your Stock",
+                "choices": {
+                    "filter": [
+                        "item:tag:fleshmancer-stock"
+                    ]
+                }
+            },
+            {
+                "key": "GrantItem",
+                "uuid": "{item|flags.system.rulesSelections.stock}"
+            }
+        ],
+        "traits": {
+            "otherTags": [],
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "stock"
+    },
+    "_id": "7eFIbKEvgbltTsxs",
+    "flags": {
+        "cinderfall": {
+            "subclassOf": "fleshmancer",
+            "subclassLayer": "stock",
+            "grants": [
+                "fleshmancer.butchers",
+                "fleshmancer.grafters",
+                "fleshmancer.skinwalkers"
+            ]
+        }
+    }
+}

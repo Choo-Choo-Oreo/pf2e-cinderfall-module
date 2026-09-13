@@ -1,0 +1,58 @@
+{
+    "name": "The Fixer",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>Tool-Knuckle (Arm-L) + Memory Lattice (Neural) + Ledger Inlay. Always has the right tool and the right fact.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 0
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {}
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "the-fixer"
+    },
+    "_id": "mAEWW9PzRgLlhTJx",
+    "flags": {
+        "cinderfall": {
+            "augmentKind": "cybernetic",
+            "slots": [
+                "Inlays"
+            ],
+            "slotCost": 1,
+            "availability": "Licensed",
+            "drift": "2"
+        }
+    }
+}

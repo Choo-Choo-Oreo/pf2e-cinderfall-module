@@ -1,0 +1,39 @@
+{
+    "name": "The Turning Remembered",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "ancestry",
+        "description": {
+            "value": "<p>Once per day, unleash a burst of fire and heat damage in a wide radius, visibly echoing the Turning itself.</p>"
+        },
+        "level": {
+            "value": 17
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "cinderborn"
+            ]
+        },
+        "slug": "the-turning-remembered"
+    },
+    "_id": "QMfYDRtQ7I9r4QYg",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Granting a new limited-use activated action/reaction has no rule-element hook in real pf2e -- confirmed corpus-wide this pass (Reactive Shield itself ships rules: []). ('once per day, unleash a burst of fire and heat damage in a wide radius' is a new granted action.)"
+        }
+    }
+}

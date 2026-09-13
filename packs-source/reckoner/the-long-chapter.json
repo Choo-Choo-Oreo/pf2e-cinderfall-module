@@ -1,32 +1,15 @@
 {
-    "_id": "KuO59wSIwWI34Ebn",
-    "categories": [],
     "name": "The Long Chapter",
-    "ownership": {
-        "default": 0
+    "type": "lore",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "description": {
+            "value": "<p>A monastic-scientific order that predates the Turning by generations — physicists and clergy who stopped seeing a meaningful difference between the two disciplines once they'd stared at thermodynamics long enough. They wrote the Litany as scripture and equation simultaneously, and their surviving chapter-houses are where most Reckoners learn it, whether or not they ever formally join. The order doesn't recruit. It just keeps counting, and occasionally someone counting alongside them starts getting Overflow back.</p><p>One of their oldest workings went further than a mortal frame should have carried it, decades before the Turning even happened. The stretch of land where that happened is still called <strong>the Grey Mile</strong> — everything there ages unnaturally fast, has for longer than anyone alive remembers, and nobody in the Long Chapter will explain why in more detail than \"we know exactly what did that, and it was ours.\"</p>"
+        },
+        "slug": "the-long-chapter"
     },
-    "pages": [
-        {
-            "_id": "miM1x00xV6MjV4th",
-            "category": null,
-            "image": {},
-            "name": "The Long Chapter",
-            "sort": 100000,
-            "src": null,
-            "system": {},
-            "text": {
-                "content": "<p><em>The Liturgical Order · Scientist-Monks, Pre- and Post-Collapse</em></p>      <p class=\"cc-desc\">A monastic-scientific order that predates the Turning by generations — physicists and clergy who stopped seeing a meaningful difference between the two disciplines once they'd stared at thermodynamics long enough. They wrote the Litany as scripture and equation simultaneously, and their surviving chapter-houses are where most Reckoners learn it, whether or not they ever formally join. The order doesn't recruit. It just keeps counting, and occasionally someone counting alongside them starts getting Overflow back.</p>\n      <p class=\"cc-desc\">One of their oldest workings went further than a mortal frame should have carried it, decades before the Turning even happened. The stretch of land where that happened is still called <strong>the Grey Mile</strong> — everything there ages unnaturally fast, has for longer than anyone alive remembers, and nobody in the Long Chapter will explain why in more detail than \"we know exactly what did that, and it was ours.\"</p>\n      <div class=\"pov sealed\" data-flag=\"attrition_seen_v1\" data-key=\"65990634b7f0673e\">\n        <div class=\"pov-code\">Sealed Record · Field Index terminal</div>\n        <p class=\"pov-text\">Not every astronomer-monk who's stared long enough at the proof stays content to only refine it. A small, quietly expelled splinter reads the Grey Mile as proof of concept rather than warning — decay isn't just provable, it's directable. <strong>The Long Chapter doesn't discuss them by name in front of outsiders, which is itself the tell that they still exist.</strong></p>\n        <a class=\"pov-link\" href=\"what-runs-without-us.html\">Sealed record: What Runs Without Us →</a>\n      </div>",
-                "format": 1
-            },
-            "title": {
-                "level": 1,
-                "show": true
-            },
-            "type": "text",
-            "video": {
-                "controls": true,
-                "volume": 0.5
-            }
-        }
-    ]
+    "_id": "KuO59wSIwWI34Ebn",
+    "flags": {
+        "cinderfall": {}
+    }
 }

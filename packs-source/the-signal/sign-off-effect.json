@@ -1,0 +1,56 @@
+{
+    "name": "Effect: Sign Off",
+    "type": "effect",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "description": {
+            "value": "<p><em>Applied by <strong>Sign Off</strong> to each affected enemy.</em></p>\n<hr />\n<p>Enemies in range take a −1 status penalty to attack rolls and Will saves. The transmission goes quiet, and everyone hearing it understands that means something.</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": true,
+            "unit": "minutes",
+            "value": 1
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "attack",
+                "type": "status",
+                "value": -1
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "will",
+                "type": "status",
+                "value": -1
+            }
+        ],
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "value": []
+        },
+        "slug": "sign-off-effect"
+    },
+    "_id": "9Eejgy9qF6uneG2G",
+    "flags": {
+        "cinderfall": {
+            "effectOf": "the-signal.sign-off",
+            "landsOn": "enemy"
+        }
+    }
+}

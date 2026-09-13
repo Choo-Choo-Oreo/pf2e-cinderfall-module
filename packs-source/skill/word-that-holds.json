@@ -1,0 +1,41 @@
+{
+    "name": "Word That Holds",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "skill",
+        "description": {
+            "value": "<p>Out here, a deal is only as good as the person who can make people remember it. A creature you successfully Make an Impression on remains friendly, rather than merely indifferent, for one additional week per degree your check exceeded the DC.</p>"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Expert in Diplomacy"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "word-that-holds"
+    },
+    "_id": "j1U0eWS3ezvov0hR",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "No rule-element key extends the duration of an attitude result (friendly vs. indifferent) achieved by Make an Impression."
+        }
+    }
+}

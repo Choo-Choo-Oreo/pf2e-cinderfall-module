@@ -1,0 +1,54 @@
+{
+    "name": "Effect: Break Their Formation",
+    "type": "effect",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "description": {
+            "value": "<p><em>Applied by <strong>Break Their Formation</strong> to each affected enemy.</em></p>\n<hr />\n<p>Shout down an enemy line until it stops working as one.</p>"
+        },
+        "duration": {
+            "expiry": "turn-end",
+            "sustained": false,
+            "unit": "rounds",
+            "value": 1
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": [
+                    "attack",
+                    "perception"
+                ],
+                "type": "status",
+                "value": -2,
+                "removeAfterRoll": true
+            }
+        ],
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "value": []
+        },
+        "slug": "break-their-formation-effect"
+    },
+    "_id": "d7M1Ywp2IeSe146F",
+    "flags": {
+        "cinderfall": {
+            "effectOf": "deadhand.break-their-formation",
+            "landsOn": "enemy"
+        }
+    }
+}

@@ -55,6 +55,7 @@
     "_id": "JJk3yiBUkv5XH0eR",
     "flags": {
         "cinderfall": {
+            "incomplete": "The damage is P-DMG (SKIP-pattern alone), but the death-to-Afflicted rider is P-SUMMON and the \"always draws the Toll\" rider is TOLL; both are real, stated, unbuilt effects. Overall: INCOMPLETE. Raising/creating a new minion or ally creature (P-SUMMON) has no system.rules representation. Real pf2e itself ships rules: [] for the equivalent case (pf2e-source/packs/pf2e/spells/spells/rank-1/summon-undead.json, system.summons left unpopulated too), but per this pass's own convention that is evidence of the gap, not license to treat the clause as correctly-empty -- it is dispositioned INCOMPLETE, not SKIP. The Choir's Toll random table (TOLL) is referenced by roughly ten cards in this class. No rule element models rolling on a GM table, or substituting a chosen result for a roll -- zero precedent searched or expected, this is squarely outside anything system.rules can represent.",
             "listing": "10th Rank"
         }
     }

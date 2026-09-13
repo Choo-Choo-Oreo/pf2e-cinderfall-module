@@ -1,0 +1,57 @@
+{
+    "name": "Hairline Cracks",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "ancestryfeature",
+        "description": {
+            "value": "<p>When frightened or below half HP, faint cracks along your skin visibly glow — a tell you can't hide, but can weaponize as intimidation.</p>"
+        },
+        "level": {
+            "value": 0
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "intimidation",
+                "type": "circumstance",
+                "value": 1,
+                "predicate": [
+                    {
+                        "or": [
+                            {
+                                "lt": [
+                                    "hp-percent",
+                                    50
+                                ]
+                            },
+                            "self:condition:frightened"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "cinderborn"
+            ]
+        },
+        "slug": "hairline-cracks"
+    },
+    "_id": "TmHzkHnmw0Wfz48J"
+}

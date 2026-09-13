@@ -1,0 +1,15 @@
+{
+    "name": "Widow's Toll — Quest Hook",
+    "type": "lore",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "description": {
+            "value": "<p>The ruin sits under maybe four feet of water at low tide, less at neap, and whatever it was before the Drowned Coast took it, nobody who's dived it agrees on. The gun was the only thing brought up intact; everything else that's come out since has been bone, and most of it isn't old enough to belong to whatever went down with the building.</p><p>Anyone who's carried the gun long enough to hear the chime more than a few times tends to stop volunteering how many kills that actually is. The going theory is that something is keeping the real count, and that it's the total that matters, not the gun. Nobody chasing this rumor has yet found a reason to test what happens when it's reached.</p>"
+        },
+        "slug": "widows-toll-quest"
+    },
+    "_id": "BrrhnSHKx1RCqljW",
+    "flags": {
+        "cinderfall": {}
+    }
+}

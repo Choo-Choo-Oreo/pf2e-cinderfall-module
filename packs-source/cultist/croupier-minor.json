@@ -1,0 +1,46 @@
+{
+    "name": "Never Bust",
+    "type": "capstone",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p>Once per day, when you roll a natural 1 on a check, attack roll, or saving throw, treat the die result as a 10 instead. The Croupier doesn't let you walk away from the table on the worst possible number.</p>"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "otherTags": [
+                "cultist-croupier"
+            ],
+            "value": [
+                "cultist"
+            ]
+        },
+        "slug": "croupier-minor"
+    },
+    "_id": "xrS4kFG5b0ghXl1K",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "\"Once per day, when you roll a natural 1 on a check/attack/save: treat the die result as a 10\" is P-DIE: redefines the rolled die's own value rather than shifting a success tier or rerolling; no rule element does this, confirmed absent via exhaustive grep this pass.",
+            "track": "croupier"
+        }
+    }
+}

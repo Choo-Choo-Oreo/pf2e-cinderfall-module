@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "deadhand-breaker"
+            ],
             "rarity": "common",
             "value": [
                 "deadhand"
@@ -33,5 +36,11 @@
         },
         "slug": "nothing-is-cover"
     },
-    "_id": "T6H6syezo6dpENwk"
+    "_id": "T6H6syezo6dpENwk",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Strike a piece of cover; if it takes damage, the creature behind it loses cover until the caster's next turn. No selector strips a different creature's cover bonus from the attacker's own action, and no companion effect exists to carry it on the target.",
+            "track": "breaker"
+        }
+    }
 }

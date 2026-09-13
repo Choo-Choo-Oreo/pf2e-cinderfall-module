@@ -33,5 +33,10 @@
         },
         "slug": "take-it-standing"
     },
-    "_id": "KAo0rwqaOey6jpC1"
+    "_id": "KAo0rwqaOey6jpC1",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "On being forced prone or forcibly moved, at Cost 1 Tally: negate being knocked prone, or reduce the forced movement by 10 feet; usable while unable to act, not while unconscious. The Tally cost is the trigger mechanism itself, and Deadhand's Tally is entirely homebrew with zero schema footprint anywhere in this corpus -- the underlying effect shape would otherwise partially match real Immovable Object precedent (pf2e-source/packs/pf2e/feats/archetype/eternal-legend/immovable-object.json, rules: [])."
+        }
+    }
 }

@@ -1,0 +1,58 @@
+{
+    "name": "Effect: Hold the Line",
+    "type": "effect",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "description": {
+            "value": "<p><em>Applied by <strong>Hold the Line</strong> to each affected ally.</em></p>\n<hr />\n<p>Affected creatures gain a +2 status bonus to saving throws against fear, mental control, and persuasion effects. This is the spell version of what Presence does passively, turned up loud for the moments that actually call for it.</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "minutes",
+            "value": 10
+        },
+        "level": {
+            "value": 4
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "saving-throw",
+                "type": "status",
+                "value": 2,
+                "predicate": [
+                    {
+                        "or": [
+                            "item:trait:fear",
+                            "item:trait:emotion"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "value": []
+        },
+        "slug": "hold-the-line-effect"
+    },
+    "_id": "MeBggug2UvjKkZLp",
+    "flags": {
+        "cinderfall": {
+            "effectOf": "vigil.hold-the-line",
+            "landsOn": "ally"
+        }
+    }
+}

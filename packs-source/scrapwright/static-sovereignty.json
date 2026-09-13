@@ -33,5 +33,10 @@
         },
         "slug": "static-sovereignty"
     },
-    "_id": "xTlY6K9mUfT5qySV"
+    "_id": "xTlY6K9mUfT5qySV",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "[NO-SPECIALRESOURCE] -- there is no capacity value to remove the cap from."
+        }
+    }
 }

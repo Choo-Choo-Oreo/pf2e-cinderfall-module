@@ -15,7 +15,24 @@
             "remaster": true,
             "title": "Cinderfall"
         },
-        "rules": [],
+        "rules": [
+            {
+                "key": "RollOption",
+                "option": "archive-line-pre-turning",
+                "toggleable": true,
+                "label": "Recalling pre-Turning history, institutions or technology"
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "skill-check",
+                "type": "circumstance",
+                "value": 1,
+                "predicate": [
+                    "action:recall-knowledge",
+                    "archive-line-pre-turning"
+                ]
+            }
+        ],
         "traits": {
             "rarity": "common",
             "value": []

@@ -1,0 +1,46 @@
+{
+    "name": "Untouchable",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You would be affected by a fear, emotion, or mental effect.</p><hr /><p>You are unaffected by the triggering effect entirely, as though you had critically succeeded at your save.</p>"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "otherTags": [
+                "cultist-undoubted"
+            ],
+            "rarity": "common",
+            "value": [
+                "cultist"
+            ]
+        },
+        "slug": "untouchable"
+    },
+    "_id": "lLTBf4KjTzpiuN1p",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "\"Trigger would be affected by a fear/emotion/mental effect: unaffected entirely, as though critically succeeded\" is P-DEGREE-REACTIVE: a frequency-gated conversion applied at the moment of an unwanted effect, the same after-the-fact-manufacture shape confirmed absent throughout this pass.",
+            "track": "undoubted"
+        }
+    }
+}

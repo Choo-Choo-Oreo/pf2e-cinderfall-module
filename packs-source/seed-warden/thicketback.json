@@ -27,5 +27,10 @@
         },
         "slug": "thicketback"
     },
-    "_id": "XfjdZ3MZALsIfocY"
+    "_id": "XfjdZ3MZALsIfocY",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Same `BLIGHTSHAPE-NULL` + `BLOOMROT-NULL` blockers as the other two forms. The Green load's \"10 temp HP renewing each round\" is itself a real, clean shape once a home exists for it (`TempHP` inside a `BattleForm` override, similar to Aerial Form's `tempHP` bracket field) — flagged as the cleanest of the three forms to build first if a companion effect file is ever authored."
+        }
+    }
 }

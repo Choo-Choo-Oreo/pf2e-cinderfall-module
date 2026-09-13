@@ -1,0 +1,56 @@
+{
+    "name": "One More",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>Choose one: your reach increases by 5 feet until the end of your turn, or — if you're already taking an action that includes a Strike this turn — you gain one additional Strike as part of that action, using the same weapon or unarmed attack.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "1 round"
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "self"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": ""
+        },
+        "time": {
+            "value": "1"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [],
+            "value": [
+                "focus",
+                "reckoner"
+            ]
+        },
+        "slug": "one-more"
+    },
+    "_id": "gtJJOcqGZW5TS4hE",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "'Extra reach, or an extra simultaneous Strike' -- no generic 'grant one additional Strike as part of this action' rule element exists (multi-attack grants in real pf2e are hand-coded system behavior, not data-only rule elements). No clean 'reach +5 until end of turn' modifier either: reach is a weapon-trait property altered via ItemAlteration on a specific weapon item, and this ability isn't tied to one.",
+            "signatureSpellOf": "reckoner.the-many"
+        }
+    }
+}

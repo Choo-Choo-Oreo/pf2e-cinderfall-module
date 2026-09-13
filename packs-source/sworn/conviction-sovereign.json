@@ -33,5 +33,10 @@
         },
         "slug": "conviction-sovereign"
     },
-    "_id": "AMHNyYGEZT3B4MwZ"
+    "_id": "AMHNyYGEZT3B4MwZ",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Conviction is Cinderfall's renamed Focus Point pool (every Vow spell carries a 'Focus 1' cost tag). No rule element anywhere in pf2e-source writes to system.resources.focus.value -- confirmed via grep -rl \"resources.focus.value\" pf2e-source/packs/pf2e returning zero files. Every real rule element touching that path only adjusts .max via ActiveEffectLike mode:\"upgrade\" (e.g. pf2e-source/packs/pf2e/class-features/clarity-of-focus.json), never .value. This card additionally requires tracking a negative/debt value against the resource pool and conditionally disabling Refocus -- a from-scratch homebrew resource-economy concept with zero rule-element vocabulary anywhere in pf2e-source to hang it on."
+        }
+    }
 }

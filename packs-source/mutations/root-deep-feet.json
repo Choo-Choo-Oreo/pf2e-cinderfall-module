@@ -24,7 +24,9 @@
             "type": null
         },
         "price": {
-            "value": {}
+            "value": {
+                "gp": 0
+            }
         },
         "publication": {
             "license": "ORC",
@@ -32,7 +34,30 @@
             "title": "Cinderfall"
         },
         "quantity": 1,
-        "rules": [],
+        "rules": [
+            {
+                "key": "RollOption",
+                "option": "root-deep-feet",
+                "toggleable": true,
+                "label": "Standing on natural earth"
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "fortitude",
+                "type": "circumstance",
+                "value": 1,
+                "predicate": [
+                    "root-deep-feet",
+                    {
+                        "or": [
+                            "action:shove",
+                            "action:trip",
+                            "action:reposition"
+                        ]
+                    }
+                ]
+            }
+        ],
         "size": "med",
         "traits": {
             "rarity": "epic",
@@ -48,19 +73,11 @@
         "cinderfall": {
             "mutationType": "major",
             "tier": "epic",
-            "slot": "Legs",
             "slots": [
                 "Legs"
             ],
             "slotCost": 1,
-            "roll": "d20 — 12",
-            "incomplete": [
-                "level is a stub (0); mutations carry no level",
-                "price is empty; a mutation is not bought"
-            ],
-            "inferred": [
-                "system.usage"
-            ]
+            "roll": "d20 — 12"
         }
     }
 }

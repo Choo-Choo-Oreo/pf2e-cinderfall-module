@@ -1,0 +1,75 @@
+{
+    "name": "Hindbrain Governor",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>Grafted survival-reflex tissue wired below conscious thought. You are never off-guard on the first round of an encounter and always act on a surprise round; +2 item bonus to initiative. You still have your reaction on rounds you are stunned 1 (not stunned 2 or more).</p><p><b>Donor:</b> Something that stayed alive by not thinking about it. It still flinches first and explains later.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 10
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "mk": 1000
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "initiative",
+                "type": "item",
+                "value": 2
+            }
+        ],
+        "size": "med",
+        "traits": {
+            "rarity": "rare",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "hindbrain-governor"
+    },
+    "_id": "fH2PCnDas6yUJIA5",
+    "flags": {
+        "cinderfall": {
+            "augmentKind": "biological",
+            "augmentType": "graft",
+            "tier": "rare",
+            "slots": [
+                "Neural"
+            ],
+            "slotCost": 1,
+            "grade": 3,
+            "availability": "Grafted",
+            "level": 10,
+            "load": "+1",
+            "resonance": "+3",
+            "augTags": [
+                "incl. neural +1/+1"
+            ]
+        }
+    }
+}

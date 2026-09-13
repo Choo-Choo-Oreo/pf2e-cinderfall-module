@@ -15,7 +15,23 @@
             "remaster": true,
             "title": "Cinderfall"
         },
-        "rules": [],
+        "rules": [
+            {
+                "key": "RollOption",
+                "option": "colony-bred-alone",
+                "toggleable": true,
+                "label": "No ally of your ancestry is within 30 feet"
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "will",
+                "type": "circumstance",
+                "value": -1,
+                "predicate": [
+                    "colony-bred-alone"
+                ]
+            }
+        ],
         "traits": {
             "rarity": "common",
             "value": []

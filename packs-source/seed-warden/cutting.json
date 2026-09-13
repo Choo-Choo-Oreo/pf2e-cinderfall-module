@@ -1,0 +1,63 @@
+{
+    "name": "Choose Your Cutting",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
+        "description": {
+            "value": "<p><em>Choose Your Cutting</em></p><p>Choose one: Blightline, Greenline, Turnwise.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "ChoiceSet",
+                "adjustName": false,
+                "flag": "cutting",
+                "prompt": "Choose Your Cutting",
+                "choices": {
+                    "filter": [
+                        "item:tag:seed-warden-cutting"
+                    ]
+                }
+            },
+            {
+                "key": "GrantItem",
+                "uuid": "{item|flags.system.rulesSelections.cutting}"
+            }
+        ],
+        "traits": {
+            "otherTags": [],
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "cutting"
+    },
+    "_id": "CxGb4cf6nxxTND5M",
+    "flags": {
+        "cinderfall": {
+            "subclassOf": "seed-warden",
+            "subclassLayer": "cutting",
+            "grants": [
+                "seed-warden.blightline",
+                "seed-warden.greenline",
+                "seed-warden.turnwise"
+            ]
+        }
+    }
+}

@@ -27,5 +27,10 @@
         },
         "slug": "read-the-tell"
     },
-    "_id": "nMIYAlPPyFsNGQJb"
+    "_id": "nMIYAlPPyFsNGQJb",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "+1 circumstance to attack rolls against \"that specific opponent\" for the rest of the encounter. Same unfireable dynamic-target-predicate gap as own-the-ground."
+        }
+    }
 }

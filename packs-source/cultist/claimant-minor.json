@@ -1,0 +1,46 @@
+{
+    "name": "What's Mine Stays Mine",
+    "type": "capstone",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p>A creature or object you have claimed (marked by Already Mine, Cult Sign, or a similar effect) cannot be stolen, disarmed, or forcibly separated from you while you are conscious, and you always know if someone attempts it. The Claimant's grip does not slip by accident.</p>"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "otherTags": [
+                "cultist-claimant"
+            ],
+            "value": [
+                "cultist"
+            ]
+        },
+        "slug": "claimant-minor"
+    },
+    "_id": "jOJVzbaoBs8DTRSI",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "\"A claimed creature/object can't be stolen/disarmed/forcibly separated while you're conscious, and you always know if someone tries\" -- no immunity-to-theft-of-a-marked-thing precedent found in pf2e-source within this pass's research budget.",
+            "track": "claimant"
+        }
+    }
+}

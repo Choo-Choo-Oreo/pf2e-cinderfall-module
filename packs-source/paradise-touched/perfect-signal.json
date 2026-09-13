@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "paradise-touched-sig"
+            ],
             "rarity": "common",
             "value": [
                 "paradise-touched"
@@ -33,5 +36,11 @@
         },
         "slug": "perfect-signal"
     },
-    "_id": "mfgpkeviChRY6UIv"
+    "_id": "mfgpkeviChRY6UIv",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Once/day: a failed/crit-failed Signal effect succeeds instead; still take the failure's damage and Drift. Converts a resolved degree of success into success after the fact -- the exact shape `AdjustDegreeOfSuccess` structurally cannot do post-roll (it evaluates in `beforePrepareData`, before the roll resolves) -- plus real Drift/damage numbers still apply. The class's Signal/Static core mechanic has no rule-element analog anywhere in pf2e-source: `AdjustDegreeOfSuccess` evaluates in `beforePrepareData`, before the roll resolves, so it cannot hook a GM's own secret post-roll check or show the player a value other than what was actually computed (`pf2e-source/src/module/rules/rule-element/adjust-degree-of-success.ts`); self-inflicted reactive damage/resource cost keyed to the resolving effect's own degree of success has no rule-element home; and no `Reroll` rule-element key exists anywhere in the compendium (`pf2e-source/packs/pf2e/feats/ancestry/human/level-1/courteous-comeback.json` ships `rules: []`).",
+            "track": "sig"
+        }
+    }
 }

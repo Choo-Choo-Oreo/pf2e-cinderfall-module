@@ -37,7 +37,7 @@
             }
         },
         "description": {
-            "value": "<p><em>A spirit bound into an industrial furnace, once. Then the binding failed, or was never quite finished, and something with enough coherence to want things walked out of the wreck instead of staying a tool. A body of contained fire and embers, loosely held in a scavenged husk.</em></p>"
+            "value": "<p><em>A spirit bound into an industrial furnace, once. Then the binding failed, or was never quite finished, and something with enough coherence to want things walked out of the wreck instead of staying a tool. A body of contained fire and embers, loosely held in a scavenged husk — no blood to fail, no breath to catch. A Butcher or a Fleshmancer has nothing to work with there; whatever holds an Emberforged together, it isn't organs.</em></p>"
         },
         "flaws": {
             "0": {
@@ -95,7 +95,6 @@
     "_id": "ECJFnqair7xOBcpp",
     "flags": {
         "cinderfall": {
-            "define": "Soul-Economy · Ghost-Machines",
             "bodyParts": {
                 "Ocular": 1,
                 "Arm": 1,
@@ -104,17 +103,13 @@
             "bodyWhole": {
                 "Frame": 1,
                 "Neural": 1,
-                "Circulatory": 1,
+                "Circulatory": 0,
                 "Dermal": 1,
-                "Viscera": 1
+                "Viscera": 0
             },
             "inlays": {
                 "capacity": 3
             },
-            "inferred": [
-                "bodyParts / bodyWhole / inlays counts are a generic humanoid baseline, identical on all 11 ancestries. ancestries.html states no body-part or slot count for any ancestry, so the numbers came from the conversion, not the page. The slot TERMS are authored (the Nine Slots on bio-/cyber-augmentation.html); the per-ancestry COUNTS still need a GM ruling.",
-                "unmappedBodyParts: pre-schema keys with no Nine Slots equivalent. Kept verbatim and deliberately NOT counted as slots -- the pages name no head or torso slot, and inventing one would be a design call, not a conversion."
-            ],
             "unmappedBodyParts": {
                 "heads": 1,
                 "torsos": 1

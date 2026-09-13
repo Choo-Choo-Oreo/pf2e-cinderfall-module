@@ -1,46 +1,35 @@
 {
-    "name": "Gluttoneth",
-    "type": "spell",
+    "name": "Feed the God",
+    "type": "feat",
     "img": "icons/svg/mystery-man.svg",
     "system": {
-        "area": null,
-        "cost": {
-            "value": ""
+        "actionType": {
+            "value": "passive"
         },
-        "counteraction": false,
-        "damage": {},
-        "defense": null,
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
         "description": {
-            "value": "<p>Sacrifice a fixed chunk of your own current HP (no save, no resistance applies) to empower your next Rite cast this turn: it deals maximum dice damage (or restores maximum Hit Points), and its save DC increases by 1. Gluttoneth eats first; the spell happens after.</p>"
-        },
-        "duration": {
-            "sustained": false,
-            "value": ""
+            "value": "<p>A god that arrived starving and never found anything in this dead world worth eating. It grants power freely to anyone willing to carry a little of that hunger for it — a craving that's never quite yours and never quite goes away.</p><hr /><p><strong>FEED THE GOD —</strong> sacrifice your own vitality to massively empower a Rite. Gluttoneth is always willing to take more than you meant to give.</p>"
         },
         "level": {
-            "value": 3
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
         },
         "publication": {
             "license": "ORC",
             "remaster": true,
             "title": "Cinderfall"
         },
-        "range": {
-            "value": "self"
-        },
-        "requirements": "",
         "rules": [],
-        "target": {
-            "value": ""
-        },
-        "time": {
-            "value": "1"
-        },
         "traits": {
-            "rarity": "common",
-            "traditions": [
-                "occult"
+            "otherTags": [
+                "cultist-bargain"
             ],
+            "rarity": "common",
             "value": [
                 "cultist"
             ]
@@ -50,8 +39,14 @@
     "_id": "1HRyUUs9a9gLc0sn",
     "flags": {
         "cinderfall": {
+            "incomplete": "This is one of the 7 \"Choose Your Bargain\" option cards (classfeature, otherTags:[\"cultist-bargain\"], selected by cultist.bargain's ChoiceSet). The mechanical benefit of choosing it is entirely \"you can now cast its signature Rite,\" a sibling spell card in this same folder -- granting it via a static GrantItem pointing at that slug is not resolvable by this repo's own Foundry build pipeline (tools/foundry/build_pack.py: resolve_grants only rewrites system.items slots at build time; resolve_ancestry only rewrites system.ancestry.slug). A cross-slug GrantItem.uuid inside a feat's own system.rules is exactly the already-confirmed-absent case for this pass.",
             "spellTag": "Revelation · 5th, Signature",
-            "listing": "Bargain Spells / Gluttoneth, the Ever-Fasting hunger · want · a meal that never comes"
+            "listing": "Bargain Spells / Gluttoneth, the Ever-Fasting hunger · want · a meal that never comes",
+            "subclassOf": "cultist",
+            "subclassChoice": "Choose Your Bargain",
+            "role": "Hunger · Want · A Meal That Never Comes",
+            "followUp": "signature spell 'Feed the God' is record cultist.feed-the-god; the card renders on spells-abilities.html as a spell-entry and its statline/body are authored above",
+            "subclassLayer": "bargain"
         }
     }
 }

@@ -1,0 +1,70 @@
+{
+    "name": "Grasping Vine Arm",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>A pliable woody limb grown from Seed-Warden stock. Reach 15 feet. It deals no damage, but at that reach it can Grab (Athletics vs Fortitude DC), Trip, Disarm, or Interact, and once per round it can anchor you for a 15-foot swing across a gap.</p><p><b>Rider:</b> It flowers in spring and leans toward light and open water on its own, slowly, whenever you stop paying attention to it.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 6
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "mk": 200
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "traits": {
+            "rarity": "uncommon",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "grasping-vine-arm"
+    },
+    "_id": "dyJUSgbC2C9pU944",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "A no-damage reach limb that only performs Grab/Trip/Disarm/Interact and an anchored swing doesn't fit the Strike rule element (which always grants a damaging attack) or any other rule element -- it's a bundle of maneuver permissions with a reach value, which has no generic representation outside a bespoke granted action.",
+            "augmentKind": "biological",
+            "augmentType": "graft",
+            "tier": "uncommon",
+            "slots": [
+                "Arm"
+            ],
+            "slotCost": 1,
+            "grade": 2,
+            "availability": "Wild",
+            "level": 6,
+            "load": "+2",
+            "resonance": "+3",
+            "augTags": [
+                "wild",
+                "choir"
+            ]
+        }
+    }
+}

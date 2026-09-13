@@ -1,0 +1,89 @@
+{
+    "name": "Effect: Cold Comfort",
+    "type": "effect",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "description": {
+            "value": "<p><em>Applied by <strong>Cold Comfort</strong> to the target.</em></p>\n<hr />\n<p>You touch the target and take a little of whatever was carrying it forward. It must succeed at a Will save against your class DC or take a -1 status penalty to its choice of Speed or saving throws — momentum or resolve — until the end of your next turn. On a critical failure the penalty is -1 to both.</p>"
+        },
+        "duration": {
+            "expiry": "turn-end",
+            "sustained": false,
+            "unit": "rounds",
+            "value": 1
+        },
+        "level": {
+            "value": 2
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "ChoiceSet",
+                "flag": "coldComfort",
+                "prompt": "Momentum or resolve -- the target chooses",
+                "choices": [
+                    {
+                        "label": "Speed",
+                        "value": "land-speed"
+                    },
+                    {
+                        "label": "Saving Throws",
+                        "value": "saving-throw"
+                    }
+                ]
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "{item|flags.system.rulesSelections.coldComfort}",
+                "type": "status",
+                "value": -1
+            },
+            {
+                "key": "RollOption",
+                "option": "cold-comfort-critical-failure",
+                "toggleable": true,
+                "label": "Target critically failed the Will save (apply both penalties)"
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "land-speed",
+                "type": "status",
+                "value": -1,
+                "predicate": [
+                    "cold-comfort-critical-failure"
+                ]
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "saving-throw",
+                "type": "status",
+                "value": -1,
+                "predicate": [
+                    "cold-comfort-critical-failure"
+                ]
+            }
+        ],
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "value": []
+        },
+        "slug": "cold-comfort-effect"
+    },
+    "_id": "Hw2Z70iGSJi3qAYd",
+    "flags": {
+        "cinderfall": {
+            "effectOf": "reckoner.cold-comfort",
+            "landsOn": "target"
+        }
+    }
+}

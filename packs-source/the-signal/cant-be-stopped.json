@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "the-signal-openband"
+            ],
             "rarity": "common",
             "value": [
                 "the-signal"
@@ -33,5 +36,11 @@
         },
         "slug": "cant-be-stopped"
     },
-    "_id": "QJ0qh6G7BsBeqJYO"
+    "_id": "QJ0qh6G7BsBeqJYO",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "`Immunity` only ever applies to the holder itself (P9) — no selector projects it onto other creatures from a self-held passive. Also SB3 (Broadcast has no item to gate \"while broadcasting\" against). No \"Broadcast\" stance/aura item is ever instantiated as an Item with its own system.rules anywhere in this corpus. The shape (a stance whose aura buffs allies) is real and buildable in pf2e via Aura + a companion effect item -- but no such Broadcast item exists among this class's files to attach a rule element to.",
+            "track": "openband"
+        }
+    }
 }

@@ -1,0 +1,68 @@
+{
+    "name": "Snub Revolver",
+    "type": "weapon",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "bulk": {
+            "value": 1
+        },
+        "description": {
+            "value": "<p>Six chambers, no frills, a barrel you could hide in a fist. The Slums' default answer to a bad night. Misfires on a natural 1.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 0
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "price": {
+            "value": {
+                "gp": 3
+            }
+        },
+        "ammo": {
+            "baseType": "pistol-rounds"
+        },
+        "bonus": {
+            "value": 0
+        },
+        "bonusDamage": {
+            "value": 0
+        },
+        "category": "martial",
+        "damage": {
+            "dice": 1,
+            "die": "d6",
+            "damageType": "piercing"
+        },
+        "group": "firearm",
+        "range": 20,
+        "reload": {
+            "value": 1
+        },
+        "splashDamage": {
+            "value": 0
+        },
+        "usage": {
+            "value": "held-in-one-hand"
+        },
+        "slug": "snub-revolver"
+    },
+    "_id": "2bsKz7bzx87yqukJ",
+    "flags": {
+        "cinderfall": {}
+    }
+}

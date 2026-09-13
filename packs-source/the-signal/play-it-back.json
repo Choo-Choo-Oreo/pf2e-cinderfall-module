@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "the-signal-requiem"
+            ],
             "rarity": "common",
             "value": [
                 "the-signal"
@@ -33,5 +36,11 @@
         },
         "slug": "play-it-back"
     },
-    "_id": "cyGAEA1PaSKNxSqT"
+    "_id": "cyGAEA1PaSKNxSqT",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Per P11: the only mechanical content is the Encore cost (SB1); the payload is explicitly narrative even before that blocker is reached. No SpecialResource rule element exists for Encore, this class's own resource (defined only in prose in classes.the-signal.json's terms flag). SpecialResource can model a permanent resource pool (renew: false) per pf2e-source, so this is a real gap, not a schema limitation, but nothing in the corpus fills it -- no companion class-feature/ability/effect card holds it either.",
+            "track": "requiem"
+        }
+    }
 }

@@ -1,0 +1,49 @@
+{
+    "name": "Grafter's",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
+        "description": {
+            "value": "<p>Patch-grafts, sutures, transplants performed at speed and, when needed, without consent. Keeps a party alive; keeps a captive talking.</p><hr /><p><strong>QUICK SUTURE —</strong> a fast-action healing Graft, usable on willing or unwilling targets as an opener for other tricks.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "otherTags": [
+                "fleshmancer-stock"
+            ],
+            "rarity": "common",
+            "value": [
+                "fleshmancer"
+            ]
+        },
+        "slug": "grafters"
+    },
+    "_id": "olHixzInpbWuCrs2",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Grants a new usable capability (a fast-action healing Graft usable on unwilling targets) with no stated number -- bucket 3/VAGUE combined. Same parent-underspecification flag as Butcher's: nothing here for a hypothetical child card to build on.",
+            "subclassOf": "fleshmancer",
+            "subclassChoice": "Choose Your Stock",
+            "role": "Field Surgery",
+            "subclassLayer": "stock"
+        }
+    }
+}

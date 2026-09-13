@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "cultist-ledger"
+            ],
             "rarity": "common",
             "value": [
                 "cultist",
@@ -34,5 +37,10 @@
         },
         "slug": "whisper-network"
     },
-    "_id": "lnNiMUlCzgjQuyIN"
+    "_id": "lnNiMUlCzgjQuyIN",
+    "flags": {
+        "cinderfall": {
+            "track": "ledger"
+        }
+    }
 }

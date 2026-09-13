@@ -33,5 +33,10 @@
         },
         "slug": "the-rendery-remembers"
     },
-    "_id": "7J37FBqjTqJCzEod"
+    "_id": "7J37FBqjTqJCzEod",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "BAND-GAP. Has a stated number but nothing to apply it to."
+        }
+    }
 }

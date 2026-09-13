@@ -72,7 +72,7 @@
             "statistic": "perception"
         },
         "perception": {
-            "details": "blindsight 30 ft; no vision",
+            "details": "blindsight 30 ft",
             "mod": 13,
             "senses": [
                 {
@@ -80,7 +80,8 @@
                     "acuity": "imprecise",
                     "range": 60
                 }
-            ]
+            ],
+            "vision": false
         },
         "resources": {},
         "saves": {
@@ -312,15 +313,54 @@
                 }
             },
             "type": "action"
+        },
+        {
+            "_id": "NF1dfzAAjJVE2wSq",
+            "img": "systems/pf2e/icons/default-icons/treasure.svg",
+            "name": "Silent Marrow",
+            "sort": 1500000,
+            "system": {
+                "bulk": {
+                    "value": 0
+                },
+                "category": "material",
+                "description": {
+                    "value": "<p>A shard pulled from something that isn't quite bone &mdash; silent even now, and colder than it should be.</p>"
+                },
+                "hardness": 0,
+                "hp": {
+                    "max": 0,
+                    "value": 0
+                },
+                "level": {
+                    "value": 0
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "quantity": 1,
+                "rules": [],
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                },
+                "price": {
+                    "value": {
+                        "gp": 2
+                    }
+                }
+            },
+            "type": "treasure"
         }
     ],
     "flags": {
+        "pf2e": {
+            "lootable": true
+        },
         "cinderfall": {
-            "alignment": "NE",
-            "incomplete": [
-                "perception clause not representable as a pf2e sense: 'blindsight 30 ft'",
-                "perception clause not representable as a pf2e sense: 'no vision'"
-            ]
+            "alignment": "NE"
         }
     }
 }

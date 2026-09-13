@@ -1,0 +1,43 @@
+{
+    "name": "Warren-Call",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "ancestry",
+        "description": {
+            "value": "<p>Loose an ultrasonic call: every Ratkin ally within 60 feet becomes aware of your location and general urgency through walls and around corners, and gains a bonus to their next initiative roll.</p>"
+        },
+        "level": {
+            "value": 9
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Colony Instinct"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ratkin"
+            ]
+        },
+        "slug": "warren-call"
+    },
+    "_id": "p9iCtqZefH4ZAkea",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Granting a new limited-use activated action/reaction has no rule-element hook in real pf2e -- confirmed corpus-wide this pass (Reactive Shield itself ships rules: []). and This affects another creature's own roll, HP, or condition from the card holder's passive/item, which has no rule-element hook in real pf2e. ('loose an ultrasonic call... every Ratkin ally... gains a bonus to their next initiative roll' targets other creatures from a limited-use trigger.)"
+        }
+    }
+}

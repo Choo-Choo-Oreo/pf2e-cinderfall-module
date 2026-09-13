@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "fleshmancer-butchers"
+            ],
             "rarity": "common",
             "value": [
                 "fleshmancer"
@@ -33,5 +36,11 @@
         },
         "slug": "weaponized-bloom"
     },
-    "_id": "rmHMBCrCnDlgDTMC"
+    "_id": "rmHMBCrCnDlgDTMC",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "This effect changes a different creature's own roll, HP, condition, or item, sourced from the card holder's own passive/item/action. No selector exists anywhere in pf2e-source for this -- confirmed corpus-wide this pass. This card's entire payload is a Vitae-spend/gain beyond the bare pool, a Bloom Table roll/choice, Resonance, Load, Strain, or \"Mk\" grade -- none of which has any rule-element representation anywhere in this corpus. fleshmancer.vitae-pool.json's own SpecialResource (slug: vitae, max: 10, renew: false) only declares the bare pool; its schema (value, max, itemUUID, level, renew) has no field for a per-source gain/spend/reroll/choose trigger, so every Vitae-cost/-gain clause on every other card is inert as far as system.rules is concerned, and Bloom/Resonance/Load/Strain have no representation at all. Inflicting a chosen Bloom Table result on another creature as though they'd rolled it combines both absences.",
+            "track": "butchers"
+        }
+    }
 }

@@ -15,7 +15,46 @@
             "remaster": true,
             "title": "Cinderfall"
         },
-        "rules": [],
+        "rules": [
+            {
+                "key": "RollOption",
+                "option": "choir-touched-subject",
+                "toggleable": true,
+                "label": "The subject is the Gaunt Choir"
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "religion",
+                "type": "circumstance",
+                "value": 1,
+                "predicate": [
+                    "choir-touched-subject"
+                ]
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "occultism",
+                "type": "circumstance",
+                "value": 1,
+                "predicate": [
+                    "choir-touched-subject"
+                ]
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "saving-throw",
+                "type": "circumstance",
+                "value": -1,
+                "predicate": [
+                    {
+                        "or": [
+                            "item:trait:fear",
+                            "item:trait:emotion"
+                        ]
+                    }
+                ]
+            }
+        ],
         "traits": {
             "rarity": "common",
             "value": []

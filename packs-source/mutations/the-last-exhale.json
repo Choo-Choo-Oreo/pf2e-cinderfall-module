@@ -24,7 +24,9 @@
             "type": null
         },
         "price": {
-            "value": {}
+            "value": {
+                "gp": 0
+            }
         },
         "publication": {
             "license": "ORC",
@@ -46,16 +48,10 @@
     "_id": "SxsScQuVMluS2kcv",
     "flags": {
         "cinderfall": {
+            "incomplete": "The once-per-day 'don't breathe for up to 1 hour, then heal HP equal to your level on your next breath' has no rule-element equivalent: it's a limited-use self-triggered heal with a concrete formula, which needs a granted, frequency-tracked action item, the same class of gap as Loyal-Blood/Second-Wind-Lung.",
             "mutationType": "teratoma",
             "tier": "legendary",
-            "chosen": "pick of 6",
-            "incomplete": [
-                "level is a stub (0); mutations carry no level",
-                "price is empty; a mutation is not bought"
-            ],
-            "inferred": [
-                "system.usage"
-            ]
+            "chosen": "pick of 6"
         }
     }
 }

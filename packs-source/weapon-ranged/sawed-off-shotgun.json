@@ -1,0 +1,71 @@
+{
+    "name": "Sawed-Off Shotgun",
+    "type": "weapon",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "bulk": {
+            "value": 1
+        },
+        "description": {
+            "value": "<p>A trade shotgun with the barrel and stock hacked off for a coat. Wide, mean, and useless past the length of a hallway. Misfires on a natural 1.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 0
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "scatter-5"
+            ]
+        },
+        "price": {
+            "value": {
+                "gp": 4
+            }
+        },
+        "ammo": {
+            "baseType": "shotgun-shells",
+            "capacity": 2
+        },
+        "bonus": {
+            "value": 0
+        },
+        "bonusDamage": {
+            "value": 0
+        },
+        "category": "martial",
+        "damage": {
+            "dice": 1,
+            "die": "d8",
+            "damageType": "piercing"
+        },
+        "group": "firearm",
+        "range": 10,
+        "reload": {
+            "value": 1
+        },
+        "splashDamage": {
+            "value": 0
+        },
+        "usage": {
+            "value": "held-in-one-hand"
+        },
+        "slug": "sawed-off-shotgun"
+    },
+    "_id": "44KvUkU8aJ1yjLgU",
+    "flags": {
+        "cinderfall": {}
+    }
+}

@@ -33,5 +33,10 @@
         },
         "slug": "hungry-growth"
     },
-    "_id": "xChZDaZsSyaYsJ0d"
+    "_id": "xChZDaZsSyaYsJ0d",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "P-BARE-REGAIN. The entire card is a bare HP-regain grant on a trigger; per this pass's convention that's INCOMPLETE, not SKIP, because it's the card's only content."
+        }
+    }
 }

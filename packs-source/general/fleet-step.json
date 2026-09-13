@@ -1,0 +1,38 @@
+{
+    "name": "Fleet Step",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "general",
+        "description": {
+            "value": "<p>+5 feet Speed, permanently.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "land-speed",
+                "value": 5
+            }
+        ],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "fleet-step"
+    },
+    "_id": "JYWulqNaKDtdpneG"
+}

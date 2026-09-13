@@ -1,0 +1,53 @@
+{
+    "name": "Two Barrels' Worth of Argument",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
+        "description": {
+            "value": "<span class=\"sdesc\">Swap damage type twice per day, prepped configurations switch as a single action; a secondary firing/fighting mode (bayonet spike/folding stock/choke-barrel) toggles as part of a Strike.</span>"
+        },
+        "level": {
+            "value": 5
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "system.proficiencies.attacks.widowmaker-weapon.rank",
+                "value": 2
+            }
+        ],
+        "traits": {
+            "otherTags": [],
+            "rarity": "common",
+            "value": [
+                "scrapwright"
+            ]
+        },
+        "slug": "two-barrels-worth-of-argument"
+    },
+    "_id": "basBQK6L94TwvmDk",
+    "flags": {
+        "cinderfall": {
+            "spellTag": "Mk II · 5th",
+            "ghostRigTier": "Mk II",
+            "grantedAtLevel": 5,
+            "notSpell": "scrapwright's class document carries system.spellcasting 0, so this is an ability, not a spell, and convert_class_spells.py declines it by design as a NON_CASTERS owner"
+        }
+    }
+}

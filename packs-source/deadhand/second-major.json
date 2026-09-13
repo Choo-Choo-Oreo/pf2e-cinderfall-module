@@ -1,0 +1,46 @@
+{
+    "name": "One Blade Was Always Enough",
+    "type": "capstone",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p>Against your mark your strikes score a critical hit on a natural 19 as well as a 20, and your mark cannot be healed above the total it had when the duel started. The duel ends when you decide it has ended.</p>"
+        },
+        "level": {
+            "value": 20
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "otherTags": [
+                "deadhand-second"
+            ],
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "second-major"
+    },
+    "_id": "gdVcJUTeZJ783aV2",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Crits on a natural 19 against the mark; the mark can't be healed above its duel-start total. No rule element caps healing received by a different creature, and no companion effect exists to carry it -- compounded by the confirmed-unfireable mark predicate.",
+            "track": "second"
+        }
+    }
+}

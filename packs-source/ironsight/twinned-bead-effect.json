@@ -1,0 +1,51 @@
+{
+    "name": "Effect: Twinned Bead",
+    "type": "effect",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "description": {
+            "value": "<p><em>Applied by <strong>Twinned Bead</strong> to the character who used it.</em></p>\n<hr />\n<p><strong>Trigger</strong> your first pistol hits</p><p><strong>Effect</strong> +1 circumstance bonus to your next attack this turn</p><hr /><p>Take aim down both barrels at once as a single stance-like action; the moment your first pistol connects, the second's hand tightens on nothing but instinct.</p>"
+        },
+        "duration": {
+            "expiry": "turn-end",
+            "sustained": false,
+            "unit": "rounds",
+            "value": 1
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "attack",
+                "type": "circumstance",
+                "value": 1,
+                "removeAfterRoll": true
+            }
+        ],
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "value": []
+        },
+        "slug": "twinned-bead-effect"
+    },
+    "_id": "EiUaS56svPufJa6R",
+    "flags": {
+        "cinderfall": {
+            "effectOf": "ironsight.twinned-bead",
+            "landsOn": "self"
+        }
+    }
+}

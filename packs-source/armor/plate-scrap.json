@@ -33,13 +33,13 @@
                 "gp": 4
             }
         },
-        "acBonus": 0,
+        "acBonus": 3,
         "category": "medium",
-        "checkPenalty": 0,
-        "dexCap": 0,
-        "group": null,
-        "speedPenalty": 0,
-        "strength": 0,
+        "checkPenalty": -2,
+        "dexCap": 2,
+        "group": "leather",
+        "speedPenalty": -5,
+        "strength": 2,
         "usage": {
             "value": "wornarmor"
         },
@@ -47,12 +47,6 @@
     },
     "_id": "iQhbfdQlsV76hOeL",
     "flags": {
-        "cinderfall": {
-            "incomplete": [
-                "level is a stub (0); the page carries no item levels",
-                "armor acBonus/dexCap/checkPenalty/speedPenalty/strength/group all stubbed -- the page posts no AC, no Dex Cap and no penalties"
-            ],
-            "currency": "Balanced to the PF2e GP standard and denominated in Credits: 1 Credit = 1 gp. The whole list was scaled x10 from the retired scraps=sp anchor, so every relative price is unchanged from the page as authored."
-        }
+        "cinderfall": {}
     }
 }

@@ -24,7 +24,26 @@
             "remaster": true,
             "title": "Cinderfall"
         },
-        "rules": [],
+        "rules": [
+            {
+                "key": "SpecialResource",
+                "slug": "cinders",
+                "max": "ternary(gte(@actor.level,17),5,ternary(gte(@actor.level,11),4,3))",
+                "renew": false,
+                "predicate": [
+                    "vigil-path:choir-of-ash"
+                ]
+            },
+            {
+                "key": "SpecialResource",
+                "slug": "grace",
+                "max": "ternary(gte(@actor.level,17),5,ternary(gte(@actor.level,11),4,3))",
+                "renew": false,
+                "predicate": [
+                    "vigil-path:unanswered"
+                ]
+            }
+        ],
         "traits": {
             "rarity": "common",
             "value": [

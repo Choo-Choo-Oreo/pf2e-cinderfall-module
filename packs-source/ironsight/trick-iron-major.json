@@ -1,0 +1,46 @@
+{
+    "name": "The Gun Was Never the Point",
+    "type": "capstone",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p>Somewhere along the way the guns stopped mattering and you kept winning anyway. A pipe gun off a corpse, a nail driver, a tube and a spring and a bad idea — in your hands they do what an Old World rifle does, because the thing that was ever doing the work was you. The dice that ruin everyone else are your supply line. You are the only person in the wasteland who gets stronger when the world stops cooperating.</p>"
+        },
+        "level": {
+            "value": 20
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "otherTags": [
+                "ironsight-trick-iron"
+            ],
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "trick-iron-major"
+    },
+    "_id": "YuFranxDhVDaGot6",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Zero-number flavor text for a Draw's Minor/Major Capstone grant point named in classes.ironsight.json's own progression table. States no number, DC, duration, or selector of any kind -- a real content gap, not a search failure.",
+            "track": "trick-iron"
+        }
+    }
+}

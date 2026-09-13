@@ -1,0 +1,41 @@
+{
+    "name": "Old World Archivist",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "skill",
+        "description": {
+            "value": "<p>Pre-Cinder records are half-burned and half-lied about, but you know which half to trust. You gain a +2 circumstance bonus to Decipher Writing or Recall Knowledge checks made using surviving pre-Turning records and archives.</p>"
+        },
+        "level": {
+            "value": 6
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Expert in Society"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "old-world-archivist"
+    },
+    "_id": "xtJrSDpi7bdOk4Sh",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The +2 is conditioned on the source material used ('surviving pre-Turning records and archives'), not a target creature's trait -- there is no roll option for what reference material a check is made with."
+        }
+    }
+}

@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "flavored"
+            ],
             "rarity": "common",
             "value": [
                 "deadhand"
@@ -33,5 +36,11 @@
         },
         "slug": "cadre-ascendant"
     },
-    "_id": "PgOi0nJcDUuxBzyi"
+    "_id": "PgOi0nJcDUuxBzyi",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Lets called commands that target one ally target two instead. The base \"called command\" mechanic itself has no rule-element footprint anywhere in this corpus (it ships purely through description, per the class-wide ACTIONCONV convention) -- there is nothing here for a doubling modifier to hook into.",
+            "flavored": true
+        }
+    }
 }

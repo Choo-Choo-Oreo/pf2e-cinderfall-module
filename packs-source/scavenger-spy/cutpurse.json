@@ -1,0 +1,48 @@
+{
+    "name": "Cutpurse",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
+        "description": {
+            "value": "<p>Product moves through your hands and nobody at either end quite remembers what it looked like. Finesse weapons, faster fingers, a talent for making things not be where they used to be.</p><hr /><p><strong>SIGNATURE —</strong> pick a pocket, a lock, or a checkpoint with the same technique and the same confidence.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "otherTags": [
+                "scavenger-spy-angle"
+            ],
+            "rarity": "common",
+            "value": [
+                "scavenger-spy"
+            ]
+        },
+        "slug": "cutpurse"
+    },
+    "_id": "KOPudYRJ4g7lPndM",
+    "flags": {
+        "cinderfall": {
+            "subclassOf": "scavenger-spy",
+            "subclassChoice": "Choose Your Angle",
+            "role": "Dexterity · Smuggling &amp; Theft",
+            "subclassLayer": "angle"
+        }
+    }
+}

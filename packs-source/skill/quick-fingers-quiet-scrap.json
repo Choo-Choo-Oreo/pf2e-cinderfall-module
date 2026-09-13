@@ -1,0 +1,37 @@
+{
+    "name": "Quick Fingers, Quiet Scrap",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "skill",
+        "description": {
+            "value": "<p>You've learned to lift a ration card or a spare part without the mark ever hearing the click. You gain a +1 circumstance bonus to Steal an item that weighs light Bulk or less.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "quick-fingers-quiet-scrap"
+    },
+    "_id": "vTahh0rqiadX6ZZH",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The +1 Steal bonus is conditioned on the target item weighing 'light Bulk or less' -- no confirmed item-Bulk-category predicate exists for a Steal check to read against an arbitrary target item."
+        }
+    }
+}

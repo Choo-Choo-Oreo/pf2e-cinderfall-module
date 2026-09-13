@@ -1,0 +1,46 @@
+{
+    "name": "The Wait Doesn't Cost You",
+    "type": "capstone",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p>You are immune to the slowed condition from your own Someday feats and Rites. Once per day, you may ignore a single instance of the slowed or stunned condition entirely, as though it had never applied. The Someday postpones plenty. It never postpones you.</p>"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "otherTags": [
+                "cultist-someday"
+            ],
+            "value": [
+                "cultist"
+            ]
+        },
+        "slug": "someday-minor"
+    },
+    "_id": "i7JltvSYuVA9cbMj",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Both clauses fail despite looking REAL-shaped at first glance. \"Immune to the slowed condition from your OWN Someday feats and Rites\" is scoped narrower than blanket immunity (unlike absolute-certainty/beyond-doubt's stated blanket immunities) -- an unscoped Immunity would over-grant immunity to slowed from every source, a 'convert, never flatten' violation, and no predicate token exists for \"this condition's origin is one of my own items.\" \"Once per day, ignore a single instance of slowed or stunned entirely, as though it never applied\" is P-DEGREE-REACTIVE: applied after the condition is already in effect, at player discretion, once per day -- the same after-the-fact-manufacture shape as beyond-doubt, not the unconditional-passive shape there-is-no-doubt uses.",
+            "track": "someday"
+        }
+    }
+}

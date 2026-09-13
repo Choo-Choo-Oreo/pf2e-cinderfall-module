@@ -27,5 +27,10 @@
         },
         "slug": "redline-immovable"
     },
-    "_id": "Gp1PVL75jYAkBXlY"
+    "_id": "Gp1PVL75jYAkBXlY",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Automatically succeed against forced-movement/knockdown effects for 1 round. The effect-shape alone would match real Immovable Object precedent (pf2e-source/packs/pf2e/feats/archetype/eternal-legend/immovable-object.json, rules: []), but this card is an explicit Redline expenditure -- Deadhand's Tally/Redline mechanic is entirely homebrew with zero schema footprint, which blocks the trigger mechanism regardless of whether the effect itself could be built."
+        }
+    }
 }

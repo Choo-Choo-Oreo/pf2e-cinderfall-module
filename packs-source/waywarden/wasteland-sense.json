@@ -24,7 +24,23 @@
             "remaster": true,
             "title": "Cinderfall"
         },
-        "rules": [],
+        "rules": [
+            {
+                "key": "RollOption",
+                "option": "waywarden-irradiated-terrain",
+                "toggleable": true,
+                "label": "In irradiated or heavily corrupted terrain"
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "initiative",
+                "type": "circumstance",
+                "value": 2,
+                "predicate": [
+                    "waywarden-irradiated-terrain"
+                ]
+            }
+        ],
         "traits": {
             "rarity": "common",
             "value": [
@@ -33,5 +49,10 @@
         },
         "slug": "wasteland-sense"
     },
-    "_id": "dW1VQT1hr09Rd33d"
+    "_id": "dW1VQT1hr09Rd33d",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Requires irradiated/heavily corrupted terrain: +2 circumstance to initiative (built above via a player-toggled RollOption feeding a predicated FlatModifier, matching real pf2e's Twitchy, pf2e-source/packs/pf2e/feats/ancestry/goblin/level-1/twitchy.json:28-57 -- a player-toggled flag standing in for a GM-judged situational fact). The second clause, \"can't be surprised by a creature native to or long resident in that terrain,\" is NOT built: no rule element gates surprise/being-unable-to-be-surprised by an enemy's origin/residency; PF2e's surprise mechanic isn't exposed to system.rules at that granularity."
+        }
+    }
 }

@@ -1,0 +1,81 @@
+{
+    "name": "Sealed Core",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>Hermetic viscera. Immune to disease, poison, and radiation. No need to eat, drink, or breathe. Organ-targeting crit specialties fail.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 14
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "gp": 5000
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "Immunity",
+                "type": "disease"
+            },
+            {
+                "key": "Immunity",
+                "type": "poison"
+            },
+            {
+                "key": "Immunity",
+                "type": "radiation"
+            }
+        ],
+        "size": "med",
+        "traits": {
+            "rarity": "epic",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "sealed-core"
+    },
+    "_id": "9hqTHtEuFbYwan2g",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "'No need to eat, drink, or breathe' has no clock mechanism to cancel (confirmed absence, same as every other clause of this shape in this pass). 'Organ-targeting crit specialties fail' has no hook: no rule element negates a specific weapon's critical specialization effect conditioned on the defender's traits.",
+            "augmentKind": "cybernetic",
+            "augmentType": "implant",
+            "tier": "epic",
+            "slots": [
+                "Viscera"
+            ],
+            "slotCost": 1,
+            "grade": 4,
+            "availability": "Restricted",
+            "level": 14,
+            "drift": "+3",
+            "augTags": [
+                "apex"
+            ]
+        }
+    }
+}

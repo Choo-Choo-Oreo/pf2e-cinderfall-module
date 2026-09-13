@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "the-signal-requiem"
+            ],
             "rarity": "common",
             "value": [
                 "the-signal"
@@ -33,5 +36,11 @@
         },
         "slug": "the-long-tape"
     },
-    "_id": "E7BnOasMwoISsJyM"
+    "_id": "E7BnOasMwoISsJyM",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "SB1 (cost) and bucket 4 (spending your own resource to buff a third party's imminent roll). Per P13, the number itself is trivially real (`recovery-check` is a live selector) — the entire blocker is delivery, not the shape of the bonus.",
+            "track": "requiem"
+        }
+    }
 }

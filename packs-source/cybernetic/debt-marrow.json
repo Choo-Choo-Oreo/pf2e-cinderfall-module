@@ -1,0 +1,74 @@
+{
+    "name": "Debt Marrow",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>Nanite-seeded marrow, financed like everything else in Cyber City: on a loan, with you as collateral. Fast Healing 4. Once per day, 1 action: double it to Fast Healing 8 for 1 minute — but activating it costs a tracked installment (GM-tracked debt: favors, jobs, or credit) to whoever's still owed.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 14
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "gp": 5000
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "FastHealing",
+                "type": "fast-healing",
+                "value": 4
+            }
+        ],
+        "size": "med",
+        "traits": {
+            "rarity": "epic",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "debt-marrow"
+    },
+    "_id": "fJkkmiViPVm0Yv7e",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Doubling to Fast Healing 8 for 1 minute once per day, at the cost of a GM-tracked debt, has no hook: it's a limited-use activated upgrade to an existing passive value, which needs a granted Action item and a linked effect, not a standing rule element; the debt itself is a Cinderfall-homebrew resource with no schema representation.",
+            "augmentKind": "cybernetic",
+            "augmentType": "implant",
+            "tier": "epic",
+            "slots": [
+                "Circulatory"
+            ],
+            "slotCost": 1,
+            "grade": 4,
+            "availability": "Black Market",
+            "level": 14,
+            "drift": "+5",
+            "augTags": [
+                "apex"
+            ]
+        }
+    }
+}

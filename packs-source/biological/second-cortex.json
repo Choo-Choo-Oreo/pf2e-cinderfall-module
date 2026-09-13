@@ -1,0 +1,75 @@
+{
+    "name": "Second Cortex",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>A grafted partial second brain, threaded alongside your own. +2 item bonus to Will saves. At the start of your turn you can attempt a DC 11 flat check to end one ongoing mental effect on you (once per effect).</p><p><b>Donor:</b> Two minds share the skull now. The donor was someone; at Resonance 6+ they get opinions.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 11
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "mk": 1500
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "will",
+                "type": "item",
+                "value": 2
+            }
+        ],
+        "size": "med",
+        "traits": {
+            "rarity": "rare",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "second-cortex"
+    },
+    "_id": "07Ga0uy9VfY5ZoSK",
+    "flags": {
+        "cinderfall": {
+            "augmentKind": "biological",
+            "augmentType": "graft",
+            "tier": "rare",
+            "slots": [
+                "Neural"
+            ],
+            "slotCost": 1,
+            "grade": 3,
+            "availability": "Grafted",
+            "level": 11,
+            "load": "+1",
+            "resonance": "+3",
+            "augTags": [
+                "incl. neural +1/+1"
+            ]
+        }
+    }
+}

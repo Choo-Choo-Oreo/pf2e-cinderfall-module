@@ -34,7 +34,23 @@
             "value": "30 feet"
         },
         "requirements": "",
-        "rules": [],
+        "rules": [
+            {
+                "key": "RollOption",
+                "option": "push-signal",
+                "toggleable": true,
+                "label": "Declaring this cast of Push as Signal"
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "spell-dc",
+                "type": "circumstance",
+                "value": 2,
+                "predicate": [
+                    "push-signal"
+                ]
+            }
+        ],
         "target": {
             "value": "1 creature"
         },
@@ -54,6 +70,7 @@
     "_id": "eV28JUMv2i2qZy1P",
     "flags": {
         "cinderfall": {
+            "incomplete": "Unbuildable: the stupefied-1/forced-action/off-guard target conditions are applied manually via the normal condition-link convention (matching `slow.json`), out of scope for `system.rules`; the universal Signal-failure penalty (self-inflicted force damage + a Drift point on a failed check) is not modeled, since the class's Signal/Static mechanic has no rule-element analog anywhere in pf2e-source and the Signal Drift track has no counter representation.",
             "spellTag": "1st · 1 Bandwidth",
             "listing": "Glimpses / The Chorus the merged minds, still talking"
         }

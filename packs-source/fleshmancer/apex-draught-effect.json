@@ -1,0 +1,56 @@
+{
+    "name": "Effect: Apex Draught",
+    "type": "effect",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "description": {
+            "value": "<p><em>Applied by <strong>Apex Draught</strong> to the character who used it.</em></p>\n<hr />\n<p>For 1 minute, +3 status bonus to melee damage, +10 feet status bonus to Speed, and a grown natural claw (1d8 slashing) that sloughs off once the graft ends.</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "minutes",
+            "value": 1
+        },
+        "level": {
+            "value": 5
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "melee-strike-damage",
+                "type": "status",
+                "value": 3
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "land-speed",
+                "type": "status",
+                "value": 10
+            }
+        ],
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "value": []
+        },
+        "slug": "apex-draught-effect"
+    },
+    "_id": "YUiz0N8FgGOAOtj8",
+    "flags": {
+        "cinderfall": {
+            "effectOf": "fleshmancer.apex-draught",
+            "landsOn": "self"
+        }
+    }
+}

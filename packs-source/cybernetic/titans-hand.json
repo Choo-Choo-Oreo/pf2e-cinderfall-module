@@ -1,0 +1,91 @@
+{
+    "name": "Titan's Hand",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>Gargantuan-scale manipulator. Strike: 2d12 bludgeoning, reach, shove, forceful. Count as two sizes larger for Grapple/Shove/Trip and lifting with this arm; wield two-handed weapons one-handed in it.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 17
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "gp": 20000
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "Strike",
+                "slug": "titans-hand",
+                "label": "Titan's Hand",
+                "category": "unarmed",
+                "group": "brawling",
+                "img": "systems/pf2e/icons/unarmed-attacks/fist.webp",
+                "range": null,
+                "traits": [
+                    "unarmed",
+                    "reach",
+                    "forceful"
+                ],
+                "damage": {
+                    "base": {
+                        "damageType": "bludgeoning",
+                        "dice": 2,
+                        "die": "d12"
+                    }
+                }
+            }
+        ],
+        "size": "med",
+        "traits": {
+            "rarity": "legendary",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "titans-hand"
+    },
+    "_id": "XUEcyFQEp7c5KgYO",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Counting as two sizes larger for Grapple/Shove/Trip/lifting with this arm, and wielding two-handed weapons one-handed in it, both have no rule-element hook: pf2e's size-based maneuver math and two-handed-weapon requirements are derived from the actor's actual size/hands, and no rule element overrides either conditioned on 'this one specific limb.'",
+            "augmentKind": "cybernetic",
+            "augmentType": "implant",
+            "tier": "legendary",
+            "slots": [
+                "Arm"
+            ],
+            "slotCost": 1,
+            "grade": 5,
+            "availability": "Restricted",
+            "level": 17,
+            "drift": "+4",
+            "augTags": [
+                "apex",
+                "weapon"
+            ]
+        }
+    }
+}

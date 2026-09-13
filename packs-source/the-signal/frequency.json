@@ -1,0 +1,63 @@
+{
+    "name": "Choose Your Frequency",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
+        "description": {
+            "value": "<p><em>Choose Your Frequency</em></p><p>Choose one: Numbers, Open Band, Requiem.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "ChoiceSet",
+                "adjustName": false,
+                "flag": "frequency",
+                "prompt": "Choose Your Frequency",
+                "choices": {
+                    "filter": [
+                        "item:tag:the-signal-frequency"
+                    ]
+                }
+            },
+            {
+                "key": "GrantItem",
+                "uuid": "{item|flags.system.rulesSelections.frequency}"
+            }
+        ],
+        "traits": {
+            "otherTags": [],
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "frequency"
+    },
+    "_id": "9jUvMjTpmk0hN3Cx",
+    "flags": {
+        "cinderfall": {
+            "subclassOf": "the-signal",
+            "subclassLayer": "frequency",
+            "grants": [
+                "the-signal.numbers-track",
+                "the-signal.open-band-track",
+                "the-signal.requiem-track"
+            ]
+        }
+    }
+}

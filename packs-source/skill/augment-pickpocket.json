@@ -1,0 +1,41 @@
+{
+    "name": "Augment Pickpocket",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "skill",
+        "description": {
+            "value": "<p>You know exactly where a cybernetic limb's release catch hides under the skin graft. You can attempt to Steal a mounted or holstered augment component from a creature as though it were a carried item, at a -2 circumstance penalty to the check.</p>"
+        },
+        "level": {
+            "value": 8
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Expert in Thievery"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "augment-pickpocket"
+    },
+    "_id": "gfx76Ri2GEKwWVQc",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "This unlocks a new legal target for Steal (an installed/holstered augment) rather than modifying a check already being made against an existing target -- no rule element changes what counts as a valid Steal target."
+        }
+    }
+}

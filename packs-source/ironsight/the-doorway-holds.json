@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "ironsight-close-iron"
+            ],
             "rarity": "common",
             "value": [
                 "ironsight"
@@ -33,5 +36,11 @@
         },
         "slug": "the-doorway-holds"
     },
-    "_id": "RbZClhPceKLNPmGN"
+    "_id": "RbZClhPceKLNPmGN",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The flat half-level physical Resistance clause matches a real pf2e shape (Resistance with a level-based formula value, precedented by Barbarian's Scars of Steel, pf2e-source/packs/pf2e/feats/class/barbarian/level-4/scars-of-steel.json: \"floor(@actor.level/2)+@actor.abilities.con.mod\"), but this card's own text restricts it to \"against attacks from adjacent creatures\" specifically, and no predicate anywhere in pf2e-source scopes a Resistance rule element to \"the attacker is adjacent to the defender\" (checked exhaustively, same search as the [COVER] and adjacency checks run elsewhere in this class). Building it unconditionally would misrepresent the card as blanket physical resistance rather than the narrower adjacency-gated version it actually is, so it is not built. The \"any creature ending its turn adjacent to you is off-guard against your next Strike\" clause is separately unbuildable: it imposes a condition on a different creature from the actor's own passive, with no companion Effect item here to carry it.",
+            "track": "close-iron"
+        }
+    }
 }

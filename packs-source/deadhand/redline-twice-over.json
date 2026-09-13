@@ -33,5 +33,10 @@
         },
         "slug": "redline-twice-over"
     },
-    "_id": "mbBXTOnOSHOi5xhK"
+    "_id": "mbBXTOnOSHOi5xhK",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "May spend two Redlines in one turn; the second is never clean and rolls its Slip immediately. Deadhand's Redline/Slip mechanic is entirely homebrew with zero schema footprint anywhere in this corpus."
+        }
+    }
 }

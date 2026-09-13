@@ -1,0 +1,75 @@
+{
+    "name": "Scent-Gland",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>A cultured gland at the base of the skull. You can lay a scent trail only another scent-tracker can follow, and read one. +1 item bonus to Survival to Track and to Follow the Expert when the expert is tracking.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 2
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "mk": 35
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "survival",
+                "type": "item",
+                "value": 1,
+                "predicate": [
+                    "action:track"
+                ]
+            }
+        ],
+        "size": "med",
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "scent-gland"
+    },
+    "_id": "3I2ZFlpb3P7itpx2",
+    "flags": {
+        "cinderfall": {
+            "augmentKind": "biological",
+            "augmentType": "graft",
+            "tier": "common",
+            "slots": [
+                "Inlays"
+            ],
+            "slotCost": 1,
+            "grade": 1,
+            "availability": "Cultured",
+            "level": 2,
+            "load": "+0",
+            "resonance": "+0"
+        }
+    }
+}

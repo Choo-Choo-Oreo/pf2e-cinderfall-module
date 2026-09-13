@@ -35,5 +35,10 @@
         },
         "slug": "chosen-draw"
     },
-    "_id": "tTu4X3giS4KfZKyd"
+    "_id": "tTu4X3giS4KfZKyd",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Committing to a Draw only unlocks eligibility for later feat picks (Advanced Iron) -- it does not itself grant any of the Draw's classfeature benefits (the card is explicit that those stay the class's own). A ChoiceSet could record the choice as a flag, but no other card's ChoiceSet filter can read a sibling item's flags.system.rulesSelections at selection time (filters query compendium traits/tags on candidate items, not flags set by a different item on the same actor), so recording the choice would have zero mechanical effect on which feats Advanced Iron can later offer -- a rule element here would be semantically null."
+        }
+    }
 }

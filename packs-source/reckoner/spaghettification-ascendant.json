@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "flavored"
+            ],
             "rarity": "common",
             "value": [
                 "reckoner"
@@ -33,5 +36,11 @@
         },
         "slug": "spaghettification-ascendant"
     },
-    "_id": "WxLgBl6TRJTpO8HY"
+    "_id": "WxLgBl6TRJTpO8HY",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Modifies THE STRETCH's per-round scaling when stacked with another sustained Aspect signature -- THE STRETCH's own sustained/escalating value is correctly a standard-condition badge (PAT-COND, no change needed there), but the stacking-detection clause ('another sustained Aspect signature is also active on this target') has no roll-option equivalent.",
+            "flavored": true
+        }
+    }
 }

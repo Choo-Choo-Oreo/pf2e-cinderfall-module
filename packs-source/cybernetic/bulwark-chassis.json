@@ -1,0 +1,74 @@
+{
+    "name": "Bulwark Chassis",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>Fortress skeleton. +2 item bonus to AC. Resistance 8 to bludgeoning. Can't be moved against your will by anything short of a spell or a creature two sizes larger.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 17
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "gp": 20000
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "ac",
+                "type": "item",
+                "value": 2
+            }
+        ],
+        "size": "med",
+        "traits": {
+            "rarity": "legendary",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "bulwark-chassis"
+    },
+    "_id": "c5TqqylNATfmOyN6",
+    "flags": {
+        "cinderfall": {
+            "augmentKind": "cybernetic",
+            "augmentType": "implant",
+            "tier": "legendary",
+            "slots": [
+                "Frame"
+            ],
+            "slotCost": 1,
+            "grade": 5,
+            "availability": "Restricted",
+            "level": 17,
+            "drift": "+3",
+            "augTags": [
+                "apex"
+            ]
+        }
+    }
+}

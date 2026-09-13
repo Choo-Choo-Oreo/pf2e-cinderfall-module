@@ -27,5 +27,10 @@
         },
         "slug": "muscle-memory-the-guard-never-drops"
     },
-    "_id": "EokRMbu3myWlN7aU"
+    "_id": "EokRMbu3myWlN7aU",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "\"Routine [X] no longer requires a check below DC 20\" -- same Muscle Memory family gap as muscle-memory-the-company-knows-the-drill. No rule-element key auto-succeeds a check below a stated DC."
+        }
+    }
 }

@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "deadhand-bulwark"
+            ],
             "rarity": "common",
             "value": [
                 "deadhand"
@@ -33,5 +36,11 @@
         },
         "slug": "the-door-holds"
     },
-    "_id": "4fOPDF1jnXYIY635"
+    "_id": "4fOPDF1jnXYIY635",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Enemies can't move through a chosen chokepoint while the caster holds it, except through the caster's own space (gated by an Athletics check vs. Class DC); much-larger creatures ignore this. No selector blocks a different creature's own movement through a space, and the Athletics-vs-Class-DC gate is a narrative check with no rule-element hook either.",
+            "track": "bulwark"
+        }
+    }
 }

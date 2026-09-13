@@ -33,5 +33,10 @@
         },
         "slug": "every-gun-in-the-wasteland"
     },
-    "_id": "M5VWwU3YY53qUfqt"
+    "_id": "M5VWwU3YY53qUfqt",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "(Failure Range) + bucket 6 (GM's-call substitution clause, no closed rule). This effect is defined entirely in terms of a Cinderfall-homebrew subsystem with zero Foundry schema footprint (the Gun Failure Table/Failure Range, hazardous ground, time-in-sights, Trick Iron charge bank, or Drift/augment-slot cost). Confirmed via the full rule-element type listing (pf2e-source/src/module/rules/rule-element/, 40 files): no RollTable-manipulation, no persistent-terrain-hazard, and no arbitrary stacking-counter rule element type exists to hook any of these to."
+        }
+    }
 }

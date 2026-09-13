@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "deadhand-cadre"
+            ],
             "rarity": "common",
             "value": [
                 "deadhand"
@@ -33,5 +36,10 @@
         },
         "slug": "nobody-freezes"
     },
-    "_id": "e7EI3X5FO78DUKFz"
+    "_id": "e7EI3X5FO78DUKFz",
+    "flags": {
+        "cinderfall": {
+            "track": "cadre"
+        }
+    }
 }

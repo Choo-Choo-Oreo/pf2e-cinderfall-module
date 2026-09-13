@@ -1,0 +1,50 @@
+{
+    "name": "Effect: Hold and Give Way",
+    "type": "effect",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "description": {
+            "value": "<p><em>Applied by <strong>Hold and Give Way</strong> to each affected ally.</em></p>\n<hr />\n<p>Choose up to four allies who can hear and understand you and split them into two groups. Until the start of your next turn, one group gains a +1 circumstance bonus to AC and cannot be moved against their will by any effect of your level or lower; the other group gains a +10-foot status bonus to all Speeds. You choose which group is which when you give the order.</p>"
+        },
+        "duration": {
+            "expiry": "turn-end",
+            "sustained": false,
+            "unit": "rounds",
+            "value": 1
+        },
+        "level": {
+            "value": 6
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "ac",
+                "type": "circumstance",
+                "value": 1
+            }
+        ],
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "value": []
+        },
+        "slug": "hold-and-give-way-effect"
+    },
+    "_id": "VJvmnLJXwfrBX4v0",
+    "flags": {
+        "cinderfall": {
+            "effectOf": "deadhand.hold-and-give-way",
+            "landsOn": "ally"
+        }
+    }
+}

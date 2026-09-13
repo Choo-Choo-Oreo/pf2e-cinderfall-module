@@ -24,7 +24,9 @@
             "type": null
         },
         "price": {
-            "value": {}
+            "value": {
+                "gp": 0
+            }
         },
         "publication": {
             "license": "ORC",
@@ -32,7 +34,47 @@
             "title": "Cinderfall"
         },
         "quantity": 1,
-        "rules": [],
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "athletics",
+                "type": "circumstance",
+                "value": 1,
+                "predicate": [
+                    {
+                        "or": [
+                            "action:shove",
+                            "action:trip",
+                            "action:reposition"
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "acrobatics",
+                "type": "circumstance",
+                "value": 1,
+                "predicate": [
+                    {
+                        "or": [
+                            "action:shove",
+                            "action:trip",
+                            "action:reposition"
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "athletics",
+                "type": "circumstance",
+                "value": -2,
+                "predicate": [
+                    "action:swim"
+                ]
+            }
+        ],
         "size": "med",
         "traits": {
             "rarity": "common",
@@ -48,19 +90,11 @@
         "cinderfall": {
             "mutationType": "minor",
             "tier": "common",
-            "slot": "Legs",
             "slots": [
                 "Legs"
             ],
             "slotCost": 1,
-            "roll": "d100 — 15–16",
-            "incomplete": [
-                "level is a stub (0); mutations carry no level",
-                "price is empty; a mutation is not bought"
-            ],
-            "inferred": [
-                "system.usage"
-            ]
+            "roll": "d100 — 15–16"
         }
     }
 }

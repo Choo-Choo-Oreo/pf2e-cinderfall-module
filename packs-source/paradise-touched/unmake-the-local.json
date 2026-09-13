@@ -49,6 +49,7 @@
     "_id": "QCXruSwXieoYEShb",
     "flags": {
         "cinderfall": {
+            "incomplete": "Target unattended object/structure up to 10 ft/side stops existing (Signal: up to 20 ft/side). The area-size increase gates a targeting restriction (what the spell may legally target), not a roll modifier; `ItemAlteration`'s `area-size` property exists but is meant for permanent item-level alterations (e.g. heightened scrolls), not a per-cast conditional relaxation of a target-size cap -- no clean predicate-gated mechanism found for this specific shape.",
             "spellTag": "7th · 2 Bandwidth",
             "listing": "Glimpses / The Render Paradise building the world it wants"
         }

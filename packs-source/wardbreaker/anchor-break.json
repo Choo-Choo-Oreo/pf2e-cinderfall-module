@@ -33,5 +33,10 @@
         },
         "slug": "anchor-break"
     },
-    "_id": "RQLQLrlfr3viC9uh"
+    "_id": "RQLQLrlfr3viC9uh",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "This affects another creature's own roll, HP, item, or condition from the card holder's self-held passive/item, which has no rule-element hook in real pf2e. Specifically: redirecting a self-held reaction's effect to disable a specific bio-augment the target creature possesses, chosen by the wardbreaker's own trigger condition -- no selector exists in pf2e for disabling/altering an item a different creature is wearing or carrying from a self-held ability."
+        }
+    }
 }

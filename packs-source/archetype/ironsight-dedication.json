@@ -25,7 +25,29 @@
             "remaster": true,
             "title": "Cinderfall"
         },
-        "rules": [],
+        "rules": [
+            {
+                "key": "ChoiceSet",
+                "flag": "ironsightDedicationIron",
+                "prompt": "Name Your Iron",
+                "choices": {
+                    "ownedItems": true,
+                    "types": [
+                        "weapon"
+                    ]
+                }
+            },
+            {
+                "key": "MartialProficiency",
+                "kind": "attack",
+                "slug": "ironsight-dedication-iron",
+                "label": "Iron",
+                "definition": [
+                    "item:id:{item|flags.system.rulesSelections.ironsightDedicationIron}"
+                ],
+                "value": 1
+            }
+        ],
         "traits": {
             "rarity": "common",
             "value": [
@@ -36,5 +58,10 @@
         },
         "slug": "ironsight-dedication"
     },
-    "_id": "VLTIWb1B9zZJ928P"
+    "_id": "VLTIWb1B9zZJ928P",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Naming a firearm as your Iron and becoming trained in it is implemented (same ChoiceSet+MartialProficiency shape already used by this corpus's own Scrapwright 'One Gun, Many Grudges'). The d6-vs-d8 Gun Failure die override for that one weapon has no engine hook: Gun Failure is Cinderfall's own subsystem with no rule-element representation, so neither the die-size change nor withholding the rest of the real feat's benefit can be expressed."
+        }
+    }
 }

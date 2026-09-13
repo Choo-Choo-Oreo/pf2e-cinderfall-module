@@ -33,5 +33,10 @@
         },
         "slug": "voice-that-carries"
     },
-    "_id": "nKM3FrrA19uY1DOC"
+    "_id": "nKM3FrrA19uY1DOC",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Bucket 5/novel-shape check performed: this modifies another ability's targeting scope, not a derived stat or a check outcome -- no rule element in pf2e-source alters how many targets an already-defined action can affect. Confirmed absent."
+        }
+    }
 }

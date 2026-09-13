@@ -33,5 +33,10 @@
         },
         "slug": "split-system-endurance"
     },
-    "_id": "fnUaUCjufi0iLa45"
+    "_id": "fnUaUCjufi0iLa45",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "BAND-GAP."
+        }
+    }
 }

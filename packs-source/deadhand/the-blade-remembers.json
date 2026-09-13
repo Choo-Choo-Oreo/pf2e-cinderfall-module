@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "deadhand-second"
+            ],
             "rarity": "common",
             "value": [
                 "deadhand"
@@ -33,5 +36,11 @@
         },
         "slug": "the-blade-remembers"
     },
-    "_id": "hNyXWLdr4NWWHjCf"
+    "_id": "hNyXWLdr4NWWHjCf",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Marking a creature that was marked in any previous encounter starts all duel bonuses at maximum immediately. No rule element persists \"has this specific creature been marked before, ever\" across encounters -- the mark predicate is confirmed unfireable even within a single encounter, let alone with cross-encounter memory.",
+            "track": "second"
+        }
+    }
 }

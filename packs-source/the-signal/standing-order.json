@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "the-signal-enc"
+            ],
             "rarity": "common",
             "value": [
                 "the-signal"
@@ -33,5 +36,11 @@
         },
         "slug": "standing-order"
     },
-    "_id": "v88Abky6Y8HUZeF9"
+    "_id": "v88Abky6Y8HUZeF9",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "SB2 — modifies the duration of a reroll-grant effect that itself cannot exist. No Reroll rule-element key exists anywhere in Foundry's pf2e system (confirmed: zero hits for \"key\": \"Reroll\" in pf2e-source/packs/pf2e/, and the full 34-entry rule-element key list has no reroll key -- RollTwice is a different, pre-result advantage/disadvantage mechanic). Encore's core primitive, \"spend 1 Encore to reroll a failed check,\" is a post-result reroll and is categorically unbuildable as a standing rule element.",
+            "track": "enc"
+        }
+    }
 }

@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "fleshmancer-skinwalkers"
+            ],
             "rarity": "common",
             "value": [
                 "fleshmancer"
@@ -33,5 +36,11 @@
         },
         "slug": "the-longer-change"
     },
-    "_id": "VqfvrbzP3u0o6FTQ"
+    "_id": "VqfvrbzP3u0o6FTQ",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "No rule element generically doubles the duration of an arbitrary already-applied effect -- this would require a predicate hook on every other card's own duration field, which doesn't exist as a modifiable target.",
+            "track": "skinwalkers"
+        }
+    }
 }

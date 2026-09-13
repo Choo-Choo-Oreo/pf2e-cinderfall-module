@@ -1,0 +1,39 @@
+{
+    "name": "Generalist's Edge",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "ancestry",
+        "description": {
+            "value": "<p>Once per day, treat one untrained skill as trained for a single check — not inherited from anywhere, just raw adaptability under pressure.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "human"
+            ]
+        },
+        "slug": "generalists-edge"
+    },
+    "_id": "HSl27OHIDQh4mZK9",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "'Treat one untrained skill as trained for a single check' has no rule-element hook -- pf2e has no mechanism for a temporary, per-check proficiency-rank grant distinct from a permanent build choice."
+        }
+    }
+}

@@ -1,0 +1,56 @@
+{
+    "name": "Effect: The Patron Warns You",
+    "type": "effect",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "description": {
+            "value": "<p><em>Applied by <strong>The Patron Warns You</strong> to the character who used it.</em></p>\n<hr />\n<p>Can't be surprised for the duration; +2 status bonus to Perception checks and initiative rolls. Once during the duration, reroll a failed save against a surprise attack and take the better result.</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "minutes",
+            "value": 1
+        },
+        "level": {
+            "value": 9
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "perception",
+                "type": "status",
+                "value": 2
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "initiative",
+                "type": "status",
+                "value": 2
+            }
+        ],
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "value": []
+        },
+        "slug": "the-patron-warns-you-effect"
+    },
+    "_id": "EfxQBf0nVGA1q76n",
+    "flags": {
+        "cinderfall": {
+            "effectOf": "cultist.the-patron-warns-you",
+            "landsOn": "self"
+        }
+    }
+}

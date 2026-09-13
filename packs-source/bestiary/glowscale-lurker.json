@@ -110,7 +110,16 @@
                 "base": 12
             },
             "stealth": {
-                "base": 10
+                "base": 10,
+                "special": [
+                    {
+                        "base": 22,
+                        "label": "while submerged",
+                        "predicate": [
+                            "submerged"
+                        ]
+                    }
+                ]
             }
         },
         "traits": {
@@ -310,14 +319,54 @@
                 }
             },
             "type": "action"
+        },
+        {
+            "_id": "Q0Kr6FcxBYSZyhYP",
+            "img": "systems/pf2e/icons/default-icons/treasure.svg",
+            "name": "Glowscale Hide",
+            "sort": 1400000,
+            "system": {
+                "bulk": {
+                    "value": 1
+                },
+                "category": "material",
+                "description": {
+                    "value": "<p>A strip of luminous hide, faintly warm to the touch &mdash; it glows dimmer every week it's kept.</p>"
+                },
+                "hardness": 0,
+                "hp": {
+                    "max": 0,
+                    "value": 0
+                },
+                "level": {
+                    "value": 0
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "quantity": 1,
+                "rules": [],
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                },
+                "price": {
+                    "value": {
+                        "gp": 1
+                    }
+                }
+            },
+            "type": "treasure"
         }
     ],
     "flags": {
+        "pf2e": {
+            "lootable": true
+        },
         "cinderfall": {
-            "alignment": "N",
-            "incomplete": [
-                "skill 'Stealth' condition '+12 while submerged' kept as text only"
-            ]
+            "alignment": "N"
         }
     }
 }

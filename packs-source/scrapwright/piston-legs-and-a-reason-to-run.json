@@ -1,0 +1,53 @@
+{
+    "name": "Piston Legs and a Reason to Run",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
+        "description": {
+            "value": "<span class=\"sdesc\">Mod slots increase to 6, Speed increases by 10 feet, jump distance on High Jump and Long Jump gains a +10-foot bonus, and the suit seals fully against vacuum and toxic atmosphere.</span>"
+        },
+        "level": {
+            "value": 11
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "system.proficiencies.attacks.unarmed.rank",
+                "value": 3
+            }
+        ],
+        "traits": {
+            "otherTags": [],
+            "rarity": "common",
+            "value": [
+                "scrapwright"
+            ]
+        },
+        "slug": "piston-legs-and-a-reason-to-run"
+    },
+    "_id": "3GHBsYJkciqtnsqE",
+    "flags": {
+        "cinderfall": {
+            "spellTag": "Mk III · 11th",
+            "ghostRigTier": "Mk III",
+            "grantedAtLevel": 11,
+            "notSpell": "scrapwright's class document carries system.spellcasting 0, so this is an ability, not a spell, and convert_class_spells.py declines it by design as a NON_CASTERS owner"
+        }
+    }
+}

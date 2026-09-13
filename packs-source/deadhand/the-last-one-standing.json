@@ -24,8 +24,44 @@
             "remaster": true,
             "title": "Cinderfall"
         },
-        "rules": [],
+        "rules": [
+            {
+                "key": "RollOption",
+                "option": "the-last-one-standing",
+                "toggleable": true,
+                "label": "Every other ally within 30 feet is unconscious, dying, or dead"
+            },
+            {
+                "key": "Resistance",
+                "type": "all-damage",
+                "value": 10,
+                "predicate": [
+                    "the-last-one-standing"
+                ]
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "attack",
+                "type": "circumstance",
+                "value": 2,
+                "predicate": [
+                    "the-last-one-standing"
+                ]
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "saving-throw",
+                "type": "circumstance",
+                "value": 2,
+                "predicate": [
+                    "the-last-one-standing"
+                ]
+            }
+        ],
         "traits": {
+            "otherTags": [
+                "deadhand-bulwark"
+            ],
             "rarity": "common",
             "value": [
                 "deadhand"
@@ -33,5 +69,10 @@
         },
         "slug": "the-last-one-standing"
     },
-    "_id": "l3vTE1HUeRiHwN1x"
+    "_id": "l3vTE1HUeRiHwN1x",
+    "flags": {
+        "cinderfall": {
+            "track": "bulwark"
+        }
+    }
 }

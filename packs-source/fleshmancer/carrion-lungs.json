@@ -24,8 +24,27 @@
             "remaster": true,
             "title": "Cinderfall"
         },
-        "rules": [],
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "saving-throw",
+                "type": "status",
+                "value": 2,
+                "predicate": [
+                    {
+                        "or": [
+                            "item:trait:poison",
+                            "item:trait:disease",
+                            "item:trait:inhaled"
+                        ]
+                    }
+                ]
+            }
+        ],
         "traits": {
+            "otherTags": [
+                "fleshmancer-skinwalkers"
+            ],
             "rarity": "common",
             "value": [
                 "fleshmancer"
@@ -33,5 +52,10 @@
         },
         "slug": "carrion-lungs"
     },
-    "_id": "aZD7wWSEzhDGymoy"
+    "_id": "aZD7wWSEzhDGymoy",
+    "flags": {
+        "cinderfall": {
+            "track": "skinwalkers"
+        }
+    }
 }

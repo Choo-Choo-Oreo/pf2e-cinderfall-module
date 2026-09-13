@@ -1,0 +1,46 @@
+{
+    "name": "Beyond All Argument",
+    "type": "capstone",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p>You automatically succeed at saving throws against any effect that would make you doubt yourself. Once per day, when you fail any check or saving throw, you may declare it a success instead, outright, with no roll and no reroll. You were never given the chance to be wrong. Now you simply aren't.</p>"
+        },
+        "level": {
+            "value": 20
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "otherTags": [
+                "cultist-undoubted"
+            ],
+            "value": [
+                "cultist"
+            ]
+        },
+        "slug": "undoubted-major"
+    },
+    "_id": "AfhzNvBE4TU8eh0O",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "\"Automatic success vs any effect that would make you doubt yourself; once per day, declare a failed check/save a success outright, no roll, no reroll\" is P-DEGREE-REACTIVE for the once-per-day clause (after-the-fact manufacture of a success, the confirmed-absent shape throughout this pass), and the \"doubt yourself\" trait/predicate this card's other clause would need doesn't exist in pf2e-source either.",
+            "track": "undoubted"
+        }
+    }
+}

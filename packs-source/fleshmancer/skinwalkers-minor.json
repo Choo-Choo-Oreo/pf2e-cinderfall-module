@@ -1,0 +1,46 @@
+{
+    "name": "Two Shapes Ready",
+    "type": "capstone",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p>You may keep two self-mutations prepared at once instead of one, and swapping between them costs 1 action rather than a fresh Cut. Holding the second shape costs 1 Vitae per hour it stays ready; let the payment lapse and it reverts on its own, cleanly, with no Bloom roll.</p>"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "otherTags": [
+                "fleshmancer-skinwalkers"
+            ],
+            "value": [
+                "fleshmancer"
+            ]
+        },
+        "slug": "skinwalkers-minor"
+    },
+    "_id": "pRQ8PscrxuXalmrI",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "\"Cut\" itself is unmodeled, so nothing exists for a swap-cost discount to apply against.",
+            "track": "skinwalkers"
+        }
+    }
+}

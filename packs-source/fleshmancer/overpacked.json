@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "fleshmancer-butchers"
+            ],
             "rarity": "common",
             "value": [
                 "fleshmancer"
@@ -33,5 +36,11 @@
         },
         "slug": "overpacked"
     },
-    "_id": "fMOjVylYbP2vMpNZ"
+    "_id": "fMOjVylYbP2vMpNZ",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Splash damage isn't a rule-element-exposed field on a consumable item, and \"detonates in your own square on a miss\" has no selector either.",
+            "track": "butchers"
+        }
+    }
 }

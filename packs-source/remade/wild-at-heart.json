@@ -33,5 +33,10 @@
         },
         "slug": "wild-at-heart"
     },
-    "_id": "iXdblK4HAKyyC2mQ"
+    "_id": "iXdblK4HAKyyC2mQ",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "BAND-GAP."
+        }
+    }
 }

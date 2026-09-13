@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "the-signal-openband"
+            ],
             "rarity": "common",
             "value": [
                 "the-signal"
@@ -33,5 +36,10 @@
         },
         "slug": "broadcast-live"
     },
-    "_id": "OlUG4vzUQQeebcMN"
+    "_id": "OlUG4vzUQQeebcMN",
+    "flags": {
+        "cinderfall": {
+            "track": "openband"
+        }
+    }
 }

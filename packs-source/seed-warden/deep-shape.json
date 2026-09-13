@@ -33,5 +33,10 @@
         },
         "slug": "deep-shape"
     },
-    "_id": "6PlSkcB87jANQb6v"
+    "_id": "6PlSkcB87jANQb6v",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "`BLOOMROT-NULL` (magnitude ≥3 test) stacked on `BLIGHTSHAPE-NULL` (no form/load tracking to grant \"both\" of)."
+        }
+    }
 }

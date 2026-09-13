@@ -1,32 +1,61 @@
 {
-    "_id": "dPTBmv8em0hoPisZ",
-    "categories": [],
     "name": "The Choir of Ash",
-    "ownership": {
-        "default": 0
-    },
-    "pages": [
-        {
-            "_id": "O95OtK5F6JNEPOSy",
-            "category": null,
-            "image": {},
-            "name": "The Choir of Ash",
-            "sort": 100000,
-            "src": null,
-            "system": {},
-            "text": {
-                "content": "<p><em>Devotion to the Caged Angel</em></p>        <p class=\"cc-desc\">You believe Uriel's Turning was a mercy the world flinched away from before it finished, and that a second, cleaner burning is still owed. You gain Cinders by committing violence in Uriel's name, recovering relics of the Turning, and feeding the belief — yours and others' — that the world must break again to be made right.</p>\n        <hr class=\"cc-divider\">\n        <div class=\"cc-effect\"><b>PRESENCE —</b> enemies near you find their resolve harder to hold onto. Nothing dramatic. Just a little closer to breaking than they'd be otherwise.</div>",
-                "format": 1
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
+        "description": {
+            "value": "<p>        <p class=\"cc-desc\">You believe Uriel's Turning was a mercy the world flinched away from before it finished, and that a second, cleaner burning is still owed. You gain Cinders by committing violence in Uriel's name, recovering relics of the Turning, and feeding the belief — yours and others' — that the world must break again to be made right.</p>\n        <hr class=\"cc-divider\">\n        <div class=\"cc-effect\"><b>PRESENCE —</b> enemies near you find their resolve harder to hold onto. Nothing dramatic. Just a little closer to breaking than they'd be otherwise.</div></p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "RollOption",
+                "option": "vigil-path:choir-of-ash",
+                "value": true
             },
-            "title": {
-                "level": 1,
-                "show": true
-            },
-            "type": "text",
-            "video": {
-                "controls": true,
-                "volume": 0.5
+            {
+                "key": "SpecialResource",
+                "slug": "cinders",
+                "max": "ternary(gte(@actor.level,17),4,ternary(gte(@actor.level,11),3,ternary(gte(@actor.level,5),2,1)))",
+                "renew": false
             }
+        ],
+        "traits": {
+            "otherTags": [
+                "vigil-path"
+            ],
+            "rarity": "common",
+            "value": [
+                "vigil"
+            ]
+        },
+        "slug": "the-choir-of-ash"
+    },
+    "_id": "dPTBmv8em0hoPisZ",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Presence aura half (bucket 5): the level-1 text states no number or range ('nothing dramatic... a little closer to breaking'), unlike its level-14 numeric successor (the-weight-of-ash-the-weight-of-grace, handled separately as its own card). No number to encode.",
+            "subclassOf": "vigil",
+            "subclassChoice": "Choose Your Path",
+            "role": "Devotion to the Caged Angel",
+            "subclassLayer": "path"
         }
-    ]
+    }
 }

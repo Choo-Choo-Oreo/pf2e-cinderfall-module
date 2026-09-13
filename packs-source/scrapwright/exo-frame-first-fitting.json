@@ -1,0 +1,53 @@
+{
+    "name": "Exo-Frame, First Fitting",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
+        "description": {
+            "value": "<span class=\"sdesc\">Bolted plate over a piston-driven inner skeleton. Grants its item bonus to AC as heavy armor normally would, carries 2 mod slots for small integrated gadgets, and its sealed collar keeps ash-fall/fallout dust out — you treat a critical failure on a Fortitude save against an inhaled hazard as an ordinary failure.</span>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "system.proficiencies.attacks.unarmed.rank",
+                "value": 1
+            }
+        ],
+        "traits": {
+            "otherTags": [],
+            "rarity": "common",
+            "value": [
+                "scrapwright"
+            ]
+        },
+        "slug": "exo-frame-first-fitting"
+    },
+    "_id": "b3qPj2F8tCnZTpv5",
+    "flags": {
+        "cinderfall": {
+            "spellTag": "Mk I · 1st",
+            "ghostRigTier": "Mk I",
+            "grantedAtLevel": 1,
+            "notSpell": "scrapwright's class document carries system.spellcasting 0, so this is an ability, not a spell, and convert_class_spells.py declines it by design as a NON_CASTERS owner"
+        }
+    }
+}

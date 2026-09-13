@@ -1,0 +1,43 @@
+{
+    "name": "Choir's Chosen",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "ancestry",
+        "description": {
+            "value": "<p>Once per day, calling on the Gaunt Choir carries no despair-vulnerability cost.</p>"
+        },
+        "level": {
+            "value": 9
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "The Choir Answers"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "hymnkin"
+            ]
+        },
+        "slug": "choirs-chosen"
+    },
+    "_id": "OEFFdoGI3StPJRTc",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Upgrades The Choir Answers, itself unbuildable (Granting a new limited-use activated action/reaction has no rule-element hook in real pf2e -- confirmed corpus-wide this pass (Reactive Shield itself ships rules: []).), and removing that card's despair-vulnerability cost has no predicate to gate on since the base cost was never encoded."
+        }
+    }
+}

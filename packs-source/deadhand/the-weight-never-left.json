@@ -27,5 +27,10 @@
         },
         "slug": "the-weight-never-left"
     },
-    "_id": "SJaavnINzIL4fBvP"
+    "_id": "SJaavnINzIL4fBvP",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The second time the caster uses Redline: Momentum or One Good Hit in a single encounter, it no longer requires a Slip Table roll. Deadhand's Redline/Slip mechanic is entirely homebrew with zero schema footprint anywhere in this corpus."
+        }
+    }
 }

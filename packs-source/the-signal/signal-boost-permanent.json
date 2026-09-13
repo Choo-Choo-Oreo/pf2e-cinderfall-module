@@ -33,5 +33,10 @@
         },
         "slug": "signal-boost-permanent"
     },
-    "_id": "pQdMGpOHdyzWFrAO"
+    "_id": "pQdMGpOHdyzWFrAO",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "SB3 — modifies Broadcast's own range/targeting rule; no item to alter. No \"Broadcast\" stance/aura item is ever instantiated as an Item with its own system.rules anywhere in this corpus. The shape (a stance whose aura buffs allies) is real and buildable in pf2e via Aura + a companion effect item -- but no such Broadcast item exists among this class's files to attach a rule element to."
+        }
+    }
 }

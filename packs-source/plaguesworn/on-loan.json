@@ -50,6 +50,7 @@
     "_id": "IoV9X3HZ3Cgy7i9h",
     "flags": {
         "cinderfall": {
+            "incomplete": "This clause is an ongoing effect targeting a different creature's roll/HP/condition/behavior, sourced from the holder's own passive (P-CROSSCREATURE), with no selector anywhere in pf2e-source for one actor's rule element to reach into a separate actor on an ongoing basis. (a permanent status change to a target, tracked forever) combined with a P-SUMMON-adjacent gap (folding an existing creature into your Afflicted pool permanently). No selector for either half.",
             "listing": "9th Rank"
         }
     }

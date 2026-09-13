@@ -1,0 +1,43 @@
+{
+    "name": "Independent Node",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "ancestry",
+        "description": {
+            "value": "<p>Bonus to Will saves against any effect that specifically tries to exploit unfamiliarity with social norms or scripted behavior.</p>"
+        },
+        "level": {
+            "value": 5
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Unscripted Reflexes"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "wire-ward"
+            ]
+        },
+        "slug": "independent-node"
+    },
+    "_id": "yriKL0zpiS1uMIPR",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "This duplicates Raised Without a Script's existing will/item:trait:mental FlatModifier in all but flavor, and 'any effect' broadens past that trait with no further predicate hook or stated value."
+        }
+    }
+}

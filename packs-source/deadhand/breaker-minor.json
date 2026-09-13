@@ -1,0 +1,45 @@
+{
+    "name": "Cover Was Never Real",
+    "type": "capstone",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p>Your wind-up strike ignores cover entirely, and against an unattended object, structure or barrier it needs no wind-up at all. Doors, walls and the things people stand behind stop being terrain and start being a formality.</p>"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "otherTags": [
+                "deadhand-breaker"
+            ],
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "breaker-minor"
+    },
+    "_id": "D6XqIqmwi0Tq72gT",
+    "flags": {
+        "cinderfall": {
+            "track": "breaker"
+        }
+    }
+}

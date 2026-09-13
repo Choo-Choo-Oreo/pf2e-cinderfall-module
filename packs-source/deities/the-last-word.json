@@ -1,0 +1,54 @@
+{
+    "name": "The Last Word",
+    "type": "deity",
+    "img": "systems/pf2e/icons/default-icons/deity.svg",
+    "system": {
+        "attribute": [
+            "con",
+            "str"
+        ],
+        "category": "deity",
+        "description": {
+            "value": "<p><strong>Fury & Grudges</strong></p>\n<p>Doesn't explode on contact — it keeps the boil going for as long as it takes, and only detonates once it's been made to stop, cut off, ignored mid-tirade. Its punishments always land exactly when patience finally runs out, never a moment sooner.</p>\n<p><strong>Areas of Concern</strong> fury, grudges, the boil-over</p>\n<p><strong>Edicts</strong> never let a slight go unanswered forever, even if the answer waits; finish what you start saying</p>\n<p><strong>Anathema</strong> apologize first; let someone else have the last word</p>\n<p><strong>Religious Symbol</strong> a raised fist mid-swing, frozen</p>\n<p><strong>Sacred Animal</strong> wasp</p>\n<p><strong>Sacred Colors</strong> scorch black, ember orange</p>"
+        },
+        "domains": {
+            "alternate": [],
+            "primary": [
+                "confidence",
+                "destruction"
+            ]
+        },
+        "font": [
+            "harm"
+        ],
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "sanctification": {
+            "modal": "can",
+            "what": [
+                "unholy"
+            ]
+        },
+        "skill": [
+            "intimidation"
+        ],
+        "spells": {
+            "1": "Compendium.pf2e.spells-srd.Item.Bane",
+            "4": "Compendium.pf2e.spells-srd.Item.Divine Wrath",
+            "6": "Compendium.pf2e.spells-srd.Item.Blinding Fury"
+        },
+        "traits": {},
+        "weapons": [
+            "maul"
+        ],
+        "slug": "the-last-word"
+    },
+    "_id": "KTtqaplOduGuz2M3",
+    "flags": {
+        "cinderfall": {}
+    }
+}

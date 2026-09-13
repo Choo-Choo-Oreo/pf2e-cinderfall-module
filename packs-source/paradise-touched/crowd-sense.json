@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "paradise-touched-chorus"
+            ],
             "rarity": "common",
             "value": [
                 "paradise-touched"
@@ -33,5 +36,10 @@
         },
         "slug": "crowd-sense"
     },
-    "_id": "xRCXEWCtAboPuscl"
+    "_id": "xRCXEWCtAboPuscl",
+    "flags": {
+        "cinderfall": {
+            "track": "chorus"
+        }
+    }
 }

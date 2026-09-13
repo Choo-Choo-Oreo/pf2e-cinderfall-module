@@ -24,7 +24,32 @@
             "remaster": true,
             "title": "Cinderfall"
         },
-        "rules": [],
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "saving-throw",
+                "type": "status",
+                "value": 1,
+                "predicate": [
+                    {
+                        "or": [
+                            "item:trait:fear",
+                            "item:trait:mental"
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "AdjustDegreeOfSuccess",
+                "selector": "will",
+                "predicate": [
+                    "item:trait:fear"
+                ],
+                "adjustment": {
+                    "success": "one-degree-better"
+                }
+            }
+        ],
         "traits": {
             "rarity": "common",
             "value": [

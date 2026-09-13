@@ -1,0 +1,63 @@
+{
+    "name": "Who You Bind",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
+        "description": {
+            "value": "<p><em>Who You Bind</em></p><p>Choose one: Ghost-Static Covenant, Long-Shadow Covenant, Wailing Debt Covenant.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "ChoiceSet",
+                "adjustName": false,
+                "flag": "covenant",
+                "prompt": "Who You Bind",
+                "choices": {
+                    "filter": [
+                        "item:tag:hollowbound-covenant"
+                    ]
+                }
+            },
+            {
+                "key": "GrantItem",
+                "uuid": "{item|flags.system.rulesSelections.covenant}"
+            }
+        ],
+        "traits": {
+            "otherTags": [],
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "covenant"
+    },
+    "_id": "scZCHXIND1BqdaE7",
+    "flags": {
+        "cinderfall": {
+            "subclassOf": "hollowbound",
+            "subclassLayer": "covenant",
+            "grants": [
+                "hollowbound.ghost-static-covenant",
+                "hollowbound.long-shadow-covenant",
+                "hollowbound.wailing-debt-covenant"
+            ]
+        }
+    }
+}

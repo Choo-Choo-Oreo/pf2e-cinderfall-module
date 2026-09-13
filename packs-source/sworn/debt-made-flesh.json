@@ -33,5 +33,10 @@
         },
         "slug": "debt-made-flesh"
     },
-    "_id": "IfuMLo4w8RK1OTv3"
+    "_id": "IfuMLo4w8RK1OTv3",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Two independent blockers: (1) the bonus formula references 'twice the circumstance bonus your Trial stage grants The Answer' -- that Trial-stage bonus is not itself encoded as a rule element anywhere in this feat set, so there is nothing for 'twice' to multiply. (2) No rule element creates a temporary weapon that inherits a different, currently-wielded weapon's fundamental runes, scoped to Strikes against one specific named creature."
+        }
+    }
 }

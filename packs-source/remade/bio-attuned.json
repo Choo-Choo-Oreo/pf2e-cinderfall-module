@@ -1,0 +1,53 @@
+{
+    "name": "Bio-attuned",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
+        "description": {
+            "value": "<p>Raises what your body can carry against Load/Resonance pacing — the Rendery's punishment system — while chrome's Drift still punishes you at the full standard rate. Discovered via the trust tier reachable through What's Grown In; that shop's deeper stock suggests, never forces, this path.</p><hr /><p><b>Attunement Effect —</b> Read your Load and Resonance bands one step lower for effect purposes (Load 3 reads as Settled instead of Straining, Resonance 3 as Quiet instead of Humming, and so on).</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "RollOption",
+                "option": "bio-attuned"
+            }
+        ],
+        "traits": {
+            "otherTags": [
+                "remade-attunement"
+            ],
+            "rarity": "common",
+            "value": [
+                "remade"
+            ]
+        },
+        "slug": "bio-attuned"
+    },
+    "_id": "dyNVaCKaxLoEpkqq",
+    "flags": {
+        "cinderfall": {
+            "subclassOf": "remade",
+            "subclassChoice": "Choose Your Attunement",
+            "role": "The Rendery · Trust Tier",
+            "subclassLayer": "attunement"
+        }
+    }
+}

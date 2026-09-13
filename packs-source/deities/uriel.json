@@ -3,37 +3,55 @@
     "type": "deity",
     "img": "systems/pf2e/icons/default-icons/deity.svg",
     "system": {
-        "attribute": [],
+        "attribute": [
+            "cha",
+            "wis"
+        ],
         "category": "deity",
         "description": {
             "value": "<p><strong>Dormant · Imprisoned · The Campaign's Endgame Threat</strong></p>\n<p>Sent in 2100 to force humanity to stop killing itself; instead the corporations and kingdoms that had spent a century at each other's throats united to cage him and bleed his power into their own weapons. God withdrew. Around 2110 Uriel broke — turning humanity's own war machines and nuclear arsenals against it in a single night, The Turning — then vanished. Now dormant in a prison no one has located, the seal slowly rusting through; the Glasslands is the usual guess. The Choir of Ash worships him and works to free him, believing his \"cleansing\" was righteous and unfinished. Vigil's take is more complicated: tragedy, not villainy — a fellow victim of what was done to him, not a monster to be simply cheered against.</p>"
         },
         "domains": {
-            "alternate": [],
-            "primary": []
+            "alternate": [
+                "truth"
+            ],
+            "primary": [
+                "destruction",
+                "zeal"
+            ]
         },
-        "font": [],
+        "font": [
+            "harm"
+        ],
         "publication": {
             "license": "ORC",
             "remaster": true,
             "title": "Cinderfall"
         },
         "rules": [],
-        "sanctification": null,
-        "skill": [],
-        "spells": {},
+        "sanctification": {
+            "modal": "can",
+            "what": [
+                "holy"
+            ]
+        },
+        "skill": [
+            "intimidation"
+        ],
+        "spells": {
+            "1": "Compendium.pf2e.spells-srd.Item.Bane",
+            "4": "Compendium.pf2e.spells-srd.Item.Divine Wrath",
+            "6": "Compendium.pf2e.spells-srd.Item.Zealous Conviction"
+        },
         "traits": {},
-        "weapons": [],
+        "weapons": [
+            "glaive"
+        ],
         "slug": "uriel"
     },
     "_id": "iFiYHVHL5iivinUF",
     "flags": {
         "cinderfall": {
-            "define": "Dormant · Imprisoned · The Campaign's Endgame Threat",
-            "incomplete": [
-                "STUB -- no mechanics authored. Missing every pf2e deity field: attribute, domains, font, sanctification, skill, spells, weapons. `category` is a default of 'deity' and may need to be philosophy or pantheon. See .claude/docs/todo.md."
-            ],
-            "effect": "Full writeup: <a class=\"bref\" href=\"vigil.html\">Vigil</a> dossier, Setting Bible <a class=\"bref\" href=\"setting-bible.html#s2\">§2</a>/<a class=\"bref\" href=\"setting-bible.html#s9\">§9</a>/§13; cult activity: Cinderborn ancestry, <a class=\"bref\" href=\"sworn.html\">Sworn</a>'s Cinder Vow subclass",
             "pov": {
                 "flag": "choir_seen_v1",
                 "code": "Sealed Record · Field Index terminal",

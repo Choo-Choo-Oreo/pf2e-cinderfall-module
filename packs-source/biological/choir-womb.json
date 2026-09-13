@@ -1,0 +1,82 @@
+{
+    "name": "Choir-Womb",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>Grown around something that was still singing when it went into the vat, and never stopped. +3 item bonus to Occultism and to Will saves. Once per day, 10 minutes: commune with one recently dead creature (as speak with dead, no material cost) or compel a spirit of your level or lower to answer three questions truthfully.</p><p><b>Rider:</b> The song doesn't wait for permission anymore. Once per session the GM may act through you for a single action in service of something the Choir wants — you get no save, only a fast flat check to end it early.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 19
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "mk": 70000
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "occultism",
+                "type": "item",
+                "value": 3
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "will",
+                "type": "item",
+                "value": 3
+            }
+        ],
+        "size": "med",
+        "traits": {
+            "rarity": "mythic",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "choir-womb"
+    },
+    "_id": "PwFbKLHME9nM7lSS",
+    "flags": {
+        "cinderfall": {
+            "augmentKind": "biological",
+            "augmentType": "graft",
+            "tier": "mythic",
+            "slots": [
+                "Viscera",
+                "Neural"
+            ],
+            "slotCost": 2,
+            "grade": 5,
+            "availability": "Wild",
+            "level": 19,
+            "resonance": "+8",
+            "augTags": [
+                "wild",
+                "choir"
+            ]
+        }
+    }
+}

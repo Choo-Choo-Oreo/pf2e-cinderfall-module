@@ -1,0 +1,53 @@
+{
+    "name": "Load-Bearing Upgrade",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
+        "description": {
+            "value": "<span class=\"sdesc\">Mod slots increase to 4, plating adds resistance 5 to one physical damage type (reconfigurable between rests), and a shoulder hardpoint mounts a held weapon — once socketed, it draws as part of the Strike that uses it, no separate Interact required.</span>"
+        },
+        "level": {
+            "value": 5
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "system.proficiencies.attacks.unarmed.rank",
+                "value": 2
+            }
+        ],
+        "traits": {
+            "otherTags": [],
+            "rarity": "common",
+            "value": [
+                "scrapwright"
+            ]
+        },
+        "slug": "load-bearing-upgrade"
+    },
+    "_id": "ImZ9inzW0Ox3lhFc",
+    "flags": {
+        "cinderfall": {
+            "spellTag": "Mk II · 5th",
+            "ghostRigTier": "Mk II",
+            "grantedAtLevel": 5,
+            "notSpell": "scrapwright's class document carries system.spellcasting 0, so this is an ability, not a spell, and convert_class_spells.py declines it by design as a NON_CASTERS owner"
+        }
+    }
+}

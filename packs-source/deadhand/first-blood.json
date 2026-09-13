@@ -27,5 +27,10 @@
         },
         "slug": "first-blood"
     },
-    "_id": "oSAb7CjACaziTW5V"
+    "_id": "oSAb7CjACaziTW5V",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "On hit, the target takes -1 circumstance to its next attack roll or skill check. Debuffing a different creature's own future roll from the attacker's item has no selector, and no companion effect card exists to carry it on the target."
+        }
+    }
 }

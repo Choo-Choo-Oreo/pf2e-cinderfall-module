@@ -1,0 +1,90 @@
+{
+    "name": "Venom Sac",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>A working venom gland feeding a set of jaws that weren't there before. Melee Strike: jaws, 1d6 piercing plus 1d6 persistent poison, finesse. Once per 10 minutes you can load the bite: the persistent poison is 2d6 instead, and the target is enfeebled 1 on a failed Fortitude save vs your class DC.</p><p><b>Rider:</b> You produce more saliva around bleeding creatures, and it shows.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 10
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "mk": 600
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "Strike",
+                "slug": "venom-sac",
+                "label": "Jaws",
+                "category": "unarmed",
+                "group": "brawling",
+                "img": "systems/pf2e/icons/unarmed-attacks/fangs.webp",
+                "range": null,
+                "traits": [
+                    "unarmed",
+                    "finesse"
+                ],
+                "damage": {
+                    "base": {
+                        "damageType": "piercing",
+                        "dice": 1,
+                        "die": "d6"
+                    }
+                }
+            }
+        ],
+        "size": "med",
+        "traits": {
+            "rarity": "rare",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "venom-sac"
+    },
+    "_id": "D5iF7QhyUF9oYPsd",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The persistent-poison rider and the once-per-10-minutes 'loaded bite' upgrade (doubling the persistent die and adding an enfeeble-on-fail rider) both have no hook: a Strike's damage line can't carry a persistent/secondary-save rider, and nothing lets a granted Strike's own damage be toggled between two states on a timer without a companion effect item.",
+            "augmentKind": "biological",
+            "augmentType": "graft",
+            "tier": "rare",
+            "slots": [
+                "Viscera"
+            ],
+            "slotCost": 1,
+            "grade": 3,
+            "availability": "Wild",
+            "level": 10,
+            "load": "+1",
+            "resonance": "+3",
+            "augTags": [
+                "wild"
+            ]
+        }
+    }
+}

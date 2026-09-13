@@ -1,0 +1,48 @@
+{
+    "name": "Long-Shadow Covenant",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
+        "description": {
+            "value": "<p>You house the dead who finished — the ones who lived out a full life before the world ended it for everyone else. Grandparents, elders, the last honest foremen. Patient. Slow to anger. Extremely difficult to rush.</p><hr /><p>\n          <ul>\n            <li><strong>The Long View:</strong> in Quiet, once per scene you can ask a Long-Shadow spirit what it would have done, and act on unusually good advice.</li>\n            <li><strong>Steadying Hand:</strong> Unveiled, you can lend a measure of the spirit's composure to an ally instead of yourself — this Covenant is the only one built to spend its Parleys on other people as often as itself.</li>\n            <li>Toll accrues slowest of all and forgives fastest during downtime — but a Long-Shadow spirit will simply refuse an ask it finds beneath it, Toll or no Toll. No amount of pushing changes a dead grandmother's mind.</li>\n          </ul>\n        </p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "otherTags": [
+                "hollowbound-covenant"
+            ],
+            "rarity": "common",
+            "value": [
+                "hollowbound"
+            ]
+        },
+        "slug": "long-shadow-covenant"
+    },
+    "_id": "MgErtx4j2ypmNxuW",
+    "flags": {
+        "cinderfall": {
+            "subclassOf": "hollowbound",
+            "subclassChoice": "Who You Bind",
+            "role": "Ancestor Spirits",
+            "subclassLayer": "covenant"
+        }
+    }
+}

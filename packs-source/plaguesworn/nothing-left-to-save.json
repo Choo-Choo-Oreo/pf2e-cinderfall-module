@@ -55,6 +55,7 @@
     "_id": "cOIa6WRM1eKKh1SG",
     "flags": {
         "cinderfall": {
+            "incomplete": "The damage itself is P-DMG (would be SKIP alone), but the critical-failure raise-as-Afflicted clause is P-SUMMON, a real stated effect with no build path. Overall: INCOMPLETE. Raising/creating a new minion or ally creature (P-SUMMON) has no system.rules representation. Real pf2e itself ships rules: [] for the equivalent case (pf2e-source/packs/pf2e/spells/spells/rank-1/summon-undead.json, system.summons left unpopulated too), but per this pass's own convention that is evidence of the gap, not license to treat the clause as correctly-empty -- it is dispositioned INCOMPLETE, not SKIP.",
             "listing": "7th Rank"
         }
     }

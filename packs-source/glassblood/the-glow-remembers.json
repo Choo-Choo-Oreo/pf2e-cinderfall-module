@@ -1,0 +1,39 @@
+{
+    "name": "The Glow Remembers",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "ancestry",
+        "description": {
+            "value": "<p>Once per day, release a massive burst of stored radiation in a wide area — at the cost of losing Ambient Glow's light entirely until your next rest. It's spent.</p>"
+        },
+        "level": {
+            "value": 17
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "glassblood"
+            ]
+        },
+        "slug": "the-glow-remembers"
+    },
+    "_id": "L244Kf5VIoJiVUlg",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Granting a new limited-use activated action/reaction has no rule-element hook in real pf2e -- confirmed corpus-wide this pass (Reactive Shield itself ships rules: []). ('once per day, release a massive burst of stored radiation in a wide area' is a new granted action.)"
+        }
+    }
+}

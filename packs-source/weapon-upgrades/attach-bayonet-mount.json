@@ -23,7 +23,27 @@
             "title": "Cinderfall"
         },
         "quantity": 1,
-        "rules": [],
+        "rules": [
+            {
+                "key": "Strike",
+                "slug": "bayonet-mount",
+                "label": "Bayonet",
+                "category": "martial",
+                "group": "spear",
+                "img": "icons/weapons/polearms/spear-flared-bronze-teal.webp",
+                "range": null,
+                "traits": [
+                    "reach"
+                ],
+                "damage": {
+                    "base": {
+                        "damageType": "piercing",
+                        "dice": 1,
+                        "die": "d6"
+                    }
+                }
+            }
+        ],
         "traits": {
             "rarity": "common",
             "value": []
@@ -37,11 +57,6 @@
     },
     "_id": "oAobtHUF9hYECE2I",
     "flags": {
-        "cinderfall": {
-            "incomplete": [
-                "level is a stub (0); the page carries no item levels"
-            ],
-            "currency": "Balanced to the PF2e GP standard and denominated in Credits: 1 Credit = 1 gp. The whole list was scaled x10 from the retired scraps=sp anchor, so every relative price is unchanged from the page as authored."
-        }
+        "cinderfall": {}
     }
 }

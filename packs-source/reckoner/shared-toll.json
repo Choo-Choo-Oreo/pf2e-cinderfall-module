@@ -33,5 +33,10 @@
         },
         "slug": "shared-toll"
     },
-    "_id": "2Q9mtyPC5pbWtlVg"
+    "_id": "2Q9mtyPC5pbWtlVg",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Splitting a Reckoning-stage toll with a willing ally -- the Reckoning (this class's own 4-stage penalty track) has zero Foundry-schema footprint: classes.reckoner.json ships \"rules\": [] and defines no SpecialResource, counter, or stage-tracking rule element of any kind to hook. See feats-class-reckoner-draft.md (RECKONING-BLOCKER)."
+        }
+    }
 }

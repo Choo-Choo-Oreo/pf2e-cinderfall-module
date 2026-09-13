@@ -1,0 +1,41 @@
+{
+    "name": "Warded Circuit",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "skill",
+        "description": {
+            "value": "<p>Pre-Cinder wards weren't built to stop looters, but you've learned to read them anyway. You gain a +2 circumstance bonus to checks to Disable a Device or overcome a ward that carries the arcane trait, and on a critical failure you suffer no additional ill effect beyond a normal failure.</p>"
+        },
+        "level": {
+            "value": 8
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Expert in Arcana"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "warded-circuit"
+    },
+    "_id": "6zMOZYGZFkDixOo3",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "No skill is confirmed for 'checks to Disable a Device or overcome a ward' (Disable a Device is normally Thievery, but 'overcome a ward' is undefined), and there is no established hazard/ward actor in this corpus carrying an 'arcane' trait for a target:trait predicate to read; the critical-failure protection also has no hook."
+        }
+    }
+}

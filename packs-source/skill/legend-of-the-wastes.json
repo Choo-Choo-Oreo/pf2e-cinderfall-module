@@ -1,0 +1,41 @@
+{
+    "name": "Legend of the Wastes",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "skill",
+        "description": {
+            "value": "<p>Your name alone has cleared rooms in Cyber City and cleared camps in Dixie. Once per day, you can attempt to Demoralize every enemy within 60 feet simultaneously as a single action, at a -5 circumstance penalty to the check.</p>"
+        },
+        "level": {
+            "value": 18
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Legendary in Intimidation"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "legend-of-the-wastes"
+    },
+    "_id": "1EgdqAfHJEbdLJtx",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "This changes Demoralize's targeting profile (single target -> everyone within 60 feet) rather than adjusting a check total, the same problem as Break the Room -- no rule element retargets an existing action's scope."
+        }
+    }
+}

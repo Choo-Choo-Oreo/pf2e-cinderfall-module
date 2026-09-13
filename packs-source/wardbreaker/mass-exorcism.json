@@ -33,5 +33,10 @@
         },
         "slug": "mass-exorcism"
     },
-    "_id": "sjNrWn9U3f7pdrvd"
+    "_id": "sjNrWn9U3f7pdrvd",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Granting a new limited-use activated action/reaction has no rule-element hook in real pf2e -- confirmed corpus-wide this pass (Reactive Shield itself ships rules: []). ('Break the Anchor against every perceived Named creature at once, once per encounter' grants a wholly new usable multi-target action built from a per-Ward effect that is itself rule-element-free.)"
+        }
+    }
 }

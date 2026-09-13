@@ -1,0 +1,48 @@
+{
+    "name": "Wailing Debt Covenant",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
+        "description": {
+            "value": "<p>You house the dead who are closer to raging than any sane broker would recommend — the murdered, the starved, the ones who died mid-scream and never finished. Ferociously powerful. Ferociously unstable. Everyone else in the trade will ask you why.</p><hr /><p>\n          <ul>\n            <li><strong>Borrowed Grief:</strong> Unveiled, you can channel the spirit's dying moment directly into a foe — fear, agony, the specific horror of how it ended.</li>\n            <li><strong>Overdraw as a Way of Life:</strong> your Toll ceiling is higher and your Fraying die is nastier — you're built to push past what's fair on purpose, more often than the other two Covenants can safely manage.</li>\n            <li>Every Wailing Debt spirit is one bad week from becoming exactly the kind of raging spirit the Spirit-Wardens get called in to put down. You know this. You keep doing it anyway.</li>\n          </ul>\n        </p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "otherTags": [
+                "hollowbound-covenant"
+            ],
+            "rarity": "common",
+            "value": [
+                "hollowbound"
+            ]
+        },
+        "slug": "wailing-debt-covenant"
+    },
+    "_id": "JfuKnTR2vSG6oByd",
+    "flags": {
+        "cinderfall": {
+            "subclassOf": "hollowbound",
+            "subclassChoice": "Who You Bind",
+            "role": "Restless Dead",
+            "subclassLayer": "covenant"
+        }
+    }
+}

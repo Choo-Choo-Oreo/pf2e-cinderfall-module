@@ -1,0 +1,39 @@
+{
+    "name": "Colony Instinct",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "ancestry",
+        "description": {
+            "value": "<p>While at least one other Ratkin is within 15 feet, gain a circumstance bonus to Aid Another, to Diplomacy checks to Request aid, and to Survival checks to Subsist or find safe warren-ground.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ratkin"
+            ]
+        },
+        "slug": "colony-instinct"
+    },
+    "_id": "tj74bpOo8xiFvWoy",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "'A circumstance bonus' to Aid, Diplomacy (Request), and Survival (Subsist) states no numeric value, even though the action tags themselves (aid, request, subsist) are all real and confirmed. The card states a bonus/effect but gives no numeric value or formula to build a rule element from without inventing one."
+        }
+    }
+}

@@ -1,0 +1,56 @@
+{
+    "name": "Warded Blade",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p><strong>Frequency</strong> 2/day (+1 at 5th, 9th, 13th, 17th — 6/day at 17th and beyond)</p><hr /><p>Make a melee Strike with your Warded Blade against the Named target. On a hit, the target takes an extra 1d6 precision damage (+1d6 at 5th level, +1d6 more every 4 levels after — 3d6 at 9th, 4d6 at 13th, 5d6 at 17th) that ignores any resistance the target has purely by virtue of being non-physical or supernatural.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": ""
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "melee"
+        },
+        "requirements": "you've Named the target",
+        "rules": [],
+        "target": {
+            "value": "1 Named creature"
+        },
+        "time": {
+            "value": "1"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "occult"
+            ],
+            "value": [
+                "wardbreaker"
+            ]
+        },
+        "slug": "warded-blade-spell"
+    },
+    "_id": "oUHeyqQ5oQ5KmJNa",
+    "flags": {
+        "cinderfall": {
+            "signatureSpellOf": "wardbreaker.warded-blade"
+        }
+    }
+}

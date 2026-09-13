@@ -1,0 +1,51 @@
+{
+    "name": "Effect: Down But Not Done",
+    "type": "effect",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "description": {
+            "value": "<p><em>Applied by <strong>Down But Not Done</strong> to the character who used it.</em></p>\n<hr />\n<p><strong>Trigger</strong> an ally within 30 feet is reduced to 0 HP</p><p><strong>Effect</strong> gain a free reload and a +2 circumstance bonus to hit on your next shot this turn</p><hr /><p>Grief, converted into aim.</p>"
+        },
+        "duration": {
+            "expiry": "turn-end",
+            "sustained": false,
+            "unit": "rounds",
+            "value": 1
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "ranged-strike-attack-roll",
+                "type": "circumstance",
+                "value": 2,
+                "removeAfterRoll": true
+            }
+        ],
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "value": []
+        },
+        "slug": "down-but-not-done-effect"
+    },
+    "_id": "8Rm9hDmgHyCKSauQ",
+    "flags": {
+        "cinderfall": {
+            "effectOf": "ironsight.down-but-not-done",
+            "landsOn": "self"
+        }
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "name": "Break Their Formation",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Area</strong> 30 feet, all enemies who can perceive you</p><p><strong>Effect</strong> each takes a −2 status penalty to its next attack roll or Perception check made to coordinate with allies</p><hr /><p>Shout down an enemy line until it stops working as one.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "break-their-formation"
+    },
+    "_id": "X4KmBjDvRreaA2Cd",
+    "flags": {
+        "cinderfall": {
+            "spellTag": "Veteran",
+            "notSpell": "deadhand's class document carries system.spellcasting 0, so this is an ability, not a spell, and convert_class_spells.py declines it by design as a NON_CASTERS owner"
+        }
+    }
+}

@@ -25,7 +25,23 @@
             "remaster": true,
             "title": "Cinderfall"
         },
-        "rules": [],
+        "rules": [
+            {
+                "key": "RollOption",
+                "option": "read-the-binding",
+                "toggleable": true,
+                "label": "Appraising, identifying or negotiating over salvaged ghost-machinery"
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "skill-check",
+                "type": "circumstance",
+                "value": 2,
+                "predicate": [
+                    "read-the-binding"
+                ]
+            }
+        ],
         "traits": {
             "rarity": "common",
             "value": [

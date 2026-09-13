@@ -33,5 +33,10 @@
         },
         "slug": "second-diagnosis"
     },
-    "_id": "havZw7eJQ6zJA6jg"
+    "_id": "havZw7eJQ6zJA6jg",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Miasma is this class's focus-pool-that-doesn't-refill-on-rest resource. No SpecialResource rule element exists for it anywhere in the corpus: the class card itself (classes.plaguesworn.json:49) ships system.rules: [], and grep -rl \"SpecialResource\" site/data/cards/feats/class/plaguesworn/ site/data/cards/classes/classes.plaguesworn.json returns zero hits. Any clause that costs, refills, or banks Miasma is unbuildable via the renew:false mechanism -- that mechanism simply isn't wired up for this class. Diagnosis is this class's own signature action (per the class card's flags.cinderfall.terms entry, classes.plaguesworn.json:82). A corpus-wide search (find site/data/cards -iname \"*diagnos*\") turns up only unrelated Old World Construct ancestry cards plus the three plaguesworn feats that reference it -- there is no \"Diagnosis\" action card anywhere in the corpus for a feat that keys off \"when you Diagnose\" to hook into or modify. Both the cost-waiver and the \"have you Diagnosed this encounter\" tracking are unbuildable."
+        }
+    }
 }

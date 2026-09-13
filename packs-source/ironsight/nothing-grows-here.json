@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "ironsight-foul-iron"
+            ],
             "rarity": "common",
             "value": [
                 "ironsight"
@@ -33,5 +36,11 @@
         },
         "slug": "nothing-grows-here"
     },
-    "_id": "brtg27mqtmclfzNQ"
+    "_id": "brtg27mqtmclfzNQ",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "suppresses a DIFFERENT creature's own healing. This effect is defined entirely in terms of a Cinderfall-homebrew subsystem with zero Foundry schema footprint (the Gun Failure Table/Failure Range, hazardous ground, time-in-sights, Trick Iron charge bank, or Drift/augment-slot cost). Confirmed via the full rule-element type listing (pf2e-source/src/module/rules/rule-element/, 40 files): no RollTable-manipulation, no persistent-terrain-hazard, and no arbitrary stacking-counter rule element type exists to hook any of these to. This is a cross-creature effect: it changes a DIFFERENT creature's own roll, HP, condition, healing, or item from the actor's own passive or activated ability, with no companion linked Effect item in this corpus to carry it (unlike the six real *-effect cards this class does have). No selector exists for this anywhere in pf2e-source.",
+            "track": "foul-iron"
+        }
+    }
 }

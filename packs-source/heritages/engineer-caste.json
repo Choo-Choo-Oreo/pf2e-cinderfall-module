@@ -15,7 +15,23 @@
             "remaster": true,
             "title": "Cinderfall"
         },
-        "rules": [],
+        "rules": [
+            {
+                "key": "RollOption",
+                "option": "engineer-caste-machinery",
+                "toggleable": true,
+                "label": "Repairing or maintaining machinery"
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "crafting",
+                "type": "circumstance",
+                "value": 1,
+                "predicate": [
+                    "engineer-caste-machinery"
+                ]
+            }
+        ],
         "traits": {
             "rarity": "common",
             "value": []

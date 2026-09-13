@@ -33,5 +33,10 @@
         },
         "slug": "vow-of-retribution"
     },
-    "_id": "rJHrgGcnsOL154cG"
+    "_id": "rJHrgGcnsOL154cG",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The bonus-damage value is not a fixed formula (@actor.level-style) -- it is 'however much damage a different creature (the Ward) just took,' a runtime value with no roll-option or actor-data path anywhere in pf2e to reference. No rule element can read another actor's just-taken-damage total as an input to the caster's own damage formula."
+        }
+    }
 }

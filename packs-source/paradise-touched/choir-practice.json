@@ -24,8 +24,26 @@
             "remaster": true,
             "title": "Cinderfall"
         },
-        "rules": [],
+        "rules": [
+            {
+                "key": "Aura",
+                "slug": "choir-practice",
+                "radius": 30,
+                "traits": [
+                    "mental"
+                ],
+                "effects": [
+                    {
+                        "affects": "allies",
+                        "uuid": "Compendium.<pack-id>.feat-effects.Item.Effect: Choir Practice"
+                    }
+                ]
+            }
+        ],
         "traits": {
+            "otherTags": [
+                "paradise-touched-chorus"
+            ],
             "rarity": "common",
             "value": [
                 "paradise-touched"
@@ -33,5 +51,11 @@
         },
         "slug": "choir-practice"
     },
-    "_id": "J5lyjRFyWd8zT2h0"
+    "_id": "J5lyjRFyWd8zT2h0",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Unbuildable/needs authoring: (1) a new companion `Effect: Choir Practice` item (not one of the 84 files, does not currently exist) carrying `{\"key\":\"FlatModifier\",\"selector\":\"skill-check\",\"type\":\"circumstance\",\"value\":1,\"predicate\":[\"action:aid\"]}`; (2) the radius is fixed at 30 (the card's own stated fallback) rather than dynamically tracking 'your telepathy range,' which can be larger via other feats -- no formula field on `Aura`'s `radius` was found to reference the actor's live telepathy range, so this is a stated approximation, not a full match to the card's text. The `<pack-id>` UUID placeholder also needs resolving once the compiled compendium path is known.",
+            "track": "chorus"
+        }
+    }
 }

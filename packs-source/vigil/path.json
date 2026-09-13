@@ -1,0 +1,62 @@
+{
+    "name": "Choose Your Path",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
+        "description": {
+            "value": "<p><em>Choose Your Path</em></p><p>Choose one: The Choir of Ash, The Unanswered.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "ChoiceSet",
+                "adjustName": false,
+                "flag": "path",
+                "prompt": "Choose Your Path",
+                "choices": {
+                    "filter": [
+                        "item:tag:vigil-path"
+                    ]
+                }
+            },
+            {
+                "key": "GrantItem",
+                "uuid": "{item|flags.system.rulesSelections.path}"
+            }
+        ],
+        "traits": {
+            "otherTags": [],
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "path"
+    },
+    "_id": "KIQKfLCfX0wuCbOC",
+    "flags": {
+        "cinderfall": {
+            "subclassOf": "vigil",
+            "subclassLayer": "path",
+            "grants": [
+                "vigil.the-choir-of-ash",
+                "vigil.the-unanswered"
+            ]
+        }
+    }
+}

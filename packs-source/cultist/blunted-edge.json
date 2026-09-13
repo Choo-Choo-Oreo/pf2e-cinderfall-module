@@ -1,0 +1,42 @@
+{
+    "name": "Blunted Edge",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You would take damage from a critical hit.</p><hr /><p>Reduce that damage as though it were a normal hit instead of a critical one.</p>"
+        },
+        "level": {
+            "value": 18
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "cultist"
+            ]
+        },
+        "slug": "blunted-edge"
+    },
+    "_id": "0TPDUI5wFNo4Dkcn",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Reduces a critical hit taken from a DIFFERENT creature (an attacker) down to normal-hit damage, once per day, after the attack roll is already known. Blocked twice over: P-DEGREE-REACTIVE (AdjustDegreeOfSuccess resolves before the roll, per adjust-degree-of-success.ts, so it can't react to an already-known result) and P-CROSS (the roll being fixed belongs to the attacker, not the card holder)."
+        }
+    }
+}

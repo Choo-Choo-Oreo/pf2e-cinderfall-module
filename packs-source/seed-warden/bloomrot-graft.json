@@ -34,5 +34,10 @@
         },
         "slug": "bloomrot-graft"
     },
-    "_id": "vi3XhcnsxJBlFLsK"
+    "_id": "vi3XhcnsxJBlFLsK",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "`BLOOMROT-NULL` (nothing to spend) plus bucket 4 (a cross-creature effect — granting a mutation to *another* actor's build). No selector for \"add an item to a different actor\" exists anywhere in `pf2e-source`; confirmed no novel shape for this class beyond the general absence."
+        }
+    }
 }

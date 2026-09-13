@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "ironsight-close-iron"
+            ],
             "rarity": "common",
             "value": [
                 "ironsight"
@@ -33,5 +36,11 @@
         },
         "slug": "point-blank-refusal"
     },
-    "_id": "W1nuHn4m4ifh1iNY"
+    "_id": "W1nuHn4m4ifh1iNY",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "suppresses a Cinderfall house-rule penalty that, per the check under close-iron-ascendant above, isn't itself encoded anywhere in this corpus or in real PF2E. Nothing exists to suppress.",
+            "track": "close-iron"
+        }
+    }
 }

@@ -1,0 +1,56 @@
+{
+    "name": "Effect: Sign On",
+    "type": "effect",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "description": {
+            "value": "<p><em>Applied by <strong>Sign On</strong> to each affected ally.</em></p>\n<hr />\n<p>Allies in range gain a +1 status bonus to attack rolls and to damage rolls with weapons and unarmed attacks. The bedrock support Transmission; you will have this running most rounds.</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": true,
+            "unit": "minutes",
+            "value": 1
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "attack",
+                "type": "status",
+                "value": 1
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "strike-damage",
+                "type": "status",
+                "value": 1
+            }
+        ],
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "value": []
+        },
+        "slug": "sign-on-effect"
+    },
+    "_id": "TTmykE1gTtzdkbjr",
+    "flags": {
+        "cinderfall": {
+            "effectOf": "the-signal.sign-on",
+            "landsOn": "ally"
+        }
+    }
+}

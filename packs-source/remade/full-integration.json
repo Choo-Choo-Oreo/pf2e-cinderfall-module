@@ -36,10 +36,7 @@
     "_id": "IOZIbDP6bgoTHxSy",
     "flags": {
         "cinderfall": {
-            "inferred": [
-                "system.actionType",
-                "system.actions"
-            ]
+            "incomplete": "BAND-GAP stacked on P-BUCKET3."
         }
     }
 }

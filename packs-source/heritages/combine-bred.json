@@ -15,7 +15,24 @@
             "remaster": true,
             "title": "Cinderfall"
         },
-        "rules": [],
+        "rules": [
+            {
+                "key": "RollOption",
+                "option": "combine-bred-ally-in-reach",
+                "toggleable": true,
+                "label": "At least one ally is within reach"
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "saving-throw",
+                "type": "circumstance",
+                "value": 1,
+                "predicate": [
+                    "item:trait:fear",
+                    "combine-bred-ally-in-reach"
+                ]
+            }
+        ],
         "traits": {
             "rarity": "common",
             "value": []

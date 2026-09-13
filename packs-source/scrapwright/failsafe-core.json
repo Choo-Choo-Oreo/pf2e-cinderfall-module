@@ -1,0 +1,53 @@
+{
+    "name": "Failsafe Core",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
+        "description": {
+            "value": "<span class=\"sdesc\">Mod slots increase to 8, plating resistance rises to 10 (still reconfigurable between rests), and a failsafe core triggers once per day: the first time you would be reduced to 0 Hit Points, you're left at 1 instead.</span>"
+        },
+        "level": {
+            "value": 17
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "system.proficiencies.attacks.unarmed.rank",
+                "value": 4
+            }
+        ],
+        "traits": {
+            "otherTags": [],
+            "rarity": "common",
+            "value": [
+                "scrapwright"
+            ]
+        },
+        "slug": "failsafe-core"
+    },
+    "_id": "yYlZzaKRys0pXquW",
+    "flags": {
+        "cinderfall": {
+            "spellTag": "Mk IV · 17th",
+            "ghostRigTier": "Mk IV",
+            "grantedAtLevel": 17,
+            "notSpell": "scrapwright's class document carries system.spellcasting 0, so this is an ability, not a spell, and convert_class_spells.py declines it by design as a NON_CASTERS owner"
+        }
+    }
+}

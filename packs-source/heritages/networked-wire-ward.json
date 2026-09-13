@@ -15,7 +15,18 @@
             "remaster": true,
             "title": "Cinderfall"
         },
-        "rules": [],
+        "rules": [
+            {
+                "itemType": "feat",
+                "key": "ItemAlteration",
+                "mode": "override",
+                "predicate": [
+                    "item:slug:congenital-node"
+                ],
+                "property": "frequency-max",
+                "value": 2
+            }
+        ],
         "traits": {
             "rarity": "common",
             "value": []

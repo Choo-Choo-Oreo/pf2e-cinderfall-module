@@ -1,0 +1,46 @@
+{
+    "name": "Nothing Left To Throw",
+    "type": "capstone",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p>Once per day, spend every remaining point in your Vitae pool on a single thrown Graft. It resolves as a Mk IV Graft of its own type, its area doubles, and every creature in that area takes the full effect with no splash reduction. You finish the throw at 0 Vitae and <em>drained 2</em> until you next rest. Everything you were carrying is in the air, and then it is in them.</p>"
+        },
+        "level": {
+            "value": 20
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "otherTags": [
+                "fleshmancer-butchers"
+            ],
+            "value": [
+                "fleshmancer"
+            ]
+        },
+        "slug": "butchers-major"
+    },
+    "_id": "kBCdeHIujIgh59GH",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "This card's entire payload is a Vitae-spend/gain beyond the bare pool, a Bloom Table roll/choice, Resonance, Load, Strain, or \"Mk\" grade -- none of which has any rule-element representation anywhere in this corpus. fleshmancer.vitae-pool.json's own SpecialResource (slug: vitae, max: 10, renew: false) only declares the bare pool; its schema (value, max, itemUUID, level, renew) has no field for a per-source gain/spend/reroll/choose trigger, so every Vitae-cost/-gain clause on every other card is inert as far as system.rules is concerned, and Bloom/Resonance/Load/Strain have no representation at all. Also depends on fleshmancer.butchers.json, itself underspecified (see that card's own disposition).",
+            "track": "butchers"
+        }
+    }
+}

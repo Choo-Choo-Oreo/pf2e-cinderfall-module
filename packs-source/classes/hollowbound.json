@@ -1,0 +1,703 @@
+{
+    "name": "Hollowbound",
+    "type": "class",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "ancestryFeatLevels": {
+            "value": [
+                1,
+                5,
+                9,
+                13,
+                17
+            ]
+        },
+        "attacks": {
+            "simple": 1,
+            "martial": 0,
+            "advanced": 0,
+            "unarmed": 1,
+            "other": {
+                "name": "",
+                "rank": 0
+            }
+        },
+        "classFeatLevels": {
+            "value": [
+                2,
+                4,
+                6,
+                8,
+                10,
+                12,
+                14,
+                16,
+                18,
+                20
+            ]
+        },
+        "defenses": {
+            "unarmored": 1,
+            "light": 1,
+            "medium": 1,
+            "heavy": 0
+        },
+        "description": {
+            "value": "<p>Everyone else in the soul economy binds a ghost to a machine and calls it labor. You bind one to yourself, sit down across from it, and negotiate like it still gets a vote — because it does, and it remembers every time you forgot that.</p>"
+        },
+        "generalFeatLevels": {
+            "value": [
+                3,
+                7,
+                11,
+                15,
+                19
+            ]
+        },
+        "hp": 8,
+        "items": {
+            "hollowbound.covenant": {
+                "level": 1,
+                "name": "Who You Bind"
+            }
+        },
+        "keyAbility": {
+            "value": [
+                "wis"
+            ]
+        },
+        "perception": 1,
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "savingThrows": {
+            "fortitude": 1,
+            "reflex": 1,
+            "will": 2
+        },
+        "skillFeatLevels": {
+            "value": [
+                2,
+                4,
+                6,
+                8,
+                10,
+                12,
+                14,
+                16,
+                18,
+                20
+            ]
+        },
+        "skillIncreaseLevels": {
+            "value": [
+                3,
+                5,
+                7,
+                9,
+                11,
+                13,
+                15,
+                17,
+                19
+            ]
+        },
+        "slug": "hollowbound",
+        "spellcasting": 0,
+        "trainedSkills": {
+            "additional": 2,
+            "value": []
+        },
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "_id": "SEAjf5EOaTIrtnxO",
+    "flags": {
+        "cinderfall": {
+            "tagline": "Everyone else in the soul economy binds a ghost to a machine and calls it labor. You bind one to yourself, sit down across from it, and negotiate like it still gets a vote — because it does, and it remembers every time you forgot that.",
+            "role": "Negotiator with the Dead — slow trust, sharp debts",
+            "pillar": "Spirit / Faith",
+            "hpFormula": "8 + Con / level",
+            "keyAbilityText": "Wisdom",
+            "spellcastingText": "Occult, prepared (Wisdom)",
+            "spellcastingTradition": "occult",
+            "spellcastingPreparation": "prepared",
+            "terms": [
+                [
+                    "The Hollow",
+                    "Your bound vessel — a corroded saint's mask, a reliquary box wired crooked into your sternum, a conductor's lantern with no bulb left in it. Whatever shape it takes, it's the one thing every wandering soul you've ever struck a deal with has had to move through. Lose it and you lose everything downstream of it."
+                ],
+                [
+                    "Quiet / Unveiled",
+                    "Your two working states. Quiet is the spirit sitting latent behind the Hollow's seal — you get its patience, its trade-knowledge, its quiet utility. Unveiled is you letting it rise all the way to the surface for a scene — sharper, stronger, and no longer entirely you."
+                ],
+                [
+                    "The Toll",
+                    "What you owe. Every favor asked of the spirit adds weight to the Toll; every night's rest and honest conversation pays some of it back down. Let it run high enough, or spend past what's fair in a single ask, and the spirit stops being generous about how it collects."
+                ],
+                [
+                    "Parley",
+                    "The act of asking — your version of casting a spell. You don't recite words at the dead. You make a case, and the Hollow carries your case to whoever's currently housed inside it. Mechanically this is prepared occult spellcasting: each day you prepare cantrips and spells from the occult list (in <em>What You Learned</em>) and cast them using Wisdom against your Parley DC. Vessel spells and pushing an ask for extra Toll build on top of that base."
+                ],
+                [
+                    "Fraying",
+                    "What happens when a Parley asks for more than the spirit is willing to give and the Toll can't cover the difference. Never fatal on its own. Never pleasant either."
+                ],
+                [
+                    "Drifters",
+                    "The setting's word, borrowed by every Hollowbound alive, for the ordinary unhoused dead still wandering the wastes — the raw population you might, with time and risk, talk into the Hollow once your current arrangement runs its course."
+                ]
+            ],
+            "classDC": [
+                {
+                    "term": "parley dc",
+                    "rank": 1
+                }
+            ],
+            "playerChosenSkill": [
+                {
+                    "term": "in your covenant's key skill",
+                    "rank": 1
+                }
+            ],
+            "progression": [
+                {
+                    "level": 1,
+                    "grants": [
+                        [
+                            "Bind the Hollow",
+                            ";",
+                            null
+                        ],
+                        [
+                            " choose Covenant",
+                            ";",
+                            null
+                        ],
+                        [
+                            " Quiet / Unveiled",
+                            ";",
+                            null
+                        ],
+                        [
+                            " prepared occult spellcasting (cantrips + spells, list in What You Learned)",
+                            ";",
+                            null
+                        ],
+                        [
+                            " starting Toll pool",
+                            ",",
+                            null
+                        ],
+                        [
+                            " ancestry feat",
+                            "",
+                            "ancestry feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Trained Parley DC",
+                            ",",
+                            null
+                        ],
+                        [
+                            " trained in your Covenant's key skill",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 2,
+                    "grants": [
+                        [
+                            "Skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Class feat",
+                            "",
+                            "class feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 3,
+                    "grants": [
+                        [
+                            "General feat",
+                            ",",
+                            "general feat"
+                        ],
+                        [
+                            " skill increase",
+                            ",",
+                            "skill increase"
+                        ],
+                        [
+                            " Steadier Seal (Toll decays faster during honest downtime)",
+                            "",
+                            null
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Expert in one Covenant skill",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 4,
+                    "grants": [
+                        [
+                            "Skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Class feat",
+                            "",
+                            "class feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 5,
+                    "grants": [
+                        [
+                            "Ancestry feat",
+                            ",",
+                            "ancestry feat"
+                        ],
+                        [
+                            " skill increase",
+                            ",",
+                            "skill increase"
+                        ],
+                        [
+                            " Widen the Hollow (carry a second, dormant spirit as backup)",
+                            "",
+                            null
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Ability boosts",
+                            ",",
+                            "ability boosts"
+                        ],
+                        [
+                            " expert Parley DC",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 6,
+                    "grants": [
+                        [
+                            "Skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Class feat",
+                            "",
+                            "class feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 7,
+                    "grants": [
+                        [
+                            "General feat",
+                            ",",
+                            "general feat"
+                        ],
+                        [
+                            " skill increase",
+                            ",",
+                            "skill increase"
+                        ],
+                        [
+                            " Raised Toll ceiling",
+                            ";",
+                            null
+                        ],
+                        [
+                            " Fraying die improves by one step",
+                            "",
+                            null
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 8,
+                    "grants": [
+                        [
+                            "Skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Class feat",
+                            "",
+                            "class feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 9,
+                    "grants": [
+                        [
+                            "Ancestry feat",
+                            ",",
+                            "ancestry feat"
+                        ],
+                        [
+                            " skill increase",
+                            ",",
+                            "skill increase"
+                        ],
+                        [
+                            " Second Whisper — borrow one minor boon from a Covenant you don't hold",
+                            "",
+                            null
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Expert in all Covenant skills",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 10,
+                    "grants": [
+                        [
+                            "Skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Class feat",
+                            "",
+                            "class feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Ability boosts",
+                            "",
+                            "ability boosts"
+                        ]
+                    ]
+                },
+                {
+                    "level": 11,
+                    "grants": [
+                        [
+                            "General feat",
+                            ",",
+                            "general feat"
+                        ],
+                        [
+                            " skill increase",
+                            ",",
+                            "skill increase"
+                        ],
+                        [
+                            " Long Parley — Unveiled duration extends significantly",
+                            "",
+                            null
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Master Parley DC",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 12,
+                    "grants": [
+                        [
+                            "Skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Class feat",
+                            "",
+                            "class feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 13,
+                    "grants": [
+                        [
+                            "Ancestry feat",
+                            ",",
+                            "ancestry feat"
+                        ],
+                        [
+                            " skill increase",
+                            ",",
+                            "skill increase"
+                        ],
+                        [
+                            " Weathered Seal (a Fraying result may be downgraded once per day)",
+                            "",
+                            null
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Master in all Covenant skills",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 14,
+                    "grants": [
+                        [
+                            "Skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Class feat",
+                            "",
+                            "class feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 15,
+                    "grants": [
+                        [
+                            "General feat",
+                            ",",
+                            "general feat"
+                        ],
+                        [
+                            " skill increase",
+                            ",",
+                            "skill increase"
+                        ],
+                        [
+                            " Unbinding and Rebinding — release your spirit and court a new Drifter over a downtime ritual",
+                            ",",
+                            null
+                        ],
+                        [
+                            " changing Covenant if you choose",
+                            "",
+                            null
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Ability boosts",
+                            "",
+                            "ability boosts"
+                        ]
+                    ]
+                },
+                {
+                    "level": 16,
+                    "grants": [
+                        [
+                            "Skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Class feat",
+                            "",
+                            "class feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 17,
+                    "grants": [
+                        [
+                            "Ancestry feat",
+                            ",",
+                            "ancestry feat"
+                        ],
+                        [
+                            " skill increase",
+                            ",",
+                            "skill increase"
+                        ],
+                        [
+                            " The Hollow steadies for good — Toll no longer accrues from base (unpushed) Parleys",
+                            "",
+                            null
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Legendary Parley DC",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 18,
+                    "grants": [
+                        [
+                            "Skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Class feat",
+                            "",
+                            "class feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 19,
+                    "grants": [
+                        [
+                            "General feat",
+                            ",",
+                            "general feat"
+                        ],
+                        [
+                            " skill increase",
+                            ",",
+                            "skill increase"
+                        ],
+                        [
+                            " Capstone: The Last Toll Paid",
+                            "",
+                            null
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 20,
+                    "grants": [
+                        [
+                            "Skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Class feat",
+                            ",",
+                            "class feat"
+                        ],
+                        [
+                            " Capstone: Ascend the Hollow / Free the Hollow (choose one, permanent)",
+                            "",
+                            null
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Ability boosts",
+                            "",
+                            "ability boosts"
+                        ]
+                    ]
+                }
+            ],
+            "spellcastingCastingAbility": "Wisdom"
+        }
+    }
+}

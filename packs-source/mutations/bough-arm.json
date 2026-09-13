@@ -24,7 +24,9 @@
             "type": null
         },
         "price": {
-            "value": {}
+            "value": {
+                "gp": 0
+            }
         },
         "publication": {
             "license": "ORC",
@@ -32,7 +34,26 @@
             "title": "Cinderfall"
         },
         "quantity": 1,
-        "rules": [],
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "strike-attack-roll",
+                "type": "circumstance",
+                "value": -1,
+                "predicate": [
+                    "weapon:trait:two-hand"
+                ]
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "athletics",
+                "type": "circumstance",
+                "value": -1,
+                "predicate": [
+                    "action:swim"
+                ]
+            }
+        ],
         "size": "med",
         "traits": {
             "rarity": "uncommon",
@@ -46,22 +67,15 @@
     "_id": "D7uoIV7KceG2wmTF",
     "flags": {
         "cinderfall": {
+            "incomplete": "Raising the arm as a shield (Hardness 5, usable once per day as a free action) has no rule-element equivalent: granting a shield-block reaction requires a real Shield-type item plus a frequency-tracked granted action (GrantItem), not a single rule element on this equipment card -- the same class of gap as the missile/mortar ammo cards flagged in the equipment pass (out of scope for a rule-element-only pass). The two-handed-attack and Swim penalties are real modifiers and are automated below.",
             "mutationType": "minor",
             "tier": "uncommon",
-            "slot": "Arm + Dermal (Multi-Slot)",
             "slots": [
                 "Arm",
                 "Dermal"
             ],
             "slotCost": 2,
-            "roll": "d100 — 63–64",
-            "incomplete": [
-                "level is a stub (0); mutations carry no level",
-                "price is empty; a mutation is not bought"
-            ],
-            "inferred": [
-                "system.usage"
-            ]
+            "roll": "d100 — 63–64"
         }
     }
 }

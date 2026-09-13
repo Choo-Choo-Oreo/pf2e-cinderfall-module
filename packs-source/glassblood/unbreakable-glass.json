@@ -1,0 +1,45 @@
+{
+    "name": "Unbreakable Glass",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "ancestry",
+        "description": {
+            "value": "<p>Remove the Brittle drawback's critical-hit penalty entirely.</p>"
+        },
+        "level": {
+            "value": 13
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Shatterproof"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "Resistance",
+                "type": "physical",
+                "value": 2,
+                "override": true
+            }
+        ],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "glassblood"
+            ]
+        },
+        "slug": "unbreakable-glass"
+    },
+    "_id": "tNfTcrngPuioSN7Z"
+}

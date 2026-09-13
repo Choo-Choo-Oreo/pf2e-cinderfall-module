@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "fleshmancer-butchers"
+            ],
             "rarity": "common",
             "value": [
                 "fleshmancer"
@@ -33,5 +36,10 @@
         },
         "slug": "everything-downwind"
     },
-    "_id": "cIbwqYSY9VBIqNo1"
+    "_id": "cIbwqYSY9VBIqNo1",
+    "flags": {
+        "cinderfall": {
+            "track": "butchers"
+        }
+    }
 }

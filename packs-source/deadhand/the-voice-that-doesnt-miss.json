@@ -27,5 +27,10 @@
         },
         "slug": "the-voice-that-doesnt-miss"
     },
-    "_id": "mJM1QFyzY1ZFGDAJ"
+    "_id": "mJM1QFyzY1ZFGDAJ",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Any ally who's fought beside the caster this encounter can be Cadre-commanded regardless of distance/obstacles, on the same battlefield. Same \"nothing to extend\" gap -- no range value exists on the unbuilt base command mechanic."
+        }
+    }
 }

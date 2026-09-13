@@ -1,0 +1,46 @@
+{
+    "name": "The Threshold",
+    "type": "capstone",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p>You have held enough doorways that your body knows the geometry without being told. Nothing crosses the ground you are standing on — anyone who tries pays for it before they finish the step, and the plating they trusted is the reason it hurts more, not less. The armoured come apart from the inside; the unarmoured just come apart. You have stopped thinking of these as different results.</p>"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "otherTags": [
+                "ironsight-close-iron"
+            ],
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "close-iron-minor"
+    },
+    "_id": "P1xjkv17XpmfnhAy",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Zero-number flavor text for a Draw's Minor/Major Capstone grant point named in classes.ironsight.json's own progression table. States no number, DC, duration, or selector of any kind -- a real content gap, not a search failure.",
+            "track": "close-iron"
+        }
+    }
+}

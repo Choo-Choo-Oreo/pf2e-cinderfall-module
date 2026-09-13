@@ -33,5 +33,10 @@
         },
         "slug": "wardenshape"
     },
-    "_id": "KqYtV0DxjICfmzSo"
+    "_id": "KqYtV0DxjICfmzSo",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Doubly blocked: reducing a *different* ability's action cost has no RE (`CF-list`), and the spellcasting-while-shaped override would normally live inside a `BattleForm`'s own options on a companion effect item — which doesn't exist (`BLIGHTSHAPE-NULL`)."
+        }
+    }
 }

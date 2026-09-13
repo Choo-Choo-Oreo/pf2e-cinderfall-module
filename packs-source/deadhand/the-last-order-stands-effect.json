@@ -1,0 +1,86 @@
+{
+    "name": "Effect: The Last Order Stands",
+    "type": "effect",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "description": {
+            "value": "<p><em>Applied by <strong>The Last Order Stands</strong> to each affected ally.</em></p>\n<hr />\n<p>Name a single objective and up to six allies who can hear and understand you. Until the objective is met or a day passes, those allies gain a +2 status bonus to every check and save made in direct pursuit of it, cannot be compelled to abandon it, and know one another's rough position and condition at all times. This continues whether or not you are alive to see it done.</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "hours",
+            "value": 24
+        },
+        "level": {
+            "value": 20
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "RollOption",
+                "option": "the-last-order-stands",
+                "toggleable": true,
+                "label": "In direct pursuit of the named objective"
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "skill-check",
+                "type": "status",
+                "value": 2,
+                "predicate": [
+                    "the-last-order-stands"
+                ]
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "saving-throw",
+                "type": "status",
+                "value": 2,
+                "predicate": [
+                    "the-last-order-stands"
+                ]
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "attack",
+                "type": "status",
+                "value": 2,
+                "predicate": [
+                    "the-last-order-stands"
+                ]
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "perception",
+                "type": "status",
+                "value": 2,
+                "predicate": [
+                    "the-last-order-stands"
+                ]
+            }
+        ],
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "value": []
+        },
+        "slug": "the-last-order-stands-effect"
+    },
+    "_id": "b9seZzXt4oOFyuAI",
+    "flags": {
+        "cinderfall": {
+            "effectOf": "deadhand.the-last-order-stands",
+            "landsOn": "ally"
+        }
+    }
+}

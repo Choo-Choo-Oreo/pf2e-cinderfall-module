@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "flavored"
+            ],
             "rarity": "common",
             "value": [
                 "reckoner"
@@ -33,5 +36,11 @@
         },
         "slug": "the-unspeakable-ascendant"
     },
-    "_id": "fjLHLeq5WEcOs6fA"
+    "_id": "fjLHLeq5WEcOs6fA",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Strips metagame/foreknowledge benefits from creatures affected by NO WORD FOR IT -- no rule element denies 'prior knowledge' bonuses generically; confirmed absent, nothing in the roll-option/ or adjust-modifier.ts schemas targets this shape.",
+            "flavored": true
+        }
+    }
 }

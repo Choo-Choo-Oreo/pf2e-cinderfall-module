@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "deadhand-second"
+            ],
             "rarity": "common",
             "value": [
                 "deadhand"
@@ -33,5 +36,10 @@
         },
         "slug": "measure-them"
     },
-    "_id": "jDZ4OsqcK1cArpCW"
+    "_id": "jDZ4OsqcK1cArpCW",
+    "flags": {
+        "cinderfall": {
+            "track": "second"
+        }
+    }
 }

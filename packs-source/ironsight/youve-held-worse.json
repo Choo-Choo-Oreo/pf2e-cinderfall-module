@@ -1,0 +1,68 @@
+{
+    "name": "You've Held Worse",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
+        "description": {
+            "value": "<span class=\"sdesc\">You've held enough guns, and enough worse things, that none of them surprise you anymore. Your proficiency ranks for simple weapons, martial weapons, unarmed attacks, and advanced firearms &amp; crossbows increase to expert.</span>"
+        },
+        "level": {
+            "value": 5
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "system.proficiencies.attacks.simple.rank",
+                "value": 2
+            },
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "system.proficiencies.attacks.martial.rank",
+                "value": 2
+            },
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "system.proficiencies.attacks.unarmed.rank",
+                "value": 2
+            },
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "system.proficiencies.attacks.advanced-firearms-crossbows.rank",
+                "value": 2
+            }
+        ],
+        "traits": {
+            "otherTags": [],
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "youve-held-worse"
+    },
+    "_id": "muFZN7JjIaHDnAQF",
+    "flags": {
+        "cinderfall": {
+            "grantedAtLevel": 5
+        }
+    }
+}

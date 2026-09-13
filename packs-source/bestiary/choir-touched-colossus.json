@@ -205,7 +205,9 @@
                 },
                 "attackEffects": {
                     "custom": "",
-                    "value": []
+                    "value": [
+                        "drain-of-unmaking"
+                    ]
                 },
                 "bonus": {
                     "value": 30
@@ -222,7 +224,7 @@
                     }
                 },
                 "description": {
-                    "value": "<p>Damage 4d10+16 void plus 2d6 persistent void, and the target must succeed at a DC 38 Fortitude save or be drained 2</p>"
+                    "value": ""
                 },
                 "publication": {
                     "license": "ORC",
@@ -364,14 +366,41 @@
                 }
             },
             "type": "action"
+        },
+        {
+            "_id": "YSyvBeL0gULHgnxL",
+            "img": "systems/pf2e/icons/actions/Passive.webp",
+            "name": "Drain of Unmaking",
+            "sort": 1600000,
+            "system": {
+                "actionType": {
+                    "value": "passive"
+                },
+                "actions": {
+                    "value": null
+                },
+                "category": "offensive",
+                "description": {
+                    "value": "<p>The target must succeed at a DC 38 Fortitude save or be drained 2.</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "drain-of-unmaking",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "type": "action"
         }
     ],
     "flags": {
         "cinderfall": {
-            "alignment": "CE",
-            "incomplete": [
-                "Melee strike 'unmaking hand': rider 'and the target must succeed at a DC 38 Fortitude save or be drained 2' kept as text only"
-            ]
+            "alignment": "CE"
         }
     }
 }

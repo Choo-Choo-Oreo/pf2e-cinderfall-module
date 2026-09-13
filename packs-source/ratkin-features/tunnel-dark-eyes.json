@@ -1,0 +1,57 @@
+{
+    "name": "Tunnel-Dark Eyes",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "ancestryfeature",
+        "description": {
+            "value": "<p>Darkvision, plus a bonus to Perception checks that rely on scent.</p>"
+        },
+        "level": {
+            "value": 0
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "Sense",
+                "selector": "darkvision"
+            },
+            {
+                "key": "RollOption",
+                "option": "tunnel-dark-eyes-scent",
+                "toggleable": true,
+                "label": "The check relies on scent"
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "perception",
+                "type": "circumstance",
+                "value": 1,
+                "predicate": [
+                    "tunnel-dark-eyes-scent"
+                ]
+            }
+        ],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ratkin"
+            ]
+        },
+        "slug": "tunnel-dark-eyes"
+    },
+    "_id": "JQcYaWdG3WSHhJGD"
+}

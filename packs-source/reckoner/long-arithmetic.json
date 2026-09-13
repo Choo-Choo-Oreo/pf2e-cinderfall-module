@@ -1,46 +1,36 @@
 {
     "name": "Long Arithmetic",
-    "type": "spell",
+    "type": "feat",
     "img": "icons/svg/mystery-man.svg",
     "system": {
-        "area": null,
-        "cost": {
-            "value": ""
+        "actionType": {
+            "value": "passive"
         },
-        "counteraction": false,
-        "damage": {},
-        "defense": null,
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
         "description": {
-            "value": "<p>You identify the exact point at which the target is going to fail — a DC and a flat, always-true description, no matter how much the GM would rather it weren't.</p>"
-        },
-        "duration": {
-            "sustained": false,
-            "value": ""
+            "value": "<p>Everything has a point at which it eventually breaks. You've always been able to see roughly where that point is — in a wall, a plan, a person.</p><hr /><p><strong>THE FAILURE POINT —</strong> name the exact point at which an object, structure, or stated plan will fail — a DC and a flat, always-true description the GM doesn't get to walk back.</p>"
         },
         "level": {
             "value": 1
+        },
+        "prerequisites": {
+            "value": []
         },
         "publication": {
             "license": "ORC",
             "remaster": true,
             "title": "Cinderfall"
         },
-        "range": {
-            "value": "30 feet"
-        },
-        "requirements": "",
         "rules": [],
-        "target": {
-            "value": "1 object, structure, or stated plan"
-        },
-        "time": {
-            "value": "2"
-        },
         "traits": {
+            "otherTags": [
+                "reckoner-aspect"
+            ],
             "rarity": "common",
-            "traditions": [],
             "value": [
-                "focus",
                 "reckoner"
             ]
         },
@@ -49,9 +39,15 @@
     "_id": "MVCMAKAsa8Hn943c",
     "flags": {
         "cinderfall": {
+            "incomplete": "This Aspect base feat plausibly wants a GrantItem granting its signature focus spell/ability, matching the ChoiceSet+GrantItem pattern already used for the Aspect subclass choice itself (reckoner.aspect.json). Not shipped: the only intra-corpus GrantItem precedents are a dynamic ChoiceSet-selection token or a fixed UUID into the real pf2e system's own compendiums -- there is no existing example of a fixed GrantItem pointing at another Cinderfall-authored card by literal compendium UUID, and the Cinderfall Foundry module's actual pack/document naming (tools/foundry/build_pack.py / pf2e-cinderfall-module) was not checked in this cards-only research pass. See feats-class-reckoner-draft.md open question 1 (GRANTITEM-UUID-OPEN).",
             "focusCost": "1",
             "spellTag": "Long Arithmetic",
-            "listing": "Aspect Signatures / The Halving decay / entropy"
+            "listing": "Aspect Signatures / The Halving decay / entropy",
+            "subclassOf": "reckoner",
+            "subclassChoice": "Choose Your Source, Then Your Aspect",
+            "role": "Prophecy of Failure · Structural Truth",
+            "followUp": "signature spell 'The Failure Point' is record reckoner.the-failure-point; the card renders on spells-abilities.html as a spell-entry and its statline/body are authored above",
+            "subclassLayer": "aspect"
         }
     }
 }

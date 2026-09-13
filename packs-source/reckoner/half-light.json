@@ -1,46 +1,36 @@
 {
     "name": "Half-Light",
-    "type": "spell",
+    "type": "feat",
     "img": "icons/svg/mystery-man.svg",
     "system": {
-        "area": null,
-        "cost": {
-            "value": ""
+        "actionType": {
+            "value": "passive"
         },
-        "counteraction": false,
-        "damage": {},
-        "defense": null,
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
         "description": {
-            "value": "<p>Melee touch — this doesn't age flesh, only metal. Make a melee spell attack roll against the item's AC (an unwilling wielder may instead attempt a Reflex save to snatch it clear). <i>Success</i> the item corrodes, taking a permanent −1 item penalty until repaired by a smith (1 hour, Crafting DC equal to the item's level). <i>Critical Success</i> as success, but the penalty is −2. This penalty does not stack past −2 from repeated castings.</p>"
-        },
-        "duration": {
-            "sustained": false,
-            "value": ""
+            "value": "<p>The most literal expression of the Halving: things rust, wither, and break down faster near you, whether you want them to or not.</p><hr /><p><strong>RUST TOUCH —</strong> corrode a target's worn armor or held metal weapon on a touch, leaving a −1 item penalty until it's repaired — −2 on a critical hit, and no worse from repeat castings.</p>"
         },
         "level": {
             "value": 1
+        },
+        "prerequisites": {
+            "value": []
         },
         "publication": {
             "license": "ORC",
             "remaster": true,
             "title": "Cinderfall"
         },
-        "range": {
-            "value": "melee"
-        },
-        "requirements": "",
         "rules": [],
-        "target": {
-            "value": "1 creature's worn armor or held metal weapon"
-        },
-        "time": {
-            "value": "1"
-        },
         "traits": {
+            "otherTags": [
+                "reckoner-aspect"
+            ],
             "rarity": "common",
-            "traditions": [],
             "value": [
-                "focus",
                 "reckoner"
             ]
         },
@@ -49,9 +39,15 @@
     "_id": "Cc6lQdZkdpWpCkvR",
     "flags": {
         "cinderfall": {
+            "incomplete": "This Aspect base feat plausibly wants a GrantItem granting its signature focus spell/ability, matching the ChoiceSet+GrantItem pattern already used for the Aspect subclass choice itself (reckoner.aspect.json). Not shipped: the only intra-corpus GrantItem precedents are a dynamic ChoiceSet-selection token or a fixed UUID into the real pf2e system's own compendiums -- there is no existing example of a fixed GrantItem pointing at another Cinderfall-authored card by literal compendium UUID, and the Cinderfall Foundry module's actual pack/document naming (tools/foundry/build_pack.py / pf2e-cinderfall-module) was not checked in this cards-only research pass. See feats-class-reckoner-draft.md open question 1 (GRANTITEM-UUID-OPEN).",
             "focusCost": "1",
             "spellTag": "Half-Light",
-            "listing": "Aspect Signatures / The Halving decay / entropy"
+            "listing": "Aspect Signatures / The Halving decay / entropy",
+            "subclassOf": "reckoner",
+            "subclassChoice": "Choose Your Source, Then Your Aspect",
+            "role": "Corrosion · Radiant Decay",
+            "followUp": "signature spell 'Rust Touch' is record reckoner.rust-touch; the card renders on spells-abilities.html as a spell-entry and its statline/body are authored above",
+            "subclassLayer": "aspect"
         }
     }
 }

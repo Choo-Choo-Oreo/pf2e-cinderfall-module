@@ -1,0 +1,46 @@
+{
+    "name": "Reshuffled Hand",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> An enemy within 30 feet scores a critical hit against you or an ally.</p><p><strong>Cost</strong> 1 Zeal</p><hr /><p>Reduce the triggering critical hit to a normal hit. This is a misfortune effect. The Croupier redeals the hand — once.</p>"
+        },
+        "level": {
+            "value": 8
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "otherTags": [
+                "cultist-croupier"
+            ],
+            "rarity": "common",
+            "value": [
+                "cultist"
+            ]
+        },
+        "slug": "reshuffled-hand"
+    },
+    "_id": "CQqzPxWhmkeWWXBt",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "\"Trigger an enemy crits you or an ally within 30 feet, Cost 1 Zeal: reduce that crit to a normal hit\" is blocked twice over: P-DEGREE-REACTIVE (a reactive, frequency-gated fix applied after an unwanted roll is already known) and P-CROSS (the roll being fixed is a DIFFERENT creature's -- the attacker's crit, not the card holder's own). Separately blocked by P-ZEAL for the Cost 1 Zeal clause, but not the deciding factor.",
+            "track": "croupier"
+        }
+    }
+}

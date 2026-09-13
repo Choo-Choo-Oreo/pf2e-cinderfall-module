@@ -25,7 +25,14 @@
             "remaster": true,
             "title": "Cinderfall"
         },
-        "rules": [],
+        "rules": [
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "system.proficiencies.attacks.firearms.rank",
+                "value": 2
+            }
+        ],
         "traits": {
             "rarity": "common",
             "value": [

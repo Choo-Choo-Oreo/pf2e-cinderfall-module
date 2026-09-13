@@ -1,0 +1,39 @@
+{
+    "name": "Ashwalker Elder",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "ancestry",
+        "description": {
+            "value": "<p>Once per day, grant your whole group Iron Stomach's benefit for a full day of travel through hazardous terrain.</p>"
+        },
+        "level": {
+            "value": 17
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ashwalker"
+            ]
+        },
+        "slug": "ashwalker-elder"
+    },
+    "_id": "dJYA9BT6n0pxiKNk",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "This affects another creature's own roll, HP, or condition from the card holder's passive/item, which has no rule-element hook in real pf2e. Granting your whole group another feat's benefit for a day is also a bucket-3 shape with no precedent."
+        }
+    }
+}

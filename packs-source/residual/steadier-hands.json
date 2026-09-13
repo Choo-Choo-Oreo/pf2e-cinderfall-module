@@ -1,0 +1,43 @@
+{
+    "name": "Steadier Hands",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "ancestry",
+        "description": {
+            "value": "<p>Borrowed Instinct's reroll can also apply to a Fortitude or Reflex save, once per day.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Borrowed Instinct"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "residual"
+            ]
+        },
+        "slug": "steadier-hands"
+    },
+    "_id": "qeUtiNiDd1rOcDvY",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The parent card this upgrades ships rules: [] itself (confirmed by direct read), so there is nothing real to extend or increase. (Borrowed Instinct itself ships rules: [] -- No Reroll rule-element key exists anywhere in the compendium (reconfirmed this pass).)"
+        }
+    }
+}

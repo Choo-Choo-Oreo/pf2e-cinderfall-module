@@ -51,10 +51,12 @@ const TAB_KEY = "cinderfall-body";
  * creates write the same shape. The pre-2026-09-08 object shape
  * ({category, key}) is still read, so items created by an older build of this
  * tab keep working.
- * Works like feats: a player or GM adds one whenever they like (the "+" on
- * an empty slot creates a blank one and opens its sheet to fill in), and
- * removing one is the normal "delete item" action -- no custom install/
- * uninstall flow.
+ * Works like feats: a player or GM adds one whenever they like, and removing
+ * one is the normal "delete item" action -- no custom install/uninstall flow.
+ * Added 2026-09-09: the "+" on an empty slot opens a picker over the real,
+ * authored augments (see "Augment picker" below) instead of only ever
+ * creating a blank stub -- a "Custom / homebrew item..." option in that same
+ * picker still creates the blank stub for a GM who wants one anyway.
  *
  * PF2e has no rule element for inventing a new labeled feat-slot group on
  * the real Feats tab (confirmed against foundryvtt/pf2e's own rule-element
@@ -218,7 +220,7 @@ function rowHTML(row) {
          <i class="fa-solid fa-trash"></i>
        </a>`
     : `<span class="cinderfall-slot-empty">empty</span>
-       <a class="cinderfall-slot-add" data-action="add-item" data-category="${row.category}" data-key="${row.key}" data-tooltip="Add">
+       <a class="cinderfall-slot-add" data-action="add-item" data-key="${row.key}" data-tooltip="Add">
          <i class="fa-solid fa-plus"></i>
        </a>`;
   return `<li class="cinderfall-slot-row"><span class="cinderfall-slot-label">${row.label}</span>${body}</li>`;
@@ -259,10 +261,13 @@ function buildPanelHTML(actor) {
   }
 
   return `<div class="tab cinderfall-body-panel" data-group="primary" data-tab="${TAB_KEY}">
-    <p class="notes">Crude v1 -- bio-augmentations, cybernetics, and mutations all go here, treated
-    identically. "Body Parts" affect one limb/organ; "Body Systems" affect the whole body (e.g. acidic
-    blood). An item marked &times;N fills one slot in each of N rows. Click a name to edit it, the
-    trash to remove it, or + to add one.</p>
+    <details class="cinderfall-body-help">
+      <summary>Crude v1 -- how this tab works</summary>
+      <p class="notes">Bio-augmentations, cybernetics, and mutations all go here, treated
+      identically. "Body Parts" affect one limb/organ; "Body Systems" affect the whole body (e.g. acidic
+      blood). An item marked &times;N fills one slot in each of N rows. Click a name to edit it, the
+      trash to remove it, or + to add one.</p>
+    </details>
     ${section("Body Parts", bodyPartsRows)}
     ${section("Body Systems", bodyWholeRows)}
     ${section("Inlays", inlayRows)}
@@ -271,6 +276,189 @@ function buildPanelHTML(actor) {
       Listed here so they are visible rather than lost.</p>
       <ul class="cinderfall-slot-list">${unassignedRows.map(rowHTML).join("")}</ul>` : ""}
   </div>`;
+}
+
+/**
+ * Augment picker -- added 2026-09-09 so "+" on an empty slot offers the real,
+ * authored augments instead of only ever a blank stub the GM has to hand-fill.
+ *
+ * Biological, cybernetic and mutation augments all fold into ONE compendium
+ * pack, `pf2e-cinderfall-module.equipment`, alongside plain weapons, armor,
+ * consumables and treasure -- tools/foundry/build_pack.py's PACKS table lists
+ * packs-source/biological, /cybernetic and /mutations all under the single
+ * "equipment" entry, the same way pf2e keeps every physical item in one pack
+ * regardless of type. So an augment cannot be told apart from plain gear by
+ * pack membership; the only reliable discriminator is the SAME
+ * flags.cinderfall.slots array collectInstalled() above already reads to
+ * bucket installed items -- reused here rather than augmentKind/mutationType,
+ * which are spelled differently between the two families and neither is
+ * present on the other (checked 2026-09-09 against packs-source: 0/94
+ * mutations carry augmentKind, only biological/cybernetic do). Filtering on
+ * either alone would silently drop an entire family from the picker.
+ */
+const AUGMENT_PACK_ID = `${MODULE_ID}.equipment`;
+
+function canonicalSlotKey(key) {
+  const k = String(key ?? "").toLowerCase();
+  return SLOT_ALIASES[k] ?? k;
+}
+
+/** Does this item's slots array occupy the given slot key? Case/alias insensitive. */
+function augmentMatchesSlot(cf, targetKey) {
+  const slots = Array.isArray(cf?.slots) ? cf.slots : [];
+  const target = canonicalSlotKey(targetKey);
+  return slots.some((s) => canonicalSlotKey(s) === target);
+}
+
+function augmentKindLabel(cf) {
+  if (cf?.mutationType) return "Mutation";
+  if (cf?.augmentKind) return capitalize(cf.augmentKind);
+  return "Augment";
+}
+
+/**
+ * Would installing an item carrying `cf` land on a slot that already has
+ * something in it?
+ *
+ * The site is explicit that this must never happen: "One augment per slot"
+ * and "Multi-slot augments occupy every slot they list and lock out anything
+ * else in those slots" (cyber-augmentation.html:146,161). The picker only
+ * ever offers a slot's "+" once that ONE slot is empty (rowHTML never draws
+ * "+" over an existing item), but a multi-slot candidate can still reach
+ * into a *different* slot that already has an occupant -- measured live
+ * 2026-09-09 (Ascension Frame, "every slot", stacked on top of an existing
+ * Symbiote Mantle in Frame/Circulatory/Dermal/Viscera instead of being
+ * locked out of them). A slot this actor doesn't actually supply
+ * (!isSupplied) can't conflict; nothing can ever occupy it.
+ */
+function slotsConflict(cf, counts, installed) {
+  const slots = Array.isArray(cf?.slots) ? cf.slots : [];
+  return slots.some((key) => {
+    if (!isSupplied(key, counts)) return false;
+    const bucket = installed.get(slotBucketKey(categoryForKey(key, counts), key)) ?? [];
+    return bucket.length > 0;
+  });
+}
+
+/**
+ * Every candidate in the equipment pack that occupies the given slot key and
+ * would not lock horns with something already installed in one of its OTHER
+ * slots. Reads the index, not full documents -- getIndex({fields}) against
+ * this same pack is the pattern main.js's own resolveEquipmentUuid() already
+ * uses.
+ */
+async function loadAugmentCandidates(actor, targetKey) {
+  const pack = game.packs.get(AUGMENT_PACK_ID);
+  if (!pack) return [];
+  const counts = collectSlotCounts(actor);
+  const { byKey: installed } = collectInstalled(actor, counts);
+  const index = await pack.getIndex({ fields: ["flags", "system.level.value"] });
+  return index
+    .filter((e) => augmentMatchesSlot(e.flags?.cinderfall, targetKey))
+    .filter((e) => !slotsConflict(e.flags?.cinderfall, counts, installed))
+    .map((e) => ({
+      id: e._id,
+      name: e.name,
+      level: e.system?.level?.value ?? 0,
+      kind: augmentKindLabel(e.flags?.cinderfall),
+    }))
+    .sort((a, b) => a.kind.localeCompare(b.kind) || a.name.localeCompare(b.name));
+}
+
+/**
+ * Embeds a full, unmodified copy of a real compendium augment onto the
+ * actor. Re-checks slotsConflict rather than trusting the picker's own
+ * filtered list, in case something else installed into a shared slot in the
+ * time the dialog was open (an unlikely race in a single-GM session, but the
+ * check is cheap and this is the only gate standing between a click and
+ * violating "one augment per slot").
+ */
+async function installAugmentFromCompendium(actor, itemId) {
+  const pack = game.packs.get(AUGMENT_PACK_ID);
+  const doc = await pack?.getDocument(itemId);
+  if (!doc) {
+    ui.notifications?.warn(`${MODULE_ID} | that augment could not be found in the compendium anymore`);
+    return;
+  }
+
+  const counts = collectSlotCounts(actor);
+  const { byKey: installed } = collectInstalled(actor, counts);
+  const cf = doc.flags?.cinderfall;
+  if (slotsConflict(cf, counts, installed)) {
+    const taken = (cf?.slots ?? []).filter((key) => {
+      if (!isSupplied(key, counts)) return false;
+      return (installed.get(slotBucketKey(categoryForKey(key, counts), key)) ?? []).length > 0;
+    });
+    ui.notifications?.warn(
+      `${MODULE_ID} | one augment per slot -- remove what's in ${taken.map(capitalize).join(", ")} first`,
+    );
+    return;
+  }
+
+  // _id is the compendium document's own id; embedding it verbatim risks
+  // colliding with an id already on this actor. createEmbeddedDocuments
+  // assigns a fresh one whenever the field is absent.
+  const data = doc.toObject();
+  delete data._id;
+  await actor.createEmbeddedDocuments("Item", [data]);
+}
+
+async function createBlankBodyItem(actor, key) {
+  const [created] = await actor.createEmbeddedDocuments("Item", [{
+    name: "New Body Item",
+    type: "equipment",
+    system: { description: { value: "" } },
+    // Same shape the card data uses, so tab-made and card-made items are
+    // read by one code path. `category` is re-derived on read from the
+    // supply side, so it is not stored.
+    flags: { cinderfall: { slot: key, slots: [key], slotCost: 1 } },
+  }]);
+  created?.sheet.render(true);
+}
+
+/**
+ * "+" on an empty slot: offer every authored augment that occupies it, plus a
+ * fallback to the old blank-stub flow for GM homebrew. A plain DialogV2
+ * button list rather than a custom picker Application -- `column-buttons` is
+ * the same real, shipped pattern pf2e's own trickMagicItem() dialog uses
+ * (pf2e.mjs, "PF2E.TrickMagicItemPopup"). v1 has no search box, so a slot
+ * with many candidates (Frame/Dermal top out at 40, counted 2026-09-09 across
+ * packs-source/biological+cybernetic+mutations) is a long scroll rather than
+ * a filtered list -- shippable, not a blocker, and an obvious next step.
+ */
+async function openAugmentPicker(actor, key) {
+  const candidates = await loadAugmentCandidates(actor, key);
+  const buttons = candidates.map((c) => ({
+    action: c.id,
+    label: `[${c.kind}] ${c.name} (Lvl ${c.level})`,
+  }));
+  buttons.push({ action: "__blank__", label: "Custom / homebrew item..." });
+
+  const content = candidates.length
+    ? ""
+    : `<p class="notes">No authored augments are tagged for this slot yet.</p>`;
+
+  // pf2e's own column-buttons dialog (trickMagicItem, pf2e.mjs ~50541) never
+  // has more than ~6 buttons, so pf2e.css:6349's ".column-buttons .form-footer"
+  // rule sets no max-height/overflow at all. A slot like Frame or Dermal has
+  // 40 candidates (counted 2026-09-09), which just overflowed the window with
+  // a non-functional scrollbar -- measured live 2026-09-09. `position.height`
+  // bounds the window so Foundry's own ApplicationV2 chrome gives it a real
+  // scroll area; the CSS's min-height:0 is needed because .form-footer is a
+  // flex child and won't shrink to fit without it (see the module CSS file).
+  const choice = await foundry.applications.api.DialogV2.wait({
+    id: "cinderfall-augment-picker",
+    classes: ["column-buttons"],
+    window: { title: `Add to ${capitalize(key)}`, icon: "fa-solid fa-dna" },
+    position: { height: 600 },
+    content,
+    buttons,
+    rejectClose: false,
+  });
+
+  if (!choice) return;
+  if (choice === "__blank__") await createBlankBodyItem(actor, key);
+  else await installAugmentFromCompendium(actor, choice);
 }
 
 // Guarded so tests/body-slots.test.mjs can import the pure functions below
@@ -284,6 +472,23 @@ if (typeof Hooks !== "undefined") {
     }
   });
 }
+
+/**
+ * Whether Body was the last tab the user clicked on a given open sheet.
+ *
+ * pf2e's own tab-restore pass (activeTab, derived from app.tabGroups.primary
+ * -- pf2e.mjs ~123058) runs as part of its Handlebars template render, BEFORE
+ * this file's Hooks.on("render...") callback ever gets a chance to inject
+ * "cinderfall-body" into the DOM. So on a re-render triggered by our own
+ * createEmbeddedDocuments/deleteEmbeddedDocuments call (e.g. adding an
+ * augment from the picker), pf2e's template doesn't recognize
+ * "cinderfall-body" as a tab id, falls back to its default, and the sheet
+ * visibly jumps back to Character -- measured live 2026-09-09. Tracked here
+ * instead of trusting app.tabGroups.primary, which pf2e may reset to its own
+ * default in that same fallback. Keyed by `app` (WeakMap) so multiple open
+ * sheets for different actors don't share state.
+ */
+const bodyTabActiveByApp = new WeakMap();
 
 function injectTab(app, html) {
   const root = html instanceof HTMLElement ? html : html[0];
@@ -315,28 +520,56 @@ function injectTab(app, html) {
   content.insertAdjacentHTML("beforeend", buildPanelHTML(actor));
   const panel = content.querySelector(`[data-tab="${TAB_KEY}"]`);
 
+  // If Body was active before this render (e.g. we just triggered it by
+  // embedding an augment), pf2e's own restore pass already picked a
+  // different tab as active without knowing ours exists -- override it back.
+  if (bodyTabActiveByApp.get(app)) {
+    for (const a of nav.querySelectorAll('[data-group="primary"][data-tab]')) {
+      a.classList.toggle("active", a.dataset.tab === TAB_KEY);
+    }
+    for (const t of content.querySelectorAll(':scope > [data-group="primary"][data-tab]')) {
+      t.classList.toggle("active", t.dataset.tab === TAB_KEY);
+    }
+    // The blue "panel-title" header text is a SEPARATE element pf2e keeps in
+    // sync itself, but only via its own click listener
+    // (#activateNavListeners, pf2e.mjs ~24775) -- reading whichever nav item
+    // carries .active and copying its data-tooltip. Forcing .active above
+    // (no real click event) skips that listener entirely, so without this
+    // the header text is left showing whatever pf2e's own restore pass
+    // picked (e.g. "Character") while the Body panel is what's on screen.
+    // Measured live 2026-09-09.
+    const panelTitle = nav.querySelector(":scope > .panel-title");
+    if (panelTitle) panelTitle.innerText = game.i18n.localize(link.dataset.tooltip);
+  }
+
+  // Record whichever tab the user actually clicks (ours or a pf2e-native
+  // one), so the *next* re-render knows whether to restore Body. Bound once
+  // per persistent nav element, not once per render, to avoid stacking
+  // duplicate listeners across re-renders that reuse the same nav node.
+  if (!nav.dataset.cinderfallTabTracker) {
+    nav.dataset.cinderfallTabTracker = "1";
+    nav.addEventListener("click", (ev) => {
+      const tabLink = ev.target.closest("[data-tab]");
+      if (tabLink) bodyTabActiveByApp.set(app, tabLink.dataset.tab === TAB_KEY);
+    });
+  }
+
   panel.addEventListener("click", async (ev) => {
     const target = ev.target.closest("[data-action]");
     if (!target) return;
-    const { action, itemId, category, key } = target.dataset;
+    const { action, itemId, key } = target.dataset;
 
     if (action === "edit-item") {
       actor.items.get(itemId)?.sheet.render(true);
     } else if (action === "delete-item") {
       await actor.deleteEmbeddedDocuments("Item", [itemId]);
     } else if (action === "add-item") {
-      const [created] = await actor.createEmbeddedDocuments("Item", [{
-        name: "New Body Item",
-        type: "equipment",
-        system: { description: { value: "" } },
-        // Same shape the card data uses, so tab-made and card-made items are
-        // read by one code path. `category` is re-derived on read from the
-        // supply side, so it is not stored.
-        flags: { cinderfall: { slot: key, slots: [key], slotCost: 1 } },
-      }]);
-      created?.sheet.render(true);
+      await openAugmentPicker(actor, key);
     }
   });
 }
 
-export { collectSlotCounts, collectInstalled, categoryForKey, slotBucketKey, buildSlotRows, buildPanelHTML };
+export {
+  collectSlotCounts, collectInstalled, categoryForKey, slotBucketKey, buildSlotRows, buildPanelHTML,
+  augmentMatchesSlot, augmentKindLabel, slotsConflict,
+};

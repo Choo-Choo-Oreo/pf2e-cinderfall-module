@@ -1,0 +1,39 @@
+{
+    "name": "Warren-Sense",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "ancestry",
+        "description": {
+            "value": "<p>Bonus to Perception checks to Seek hidden doors, tunnels, or passages in cramped or underground spaces, and to notice ambushes set in tight quarters.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ratkin"
+            ]
+        },
+        "slug": "warren-sense"
+    },
+    "_id": "Pun92rGHVuPtWVr0",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "'Bonus to Perception checks to Seek hidden doors, tunnels, or passages... and to notice ambushes' states no numeric value. The card states a bonus/effect but gives no numeric value or formula to build a rule element from without inventing one."
+        }
+    }
+}

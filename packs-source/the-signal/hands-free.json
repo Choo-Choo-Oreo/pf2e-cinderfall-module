@@ -33,5 +33,10 @@
         },
         "slug": "hands-free"
     },
-    "_id": "05e1gDEOVspjTjnr"
+    "_id": "05e1gDEOVspjTjnr",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "`ItemAlteration`'s `traits` mode (`add`/`remove`/`subtract`) is real and would be the right tool — but there is no Broadcast item in this file set to target (SB3). No \"Broadcast\" stance/aura item is ever instantiated as an Item with its own system.rules anywhere in this corpus. The shape (a stance whose aura buffs allies) is real and buildable in pf2e via Aura + a companion effect item -- but no such Broadcast item exists among this class's files to attach a rule element to."
+        }
+    }
 }

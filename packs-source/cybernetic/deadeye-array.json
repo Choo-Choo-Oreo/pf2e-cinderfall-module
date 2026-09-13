@@ -1,0 +1,74 @@
+{
+    "name": "Deadeye Array",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>Motion-tracking optics. Ignore the DC 5 flat check to target a creature concealed by dim light, fog, smoke, or nonmagical darkness, and treat it as not concealed for your ranged Strikes (still can't target the hidden). +1 item bonus to Perception for Seek.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 8
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "gp": 500
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "perception",
+                "type": "item",
+                "value": 1,
+                "predicate": [
+                    "action:seek"
+                ]
+            }
+        ],
+        "size": "med",
+        "traits": {
+            "rarity": "uncommon",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "deadeye-array"
+    },
+    "_id": "sQRwXkFpBTFDpUA1",
+    "flags": {
+        "cinderfall": {
+            "augmentKind": "cybernetic",
+            "augmentType": "implant",
+            "tier": "uncommon",
+            "slots": [
+                "Ocular"
+            ],
+            "slotCost": 1,
+            "grade": 2,
+            "availability": "Restricted",
+            "level": 8,
+            "drift": "+2"
+        }
+    }
+}

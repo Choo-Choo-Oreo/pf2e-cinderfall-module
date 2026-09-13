@@ -1,0 +1,41 @@
+{
+    "name": "Track Through Ash",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "skill",
+        "description": {
+            "value": "<p>Ashfall erases most trails within the hour, but you've learned to read what it leaves instead of what it covers. You don't take the normal circumstance penalty to Track a creature through ashfall, heavy dust, or windblown debris.</p>"
+        },
+        "level": {
+            "value": 6
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Expert in Survival"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "track-through-ash"
+    },
+    "_id": "MrCQgXtjADOdeqMc",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The Track penalty removal is gated on 'ashfall, heavy dust, or windblown debris', an environmental condition with no roll-option hook: pf2e's terrain roll options come from a closed environmentTypes enum (aquatic/arctic/desert/forest/mountain/plains/swamp/underground/urban; pf2e-source/src/module/scene/region-behavior/environment.ts:16-20, StringField choices restricted to that list) that has none of Cinderfall's wasteland terrain, and there is no GM-facing way to add to it. Real Rock Runner's own terrain:stone/terrain:earth predicate values aren't in that enum either, confirming this is a closed system, not a GM-extensible one."
+        }
+    }
+}

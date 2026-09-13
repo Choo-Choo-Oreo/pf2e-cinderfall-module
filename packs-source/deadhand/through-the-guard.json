@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "deadhand-breaker"
+            ],
             "rarity": "common",
             "value": [
                 "deadhand"
@@ -33,5 +36,11 @@
         },
         "slug": "through-the-guard"
     },
-    "_id": "1o2jS41UwKcrV0Tn"
+    "_id": "1o2jS41UwKcrV0Tn",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Strikes with a two-handed melee weapon reduce the target's own circumstance bonus to AC from cover/a raised shield/a similar obstruction by 1 (2 against breakable cover). No selector suppresses a target's own received circumstance bonus from the attacker's passive (same absence confirmed for second-ascendant) -- this is the inverse of granting the attacker a bonus and has no matching precedent.",
+            "track": "breaker"
+        }
+    }
 }

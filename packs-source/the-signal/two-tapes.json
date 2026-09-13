@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "the-signal-requiem"
+            ],
             "rarity": "common",
             "value": [
                 "the-signal"
@@ -33,5 +36,11 @@
         },
         "slug": "two-tapes"
     },
-    "_id": "wH8O8d5U0vQHV4uR"
+    "_id": "wH8O8d5U0vQHV4uR",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "SB1 (Encore Performance is the `requiem-track` 15th-level ability, itself SB1/SB4-blocked) — this card only ever modifies an ability that doesn't exist as encoded content. No SpecialResource rule element exists for Encore, this class's own resource (defined only in prose in classes.the-signal.json's terms flag). SpecialResource can model a permanent resource pool (renew: false) per pf2e-source, so this is a real gap, not a schema limitation, but nothing in the corpus fills it -- no companion class-feature/ability/effect card holds it either. All three Frequency-track base auras (Numbers, Open Band, Requiem, and their action-card twins) ship \"rules\": [] despite describing at-will auras with real numbers. Buildable in principle via Aura + a companion effect (same shape as SB3), unbuildable in practice because no such companion item exists, and because the base aura's own radius/uptime is itself gated on the un-encoded Broadcast (SB3).",
+            "track": "requiem"
+        }
+    }
 }

@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "seed-warden-greenline"
+            ],
             "rarity": "common",
             "value": [
                 "seed-warden",
@@ -34,5 +37,10 @@
         },
         "slug": "reclaimer"
     },
-    "_id": "af0v9ZnPC8ctdNSv"
+    "_id": "af0v9ZnPC8ctdNSv",
+    "flags": {
+        "cinderfall": {
+            "track": "greenline"
+        }
+    }
 }

@@ -33,5 +33,10 @@
         },
         "slug": "apex-predators-mark"
     },
-    "_id": "B6cABHx2dePmaDOv"
+    "_id": "B6cABHx2dePmaDOv",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Blocked twice over: (1) \"You Mark a creature\" isn't a hookable trigger event anywhere in the corpus, and (2) even with a Mark, there's no roll option comparing an arbitrary set of nearby creatures' levels against a third creature's (the Marked one) level — no such relative-level comparison predicate exists in pf2e-source. The Waywarden's central subsystem, The Mark (classes.waywarden.json flags.cinderfall.terms[0]: \"designate a creature as your quarry, gaining a growing bonus to track, target, and punish it specifically\"), has zero Foundry-schema footprint anywhere in the corpus. classes.waywarden.json:65 itself carries \"rules\": []. No card anywhere grants a TokenMark effect (site/data/cards/abilities/, class-features/, feat-effects/ are all empty scaffold directories -- confirmed via ls, contents are .gitkeep only). Real pf2e's own equivalent mechanic (Ranger's Hunt Prey) is fully buildable and precedented, but that infrastructure (an action item + a TokenMark-carrying effect item) does not exist for Waywarden and is not one of the 56 files in scope for this draft. This card is blocked until a future pass authors the base Mark action/effect."
+        }
+    }
 }

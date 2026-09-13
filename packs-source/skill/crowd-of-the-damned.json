@@ -1,0 +1,37 @@
+{
+    "name": "Crowd of the Damned",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "skill",
+        "description": {
+            "value": "<p>You know how to work a crowd that's one bad week from rioting. When you Perform for an audience that is currently frightened, angry, or in mourning (GM's call), you gain a +1 circumstance bonus to the check.</p>"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "crowd-of-the-damned"
+    },
+    "_id": "dU4YCL6H6FoYXrPH",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The +1 to Perform is explicitly gated on the GM's own judgment call ('an audience that is currently frightened, angry, or in mourning (GM's call)') -- there is no roll option representing collective audience mood for a predicate to read."
+        }
+    }
+}

@@ -24,7 +24,9 @@
             "type": null
         },
         "price": {
-            "value": {}
+            "value": {
+                "gp": 0
+            }
         },
         "publication": {
             "license": "ORC",
@@ -46,21 +48,14 @@
     "_id": "1NdjKbySYuBQUBkZ",
     "flags": {
         "cinderfall": {
+            "incomplete": "The reaction that auto-stabilizes an adjacent ally reduced to 0 HP has no rule-element equivalent: it's a limited-use (once per day) reaction that both grants a new usable action and targets another creature's HP/condition directly -- the same class of gap as the equipment pass's missile/mortar ammo (a real mechanism exists in principle via a granted Reaction-type item, but authoring one is out of scope for a rule-element-only pass).",
             "mutationType": "minor",
             "tier": "uncommon",
-            "slot": "Circulatory",
             "slots": [
                 "Circulatory"
             ],
             "slotCost": 1,
-            "roll": "d100 — 35–36",
-            "incomplete": [
-                "level is a stub (0); mutations carry no level",
-                "price is empty; a mutation is not bought"
-            ],
-            "inferred": [
-                "system.usage"
-            ]
+            "roll": "d100 — 35–36"
         }
     }
 }

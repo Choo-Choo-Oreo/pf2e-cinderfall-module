@@ -1,0 +1,64 @@
+{
+    "name": "Raised Without a Script",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "ancestryfeature",
+        "description": {
+            "value": "<p>Resistance to Deception and manipulation effects that rely on normal social assumptions you were simply never taught.</p>"
+        },
+        "level": {
+            "value": 0
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "RollOption",
+                "option": "raised-without-a-script-scripts",
+                "toggleable": true,
+                "label": "The lie or manipulation leans on ordinary social assumptions"
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "perception-dc",
+                "type": "circumstance",
+                "value": 1,
+                "predicate": [
+                    "raised-without-a-script-scripts",
+                    "action:lie"
+                ]
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "will",
+                "type": "circumstance",
+                "value": 1,
+                "predicate": [
+                    "raised-without-a-script-scripts",
+                    "item:trait:mental"
+                ]
+            }
+        ],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "wire-ward"
+            ]
+        },
+        "slug": "raised-without-a-script"
+    },
+    "_id": "qxKvpANfVNJkI7Ou"
+}

@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "paradise-touched-archive"
+            ],
             "rarity": "common",
             "value": [
                 "paradise-touched",
@@ -34,5 +37,10 @@
         },
         "slug": "restore-from-backup"
     },
-    "_id": "fgN5x5FZPhuI9dvn"
+    "_id": "fgN5x5FZPhuI9dvn",
+    "flags": {
+        "cinderfall": {
+            "track": "archive"
+        }
+    }
 }

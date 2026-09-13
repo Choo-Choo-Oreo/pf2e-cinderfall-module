@@ -1,0 +1,37 @@
+{
+    "name": "Radiation Scrub",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "skill",
+        "description": {
+            "value": "<p>Scrubbing fallout dust out of a wound before it cooks the flesh underneath is a skill in itself out here. You can attempt a Medicine check to reduce the stage of a creature's radiation sickness by one, once per day per patient, as if Treating Disease.</p>"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "radiation-scrub"
+    },
+    "_id": "lmqfjMa3Xg9bO0mE",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Reducing a custom radiation-sickness stage by one via Medicine, once per day per patient, has no rule-element representation -- radiation sickness's stage progression is Cinderfall's own bespoke counter with no actor-schema hook."
+        }
+    }
+}

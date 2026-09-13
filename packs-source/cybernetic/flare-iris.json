@@ -1,0 +1,68 @@
+{
+    "name": "Flare Iris",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>1 action: 15-ft cone, Fort save vs your class DC or dazzled 1 round (blinded 1 on crit fail). Once per 10 min. Scans illegal.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 4
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "gp": 100
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "flare-iris"
+    },
+    "_id": "KNXb3AVaJMTXgslW",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The whole ability is a limited-use (once/10 min) activated cone with a save -- needs a granted Action item, same class of gap as every other activated-cone ability in this pass.",
+            "augmentKind": "cybernetic",
+            "augmentType": "implant",
+            "tier": "common",
+            "slots": [
+                "Ocular"
+            ],
+            "slotCost": 1,
+            "grade": 1,
+            "availability": "Black Market",
+            "level": 4,
+            "drift": "+2",
+            "augTags": [
+                "light"
+            ]
+        }
+    }
+}

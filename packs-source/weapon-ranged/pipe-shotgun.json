@@ -4,7 +4,7 @@
     "img": "icons/svg/mystery-man.svg",
     "system": {
         "bulk": {
-            "value": 1
+            "value": 2
         },
         "description": {
             "value": "<p>Short range increment; misfires on a natural 1-2.</p>"
@@ -33,40 +33,36 @@
                 "gp": 4
             }
         },
+        "ammo": {
+            "baseType": "shotgun-shells"
+        },
         "bonus": {
             "value": 0
         },
         "bonusDamage": {
             "value": 0
         },
-        "category": "simple",
+        "category": "martial",
         "damage": {
             "dice": 2,
             "die": "d6",
             "damageType": "piercing"
         },
         "group": "firearm",
-        "range": null,
+        "range": 10,
         "reload": {
-            "value": null
+            "value": 1
         },
         "splashDamage": {
             "value": 0
         },
         "usage": {
-            "value": "held-in-one-hand"
+            "value": "held-in-two-hands"
         },
         "slug": "pipe-shotgun"
     },
     "_id": "HAWDU8UpYJECrwq4",
     "flags": {
-        "cinderfall": {
-            "incomplete": [
-                "level is a stub (0); the page carries no item levels",
-                "weapon category/bulk/usage stubbed; the page carries none of them",
-                "firearm range and reload stubbed; the page posts no increments"
-            ],
-            "currency": "Balanced to the PF2e GP standard and denominated in Credits: 1 Credit = 1 gp. The whole list was scaled x10 from the retired scraps=sp anchor, so every relative price is unchanged from the page as authored."
-        }
+        "cinderfall": {}
     }
 }

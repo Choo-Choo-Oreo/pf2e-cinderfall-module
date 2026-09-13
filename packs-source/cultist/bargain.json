@@ -1,0 +1,63 @@
+{
+    "name": "Choose Your Bargain",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
+        "description": {
+            "value": "<p><em>Choose Your Bargain</em></p><p>Choose one: Gluttoneth, The Croupier, The Ledger.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "ChoiceSet",
+                "adjustName": false,
+                "flag": "bargain",
+                "prompt": "Choose Your Bargain",
+                "choices": {
+                    "filter": [
+                        "item:tag:cultist-bargain"
+                    ]
+                }
+            },
+            {
+                "key": "GrantItem",
+                "uuid": "{item|flags.system.rulesSelections.bargain}"
+            }
+        ],
+        "traits": {
+            "otherTags": [],
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "bargain"
+    },
+    "_id": "QXOFpgfNipsbT7mJ",
+    "flags": {
+        "cinderfall": {
+            "subclassOf": "cultist",
+            "subclassLayer": "bargain",
+            "grants": [
+                "cultist.gluttoneth",
+                "cultist.the-croupier",
+                "cultist.the-ledger"
+            ]
+        }
+    }
+}

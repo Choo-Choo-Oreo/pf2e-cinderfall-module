@@ -35,5 +35,10 @@
         },
         "slug": "warm-save"
     },
-    "_id": "U0FiIrjO6hO3ETnk"
+    "_id": "U0FiIrjO6hO3ETnk",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The current-Save bonus (raised to +2, extended to Perception) is built on Cinderfall's own Save/stale narrative-memory mechanic, which has no representation anywhere in the actor schema -- there is no baseline 'Save bonus' rule element for this card to modify."
+        }
+    }
 }

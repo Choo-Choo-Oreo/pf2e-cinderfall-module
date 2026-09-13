@@ -1,0 +1,50 @@
+{
+    "name": "Effect: Second Ribs",
+    "type": "effect",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "description": {
+            "value": "<p><em>Applied by <strong>Second Ribs</strong> to the character who used it.</em></p>\n<hr />\n<p>Grow a layer of dense secondary bone. You gain temporary Hit Points equal to twice your level and a +1 circumstance bonus to Fortitude saves for the duration. When it ends, any remaining temporary Hit Points are lost and you are <em>clumsy 1</em> until the end of your next turn as the set reabsorbs.</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "minutes",
+            "value": 10
+        },
+        "level": {
+            "value": 2
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "fortitude",
+                "type": "circumstance",
+                "value": 1
+            }
+        ],
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "value": []
+        },
+        "slug": "second-ribs-effect"
+    },
+    "_id": "PDyhD6hKhCd6tvAG",
+    "flags": {
+        "cinderfall": {
+            "effectOf": "fleshmancer.second-ribs",
+            "landsOn": "self"
+        }
+    }
+}

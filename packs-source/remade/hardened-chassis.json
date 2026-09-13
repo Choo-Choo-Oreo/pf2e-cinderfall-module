@@ -33,5 +33,10 @@
         },
         "slug": "hardened-chassis"
     },
-    "_id": "yUo2M5SzM09wgAuE"
+    "_id": "yUo2M5SzM09wgAuE",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "BAND-GAP (the \"while at Hollowed Drift+\" gate has no predicate regardless of whether the DC-bump half is separately buildable)."
+        }
+    }
 }

@@ -50,6 +50,7 @@
     "_id": "7sCCahKvrbIfNxBw",
     "flags": {
         "cinderfall": {
+            "incomplete": "`TERRAIN-NULL` for the reclaim-rate/radius numbers. **Open question:** \"Persistent Bloom\" itself is referenced as a 17th-level class feature (`classes.seed-warden.json` progression line 84, level 17: \"Persistent Bloom\") but is not among these 69 files or anywhere else found in `site/data/cards/` — this card modifies a feature that doesn't appear to exist as a card yet.",
             "spellTag": "Bloom: either",
             "listing": "10th Rank"
         }

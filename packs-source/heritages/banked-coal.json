@@ -15,7 +15,21 @@
             "remaster": true,
             "title": "Cinderfall"
         },
-        "rules": [],
+        "rules": [
+            {
+                "key": "DamageAlteration",
+                "mode": "downgrade",
+                "predicate": [
+                    "heat-surge-active"
+                ],
+                "property": "dice-number",
+                "selectors": [
+                    "strike-damage"
+                ],
+                "slug": "heat-surge-damage",
+                "value": 0
+            }
+        ],
         "traits": {
             "rarity": "common",
             "value": []

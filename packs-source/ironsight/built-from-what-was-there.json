@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "ironsight-trick-iron"
+            ],
             "rarity": "common",
             "value": [
                 "ironsight",
@@ -34,5 +37,11 @@
         },
         "slug": "built-from-what-was-there"
     },
-    "_id": "8WAV3wqyibwuDrTj"
+    "_id": "8WAV3wqyibwuDrTj",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "no selector for \"a Crafting check on this feat item creates a new physical item with these properties.\" Item creation from a skill check is manual GM/player bookkeeping in Foundry, not rule-element automation.",
+            "track": "trick-iron"
+        }
+    }
 }

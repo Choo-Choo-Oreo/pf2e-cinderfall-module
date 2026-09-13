@@ -33,5 +33,10 @@
         },
         "slug": "the-butchers-apprentice"
     },
-    "_id": "395wRZLg6JhtotZn"
+    "_id": "395wRZLg6JhtotZn",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "INSTALL-GRAFT-GAP."
+        }
+    }
 }

@@ -34,5 +34,10 @@
         },
         "slug": "let-the-land-take-it-back"
     },
-    "_id": "JukKED3QT6TQf2iU"
+    "_id": "JukKED3QT6TQf2iU",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Bucket 4 — cross-creature effect modifying another actor's own item/build state. No selector for \"delete an item from a different actor\" exists in `pf2e-source`; confirmed no novel exception for this class."
+        }
+    }
 }

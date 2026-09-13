@@ -51,6 +51,7 @@
     "_id": "GwFQRTXbMxjzr6qX",
     "flags": {
         "cinderfall": {
+            "incomplete": "This card's own system.rules: [] is correct as shipped -- P-BUFF-VIA-EFFECT, the +1 status bonus belongs on a same-named companion effect applied to the target, not on this trigger card. But unlike Inoculate/Quarantine the Room/Steady Chorus, no companion effect card exists for Hold Still anywhere in the corpus yet (plaguesworn.hold-still-effect.json is not present) -- a genuine unbuilt gap, not a correctly-empty card. The proposed companion build (a RollOption toggle plus a predicated FlatModifier, modeled on the in-corpus Steady Chorus pattern) is not created in this pass. Independently, the \"can't retarget the same creature until a full night's rest\" restriction has no enforcement mechanism -- no rule element tracks per-target cast history -- and would stay unenforced even once the companion exists.",
             "listing": "Cantrips"
         }
     }

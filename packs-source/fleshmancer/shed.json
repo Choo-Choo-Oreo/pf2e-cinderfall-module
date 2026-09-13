@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "fleshmancer-skinwalkers"
+            ],
             "rarity": "common",
             "value": [
                 "fleshmancer"
@@ -33,5 +36,11 @@
         },
         "slug": "shed"
     },
-    "_id": "UO5MgPw1lGpz8OTV"
+    "_id": "UO5MgPw1lGpz8OTV",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Resolving one Acrobatics check against several simultaneous conditions at once, plus the resulting free Step on success, has no rule-element hook -- the +2 circumstance bonus in isolation would be trivially buildable, but the card's actual mechanic is the compressed-check structure, not the bonus alone.",
+            "track": "skinwalkers"
+        }
+    }
 }

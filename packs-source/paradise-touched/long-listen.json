@@ -34,5 +34,10 @@
         },
         "slug": "long-listen"
     },
-    "_id": "TXXmyKFtFW6164UW"
+    "_id": "TXXmyKFtFW6164UW",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Requirements: Declared Static. Cost: 2 Bandwidth. 1-hour ritual, secret DC 8 flat check (not the usual DC 5). A distinct DC number riding on the unbuildable Signal/Static mechanic, plus a real Bandwidth cost. The class's Signal/Static core mechanic has no rule-element analog anywhere in pf2e-source: `AdjustDegreeOfSuccess` evaluates in `beforePrepareData`, before the roll resolves, so it cannot hook a GM's own secret post-roll check or show the player a value other than what was actually computed (`pf2e-source/src/module/rules/rule-element/adjust-degree-of-success.ts`); self-inflicted reactive damage/resource cost keyed to the resolving effect's own degree of success has no rule-element home; and no `Reroll` rule-element key exists anywhere in the compendium (`pf2e-source/packs/pf2e/feats/ancestry/human/level-1/courteous-comeback.json` ships `rules: []`). No `SpecialResource` rule element exists anywhere in the corpus for Bandwidth -- confirmed corpus-wide (`grep -rl \"\\\"key\\\": \\\"SpecialResource\\\"\" site/data/cards/` returns zero hits), and the class card itself (`site/data/cards/classes/classes.paradise-touched.json:49`) ships `system.rules: []`. Same absence class as Cultist Zeal/Ironsight Drift/Fleshmancer Vitae."
+        }
+    }
 }

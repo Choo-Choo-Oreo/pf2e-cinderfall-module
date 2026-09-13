@@ -28,5 +28,10 @@
         },
         "slug": "the-standing-order"
     },
-    "_id": "04MePnDXkQSkWWa1"
+    "_id": "04MePnDXkQSkWWa1",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Stated number applied to all following allies (external targets) -- needs the distracting-feint.json/effect-distracting-feint.json two-file companion-effect pattern, outside this card's scope."
+        }
+    }
 }

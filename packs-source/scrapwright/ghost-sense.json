@@ -1,0 +1,37 @@
+{
+    "name": "Ghost Sense",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Frequency</strong> 3/day</p><p><strong>Range</strong> 30-ft emanation</p><hr /><span class=\"sdesc\">Sense Ghost-Static concentrations, unstable reactors, or hidden tech-traps within the emanation.</span>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "scrapwright"
+            ]
+        },
+        "slug": "ghost-sense"
+    },
+    "_id": "FLB0k7N8jg55h6Zq",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Bucket 3 -- limited-use activated detection ability.",
+            "notSpell": "scrapwright's class document carries system.spellcasting 0, so this is an ability, not a spell, and convert_class_spells.py declines it by design as a NON_CASTERS owner"
+        }
+    }
+}

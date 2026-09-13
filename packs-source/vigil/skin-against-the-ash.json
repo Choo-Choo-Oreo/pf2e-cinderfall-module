@@ -50,6 +50,7 @@
     "_id": "sB0lzdf8asmXkJI6",
     "flags": {
         "cinderfall": {
+            "incomplete": "STRUCT-EFFECT-COMPANION: the rule element itself is trivial and real (Resistance {type: item|flags.system.rulesSelections.damageType, value: 5} paired with a ChoiceSet for the damage type, shape confirmed at pf2e-source/packs/pf2e/feats/ancestry/automaton/level-5/hardened-chassis.json), but no companion effect file exists in this corpus to hold it.",
             "listing": "2nd Rank"
         }
     }

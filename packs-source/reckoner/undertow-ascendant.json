@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "flavored"
+            ],
             "rarity": "common",
             "value": [
                 "reckoner"
@@ -33,5 +36,11 @@
         },
         "slug": "undertow-ascendant"
     },
-    "_id": "390FQl7BopYCTFWA"
+    "_id": "390FQl7BopYCTFWA",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "A slowed creature can attempt an Athletics/Acrobatics check against your class DC to break free, with a cumulative +2 circumstance bonus on each failed attempt -- no rule element auto-increments a custom counter round over round outside a named condition's own badge-increment or a SpecialResource, neither of which exists for this shape (NOSTACK); the DC-vs-class-DC check itself needs no automation and isn't a gap.",
+            "flavored": true
+        }
+    }
 }

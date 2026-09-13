@@ -1,0 +1,75 @@
+{
+    "name": "Chameleon Hide",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>Skin from something that was never once seen coming. +2 item bonus to Stealth; you can Hide and Sneak in natural terrain even without cover or concealment.</p><p><b>Rider:</b> Under social pressure it shifts toward the person in front of you. In a tense conversation the GM may call for a Deception check to keep your skin from matching your listener's; on a failure everyone present notices.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 9
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "mk": 420
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "stealth",
+                "type": "item",
+                "value": 2
+            }
+        ],
+        "size": "med",
+        "traits": {
+            "rarity": "rare",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "chameleon-hide"
+    },
+    "_id": "aWxtH3biknqZ27Cg",
+    "flags": {
+        "cinderfall": {
+            "augmentKind": "biological",
+            "augmentType": "graft",
+            "tier": "rare",
+            "slots": [
+                "Dermal"
+            ],
+            "slotCost": 1,
+            "grade": 3,
+            "availability": "Wild",
+            "level": 9,
+            "load": "+1",
+            "resonance": "+3",
+            "augTags": [
+                "wild"
+            ]
+        }
+    }
+}

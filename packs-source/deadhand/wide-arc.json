@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "deadhand-breaker"
+            ],
             "rarity": "common",
             "value": [
                 "deadhand"
@@ -33,5 +36,10 @@
         },
         "slug": "wide-arc"
     },
-    "_id": "uQc6HhgyHqaZKBZF"
+    "_id": "uQc6HhgyHqaZKBZF",
+    "flags": {
+        "cinderfall": {
+            "track": "breaker"
+        }
+    }
 }

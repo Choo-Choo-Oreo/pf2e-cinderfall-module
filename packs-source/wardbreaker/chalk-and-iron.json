@@ -33,5 +33,10 @@
         },
         "slug": "chalk-and-iron"
     },
-    "_id": "ij8V42KqyEn8hhe2"
+    "_id": "ij8V42KqyEn8hhe2",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Links consuming a held consumable item (Ward-Scrawled Charm) to a different action's resolution as a free action with no numeric effect of its own. No rule element automates 'consume this held item automatically when action X resolves' -- that is scripted automation, out of scope for a rule-element pass by default."
+        }
+    }
 }

@@ -1,0 +1,37 @@
+{
+    "name": "Defy the Reaper",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "general",
+        "description": {
+            "value": "<p>Once per day, when you'd be reduced to 0 HP, automatically stabilize without needing to roll.</p>"
+        },
+        "level": {
+            "value": 15
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "defy-the-reaper"
+    },
+    "_id": "6krkkO6Ml2yFAbso",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The once-per-day 'automatically stabilize without rolling when reduced to 0 HP' trigger has no engine hook: nothing lets an item rule element intercept or override the built-in dying/stabilize sequence -- confirmed absence (the real Reactive Shield feat, which similarly grants use of an existing action, ships rules: [] for the same reason)."
+        }
+    }
+}

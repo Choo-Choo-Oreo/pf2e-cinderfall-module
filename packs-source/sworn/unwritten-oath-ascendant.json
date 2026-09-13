@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "flavored"
+            ],
             "rarity": "common",
             "value": [
                 "sworn"
@@ -33,5 +36,11 @@
         },
         "slug": "unwritten-oath-ascendant"
     },
-    "_id": "4UgYlD2rDwAHqllE"
+    "_id": "4UgYlD2rDwAHqllE",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Conviction is Cinderfall's renamed Focus Point pool (every Vow spell carries a 'Focus 1' cost tag). No rule element anywhere in pf2e-source writes to system.resources.focus.value -- confirmed via grep -rl \"resources.focus.value\" pf2e-source/packs/pf2e returning zero files. Every real rule element touching that path only adjusts .max via ActiveEffectLike mode:\"upgrade\" (e.g. pf2e-source/packs/pf2e/class-features/clarity-of-focus.json), never .value. Restoring a different creature's resource pool from the caster's own action additionally requires No rule element can set a modifier, apply a condition, or read a value on/from a different creature's own roll or resource from the card holder's own item -- confirmed corpus-wide this pass.",
+            "flavored": true
+        }
+    }
 }

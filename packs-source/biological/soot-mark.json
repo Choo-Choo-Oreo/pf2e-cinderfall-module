@@ -1,0 +1,70 @@
+{
+    "name": "Soot-Mark",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>A live tattoo worked in consecrated Choir ash; it moves a little when no one is looking. Once per day, reroll a failed save against a spirit, the dead, or a fear effect and keep the new result.</p><p><b>Rider:</b> The Choir of Ash always knows where you are, treats you as a member who has lapsed, and will one day ask you to make that right.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 3
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "mk": 36
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "soot-mark"
+    },
+    "_id": "JyTv59haspY5dLvb",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "'Reroll a failed save and keep the new result' has no rule-element key anywhere in pf2e -- confirmed absence across the whole engine, same finding as every reroll-shaped mutation flagged in the prior pass. The Choir-of-Ash tracking/debt rider is narrative, not a mechanical claim.",
+            "augmentKind": "biological",
+            "augmentType": "graft",
+            "tier": "common",
+            "slots": [
+                "Inlays"
+            ],
+            "slotCost": 1,
+            "grade": 1,
+            "availability": "Wild",
+            "level": 3,
+            "load": "+0",
+            "resonance": "+2",
+            "augTags": [
+                "wild",
+                "choir"
+            ]
+        }
+    }
+}

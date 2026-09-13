@@ -1,0 +1,51 @@
+{
+    "name": "Effect: The Long Toll",
+    "type": "effect",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "description": {
+            "value": "<p><em>Applied by <strong>The Long Toll</strong> to yourself.</em></p>\n<hr />\n<p>A lingering unease from the asking -- a −1 status penalty to Will saves. Ends after your next full night's rest; remove this effect manually at that point.</p>"
+        },
+        "duration": {
+            "expiry": null,
+            "sustained": false,
+            "unit": "unlimited",
+            "value": -1
+        },
+        "level": {
+            "value": 9
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "will",
+                "type": "status",
+                "value": -1
+            }
+        ],
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "value": []
+        },
+        "slug": "the-long-toll-effect"
+    },
+    "_id": "2b0luyHQd9ZRVhki",
+    "flags": {
+        "cinderfall": {
+            "effectOf": "hollowbound.the-long-toll",
+            "landsOn": "self",
+            "incomplete": "The FlatModifier itself is a real, precedented shape (selector:\"will\" is a confirmed-real selector, e.g. pf2e-source/packs/pf2e/feats/ancestry/goloma/level-1/goloma-courage.json). The card's own text says this penalty lasts \"until your next full night's rest\" -- pf2e's real duration.unit enum (pf2e-source/src/module/item/abstract-effect/values.ts) has no rest-linked unit, only days/encounter/hours/minutes/rounds/unlimited, so this uses unlimited (a real, precedented choice -- 44 real pf2e-source spell-effects use it) with manual removal on rest, the same way every other homebrew until-a-condition-is-met effect in this corpus is handled (descriptive text, not an automated duration check). The Q&A-about-the-future half of the spell is a separate, correctly-SKIPPED real precedent (pf2e-source/packs/pf2e/spells/rituals/commune.json, rules: [])."
+        }
+    }
+}

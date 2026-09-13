@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "deadhand-second"
+            ],
             "rarity": "common",
             "value": [
                 "deadhand"
@@ -33,5 +36,11 @@
         },
         "slug": "the-second-never-falls"
     },
-    "_id": "LjsI4jqFCzQFq4qc"
+    "_id": "LjsI4jqFCzQFq4qc",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "On an attack from the marked target that would reduce the caster to 0 HP: the caster drops to 1 HP instead, and the mark takes damage equal to what it just dealt, with no save. No rule element prevents or floors the caster's own HP loss below a set value (same gap as one-more-fight), and reflecting damage onto a different creature has no selector reaching a different creature's own value -- compounded by the confirmed-unfireable mark predicate.",
+            "track": "second"
+        }
+    }
 }

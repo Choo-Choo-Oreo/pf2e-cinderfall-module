@@ -1,0 +1,64 @@
+{
+    "name": "Choose Your Angle",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
+        "description": {
+            "value": "<p><em>Choose Your Angle</em></p><p>Choose one: Cutpurse, Enforcer, Face, Fixer.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "ChoiceSet",
+                "adjustName": false,
+                "flag": "angle",
+                "prompt": "Choose Your Angle",
+                "choices": {
+                    "filter": [
+                        "item:tag:scavenger-spy-angle"
+                    ]
+                }
+            },
+            {
+                "key": "GrantItem",
+                "uuid": "{item|flags.system.rulesSelections.angle}"
+            }
+        ],
+        "traits": {
+            "otherTags": [],
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "angle"
+    },
+    "_id": "kBlnHRY2oETNEg8a",
+    "flags": {
+        "cinderfall": {
+            "subclassOf": "scavenger-spy",
+            "subclassLayer": "angle",
+            "grants": [
+                "scavenger-spy.cutpurse",
+                "scavenger-spy.enforcer",
+                "scavenger-spy.face",
+                "scavenger-spy.fixer"
+            ]
+        }
+    }
+}

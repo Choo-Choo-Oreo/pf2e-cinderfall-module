@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "ironsight-trick-iron"
+            ],
             "rarity": "common",
             "value": [
                 "ironsight"
@@ -33,5 +36,11 @@
         },
         "slug": "the-gun-you-found-this-morning"
     },
-    "_id": "g20qVfzJkS2D9ASt"
+    "_id": "g20qVfzJkS2D9ASt",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "the proficiency-normalization half is plausible in isolation, but the \"loses this if carried more than a day\" clause is a stateful tracked condition with no roll-option hook to flag elapsed carry-time, and I found no companion effect to carry that state — net INCOMPLETE.",
+            "track": "trick-iron"
+        }
+    }
 }

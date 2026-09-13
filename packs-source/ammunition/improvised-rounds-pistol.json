@@ -1,0 +1,52 @@
+{
+    "name": "Improvised Pistol Rounds (20)",
+    "type": "ammo",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": "pistol-rounds",
+        "bulk": {
+            "value": 0
+        },
+        "description": {
+            "value": "<p>Scratch-cast from salvage and hand-packed. Worsens the loaded gun's misfire chance by one step — even a gun that never misfires now misfires on a natural 1. Sold in a double bundle so the half-price discount holds at whole Scraps.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 0
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "consumable"
+            ]
+        },
+        "price": {
+            "per": 20,
+            "value": {
+                "gp": 1
+            }
+        },
+        "craftableAs": [],
+        "uses": {
+            "autoDestroy": true,
+            "max": 1,
+            "value": 1
+        },
+        "slug": "improvised-rounds-pistol"
+    },
+    "_id": "P79pUmxRopRhWK0F",
+    "flags": {
+        "cinderfall": {}
+    }
+}

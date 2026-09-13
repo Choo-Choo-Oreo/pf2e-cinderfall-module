@@ -49,6 +49,7 @@
     "_id": "cVSQvfgz5xlgLz6a",
     "flags": {
         "cinderfall": {
+            "incomplete": "No stated numeric bonus -- the effect is a binary reclassification (\"unfamiliar\" -> \"familiar\") of PF2e's own terrain concept for Perception/Survival checks, not a flat/status/circumstance modifier. Searched specifically for a real rule-element hook for \"unfamiliar terrain\": the nearest real analog, pf2e-source/packs/pf2e/feats/skill/level-1/terrain-stalker.json, encodes an unrelated named mechanic (undetected in a specific named terrain type via ChoiceSet+RollOption), not a familiar/unfamiliar reclassification for check DCs. No clean predicate or number to build against.",
             "listing": "Covenant Vessel Spells / Ghost-Static machine spirits · lowest risk"
         }
     }

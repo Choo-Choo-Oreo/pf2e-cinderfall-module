@@ -1,0 +1,766 @@
+{
+    "name": "Sworn",
+    "type": "class",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "ancestryFeatLevels": {
+            "value": [
+                1,
+                5,
+                9,
+                13,
+                17
+            ]
+        },
+        "attacks": {
+            "simple": 1,
+            "martial": 1,
+            "advanced": 0,
+            "unarmed": 0,
+            "other": {
+                "name": "all armor & shields",
+                "rank": 1
+            }
+        },
+        "classFeatLevels": {
+            "value": [
+                2,
+                4,
+                6,
+                8,
+                10,
+                12,
+                14,
+                16,
+                18,
+                20
+            ]
+        },
+        "defenses": {
+            "unarmored": 0,
+            "light": 1,
+            "medium": 1,
+            "heavy": 1
+        },
+        "description": {
+            "value": "<p>Every promise in Cinderfall is collateral of some kind. Yours just happens to swing a warhammer, and something is always watching to see if you default.</p>"
+        },
+        "generalFeatLevels": {
+            "value": [
+                3,
+                7,
+                11,
+                15,
+                19
+            ]
+        },
+        "hp": 10,
+        "items": {
+            "sworn.nothing-you-wear-was-ever-light": {
+                "level": 15,
+                "name": "Nothing You Wear Was Ever Light"
+            },
+            "sworn.oath": {
+                "level": 1,
+                "name": "The Oath"
+            },
+            "sworn.the-armor-keeps-its-word": {
+                "level": 11,
+                "name": "The Armor Keeps Its Word"
+            },
+            "sworn.the-oath-wears-it-for-you": {
+                "level": 19,
+                "name": "The Oath Wears It For You"
+            }
+        },
+        "keyAbility": {
+            "value": [
+                "cha",
+                "str"
+            ]
+        },
+        "perception": 1,
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "savingThrows": {
+            "fortitude": 1,
+            "reflex": 1,
+            "will": 1
+        },
+        "skillFeatLevels": {
+            "value": [
+                2,
+                4,
+                6,
+                8,
+                10,
+                12,
+                14,
+                16,
+                18,
+                20
+            ]
+        },
+        "skillIncreaseLevels": {
+            "value": [
+                3,
+                5,
+                7,
+                9,
+                11,
+                13,
+                15,
+                17,
+                19
+            ]
+        },
+        "slug": "sworn",
+        "spellcasting": 0,
+        "trainedSkills": {
+            "additional": 2,
+            "value": []
+        },
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "_id": "SxExKRfoSIhaOJM6",
+    "flags": {
+        "cinderfall": {
+            "tagline": "Every promise in Cinderfall is collateral of some kind. Yours just happens to swing a warhammer, and something is always watching to see if you default.",
+            "role": "Bound Defender",
+            "pillar": "Cuts across all three — the Oath, not the power source, defines you",
+            "hpFormula": "10 + Con/level",
+            "keyAbilityText": "Strength or Charisma (choose at 1st)",
+            "terms": [
+                [
+                    "The Oath",
+                    "The bond you take at 1st level — permanent, and the thing every other class feature hangs off of. Three known forms exist: the Binding Clause, the Cinder Vow, and the Unwritten Oath."
+                ],
+                [
+                    "The Ward",
+                    "Whoever or whatever your Oath obligates you to protect — a contract-holder, a marked target, a person, a place, an idea. Defined by your Oath's terms, not always by your preference."
+                ],
+                [
+                    "The Answer",
+                    "Your signature reaction. Something threatens the Ward; you Answer it, in person, immediately. What \"Answer\" means changes hard by Oath."
+                ],
+                [
+                    "Conviction",
+                    "Your Focus-equivalent resource, refilled on rest, spent on Vows. Called Leverage under a Binding Clause, Cinders under a Cinder Vow, and Resolve under an Unwritten Oath — same pool, different name, different flavor."
+                ],
+                [
+                    "Vows",
+                    "The Conviction-fueled support abilities you know, gained by level. Small, reliable, always-available — not spells so much as things you can absolutely be counted on to do."
+                ],
+                [
+                    "The Trial &amp; Forsworn",
+                    "The Trial is what happens when your Oath is genuinely tested (see §03). Forsworn is what happens if it breaks — a real status with real consequences, not a fluff demotion."
+                ]
+            ],
+            "classDC": [
+                {
+                    "term": "class dc",
+                    "rank": 1
+                }
+            ],
+            "progression": [
+                {
+                    "level": 1,
+                    "grants": [
+                        [
+                            "Oath (choose Binding Clause / Cinder Vow / Unwritten Oath)",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Ward",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Conviction pool",
+                            ",",
+                            null
+                        ],
+                        [
+                            " The Answer",
+                            ",",
+                            null
+                        ],
+                        [
+                            " 1st Vow",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Strain track online",
+                            ",",
+                            null
+                        ],
+                        [
+                            " ancestry feat",
+                            "",
+                            "ancestry feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Trained: Perception",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Fort/Will/Ref",
+                            ",",
+                            null
+                        ],
+                        [
+                            " class DC",
+                            ",",
+                            null
+                        ],
+                        [
+                            " simple &amp",
+                            ";",
+                            null
+                        ],
+                        [
+                            " martial weapons",
+                            ",",
+                            null
+                        ],
+                        [
+                            " all armor &amp",
+                            ";",
+                            null
+                        ],
+                        [
+                            " shields",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 2,
+                    "grants": [
+                        [
+                            "Class feat",
+                            ",",
+                            "class feat"
+                        ],
+                        [
+                            " skill feat",
+                            "",
+                            "skill feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 3,
+                    "grants": [
+                        [
+                            "General feat",
+                            ",",
+                            "general feat"
+                        ],
+                        [
+                            " skill increase",
+                            "",
+                            "skill increase"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Expert: class DC",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 4,
+                    "grants": [
+                        [
+                            "Skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Class feat",
+                            "",
+                            "class feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 5,
+                    "grants": [
+                        [
+                            "Ancestry feat",
+                            ",",
+                            "ancestry feat"
+                        ],
+                        [
+                            " skill increase",
+                            ",",
+                            "skill increase"
+                        ],
+                        [
+                            " 2nd Vow",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Stage II (Strained) unlocked",
+                            "",
+                            null
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Expert: Reflex",
+                            ";",
+                            null
+                        ],
+                        [
+                            " ability boosts",
+                            "",
+                            "ability boosts"
+                        ]
+                    ]
+                },
+                {
+                    "level": 6,
+                    "grants": [
+                        [
+                            "Skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Class feat",
+                            "",
+                            "class feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 7,
+                    "grants": [
+                        [
+                            "General feat",
+                            ",",
+                            "general feat"
+                        ],
+                        [
+                            " Oath feature II (subclass upgrade)",
+                            ",",
+                            null
+                        ],
+                        [
+                            " skill increase",
+                            "",
+                            "skill increase"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Expert: Perception",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 8,
+                    "grants": [
+                        [
+                            "Skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Class feat",
+                            "",
+                            "class feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 9,
+                    "grants": [
+                        [
+                            "Ancestry feat",
+                            ",",
+                            "ancestry feat"
+                        ],
+                        [
+                            " skill increase",
+                            ",",
+                            "skill increase"
+                        ],
+                        [
+                            " Stage III (Fraying) unlocked",
+                            ",",
+                            null
+                        ],
+                        [
+                            " cheaper/faster Renewal",
+                            "",
+                            null
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Master: Fortitude &amp",
+                            ";",
+                            null
+                        ],
+                        [
+                            " Will",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 10,
+                    "grants": [
+                        [
+                            "Skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Class feat",
+                            "",
+                            "class feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Ability boosts",
+                            "",
+                            "ability boosts"
+                        ]
+                    ]
+                },
+                {
+                    "level": 11,
+                    "grants": [
+                        [
+                            "General feat",
+                            ",",
+                            "general feat"
+                        ],
+                        [
+                            " Greater Answer (extended range, added rider effect)",
+                            ",",
+                            null
+                        ],
+                        [
+                            " skill increase",
+                            "",
+                            "skill increase"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Master: light &amp",
+                            ";",
+                            null
+                        ],
+                        [
+                            " medium armor",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 12,
+                    "grants": [
+                        [
+                            "Skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Class feat",
+                            "",
+                            "class feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 13,
+                    "grants": [
+                        [
+                            "Ancestry feat",
+                            ",",
+                            "ancestry feat"
+                        ],
+                        [
+                            " skill increase",
+                            ",",
+                            "skill increase"
+                        ],
+                        [
+                            " Stage IV (Breaking Point) unlocked",
+                            "",
+                            null
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Master: class DC",
+                            ";",
+                            null
+                        ],
+                        [
+                            " Legendary: Perception",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 14,
+                    "grants": [
+                        [
+                            "Skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Class feat",
+                            "",
+                            "class feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 15,
+                    "grants": [
+                        [
+                            "General feat",
+                            ",",
+                            "general feat"
+                        ],
+                        [
+                            " Oath capstone feature (subclass-specific)",
+                            ",",
+                            null
+                        ],
+                        [
+                            " skill increase",
+                            "",
+                            "skill increase"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Master: heavy armor",
+                            ";",
+                            null
+                        ],
+                        [
+                            " Legendary: Reflex",
+                            ";",
+                            null
+                        ],
+                        [
+                            " ability boosts",
+                            "",
+                            "ability boosts"
+                        ]
+                    ]
+                },
+                {
+                    "level": 16,
+                    "grants": [
+                        [
+                            "Skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Class feat",
+                            "",
+                            "class feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 17,
+                    "grants": [
+                        [
+                            "Ancestry feat",
+                            ",",
+                            "ancestry feat"
+                        ],
+                        [
+                            " skill increase",
+                            ",",
+                            "skill increase"
+                        ],
+                        [
+                            " The Answer Absolute (legendary reaction upgrade)",
+                            "",
+                            null
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Legendary: Fortitude &amp",
+                            ";",
+                            null
+                        ],
+                        [
+                            " Will",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 18,
+                    "grants": [
+                        [
+                            "Skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Class feat",
+                            "",
+                            "class feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 19,
+                    "grants": [
+                        [
+                            "General feat",
+                            ",",
+                            "general feat"
+                        ],
+                        [
+                            " skill increase",
+                            ",",
+                            "skill increase"
+                        ],
+                        [
+                            " Unbreakable Vow (capstone I)",
+                            "",
+                            null
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Legendary: class DC",
+                            ",",
+                            null
+                        ],
+                        [
+                            " all armor",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 20,
+                    "grants": [
+                        [
+                            "Skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Class feat",
+                            ",",
+                            "class feat"
+                        ],
+                        [
+                            " Ascend the Oath / Break the Oath (capstone II)",
+                            "",
+                            null
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Ability boosts",
+                            "",
+                            "ability boosts"
+                        ]
+                    ]
+                }
+            ]
+        }
+    }
+}

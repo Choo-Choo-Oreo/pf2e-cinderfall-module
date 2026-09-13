@@ -1,0 +1,72 @@
+{
+    "name": "Mantis Fovea",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>A cultured high-acuity patch at the centre of the retina. +1 item bonus to Perception. You take no penalty to visual Perception from distance alone (cover and concealment still apply); you can read fine print or spot a tell at 60 feet.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 3
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "mk": 60
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "perception",
+                "type": "item",
+                "value": 1
+            }
+        ],
+        "size": "med",
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "mantis-fovea"
+    },
+    "_id": "PvnAYQipj7KWcNkm",
+    "flags": {
+        "cinderfall": {
+            "augmentKind": "biological",
+            "augmentType": "graft",
+            "tier": "common",
+            "slots": [
+                "Ocular"
+            ],
+            "slotCost": 1,
+            "grade": 1,
+            "availability": "Cultured",
+            "level": 3,
+            "load": "+0",
+            "resonance": "+0"
+        }
+    }
+}

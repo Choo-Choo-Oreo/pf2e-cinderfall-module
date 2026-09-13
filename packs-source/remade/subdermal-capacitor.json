@@ -24,7 +24,16 @@
             "remaster": true,
             "title": "Cinderfall"
         },
-        "rules": [],
+        "rules": [
+            {
+                "key": "Resistance",
+                "type": "electricity",
+                "value": 2,
+                "predicate": [
+                    "chrome-attuned"
+                ]
+            }
+        ],
         "traits": {
             "rarity": "common",
             "value": [

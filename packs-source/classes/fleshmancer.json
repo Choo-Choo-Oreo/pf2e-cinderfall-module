@@ -3,41 +3,6 @@
     "type": "class",
     "img": "icons/svg/mystery-man.svg",
     "system": {
-        "hp": 8,
-        "perception": 1,
-        "savingThrows": {
-            "fortitude": 2,
-            "reflex": 2,
-            "will": 1
-        },
-        "defenses": {
-            "unarmored": 1,
-            "light": 1,
-            "medium": 1,
-            "heavy": 0
-        },
-        "attacks": {
-            "simple": 1,
-            "unarmed": 1,
-            "martial": 0,
-            "advanced": 0,
-            "other": {
-                "name": "",
-                "rank": 0
-            }
-        },
-        "trainedSkills": {
-            "additional": 3,
-            "value": [
-                "crafting"
-            ]
-        },
-        "keyAbility": {
-            "value": [
-                "int"
-            ]
-        },
-        "spellcasting": 0,
         "ancestryFeatLevels": {
             "value": [
                 1,
@@ -47,6 +12,39 @@
                 17
             ]
         },
+        "attacks": {
+            "simple": 1,
+            "martial": 0,
+            "advanced": 0,
+            "unarmed": 1,
+            "other": {
+                "name": "",
+                "rank": 0
+            }
+        },
+        "classFeatLevels": {
+            "value": [
+                2,
+                4,
+                6,
+                8,
+                10,
+                12,
+                14,
+                16,
+                18,
+                20
+            ]
+        },
+        "defenses": {
+            "unarmored": 1,
+            "light": 1,
+            "medium": 1,
+            "heavy": 0
+        },
+        "description": {
+            "value": "<p>The body is just meat that hasn't been told what it could be yet.</p>"
+        },
         "generalFeatLevels": {
             "value": [
                 3,
@@ -55,6 +53,38 @@
                 15,
                 19
             ]
+        },
+        "hp": 8,
+        "items": {
+            "fleshmancer.stock": {
+                "level": 1,
+                "name": "Choose Your Stock"
+            },
+            "fleshmancer.the-cut": {
+                "level": 1,
+                "name": "The Cut"
+            },
+            "fleshmancer.vitae-pool": {
+                "level": 1,
+                "name": "Vitae Pool"
+            }
+        },
+        "keyAbility": {
+            "value": [
+                "int"
+            ]
+        },
+        "perception": 1,
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "savingThrows": {
+            "fortitude": 2,
+            "reflex": 2,
+            "will": 1
         },
         "skillFeatLevels": {
             "value": [
@@ -83,35 +113,712 @@
                 19
             ]
         },
-        "classFeatLevels": {
+        "slug": "fleshmancer",
+        "spellcasting": 0,
+        "trainedSkills": {
+            "additional": 3,
             "value": [
-                2,
-                4,
-                6,
-                8,
-                10,
-                12,
-                14,
-                16,
-                18,
-                20
+                "crafting"
             ]
-        },
-        "description": {
-            "value": "<p>The body is just meat that hasn't been told what it could be yet.</p>"
-        },
-        "publication": {
-            "license": "ORC",
-            "remaster": true,
-            "title": "Cinderfall"
         },
         "traits": {
             "rarity": "common",
             "value": []
-        },
-        "items": {},
-        "rules": [],
-        "slug": "fleshmancer"
+        }
     },
-    "_id": "yL07iYdaYqHjR2uX"
+    "_id": "yL07iYdaYqHjR2uX",
+    "flags": {
+        "cinderfall": {
+            "tagline": "The body is just meat that hasn't been told what it could be yet.",
+            "role": "Bio-artificer / Mutator",
+            "pillar": "Flesh-mancy",
+            "hpFormula": "8 + Con / level",
+            "keyAbilityText": "Intelligence",
+            "terms": [
+                [
+                    "Vitae",
+                    "Blood, tissue, and stolen vigor rendered down into usable current. Tracked as a daily pool, refreshed through grim ritual — drawing your own blood, harvesting a corpse, milking a captive."
+                ],
+                [
+                    "The Cut",
+                    "Opening flesh — yours or someone else's — and working Vitae into it to prepare a Graft. Your version of \"infuse.\""
+                ],
+                [
+                    "Bloom",
+                    "What happens when a Cut goes wrong: tissue overgrows, mutates, or rebels outright — the same radiation-soured biology that grows raging spirits and worse out in the Glasslands, just closer to home. Roll on the Bloom Table (§4)."
+                ],
+                [
+                    "Graft",
+                    "Your consumable creations — serums, boil-sacs, bile lances, wet ammunition. Replaces the standard alchemical item list."
+                ],
+                [
+                    "Stock",
+                    "Your working specialty as a fleshmancer. Functions as your subclass, chosen at 1st level."
+                ]
+            ],
+            "classDC": [
+                {
+                    "term": "class dc",
+                    "rank": 1
+                }
+            ],
+            "progression": [
+                {
+                    "level": 1,
+                    "grants": [
+                        [
+                            "Stock",
+                            ",",
+                            null
+                        ],
+                        [
+                            " The Cut",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Vitae Pool",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Graft Formulas known",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Scavenge Flesh",
+                            ",",
+                            null
+                        ],
+                        [
+                            " initial proficiencies",
+                            ",",
+                            "initial proficiencies"
+                        ],
+                        [
+                            " ancestry feat",
+                            "",
+                            "ancestry feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Trained: light &amp",
+                            ";",
+                            null
+                        ],
+                        [
+                            " medium armor",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Class DC",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Perception",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Crafting",
+                            ",",
+                            null
+                        ],
+                        [
+                            " unarmored defense",
+                            ",",
+                            null
+                        ],
+                        [
+                            " simple weapons",
+                            ",",
+                            null
+                        ],
+                        [
+                            " unarmed",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Will",
+                            ";",
+                            null
+                        ],
+                        [
+                            " Expert: Fortitude",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Reflex",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 2,
+                    "grants": [
+                        [
+                            "Skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Fleshmancer feat",
+                            "",
+                            "class feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 3,
+                    "grants": [
+                        [
+                            "General feat",
+                            ",",
+                            "general feat"
+                        ],
+                        [
+                            " skill increase",
+                            ",",
+                            "skill increase"
+                        ],
+                        [
+                            " expert Crafting",
+                            "",
+                            null
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Expert: Crafting",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 4,
+                    "grants": [
+                        [
+                            "Skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Fleshmancer feat",
+                            "",
+                            "class feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 5,
+                    "grants": [
+                        [
+                            "Ability boosts",
+                            ",",
+                            "ability boosts"
+                        ],
+                        [
+                            " ancestry feat",
+                            ",",
+                            "ancestry feat"
+                        ],
+                        [
+                            " <strong>Vitae Mastery</strong> (larger pool, Mk II Grafts)",
+                            ",",
+                            null
+                        ],
+                        [
+                            " skill increase",
+                            "",
+                            "skill increase"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 6,
+                    "grants": [
+                        [
+                            "Skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Fleshmancer feat",
+                            "",
+                            "class feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 7,
+                    "grants": [
+                        [
+                            "General feat",
+                            ",",
+                            "general feat"
+                        ],
+                        [
+                            " skill increase",
+                            ",",
+                            "skill increase"
+                        ],
+                        [
+                            " master Fortitude",
+                            "",
+                            "master fortitude"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Expert: simple weapons",
+                            ",",
+                            null
+                        ],
+                        [
+                            " unarmed",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Will",
+                            ";",
+                            null
+                        ],
+                        [
+                            " Master: Fortitude",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 8,
+                    "grants": [
+                        [
+                            "Skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Fleshmancer feat",
+                            "",
+                            "class feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 9,
+                    "grants": [
+                        [
+                            "Ancestry feat",
+                            ",",
+                            "ancestry feat"
+                        ],
+                        [
+                            " skill increase",
+                            ",",
+                            "skill increase"
+                        ],
+                        [
+                            " Bloom Control (reroll one Bloom/day)",
+                            ",",
+                            null
+                        ],
+                        [
+                            " expert Class DC",
+                            "",
+                            "expert class dc"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Expert: Class DC",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Perception",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 10,
+                    "grants": [
+                        [
+                            "Ability boosts",
+                            ",",
+                            "ability boosts"
+                        ],
+                        [
+                            " Fleshmancer feat",
+                            ",",
+                            "class feat"
+                        ],
+                        [
+                            " skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " <strong>Minor Capstone</strong> (by Stock)",
+                            "",
+                            null
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 11,
+                    "grants": [
+                        [
+                            "General feat",
+                            ",",
+                            "general feat"
+                        ],
+                        [
+                            " skill increase",
+                            ",",
+                            "skill increase"
+                        ],
+                        [
+                            " <strong>Greater Cuts</strong> (Mk III Grafts)",
+                            ",",
+                            null
+                        ],
+                        [
+                            " master Crafting",
+                            "",
+                            null
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Master: Crafting",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 12,
+                    "grants": [
+                        [
+                            "Skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Fleshmancer feat",
+                            "",
+                            "class feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 13,
+                    "grants": [
+                        [
+                            "Ancestry feat",
+                            ",",
+                            "ancestry feat"
+                        ],
+                        [
+                            " skill increase",
+                            ",",
+                            "skill increase"
+                        ],
+                        [
+                            " master Will",
+                            "",
+                            "master will"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Expert: light &amp",
+                            ";",
+                            null
+                        ],
+                        [
+                            " medium armor",
+                            ",",
+                            null
+                        ],
+                        [
+                            " unarmored defense",
+                            ";",
+                            null
+                        ],
+                        [
+                            " Master: Will",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 14,
+                    "grants": [
+                        [
+                            "Skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Fleshmancer feat",
+                            "",
+                            "class feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 15,
+                    "grants": [
+                        [
+                            "Ability boosts",
+                            ",",
+                            "ability boosts"
+                        ],
+                        [
+                            " general feat",
+                            ",",
+                            "general feat"
+                        ],
+                        [
+                            " skill increase",
+                            ",",
+                            "skill increase"
+                        ],
+                        [
+                            " legendary Crafting",
+                            "",
+                            null
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Master: Reflex",
+                            ",",
+                            null
+                        ],
+                        [
+                            " simple weapons",
+                            ",",
+                            null
+                        ],
+                        [
+                            " unarmed",
+                            ";",
+                            null
+                        ],
+                        [
+                            " Legendary: Crafting",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 16,
+                    "grants": [
+                        [
+                            "Skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Fleshmancer feat",
+                            "",
+                            "class feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 17,
+                    "grants": [
+                        [
+                            "Ancestry feat",
+                            ",",
+                            "ancestry feat"
+                        ],
+                        [
+                            " skill increase",
+                            ",",
+                            "skill increase"
+                        ],
+                        [
+                            " <strong>Grand Cuts</strong> (Mk IV, legendary Grafts)",
+                            "",
+                            null
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Master: Class DC",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 18,
+                    "grants": [
+                        [
+                            "Skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Fleshmancer feat",
+                            "",
+                            "class feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 19,
+                    "grants": [
+                        [
+                            "General feat",
+                            ",",
+                            "general feat"
+                        ],
+                        [
+                            " skill increase",
+                            "",
+                            "skill increase"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Master: light &amp",
+                            ";",
+                            null
+                        ],
+                        [
+                            " medium armor",
+                            ",",
+                            null
+                        ],
+                        [
+                            " unarmored defense",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 20,
+                    "grants": [
+                        [
+                            "Ability boosts",
+                            ",",
+                            "ability boosts"
+                        ],
+                        [
+                            " Fleshmancer feat",
+                            ",",
+                            "class feat"
+                        ],
+                        [
+                            " skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " <strong>Major Capstone</strong> (by Stock)",
+                            "",
+                            null
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                }
+            ]
+        }
+    }
 }

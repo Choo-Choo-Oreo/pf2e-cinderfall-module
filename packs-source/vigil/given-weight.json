@@ -55,6 +55,7 @@
     "_id": "QshvDDEn8XXxQCtD",
     "flags": {
         "cinderfall": {
+            "incomplete": "STRUCT-EFFECT-COMPANION: no companion effect file exists for this 3-actions penalty shape, unlike hold-the-line-effect.json's pattern. Proposed shape if built: FlatModifier selector:[attack, skill-check] type:status value:-1 (a -2 critical-failure value would need a second, mutually-exclusive companion or a ChoiceSet-recorded degree flag), but nothing tracks 'penalty lasts for the target's next 3 actions' -- that counter has no rule-element precedent either. Two stacked gaps, not one.",
             "listing": "3rd Rank"
         }
     }

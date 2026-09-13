@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "fleshmancer-butchers"
+            ],
             "rarity": "common",
             "value": [
                 "fleshmancer"
@@ -33,5 +36,11 @@
         },
         "slug": "the-whole-case"
     },
-    "_id": "vaI2ZghJZjssn4Au"
+    "_id": "vaI2ZghJZjssn4Au",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Damage scales as \"1d6 per Graft expended this way,\" depending on how many Grafts the caster has prepared at cast time. No confirmed mechanism in pf2e resolves \"count of a specific consumable item currently held/prepared\" as roll data for a damage formula -- flagged as a genuine judgment call rather than asserted either way, and not shipped without that confirmation.",
+            "track": "butchers"
+        }
+    }
 }

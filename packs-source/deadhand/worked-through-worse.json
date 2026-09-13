@@ -24,7 +24,15 @@
             "remaster": true,
             "title": "Cinderfall"
         },
-        "rules": [],
+        "rules": [
+            {
+                "key": "ItemAlteration",
+                "mode": "downgrade",
+                "itemType": "condition",
+                "property": "pd-recovery-dc",
+                "value": 10
+            }
+        ],
         "traits": {
             "rarity": "common",
             "value": [
@@ -33,5 +41,10 @@
         },
         "slug": "worked-through-worse"
     },
-    "_id": "Qk60j1gWIYF64gcy"
+    "_id": "Qk60j1gWIYF64gcy",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The flat-check-to-end-persistent-damage DC reduction to 10 is confirmed real and directly matches pf2e-source/packs/pf2e/feats/ancestry/dwarf/level-1/fire-savvy.json's own ItemAlteration itemType:\"condition\" property:\"pd-recovery-dc\" mode:\"downgrade\" shape exactly (that card scopes to fire only via a predicate; this card is unconditional, so the predicate is simply omitted). \"Attemptable at the start of your turn too\" (a check-timing change) and \"an assisted DC drops a further 2\" (a dynamic, conditional DC reduction) remain unbuilt -- no rule element changes when a flat check may be attempted, and no rule element conditions a DC reduction on being assisted."
+        }
+    }
 }

@@ -24,8 +24,45 @@
             "remaster": true,
             "title": "Cinderfall"
         },
-        "rules": [],
+        "rules": [
+            {
+                "key": "RollOption",
+                "option": "familiar-voice",
+                "toggleable": true,
+                "label": "Speaking to the creature telepathically in a borrowed voice"
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "deception",
+                "type": "circumstance",
+                "value": 1,
+                "predicate": [
+                    "familiar-voice"
+                ]
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "diplomacy",
+                "type": "circumstance",
+                "value": 1,
+                "predicate": [
+                    "familiar-voice"
+                ]
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "intimidation",
+                "type": "circumstance",
+                "value": 1,
+                "predicate": [
+                    "familiar-voice"
+                ]
+            }
+        ],
         "traits": {
+            "otherTags": [
+                "paradise-touched-chorus"
+            ],
             "rarity": "common",
             "value": [
                 "paradise-touched"
@@ -33,5 +70,10 @@
         },
         "slug": "familiar-voice"
     },
-    "_id": "19ID7kxfTkz80BtA"
+    "_id": "19ID7kxfTkz80BtA",
+    "flags": {
+        "cinderfall": {
+            "track": "chorus"
+        }
+    }
 }

@@ -58,6 +58,7 @@
     "_id": "5JKOTIc7rLB1rwOS",
     "flags": {
         "cinderfall": {
+            "incomplete": "Failure: target can't Cast a Spell or use concentrate abilities (re-save each turn); crit failure adds slowed 1. The slowed-1 half alone would be buildable via a standard condition link, but the primary effect -- forbidding Cast a Spell/concentrate actions until a re-save -- has no standard PF2e condition item to link via @UUID the way slow.json/stupefy.json do, and no companion effect exists yet to encode a save-gated action-block. A card would need a bespoke `Effect: Denial of Service` companion; no clean predicate exists in pf2e-source to outright forbid `action:cast-a-spell` from a rule element.",
             "listing": "4th Rank"
         }
     }

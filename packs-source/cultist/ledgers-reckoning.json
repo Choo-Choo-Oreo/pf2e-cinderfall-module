@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "cultist-ledger"
+            ],
             "rarity": "common",
             "value": [
                 "cultist"
@@ -33,5 +36,10 @@
         },
         "slug": "ledgers-reckoning"
     },
-    "_id": "uw4u3bZqoGfNitD2"
+    "_id": "uw4u3bZqoGfNitD2",
+    "flags": {
+        "cinderfall": {
+            "track": "ledger"
+        }
+    }
 }

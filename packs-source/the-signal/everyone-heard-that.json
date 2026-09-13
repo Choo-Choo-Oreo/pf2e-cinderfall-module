@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "the-signal-openband"
+            ],
             "rarity": "common",
             "value": [
                 "the-signal"
@@ -33,5 +36,11 @@
         },
         "slug": "everyone-heard-that"
     },
-    "_id": "dp0yom6vKL8YXkLa"
+    "_id": "dp0yom6vKL8YXkLa",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Bucket 4: reacting to a *separate* item's (your spell's) crit-fail-against-a-target by auto-applying a condition, sourced from this feat's own passive. No trigger-listener rule element for \"on crit fail against my other item, do X\" was found in the 34-key inventory (P12).",
+            "track": "openband"
+        }
+    }
 }

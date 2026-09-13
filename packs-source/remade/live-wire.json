@@ -33,5 +33,10 @@
         },
         "slug": "live-wire"
     },
-    "_id": "OzHNux9gLpKXQRbM"
+    "_id": "OzHNux9gLpKXQRbM",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "P-BUCKET3. No generic \"on being hit, deal flat reactive damage\" rule element; searched for a retaliation-style RE, found none (real creature \"on-hit\" retaliation abilities are hard-coded per-creature, not a reusable player-feat rule element)."
+        }
+    }
 }

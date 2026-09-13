@@ -15,7 +15,32 @@
             "remaster": true,
             "title": "Cinderfall"
         },
-        "rules": [],
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "perception",
+                "type": "circumstance",
+                "value": 2,
+                "predicate": [
+                    "tunnel-dark-eyes-scent"
+                ]
+            },
+            {
+                "key": "RollOption",
+                "option": "deep-warren-bright-light",
+                "toggleable": true,
+                "label": "Currently in bright light"
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "perception",
+                "type": "circumstance",
+                "value": -1,
+                "predicate": [
+                    "deep-warren-bright-light"
+                ]
+            }
+        ],
         "traits": {
             "rarity": "common",
             "value": []

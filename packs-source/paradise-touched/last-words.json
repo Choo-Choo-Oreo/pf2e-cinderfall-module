@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "paradise-touched-archive"
+            ],
             "rarity": "common",
             "value": [
                 "paradise-touched",
@@ -34,5 +37,10 @@
         },
         "slug": "last-words"
     },
-    "_id": "1FdNlMShS70DDcEW"
+    "_id": "1FdNlMShS70DDcEW",
+    "flags": {
+        "cinderfall": {
+            "track": "archive"
+        }
+    }
 }

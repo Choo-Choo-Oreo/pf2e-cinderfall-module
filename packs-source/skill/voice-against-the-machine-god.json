@@ -1,0 +1,41 @@
+{
+    "name": "Voice Against the Machine God",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "skill",
+        "description": {
+            "value": "<p>Some in New Veracruz have started treating the intelligence running Paradise as a new divinity. You're not fooled, and your conviction carries weight: you gain a +2 circumstance bonus to Diplomacy or Religion checks made to convince someone that an AI's claim to godhood is false.</p>"
+        },
+        "level": {
+            "value": 14
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Master in Religion"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "voice-against-the-machine-god"
+    },
+    "_id": "Ljk2ueXojQstFJBz",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The +2 Diplomacy/Religion bonus is scoped to the topic of the argument ('an AI's claim to godhood is false'), not a target trait -- the same topic-has-no-roll-option problem as the Recall Knowledge cards."
+        }
+    }
+}

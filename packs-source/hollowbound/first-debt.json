@@ -33,5 +33,10 @@
         },
         "slug": "first-debt"
     },
-    "_id": "ulcm3rLqeXmBNwOF"
+    "_id": "ulcm3rLqeXmBNwOF",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Needs a real mechanism for \"a feat grants permanent, slot-free access to a chosen spell from a list, outside the normal prepared/repertoire system.\" Checked the closest real analog, pf2e-source/packs/pf2e/feats/ancestry/android/level-5/advanced-targeting-system.json, which describes granting Sure Strike as an innate spell in its flavor text -- but its actual system.rules array (confirmed by direct read) contains no GrantItem of the spell at all, only two ItemAlteration entries that tag the spell item after it already exists on the actor via a hard-coded ancestry mechanism outside the rule-element system entirely. A ChoiceSet could pick the boon, but there is nothing to GrantItem it into as an always-prepared spell."
+        }
+    }
 }

@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "ironsight-long-iron"
+            ],
             "rarity": "common",
             "value": [
                 "ironsight"
@@ -33,5 +36,11 @@
         },
         "slug": "rangefinder-optic-sync"
     },
-    "_id": "QTWnwEsFW9QWef8O"
+    "_id": "QTWnwEsFW9QWef8O",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "(Hot Load isn't rule-element-flagged anywhere, so there's no roll option to predicate this on) (augment-slot dependency). This card depends on (upgrades, extends, or is gated behind) another Ironsight card in this same package that itself ships rules: [] -- if the parent has nothing real to build on, the child has nothing real to extend either. This effect is defined entirely in terms of a Cinderfall-homebrew subsystem with zero Foundry schema footprint (the Gun Failure Table/Failure Range, hazardous ground, time-in-sights, Trick Iron charge bank, or Drift/augment-slot cost). Confirmed via the full rule-element type listing (pf2e-source/src/module/rules/rule-element/, 40 files): no RollTable-manipulation, no persistent-terrain-hazard, and no arbitrary stacking-counter rule element type exists to hook any of these to.",
+            "track": "long-iron"
+        }
+    }
 }

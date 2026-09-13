@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "vigil-unanswered"
+            ],
             "rarity": "common",
             "value": [
                 "vigil"
@@ -33,5 +36,11 @@
         },
         "slug": "undeserved-mercy"
     },
-    "_id": "eqW4NmlbFF7fiSdm"
+    "_id": "eqW4NmlbFF7fiSdm",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Bucket 3: limited-use (1/hr) activated action.",
+            "track": "unanswered"
+        }
+    }
 }

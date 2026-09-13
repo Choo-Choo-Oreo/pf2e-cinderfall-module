@@ -1,0 +1,49 @@
+{
+    "name": "Scavenger",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
+        "description": {
+            "value": "<p>Make do with junk, keep moving, never run dry. The pattern of the road, not the workshop.</p><hr /><p><strong>ONE MAN'S TRASH —</strong> on defeating a construct or machine, immediately reclaim Ghost-Static or a scrap component, no downtime required.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "otherTags": [
+                "scrapwright-pattern"
+            ],
+            "rarity": "common",
+            "value": [
+                "scrapwright"
+            ]
+        },
+        "slug": "scavenger"
+    },
+    "_id": "smnaF6IbAd1seQ1o",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "[NO-SPECIALRESOURCE] -- same carve-out as Salvage Surge; this is a bare resource-regen grant, not zero-number flavor.",
+            "subclassOf": "scrapwright",
+            "subclassChoice": "Choose Your Pattern",
+            "subclassLayer": "pattern",
+            "role": "Mobility · Field Repair"
+        }
+    }
+}

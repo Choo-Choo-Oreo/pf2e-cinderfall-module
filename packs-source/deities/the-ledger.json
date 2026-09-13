@@ -3,14 +3,22 @@
     "type": "deity",
     "img": "systems/pf2e/icons/default-icons/deity.svg",
     "system": {
-        "attribute": [],
+        "attribute": [
+            "int",
+            "wis"
+        ],
         "category": "deity",
         "description": {
-            "value": "<p><strong>Debts & Favors</strong></p>\n<p>Keeps track of every favor owed across the wasteland, allegedly including the balance on The Assessor (Wardbreaker dossier) it padded \"for amusement.\"</p>"
+            "value": "<p><strong>Debts & Favors</strong></p>\n<p>Keeps track of every favor owed across the wasteland, allegedly including the balance on The Assessor (Wardbreaker dossier) it padded \"for amusement.\"</p>\n<p><strong>Areas of Concern</strong> debts, secrets, favors owed</p>\n<p><strong>Edicts</strong> record every transaction, even against yourself; collect on schedule, not on mercy</p>\n<p><strong>Anathema</strong> forgive a debt outright; leave a favor unrecorded</p>\n<p><strong>Religious Symbol</strong> an open ledger, mid-entry</p>\n<p><strong>Sacred Animal</strong> raven</p>\n<p><strong>Sacred Colors</strong> ink-blue, ledger-page cream</p>"
         },
         "domains": {
-            "alternate": [],
-            "primary": []
+            "alternate": [
+                "secrecy"
+            ],
+            "primary": [
+                "fate",
+                "knowledge"
+            ]
         },
         "font": [],
         "publication": {
@@ -20,19 +28,22 @@
         },
         "rules": [],
         "sanctification": null,
-        "skill": [],
-        "spells": {},
+        "skill": [
+            "society"
+        ],
+        "spells": {
+            "1": "Compendium.pf2e.spells-srd.Item.Mindlink",
+            "3": "Compendium.pf2e.spells-srd.Item.Thief of Fortune",
+            "5": "Compendium.pf2e.spells-srd.Item.Secret Chest"
+        },
         "traits": {},
-        "weapons": [],
+        "weapons": [
+            "sickle"
+        ],
         "slug": "the-ledger"
     },
     "_id": "xzXrhsd9MqXFZu4o",
     "flags": {
-        "cinderfall": {
-            "define": "Debts & Favors",
-            "incomplete": [
-                "STUB -- no mechanics authored. Missing every pf2e deity field: attribute, domains, font, sanctification, skill, spells, weapons. `category` is a default of 'deity' and may need to be philosophy or pantheon. See .claude/docs/todo.md."
-            ]
-        }
+        "cinderfall": {}
     }
 }

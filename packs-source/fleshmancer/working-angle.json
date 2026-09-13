@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "fleshmancer-grafters"
+            ],
             "rarity": "common",
             "value": [
                 "fleshmancer"
@@ -33,5 +36,10 @@
         },
         "slug": "working-angle"
     },
-    "_id": "7HXfrvqC1ykVCE4U"
+    "_id": "7HXfrvqC1ykVCE4U",
+    "flags": {
+        "cinderfall": {
+            "track": "grafters"
+        }
+    }
 }

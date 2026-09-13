@@ -1,0 +1,37 @@
+{
+    "name": "Ashback Carry",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "skill",
+        "description": {
+            "value": "<p>You've hauled scrap and wounded allies alike across miles of ash-fall with nothing but grit. While Long Jumping, High Jumping, or Climbing, you can carry one additional bulk of gear or an unconscious ally's Bulk without penalty to the check.</p>"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "ashback-carry"
+    },
+    "_id": "UASKNhPAnzm8tEFz",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "No rule-element key adjusts carrying capacity or Bulk limits during a specific skill action; encumbrance is derived from the actor's own Bulk totals, not modifiable per-action."
+        }
+    }
+}

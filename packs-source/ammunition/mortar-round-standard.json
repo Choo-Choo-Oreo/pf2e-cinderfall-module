@@ -1,0 +1,53 @@
+{
+    "name": "Mortar Round, Standard",
+    "type": "ammo",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": "mortar-rounds",
+        "bulk": {
+            "value": 0.1
+        },
+        "description": {
+            "value": "<p>A single fired round, tracked as one item. On impact: 15-foot burst, 6d6 fire plus 3d6 bludgeoning damage, DC 26 basic Reflex save. A creature that fails is also knocked prone.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 5
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "consumable"
+            ]
+        },
+        "price": {
+            "value": {
+                "gp": 2
+            }
+        },
+        "craftableAs": [],
+        "uses": {
+            "autoDestroy": true,
+            "max": 1,
+            "value": 1
+        },
+        "slug": "mortar-round-standard"
+    },
+    "_id": "Qvsz1tVRCNsXXSFc",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The stated AoE burst (15-foot, 6d6 fire + 3d6 bludgeoning, DC 26 basic Reflex, prone on failure) has no rule-element or dedicated-field equivalent: this is a type:\"ammo\" item, and Foundry's ammo schema only modifies a fired weapon's own Strike (damage die/type, traits) -- it has no area, save-DC, or condition-on-fail fields of its own, confirmed against real pf2e's own explosive-ammo pattern (Bomb Launcher, pf2e-source/packs/pf2e/equipment/bomb-launcher.json, which instead re-fires an alchemical bomb item -- a full weapon/consumable with its own Strike -- through a launcher, rather than modeling the explosion as ammo). No launcher weapon exists anywhere in this corpus's weapon-ranged/ (checked all baseType values in use: heavy-rounds, pistol-rounds, rifle-rounds, shotgun-shells, sling-bullets -- no missiles/mortar-rounds launcher). Modeling this for real would need a new launcher weapon plus an attack/action item carrying its own damage+save, out of scope for a rule-element pass on the ammo card itself."
+        }
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "name": "Trick Iron",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
+        "description": {
+            "value": "<p>Pipe guns, nail guns, a scavenged auto held together with wire and stubbornness. Every other Ironsight dreads the failure. You built your whole approach on the assumption that the gun will fail, because it always has, and you have never once been caught without an answer for it.</p><hr /><p><strong>SIGNATURE —</strong> Every Gun Failure banks a charge, and you spend charges on things nobody else can do.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "otherTags": [
+                "ironsight-draw"
+            ],
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "trick-iron"
+    },
+    "_id": "uZEIEpSxl3Ar9X7q",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "and this is the actual unencoded parent of the entire Trick Iron charge economy that most of the *-load action cards (chain-load, choking-load, cinder-load, cracking-load, fracture-load, ghost-load, last-word-load, screamer-load, sundering-load, widowmaker-load, and the free-action reload/whatever-works family) spend charges on — flagged explicitly since it explains why that whole family has nothing real underneath it. Zero-number level-1 Draw-signature flavor grant. No numeric follow-through exists anywhere else on this Draw's own card family -- a genuine content gap, not a search failure. This card depends on (upgrades, extends, or is gated behind) another Ironsight card in this same package that itself ships rules: [] -- if the parent has nothing real to build on, the child has nothing real to extend either.",
+            "subclassOf": "ironsight",
+            "subclassChoice": "Choose Your Draw",
+            "role": "Any Range · Failure as Fuel",
+            "subclassLayer": "draw"
+        }
+    }
+}

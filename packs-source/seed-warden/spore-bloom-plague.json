@@ -58,6 +58,7 @@
     "_id": "KaA3zb5LJPlXB3Qv",
     "flags": {
         "cinderfall": {
+            "incomplete": "Bucket 4 — the \"vector\" re-sources the effect from whichever creature was just infected, not from the caster. Checked for a real `Aura`-based precedent that dynamically reassigns its source to a newly-affected creature: none found — every real `Aura` rule element is fixed to its owning item's actor. No selector exists for this chained-sourcehood shape.",
             "spellTag": "Requires Grey 2 · Bloom: Grey +1",
             "listing": "5th Rank"
         }

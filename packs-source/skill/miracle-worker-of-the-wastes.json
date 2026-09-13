@@ -1,0 +1,41 @@
+{
+    "name": "Miracle Worker of the Wastes",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "skill",
+        "description": {
+            "value": "<p>Settlements across the Combine and the Slums alike know your name as the one that saves people the clinics give up on. Once per day, you can Treat Wounds on a creature that has died within the last minute, restoring it to 1 Hit Point and the dying condition instead of leaving it dead, as if by a desperate, mundane miracle.</p>"
+        },
+        "level": {
+            "value": 16
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Master in Medicine"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "miracle-worker-of-the-wastes"
+    },
+    "_id": "eb6TYAyTMG8mpMAj",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Reviving a creature dead within the last minute back to the dying condition via Treat Wounds has no engine hook -- there is no rule element that reverses the dead state."
+        }
+    }
+}

@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "deadhand-bulwark"
+            ],
             "rarity": "common",
             "value": [
                 "deadhand"
@@ -33,5 +36,10 @@
         },
         "slug": "the-line-does-not-move"
     },
-    "_id": "ROvYQo4FFsyjjvyW"
+    "_id": "ROvYQo4FFsyjjvyW",
+    "flags": {
+        "cinderfall": {
+            "track": "bulwark"
+        }
+    }
 }

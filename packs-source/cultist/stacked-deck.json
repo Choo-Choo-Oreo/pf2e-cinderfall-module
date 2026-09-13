@@ -1,0 +1,46 @@
+{
+    "name": "Stacked Deck",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Cost</strong> 2 Zeal</p><p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You or an ally within 30 feet rolls a check, attack roll, or saving throw.</p><hr /><p>Treat the triggering roll's die result as a 15, if that would be better for the roller than the actual result. This is a fortune effect.</p>"
+        },
+        "level": {
+            "value": 14
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "otherTags": [
+                "cultist-croupier"
+            ],
+            "rarity": "common",
+            "value": [
+                "cultist"
+            ]
+        },
+        "slug": "stacked-deck"
+    },
+    "_id": "pH28SivjGPCoBLtz",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "\"Trigger you/an ally within 30 feet rolls: treat the die as a 15 if that's better for the roller\" is P-DIE (redefines the rolled die's own value rather than shifting a success tier or rerolling; confirmed absent via exhaustive grep across pf2e-source this pass) and, for the ally-facing half, additionally P-CROSS (a different creature's already-rolled die). Separately blocked by P-ZEAL for the Cost 2 Zeal clause.",
+            "track": "croupier"
+        }
+    }
+}

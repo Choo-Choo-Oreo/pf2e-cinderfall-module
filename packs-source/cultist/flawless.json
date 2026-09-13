@@ -1,0 +1,46 @@
+{
+    "name": "Flawless",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You roll a check or saving throw.</p><hr /><p>You may declare this feat before the degree of success is determined. If the result would be a failure (not a critical failure), treat it as a success instead.</p>"
+        },
+        "level": {
+            "value": 8
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "otherTags": [
+                "cultist-undoubted"
+            ],
+            "rarity": "common",
+            "value": [
+                "cultist"
+            ]
+        },
+        "slug": "flawless"
+    },
+    "_id": "e7YCIfabDqF7QUgb",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "\"Declare before the degree is known; if it would be a (non-critical) failure, treat it as a success instead\" is P-DEGREE-REACTIVE: even though declared before the roll, the adjustment depends on the roll's own outcome (only fires on failure specifically), which AdjustDegreeOfSuccess's predicate -- evaluated in beforePrepareData, before the check resolves -- has no way to condition on.",
+            "track": "undoubted"
+        }
+    }
+}

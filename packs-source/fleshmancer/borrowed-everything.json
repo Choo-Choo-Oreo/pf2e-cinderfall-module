@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "fleshmancer-skinwalkers"
+            ],
             "rarity": "common",
             "value": [
                 "fleshmancer",
@@ -34,5 +37,11 @@
         },
         "slug": "borrowed-everything"
     },
-    "_id": "QIKHk87122iMkbeM"
+    "_id": "QIKHk87122iMkbeM",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "No rule element dynamically imports an arbitrary creature's ability profile (Speed, sense, natural weapon, resistance) onto the caster -- this is a GM-adjudicated, per-use grant with no fixed number to encode.",
+            "track": "skinwalkers"
+        }
+    }
 }

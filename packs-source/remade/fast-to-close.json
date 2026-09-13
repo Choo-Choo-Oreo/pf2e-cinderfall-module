@@ -33,5 +33,10 @@
         },
         "slug": "fast-to-close"
     },
-    "_id": "JoIOLXSpH1hxSsKR"
+    "_id": "JoIOLXSpH1hxSsKR",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "INSTALL-GRAFT-GAP. No rule element retroactively shortens the duration of a not-yet-applied, externally-narrated condition grant; the base penalty itself isn't modeled either."
+        }
+    }
 }

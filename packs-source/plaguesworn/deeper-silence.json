@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "plaguesworn-verse"
+            ],
             "rarity": "common",
             "value": [
                 "plaguesworn"
@@ -33,5 +36,11 @@
         },
         "slug": "deeper-silence"
     },
-    "_id": "j0h4JPcFHIe2g5t6"
+    "_id": "j0h4JPcFHIe2g5t6",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "No rule element conditionally extends an already-applied condition's duration based on the degree of success that created it; searched AdjustDegreeOfSuccess (evaluated pre-roll, can't react to the roll's own outcome to extend a duration) and ItemAlteration (no duration-extension property) -- neither fits.",
+            "track": "verse"
+        }
+    }
 }

@@ -1,6 +1,6 @@
 {
     "name": "The Machine That Wouldn't Go Ghost",
-    "type": "feat",
+    "type": "capstone",
     "img": "icons/svg/mystery-man.svg",
     "system": {
         "actionType": {
@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Requirement</strong> Drift 10 (Ghost in the Machine)</p><p><strong>Duration</strong> constant</p><hr /><p>You retain full personal agency at all times — the GM narrates pressure and glitching, never puppeting, for you specifically. Every tech in Cyber City's heard the story by now: any NPC connected to Cyber City who hears your name reacts to it, unprompted, before they react to you.</p>"
+            "value": "<p>Ghost in the Machine was supposed to be a one-way door. You wedged it.</p><p><strong>Requirement</strong> Drift 10 (Ghost in the Machine)</p><p><strong>Duration</strong> constant</p><hr /><p>You retain full personal agency at all times — the GM narrates pressure and glitching, never puppeting, for you specifically. Every tech in Cyber City's heard the story by now: any NPC connected to Cyber City who hears your name reacts to it, unprompted, before they react to you.</p>"
         },
         "level": {
             "value": 20
@@ -26,12 +26,21 @@
         },
         "rules": [],
         "traits": {
-            "rarity": "common",
+            "rarity": "legendary",
+            "otherTags": [
+                "remade-chrome-attuned"
+            ],
             "value": [
                 "remade"
             ]
         },
         "slug": "machine-that-wouldnt-go-ghost"
     },
-    "_id": "31ZOzvGP7XI4OxkI"
+    "_id": "31ZOzvGP7XI4OxkI",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "BAND-GAP for both the Drift-10 requirement gate and the agency-retention effect (nothing to retain agency from -- Ghost in the Machine isn't modeled); the reputation clause alone is narrative, but the card's mechanical core is a real, currently-unbuildable claim.",
+            "track": "chrome-attuned"
+        }
+    }
 }

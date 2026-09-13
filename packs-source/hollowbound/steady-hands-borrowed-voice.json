@@ -33,5 +33,10 @@
         },
         "slug": "steady-hands-borrowed-voice"
     },
-    "_id": "NxYxJ6lUNFqoSmcT"
+    "_id": "NxYxJ6lUNFqoSmcT",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Guarantees a Parley's base effect happens automatically with no roll at all, not merely an upgraded result on an actual roll -- confirmed distinct from AdjustDegreeOfSuccess's real to-success adjustment (which still requires an actual check to occur and only reclassifies its result; it cannot skip the roll entirely). No selector exists anywhere in pf2e-source for \"this check simply doesn't happen and its base effect occurs as if it succeeded.\" Also spends \"1 Toll,\" which has zero rule-element representation anywhere in the corpus -- even the trigger condition can't be encoded."
+        }
+    }
 }

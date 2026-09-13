@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "deadhand-bulwark"
+            ],
             "rarity": "common",
             "value": [
                 "deadhand"
@@ -33,5 +36,11 @@
         },
         "slug": "the-convoy-gets-through"
     },
-    "_id": "uLvvTdA44ldkdnrt"
+    "_id": "uLvvTdA44ldkdnrt",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Chosen allies can't die, drop below 1 HP, or be removed from the field for 1 minute; all prevented damage hits the caster at the end. No selector prevents a different creature's HP from dropping or blocks their removal, and no companion effect exists to carry a mass, minute-long ally ward of this shape with real-time damage tracking across many allies simultaneously.",
+            "track": "bulwark"
+        }
+    }
 }

@@ -1,0 +1,56 @@
+{
+    "name": "Effect: The Order That Holds a Line",
+    "type": "effect",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "description": {
+            "value": "<p><em>Applied by <strong>The Order That Holds a Line</strong> to each affected ally.</em></p>\n<hr />\n<p>Every ally who can hear and understand you gains temporary Hit Points equal to your level, a +2 status bonus to attack rolls and AC, and immunity to the frightened and fleeing conditions, all for one minute. An ally reduced to 0 Hit Points during that minute stays standing at 1 until the minute ends, and then falls if the damage was never healed.</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "minutes",
+            "value": 1
+        },
+        "level": {
+            "value": 18
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "attack",
+                "type": "status",
+                "value": 2
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "ac",
+                "type": "status",
+                "value": 2
+            }
+        ],
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "value": []
+        },
+        "slug": "the-order-that-holds-a-line-effect"
+    },
+    "_id": "CG3OYbrQwHMtXMWs",
+    "flags": {
+        "cinderfall": {
+            "effectOf": "deadhand.the-order-that-holds-a-line",
+            "landsOn": "ally"
+        }
+    }
+}

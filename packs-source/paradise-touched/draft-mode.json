@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "paradise-touched-render"
+            ],
             "rarity": "common",
             "value": [
                 "paradise-touched"
@@ -33,5 +36,11 @@
         },
         "slug": "draft-mode"
     },
-    "_id": "JSA2rksitIszc7rs"
+    "_id": "JSA2rksitIszc7rs",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Once/day: rewind your own last turn's position/actions/resources, keep the world-state changes, take the turn again. A full turn-state-rewind-except-external-effects mechanic has no rule-element representation; this is action-economy manipulation at a level no rule element operates at, would need a macro.",
+            "track": "render"
+        }
+    }
 }

@@ -1,0 +1,66 @@
+{
+    "name": "Toxin Glaze",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>Grafted toxin pores across the palms and forearms. 1 action, once per 10 minutes: sweat a coat of toxin over one held weapon or your unarmed strikes. For 1 minute, Strikes with it deal an extra 1d4 poison (2d4 at 9th level, 3d4 at 17th).</p><p><b>Donor:</b> A poisoner. The glands prefer the recipes they already know — the GM may rule what \"flavour\" comes out.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 4
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "mk": 100
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "toxin-glaze"
+    },
+    "_id": "TbUuBvqDbXNZAPIg",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "A once-per-10-minutes activated weapon coating that adds persistent poison to Strikes for 1 minute is a limited-use activated buff -- needs a granted Action item (to apply the coating) plus an effect keyed to the Strike (to carry the rider), the same two-part gap flagged on the concealment/cover clauses elsewhere in this pass, compounded by the frequency.",
+            "augmentKind": "biological",
+            "augmentType": "graft",
+            "tier": "common",
+            "slots": [
+                "Dermal"
+            ],
+            "slotCost": 1,
+            "grade": 1,
+            "availability": "Grafted",
+            "level": 4,
+            "load": "+1",
+            "resonance": "+1"
+        }
+    }
+}

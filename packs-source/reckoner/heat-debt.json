@@ -1,0 +1,61 @@
+{
+    "name": "Heat Debt",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+            "save": {
+                "basic": true,
+                "statistic": "reflex"
+            }
+        },
+        "description": {
+            "value": "<p>2d6 cold damage per rank of this spell, deducted without ceremony. The target then radiates a lingering chill for the duration — any creature that touches it or ends its turn adjacent takes 1d6 cold damage, once per creature.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "1 minute"
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "1 creature"
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [],
+            "value": [
+                "focus",
+                "reckoner"
+            ]
+        },
+        "slug": "heat-debt"
+    },
+    "_id": "SZVMwU5aCZn2rr75",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The lingering-chill radius around the target (damages anyone who touches it or ends a turn adjacent) resembles an Aura rule element in shape, but every real Aura usage found is on a creature's own permanent statblock, not on a companion Effect item applied to a spell's target -- no citation for that specific combination was found, so it is not shipped as a ready block. The direct cold damage half needs no rule element (lives in system.damage) and is not a gap. See feats-class-reckoner-draft.md open question 4.",
+            "signatureSpellOf": "reckoner.cold-reckoning"
+        }
+    }
+}

@@ -33,5 +33,10 @@
         },
         "slug": "choirs-discretion"
     },
-    "_id": "YvfX9p7pvGYe3zzw"
+    "_id": "YvfX9p7pvGYe3zzw",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The Choir's Toll random table (TOLL) is referenced by roughly ten cards in this class. No rule element models rolling on a GM table, or substituting a chosen result for a roll -- zero precedent searched or expected, this is squarely outside anything system.rules can represent."
+        }
+    }
 }

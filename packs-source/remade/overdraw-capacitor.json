@@ -33,5 +33,10 @@
         },
         "slug": "overdraw-capacitor"
     },
-    "_id": "LWGkTd5S4saxBHct"
+    "_id": "LWGkTd5S4saxBHct",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "P-BUCKET3. No generic \"on your critical hit, apply condition X to the target\" rule element for a homebrew feat (weapon crit-specialization effects are hard-coded per weapon group, not reusable this way)."
+        }
+    }
 }

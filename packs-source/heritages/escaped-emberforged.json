@@ -15,7 +15,32 @@
             "remaster": true,
             "title": "Cinderfall"
         },
-        "rules": [],
+        "rules": [
+            {
+                "key": "RollOption",
+                "option": "escaped-emberforged-passing",
+                "toggleable": true,
+                "label": "Passing as an inert or bound ghost-machine"
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "deception",
+                "type": "circumstance",
+                "value": 1,
+                "predicate": [
+                    "escaped-emberforged-passing"
+                ]
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "stealth",
+                "type": "circumstance",
+                "value": 1,
+                "predicate": [
+                    "escaped-emberforged-passing"
+                ]
+            }
+        ],
         "traits": {
             "rarity": "common",
             "value": []

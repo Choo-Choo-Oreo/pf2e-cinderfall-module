@@ -50,6 +50,7 @@
     "_id": "seVqhu4I6A2De5Vg",
     "flags": {
         "cinderfall": {
+            "incomplete": "This clause is an ongoing effect targeting a different creature's roll/HP/condition/behavior, sourced from the holder's own passive (P-CROSSCREATURE), with no selector anywhere in pf2e-source for one actor's rule element to reach into a separate actor on an ongoing basis. No selector for \"when a specific different creature would be destroyed, revive it.\"",
             "listing": "7th Rank"
         }
     }

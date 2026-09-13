@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "ironsight-twin-iron"
+            ],
             "rarity": "common",
             "value": [
                 "ironsight"
@@ -33,5 +36,10 @@
         },
         "slug": "never-both-empty"
     },
-    "_id": "1piMGITOMvVKykhM"
+    "_id": "1piMGITOMvVKykhM",
+    "flags": {
+        "cinderfall": {
+            "track": "twin-iron"
+        }
+    }
 }

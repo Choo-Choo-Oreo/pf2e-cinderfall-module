@@ -24,7 +24,9 @@
             "type": null
         },
         "price": {
-            "value": {}
+            "value": {
+                "gp": 0
+            }
         },
         "publication": {
             "license": "ORC",
@@ -46,21 +48,14 @@
     "_id": "stYg4aaLj974Ebxm",
     "flags": {
         "cinderfall": {
+            "incomplete": "\"+4 circumstance bonus to Impersonate them\" (someone touched in the last day) has a real predicate for Impersonate itself (action:impersonate, confirmed in pf2e-source), but no mechanism exists for tracking 'has this actor touched this specific target within the last day' -- applying the bonus unconditionally to all Impersonate checks would misstate a narrow, touch-gated ability as a permanent one, so it's flagged rather than overbroadened.",
             "mutationType": "major",
             "tier": "mythic",
-            "slot": "Dermal",
             "slots": [
                 "Dermal"
             ],
             "slotCost": 1,
-            "roll": "d20 — 17",
-            "incomplete": [
-                "level is a stub (0); mutations carry no level",
-                "price is empty; a mutation is not bought"
-            ],
-            "inferred": [
-                "system.usage"
-            ]
+            "roll": "d20 — 17"
         }
     }
 }

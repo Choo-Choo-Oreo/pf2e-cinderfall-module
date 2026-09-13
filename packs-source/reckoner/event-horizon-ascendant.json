@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "flavored"
+            ],
             "rarity": "common",
             "value": [
                 "reckoner"
@@ -33,5 +36,11 @@
         },
         "slug": "event-horizon-ascendant"
     },
-    "_id": "9OfuRNSOn7oUUfUD"
+    "_id": "9OfuRNSOn7oUUfUD",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Lets THE LINE be etched twice -- THE LINE itself has no rule-element representation (it's a placed hazard/zone, not an actor buff), so there is nothing in schema for this card to extend.",
+            "flavored": true
+        }
+    }
 }

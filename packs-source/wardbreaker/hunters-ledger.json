@@ -33,5 +33,10 @@
         },
         "slug": "hunters-ledger"
     },
-    "_id": "tRK2bitDQ2xLp8lj"
+    "_id": "tRK2bitDQ2xLp8lj",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "This keys off the homebrew 'Named' tag, which has no rule-element representation anywhere in this class: name-the-anchor.json itself (the card that would apply the tag) ships rules: [] and has no companion Effect item or roll-option that flags a specific creature. There is nothing to hook into until/unless that foundational mechanic gets built. (instantly Names a target with no action or check, based on a prior successful Naming of the same Anchor-type.)"
+        }
+    }
 }

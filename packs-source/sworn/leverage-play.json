@@ -24,7 +24,39 @@
             "remaster": true,
             "title": "Cinderfall"
         },
-        "rules": [],
+        "rules": [
+            {
+                "key": "RollOption",
+                "option": "leverage-play",
+                "toggleable": true,
+                "label": "Called in a favor via Leverage Play this scene"
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "diplomacy",
+                "type": "circumstance",
+                "value": 2,
+                "predicate": [
+                    "leverage-play",
+                    {
+                        "or": [
+                            "action:request",
+                            "action:gather-information"
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "intimidation",
+                "type": "circumstance",
+                "value": 2,
+                "predicate": [
+                    "leverage-play",
+                    "action:coerce"
+                ]
+            }
+        ],
         "traits": {
             "rarity": "common",
             "value": [
@@ -33,5 +65,10 @@
         },
         "slug": "leverage-play"
     },
-    "_id": "Mc3Z9WoCdhT5MhuC"
+    "_id": "Mc3Z9WoCdhT5MhuC",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The +2 bonus clause (to Diplomacy for Request/Gather Information, or Intimidation for Coerce) is built above using confirmed-real action tags (action:request, action:coerce, action:gather-information) and this class's own already-shipped toggleable-RollOption + predicated-FlatModifier idiom (sworn.oathkeepers-grip.json, sworn.resolve-unbending.json). Caveat: unlike those two (persistent conditions), Leverage Play is a once-per-day activated ability -- a manually-toggled RollOption is an honesty-based approximation of 'I used my one daily use,' not an enforced limit, and pf2e has no generic mechanism to consume a per-day use on a passive toggle outside a real Frequency-gated action. Shipped anyway per this class's own precedent for the same tradeoff, flagged explicitly rather than silently accepted. The separate 'halve Gather Information's time for the rest of the day' clause is not built: real pf2e's own downtime/time-halving effects (Hobnobber, Forensic Acumen) are confirmed to ship unencoded."
+        }
+    }
 }

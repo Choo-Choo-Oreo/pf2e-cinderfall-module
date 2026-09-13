@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "the-signal-numbers"
+            ],
             "rarity": "common",
             "value": [
                 "the-signal"
@@ -33,5 +36,11 @@
         },
         "slug": "read-the-group"
     },
-    "_id": "Pjrk3RWDM3qOx4UJ"
+    "_id": "Pjrk3RWDM3qOx4UJ",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "P11 — Encore-cost-gated (SB1); payload is a GM-told fact, not a modifiable stat. No SpecialResource rule element exists for Encore, this class's own resource (defined only in prose in classes.the-signal.json's terms flag). SpecialResource can model a permanent resource pool (renew: false) per pf2e-source, so this is a real gap, not a schema limitation, but nothing in the corpus fills it -- no companion class-feature/ability/effect card holds it either.",
+            "track": "numbers"
+        }
+    }
 }

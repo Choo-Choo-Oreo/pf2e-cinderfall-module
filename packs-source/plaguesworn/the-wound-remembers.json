@@ -1,5 +1,5 @@
 {
-    "name": "Verse of Rot",
+    "name": "The Wound Remembers",
     "type": "spell",
     "img": "icons/svg/mystery-man.svg",
     "system": {
@@ -49,6 +49,7 @@
     "_id": "I7Ohs6XTOIYYX6r1",
     "flags": {
         "cinderfall": {
+            "incomplete": "Re-ticking an existing persistent damage instance immediately has no build path: no rule element force-triggers an already-placed persistent-damage condition's damage instance on demand -- that's a one-time chat-card action, not a standing rule. Separately, the DC-raise half (raising the flat check DC to end existing persistent damage to 20 from 15 until the target's next turn) is buildable and cleanly precedented -- P-PD-RECOVERY-DC, exact match to pf2e-source/packs/pf2e/bestiary-effects/effect-infernal-wound.json ({\"key\": \"ItemAlteration\", \"itemType\": \"condition\", \"mode\": \"upgrade\", \"property\": \"pd-recovery-dc\", \"value\": 20, \"predicate\": [\"item:damage:type:void\"]}, swapping the damage type for whichever persistent instance is being re-ticked) -- but it would need a new same-actor companion (plaguesworn.the-wound-remembers-effect.json) applied to the target, which is not created in this pass.",
             "focusCost": "1",
             "listing": "Verse Spells / Verse of Rot Spoilage — decay damage"
         }

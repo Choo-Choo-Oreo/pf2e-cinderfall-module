@@ -1,0 +1,68 @@
+{
+    "name": "Toxin Reservoir",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>Venom gland and ducts. Coat an unarmed Strike or held weapon (1 action); next hit this round deals 2d6 persistent poison (Fort vs class DC negates). 3/day. Scans illegal.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 8
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "gp": 500
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "traits": {
+            "rarity": "uncommon",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "toxin-reservoir"
+    },
+    "_id": "qlCiZXk8UcgpBLT8",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The whole ability is a 3/day activated weapon coating that adds persistent poison to the next hit -- same class of gap as Toxin-Glaze/Venom-Sac's loaded-bite clause: needs a granted Action item plus a linked effect to carry the rider onto a single future Strike.",
+            "augmentKind": "cybernetic",
+            "augmentType": "implant",
+            "tier": "uncommon",
+            "slots": [
+                "Viscera"
+            ],
+            "slotCost": 1,
+            "grade": 2,
+            "availability": "Black Market",
+            "level": 8,
+            "drift": "+3",
+            "augTags": [
+                "weapon"
+            ]
+        }
+    }
+}

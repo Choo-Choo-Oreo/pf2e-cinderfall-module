@@ -1,0 +1,64 @@
+{
+    "name": "The Line",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": {
+            "type": "line",
+            "value": 30
+        },
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+            "save": {
+                "basic": true,
+                "statistic": "reflex"
+            }
+        },
+        "description": {
+            "value": "<p>A one-directional line etched into the world. The first time a creature crosses it each encounter, it takes 2d6 damage per rank of this spell and can't cross back over that same line for the rest of the encounter.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "until the encounter ends"
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": ""
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [],
+            "value": [
+                "focus",
+                "reckoner"
+            ]
+        },
+        "slug": "the-line"
+    },
+    "_id": "cXJQ9eX8PcEyooBz",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The persistent one-way barrier that blocks re-crossing for the rest of the encounter is a placed zone/hazard restriction, not an actor-level rule element -- would need a scene-level wall/hazard object, entirely outside system.rules scope. The damage-on-crossing half needs no rule element (PAT-DMG, lives in system.damage) and is not a gap.",
+            "signatureSpellOf": "reckoner.event-horizon"
+        }
+    }
+}

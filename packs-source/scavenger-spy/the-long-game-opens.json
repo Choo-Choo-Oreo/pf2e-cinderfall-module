@@ -28,5 +28,10 @@
         },
         "slug": "the-long-game-opens"
     },
-    "_id": "w9NLMpWLc7FvWkn1"
+    "_id": "w9NLMpWLc7FvWkn1",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "No counter/tracking mechanism exists for \"sessions invested\" as a testable roll option; would need a custom counter this pass has no basis to invent."
+        }
+    }
 }

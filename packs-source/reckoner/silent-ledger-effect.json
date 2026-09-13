@@ -1,0 +1,55 @@
+{
+    "name": "Effect: Silent Ledger",
+    "type": "effect",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "description": {
+            "value": "<p><em>Applied by <strong>Silent Ledger</strong> to the character who used it.</em></p>\n<hr />\n<p>Resistance 5 to mental damage and a +2 status bonus to Will saves for the duration.</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "minutes",
+            "value": 10
+        },
+        "level": {
+            "value": 4
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "will",
+                "type": "status",
+                "value": 2
+            },
+            {
+                "key": "Resistance",
+                "type": "mental",
+                "value": 5
+            }
+        ],
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "value": []
+        },
+        "slug": "silent-ledger-effect"
+    },
+    "_id": "28vTt5PXomZD45vr",
+    "flags": {
+        "cinderfall": {
+            "effectOf": "reckoner.silent-ledger",
+            "landsOn": "self"
+        }
+    }
+}

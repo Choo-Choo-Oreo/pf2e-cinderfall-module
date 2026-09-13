@@ -1,0 +1,37 @@
+{
+    "name": "The Hymn Underneath",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "ancestryfeature",
+        "description": {
+            "value": "<p>Faint, involuntary awareness of large death events or plague-adjacent danger nearby, whether you want it or not.</p>"
+        },
+        "level": {
+            "value": 0
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "hymnkin"
+            ]
+        },
+        "slug": "the-hymn-underneath"
+    },
+    "_id": "pZfAs2fQ1VqcZLoR"
+}

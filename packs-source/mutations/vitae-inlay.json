@@ -24,7 +24,9 @@
             "type": null
         },
         "price": {
-            "value": {}
+            "value": {
+                "gp": 0
+            }
         },
         "publication": {
             "license": "ORC",
@@ -46,21 +48,14 @@
     "_id": "txT5gjrherZ1uT8K",
     "flags": {
         "cinderfall": {
+            "incomplete": "The finite, GM-tracked-and-hidden healing-bead pool (each use heals twice the actor's level, no action) has no rule-element equivalent: pf2e's frequency tracking (max/per) is always visible to the player on the item sheet, with no mechanism for a hidden remaining-use count the GM alone tracks.",
             "mutationType": "minor",
             "tier": "rare",
-            "slot": "Inlays",
             "slots": [
                 "Inlays"
             ],
             "slotCost": 1,
-            "roll": "d100 — 89–90",
-            "incomplete": [
-                "level is a stub (0); mutations carry no level",
-                "price is empty; a mutation is not bought"
-            ],
-            "inferred": [
-                "system.usage"
-            ]
+            "roll": "d100 — 89–90"
         }
     }
 }

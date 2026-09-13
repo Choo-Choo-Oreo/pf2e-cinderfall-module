@@ -1,0 +1,46 @@
+{
+    "name": "It Always Comes, On Its Own Time",
+    "type": "capstone",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p>Once per day, choose any effect that just resolved or is currently ongoing — yours or an enemy's — and delay it by any number of rounds you choose, up to 1 minute. It then triggers automatically at the start of that later round, exactly as it would have, and no save or ability may prevent or reduce it a second time. Nothing The Someday postpones is ever actually avoided.</p>"
+        },
+        "level": {
+            "value": 20
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "otherTags": [
+                "cultist-someday"
+            ],
+            "value": [
+                "cultist"
+            ]
+        },
+        "slug": "someday-major"
+    },
+    "_id": "EXXJIYN0VprtUqni",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "\"Once per day: choose any effect (yours or an enemy's) that just resolved or is ongoing and delay it up to 1 minute; it then triggers automatically, unmitigable a second time\" is P-CROSS: delaying/re-triggering an arbitrary effect that may belong to an enemy, with no selector anywhere in pf2e-source for deferring or re-firing an already-resolved effect on a different creature's timeline.",
+            "track": "someday"
+        }
+    }
+}

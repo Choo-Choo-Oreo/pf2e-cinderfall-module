@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "flavored"
+            ],
             "rarity": "common",
             "value": [
                 "waywarden"
@@ -33,5 +36,11 @@
         },
         "slug": "twin-fang-ascendant"
     },
-    "_id": "lJ6BarbrUzVJ4AGb"
+    "_id": "lJ6BarbrUzVJ4AGb",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "A new usable action (bucket 3) whose own discount formula references Twin Fang's own unstated number (see Twin Fang above) — doubly blocked. This hands the actor a wholly new usable action/reaction. Confirmed absent per two direct spot checks: Fighter's Double Slice only rule-encodes its minor non-agile penalty -- the actual \"resolve two Strikes as one attack, combine damage\" behavior is hardcoded PF2e system logic. Fighter's Reactive Strike is granted via a bare GrantItem whose trigger is likewise hardcoded system behavior tied to one specific compendium action UUID, not a generic rule-element hook. Any Waywarden card proposing an equivalent bespoke Strike-triggering or multi-Strike-resolving action inherits the same gap.",
+            "flavored": true
+        }
+    }
 }

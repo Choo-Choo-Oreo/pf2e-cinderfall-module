@@ -1,0 +1,37 @@
+{
+    "name": "Wasteland Bard",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "skill",
+        "description": {
+            "value": "<p>Every settlement wants a story about somewhere else, and you've got a hundred of them, half true. You can Earn Income using Performance in any settlement regardless of its size, ignoring the normal population requirement for your proficiency rank.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "wasteland-bard"
+    },
+    "_id": "P8ceNbe91Bdx6erA",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "No rule-element key bypasses Earn Income's settlement-size/population requirement for a given proficiency rank -- that gating is baked into the Earn Income activity itself, not exposed to a predicate."
+        }
+    }
+}

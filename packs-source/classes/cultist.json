@@ -1,0 +1,824 @@
+{
+    "name": "Cultist",
+    "type": "class",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "ancestryFeatLevels": {
+            "value": [
+                1,
+                5,
+                9,
+                13,
+                17
+            ]
+        },
+        "attacks": {
+            "simple": 1,
+            "martial": 0,
+            "advanced": 0,
+            "unarmed": 1,
+            "other": {
+                "name": "",
+                "rank": 0
+            }
+        },
+        "classFeatLevels": {
+            "value": [
+                2,
+                4,
+                6,
+                8,
+                10,
+                12,
+                14,
+                16,
+                18,
+                20
+            ]
+        },
+        "defenses": {
+            "unarmored": 1,
+            "light": 0,
+            "medium": 0,
+            "heavy": 0
+        },
+        "description": {
+            "value": "<p>You didn't find religion. Something found you first, and it's been very patient about collecting.</p>"
+        },
+        "generalFeatLevels": {
+            "value": [
+                3,
+                7,
+                11,
+                15,
+                19
+            ]
+        },
+        "hp": 6,
+        "items": {
+            "cultist.bargain": {
+                "level": 1,
+                "name": "Choose Your Bargain"
+            }
+        },
+        "keyAbility": {
+            "value": [
+                "int"
+            ]
+        },
+        "perception": 1,
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "savingThrows": {
+            "fortitude": 1,
+            "reflex": 1,
+            "will": 2
+        },
+        "skillFeatLevels": {
+            "value": [
+                2,
+                4,
+                6,
+                8,
+                10,
+                12,
+                14,
+                16,
+                18,
+                20
+            ]
+        },
+        "skillIncreaseLevels": {
+            "value": [
+                3,
+                5,
+                7,
+                9,
+                11,
+                13,
+                15,
+                17,
+                19
+            ]
+        },
+        "slug": "cultist",
+        "spellcasting": 1,
+        "trainedSkills": {
+            "additional": 3,
+            "value": [
+                "occultism"
+            ]
+        },
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "_id": "Ti93fI58L7aseNbc",
+    "flags": {
+        "cinderfall": {
+            "tagline": "You didn't find religion. Something found you first, and it's been very patient about collecting.",
+            "role": "Patron-Bound Spellcaster",
+            "pillar": "Faith / Pact Magic",
+            "hpFormula": "6 + Con / level",
+            "keyAbilityText": "Intelligence",
+            "spellcastingTradition": "occult",
+            "terms": [
+                [
+                    "The Bargain",
+                    "Your pact with a specific petty god, chosen at 1st level. Replaces \"Patron.\""
+                ],
+                [
+                    "The Idol",
+                    "The small vessel your patron speaks through — a taxidermy bird, a rusted icon, a jar with something floating in it. Mechanically your familiar."
+                ],
+                [
+                    "The Sigil",
+                    "Your patron's mark, left by Cult Sign, by a Cursed Gift, or by any Rite that places it — always the same mark, and a creature carries only one of yours at a time."
+                ],
+                [
+                    "Rites",
+                    "Focus spells granted directly by your patron, paid for with Zeal."
+                ],
+                [
+                    "Zeal",
+                    "Your devotion, spent to cast Rites. A pool that refills on rest, like any focus points — except it's not really yours. It's on loan."
+                ],
+                [
+                    "Revelations",
+                    "Spells your patron teaches you directly at 1st, 5th, and 13th level, outside your normal known-spell progression."
+                ],
+                [
+                    "Zealotry",
+                    "Spending devotion past what your Zeal pool allows, for a bigger effect right now. Risks Backlash."
+                ],
+                [
+                    "Backlash",
+                    "What happens when the god notices you overspent. Roll on the Backlash Table (§4) — petty gods don't punish like wrathful ones. They punish like petty ones."
+                ]
+            ],
+            "classDC": [
+                {
+                    "term": "class dc",
+                    "rank": 1
+                }
+            ],
+            "progression": [
+                {
+                    "level": 1,
+                    "grants": [
+                        [
+                            "The Bargain",
+                            ",",
+                            null
+                        ],
+                        [
+                            " The Idol",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Zeal",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Rites known",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Basic Revelation",
+                            ",",
+                            null
+                        ],
+                        [
+                            " initial occult spellcasting",
+                            ",",
+                            "initial occult spellcasting"
+                        ],
+                        [
+                            " ancestry feat",
+                            "",
+                            "ancestry feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Trained: Class DC",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Fortitude",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Perception",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Reflex",
+                            ",",
+                            null
+                        ],
+                        [
+                            " spellcasting",
+                            ",",
+                            null
+                        ],
+                        [
+                            " unarmored defense",
+                            ",",
+                            null
+                        ],
+                        [
+                            " simple weapons",
+                            ",",
+                            null
+                        ],
+                        [
+                            " unarmed",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Occultism",
+                            ";",
+                            null
+                        ],
+                        [
+                            " Expert: Will",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 2,
+                    "grants": [
+                        [
+                            "Skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Cultist feat",
+                            "",
+                            "class feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 3,
+                    "grants": [
+                        [
+                            "General feat",
+                            ",",
+                            "general feat"
+                        ],
+                        [
+                            " skill increase",
+                            ",",
+                            "skill increase"
+                        ],
+                        [
+                            " expert Occultism",
+                            "",
+                            null
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Expert: Occultism",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 4,
+                    "grants": [
+                        [
+                            "Skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Cultist feat",
+                            "",
+                            "class feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 5,
+                    "grants": [
+                        [
+                            "Ability boosts",
+                            ",",
+                            "ability boosts"
+                        ],
+                        [
+                            " ancestry feat",
+                            ",",
+                            "ancestry feat"
+                        ],
+                        [
+                            " <strong>Advanced Revelation</strong>",
+                            ",",
+                            null
+                        ],
+                        [
+                            " expert spellcasting",
+                            ",",
+                            "expert spellcasting"
+                        ],
+                        [
+                            " skill increase",
+                            "",
+                            "skill increase"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Expert: spellcasting",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Fortitude",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 6,
+                    "grants": [
+                        [
+                            "Skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Cultist feat",
+                            "",
+                            "class feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 7,
+                    "grants": [
+                        [
+                            "General feat",
+                            ",",
+                            "general feat"
+                        ],
+                        [
+                            " skill increase",
+                            ",",
+                            "skill increase"
+                        ],
+                        [
+                            " master Will",
+                            ",",
+                            "master will"
+                        ],
+                        [
+                            " Bargain feature II (the Idol changes)",
+                            "",
+                            null
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Master: Will",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 8,
+                    "grants": [
+                        [
+                            "Skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Cultist feat",
+                            "",
+                            "class feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 9,
+                    "grants": [
+                        [
+                            "Ancestry feat",
+                            ",",
+                            "ancestry feat"
+                        ],
+                        [
+                            " skill increase",
+                            ",",
+                            "skill increase"
+                        ],
+                        [
+                            " Backlash Control (reroll one Backlash/day)",
+                            ",",
+                            null
+                        ],
+                        [
+                            " expert Class DC",
+                            "",
+                            "expert class dc"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Expert: Class DC",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Reflex",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 10,
+                    "grants": [
+                        [
+                            "Ability boosts",
+                            ",",
+                            "ability boosts"
+                        ],
+                        [
+                            " skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Cultist feat",
+                            ",",
+                            "class feat"
+                        ],
+                        [
+                            " <strong>Bargain Minor Capstone</strong>",
+                            "",
+                            null
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 11,
+                    "grants": [
+                        [
+                            "General feat",
+                            ",",
+                            "general feat"
+                        ],
+                        [
+                            " skill increase",
+                            ",",
+                            "skill increase"
+                        ],
+                        [
+                            " master spellcasting",
+                            "",
+                            "master spellcasting"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Expert: Perception",
+                            ",",
+                            null
+                        ],
+                        [
+                            " simple weapons",
+                            ",",
+                            null
+                        ],
+                        [
+                            " unarmed",
+                            ";",
+                            null
+                        ],
+                        [
+                            " Master: spellcasting",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 12,
+                    "grants": [
+                        [
+                            "Skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Cultist feat",
+                            "",
+                            "class feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 13,
+                    "grants": [
+                        [
+                            "Ancestry feat",
+                            ",",
+                            "ancestry feat"
+                        ],
+                        [
+                            " skill increase",
+                            ",",
+                            "skill increase"
+                        ],
+                        [
+                            " <strong>Greater Revelation</strong>",
+                            ",",
+                            null
+                        ],
+                        [
+                            " master Occultism",
+                            "",
+                            null
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Expert: unarmored defense",
+                            ";",
+                            null
+                        ],
+                        [
+                            " Master: Occultism",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 14,
+                    "grants": [
+                        [
+                            "Skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Cultist feat",
+                            "",
+                            "class feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 15,
+                    "grants": [
+                        [
+                            "Ability boosts",
+                            ",",
+                            "ability boosts"
+                        ],
+                        [
+                            " general feat",
+                            ",",
+                            "general feat"
+                        ],
+                        [
+                            " skill increase",
+                            ",",
+                            "skill increase"
+                        ],
+                        [
+                            " master Fortitude",
+                            ",",
+                            "master fortitude"
+                        ],
+                        [
+                            " legendary Occultism",
+                            "",
+                            null
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Master: Fortitude",
+                            ";",
+                            null
+                        ],
+                        [
+                            " Legendary: Occultism",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 16,
+                    "grants": [
+                        [
+                            "Skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Cultist feat",
+                            "",
+                            "class feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 17,
+                    "grants": [
+                        [
+                            "Ancestry feat",
+                            ",",
+                            "ancestry feat"
+                        ],
+                        [
+                            " skill increase",
+                            ",",
+                            "skill increase"
+                        ],
+                        [
+                            " <strong>legendary spellcasting</strong>",
+                            "",
+                            "legendary spellcasting"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Legendary: spellcasting",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 18,
+                    "grants": [
+                        [
+                            "Skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Cultist feat",
+                            "",
+                            "class feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 19,
+                    "grants": [
+                        [
+                            "General feat",
+                            ",",
+                            "general feat"
+                        ],
+                        [
+                            " skill increase",
+                            ",",
+                            "skill increase"
+                        ],
+                        [
+                            " <strong>Godtouched Apotheosis</strong>",
+                            "",
+                            null
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 20,
+                    "grants": [
+                        [
+                            "Ability boosts",
+                            ",",
+                            "ability boosts"
+                        ],
+                        [
+                            " skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Cultist feat",
+                            ",",
+                            "class feat"
+                        ],
+                        [
+                            " <strong>Bargain Major Capstone</strong>",
+                            ",",
+                            null
+                        ],
+                        [
+                            " <strong>The Final Bargain</strong>",
+                            "",
+                            null
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                }
+            ]
+        }
+    }
+}

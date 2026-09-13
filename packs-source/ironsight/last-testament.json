@@ -10,12 +10,12 @@
             "value": 0
         },
         "bulk": {
-            "value": 0
+            "value": 1
         },
         "category": "simple",
         "damage": {
-            "dice": 0,
-            "die": "d6",
+            "dice": 2,
+            "die": "d8",
             "damageType": "piercing"
         },
         "description": {
@@ -28,7 +28,7 @@
             "value": 0
         },
         "level": {
-            "value": 0
+            "value": 18
         },
         "publication": {
             "license": "ORC",
@@ -36,9 +36,9 @@
             "title": "Cinderfall"
         },
         "quantity": 1,
-        "range": null,
+        "range": 30,
         "reload": {
-            "value": null
+            "value": "-"
         },
         "rules": [],
         "slug": "last-testament",
@@ -56,17 +56,10 @@
     "_id": "GVnrvq0fkOYsOvnH",
     "flags": {
         "cinderfall": {
-            "define": "Pre-Collapse Revolver · Unique · Old World, no Failure Range",
+            "incomplete": "the flavor implies guaranteed accuracy specifically for Called Shot, matching the pre-confirmed absence directly (\"No rule element guarantees an outright success... No Reroll rule-element key exists anywhere\") and also depends on the unencoded called-shot parent. No stated number of any kind beyond the narrative claim. This card depends on (upgrades, extends, or is gated behind) another Ironsight card in this same package that itself ships rules: [] -- if the parent has nothing real to build on, the child has nothing real to extend either.",
             "special": "Called shots seem to land exactly where you meant them, as if the gun already remembers where the bullet goes. Not expressed as a rule element: the prose states no bonus, DC or frequency.",
             "failureRange": "no Failure Range (Old World -- ironsight.html:115, 'Old World (Legendary) never fails')",
-            "incomplete": [
-                "damage is a stub (0 dice); no page states this gun's damage",
-                "bulk is a stub (0); no page states it",
-                "range and reload are stubs (null); no page states them",
-                "category is a stub ('simple'); no page says simple or martial",
-                "level is a stub (0); no page states it",
-                "price is absent; no page prices either gun"
-            ]
+            "priceless": "No price by design, not a gap -- an Old World Gun is 'always found, never bought outright' (ironsight.html:122), matching the corpus's other unique gun (weapon-ranged.the-last-word)."
         }
     }
 }

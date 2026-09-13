@@ -1,0 +1,15 @@
+{
+    "name": "The Someday",
+    "type": "lore",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "description": {
+            "value": "<p>It means to act. It will, definitely, right after this. The wasteland is full of things The Someday has been meaning to get around to for longer than most settlements have existed, and its power arrives the same way — always eventually, never on request. Its followers learn that rushing it only resets the wait.</p><p>Its shrines are the squatter camps that never quite rebuild and the scavenger crews who outlast every disaster by simply not moving toward it. Patience, to The Someday, isn't a virtue. It's just the only speed it has.</p>"
+        },
+        "slug": "the-someday-patron"
+    },
+    "_id": "BfTYgkveW9MxelIQ",
+    "flags": {
+        "cinderfall": {}
+    }
+}

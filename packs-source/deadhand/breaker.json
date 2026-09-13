@@ -1,0 +1,48 @@
+{
+    "name": "Breaker",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
+        "description": {
+            "value": "<p>Two-handed, overbuilt, and built to end an engagement in the first exchange. Yankee Combine siege details keep Breakers on retainer specifically to open doors that were never meant to open.</p><hr /><p><strong>SIGNATURE —</strong> a wind-up strike that drops cover, guard, and posture in a single overhand swing.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "otherTags": [
+                "deadhand-trade"
+            ],
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "breaker"
+    },
+    "_id": "0KF9tcMCabQEOlVm",
+    "flags": {
+        "cinderfall": {
+            "subclassOf": "deadhand",
+            "subclassChoice": "Choose Your Trade",
+            "role": "Heavy Ordnance",
+            "subclassLayer": "trade"
+        }
+    }
+}

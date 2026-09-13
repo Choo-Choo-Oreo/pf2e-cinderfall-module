@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "ashcantor-path"
+            ],
             "rarity": "common",
             "value": [
                 "ashcantor"
@@ -33,5 +36,11 @@
         },
         "slug": "warmth-before-the-ash-reprise"
     },
-    "_id": "UagTLRTuiiWnwHqV"
+    "_id": "UagTLRTuiiWnwHqV",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "This is a child of \"Warmth Before The Ash,\" granted by The Hearth (ashcantor.the-hearth.json), whose own system.rules is [] and whose followUp note confirms the healing numbers live in a not-yet-written spell -- there is no existing target-count or area field to add \"one more ally\" to.",
+            "track": "path"
+        }
+    }
 }

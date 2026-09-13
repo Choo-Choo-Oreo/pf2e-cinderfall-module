@@ -33,5 +33,10 @@
         },
         "slug": "feral-surge-mastery"
     },
-    "_id": "UPcDFGmObyM6EWrZ"
+    "_id": "UPcDFGmObyM6EWrZ",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Both clauses key off homebrew resources/tables with no Foundry-schema representation anywhere in the corpus. Feral Surge (uses/day) and the Frenzy Table (a GM-rolled random-mishap table) are absent from the corpus's Foundry schema; no rule element hooks a table-roll result to modify or reroll it."
+        }
+    }
 }

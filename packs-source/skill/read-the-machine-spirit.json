@@ -1,0 +1,36 @@
+{
+    "name": "Read the Machine Spirit",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "skill",
+        "description": {
+            "value": "<p>Old constructs, drones, and the Orbital AI's stray fragments all carry a residue of intention you can read like a held grudge. You can attempt Occultism instead of Arcana or Crafting to determine an unfamiliar machine's last given directive, on a critical success learning who issued it.</p>"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Expert in Occultism"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "read-the-machine-spirit"
+    },
+    "_id": "O5ASHZMeO8Btsiwd"
+}

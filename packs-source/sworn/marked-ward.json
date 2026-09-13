@@ -33,5 +33,10 @@
         },
         "slug": "marked-ward"
     },
-    "_id": "B77QY7pQr97hFhKX"
+    "_id": "B77QY7pQr97hFhKX",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "\"Ward\" is an entirely homebrew targeting concept with no schema location anywhere in this corpus (not a real pf2e trait, condition, or roll option). No rule element can flag an arbitrary chosen creature/object/location as eligible to trigger a reaction, and no rule element can express a priority ordering between two such flagged targets."
+        }
+    }
 }

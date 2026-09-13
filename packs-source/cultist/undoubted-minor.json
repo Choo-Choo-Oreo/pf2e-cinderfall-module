@@ -1,0 +1,45 @@
+{
+    "name": "No Room for Doubt",
+    "type": "capstone",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p>Once per day, when you fail (but do not critically fail) a check or saving throw while at least one creature is watching you, you may reroll it and take the better result. Doubt only works on you when nobody's around to see it fail.</p>"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "otherTags": [
+                "cultist-undoubted"
+            ],
+            "value": [
+                "cultist"
+            ]
+        },
+        "slug": "undoubted-minor"
+    },
+    "_id": "Ui8EVD7uyZO68r0h",
+    "flags": {
+        "cinderfall": {
+            "track": "undoubted"
+        }
+    }
+}

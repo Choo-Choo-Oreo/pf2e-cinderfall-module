@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "deadhand-cadre"
+            ],
             "rarity": "common",
             "value": [
                 "deadhand"
@@ -33,5 +36,11 @@
         },
         "slug": "nobody-acts-alone"
     },
-    "_id": "FuruD4HUkTIXVjQo"
+    "_id": "FuruD4HUkTIXVjQo",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "An ally who critically fails may reroll once/encounter, at no cost to the caster. Confirmed vocabulary: no Reroll rule-element key exists anywhere in the compendium, compounded by the ally-targeting default -- no selector even reaches a different creature's roll to begin with.",
+            "track": "cadre"
+        }
+    }
 }

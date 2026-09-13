@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "paradise-touched-render"
+            ],
             "rarity": "common",
             "value": [
                 "paradise-touched",
@@ -34,5 +37,11 @@
         },
         "slug": "overwrite-the-ground"
     },
-    "_id": "EKtCYMpPB2cHYu7x"
+    "_id": "EKtCYMpPB2cHYu7x",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Cost 2 Bandwidth. 20-ft square becomes clean/flat/dry, removes difficult terrain, for 1 hour. Hands a new usable terrain-edit capability (bucket 3) on top of the Bandwidth cost. No `SpecialResource` rule element exists anywhere in the corpus for Bandwidth -- confirmed corpus-wide (`grep -rl \"\\\"key\\\": \\\"SpecialResource\\\"\" site/data/cards/` returns zero hits), and the class card itself (`site/data/cards/classes/classes.paradise-touched.json:49`) ships `system.rules: []`. Same absence class as Cultist Zeal/Ironsight Drift/Fleshmancer Vitae.",
+            "track": "render"
+        }
+    }
 }

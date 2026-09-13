@@ -33,5 +33,10 @@
         },
         "slug": "overloaded-guard"
     },
-    "_id": "YgaAvU3MlhZBXfAV"
+    "_id": "YgaAvU3MlhZBXfAV",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "P-BUCKET3. AdjustDegreeOfSuccess only adjusts the actor's own checks (its selectors are things like strike-attack-roll, saving-throw, skill-check -- all rolled by this actor); there's no selector for downgrading an incoming attacker's degree of success against you."
+        }
+    }
 }

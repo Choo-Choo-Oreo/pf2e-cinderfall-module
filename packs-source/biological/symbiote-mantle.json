@@ -1,0 +1,89 @@
+{
+    "name": "Symbiote Mantle",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>A torso-wide symbiotic organism laced through your core that shares the body with you. +2 apex item bonus to Constitution (to 22). Fast healing 5. Resistance 5 to physical damage and 5 to poison. Once per round it takes a single 1-action Interact or a Strike with its own limb (1d10 bludgeoning, reach 10 feet) that costs you no action.</p><p><b>Rider:</b> It is a person now, more or less. It has one standing want — a food, a place, a grudge, the GM's to set — and if it goes ignored too long it will spend your body chasing it. At Resonance 9 you and the GM renegotiate who is driving.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 18
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "mk": 21000
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "FastHealing",
+                "type": "fast-healing",
+                "value": 5
+            },
+            {
+                "key": "Resistance",
+                "type": "physical",
+                "value": 5
+            },
+            {
+                "key": "Resistance",
+                "type": "poison",
+                "value": 5
+            }
+        ],
+        "size": "med",
+        "traits": {
+            "rarity": "legendary",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "symbiote-mantle"
+    },
+    "_id": "MiBlykl7FLGEpFzc",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The +2 apex item bonus to Constitution has no confirmed hook, same finding as Chimera-Bloom/Ogre-Arm (apex items only ever grant a skill FlatModifier tied to an ability, never the raw score). The free once-per-round Interact/Strike the symbiote takes on its own, and the standing-want/Resonance-9 renegotiation rider, both have no hook: nothing grants a second creature's-worth of actions for free, and the rider is narrative GM adjudication.",
+            "augmentKind": "biological",
+            "augmentType": "graft",
+            "tier": "legendary",
+            "slots": [
+                "Frame",
+                "Dermal",
+                "Viscera",
+                "Circulatory"
+            ],
+            "slotCost": 4,
+            "grade": 5,
+            "availability": "Wild",
+            "level": 18,
+            "load": "+8",
+            "resonance": "+6",
+            "augTags": [
+                "wild",
+                "apex"
+            ]
+        }
+    }
+}

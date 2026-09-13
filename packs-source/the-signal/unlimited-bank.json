@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "the-signal-enc"
+            ],
             "rarity": "common",
             "value": [
                 "the-signal"
@@ -33,5 +36,11 @@
         },
         "slug": "unlimited-bank"
     },
-    "_id": "shD3r4jeQJsv4Jo7"
+    "_id": "shD3r4jeQJsv4Jo7",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "SB1 (cap) and SB3 (needs to track \"this Broadcast has been continuously up for 3 rounds,\" which requires the Broadcast item to exist as a trackable duration source). No SpecialResource rule element exists for Encore, this class's own resource (defined only in prose in classes.the-signal.json's terms flag). SpecialResource can model a permanent resource pool (renew: false) per pf2e-source, so this is a real gap, not a schema limitation, but nothing in the corpus fills it -- no companion class-feature/ability/effect card holds it either. No \"Broadcast\" stance/aura item is ever instantiated as an Item with its own system.rules anywhere in this corpus. The shape (a stance whose aura buffs allies) is real and buildable in pf2e via Aura + a companion effect item -- but no such Broadcast item exists among this class's files to attach a rule element to.",
+            "track": "enc"
+        }
+    }
 }

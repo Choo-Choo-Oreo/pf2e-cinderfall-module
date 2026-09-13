@@ -1,0 +1,49 @@
+{
+    "name": "Butcher's",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
+        "description": {
+            "value": "<p>Boil-sacs, bile lances, blood grenades — the graft leaves your hand and does its work on someone else's body instead.</p><hr /><p><strong>WET WORK —</strong> your thrown Grafts deal bonus damage and splash to adjacent creatures on a hit.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "otherTags": [
+                "fleshmancer-stock"
+            ],
+            "rarity": "common",
+            "value": [
+                "fleshmancer"
+            ]
+        },
+        "slug": "butchers"
+    },
+    "_id": "ajysps9Z0PexyPFX",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "This is one of the three Stock-parent cards (chosen via fleshmancer.stock.json's real ChoiceSet+GrantItem), and its own headline mechanic states no number -- there is nothing concrete to build here, and every child card that names this Stock as a prerequisite inherits nothing real to extend either.",
+            "subclassOf": "fleshmancer",
+            "subclassChoice": "Choose Your Stock",
+            "role": "Thrown Ordnance",
+            "subclassLayer": "stock"
+        }
+    }
+}

@@ -3,36 +3,54 @@
     "type": "deity",
     "img": "systems/pf2e/icons/default-icons/deity.svg",
     "system": {
-        "attribute": [],
+        "attribute": [
+            "con",
+            "wis"
+        ],
         "category": "deity",
         "description": {
-            "value": "<p><strong>Consumption & Excess</strong></p>\n<p>A god of appetite in a world of scarcity — the crueler for it. Followers rarely stay satisfied for long, by design.</p>"
+            "value": "<p><strong>Consumption & Excess</strong></p>\n<p>A god of appetite in a world of scarcity — the crueler for it. Followers rarely stay satisfied for long, by design.</p>\n<p><strong>Areas of Concern</strong> hunger, want, the meal that never comes</p>\n<p><strong>Edicts</strong> never turn down a chance to take more than offered; carry the hunger visibly</p>\n<p><strong>Anathema</strong> waste food or power you've already claimed; let a craving go unacknowledged</p>\n<p><strong>Religious Symbol</strong> an empty bowl, licked clean</p>\n<p><strong>Sacred Animal</strong> locust</p>\n<p><strong>Sacred Colors</strong> famine grey, ration-line brown</p>"
         },
         "domains": {
-            "alternate": [],
-            "primary": []
+            "alternate": [
+                "pain"
+            ],
+            "primary": [
+                "destruction",
+                "indulgence"
+            ]
         },
-        "font": [],
+        "font": [
+            "harm"
+        ],
         "publication": {
             "license": "ORC",
             "remaster": true,
             "title": "Cinderfall"
         },
         "rules": [],
-        "sanctification": null,
-        "skill": [],
-        "spells": {},
+        "sanctification": {
+            "modal": "can",
+            "what": [
+                "unholy"
+            ]
+        },
+        "skill": [
+            "survival"
+        ],
+        "spells": {
+            "1": "Compendium.pf2e.spells-srd.Item.Grim Tendrils",
+            "3": "Compendium.pf2e.spells-srd.Item.Vampiric Feast",
+            "8": "Compendium.pf2e.spells-srd.Item.Devour Life"
+        },
         "traits": {},
-        "weapons": [],
+        "weapons": [
+            "guisarme"
+        ],
         "slug": "gluttoneth"
     },
     "_id": "cMUQ5lyb8MOsQZ56",
     "flags": {
-        "cinderfall": {
-            "define": "Consumption & Excess",
-            "incomplete": [
-                "STUB -- no mechanics authored. Missing every pf2e deity field: attribute, domains, font, sanctification, skill, spells, weapons. `category` is a default of 'deity' and may need to be philosophy or pantheon. See .claude/docs/todo.md."
-            ]
-        }
+        "cinderfall": {}
     }
 }

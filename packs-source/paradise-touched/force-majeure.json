@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "paradise-touched-render"
+            ],
             "rarity": "common",
             "value": [
                 "paradise-touched"
@@ -33,5 +36,11 @@
         },
         "slug": "force-majeure"
     },
-    "_id": "VI0DaKkYQSMsptLZ"
+    "_id": "VI0DaKkYQSMsptLZ",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Your force spells count one rank higher for ending/suppressing/counteract purposes only. No `counteract-rank` property exists on `ItemAlteration`, and no rule-element key for a counteract-rank override without an actual rank change exists anywhere in `pf2e-source/src/module/rules/rule-element/` -- searched and confirmed absent.",
+            "track": "render"
+        }
+    }
 }

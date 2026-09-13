@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "fleshmancer-grafters"
+            ],
             "rarity": "common",
             "value": [
                 "fleshmancer"
@@ -33,5 +36,11 @@
         },
         "slug": "triage"
     },
-    "_id": "OC3W7TW9SpCyOUje"
+    "_id": "OC3W7TW9SpCyOUje",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "This effect changes a different creature's own roll, HP, condition, or item, sourced from the card holder's own passive/item/action. No selector exists anywhere in pf2e-source for this -- confirmed corpus-wide this pass. This tags specific other creatures ahead of time for a delayed, per-creature healing bonus -- distinct from Suture Mastery's blanket self-passive because it names particular targets.",
+            "track": "grafters"
+        }
+    }
 }

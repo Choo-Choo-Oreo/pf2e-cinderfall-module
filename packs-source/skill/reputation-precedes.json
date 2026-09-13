@@ -1,0 +1,37 @@
+{
+    "name": "Reputation Precedes",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "skill",
+        "description": {
+            "value": "<p>Word travels fast between settlements, and yours travels faster than most. The first time each day you Demoralize a creature that has heard of your deeds (GM's call), you can do so as a single action instead of the normal one, and the creature doesn't get to see it coming.</p>"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "reputation-precedes"
+    },
+    "_id": "A0on8ueKixAX2629",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Compressing Demoralize to a single action (from its normal single-action cost, implying a hidden-attack style surprise effect: 'the creature doesn't get to see it coming') for a specific narrative trigger ('has heard of your deeds (GM's call)') has no rule-element hook for either the action-economy change or the GM-adjudicated trigger."
+        }
+    }
+}

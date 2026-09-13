@@ -1,0 +1,65 @@
+{
+    "name": "Recoil Anchors",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>Deployable frame spikes. Halve forced-movement distance against you; can't be Shoved or Repositioned unless the mover succeeds by 5+.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 7
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "gp": 360
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "traits": {
+            "rarity": "uncommon",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "recoil-anchors"
+    },
+    "_id": "Bw2IXVekra55rPSi",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Halving forced-movement distance has no hook: FlatModifier only adds/subtracts a flat value, it cannot express a multiplier against movement distance, and 'can't be Shoved/Repositioned unless the mover beats your DC by 5+' has no selector for a margin-of-success threshold on someone else's check against you (same class of gap as the maneuver-DC clauses on Ballast-Gut-Plate/Root-Feet).",
+            "augmentKind": "cybernetic",
+            "augmentType": "implant",
+            "tier": "uncommon",
+            "slots": [
+                "Frame"
+            ],
+            "slotCost": 1,
+            "grade": 2,
+            "availability": "Restricted",
+            "level": 7,
+            "drift": "+2"
+        }
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "name": "Warren-Sovereign",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "ancestry",
+        "description": {
+            "value": "<p>Colony Instinct's bonus now applies with a single ally within 30 feet instead of 15 and increases; Warren-Call's range doubles and reveals allies' exact position.</p>"
+        },
+        "level": {
+            "value": 13
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Warren-Call"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ratkin"
+            ]
+        },
+        "slug": "warren-sovereign"
+    },
+    "_id": "lUZnHMvqHUboU8Zq",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Upgrades Colony Instinct and Warren-Call, both unbuildable for lack of a stated value, and 'reveals allies' exact position' has no predicate hook."
+        }
+    }
+}

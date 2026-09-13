@@ -27,5 +27,10 @@
         },
         "slug": "bind-lesser-static"
     },
-    "_id": "3lmcB7WyXgHZuEsh"
+    "_id": "3lmcB7WyXgHZuEsh",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "[NO-SPECIALRESOURCE] -- both the banked-charge pool and the Ghost-Static/Redline economy it substitutes for are schema-less (site/data/cards/classes/classes.scrapwright.json:101 has \"rules\": [] -- no SpecialResource is defined on the class)."
+        }
+    }
 }

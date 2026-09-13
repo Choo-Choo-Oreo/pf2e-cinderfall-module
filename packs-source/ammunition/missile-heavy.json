@@ -1,0 +1,53 @@
+{
+    "name": "Missile, Heavy",
+    "type": "ammo",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": "missiles",
+        "bulk": {
+            "value": 1
+        },
+        "description": {
+            "value": "<p>A single fired round, tracked as one item. On impact: 20-foot burst, 8d6 fire plus 4d6 bludgeoning damage, DC 30 basic Reflex save. A creature that fails also takes 2d6 persistent fire damage; the impact square and each adjacent square become difficult terrain.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 9
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "consumable"
+            ]
+        },
+        "price": {
+            "value": {
+                "gp": 8
+            }
+        },
+        "craftableAs": [],
+        "uses": {
+            "autoDestroy": true,
+            "max": 1,
+            "value": 1
+        },
+        "slug": "missile-heavy"
+    },
+    "_id": "zr7ShF7aEH7TEHmU",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The stated AoE burst (20-foot, 8d6 fire + 4d6 bludgeoning, DC 30 basic Reflex, persistent fire, difficult terrain) has no rule-element or dedicated-field equivalent: this is a type:\"ammo\" item, and Foundry's ammo schema only modifies a fired weapon's own Strike (damage die/type, traits) -- it has no area, save-DC, or persistent-damage fields of its own, confirmed against real pf2e's own explosive-ammo pattern (Bomb Launcher, pf2e-source/packs/pf2e/equipment/bomb-launcher.json, which instead re-fires an alchemical bomb item -- a full weapon/consumable with its own Strike -- through a launcher, rather than modeling the explosion as ammo). No launcher weapon exists anywhere in this corpus's weapon-ranged/ (checked all baseType values in use: heavy-rounds, pistol-rounds, rifle-rounds, shotgun-shells, sling-bullets -- no missiles/mortar-rounds launcher). Modeling this for real would need a new launcher weapon plus an attack/action item carrying its own damage+save, out of scope for a rule-element pass on the ammo card itself."
+        }
+    }
+}

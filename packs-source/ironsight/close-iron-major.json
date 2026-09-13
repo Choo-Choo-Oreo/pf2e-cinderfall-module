@@ -1,0 +1,46 @@
+{
+    "name": "Through the Plate",
+    "type": "capstone",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p>At this range their preparation is a rumour. Whatever they wore, whatever they braced for, whatever the quartermaster promised them — it resolves into the same short conversation and the same long recovery. You do not shoot people so much as you settle them, and the wound you leave keeps arguing the point for the rest of the fight. Enemies do not charge you any more. Word got around.</p>"
+        },
+        "level": {
+            "value": 20
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "otherTags": [
+                "ironsight-close-iron"
+            ],
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "close-iron-major"
+    },
+    "_id": "aLKg5BYCVP1pwVMj",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Zero-number flavor text for a Draw's Minor/Major Capstone grant point named in classes.ironsight.json's own progression table. States no number, DC, duration, or selector of any kind -- a real content gap, not a search failure.",
+            "track": "close-iron"
+        }
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "name": "Field Triage Kit",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "skill",
+        "description": {
+            "value": "<p>You've learned to make one clean bandage roll do the work of three. When you Treat Wounds using scavenged (rather than store-bought) healer's tools, you don't take the normal penalty for using an improvised healer's toolkit.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "field-triage-kit"
+    },
+    "_id": "2nPYeptntaW8qfAt",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "No rule-element key models a penalty for using improvised/scavenged tools on Treat Wounds, so there is nothing to remove."
+        }
+    }
+}

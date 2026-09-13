@@ -1,46 +1,35 @@
 {
     "name": "Warded Blade",
-    "type": "spell",
+    "type": "feat",
     "img": "icons/svg/mystery-man.svg",
     "system": {
-        "area": null,
-        "cost": {
-            "value": ""
+        "actionType": {
+            "value": "passive"
         },
-        "counteraction": false,
-        "damage": {},
-        "defense": null,
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
         "description": {
-            "value": "<p><strong>Frequency</strong> 2/day (+1 at 5th, 9th, 13th, 17th — 6/day at 17th and beyond)</p><hr /><p>Make a melee Strike with your Warded Blade against the Named target. On a hit, the target takes an extra 1d6 precision damage (+1d6 at 5th level, +1d6 more every 4 levels after — 3d6 at 9th, 4d6 at 13th, 5d6 at 17th) that ignores any resistance the target has purely by virtue of being non-physical or supernatural.</p>"
-        },
-        "duration": {
-            "sustained": false,
-            "value": ""
+            "value": "<p>Meteoric iron folded around the melted chain-links of a decommissioned soul-engine, etched with one unbroken warding sigil that never quite finished its circuit. It wants to close the loop. You're the excuse it gets to.</p><hr /><p><strong>SIGNATURE —</strong> against a Named target, Break the Anchor lets a hit cut straight past its rage entirely, dealing bonus precision damage that ignores resistance to non-magical harm — you're not fighting the haunting, you're striking the wound underneath it.</p>"
         },
         "level": {
             "value": 1
+        },
+        "prerequisites": {
+            "value": []
         },
         "publication": {
             "license": "ORC",
             "remaster": true,
             "title": "Cinderfall"
         },
-        "range": {
-            "value": "melee"
-        },
-        "requirements": "you've Named the target",
         "rules": [],
-        "target": {
-            "value": "1 Named creature"
-        },
-        "time": {
-            "value": "1"
-        },
         "traits": {
-            "rarity": "common",
-            "traditions": [
-                "occult"
+            "otherTags": [
+                "wardbreaker-ward"
             ],
+            "rarity": "common",
             "value": [
                 "wardbreaker"
             ]
@@ -51,7 +40,12 @@
     "flags": {
         "cinderfall": {
             "spellTag": "Innate",
-            "listing": "Break the Anchor, by Ward"
+            "listing": "Break the Anchor, by Ward",
+            "subclassOf": "wardbreaker",
+            "subclassChoice": "Choose Your Ward",
+            "role": "Close Exorcism",
+            "followUp": "signature spell 'Warded Blade' is record wardbreaker.warded-blade-spell; the card renders on spells-abilities.html as a spell-entry and its statline/body are authored above",
+            "subclassLayer": "ward"
         }
     }
 }

@@ -10,12 +10,12 @@
             "value": 0
         },
         "bulk": {
-            "value": 0
+            "value": 2
         },
         "category": "simple",
         "damage": {
-            "dice": 0,
-            "die": "d6",
+            "dice": 2,
+            "die": "d10",
             "damageType": "piercing"
         },
         "description": {
@@ -28,7 +28,7 @@
             "value": 0
         },
         "level": {
-            "value": 0
+            "value": 19
         },
         "publication": {
             "license": "ORC",
@@ -36,9 +36,9 @@
             "title": "Cinderfall"
         },
         "quantity": 1,
-        "range": null,
+        "range": 60,
         "reload": {
-            "value": null
+            "value": "-"
         },
         "rules": [],
         "slug": "widows-toll",
@@ -56,16 +56,10 @@
     "_id": "w7ZidkP5jeO53tGh",
     "flags": {
         "cinderfall": {
-            "define": "Salt-Corroded Rifle · Unique · Drowned Coast Recovery",
+            "incomplete": "No stated mechanical effect at all beyond a narrative chime and an explicitly unresolved future consequence (\"nobody's found anyone willing to find out what happens at the total\") -- reads as an intentional open narrative hook rather than an oversight, but it is a `weapon` item carrying a real `system.rules: []` key (unlike the two true lore-type stubs elsewhere in this class), so it gets a flag like every other zero-number card in this pass rather than being silently skipped.",
             "special": "Every confirmed kill leaves a faint chime only the wielder hears, said to be counting toward something. Deliberately unresolved in the fiction; no trigger, total or payoff is authored.",
-            "incomplete": [
-                "damage is a stub (0 dice); no page states this gun's damage",
-                "bulk is a stub (0); no page states it",
-                "range and reload are stubs (null); no page states them",
-                "category is a stub ('simple'); no page says simple or martial",
-                "level is a stub (0); no page states it",
-                "price is absent; no page prices either gun"
-            ]
+            "failureRange": "no Failure Range (Old World -- ironsight.html:122, 'Old World (Legendary) never fails')",
+            "priceless": "No price by design, not a gap -- an Old World Gun is 'always found, never bought outright' (ironsight.html:122), matching the corpus's other unique gun (weapon-ranged.the-last-word)."
         }
     }
 }

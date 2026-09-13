@@ -1,0 +1,46 @@
+{
+    "name": "The Ground Remembers",
+    "type": "capstone",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p>You have stopped fighting people and started fighting places. A room you have worked is a room nobody uses again, and the ones who walk out of it carry the argument in their lungs for a season. Nothing you do arrives on the round you do it; it arrives afterwards, to everyone, for as long as you feel is warranted. Armies route around ground you have touched. That is not a tactic any more. That is a map.</p>"
+        },
+        "level": {
+            "value": 20
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "otherTags": [
+                "ironsight-foul-iron"
+            ],
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "foul-iron-major"
+    },
+    "_id": "Fu7xiEdcf7Bitklb",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Zero-number flavor text for a Draw's Minor/Major Capstone grant point named in classes.ironsight.json's own progression table. States no number, DC, duration, or selector of any kind -- a real content gap, not a search failure.",
+            "track": "foul-iron"
+        }
+    }
+}

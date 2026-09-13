@@ -24,7 +24,27 @@
             "remaster": true,
             "title": "Cinderfall"
         },
-        "rules": [],
+        "rules": [
+            {
+                "key": "ChoiceSet",
+                "flag": "namedWeapon",
+                "prompt": "Choose Your Named Weapon",
+                "choices": {
+                    "types": [
+                        "weapon"
+                    ]
+                }
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "strike-damage",
+                "type": "circumstance",
+                "value": 1,
+                "predicate": [
+                    "item:id:{item|flags.system.rulesSelections.namedWeapon}"
+                ]
+            }
+        ],
         "traits": {
             "rarity": "common",
             "value": [
@@ -33,5 +53,10 @@
         },
         "slug": "old-reliable"
     },
-    "_id": "CICc0DyItJvfeAiM"
+    "_id": "CICc0DyItJvfeAiM",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The trigger-extension (The Answer also fires on a Step-away) needs no rule element, ships unencoded like the rest of this class's trigger-widening cards. The ChoiceSet + item:id:{item|flags.system.rulesSelections.<flag>} predicate form for \"wielding the specific chosen weapon\" is confirmed real via pf2e-source/packs/pf2e/class-features/gleaming-blade.json's own existingIkon selection."
+        }
+    }
 }

@@ -1,0 +1,68 @@
+{
+    "name": "Ghost Ledger",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>A soul-tech accounting core threaded into the sternum, tallying every soul that guttered out near you. Passively banks 1 charge per day from proximity to death (any creature dying or reduced to 0 HP within 30 ft); stores up to 3. Spend a charge, free action, to reroll any check or save and take the better result — but every charge spent is logged and traced back to your exact time and place.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 15
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "gp": 10000
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "traits": {
+            "rarity": "epic",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "ghost-ledger"
+    },
+    "_id": "CNBYrrgRE1DoUzpT",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The whole ability is a passive charge-banking system (1/day from nearby deaths, up to 3 stored) spent to reroll any check/save -- pf2e has no reroll rule-element key anywhere (confirmed absence, same as every reroll-shaped mutation in the prior pass), and the charge-banking-from-nearby-deaths trigger has no roll-option hook either.",
+            "augmentKind": "cybernetic",
+            "augmentType": "implant",
+            "tier": "epic",
+            "slots": [
+                "Frame"
+            ],
+            "slotCost": 1,
+            "grade": 4,
+            "availability": "Black Market",
+            "level": 15,
+            "drift": "+5",
+            "augTags": [
+                "soul-tech"
+            ]
+        }
+    }
+}

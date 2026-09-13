@@ -50,6 +50,7 @@
     "_id": "eSCVYa5gQW0AXSXk",
     "flags": {
         "cinderfall": {
+            "incomplete": "The chassis (`Sense`, P3) is real and buildable in its unconditional form (e.g. a precise sense with unlimited range). But the card explicitly scopes it to \"an area you have previously seeded or Reclaimed\" — `TERRAIN-NULL` blocks any predicate/roll-option for that scoping. Proposing the `Sense` unconditionally would grant awareness *everywhere*, which is broader than the card and would be a silent substitution (rule 14) rather than a match. Held at INCOMPLETE rather than MIXED for that reason — there's no partial, honest version of this that doesn't overreach.",
             "spellTag": "Bloom: either",
             "listing": "3rd Rank"
         }

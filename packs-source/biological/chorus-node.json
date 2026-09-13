@@ -1,0 +1,75 @@
+{
+    "name": "Chorus Node",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>Choir-blessed neural tissue that always hears the ash-song, faintly. +2 item bonus to Will saves; once per hour, 1 action, grant yourself a +1 status bonus to a roll before you make it; you read the emotional tenor of any crowd of five or more that you can see.</p><p><b>Rider:</b> The song makes requests. Once per session the GM may pull your attention hard toward a corpse, a shrine, or a dying creature — heed it within the minute or take –2 to all checks and DCs for 10 minutes.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 14
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "mk": 3000
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "will",
+                "type": "item",
+                "value": 2
+            }
+        ],
+        "size": "med",
+        "traits": {
+            "rarity": "epic",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "chorus-node"
+    },
+    "_id": "9g9ojCyn2WxsJSvR",
+    "flags": {
+        "cinderfall": {
+            "augmentKind": "biological",
+            "augmentType": "graft",
+            "tier": "epic",
+            "slots": [
+                "Neural"
+            ],
+            "slotCost": 1,
+            "grade": 4,
+            "availability": "Wild",
+            "level": 14,
+            "load": "+2",
+            "resonance": "+5",
+            "augTags": [
+                "incl. neural +1/+1"
+            ]
+        }
+    }
+}

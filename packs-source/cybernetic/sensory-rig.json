@@ -1,0 +1,72 @@
+{
+    "name": "Sensory Rig",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p><em>Ocular + Neural.</em> Darkvision; imprecise scent and tremorsense 30 ft; +2 item bonus to Perception; you can't be flanked.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 12
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "gp": 2250
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "perception",
+                "type": "item",
+                "value": 2
+            }
+        ],
+        "size": "med",
+        "traits": {
+            "rarity": "rare",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "sensory-rig"
+    },
+    "_id": "1RrbIKbrebIUJ5xT",
+    "flags": {
+        "cinderfall": {
+            "augmentKind": "cybernetic",
+            "augmentType": "implant",
+            "tier": "rare",
+            "slots": [
+                "Ocular",
+                "Neural"
+            ],
+            "slotCost": 2,
+            "grade": 3,
+            "availability": "Restricted",
+            "level": 12,
+            "drift": "+3"
+        }
+    }
+}

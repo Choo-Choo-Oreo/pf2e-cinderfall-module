@@ -1,0 +1,41 @@
+{
+    "name": "Static Alibi",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "skill",
+        "description": {
+            "value": "<p>Comms in the wastes cut out constantly, and you've made that work for you more than once. You can Create a Diversion by claiming radio interference garbled your last transmission, affecting one additional creature within earshot at no increase to the DC.</p>"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Expert in Deception"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "static-alibi"
+    },
+    "_id": "yOR6tKaqj47l5A6f",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Expanding Create a Diversion to affect one additional creature at no DC increase changes the action's targeting scope, the same problem as Break the Room -- no rule element retargets an existing action."
+        }
+    }
+}

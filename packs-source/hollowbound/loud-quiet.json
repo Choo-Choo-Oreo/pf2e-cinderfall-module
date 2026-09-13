@@ -33,5 +33,10 @@
         },
         "slug": "loud-quiet"
     },
-    "_id": "EymhzBXxnSpcaC8T"
+    "_id": "EymhzBXxnSpcaC8T",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "\"Quiet-state boons remain active while Unveiled\" needs the Quiet/Unveiled state pair to have rule-element representation to condition on. Hollowbound's entire Toll / Fraying / Quiet-Unveiled / Parley system has zero rule-element representation anywhere in this corpus -- classes.hollowbound.json ships system.rules: [] and defines the whole subsystem only in flags.cinderfall prose (the terms array and progression table). Confirmed via grep -rli \"SpecialResource\" across feats/class/hollowbound/ and classes.hollowbound.json -> zero matches. Note: SpecialResource with renew:false IS a real, precedented mechanism for a manually-tracked, non-daily-refilling pool (confirmed live in this very corpus at feats/class/fleshmancer/fleshmancer.vitae-pool.json, max:10, renew:false) -- so this is not an engine limitation, but there is no equivalent \"Toll Pool\"-style classfeature card anywhere in feats/class/hollowbound/ to attach such a rule element to; a card would need to be authored first, which is out of scope for a gap-filling pass over the existing 75 cards."
+        }
+    }
 }

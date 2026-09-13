@@ -1,0 +1,67 @@
+{
+    "name": "Deadman Inlay",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>On your death, after 1 round, a 20-ft burst — 6d6 electricity, basic Reflex vs your class DC. You set the trigger conditions at install.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 8
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "gp": 500
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "traits": {
+            "rarity": "uncommon",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "deadman-inlay"
+    },
+    "_id": "ejn68ytDq3qMjrwx",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The whole ability is a death-triggered 20-foot electricity burst with a save -- pf2e has no rule element for a self-held item's effect firing after the wielder's own death (the item stops functioning along with the actor in the normal engine flow); needs a bespoke death-trigger mechanism outside this schema.",
+            "augmentKind": "cybernetic",
+            "augmentType": "implant",
+            "tier": "uncommon",
+            "slots": [
+                "Inlays"
+            ],
+            "slotCost": 1,
+            "availability": "Black Market",
+            "level": 8,
+            "drift": "+2",
+            "augTags": [
+                "weapon"
+            ]
+        }
+    }
+}

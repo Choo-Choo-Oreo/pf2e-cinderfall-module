@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "paradise-touched-archive"
+            ],
             "rarity": "common",
             "value": [
                 "paradise-touched",
@@ -34,5 +37,11 @@
         },
         "slug": "everyone-who-was-there"
     },
-    "_id": "6ZqjAua3rVTE6gLt"
+    "_id": "6ZqjAua3rVTE6gLt",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Ask a fully truthful question of any uploaded witness; unconditional 1 Signal Drift, always. A real, unconditional, un-avoidable number riding on the unbuildable Drift track. The 0-10 Signal Drift track has the same absence as Bandwidth: no `SpecialResource`/counter representation anywhere in the corpus.",
+            "track": "archive"
+        }
+    }
 }

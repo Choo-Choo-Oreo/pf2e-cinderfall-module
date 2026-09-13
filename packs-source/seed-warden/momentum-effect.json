@@ -1,0 +1,56 @@
+{
+    "name": "Effect: Momentum",
+    "type": "effect",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "description": {
+            "value": "<p><em>Applied by <strong>Momentum</strong> to the character who used it.</em></p>\n<hr />\n<p>The turn carries you. You gain a +1 status bonus to spell attack rolls and to your spell DCs for 1 round. This triggers on the first crossing of each encounter only, whichever direction it goes.</p>"
+        },
+        "duration": {
+            "expiry": "turn-end",
+            "sustained": false,
+            "unit": "rounds",
+            "value": 1
+        },
+        "level": {
+            "value": 6
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "spell-attack",
+                "type": "status",
+                "value": 1
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "spell-dc",
+                "type": "status",
+                "value": 1
+            }
+        ],
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "value": []
+        },
+        "slug": "momentum-effect"
+    },
+    "_id": "A0DVS2HjX5rFfog8",
+    "flags": {
+        "cinderfall": {
+            "effectOf": "seed-warden.momentum",
+            "landsOn": "self"
+        }
+    }
+}

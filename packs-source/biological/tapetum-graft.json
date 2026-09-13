@@ -1,0 +1,75 @@
+{
+    "name": "Tapetum Graft",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>A cultured reflective layer behind the retina. Low-light vision (or, if you already have it, a +1 item bonus to Seek in dim light or darker); you are not dazzled by sudden bright light.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 2
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "mk": 35
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "Sense",
+                "selector": "low-light-vision"
+            },
+            {
+                "key": "Immunity",
+                "type": "dazzled"
+            }
+        ],
+        "size": "med",
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "tapetum-graft"
+    },
+    "_id": "qctWb7beXAdB2xyR",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The alternate '+1 item bonus to Seek in dim light if you already have low-light vision' branch is not modeled: granting the Sense above is a no-op if the character already has it from elsewhere, and Sense has no confirmed 'grant this bonus instead if the sense is redundant' branching (same finding as the mutations pass's Tapetum).",
+            "augmentKind": "biological",
+            "augmentType": "graft",
+            "tier": "common",
+            "slots": [
+                "Ocular"
+            ],
+            "slotCost": 1,
+            "grade": 1,
+            "availability": "Cultured",
+            "level": 2,
+            "load": "+0",
+            "resonance": "+0"
+        }
+    }
+}

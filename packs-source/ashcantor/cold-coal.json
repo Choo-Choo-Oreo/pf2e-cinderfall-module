@@ -33,5 +33,10 @@
         },
         "slug": "cold-coal"
     },
-    "_id": "ZjAkB5w7lkUga3ol"
+    "_id": "ZjAkB5w7lkUga3ol",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "This grants an ally a temporary sense/capability or lets an ally use the caster's own reaction with the caster's own modifiers, sourced from the caster's own class feature. No selector or rule element exists anywhere in pf2e-source for granting an ally a buff/sense/action from this actor's own item or ability -- confirmed corpus-wide this pass, and even more specific here (lending an action with the lender's own modifiers is a step beyond the already-confirmed absence)."
+        }
+    }
 }

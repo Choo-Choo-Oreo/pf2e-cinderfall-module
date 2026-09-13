@@ -33,5 +33,10 @@
         },
         "slug": "one-job-left"
     },
-    "_id": "WTqissogJ3cFSfxT"
+    "_id": "WTqissogJ3cFSfxT",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Every Redline for the rest of the encounter is clean (no Slip), and this persists even if the caster is healed back above half HP. Deadhand's Redline/Slip mechanic is entirely homebrew with zero schema footprint anywhere in this corpus."
+        }
+    }
 }

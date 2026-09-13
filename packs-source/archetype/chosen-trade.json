@@ -35,5 +35,10 @@
         },
         "slug": "chosen-trade"
     },
-    "_id": "UG33JKfczjrTYZ80"
+    "_id": "UG33JKfczjrTYZ80",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Committing to a Trade only unlocks eligibility for later feat picks (Advanced Trade) and stays explicitly short of the class's own Trade feature/capstones. Same absence as Chosen Draw: no other card's ChoiceSet filter can read a sibling item's flags.system.rulesSelections at selection time, so recording the choice as a ChoiceSet flag would have zero mechanical effect on which feats Advanced Trade can later offer -- a rule element here would be semantically null."
+        }
+    }
 }

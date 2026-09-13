@@ -1,0 +1,45 @@
+{
+    "name": "No Mercy",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per round</p><p><strong>Trigger</strong> You reduce a creature to 0 Hit Points.</p><p><strong>Cost</strong> 1 Zeal</p><hr /><p>Choose a different creature within 30 feet that you can see. It takes 2d6 mental damage as it feels the weight of what just happened to its ally. This is a mental effect. Wrath doesn't stop just because one thing is already dead.</p>"
+        },
+        "level": {
+            "value": 8
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "otherTags": [
+                "cultist-last-word"
+            ],
+            "rarity": "common",
+            "value": [
+                "cultist"
+            ]
+        },
+        "slug": "no-mercy"
+    },
+    "_id": "rr31J9fTmEOthWwg",
+    "flags": {
+        "cinderfall": {
+            "track": "last-word"
+        }
+    }
+}

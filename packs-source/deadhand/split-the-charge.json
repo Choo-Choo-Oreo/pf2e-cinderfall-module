@@ -1,0 +1,37 @@
+{
+    "name": "Split the Charge",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 2
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Saving Throw</strong> Fortitude, class DC</p><p><strong>Effect</strong> every adjacent enemy that fails is pushed 10 feet and becomes off-guard until the end of its next turn</p><hr /><p>Plant in a rushing line's path and scatter its formation.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "split-the-charge"
+    },
+    "_id": "GLfaSiOA4jChQO2L",
+    "flags": {
+        "cinderfall": {
+            "spellTag": "Veteran",
+            "notSpell": "deadhand's class document carries system.spellcasting 0, so this is an ability, not a spell, and convert_class_spells.py declines it by design as a NON_CASTERS owner"
+        }
+    }
+}

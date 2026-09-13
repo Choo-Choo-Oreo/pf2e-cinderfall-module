@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "fleshmancer-grafters"
+            ],
             "rarity": "common",
             "value": [
                 "fleshmancer"
@@ -33,5 +36,11 @@
         },
         "slug": "both-hands-both-patients"
     },
-    "_id": "svXPVzTyDy3eGk9D"
+    "_id": "svXPVzTyDy3eGk9D",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "No rule element in pf2e-source combines two independent consumable-item applications into a single activity (unlike Double Slice, which is scoped specifically to two melee weapon Strikes, not arbitrary item uses).",
+            "track": "grafters"
+        }
+    }
 }

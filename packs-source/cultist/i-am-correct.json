@@ -1,0 +1,46 @@
+{
+    "name": "I Am Correct",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Once per turn, when you succeed at a check or saving throw by 2 or less, you may treat it as a critical success instead. Pride doesn't do partial credit.</p>"
+        },
+        "level": {
+            "value": 14
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "otherTags": [
+                "cultist-undoubted"
+            ],
+            "rarity": "common",
+            "value": [
+                "cultist"
+            ]
+        },
+        "slug": "i-am-correct"
+    },
+    "_id": "FjybI0KKnOoRTKiJ",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "\"Once per turn, when you succeed at a check/save by 2 or less, may treat it as a critical success\" is P-DEGREE-REACTIVE, specifically the margin-of-success case: \"succeed by 2 or less\" is not knowable to AdjustDegreeOfSuccess's predicate, evaluated before the roll resolves (adjust-degree-of-success.ts) -- before any margin exists to check.",
+            "track": "undoubted"
+        }
+    }
+}

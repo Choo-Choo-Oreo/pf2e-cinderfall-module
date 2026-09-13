@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "deadhand-breaker"
+            ],
             "rarity": "common",
             "value": [
                 "deadhand"
@@ -33,5 +36,11 @@
         },
         "slug": "break-their-line"
     },
-    "_id": "d5ECqOBxT761VaaI"
+    "_id": "d5ECqOBxT761VaaI",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "On a Strike hit, no save at all: target is knocked prone or drops a held item; a much-larger target is off-guard instead. No rule-element key in pf2e-source/src/module/rules/rule-element/ applies Prone, off-guard, or a forced item-drop to a different creature, with or without a save -- and this card explicitly claims no save whatsoever, a stronger claim than any real precedent found in this pass.",
+            "track": "breaker"
+        }
+    }
 }

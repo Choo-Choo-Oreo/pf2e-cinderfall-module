@@ -24,7 +24,32 @@
             "remaster": true,
             "title": "Cinderfall"
         },
-        "rules": [],
+        "rules": [
+            {
+                "key": "RollOption",
+                "option": "contract-terms",
+                "toggleable": true,
+                "label": "Negotiating payment, terms or conditions of work"
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "diplomacy",
+                "type": "circumstance",
+                "value": 1,
+                "predicate": [
+                    "contract-terms"
+                ]
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "society",
+                "type": "circumstance",
+                "value": 1,
+                "predicate": [
+                    "contract-terms"
+                ]
+            }
+        ],
         "traits": {
             "rarity": "common",
             "value": [

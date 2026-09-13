@@ -1,0 +1,58 @@
+{
+    "name": "A Fingerprint, Not a Coincidence",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "ancestryfeature",
+        "description": {
+            "value": "<p>Choir of Ash rituals and NPCs recognize what you are on sight; you gain an edge dealing with them — and they occasionally try to call you home.</p>"
+        },
+        "level": {
+            "value": 0
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "RollOption",
+                "option": "a-fingerprint-choir",
+                "toggleable": true,
+                "label": "Dealing directly with the Choir of Ash"
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "skill-check",
+                "type": "circumstance",
+                "value": 1,
+                "predicate": [
+                    "a-fingerprint-choir",
+                    {
+                        "nor": [
+                            "wandering-cinderborn"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "cinderborn"
+            ]
+        },
+        "slug": "a-fingerprint-not-a-coincidence"
+    },
+    "_id": "6DNK5iMaebZIfl8Z"
+}

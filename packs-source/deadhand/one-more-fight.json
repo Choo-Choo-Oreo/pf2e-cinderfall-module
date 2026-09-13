@@ -33,5 +33,10 @@
         },
         "slug": "one-more-fight"
     },
-    "_id": "3mulTwr9A53Ypj2T"
+    "_id": "3mulTwr9A53Ypj2T",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "On being reduced to 0 HP: stays standing at 1 HP instead, banks 2 Tally (exceeding the normal cap, lost at encounter's end if unspent), and the wounded condition increases by 1. No rule element in pf2e-source/src/module/rules/rule-element/ prevents or floors an actor's own HP loss below a set value (LoseHitPoints only ever subtracts HP, confirmed absence generalized from this pass's own no-Heal-key finding), and Deadhand's Tally is entirely homebrew with zero schema footprint anywhere in this corpus."
+        }
+    }
 }

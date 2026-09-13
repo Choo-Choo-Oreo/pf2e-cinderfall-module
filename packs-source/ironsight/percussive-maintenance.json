@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "ironsight-trick-iron"
+            ],
             "rarity": "common",
             "value": [
                 "ironsight"
@@ -33,5 +36,11 @@
         },
         "slug": "percussive-maintenance"
     },
-    "_id": "nf44CXLEt9B3ffEK"
+    "_id": "nf44CXLEt9B3ffEK",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "no selector for skill-check-gated item-state restoration (same reasoning as jury-rig-repair/field-conversion).",
+            "track": "trick-iron"
+        }
+    }
 }

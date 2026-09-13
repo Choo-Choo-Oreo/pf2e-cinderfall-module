@@ -1,0 +1,77 @@
+{
+    "name": "Wraith Caul",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>Grown from tissue that died mid-transition and never finished. +2 apex item bonus to Reflex saves. Once per day, 1 action: become partially incorporeal for 1 minute — resistance 10 to physical damage, and move through solid objects up to 5 feet thick as difficult terrain.</p><p><b>Rider:</b> Half-dead things notice half-dead tissue. Undead and unquiet spirits treat you as kin at first glance, and some of them don't correct the mistake quietly.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 18
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "mk": 35000
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "reflex",
+                "type": "item",
+                "value": 2
+            }
+        ],
+        "size": "med",
+        "traits": {
+            "rarity": "legendary",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "wraith-caul"
+    },
+    "_id": "DBKPcE1ktu3IGJxV",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The once-per-day 1-minute partial-incorporeality (Resistance 10 physical plus moving through solid objects as difficult terrain) is a limited-use activated ability -- needs a granted Action item plus a linked effect, same class of gap as every other timed activated buff in this pass. 'Undead notice you as kin' is a narrative trigger, not a mechanical one. The Reflex bonus above is real: unlike the raw-ability-score apex clauses elsewhere in this pass, a save bonus is a standard FlatModifier target with direct precedent throughout pf2e (item bonus type matches the card's own 'apex item bonus' wording).",
+            "augmentKind": "biological",
+            "augmentType": "graft",
+            "tier": "legendary",
+            "slots": [
+                "Dermal"
+            ],
+            "slotCost": 1,
+            "grade": 5,
+            "availability": "Wild",
+            "level": 18,
+            "load": "+7",
+            "resonance": "+7",
+            "augTags": [
+                "wild",
+                "apex"
+            ]
+        }
+    }
+}

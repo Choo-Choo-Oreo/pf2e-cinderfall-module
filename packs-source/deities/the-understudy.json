@@ -3,16 +3,25 @@
     "type": "deity",
     "img": "systems/pf2e/icons/default-icons/deity.svg",
     "system": {
-        "attribute": [],
+        "attribute": [
+            "cha",
+            "int"
+        ],
         "category": "deity",
         "description": {
             "value": "<p><strong>Second Chances & Replacement</strong></p>\n<p>New. Feeds on the moment someone steps into a role that isn't theirs by right — taking over for a dead sibling, a fallen leader, an absent parent. Grants uncanny competence at a borrowed job, and a nagging, permanent sense that you're still just standing in for the real thing.</p>"
         },
         "domains": {
-            "alternate": [],
-            "primary": []
+            "alternate": [
+                "fate"
+            ],
+            "primary": [
+                "confidence"
+            ]
         },
-        "font": [],
+        "font": [
+            "heal"
+        ],
         "publication": {
             "license": "ORC",
             "remaster": true,
@@ -20,19 +29,22 @@
         },
         "rules": [],
         "sanctification": null,
-        "skill": [],
-        "spells": {},
+        "skill": [
+            "performance"
+        ],
+        "spells": {
+            "1": "Compendium.pf2e.spells-srd.Item.Disguise Magic",
+            "2": "Compendium.pf2e.spells-srd.Item.Mirror Image",
+            "3": "Compendium.pf2e.spells-srd.Item.Heroism"
+        },
         "traits": {},
-        "weapons": [],
+        "weapons": [
+            "shortsword"
+        ],
         "slug": "the-understudy"
     },
     "_id": "LHDGtgjLECn9QZW9",
     "flags": {
-        "cinderfall": {
-            "define": "Second Chances & Replacement",
-            "incomplete": [
-                "STUB -- no mechanics authored. Missing every pf2e deity field: attribute, domains, font, sanctification, skill, spells, weapons. `category` is a default of 'deity' and may need to be philosophy or pantheon. See .claude/docs/todo.md."
-            ]
-        }
+        "cinderfall": {}
     }
 }

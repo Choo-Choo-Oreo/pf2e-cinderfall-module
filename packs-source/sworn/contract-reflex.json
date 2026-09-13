@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "flavored"
+            ],
             "rarity": "common",
             "value": [
                 "sworn"
@@ -33,5 +36,10 @@
         },
         "slug": "contract-reflex"
     },
-    "_id": "IfeqLN3RBN6BQTtO"
+    "_id": "IfeqLN3RBN6BQTtO",
+    "flags": {
+        "cinderfall": {
+            "flavored": true
+        }
+    }
 }

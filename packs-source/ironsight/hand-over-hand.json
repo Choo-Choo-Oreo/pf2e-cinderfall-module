@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "ironsight-twin-iron"
+            ],
             "rarity": "common",
             "value": [
                 "ironsight"
@@ -33,5 +36,11 @@
         },
         "slug": "hand-over-hand"
     },
-    "_id": "VM3bMauzsIcjVFtM"
+    "_id": "VM3bMauzsIcjVFtM",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "the free-reload/free-draw half alone would match, but the \"swap which hand counts as primary\" branch has no selector, so the card as a whole doesn't reduce to a clean SKIP. This card's entire effect is a limited-use activated action/reaction that hands the actor a wholly new usable action -- per this pass's fixed bucket-3 convention this is always INCOMPLETE regardless of precedent. Ironsight's own real-world analog, the Gunslinger, ships this exact shape unencoded across dozens of its own Strike-variant/reload-trick/called-shot feats (e.g. pf2e-source/packs/pf2e/feats/class/gunslinger/level-10/called-shot.json, level-6/scatter-blast.json, level-1/dual-weapon-reload.json, all rules: []) -- confirming this is the standard shape for a gunfighter class, not license to SKIP. Pure action-cost-to-free conversion with no secondary numeric effect -- matches the pre-confirmed absence directly (pf2e-source/packs/pf2e/feats/class/barbarian/level-14/vengeful-strike.json and .../shared-class-feats/level-2/quick-draw.json, both rules: []).",
+            "track": "twin-iron"
+        }
+    }
 }

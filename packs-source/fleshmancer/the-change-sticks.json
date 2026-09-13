@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "fleshmancer-skinwalkers"
+            ],
             "rarity": "common",
             "value": [
                 "fleshmancer"
@@ -33,5 +36,11 @@
         },
         "slug": "the-change-sticks"
     },
-    "_id": "DzjXclAiRpGO4fr6"
+    "_id": "DzjXclAiRpGO4fr6",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "\"One self-mutation effect you can produce\" is resolved at play time, not authoring time -- no selector generically converts an arbitrary activated ability into an always-on one.",
+            "track": "skinwalkers"
+        }
+    }
 }

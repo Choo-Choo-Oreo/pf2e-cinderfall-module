@@ -1,0 +1,43 @@
+{
+    "name": "Networked Mastery",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "ancestry",
+        "description": {
+            "value": "<p>Data exchanges with any nearby machine intelligence become as strong as exchanges with your original parent.</p>"
+        },
+        "level": {
+            "value": 13
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Networked Wire-ward heritage or Full Duplex"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "wire-ward"
+            ]
+        },
+        "slug": "networked-mastery"
+    },
+    "_id": "GXVRb3aoovSePrkz",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "This affects another creature's own roll, HP, or condition from the card holder's passive/item, which has no rule-element hook in real pf2e. ('data exchanges with any nearby machine intelligence become as strong as exchanges with your original parent' has no predicate or value to build.)"
+        }
+    }
+}

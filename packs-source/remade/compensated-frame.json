@@ -33,5 +33,10 @@
         },
         "slug": "compensated-frame"
     },
-    "_id": "8K6SdVJjK2pdCZNn"
+    "_id": "8K6SdVJjK2pdCZNn",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "BAND-GAP."
+        }
+    }
 }

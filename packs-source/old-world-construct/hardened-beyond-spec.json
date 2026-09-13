@@ -1,0 +1,43 @@
+{
+    "name": "Hardened Beyond Spec",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "ancestry",
+        "description": {
+            "value": "<p>The Fortitude and critical-hit resistance bonus increases further, and now applies against critical hits from any damage type.</p>"
+        },
+        "level": {
+            "value": 13
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Hardened Chassis"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "old-world-construct"
+            ]
+        },
+        "slug": "hardened-beyond-spec"
+    },
+    "_id": "M96i4JfD97RxJAnY",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Upgrades Hardened Chassis, itself unbuildable for lack of a stated Fortitude-bonus value or a critical-hit-resistance rule element."
+        }
+    }
+}

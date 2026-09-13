@@ -1,0 +1,65 @@
+{
+    "name": "Furnace Gut",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>Bio-reactor stomach. Metabolize almost any organic matter for fuel — no rations needed. 1/day, burn a full meal for 15 temporary HP over 1 minute.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 11
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "gp": 1500
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "traits": {
+            "rarity": "rare",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "furnace-gut"
+    },
+    "_id": "M9m6OHostLGqfDUs",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Both clauses have no hook: 'metabolize any organic matter, no rations needed' has no food-clock mechanism to cancel anywhere in pf2e (confirmed absence, metabolic-control.json), and the 1/day burn-a-meal-for-15-temp-HP is a limited-use activated ability needing a granted Action item.",
+            "augmentKind": "cybernetic",
+            "augmentType": "implant",
+            "tier": "rare",
+            "slots": [
+                "Viscera"
+            ],
+            "slotCost": 1,
+            "grade": 3,
+            "availability": "Black Market",
+            "level": 11,
+            "drift": "+3"
+        }
+    }
+}

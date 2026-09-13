@@ -1,0 +1,72 @@
+{
+    "name": "Digitigrade Regrowth",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>Legs rebuilt on a sprinter's plan — reversed ankle, longer tendon. +10-foot status bonus to Speed; +1 item bonus to Acrobatics; you ignore the first 5 feet of difficult terrain on each move.</p><p><b>Donor:</b> A runner. From whom, and why they aren't running any more, is the GM's.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 6
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "mk": 250
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "acrobatics",
+                "type": "item",
+                "value": 1
+            }
+        ],
+        "size": "med",
+        "traits": {
+            "rarity": "uncommon",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "digitigrade-regrowth"
+    },
+    "_id": "WFs0XWdQlObJ0Ohy",
+    "flags": {
+        "cinderfall": {
+            "augmentKind": "biological",
+            "augmentType": "graft",
+            "tier": "uncommon",
+            "slots": [
+                "Legs"
+            ],
+            "slotCost": 1,
+            "grade": 2,
+            "availability": "Grafted",
+            "level": 6,
+            "load": "+2",
+            "resonance": "+2"
+        }
+    }
+}

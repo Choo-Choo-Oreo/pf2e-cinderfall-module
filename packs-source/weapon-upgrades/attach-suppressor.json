@@ -38,10 +38,7 @@
     "_id": "h6rNe6FOQBljcImG",
     "flags": {
         "cinderfall": {
-            "incomplete": [
-                "level is a stub (0); the page carries no item levels"
-            ],
-            "currency": "Balanced to the PF2e GP standard and denominated in Credits: 1 Credit = 1 gp. The whole list was scaled x10 from the retired scraps=sp anchor, so every relative price is unchanged from the page as authored."
+            "incomplete": "\"Creatures get a -2 to Seek checks trying to pinpoint you by sound alone\" has no rule-element equivalent: pf2e rule elements on a held item modify the wielder's own rolls, not other creatures' checks made against the wielder, and no selector exists for 'an enemy's Seek check targeting the item-holder' specifically. Real pf2e's own Silencer (pf2e-source/packs/pf2e/equipment/silencer.json) describes the identical fiction ('only makes a quiet noise when fired') but deliberately states no number and carries rules: [] -- this card chose to commit to a concrete -2, which is the part that can't be automated."
         }
     }
 }

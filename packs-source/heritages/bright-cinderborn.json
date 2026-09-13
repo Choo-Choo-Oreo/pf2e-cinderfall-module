@@ -15,7 +15,42 @@
             "remaster": true,
             "title": "Cinderfall"
         },
-        "rules": [],
+        "rules": [
+            {
+                "key": "RollOption",
+                "option": "bright-cinderborn-glowing",
+                "toggleable": true,
+                "label": "Your Hairline Cracks are visibly glowing"
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "intimidation",
+                "type": "circumstance",
+                "value": 1,
+                "predicate": [
+                    "bright-cinderborn-glowing"
+                ]
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "stealth",
+                "type": "circumstance",
+                "value": -1,
+                "predicate": [
+                    {
+                        "or": [
+                            {
+                                "lt": [
+                                    "hp-percent",
+                                    50
+                                ]
+                            },
+                            "self:condition:frightened"
+                        ]
+                    }
+                ]
+            }
+        ],
         "traits": {
             "rarity": "common",
             "value": []

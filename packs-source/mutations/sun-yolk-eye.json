@@ -24,7 +24,9 @@
             "type": null
         },
         "price": {
-            "value": {}
+            "value": {
+                "gp": 0
+            }
         },
         "publication": {
             "license": "ORC",
@@ -32,7 +34,18 @@
             "title": "Cinderfall"
         },
         "quantity": 1,
-        "rules": [],
+        "rules": [
+            {
+                "key": "Immunity",
+                "type": "dazzled"
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "diplomacy",
+                "type": "circumstance",
+                "value": -1
+            }
+        ],
         "size": "med",
         "traits": {
             "rarity": "common",
@@ -48,19 +61,11 @@
         "cinderfall": {
             "mutationType": "minor",
             "tier": "common",
-            "slot": "Ocular",
             "slots": [
                 "Ocular"
             ],
             "slotCost": 1,
-            "roll": "d100 — 09–10",
-            "incomplete": [
-                "level is a stub (0); mutations carry no level",
-                "price is empty; a mutation is not bought"
-            ],
-            "inferred": [
-                "system.usage"
-            ]
+            "roll": "d100 — 09–10"
         }
     }
 }

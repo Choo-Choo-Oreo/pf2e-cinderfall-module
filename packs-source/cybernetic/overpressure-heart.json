@@ -1,0 +1,71 @@
+{
+    "name": "Overpressure Heart",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>Twin-chamber replacement. +2 item bonus to Fortitude. Immune to doomed from blood loss. 1/hour, reduce your slowed or clumsy value by 1 for 1 round.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 11
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "gp": 1500
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "fortitude",
+                "type": "item",
+                "value": 2
+            }
+        ],
+        "size": "med",
+        "traits": {
+            "rarity": "rare",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "overpressure-heart"
+    },
+    "_id": "BCSU97CWeU0xLQvZ",
+    "flags": {
+        "cinderfall": {
+            "augmentKind": "cybernetic",
+            "augmentType": "implant",
+            "tier": "rare",
+            "slots": [
+                "Circulatory"
+            ],
+            "slotCost": 1,
+            "grade": 3,
+            "availability": "Restricted",
+            "level": 11,
+            "drift": "+2"
+        }
+    }
+}

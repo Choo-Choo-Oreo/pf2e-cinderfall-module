@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "fleshmancer-grafters"
+            ],
             "rarity": "common",
             "value": [
                 "fleshmancer"
@@ -33,5 +36,11 @@
         },
         "slug": "no-one-dies-on-my-table"
     },
-    "_id": "qOLmhMteX1jJKT5X"
+    "_id": "qOLmhMteX1jJKT5X",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "This effect changes a different creature's own roll, HP, condition, or item, sourced from the card holder's own passive/item/action. No selector exists anywhere in pf2e-source for this -- confirmed corpus-wide this pass. Mass ally heal, condition removal, and reviving the recently dead all target creatures other than the caster.",
+            "track": "grafters"
+        }
+    }
 }

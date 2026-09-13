@@ -1,0 +1,41 @@
+{
+    "name": "Bent-Frame Grapple",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "skill",
+        "description": {
+            "value": "<p>You know exactly where an augmented body still bends like flesh. You gain a +2 circumstance bonus to Grapple or Shove checks against creatures with cybernetic or prosthetic augmentation, since the joints and mounts are still weak points.</p>"
+        },
+        "level": {
+            "value": 8
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Expert in Athletics"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "bent-frame-grapple"
+    },
+    "_id": "LuALynOazOvyY8aw",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The +2 circumstance bonus to Grapple/Shove This needs a target:trait predicate (real shape confirmed via pf2e-source/packs/pf2e/feats/skill/level-3/aurochs-headed.json's target:trait:orc), but no Cinderfall augmentation grants its wearer an actor-level trait for that predicate to read -- installed augmentations are items, not creature traits (confirmed absent corpus-wide during the archetype pass)."
+        }
+    }
+}

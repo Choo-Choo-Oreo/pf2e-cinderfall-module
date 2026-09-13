@@ -1,0 +1,75 @@
+{
+    "name": "Wall-Grip Pads",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>Gecko-setae soles and palms grown off a Spiderlands climber. Climb Speed equal to your land Speed. You can hang from a ceiling or wall to keep your hands free, though not fight from there at full effect.</p><p><b>Rider:</b> It clings when you panic. On a failed save against fear you are stuck fast to the nearest surface and must spend an action to peel free.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 7
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "mk": 250
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "BaseSpeed",
+                "selector": "climb",
+                "value": "@actor.system.movement.speeds.land.value"
+            }
+        ],
+        "size": "med",
+        "traits": {
+            "rarity": "uncommon",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "wall-grip-pads"
+    },
+    "_id": "wOivpWZtHPmsWVfa",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Climb Speed above is set equal to current land Speed via a formula value -- real precedent: pf2e-source/packs/pf2e/equipment/divers-gloves-greater.json uses the identical @actor.system.movement.speeds.land.value reference for Swim Speed. The fear-triggered stick-fast rider has no hook: no roll option ties 'failed a fear save' to an involuntary movement restriction.",
+            "augmentKind": "biological",
+            "augmentType": "graft",
+            "tier": "uncommon",
+            "slots": [
+                "Legs"
+            ],
+            "slotCost": 1,
+            "grade": 2,
+            "availability": "Wild",
+            "level": 7,
+            "load": "+2",
+            "resonance": "+3",
+            "augTags": [
+                "wild"
+            ]
+        }
+    }
+}

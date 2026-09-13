@@ -1,0 +1,46 @@
+{
+    "name": "Two In The Air",
+    "type": "capstone",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p>Once per round, when you throw a Graft you may throw a second prepared Graft of Mk I or Mk II as part of the same action, at the same target or a different one. Roll each separately. A creature caught by both takes splash from the higher-Mk Graft only — the second one is already spent by the time it lands.</p>"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "otherTags": [
+                "fleshmancer-butchers"
+            ],
+            "value": [
+                "fleshmancer"
+            ]
+        },
+        "slug": "butchers-minor"
+    },
+    "_id": "fv6MUuDSBqI6YVAM",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "No combo rule element resolves two independent consumable applications (throwing a second prepared Graft) as one activity, same reasoning as Both Hands, Both Patients.",
+            "track": "butchers"
+        }
+    }
+}

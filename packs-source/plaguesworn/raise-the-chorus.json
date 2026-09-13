@@ -1,5 +1,5 @@
 {
-    "name": "Verse of the Multitude",
+    "name": "Raise the Chorus",
     "type": "spell",
     "img": "icons/svg/mystery-man.svg",
     "system": {
@@ -49,6 +49,7 @@
     "_id": "EnU55LGMiHL6CFkX",
     "flags": {
         "cinderfall": {
+            "incomplete": "Raising/creating a new minion or ally creature (P-SUMMON) has no system.rules representation. Real pf2e itself ships rules: [] for the equivalent case (pf2e-source/packs/pf2e/spells/spells/rank-1/summon-undead.json, system.summons left unpopulated too), but per this pass's own convention that is evidence of the gap, not license to treat the clause as correctly-empty -- it is dispositioned INCOMPLETE, not SKIP.",
             "focusCost": "1",
             "listing": "Verse Spells / Verse of the Multitude Full Chorus — thrall handling"
         }

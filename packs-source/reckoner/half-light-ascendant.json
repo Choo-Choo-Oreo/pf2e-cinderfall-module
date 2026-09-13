@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "flavored"
+            ],
             "rarity": "common",
             "value": [
                 "reckoner"
@@ -33,5 +36,11 @@
         },
         "slug": "half-light-ascendant"
     },
-    "_id": "iGjQKkLUWkvP5JAh"
+    "_id": "iGjQKkLUWkvP5JAh",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "On a RUST TOUCH crit, spreads the same item penalty to an adjacent creature -- ItemAlteration only alters items owned by the same actor the rule element's item belongs to (confirmed against pf2e-source's item-alteration/ rule elements); no rule element alters a second hostile creature's own gear either (NOFOREIGN-ITEM, doubled).",
+            "flavored": true
+        }
+    }
 }

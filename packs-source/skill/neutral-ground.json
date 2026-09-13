@@ -1,0 +1,41 @@
+{
+    "name": "Neutral Ground",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "skill",
+        "description": {
+            "value": "<p>You know how to make even the Docks feel safer than they are. While you're actively mediating a negotiation between two hostile parties, both take a -1 circumstance penalty to Initiative rolls made against each other for as long as the negotiation continues.</p>"
+        },
+        "level": {
+            "value": 6
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Expert in Diplomacy"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "neutral-ground"
+    },
+    "_id": "pyFD1WSSaOlTIDVJ",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The -1 Initiative penalty applies to two OTHER creatures' rolls against each other while the holder mediates. This imposes a penalty or effect on another creature's own roll rather than modifying the card holder's, which a passive FlatModifier can't reach without a granted aura effect -- no such aura precedent exists anywhere in this corpus."
+        }
+    }
+}

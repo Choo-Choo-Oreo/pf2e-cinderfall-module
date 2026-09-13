@@ -1,0 +1,39 @@
+{
+    "name": "A Steady Hand With Restless Things",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "skill",
+        "description": {
+            "value": "<p>Bonus to checks made to calm, contain, or negotiate with a freshly-bound soul, ghost-machine, or raging spirit before it decides you're a threat rather than a handler.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "a-steady-hand-with-restless-things"
+    },
+    "_id": "Ccs0TsgRwK8ikAjH",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "No skill is named ('checks made to calm, contain, or negotiate') and no numeric value is given, and 'freshly-bound soul, ghost-machine, or raging spirit' has no matching engine-recognizable trait to predicate against -- nothing here to build a FlatModifier from without inventing both the skill and the target condition.",
+            "category": "background",
+            "sourceOwner": "backgrounds"
+        }
+    }
+}

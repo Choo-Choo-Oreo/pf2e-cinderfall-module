@@ -1,0 +1,53 @@
+{
+    "name": "It Doesn't Miss Anymore",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
+        "description": {
+            "value": "<span class=\"sdesc\">Damage-type reconfiguration is free and unlimited; the called-shot upgrades to a full once-per-encounter ultimate dealing +4d6 precision damage and ignoring 5 points of the target's resistance; a critical hit can trigger a bonus free Redline surge without adding to your daily Slippage count.</span>"
+        },
+        "level": {
+            "value": 17
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "system.proficiencies.attacks.widowmaker-weapon.rank",
+                "value": 4
+            }
+        ],
+        "traits": {
+            "otherTags": [],
+            "rarity": "common",
+            "value": [
+                "scrapwright"
+            ]
+        },
+        "slug": "it-doesnt-miss-anymore"
+    },
+    "_id": "89noP4VI3kAH3PX3",
+    "flags": {
+        "cinderfall": {
+            "spellTag": "Mk IV · 17th",
+            "ghostRigTier": "Mk IV",
+            "grantedAtLevel": 17,
+            "notSpell": "scrapwright's class document carries system.spellcasting 0, so this is an ability, not a spell, and convert_class_spells.py declines it by design as a NON_CASTERS owner"
+        }
+    }
+}

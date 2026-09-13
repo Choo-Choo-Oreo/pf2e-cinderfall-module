@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "deadhand-breaker"
+            ],
             "rarity": "common",
             "value": [
                 "deadhand"
@@ -33,5 +36,10 @@
         },
         "slug": "the-engagement-ends-here"
     },
-    "_id": "oTdTU8I8RKWwz4Yz"
+    "_id": "oTdTU8I8RKWwz4Yz",
+    "flags": {
+        "cinderfall": {
+            "track": "breaker"
+        }
+    }
 }

@@ -24,7 +24,30 @@
             "remaster": true,
             "title": "Cinderfall"
         },
-        "rules": [],
+        "rules": [
+            {
+                "key": "RollOption",
+                "option": "quick-fingers",
+                "toggleable": true,
+                "label": "Compressing the activity into a single action"
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "skill-check",
+                "type": "circumstance",
+                "value": -2,
+                "predicate": [
+                    "quick-fingers",
+                    {
+                        "or": [
+                            "action:steal",
+                            "action:pick-a-lock",
+                            "action:disable-a-device"
+                        ]
+                    }
+                ]
+            }
+        ],
         "traits": {
             "rarity": "common",
             "value": [

@@ -33,6 +33,15 @@
  *                                   pays the FULL asking price. This is the one
  *                                   that inverts the intent while looking right.
  *   infiniteQuantity !== true       Stock depletes. Intended to be endless.
+ *   overrideItemFilters missing     `itempiles-pf2e` filters `action` and `feat`
+ *                                   out of EVERY pile, so an ability cannot be
+ *                                   stocked or sold at all. isValidItemPile()
+ *                                   prefers a pile's own `overrideItemFilters`
+ *                                   over the global ITEM_FILTERS, so this is the
+ *                                   only place ability trade can be opened
+ *                                   without forking the compat patch. Without
+ *                                   it the ability simply never appears -- no
+ *                                   error, no empty row, nothing.
  *
  * Also checks the price uuid is a Compendium uuid: a `RollTable.<id>` or
  * `Item.<id>` world uuid cannot resolve from a compendium actor in someone
@@ -62,6 +71,7 @@ assert.equal(pack.path, "packs/npcs");
 
 let merchants = 0;
 let priced = 0;
+let abilityTrading = 0;
 
 for (const f of files) {
   const doc = JSON.parse(readFileSync(join(npcDir, f), "utf8"));
@@ -85,6 +95,29 @@ for (const f of files) {
   assert.ok(!("tablesForPopulate" in ip.data),
     `${where}: tablesForPopulate points at a world RollTable; configure it per world`);
 
+  // Ability trade. The compat patch's ITEM_FILTERS, verbatim from
+  // itempiles-pf2e/module.js:29-32 -- the list this override is derived from.
+  const COMPAT_FILTERS = ("action,ancestry,background,class,condition,deity,effect,feat,"
+    + "heritage,lore,melee,spell,spellcastingEntry").split(",");
+  const OPENED = ["action", "feat"];          // what this merchant is allowed to trade
+  const override = ip.data.overrideItemFilters;
+  assert.ok(Array.isArray(override), `${where}: overrideItemFilters must be an array`);
+  const typeFilter = override.find((f) => f.path === "type");
+  assert.ok(typeFilter, `${where}: overrideItemFilters has no \`type\` entry`);
+  const got = String(typeFilter.filters).split(",").map((t) => t.trim()).filter(Boolean);
+  for (const t of OPENED) {
+    assert.ok(!got.includes(t),
+      `${where}: "${t}" is still filtered, so abilities cannot be stocked or sold`);
+  }
+  // Opening the gate must not open everything: every other entry survives.
+  for (const t of COMPAT_FILTERS.filter((t) => !OPENED.includes(t))) {
+    assert.ok(got.includes(t),
+      `${where}: dropped "${t}" from the filter list; only ${OPENED.join(" and ")} should be opened`);
+  }
+  assert.equal(got.length, COMPAT_FILTERS.length - OPENED.length,
+    `${where}: filter list has ${got.length} entries, expected ${COMPAT_FILTERS.length - OPENED.length}`);
+  abilityTrading += 1;
+
   for (const item of doc.items ?? []) {
     const f2 = item.flags?.["item-piles"]?.item;
     if (!f2?.prices) continue;
@@ -107,4 +140,4 @@ for (const f of files) {
 
 assert.ok(merchants > 0, "no merchant NPCs found -- did the pack move?");
 assert.ok(priced > 0, "the merchant has no priced stock");
-console.log(`merchants: ${merchants} merchant(s), ${priced} priced item(s), all silent-failure checks passed`);
+console.log(`merchants: ${merchants} merchant(s), ${priced} priced item(s), ${abilityTrading} trading abilities, all silent-failure checks passed`);

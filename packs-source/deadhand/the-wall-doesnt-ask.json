@@ -27,5 +27,10 @@
         },
         "slug": "the-wall-doesnt-ask"
     },
-    "_id": "1tAqC5Ce5d0GxS2u"
+    "_id": "1tAqC5Ce5d0GxS2u",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "\"Routine [X] no longer requires a check below DC 20\" -- the fourth member of the Muscle Memory family (with muscle-memory-the-company-knows-the-drill, muscle-memory-the-grind, muscle-memory-the-guard-never-drops). No rule-element key auto-succeeds a check below a stated DC."
+        }
+    }
 }

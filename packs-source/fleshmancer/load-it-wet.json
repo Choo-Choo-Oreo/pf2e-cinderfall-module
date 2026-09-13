@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "fleshmancer-butchers"
+            ],
             "rarity": "common",
             "value": [
                 "fleshmancer"
@@ -33,5 +36,11 @@
         },
         "slug": "load-it-wet"
     },
-    "_id": "8yG4Swl68LB8Koeg"
+    "_id": "8yG4Swl68LB8Koeg",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Splash radius is not exposed as a rule-element-modifiable field on a consumable item, so nothing widens it to 10 ft or off-guards creatures hit by it.",
+            "track": "butchers"
+        }
+    }
 }

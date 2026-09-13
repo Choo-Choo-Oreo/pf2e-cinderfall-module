@@ -24,8 +24,17 @@
             "remaster": true,
             "title": "Cinderfall"
         },
-        "rules": [],
+        "rules": [
+            {
+                "key": "Resistance",
+                "type": "bludgeoning",
+                "value": "floor(@actor.level/2)"
+            }
+        ],
         "traits": {
+            "otherTags": [
+                "fleshmancer-skinwalkers"
+            ],
             "rarity": "common",
             "value": [
                 "fleshmancer"
@@ -33,5 +42,11 @@
         },
         "slug": "second-skeleton"
     },
-    "_id": "UzDfvqfkRbRSeTsS"
+    "_id": "UzDfvqfkRbRSeTsS",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The half-level bludgeoning Resistance is built above -- both the Resistance key/value shape (pf2e-source/packs/pf2e/feats/ancestry/dwarf/level-5/blast-resistance.json) and the exact floor(@actor.level/2) formula string (confirmed live in multiple real cards, e.g. pf2e-source/packs/pf2e/ancestry-features/undead/advanced-undead-benefits.json) are independently verified real. \"Not off-guard while prone\" is not built: no real feat suppressing the inherent prone-grants-off-guard rule was found, though this specific absence was searched less exhaustively than others in this pass -- treated as the weaker of the two claims.",
+            "track": "skinwalkers"
+        }
+    }
 }

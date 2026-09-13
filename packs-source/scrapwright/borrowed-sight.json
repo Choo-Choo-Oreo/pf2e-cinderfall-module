@@ -27,5 +27,10 @@
         },
         "slug": "borrowed-sight"
     },
-    "_id": "T7H5Z21pZRpABUQ5"
+    "_id": "T7H5Z21pZRpABUQ5",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Bucket 3 -- a limited-use activated action granting a temporary new sense/utility choice. Even though the Sense-granting halves are individually trivial, the bucket-3 rule holds regardless: this hands the actor a wholly new one-shot usable ability. The clairvoyance branch additionally has no rule-element equivalent at all (Foundry clairvoyance is a spell effect with its own implementation, not a stat)."
+        }
+    }
 }

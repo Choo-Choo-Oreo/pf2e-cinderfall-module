@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "fleshmancer-skinwalkers"
+            ],
             "rarity": "common",
             "value": [
                 "fleshmancer"
@@ -33,5 +36,10 @@
         },
         "slug": "nothing-left-to-recognize"
     },
-    "_id": "4LuQo7XW9PjmJ838"
+    "_id": "4LuQo7XW9PjmJ838",
+    "flags": {
+        "cinderfall": {
+            "track": "skinwalkers"
+        }
+    }
 }

@@ -24,8 +24,21 @@
             "remaster": true,
             "title": "Cinderfall"
         },
-        "rules": [],
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "strike-attack-roll",
+                "type": "circumstance",
+                "value": 2,
+                "predicate": [
+                    "no-second-needed-answer-fired"
+                ]
+            }
+        ],
         "traits": {
+            "otherTags": [
+                "deadhand-bulwark"
+            ],
             "rarity": "common",
             "value": [
                 "deadhand"
@@ -33,5 +46,11 @@
         },
         "slug": "the-hand-thats-free"
     },
-    "_id": "KFvFN35tG1Op3Gl5"
+    "_id": "KFvFN35tG1Op3Gl5",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The bare reaction-Strike branch ships unencoded like Reactive Strike (pf2e-source/packs/pf2e/actions/class/shared/reactive-strike.json). The \"+2 instead\" branch reuses this class's own already-real no-second-needed-answer-fired RollOption flag (defined in deadhand.no-second-needed.json). The source wording (\"gains a bonus instead of being made\") is ambiguous about whether the Strike is skipped entirely or just modified -- the literal \"+2 to a different roll instead\" reading is built here; a reviewer should re-check the intended reading before relying on this as final.",
+            "track": "bulwark"
+        }
+    }
 }

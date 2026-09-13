@@ -33,5 +33,10 @@
         },
         "slug": "scar-tissue"
     },
-    "_id": "1jia80lQeS8oOMj5"
+    "_id": "1jia80lQeS8oOMj5",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "No exact type match. Resistance types are drawn from a fixed dictionary (CONFIG.PF2E.resistanceTypes) that includes \"bleed\" (all bleed damage, not persistent-only) and \"persistent-damage\" (all persistent damage, not bleed-only) as separate literals, but no combined \"persistent bleed only\" type exists. Either literal would be broader than the card's stated text in one direction or the other -- shipping either would repeat the exact over-broad-modifier mistake this program's own guide flags (Third Arm)."
+        }
+    }
 }

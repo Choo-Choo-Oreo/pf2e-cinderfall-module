@@ -1,0 +1,45 @@
+{
+    "name": "The Last Word Is Always Yours",
+    "type": "capstone",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p>Once per day, when you reduce a creature to 0 Hit Points, everything held back comes out at once: every creature within 30 feet that has damaged you this encounter takes fire damage equal to twice your level (basic Reflex save against your class DC), and you regain all spent Zeal. Wrath doesn't just get the last word anymore. It gets to say it to everyone in the room.</p>"
+        },
+        "level": {
+            "value": 20
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "otherTags": [
+                "cultist-last-word"
+            ],
+            "value": [
+                "cultist"
+            ]
+        },
+        "slug": "last-word-major"
+    },
+    "_id": "F0CkwIKraILy5fH3",
+    "flags": {
+        "cinderfall": {
+            "track": "last-word"
+        }
+    }
+}

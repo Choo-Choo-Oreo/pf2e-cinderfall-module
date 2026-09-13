@@ -50,6 +50,7 @@
     "_id": "zZc56D2Q01bLJCYB",
     "flags": {
         "cinderfall": {
+            "incomplete": "`BLOOMROT-NULL` — both the move and the \"per step\" damage scaling reference a value that doesn't exist on the actor.",
             "spellTag": "Bloom: special",
             "listing": "2nd Rank"
         }

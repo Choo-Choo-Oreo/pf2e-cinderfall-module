@@ -33,5 +33,10 @@
         },
         "slug": "chain-reaction"
     },
-    "_id": "sZfQkBxgBhtJunwX"
+    "_id": "sZfQkBxgBhtJunwX",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Extends 'Break the Anchor,' whose actual per-Ward implementation (ash-iron-lantern-spell, binding-chain-spell, static-glass-mirror-spell, warded-blade-spell) all correctly ship rules: [] per real precedent (Thunderous Strike/Warding Aggression, both rules: []) -- the numbers live in system.damage, not system.rules, so there is no rule-element hook on any of the four Ward cards to relay at half value in the first place, and the effect varies per Ward besides."
+        }
+    }
 }

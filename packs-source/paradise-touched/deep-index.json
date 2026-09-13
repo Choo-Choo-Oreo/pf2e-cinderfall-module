@@ -24,8 +24,27 @@
             "remaster": true,
             "title": "Cinderfall"
         },
-        "rules": [],
+        "rules": [
+            {
+                "key": "RollOption",
+                "option": "deep-index",
+                "toggleable": true,
+                "label": "Using Deep Index (Signal, 1 Bandwidth)"
+            },
+            {
+                "key": "SubstituteRoll",
+                "selector": "skill-check",
+                "value": 15,
+                "predicate": [
+                    "action:recall-knowledge",
+                    "deep-index"
+                ]
+            }
+        ],
         "traits": {
+            "otherTags": [
+                "paradise-touched-archive"
+            ],
             "rarity": "common",
             "value": [
                 "paradise-touched"
@@ -33,5 +52,11 @@
         },
         "slug": "deep-index"
     },
-    "_id": "U17Clo9aenSv8wF7"
+    "_id": "U17Clo9aenSv8wF7",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Unbuildable: the 1-Bandwidth cost is not enforced or deducted (no `SpecialResource` for Bandwidth exists anywhere in the corpus), and the mandatory Signal declaration's failure consequence (2 force damage/level + 1 Drift if the substituted 15 still fails the check) is not modeled (the class's Signal/Static core mechanic has no rule-element analog, and the Signal Drift track has no counter representation) -- a player could toggle this on for free and face no in-sheet penalty on failure.",
+            "track": "archive"
+        }
+    }
 }

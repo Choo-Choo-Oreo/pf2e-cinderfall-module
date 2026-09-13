@@ -24,8 +24,22 @@
             "remaster": true,
             "title": "Cinderfall"
         },
-        "rules": [],
+        "rules": [
+            {
+                "key": "AdjustStrike",
+                "mode": "upgrade",
+                "property": "range-increment",
+                "value": 60,
+                "definition": [
+                    "item:trait:fleshmancer",
+                    "item:trait:thrown"
+                ]
+            }
+        ],
         "traits": {
+            "otherTags": [
+                "fleshmancer-butchers"
+            ],
             "rarity": "common",
             "value": [
                 "fleshmancer"
@@ -33,5 +47,11 @@
         },
         "slug": "long-arm"
     },
-    "_id": "4kD8VNTwPGcmydnp"
+    "_id": "4kD8VNTwPGcmydnp",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The range-increment increase (30 ft -> 60 ft) is built above, directly matching the real pf2e-source/packs/pf2e/feats/class/alchemist/level-1/far-lobber.json shape (same key/mode/property triple, definition swapped for this class's own item traits since far-lobber's real definition, item:base:alchemical-bomb, doesn't apply to fleshmancer's own Grafts). \"No -2 circumstance penalty for throwing while an enemy is adjacent\" is unbuildable: pf2e's engine does not automate a ranged-adjacency penalty at all for any weapon (confirmed via a source grep of the character/action code), so there is nothing for a feat to negate.",
+            "track": "butchers"
+        }
+    }
 }

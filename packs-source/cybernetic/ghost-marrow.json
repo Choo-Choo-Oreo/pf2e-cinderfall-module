@@ -1,0 +1,75 @@
+{
+    "name": "Ghost-Marrow",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>Marrow bound with a captive spirit. Fast Healing 10. When reduced to 0 HP, the spirit acts one more round at 1 HP under GM control before you fall. 1/day.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 18
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "gp": 35000
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "FastHealing",
+                "type": "fast-healing",
+                "value": 10
+            }
+        ],
+        "size": "med",
+        "traits": {
+            "rarity": "legendary",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "ghost-marrow"
+    },
+    "_id": "Dd3seMT28zDMYnL2",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The spirit acting for one more round at 1 HP under GM control when you're reduced to 0 HP overrides the built-in dying/unconsciousness sequence -- same class of gap as the mutations pass's The-Held-Breath/The-Open-Account, with no rule element for delaying or substituting that sequence found anywhere in pf2e.",
+            "augmentKind": "cybernetic",
+            "augmentType": "implant",
+            "tier": "legendary",
+            "slots": [
+                "Circulatory"
+            ],
+            "slotCost": 1,
+            "grade": 5,
+            "availability": "Black Market",
+            "level": 18,
+            "drift": "+3",
+            "augTags": [
+                "soul-tech",
+                "apex"
+            ]
+        }
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "name": "Shieldbearer's Instinct",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "general",
+        "description": {
+            "value": "<p>Raising a shield costs no action the first time each encounter.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "shieldbearers-instinct"
+    },
+    "_id": "nOE0X46JoccnDxTQ",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Waiving the action cost of Raise a Shield the first time each encounter has no engine hook: the real Reactive Shield feat -- which also modifies how Raise a Shield is used -- ships rules: [] for the same reason, confirming no rule element can alter an action's cost conditionally like this."
+        }
+    }
+}

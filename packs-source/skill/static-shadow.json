@@ -1,0 +1,37 @@
+{
+    "name": "Static Shadow",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "skill",
+        "description": {
+            "value": "<p>Old-world sensor grids still half-work, and half-working is a gap you can walk through. You gain a +2 circumstance bonus to avoid detection by non-living sensors, cameras, or constructs specifically, as opposed to living creatures.</p>"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "static-shadow"
+    },
+    "_id": "t1Sdjs43MutimK5i",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The +2 bonus is meant to apply against 'non-living sensors, cameras, or constructs' -- constructs could use target:trait:construct, but sensors and cameras are not actors with traits in this corpus, so the predicate can't cover the full stated scope without inventing a mechanism."
+        }
+    }
+}

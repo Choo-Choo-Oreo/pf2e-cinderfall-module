@@ -1,0 +1,75 @@
+{
+    "name": "Hive-Pulse Heart",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>A heart that keeps more than one rhythm at once. +2 item bonus to Fortitude saves. Reaction, once per 10 minutes, when an ally within 30 feet drops to 0 Hit Points: give them 10 temporary Hit Points and take that much damage yourself. You always know the rough direction and distance of anyone carrying your tissue or whose blood you have tasted.</p><p><b>Rider:</b> It is a small hive and it wants members. At Resonance 8+ it starts lobbying for the next graft to be Grafted or Wild, and the GM decides how loudly.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 15
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "mk": 4500
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "fortitude",
+                "type": "item",
+                "value": 2
+            }
+        ],
+        "size": "med",
+        "traits": {
+            "rarity": "epic",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "hive-pulse-heart"
+    },
+    "_id": "H4yEVnP90gZ5yQRY",
+    "flags": {
+        "cinderfall": {
+            "augmentKind": "biological",
+            "augmentType": "graft",
+            "tier": "epic",
+            "slots": [
+                "Circulatory"
+            ],
+            "slotCost": 1,
+            "grade": 4,
+            "availability": "Wild",
+            "level": 15,
+            "load": "+3",
+            "resonance": "+5",
+            "augTags": [
+                "wild"
+            ]
+        }
+    }
+}

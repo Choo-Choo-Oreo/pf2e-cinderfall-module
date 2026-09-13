@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "fleshmancer-butchers"
+            ],
             "rarity": "common",
             "value": [
                 "fleshmancer"
@@ -33,5 +36,11 @@
         },
         "slug": "bad-lot"
     },
-    "_id": "5dFfAVr75wf2YRul"
+    "_id": "5dFfAVr75wf2YRul",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "No rule element lets an arbitrary consumable acquire alchemical bombs' hardcoded splash-on-a-miss behavior -- that behavior belongs to the alchemical-bomb base item type in engine code, not a rule-element key any homebrew card can invoke.",
+            "track": "butchers"
+        }
+    }
 }

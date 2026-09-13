@@ -1,0 +1,80 @@
+{
+    "name": "Piston-Drive Legs",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>+30-ft Speed, climb and a 20-ft leap. 1/minute, Stride up to your Speed as a free action at the start of your turn.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 17
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "gp": 20000
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "land-speed",
+                "type": "item",
+                "value": 30
+            },
+            {
+                "key": "BaseSpeed",
+                "selector": "climb",
+                "value": 30
+            }
+        ],
+        "size": "med",
+        "traits": {
+            "rarity": "legendary",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "piston-drive-legs"
+    },
+    "_id": "WdfLlZWw7La7kKNh",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The 20-foot leap without a check has no hook, same finding as Spring-Tendons/Kangaroo-Legs (no distance-grant rule element exists for Leap). The 1/minute free Stride at the start of your turn is a limited-use extra action needing a granted Action item, not a passive rule element.",
+            "augmentKind": "cybernetic",
+            "augmentType": "implant",
+            "tier": "legendary",
+            "slots": [
+                "Legs"
+            ],
+            "slotCost": 1,
+            "grade": 5,
+            "availability": "Restricted",
+            "level": 17,
+            "drift": "+3",
+            "augTags": [
+                "apex"
+            ]
+        }
+    }
+}

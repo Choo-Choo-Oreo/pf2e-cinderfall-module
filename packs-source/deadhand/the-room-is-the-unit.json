@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "deadhand-cadre"
+            ],
             "rarity": "common",
             "value": [
                 "deadhand"
@@ -33,5 +36,11 @@
         },
         "slug": "the-room-is-the-unit"
     },
-    "_id": "bT3SdonczhqdFkFv"
+    "_id": "bT3SdonczhqdFkFv",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The called command may target any willing creature, not just allies; a non-ally may Will-save vs. Class DC to refuse. Same \"nothing to extend\" gap, plus a save determining whether a non-ally complies has no rule-element resolution path either.",
+            "track": "cadre"
+        }
+    }
 }

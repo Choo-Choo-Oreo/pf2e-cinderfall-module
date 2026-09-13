@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "the-signal-openband"
+            ],
             "rarity": "common",
             "value": [
                 "the-signal"
@@ -33,5 +36,11 @@
         },
         "slug": "off-the-air"
     },
-    "_id": "Nv9bIXVF9VhxRNYQ"
+    "_id": "Nv9bIXVF9VhxRNYQ",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "SB1 (Encore cost) and bucket 4/5 (a blanket cross-creature suppression of arbitrary existing effects by trait, with an at-will player exemption choice — no rule element applies negative effects to *other creatures'* existing items this way; `Aura` only *grants* new effects to creatures entering it, per P5, it doesn't suppress existing ones).",
+            "track": "openband"
+        }
+    }
 }

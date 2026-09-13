@@ -50,6 +50,7 @@
     "_id": "NoQvZEuuqgNByx4L",
     "flags": {
         "cinderfall": {
+            "incomplete": "Same gap as skin-against-the-ash (STRUCT-EFFECT-COMPANION): the Resistance+ChoiceSet shape is real, value 10 instead of 5, but no companion effect file exists to hold it.",
             "listing": "6th Rank"
         }
     }

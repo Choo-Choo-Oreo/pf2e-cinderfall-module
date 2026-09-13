@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "fleshmancer-grafters"
+            ],
             "rarity": "common",
             "value": [
                 "fleshmancer"
@@ -33,5 +36,11 @@
         },
         "slug": "the-table-is-always-open"
     },
-    "_id": "050DAMhn8GsYosa8"
+    "_id": "050DAMhn8GsYosa8",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "This effect changes a different creature's own roll, HP, condition, or item, sourced from the card holder's own passive/item/action. No selector exists anywhere in pf2e-source for this -- confirmed corpus-wide this pass. Applying a prepared Graft at range to any previously-worked-on creature via line-of-sight only (bypassing line of effect) has no selector that reaches a remote creature's state this way.",
+            "track": "grafters"
+        }
+    }
 }

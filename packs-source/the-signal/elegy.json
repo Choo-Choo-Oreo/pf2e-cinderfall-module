@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "the-signal-requiem"
+            ],
             "rarity": "common",
             "value": [
                 "the-signal"
@@ -33,5 +36,11 @@
         },
         "slug": "elegy"
     },
-    "_id": "fYTyDM9Zs7HK2uuV"
+    "_id": "fYTyDM9Zs7HK2uuV",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "SB2 (Standing Reroll = a reroll grant) and bucket 4 (one creature's death triggering a benefit on unrelated third parties, sourced from the holder's own passive). No Reroll rule-element key exists anywhere in Foundry's pf2e system (confirmed: zero hits for \"key\": \"Reroll\" in pf2e-source/packs/pf2e/, and the full 34-entry rule-element key list has no reroll key -- RollTwice is a different, pre-result advantage/disadvantage mechanic). Encore's core primitive, \"spend 1 Encore to reroll a failed check,\" is a post-result reroll and is categorically unbuildable as a standing rule element.",
+            "track": "requiem"
+        }
+    }
 }

@@ -24,7 +24,9 @@
             "type": null
         },
         "price": {
-            "value": {}
+            "value": {
+                "gp": 0
+            }
         },
         "publication": {
             "license": "ORC",
@@ -46,17 +48,11 @@
     "_id": "Xwp6Yx5lMz9AeNBL",
     "flags": {
         "cinderfall": {
+            "incomplete": "\"Once per day, when you would die, you don't -- you stabilize automatically at 1 HP\" has no confirmed rule-element hook: like The Held Breath and The Open Account, this overrides pf2e's built-in dying sequence, and no rule element for auto-stabilizing at a specific HP value in place of dying was found in pf2e-source.",
             "mutationType": "teratoma",
             "tier": "exotic",
             "prerequisite": "carries a Teratoma Trait",
-            "access": "radiation",
-            "incomplete": [
-                "level is a stub (0); mutations carry no level",
-                "price is empty; a mutation is not bought"
-            ],
-            "inferred": [
-                "system.usage"
-            ]
+            "access": "radiation"
         }
     }
 }

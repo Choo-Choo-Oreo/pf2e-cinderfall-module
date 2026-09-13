@@ -1,0 +1,53 @@
+{
+    "name": "Structural Sense",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "ancestryfeature",
+        "description": {
+            "value": "<p>Bonus to notice a genuine structural flaw in a wall, machine, or fortification.</p>"
+        },
+        "level": {
+            "value": 0
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "RollOption",
+                "option": "structural-sense-flaw",
+                "toggleable": true,
+                "label": "Looking for a structural flaw in a wall, machine or fortification"
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "perception",
+                "type": "circumstance",
+                "value": 1,
+                "predicate": [
+                    "structural-sense-flaw"
+                ]
+            }
+        ],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "vaultborn"
+            ]
+        },
+        "slug": "structural-sense"
+    },
+    "_id": "f4P7HTo26r8VVMIJ"
+}

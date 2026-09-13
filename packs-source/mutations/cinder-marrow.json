@@ -24,7 +24,9 @@
             "type": null
         },
         "price": {
-            "value": {}
+            "value": {
+                "gp": 0
+            }
         },
         "publication": {
             "license": "ORC",
@@ -46,21 +48,14 @@
     "_id": "6Y50rrnMD0l2kupd",
     "flags": {
         "cinderfall": {
+            "incomplete": "\"Deception to feign death or feign cold takes a −2 circumstance penalty\" has no confirmed rule-element hook: Deception has no formal 'feign death/cold' sub-action (unlike Impersonate, Feint, or Create a Diversion, which do have real action-slug predicates -- confirmed via grep across pf2e-source/packs), so a scoped penalty can't be predicated without either missing the restriction entirely or over-applying it to all Deception checks, which would misstate a narrow penalty as a blanket one.",
             "mutationType": "minor",
             "tier": "uncommon",
-            "slot": "Frame",
             "slots": [
                 "Frame"
             ],
             "slotCost": 1,
-            "roll": "d100 — 45–46",
-            "incomplete": [
-                "level is a stub (0); mutations carry no level",
-                "price is empty; a mutation is not bought"
-            ],
-            "inferred": [
-                "system.usage"
-            ]
+            "roll": "d100 — 45–46"
         }
     }
 }

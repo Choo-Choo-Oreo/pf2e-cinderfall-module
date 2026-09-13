@@ -1,0 +1,60 @@
+{
+    "name": "Effect: Speaks the Litany True",
+    "type": "effect",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "description": {
+            "value": "<p><em>Applied by <strong>Speaks the Litany True</strong> to each affected ally.</em></p>\n<hr />\n<p>The first time each hour that an ally sees and hears you recite the Litany, it gains a +1 status bonus to Will saves and to checks to resist fear for 1 hour. An ally that has never seen you recite before is also frightened 1 for one round as it takes in what you are actually doing — dread and awe arrive together, and neither is optional.</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "hours",
+            "value": 1
+        },
+        "level": {
+            "value": 16
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "will",
+                "type": "status",
+                "value": 1
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "saving-throw",
+                "type": "status",
+                "value": 1,
+                "predicate": [
+                    "item:trait:fear"
+                ]
+            }
+        ],
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "value": []
+        },
+        "slug": "speaks-the-litany-true-effect"
+    },
+    "_id": "5gFkDe0NHmWb3K3e",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The 'frightened 1 for one round, first time only' branch (for an ally who has never seen the caster recite before) is not modeled. There is no clean way to predicate on 'this specific ally has never seen the caster recite before' -- that is per-creature persistent state with no roll-option equivalent (confirmed absent; a genuinely new shape, not covered by any existing pattern). The two existing FlatModifiers (+1 Will, +1 vs fear) are correct and left unchanged. See feats-class-reckoner-draft.md open question 2.",
+            "effectOf": "reckoner.speaks-the-litany-true",
+            "landsOn": "ally"
+        }
+    }
+}

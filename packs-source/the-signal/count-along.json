@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "the-signal-numbers"
+            ],
             "rarity": "common",
             "value": [
                 "the-signal"
@@ -33,5 +36,11 @@
         },
         "slug": "count-along"
     },
-    "_id": "iX5PeGlSl4xTqkXH"
+    "_id": "iX5PeGlSl4xTqkXH",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Bucket 3 (once-per-encounter triggered reaction-shaped grant). Note for the record (P6): the underlying mechanism — `AdjustDegreeOfSuccess` predicated on `check:total:natural:{N}` — is real and exists for a *fixed* N. What's missing is a way to re-prompt a player-chosen 1–20 value fresh on every trigger against as broad a scope as \"any enemy in range,\" which was not found anywhere in the rule-element set (P12).",
+            "track": "numbers"
+        }
+    }
 }

@@ -1,0 +1,81 @@
+{
+    "name": "Gizzard Furnace",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>Grafted heat-producing gut tissue that runs hot. Resistance 5 to cold; you can eat and draw nutrition from nearly any organic matter, spoiled or foul (not poison-trait items); you radiate enough warmth to keep yourself and one adjacent person from freezing; +1 item bonus to Fortitude against cold and starvation.</p><p><b>Donor:</b> Someone who survived a winter that killed everyone with them. They ate things to do it. The gut still recognises which.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 10
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "mk": 1000
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "RollOption",
+                "option": "gizzard-furnace",
+                "toggleable": true,
+                "label": "Against cold or starvation"
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "fortitude",
+                "type": "item",
+                "value": 1,
+                "predicate": [
+                    "gizzard-furnace"
+                ]
+            }
+        ],
+        "size": "med",
+        "traits": {
+            "rarity": "rare",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "gizzard-furnace"
+    },
+    "_id": "NhlJu1DtEGY3H1sv",
+    "flags": {
+        "cinderfall": {
+            "augmentKind": "biological",
+            "augmentType": "graft",
+            "tier": "rare",
+            "slots": [
+                "Viscera"
+            ],
+            "slotCost": 1,
+            "grade": 3,
+            "availability": "Grafted",
+            "level": 10,
+            "load": "+2",
+            "resonance": "+2"
+        }
+    }
+}

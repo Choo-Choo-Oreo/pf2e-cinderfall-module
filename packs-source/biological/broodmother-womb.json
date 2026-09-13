@@ -1,0 +1,69 @@
+{
+    "name": "Broodmother Womb",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>A viscera graft that doesn't just metabolize — it gestates. Once per week, over a night's rest, incubate and lay a single Tiny venomous or acidic creature (roughly your level −4) that serves you for 24 hours before dissolving.</p><p><b>Rider:</b> It wants to keep something alive in there even when you don't ask it to. Miss a week without laying, and the GM rolls what it grows instead.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 14
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "mk": 5000
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "traits": {
+            "rarity": "epic",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "broodmother-womb"
+    },
+    "_id": "nsfgqUrLmVb5DI5j",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The whole ability spawns a controlled Tiny creature once per week -- granting a functioning minion/companion actor is outside system.rules entirely (no Familiar/Eidolon-style companion-grant rule element exists for a plain equipment item); GM-run as narrated.",
+            "augmentKind": "biological",
+            "augmentType": "graft",
+            "tier": "epic",
+            "slots": [
+                "Viscera"
+            ],
+            "slotCost": 1,
+            "grade": 4,
+            "availability": "Wild",
+            "level": 14,
+            "load": "+5",
+            "resonance": "+6",
+            "augTags": [
+                "wild"
+            ]
+        }
+    }
+}

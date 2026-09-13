@@ -36,5 +36,10 @@
         },
         "slug": "soul-binder-dedication"
     },
-    "_id": "3z9im41Rp2YFIBfK"
+    "_id": "3z9im41Rp2YFIBfK",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The +1 item bonus to a chosen skill or save could be built from a ChoiceSet + FlatModifier, but its uptime is 'while wielding that one specific item' -- there is no held-item-tracking roll option anywhere in pf2e for a predicate to key off, so shipping the FlatModifier would mean either an always-on bonus that overstates the card (no wielding requirement) or a predicate on a roll option nothing sets, which would never fire (a rule element that is schema-valid and semantically null). Temper's rise (on a critical failure with the item, or a week unused) has no engine hook either: it is Cinderfall's own bespoke counter with no actor-schema representation."
+        }
+    }
 }

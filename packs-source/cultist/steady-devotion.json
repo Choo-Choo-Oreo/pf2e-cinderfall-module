@@ -1,0 +1,42 @@
+{
+    "name": "Steady Devotion",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>You gain a +2 circumstance bonus to saves against effects that would forcibly end your Rites, dispel your ongoing effects, or suppress your spellcasting.</p>"
+        },
+        "level": {
+            "value": 14
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "cultist"
+            ]
+        },
+        "slug": "steady-devotion"
+    },
+    "_id": "S6TBkP51iaUJAAsa",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "\"+2 circumstance vs effects that would forcibly end your Rites, dispel your ongoing effects, or suppress your spellcasting\" needs a counteract/dispel-resistance selector. Same confirmed absence as incontestable: no Suppress-style or counteract-named rule element exists anywhere in pf2e-source/src/module/rules/rule-element/, and real pf2e's counteract mechanic doesn't route through a save the target rolls in the first place."
+        }
+    }
+}

@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "deadhand-breaker"
+            ],
             "rarity": "common",
             "value": [
                 "deadhand"
@@ -33,5 +36,10 @@
         },
         "slug": "one-swing-two-problems"
     },
-    "_id": "otw8nQM6b9IymB8c"
+    "_id": "otw8nQM6b9IymB8c",
+    "flags": {
+        "cinderfall": {
+            "track": "breaker"
+        }
+    }
 }

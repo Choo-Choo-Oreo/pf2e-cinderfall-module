@@ -24,7 +24,14 @@
             "remaster": true,
             "title": "Cinderfall"
         },
-        "rules": [],
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "saving-throw",
+                "type": "circumstance",
+                "value": 1
+            }
+        ],
         "traits": {
             "rarity": "common",
             "value": [
@@ -33,5 +40,10 @@
         },
         "slug": "two-bargains-one-body"
     },
-    "_id": "cucB9wGAo3Zy34ib"
+    "_id": "cucB9wGAo3Zy34ib",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Live shipped bug, not a gap: this card's system.rules already carries an unconditional FlatModifier (+1 circumstance to all saving throws), but the printed text requires \"while in a mixed frame.\" No \"mixed-frame\" RollOption or predicate exists anywhere in this corpus (MIXED-FRAME-GAP) to gate it correctly, so as shipped the bonus applies to every character regardless of frame. Not corrected in this pass -- the draft (.claude/scratch/feats-class-remade-draft.md, Open Question #1) frames the real fix as an owner decision between (a) leaving it unconditional and updating the card's own prose to match, or (b) building a mixed-frame detection mechanism first. This flag documents the bug; system.rules itself was left unchanged."
+        }
+    }
 }

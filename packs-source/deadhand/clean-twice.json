@@ -33,5 +33,10 @@
         },
         "slug": "clean-twice"
     },
-    "_id": "wZFdm4MVFTPnc0ix"
+    "_id": "wZFdm4MVFTPnc0ix",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The second Redline of the encounter rolls no Slip. Deadhand's \"Redline\"/\"Slip\" mechanic (spending Tally in a lump, risking a roll on a Slip table) is entirely homebrew with zero schema footprint anywhere in this corpus or on the class card itself -- no rule element writes to, reads, or modifies a resource or table of this shape."
+        }
+    }
 }

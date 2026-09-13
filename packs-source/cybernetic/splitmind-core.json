@@ -1,0 +1,79 @@
+{
+    "name": "Splitmind Core",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>Second cognitive thread. 3/day, once you've already spent your reaction in a round, take a further one — non-attack reactions only (Aid, Raise a Shield, Grab an Edge, skill reactions). +2 item bonus vs confused, controlled, stunned.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 11
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "gp": 1500
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "will",
+                "type": "item",
+                "value": 2,
+                "predicate": [
+                    {
+                        "or": [
+                            "item:trait:mental"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "size": "med",
+        "traits": {
+            "rarity": "rare",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "splitmind-core"
+    },
+    "_id": "NYoOahkzOdA67x4T",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The 3/day extra non-attack reaction after your reaction is already spent has no hook: pf2e has no rule element that grants an additional reaction, tracked or untracked (reactions-per-round is a hardcoded actor limit, not a modifiable stat). The save bonus above approximates 'confused, controlled, stunned' via the mental trait most such effects carry; narrower than the card's literal list, flagged as an approximation rather than silently broadened.",
+            "augmentKind": "cybernetic",
+            "augmentType": "implant",
+            "tier": "rare",
+            "slots": [
+                "Neural"
+            ],
+            "slotCost": 1,
+            "grade": 3,
+            "availability": "Restricted",
+            "level": 11,
+            "drift": "+3"
+        }
+    }
+}

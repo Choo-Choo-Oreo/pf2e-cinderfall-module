@@ -1,0 +1,41 @@
+{
+    "name": "Envoy of the Free Havens",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "skill",
+        "description": {
+            "value": "<p>Combine officers, Dixie riders, and Choir cantors alike know your name as someone who walks between flags and comes back alive. Once per day, you can attempt a single Diplomacy check to negotiate a temporary, binding ceasefire between two factions present, treating your proficiency rank as one step higher for that check alone.</p>"
+        },
+        "level": {
+            "value": 18
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Legendary in Diplomacy"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "envoy-of-the-free-havens"
+    },
+    "_id": "OFII1ENUVhwokCKu",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "'Treating your proficiency rank as one step higher for that check alone' has no confirmed rule-element shape -- the real ActiveEffectLike path for proficiency rank (system.skills.<skill>.rank) is a permanent state change via 'upgrade' mode, not a temporary bump scoped to a single once-per-day check."
+        }
+    }
+}

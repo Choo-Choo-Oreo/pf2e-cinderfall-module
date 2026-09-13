@@ -33,5 +33,10 @@
         },
         "slug": "overclock-mastery"
     },
-    "_id": "QCLt1R9PdPXkowKH"
+    "_id": "QCLt1R9PdPXkowKH",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "[REDLINE-NO-SCHEMA]."
+        }
+    }
 }

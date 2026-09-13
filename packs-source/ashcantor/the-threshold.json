@@ -1,0 +1,50 @@
+{
+    "name": "The Threshold",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
+        "description": {
+            "value": "<p>You don't just usher souls through — you can prop the door open a moment longer for someone else to make it through behind them, or to buy the living time.</p><hr /><p><strong>HELD OPEN —</strong> once per encounter, extend a brief window where an ally's own dying or dead can be reached before the gate reseals.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "otherTags": [
+                "ashcantor-path"
+            ],
+            "rarity": "common",
+            "value": [
+                "ashcantor"
+            ]
+        },
+        "slug": "the-threshold"
+    },
+    "_id": "ll9SYlQHipPS307B",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "This card's own flags.cinderfall.followUp already states the signature spell 'The Threshold' still needs its own spell document -- a self-acknowledged placeholder, not a newly found gap. This card is also the parent that Held Open, Longer fails to extend.",
+            "subclassOf": "ashcantor",
+            "subclassChoice": "Choose Your Path",
+            "role": "Holding The Door — Defense",
+            "followUp": "signature spell 'The Threshold' still needs its own spell document; the card renders on spells-abilities.html as a spell-entry and its statline/body are authored above",
+            "subclassLayer": "path"
+        }
+    }
+}

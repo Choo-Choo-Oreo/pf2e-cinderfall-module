@@ -27,5 +27,10 @@
         },
         "slug": "rustvine-colossus"
     },
-    "_id": "pMonz3uvqAP7nPdB"
+    "_id": "pMonz3uvqAP7nPdB",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "`BLIGHTSHAPE-NULL` (no companion effect item exists to carry `BattleForm`) stacked on `BLOOMROT-NULL` (Green/Grey load selection). Matches the Worm Form precedent exactly: the action item correctly has `rules:[]`, but the real content has no valid file to live in among the 69 in scope."
+        }
+    }
 }

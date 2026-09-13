@@ -35,5 +35,10 @@
         },
         "slug": "full-conversion"
     },
-    "_id": "4FtcR7KBOahMbwg2"
+    "_id": "4FtcR7KBOahMbwg2",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Permanently raising an installed augment to Grade 5 is a change to Cinderfall's own Grade/slot bookkeeping, which has no representation in the actor schema. Gaining the Construct trait has no confirmed rule-element hook: no 'add a trait to the actor' rule element was found anywhere in the compendium (traits are normally fixed at build time per ancestry/class, not granted by a feat), so adding it here would be unverified rather than confirmed."
+        }
+    }
 }

@@ -1,0 +1,47 @@
+{
+    "name": "Filtered to the Core",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "ancestry",
+        "description": {
+            "value": "<p>Filtered Constitution's resistance to poison and disease becomes immunity (radiation stays a resistance).</p>"
+        },
+        "level": {
+            "value": 9
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Vault-Deep Constitution"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "Immunity",
+                "type": "poison"
+            },
+            {
+                "key": "Immunity",
+                "type": "disease"
+            }
+        ],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "vaultborn"
+            ]
+        },
+        "slug": "filtered-to-the-core"
+    },
+    "_id": "DENTcC6lwhvEjimE"
+}

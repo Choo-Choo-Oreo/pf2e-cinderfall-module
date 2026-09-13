@@ -1,0 +1,41 @@
+{
+    "name": "Unreadable",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "skill",
+        "description": {
+            "value": "<p>Years of trading with people who'd kill you for a tell have scrubbed your face clean of them. Creatures attempting to Sense Motive against you take a -2 circumstance penalty, and a critical success against you is downgraded to a normal success.</p>"
+        },
+        "level": {
+            "value": 16
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Master in Deception"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "unreadable"
+    },
+    "_id": "JlA5e4lhrUv4HDqg",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The -2 penalty to others' Sense Motive checks against the holder, and the critical-success downgrade, both modify another creature's own roll rather than the holder's. This imposes a penalty or effect on another creature's own roll rather than modifying the card holder's, which a passive FlatModifier can't reach without a granted aura effect -- no such aura precedent exists anywhere in this corpus."
+        }
+    }
+}

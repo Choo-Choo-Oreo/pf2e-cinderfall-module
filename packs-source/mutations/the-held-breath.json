@@ -24,7 +24,9 @@
             "type": null
         },
         "price": {
-            "value": {}
+            "value": {
+                "gp": 0
+            }
         },
         "publication": {
             "license": "ORC",
@@ -46,16 +48,10 @@
     "_id": "IZf84kgxEMnEWEGY",
     "flags": {
         "cinderfall": {
+            "incomplete": "\"When you'd be reduced to 0 HP, drop to 1 HP instead\" (once per day) has no confirmed rule-element hook: pf2e's dying/unconsciousness-at-0-HP sequence is a built-in engine flow, and no rule element overriding 'you don't fall unconscious, you drop to 1 HP instead' was found in pf2e-source.",
             "mutationType": "teratoma",
             "tier": "legendary",
-            "chosen": "pick of 6",
-            "incomplete": [
-                "level is a stub (0); mutations carry no level",
-                "price is empty; a mutation is not bought"
-            ],
-            "inferred": [
-                "system.usage"
-            ]
+            "chosen": "pick of 6"
         }
     }
 }

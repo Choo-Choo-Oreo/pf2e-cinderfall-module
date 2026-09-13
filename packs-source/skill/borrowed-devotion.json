@@ -1,0 +1,39 @@
+{
+    "name": "Borrowed Devotion",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "skill",
+        "description": {
+            "value": "<p>Once per day, reroll a failed Religion check — flavored as a certainty that surfaces from nowhere you can name, the way the rest of your faith did.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "borrowed-devotion"
+    },
+    "_id": "xYAY6T6VgbhLysnv",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "No Reroll rule-element key exists anywhere in the compendium (reconfirmed this pass).",
+            "category": "background",
+            "sourceOwner": "backgrounds"
+        }
+    }
+}

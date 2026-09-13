@@ -33,5 +33,10 @@
         },
         "slug": "mother-marrows-gift"
     },
-    "_id": "bLWkiHlWQDboVqYb"
+    "_id": "bLWkiHlWQDboVqYb",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The core reclassification (an otherwise-failed check upgraded to a success, an otherwise-successful one upgraded to a critical) is confirmed real and buildable via AdjustDegreeOfSuccess -- the earlier assumption that a failure could never become a real success was wrong; {\"success\": \"to-critical-success\", \"failure\": \"to-success\"} ships live in pf2e-source/packs/pf2e/feats/class/rogue/level-10/sneak-adept.json and 5 other real cards. Two things still block a clean build, though: (1) the card applies to \"a Medicine check or a Graft-crafting check\" -- AdjustDegreeOfSuccess's selector field is a single string (pf2e-source/src/module/rules/rule-element/adjust-degree-of-success.ts:22), so Medicine needs its own rule and Crafting needs its own, and \"Graft-crafting\" specifically (not all Crafting checks) has no confirmed predicate to scope down to -- selector: \"crafting\" alone would widen this well past what the card states. (2) \"Once per day... declare this before rolling\" is a usage limiter with no AdjustDegreeOfSuccess field for it and no confirmed real precedent found for gating a passive (non-Activated) upgrade to once/day -- building it unconditionally would misrepresent this as available on every relevant check, not once per day."
+        }
+    }
 }

@@ -27,5 +27,10 @@
         },
         "slug": "contingency-cheap"
     },
-    "_id": "avE7vHCbbt66r58f"
+    "_id": "avE7vHCbbt66r58f",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The bonus is self-facing, but \"the prepared response\" has no fixed selector -- it's whatever check the player names fresh each use, so no stable selector string can be written."
+        }
+    }
 }

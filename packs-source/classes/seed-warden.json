@@ -1,0 +1,867 @@
+{
+    "name": "Seed-Warden",
+    "type": "class",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "ancestryFeatLevels": {
+            "value": [
+                1,
+                5,
+                9,
+                13,
+                17
+            ]
+        },
+        "attacks": {
+            "simple": 1,
+            "martial": 0,
+            "advanced": 0,
+            "unarmed": 1,
+            "other": {
+                "name": "",
+                "rank": 0
+            }
+        },
+        "classFeatLevels": {
+            "value": [
+                2,
+                4,
+                6,
+                8,
+                10,
+                12,
+                14,
+                16,
+                18,
+                20
+            ]
+        },
+        "defenses": {
+            "unarmored": 1,
+            "light": 1,
+            "medium": 1,
+            "heavy": 0
+        },
+        "description": {
+            "value": "<p>Everything here is still trying to grow. That's the problem, and it's also the only tool you've got.</p>"
+        },
+        "generalFeatLevels": {
+            "value": [
+                3,
+                7,
+                11,
+                15,
+                19
+            ]
+        },
+        "hp": 8,
+        "items": {
+            "seed-warden.cutting": {
+                "level": 1,
+                "name": "Choose Your Cutting"
+            }
+        },
+        "keyAbility": {
+            "value": [
+                "wis"
+            ]
+        },
+        "perception": 1,
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "savingThrows": {
+            "fortitude": 1,
+            "reflex": 1,
+            "will": 2
+        },
+        "skillFeatLevels": {
+            "value": [
+                2,
+                4,
+                6,
+                8,
+                10,
+                12,
+                14,
+                16,
+                18,
+                20
+            ]
+        },
+        "skillIncreaseLevels": {
+            "value": [
+                3,
+                5,
+                7,
+                9,
+                11,
+                13,
+                15,
+                17,
+                19
+            ]
+        },
+        "slug": "seed-warden",
+        "spellcasting": 1,
+        "trainedSkills": {
+            "additional": 2,
+            "value": [
+                "nature"
+            ]
+        },
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "_id": "6tN3rTrPlqYk9mvX",
+    "flags": {
+        "cinderfall": {
+            "tagline": "Everything here is still trying to grow. That's the problem, and it's also the only tool you've got.",
+            "role": "Terrain-warper — the map is the weapon",
+            "pillar": "Nature — the first Primal caster",
+            "hpFormula": "8 + Con / level",
+            "keyAbilityText": "Wisdom",
+            "spellcastingText": "Primal, prepared (Wisdom)",
+            "spellcastingTradition": "Primal",
+            "spellcastingPreparation": "prepared",
+            "terms": [
+                [
+                    "Bloomrot",
+                    "<strong>Your class resource — and it is never spent.</strong> A single needle on a two-sided track running from Grey through zero to Green. Every spell you cast pushes it one step one way or the other. Where it sits decides what you can cast next (§3)."
+                ],
+                [
+                    "Green",
+                    "<strong>Growth that doesn't ask permission.</strong> Root through a wall, choke a road, bloom a corpse into a thicket. Not \"good\" — just alive, and indifferent to what was there first."
+                ],
+                [
+                    "Grey",
+                    "<strong>Decay put to work.</strong> Soften steel, rot a rope, hollow a thing out from the inside. Not \"evil\" — the Wastes run on rot as much as on growth, and a Warden who refuses to touch it is half a use to anyone."
+                ],
+                [
+                    "Bloom tag",
+                    "<strong>Which way a spell pushes the needle</strong> — every Seed-Warden spell is tagged Green, Grey, or <em>either</em> (you choose as you cast). Printed on every entry in <a href=\"spells-abilities.html\" style=\"color:var(--accent);\">What You Learned</a>."
+                ],
+                [
+                    "Charge requirement",
+                    "<strong>The gate on your deeper spells.</strong> \"Requires Green 2\" means the needle must already sit at Green 2 or further out before you cast. Commit to a side and it opens up; sit at zero and the whole back half of your list is closed."
+                ],
+                [
+                    "Cutting",
+                    "<strong>Your subclass</strong> — Greenline, Blightline, or Turnwise (§2). Chosen at 1st level. It doesn't restrict which spells you can learn; it changes what the needle <em>does for you</em> when it's sitting where your Cutting likes it."
+                ],
+                [
+                    "Blight-Shape",
+                    "<strong>Your form-change, replacing wild shape</strong> — a mutant template rather than an animal (§4). Which loadout you get depends on which side of the needle is live at that instant, and it re-evaluates mid-fight."
+                ],
+                [
+                    "[TERRAIN]",
+                    "<strong>The tag that makes this class what it is.</strong> A spell marked TERRAIN has no duration. It changes the map and the GM writes it down. It can be cleared by work — burning, cutting, days of labour — never by waiting."
+                ]
+            ],
+            "classDC": [
+                {
+                    "term": "class dc",
+                    "rank": 1
+                }
+            ],
+            "progression": [
+                {
+                    "level": 1,
+                    "grants": [
+                        [
+                            "Cutting",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Bloomrot (cap 2)",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Blight-Shape (Thicketback)",
+                            ",",
+                            null
+                        ],
+                        [
+                            " initial primal spellcasting",
+                            ",",
+                            null
+                        ],
+                        [
+                            " initial proficiencies",
+                            ",",
+                            "initial proficiencies"
+                        ],
+                        [
+                            " ancestry feat",
+                            "",
+                            "ancestry feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Trained: light &amp",
+                            ";",
+                            null
+                        ],
+                        [
+                            " medium armor",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Class DC",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Fortitude",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Perception",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Reflex",
+                            ",",
+                            null
+                        ],
+                        [
+                            " spellcasting",
+                            ",",
+                            null
+                        ],
+                        [
+                            " unarmored defense",
+                            ",",
+                            null
+                        ],
+                        [
+                            " simple weapons",
+                            ",",
+                            null
+                        ],
+                        [
+                            " unarmed",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Nature",
+                            ";",
+                            null
+                        ],
+                        [
+                            " Expert: Will",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 2,
+                    "grants": [
+                        [
+                            "Skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Seed-Warden feat",
+                            "",
+                            "class feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 3,
+                    "grants": [
+                        [
+                            "General feat",
+                            ",",
+                            "general feat"
+                        ],
+                        [
+                            " skill increase",
+                            ",",
+                            "skill increase"
+                        ],
+                        [
+                            " expert Nature",
+                            ",",
+                            null
+                        ],
+                        [
+                            " <strong>Spore-Strider unlocked</strong>",
+                            "",
+                            null
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Expert: Perception",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Nature",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Fortitude",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 4,
+                    "grants": [
+                        [
+                            "Skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Seed-Warden feat",
+                            "",
+                            "class feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 5,
+                    "grants": [
+                        [
+                            "Ability boosts",
+                            ",",
+                            "ability boosts"
+                        ],
+                        [
+                            " ancestry feat",
+                            ",",
+                            "ancestry feat"
+                        ],
+                        [
+                            " skill increase",
+                            ",",
+                            "skill increase"
+                        ],
+                        [
+                            " <strong>Bloomrot cap 3</strong>",
+                            ",",
+                            null
+                        ],
+                        [
+                            " <strong>expert spellcasting</strong>",
+                            ",",
+                            "expert spellcasting"
+                        ],
+                        [
+                            " expert Reflex",
+                            "",
+                            "expert reflex"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Expert: Reflex",
+                            ",",
+                            null
+                        ],
+                        [
+                            " spellcasting",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 6,
+                    "grants": [
+                        [
+                            "Skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Seed-Warden feat",
+                            "",
+                            "class feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 7,
+                    "grants": [
+                        [
+                            "General feat",
+                            ",",
+                            "general feat"
+                        ],
+                        [
+                            " skill increase",
+                            ",",
+                            "skill increase"
+                        ],
+                        [
+                            " master Fortitude",
+                            ",",
+                            "master fortitude"
+                        ],
+                        [
+                            " <strong>Cutting feature II</strong>",
+                            "",
+                            null
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Master: Fortitude",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 8,
+                    "grants": [
+                        [
+                            "Skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Seed-Warden feat",
+                            "",
+                            "class feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 9,
+                    "grants": [
+                        [
+                            "Ancestry feat",
+                            ",",
+                            "ancestry feat"
+                        ],
+                        [
+                            " skill increase",
+                            ",",
+                            "skill increase"
+                        ],
+                        [
+                            " <strong>Rustvine Colossus unlocked</strong>",
+                            ",",
+                            null
+                        ],
+                        [
+                            " expert Class DC",
+                            "",
+                            "expert class dc"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Expert: Class DC",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 10,
+                    "grants": [
+                        [
+                            "Ability boosts",
+                            ",",
+                            "ability boosts"
+                        ],
+                        [
+                            " skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Seed-Warden feat",
+                            "",
+                            "class feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 11,
+                    "grants": [
+                        [
+                            "General feat",
+                            ",",
+                            "general feat"
+                        ],
+                        [
+                            " skill increase",
+                            ",",
+                            "skill increase"
+                        ],
+                        [
+                            " <strong>Bloomrot cap 4</strong>",
+                            ",",
+                            null
+                        ],
+                        [
+                            " <strong>master spellcasting</strong>",
+                            ",",
+                            "master spellcasting"
+                        ],
+                        [
+                            " master Will/Nature",
+                            "",
+                            null
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Expert: simple weapons",
+                            ",",
+                            null
+                        ],
+                        [
+                            " unarmed",
+                            ";",
+                            null
+                        ],
+                        [
+                            " Master: Nature",
+                            ",",
+                            null
+                        ],
+                        [
+                            " spellcasting",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Will",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 12,
+                    "grants": [
+                        [
+                            "Skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Seed-Warden feat",
+                            "",
+                            "class feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 13,
+                    "grants": [
+                        [
+                            "Ancestry feat",
+                            ",",
+                            "ancestry feat"
+                        ],
+                        [
+                            " skill increase",
+                            ",",
+                            "skill increase"
+                        ],
+                        [
+                            " master Reflex",
+                            "",
+                            "master reflex"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Expert: light &amp",
+                            ";",
+                            null
+                        ],
+                        [
+                            " medium armor",
+                            ",",
+                            null
+                        ],
+                        [
+                            " unarmored defense",
+                            ";",
+                            null
+                        ],
+                        [
+                            " Master: Reflex",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 14,
+                    "grants": [
+                        [
+                            "Skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Seed-Warden feat",
+                            "",
+                            "class feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 15,
+                    "grants": [
+                        [
+                            "Ability boosts",
+                            ",",
+                            "ability boosts"
+                        ],
+                        [
+                            " general feat",
+                            ",",
+                            "general feat"
+                        ],
+                        [
+                            " skill increase",
+                            ",",
+                            "skill increase"
+                        ],
+                        [
+                            " <strong>Cutting capstone</strong>",
+                            ",",
+                            null
+                        ],
+                        [
+                            " legendary Nature",
+                            "",
+                            null
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Legendary: Nature",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 16,
+                    "grants": [
+                        [
+                            "Skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Seed-Warden feat",
+                            "",
+                            "class feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 17,
+                    "grants": [
+                        [
+                            "Ancestry feat",
+                            ",",
+                            "ancestry feat"
+                        ],
+                        [
+                            " skill increase",
+                            ",",
+                            "skill increase"
+                        ],
+                        [
+                            " <strong>Bloomrot cap 5</strong>",
+                            ",",
+                            null
+                        ],
+                        [
+                            " <strong>legendary spellcasting</strong>",
+                            ",",
+                            "legendary spellcasting"
+                        ],
+                        [
+                            " <strong>Blight-Shape: Titan</strong>",
+                            ",",
+                            null
+                        ],
+                        [
+                            " <strong>Persistent Bloom</strong>",
+                            "",
+                            null
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Legendary: spellcasting",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 18,
+                    "grants": [
+                        [
+                            "Skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Seed-Warden feat",
+                            "",
+                            "class feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 19,
+                    "grants": [
+                        [
+                            "General feat",
+                            ",",
+                            "general feat"
+                        ],
+                        [
+                            " skill increase",
+                            ",",
+                            "skill increase"
+                        ],
+                        [
+                            " <strong>Deep Root</strong>",
+                            "",
+                            null
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 20,
+                    "grants": [
+                        [
+                            "Ability boosts",
+                            ",",
+                            "ability boosts"
+                        ],
+                        [
+                            " skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Seed-Warden feat",
+                            ",",
+                            "class feat"
+                        ],
+                        [
+                            " <strong>The Ground Remembers</strong>",
+                            "",
+                            null
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                }
+            ],
+            "spellcastingCastingAbility": "Wisdom"
+        }
+    }
+}

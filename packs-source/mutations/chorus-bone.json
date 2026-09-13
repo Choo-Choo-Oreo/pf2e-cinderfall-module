@@ -24,7 +24,9 @@
             "type": null
         },
         "price": {
-            "value": {}
+            "value": {
+                "gp": 0
+            }
         },
         "publication": {
             "license": "ORC",
@@ -32,7 +34,14 @@
             "title": "Cinderfall"
         },
         "quantity": 1,
-        "rules": [],
+        "rules": [
+            {
+                "key": "Sense",
+                "selector": "echolocation",
+                "acuity": "precise",
+                "range": 60
+            }
+        ],
         "size": "med",
         "traits": {
             "rarity": "rare",
@@ -48,20 +57,12 @@
         "cinderfall": {
             "mutationType": "minor",
             "tier": "rare",
-            "slot": "Neural + Frame (Multi-Slot)",
             "slots": [
                 "Neural",
                 "Frame"
             ],
             "slotCost": 2,
-            "roll": "d100 — 83–84",
-            "incomplete": [
-                "level is a stub (0); mutations carry no level",
-                "price is empty; a mutation is not bought"
-            ],
-            "inferred": [
-                "system.usage"
-            ]
+            "roll": "d100 — 83–84"
         }
     }
 }

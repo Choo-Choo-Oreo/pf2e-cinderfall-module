@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "deadhand-cadre"
+            ],
             "rarity": "common",
             "value": [
                 "deadhand"
@@ -33,5 +36,10 @@
         },
         "slug": "the-last-order-stands"
     },
-    "_id": "CdTLs6SmmD7L6kI9"
+    "_id": "CdTLs6SmmD7L6kI9",
+    "flags": {
+        "cinderfall": {
+            "track": "cadre"
+        }
+    }
 }

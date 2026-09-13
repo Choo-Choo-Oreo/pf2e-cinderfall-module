@@ -1,32 +1,49 @@
 {
-    "_id": "TEgdm4CCw7Ctghhy",
-    "categories": [],
     "name": "Requiem",
-    "ownership": {
-        "default": 0
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
+        "description": {
+            "value": "<p>        <p class=\"cc-desc\">You transmit recordings. Weddings, arguments, radio dramas, a woman reading a shopping list in 2041. Requiem Signals are welcome everywhere and invited to nothing, because everyone knows what happens if you ask them who is on the tape.</p>\n        <p class=\"cc-desc\">Dying allies in range gain a <strong>+2 circumstance bonus to recovery checks</strong>, and you always know the instant one of them goes down, wherever they are in range.</p>\n        <hr class=\"cc-divider\">\n        <div class=\"cc-effect\"><b>7th — Hold the Line:</b> spend 2 Encore to leave an ally at 1 Hit Point instead of 0. Once per ally per day.</div>\n        <div class=\"cc-effect\"><b>15th — Encore Performance:</b> spend your whole pool to return a creature dead for less than a minute to 1 HP. Once per day. What comes back sounds a little like the tape.</div></p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "otherTags": [
+                "the-signal-frequency"
+            ],
+            "rarity": "common",
+            "value": [
+                "the-signal"
+            ]
+        },
+        "slug": "requiem-track"
     },
-    "pages": [
-        {
-            "_id": "zVj6r8jJKBzZiUq8",
-            "category": null,
-            "image": {},
-            "name": "Requiem",
-            "sort": 100000,
-            "src": null,
-            "system": {},
-            "text": {
-                "content": "<p><em>Replaying the dead</em></p>        <p class=\"cc-desc\">You transmit recordings. Weddings, arguments, radio dramas, a woman reading a shopping list in 2041. Requiem Signals are welcome everywhere and invited to nothing, because everyone knows what happens if you ask them who is on the tape.</p>\n        <p class=\"cc-desc\">Dying allies in range gain a <strong>+2 circumstance bonus to recovery checks</strong>, and you always know the instant one of them goes down, wherever they are in range.</p>\n        <hr class=\"cc-divider\">\n        <div class=\"cc-effect\"><b>7th — Hold the Line:</b> spend 2 Encore to leave an ally at 1 Hit Point instead of 0. Once per ally per day.</div>\n        <div class=\"cc-effect\"><b>15th — Encore Performance:</b> spend your whole pool to return a creature dead for less than a minute to 1 HP. Once per day. What comes back sounds a little like the tape.</div>",
-                "format": 1
-            },
-            "title": {
-                "level": 1,
-                "show": true
-            },
-            "type": "text",
-            "video": {
-                "controls": true,
-                "volume": 0.5
-            }
+    "_id": "TEgdm4CCw7Ctghhy",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Same base reasoning as `numbers-track`/`open-band-track` (SB4/SB3/P5) — though note per P13 the +2-to-recovery-check clause specifically *would* be a one-line `FlatModifier{selector:\"recovery-check\", type:\"circumstance\", value:2}` if it had a vehicle (a real, live selector), so this one is closer to buildable than its siblings once SB3/SB4 are resolved. \"You always know the instant one of them goes down\" (an omniscience/awareness grant, bucket 5, no selector) and the 7th/15th clauses (SB1: Encore cost; bucket 3: a full revivify-shaped ability grant) remain independently blocked.",
+            "subclassOf": "the-signal",
+            "subclassChoice": "Choose Your Frequency",
+            "role": "Replaying the dead",
+            "subclassLayer": "frequency"
         }
-    ]
+    }
 }

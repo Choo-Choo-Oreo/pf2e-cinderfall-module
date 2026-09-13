@@ -1,0 +1,66 @@
+{
+    "name": "Adrenal Overgrowth",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>Grafted adrenal tissue with no sense of restraint. Activation — 1 action, 3/day: gain 10 temporary Hit Points and a +10-foot status bonus to Speed for 1 minute. When it ends you are fatigued until you next rest.</p><p><b>Donor:</b> Whoever this came from lived at a redline. It still wants to.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 9
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "mk": 700
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "traits": {
+            "rarity": "rare",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "adrenal-overgrowth"
+    },
+    "_id": "wxDJzLMMge7lJXIF",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The whole effect is a limited-use (3/day) activated action granting 10 temp HP and a +10-ft status Speed bonus for 1 minute, then fatigued -- a limited-use activated ability needs a new frequency-tracked action item, not a rule element on this equipment card (same architecture gap as the mutations pass's Loyal-Blood/Second-Wind-Lung).",
+            "augmentKind": "biological",
+            "augmentType": "graft",
+            "tier": "rare",
+            "slots": [
+                "Circulatory"
+            ],
+            "slotCost": 1,
+            "grade": 3,
+            "availability": "Grafted",
+            "level": 9,
+            "load": "+2",
+            "resonance": "+2"
+        }
+    }
+}

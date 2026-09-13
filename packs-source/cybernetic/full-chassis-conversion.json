@@ -1,0 +1,94 @@
+{
+    "name": "Full Chassis Conversion",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p><em>Frame + Dermal + Legs + Circulatory.</em> Requires Drift 6+ to install. +2 item bonus to AC, resistance 10 physical, +20-ft Speed, +2 item bonus to Fortitude. Immediately gain the Chrome-Bound Drift-band effects regardless of score.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 18
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "gp": 35000
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "ac",
+                "type": "item",
+                "value": 2
+            },
+            {
+                "key": "Resistance",
+                "type": "physical",
+                "value": 10
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "land-speed",
+                "type": "item",
+                "value": 20
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "fortitude",
+                "type": "item",
+                "value": 2
+            }
+        ],
+        "size": "med",
+        "traits": {
+            "rarity": "legendary",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "full-chassis-conversion"
+    },
+    "_id": "IbOa5jQUEupxHtQq",
+    "flags": {
+        "cinderfall": {
+            "augmentKind": "cybernetic",
+            "augmentType": "implant",
+            "tier": "legendary",
+            "slots": [
+                "Frame",
+                "Dermal",
+                "Legs",
+                "Circulatory"
+            ],
+            "slotCost": 4,
+            "grade": 5,
+            "availability": "Black Market",
+            "level": 18,
+            "drift": "+3",
+            "augTags": [
+                "apex"
+            ]
+        }
+    }
+}

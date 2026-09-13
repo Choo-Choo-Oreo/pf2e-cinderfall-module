@@ -1,0 +1,37 @@
+{
+    "name": "Held Breath",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "skill",
+        "description": {
+            "value": "<p>Hold your breath for far longer than an untrained diver could manage, and gain a bonus to Athletics checks made to swim against current, pressure, or debris in flooded ruins.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "held-breath"
+    },
+    "_id": "jdxI6wg7XU4UcMXM",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The card states a bonus but gives no numeric value, bonus type, or specific action tag to build a FlatModifier from without inventing one. and the Athletics bonus is gated on 'swimming against current, pressure, or debris in flooded ruins', an environmental condition with no roll-option hook: pf2e's terrain roll options come from a closed environmentTypes enum (aquatic/arctic/desert/forest/mountain/plains/swamp/underground/urban; pf2e-source/src/module/scene/region-behavior/environment.ts:16-20, StringField choices restricted to that list) that has none of Cinderfall's wasteland terrain, and there is no GM-facing way to add to it. Real Rock Runner's own terrain:stone/terrain:earth predicate values aren't in that enum either, confirming this is a closed system, not a GM-extensible one."
+        }
+    }
+}

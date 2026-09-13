@@ -24,8 +24,28 @@
             "remaster": true,
             "title": "Cinderfall"
         },
-        "rules": [],
+        "rules": [
+            {
+                "key": "RollOption",
+                "option": "footnote-named-source",
+                "toggleable": true,
+                "label": "GM approved a specific dead source you named for this Recall Knowledge check"
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "skill-check",
+                "type": "circumstance",
+                "value": 2,
+                "predicate": [
+                    "action:recall-knowledge",
+                    "footnote-named-source"
+                ]
+            }
+        ],
         "traits": {
+            "otherTags": [
+                "paradise-touched-archive"
+            ],
             "rarity": "common",
             "value": [
                 "paradise-touched"
@@ -33,5 +53,10 @@
         },
         "slug": "footnote"
     },
-    "_id": "12QyuKnZOaJXLOrI"
+    "_id": "12QyuKnZOaJXLOrI",
+    "flags": {
+        "cinderfall": {
+            "track": "archive"
+        }
+    }
 }

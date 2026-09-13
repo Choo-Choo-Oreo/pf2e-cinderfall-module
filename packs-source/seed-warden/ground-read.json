@@ -33,5 +33,10 @@
         },
         "slug": "ground-read"
     },
-    "_id": "qs3OgQdEB5dhToe3"
+    "_id": "qs3OgQdEB5dhToe3",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "No rule element retargets a *different* card's action cost conditionally and periodically (`CF-list` — `ItemAlteration` has no action-cost field even for permanent alteration, let alone a frequency-gated one). Bucket 3/5 combination: a frequency-limited conversion of another item's action economy, real content, no mechanism."
+        }
+    }
 }

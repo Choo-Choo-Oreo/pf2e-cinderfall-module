@@ -33,5 +33,10 @@
         },
         "slug": "bandwidth-unlimited"
     },
-    "_id": "f5fTRxEi6s97LuQg"
+    "_id": "f5fTRxEi6s97LuQg",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Once/day, spend Bandwidth you don't have, going to -3. No `SpecialResource` rule element exists anywhere in the corpus for Bandwidth -- confirmed corpus-wide (`grep -rl \"\\\"key\\\": \\\"SpecialResource\\\"\" site/data/cards/` returns zero hits), and the class card itself (`site/data/cards/classes/classes.paradise-touched.json:49`) ships `system.rules: []`. Same absence class as Cultist Zeal/Ironsight Drift/Fleshmancer Vitae."
+        }
+    }
 }

@@ -24,7 +24,9 @@
             "type": null
         },
         "price": {
-            "value": {}
+            "value": {
+                "gp": 0
+            }
         },
         "publication": {
             "license": "ORC",
@@ -32,7 +34,22 @@
             "title": "Cinderfall"
         },
         "quantity": 1,
-        "rules": [],
+        "rules": [
+            {
+                "key": "RollOption",
+                "option": "rooted",
+                "toggleable": true
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "fortitude",
+                "type": "circumstance",
+                "value": 2,
+                "predicate": [
+                    "rooted"
+                ]
+            }
+        ],
         "size": "med",
         "traits": {
             "rarity": "rare",
@@ -46,21 +63,14 @@
     "_id": "W33dcbsUbaUfU3vp",
     "flags": {
         "cinderfall": {
+            "incomplete": "Being rooted also states 'nothing short of a critical success moves you' and 'your Speed is 0' -- no rule element grants immunity to forced movement conditioned on a self-toggled RollOption, and overriding land speed to exactly 0 while rooted has no confirmed real precedent (BaseSpeed's real usage only adds new movement types, e.g. pf2e-source/packs/pf2e/feats/ancestry/anadi/level-9/strand-strider.json, never zeroes land speed). The Fortitude bonus above is real and automated; the movement-lock is not.",
             "mutationType": "minor",
             "tier": "rare",
-            "slot": "Legs",
             "slots": [
                 "Legs"
             ],
             "slotCost": 1,
-            "roll": "d100 — 81–82",
-            "incomplete": [
-                "level is a stub (0); mutations carry no level",
-                "price is empty; a mutation is not bought"
-            ],
-            "inferred": [
-                "system.usage"
-            ]
+            "roll": "d100 — 81–82"
         }
     }
 }

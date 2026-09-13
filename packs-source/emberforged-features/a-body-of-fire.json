@@ -1,0 +1,47 @@
+{
+    "name": "A Body of Fire",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "ancestryfeature",
+        "description": {
+            "value": "<p>Immune to fire damage; no need to breathe. Vulnerable to cold, and water-based effects threaten you the way drowning threatens flesh.</p>"
+        },
+        "level": {
+            "value": 0
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "Immunity",
+                "type": "fire"
+            },
+            {
+                "key": "Weakness",
+                "type": "cold",
+                "value": "max(1,floor(@actor.level/3))"
+            }
+        ],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "emberforged"
+            ]
+        },
+        "slug": "a-body-of-fire"
+    },
+    "_id": "nHSOEiaaP0gMWH0K"
+}

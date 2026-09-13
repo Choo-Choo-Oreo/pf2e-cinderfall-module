@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "ironsight-trick-iron"
+            ],
             "rarity": "common",
             "value": [
                 "ironsight",
@@ -34,5 +37,11 @@
         },
         "slug": "field-conversion"
     },
-    "_id": "CbKGZdKQ27v8BGt5"
+    "_id": "CbKGZdKQ27v8BGt5",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "no selector for a skill-check-gated item-type conversion.",
+            "track": "trick-iron"
+        }
+    }
 }

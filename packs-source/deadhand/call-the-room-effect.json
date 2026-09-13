@@ -1,0 +1,53 @@
+{
+    "name": "Effect: Call the Room",
+    "type": "effect",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "description": {
+            "value": "<p><em>Applied by <strong>Call the Room</strong> to each affected ally.</em></p>\n<hr />\n<p>Name one enemy you can see. Up to three allies who can hear and understand you gain a +1 circumstance bonus to attack rolls against that enemy until the end of your next turn. An ally who cannot hear you gains nothing, and saying it louder does not help.</p>"
+        },
+        "duration": {
+            "expiry": "turn-end",
+            "sustained": false,
+            "unit": "rounds",
+            "value": 1
+        },
+        "level": {
+            "value": 2
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "attack",
+                "type": "circumstance",
+                "value": 1,
+                "predicate": [
+                    "target:mark:call-the-room"
+                ]
+            }
+        ],
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "value": []
+        },
+        "slug": "call-the-room-effect"
+    },
+    "_id": "4wKLbvKmMHaAKDFk",
+    "flags": {
+        "cinderfall": {
+            "effectOf": "deadhand.call-the-room",
+            "landsOn": "ally"
+        }
+    }
+}

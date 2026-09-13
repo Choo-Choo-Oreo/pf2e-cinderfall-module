@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "fleshmancer-grafters"
+            ],
             "rarity": "common",
             "value": [
                 "fleshmancer"
@@ -33,5 +36,10 @@
         },
         "slug": "whether-they-like-it"
     },
-    "_id": "Deg74Ch33Swh7xSs"
+    "_id": "Deg74Ch33Swh7xSs",
+    "flags": {
+        "cinderfall": {
+            "track": "grafters"
+        }
+    }
 }

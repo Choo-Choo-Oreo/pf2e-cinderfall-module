@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "seed-warden-greenline"
+            ],
             "rarity": "common",
             "value": [
                 "seed-warden"
@@ -33,5 +36,11 @@
         },
         "slug": "quick-root"
     },
-    "_id": "2vkbSoOzkRldXfSI"
+    "_id": "2vkbSoOzkRldXfSI",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "No RE alters a *named other spell's* action cost — `CF-list` confirms `ItemAlteration`'s field list has nothing for action cost at all, on any item type. Bucket 3/5.",
+            "track": "greenline"
+        }
+    }
 }

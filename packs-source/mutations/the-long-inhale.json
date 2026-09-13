@@ -24,7 +24,9 @@
             "type": null
         },
         "price": {
-            "value": {}
+            "value": {
+                "gp": 0
+            }
         },
         "publication": {
             "license": "ORC",
@@ -46,21 +48,14 @@
     "_id": "6RFmFMYzETQCItDv",
     "flags": {
         "cinderfall": {
+            "incomplete": "The once-per-encounter extra action (restricted to Step, Interact, or Raise a Shield) has no rule-element equivalent: granting an actual extra action, restricted to specific action types, needs a granted Reaction/Free Action item with its own frequency, not a rule element on this equipment card.",
             "mutationType": "minor",
             "tier": "epic",
-            "slot": "Viscera",
             "slots": [
                 "Viscera"
             ],
             "slotCost": 1,
-            "roll": "d100 — 95–96",
-            "incomplete": [
-                "level is a stub (0); mutations carry no level",
-                "price is empty; a mutation is not bought"
-            ],
-            "inferred": [
-                "system.usage"
-            ]
+            "roll": "d100 — 95–96"
         }
     }
 }

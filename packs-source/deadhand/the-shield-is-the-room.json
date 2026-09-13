@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "deadhand-bulwark"
+            ],
             "rarity": "common",
             "value": [
                 "deadhand"
@@ -33,5 +36,11 @@
         },
         "slug": "the-shield-is-the-room"
     },
-    "_id": "E1V4vmoX5eEl5wRl"
+    "_id": "E1V4vmoX5eEl5wRl",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Redirect/protect abilities reach 30 feet and only need line of sight, and are usable while prone/restrained/grabbed (not unconscious). Same \"nothing to extend\" gap as reach-of-the-line -- the abilities being extended carry no rule-element range value.",
+            "track": "bulwark"
+        }
+    }
 }

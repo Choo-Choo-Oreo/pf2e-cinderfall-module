@@ -1,0 +1,37 @@
+{
+    "name": "Bypass the Old Locks",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "skill",
+        "description": {
+            "value": "<p>Pre-Cinder locks were built to a standard nobody makes replacement parts for anymore, which you've turned into an advantage. You gain a +2 circumstance bonus to Pick a Lock on any lock manufactured before the Turning.</p>"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "bypass-the-old-locks"
+    },
+    "_id": "YL2CSo3BNaXmqiiS",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The +2 is conditioned on the lock's in-world manufacture date ('before the Turning'), a lore fact with no item trait or roll option representing it anywhere in this corpus or the base engine."
+        }
+    }
+}

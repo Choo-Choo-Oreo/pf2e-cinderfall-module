@@ -1,0 +1,50 @@
+{
+    "name": "Loaded Dice",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
+        "description": {
+            "value": "<p>Deals fate like a hand of cards and never once cheats — it doesn't have to. It just tells you the odds and lets the wasteland do the rest. Followers describe it as scrupulously honest and utterly without mercy.</p><hr /><p><strong>LOADED DICE —</strong> reroll a failed check by spending Zeal. The Croupier always collects the vig eventually.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "otherTags": [
+                "cultist-bargain"
+            ],
+            "rarity": "common",
+            "value": [
+                "cultist"
+            ]
+        },
+        "slug": "the-croupier"
+    },
+    "_id": "vzhTvvUsipExqsek",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "This is one of the 7 \"Choose Your Bargain\" option cards (classfeature, otherTags:[\"cultist-bargain\"], selected by cultist.bargain's ChoiceSet). The mechanical benefit of choosing it is entirely \"you can now cast its signature Rite,\" a sibling spell card in this same folder -- granting it via a static GrantItem pointing at that slug is not resolvable by this repo's own Foundry build pipeline (tools/foundry/build_pack.py: resolve_grants only rewrites system.items slots at build time; resolve_ancestry only rewrites system.ancestry.slug). A cross-slug GrantItem.uuid inside a feat's own system.rules is exactly the already-confirmed-absent case for this pass.",
+            "subclassOf": "cultist",
+            "subclassChoice": "Choose Your Bargain",
+            "role": "Chance · Reversal · Cruel Fairness",
+            "followUp": "signature spell 'Loaded Dice' still needs its own spell document; the card renders on spells-abilities.html as a spell-entry and its statline/body are authored above",
+            "subclassLayer": "bargain"
+        }
+    }
+}

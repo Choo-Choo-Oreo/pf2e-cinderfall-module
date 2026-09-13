@@ -177,7 +177,9 @@
                 },
                 "attackEffects": {
                     "custom": "",
-                    "value": []
+                    "value": [
+                        "piston-shove"
+                    ]
                 },
                 "bonus": {
                     "value": 16
@@ -189,7 +191,7 @@
                     }
                 },
                 "description": {
-                    "value": "<p>Damage 2d10+7 bludgeoning plus Shove 10 ft</p>"
+                    "value": ""
                 },
                 "publication": {
                     "license": "ORC",
@@ -253,14 +255,48 @@
                 },
                 "category": "interaction",
                 "description": {
-                    "value": "<p>The Abomination is permanently sickened 1 and can't reduce this. A creature that succeeds at a DC 22 Medicine or Crafting check (or a Fleshmancer's Read the Meat) identifies a failing graft; an attack targeting it (AC 20, 15 HP) drops the Abomination to stunned 1 when the graft is destroyed.</p>"
+                    "value": "<p>The Abomination is permanently sickened 1 and can't reduce this. A creature that succeeds at a DC 22 Medicine or Crafting check (or a Fleshmancer's Read the Meat) identifies a failing graft; an attack targeting it (AC 20, 15 HP) drops the Abomination to stunned 1 when the graft is destroyed. A Fleshmancer knows exactly where to cut: its saves against a Graft's effects land one degree worse.</p>"
                 },
                 "publication": {
                     "license": "ORC",
                     "remaster": true,
                     "title": "Cinderfall"
                 },
-                "rules": [],
+                "rules": [
+                    {
+                        "key": "AdjustDegreeOfSuccess",
+                        "selector": "fortitude",
+                        "type": "save",
+                        "predicate": [
+                            "origin:trait:fleshmancer"
+                        ],
+                        "adjustment": {
+                            "success": "one-degree-worse"
+                        }
+                    },
+                    {
+                        "key": "AdjustDegreeOfSuccess",
+                        "selector": "reflex",
+                        "type": "save",
+                        "predicate": [
+                            "origin:trait:fleshmancer"
+                        ],
+                        "adjustment": {
+                            "success": "one-degree-worse"
+                        }
+                    },
+                    {
+                        "key": "AdjustDegreeOfSuccess",
+                        "selector": "will",
+                        "type": "save",
+                        "predicate": [
+                            "origin:trait:fleshmancer"
+                        ],
+                        "adjustment": {
+                            "success": "one-degree-worse"
+                        }
+                    }
+                ],
                 "slug": "grafted-wrong",
                 "traits": {
                     "rarity": "common",
@@ -298,15 +334,84 @@
                 }
             },
             "type": "action"
+        },
+        {
+            "_id": "DjAtTUgLq2bSiCqu",
+            "img": "systems/pf2e/icons/actions/Passive.webp",
+            "name": "Piston Shove",
+            "sort": 1400000,
+            "system": {
+                "actionType": {
+                    "value": "passive"
+                },
+                "actions": {
+                    "value": null
+                },
+                "category": "offensive",
+                "description": {
+                    "value": "<p>On a hit, the target is shoved 10 feet.</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "piston-shove",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "type": "action"
+        },
+        {
+            "_id": "ND7u5BM1YhVviScB",
+            "img": "systems/pf2e/icons/default-icons/treasure.svg",
+            "name": "Salvaged Graft",
+            "sort": 1500000,
+            "system": {
+                "bulk": {
+                    "value": 0
+                },
+                "category": "material",
+                "description": {
+                    "value": "<p>A graft pried loose before it could reject &mdash; factory metal fused to meat, and the reason a Fleshmancer's Cut spends harder against this thing.</p>"
+                },
+                "hardness": 0,
+                "hp": {
+                    "max": 0,
+                    "value": 0
+                },
+                "level": {
+                    "value": 0
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "quantity": 1,
+                "rules": [],
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                },
+                "price": {
+                    "value": {
+                        "gp": 2
+                    }
+                }
+            },
+            "type": "treasure"
         }
     ],
     "flags": {
+        "pf2e": {
+            "lootable": true
+        },
         "cinderfall": {
-            "alignment": "CE",
-            "incomplete": [
-                "weakness note \"a Fleshmancer's Cut resource spends at +1 effect against it\" kept as text only",
-                "Melee strike 'piston-fist': rider 'Shove 10 ft' kept as text only"
-            ]
+            "alignment": "CE"
         }
     }
 }

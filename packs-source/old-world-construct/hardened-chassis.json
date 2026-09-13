@@ -1,0 +1,43 @@
+{
+    "name": "Hardened Chassis",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "ancestry",
+        "description": {
+            "value": "<p>Gain a small permanent bonus to Fortitude saves and resistance to critical-hit effects.</p>"
+        },
+        "level": {
+            "value": 5
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Overclock or Sentinel-Line heritage"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "old-world-construct"
+            ]
+        },
+        "slug": "hardened-chassis"
+    },
+    "_id": "OaOz9uYuy6TUvHAd",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "'A small permanent bonus to Fortitude saves' states no value, and 'resistance to critical-hit effects' has no matching rule element in pf2e. The card states a bonus/effect but gives no numeric value or formula to build a rule element from without inventing one."
+        }
+    }
+}

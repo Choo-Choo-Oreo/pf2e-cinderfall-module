@@ -1,0 +1,78 @@
+{
+    "name": "Second Spine",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>A full parallel spinal column grafted alongside your own. +1 item bonus to Fortitude and Reflex saves. Once per day, when you would be paralyzed, or stunned 3 or more, reduce the effect by 1 (stage or value).</p><p><b>Donor:</b> Two people's worth of spine. The donor braces the instant you flinch — sometimes bracing you in a direction you weren't going.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 13
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "mk": 3250
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "fortitude",
+                "type": "item",
+                "value": 1
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "reflex",
+                "type": "item",
+                "value": 1
+            }
+        ],
+        "size": "med",
+        "traits": {
+            "rarity": "epic",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "second-spine"
+    },
+    "_id": "SECmb58oAo8FwxEB",
+    "flags": {
+        "cinderfall": {
+            "augmentKind": "biological",
+            "augmentType": "graft",
+            "tier": "epic",
+            "slots": [
+                "Frame"
+            ],
+            "slotCost": 1,
+            "grade": 4,
+            "availability": "Grafted",
+            "level": 13,
+            "load": "+4",
+            "resonance": "+4"
+        }
+    }
+}

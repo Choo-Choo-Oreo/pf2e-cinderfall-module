@@ -1,0 +1,68 @@
+{
+    "name": "Shock Grip",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>Stun-capacitor palm. 1 action, touch: Fort save vs your class DC or stunned 1 (1/target/10 min). Scans illegal.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 4
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "gp": 70
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "shock-grip"
+    },
+    "_id": "urAu4GMRGEAEbWeV",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The whole ability is a touch attack causing a save-or-stunned effect, once per target per 10 minutes -- this is a no-damage save-effect action, not a Strike (the Strike rule element only ever grants ordinary damaging attacks), so it needs a granted Action item instead.",
+            "augmentKind": "cybernetic",
+            "augmentType": "implant",
+            "tier": "common",
+            "slots": [
+                "Arm"
+            ],
+            "slotCost": 1,
+            "grade": 1,
+            "availability": "Black Market",
+            "level": 4,
+            "drift": "+2",
+            "augTags": [
+                "weapon"
+            ]
+        }
+    }
+}

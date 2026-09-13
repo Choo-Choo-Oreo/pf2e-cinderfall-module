@@ -15,7 +15,12 @@
             "remaster": true,
             "title": "Cinderfall"
         },
-        "rules": [],
+        "rules": [
+            {
+                "key": "RollOption",
+                "option": "wandering-cinderborn"
+            }
+        ],
         "traits": {
             "rarity": "common",
             "value": []

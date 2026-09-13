@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "the-signal-requiem"
+            ],
             "rarity": "common",
             "value": [
                 "the-signal"
@@ -33,5 +36,10 @@
         },
         "slug": "whose-voice"
     },
-    "_id": "YOhZjcpeDL2JN3DC"
+    "_id": "YOhZjcpeDL2JN3DC",
+    "flags": {
+        "cinderfall": {
+            "track": "requiem"
+        }
+    }
 }

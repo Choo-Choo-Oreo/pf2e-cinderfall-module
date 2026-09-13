@@ -1,0 +1,46 @@
+{
+    "name": "Flesh Apotheosis",
+    "type": "capstone",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p>Two hundred years of cutting has to arrive somewhere, and it arrives all at once. You become host to a Teratoma and it becomes host to you: you gain a passive regenerative or adaptive trait, settled with the GM the first time you rest after reaching 20th level. In the same breath you stop being ordinary meat — resistance to poison and disease, and immunity to your own Blooms, the table simply stops applying to you. Nobody asked whether you wanted both. The Grafter’s road does not have a fork in it this late; it has an arrival.</p>"
+        },
+        "level": {
+            "value": 20
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "otherTags": [
+                "fleshmancer-grafters"
+            ],
+            "value": [
+                "fleshmancer"
+            ]
+        },
+        "slug": "grafters-major"
+    },
+    "_id": "0iwWQqWknPt4RVtZ",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The resistance-to-poison-and-disease clause matches a real pf2e shape (Resistance type:[...] value:N, confirmed via pf2e-source/packs/pf2e/feats/ancestry/dwarf/level-5/blast-resistance.json), but this card's own text states no numeric value for the resistance -- shipping a Resistance rule element with a guessed or missing value would misrepresent the card, so it is not built. \"Immunity to your own Blooms\" is unbuildable: Bloom has no rule-element representation to grant immunity against. The GM-negotiated passive trait settled at 20th level is undecided at authoring time -- nothing to encode yet.",
+            "track": "grafters"
+        }
+    }
+}

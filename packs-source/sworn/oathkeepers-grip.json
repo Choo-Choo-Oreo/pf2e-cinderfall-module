@@ -24,7 +24,24 @@
             "remaster": true,
             "title": "Cinderfall"
         },
-        "rules": [],
+        "rules": [
+            {
+                "key": "RollOption",
+                "option": "oathkeepers-grip",
+                "toggleable": true,
+                "label": "Target has damaged or targeted your Ward this encounter"
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "athletics",
+                "type": "circumstance",
+                "value": 2,
+                "predicate": [
+                    "action:grapple",
+                    "oathkeepers-grip"
+                ]
+            }
+        ],
         "traits": {
             "rarity": "common",
             "value": [

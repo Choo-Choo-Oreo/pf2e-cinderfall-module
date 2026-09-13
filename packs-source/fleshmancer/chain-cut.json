@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "fleshmancer-butchers"
+            ],
             "rarity": "common",
             "value": [
                 "fleshmancer"
@@ -33,5 +36,11 @@
         },
         "slug": "chain-cut"
     },
-    "_id": "eQlY6afqWU97CBu9"
+    "_id": "eQlY6afqWU97CBu9",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "No rule element retargets or re-areas an already-defined consumable item's effect from single-target to a 10-ft burst.",
+            "track": "butchers"
+        }
+    }
 }

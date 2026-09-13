@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "flavored"
+            ],
             "rarity": "common",
             "value": [
                 "reckoner"
@@ -33,5 +36,11 @@
         },
         "slug": "forbidden-cognition-ascendant"
     },
-    "_id": "1TuXvFCgwjfiQH7r"
+    "_id": "1TuXvFCgwjfiQH7r",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Lets THE ANSWER (a pure-information action) target yourself instead -- THE ANSWER's own rules are correctly empty (PAT-EMPTY) and there are no numbers to build past that for this extension.",
+            "flavored": true
+        }
+    }
 }

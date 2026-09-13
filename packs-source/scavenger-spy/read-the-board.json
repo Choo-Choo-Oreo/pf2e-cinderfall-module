@@ -27,5 +27,10 @@
         },
         "slug": "read-the-board"
     },
-    "_id": "NmYheUBcoBK31K4e"
+    "_id": "NmYheUBcoBK31K4e",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Stated number applied to an ally (external target) -- needs the distracting-feint.json/effect-distracting-feint.json two-file companion-effect pattern, outside this card's scope."
+        }
+    }
 }

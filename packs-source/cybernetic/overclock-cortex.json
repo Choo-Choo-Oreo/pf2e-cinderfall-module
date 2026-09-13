@@ -1,0 +1,65 @@
+{
+    "name": "Overclock Cortex",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>Redlined processing. 1/day, 1 action: quickened 1 (attack and movement actions only) for 1 minute, then stunned 1 and fatigued.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 12
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "gp": 2250
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "traits": {
+            "rarity": "rare",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "overclock-cortex"
+    },
+    "_id": "agXikHzHm2QQXz05",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The whole ability is a 1/day activated quickened-1-then-stunned-and-fatigued sequence -- a limited-use self-buff-then-crash needs a granted Action item with a linked follow-up effect, not a passive rule element.",
+            "augmentKind": "cybernetic",
+            "augmentType": "implant",
+            "tier": "rare",
+            "slots": [
+                "Neural"
+            ],
+            "slotCost": 1,
+            "grade": 3,
+            "availability": "Black Market",
+            "level": 12,
+            "drift": "+4"
+        }
+    }
+}

@@ -27,5 +27,10 @@
         },
         "slug": "spore-strider"
     },
-    "_id": "Mj6P0WjqQA69zYgj"
+    "_id": "Mj6P0WjqQA69zYgj",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Same `BLIGHTSHAPE-NULL` + `BLOOMROT-NULL` blockers as Rustvine Colossus and Thicketback."
+        }
+    }
 }

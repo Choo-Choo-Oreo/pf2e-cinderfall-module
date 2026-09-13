@@ -15,7 +15,54 @@
             "remaster": true,
             "title": "Cinderfall"
         },
-        "rules": [],
+        "rules": [
+            {
+                "key": "ChoiceSet",
+                "flag": "oldBlood",
+                "rollOption": "heritage:old-blood",
+                "prompt": "Select the strain your line held on to",
+                "choices": [
+                    {
+                        "label": "PF2E.TraitPoison",
+                        "value": "poison"
+                    },
+                    {
+                        "label": "PF2E.TraitDisease",
+                        "value": "disease"
+                    },
+                    {
+                        "label": "PF2E.TraitRadiation",
+                        "value": "radiation"
+                    }
+                ]
+            },
+            {
+                "key": "Resistance",
+                "type": "poison",
+                "value": "max(1,floor(@actor.level/2))",
+                "predicate": [
+                    "heritage:old-blood:poison"
+                ]
+            },
+            {
+                "key": "Resistance",
+                "type": "radiation",
+                "value": "max(1,floor(@actor.level/2))",
+                "predicate": [
+                    "heritage:old-blood:radiation"
+                ]
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "saving-throw",
+                "type": "circumstance",
+                "value": 1,
+                "predicate": [
+                    "heritage:old-blood:disease",
+                    "item:trait:disease"
+                ]
+            }
+        ],
         "traits": {
             "rarity": "common",
             "value": []

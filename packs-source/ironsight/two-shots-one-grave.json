@@ -27,5 +27,10 @@
         },
         "slug": "two-shots-one-grave"
     },
-    "_id": "emFfQQPkt9Yvveq1"
+    "_id": "emFfQQPkt9Yvveq1",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "miss-triggered second shot at +4 to hit. This card's entire effect is a limited-use activated action/reaction that hands the actor a wholly new usable action -- per this pass's fixed bucket-3 convention this is always INCOMPLETE regardless of precedent. Ironsight's own real-world analog, the Gunslinger, ships this exact shape unencoded across dozens of its own Strike-variant/reload-trick/called-shot feats (e.g. pf2e-source/packs/pf2e/feats/class/gunslinger/level-10/called-shot.json, level-6/scatter-blast.json, level-1/dual-weapon-reload.json, all rules: []) -- confirming this is the standard shape for a gunfighter class, not license to SKIP."
+        }
+    }
 }

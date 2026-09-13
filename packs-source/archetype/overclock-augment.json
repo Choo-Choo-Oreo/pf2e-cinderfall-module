@@ -35,5 +35,10 @@
         },
         "slug": "overclock-augment"
     },
-    "_id": "8yYFxQx9NLeZBoLq"
+    "_id": "8yYFxQx9NLeZBoLq",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The once-per-encounter free action to run an installed augment above its Grade has no engine hook: no rule element grants a new usable action (same absence as Reactive Shield/Second Wind), and the Drift increase it causes is Cinderfall's own bookkeeping with no actor-schema representation."
+        }
+    }
 }

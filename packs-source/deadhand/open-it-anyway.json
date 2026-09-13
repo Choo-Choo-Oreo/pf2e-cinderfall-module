@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "deadhand-breaker"
+            ],
             "rarity": "common",
             "value": [
                 "deadhand"
@@ -33,5 +36,11 @@
         },
         "slug": "open-it-anyway"
     },
-    "_id": "yj2IYyZSYyDYNARv"
+    "_id": "yj2IYyZSYyDYNARv",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Strike an unattended object/door/wall/barrier, ignoring up to 5 points of its Hardness; on a hit, use the Strike's attack roll in place of the Athletics check for Force Open; on a critical hit it breaks outright. The skill-substitution clause matches real precedent (Courtly Graces / Determined Dash's Athletics-for-Balance clause, both rules: []) and needs no rule element, but \"ignore up to 5 points of Hardness\" is a real, stated numeric effect with no matching hook -- no rule-element key subtracts or bypasses an arbitrary struck object's own Hardness value (only granting resistance/hardness to the actor's own gear exists; nothing reaches an external object's stat block).",
+            "track": "breaker"
+        }
+    }
 }

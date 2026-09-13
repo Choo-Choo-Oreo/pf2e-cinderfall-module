@@ -1,0 +1,39 @@
+{
+    "name": "Whole Again",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "ancestry",
+        "description": {
+            "value": "<p>Once per day, briefly become the fragment fully — gain full expertise in one skill tied to the fragment's original life (GM's call, consistent with prior Bleed-Through results) for the rest of the scene.</p>"
+        },
+        "level": {
+            "value": 17
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "residual"
+            ]
+        },
+        "slug": "whole-again"
+    },
+    "_id": "kyMFhS7XMBy6RLNi",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Granting a new limited-use activated action/reaction has no rule-element hook in real pf2e -- confirmed corpus-wide this pass (Reactive Shield itself ships rules: []). ('gain full expertise in one skill... for the rest of the scene' is a temporary proficiency-rank grant with no rule-element hook.)"
+        }
+    }
+}

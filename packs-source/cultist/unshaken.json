@@ -1,0 +1,45 @@
+{
+    "name": "Unshaken",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You would become frightened.</p><hr /><p>Reduce the frightened value by 1 (minimum 0). If this reduces it to 0, you are not frightened at all. Doubt is a foreign language to you, and you've never bothered to learn it.</p>"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "otherTags": [
+                "cultist-undoubted"
+            ],
+            "rarity": "common",
+            "value": [
+                "cultist"
+            ]
+        },
+        "slug": "unshaken"
+    },
+    "_id": "n4b244KiUIRxUJXG",
+    "flags": {
+        "cinderfall": {
+            "track": "undoubted"
+        }
+    }
+}

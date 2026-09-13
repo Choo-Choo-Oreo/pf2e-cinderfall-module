@@ -24,8 +24,16 @@
             "remaster": true,
             "title": "Cinderfall"
         },
-        "rules": [],
+        "rules": [
+            {
+                "key": "GrantItem",
+                "uuid": "Compendium.pf2e.feats-srd.Item.Pet"
+            }
+        ],
         "traits": {
+            "otherTags": [
+                "flavored"
+            ],
             "rarity": "common",
             "value": [
                 "scrapwright",
@@ -34,5 +42,11 @@
         },
         "slug": "scrap-ghost-familiar"
     },
-    "_id": "iEwSbgeutxau5vyk"
+    "_id": "iEwSbgeutxau5vyk",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The GrantItem call (Pattern Reference C, matching pf2e's own familiar-witch.json:27-30) spawns a real familiar actor tied to the PC -- that half is proposed as real system.rules. The card's specific customizations (Perception matching the caster's own, fly Speed exactly 25 ft, HP exactly 1/level, no attacks at all, and a 1-mile remote-sensing relay) are, in real pf2e, set by picking individual familiar-ability compendium items directly onto the familiar's own actor sheet after creation -- not encoded via system.rules on the granting card. Building those out needs new/matching familiar-ability records per making-standard/Making-Familiars.md; see Open Questions #4 in .claude/scratch/feats-class-scrapwright-draft.md.",
+            "flavored": true
+        }
+    }
 }

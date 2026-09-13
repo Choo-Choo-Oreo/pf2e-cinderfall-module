@@ -34,7 +34,35 @@
             "value": "60 feet"
         },
         "requirements": "",
-        "rules": [],
+        "rules": [
+            {
+                "key": "RollOption",
+                "option": "overwrite-signal",
+                "toggleable": true,
+                "label": "Declaring this cast of Overwrite as Signal"
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "spell-dc",
+                "type": "circumstance",
+                "value": 2,
+                "predicate": [
+                    "overwrite-signal"
+                ]
+            },
+            {
+                "key": "DamageAlteration",
+                "mode": "upgrade",
+                "property": "dice-faces",
+                "selectors": [
+                    "spell-damage"
+                ],
+                "predicate": [
+                    "overwrite-signal"
+                ],
+                "value": 8
+            }
+        ],
         "target": {
             "value": "1 creature"
         },
@@ -54,6 +82,7 @@
     "_id": "bc2PC7q3qUWHJuVq",
     "flags": {
         "cinderfall": {
+            "incomplete": "Unbuildable: the universal Signal-failure penalty (self-inflicted force damage + a Drift point on a failed check, the class's core Signal/Static mechanic) is not modeled -- a player toggling this on faces no in-sheet cost on a failed spell attack/DC. The class's Signal/Static mechanic has no rule-element analog anywhere in pf2e-source (`AdjustDegreeOfSuccess` evaluates before the roll resolves and cannot hook a GM's own secret post-roll check), and the Signal Drift track has no `SpecialResource`/counter representation.",
             "spellTag": "1st · 1 Bandwidth",
             "listing": "Glimpses / The Render Paradise building the world it wants"
         }

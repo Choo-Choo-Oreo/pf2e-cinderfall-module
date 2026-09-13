@@ -1,0 +1,53 @@
+{
+    "name": "The Shot Everyone Remembers",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
+        "description": {
+            "value": "<span class=\"sdesc\">Signature called-shot action usable once per day, dealing an extra 2d6 precision damage against a foe already hit this encounter; the alternate mode expands into a genuine area attack triggerable by Redline for Slippage risk instead of eating into the daily limit.</span>"
+        },
+        "level": {
+            "value": 11
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "system.proficiencies.attacks.widowmaker-weapon.rank",
+                "value": 3
+            }
+        ],
+        "traits": {
+            "otherTags": [],
+            "rarity": "common",
+            "value": [
+                "scrapwright"
+            ]
+        },
+        "slug": "the-shot-everyone-remembers"
+    },
+    "_id": "ekkqUZq0p3nPj8Tl",
+    "flags": {
+        "cinderfall": {
+            "spellTag": "Mk III · 11th",
+            "ghostRigTier": "Mk III",
+            "grantedAtLevel": 11,
+            "notSpell": "scrapwright's class document carries system.spellcasting 0, so this is an ability, not a spell, and convert_class_spells.py declines it by design as a NON_CASTERS owner"
+        }
+    }
+}

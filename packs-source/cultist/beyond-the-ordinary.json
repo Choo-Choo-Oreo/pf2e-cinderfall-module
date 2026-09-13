@@ -1,0 +1,69 @@
+{
+    "name": "Beyond the Ordinary",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>You gain a +1 circumstance bonus to saving throws against effects with the divine, occult, or curse trait created by a creature other than yourself, and to checks to identify such effects.</p>"
+        },
+        "level": {
+            "value": 14
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "saving-throw",
+                "type": "circumstance",
+                "value": 1,
+                "predicate": [
+                    {
+                        "or": [
+                            "item:trait:divine",
+                            "item:trait:occult",
+                            "item:trait:curse"
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "skill-check",
+                "type": "circumstance",
+                "value": 1,
+                "predicate": [
+                    "action:identify-magic",
+                    {
+                        "or": [
+                            "item:trait:divine",
+                            "item:trait:occult",
+                            "item:trait:curse"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "cultist"
+            ]
+        },
+        "slug": "beyond-the-ordinary"
+    },
+    "_id": "Ddc4sqV7mKoEhkgz"
+}

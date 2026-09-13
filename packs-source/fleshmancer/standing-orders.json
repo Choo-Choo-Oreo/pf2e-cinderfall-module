@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "fleshmancer-grafters"
+            ],
             "rarity": "common",
             "value": [
                 "fleshmancer"
@@ -33,5 +36,11 @@
         },
         "slug": "standing-orders"
     },
-    "_id": "GDbU0Bkhl3XObXho"
+    "_id": "GDbU0Bkhl3XObXho",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "This effect changes a different creature's own roll, HP, condition, or item, sourced from the card holder's own passive/item/action. No selector exists anywhere in pf2e-source for this -- confirmed corpus-wide this pass. The deferred, conditional retrigger targets a different creature's future HP state.",
+            "track": "grafters"
+        }
+    }
 }

@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "deadhand-breaker"
+            ],
             "rarity": "common",
             "value": [
                 "deadhand"
@@ -33,5 +36,11 @@
         },
         "slug": "the-siege-is-one-man"
     },
-    "_id": "Px4doYOtWGq5PZTD"
+    "_id": "Px4doYOtWGq5PZTD",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "A 30-foot burst within 60 feet, 20d10 bludgeoning, basic Reflex against Class DC, at an explicit Cost of 5 Tally. The AoE-burst-basic-save shape alone would ship unencoded (matches pf2e-source/packs/pf2e/actions/class/exemplar/giant-felling-comet.json, rules: []), but the stated \"Cost 5 Tally\" is the action's actual activation gate, and Deadhand's Tally is entirely homebrew with zero schema footprint anywhere in this corpus.",
+            "track": "breaker"
+        }
+    }
 }

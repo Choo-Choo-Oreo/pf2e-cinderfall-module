@@ -33,5 +33,10 @@
         },
         "slug": "overcharge"
     },
-    "_id": "AzeInLy3u30TFbWz"
+    "_id": "AzeInLy3u30TFbWz",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "`BLOOMROT-NULL` end to end — there is no cap, no charge, and no reset to bank against."
+        }
+    }
 }

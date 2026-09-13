@@ -33,5 +33,10 @@
         },
         "slug": "bandwidth-reserve"
     },
-    "_id": "0hdMH1KCGloQ66Qi"
+    "_id": "0hdMH1KCGloQ66Qi",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Wake with Bandwidth max+1 if you ended the day with unspent Bandwidth. No `SpecialResource` rule element exists anywhere in the corpus for Bandwidth -- confirmed corpus-wide (`grep -rl \"\\\"key\\\": \\\"SpecialResource\\\"\" site/data/cards/` returns zero hits), and the class card itself (`site/data/cards/classes/classes.paradise-touched.json:49`) ships `system.rules: []`. Same absence class as Cultist Zeal/Ironsight Drift/Fleshmancer Vitae."
+        }
+    }
 }

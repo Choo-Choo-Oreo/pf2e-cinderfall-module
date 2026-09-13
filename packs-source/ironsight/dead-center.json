@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "ironsight-long-iron"
+            ],
             "rarity": "common",
             "value": [
                 "ironsight"
@@ -33,5 +36,11 @@
         },
         "slug": "dead-center"
     },
-    "_id": "XvB2APkB0z0bZ9i8"
+    "_id": "XvB2APkB0z0bZ9i8",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "(depends on the unencoded called-shot parent) and directly matches the pre-confirmed absence: \"No rule element guarantees an outright success... No Reroll rule-element key exists anywhere in the compendium.\". This card depends on (upgrades, extends, or is gated behind) another Ironsight card in this same package that itself ships rules: [] -- if the parent has nothing real to build on, the child has nothing real to extend either.",
+            "track": "long-iron"
+        }
+    }
 }

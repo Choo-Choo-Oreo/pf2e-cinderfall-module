@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "flavored"
+            ],
             "rarity": "common",
             "value": [
                 "waywarden"
@@ -33,5 +36,11 @@
         },
         "slug": "deadeyes-longshot"
     },
-    "_id": "YLIXQCmzNX7hlmRu"
+    "_id": "YLIXQCmzNX7hlmRu",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Otherwise a clean, single-clause rule (removing precision damage's normal range gate) — fully blocked on the Mark predicate. (P5 additionally shows real pf2e leaves range/cover-limit removal vs hunted prey unencoded even when unblocked, reinforcing the call.). The Waywarden's central subsystem, The Mark (classes.waywarden.json flags.cinderfall.terms[0]: \"designate a creature as your quarry, gaining a growing bonus to track, target, and punish it specifically\"), has zero Foundry-schema footprint anywhere in the corpus. classes.waywarden.json:65 itself carries \"rules\": []. No card anywhere grants a TokenMark effect (site/data/cards/abilities/, class-features/, feat-effects/ are all empty scaffold directories -- confirmed via ls, contents are .gitkeep only). Real pf2e's own equivalent mechanic (Ranger's Hunt Prey) is fully buildable and precedented, but that infrastructure (an action item + a TokenMark-carrying effect item) does not exist for Waywarden and is not one of the 56 files in scope for this draft. This card is blocked until a future pass authors the base Mark action/effect.",
+            "flavored": true
+        }
+    }
 }

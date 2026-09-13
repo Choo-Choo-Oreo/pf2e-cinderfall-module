@@ -33,5 +33,10 @@
         },
         "slug": "reinforced-vow"
     },
-    "_id": "pfBlsJ75pyZ2IfJ2"
+    "_id": "pfBlsJ75pyZ2IfJ2",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "This is an upgrade-chain case: all six of Sworn's Vow spells (Ash Already Falling, Collateral Ward, Kindling's Mark, My Word Alone, Nobody Else's Rules, Repossession Notice) correctly ship rules: [] themselves, matching real pf2e's own convention of never encoding a spell's mechanical payload on the spell item (confirmed via pf2e-source/packs/pf2e/spells/spells/rank-2/resist-energy.json and rank-3/heroism.json, both rules: []). Since none of the parents carry a real numeric rule element to begin with, there is nothing here for Reinforced Vow to add +1/+5/double to."
+        }
+    }
 }

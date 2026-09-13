@@ -49,6 +49,7 @@
     "_id": "ZIhTXw2pBvxEyMVn",
     "flags": {
         "cinderfall": {
+            "incomplete": "Needs an Immunity type narrower than the real \"detection\" type (pf2e-source/src/scripts/config/iwr.ts), which blocks ALL detection (divination, scrying, ordinary Perception-based location magic) rather than only \"electronic/mechanical-sensory\" detection as this card claims -- using it would over-grant immunity to mundane Perception and ordinary magical scrying the card never claims to block. No narrower real type or predicate for machine-sense-specific detection exists. Convert-never-flatten: not substituted.",
             "listing": "Covenant Vessel Spells / Ghost-Static machine spirits · lowest risk"
         }
     }

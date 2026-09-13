@@ -1,0 +1,63 @@
+{
+    "name": "Effect: Inoculate",
+    "type": "effect",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "description": {
+            "value": "<p><em>Applied by <strong>Inoculate</strong> to the target.</em></p>\n<hr />\n<p><span class=\"sdesc\">+2 status bonus to saves against void, death, and disease effects; immunity to the drained condition for the duration.</span></p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "minutes",
+            "value": 10
+        },
+        "level": {
+            "value": 5
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "saving-throw",
+                "type": "status",
+                "value": 2,
+                "predicate": [
+                    {
+                        "or": [
+                            "item:trait:death",
+                            "item:trait:disease",
+                            "item:trait:void"
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "Immunity",
+                "type": "drained"
+            }
+        ],
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "value": []
+        },
+        "slug": "inoculate-effect"
+    },
+    "_id": "q6Ox7QH672YTlk0r",
+    "flags": {
+        "cinderfall": {
+            "effectOf": "plaguesworn.inoculate",
+            "landsOn": "target"
+        }
+    }
+}

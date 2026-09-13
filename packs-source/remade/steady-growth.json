@@ -33,5 +33,10 @@
         },
         "slug": "steady-growth"
     },
-    "_id": "KPKt7aSydaYqGt3Q"
+    "_id": "KPKt7aSydaYqGt3Q",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "BAND-GAP (Resonance/Graft-fail trigger unmodeled) stacked on no rule element for reactively reducing an about-to-be-applied condition's value."
+        }
+    }
 }

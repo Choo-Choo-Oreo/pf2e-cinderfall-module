@@ -1,0 +1,85 @@
+{
+    "name": "Choose Your Ward",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
+        "description": {
+            "value": "<p><em>Choose Your Ward</em></p><p>Choose one: Ash-Iron Lantern, Binding Chain, Static-Glass Mirror, Warded Blade.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "ChoiceSet",
+                "adjustName": false,
+                "flag": "ward",
+                "prompt": "Choose Your Ward",
+                "choices": {
+                    "filter": [
+                        "item:tag:wardbreaker-ward"
+                    ]
+                }
+            },
+            {
+                "key": "GrantItem",
+                "uuid": "{item|flags.system.rulesSelections.ward}"
+            },
+            {
+                "key": "ChoiceSet",
+                "flag": "wardWeapon",
+                "prompt": "Choose Your Ward's Physical Form",
+                "choices": {
+                    "ownedItems": true,
+                    "types": [
+                        "weapon"
+                    ]
+                }
+            },
+            {
+                "key": "MartialProficiency",
+                "kind": "attack",
+                "slug": "ward-weapon",
+                "label": "Ward Weapon or Implement",
+                "definition": [
+                    "item:id:{item|flags.system.rulesSelections.wardWeapon}"
+                ],
+                "value": 1
+            }
+        ],
+        "traits": {
+            "otherTags": [],
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "ward"
+    },
+    "_id": "FZfZ9OPm28Jn8DmR",
+    "flags": {
+        "cinderfall": {
+            "subclassOf": "wardbreaker",
+            "subclassLayer": "ward",
+            "grants": [
+                "wardbreaker.ash-iron-lantern",
+                "wardbreaker.binding-chain",
+                "wardbreaker.static-glass-mirror",
+                "wardbreaker.warded-blade"
+            ]
+        }
+    }
+}

@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "paradise-touched-chorus"
+            ],
             "rarity": "common",
             "value": [
                 "paradise-touched"
@@ -33,5 +36,11 @@
         },
         "slug": "shared-load"
     },
-    "_id": "xc3L9O7x6mkacyRY"
+    "_id": "xc3L9O7x6mkacyRY",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Reaction, cost 1 Bandwidth: trigger is an ally's failed Will save; the ally is unaffected and the holder suffers it instead, at the ally's degree of failure. Redirecting a different creature's already-resolving save-effect onto yourself, at their degree of failure, is exactly the cross-creature shape with no selector anywhere in pf2e-source, plus a real Bandwidth cost. A standing effect from the holder's own passive altering a different creature's roll/HP/condition outside the normal one-time strike/spell pipeline has no selector anywhere in pf2e-source -- confirmed against `pf2e-source/src/module/rules/rule-element/sense.ts` (self-only) and the `iwr/` directory (Resistance/Weakness/Immunity are self-only); nothing grants/redirects an effect onto another actor's own standing rules outside a `GrantItem`/`Aura` companion-effect hand-off. No `SpecialResource` rule element exists anywhere in the corpus for Bandwidth -- confirmed corpus-wide (`grep -rl \"\\\"key\\\": \\\"SpecialResource\\\"\" site/data/cards/` returns zero hits), and the class card itself (`site/data/cards/classes/classes.paradise-touched.json:49`) ships `system.rules: []`. Same absence class as Cultist Zeal/Ironsight Drift/Fleshmancer Vitae.",
+            "track": "chorus"
+        }
+    }
 }

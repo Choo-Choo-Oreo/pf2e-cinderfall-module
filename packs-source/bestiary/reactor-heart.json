@@ -25,7 +25,7 @@
         },
         "attributes": {
             "ac": {
-                "details": "",
+                "details": "all-around vision",
                 "value": 37
             },
             "hp": {
@@ -109,7 +109,7 @@
             "statistic": "perception"
         },
         "perception": {
-            "details": "all-around vision",
+            "details": "",
             "mod": 25,
             "senses": [
                 {
@@ -134,7 +134,8 @@
         },
         "skills": {
             "crafting": {
-                "base": 29
+                "base": 29,
+                "note": "reactor operation"
             },
             "intimidation": {
                 "base": 26
@@ -158,6 +159,43 @@
     "items": [
         {
             "_id": "vcsOApUcGVQzLpqy",
+            "img": "systems/pf2e/icons/actions/Passive.webp",
+            "name": "All-Around Vision",
+            "sort": 1050000,
+            "system": {
+                "actionType": {
+                    "value": "passive"
+                },
+                "actions": {
+                    "value": null
+                },
+                "category": "defensive",
+                "description": {
+                    "value": "<p>The Reactor-Heart's sensor mesh covers every angle; it can't be flanked.</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [
+                    {
+                        "key": "ActiveEffectLike",
+                        "mode": "override",
+                        "path": "system.attributes.flanking.flankable",
+                        "value": false
+                    }
+                ],
+                "slug": "all-around-vision",
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "type": "action"
+        },
+        {
+            "_id": "lSYl8HKGOXMaG8ur",
             "img": "systems/pf2e/icons/actions/Passive.webp",
             "name": "Criticality (aura)",
             "sort": 1100000,
@@ -237,7 +275,7 @@
             "type": "melee"
         },
         {
-            "_id": "lSYl8HKGOXMaG8ur",
+            "_id": "zjBuRXPzeIoXmvXP",
             "img": "systems/pf2e/icons/actions/Passive.webp",
             "name": "Refused Scram",
             "sort": 1200000,
@@ -267,7 +305,7 @@
             "type": "action"
         },
         {
-            "_id": "zjBuRXPzeIoXmvXP",
+            "_id": "ppN8FQeOPOx5aov1",
             "img": "systems/pf2e/icons/actions/Passive.webp",
             "name": "The Engineer Still Believes",
             "sort": 1300000,
@@ -295,15 +333,54 @@
                 }
             },
             "type": "action"
+        },
+        {
+            "_id": "EP4im8iXXMhrCEF7",
+            "img": "systems/pf2e/icons/default-icons/treasure.svg",
+            "name": "Irradiated Core Fragment",
+            "sort": 1400000,
+            "system": {
+                "bulk": {
+                    "value": 0
+                },
+                "category": "material",
+                "description": {
+                    "value": "<p>A fragment of the melted core, warm even now &mdash; carrying it too long isn't a great idea.</p>"
+                },
+                "hardness": 0,
+                "hp": {
+                    "max": 0,
+                    "value": 0
+                },
+                "level": {
+                    "value": 0
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "quantity": 1,
+                "rules": [],
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                },
+                "price": {
+                    "value": {
+                        "gp": 4
+                    }
+                }
+            },
+            "type": "treasure"
         }
     ],
     "flags": {
+        "pf2e": {
+            "lootable": true
+        },
         "cinderfall": {
-            "alignment": "CE",
-            "incomplete": [
-                "perception clause not representable as a pf2e sense: 'all-around vision'",
-                "skill 'Crafting' condition 'reactor operation' kept as text only"
-            ]
+            "alignment": "CE"
         }
     }
 }

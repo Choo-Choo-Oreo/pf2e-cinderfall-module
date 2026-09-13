@@ -1,0 +1,48 @@
+{
+    "name": "Fixer",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
+        "description": {
+            "value": "<p>You don't run the job. You ran it three days ago, on paper, and everyone else is just catching up to the plan. Contacts, contingencies, and information as a weapon.</p><hr /><p><strong>SIGNATURE —</strong> a called-out weakness that makes an ally's attack land harder — you saw the opening before they did.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "otherTags": [
+                "scavenger-spy-angle"
+            ],
+            "rarity": "common",
+            "value": [
+                "scavenger-spy"
+            ]
+        },
+        "slug": "fixer"
+    },
+    "_id": "YtIm8PiWwxwDEFJB",
+    "flags": {
+        "cinderfall": {
+            "subclassOf": "scavenger-spy",
+            "subclassChoice": "Choose Your Angle",
+            "role": "Intelligence · Planning &amp; Network",
+            "subclassLayer": "angle"
+        }
+    }
+}

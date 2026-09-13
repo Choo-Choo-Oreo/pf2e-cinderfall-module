@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "fleshmancer-skinwalkers"
+            ],
             "rarity": "common",
             "value": [
                 "fleshmancer"
@@ -33,5 +36,10 @@
         },
         "slug": "second-ribs"
     },
-    "_id": "Y93hHUDIlvvT0BVR"
+    "_id": "Y93hHUDIlvvT0BVR",
+    "flags": {
+        "cinderfall": {
+            "track": "skinwalkers"
+        }
+    }
 }

@@ -1,0 +1,894 @@
+{
+    "name": "Deadhand",
+    "type": "class",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "ancestryFeatLevels": {
+            "value": [
+                1,
+                5,
+                9,
+                13,
+                17
+            ]
+        },
+        "attacks": {
+            "simple": 2,
+            "martial": 2,
+            "advanced": 1,
+            "unarmed": 2,
+            "other": {
+                "name": "",
+                "rank": 0
+            }
+        },
+        "classFeatLevels": {
+            "value": [
+                2,
+                4,
+                6,
+                8,
+                10,
+                12,
+                14,
+                16,
+                18,
+                20
+            ]
+        },
+        "defenses": {
+            "unarmored": 1,
+            "light": 1,
+            "medium": 1,
+            "heavy": 1
+        },
+        "description": {
+            "value": "<p>Nobody trained you. You just kept showing up to the next fight until your body stopped asking your permission.</p>"
+        },
+        "generalFeatLevels": {
+            "value": [
+                3,
+                7,
+                11,
+                15,
+                19
+            ]
+        },
+        "hp": 10,
+        "items": {
+            "deadhand.trade": {
+                "level": 1,
+                "name": "Choose Your Trade"
+            }
+        },
+        "keyAbility": {
+            "value": [
+                "dex",
+                "str"
+            ]
+        },
+        "perception": 2,
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "savingThrows": {
+            "fortitude": 1,
+            "reflex": 2,
+            "will": 1
+        },
+        "skillFeatLevels": {
+            "value": [
+                2,
+                4,
+                6,
+                8,
+                10,
+                12,
+                14,
+                16,
+                18,
+                20
+            ]
+        },
+        "skillIncreaseLevels": {
+            "value": [
+                3,
+                5,
+                7,
+                9,
+                11,
+                13,
+                15,
+                17,
+                19
+            ]
+        },
+        "slug": "deadhand",
+        "spellcasting": 0,
+        "trainedSkills": {
+            "additional": 3,
+            "value": []
+        },
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "_id": "dq5LRHv3ob3KCklE",
+    "flags": {
+        "cinderfall": {
+            "tagline": "Nobody trained you. You just kept showing up to the next fight until your body stopped asking your permission.",
+            "role": "Frontline Weapons Generalist",
+            "pillar": "The Contract System",
+            "hpFormula": "10 + Con / level",
+            "keyAbilityText": "Strength or Dexterity",
+            "terms": [
+                [
+                    "Tally",
+                    "The running count of violence you've taken and dealt and kept walking away from. Fills during a fight, spent on Redline, never fully resets."
+                ],
+                [
+                    "Redline",
+                    "Spending Tally in one lump to push a strike, a block, or your own body past what's structurally sound. First one's clean each fight. Every one after risks a Slip (§3)."
+                ],
+                [
+                    "The Answer",
+                    "Your reflexive punishing strike — triggers automatically off an opening a foe hands you, no thought required. Functions as your reaction."
+                ],
+                [
+                    "Trade",
+                    "Both your weapon-group fluency and your fighting philosophy — the work you actually do. Chosen at 1st level; functions as your subclass (§2)."
+                ],
+                [
+                    "Standing",
+                    "Your proficiency tier, named the way veterans actually talk about it: Green, Blooded, Veteran, Undying."
+                ],
+                [
+                    "Muscle Memory",
+                    "A late-career passive — your reflexes start succeeding on their own, no roll needed, for the things you've done ten thousand times."
+                ]
+            ],
+            "classDC": [
+                {
+                    "term": "class dc",
+                    "rank": 1
+                }
+            ],
+            "progression": [
+                {
+                    "level": 1,
+                    "grants": [
+                        [
+                            "Trade chosen",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Tally",
+                            ",",
+                            null
+                        ],
+                        [
+                            " The Answer",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Trade Focus (two weapon groups at Blooded)",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Green Standing all weapons/unarmored",
+                            ",",
+                            null
+                        ],
+                        [
+                            " ancestry feat",
+                            "",
+                            "ancestry feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Trained: all armor",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Class DC",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Fortitude",
+                            ",",
+                            null
+                        ],
+                        [
+                            " unarmored defense",
+                            ",",
+                            null
+                        ],
+                        [
+                            " advanced weapons",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Will",
+                            ";",
+                            null
+                        ],
+                        [
+                            " Expert: Perception",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Reflex",
+                            ",",
+                            null
+                        ],
+                        [
+                            " simple &amp",
+                            ";",
+                            null
+                        ],
+                        [
+                            " martial weapons",
+                            ",",
+                            null
+                        ],
+                        [
+                            " unarmed",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 2,
+                    "grants": [
+                        [
+                            "Skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Deadhand feat",
+                            "",
+                            "class feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 3,
+                    "grants": [
+                        [
+                            "General feat",
+                            ",",
+                            "general feat"
+                        ],
+                        [
+                            " skill increase",
+                            ",",
+                            "skill increase"
+                        ],
+                        [
+                            " expert Class DC",
+                            "",
+                            "expert class dc"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Expert: Class DC",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Will",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 4,
+                    "grants": [
+                        [
+                            "Skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Deadhand feat",
+                            "",
+                            "class feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 5,
+                    "grants": [
+                        [
+                            "Ability boosts",
+                            ",",
+                            "ability boosts"
+                        ],
+                        [
+                            " ancestry feat",
+                            ",",
+                            "ancestry feat"
+                        ],
+                        [
+                            " skill increase",
+                            ",",
+                            "skill increase"
+                        ],
+                        [
+                            " Blooded Standing in <em>all</em> weapons",
+                            "",
+                            null
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Master: simple &amp",
+                            ";",
+                            null
+                        ],
+                        [
+                            " martial weapons",
+                            ",",
+                            null
+                        ],
+                        [
+                            " unarmed (one weapon group)",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 6,
+                    "grants": [
+                        [
+                            "Skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Deadhand feat",
+                            "",
+                            "class feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 7,
+                    "grants": [
+                        [
+                            "General feat",
+                            ",",
+                            "general feat"
+                        ],
+                        [
+                            " skill increase",
+                            ",",
+                            "skill increase"
+                        ],
+                        [
+                            " master Reflex",
+                            ",",
+                            "master reflex"
+                        ],
+                        [
+                            " Trade feature II",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Tally cap +1",
+                            ",",
+                            null
+                        ],
+                        [
+                            " second free Redline per encounter",
+                            "",
+                            null
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Master: Perception",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Reflex",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 8,
+                    "grants": [
+                        [
+                            "Skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Deadhand feat",
+                            "",
+                            "class feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 9,
+                    "grants": [
+                        [
+                            "Ancestry feat",
+                            ",",
+                            "ancestry feat"
+                        ],
+                        [
+                            " skill increase",
+                            ",",
+                            "skill increase"
+                        ],
+                        [
+                            " expert Fortitude",
+                            ",",
+                            "expert fortitude"
+                        ],
+                        [
+                            " Slip Ward (reroll one Slip result/day)",
+                            "",
+                            null
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Expert: Fortitude",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 10,
+                    "grants": [
+                        [
+                            "Ability boosts",
+                            ",",
+                            "ability boosts"
+                        ],
+                        [
+                            " skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Deadhand feat",
+                            ",",
+                            "class feat"
+                        ],
+                        [
+                            " <strong>Trade Minor Capstone</strong>",
+                            "",
+                            null
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 11,
+                    "grants": [
+                        [
+                            "General feat",
+                            ",",
+                            "general feat"
+                        ],
+                        [
+                            " skill increase",
+                            ",",
+                            "skill increase"
+                        ],
+                        [
+                            " Tally cap +1",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Veteran Standing in Trade weapons",
+                            ",",
+                            null
+                        ],
+                        [
+                            " <strong>Muscle Memory</strong> unlocked",
+                            "",
+                            null
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Expert: light",
+                            ",",
+                            null
+                        ],
+                        [
+                            " medium &amp",
+                            ";",
+                            null
+                        ],
+                        [
+                            " heavy armor",
+                            ",",
+                            null
+                        ],
+                        [
+                            " unarmored defense",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 12,
+                    "grants": [
+                        [
+                            "Skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Deadhand feat",
+                            "",
+                            "class feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 13,
+                    "grants": [
+                        [
+                            "Ancestry feat",
+                            ",",
+                            "ancestry feat"
+                        ],
+                        [
+                            " skill increase",
+                            ",",
+                            "skill increase"
+                        ],
+                        [
+                            " master Will",
+                            "",
+                            "master will"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Expert: advanced weapons",
+                            ";",
+                            null
+                        ],
+                        [
+                            " Master: simple &amp",
+                            ";",
+                            null
+                        ],
+                        [
+                            " martial weapons",
+                            ",",
+                            null
+                        ],
+                        [
+                            " unarmed",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Will",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 14,
+                    "grants": [
+                        [
+                            "Skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Deadhand feat",
+                            ",",
+                            "class feat"
+                        ],
+                        [
+                            " Tally cap +1",
+                            "",
+                            null
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 15,
+                    "grants": [
+                        [
+                            "Ability boosts",
+                            ",",
+                            "ability boosts"
+                        ],
+                        [
+                            " general feat",
+                            ",",
+                            "general feat"
+                        ],
+                        [
+                            " skill increase",
+                            ",",
+                            "skill increase"
+                        ],
+                        [
+                            " master Fortitude",
+                            ",",
+                            "master fortitude"
+                        ],
+                        [
+                            " Veteran Standing in <em>all</em> weapons",
+                            "",
+                            null
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Master: Fortitude",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 16,
+                    "grants": [
+                        [
+                            "Skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Deadhand feat",
+                            "",
+                            "class feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 17,
+                    "grants": [
+                        [
+                            "Ancestry feat",
+                            ",",
+                            "ancestry feat"
+                        ],
+                        [
+                            " skill increase",
+                            ",",
+                            "skill increase"
+                        ],
+                        [
+                            " Undying Standing in Trade weapons",
+                            "",
+                            null
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Master: light",
+                            ",",
+                            null
+                        ],
+                        [
+                            " medium &amp",
+                            ";",
+                            null
+                        ],
+                        [
+                            " heavy armor",
+                            ",",
+                            null
+                        ],
+                        [
+                            " unarmored defense",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 18,
+                    "grants": [
+                        [
+                            "Skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Deadhand feat",
+                            ",",
+                            "class feat"
+                        ],
+                        [
+                            " Tally cap +1",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Slip Ward improves (ignore the worst result once/day)",
+                            "",
+                            null
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 19,
+                    "grants": [
+                        [
+                            "General feat",
+                            ",",
+                            "general feat"
+                        ],
+                        [
+                            " skill increase",
+                            ",",
+                            "skill increase"
+                        ],
+                        [
+                            " <strong>Nothing Left to Learn</strong>",
+                            "",
+                            null
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Master: advanced weapons",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Class DC",
+                            ";",
+                            null
+                        ],
+                        [
+                            " Legendary: simple &amp",
+                            ";",
+                            null
+                        ],
+                        [
+                            " martial weapons",
+                            ",",
+                            null
+                        ],
+                        [
+                            " unarmed",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 20,
+                    "grants": [
+                        [
+                            "Ability boosts",
+                            ",",
+                            "ability boosts"
+                        ],
+                        [
+                            " skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Deadhand feat",
+                            ",",
+                            "class feat"
+                        ],
+                        [
+                            " <strong>Trade Major Capstone</strong>",
+                            ",",
+                            null
+                        ],
+                        [
+                            " <strong>The Last Contract</strong>",
+                            "",
+                            null
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                }
+            ]
+        }
+    }
+}

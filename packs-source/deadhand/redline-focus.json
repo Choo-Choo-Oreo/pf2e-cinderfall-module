@@ -33,5 +33,10 @@
         },
         "slug": "redline-focus"
     },
-    "_id": "LgExV0RtvrwKigBM"
+    "_id": "LgExV0RtvrwKigBM",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Take the rolled Slip result or one row better, seeing both first; doesn't stack with Slip Ward. Deadhand's Slip table is entirely homebrew with zero schema footprint -- there is no digital table anywhere in this corpus to have \"rows,\" let alone a rule element that peeks at two and lets the player choose."
+        }
+    }
 }

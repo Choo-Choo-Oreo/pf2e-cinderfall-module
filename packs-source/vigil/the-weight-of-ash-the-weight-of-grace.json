@@ -24,7 +24,26 @@
             "remaster": true,
             "title": "Cinderfall"
         },
-        "rules": [],
+        "rules": [
+            {
+                "key": "Aura",
+                "radius": 30,
+                "traits": [
+                    "emotion",
+                    "mental"
+                ],
+                "effects": [
+                    {
+                        "affects": "allies",
+                        "uuid": "(needs a new ally-buff effect item -- does not exist)"
+                    },
+                    {
+                        "affects": "enemies",
+                        "uuid": "(needs a new enemy-penalty effect item -- does not exist)"
+                    }
+                ]
+            }
+        ],
         "traits": {
             "rarity": "common",
             "value": [

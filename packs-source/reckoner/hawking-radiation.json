@@ -1,46 +1,36 @@
 {
     "name": "Hawking Radiation",
-    "type": "spell",
+    "type": "feat",
     "img": "icons/svg/mystery-man.svg",
     "system": {
-        "area": null,
-        "cost": {
-            "value": ""
+        "actionType": {
+            "value": "passive"
         },
-        "counteraction": false,
-        "damage": {},
-        "defense": null,
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
         "description": {
-            "value": "<p>At the start of each of your turns, one enemy within range takes 1d4 void damage, no save (a given enemy can be affected by The Leak only once per round). This damage does not scale with your level.</p>"
-        },
-        "duration": {
-            "sustained": false,
-            "value": ""
+            "value": "<p>Your version of Overflow itself, made literal: a low-grade effect that's always on, whether you're drawing more or not. Everything the Singularity destroys, something else escapes outward at the exact same moment — you're just close enough to catch a little of what gets out.</p><hr /><p><strong>THE LEAK —</strong> a passive, always-on drip of void damage to one enemy in range at the start of each of your turns — no action, no save, and no Overflow drawn to trigger it.</p>"
         },
         "level": {
             "value": 1
+        },
+        "prerequisites": {
+            "value": []
         },
         "publication": {
             "license": "ORC",
             "remaster": true,
             "title": "Cinderfall"
         },
-        "range": {
-            "value": "30 feet"
-        },
-        "requirements": "",
         "rules": [],
-        "target": {
-            "value": "1 enemy of your choice"
-        },
-        "time": {
-            "value": "passive, always-on once known — no action, no draw required"
-        },
         "traits": {
+            "otherTags": [
+                "reckoner-aspect"
+            ],
             "rarity": "common",
-            "traditions": [],
             "value": [
-                "focus",
                 "reckoner"
             ]
         },
@@ -49,9 +39,13 @@
     "_id": "YLUYf534kzj5f7Wr",
     "flags": {
         "cinderfall": {
-            "focusCost": "1",
+            "incomplete": "This Aspect base feat plausibly wants a GrantItem granting its signature focus spell/ability, matching the ChoiceSet+GrantItem pattern already used for the Aspect subclass choice itself (reckoner.aspect.json). Not shipped: the only intra-corpus GrantItem precedents are a dynamic ChoiceSet-selection token or a fixed UUID into the real pf2e system's own compendiums -- there is no existing example of a fixed GrantItem pointing at another Cinderfall-authored card by literal compendium UUID, and the Cinderfall Foundry module's actual pack/document naming (tools/foundry/build_pack.py / pf2e-cinderfall-module) was not checked in this cards-only research pass. See feats-class-reckoner-draft.md open question 1 (GRANTITEM-UUID-OPEN). Separately: this card's own signature ability, THE LEAK (a passive always-on drip to a player-chosen enemy each turn), has no separate card in this corpus and is itself unbuildable -- same reasoning as Faint Leak, no selector exists for player-directed, per-turn, no-action single-target damage.",
             "spellTag": "Hawking Radiation",
-            "listing": "Aspect Signatures / The Singularity creation and destruction as one event"
+            "listing": "Aspect Signatures / The Singularity creation and destruction as one event",
+            "subclassOf": "reckoner",
+            "subclassChoice": "Choose Your Source, Then Your Aspect",
+            "role": "Constant Leak · Creation From Destruction",
+            "subclassLayer": "aspect"
         }
     }
 }

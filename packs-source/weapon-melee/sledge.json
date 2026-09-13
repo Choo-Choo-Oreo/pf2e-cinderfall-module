@@ -4,7 +4,7 @@
     "img": "icons/svg/mystery-man.svg",
     "system": {
         "bulk": {
-            "value": 1
+            "value": 2
         },
         "description": {
             "value": "<p>Two-handed; can shatter cover/barricades.</p>"
@@ -39,13 +39,13 @@
         "bonusDamage": {
             "value": 0
         },
-        "category": "simple",
+        "category": "martial",
         "damage": {
             "dice": 1,
             "die": "d12",
             "damageType": "bludgeoning"
         },
-        "group": null,
+        "group": "hammer",
         "range": null,
         "reload": {
             "value": null
@@ -54,19 +54,12 @@
             "value": 0
         },
         "usage": {
-            "value": "held-in-one-hand"
+            "value": "held-in-two-hands"
         },
         "slug": "sledge"
     },
     "_id": "E9g05fDbPjXqDK1H",
     "flags": {
-        "cinderfall": {
-            "incomplete": [
-                "level is a stub (0); the page carries no item levels",
-                "weapon category/bulk/usage stubbed; the page carries none of them",
-                "melee weapon group left null -- choosing one is design, not conversion"
-            ],
-            "currency": "Balanced to the PF2e GP standard and denominated in Credits: 1 Credit = 1 gp. The whole list was scaled x10 from the retired scraps=sp anchor, so every relative price is unchanged from the page as authored."
-        }
+        "cinderfall": {}
     }
 }

@@ -15,7 +15,25 @@
             "remaster": true,
             "title": "Cinderfall"
         },
-        "rules": [],
+        "rules": [
+            {
+                "key": "ChoiceSet",
+                "flag": "feat",
+                "adjustName": false,
+                "prompt": "Select a 1st-level general feat",
+                "choices": {
+                    "itemType": "feat",
+                    "filter": [
+                        "item:level:1",
+                        "item:trait:general"
+                    ]
+                }
+            },
+            {
+                "key": "GrantItem",
+                "uuid": "{item|flags.system.rulesSelections.feat}"
+            }
+        ],
         "traits": {
             "rarity": "common",
             "value": []

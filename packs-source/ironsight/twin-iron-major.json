@@ -1,0 +1,46 @@
+{
+    "name": "The Arithmetic of Two Guns",
+    "type": "capstone",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p>You stopped counting shots a long time ago, and the arithmetic finished without you. Anyone standing in front of you is not being hit once and then again — they are being hit continuously, and the difference between those two things is the difference between a wound and an outcome. Your worst round is now better than most people’s best one. Nobody plans for that, because nobody believes the volume is real until they are inside it.</p>"
+        },
+        "level": {
+            "value": 20
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "otherTags": [
+                "ironsight-twin-iron"
+            ],
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "twin-iron-major"
+    },
+    "_id": "OzXII4SVAkEfuEUm",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Zero-number flavor text for a Draw's Minor/Major Capstone grant point named in classes.ironsight.json's own progression table. States no number, DC, duration, or selector of any kind -- a real content gap, not a search failure.",
+            "track": "twin-iron"
+        }
+    }
+}

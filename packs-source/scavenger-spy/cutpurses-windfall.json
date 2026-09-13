@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "flavored"
+            ],
             "rarity": "common",
             "value": [
                 "scavenger-spy"
@@ -33,5 +36,10 @@
         },
         "slug": "cutpurses-windfall"
     },
-    "_id": "59bEvWBEiMoPjqnE"
+    "_id": "59bEvWBEiMoPjqnE",
+    "flags": {
+        "cinderfall": {
+            "flavored": true
+        }
+    }
 }

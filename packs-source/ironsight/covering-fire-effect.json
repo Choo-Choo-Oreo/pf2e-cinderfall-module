@@ -1,0 +1,56 @@
+{
+    "name": "Effect: Covering Fire",
+    "type": "effect",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "description": {
+            "value": "<p><em>Applied by <strong>Covering Fire</strong> to each affected enemy.</em></p>\n<hr />\n<p>Empty your weapon into the area. Until the start of your next turn, an enemy that moves into or through the area takes a −2 circumstance penalty to AC and to Reflex saves until the end of its turn.</p>"
+        },
+        "duration": {
+            "expiry": "turn-end",
+            "sustained": false,
+            "unit": "rounds",
+            "value": 1
+        },
+        "level": {
+            "value": 4
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "ac",
+                "type": "circumstance",
+                "value": -2
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "reflex",
+                "type": "circumstance",
+                "value": -2
+            }
+        ],
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "value": []
+        },
+        "slug": "covering-fire-effect"
+    },
+    "_id": "8lxR0yOFxhfUUPJX",
+    "flags": {
+        "cinderfall": {
+            "effectOf": "ironsight.covering-fire",
+            "landsOn": "enemy"
+        }
+    }
+}

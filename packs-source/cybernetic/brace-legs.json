@@ -1,0 +1,90 @@
+{
+    "name": "Brace Legs",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>Locking hydraulic stance. 1 action to plant: +2 circumstance bonus to AC and Fort vs forced movement, and you can't be moved, until you move.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 7
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "gp": 360
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "RollOption",
+                "option": "braced",
+                "toggleable": true
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "ac",
+                "type": "circumstance",
+                "value": 2,
+                "predicate": [
+                    "braced"
+                ]
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "fortitude",
+                "type": "circumstance",
+                "value": 2,
+                "predicate": [
+                    "braced",
+                    "forced-movement"
+                ]
+            }
+        ],
+        "size": "med",
+        "traits": {
+            "rarity": "uncommon",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "brace-legs"
+    },
+    "_id": "8hMEmkXlXEyKIQ74",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "'Can't be moved until you move' has no hook: no rule element grants immunity to forced movement conditioned on a self-toggled RollOption (same finding as the mutations pass's Deep-Root-Legs).",
+            "augmentKind": "cybernetic",
+            "augmentType": "implant",
+            "tier": "uncommon",
+            "slots": [
+                "Legs"
+            ],
+            "slotCost": 1,
+            "grade": 2,
+            "availability": "Restricted",
+            "level": 7,
+            "drift": "+2"
+        }
+    }
+}

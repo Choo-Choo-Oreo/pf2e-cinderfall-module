@@ -1,0 +1,37 @@
+{
+    "name": "Ashland Forager",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "skill",
+        "description": {
+            "value": "<p>You can tell a mutated edible root from a poisoned one by smell alone, most of the time. You don't take a circumstance penalty to Subsist using Nature in irradiated or ash-blighted terrain, and a critical failure is downgraded to a normal failure.</p>"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "ashland-forager"
+    },
+    "_id": "fO1e1ZALLQ1K6BJy",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Both the circumstance-penalty removal and the critical-failure downgrade are gated on 'irradiated or ash-blighted terrain', an environmental condition with no roll-option hook: pf2e's terrain roll options come from a closed environmentTypes enum (aquatic/arctic/desert/forest/mountain/plains/swamp/underground/urban; pf2e-source/src/module/scene/region-behavior/environment.ts:16-20, StringField choices restricted to that list) that has none of Cinderfall's wasteland terrain, and there is no GM-facing way to add to it. Real Rock Runner's own terrain:stone/terrain:earth predicate values aren't in that enum either, confirming this is a closed system, not a GM-extensible one. Real Forager (the confirmed AdjustDegreeOfSuccess precedent for Subsist) ships its equivalent adjustment unconditionally, with no terrain gate to fail on; this card's terrain-conditioned version has nothing to predicate the gate against."
+        }
+    }
+}

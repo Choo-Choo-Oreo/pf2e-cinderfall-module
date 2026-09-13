@@ -1,0 +1,45 @@
+{
+    "name": "Utterly Devoted",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 2
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Range</strong> 30 feet</p><p><strong>Targets</strong> 1 creature</p><p><strong>Frequency</strong> once per day</p><p><strong>Saving Throw</strong> Will</p><p><strong>Duration</strong> 1 minute</p><hr /><p>The target must succeed at a Will save against your class DC or fall fully under your sway for the duration: it treats you as its only ally, defends you if attacked, and cannot willingly harm you by any means (on a critical failure, it also obeys one non-suicidal command you give as part of casting this). This is an emotion, incapacitation, and mental effect. This is not friendship, and it never was.</p>"
+        },
+        "level": {
+            "value": 16
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "otherTags": [
+                "cultist-claimant"
+            ],
+            "rarity": "common",
+            "value": [
+                "cultist"
+            ]
+        },
+        "slug": "utterly-devoted"
+    },
+    "_id": "FY9JmxdIlhQMWKOe",
+    "flags": {
+        "cinderfall": {
+            "track": "claimant"
+        }
+    }
+}

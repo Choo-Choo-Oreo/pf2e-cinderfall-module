@@ -1,0 +1,50 @@
+{
+    "name": "The Relic Knows Your Hand",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
+        "description": {
+            "value": "<span class=\"sdesc\">Your Ward has been carried long enough that it moves the way you'd move. Your proficiency rank with your Ward's weapon or implement increases to expert.</span>"
+        },
+        "level": {
+            "value": 11
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "system.proficiencies.attacks.ward-weapon.rank",
+                "value": 2
+            }
+        ],
+        "traits": {
+            "otherTags": [],
+            "rarity": "common",
+            "value": [
+                "wardbreaker"
+            ]
+        },
+        "slug": "the-relic-knows-your-hand"
+    },
+    "_id": "S8kYaEoI0EUpuWNa",
+    "flags": {
+        "cinderfall": {
+            "grantedAtLevel": 11
+        }
+    }
+}

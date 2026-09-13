@@ -24,7 +24,9 @@
             "type": null
         },
         "price": {
-            "value": {}
+            "value": {
+                "gp": 0
+            }
         },
         "publication": {
             "license": "ORC",
@@ -32,7 +34,12 @@
             "title": "Cinderfall"
         },
         "quantity": 1,
-        "rules": [],
+        "rules": [
+            {
+                "key": "Sense",
+                "selector": "low-light-vision"
+            }
+        ],
         "size": "med",
         "traits": {
             "rarity": "uncommon",
@@ -46,21 +53,14 @@
     "_id": "RZxiIIzwWbqyKWDB",
     "flags": {
         "cinderfall": {
+            "incomplete": "The alternate '+1 circumstance to Perception in dim light if you already have low-light vision' branch is not modeled: granting the Sense above is a no-op if the character already has low-light vision from elsewhere, and pf2e's Sense rule element has no 'grant this bonus instead if the sense is redundant' branching (the closest real precedent, pf2e-source/packs/pf2e/backgrounds/feral-child.json, predicates an alternate SENSE, not an alternate bonus, on already having one).",
             "mutationType": "minor",
             "tier": "uncommon",
-            "slot": "Ocular",
             "slots": [
                 "Ocular"
             ],
             "slotCost": 1,
-            "roll": "d100 — 47–48",
-            "incomplete": [
-                "level is a stub (0); mutations carry no level",
-                "price is empty; a mutation is not bought"
-            ],
-            "inferred": [
-                "system.usage"
-            ]
+            "roll": "d100 — 47–48"
         }
     }
 }

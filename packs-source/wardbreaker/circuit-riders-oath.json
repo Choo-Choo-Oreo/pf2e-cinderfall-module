@@ -34,5 +34,10 @@
         },
         "slug": "circuit-riders-oath"
     },
-    "_id": "xACO6o7ZkCDRCtOz"
+    "_id": "xACO6o7ZkCDRCtOz",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Zero stated numbers and no direct pf2e precedent of the same effect-class found shipping rules: [] despite a search; per this pass's discipline, absent a citation this defaults to INCOMPLETE rather than SKIP. (a GM-adjudicated homebrew-faction favor system: intel, a safehouse, or another Wardbreaker's help for one job.)"
+        }
+    }
 }

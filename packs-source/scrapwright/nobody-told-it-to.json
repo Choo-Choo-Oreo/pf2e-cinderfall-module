@@ -1,0 +1,46 @@
+{
+    "name": "Nobody Told It To",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
+        "description": {
+            "value": "<span class=\"sdesc\">Resistance increases to 15, it acts fully on its own initiative each round without needing your Command an Action, and if it's ever destroyed, its last act is always something that mattered — you decide what.</span>"
+        },
+        "level": {
+            "value": 17
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "otherTags": [],
+            "rarity": "common",
+            "value": [
+                "scrapwright"
+            ]
+        },
+        "slug": "nobody-told-it-to"
+    },
+    "_id": "Vub8pqZTmkxj29T8",
+    "flags": {
+        "cinderfall": {
+            "spellTag": "Mk IV · 17th",
+            "ghostRigTier": "Mk IV",
+            "grantedAtLevel": 17,
+            "notSpell": "scrapwright's class document carries system.spellcasting 0, so this is an ability, not a spell, and convert_class_spells.py declines it by design as a NON_CASTERS owner"
+        }
+    }
+}

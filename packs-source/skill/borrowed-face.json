@@ -1,0 +1,37 @@
+{
+    "name": "Borrowed Face",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "skill",
+        "description": {
+            "value": "<p>A stolen ration card, a half-remembered accent, a Combine patch sewn on crooked — it's enough if you sell it right. You gain a +1 circumstance bonus to Impersonate a specific faction member or role you've directly observed within the last day.</p>"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "borrowed-face"
+    },
+    "_id": "iCsRAlTJiwysoyuV",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The +1 is conditioned on 'a specific faction member or role you've directly observed within the last day' -- an unverifiable narrative/time-based fact with no roll option. Shipping it unconditionally would overstate the card by granting it against any Impersonate check, not just the qualifying one."
+        }
+    }
+}

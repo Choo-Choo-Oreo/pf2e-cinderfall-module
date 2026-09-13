@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "fleshmancer-grafters"
+            ],
             "rarity": "common",
             "value": [
                 "fleshmancer"
@@ -33,5 +36,11 @@
         },
         "slug": "nothing-stays-dead-long"
     },
-    "_id": "VdlT8Ht3CbaETkUn"
+    "_id": "VdlT8Ht3CbaETkUn",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "This effect changes a different creature's own roll, HP, condition, or item, sourced from the card holder's own passive/item/action. No selector exists anywhere in pf2e-source for this -- confirmed corpus-wide this pass. Same reasoning as Not on the Table: an ally dying is redirected to 0 HP and dying 1, with drained 2 applied on waking.",
+            "track": "grafters"
+        }
+    }
 }

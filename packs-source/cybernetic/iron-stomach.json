@@ -1,0 +1,80 @@
+{
+    "name": "Iron Stomach",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>Reinforced, over-productive gut. +2 item bonus vs poison and disease; 1/day neutralize an ingested poison automatically. You must eat twice as much.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 5
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "gp": 160
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "fortitude",
+                "type": "item",
+                "value": 2,
+                "predicate": [
+                    {
+                        "or": [
+                            "item:trait:poison",
+                            "item:trait:disease"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "size": "med",
+        "traits": {
+            "rarity": "uncommon",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "iron-stomach"
+    },
+    "_id": "SwGDaLIc7hQkbjgT",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The 1/day automatic-neutralize-an-ingested-poison is a limited-use activated ability needing a granted Action item, and 'must eat twice as much' has no food-clock mechanism to double (confirmed absence, same as Ruminant-Complex/Furnace-Gut).",
+            "augmentKind": "cybernetic",
+            "augmentType": "implant",
+            "tier": "uncommon",
+            "slots": [
+                "Viscera"
+            ],
+            "slotCost": 1,
+            "grade": 2,
+            "availability": "Licensed",
+            "level": 5,
+            "drift": "+1"
+        }
+    }
+}

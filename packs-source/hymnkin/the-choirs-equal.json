@@ -1,0 +1,34 @@
+{
+    "name": "The Choir's Equal",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "ancestry",
+        "description": {
+            "value": "<p>The Gaunt Choir treats you as a peer within itself, not just kin — gain a standing, ongoing line of communication with it.</p>"
+        },
+        "level": {
+            "value": 17
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "hymnkin"
+            ]
+        },
+        "slug": "the-choirs-equal"
+    },
+    "_id": "Ud2SZIgAfYLody2F"
+}

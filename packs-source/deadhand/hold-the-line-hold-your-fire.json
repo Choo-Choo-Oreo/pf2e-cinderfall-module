@@ -27,5 +27,10 @@
         },
         "slug": "hold-the-line-hold-your-fire"
     },
-    "_id": "ao3oIoNpLHQHhhQn"
+    "_id": "ao3oIoNpLHQHhhQn",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "A chosen ally either braces (+2 AC until next turn) or holds for a bigger response (+2d6 on their next Strike vs. their attacker), their choice. No companion effect exists for this slug, and unlike the mass action-grant precedent (pf2e-source/packs/pf2e/actions/class/commander/*.json) this is a static numeric ally buff with a player-choice branch -- no matching real precedent found for that combination."
+        }
+    }
 }

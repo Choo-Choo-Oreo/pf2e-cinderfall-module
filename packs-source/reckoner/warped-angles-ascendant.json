@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "flavored"
+            ],
             "rarity": "common",
             "value": [
                 "reckoner"
@@ -33,5 +36,10 @@
         },
         "slug": "warped-angles-ascendant"
     },
-    "_id": "TG5gpu2ZP4zt0b5k"
+    "_id": "TG5gpu2ZP4zt0b5k",
+    "flags": {
+        "cinderfall": {
+            "flavored": true
+        }
+    }
 }

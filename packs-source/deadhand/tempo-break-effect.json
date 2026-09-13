@@ -1,0 +1,51 @@
+{
+    "name": "Effect: Tempo Break",
+    "type": "effect",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "description": {
+            "value": "<p><em>Applied by <strong>Tempo Break</strong> to each affected enemy.</em></p>\n<hr />\n<p>Interrupt a combo mid-swing.</p>"
+        },
+        "duration": {
+            "expiry": "turn-end",
+            "sustained": false,
+            "unit": "rounds",
+            "value": 1
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "attack",
+                "type": "status",
+                "value": -2,
+                "removeAfterRoll": true
+            }
+        ],
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "value": []
+        },
+        "slug": "tempo-break-effect"
+    },
+    "_id": "iiVIp5MzeD8lysnS",
+    "flags": {
+        "cinderfall": {
+            "effectOf": "deadhand.tempo-break",
+            "landsOn": "enemy"
+        }
+    }
+}

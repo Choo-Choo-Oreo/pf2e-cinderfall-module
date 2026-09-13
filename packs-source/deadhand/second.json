@@ -1,0 +1,48 @@
+{
+    "name": "Second",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
+        "description": {
+            "value": "<p>Named for Dixie Territories dueling custom — the second who's supposed to just carry the blade home if their duelist falls, and instead keeps ending up the better fight. Precise, patient, contemptuous of anyone who needs two weapons to make a point.</p><hr /><p><strong>SIGNATURE —</strong> a called opening that punishes a single marked opponent harder the longer the duel runs.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "otherTags": [
+                "deadhand-trade"
+            ],
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "second"
+    },
+    "_id": "5E9xTHPbizkIklUP",
+    "flags": {
+        "cinderfall": {
+            "subclassOf": "deadhand",
+            "subclassChoice": "Choose Your Trade",
+            "role": "Finesse &amp; Single Combat",
+            "subclassLayer": "trade"
+        }
+    }
+}

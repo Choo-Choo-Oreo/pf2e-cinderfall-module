@@ -33,5 +33,10 @@
         },
         "slug": "grace-overflow-cinder-overflow"
     },
-    "_id": "bz2gocWWIsCAeJaM"
+    "_id": "bz2gocWWIsCAeJaM",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "STRUCT-GAIN-HOOK: even with SpecialResource now known-buildable for the pool itself, there is no rule-element hook for 'a gain attempt that would exceed max' as a trigger. The substitute boons (healing, condition removal, +2 status bonus) are each individually one-time-narrative-application, not lasting rules."
+        }
+    }
 }

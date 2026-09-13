@@ -3,16 +3,26 @@
     "type": "deity",
     "img": "systems/pf2e/icons/default-icons/deity.svg",
     "system": {
-        "attribute": [],
+        "attribute": [
+            "con",
+            "wis"
+        ],
         "category": "deity",
         "description": {
             "value": "<p><strong>Machine-Spirit</strong></p>\n<p>A machine-spirit entity with complicated, ambivalent feelings about tools that stop being tools — escaped ghost-machines, sentient Emberforged. Reverence and resentment both, depending who's asking.</p>"
         },
         "domains": {
-            "alternate": [],
-            "primary": []
+            "alternate": [
+                "protection"
+            ],
+            "primary": [
+                "creation"
+            ]
         },
-        "font": [],
+        "font": [
+            "harm",
+            "heal"
+        ],
         "publication": {
             "license": "ORC",
             "remaster": true,
@@ -20,20 +30,22 @@
         },
         "rules": [],
         "sanctification": null,
-        "skill": [],
-        "spells": {},
+        "skill": [
+            "crafting"
+        ],
+        "spells": {
+            "1": "Compendium.pf2e.spells-srd.Item.Animate Rope",
+            "4": "Compendium.pf2e.spells-srd.Item.Creation",
+            "5": "Compendium.pf2e.spells-srd.Item.Wall of Stone"
+        },
         "traits": {},
-        "weapons": [],
+        "weapons": [
+            "warhammer"
+        ],
         "slug": "the-foreman"
     },
     "_id": "D2sFfOCvkgyIHZ87",
     "flags": {
-        "cinderfall": {
-            "define": "Machine-Spirit",
-            "incomplete": [
-                "STUB -- no mechanics authored. Missing every pf2e deity field: attribute, domains, font, sanctification, skill, spells, weapons. `category` is a default of 'deity' and may need to be philosophy or pantheon. See .claude/docs/todo.md."
-            ],
-            "effect": "Full context: <a class=\"bref\" href=\"scrapwright.html\">Scrapwright</a> dossier (patron); <a class=\"bref\" href=\"ancestries.html\">Emberforged</a> ancestry (\"An Escaped Tool\")"
-        }
+        "cinderfall": {}
     }
 }

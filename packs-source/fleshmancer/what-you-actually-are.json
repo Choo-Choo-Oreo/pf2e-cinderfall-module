@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "fleshmancer-skinwalkers"
+            ],
             "rarity": "common",
             "value": [
                 "fleshmancer"
@@ -33,5 +36,10 @@
         },
         "slug": "what-you-actually-are"
     },
-    "_id": "avBWxczRzpD224U1"
+    "_id": "avBWxczRzpD224U1",
+    "flags": {
+        "cinderfall": {
+            "track": "skinwalkers"
+        }
+    }
 }

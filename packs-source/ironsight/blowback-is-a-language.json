@@ -33,5 +33,10 @@
         },
         "slug": "blowback-is-a-language"
     },
-    "_id": "ZuPzIQ5NonXCKxtM"
+    "_id": "ZuPzIQ5NonXCKxtM",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "no RollTable-manipulation rule element exists. pf2e-source/src/module/rules/rule-element/roll-twice.ts only applies Fortune/ Misfortune to checks (attack rolls, saves, skill checks), never to a draw from a custom RollTable. This effect is defined entirely in terms of a Cinderfall-homebrew subsystem with zero Foundry schema footprint (the Gun Failure Table/Failure Range, hazardous ground, time-in-sights, Trick Iron charge bank, or Drift/augment-slot cost). Confirmed via the full rule-element type listing (pf2e-source/src/module/rules/rule-element/, 40 files): no RollTable-manipulation, no persistent-terrain-hazard, and no arbitrary stacking-counter rule element type exists to hook any of these to."
+        }
+    }
 }

@@ -1,0 +1,49 @@
+{
+    "name": "Long Iron",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
+        "description": {
+            "value": "<p>Patience as a weapon. You find the vantage, and by the time anyone notices you are there the shot has already landed. Everyone else is fighting a room. You are fighting a line.</p><hr /><p><strong>SIGNATURE —</strong> Distance is your advantage, not your penalty — the further out they are, the worse it goes for them.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "otherTags": [
+                "ironsight-draw"
+            ],
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "long-iron"
+    },
+    "_id": "0BHhtNWWJTnOm5o5",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Zero-number level-1 Draw-signature flavor grant. No numeric follow-through exists anywhere else on this Draw's own card family -- a genuine content gap, not a search failure.",
+            "subclassOf": "ironsight",
+            "subclassChoice": "Choose Your Draw",
+            "role": "Long Range · Distance",
+            "subclassLayer": "draw"
+        }
+    }
+}

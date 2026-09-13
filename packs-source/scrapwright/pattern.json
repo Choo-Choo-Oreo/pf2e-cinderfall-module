@@ -1,0 +1,63 @@
+{
+    "name": "Choose Your Pattern",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
+        "description": {
+            "value": "<p><em>Choose Your Pattern</em></p><p>Choose one: Reliquary, Scavenger, Warframe.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "ChoiceSet",
+                "adjustName": false,
+                "flag": "pattern",
+                "prompt": "Choose Your Pattern",
+                "choices": {
+                    "filter": [
+                        "item:tag:scrapwright-pattern"
+                    ]
+                }
+            },
+            {
+                "key": "GrantItem",
+                "uuid": "{item|flags.system.rulesSelections.pattern}"
+            }
+        ],
+        "traits": {
+            "otherTags": [],
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "pattern"
+    },
+    "_id": "5sHgnXzn7vTPsztq",
+    "flags": {
+        "cinderfall": {
+            "subclassOf": "scrapwright",
+            "subclassLayer": "pattern",
+            "grants": [
+                "scrapwright.reliquary",
+                "scrapwright.scavenger",
+                "scrapwright.warframe"
+            ]
+        }
+    }
+}

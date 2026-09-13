@@ -284,7 +284,9 @@
                 "slug": "service-rifle",
                 "traits": {
                     "rarity": "common",
-                    "value": []
+                    "value": [
+                        "capacity-6"
+                    ]
                 },
                 "weaponType": {
                     "value": "ranged"
@@ -441,14 +443,87 @@
                 }
             },
             "type": "action"
+        },
+        {
+            "_id": "aU2ob85pp3Gp4GMW",
+            "img": "systems/pf2e/icons/default-icons/weapon.svg",
+            "name": "Service Rifle",
+            "sort": 1600000,
+            "system": {
+                "bonus": {
+                    "value": 0
+                },
+                "bonusDamage": {
+                    "value": 0
+                },
+                "bulk": {
+                    "value": 1
+                },
+                "ammo": {
+                    "baseType": "rifle-rounds"
+                },
+                "category": "advanced",
+                "damage": {
+                    "dice": 1,
+                    "die": "d8",
+                    "damageType": "piercing"
+                },
+                "description": {
+                    "value": "<p>Standard-issue frontline rifle, still factory-sealed after two hundred years of storage in a walking arsenal.</p>"
+                },
+                "equipped": {
+                    "carryType": "held",
+                    "handsHeld": 2,
+                    "invested": null
+                },
+                "group": "firearm",
+                "hardness": 0,
+                "hp": {
+                    "max": 0,
+                    "value": 0
+                },
+                "level": {
+                    "value": 0
+                },
+                "price": {
+                    "value": {
+                        "gp": 3
+                    }
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "quantity": 1,
+                "range": 90,
+                "reload": {
+                    "value": 1
+                },
+                "rules": [],
+                "slug": "service-rifle",
+                "splashDamage": {
+                    "value": 0
+                },
+                "traits": {
+                    "rarity": "common",
+                    "value": [
+                        "capacity-6"
+                    ]
+                },
+                "usage": {
+                    "value": "held-in-two-hands"
+                }
+            },
+            "type": "weapon"
         }
     ],
     "flags": {
+        "pf2e": {
+            "lootable": true
+        },
         "cinderfall": {
-            "alignment": "LN",
-            "incomplete": [
-                "Ranged strike 'service rifle': note 'magazine 6' is not a pf2e weapon trait"
-            ]
+            "alignment": "LN"
         }
     }
 }

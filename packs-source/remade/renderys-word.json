@@ -1,6 +1,6 @@
 {
     "name": "The Rendery's Word",
-    "type": "feat",
+    "type": "capstone",
     "img": "icons/svg/mystery-man.svg",
     "system": {
         "actionType": {
@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You fail or critically fail a Graft check performed on your own body.</p><p><strong>Requirement</strong> You're one of the few names on the Butcher's list — granted automatically at 10th level, bio-attuned.</p><hr /><p>Immediately attempt the check again and take whichever result you prefer — Clean Take (§01) still applies to the reattempt. Being on the list is worth more than the reroll: the Butcher's restricted stock, the Wild tissue nobody else gets shown, is yours to ask after, no favor owed.</p>"
+            "value": "<p>The Butcher keeps a list nobody else has seen — names of patrons who've done something for the shop, not just paid it. Yours is on it now.</p><p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You fail or critically fail a Graft check performed on your own body.</p><p><strong>Requirement</strong> You're one of the few names on the Butcher's list — granted automatically at 10th level, bio-attuned.</p><hr /><p>Immediately attempt the check again and take whichever result you prefer — Clean Take (§01) still applies to the reattempt. Being on the list is worth more than the reroll: the Butcher's restricted stock, the Wild tissue nobody else gets shown, is yours to ask after, no favor owed.</p>"
         },
         "level": {
             "value": 10
@@ -26,12 +26,20 @@
         },
         "rules": [],
         "traits": {
-            "rarity": "common",
+            "rarity": "rare",
+            "otherTags": [
+                "remade-bio-attuned"
+            ],
             "value": [
                 "remade"
             ]
         },
         "slug": "renderys-word"
     },
-    "_id": "og9yGAeEDiFACyTK"
+    "_id": "og9yGAeEDiFACyTK",
+    "flags": {
+        "cinderfall": {
+            "track": "bio-attuned"
+        }
+    }
 }

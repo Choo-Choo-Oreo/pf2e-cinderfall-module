@@ -33,5 +33,10 @@
         },
         "slug": "drift-ballast"
     },
-    "_id": "QjItEFbasafxepaG"
+    "_id": "QjItEFbasafxepaG",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "[DRIFT-NO-SCHEMA] (open question -- not chased into augment cards, out of scope for this folder) plus [RIG-GENERIC-AMBIGUOUS] for the \"Rig active and nearby\" precondition, which has no roll-option representation regardless of which Rig type. See Open Questions #1-2 in .claude/scratch/feats-class-scrapwright-draft.md."
+        }
+    }
 }

@@ -34,5 +34,10 @@
         },
         "slug": "toll-forgiveness"
     },
-    "_id": "QKSLUTjCLGASPtcK"
+    "_id": "QKSLUTjCLGASPtcK",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "\"Immediately erase 1 point of Toll\" needs Toll to have rule-element representation to decrement -- there is no counter to decrement in the first place, and the trigger (\"an unprompted kindness, GM-judged authenticity\") is also a pure narrative/GM-adjudicated trigger with zero stated numbers of its own attached to a real tracked value."
+        }
+    }
 }

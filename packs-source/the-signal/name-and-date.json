@@ -24,8 +24,36 @@
             "remaster": true,
             "title": "Cinderfall"
         },
-        "rules": [],
+        "rules": [
+            {
+                "key": "RollOption",
+                "option": "name-and-date",
+                "toggleable": true,
+                "label": "You have publicly accused the target's faction of something true"
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "diplomacy",
+                "type": "circumstance",
+                "value": 1,
+                "predicate": [
+                    "name-and-date"
+                ]
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "intimidation",
+                "type": "circumstance",
+                "value": 1,
+                "predicate": [
+                    "name-and-date"
+                ]
+            }
+        ],
         "traits": {
+            "otherTags": [
+                "the-signal-openband"
+            ],
             "rarity": "common",
             "value": [
                 "the-signal"
@@ -33,5 +61,10 @@
         },
         "slug": "name-and-date"
     },
-    "_id": "Ah8LhD94Hm6pudOo"
+    "_id": "Ah8LhD94Hm6pudOo",
+    "flags": {
+        "cinderfall": {
+            "track": "openband"
+        }
+    }
 }

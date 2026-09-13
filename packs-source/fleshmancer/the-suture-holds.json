@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "fleshmancer-grafters"
+            ],
             "rarity": "common",
             "value": [
                 "fleshmancer"
@@ -33,5 +36,11 @@
         },
         "slug": "the-suture-holds"
     },
-    "_id": "loGztva8FfNknrSK"
+    "_id": "loGztva8FfNknrSK",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "This effect changes a different creature's own roll, HP, condition, or item, sourced from the card holder's own passive/item/action. No selector exists anywhere in pf2e-source for this -- confirmed corpus-wide this pass. The target here is explicitly \"a creature you have applied a Graft to,\" not necessarily the caster.",
+            "track": "grafters"
+        }
+    }
 }

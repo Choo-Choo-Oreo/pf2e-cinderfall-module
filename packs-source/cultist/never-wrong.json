@@ -1,0 +1,46 @@
+{
+    "name": "Never Wrong",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You critically fail a check or saving throw.</p><hr /><p>Reduce the result to a normal failure instead. Pride refuses to let this be the whole story.</p>"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "otherTags": [
+                "cultist-undoubted"
+            ],
+            "rarity": "common",
+            "value": [
+                "cultist"
+            ]
+        },
+        "slug": "never-wrong"
+    },
+    "_id": "DzEF93SE1Ni1DLNI",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "\"Trigger critically fail a check/save: reduce the result to a normal failure\" is P-DEGREE-REACTIVE: a frequency-gated fix applied after an unwanted roll is already known, the same after-the-fact-manufacture shape confirmed absent throughout this pass.",
+            "track": "undoubted"
+        }
+    }
+}

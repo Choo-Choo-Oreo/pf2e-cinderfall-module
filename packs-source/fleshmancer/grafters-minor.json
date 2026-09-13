@@ -1,0 +1,45 @@
+{
+    "name": "Hands Already Moving",
+    "type": "capstone",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p>Once per round, applying a healing Graft to a creature within reach costs you a free action instead of that Graft’s normal cast time. This works on the unwilling and the unconscious exactly as well as on a patient who asked — holding someone still is a surgical problem, not a moral one.</p>"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "otherTags": [
+                "fleshmancer-grafters"
+            ],
+            "value": [
+                "fleshmancer"
+            ]
+        },
+        "slug": "grafters-minor"
+    },
+    "_id": "690voRqiX6xXdjNd",
+    "flags": {
+        "cinderfall": {
+            "track": "grafters"
+        }
+    }
+}

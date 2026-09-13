@@ -1,0 +1,73 @@
+{
+    "name": "Rebreather Core",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>Closed-cycle respiration. You don't need to breathe. Immune to inhaled poisons and airborne hazards (gas, spores, smoke, vacuum).</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 7
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "gp": 360
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "Immunity",
+                "type": "poison",
+                "predicate": [
+                    "item:trait:inhaled"
+                ]
+            }
+        ],
+        "size": "med",
+        "traits": {
+            "rarity": "uncommon",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "rebreather-core"
+    },
+    "_id": "JgEJAMk5y0cude0P",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "'You don't need to breathe' has no food/breath-clock mechanism to cancel anywhere in pf2e (confirmed absence, same as every other no-need-to-eat/breathe clause in this pass). The Immunity above covers inhaled poisons via the real inhaled trait (pf2e-source/src/scripts/config/traits.ts); 'airborne hazards (gas, spores, smoke, vacuum)' beyond the inhaled-poison trait has no matching trait/predicate, so that broader half of the claim is not modeled -- undercounting rather than overstating, the safer direction per the mutations-pass convention.",
+            "augmentKind": "cybernetic",
+            "augmentType": "implant",
+            "tier": "uncommon",
+            "slots": [
+                "Viscera"
+            ],
+            "slotCost": 1,
+            "grade": 2,
+            "availability": "Licensed",
+            "level": 7,
+            "drift": "+2"
+        }
+    }
+}

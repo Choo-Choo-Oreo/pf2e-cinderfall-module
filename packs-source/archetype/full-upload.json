@@ -25,7 +25,44 @@
             "remaster": true,
             "title": "Cinderfall"
         },
-        "rules": [],
+        "rules": [
+            {
+                "key": "RollOption",
+                "option": "paradise-save-current",
+                "toggleable": true,
+                "label": "Your Save is current (updated within 24 hours)"
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "skill-check",
+                "type": "status",
+                "value": 2,
+                "predicate": [
+                    "action:recall-knowledge",
+                    "paradise-save-current"
+                ]
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "perception",
+                "type": "status",
+                "value": 2,
+                "predicate": [
+                    "paradise-save-current"
+                ]
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "will",
+                "type": "status",
+                "value": -2,
+                "predicate": [
+                    {
+                        "not": "paradise-save-current"
+                    }
+                ]
+            }
+        ],
         "traits": {
             "rarity": "common",
             "value": [

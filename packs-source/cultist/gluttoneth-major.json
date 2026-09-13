@@ -1,0 +1,45 @@
+{
+    "name": "Nothing Stays Down",
+    "type": "capstone",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p>Once per day, when you reduce a creature to 0 Hit Points, you may choose to consume it outright instead of simply defeating it. A creature consumed this way cannot be restored to life, healed, or raised by anything short of a true divine intervention. When you do, you immediately regain all spent Zeal and gain temporary Hit Points equal to twice your level, lasting 1 hour. Something that used to be a person is now, entirely and permanently, food.</p>"
+        },
+        "level": {
+            "value": 20
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "otherTags": [
+                "cultist-gluttoneth"
+            ],
+            "value": [
+                "cultist"
+            ]
+        },
+        "slug": "gluttoneth-major"
+    },
+    "_id": "wWXe3QiMuoAiNruE",
+    "flags": {
+        "cinderfall": {
+            "track": "gluttoneth"
+        }
+    }
+}

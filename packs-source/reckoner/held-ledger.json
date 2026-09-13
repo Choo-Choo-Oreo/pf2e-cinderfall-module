@@ -29,7 +29,14 @@
             "value": "30 feet"
         },
         "requirements": "",
-        "rules": [],
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "attack",
+                "type": "status",
+                "value": -1
+            }
+        ],
         "target": {
             "value": "1 creature"
         },

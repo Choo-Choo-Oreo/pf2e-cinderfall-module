@@ -1,0 +1,52 @@
+{
+    "name": "Sling Bullets (10)",
+    "type": "ammo",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": "sling-bullets",
+        "bulk": {
+            "value": 0
+        },
+        "description": {
+            "value": "<p>Fits the Scrap Sling.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 0
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "consumable"
+            ]
+        },
+        "price": {
+            "per": 10,
+            "value": {
+                "gp": 1
+            }
+        },
+        "craftableAs": [],
+        "uses": {
+            "autoDestroy": true,
+            "max": 1,
+            "value": 1
+        },
+        "slug": "sling-bullets"
+    },
+    "_id": "458whO6mgdipMzTE",
+    "flags": {
+        "cinderfall": {}
+    }
+}

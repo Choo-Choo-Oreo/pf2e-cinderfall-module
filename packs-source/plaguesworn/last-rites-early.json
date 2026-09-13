@@ -33,5 +33,10 @@
         },
         "slug": "last-rites-early"
     },
-    "_id": "Ehl7G4wTlqJBUphz"
+    "_id": "Ehl7G4wTlqJBUphz",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Raising/creating a new minion or ally creature (P-SUMMON) has no system.rules representation. Real pf2e itself ships rules: [] for the equivalent case (pf2e-source/packs/pf2e/spells/spells/rank-1/summon-undead.json, system.summons left unpopulated too), but per this pass's own convention that is evidence of the gap, not license to treat the clause as correctly-empty -- it is dispositioned INCOMPLETE, not SKIP. (reaction-triggered variant -- raise on 0 HP/kill within 30 ft, same unmodeled-actor-creation gap.)"
+        }
+    }
 }

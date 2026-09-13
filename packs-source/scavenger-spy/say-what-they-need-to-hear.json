@@ -27,5 +27,10 @@
         },
         "slug": "say-what-they-need-to-hear"
     },
-    "_id": "PHDHOzW9sTJW5rgh"
+    "_id": "PHDHOzW9sTJW5rgh",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Downgraded from REAL to INCOMPLETE during the citation-strength spot-check (2026-09-13): the proposed RollOption(toggleable)+FlatModifier self-bonus (toggle option 'say-what-they-need-to-hear') cited only this class's own internal precedent (corporate-cover.json / quick-fingers.json / underledger-rank.json, all in this same folder) -- no real pf2e-source file:line backs this specific mechanism. Checked pf2e-source for a closer match: packs/pf2e/feats/skill/level-1/risky-surgery.json does ship a toggleable RollOption + predicated FlatModifier for a self-elected bonus, but always gated on a concrete, checkable action predicate (action:treat-wounds) plus a stated mechanical cost (1d8 self-damage) -- never on pure narrative/GM judgment with no checkable predicate, which is the shape this proposal used. Left unbuilt pending a stricter design call."
+        }
+    }
 }

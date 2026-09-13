@@ -1,0 +1,43 @@
+{
+    "name": "Unbound",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "ancestry",
+        "description": {
+            "value": "<p>The Foreman's agents have a harder time tracking you specifically; bonus to Stealth and Deception when evading them.</p>"
+        },
+        "level": {
+            "value": 5
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "An Escaped Tool"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "emberforged"
+            ]
+        },
+        "slug": "unbound"
+    },
+    "_id": "QA76HOGQkkMFGTl0",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "'Bonus to Stealth and Deception when evading them [the Foreman's agents]' names no value and there is no predicate for a specific NPC faction's tracking attempts. The card states a bonus/effect but gives no numeric value or formula to build a rule element from without inventing one."
+        }
+    }
+}

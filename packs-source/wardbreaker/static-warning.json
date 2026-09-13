@@ -33,5 +33,10 @@
         },
         "slug": "static-warning"
     },
-    "_id": "pLdQAYVbXM9zTwAH"
+    "_id": "pLdQAYVbXM9zTwAH",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "This affects another creature's own roll, HP, item, or condition from the card holder's self-held passive/item, which has no rule-element hook in real pf2e. Specifically: grants a bonus to an ally's AC or save sourced from the wardbreaker's own passive item, consumed once per ally per Named target -- no selector exists for granting an ally a buff from this actor's item, and the single-use trigger split across two different roll types (AC vs. saves) has no matching consumption-tracking precedent either."
+        }
+    }
 }

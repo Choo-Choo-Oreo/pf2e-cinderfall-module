@@ -1,0 +1,37 @@
+{
+    "name": "Faction Ledger",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "skill",
+        "description": {
+            "value": "<p>You keep a working mental map of who owes what to whom across the Combine, the Slums, and beyond. You gain a +1 circumstance bonus to Recall Knowledge checks about the current relationship between two named factions.</p>"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "faction-ledger"
+    },
+    "_id": "TeRDL2P30KgBEpSM",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The +1 Recall Knowledge bonus is scoped to 'the current relationship between two named factions' -- Recall Knowledge's predicate context has no roll option for a check's subject/topic (only the skill and the target's own traits, per pf2e-source/packs/pf2e/heritages/catfolk/liminal-catfolk.json's target:not-from-universe pattern), and faction relationships aren't a target trait."
+        }
+    }
+}

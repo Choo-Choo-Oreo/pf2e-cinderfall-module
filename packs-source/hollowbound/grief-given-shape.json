@@ -33,5 +33,10 @@
         },
         "slug": "grief-given-shape"
     },
-    "_id": "Yp7VqSdZXGhxY47A"
+    "_id": "Yp7VqSdZXGhxY47A",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Retargets an existing single-target spell (Borrowed Grief) into an area spell -- a structural change, not a numeric one. The real ItemAlteration property enum (pf2e-source/src/module/rules/rule-element/item-alteration/handlers.ts:106-1003) is closed and explicit (ac-bonus, area-size, badge-max, badge-value, check-penalty, damage-dice-faces, damage-dice-number, damage-type, defense-passive, dex-cap, focus-point-cost, hp-max, material-type, pd-recovery-dc, persistent-damage, range-increment, range-max, frequency-max, frequency-per, other-tags, runes-potency, runes-resilient, runes-striking, speed-penalty) -- there is no target-type or area-type property, confirmed by direct read of the file (no such case exists). Widen Spell (pf2e-source/packs/pf2e/feats/class/shared-class-feats/level-1/widen-spell.json) only ever scales an area that already exists via area-size; Borrowed Grief has no area field to scale in the first place."
+        }
+    }
 }

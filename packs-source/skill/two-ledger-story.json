@@ -1,0 +1,41 @@
+{
+    "name": "Two-Ledger Story",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "skill",
+        "description": {
+            "value": "<p>You keep two versions of every deal straight in your head without blinking. If your Lie is caught out, you can spend a reaction to immediately offer a second, consistent lie; the target must reroll their Perception check to catch this one at no bonus or penalty.</p>"
+        },
+        "level": {
+            "value": 6
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Expert in Deception"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "two-ledger-story"
+    },
+    "_id": "ZZtJ28QDsXmL6dMo",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Granting a reaction to offer a second lie, forcing the target to reroll their own Perception check at no bonus/penalty, is both a new reaction grant (see Reactive Shield precedent) and an effect on another creature's own roll (bucket 4) -- neither has a rule-element hook."
+        }
+    }
+}

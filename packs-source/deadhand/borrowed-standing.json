@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "deadhand-cadre"
+            ],
             "rarity": "common",
             "value": [
                 "deadhand"
@@ -33,5 +36,11 @@
         },
         "slug": "borrowed-standing"
     },
-    "_id": "ynUnLG6jaGv5nw4f"
+    "_id": "ynUnLG6jaGv5nw4f",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Grants an ally who borrows Standing via a called command the caster's own weapon-group proficiency rank plus the caster's key-ability modifier on damage. pf2e-source/src/module/rules/rule-element/martial-proficiency.ts declares validActorTypes: [\"character\"] restricted to the owning actor -- a MartialProficiency rule element cannot lend proficiency to a different actor. The ally-key-ability-mod-on-damage clause has no selector reaching a different creature's own damage roll either.",
+            "track": "cadre"
+        }
+    }
 }

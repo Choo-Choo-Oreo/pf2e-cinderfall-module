@@ -33,5 +33,10 @@
         },
         "slug": "iron-word"
     },
-    "_id": "OWnxMFW7hFqfz5vg"
+    "_id": "OWnxMFW7hFqfz5vg",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Three independent blockers: (1) the +1 bonus needs a predicate scoped to 'against the one specific creature I verbally named this turn' -- no roll option identifies an arbitrary, per-use-chosen target creature (real target-scoped predicates are trait/role-based, e.g. target:trait:X, never a specific individual creature chosen at the table). (2) The frightened-on-hearing clause has no automated condition-application analog (even a real save-based fear feat, Scare to Death, only ships Note flavor-text rule elements, never a rule element that actually applies the condition). (3) The delayed self-penalty for not following through requires tracking a mid-scene 'promise' over time with no rule-element equivalent anywhere."
+        }
+    }
 }

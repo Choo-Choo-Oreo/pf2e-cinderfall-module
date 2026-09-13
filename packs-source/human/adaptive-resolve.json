@@ -1,0 +1,39 @@
+{
+    "name": "Adaptive Resolve",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "ancestry",
+        "description": {
+            "value": "<p>Once per day, reroll a failed save. Humans adapt faster than any single specialized lineage — that's the whole feat.</p>"
+        },
+        "level": {
+            "value": 5
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "human"
+            ]
+        },
+        "slug": "adaptive-resolve"
+    },
+    "_id": "zMvXTOazWwT7iWUC",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "No Reroll rule-element key exists anywhere in the compendium (reconfirmed this pass)."
+        }
+    }
+}

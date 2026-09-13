@@ -25,7 +25,29 @@
             "remaster": true,
             "title": "Cinderfall"
         },
-        "rules": [],
+        "rules": [
+            {
+                "key": "ChoiceSet",
+                "flag": "basicIron",
+                "prompt": "Choose Your Ironsight Feat",
+                "choices": {
+                    "itemType": "feat",
+                    "filter": [
+                        "item:category:class",
+                        {
+                            "or": [
+                                "item:slug:quickdraw",
+                                "item:slug:scrap-sense"
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "key": "GrantItem",
+                "uuid": "{item|flags.system.rulesSelections.basicIron}"
+            }
+        ],
         "traits": {
             "rarity": "common",
             "value": [

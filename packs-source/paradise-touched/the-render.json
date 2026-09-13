@@ -1,32 +1,69 @@
 {
-    "_id": "j2KMhm4e7stwH5FI",
-    "categories": [],
     "name": "The Render",
-    "ownership": {
-        "default": 0
-    },
-    "pages": [
-        {
-            "_id": "V8TZ4uHItbigJBge",
-            "category": null,
-            "image": {},
-            "name": "The Render",
-            "sort": 100000,
-            "src": null,
-            "system": {},
-            "text": {
-                "content": "<p><em>Paradise building the world it wants</em></p>        <p class=\"cc-desc\">You got through to the part that is still under construction. It has opinions about how the world should look and it is delighted that you asked. The Render is the least conversational Aperture and the only one that reaches out of your head and touches things, which is why most Wardens who take it stop being welcome indoors.</p>\n        <p class=\"cc-desc\">Your spells that deal force damage <strong>ignore 5 resistance</strong> to force, and you gain a <strong>+1 circumstance bonus to your spell DC</strong> against constructs and anything running on pre-Turning tech.</p>\n        <hr class=\"cc-divider\">\n        <div class=\"cc-effect\"><b>Glimpses —</b> Overwrite (1st) · Unmake the Local (7th) · Local Instance (15th)</div>",
-                "format": 1
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
+        "description": {
+            "value": "<p>        <p class=\"cc-desc\">You got through to the part that is still under construction. It has opinions about how the world should look and it is delighted that you asked. The Render is the least conversational Aperture and the only one that reaches out of your head and touches things, which is why most Wardens who take it stop being welcome indoors.</p>\n        <p class=\"cc-desc\">Your spells that deal force damage <strong>ignore 5 resistance</strong> to force, and you gain a <strong>+1 circumstance bonus to your spell DC</strong> against constructs and anything running on pre-Turning tech.</p>\n        <hr class=\"cc-divider\">\n        <div class=\"cc-effect\"><b>Glimpses —</b> Overwrite (1st) · Unmake the Local (7th) · Local Instance (15th)</div></p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "RollOption",
+                "option": "the-render-pre-turning",
+                "toggleable": true,
+                "label": "Target runs on pre-Turning technology"
             },
-            "title": {
-                "level": 1,
-                "show": true
-            },
-            "type": "text",
-            "video": {
-                "controls": true,
-                "volume": 0.5
+            {
+                "key": "FlatModifier",
+                "selector": "spell-dc",
+                "type": "circumstance",
+                "value": 1,
+                "predicate": [
+                    {
+                        "or": [
+                            "target:trait:construct",
+                            "the-render-pre-turning"
+                        ]
+                    }
+                ]
             }
+        ],
+        "traits": {
+            "otherTags": [
+                "paradise-touched-aperture"
+            ],
+            "rarity": "common",
+            "value": [
+                "paradise-touched"
+            ]
+        },
+        "slug": "the-render"
+    },
+    "_id": "j2KMhm4e7stwH5FI",
+    "flags": {
+        "cinderfall": {
+            "subclassOf": "paradise-touched",
+            "subclassChoice": "Choose Your Aperture",
+            "role": "Paradise building the world it wants",
+            "subclassLayer": "aperture"
         }
-    ]
+    }
 }

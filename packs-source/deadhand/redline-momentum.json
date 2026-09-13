@@ -27,5 +27,10 @@
         },
         "slug": "redline-momentum"
     },
-    "_id": "zBKXWYOJenq7cO2f"
+    "_id": "zBKXWYOJenq7cO2f",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "On a Strike hit, spend Tally to immediately make a second Strike at no extra MAP, +2d6. Deadhand's Tally is entirely homebrew with zero schema footprint anywhere in this corpus."
+        }
+    }
 }

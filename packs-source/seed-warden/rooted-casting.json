@@ -33,5 +33,10 @@
         },
         "slug": "rooted-casting"
     },
-    "_id": "2wYghC4kYikawOF9"
+    "_id": "2wYghC4kYikawOF9",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "A real, clean `FlatModifier`-shaped bonus (P1) blocked purely by `TERRAIN-NULL`: no roll option exists for \"target and I are in the same GM-tracked terrain zone.\" Unlike Hardy Growth/Living Fortification, this bonus targets the *caster's own check*, not a wall's stated stats, so it doesn't fall under the \"never modeled\" Wall-of-Stone precedent — it's a genuine gap, not a convention."
+        }
+    }
 }

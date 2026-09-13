@@ -24,7 +24,9 @@
             "type": null
         },
         "price": {
-            "value": {}
+            "value": {
+                "gp": 0
+            }
         },
         "publication": {
             "license": "ORC",
@@ -32,7 +34,13 @@
             "title": "Cinderfall"
         },
         "quantity": 1,
-        "rules": [],
+        "rules": [
+            {
+                "key": "Resistance",
+                "type": "cold",
+                "value": 3
+            }
+        ],
         "size": "med",
         "traits": {
             "rarity": "rare",
@@ -48,19 +56,11 @@
         "cinderfall": {
             "mutationType": "minor",
             "tier": "rare",
-            "slot": "Circulatory",
             "slots": [
                 "Circulatory"
             ],
             "slotCost": 1,
-            "roll": "d100 — 79–80",
-            "incomplete": [
-                "level is a stub (0); mutations carry no level",
-                "price is empty; a mutation is not bought"
-            ],
-            "inferred": [
-                "system.usage"
-            ]
+            "roll": "d100 — 79–80"
         }
     }
 }

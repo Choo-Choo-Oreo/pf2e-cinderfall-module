@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "cultist-croupier"
+            ],
             "rarity": "common",
             "value": [
                 "cultist"
@@ -33,5 +36,10 @@
         },
         "slug": "borrowed-fortune"
     },
-    "_id": "IqcTquOzzh719hco"
+    "_id": "IqcTquOzzh719hco",
+    "flags": {
+        "cinderfall": {
+            "track": "croupier"
+        }
+    }
 }

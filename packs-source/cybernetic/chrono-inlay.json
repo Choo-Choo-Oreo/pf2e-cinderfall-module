@@ -1,0 +1,79 @@
+{
+    "name": "Chrono Inlay",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>You always know the exact time and your precise heading. +1 item bonus to Survival for navigation.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 1
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "gp": 20
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "RollOption",
+                "option": "chrono-inlay",
+                "toggleable": true,
+                "label": "Survival for navigation"
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "survival",
+                "type": "item",
+                "value": 1,
+                "predicate": [
+                    "chrono-inlay"
+                ]
+            }
+        ],
+        "size": "med",
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "chrono-inlay"
+    },
+    "_id": "Pr5g7XtIufnIvtD2",
+    "flags": {
+        "cinderfall": {
+            "augmentKind": "cybernetic",
+            "augmentType": "implant",
+            "tier": "common",
+            "slots": [
+                "Inlays"
+            ],
+            "slotCost": 1,
+            "availability": "Licensed",
+            "level": 1,
+            "drift": "+0"
+        }
+    }
+}

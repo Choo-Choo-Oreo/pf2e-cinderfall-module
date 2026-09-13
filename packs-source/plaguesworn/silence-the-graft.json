@@ -33,5 +33,10 @@
         },
         "slug": "silence-the-graft"
     },
-    "_id": "uFnHeXv4IvFlr5ij"
+    "_id": "uFnHeXv4IvFlr5ij",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "This clause is an ongoing effect targeting a different creature's roll/HP/condition/behavior, sourced from the holder's own passive (P-CROSSCREATURE), with no selector anywhere in pf2e-source for one actor's rule element to reach into a separate actor on an ongoing basis. ItemAlteration alters items belonging to the actor the rule element's parent item is on; there's no mechanism for a rule element on the Plaguesworn's own feat to reach into a different actor's inventory and alter one of their items."
+        }
+    }
 }

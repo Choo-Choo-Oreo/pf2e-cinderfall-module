@@ -1,0 +1,85 @@
+{
+    "name": "Root-Feet",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>Grown from Seed-Warden stock; toes that open like roots. 1 action to root into bare earth, stone, or living ground: while rooted you have a +2 circumstance bonus to saves against forced movement and to your DCs against being moved, and you draw water and trace nutrition from the ground (no food/water clock while rooted somewhere living). 1 action to pull free.</p><p><b>Rider:</b> Ground you root in for more than an hour has a claim on you. Leaving it behind for good costs a Will save (moderate DC) or you are compelled to return within a day.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 8
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "mk": 300
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "RollOption",
+                "option": "rooted",
+                "toggleable": true
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "saving-throw",
+                "type": "circumstance",
+                "value": 2,
+                "predicate": [
+                    "rooted",
+                    "forced-movement"
+                ]
+            }
+        ],
+        "size": "med",
+        "traits": {
+            "rarity": "uncommon",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "root-feet"
+    },
+    "_id": "rxMeVoIW2qPSApPd",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The 'no food/water clock while rooted somewhere living' and the Will-save compulsion to return to long-rooted ground both have no engine hook -- confirmed absence, same as the mutations pass's Deep-Root-Legs (no hunger-clock mechanism exists anywhere in pf2e) and no rule element represents a narrative geas like this. The bonus to your own DCs against being moved (as opposed to your save) also has no selector, for the same reason flagged on Ballast-Gut-Plate.",
+            "augmentKind": "biological",
+            "augmentType": "graft",
+            "tier": "uncommon",
+            "slots": [
+                "Legs"
+            ],
+            "slotCost": 1,
+            "grade": 2,
+            "availability": "Wild",
+            "level": 8,
+            "load": "+2",
+            "resonance": "+3",
+            "augTags": [
+                "wild"
+            ]
+        }
+    }
+}

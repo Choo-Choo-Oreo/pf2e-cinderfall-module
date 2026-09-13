@@ -1,0 +1,46 @@
+{
+    "name": "Never Empty-Handed",
+    "type": "capstone",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p>You have never once been disarmed, because being disarmed would require you to have been relying on the weapon. Anything with a barrel works in your hands within a round of you picking it up, and the failures other people dread now arrive as raw material — banked, spent, and turned back on the fight before the noise has finished.</p>"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "otherTags": [
+                "ironsight-trick-iron"
+            ],
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "trick-iron-minor"
+    },
+    "_id": "WWu0TduRrtZro0Og",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Zero-number flavor text for a Draw's Minor/Major Capstone grant point named in classes.ironsight.json's own progression table. States no number, DC, duration, or selector of any kind -- a real content gap, not a search failure.",
+            "track": "trick-iron"
+        }
+    }
+}

@@ -1,51 +1,36 @@
 {
     "name": "The Unspeakable",
-    "type": "spell",
+    "type": "feat",
     "img": "icons/svg/mystery-man.svg",
     "system": {
-        "area": null,
-        "cost": {
-            "value": ""
+        "actionType": {
+            "value": "passive"
         },
-        "counteraction": false,
-        "damage": {},
-        "defense": {
-            "save": {
-                "basic": false,
-                "statistic": "will"
-            }
+        "actions": {
+            "value": null
         },
+        "category": "classfeature",
         "description": {
-            "value": "<i>Success</i> unaffected, though the memory is faintly uncomfortable. <i>Failure</i> the target can't accurately describe you to anyone else for the duration, though it still recognizes you on sight. <i>Critical Failure</i> as failure, plus a −2 status penalty on its Perception checks to identify you specifically."
-        },
-        "duration": {
-            "sustained": false,
-            "value": "24 hours"
+            "value": "<p>Naming a thing precisely is most of what makes it counterable. This doesn't have a precise name — not because it's hidden, but because nobody who's seen it agrees on what they saw.</p><hr /><p><strong>NO WORD FOR IT —</strong> a creature that watched you cast this can't accurately describe you to anyone else for a day, though it still knows your face on sight.</p>"
         },
         "level": {
             "value": 1
+        },
+        "prerequisites": {
+            "value": []
         },
         "publication": {
             "license": "ORC",
             "remaster": true,
             "title": "Cinderfall"
         },
-        "range": {
-            "value": "30 feet"
-        },
-        "requirements": "",
         "rules": [],
-        "target": {
-            "value": "1 creature that saw you cast this spell"
-        },
-        "time": {
-            "value": "2"
-        },
         "traits": {
+            "otherTags": [
+                "reckoner-aspect"
+            ],
             "rarity": "common",
-            "traditions": [],
             "value": [
-                "focus",
                 "reckoner"
             ]
         },
@@ -54,9 +39,15 @@
     "_id": "3UreJuPJNDIL7HNk",
     "flags": {
         "cinderfall": {
+            "incomplete": "This Aspect base feat plausibly wants a GrantItem granting its signature focus spell/ability, matching the ChoiceSet+GrantItem pattern already used for the Aspect subclass choice itself (reckoner.aspect.json). Not shipped: the only intra-corpus GrantItem precedents are a dynamic ChoiceSet-selection token or a fixed UUID into the real pf2e system's own compendiums -- there is no existing example of a fixed GrantItem pointing at another Cinderfall-authored card by literal compendium UUID, and the Cinderfall Foundry module's actual pack/document naming (tools/foundry/build_pack.py / pf2e-cinderfall-module) was not checked in this cards-only research pass. See feats-class-reckoner-draft.md open question 1 (GRANTITEM-UUID-OPEN).",
             "focusCost": "1",
             "spellTag": "The Unspeakable",
-            "listing": "Aspect Signatures / The Outside a direction, not a law or a mass"
+            "listing": "Aspect Signatures / The Outside a direction, not a law or a mass",
+            "subclassOf": "reckoner",
+            "subclassChoice": "Choose Your Source, Then Your Aspect",
+            "role": "Resists Description · Immune to Counterplay",
+            "followUp": "signature spell 'No Word For It' is record reckoner.no-word-for-it; the card renders on spells-abilities.html as a spell-entry and its statline/body are authored above",
+            "subclassLayer": "aspect"
         }
     }
 }

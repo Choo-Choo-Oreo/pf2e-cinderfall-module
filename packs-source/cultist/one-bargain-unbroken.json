@@ -1,0 +1,42 @@
+{
+    "name": "One Bargain, Unbroken",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>You cannot be forced into an unwilling bargain, deal, or pact with any creature, including your own patron, ever again.</p>"
+        },
+        "level": {
+            "value": 20
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "cultist"
+            ]
+        },
+        "slug": "one-bargain-unbroken"
+    },
+    "_id": "YEfcNIzpmthbKzlt",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "\"Cannot be forced into an unwilling bargain/deal/pact, ever, by anyone including your own patron\" protects a homebrew narrative concept (\"a bargain\") with no corresponding real pf2e trait or selector -- there is no bargain/pact trait anywhere in pf2e-source to predicate an immunity or bonus against."
+        }
+    }
+}

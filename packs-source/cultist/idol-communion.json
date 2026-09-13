@@ -33,5 +33,10 @@
         },
         "slug": "idol-communion"
     },
-    "_id": "CEW5iLItz1xKGa7j"
+    "_id": "CEW5iLItz1xKGa7j",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "This card extends the Idol (the class's familiar) -- independent actions, a temporary full statblock transformation, or Zeal-free/death-surviving permanence. Confirmed this session: no Familiar-type or Idol-related record of any kind exists anywhere in site/data/cards/ for this class (only these same feats/class/cultist/*.json files reference \"idol\" at all) -- there is no real Foundry document (a linked Familiar actor, a custom item) to extend with a rule element. This is a genuine structural gap in the corpus, not a search failure."
+        }
+    }
 }

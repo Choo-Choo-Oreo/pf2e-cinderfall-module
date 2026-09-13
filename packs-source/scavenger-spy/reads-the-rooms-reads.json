@@ -27,5 +27,10 @@
         },
         "slug": "reads-the-rooms-reads"
     },
-    "_id": "5g2GyX2bIMxzmTmP"
+    "_id": "5g2GyX2bIMxzmTmP",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Self-facing but tracked per-specific-target, which needs a Hunt-Prey-style dedicated target-flagging apparatus (pf2e-source/packs/pf2e/class-features/hunt-prey.json) to build correctly. Authoring a full target-tracking mechanism for one feat is disproportionate and out of this card's own scope."
+        }
+    }
 }

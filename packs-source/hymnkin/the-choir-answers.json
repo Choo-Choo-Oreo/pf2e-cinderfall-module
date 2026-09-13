@@ -1,0 +1,39 @@
+{
+    "name": "The Choir Answers",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "ancestry",
+        "description": {
+            "value": "<p>Once per day, call on the Gaunt Choir's attention directly for aid or information, at the cost of temporary vulnerability to despair effects until your next rest.</p>"
+        },
+        "level": {
+            "value": 5
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "hymnkin"
+            ]
+        },
+        "slug": "the-choir-answers"
+    },
+    "_id": "ajOcWy4q01wgpxaP",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Granting a new limited-use activated action/reaction has no rule-element hook in real pf2e -- confirmed corpus-wide this pass (Reactive Shield itself ships rules: []). ('once per day, call on the Gaunt Choir's attention directly for aid or information' is a new granted action.)"
+        }
+    }
+}

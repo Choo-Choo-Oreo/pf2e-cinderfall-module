@@ -1,0 +1,48 @@
+{
+    "name": "Verse of the Multitude",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
+        "description": {
+            "value": "<p>One Afflicted is a mercy killing. A dozen is a choir rehearsal. You'd rather raise a crowd than land a single hard hit.</p><hr /><p><strong>FULL CHORUS —</strong> raise an extra Afflicted per casting, and command them as a group action instead of one at a time.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "otherTags": [
+                "plaguesworn-verse"
+            ],
+            "rarity": "common",
+            "value": [
+                "plaguesworn"
+            ]
+        },
+        "slug": "verse-of-the-multitude"
+    },
+    "_id": "37cXiUtcsEwLVs02",
+    "flags": {
+        "cinderfall": {
+            "subclassOf": "plaguesworn",
+            "subclassChoice": "Choose Your Verse",
+            "role": "Thrall Handling",
+            "subclassLayer": "verse"
+        }
+    }
+}

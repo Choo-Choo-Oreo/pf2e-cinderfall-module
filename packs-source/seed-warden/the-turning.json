@@ -50,6 +50,7 @@
     "_id": "LabioxTtbPFBlLwB",
     "flags": {
         "cinderfall": {
+            "incomplete": "`BLOOMROT-NULL` for the snap. Also checked for a real RE that restores an expended spell slot directly — none found in `pf2e-source/src/module/rules/rule-element/`; every real slot-recovery effect in pf2e resolves through UI/macro interaction, not a data-only rule element. Both halves independently unbuildable.",
             "spellTag": "Bloom: special",
             "listing": "5th Rank"
         }

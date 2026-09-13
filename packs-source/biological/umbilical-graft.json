@@ -1,0 +1,66 @@
+{
+    "name": "Umbilical Graft",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>Cut from a living donor's marrow while both of you were open on the same table; the two marrow-lines never fully separated. Fast Healing 3 whenever the donor is alive, anywhere. Once per day, reaction: when you'd take damage that would drop you, shunt half of it down the cord into the donor instead, no save, no range limit.</p><p><b>Donor:</b> The donor is a real, specific, living person the GM controls. They feel your pain as phantom sensation in real time, and if they die the graft necroses on the spot: you're stunned 1 and take 2d6 negative damage as it dies inside you.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 14
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "mk": 6000
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "traits": {
+            "rarity": "epic",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "umbilical-graft"
+    },
+    "_id": "XIJ4si4jvwgwC0l7",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Fast healing conditioned on a specific NPC's life status can't be predicated (no roll option tracks a named NPC's vital status for a FastHealing predicate), and the damage-shunt-to-the-donor reaction targets another creature's HP with no range limit -- the same architecture gap as Grave-Quiet/Loyal-Blood, compounded here by a second creature's death consequence.",
+            "augmentKind": "biological",
+            "augmentType": "graft",
+            "tier": "epic",
+            "slots": [
+                "Circulatory"
+            ],
+            "slotCost": 1,
+            "grade": 4,
+            "availability": "Grafted",
+            "level": 14,
+            "load": "+4",
+            "resonance": "+6"
+        }
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "name": "Threading the Needle",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": null,
+        "description": {
+            "value": "<p>Any shot you make at your Marked quarry treats its cover as one step weaker (greater becomes standard, standard becomes lesser, lesser is ignored), and you gain a +2 circumstance bonus (+3 at Undying tier) to the attack roll to overcome whatever cover remains.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "waywarden"
+            ]
+        },
+        "slug": "threading-the-needle"
+    },
+    "_id": "gh3BOLcsCzftoTza",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The flat attack-roll bonus half of this is real, buildable FlatModifier-on-target:mark: territory (P4) once unblocked; the \"downgrade cover by exactly one step\" half has no precedent found even in real pf2e's hunted-prey cover feats (P5's Targeting/Penetrating Shot do full cover *removal*, not a one-step downgrade) — so even post-Mark this second clause would need its own fresh precedent search. The Waywarden's central subsystem, The Mark (classes.waywarden.json flags.cinderfall.terms[0]: \"designate a creature as your quarry, gaining a growing bonus to track, target, and punish it specifically\"), has zero Foundry-schema footprint anywhere in the corpus. classes.waywarden.json:65 itself carries \"rules\": []. No card anywhere grants a TokenMark effect (site/data/cards/abilities/, class-features/, feat-effects/ are all empty scaffold directories -- confirmed via ls, contents are .gitkeep only). Real pf2e's own equivalent mechanic (Ranger's Hunt Prey) is fully buildable and precedented, but that infrastructure (an action item + a TokenMark-carrying effect item) does not exist for Waywarden and is not one of the 56 files in scope for this draft. This card is blocked until a future pass authors the base Mark action/effect.",
+            "spellTag": "passive",
+            "notSpell": "waywarden's class document carries system.spellcasting 0, so this is an ability, not a spell, and convert_class_spells.py declines it by design as a NON_CASTERS owner"
+        }
+    }
+}

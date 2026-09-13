@@ -1,0 +1,41 @@
+{
+    "name": "Field Repair",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "skill",
+        "description": {
+            "value": "<p>Spend an action mid-encounter to quick-fix a damaged item or ghost-machine companion, restoring a small amount of function instead of waiting for downtime.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Trained in Crafting"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "field-repair"
+    },
+    "_id": "zusCdRfjwkx8JZuR",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Compressing a Repair-style fix into a single mid-encounter action is a new usable-action grant. Granting free/new use of an action has no rule-element hook -- real Reactive Shield (pf2e-source/packs/pf2e/feats/class/shared-class-feats/level-1/reactive-shield.json), which grants a reaction use of an existing action, itself ships rules: []."
+        }
+    }
+}

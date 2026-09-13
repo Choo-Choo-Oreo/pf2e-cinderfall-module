@@ -1,0 +1,50 @@
+{
+    "name": "Effect: Iron Curtain",
+    "type": "effect",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "description": {
+            "value": "<p><em>Applied by <strong>Iron Curtain</strong> to each affected enemy.</em></p>\n<hr />\n<p>Sustain a curtain of fire across the area. Allies within or behind it gain standard cover against attacks that cross it, and enemies attempting to cross take a −2 circumstance penalty to attack rolls until the end of their turn. Sustaining costs you 1 action on each of your turns and empties one loaded weapon per turn sustained.</p>"
+        },
+        "duration": {
+            "expiry": "turn-end",
+            "sustained": false,
+            "unit": "rounds",
+            "value": 1
+        },
+        "level": {
+            "value": 16
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "attack",
+                "type": "circumstance",
+                "value": -2
+            }
+        ],
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "value": []
+        },
+        "slug": "iron-curtain-effect"
+    },
+    "_id": "KTg81xNkQN96ytkp",
+    "flags": {
+        "cinderfall": {
+            "effectOf": "ironsight.iron-curtain",
+            "landsOn": "enemy"
+        }
+    }
+}

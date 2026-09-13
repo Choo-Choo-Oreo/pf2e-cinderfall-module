@@ -1,0 +1,44 @@
+{
+    "name": "Turning's Echo",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "ancestry",
+        "description": {
+            "value": "<p>Gain resistance to radiation damage equal to your level, on top of Banked Warmth's fire resistance.</p>"
+        },
+        "level": {
+            "value": 13
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Turning's Mark"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "Resistance",
+                "type": "radiation",
+                "value": "@actor.level"
+            }
+        ],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "cinderborn"
+            ]
+        },
+        "slug": "turnings-echo"
+    },
+    "_id": "ASHxLVadb0WO3AGj"
+}

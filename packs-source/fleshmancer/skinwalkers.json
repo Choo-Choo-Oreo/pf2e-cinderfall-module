@@ -1,0 +1,49 @@
+{
+    "name": "Skinwalker's",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
+        "description": {
+            "value": "<p>You are your own greatest experiment. Temporary monstrous forms, claws that weren't there this morning, a second set of ribs when you need the cover.</p><hr /><p><strong>THE CHANGE —</strong> bonus self-mutation effects with faster onset and a cleaner reversion when it ends.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "otherTags": [
+                "fleshmancer-stock"
+            ],
+            "rarity": "common",
+            "value": [
+                "fleshmancer"
+            ]
+        },
+        "slug": "skinwalkers"
+    },
+    "_id": "lltkENR9wKAP3yX5",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "This is one of the three Stock-parent cards (chosen via fleshmancer.stock.json's real ChoiceSet+GrantItem), and its own headline mechanic states no number -- there is nothing concrete to build here, and every child card that names this Stock as a prerequisite inherits nothing real to extend either.",
+            "subclassOf": "fleshmancer",
+            "subclassChoice": "Choose Your Stock",
+            "role": "Self-Mutation",
+            "subclassLayer": "stock"
+        }
+    }
+}

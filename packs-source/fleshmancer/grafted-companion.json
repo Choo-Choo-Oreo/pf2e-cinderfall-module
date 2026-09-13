@@ -34,5 +34,10 @@
         },
         "slug": "grafted-companion"
     },
-    "_id": "0TmwlkWJy9wTjGJE"
+    "_id": "0TmwlkWJy9wTjGJE",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Nothing this small creates a fully autonomous companion actor with independent HP and actions -- pf2e's real companion/eidolon systems are a much larger subsystem than a single rule element, and none of it is referenced here."
+        }
+    }
 }

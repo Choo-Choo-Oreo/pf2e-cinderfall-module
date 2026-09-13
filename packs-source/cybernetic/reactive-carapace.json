@@ -1,0 +1,71 @@
+{
+    "name": "Reactive Carapace",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>Plates that flex on impact. Resistance 7 physical. Reaction, 1/round, when a melee Strike hits you: the attacker takes 2d6 force.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 11
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "gp": 1500
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "Resistance",
+                "type": "physical",
+                "value": 7
+            }
+        ],
+        "size": "med",
+        "traits": {
+            "rarity": "rare",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "reactive-carapace"
+    },
+    "_id": "BkAzCFkbv9pVBboa",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The reactive 2d6 force damage to a melee attacker, once per round, targets another creature's HP from a self-held item -- same architecture gap as Grave-Quiet/Quill-Bed, compounded by needing a reaction with its own once-per-round frequency.",
+            "augmentKind": "cybernetic",
+            "augmentType": "implant",
+            "tier": "rare",
+            "slots": [
+                "Dermal"
+            ],
+            "slotCost": 1,
+            "grade": 3,
+            "availability": "Restricted",
+            "level": 11,
+            "drift": "+2"
+        }
+    }
+}

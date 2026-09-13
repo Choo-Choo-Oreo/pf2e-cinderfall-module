@@ -33,5 +33,10 @@
         },
         "slug": "feeding-the-graft"
     },
-    "_id": "7YHjVn99UrLg0a1k"
+    "_id": "7YHjVn99UrLg0a1k",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "BAND-GAP (Load isn't a real item field; ItemAlteration's field list has no \"load\" entry) stacked on INSTALL-GRAFT-GAP (the triggering check itself isn't modeled)."
+        }
+    }
 }

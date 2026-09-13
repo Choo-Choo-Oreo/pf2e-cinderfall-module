@@ -33,5 +33,10 @@
         },
         "slug": "steady-hand"
     },
-    "_id": "BtHeTGOt6DvYGFqV"
+    "_id": "BtHeTGOt6DvYGFqV",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Two independent blockers: (1) The Answer is a homebrew reaction with no built-in engine hook -- no roll option automatically flags \"this specific attack/action is this specific triggered reaction,\" so a bonus or exemption scoped only to that one-off use has no predicate to hang on without either an unscoped always-on toggle (which overstates the card) or a linked/expiring Effect grant, a mechanism this corpus's feat cards don't have. (2) Ignoring a condition's numeric penalty for one specific roll has no rule-element hook -- real Vambrace of Gorum (reduce frightened by 1 as a reaction) already ships rules: [], and ignoring the penalty outright is a stronger version of the same unencoded effect class."
+        }
+    }
 }

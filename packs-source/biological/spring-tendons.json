@@ -1,0 +1,73 @@
+{
+    "name": "Spring Tendons",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>Cultured elastic reinforcement laid along every tendon in the leg. +5-foot status bonus to Speed; your Long Jump and High Jump distances double; you take no damage from a fall of 25 feet or less and half damage from any longer fall.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 6
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "mk": 250
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "land-speed",
+                "type": "status",
+                "value": 5
+            }
+        ],
+        "size": "med",
+        "traits": {
+            "rarity": "uncommon",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "spring-tendons"
+    },
+    "_id": "CF0eRlz4w3l22UWq",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Doubling Long Jump/High Jump distance and reducing fall damage both have no rule-element hook: jump distance is a fixed table lookup with no distance-multiplier rule element (confirmed real precedent, Boots of Bounding, only ever grants an Athletics check bonus, never a distance multiplier), and fall-damage reduction has zero precedent anywhere -- the real Cat Fall feat (pf2e-source/packs/pf2e/feats/skill/level-1/cat-fall.json) makes an equally concrete claim and ships rules: [] too.",
+            "augmentKind": "biological",
+            "augmentType": "graft",
+            "tier": "uncommon",
+            "slots": [
+                "Legs"
+            ],
+            "slotCost": 1,
+            "grade": 2,
+            "availability": "Cultured",
+            "level": 6,
+            "load": "+2",
+            "resonance": "+1"
+        }
+    }
+}

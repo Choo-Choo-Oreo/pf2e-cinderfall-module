@@ -1,0 +1,50 @@
+{
+    "name": "Effect: Nobody Crosses",
+    "type": "effect",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "description": {
+            "value": "<p><em>Applied by <strong>Nobody Crosses</strong> to each affected enemy.</em></p>\n<hr />\n<p>Declare the line and hold it. Any creature attempting to cross it must attempt a Reflex save against your class DC; on a failure its movement stops and it takes damage equal to two of your weapon's damage dice, and on a critical failure it is also knocked prone on its own side. Enemies that have seen this happen to someone else take a −2 circumstance penalty to that save. This does not cost you reactions or ammunition.</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "minutes",
+            "value": 1
+        },
+        "level": {
+            "value": 18
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "reflex",
+                "type": "circumstance",
+                "value": -2
+            }
+        ],
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "value": []
+        },
+        "slug": "nobody-crosses-effect"
+    },
+    "_id": "2MdJoRqD6SqeGEze",
+    "flags": {
+        "cinderfall": {
+            "effectOf": "ironsight.nobody-crosses",
+            "landsOn": "enemy"
+        }
+    }
+}

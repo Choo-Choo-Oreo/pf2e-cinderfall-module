@@ -33,5 +33,10 @@
         },
         "slug": "blackout-protocol"
     },
-    "_id": "lCe2FMiQXwDk7s8I"
+    "_id": "lCe2FMiQXwDk7s8I",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "[NO-SPECIALRESOURCE] for the 2-Ghost-Static cost. Separately, \"heat,\" \"power draw,\" \"soul-static,\" and \"machine signature\" are not real pf2e sense types, so no Sense/Immunity-to-detection rule element can reference them -- no clean predicate exists."
+        }
+    }
 }

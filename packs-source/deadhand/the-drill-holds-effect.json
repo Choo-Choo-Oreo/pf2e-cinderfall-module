@@ -1,0 +1,56 @@
+{
+    "name": "Effect: The Drill Holds",
+    "type": "effect",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "description": {
+            "value": "<p><em>Applied by <strong>The Drill Holds</strong> to each affected ally.</em></p>\n<hr />\n<p>Allies who have benefited from your called command at least once this encounter gain a +1 status bonus to AC and to saving throws while they can see or hear you. This does not require another command; it is what having been commanded once already does to a unit.</p>"
+        },
+        "duration": {
+            "expiry": null,
+            "sustained": false,
+            "unit": "unlimited",
+            "value": -1
+        },
+        "level": {
+            "value": 12
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "ac",
+                "type": "status",
+                "value": 1
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "saving-throw",
+                "type": "status",
+                "value": 1
+            }
+        ],
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "value": []
+        },
+        "slug": "the-drill-holds-effect"
+    },
+    "_id": "ppwIs06hbuPgdpjp",
+    "flags": {
+        "cinderfall": {
+            "effectOf": "deadhand.the-drill-holds",
+            "landsOn": "ally"
+        }
+    }
+}

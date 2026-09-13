@@ -1,0 +1,52 @@
+{
+    "name": "Effect: No Vacancy",
+    "type": "effect",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "description": {
+            "value": "<p><em>Applied by <strong>No Vacancy</strong> to the target.</em></p>\n<hr />\n<p>Immune to possession, mind-reading, and mental control of any kind for the duration; thoughts read to prying spirits as flat static.</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "hours",
+            "value": 24
+        },
+        "level": {
+            "value": 8
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "Immunity",
+                "type": [
+                    "possession",
+                    "mental"
+                ]
+            }
+        ],
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "value": []
+        },
+        "slug": "no-vacancy-effect"
+    },
+    "_id": "if6Lxoh2asOsCilN",
+    "flags": {
+        "cinderfall": {
+            "effectOf": "hollowbound.no-vacancy",
+            "landsOn": "target",
+            "incomplete": "Built per this corpus's own hollowbound.shut-the-door / shut-the-door-effect pattern (spell stays rules: [], a companion Effect item carries the mechanic) and pf2e-source's own spell-effect-arcane-explosion.json (a real Immunity rule element on a duration-limited Effect item). possession and mental are both real, confirmed IWR types (pf2e-source/src/scripts/config/iwr.ts:84, :68); mental blocks anything carrying the mental trait (mind-reading and mental-control effects both do), so this single Immunity type covers all three effects the spell describes without over- or under-covering them."
+        }
+    }
+}

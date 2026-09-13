@@ -27,5 +27,10 @@
         },
         "slug": "grey-mans-gambit"
     },
-    "_id": "QHJJauEhZZTC5bNw"
+    "_id": "QHJJauEhZZTC5bNw",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Blocked on the Mark, and independently: no rule element retroactively cancels or nullifies an opponent's already-declared action based on a save — confirmed absent across this whole pass's prior sessions (see the guide's \"no rule element retroactively redefines an already-rolled die's numeric value\" as the closest documented absence of this general category of post-hoc override). The Waywarden's central subsystem, The Mark (classes.waywarden.json flags.cinderfall.terms[0]: \"designate a creature as your quarry, gaining a growing bonus to track, target, and punish it specifically\"), has zero Foundry-schema footprint anywhere in the corpus. classes.waywarden.json:65 itself carries \"rules\": []. No card anywhere grants a TokenMark effect (site/data/cards/abilities/, class-features/, feat-effects/ are all empty scaffold directories -- confirmed via ls, contents are .gitkeep only). Real pf2e's own equivalent mechanic (Ranger's Hunt Prey) is fully buildable and precedented, but that infrastructure (an action item + a TokenMark-carrying effect item) does not exist for Waywarden and is not one of the 56 files in scope for this draft. This card is blocked until a future pass authors the base Mark action/effect."
+        }
+    }
 }

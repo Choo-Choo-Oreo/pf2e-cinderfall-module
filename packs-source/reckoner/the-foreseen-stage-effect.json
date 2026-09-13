@@ -1,0 +1,57 @@
+{
+    "name": "Effect: The Foreseen Stage",
+    "type": "effect",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "description": {
+            "value": "<p><em>Applied by <strong>The Foreseen Stage</strong> to the character who used it.</em></p>\n<hr />\n<p>A large +3 status bonus to AC and Reflex saves; can't be caught flat-footed by a surprise attack for the duration.</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "minutes",
+            "value": 10
+        },
+        "level": {
+            "value": 9
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "ac",
+                "type": "status",
+                "value": 3
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "reflex",
+                "type": "status",
+                "value": 3
+            }
+        ],
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "value": []
+        },
+        "slug": "the-foreseen-stage-effect"
+    },
+    "_id": "pjakWPrzN6uJ4GPo",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "\"Can't be caught flat-footed by a surprise attack\" for the duration is not modeled. No citable roll-option for the surprise round specifically was found; real pf2e models 'can't be surprised' inconsistently. The two existing FlatModifiers (+3 AC, +3 Reflex) are correct and left unchanged. See feats-class-reckoner-draft.md open question 3.",
+            "effectOf": "reckoner.the-foreseen-stage",
+            "landsOn": "self"
+        }
+    }
+}

@@ -24,7 +24,20 @@
             "remaster": true,
             "title": "Cinderfall"
         },
-        "rules": [],
+        "rules": [
+            {
+                "key": "Resistance",
+                "type": "physical",
+                "value": 2,
+                "exceptions": [
+                    "silver",
+                    "cold-iron"
+                ],
+                "predicate": [
+                    "bio-attuned"
+                ]
+            }
+        ],
         "traits": {
             "rarity": "common",
             "value": [

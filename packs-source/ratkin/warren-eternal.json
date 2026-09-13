@@ -1,0 +1,49 @@
+{
+    "name": "Warren Eternal",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "ancestry",
+        "description": {
+            "value": "<p>Permanent immunity to disease and resistance to poison; once per day, treat a failed Fortitude save as a success instead.</p>"
+        },
+        "level": {
+            "value": 17
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "Immunity",
+                "type": "disease"
+            },
+            {
+                "key": "Resistance",
+                "type": "poison",
+                "value": "max(1,floor(@actor.level/2))"
+            }
+        ],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ratkin"
+            ]
+        },
+        "slug": "warren-eternal"
+    },
+    "_id": "Kbhu5JWw6HqFd7gD",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "'Once per day, treat a failed Fortitude save as a success instead' has no rule-element hook -- There is no rule-element that guarantees an outright success or converts a failed save/check to a success after the fact; AdjustDegreeOfSuccess only shifts the degree of an actual roll. The disease immunity and poison resistance are built above."
+        }
+    }
+}

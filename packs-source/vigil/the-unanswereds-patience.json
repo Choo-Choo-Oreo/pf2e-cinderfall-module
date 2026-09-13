@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "vigil-unanswered"
+            ],
             "rarity": "common",
             "value": [
                 "vigil"
@@ -33,5 +36,11 @@
         },
         "slug": "the-unanswereds-patience"
     },
-    "_id": "lHaqpkOKzporVY3V"
+    "_id": "lHaqpkOKzporVY3V",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "STRUCT-GAIN-HOOK, mirror of the-choirs-fervor: SpecialResource has no rate-multiplier hook for endurance acts counting double toward the next Grace.",
+            "track": "unanswered"
+        }
+    }
 }

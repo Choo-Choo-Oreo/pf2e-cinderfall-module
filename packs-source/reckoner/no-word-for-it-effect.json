@@ -1,0 +1,59 @@
+{
+    "name": "Effect: No Word For It",
+    "type": "effect",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "description": {
+            "value": "<p><em>Applied by <strong>No Word For It</strong> to the target.</em></p>\n<hr />\n<i>Success</i> unaffected, though the memory is faintly uncomfortable. <i>Failure</i> the target can't accurately describe you to anyone else for the duration, though it still recognizes you on sight. <i>Critical Failure</i> as failure, plus a −2 status penalty on its Perception checks to identify you specifically."
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "hours",
+            "value": 24
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "RollOption",
+                "option": "no-word-for-it",
+                "toggleable": true,
+                "label": "Perception check to identify the caster specifically"
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "perception",
+                "type": "status",
+                "value": -2,
+                "predicate": [
+                    "no-word-for-it"
+                ]
+            }
+        ],
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "value": []
+        },
+        "slug": "no-word-for-it-effect"
+    },
+    "_id": "caK4UZMgaX7rP5Ts",
+    "flags": {
+        "cinderfall": {
+            "effectOf": "reckoner.no-word-for-it",
+            "landsOn": "target"
+        }
+    }
+}

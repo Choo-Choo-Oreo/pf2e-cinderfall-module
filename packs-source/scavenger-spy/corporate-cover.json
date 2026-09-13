@@ -24,7 +24,24 @@
             "remaster": true,
             "title": "Cinderfall"
         },
-        "rules": [],
+        "rules": [
+            {
+                "key": "RollOption",
+                "option": "corporate-cover",
+                "toggleable": true,
+                "label": "Maintaining your established false identity"
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "deception",
+                "type": "circumstance",
+                "value": 2,
+                "predicate": [
+                    "action:impersonate",
+                    "corporate-cover"
+                ]
+            }
+        ],
         "traits": {
             "rarity": "common",
             "value": [

@@ -1,0 +1,43 @@
+{
+    "name": "Plague Carrier's Bite",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "ancestry",
+        "description": {
+            "value": "<p>Once per day, when grappled, restrained, or hit in melee by your jaws, expose that creature to a minor wasting sickness without taking any harm from it yourself.</p>"
+        },
+        "level": {
+            "value": 9
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Vermin's Constitution"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ratkin"
+            ]
+        },
+        "slug": "plague-carriers-bite"
+    },
+    "_id": "GP4R8jVvvtZ2Oppi",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Granting a new limited-use activated action/reaction has no rule-element hook in real pf2e -- confirmed corpus-wide this pass (Reactive Shield itself ships rules: []). and This affects another creature's own roll, HP, or condition from the card holder's passive/item, which has no rule-element hook in real pf2e. ('once per day... expose that creature to a minor wasting sickness' is a new granted effect targeting another creature.)"
+        }
+    }
+}

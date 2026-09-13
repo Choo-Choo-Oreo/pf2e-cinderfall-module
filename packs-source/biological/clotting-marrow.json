@@ -1,0 +1,72 @@
+{
+    "name": "Clotting Marrow",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>Cultured marrow that overproduces clotting factor. When you would take persistent bleed, reduce it by 5 (to a minimum of 0); +2 item bonus to recovery checks; if you are dying and no one touches you for a full round, you may attempt a recovery check to stabilize as if someone had administered first aid.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 5
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "mk": 160
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "Resistance",
+                "type": "bleed",
+                "value": 5
+            }
+        ],
+        "size": "med",
+        "traits": {
+            "rarity": "uncommon",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "clotting-marrow"
+    },
+    "_id": "VRjCvkZVZacwhoqZ",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The +2 item bonus to recovery checks (the dying-condition roll) and the auto-stabilize-if-alone-for-a-round clause both have no rule-element hook: no selector exists for the dying recovery check specifically (it is a hardcoded manual roll, not a modifiable stat), and stabilizing without a helper overrides the built-in dying flow the same way the mutations pass's The-Held-Breath/The-Waiting-Room do. The persistent-bleed reduction above is real: Resistance applies against persistent damage of the matching type same as any other instance (bleed is a confirmed real Resistance type, pf2e-source/src/scripts/config/iwr.ts:31,126,184).",
+            "augmentKind": "biological",
+            "augmentType": "graft",
+            "tier": "uncommon",
+            "slots": [
+                "Circulatory"
+            ],
+            "slotCost": 1,
+            "grade": 2,
+            "availability": "Cultured",
+            "level": 5,
+            "load": "+1",
+            "resonance": "+1"
+        }
+    }
+}

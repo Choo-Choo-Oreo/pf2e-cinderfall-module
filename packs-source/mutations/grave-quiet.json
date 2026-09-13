@@ -24,7 +24,9 @@
             "type": null
         },
         "price": {
-            "value": {}
+            "value": {
+                "gp": 0
+            }
         },
         "publication": {
             "license": "ORC",
@@ -46,21 +48,14 @@
     "_id": "xgJ0BNqWQiBRULE7",
     "flags": {
         "cinderfall": {
+            "incomplete": "\"Perception and Sense Motive checks to read your intent, mood or truthfulness against you automatically fail\" has no rule-element equivalent: pf2e rule elements on a held/worn item modify the wielder's own rolls, not another creature's roll made against the wielder -- confirmed no selector exists for 'an opposed check targeting the item-holder' anywhere in pf2e-source (the same gap flagged on the Cinderfall equipment pass's Suppressor card, site/data/cards/equipment/weapon-upgrades/weapon-upgrades.attach-suppressor.json).",
             "mutationType": "minor",
             "tier": "uncommon",
-            "slot": "Neural",
             "slots": [
                 "Neural"
             ],
             "slotCost": 1,
-            "roll": "d100 — 49–50",
-            "incomplete": [
-                "level is a stub (0); mutations carry no level",
-                "price is empty; a mutation is not bought"
-            ],
-            "inferred": [
-                "system.usage"
-            ]
+            "roll": "d100 — 49–50"
         }
     }
 }

@@ -1,0 +1,48 @@
+{
+    "name": "Verse of Silence",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
+        "description": {
+            "value": "<p>Some fevers break. Yours are trained not to. A Verse of Silence practitioner is the one who decides who stops struggling, and when.</p><hr /><p><strong>QUIET WARD —</strong> a cheaper, faster sicken/paralyze Verse, usable as an opener before anyone realizes you've already diagnosed them.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "otherTags": [
+                "plaguesworn-verse"
+            ],
+            "rarity": "common",
+            "value": [
+                "plaguesworn"
+            ]
+        },
+        "slug": "verse-of-silence"
+    },
+    "_id": "Da1ZVPkrBQ3UyQN5",
+    "flags": {
+        "cinderfall": {
+            "subclassOf": "plaguesworn",
+            "subclassChoice": "Choose Your Verse",
+            "role": "Quarantine &amp; Control",
+            "subclassLayer": "verse"
+        }
+    }
+}

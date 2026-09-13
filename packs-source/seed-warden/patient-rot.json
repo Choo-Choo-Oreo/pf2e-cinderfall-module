@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "seed-warden-blightline"
+            ],
             "rarity": "common",
             "value": [
                 "seed-warden"
@@ -33,5 +36,10 @@
         },
         "slug": "patient-rot"
     },
-    "_id": "nRS2ES2XDwTgNhAO"
+    "_id": "nRS2ES2XDwTgNhAO",
+    "flags": {
+        "cinderfall": {
+            "track": "blightline"
+        }
+    }
 }

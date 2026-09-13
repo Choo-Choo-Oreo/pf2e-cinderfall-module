@@ -33,5 +33,10 @@
         },
         "slug": "slow-reckoning"
     },
-    "_id": "oTO43rStF2jOmNnH"
+    "_id": "oTO43rStF2jOmNnH",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Splits an arbitrary future Overflow effect's resolution into three delayed thirds across turns -- no mechanism exists to defer/split an arbitrary spell's own resolution."
+        }
+    }
 }

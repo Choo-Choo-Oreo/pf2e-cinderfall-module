@@ -24,7 +24,9 @@
             "type": null
         },
         "price": {
-            "value": {}
+            "value": {
+                "gp": 0
+            }
         },
         "publication": {
             "license": "ORC",
@@ -32,7 +34,17 @@
             "title": "Cinderfall"
         },
         "quantity": 1,
-        "rules": [],
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "medicine",
+                "type": "circumstance",
+                "value": 1,
+                "predicate": [
+                    "action:treat-wounds"
+                ]
+            }
+        ],
         "size": "med",
         "traits": {
             "rarity": "epic",
@@ -48,19 +60,11 @@
         "cinderfall": {
             "mutationType": "minor",
             "tier": "epic",
-            "slot": "Arm",
             "slots": [
                 "Arm"
             ],
             "slotCost": 1,
-            "roll": "d100 — 91–92",
-            "incomplete": [
-                "level is a stub (0); mutations carry no level",
-                "price is empty; a mutation is not bought"
-            ],
-            "inferred": [
-                "system.usage"
-            ]
+            "roll": "d100 — 91–92"
         }
     }
 }

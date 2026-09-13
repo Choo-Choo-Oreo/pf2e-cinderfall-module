@@ -1,0 +1,46 @@
+{
+    "name": "The Final Course",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "free"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> A creature within 30 feet, whose level is at least your level - 3, is reduced to 0 Hit Points by your Rite or your attack.</p><hr /><p>You devour what's left before anything else can claim it. Immediately Cast a Rite you know without spending Zeal, as though you had just used the action to do so; it must target only you or the triggering creature's square. You also gain temporary Hit Points equal to twice your level, lasting 1 minute. Gluttoneth is rarely this satisfied, and rarely stays satisfied for long.</p>"
+        },
+        "level": {
+            "value": 20
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "otherTags": [
+                "cultist-gluttoneth"
+            ],
+            "rarity": "common",
+            "value": [
+                "cultist"
+            ]
+        },
+        "slug": "the-final-course"
+    },
+    "_id": "X3KKOQYTn3e9vpHr",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "\"Immediately Cast a known Rite at no Zeal cost, targeting only self or the creature's square\" is bucket 3: a limited-use trigger granting a wholly new usable action, no rule-element hook regardless of precedent. The accompanying temp-HP grant needs no rule element on its own (real pf2e never encodes triggered temp-HP grants via system.rules; see pf2e-source/packs/pf2e/feats/archetype/necrologist/level-8/dismal-harvest.json, rules: []).",
+            "track": "gluttoneth"
+        }
+    }
+}

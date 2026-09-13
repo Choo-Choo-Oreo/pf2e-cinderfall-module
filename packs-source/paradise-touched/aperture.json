@@ -1,0 +1,63 @@
+{
+    "name": "Choose Your Aperture",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
+        "description": {
+            "value": "<p><em>Choose Your Aperture</em></p><p>Choose one: The Archive, The Chorus, The Render.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "ChoiceSet",
+                "adjustName": false,
+                "flag": "aperture",
+                "prompt": "Choose Your Aperture",
+                "choices": {
+                    "filter": [
+                        "item:tag:paradise-touched-aperture"
+                    ]
+                }
+            },
+            {
+                "key": "GrantItem",
+                "uuid": "{item|flags.system.rulesSelections.aperture}"
+            }
+        ],
+        "traits": {
+            "otherTags": [],
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "aperture"
+    },
+    "_id": "WW7A0vrmB9Arb16l",
+    "flags": {
+        "cinderfall": {
+            "subclassOf": "paradise-touched",
+            "subclassLayer": "aperture",
+            "grants": [
+                "paradise-touched.the-archive",
+                "paradise-touched.the-chorus",
+                "paradise-touched.the-render"
+            ]
+        }
+    }
+}

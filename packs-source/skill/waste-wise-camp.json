@@ -1,0 +1,37 @@
+{
+    "name": "Waste-Wise Camp",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "skill",
+        "description": {
+            "value": "<p>You know how to pitch a camp that doesn't glow on a Geiger counter by morning. When you Camp in irradiated or otherwise hazardous terrain, you and everyone relying on your preparations take a -2 circumstance penalty to any exposure-based hazard that terrain would normally inflict overnight.</p>"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "waste-wise-camp"
+    },
+    "_id": "jS1iJ4ydvVS0GTfl",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The -2 penalty to an overnight exposure hazard is gated on 'irradiated or otherwise hazardous terrain', an environmental condition with no roll-option hook: pf2e's terrain roll options come from a closed environmentTypes enum (aquatic/arctic/desert/forest/mountain/plains/swamp/underground/urban; pf2e-source/src/module/scene/region-behavior/environment.ts:16-20, StringField choices restricted to that list) that has none of Cinderfall's wasteland terrain, and there is no GM-facing way to add to it. Real Rock Runner's own terrain:stone/terrain:earth predicate values aren't in that enum either, confirming this is a closed system, not a GM-extensible one. and hazard severity isn't exposed to a predicate regardless."
+        }
+    }
+}

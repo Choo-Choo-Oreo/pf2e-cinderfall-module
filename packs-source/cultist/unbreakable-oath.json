@@ -1,0 +1,42 @@
+{
+    "name": "Unbreakable Oath",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>You gain a +2 circumstance bonus to saves against effects that would force you to break a promise, oath, or bargain against your will, and against compulsion effects generally.</p>"
+        },
+        "level": {
+            "value": 16
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "cultist"
+            ]
+        },
+        "slug": "unbreakable-oath"
+    },
+    "_id": "qbswnaoNa8aId9zW",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "\"+2 circumstance vs effects forcing a broken promise/oath/bargain, and vs compulsion effects generally\" protects a homebrew narrative concept with no corresponding real pf2e trait -- there is no compulsion/oath-breaking trait in pf2e-source to predicate a bonus against."
+        }
+    }
+}

@@ -24,7 +24,32 @@
             "remaster": true,
             "title": "Cinderfall"
         },
-        "rules": [],
+        "rules": [
+            {
+                "key": "RollOption",
+                "option": "underledger-feared",
+                "toggleable": true,
+                "label": "The target fears the Underledger"
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "diplomacy",
+                "type": "circumstance",
+                "value": 2,
+                "predicate": [
+                    "action:gather-information"
+                ]
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "deception",
+                "type": "circumstance",
+                "value": 2,
+                "predicate": [
+                    "underledger-feared"
+                ]
+            }
+        ],
         "traits": {
             "rarity": "common",
             "value": [

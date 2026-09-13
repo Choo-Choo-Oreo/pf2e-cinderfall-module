@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "the-signal-enc"
+            ],
             "rarity": "common",
             "value": [
                 "the-signal"
@@ -33,5 +36,11 @@
         },
         "slug": "double-time"
     },
-    "_id": "vjw0HsAfTl6I9l8j"
+    "_id": "vjw0HsAfTl6I9l8j",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "SB1. No SpecialResource rule element exists for Encore, this class's own resource (defined only in prose in classes.the-signal.json's terms flag). SpecialResource can model a permanent resource pool (renew: false) per pf2e-source, so this is a real gap, not a schema limitation, but nothing in the corpus fills it -- no companion class-feature/ability/effect card holds it either.",
+            "track": "enc"
+        }
+    }
 }

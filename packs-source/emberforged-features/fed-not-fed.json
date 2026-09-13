@@ -1,0 +1,37 @@
+{
+    "name": "Fed, Not Fed",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "ancestryfeature",
+        "description": {
+            "value": "<p>Doesn't eat or sleep — needs periodic fuel or fresh Ghost-Static to avoid guttering out over long stretches without it.</p>"
+        },
+        "level": {
+            "value": 0
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "emberforged"
+            ]
+        },
+        "slug": "fed-not-fed"
+    },
+    "_id": "LRaKzjrEvOTmYI6P"
+}

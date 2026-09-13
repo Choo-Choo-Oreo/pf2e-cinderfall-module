@@ -1,0 +1,43 @@
+{
+    "name": "Credit",
+    "type": "treasure",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "bulk": {
+            "value": 0
+        },
+        "category": "material",
+        "description": {
+            "value": "<p>A ledger balance, not a coin. Cyber City and the other high-tech holds settle everything in credits — the monthly residency fee, the shops inside the wall, Yankee Combine contract pay. One credit is ten scraps; converting either direction costs a standing 10%, and a credit balance is worthless the moment you're outside the wall.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 0
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "traits": {
+            "rarity": "uncommon",
+            "value": []
+        },
+        "price": {
+            "value": {
+                "gp": 1
+            }
+        },
+        "slug": "credit"
+    },
+    "_id": "9u9kWKZUFzXLKGr3",
+    "flags": {
+        "cinderfall": {}
+    }
+}

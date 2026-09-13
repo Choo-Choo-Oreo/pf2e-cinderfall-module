@@ -1,32 +1,49 @@
 {
-    "_id": "M1hNHZoybkHJEOJp",
-    "categories": [],
     "name": "Open Band",
-    "ownership": {
-        "default": 0
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
+        "description": {
+            "value": "<p>        <p class=\"cc-desc\">Somebody yelling over a stolen tower about what the Licensed did last week, with names and dates. Open Band Signals are the reason three settlements have a curfew, and the reason two of them don't have one any more.</p>\n        <p class=\"cc-desc\">Allies in range gain a <strong>+1 status bonus to saves against fear and emotion effects</strong>. It is very hard to panic while somebody is still talking.</p>\n        <hr class=\"cc-divider\">\n        <div class=\"cc-effect\"><b>7th — Talk Back:</b> allies may spend Encore to reroll a failed <i>save</i>, not just a check, and get +1 circumstance on the reroll.</div>\n        <div class=\"cc-effect\"><b>15th — Everybody Listening:</b> Broadcast range becomes 120 feet, and allies who step out of it keep the benefits for 1 round.</div></p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "otherTags": [
+                "the-signal-frequency"
+            ],
+            "rarity": "common",
+            "value": [
+                "the-signal"
+            ]
+        },
+        "slug": "open-band-track"
     },
-    "pages": [
-        {
-            "_id": "wo8sZite5bzPjMWV",
-            "category": null,
-            "image": {},
-            "name": "Open Band",
-            "sort": 100000,
-            "src": null,
-            "system": {},
-            "text": {
-                "content": "<p><em>Pirate radio, live and illegal</em></p>        <p class=\"cc-desc\">Somebody yelling over a stolen tower about what the Licensed did last week, with names and dates. Open Band Signals are the reason three settlements have a curfew, and the reason two of them don't have one any more.</p>\n        <p class=\"cc-desc\">Allies in range gain a <strong>+1 status bonus to saves against fear and emotion effects</strong>. It is very hard to panic while somebody is still talking.</p>\n        <hr class=\"cc-divider\">\n        <div class=\"cc-effect\"><b>7th — Talk Back:</b> allies may spend Encore to reroll a failed <i>save</i>, not just a check, and get +1 circumstance on the reroll.</div>\n        <div class=\"cc-effect\"><b>15th — Everybody Listening:</b> Broadcast range becomes 120 feet, and allies who step out of it keep the benefits for 1 round.</div>",
-                "format": 1
-            },
-            "title": {
-                "level": 1,
-                "show": true
-            },
-            "type": "text",
-            "video": {
-                "controls": true,
-                "volume": 0.5
-            }
+    "_id": "M1hNHZoybkHJEOJp",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Same reasoning as `numbers-track` (SB4/SB3/P5). The 7th-level \"Talk Back\" (Encore-spend to reroll a save, SB1+SB2) and 15th-level \"Everybody Listening\" (range change + a benefit that persists after leaving range, SB3 plus a novel \"sticky\" duration shape not found in the 34-key inventory) compound the base blocker.",
+            "subclassOf": "the-signal",
+            "subclassChoice": "Choose Your Frequency",
+            "role": "Pirate radio, live and illegal",
+            "subclassLayer": "frequency"
         }
-    ]
+    }
 }

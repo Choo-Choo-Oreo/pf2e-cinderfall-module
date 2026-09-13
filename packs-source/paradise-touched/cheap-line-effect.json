@@ -1,0 +1,59 @@
+{
+    "name": "Effect: Cheap Line",
+    "type": "effect",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "description": {
+            "value": "<p><em>Applied by <strong>Cheap Line</strong> to the character who used it.</em></p>\n<hr />\n<p>Your Re-sync takes 5 minutes instead of 10 minutes. It recovers 1 Bandwidth as normal. Anyone who watches you do it finds you harder to like: you take a −1 circumstance penalty to your Diplomacy checks against such an observer for the rest of the day.</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "hours",
+            "value": 24
+        },
+        "level": {
+            "value": 2
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "RollOption",
+                "option": "cheap-line-observer",
+                "toggleable": true,
+                "label": "Against someone who watched you Re-sync"
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "diplomacy",
+                "type": "circumstance",
+                "value": -1,
+                "predicate": [
+                    "cheap-line-observer"
+                ]
+            }
+        ],
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "value": []
+        },
+        "slug": "cheap-line-effect"
+    },
+    "_id": "K3UeHrL64k0lAiKj",
+    "flags": {
+        "cinderfall": {
+            "effectOf": "paradise-touched.cheap-line",
+            "landsOn": "self"
+        }
+    }
+}

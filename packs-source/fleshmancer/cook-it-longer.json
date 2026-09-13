@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "fleshmancer-butchers"
+            ],
             "rarity": "common",
             "value": [
                 "fleshmancer"
@@ -33,5 +36,11 @@
         },
         "slug": "cook-it-longer"
     },
-    "_id": "c8IkM5hPVhZrGXBa"
+    "_id": "c8IkM5hPVhZrGXBa",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "\"Holding\" a consumable mid-throw as a tracked state, and dynamically bumping a homebrew item's damage dice/DC while held, has no selector -- this requires state-tracking a macro would normally handle, not a rule element.",
+            "track": "butchers"
+        }
+    }
 }

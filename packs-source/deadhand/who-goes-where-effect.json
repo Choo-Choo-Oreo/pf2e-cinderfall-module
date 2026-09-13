@@ -1,0 +1,50 @@
+{
+    "name": "Effect: Who Goes Where",
+    "type": "effect",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "description": {
+            "value": "<p><em>Applied by <strong>Who Goes Where</strong> to each affected ally.</em></p>\n<hr />\n<p>Up to three allies who can hear and understand you each gain a +1 circumstance bonus to AC until the start of your next turn, or may Step immediately, chosen individually for each ally. Allies who are surprised, unconscious, or unable to hear you gain nothing.</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "rounds",
+            "value": 1
+        },
+        "level": {
+            "value": 4
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "ac",
+                "type": "circumstance",
+                "value": 1
+            }
+        ],
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "value": []
+        },
+        "slug": "who-goes-where-effect"
+    },
+    "_id": "6suJsdka0nSVaCSM",
+    "flags": {
+        "cinderfall": {
+            "effectOf": "deadhand.who-goes-where",
+            "landsOn": "ally"
+        }
+    }
+}

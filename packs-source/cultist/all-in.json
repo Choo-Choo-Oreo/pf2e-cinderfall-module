@@ -1,0 +1,45 @@
+{
+    "name": "All In",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You are about to roll a check, attack roll, or saving throw.</p><p><strong>Cost</strong> 2 Zeal</p><hr /><p>Roll twice and take the better result. This is a fortune effect. If you do not succeed anyway, the Zeal spent is refunded — the house never charges for a loss this big.</p>"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "otherTags": [
+                "cultist-croupier"
+            ],
+            "rarity": "common",
+            "value": [
+                "cultist"
+            ]
+        },
+        "slug": "all-in"
+    },
+    "_id": "QvGSZ9OvwvgNB10F",
+    "flags": {
+        "cinderfall": {
+            "track": "croupier"
+        }
+    }
+}

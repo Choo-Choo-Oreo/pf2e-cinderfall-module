@@ -1,0 +1,41 @@
+{
+    "name": "Break the Room",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "skill",
+        "description": {
+            "value": "<p>You know how to make a whole room reconsider its life choices at once. When you Demoralize, you can target all enemies within 15 feet who can see and hear you at a -2 circumstance penalty to the action, instead of a single creature at no penalty.</p>"
+        },
+        "level": {
+            "value": 8
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Expert in Intimidation"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "break-the-room"
+    },
+    "_id": "tpnvWjBvEee7Jz7j",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "This changes Demoralize's targeting profile (single target -> all creatures in a 15-foot radius) rather than adjusting a check total; no rule element retargets an existing action's scope."
+        }
+    }
+}

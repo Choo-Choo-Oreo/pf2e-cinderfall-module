@@ -1,0 +1,48 @@
+{
+    "name": "Ghost-Static Covenant",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
+        "description": {
+            "value": "<p>You house the dead who never really left their posts — factory hands, rail conductors, gunnery crews, the countless souls the pre-Turning war machine wired directly into its equipment and then simply forgot to unwire when they died. They're calm, competent, and think in schematics.</p><hr /><p>\n          <ul>\n            <li>In Quiet, machine-spirits read as legible to you — the condition, mood, and last few commands of a piece of ghost-machinery come through like a technician reading a gauge.</li>\n            <li><strong>Dead Hand's Grip:</strong> Unveiled, you can activate a nearby machine — friendly or hostile — making it perform a function for you, or seizing a hostile one in place for a round.</li>\n            <li>Lowest average Toll growth of the three Covenants; a Ghost-Static spirit forgives an honest ask. It just never forgives a dishonest one.</li>\n          </ul>\n        </p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "otherTags": [
+                "hollowbound-covenant"
+            ],
+            "rarity": "common",
+            "value": [
+                "hollowbound"
+            ]
+        },
+        "slug": "ghost-static-covenant"
+    },
+    "_id": "Y5ggSCMLUAgs9L5I",
+    "flags": {
+        "cinderfall": {
+            "subclassOf": "hollowbound",
+            "subclassChoice": "Who You Bind",
+            "role": "Machine Spirits",
+            "subclassLayer": "covenant"
+        }
+    }
+}

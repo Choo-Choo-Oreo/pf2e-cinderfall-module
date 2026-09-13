@@ -24,7 +24,9 @@
             "type": null
         },
         "price": {
-            "value": {}
+            "value": {
+                "gp": 0
+            }
         },
         "publication": {
             "license": "ORC",
@@ -46,21 +48,14 @@
     "_id": "10EpnBWg5VNcV4k6",
     "flags": {
         "cinderfall": {
+            "incomplete": "The whole ability is a once-per-day reaction that sheds skin to auto-escape a grab/restrain/bind, with a following 24-hour clumsy/touch penalty as its direct consequence -- granting a new limited-use reaction is the same class of gap as Loyal-Blood, out of scope for a rule-element-only pass.",
             "mutationType": "minor",
             "tier": "rare",
-            "slot": "Dermal",
             "slots": [
                 "Dermal"
             ],
             "slotCost": 1,
-            "roll": "d100 — 87–88",
-            "incomplete": [
-                "level is a stub (0); mutations carry no level",
-                "price is empty; a mutation is not bought"
-            ],
-            "inferred": [
-                "system.usage"
-            ]
+            "roll": "d100 — 87–88"
         }
     }
 }

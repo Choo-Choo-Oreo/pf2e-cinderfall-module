@@ -1,0 +1,46 @@
+{
+    "name": "One More Thing",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Cost</strong> 2 Zeal</p><p><strong>Trigger</strong> You reduce a creature to 0 Hit Points.</p><p><strong>Frequency</strong> once per day</p><hr /><p>Immediately Cast a Rite you know as a free action, targeting only a creature within 30 feet; its Zeal cost is unchanged. Wrath is never quite finished when it looks finished.</p>"
+        },
+        "level": {
+            "value": 14
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "otherTags": [
+                "cultist-last-word"
+            ],
+            "rarity": "common",
+            "value": [
+                "cultist"
+            ]
+        },
+        "slug": "one-more-thing"
+    },
+    "_id": "PjESfcLy4Mle1Osf",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "\"Cost 2 Zeal, Trigger reduce a creature to 0 HP, Frequency 1/day: immediately Cast a known Rite as a free action at a creature within 30 feet, cost unchanged\" is bucket 3: a limited-use trigger granting a wholly new usable action. Action/reaction-granting has no rule-element hook regardless of precedent, per this pass's fixed convention -- also separately blocked by P-ZEAL for the Cost 2 Zeal clause.",
+            "track": "last-word"
+        }
+    }
+}

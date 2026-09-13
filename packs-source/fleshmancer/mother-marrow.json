@@ -1,32 +1,15 @@
 {
-    "_id": "ozV3bRF1JZz26oaN",
-    "categories": [],
     "name": "Mother Marrow",
-    "ownership": {
-        "default": 0
+    "type": "lore",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "description": {
+            "value": "<p>Born in a mass grave-turned-nursery, where enough desperate mothers and field-healers poured hope and blood-magic into keeping infants alive through the Long Fall that something coalesced and started listening back. She appears, if at all, as a shifting many-armed silhouette wrapped in half-formed newborn faces, none of them finished, none of them screaming.</p><p>She grants healers and grafters an uncanny surgical luck — the cut that shouldn't have worked, the transplant that takes on the first try.</p><hr /><p>UNLOCK — \"Petition Mother Marrow\" (6th level, requires a successful birth or a life saved against real odds) opens access to Mother Marrow's Gift at 18th level.</p>"
+        },
+        "slug": "mother-marrow"
     },
-    "pages": [
-        {
-            "_id": "78pDnRCaN1MzFMY5",
-            "category": null,
-            "image": {},
-            "name": "Mother Marrow",
-            "sort": 100000,
-            "src": null,
-            "system": {},
-            "text": {
-                "content": "<p><em>Grafts · Fertility of Flesh · Mutation as Blessing</em></p>      <p class=\"cc-desc\">Born in a mass grave-turned-nursery, where enough desperate mothers and field-healers poured hope and blood-magic into keeping infants alive through the Long Fall that something coalesced and started listening back. She appears, if at all, as a shifting many-armed silhouette wrapped in half-formed newborn faces, none of them finished, none of them screaming.</p>\n      <p class=\"cc-desc\">She grants healers and grafters an uncanny surgical luck — the cut that shouldn't have worked, the transplant that takes on the first try.</p>\n      <hr class=\"cc-divider\">\n      <div class=\"cc-effect\">UNLOCK — \"Petition Mother Marrow\" (6th level, requires a successful birth or a life saved against real odds) opens access to Mother Marrow's Gift at 18th level.</div>",
-                "format": 1
-            },
-            "title": {
-                "level": 1,
-                "show": true
-            },
-            "type": "text",
-            "video": {
-                "controls": true,
-                "volume": 0.5
-            }
-        }
-    ]
+    "_id": "ozV3bRF1JZz26oaN",
+    "flags": {
+        "cinderfall": {}
+    }
 }

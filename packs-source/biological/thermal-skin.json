@@ -1,0 +1,77 @@
+{
+    "name": "Thermal Skin",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>Cultured insulating dermis over a countercurrent capillary net. Resistance 3 to cold and 3 to fire; you treat severe environmental heat and cold as one step less severe; you cast almost no heat signature.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 7
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "mk": 360
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "Resistance",
+                "type": "cold",
+                "value": 3
+            },
+            {
+                "key": "Resistance",
+                "type": "fire",
+                "value": 3
+            }
+        ],
+        "size": "med",
+        "traits": {
+            "rarity": "uncommon",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "thermal-skin"
+    },
+    "_id": "OSf25I7bbW8jV7N2",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Treating severe environmental heat/cold as one step less severe, and casting no heat signature, both have no engine hook -- confirmed absence, same class as Antifreeze-Plasma (no environmental-hazard-severity rule element exists anywhere in pf2e).",
+            "augmentKind": "biological",
+            "augmentType": "graft",
+            "tier": "uncommon",
+            "slots": [
+                "Dermal"
+            ],
+            "slotCost": 1,
+            "grade": 2,
+            "availability": "Cultured",
+            "level": 7,
+            "load": "+1",
+            "resonance": "+1"
+        }
+    }
+}

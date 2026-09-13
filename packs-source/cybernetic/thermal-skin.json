@@ -1,0 +1,76 @@
+{
+    "name": "Thermal Skin",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>Regulating dermal layer. Resistance 3 to fire and cold. Treat extreme environmental heat/cold as one step less severe.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 3
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "gp": 60
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "Resistance",
+                "type": "fire",
+                "value": 3
+            },
+            {
+                "key": "Resistance",
+                "type": "cold",
+                "value": 3
+            }
+        ],
+        "size": "med",
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "thermal-skin"
+    },
+    "_id": "qd1xwF7V9hRoCuTW",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Treating extreme environmental heat/cold as one step less severe has no engine hook -- confirmed absence, same finding as the biological Thermal-Skin and Antifreeze-Plasma (no environmental-hazard-severity rule element exists anywhere in pf2e).",
+            "augmentKind": "cybernetic",
+            "augmentType": "implant",
+            "tier": "common",
+            "slots": [
+                "Dermal"
+            ],
+            "slotCost": 1,
+            "grade": 1,
+            "availability": "Licensed",
+            "level": 3,
+            "drift": "+1"
+        }
+    }
+}

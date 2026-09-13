@@ -1,0 +1,41 @@
+{
+    "name": "Exorcist's Steady Hand",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "skill",
+        "description": {
+            "value": "<p>You've pulled Hive-touched hosts and Choir zealots alike back from the brink without flinching. You gain a +2 circumstance bonus to checks to Repeat a Ritual or counteract possession-based effects, and a critical failure never harms you directly.</p>"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Expert in Religion"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "exorcists-steady-hand"
+    },
+    "_id": "y0h7XOkNIv6Skvpe",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "'Repeat a Ritual' and 'counteract possession-based effects' have no confirmed action tags to predicate on (rituals are a separate document type from standard skill actions), and the critical-failure protection ('never harms you directly') has no hook either."
+        }
+    }
+}

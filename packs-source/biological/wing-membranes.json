@@ -1,0 +1,70 @@
+{
+    "name": "Wing Membranes",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>Skin-and-strut wings grown off a rebuilt shoulder girdle and both forearms. Fly Speed 30 feet while no more than lightly encumbered. Flying occupies both arms (no hands) unless the wings are folded; folded, you can always Glide.</p><p><b>Rider:</b> They want the sky before a storm. In the hours before bad weather you are restless and take a –1 status penalty to Will saves to resist an urge to get airborne.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 14
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "mk": 3000
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "traits": {
+            "rarity": "epic",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "wing-membranes"
+    },
+    "_id": "NVy6Tpg817mHxeBs",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The Fly Speed is explicitly conditioned on 'no more than lightly encumbered,' but no roll option or predicate for the actor's current encumbrance/load state exists anywhere in pf2e-source (checked base-speed.ts and the wider engine) -- granting it unconditionally would overstate a gated claim (over-applying is worse than under-applying), so the whole grant is flagged rather than shipped ungated. 'Flying occupies both arms unless folded' and the storm-restlessness Will penalty also have no hook: nothing ties a granted movement type to hand/arm availability, and 'restless before a storm' has no weather-trigger mechanism anywhere in pf2e.",
+            "augmentKind": "biological",
+            "augmentType": "graft",
+            "tier": "epic",
+            "slots": [
+                "Frame",
+                "Arm"
+            ],
+            "slotCost": 2,
+            "grade": 4,
+            "availability": "Wild",
+            "level": 14,
+            "load": "+5",
+            "resonance": "+4",
+            "augTags": [
+                "wild"
+            ]
+        }
+    }
+}

@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "deadhand-bulwark"
+            ],
             "rarity": "common",
             "value": [
                 "deadhand"
@@ -33,5 +36,10 @@
         },
         "slug": "step-behind-me"
     },
-    "_id": "STC0gZsq8KJIUduA"
+    "_id": "STC0gZsq8KJIUduA",
+    "flags": {
+        "cinderfall": {
+            "track": "bulwark"
+        }
+    }
 }

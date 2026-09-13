@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "ironsight-foul-iron"
+            ],
             "rarity": "common",
             "value": [
                 "ironsight"
@@ -33,5 +36,10 @@
         },
         "slug": "know-the-mixture"
     },
-    "_id": "3nF93ikUWqYT0JnY"
+    "_id": "3nF93ikUWqYT0JnY",
+    "flags": {
+        "cinderfall": {
+            "track": "foul-iron"
+        }
+    }
 }

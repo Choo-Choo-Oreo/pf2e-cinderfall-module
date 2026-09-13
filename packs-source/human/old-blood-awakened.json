@@ -1,0 +1,60 @@
+{
+    "name": "Old Blood Awakened",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "ancestry",
+        "description": {
+            "value": "<p>The resistance granted by Old Blood becomes immunity to that same hazard type.</p>"
+        },
+        "level": {
+            "value": 17
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Old Blood"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "Immunity",
+                "type": "poison",
+                "predicate": [
+                    "heritage:old-blood:poison"
+                ]
+            },
+            {
+                "key": "Immunity",
+                "type": "disease",
+                "predicate": [
+                    "heritage:old-blood:disease"
+                ]
+            },
+            {
+                "key": "Immunity",
+                "type": "radiation",
+                "predicate": [
+                    "heritage:old-blood:radiation"
+                ]
+            }
+        ],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "human"
+            ]
+        },
+        "slug": "old-blood-awakened"
+    },
+    "_id": "h2sEadmCCQmLVvDV"
+}

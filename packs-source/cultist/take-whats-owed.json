@@ -1,0 +1,45 @@
+{
+    "name": "Take What's Owed",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Range</strong> 30 feet</p><p><strong>Targets</strong> 1 creature that is fascinated with you or that failed a Will save against one of your effects this encounter</p><p><strong>Frequency</strong> once per day</p><p><strong>Saving Throw</strong> Will</p><hr /><p>The target must succeed at a Will save against your class DC or, at the start of its next turn, move up to its Speed toward you by the path of its choice as a free action, provoking as normal; on a critical failure it also can't attack you that turn. Desire is a leash, if you know how to hold it.</p>"
+        },
+        "level": {
+            "value": 8
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "otherTags": [
+                "cultist-claimant"
+            ],
+            "rarity": "common",
+            "value": [
+                "cultist"
+            ]
+        },
+        "slug": "take-whats-owed"
+    },
+    "_id": "6Hq0wnGOEuNlEQys",
+    "flags": {
+        "cinderfall": {
+            "track": "claimant"
+        }
+    }
+}

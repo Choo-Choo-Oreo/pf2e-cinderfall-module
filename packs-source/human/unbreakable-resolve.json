@@ -1,0 +1,43 @@
+{
+    "name": "Unbreakable Resolve",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "ancestry",
+        "description": {
+            "value": "<p>Adaptive Resolve becomes a flat status bonus to all saves instead, applied automatically without needing to fail first.</p>"
+        },
+        "level": {
+            "value": 13
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Adaptive Resolve"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "human"
+            ]
+        },
+        "slug": "unbreakable-resolve"
+    },
+    "_id": "3yQX6fhfdBJYqhvH",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Converting Adaptive Resolve into 'a flat status bonus to all saves' states no numeric value for that bonus. The card states a bonus/effect but gives no numeric value or formula to build a rule element from without inventing one."
+        }
+    }
+}

@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "fleshmancer-butchers"
+            ],
             "rarity": "common",
             "value": [
                 "fleshmancer"
@@ -33,5 +36,11 @@
         },
         "slug": "short-fuse"
     },
-    "_id": "dWVQrPIOetk2n1ce"
+    "_id": "dWVQrPIOetk2n1ce",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The action-economy compression (retrieve-and-throw as one action) matches Pattern ACTION-FREE and needs no rules entry (pf2e-source/packs/pf2e/feats/class/shared-class-feats/level-2/quick-draw.json, rules: []). The \"+1 DC if the target is unaware of you\" clause is unhookable: pf2e doesn't expose a generic \"target is unaware of you\" predicate distinct from off-guard/flanking.",
+            "track": "butchers"
+        }
+    }
 }

@@ -1,0 +1,43 @@
+{
+    "name": "Silent No Longer",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "ancestry",
+        "description": {
+            "value": "<p>Regain The Hymn Underneath's full range and awareness without any of the involuntary drawback.</p>"
+        },
+        "level": {
+            "value": 13
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Silent Hymnkin heritage or Steadier Hymn"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "hymnkin"
+            ]
+        },
+        "slug": "silent-no-longer"
+    },
+    "_id": "096421uJfd3JXqFW",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The parent card this upgrades ships rules: [] itself (confirmed by direct read), so there is nothing real to extend or increase. (The Hymn Underneath has no rules or drawback encoded to remove.)"
+        }
+    }
+}

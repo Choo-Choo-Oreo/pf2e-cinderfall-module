@@ -1,0 +1,50 @@
+{
+    "name": "The Pyre",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
+        "description": {
+            "value": "<p>Some souls don't want to leave, and you don't ask twice. A Pyre forces the passage through resistance — the ferrying itself becomes an attack, not a mercy.</p><hr /><p><strong>FORCED PASSAGE —</strong> can attempt a Passing on an unwilling target as a hostile action, at a steeper Passage cost. The target gets a Will save against your class DC to resist.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "otherTags": [
+                "ashcantor-path"
+            ],
+            "rarity": "common",
+            "value": [
+                "ashcantor"
+            ]
+        },
+        "slug": "the-pyre"
+    },
+    "_id": "WYs0E0jgsCA5T6N4",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "This card's own flags.cinderfall.followUp already states the signature spell 'The Pyre' still needs its own spell document -- a self-acknowledged placeholder, not a newly found gap. This card is also the parent that Forced Passage, Wider fails to extend: its own baseline Forced Passage mechanic (a Will save vs. class DC) is prose-only, with no rule element built for it yet either.",
+            "subclassOf": "ashcantor",
+            "subclassChoice": "Choose Your Path",
+            "role": "Ones That Fight Going — Striker",
+            "followUp": "signature spell 'The Pyre' still needs its own spell document; the card renders on spells-abilities.html as a spell-entry and its statline/body are authored above",
+            "subclassLayer": "path"
+        }
+    }
+}

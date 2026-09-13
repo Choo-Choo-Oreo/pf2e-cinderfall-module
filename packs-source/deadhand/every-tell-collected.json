@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "deadhand-second"
+            ],
             "rarity": "common",
             "value": [
                 "deadhand"
@@ -33,5 +36,11 @@
         },
         "slug": "every-tell-collected"
     },
-    "_id": "dVVc6y7eYvLUy84U"
+    "_id": "dVVc6y7eYvLUy84U",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "After 3 rounds attacking the mark: permanently see it though hidden/invisible, and it gains nothing from being undetected against the caster. No rule element counts \"rounds in which the caster attacked a specific creature\" -- a dynamic per-target counter with no analog anywhere in the engine -- and Sense's selector field is a closed enum (pf2e-source/src/module/rules/rule-element/sense.ts:23) with no entry for \"see one specific creature regardless of concealment.\" This class's own target:mark:<slug> predicate idiom (deadhand.call-the-room-effect.json, etc.) is also unfireable here: no card anywhere in this corpus ever applies a mark:<slug> option to a target actor.",
+            "track": "second"
+        }
+    }
 }

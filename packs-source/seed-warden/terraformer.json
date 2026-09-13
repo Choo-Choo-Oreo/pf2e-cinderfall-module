@@ -34,5 +34,10 @@
         },
         "slug": "terraformer"
     },
-    "_id": "gdq6aV66rPYTQFuz"
+    "_id": "gdq6aV66rPYTQFuz",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Retargets a spell's own `time`/`area` fields (no RE, `CF-list`) and its conditional interaction with Greenline is itself `BLOOMROT-NULL`-blocked (Greenline's own bonus can't be built, so there's nothing for this to redirect). Bucket 5."
+        }
+    }
 }

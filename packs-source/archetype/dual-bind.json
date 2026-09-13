@@ -35,5 +35,10 @@
         },
         "slug": "dual-bind"
     },
-    "_id": "3U8A4HAWZGMDx7gn"
+    "_id": "3U8A4HAWZGMDx7gn",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Housing a second bound soul, applying two item bonuses, and doubling Temper's rise rate are all built on Temper and soul-binding, Cinderfall's own subsystem with no representation anywhere in the actor schema -- there is no 'Temper' attribute or roll option for a rule element to read or modify."
+        }
+    }
 }

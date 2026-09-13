@@ -24,7 +24,9 @@
             "type": null
         },
         "price": {
-            "value": {}
+            "value": {
+                "gp": 0
+            }
         },
         "publication": {
             "license": "ORC",
@@ -46,21 +48,14 @@
     "_id": "aQUxrE3m1Osgjj0m",
     "flags": {
         "cinderfall": {
+            "incomplete": "\"Persistent bleed on you is easier to stop (DC 10 instead of 15)\" has no confirmed rule-element hook: unlike the dying condition's recovery DC (system.attributes.dying.recoveryDC, adjustable via ActiveEffectLike -- real precedent: pf2e-source/packs/pf2e/equipment-effects/effect-resurrection-tea.json), a persistent condition's own flat-check DC is tracked per-instance on the condition, not as a global actor attribute, and no rule element adjusting it was found.",
             "mutationType": "major",
             "tier": "uncommon",
-            "slot": "Dermal",
             "slots": [
                 "Dermal"
             ],
             "slotCost": 1,
-            "roll": "d20 — 3",
-            "incomplete": [
-                "level is a stub (0); mutations carry no level",
-                "price is empty; a mutation is not bought"
-            ],
-            "inferred": [
-                "system.usage"
-            ]
+            "roll": "d20 — 3"
         }
     }
 }

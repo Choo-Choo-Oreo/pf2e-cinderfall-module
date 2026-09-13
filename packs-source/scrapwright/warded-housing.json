@@ -27,5 +27,10 @@
         },
         "slug": "warded-housing"
     },
-    "_id": "nQFT0HXeLjtnY5UW"
+    "_id": "nQFT0HXeLjtnY5UW",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The scaling-Resistance-by-level shape itself is trivially real (Rubbery Skin precedent) -- but the target is explicitly \"your Rig's core,\" and [RIG-GENERIC-AMBIGUOUS]/[RIG-NO-ACTOR] mean there is no single, consistent item/actor to attach a Resistance rule element to across all three Rig choices. Would be REAL if retargeted at the PC directly; it is not written that way."
+        }
+    }
 }

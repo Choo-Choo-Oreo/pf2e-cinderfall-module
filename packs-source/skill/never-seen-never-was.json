@@ -1,0 +1,41 @@
+{
+    "name": "Never Seen, Never Was",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "skill",
+        "description": {
+            "value": "<p>Settlements you've infiltrated sometimes never even register that anything was taken. Once per day, after a successful Hide or Sneak, you can attempt a single Deception check to convince one creature that noticed indirect evidence of you (a disturbed lock, a missing item) that nothing happened at all.</p>"
+        },
+        "level": {
+            "value": 16
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Master in Stealth"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "never-seen-never-was"
+    },
+    "_id": "66W1gqYeNMdz1Dxb",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "No rule-element key lets a Deception check retroactively erase another creature's noticed evidence."
+        }
+    }
+}

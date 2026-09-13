@@ -1,0 +1,45 @@
+{
+    "name": "Nothing Left Unsaid",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 2
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Cost</strong> 2 Zeal</p><p><strong>Range</strong> 30 feet</p><p><strong>Area</strong> 20-foot burst</p><p><strong>Frequency</strong> once per day</p><p><strong>Saving Throw</strong> basic Reflex</p><hr /><p>Each creature in the area takes 8d6 fire damage (basic Reflex save against your class DC); those that fail also become <em>frightened 1</em>. Wrath has run out of patience, which never took long to begin with.</p>"
+        },
+        "level": {
+            "value": 16
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "otherTags": [
+                "cultist-last-word"
+            ],
+            "rarity": "common",
+            "value": [
+                "cultist"
+            ]
+        },
+        "slug": "nothing-left-unsaid"
+    },
+    "_id": "HqtOSsBvFlZA3gF0",
+    "flags": {
+        "cinderfall": {
+            "track": "last-word"
+        }
+    }
+}

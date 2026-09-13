@@ -1,0 +1,39 @@
+{
+    "name": "Old World Echo",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "ancestry",
+        "description": {
+            "value": "<p>Bonus to Recall Knowledge checks about pre-Turning history, technology, or culture. Humans are the throughline generation to generation.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "human"
+            ]
+        },
+        "slug": "old-world-echo"
+    },
+    "_id": "XQdzYf5qjEDwNeKD",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Recall-Knowledge-about-a-specific-lore-topic bonuses have no predicate hook -- confirmed via liminal-catfolk.json's real but trait-scoped precedent; a free-text lore topic like this one can't be targeted. ('Recall Knowledge checks about pre-Turning history, technology, or culture' is the same shape.)"
+        }
+    }
+}

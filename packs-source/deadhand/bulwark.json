@@ -1,0 +1,48 @@
+{
+    "name": "Bulwark",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
+        "description": {
+            "value": "<p>Somebody has to be the reason the line doesn't break, and you got tired of watching it happen to other people. Free Haven militias and caravan-guard contracts fight over Bulwarks by name — the kind of soldier a whole convoy survives because of.</p><hr /><p><strong>SIGNATURE —</strong> plant and hold ground, redirecting hits meant for allies within reach onto yourself, at a discount.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "otherTags": [
+                "deadhand-trade"
+            ],
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "bulwark"
+    },
+    "_id": "jeQ9MDMxwD0AfoLI",
+    "flags": {
+        "cinderfall": {
+            "subclassOf": "deadhand",
+            "subclassChoice": "Choose Your Trade",
+            "role": "Shield &amp; Line-Holding",
+            "subclassLayer": "trade"
+        }
+    }
+}

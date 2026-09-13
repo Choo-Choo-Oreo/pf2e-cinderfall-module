@@ -1,0 +1,935 @@
+{
+    "name": "Ironsight",
+    "type": "class",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "ancestryFeatLevels": {
+            "value": [
+                1,
+                5,
+                9,
+                13,
+                17
+            ]
+        },
+        "attacks": {
+            "simple": 1,
+            "martial": 1,
+            "advanced": 0,
+            "unarmed": 1,
+            "other": {
+                "name": "advanced firearms & crossbows, weapons",
+                "rank": 1
+            }
+        },
+        "classFeatLevels": {
+            "value": [
+                2,
+                4,
+                6,
+                8,
+                10,
+                12,
+                14,
+                16,
+                18,
+                20
+            ]
+        },
+        "defenses": {
+            "unarmored": 1,
+            "light": 1,
+            "medium": 1,
+            "heavy": 0
+        },
+        "description": {
+            "value": "<p>Everybody's carrying scrap. You're the one still alive because you know exactly how much to trust it.</p>"
+        },
+        "generalFeatLevels": {
+            "value": [
+                3,
+                7,
+                11,
+                15,
+                19
+            ]
+        },
+        "hp": 10,
+        "items": {
+            "ironsight.draw": {
+                "level": 1,
+                "name": "Choose Your Draw"
+            },
+            "ironsight.every-gun-youll-ever-need": {
+                "level": 17,
+                "name": "Every Gun You'll Ever Need"
+            },
+            "ironsight.you-dont-aim-anymore": {
+                "level": 11,
+                "name": "You Don't Aim Anymore"
+            },
+            "ironsight.youve-held-worse": {
+                "level": 5,
+                "name": "You've Held Worse"
+            }
+        },
+        "keyAbility": {
+            "value": [
+                "dex"
+            ]
+        },
+        "perception": 2,
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "MartialProficiency",
+                "slug": "advanced-firearms-crossbows",
+                "label": "Advanced Firearms & Crossbows",
+                "definition": [
+                    "item:category:advanced",
+                    {
+                        "or": [
+                            "item:group:firearm",
+                            "item:group:crossbow"
+                        ]
+                    }
+                ],
+                "value": 1
+            }
+        ],
+        "savingThrows": {
+            "fortitude": 1,
+            "reflex": 2,
+            "will": 1
+        },
+        "skillFeatLevels": {
+            "value": [
+                2,
+                4,
+                6,
+                8,
+                10,
+                12,
+                14,
+                16,
+                18,
+                20
+            ]
+        },
+        "skillIncreaseLevels": {
+            "value": [
+                3,
+                5,
+                7,
+                9,
+                11,
+                13,
+                15,
+                17,
+                19
+            ]
+        },
+        "slug": "ironsight",
+        "spellcasting": 0,
+        "trainedSkills": {
+            "additional": 3,
+            "value": []
+        },
+        "traits": {
+            "rarity": "common",
+            "value": []
+        }
+    },
+    "_id": "Ne8gzaKCsU7NNsPA",
+    "flags": {
+        "cinderfall": {
+            "tagline": "Everybody's carrying scrap. You're the one still alive because you know exactly how much to trust it.",
+            "role": "Firearms Specialist",
+            "pillar": "The Gear Economy",
+            "hpFormula": "10 + Con / level",
+            "keyAbilityText": "Dexterity",
+            "terms": [
+                [
+                    "Gun Failure",
+                    "Not an Ironsight rule — a wasteland rule. When anyone's attack roll with a firearm is a natural 1, or falls inside that weapon's Failure Range, the attack misses and the shooter rolls on the Gun Failure Table (§4). Every class lives with this. One class survives it."
+                ],
+                [
+                    "Failure Range",
+                    "How far down the die a gun can betray you, read straight off its rarity on the §4 ladder. Old World (Legendary) never fails — Turning Good (Epic) on a natural 1 — Good-Made (Rare) on 1–2 — Pipe Gun (Uncommon) on 1–3 — Scrap Gun (Common) on 1–4. A Hot Load widens your Failure Range by 1 for that shot."
+                ],
+                [
+                    "Nothing Dies in Your Hands",
+                    "Your 1st-level class feature, and the whole reason to be an Ironsight. <strong>You roll a d6 on the Gun Failure Table. Everyone else rolls a d8.</strong> The bottom two results — the gun dead for the scene, the gun coming apart — cannot happen to you. Guns fail for everybody. Guns don't die for you."
+                ],
+                [
+                    "Draw",
+                    "Your subclass, chosen at 1st level. A Draw is a distance you choose to fight at and what you do when you get there — it is not a weapon category. Any firearm can be pushed toward any Draw; a gun suited to that range simply arrives without being pushed."
+                ],
+                [
+                    "Singular Expertise",
+                    "Your Draw's techniques work with one firearm at a time — your <strong>Iron</strong>, named when you rest. Any gun can be your Iron regardless of your Draw. Ten minutes of handling names a new one. You are not a person who is good with guns; you are a person who is good with <em>this</em> gun."
+                ],
+                [
+                    "Called Shot",
+                    "A shot aimed at something in particular — a knee, a seam in the plating, a fuel line. Any Strike a feat labels a Called Shot takes a −2 penalty to the attack roll and delivers that feat's named effect on a hit."
+                ],
+                [
+                    "Hot Load",
+                    "Deliberately overcharging a shot for more damage right now. It widens your Failure Range by 1 for that shot. That is the entire cost — one number, visible on your sheet before you decide."
+                ],
+                [
+                    "The Last Round",
+                    "Your Finisher — a single devastating action, unlocked at 11th level. Built toward across a fight through the hits you land, the Hot Loads you risk, and the failures you shrug off, rather than any one fixed trigger."
+                ],
+                [
+                    "Old World Gun",
+                    "A pre-collapse firearm, intact against all odds. <strong>Legendary</strong> rarity — the top of the gun ladder — with no Failure Range, and it grows more capable the longer you carry it. A <em>named</em> Old World gun of which exactly one exists, like the two in §5, is Unique instead. Always found, never bought outright — the kind of find that defines a campaign arc."
+                ],
+                [
+                    "Good Gun Bond",
+                    "At 15th level you name your Iron and it stops being equipment. It permanently rises one step up the §4 rarity ladder (to a maximum of Legendary, which is to say Old World), it finds its way back to you within a day of being taken, and when it would be destroyed outright it simply isn't — it comes back broken, and it comes back."
+                ],
+                [
+                    "Dead Man's Hand",
+                    "At 19th level, your Iron always has one more round in it at the moment that decides a fight, ammunition be damned. Class-wide: every Ironsight is granted this, whatever their Draw."
+                ],
+                [
+                    "One Bullet, One Legend",
+                    "At 20th level, once per day, a single shot that is an automatic critical hit against any one target you can see, at any range. Fired from an Old World gun it becomes local legend — told wrong, and better, in three different bars inside a month. Class-wide, and granted alongside your Draw's Major Capstone."
+                ]
+            ],
+            "classDC": [
+                {
+                    "term": "class dc",
+                    "rank": 1
+                }
+            ],
+            "progression": [
+                {
+                    "level": 1,
+                    "grants": [
+                        [
+                            "Draw",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Singular Expertise",
+                            ",",
+                            null
+                        ],
+                        [
+                            " <strong>Nothing Dies in Your Hands</strong>",
+                            ",",
+                            null
+                        ],
+                        [
+                            " starting Scrap Gun",
+                            ",",
+                            null
+                        ],
+                        [
+                            " initial proficiencies",
+                            ",",
+                            "initial proficiencies"
+                        ],
+                        [
+                            " ancestry feat",
+                            "",
+                            "ancestry feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Trained: light &amp",
+                            ";",
+                            null
+                        ],
+                        [
+                            " medium armor",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Class DC",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Fortitude",
+                            ",",
+                            null
+                        ],
+                        [
+                            " unarmored defense",
+                            ",",
+                            null
+                        ],
+                        [
+                            " weapons",
+                            ",",
+                            null
+                        ],
+                        [
+                            " advanced firearms &amp",
+                            ";",
+                            null
+                        ],
+                        [
+                            " crossbows",
+                            ",",
+                            null
+                        ],
+                        [
+                            " simple &amp",
+                            ";",
+                            null
+                        ],
+                        [
+                            " martial weapons",
+                            ",",
+                            null
+                        ],
+                        [
+                            " unarmed",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Will",
+                            ";",
+                            null
+                        ],
+                        [
+                            " Expert: Perception",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Reflex",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 2,
+                    "grants": [
+                        [
+                            "Skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Ironsight feat",
+                            "",
+                            "class feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 3,
+                    "grants": [
+                        [
+                            "General feat",
+                            ",",
+                            "general feat"
+                        ],
+                        [
+                            " skill increase",
+                            ",",
+                            "skill increase"
+                        ],
+                        [
+                            " expert Class DC",
+                            "",
+                            "expert class dc"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Expert: Class DC",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 4,
+                    "grants": [
+                        [
+                            "Skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Ironsight feat",
+                            "",
+                            "class feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 5,
+                    "grants": [
+                        [
+                            "Ability boosts",
+                            ",",
+                            "ability boosts"
+                        ],
+                        [
+                            " ancestry feat",
+                            ",",
+                            "ancestry feat"
+                        ],
+                        [
+                            " skill increase",
+                            ",",
+                            "skill increase"
+                        ],
+                        [
+                            " expert weapon proficiency",
+                            "",
+                            "expert weapon proficiency"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Expert: weapons",
+                            ",",
+                            null
+                        ],
+                        [
+                            " advanced firearms &amp",
+                            ";",
+                            null
+                        ],
+                        [
+                            " crossbows",
+                            ",",
+                            null
+                        ],
+                        [
+                            " simple &amp",
+                            ";",
+                            null
+                        ],
+                        [
+                            " martial weapons",
+                            ",",
+                            null
+                        ],
+                        [
+                            " unarmed",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 6,
+                    "grants": [
+                        [
+                            "Skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Ironsight feat",
+                            "",
+                            "class feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 7,
+                    "grants": [
+                        [
+                            "General feat",
+                            ",",
+                            "general feat"
+                        ],
+                        [
+                            " skill increase",
+                            ",",
+                            "skill increase"
+                        ],
+                        [
+                            " master Reflex",
+                            ",",
+                            "master reflex"
+                        ],
+                        [
+                            " Hot Load Mastery",
+                            "",
+                            null
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Master: Perception",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Reflex",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 8,
+                    "grants": [
+                        [
+                            "Skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Ironsight feat",
+                            "",
+                            "class feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 9,
+                    "grants": [
+                        [
+                            "Ancestry feat",
+                            ",",
+                            "ancestry feat"
+                        ],
+                        [
+                            " skill increase",
+                            ",",
+                            "skill increase"
+                        ],
+                        [
+                            " Gun Failure Control (reroll one result per day)",
+                            ",",
+                            null
+                        ],
+                        [
+                            " expert Fortitude",
+                            "",
+                            "expert fortitude"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Expert: Fortitude",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 10,
+                    "grants": [
+                        [
+                            "Ability boosts",
+                            ",",
+                            "ability boosts"
+                        ],
+                        [
+                            " skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Ironsight feat",
+                            ",",
+                            "class feat"
+                        ],
+                        [
+                            " <strong>Draw Minor Capstone</strong>",
+                            "",
+                            null
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 11,
+                    "grants": [
+                        [
+                            "General feat",
+                            ",",
+                            "general feat"
+                        ],
+                        [
+                            " skill increase",
+                            ",",
+                            "skill increase"
+                        ],
+                        [
+                            " master weapon proficiency",
+                            ",",
+                            "master weapon proficiency"
+                        ],
+                        [
+                            " <strong>The Last Round</strong> unlocked",
+                            "",
+                            null
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Master: weapons",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 12,
+                    "grants": [
+                        [
+                            "Skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Ironsight feat",
+                            "",
+                            "class feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 13,
+                    "grants": [
+                        [
+                            "Ancestry feat",
+                            ",",
+                            "ancestry feat"
+                        ],
+                        [
+                            " skill increase",
+                            ",",
+                            "skill increase"
+                        ],
+                        [
+                            " master Will",
+                            "",
+                            "master will"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Expert: light &amp",
+                            ";",
+                            null
+                        ],
+                        [
+                            " medium armor",
+                            ",",
+                            null
+                        ],
+                        [
+                            " unarmored defense",
+                            ";",
+                            null
+                        ],
+                        [
+                            " Master: advanced firearms &amp",
+                            ";",
+                            null
+                        ],
+                        [
+                            " crossbows",
+                            ",",
+                            null
+                        ],
+                        [
+                            " simple &amp",
+                            ";",
+                            null
+                        ],
+                        [
+                            " martial weapons",
+                            ",",
+                            null
+                        ],
+                        [
+                            " unarmed",
+                            ",",
+                            null
+                        ],
+                        [
+                            " Will",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 14,
+                    "grants": [
+                        [
+                            "Skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Ironsight feat",
+                            "",
+                            "class feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 15,
+                    "grants": [
+                        [
+                            "Ability boosts",
+                            ",",
+                            "ability boosts"
+                        ],
+                        [
+                            " general feat",
+                            ",",
+                            "general feat"
+                        ],
+                        [
+                            " skill increase",
+                            ",",
+                            "skill increase"
+                        ],
+                        [
+                            " master Fortitude",
+                            ",",
+                            "master fortitude"
+                        ],
+                        [
+                            " <strong>Good Gun Bond</strong> unlocked",
+                            "",
+                            null
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Master: Fortitude",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 16,
+                    "grants": [
+                        [
+                            "Skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Ironsight feat",
+                            "",
+                            "class feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 17,
+                    "grants": [
+                        [
+                            "Ancestry feat",
+                            ",",
+                            "ancestry feat"
+                        ],
+                        [
+                            " skill increase",
+                            ",",
+                            "skill increase"
+                        ],
+                        [
+                            " legendary weapon proficiency",
+                            "",
+                            "legendary weapon proficiency"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Master: Class DC",
+                            ";",
+                            null
+                        ],
+                        [
+                            " Legendary: weapons",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 18,
+                    "grants": [
+                        [
+                            "Skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Ironsight feat",
+                            "",
+                            "class feat"
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 19,
+                    "grants": [
+                        [
+                            "General feat",
+                            ",",
+                            "general feat"
+                        ],
+                        [
+                            " skill increase",
+                            ",",
+                            "skill increase"
+                        ],
+                        [
+                            " <strong>Dead Man's Hand</strong>",
+                            "",
+                            null
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "Master: light &amp",
+                            ";",
+                            null
+                        ],
+                        [
+                            " medium armor",
+                            ",",
+                            null
+                        ],
+                        [
+                            " unarmored defense",
+                            ";",
+                            null
+                        ],
+                        [
+                            " Legendary: Perception",
+                            "",
+                            null
+                        ]
+                    ]
+                },
+                {
+                    "level": 20,
+                    "grants": [
+                        [
+                            "Ability boosts",
+                            ",",
+                            "ability boosts"
+                        ],
+                        [
+                            " skill feat",
+                            ",",
+                            "skill feat"
+                        ],
+                        [
+                            " Ironsight feat",
+                            ",",
+                            "class feat"
+                        ],
+                        [
+                            " <strong>Draw Major Capstone</strong>",
+                            ",",
+                            null
+                        ],
+                        [
+                            " <strong>One Bullet",
+                            ",",
+                            null
+                        ],
+                        [
+                            " One Legend</strong>",
+                            "",
+                            null
+                        ]
+                    ],
+                    "proficiency": [
+                        [
+                            "—",
+                            "",
+                            null
+                        ]
+                    ]
+                }
+            ]
+        }
+    }
+}

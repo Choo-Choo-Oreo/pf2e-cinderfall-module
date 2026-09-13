@@ -1,32 +1,49 @@
 {
-    "_id": "2Pd3DcZp0tlh4JVL",
-    "categories": [],
     "name": "Blightline",
-    "ownership": {
-        "default": 0
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
+        "description": {
+            "value": "<p>        <p class=\"cc-desc\">Rot is the half of the cycle people pretend they're not standing in. Blightline Wardens do the work nobody thanks them for: collapsing a structure before it falls on its own, killing a bloom before it reaches a water table, hollowing out the thing that cannot be fought head-on.</p>\n        <p class=\"cc-desc\">While the needle is on <strong>Grey</strong>, your poison and acid damage ignores 5 points of resistance, and objects and structures you damage lose Hardness equal to how far out on Grey the needle currently sits.</p>\n        <hr class=\"cc-divider\">\n        <div class=\"cc-effect\"><b>7th — Nothing Wasted:</b> when a creature dies within 30 feet of you, move the needle one step toward Grey without casting.</div>\n        <div class=\"cc-effect\"><b>15th — What's Underneath:</b> once per day, reduce a non-magical structure of any size to rubble over one minute.</div></p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "otherTags": [
+                "seed-warden-cutting"
+            ],
+            "rarity": "common",
+            "value": [
+                "seed-warden"
+            ]
+        },
+        "slug": "blightline"
     },
-    "pages": [
-        {
-            "_id": "8rhr8x9MqaRCW3dp",
-            "category": null,
-            "image": {},
-            "name": "Blightline",
-            "sort": 100000,
-            "src": null,
-            "system": {},
-            "text": {
-                "content": "<p><em>Rot · Unmaking · Honest about it</em></p>        <p class=\"cc-desc\">Rot is the half of the cycle people pretend they're not standing in. Blightline Wardens do the work nobody thanks them for: collapsing a structure before it falls on its own, killing a bloom before it reaches a water table, hollowing out the thing that cannot be fought head-on.</p>\n        <p class=\"cc-desc\">While the needle is on <strong>Grey</strong>, your poison and acid damage ignores 5 points of resistance, and objects and structures you damage lose Hardness equal to how far out on Grey the needle currently sits.</p>\n        <hr class=\"cc-divider\">\n        <div class=\"cc-effect\"><b>7th — Nothing Wasted:</b> when a creature dies within 30 feet of you, move the needle one step toward Grey without casting.</div>\n        <div class=\"cc-effect\"><b>15th — What's Underneath:</b> once per day, reduce a non-magical structure of any size to rubble over one minute.</div>",
-                "format": 1
-            },
-            "title": {
-                "level": 1,
-                "show": true
-            },
-            "type": "text",
-            "video": {
-                "controls": true,
-                "volume": 0.5
-            }
+    "_id": "2Pd3DcZp0tlh4JVL",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The subclass-*selection* wiring (`ChoiceSet`/`GrantItem`, `otherTags: [\"seed-warden-cutting\"]`) is already correctly implemented on `seed-warden.cutting.json` — verified: `greenline.json:28` carries the matching `otherTags`, so no changes needed there. This card's own passive content (ignore-resistance magnitude, Hardness-loss magnitude tied to \"how far out\") is `BLOOMROT-NULL`-blocked: no flag exists for \"on Grey\" or its magnitude. The 7th (move needle without casting) and 15th (once/day structure demolition) sub-features are also `BLOOMROT-NULL`/frequency-gated (bucket 3).",
+            "subclassOf": "seed-warden",
+            "subclassChoice": "Choose Your Cutting",
+            "role": "Rot · Unmaking · Honest about it",
+            "subclassLayer": "cutting"
         }
-    ]
+    }
 }

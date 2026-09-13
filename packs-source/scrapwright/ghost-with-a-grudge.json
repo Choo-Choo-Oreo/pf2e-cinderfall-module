@@ -27,5 +27,10 @@
         },
         "slug": "ghost-with-a-grudge"
     },
-    "_id": "6wdGXmx0OXudCGBb"
+    "_id": "6wdGXmx0OXudCGBb",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "[RIG-NO-ACTOR] -- entirely about the non-existent companion actor; the \"signature maneuver\" clause is additionally undefined-by-design (its numbers are set by the player at the table), so it has no fixed effect to encode even setting the actor problem aside."
+        }
+    }
 }

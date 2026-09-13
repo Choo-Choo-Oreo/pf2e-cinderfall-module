@@ -24,7 +24,9 @@
             "type": null
         },
         "price": {
-            "value": {}
+            "value": {
+                "gp": 0
+            }
         },
         "publication": {
             "license": "ORC",
@@ -32,7 +34,23 @@
             "title": "Cinderfall"
         },
         "quantity": 1,
-        "rules": [],
+        "rules": [
+            {
+                "key": "RollOption",
+                "option": "second-heart",
+                "toggleable": true,
+                "label": "Against fatigue from exertion"
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "fortitude",
+                "type": "circumstance",
+                "value": 1,
+                "predicate": [
+                    "second-heart"
+                ]
+            }
+        ],
         "size": "med",
         "traits": {
             "rarity": "common",
@@ -48,19 +66,11 @@
         "cinderfall": {
             "mutationType": "minor",
             "tier": "common",
-            "slot": "Circulatory",
             "slots": [
                 "Circulatory"
             ],
             "slotCost": 1,
-            "roll": "d100 — 25–26",
-            "incomplete": [
-                "level is a stub (0); mutations carry no level",
-                "price is empty; a mutation is not bought"
-            ],
-            "inferred": [
-                "system.usage"
-            ]
+            "roll": "d100 — 25–26"
         }
     }
 }

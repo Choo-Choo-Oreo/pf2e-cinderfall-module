@@ -33,5 +33,10 @@
         },
         "slug": "second-shape"
     },
-    "_id": "7a20mw0OamFAgHAZ"
+    "_id": "7a20mw0OamFAgHAZ",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "`BLIGHTSHAPE-NULL` — no schema tracks \"current form\" to swap between or to reset renewal timers on."
+        }
+    }
 }

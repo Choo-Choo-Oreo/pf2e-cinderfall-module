@@ -24,7 +24,9 @@
             "type": null
         },
         "price": {
-            "value": {}
+            "value": {
+                "gp": 0
+            }
         },
         "publication": {
             "license": "ORC",
@@ -49,14 +51,7 @@
             "mutationType": "teratoma",
             "tier": "mythic",
             "prerequisite": "carries a Teratoma Trait",
-            "access": "radiation",
-            "incomplete": [
-                "level is a stub (0); mutations carry no level",
-                "price is empty; a mutation is not bought"
-            ],
-            "inferred": [
-                "system.usage"
-            ]
+            "access": "radiation"
         }
     }
 }

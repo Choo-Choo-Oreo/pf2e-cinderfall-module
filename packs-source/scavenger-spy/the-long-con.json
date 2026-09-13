@@ -34,5 +34,10 @@
         },
         "slug": "the-long-con"
     },
-    "_id": "n9aZ7kjnPTamUwta"
+    "_id": "n9aZ7kjnPTamUwta",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Downgraded from MIXED to INCOMPLETE during the citation-strength spot-check (2026-09-13): the proposed RollOption(toggleable)+FlatModifier self-bonus (toggle option 'the-long-con-payoff') cited only this class's own internal precedent (corporate-cover.json / quick-fingers.json / underledger-rank.json, all in this same folder) -- no real pf2e-source file:line backs this specific mechanism. Checked pf2e-source for a closer match: packs/pf2e/feats/skill/level-1/risky-surgery.json does ship a toggleable RollOption + predicated FlatModifier for a self-elected bonus, but always gated on a concrete, checkable action predicate (action:treat-wounds) plus a stated mechanical cost (1d8 self-damage) -- never on pure narrative/GM judgment with no checkable predicate, which is the shape this proposal used. Left unbuilt pending a stricter design call. The \"target is off-guard for 1 round\" clause still needs no rule (feint.json precedent) and stays manually-applied either way."
+        }
+    }
 }

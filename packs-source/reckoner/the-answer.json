@@ -1,0 +1,56 @@
+{
+    "name": "The Answer",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>You instantly and truly know one specific fact about the target — no save, no resistance — at a small immediate personal cost: you lose 1 point of maximum HP until your next daily preparations, as something of yours is spent to buy the fact outright.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": ""
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "60 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "1 creature"
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [],
+            "value": [
+                "focus",
+                "reckoner"
+            ]
+        },
+        "slug": "the-answer"
+    },
+    "_id": "drCIK8qB95vxZKL2",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The self max-HP loss ('until your next daily preparations') is potentially buildable via ActiveEffectLike on a daily-expiring companion effect, but the rule-elements guide's only worked example (pf2e-source/packs/pf2e/feats/general/level-1/diehard.json:30-32) uses mode:\"upgrade\"; no mode:\"downgrade\" example against system.attributes.hp.max specifically was found or verified, so this is not shipped as a ready block. The pure-info half of this card needs no rule element (PAT-EMPTY) and is not a gap. See feats-class-reckoner-draft.md open question 6.",
+            "signatureSpellOf": "reckoner.forbidden-cognition"
+        }
+    }
+}

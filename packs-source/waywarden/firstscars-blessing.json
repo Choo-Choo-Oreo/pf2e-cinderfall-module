@@ -33,5 +33,10 @@
         },
         "slug": "firstscars-blessing"
     },
-    "_id": "lZrrMh7Lz78X7GHg"
+    "_id": "lZrrMh7Lz78X7GHg",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "\"Frenzy result\" is the zero-footprint table above. \"Automatic success\" on an arbitrary future check is also not a real rule-element shape — no key overrides a check's outcome to a forced success in pf2e-source (confirmed absent per this pass's corrected facts on degree-of-success adjustment: AdjustDegreeOfSuccess upgrades/downgrades a rolled outcome, it does not substitute for the roll itself before it happens). Feral Surge (uses/day) and the Frenzy Table (a GM-rolled random-mishap table) are absent from the corpus's Foundry schema; no rule element hooks a table-roll result to modify or reroll it."
+        }
+    }
 }

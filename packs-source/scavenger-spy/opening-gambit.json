@@ -33,5 +33,10 @@
         },
         "slug": "opening-gambit"
     },
-    "_id": "e0qhugBbOrFC62EK"
+    "_id": "e0qhugBbOrFC62EK",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "\"The Opening\" precision-damage baseline is unencoded anywhere in this class's cards -- checked classes.scavenger-spy.json (\"rules\": []) and all four Angle cards (cutpurse/enforcer/face/fixer, each \"rules\": []). Real pf2e's equivalent (Sneak Attack) needs flags.system.sneakAttackDamage + a tagged DamageDice keyed to target:condition:off-guard + ItemAlteration weapon-tagging (pf2e-source/packs/pf2e/class-features/sneak-attack.json:27-86) -- none of that scaffolding exists anywhere in the scavenger-spy corpus. Authoring it from scratch would mean editing the class or Angle cards, outside this pass's named-file scope. Extends a precision-damage baseline that doesn't exist anywhere in this corpus."
+        }
+    }
 }

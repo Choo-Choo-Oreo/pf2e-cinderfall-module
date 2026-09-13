@@ -1,0 +1,81 @@
+{
+    "name": "Tongue Node",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>A symbiote seated under the tongue. A lick tells you a substance's rough nature — poison, drug, fuel, spoilage, and roughly where it was made. +1 item bonus to Medicine to identify a poison or disease.</p><p><b>Donor:</b> The symbiote had a previous host. It remembers tastes from that life and will occasionally insist on one.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 1
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "mk": 20
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "RollOption",
+                "option": "tongue-node",
+                "toggleable": true,
+                "label": "Medicine to identify a poison or disease"
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "medicine",
+                "type": "item",
+                "value": 1,
+                "predicate": [
+                    "tongue-node"
+                ]
+            }
+        ],
+        "size": "med",
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "tongue-node"
+    },
+    "_id": "eux3g9Llrh3DXmsA",
+    "flags": {
+        "cinderfall": {
+            "augmentKind": "biological",
+            "augmentType": "graft",
+            "tier": "common",
+            "slots": [
+                "Inlays"
+            ],
+            "slotCost": 1,
+            "grade": 1,
+            "availability": "Grafted",
+            "level": 1,
+            "load": "+0",
+            "resonance": "+1"
+        }
+    }
+}

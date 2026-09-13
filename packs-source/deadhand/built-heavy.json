@@ -24,8 +24,24 @@
             "remaster": true,
             "title": "Cinderfall"
         },
-        "rules": [],
+        "rules": [
+            {
+                "key": "ItemAlteration",
+                "mode": "add",
+                "itemType": "weapon",
+                "property": "traits",
+                "value": "shove",
+                "predicate": [
+                    "item:type:weapon",
+                    "item:melee",
+                    "item:hands-held:2"
+                ]
+            }
+        ],
         "traits": {
+            "otherTags": [
+                "deadhand-breaker"
+            ],
             "rarity": "common",
             "value": [
                 "deadhand"
@@ -33,5 +49,11 @@
         },
         "slug": "built-heavy"
     },
-    "_id": "1m7RSPMbupoGmuvj"
+    "_id": "1m7RSPMbupoGmuvj",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "\"Never gain broken from your own critical failure\" is unbuilt -- no rule element overrides a weapon's own broken-condition trigger on a critical-failure Strike; that behavior is hardcoded engine-side, not a rule-element hook.",
+            "track": "breaker"
+        }
+    }
 }

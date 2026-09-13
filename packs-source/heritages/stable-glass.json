@@ -15,7 +15,27 @@
             "remaster": true,
             "title": "Cinderfall"
         },
-        "rules": [],
+        "rules": [
+            {
+                "key": "RollOption",
+                "option": "stable-glass"
+            },
+            {
+                "key": "Resistance",
+                "type": "radiation",
+                "value": 1,
+                "override": true,
+                "priority": 120,
+                "label": "Radiation Resistance (stable glass)"
+            },
+            {
+                "key": "Resistance",
+                "type": "physical",
+                "value": 1,
+                "override": true,
+                "label": "Brittle offset (stable glass)"
+            }
+        ],
         "traits": {
             "rarity": "common",
             "value": []

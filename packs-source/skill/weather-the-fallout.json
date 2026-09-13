@@ -1,0 +1,41 @@
+{
+    "name": "Weather the Fallout",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "skill",
+        "description": {
+            "value": "<p>You've read enough ash-storms and radiation weather to know when to dig in. You can predict hazardous weather (ashfall, radiation storms, acid rain) up to 24 hours in advance with a successful Nature check, as though Predicting Weather in a region with ordinary climate.</p>"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Expert in Nature"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "weather-the-fallout"
+    },
+    "_id": "ZCAUsNMHUTTKkftk",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Same problem as Read the Fallout Wind: this targets the Predict Weather activity, which ships with no rule-element representation in real pf2e and sets no discoverable roll option to predicate on."
+        }
+    }
+}

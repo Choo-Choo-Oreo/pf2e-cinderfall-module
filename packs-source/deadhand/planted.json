@@ -24,8 +24,34 @@
             "remaster": true,
             "title": "Cinderfall"
         },
-        "rules": [],
+        "rules": [
+            {
+                "key": "RollOption",
+                "option": "planted",
+                "toggleable": true,
+                "label": "You have not used a move action since the start of your last turn"
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "fortitude",
+                "type": "circumstance",
+                "value": 2,
+                "predicate": [
+                    "planted",
+                    {
+                        "or": [
+                            "action:shove",
+                            "action:trip",
+                            "action:reposition"
+                        ]
+                    }
+                ]
+            }
+        ],
         "traits": {
+            "otherTags": [
+                "deadhand-bulwark"
+            ],
             "rarity": "common",
             "value": [
                 "deadhand"
@@ -33,5 +59,11 @@
         },
         "slug": "planted"
     },
-    "_id": "g95eflMeggK4rt7L"
+    "_id": "g95eflMeggK4rt7L",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The self half matches this class's own established idiom exactly (toggleable RollOption + predicated FlatModifier). The adjacent-ally +1 circumstance AC bonus is unbuilt: no companion effect exists for this slug, and the closest real precedent (Guardian's Covering Stance) ties its ally-cover grant to an active Stance action, not a bare \"haven't moved\" toggle.",
+            "track": "bulwark"
+        }
+    }
 }

@@ -33,5 +33,10 @@
         },
         "slug": "the-gate-remembers-you-the-cage-knows-your-name"
     },
-    "_id": "5rBfgUcPzW5AXZXD"
+    "_id": "5rBfgUcPzW5AXZXD",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Bucket 3: limited-use (1/day) activated action hands the player a mass reputation-based Will save with a new usable trigger."
+        }
+    }
 }

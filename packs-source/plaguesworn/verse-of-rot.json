@@ -1,0 +1,49 @@
+{
+    "name": "Verse of Rot",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
+        "description": {
+            "value": "<p>You don't kill so much as accelerate what was already coming. Wounds spoil, blood sours, and the air around your target starts smelling like the inside of a sickroom.</p><hr /><p><strong>SPOILAGE —</strong> your decay damage lingers as persistent rot rather than resolving all at once.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "otherTags": [
+                "plaguesworn-verse"
+            ],
+            "rarity": "common",
+            "value": [
+                "plaguesworn"
+            ]
+        },
+        "slug": "verse-of-rot"
+    },
+    "_id": "Q5sUjCSi2NXO0Flo",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Converting a spell's up-front damage into persistent damage is a per-spell system.damage.kinds change on each individual spell (as seen in real pf2e's own grim-tendrils.json/phantom-pain.json, which bake persistent damage into the spell's own damage-kinds array at authoring time), not something a single class-feat-level passive rule element can retroactively apply across every future Verse spell you might cast. No selector converts \"this spell's damage\" into \"persistent\" at the feat level.",
+            "subclassOf": "plaguesworn",
+            "subclassChoice": "Choose Your Verse",
+            "role": "Decay Damage",
+            "subclassLayer": "verse"
+        }
+    }
+}

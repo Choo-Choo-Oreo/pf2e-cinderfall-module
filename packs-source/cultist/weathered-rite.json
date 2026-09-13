@@ -1,0 +1,42 @@
+{
+    "name": "Weathered Rite",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>When you Cast a Rite and its spellcasting check or spell attack roll fails (not critically), you regain 1 Zeal at the end of your turn.</p>"
+        },
+        "level": {
+            "value": 12
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "cultist"
+            ]
+        },
+        "slug": "weathered-rite"
+    },
+    "_id": "v7bFHMcuU54n4uwF",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The entire mechanical content of this card is a Zeal cost/gain/regain clause. cultist.bargain.json's own system.rules is [{\"key\":\"ChoiceSet\",...},{\"key\":\"GrantItem\",...}] -- no SpecialResource or resource-pool rule element of any kind is defined anywhere in this class for Zeal, confirmed via pf2e-source/src/module/rules/rule-element/special-resource.ts's own shape (a permanent, one-way-only-increases resource track) and a direct read of the class card. Every \"Cost N Zeal\"/\"gain N Zeal\"/\"regain spent Zeal\" clause in this class is unbuildable regardless of the rest of that card's content, since there is no resource for a rule element to reference."
+        }
+    }
+}

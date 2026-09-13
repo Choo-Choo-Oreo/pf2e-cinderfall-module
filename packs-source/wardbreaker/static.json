@@ -1,0 +1,38 @@
+{
+    "name": "Static",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Range</strong> 60 feet, centered on you</p><p><strong>Duration</strong> continuous</p><hr /><p>A constant, low-grade sense for nearby Anchored spirits and hostile ghost-machines within range — not their location precisely, just a building pressure, like a held breath. This is always on; it can't be dismissed or suppressed, and keeps working even while you're unconscious, asleep, or otherwise incapacitated.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "wardbreaker"
+            ]
+        },
+        "slug": "static"
+    },
+    "_id": "nVBm1GEDiyIHbGeK",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "pf2e-source/src/module/rules/rule-element/sense.ts:23 confirms Sense's selector field is a closed StringField enum (SENSE_TYPES); no real sense type means 'detect Anchor-bound spirits/ghost-machines specifically'. Unlike Static Flood, this ability does have a fixed numeric range (60 ft) and a real acuity precedent for 'imprecise' senses, so the shape ({\"key\":\"Sense\",\"selector\":\"<X>\",\"acuity\":\"imprecise\",\"range\":60}) is otherwise buildable -- the sole blocker is that no real sense type in the closed enum means 'detect Anchored spirits/ghost-machines specifically.' lifesense is the closest real value but would also detect ordinary living creatures the card explicitly excludes; per this project's standing 'convert, never flatten' rule, a mismatched real sense is not substituted for a missing homebrew category.",
+            "spellTag": "Innate · At-Will · Passive",
+            "notSpell": "wardbreaker's class document carries system.spellcasting 0, so this is an ability, not a spell; it also matches no rank heading in spells-abilities.html, which is why the spell converter left it alone"
+        }
+    }
+}

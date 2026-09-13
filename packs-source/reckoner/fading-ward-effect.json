@@ -1,0 +1,57 @@
+{
+    "name": "Effect: Fading Ward",
+    "type": "effect",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "description": {
+            "value": "<p><em>Applied by <strong>Fading Ward</strong> to the target.</em></p>\n<hr />\n<p>The target gains a +1 status bonus to AC and to all saving throws for the duration. When the duration ends, the target takes a -1 status penalty to AC and to all saving throws for 1 minute afterward. The later cost is not a risk and cannot be avoided, resisted, or dispelled — it is the same bargain the Reckoning is, in miniature.</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "minutes",
+            "value": 1
+        },
+        "level": {
+            "value": 4
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "ac",
+                "type": "status",
+                "value": 1
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "saving-throw",
+                "type": "status",
+                "value": 1
+            }
+        ],
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "value": []
+        },
+        "slug": "fading-ward-effect"
+    },
+    "_id": "YUG0aLrz2HO0WXqP",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The target's own text also promises a -1 status penalty to AC and saving throws for 1 minute after the ward's duration ends -- not modeled. No rule element chains a follow-up Effect automatically at expiry (no on-expiry/on-delete-grant key found anywhere in pf2e-source's rule-element list; GrantItem's onDeleteActions only restricts deletion propagation, it does not create anything). Would need a second, GM-manually-applied Effect item, matching this corpus's existing trigger-effect convention -- a reasonable extrapolation, not a proven precedent, so flagged rather than built. See feats-class-reckoner-draft.md open question 2.",
+            "effectOf": "reckoner.fading-ward",
+            "landsOn": "target"
+        }
+    }
+}

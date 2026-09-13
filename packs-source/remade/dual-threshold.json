@@ -33,5 +33,10 @@
         },
         "slug": "dual-threshold"
     },
-    "_id": "SngX3drROcwZi7B9"
+    "_id": "SngX3drROcwZi7B9",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "BAND-GAP stacked on P-BUCKET3."
+        }
+    }
 }

@@ -24,7 +24,9 @@
             "type": null
         },
         "price": {
-            "value": {}
+            "value": {
+                "gp": 0
+            }
         },
         "publication": {
             "license": "ORC",
@@ -32,7 +34,13 @@
             "title": "Cinderfall"
         },
         "quantity": 1,
-        "rules": [],
+        "rules": [
+            {
+                "key": "Resistance",
+                "type": "fire",
+                "value": 3
+            }
+        ],
         "size": "med",
         "traits": {
             "rarity": "epic",
@@ -46,21 +54,14 @@
     "_id": "DKCWKUTrJEbSUzVL",
     "flags": {
         "cinderfall": {
+            "incomplete": "\"A natural 20 against you in melee also inflicts 1d4 persistent bleed\" has no confirmed rule-element hook: no generic 'inflict a condition on a natural 20 against you regardless of the attack's own outcome' actor-level rule element was found in pf2e-source; critical-hit consequences of this kind are normally authored on the attacking creature/weapon, not the target.",
             "mutationType": "major",
             "tier": "epic",
-            "slot": "Circulatory",
             "slots": [
                 "Circulatory"
             ],
             "slotCost": 1,
-            "roll": "d20 — 11",
-            "incomplete": [
-                "level is a stub (0); mutations carry no level",
-                "price is empty; a mutation is not bought"
-            ],
-            "inferred": [
-                "system.usage"
-            ]
+            "roll": "d20 — 11"
         }
     }
 }

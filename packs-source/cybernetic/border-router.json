@@ -1,0 +1,90 @@
+{
+    "name": "Border Router",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>Not a comms upgrade — a relay graft that folds your nervous system into a black node on someone else's grid. +2 item bonus to Crafting and Lore checks involving technology, and to Deception; unlimited-range comm relay to anything else on the grid; once per hour, auto-succeed a DC 11 flat check tied to technology. Twice a week, without warning, the grid calls in a job mid-scene: for 1 round you lose your reaction and take a –2 penalty to all defenses while your body executes someone else's process.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 18
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "gp": 40000
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "RollOption",
+                "option": "border-router",
+                "toggleable": true,
+                "label": "Crafting or Lore involving technology"
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "crafting",
+                "type": "item",
+                "value": 2,
+                "predicate": [
+                    "border-router"
+                ]
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "deception",
+                "type": "item",
+                "value": 2
+            }
+        ],
+        "size": "med",
+        "traits": {
+            "rarity": "legendary",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "border-router"
+    },
+    "_id": "vzugk2qggzLvzSfB",
+    "flags": {
+        "cinderfall": {
+            "augmentKind": "cybernetic",
+            "augmentType": "implant",
+            "tier": "legendary",
+            "slots": [
+                "Neural"
+            ],
+            "slotCost": 1,
+            "grade": 5,
+            "availability": "Black Market",
+            "level": 18,
+            "drift": "+6",
+            "augTags": [
+                "soul-tech",
+                "apex"
+            ]
+        }
+    }
+}

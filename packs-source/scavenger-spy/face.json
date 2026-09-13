@@ -1,0 +1,48 @@
+{
+    "name": "Face",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
+        "description": {
+            "value": "<p>Whoever you need to be to get through that door, you were already being it before you arrived. Corporate mole, cult initiate, long-lost cousin — pick the lie the room wants.</p><hr /><p><strong>SIGNATURE —</strong> a feint or fabricated identity that holds up under real scrutiny, not just a passing glance.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "otherTags": [
+                "scavenger-spy-angle"
+            ],
+            "rarity": "common",
+            "value": [
+                "scavenger-spy"
+            ]
+        },
+        "slug": "face"
+    },
+    "_id": "MMsTuJEELTrH1qFk",
+    "flags": {
+        "cinderfall": {
+            "subclassOf": "scavenger-spy",
+            "subclassChoice": "Choose Your Angle",
+            "role": "Charisma · Cons &amp; Infiltration",
+            "subclassLayer": "angle"
+        }
+    }
+}

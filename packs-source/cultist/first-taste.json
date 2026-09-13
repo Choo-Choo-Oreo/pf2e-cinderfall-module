@@ -1,0 +1,45 @@
+{
+    "name": "First Taste",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You critically hit with a Strike.</p><hr /><p>Gain temporary Hit Points equal to your level, lasting until the end of your next turn. Gluttoneth notices small kindnesses like this one, and remembers them.</p>"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "otherTags": [
+                "cultist-gluttoneth"
+            ],
+            "rarity": "common",
+            "value": [
+                "cultist"
+            ]
+        },
+        "slug": "first-taste"
+    },
+    "_id": "toZ4tQsmPs5J5s5M",
+    "flags": {
+        "cinderfall": {
+            "track": "gluttoneth"
+        }
+    }
+}

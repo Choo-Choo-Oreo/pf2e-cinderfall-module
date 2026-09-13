@@ -33,5 +33,10 @@
         },
         "slug": "vitae-without-end"
     },
-    "_id": "vnDANXSsw8QKhT5s"
+    "_id": "vnDANXSsw8QKhT5s",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "\"+4 daily Vitae maximum\" would need a second SpecialResource rule element sharing the vitae slug with a higher max -- whether same-slug SpecialResource elements combine additively or the last one wins is unconfirmed from the schema alone, so this is not shipped as REAL. \"Spend Vitae you don't have, take unpreventable damage, debt cleared\" is a debt/negative-balance mechanism SpecialResource's schema doesn't have."
+        }
+    }
 }

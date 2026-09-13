@@ -1,0 +1,39 @@
+{
+    "name": "Half-Logged-In",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "skill",
+        "description": {
+            "value": "<p>Bonus to Perception and Will saves against illusions and mind-affecting effects that rely on a simulated or artificial environment — alongside the occasional unbidden déjà vu, a glitch in a world that was never quite real to begin with.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "half-logged-in"
+    },
+    "_id": "F8F5YapbkzMhZim8",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The card states a bonus but gives no numeric value, bonus type, or specific action tag to build a FlatModifier from without inventing one. and the trigger ('illusions or mind-affecting effects that rely on a simulated or artificial environment') has no matching trait or roll option.",
+            "category": "background",
+            "sourceOwner": "backgrounds"
+        }
+    }
+}

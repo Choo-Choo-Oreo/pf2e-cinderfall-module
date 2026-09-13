@@ -1,0 +1,48 @@
+{
+    "name": "Enforcer",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
+        "description": {
+            "value": "<p>Sometimes the job needs someone the room takes seriously the moment they walk in. You're not subtle. You're just always the person the client actually wanted in the room.</p><hr /><p><strong>SIGNATURE —</strong> your Opening works through raw intimidation as easily as it works through a blind spot.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "otherTags": [
+                "scavenger-spy-angle"
+            ],
+            "rarity": "common",
+            "value": [
+                "scavenger-spy"
+            ]
+        },
+        "slug": "enforcer"
+    },
+    "_id": "8Tjqh3dIHx5Qul5Q",
+    "flags": {
+        "cinderfall": {
+            "subclassOf": "scavenger-spy",
+            "subclassChoice": "Choose Your Angle",
+            "role": "Strength · Muscle for Hire",
+            "subclassLayer": "angle"
+        }
+    }
+}

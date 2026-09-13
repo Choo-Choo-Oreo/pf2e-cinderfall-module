@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "deadhand-second"
+            ],
             "rarity": "common",
             "value": [
                 "deadhand"
@@ -33,5 +36,11 @@
         },
         "slug": "one-mark-in-twenty-years"
     },
-    "_id": "NPBKENwLpEGAJPEK"
+    "_id": "NPBKENwLpEGAJPEK",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "A melee Strike against a below-half-HP mark auto-hits, auto-crits, and forces a Fortitude save vs. Class DC or death (success: critical damage plus doomed 2). No rule element guarantees an outright hit/crit, and no rule element applies doomed or forces death on a different creature -- independent of the mark-predicate gap.",
+            "track": "second"
+        }
+    }
 }

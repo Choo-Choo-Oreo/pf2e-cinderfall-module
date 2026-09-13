@@ -1,46 +1,35 @@
 {
-    "name": "The Ledger",
-    "type": "spell",
+    "name": "It Already Knows",
+    "type": "feat",
     "img": "icons/svg/mystery-man.svg",
     "system": {
-        "area": null,
-        "cost": {
-            "value": ""
+        "actionType": {
+            "value": "passive"
         },
-        "counteraction": false,
-        "damage": {},
-        "defense": null,
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per day</p><hr /><p>Ask the GM a single yes/no question. The Ledger answers truthfully, in writing, somewhere on your person.</p>"
-        },
-        "duration": {
-            "sustained": false,
-            "value": ""
+            "value": "<p>Watches. Records. Never forgets a favor owed in either direction, and calls them in on its own schedule — which is never the schedule that's convenient for you.</p><hr /><p><strong>IT ALREADY KNOWS —</strong> ask one yes/no question a day and get a true answer, written somewhere on your person. The Ledger is generous with information. It just writes down that you asked.</p>"
         },
         "level": {
             "value": 1
+        },
+        "prerequisites": {
+            "value": []
         },
         "publication": {
             "license": "ORC",
             "remaster": true,
             "title": "Cinderfall"
         },
-        "range": {
-            "value": "self"
-        },
-        "requirements": "",
         "rules": [],
-        "target": {
-            "value": ""
-        },
-        "time": {
-            "value": "10 minutes"
-        },
         "traits": {
-            "rarity": "common",
-            "traditions": [
-                "occult"
+            "otherTags": [
+                "cultist-bargain"
             ],
+            "rarity": "common",
             "value": [
                 "cultist"
             ]
@@ -50,8 +39,14 @@
     "_id": "fRKRDU6iFBzLriBQ",
     "flags": {
         "cinderfall": {
+            "incomplete": "This is one of the 7 \"Choose Your Bargain\" option cards (classfeature, otherTags:[\"cultist-bargain\"], selected by cultist.bargain's ChoiceSet). The mechanical benefit of choosing it is entirely \"you can now cast its signature Rite,\" a sibling spell card in this same folder -- granting it via a static GrantItem pointing at that slug is not resolvable by this repo's own Foundry build pipeline (tools/foundry/build_pack.py: resolve_grants only rewrites system.items slots at build time; resolve_ancestry only rewrites system.ancestry.slug). A cross-slug GrantItem.uuid inside a feat's own system.rules is exactly the already-confirmed-absent case for this pass.",
             "spellTag": "Revelation · 1st, Signature",
-            "listing": "Bargain Spells / The Ledger debts · secrets · everything written down"
+            "listing": "Bargain Spells / The Ledger debts · secrets · everything written down",
+            "subclassOf": "cultist",
+            "subclassChoice": "Choose Your Bargain",
+            "role": "Debts · Secrets · Everything, Written Down",
+            "followUp": "signature spell 'It Already Knows' is record cultist.it-already-knows; the card renders on spells-abilities.html as a spell-entry and its statline/body are authored above",
+            "subclassLayer": "bargain"
         }
     }
 }

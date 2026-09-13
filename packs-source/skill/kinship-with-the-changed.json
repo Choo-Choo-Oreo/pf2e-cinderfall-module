@@ -1,0 +1,52 @@
+{
+    "name": "Kinship With the Changed",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "skill",
+        "description": {
+            "value": "<p>Mutated beasts recognize something in you that isn't quite prey and isn't quite predator. Radiation-mutated animals and beasts start one step better on the attitude scale toward you than they otherwise would, and you gain a +2 circumstance bonus to Command an Animal against them.</p>"
+        },
+        "level": {
+            "value": 14
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Master in Nature"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "nature",
+                "type": "circumstance",
+                "value": 2,
+                "predicate": [
+                    "action:command-an-animal",
+                    "target:trait:mutant"
+                ]
+            }
+        ],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "kinship-with-the-changed"
+    },
+    "_id": "arcLZu0sB5vNAjm5",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The +2 Command an Animal bonus against radiation-mutated creatures is real (target:trait:mutant is a genuine actor trait in this corpus, e.g. site/data/cards/actors/bestiary/bestiary.sump-crawler.json). The attitude-shift half of the card ('start one step better on the attitude scale') has no rule-element hook -- there is no key that adjusts a creature's starting attitude toward the actor."
+        }
+    }
+}

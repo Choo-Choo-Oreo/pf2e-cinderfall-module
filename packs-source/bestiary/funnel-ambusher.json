@@ -112,7 +112,16 @@
                 "base": 14
             },
             "stealth": {
-                "base": 13
+                "base": 13,
+                "special": [
+                    {
+                        "base": 30,
+                        "label": "while in its funnel",
+                        "predicate": [
+                            "in its funnel"
+                        ]
+                    }
+                ]
             }
         },
         "traits": {
@@ -140,7 +149,8 @@
                 "attackEffects": {
                     "custom": "",
                     "value": [
-                        "grab"
+                        "grab",
+                        "potent-venom"
                     ]
                 },
                 "bonus": {
@@ -153,7 +163,7 @@
                     }
                 },
                 "description": {
-                    "value": "<p>Damage 2d8+6 piercing plus Grab plus potent venom (DC 22 Fortitude; Stage 1 1d8 persistent poison and enfeebled 1; Stage 2 2d8 persistent poison and enfeebled 2; Stage 3 2d8 persistent poison, enfeebled 2, and slowed 1)</p>"
+                    "value": ""
                 },
                 "publication": {
                     "license": "ORC",
@@ -308,15 +318,86 @@
                 }
             },
             "type": "action"
+        },
+        {
+            "_id": "ILwiUpWrOnfhG7M3",
+            "img": "systems/pf2e/icons/actions/Passive.webp",
+            "name": "Potent Venom",
+            "sort": 1400000,
+            "system": {
+                "actionType": {
+                    "value": "passive"
+                },
+                "actions": {
+                    "value": null
+                },
+                "category": "offensive",
+                "description": {
+                    "value": "<p><strong>Saving Throw</strong> DC 22 Fortitude. <strong>Stage 1</strong> 1d8 persistent poison and enfeebled 1 (1 round); <strong>Stage 2</strong> 2d8 persistent poison and enfeebled 2 (1 round); <strong>Stage 3</strong> 2d8 persistent poison, enfeebled 2, and slowed 1 (1 round).</p>"
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [],
+                "slug": "potent-venom",
+                "traits": {
+                    "rarity": "common",
+                    "value": [
+                        "poison"
+                    ]
+                }
+            },
+            "type": "action"
+        },
+        {
+            "_id": "tiHKeSZDz7tVG30P",
+            "img": "systems/pf2e/icons/default-icons/treasure.svg",
+            "name": "Funnel Silk Gland",
+            "sort": 1500000,
+            "system": {
+                "bulk": {
+                    "value": 0
+                },
+                "category": "material",
+                "description": {
+                    "value": "<p>A silk gland, still sticky, harvested from the ambusher's funnel &mdash; useful to anyone who knows what to do with it.</p>"
+                },
+                "hardness": 0,
+                "hp": {
+                    "max": 0,
+                    "value": 0
+                },
+                "level": {
+                    "value": 0
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "quantity": 1,
+                "rules": [],
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                },
+                "price": {
+                    "value": {
+                        "gp": 2
+                    }
+                }
+            },
+            "type": "treasure"
         }
     ],
     "flags": {
+        "pf2e": {
+            "lootable": true
+        },
         "cinderfall": {
-            "alignment": "N",
-            "incomplete": [
-                "skill 'Stealth' condition '+17 while in its funnel' kept as text only",
-                "Melee strike 'fangs': rider 'potent venom (DC 22 Fortitude; Stage 1 1d8 persistent poison and enfeebled 1; Stage 2 2d8 persistent poison and enfeebled 2; Stage 3 2d8 persistent poison, enfeebled 2, and slowed 1)' kept as text only"
-            ]
+            "alignment": "N"
         }
     }
 }

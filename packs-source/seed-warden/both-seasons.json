@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "seed-warden-turnwise"
+            ],
             "rarity": "common",
             "value": [
                 "seed-warden"
@@ -33,5 +36,11 @@
         },
         "slug": "both-seasons"
     },
-    "_id": "97RF7hFilzfBqY1O"
+    "_id": "97RF7hFilzfBqY1O",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "`BLOOMROT-NULL`. There is also no rule element for \"resolve this cast under a hypothetical alternate state of a value\" — confirmed absent independent of the needle problem.",
+            "track": "turnwise"
+        }
+    }
 }

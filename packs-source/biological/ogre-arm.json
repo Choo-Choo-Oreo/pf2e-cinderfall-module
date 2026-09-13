@@ -1,0 +1,89 @@
+{
+    "name": "Ogre Arm",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>A massive donor arm taken off something Large. +2 apex item bonus to Strength (to 22 if it was lower). You can hold and use a one-handed weapon two-handed in this arm alone; unarmed Strike with it: 1d12 bludgeoning, shove. You list to that side and cannot Swim.</p><p><b>Donor:</b> Something Large, and by every account angry. It tenses whenever you're challenged, before you've decided anything.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 15
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "mk": 6000
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "Strike",
+                "slug": "ogre-arm",
+                "label": "Ogre Arm",
+                "category": "unarmed",
+                "group": "brawling",
+                "img": "systems/pf2e/icons/unarmed-attacks/fist.webp",
+                "range": null,
+                "traits": [
+                    "unarmed"
+                ],
+                "damage": {
+                    "base": {
+                        "damageType": "bludgeoning",
+                        "dice": 1,
+                        "die": "d12"
+                    }
+                }
+            }
+        ],
+        "size": "med",
+        "traits": {
+            "rarity": "epic",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "ogre-arm"
+    },
+    "_id": "SkLVMvs4KOIfpq9o",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The +2 apex item bonus to Strength (to 22 if lower) has no confirmed hook, same finding as Chimera-Bloom: real pf2e apex items only ever grant a FlatModifier to a specific skill, never to the raw ability score, and apex itself is a character-build attribute, not an item-settable one. 'Cannot Swim' also has no hook: no rule element bans an existing baseline action.",
+            "augmentKind": "biological",
+            "augmentType": "graft",
+            "tier": "epic",
+            "slots": [
+                "Arm"
+            ],
+            "slotCost": 1,
+            "grade": 4,
+            "availability": "Grafted",
+            "level": 15,
+            "load": "+4",
+            "resonance": "+4",
+            "augTags": [
+                "apex"
+            ]
+        }
+    }
+}

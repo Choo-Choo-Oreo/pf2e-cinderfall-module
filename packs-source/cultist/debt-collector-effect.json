@@ -1,0 +1,62 @@
+{
+    "name": "Effect: Debt Collector",
+    "type": "effect",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "description": {
+            "value": "<p><em>Applied by <strong>Debt Collector</strong> to the target.</em></p>\n<hr />\n<p>The target attempts a Will save against your class DC. On a failure it is <em>in debt</em> to you: while in debt it takes a -1 status penalty to attack rolls and saving throws against you, and it cannot willingly attack you while a means of settling the debt is available to it. On a critical failure it also cannot lie to you. The debt is settled when the target does one thing you name that is within its power and does not require it to die. A creature can be in debt to you and one other creature at most; you may hold three debts at a time. This is a curse effect, and it can be counteracted — the Ledger does not consider a counteracted debt paid.</p>"
+        },
+        "duration": {
+            "expiry": null,
+            "sustained": false,
+            "unit": "unlimited",
+            "value": -1
+        },
+        "level": {
+            "value": 12
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "attack",
+                "type": "status",
+                "value": -1,
+                "predicate": [
+                    "target:signature:{item|origin.signature}"
+                ]
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "saving-throw",
+                "type": "status",
+                "value": -1,
+                "predicate": [
+                    "target:signature:{item|origin.signature}"
+                ]
+            }
+        ],
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "value": []
+        },
+        "slug": "debt-collector-effect"
+    },
+    "_id": "QD024DI2sDDCpX4U",
+    "flags": {
+        "cinderfall": {
+            "effectOf": "cultist.debt-collector",
+            "landsOn": "target"
+        }
+    }
+}

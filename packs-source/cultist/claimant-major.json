@@ -1,0 +1,46 @@
+{
+    "name": "Nothing Taken Is Ever Truly Gone",
+    "type": "capstone",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p>Once per day, when a creature or object claimed by you (marked by Already Mine, Cult Sign, or a similar effect) is destroyed, killed, or taken from you by any means, you may call it back. Within 1 minute it returns to your side exactly as it was the moment before — restored to full Hit Points if it was a creature that died, or whole again if it was an object destroyed. The Claimant has never once truly let go of anything.</p>"
+        },
+        "level": {
+            "value": 20
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "otherTags": [
+                "cultist-claimant"
+            ],
+            "value": [
+                "cultist"
+            ]
+        },
+        "slug": "claimant-major"
+    },
+    "_id": "uAJiXcMjYVNXRVBo",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "\"Once per day, when a claimed creature/object is destroyed/killed/taken, call it back within 1 minute fully restored\" -- no revert/undo-destruction rule-element precedent found in pf2e-source within this pass's research budget.",
+            "track": "claimant"
+        }
+    }
+}

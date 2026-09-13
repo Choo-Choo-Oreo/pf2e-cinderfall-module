@@ -1,0 +1,71 @@
+{
+    "name": "Static Weave",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>Charged dermal mesh. Resistance 5 to electricity. A creature hitting you with a metal melee weapon or unarmed Strike takes 1d6 electricity.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 8
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "gp": 500
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "Resistance",
+                "type": "electricity",
+                "value": 5
+            }
+        ],
+        "size": "med",
+        "traits": {
+            "rarity": "uncommon",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "static-weave"
+    },
+    "_id": "MOUZcVrblbrtkGT6",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The reactive 1d6 electricity damage to a creature hitting you with a metal weapon or unarmed Strike targets another creature's HP from a self-held item -- same architecture gap as Grave-Quiet/Quill-Bed/Reactive-Carapace.",
+            "augmentKind": "cybernetic",
+            "augmentType": "implant",
+            "tier": "uncommon",
+            "slots": [
+                "Dermal"
+            ],
+            "slotCost": 1,
+            "grade": 2,
+            "availability": "Restricted",
+            "level": 8,
+            "drift": "+2"
+        }
+    }
+}

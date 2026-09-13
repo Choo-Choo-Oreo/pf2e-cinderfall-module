@@ -27,5 +27,10 @@
         },
         "slug": "vanish-between-blinks"
     },
-    "_id": "UOunRqONRUpnffec"
+    "_id": "UOunRqONRUpnffec",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Has real, stated numbers and would be a clean FlatModifier on a Stealth check once the Mark predicate exists — currently blocked purely on that. The Waywarden's central subsystem, The Mark (classes.waywarden.json flags.cinderfall.terms[0]: \"designate a creature as your quarry, gaining a growing bonus to track, target, and punish it specifically\"), has zero Foundry-schema footprint anywhere in the corpus. classes.waywarden.json:65 itself carries \"rules\": []. No card anywhere grants a TokenMark effect (site/data/cards/abilities/, class-features/, feat-effects/ are all empty scaffold directories -- confirmed via ls, contents are .gitkeep only). Real pf2e's own equivalent mechanic (Ranger's Hunt Prey) is fully buildable and precedented, but that infrastructure (an action item + a TokenMark-carrying effect item) does not exist for Waywarden and is not one of the 56 files in scope for this draft. This card is blocked until a future pass authors the base Mark action/effect."
+        }
+    }
 }

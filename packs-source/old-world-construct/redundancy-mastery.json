@@ -1,0 +1,43 @@
+{
+    "name": "Redundancy Mastery",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "ancestry",
+        "description": {
+            "value": "<p>Redundant Systems can be used twice per day and now ignores two conditions at once.</p>"
+        },
+        "level": {
+            "value": 9
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Redundant Systems"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "old-world-construct"
+            ]
+        },
+        "slug": "redundancy-mastery"
+    },
+    "_id": "3w8E9A1OPkye7GKf",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Upgrades Redundant Systems, itself unbuildable (Granting a new limited-use activated action/reaction has no rule-element hook in real pf2e -- confirmed corpus-wide this pass (Reactive Shield itself ships rules: []).)."
+        }
+    }
+}

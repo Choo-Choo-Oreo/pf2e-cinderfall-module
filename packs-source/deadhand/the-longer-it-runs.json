@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "deadhand-second"
+            ],
             "rarity": "common",
             "value": [
                 "deadhand"
@@ -33,5 +36,11 @@
         },
         "slug": "the-longer-it-runs"
     },
-    "_id": "nRyVkFKgwLFo9C0n"
+    "_id": "nRyVkFKgwLFo9C0n",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Cumulative +1 circumstance to damage against the mark per round both have attacked each other (after the first), capped at +3, resetting on a lull or a new mark. A dynamic, per-round \"did both of us attack\" counter has no rule-element analog anywhere in the engine, compounded by the confirmed-unfireable mark predicate.",
+            "track": "second"
+        }
+    }
 }

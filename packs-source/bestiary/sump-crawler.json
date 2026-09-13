@@ -87,7 +87,7 @@
             "statistic": "perception"
         },
         "perception": {
-            "details": "motion sense 60 ft in liquid; no vision",
+            "details": "in liquid",
             "mod": 12,
             "senses": [
                 {
@@ -99,7 +99,8 @@
                     "type": "motion-sense",
                     "range": 60
                 }
-            ]
+            ],
+            "vision": false
         },
         "resources": {},
         "saves": {
@@ -121,7 +122,8 @@
                 "base": 16
             },
             "stealth": {
-                "base": 12
+                "base": 12,
+                "note": "in sludge"
             }
         },
         "traits": {
@@ -196,7 +198,9 @@
                 },
                 "attackEffects": {
                     "custom": "",
-                    "value": []
+                    "value": [
+                        "sump-sickness"
+                    ]
                 },
                 "bonus": {
                     "value": 16
@@ -208,7 +212,7 @@
                     }
                 },
                 "description": {
-                    "value": "<p>Damage 2d8+6 piercing plus Sump Sickness</p>"
+                    "value": ""
                 },
                 "publication": {
                     "license": "ORC",
@@ -347,17 +351,54 @@
                 }
             },
             "type": "action"
+        },
+        {
+            "_id": "2zyXzlFnoaVJ8Wfj",
+            "img": "systems/pf2e/icons/default-icons/treasure.svg",
+            "name": "Sump Ichor Sac",
+            "sort": 1500000,
+            "system": {
+                "bulk": {
+                    "value": 0
+                },
+                "category": "material",
+                "description": {
+                    "value": "<p>A sac of the poison it eats and never fully breaks down &mdash; worth something to whoever's careless enough to want it.</p>"
+                },
+                "hardness": 0,
+                "hp": {
+                    "max": 0,
+                    "value": 0
+                },
+                "level": {
+                    "value": 0
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "quantity": 1,
+                "rules": [],
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                },
+                "price": {
+                    "value": {
+                        "gp": 2
+                    }
+                }
+            },
+            "type": "treasure"
         }
     ],
     "flags": {
+        "pf2e": {
+            "lootable": true
+        },
         "cinderfall": {
-            "alignment": "N",
-            "incomplete": [
-                "perception clause not representable as a pf2e sense: 'motion sense 60 ft in liquid'",
-                "perception clause not representable as a pf2e sense: 'no vision'",
-                "skill 'Stealth' condition 'in sludge' kept as text only",
-                "Melee strike 'filthy bite': rider 'Sump Sickness' kept as text only"
-            ]
+            "alignment": "N"
         }
     }
 }

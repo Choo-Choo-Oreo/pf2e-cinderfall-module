@@ -55,6 +55,7 @@
     "_id": "py0fZkvfn44lA1WK",
     "flags": {
         "cinderfall": {
+            "incomplete": "No rule element sets an existing affliction item's DC to the caster's Class DC dynamically, and no rule element conditionally redirects a spell's own effect to \"cast as a different spell instead\" based on the target's state.",
             "listing": "1st Rank"
         }
     }

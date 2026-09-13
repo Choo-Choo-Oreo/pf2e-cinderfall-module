@@ -55,6 +55,7 @@
     "_id": "544c2DNUuwzuMY9M",
     "flags": {
         "cinderfall": {
+            "incomplete": "Inflicts a wholly custom 'muted' state (no speech/verbal-spells/loud-noise) -- not a real PF2e condition, and no selector exists for suppressing verbal spellcasting components or speech specifically.",
             "listing": "2nd Rank"
         }
     }

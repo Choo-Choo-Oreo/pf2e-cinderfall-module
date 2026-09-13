@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "deadhand-breaker"
+            ],
             "rarity": "common",
             "value": [
                 "deadhand"
@@ -33,5 +36,10 @@
         },
         "slug": "the-overhand-that-ends-it"
     },
-    "_id": "m7MtKRTIYk1JRNVw"
+    "_id": "m7MtKRTIYk1JRNVw",
+    "flags": {
+        "cinderfall": {
+            "track": "breaker"
+        }
+    }
 }

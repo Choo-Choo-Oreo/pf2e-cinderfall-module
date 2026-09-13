@@ -1,0 +1,42 @@
+{
+    "name": "The Cult's Champion",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Once per day, when an ally within 60 feet would be reduced to 0 Hit Points, you may have them instead be reduced to 1 Hit Point. This doesn't require an action to use.</p>"
+        },
+        "level": {
+            "value": 20
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "cultist"
+            ]
+        },
+        "slug": "the-cults-champion"
+    },
+    "_id": "sLFQUeFecc9XTvQ8",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "\"Once per day, an ally within 60 feet who'd be reduced to 0 HP is instead reduced to 1, no action required\" is P-CROSS: an ongoing numeric/state intervention on a DIFFERENT creature's own HP total, sourced from the card holder's own passive. No selector for this exists anywhere in pf2e-source."
+        }
+    }
+}

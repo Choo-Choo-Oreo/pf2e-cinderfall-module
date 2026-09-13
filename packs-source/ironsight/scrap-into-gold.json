@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "ironsight-trick-iron"
+            ],
             "rarity": "common",
             "value": [
                 "ironsight",
@@ -34,5 +37,11 @@
         },
         "slug": "scrap-into-gold"
     },
-    "_id": "5zzRlvuBd1tKSBjh"
+    "_id": "5zzRlvuBd1tKSBjh",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "no selector for skill-check-gated item-rarity change (same reasoning as field-conversion/jury-rig-repair).",
+            "track": "trick-iron"
+        }
+    }
 }

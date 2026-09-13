@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "ironsight-long-iron"
+            ],
             "rarity": "common",
             "value": [
                 "ironsight"
@@ -33,5 +36,10 @@
         },
         "slug": "cracked-plate"
     },
-    "_id": "MMYjNFFXA9XPRShQ"
+    "_id": "MMYjNFFXA9XPRShQ",
+    "flags": {
+        "cinderfall": {
+            "track": "long-iron"
+        }
+    }
 }

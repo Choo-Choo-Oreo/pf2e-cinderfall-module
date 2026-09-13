@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "fleshmancer-butchers"
+            ],
             "rarity": "common",
             "value": [
                 "fleshmancer"
@@ -33,5 +36,11 @@
         },
         "slug": "nothing-comes-back-down"
     },
-    "_id": "y73Y7J8STqDQHGHN"
+    "_id": "y73Y7J8STqDQHGHN",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "No rule element propagates AoE splash damage recursively from a hit creature's square to its neighbors.",
+            "track": "butchers"
+        }
+    }
 }

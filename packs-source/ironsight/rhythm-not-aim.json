@@ -24,8 +24,27 @@
             "remaster": true,
             "title": "Cinderfall"
         },
-        "rules": [],
+        "rules": [
+            {
+                "key": "RollOption",
+                "toggleable": true,
+                "option": "ironsight:dual-wielding",
+                "label": "Rhythm, Not Aim (dual-wielding)"
+            },
+            {
+                "key": "MultipleAttackPenalty",
+                "selector": "attack",
+                "value": -1,
+                "predicate": [
+                    "ironsight:dual-wielding",
+                    "item:ranged"
+                ]
+            }
+        ],
         "traits": {
+            "otherTags": [
+                "ironsight-twin-iron"
+            ],
             "rarity": "common",
             "value": [
                 "ironsight"
@@ -33,5 +52,11 @@
         },
         "slug": "rhythm-not-aim"
     },
-    "_id": "Lc0NRhsFZy1O41fA"
+    "_id": "Lc0NRhsFZy1O41fA",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The toggle above is player-set (turn it on while dual-wielding two firearms, off otherwise) rather than automatically detected -- Foundry has no built-in roll option for \"currently wielding two weapons\" to predicate against directly, confirmed by search; this is the same manual-tracking convention this corpus already uses for other stance-like toggles. The card's own \"doesn't stack with agile/other MAP reduction\" clause is not separately enforced -- MultipleAttackPenalty's real stacking behavior (lowest value applies) already produces the correct outcome without an explicit suppression rule, so nothing further was needed there.",
+            "track": "twin-iron"
+        }
+    }
 }

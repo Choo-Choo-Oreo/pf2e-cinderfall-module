@@ -1,0 +1,72 @@
+{
+    "name": "Antifreeze Plasma",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>Cultured cryoprotectant swapped into your blood. Resistance 3 to cold; you ignore the usual penalties for cold environments and you can be brought back from freezing or deep hypothermia with no lasting effect.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 4
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "mk": 100
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "Resistance",
+                "type": "cold",
+                "value": 3
+            }
+        ],
+        "size": "med",
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "antifreeze-plasma"
+    },
+    "_id": "BwVGGP6Ih9Mt8zvi",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Ignoring cold-environment penalties and reversing freezing/hypothermia with no lasting effect have no rule-element hook: no engine mechanism exists anywhere for environmental hazard severity -- confirmed absence, since real pf2e ships equally concrete claims with rules: [] (Cat Fall for fall damage, metabolic-control.json for hunger).",
+            "augmentKind": "biological",
+            "augmentType": "graft",
+            "tier": "common",
+            "slots": [
+                "Circulatory"
+            ],
+            "slotCost": 1,
+            "grade": 1,
+            "availability": "Cultured",
+            "level": 4,
+            "load": "+1",
+            "resonance": "+0"
+        }
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "name": "The Undoubted",
+    "type": "deity",
+    "img": "systems/pf2e/icons/default-icons/deity.svg",
+    "system": {
+        "attribute": [
+            "cha",
+            "str"
+        ],
+        "category": "deity",
+        "description": {
+            "value": "<p><strong>Worship & Recognition</strong></p>\n<p>Craves personal acknowledgment above all, and is disproportionately offended by exactly one declared nonbeliever — not humanity in general, one person.</p>\n<p><strong>Areas of Concern</strong> worship, recognition, one doubter's ruin</p>\n<p><strong>Edicts</strong> never let doubt go unanswered; be seen doing what you're best at</p>\n<p><strong>Anathema</strong> praise a rival unprompted; let a declared nonbeliever go unpunished</p>\n<p><strong>Religious Symbol</strong> an open eye, unblinking</p>\n<p><strong>Sacred Animal</strong> peacock</p>\n<p><strong>Sacred Colors</strong> gilt gold, mirror-silver</p>"
+        },
+        "domains": {
+            "alternate": [],
+            "primary": [
+                "confidence",
+                "perfection"
+            ]
+        },
+        "font": [],
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "sanctification": {
+            "modal": "can",
+            "what": [
+                "unholy"
+            ]
+        },
+        "skill": [
+            "performance"
+        ],
+        "spells": {
+            "1": "Compendium.pf2e.spells-srd.Item.Command",
+            "2": "Compendium.pf2e.spells-srd.Item.Mirror Image",
+            "7": "Compendium.pf2e.spells-srd.Item.Sunburst"
+        },
+        "traits": {},
+        "weapons": [
+            "rapier"
+        ],
+        "slug": "the-undoubted"
+    },
+    "_id": "dxnyIHqS2AraTMY7",
+    "flags": {
+        "cinderfall": {}
+    }
+}

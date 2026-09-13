@@ -1,0 +1,72 @@
+{
+    "name": "Hunger-Marrow",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>Marrow harvested from someone who starved to death still hungry, transplanted clean. Fast Healing 6. +2 item bonus to Fortitude saves.</p><p><b>Donor:</b> Twice the food isn't enough anymore — it wants meat, and it wants it recently alive. Go a day without feeding it something that was breathing that morning, and take a –2 status penalty to all checks until you do.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 17
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "mk": 20000
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "fortitude",
+                "type": "item",
+                "value": 2
+            }
+        ],
+        "size": "med",
+        "traits": {
+            "rarity": "legendary",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "hunger-marrow"
+    },
+    "_id": "5JZnfq8cn3boX7Gj",
+    "flags": {
+        "cinderfall": {
+            "augmentKind": "biological",
+            "augmentType": "graft",
+            "tier": "legendary",
+            "slots": [
+                "Circulatory"
+            ],
+            "slotCost": 1,
+            "grade": 5,
+            "availability": "Grafted",
+            "level": 17,
+            "load": "+7",
+            "resonance": "+6"
+        }
+    }
+}

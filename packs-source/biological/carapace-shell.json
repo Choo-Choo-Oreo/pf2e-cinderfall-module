@@ -1,0 +1,73 @@
+{
+    "name": "Carapace Shell",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>A hard segmented shell grown over your back, shoulders, and skull. +2 item bonus to AC. 1 action to pull in: gain resistance 5 to all physical damage but you are immobilized and your only action is the reaction to come back out. –5-foot penalty to all Speeds.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 12
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "mk": 2250
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "ac",
+                "type": "item",
+                "value": 2
+            }
+        ],
+        "size": "med",
+        "traits": {
+            "rarity": "rare",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "carapace-shell"
+    },
+    "_id": "fELG3UImQwdJDgUx",
+    "flags": {
+        "cinderfall": {
+            "augmentKind": "biological",
+            "augmentType": "graft",
+            "tier": "rare",
+            "slots": [
+                "Frame",
+                "Dermal"
+            ],
+            "slotCost": 2,
+            "grade": 3,
+            "availability": "Grafted",
+            "level": 12,
+            "load": "+5",
+            "resonance": "+3"
+        }
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "name": "The Table Always Balances",
+    "type": "capstone",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p>Once per day, with no action required, do one of the following: treat a natural 1 you just rolled on a check, attack roll, or saving throw as a natural 20 instead, or force an enemy within 60 feet who just rolled a natural 20 to treat it as a natural 10 instead. The house doesn't cheat. It just decides, once a day, which way the balance tips.</p>"
+        },
+        "level": {
+            "value": 20
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "otherTags": [
+                "cultist-croupier"
+            ],
+            "value": [
+                "cultist"
+            ]
+        },
+        "slug": "croupier-major"
+    },
+    "_id": "G65KZZKDFqMU9y3E",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "\"Treat your own just-rolled natural 1 as a natural 20, OR force an enemy's just-rolled natural 20 within 60 feet to be treated as a natural 10\" is P-DIE for the self-facing clause (redefining a rolled die's value, not a reroll and not a degree-of-success shift; no rule element does this, confirmed absent via exhaustive grep this pass) and additionally P-CROSS for the enemy-facing clause (redefining a DIFFERENT creature's already-rolled die).",
+            "track": "croupier"
+        }
+    }
+}

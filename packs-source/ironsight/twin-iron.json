@@ -1,0 +1,49 @@
+{
+    "name": "Twin Iron",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
+        "description": {
+            "value": "<p>One gun in each hand and a rhythm to firing them that took years to stop dropping either one. You don’t aim so much as you keep going, and the arithmetic of that has ended more fights than any single good shot ever did.</p><hr /><p><strong>SIGNATURE —</strong> You fire more often than anyone alive, and a gun failure only ever takes one hand out of the fight.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "otherTags": [
+                "ironsight-draw"
+            ],
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "twin-iron"
+    },
+    "_id": "O6qnPQNkd8dID7In",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Zero-number level-1 Draw-signature flavor grant. No numeric follow-through exists anywhere else on this Draw's own card family -- a genuine content gap, not a search failure.",
+            "subclassOf": "ironsight",
+            "subclassChoice": "Choose Your Draw",
+            "role": "Short Range · Volume",
+            "subclassLayer": "draw"
+        }
+    }
+}

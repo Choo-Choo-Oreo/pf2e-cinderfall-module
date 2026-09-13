@@ -1,0 +1,58 @@
+{
+    "name": "Effect: Past the Reach of the Grave",
+    "type": "effect",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "description": {
+            "value": "<p><em>Applied by <strong>Past the Reach of the Grave</strong> to the target.</em></p>\n<hr />\n<p>The target gains resistance 5 to void damage and a +2 status bonus to saves against death effects, soul-drain, and effects that would begin the transformation into a raging spirit. It's not immunity. It's a longer rope.</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "minutes",
+            "value": 10
+        },
+        "level": {
+            "value": 4
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "saving-throw",
+                "type": "status",
+                "value": 2,
+                "predicate": [
+                    "item:trait:death"
+                ]
+            },
+            {
+                "key": "Resistance",
+                "type": "void",
+                "value": 5
+            }
+        ],
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "value": []
+        },
+        "slug": "past-the-reach-of-the-grave-effect"
+    },
+    "_id": "U7eqCkFLpnrW9oiy",
+    "flags": {
+        "cinderfall": {
+            "effectOf": "vigil.past-the-reach-of-the-grave",
+            "landsOn": "target"
+        }
+    }
+}

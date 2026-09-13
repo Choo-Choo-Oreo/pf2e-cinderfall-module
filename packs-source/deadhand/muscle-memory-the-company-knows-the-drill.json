@@ -27,5 +27,10 @@
         },
         "slug": "muscle-memory-the-company-knows-the-drill"
     },
-    "_id": "6dVxX8Ku6RDkusd7"
+    "_id": "6dVxX8Ku6RDkusd7",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "\"Routine [X] no longer requires a check below DC 20\" -- part of this class's Muscle Memory late-career passive family (with muscle-memory-the-grind, muscle-memory-the-guard-never-drops, and the-wall-doesnt-ask). No rule-element key in the entire pf2e-source/src/module/rules/rule-element/ module list auto-succeeds a check below a stated DC."
+        }
+    }
 }

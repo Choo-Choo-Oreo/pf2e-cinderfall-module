@@ -1,0 +1,68 @@
+{
+    "name": "Bolt Hunting Rifle",
+    "type": "weapon",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "bulk": {
+            "value": 1
+        },
+        "description": {
+            "value": "<p>Pre-Turning sporting rifle, worked bolt, iron sights someone filed true. Reliable in a way scrap guns never are — misfires on a natural 1 only if neglected.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 0
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "price": {
+            "value": {
+                "gp": 9
+            }
+        },
+        "ammo": {
+            "baseType": "rifle-rounds"
+        },
+        "bonus": {
+            "value": 0
+        },
+        "bonusDamage": {
+            "value": 0
+        },
+        "category": "martial",
+        "damage": {
+            "dice": 1,
+            "die": "d10",
+            "damageType": "piercing"
+        },
+        "group": "firearm",
+        "range": 100,
+        "reload": {
+            "value": 1
+        },
+        "splashDamage": {
+            "value": 0
+        },
+        "usage": {
+            "value": "held-in-two-hands"
+        },
+        "slug": "bolt-hunting-rifle"
+    },
+    "_id": "NzRzOKxZiNjCyZVF",
+    "flags": {
+        "cinderfall": {}
+    }
+}

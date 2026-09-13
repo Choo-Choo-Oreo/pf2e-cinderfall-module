@@ -1,0 +1,81 @@
+{
+    "name": "Pack-Beast Legs",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>Heavy donor legs built for hauling loads all day. Your Bulk limits increase by 3 before you're encumbered; ignore the Speed penalty from being encumbered or from heavy armor; +2 item bonus to Athletics to move, drag, or carry a heavy object.</p><p><b>Donor:</b> A porter, or the animal a porter drove. The legs know a route — a real one, somewhere — and pull that way when you're tired and not deciding.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 9
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "mk": 700
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "RollOption",
+                "option": "pack-beast-legs",
+                "toggleable": true,
+                "label": "Moving, dragging or carrying a heavy object"
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "athletics",
+                "type": "item",
+                "value": 2,
+                "predicate": [
+                    "pack-beast-legs"
+                ]
+            }
+        ],
+        "size": "med",
+        "traits": {
+            "rarity": "rare",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "pack-beast-legs"
+    },
+    "_id": "431MUKR6sANP0c13",
+    "flags": {
+        "cinderfall": {
+            "augmentKind": "biological",
+            "augmentType": "graft",
+            "tier": "rare",
+            "slots": [
+                "Legs"
+            ],
+            "slotCost": 1,
+            "grade": 3,
+            "availability": "Grafted",
+            "level": 9,
+            "load": "+3",
+            "resonance": "+2"
+        }
+    }
+}

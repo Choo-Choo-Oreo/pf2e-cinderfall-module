@@ -35,5 +35,10 @@
         },
         "slug": "steady-bind"
     },
-    "_id": "rRzc0vsEXVeyndV8"
+    "_id": "rRzc0vsEXVeyndV8",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Every numeric claim here -- Temper decreasing on rest, the item bonus stepping from +2 to 0 to -1 by Temper threshold, and the soul answering dishonestly at Temper 4 -- is built entirely on Temper, which has no representation anywhere in the actor schema for a rule element to read."
+        }
+    }
 }

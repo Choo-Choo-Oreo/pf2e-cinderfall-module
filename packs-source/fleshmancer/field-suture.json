@@ -33,5 +33,10 @@
         },
         "slug": "field-suture"
     },
-    "_id": "Dd1LHtXY2S9pRauv"
+    "_id": "Dd1LHtXY2S9pRauv",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "This effect changes a different creature's own roll, HP, condition, or item, sourced from the card holder's own passive/item/action. No selector exists anywhere in pf2e-source for this -- confirmed corpus-wide this pass. This is a reaction sourced from the caster's own class feature that heals a different creature's HP."
+        }
+    }
 }

@@ -1,0 +1,37 @@
+{
+    "name": "Rebar Vault",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "skill",
+        "description": {
+            "value": "<p>Twisted rebar and shattered girders are handholds to you, not hazards. You can attempt to Grab an Edge to catch a fall off broken structures even without a free hand, using your weapon or a scavenged strap as an anchor.</p>"
+        },
+        "level": {
+            "value": 4
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "rebar-vault"
+    },
+    "_id": "f1HgiwvPSdHmRIfT",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Attempting Grab an Edge without a free hand is a capability unlock (bypassing a stated action requirement), not a check modifier -- no rule element changes an action's own requirements."
+        }
+    }
+}

@@ -1,0 +1,59 @@
+{
+    "name": "Effect: Steady Chorus",
+    "type": "effect",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "description": {
+            "value": "<p><em>Applied by <strong>Steady Chorus</strong> to each affected ally.</em></p>\n<hr />\n<p>Your Afflicted gain a +2 status bonus to saves against effects that would turn, control, banish, dismiss or destroy them outright, and against effects that would compel them to act against your commands. If such an effect would take one from you without a save, it attempts one against your class DC instead.</p>"
+        },
+        "duration": {
+            "expiry": null,
+            "sustained": false,
+            "unit": "unlimited",
+            "value": -1
+        },
+        "level": {
+            "value": 4
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "RollOption",
+                "option": "steady-chorus",
+                "toggleable": true,
+                "label": "Effect would turn, control, banish, dismiss or destroy you, or compel you against your master's commands"
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "saving-throw",
+                "type": "status",
+                "value": 2,
+                "predicate": [
+                    "steady-chorus"
+                ]
+            }
+        ],
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "value": []
+        },
+        "slug": "steady-chorus-effect"
+    },
+    "_id": "TWrwpWQM3HjYgEEP",
+    "flags": {
+        "cinderfall": {
+            "effectOf": "plaguesworn.steady-chorus",
+            "landsOn": "ally"
+        }
+    }
+}

@@ -33,5 +33,10 @@
         },
         "slug": "quiet-ward"
     },
-    "_id": "Z7gGUkn44eUYldbE"
+    "_id": "Z7gGUkn44eUYldbE",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Bucket 3/bucket 4 hybrid: a reaction that can target an ally. No rule element for a reactive flat damage reduction was found; Shield Block (the real analog) is hard-coded engine behavior, not a rule element, and doesn't cover allies at all."
+        }
+    }
 }

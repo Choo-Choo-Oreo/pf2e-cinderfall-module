@@ -33,5 +33,10 @@
         },
         "slug": "quiet-miracle"
     },
-    "_id": "C38RliwgIG9Rwdce"
+    "_id": "C38RliwgIG9Rwdce",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Bucket 3: the Grace/Cinder spend half is mechanically simple once the pool exists, but 'spend N' isn't itself expressed by a rule element (it's a manual actor update, same as gain); the produced effect between Lesser and Greater Miracle is pure GM narrative."
+        }
+    }
 }

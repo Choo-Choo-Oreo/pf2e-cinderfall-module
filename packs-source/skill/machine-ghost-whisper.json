@@ -1,0 +1,32 @@
+{
+    "name": "Machine-Ghost Whisper",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "skill",
+        "description": {
+            "value": "<p>Old-world constructs half-remember their makers' commands. You can attempt an Arcana check instead of Diplomacy to calm or redirect a malfunctioning arcane-tech construct that isn't actively hostile.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "machine-ghost-whisper"
+    },
+    "_id": "OYkm0pZZahBsZgSv"
+}

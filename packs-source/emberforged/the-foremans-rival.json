@@ -1,0 +1,34 @@
+{
+    "name": "The Foreman's Rival",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "ancestry",
+        "description": {
+            "value": "<p>Your fire burns hot enough that even the Foreman takes real notice. Gain a permanent, unique standing with it — ally, rival, or something in between, decided by how you've played it.</p>"
+        },
+        "level": {
+            "value": 17
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "emberforged"
+            ]
+        },
+        "slug": "the-foremans-rival"
+    },
+    "_id": "1tUJ9jGTVs18TkZc"
+}

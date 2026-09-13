@@ -1,0 +1,46 @@
+{
+    "name": "Feeding Frenzy",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per round</p><p><strong>Trigger</strong> You deal damage to a creature at or below half its maximum Hit Points.</p><p><strong>Cost</strong> 1 Zeal</p><hr /><p>The triggering damage increases by 1d6. Gluttoneth's hunger doesn't care how thin the last plate is.</p>"
+        },
+        "level": {
+            "value": 6
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "otherTags": [
+                "cultist-gluttoneth"
+            ],
+            "rarity": "common",
+            "value": [
+                "cultist"
+            ]
+        },
+        "slug": "feeding-frenzy"
+    },
+    "_id": "tqp2hwNawYRhonEr",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "\"Trigger deal damage to a bloodied creature, Cost 1 Zeal: that damage instance +1d6.\" Confirmed this session: DamageDice's selector field is an ArrayField of arbitrary selector strings (pf2e-source/src/module/rules/rule-element/damage-dice.ts) and real usage does include a broad, unscoped \"strike-damage\" selector (not just per-weapon-slug selectors like \"claw-damage\"), so the earlier suspicion that DamageDice is too narrow to cover general Strike damage was wrong. That doesn't rescue this card, though: it's gated behind a per-instance Cost 1 Zeal spend (P-ZEAL, no resource to spend from) and a Frequency 1/round trigger the player actively invokes -- building the die-bonus as an unconditional passive would grant it to every hit against a bloodied creature with no cost gate, which is a forbidden loosening of the card's own stated condition, not a faithful build.",
+            "track": "gluttoneth"
+        }
+    }
+}

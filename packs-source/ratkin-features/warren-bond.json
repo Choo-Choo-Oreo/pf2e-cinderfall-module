@@ -1,0 +1,62 @@
+{
+    "name": "Warren-Bond",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "ancestryfeature",
+        "description": {
+            "value": "<p>Bonus to Aid, Diplomacy, or Survival when acting alongside two or more allies of your own ancestry.</p>"
+        },
+        "level": {
+            "value": 0
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "RollOption",
+                "option": "warren-bond-kin",
+                "toggleable": true,
+                "label": "Acting alongside two or more allies of your own ancestry"
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "diplomacy",
+                "type": "circumstance",
+                "value": 1,
+                "predicate": [
+                    "warren-bond-kin"
+                ]
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "survival",
+                "type": "circumstance",
+                "value": 1,
+                "predicate": [
+                    "warren-bond-kin"
+                ]
+            }
+        ],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ratkin"
+            ]
+        },
+        "slug": "warren-bond"
+    },
+    "_id": "Om8GZeDdc0cHj5aB"
+}

@@ -38,10 +38,7 @@
     "_id": "FBs1qFVKPgYytFBe",
     "flags": {
         "cinderfall": {
-            "incomplete": [
-                "level is a stub (0); the page carries no item levels"
-            ],
-            "currency": "Balanced to the PF2e GP standard and denominated in Credits: 1 Credit = 1 gp. The whole list was scaled x10 from the retired scraps=sp anchor, so every relative price is unchanged from the page as authored."
+            "incomplete": "\"Reduces the penalty for firing beyond the weapon's first range increment by 1\" has no rule-element equivalent: pf2e's multiple-range-increment penalty (-2 per increment beyond the first) is a fixed engine calculation, not exposed as an adjustable selector/property anywhere -- confirmed against item-alteration/handlers.ts's full property list (has range-increment and range-max, i.e. how far an increment reaches, but nothing for the per-increment penalty amount itself) and 0 hits for any range-penalty selector across pf2e-source. Real pf2e's closest analog (Advanced Rangefinder, pf2e-source/packs/pf2e/class-features/advanced-rangefinder.json) achieves a similar practical effect by lengthening the range increment itself, not by reducing the penalty per increment -- a different mechanism than what this card states, so substituting it would misrepresent the card rather than implement it."
         }
     }
 }

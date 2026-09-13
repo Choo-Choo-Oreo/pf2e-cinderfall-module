@@ -24,7 +24,38 @@
             "remaster": true,
             "title": "Cinderfall"
         },
-        "rules": [],
+        "rules": [
+            {
+                "key": "RollOption",
+                "option": "known-quantity-seen-you-fight",
+                "toggleable": true,
+                "label": "Target has seen you fight"
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "intimidation",
+                "type": "circumstance",
+                "value": 2,
+                "predicate": [
+                    "known-quantity-seen-you-fight"
+                ]
+            },
+            {
+                "key": "RollOption",
+                "option": "known-quantity-trade",
+                "toggleable": true,
+                "label": "Target is a mercenary, guard, soldier or contractor"
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "diplomacy",
+                "type": "circumstance",
+                "value": 2,
+                "predicate": [
+                    "known-quantity-trade"
+                ]
+            }
+        ],
         "traits": {
             "rarity": "common",
             "value": [

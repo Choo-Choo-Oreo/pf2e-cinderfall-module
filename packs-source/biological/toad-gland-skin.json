@@ -1,0 +1,66 @@
+{
+    "name": "Toad-Gland Skin",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>Poison glands grafted under the skin. A creature that hits you with an unarmed attack, or that starts its turn grabbing you, takes 1d4 poison (basic Fortitude vs your class DC, or DC 14 if you have none). Increases by 1d4 at 5th level and every 4 levels thereafter.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 3
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "mk": 60
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "toad-gland-skin"
+    },
+    "_id": "ntIlqGlD4neQwBei",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The whole ability deals reactive poison damage to whoever attacks or grabs you, with a save DC and a scaling die -- this targets another creature's HP/save from a self-held item, the same architecture gap as Quill-Bed/Grave-Quiet, and the level-based scaling compounds it further.",
+            "augmentKind": "biological",
+            "augmentType": "graft",
+            "tier": "common",
+            "slots": [
+                "Dermal"
+            ],
+            "slotCost": 1,
+            "grade": 1,
+            "availability": "Grafted",
+            "level": 3,
+            "load": "+1",
+            "resonance": "+1"
+        }
+    }
+}

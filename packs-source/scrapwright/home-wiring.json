@@ -33,5 +33,10 @@
         },
         "slug": "home-wiring"
     },
-    "_id": "64JqffNDnQ3UaQFh"
+    "_id": "64JqffNDnQ3UaQFh",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Bucket 5 -- states a real number (+2 offsetting a -2), but the base penalty it offsets is itself an unencoded homebrew downtime modifier (not found anywhere as a rule element in this pass's scope), so there is no clean predicate/target for a countering FlatModifier to attach to. Not chased into the augment/Install-action implementation -- flagged as an open question, not asserted absent."
+        }
+    }
 }

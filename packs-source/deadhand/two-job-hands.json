@@ -24,7 +24,37 @@
             "remaster": true,
             "title": "Cinderfall"
         },
-        "rules": [],
+        "rules": [
+            {
+                "key": "ItemAlteration",
+                "mode": "add",
+                "itemType": "weapon",
+                "property": "traits",
+                "value": "versatile-p",
+                "predicate": [
+                    "item:category:unarmed"
+                ]
+            },
+            {
+                "key": "ItemAlteration",
+                "mode": "add",
+                "itemType": "weapon",
+                "property": "traits",
+                "value": "versatile-s",
+                "predicate": [
+                    "item:category:unarmed"
+                ]
+            },
+            {
+                "key": "ItemAlteration",
+                "mode": "upgrade",
+                "itemType": "weapon",
+                "property": "damage-dice-faces",
+                "predicate": [
+                    "item:category:unarmed"
+                ]
+            }
+        ],
         "traits": {
             "rarity": "common",
             "value": [
@@ -33,5 +63,10 @@
         },
         "slug": "two-job-hands"
     },
-    "_id": "9yyfiYhveTwdVCC8"
+    "_id": "9yyfiYhveTwdVCC8",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The trait grant and damage-die-step-up on the caster's own unarmed attacks are confirmed real via pf2e-source/src/module/rules/rule-element/item-alteration/handlers.ts: property \"traits\" (mode add) and property \"damage-dice-faces\" (mode upgrade, itemType weapon) are both real, schema-confirmed ItemAlteration properties. \"Improvised weapons count as martial weapons of the closest matching group\" is unbuilt: the \"group\" ItemAlteration property (handlers.ts:580) only accepts mode:\"override\" to a single fixed literal weapon group chosen at authoring time -- it cannot express a per-item \"closest matching\" computation across arbitrary improvised weapons."
+        }
+    }
 }

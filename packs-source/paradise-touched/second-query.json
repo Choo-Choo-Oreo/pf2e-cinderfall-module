@@ -33,5 +33,10 @@
         },
         "slug": "second-query"
     },
-    "_id": "Oaxpy0Vf3iAnnWVR"
+    "_id": "Oaxpy0Vf3iAnnWVR",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Once/hour: reuse an already-used Glimpse for free (Static only). Waives the Bandwidth cost of whatever Glimpse is reused. No `SpecialResource` rule element exists anywhere in the corpus for Bandwidth -- confirmed corpus-wide (`grep -rl \"\\\"key\\\": \\\"SpecialResource\\\"\" site/data/cards/` returns zero hits), and the class card itself (`site/data/cards/classes/classes.paradise-touched.json:49`) ships `system.rules: []`. Same absence class as Cultist Zeal/Ironsight Drift/Fleshmancer Vitae."
+        }
+    }
 }

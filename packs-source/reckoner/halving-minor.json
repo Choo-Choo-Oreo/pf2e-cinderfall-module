@@ -1,0 +1,46 @@
+{
+    "name": "The Wall Also Loses",
+    "type": "capstone",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p>Once per day, when you deal damage to a creature, object, or structure with an Overflow effect, you may also strip away one layer of what's protecting it, no attack roll or save required: reduce a suit of armor or a shield's item bonus by 1, or reduce one of the target's resistances by 5, until it's repaired or the target rests. The Halving isn't interested in whether the target agrees, and neither, this once, are you.</p>"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "otherTags": [
+                "reckoner-halving"
+            ],
+            "value": [
+                "reckoner"
+            ]
+        },
+        "slug": "halving-minor"
+    },
+    "_id": "7zn7BGa3Gb5QSJn4",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Strips 1 point from a hostile target's own armor/shield bonus, or 5 from one of its resistances, on hit -- ItemAlteration only alters items owned by the same actor the rule element's item belongs to; no rule element alters a hostile target's own gear (NOFOREIGN-ITEM).",
+            "track": "halving"
+        }
+    }
+}

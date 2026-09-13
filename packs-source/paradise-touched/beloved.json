@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "paradise-touched-chorus"
+            ],
             "rarity": "common",
             "value": [
                 "paradise-touched"
@@ -33,5 +36,11 @@
         },
         "slug": "beloved"
     },
-    "_id": "4qAZppO06ER3EmZB"
+    "_id": "4qAZppO06ER3EmZB",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Any creature that's ever spoken to Paradise cannot willingly attack you, no save, ending per-creature the moment you attack them. A standing restriction on any qualifying creature's ability to attack the holder, evaluated at the attacker's end, has no selector anywhere in pf2e-source. A standing effect from the holder's own passive altering a different creature's roll/HP/condition outside the normal one-time strike/spell pipeline has no selector anywhere in pf2e-source -- confirmed against `pf2e-source/src/module/rules/rule-element/sense.ts` (self-only) and the `iwr/` directory (Resistance/Weakness/Immunity are self-only); nothing grants/redirects an effect onto another actor's own standing rules outside a `GrantItem`/`Aura` companion-effect hand-off.",
+            "track": "chorus"
+        }
+    }
 }

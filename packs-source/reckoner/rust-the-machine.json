@@ -33,5 +33,10 @@
         },
         "slug": "rust-the-machine"
     },
-    "_id": "vy5wKre6ptxy6lRP"
+    "_id": "vy5wKre6ptxy6lRP",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "On any Overflow-damage hit against a construct, applies -1 AC to that hostile creature -- no generic 'after any damaging spell I cast hits a construct, apply an effect to it' hook exists (NOFOREIGN-ITEM-adjacent)."
+        }
+    }
 }

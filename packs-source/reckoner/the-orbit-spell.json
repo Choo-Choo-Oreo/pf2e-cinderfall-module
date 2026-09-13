@@ -1,0 +1,55 @@
+{
+    "name": "The Orbit",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p>Each round you Sustain this spell, the two targets are pulled 5 feet directly toward one another (movement stops early rather than force a target into a solid obstruction).</p>"
+        },
+        "duration": {
+            "sustained": true,
+            "value": "sustained up to 1 minute"
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "60 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "2 creatures, or 1 creature and 1 fixed point, within 60 feet of each other"
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [],
+            "value": [
+                "focus",
+                "reckoner"
+            ]
+        },
+        "slug": "the-orbit-spell"
+    },
+    "_id": "lXN5AaB8b7yizyfR",
+    "flags": {
+        "cinderfall": {
+            "signatureSpellOf": "reckoner.inspiral"
+        }
+    }
+}

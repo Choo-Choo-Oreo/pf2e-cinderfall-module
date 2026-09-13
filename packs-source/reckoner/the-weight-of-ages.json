@@ -33,5 +33,10 @@
         },
         "slug": "the-weight-of-ages"
     },
-    "_id": "OfYbfdhYmkixyyaV"
+    "_id": "OfYbfdhYmkixyyaV",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Auto-escalating -1/turn status penalty to attack/AC/saves (max -4), no repeat save offered -- no rule element auto-increments a custom counter round over round outside a named condition's own badge-increment or a SpecialResource (NOSTACK)."
+        }
+    }
 }

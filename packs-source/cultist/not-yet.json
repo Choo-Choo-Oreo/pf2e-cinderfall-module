@@ -1,0 +1,46 @@
+{
+    "name": "Not Yet",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You would gain a condition with a duration from a failed save.</p><hr /><p>The condition's onset is delayed until the start of your next turn instead of applying immediately. It still applies in full once it arrives — The Someday only postpones, it never forgives.</p>"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "otherTags": [
+                "cultist-someday"
+            ],
+            "rarity": "common",
+            "value": [
+                "cultist"
+            ]
+        },
+        "slug": "not-yet"
+    },
+    "_id": "fbFWnVOMiP3XYRb9",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Delays a durationed condition's onset by one round after a failed save. No rule-element shape defers an already-triggered condition grant to a later turn; no matching precedent found in pf2e-source within this pass's research budget. Flagged as absence-of-evidence, same caveat as everything-in-its-time.",
+            "track": "someday"
+        }
+    }
+}

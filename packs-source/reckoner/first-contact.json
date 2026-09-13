@@ -33,5 +33,10 @@
         },
         "slug": "first-contact"
     },
-    "_id": "ofXYB11bHUtV2UjL"
+    "_id": "ofXYB11bHUtV2UjL",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Extends THE ORBIT (a forced-movement pull mechanic) to a second target -- no forced-movement/pull/drag rule element exists anywhere in pf2e-source (confirmed by listing every file in pf2e-source/src/module/rules/rule-element/; NOMOVE), so THE ORBIT and anything built on it is unbuildable via system.rules."
+        }
+    }
 }

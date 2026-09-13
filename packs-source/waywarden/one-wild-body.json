@@ -33,5 +33,10 @@
         },
         "slug": "one-wild-body"
     },
-    "_id": "z5yzdPkZ8wIlHBA5"
+    "_id": "z5yzdPkZ8wIlHBA5",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Both the mutation/Slot economy and the cross-actor sharing are independently unbuilt. The Strain/Bloom-Table/mutation-Slot economy has no SpecialResource or other Foundry-schema representation anywhere in the corpus (confirmed via grep -rli '\"strain\"' site/data/cards/classes/, no hits, and grep -rl '\"key\": \"SpecialResource\"' site/data/cards/, one unrelated hit in fleshmancer.vitae-pool.json). This effect buffs, protects, or grants actions to the Feral Bond (the companion beast) from the holder's own card. No rule-element selector in pf2e-source lets one actor's item grant a stat bonus, temp HP, an extra action, or a shared sense to a different actor's sheet -- confirmed by spot-checking real pf2e's own fully-built Animal Companion subsystem (Ranger/Druid), where virtually every companion-buff/companion-action-economy feat ships with rules: [] too."
+        }
+    }
 }

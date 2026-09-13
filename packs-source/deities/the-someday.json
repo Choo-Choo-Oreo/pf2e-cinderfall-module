@@ -1,0 +1,48 @@
+{
+    "name": "The Someday",
+    "type": "deity",
+    "img": "systems/pf2e/icons/default-icons/deity.svg",
+    "system": {
+        "attribute": [
+            "con",
+            "wis"
+        ],
+        "category": "deity",
+        "description": {
+            "value": "<p><strong>Inertia & Delay</strong></p>\n<p>Means to act. Will, definitely, right after this. The power was always coming — it just comes on its own schedule, and that schedule rewards followers who don't rush it.</p>\n<p><strong>Areas of Concern</strong> inertia, delay, patience rewarded</p>\n<p><strong>Edicts</strong> never act before you must; let things come due on their own schedule</p>\n<p><strong>Anathema</strong> rush a task the god hasn't gotten to yet; act out of panic instead of patience</p>\n<p><strong>Religious Symbol</strong> an hourglass, sand barely moving</p>\n<p><strong>Sacred Animal</strong> tortoise</p>\n<p><strong>Sacred Colors</strong> dust grey, faded amber</p>"
+        },
+        "domains": {
+            "alternate": [
+                "repose"
+            ],
+            "primary": [
+                "introspection"
+            ]
+        },
+        "font": [],
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "sanctification": null,
+        "skill": [
+            "deception"
+        ],
+        "spells": {
+            "1": "Compendium.pf2e.spells-srd.Item.Sleep",
+            "3": "Compendium.pf2e.spells-srd.Item.Slow",
+            "5": "Compendium.pf2e.spells-srd.Item.Stagnate Time"
+        },
+        "traits": {},
+        "weapons": [
+            "greatclub"
+        ],
+        "slug": "the-someday"
+    },
+    "_id": "82YGsnDaTdAbXs4f",
+    "flags": {
+        "cinderfall": {}
+    }
+}

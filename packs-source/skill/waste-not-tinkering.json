@@ -1,0 +1,37 @@
+{
+    "name": "Waste-Not Tinkering",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "skill",
+        "description": {
+            "value": "<p>Nothing in the wastes is really scrap until you've stripped it twice. When you Repair an item using salvaged (rather than store-bought) components, reduce the cost in materials by an amount equal to your level (minimum 0).</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "waste-not-tinkering"
+    },
+    "_id": "aCwDrPqaAhxTXaoy",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "No rule-element key reduces the material cost of a Repair check by a scaling amount (here, the actor's level) -- downtime crafting/repair costs aren't exposed to a cost-modifying rule element in this corpus."
+        }
+    }
+}

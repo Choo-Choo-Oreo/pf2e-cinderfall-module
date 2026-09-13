@@ -1,0 +1,39 @@
+{
+    "name": "Squeeze and Slip",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "ancestry",
+        "description": {
+            "value": "<p>Squeeze through a gap two size categories smaller than you instead of the usual one, with no Speed penalty while squeezing through a gap only one size smaller.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ratkin"
+            ]
+        },
+        "slug": "squeeze-and-slip"
+    },
+    "_id": "PkCS31wwQgLGPMsH",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Squeezing-through-gaps rules are core-rules terrain adjudication in pf2e, not itemized per-creature via a rule element; no rule-element hook exists for altering squeeze size categories or removing the squeeze Speed penalty."
+        }
+    }
+}

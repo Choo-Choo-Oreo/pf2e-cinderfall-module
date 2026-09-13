@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "ironsight-long-iron"
+            ],
             "rarity": "common",
             "value": [
                 "ironsight"
@@ -33,5 +36,11 @@
         },
         "slug": "already-in-the-sights"
     },
-    "_id": "Xguwbl91ZlFa1ikI"
+    "_id": "Xguwbl91ZlFa1ikI",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "\"distance damage\" is the homebrew Draw ladder, not a real PF2E field. The \"may act even without having rolled initiative\" clause has no rule-element hook either: grepped pf2e-source/packs/pf2e/feats for \"act first\"/ \"acts first\" (zero hits) and confirmed initiative sequencing isn't exposed to system.rules — it's a Foundry combat-tracker mechanic, not an actor property. This effect is defined entirely in terms of a Cinderfall-homebrew subsystem with zero Foundry schema footprint (the Gun Failure Table/Failure Range, hazardous ground, time-in-sights, Trick Iron charge bank, or Drift/augment-slot cost). Confirmed via the full rule-element type listing (pf2e-source/src/module/rules/rule-element/, 40 files): no RollTable-manipulation, no persistent-terrain-hazard, and no arbitrary stacking-counter rule element type exists to hook any of these to.",
+            "track": "long-iron"
+        }
+    }
 }

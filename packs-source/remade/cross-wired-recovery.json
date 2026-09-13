@@ -33,5 +33,10 @@
         },
         "slug": "cross-wired-recovery"
     },
-    "_id": "8Yt7Nv6s6GWg6kHf"
+    "_id": "8Yt7Nv6s6GWg6kHf",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "BAND-GAP. Purely a cross-meter downtime rule on three untracked values."
+        }
+    }
 }

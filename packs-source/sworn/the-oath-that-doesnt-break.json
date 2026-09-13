@@ -33,5 +33,10 @@
         },
         "slug": "the-oath-that-doesnt-break"
     },
-    "_id": "XVofZoqUK5tbADc9"
+    "_id": "XVofZoqUK5tbADc9",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "'Forsworn' and 'Trial stage' are homebrew statuses with zero rule-element or actor-field footprint anywhere across this class's cards -- neither appears in any system.rules array, so there is nothing for this feat to hook to suppress. This pass's own feats/general+feats/archetype sweep already confirmed no death-sequence-override rule element exists for the structurally similar 'prevent a triggered bad outcome from actually landing' shape (Defy the Reaper, Backup Self)."
+        }
+    }
 }

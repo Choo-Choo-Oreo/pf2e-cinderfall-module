@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "seed-warden-greenline"
+            ],
             "rarity": "common",
             "value": [
                 "seed-warden"
@@ -33,5 +36,11 @@
         },
         "slug": "grafted-wound"
     },
-    "_id": "k5oV7FaJOwcmJpzB"
+    "_id": "k5oV7FaJOwcmJpzB",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The temp-HP grant itself is a clean P5-shaped rule (`TempHP` value `@actor.level`, on a companion effect) — the \"replace, don't stack\" behavior is pf2e's own default handling for temp HP from the same source, so no extra rule element is even needed for that part. The blocker is structural: **Seed the Wound has no companion effect item** (unlike Momentum/Season's Turn/Soften, which each got one) to attach `TempHP` to, and this card can't create one (out of scope — a new file). Held at INCOMPLETE rather than MIXED because there is nothing in *this* file to attach rules to; the buildable piece has no home in the 69 files in scope.",
+            "track": "greenline"
+        }
+    }
 }

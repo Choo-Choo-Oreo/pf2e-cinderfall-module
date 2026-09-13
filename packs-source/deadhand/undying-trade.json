@@ -33,5 +33,10 @@
         },
         "slug": "undying-trade"
     },
-    "_id": "qg4Z3CeqknVBVyQk"
+    "_id": "qg4Z3CeqknVBVyQk",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "First disarm attempt each encounter fails, the caster is off-guard instead; the first would-be-unconscious-without-0-HP effect each encounter fails, the caster is stunned 1 instead. No rule element applies a substituted, guaranteed self-condition in place of another effect's resolution, and no rule element negates another effect's resolution outright (an effect that \"would\" disarm/incapacitate but \"fails\" is the same class of gap as AdjustDegreeOfSuccess's own confirmed inability to manufacture a success from nothing)."
+        }
+    }
 }

@@ -1,0 +1,37 @@
+{
+    "name": "Read the Fallout Wind",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "skill",
+        "description": {
+            "value": "<p>You can tell which way a radiation plume is drifting from the way the ash moves, before any counter clicks. You gain a +2 circumstance bonus to Survival checks made to predict or avoid hazardous weather caused by radiation or fallout.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "read-the-fallout-wind"
+    },
+    "_id": "qXjEfunR9elVplU9",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The +2 Survival bonus targets the Predict Weather activity, which itself ships with no rule-element representation in real pf2e (pf2e-source/packs/pf2e/feats/skill/level-2/predict-weather.json ships rules: [] and sets no discoverable 'action:predict-weather' roll option) -- there is nothing to predicate on that would ever actually fire."
+        }
+    }
+}

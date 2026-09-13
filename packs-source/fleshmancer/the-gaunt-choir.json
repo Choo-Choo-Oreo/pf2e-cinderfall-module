@@ -1,32 +1,15 @@
 {
-    "_id": "jG0o9JStn0XeR9X1",
-    "categories": [],
     "name": "The Gaunt Choir",
-    "ownership": {
-        "default": 0
+    "type": "lore",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "description": {
+            "value": "<p>Formed from a quarantine camp's dead — never buried, never quite silent, singing the same fever hymn until the voices stopped being separate. Grants plague-workers a grim resilience and the conviction that suffering, correctly aimed, means something. It will deal with anyone willing to get sick for a good enough reason, and asks only that the sickness be pointed at something.</p><hr /><p>Usable setting-wide as a petty-god patron for any class — the Fleshmancer is simply the one with a feat chain built to use it directly.</p>"
+        },
+        "slug": "the-gaunt-choir"
     },
-    "pages": [
-        {
-            "_id": "6OHD3D0QzKVsnqZX",
-            "category": null,
-            "image": {},
-            "name": "The Gaunt Choir",
-            "sort": 100000,
-            "src": null,
-            "system": {},
-            "text": {
-                "content": "<p><em>Plague · Wasting · Surrender of the Body</em></p>      <p class=\"cc-desc\">Formed from a quarantine camp's dead — never buried, never quite silent, singing the same fever hymn until the voices stopped being separate. Grants plague-workers a grim resilience and the conviction that suffering, correctly aimed, means something. It will deal with anyone willing to get sick for a good enough reason, and asks only that the sickness be pointed at something.</p>\n      <hr class=\"cc-divider\">\n      <div class=\"cc-effect\">Usable setting-wide as a petty-god patron for any class — the Fleshmancer is simply the one with a feat chain built to use it directly.</div>",
-                "format": 1
-            },
-            "title": {
-                "level": 1,
-                "show": true
-            },
-            "type": "text",
-            "video": {
-                "controls": true,
-                "volume": 0.5
-            }
-        }
-    ]
+    "_id": "jG0o9JStn0XeR9X1",
+    "flags": {
+        "cinderfall": {}
+    }
 }

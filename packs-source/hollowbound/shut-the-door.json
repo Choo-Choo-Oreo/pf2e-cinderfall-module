@@ -50,6 +50,7 @@
     "_id": "AUUMVuGf9IggIM2n",
     "flags": {
         "cinderfall": {
+            "incomplete": "The +2 status bonus to saves vs. possession/mental control/incorporeal intrusion is already correctly built as the companion hollowbound.shut-the-door-effect.json Effect record (a real FlatModifier, matching pf2e's own Bind Undead spell + spell-effect-bind-undead.json pattern of a spell staying rules: [] while its companion Effect carries the mechanic) -- no action needed on that half. The separate \"any such effect that would normally take hold on one failed save instead requires two consecutive successful saves to resist\" clause is unbuilt: it is not in shut-the-door-effect.json's own rules (confirmed by direct read: exactly one FlatModifier entry, nothing else), and converting \"single failure triggers\" into \"two consecutive successes required to resist\" is not something AdjustDegreeOfSuccess can do -- it only reclassifies the result of an actual roll that happens, it doesn't change how many rolls are required in the first place. No other rule element tracks a per-target consecutive-success counter gating whether an external effect takes hold.",
             "listing": "4th Rank"
         }
     }

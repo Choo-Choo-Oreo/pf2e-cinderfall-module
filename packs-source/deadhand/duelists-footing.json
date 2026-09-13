@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "deadhand-second"
+            ],
             "rarity": "common",
             "value": [
                 "deadhand"
@@ -33,5 +36,10 @@
         },
         "slug": "duelists-footing"
     },
-    "_id": "OT484yTcEtoksgnm"
+    "_id": "OT484yTcEtoksgnm",
+    "flags": {
+        "cinderfall": {
+            "track": "second"
+        }
+    }
 }

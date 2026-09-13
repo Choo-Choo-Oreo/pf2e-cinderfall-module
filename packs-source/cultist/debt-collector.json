@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "cultist-ledger"
+            ],
             "rarity": "common",
             "value": [
                 "cultist",
@@ -34,5 +37,10 @@
         },
         "slug": "debt-collector"
     },
-    "_id": "3Zf38e4mpbCZ1WQT"
+    "_id": "3Zf38e4mpbCZ1WQT",
+    "flags": {
+        "cinderfall": {
+            "track": "ledger"
+        }
+    }
 }

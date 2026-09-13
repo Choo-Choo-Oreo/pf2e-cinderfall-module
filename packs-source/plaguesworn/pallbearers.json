@@ -50,6 +50,7 @@
     "_id": "kOrngDxSilKIZAuC",
     "flags": {
         "cinderfall": {
+            "incomplete": "Temp HP grant (2x level) correctly stays unbuilt per the P-TEMPHP convention (real pf2e never encodes triggered temp-HP grants via system.rules regardless of scaling formula; cite pf2e-source/packs/pf2e/feats/archetype/necrologist/level-8/dismal-harvest.json). The +1 status bonus to attack for each Afflicted is buildable via a same-actor companion effect (P-BUFF-VIA-EFFECT, same pattern as Steady Chorus: [{\"key\": \"FlatModifier\", \"selector\": \"attack\", \"type\": \"status\", \"value\": 1}]) but no such companion (plaguesworn.pallbearers-effect.json) exists yet -- not created in this pass. The \"a destroyed Afflicted gets one final action\" clause is INCOMPLETE outright: it hands the Afflicted a wholly new triggered action, and no selector exists for a minion's post-death action.",
             "listing": "2nd Rank"
         }
     }

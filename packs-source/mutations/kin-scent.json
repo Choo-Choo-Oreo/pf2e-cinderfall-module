@@ -24,7 +24,9 @@
             "type": null
         },
         "price": {
-            "value": {}
+            "value": {
+                "gp": 0
+            }
         },
         "publication": {
             "license": "ORC",
@@ -32,7 +34,28 @@
             "title": "Cinderfall"
         },
         "quantity": 1,
-        "rules": [],
+        "rules": [
+            {
+                "key": "Sense",
+                "selector": "scent",
+                "acuity": "imprecise",
+                "range": 30
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "fortitude",
+                "type": "circumstance",
+                "value": -2,
+                "predicate": [
+                    {
+                        "or": [
+                            "item:trait:poison",
+                            "item:trait:stench"
+                        ]
+                    }
+                ]
+            }
+        ],
         "size": "med",
         "traits": {
             "rarity": "common",
@@ -48,19 +71,11 @@
         "cinderfall": {
             "mutationType": "minor",
             "tier": "common",
-            "slot": "Neural",
             "slots": [
                 "Neural"
             ],
             "slotCost": 1,
-            "roll": "d100 — 11–12",
-            "incomplete": [
-                "level is a stub (0); mutations carry no level",
-                "price is empty; a mutation is not bought"
-            ],
-            "inferred": [
-                "system.usage"
-            ]
+            "roll": "d100 — 11–12"
         }
     }
 }

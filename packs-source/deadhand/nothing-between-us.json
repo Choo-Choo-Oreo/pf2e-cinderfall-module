@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "deadhand-second"
+            ],
             "rarity": "common",
             "value": [
                 "deadhand"
@@ -33,5 +36,10 @@
         },
         "slug": "nothing-between-us"
     },
-    "_id": "4SnH9wsUQX0aRTlU"
+    "_id": "4SnH9wsUQX0aRTlU",
+    "flags": {
+        "cinderfall": {
+            "track": "second"
+        }
+    }
 }

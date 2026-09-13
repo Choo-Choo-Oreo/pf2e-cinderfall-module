@@ -165,7 +165,9 @@
                 },
                 "attackEffects": {
                     "custom": "",
-                    "value": []
+                    "value": [
+                        "clinging-grief"
+                    ]
                 },
                 "bonus": {
                     "value": 10
@@ -182,7 +184,7 @@
                     }
                 },
                 "description": {
-                    "value": "<p>Damage 2d6+3 void plus 1d4 persistent void (DC 18 basic Will negates the persistent damage)</p>"
+                    "value": "<p>Damage 2d6+3 void plus 1d4 persistent void (the flat check to end the persistent damage starts at DC 18, see Clinging Grief)</p>"
                 },
                 "publication": {
                     "license": "ORC",
@@ -204,6 +206,56 @@
                 }
             },
             "type": "melee"
+        },
+        {
+            "_id": "B54Jb87G3fpjYhEi",
+            "img": "systems/pf2e/icons/default-icons/effect.svg",
+            "name": "Clinging Grief",
+            "sort": 150000,
+            "system": {
+                "description": {
+                    "value": "<p>The flat check to end the persistent void damage from cold touch starts at DC 18 instead of the usual DC 15 -- the cold clings the way the Grief-Echo's own death does.</p>"
+                },
+                "duration": {
+                    "expiry": null,
+                    "sustained": false,
+                    "unit": "unlimited",
+                    "value": -1
+                },
+                "level": {
+                    "value": 2
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "rules": [
+                    {
+                        "itemType": "condition",
+                        "key": "ItemAlteration",
+                        "mode": "override",
+                        "predicate": [
+                            "item:damage:type:void"
+                        ],
+                        "property": "pd-recovery-dc",
+                        "value": 18
+                    }
+                ],
+                "slug": "clinging-grief",
+                "start": {
+                    "initiative": null,
+                    "value": 0
+                },
+                "tokenIcon": {
+                    "show": true
+                },
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                }
+            },
+            "type": "effect"
         },
         {
             "_id": "ftyIm2qFALTXB8hw",
@@ -298,10 +350,7 @@
     ],
     "flags": {
         "cinderfall": {
-            "alignment": "NE",
-            "incomplete": [
-                "Melee strike 'cold touch': rider '(DC 18 basic Will negates the persistent damage)' kept as text only"
-            ]
+            "alignment": "NE"
         }
     }
 }

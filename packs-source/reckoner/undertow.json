@@ -1,51 +1,36 @@
 {
     "name": "Undertow",
-    "type": "spell",
+    "type": "feat",
     "img": "icons/svg/mystery-man.svg",
     "system": {
-        "area": null,
-        "cost": {
-            "value": ""
+        "actionType": {
+            "value": "passive"
         },
-        "counteraction": false,
-        "damage": {},
-        "defense": {
-            "save": {
-                "basic": false,
-                "statistic": "fortitude"
-            }
+        "actions": {
+            "value": null
         },
+        "category": "classfeature",
         "description": {
-            "value": "<p>The ground behaves as if the target were already ankle-deep in rising water. <i>Failure</i> slowed 1 for the duration. <i>Critical Failure</i> slowed 2.</p>"
-        },
-        "duration": {
-            "sustained": false,
-            "value": "1 minute"
+            "value": "<p>The same patience the drowned coastline had, waiting out every wall built against it. Nothing you do to a target is dramatic. It just, eventually, doesn't matter how hard they resist.</p><hr /><p><strong>THE SLOW PULL —</strong> the ground drags like rising water — a target that fails its Fortitude save is slowed 1 for a minute, slowed 2 if it fails badly.</p>"
         },
         "level": {
             "value": 1
+        },
+        "prerequisites": {
+            "value": []
         },
         "publication": {
             "license": "ORC",
             "remaster": true,
             "title": "Cinderfall"
         },
-        "range": {
-            "value": "30 feet"
-        },
-        "requirements": "",
         "rules": [],
-        "target": {
-            "value": "1 creature"
-        },
-        "time": {
-            "value": "2"
-        },
         "traits": {
+            "otherTags": [
+                "reckoner-aspect"
+            ],
             "rarity": "common",
-            "traditions": [],
             "value": [
-                "focus",
                 "reckoner"
             ]
         },
@@ -54,9 +39,15 @@
     "_id": "hEM5RcZg2hEVmw1X",
     "flags": {
         "cinderfall": {
+            "incomplete": "This Aspect base feat plausibly wants a GrantItem granting its signature focus spell/ability, matching the ChoiceSet+GrantItem pattern already used for the Aspect subclass choice itself (reckoner.aspect.json). Not shipped: the only intra-corpus GrantItem precedents are a dynamic ChoiceSet-selection token or a fixed UUID into the real pf2e system's own compendiums -- there is no existing example of a fixed GrantItem pointing at another Cinderfall-authored card by literal compendium UUID, and the Cinderfall Foundry module's actual pack/document naming (tools/foundry/build_pack.py / pf2e-cinderfall-module) was not checked in this cards-only research pass. See feats-class-reckoner-draft.md open question 1 (GRANTITEM-UUID-OPEN).",
             "focusCost": "1",
             "spellTag": "Undertow",
-            "listing": "Aspect Signatures / The Halving decay / entropy"
+            "listing": "Aspect Signatures / The Halving decay / entropy",
+            "subclassOf": "reckoner",
+            "subclassChoice": "Choose Your Source, Then Your Aspect",
+            "role": "Inevitability · The Rising Seas",
+            "followUp": "signature spell 'The Slow Pull' is record reckoner.the-slow-pull; the card renders on spells-abilities.html as a spell-entry and its statline/body are authored above",
+            "subclassLayer": "aspect"
         }
     }
 }

@@ -25,7 +25,7 @@
             "value": "<p>Made a living pulling scrap, bodies, and the occasional intact vault out of three meters of flooded old-world city, one held breath at a time.</p>"
         },
         "items": {
-            "feats.held-breath": {
+            "skill.held-breath": {
                 "level": 1,
                 "name": "Held Breath"
             }
@@ -51,7 +51,6 @@
     "_id": "5pLuzd5BslpsWPnw",
     "flags": {
         "cinderfall": {
-            "define": "The Drowned Coast",
             "foundAmong": "Found among: Drowned Coast salvage divers, Widow of Rust-adjacent enclaves, coastal smuggler crews"
         }
     }

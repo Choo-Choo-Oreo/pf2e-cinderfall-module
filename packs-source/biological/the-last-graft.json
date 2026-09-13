@@ -1,0 +1,93 @@
+{
+    "name": "The Last Graft",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p><em>Every slot.</em> GM-permission item. Not one donor — several, harvested and grown together into a single graft that overwrites the whole body at once. +2 apex item bonus to all physical ability scores. Fast Healing 10. Resistance 10 to physical and poison damage. Choose one donor's trained skill and one language, gained permanently, on install.</p><p><b>Rider:</b> You are already Chorus the moment the graft closes. Renegotiating who's driving isn't a future event on this card — the GM may start doing it this session.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 20
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "mk": 125000
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "FastHealing",
+                "type": "fast-healing",
+                "value": 10
+            },
+            {
+                "key": "Resistance",
+                "type": "physical",
+                "value": 10
+            },
+            {
+                "key": "Resistance",
+                "type": "poison",
+                "value": 10
+            }
+        ],
+        "size": "med",
+        "traits": {
+            "rarity": "exotic",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "the-last-graft"
+    },
+    "_id": "qWnifNgPCdyzJ8OR",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The +2 apex item bonus to all physical ability scores has no confirmed hook, same finding as every other apex clause in this pass. The permanent free skill/language pick on install is a one-time character-build choice, not a standing rule (closer to a ChoiceSet made once at creation than an ongoing effect, and the specific 'donor's trained skill' set isn't known in advance to author a ChoiceSet against). The Chorus-immediately rider is narrative GM adjudication.",
+            "augmentKind": "biological",
+            "augmentType": "graft",
+            "tier": "exotic",
+            "slots": [
+                "Ocular",
+                "Neural",
+                "Frame",
+                "Dermal",
+                "Arm",
+                "Legs",
+                "Viscera",
+                "Circulatory"
+            ],
+            "slotCost": 8,
+            "grade": 5,
+            "availability": "Wild",
+            "level": 20,
+            "load": "+8",
+            "resonance": "→ 9",
+            "augTags": [
+                "wild",
+                "apex"
+            ]
+        }
+    }
+}

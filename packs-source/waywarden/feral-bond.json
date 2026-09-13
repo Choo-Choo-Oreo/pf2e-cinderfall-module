@@ -1,0 +1,63 @@
+{
+    "name": "Choose Your Feral Bond",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
+        "description": {
+            "value": "<p><em>Choose Your Feral Bond</em></p><p>Choose one: Carapace, Snapjaw, Wingtouched.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "ChoiceSet",
+                "adjustName": false,
+                "flag": "feralBond",
+                "prompt": "Choose Your Feral Bond",
+                "choices": {
+                    "filter": [
+                        "item:tag:waywarden-feral-bond"
+                    ]
+                }
+            },
+            {
+                "key": "GrantItem",
+                "uuid": "{item|flags.system.rulesSelections.feralBond}"
+            }
+        ],
+        "traits": {
+            "otherTags": [],
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "feral-bond"
+    },
+    "_id": "lIvpHEB5AmRwMo8x",
+    "flags": {
+        "cinderfall": {
+            "subclassOf": "waywarden",
+            "subclassLayer": "feral-bond",
+            "grants": [
+                "waywarden.carapace",
+                "waywarden.snapjaw",
+                "waywarden.wingtouched"
+            ]
+        }
+    }
+}

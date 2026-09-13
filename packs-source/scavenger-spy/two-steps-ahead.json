@@ -27,5 +27,10 @@
         },
         "slug": "two-steps-ahead"
     },
-    "_id": "IYJ5ss4iqP80N4m5"
+    "_id": "IYJ5ss4iqP80N4m5",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The +2 bonus applies to \"the party's response\" (external/ambiguous target, no fixed selector) -- needs the distracting-feint.json two-file companion-effect pattern plus a fixed-selector answer neither exists here."
+        }
+    }
 }

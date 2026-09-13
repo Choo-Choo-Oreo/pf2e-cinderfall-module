@@ -33,5 +33,10 @@
         },
         "slug": "choirs-exception"
     },
-    "_id": "dhZT24SPbooyLH4P"
+    "_id": "dhZT24SPbooyLH4P",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Ashcantor's entire signature resource system (Passage, a Passing, Walking Through, Embers, Ash-Light) has zero rule-element representation anywhere in this corpus -- the class card itself (classes.ashcantor.json) ships system.rules: [], and no abilities/ or class-features/ card exists to hold a Passage/Ember mechanic either. Checked pf2e's own generic SpecialResource rule element (pf2e-source/src/module/rules/rule-element/special-resource.ts:24-247) as a possible fit: every real user (Alchemist's Versatile Vials, Gunslinger's Munitions Machinist, Fumbus's iconic feats) is a daily-refilling consumable counter, never a one-way permanent-increase track like Passage -- no real class resource matches Passage's shape, so there is no base mechanic here to extend or modify. Specifically, this modifies \"a Passing\"'s targeting requirements and its Passage-threshold cost, both entirely unmodeled."
+        }
+    }
 }

@@ -1,0 +1,65 @@
+{
+    "name": "Mag-Lock Soles",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>Electromagnetic feet. Ignore difficult terrain from ice, scree, grease. Not knocked prone by forced movement while standing on metal or worked stone.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 1
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "gp": 20
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "mag-lock-soles"
+    },
+    "_id": "0mN1HXu41kvZdWAr",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Ignoring difficult terrain from ice/scree/grease has no engine hook -- confirmed absence, no rule element removes a terrain-based movement cost conditioned on terrain material anywhere in pf2e. 'Not knocked prone by forced movement while standing on metal or worked stone' also can't be predicated: no roll option marks the actor's current surface material.",
+            "augmentKind": "cybernetic",
+            "augmentType": "implant",
+            "tier": "common",
+            "slots": [
+                "Legs"
+            ],
+            "slotCost": 1,
+            "grade": 1,
+            "availability": "Licensed",
+            "level": 1,
+            "drift": "+0"
+        }
+    }
+}

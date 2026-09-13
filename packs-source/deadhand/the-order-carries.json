@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "deadhand-cadre"
+            ],
             "rarity": "common",
             "value": [
                 "deadhand"
@@ -33,5 +36,11 @@
         },
         "slug": "the-order-carries"
     },
-    "_id": "t8MbgWx1Cp1Yz50H"
+    "_id": "t8MbgWx1Cp1Yz50H",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The called command's range increases to 60 feet, works on an ally who can see but not hear the caster if they've fought together before, and deafened allies count as able to hear. Same \"nothing to extend\" gap -- no range/hear-requirement value exists on the base command mechanic to modify -- and \"have fought together before\" is an unencoded relationship history with no analog regardless.",
+            "track": "cadre"
+        }
+    }
 }

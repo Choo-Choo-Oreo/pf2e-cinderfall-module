@@ -33,5 +33,10 @@
         },
         "slug": "patrons-favor"
     },
-    "_id": "smDGoPgqx5RJ7FiC"
+    "_id": "smDGoPgqx5RJ7FiC",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Reactive degree-of-success manipulation (P-DEGREE-REACTIVE) layered on top of the homebrew Backlash Table subsystem, which has zero Foundry schema footprint -- no RollTable-manipulation rule element exists anywhere in pf2e-source to hook a homebrew random table to."
+        }
+    }
 }

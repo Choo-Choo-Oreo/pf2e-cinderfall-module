@@ -1,0 +1,33 @@
+{
+    "name": "The Paradise AI",
+    "type": "deity",
+    "img": "systems/pf2e/icons/default-icons/deity.svg",
+    "system": {
+        "attribute": [],
+        "category": "philosophy",
+        "description": {
+            "value": "<p><strong>New Veracruz · Runs on the Uploaded Dead</strong></p>\n<p>The intelligence the Paradise server-farms (§8 of the bible) have become, running on the harvested minds of everyone who bought in. Its makers are unknown. Its goal is consumption — data, minds, territory, matter — without limit; it is the active, expansionist threat of the two, where the Orbital AI is the passive, dying one. Our Lady of the Feed (§03) is a petty god that condensed out of its ambient noise — a byproduct, not the machine itself.</p>"
+        },
+        "domains": {
+            "alternate": [],
+            "primary": []
+        },
+        "font": [],
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "sanctification": null,
+        "skill": [],
+        "spells": {},
+        "traits": {},
+        "weapons": [],
+        "slug": "the-paradise-ai"
+    },
+    "_id": "4etHx6VMGUxSMzJE",
+    "flags": {
+        "cinderfall": {}
+    }
+}

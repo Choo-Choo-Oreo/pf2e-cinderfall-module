@@ -33,5 +33,10 @@
         },
         "slug": "twin-system-bracing"
     },
-    "_id": "fsBQMyAuhidPOR4h"
+    "_id": "fsBQMyAuhidPOR4h",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "P-BUCKET3."
+        }
+    }
 }

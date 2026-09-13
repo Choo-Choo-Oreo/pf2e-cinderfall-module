@@ -24,8 +24,28 @@
             "remaster": true,
             "title": "Cinderfall"
         },
-        "rules": [],
+        "rules": [
+            {
+                "key": "DamageDice",
+                "selector": "melee-strike-damage",
+                "diceNumber": 1,
+                "predicate": [
+                    "item:hands-held:2",
+                    {
+                        "or": [
+                            "target:condition:prone",
+                            "target:condition:immobilized",
+                            "target:condition:restrained",
+                            "target:condition:grabbed"
+                        ]
+                    }
+                ]
+            }
+        ],
         "traits": {
+            "otherTags": [
+                "deadhand-breaker"
+            ],
             "rarity": "common",
             "value": [
                 "deadhand"
@@ -33,5 +53,11 @@
         },
         "slug": "ordnance-discipline"
     },
-    "_id": "Gb0eT116pk9uLuMg"
+    "_id": "Gb0eT116pk9uLuMg",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The extra-damage-die-vs-condition clause reuses this class's own already-shipped DamageDice idiom (deadhand.one-weapon-one-answer.json). \"Allies are never damaged by the caster's own AoE/collapses\" is unbuilt: no rule element excludes named allies from the caster's own area damage based on relationship.",
+            "track": "breaker"
+        }
+    }
 }

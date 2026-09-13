@@ -33,5 +33,10 @@
         },
         "slug": "grave-patience"
     },
-    "_id": "yheekahHUrkrfaaK"
+    "_id": "yheekahHUrkrfaaK",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "This clause is an ongoing effect targeting a different creature's roll/HP/condition/behavior, sourced from the holder's own passive (P-CROSSCREATURE), with no selector anywhere in pf2e-source for one actor's rule element to reach into a separate actor on an ongoing basis. Afflicted is this class's minion subsystem: a raise-cap, a collapse timer, and (at level 18) a shared cross-actor Resonance pool. pf2e's schema has no generic \"max controlled minions\" field, no \"minion lifespan\" field, and no mechanism for one actor's rule element to modify a different actor's stats on an ongoing basis. No \"minion lifespan\" field exists anywhere in pf2e's schema to double."
+        }
+    }
 }

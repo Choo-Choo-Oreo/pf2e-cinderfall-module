@@ -24,7 +24,36 @@
             "remaster": true,
             "title": "Cinderfall"
         },
-        "rules": [],
+        "rules": [
+            {
+                "key": "ActiveEffectLike",
+                "mode": "add",
+                "path": "inventory.bulk.maxAddend",
+                "value": 1
+            },
+            {
+                "key": "ActiveEffectLike",
+                "mode": "add",
+                "path": "inventory.bulk.encumberedAfterAddend",
+                "value": 1
+            },
+            {
+                "key": "AdjustModifier",
+                "selectors": [
+                    "land-speed"
+                ],
+                "mode": "add",
+                "value": 5,
+                "predicate": [
+                    {
+                        "lte": [
+                            "penalty:value",
+                            -5
+                        ]
+                    }
+                ]
+            }
+        ],
         "traits": {
             "rarity": "common",
             "value": [

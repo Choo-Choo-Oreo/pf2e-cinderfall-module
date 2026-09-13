@@ -34,5 +34,10 @@
         },
         "slug": "threshold-keeper"
     },
-    "_id": "BuA6QWpQOaZmzWUv"
+    "_id": "BuA6QWpQOaZmzWUv",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Two independent gaps. (1) Status-bonus half: same Aura-shell-plus-missing-companion structural gap as the-weight-of-ash-the-weight-of-grace (STRUCT-AURA-COMPANION), compounded here because this card's own area text ('one location up to a small settlement') never states a foot radius the way the-weight-of-ash's clean 30-foot emanation does -- Aura's radius field can't be filled without guessing a number the card doesn't state, so even the shell isn't safely buildable here the way it is on the sibling card. (2) 'You always know when a creature you have excluded enters the warded area' half: no detection/notification rule element exists for this in pf2e-source (checked alongside the divination precedents, e.g. pf2e-source/packs/pf2e/spells/spells/rank-6/truesight.json and .../spells/rank-2/augury.json); nothing matches a standing, passive, location-bound intrusion alert."
+        }
+    }
 }

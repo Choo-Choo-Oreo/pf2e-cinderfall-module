@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "ironsight-long-iron"
+            ],
             "rarity": "common",
             "value": [
                 "ironsight",
@@ -34,5 +37,11 @@
         },
         "slug": "take-the-high-ground"
     },
-    "_id": "2eOZw6zBsw6toznx"
+    "_id": "2eOZw6zBsw6toznx",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "the +2 circumstance to an initiative roll would, in isolation, be a trivially real FlatModifier (selector: \"initiative\"), but it's gated behind an untracked setup condition (\"picked a vantage point, stayed there, combat starts\") with no roll-option/flag mechanism and no companion effect item here to carry that state — so the card as a whole stays INCOMPLETE, with the initiative clause flagged as the one piece likely real in isolation.",
+            "track": "long-iron"
+        }
+    }
 }

@@ -33,5 +33,10 @@
         },
         "slug": "chain-verse"
     },
-    "_id": "zG6dzgfPKwhfLKV0"
+    "_id": "zG6dzgfPKwhfLKV0",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Miasma is this class's focus-pool-that-doesn't-refill-on-rest resource. No SpecialResource rule element exists for it anywhere in the corpus: the class card itself (classes.plaguesworn.json:49) ships system.rules: [], and grep -rl \"SpecialResource\" site/data/cards/feats/class/plaguesworn/ site/data/cards/classes/classes.plaguesworn.json returns zero hits. Any clause that costs, refills, or banks Miasma is unbuildable via the renew:false mechanism -- that mechanism simply isn't wired up for this class. Independently, no rule element retargets a spell's target/area fields from single-creature to burst at cast time -- searched ItemAlteration's property list (area-size only rescales an existing area value, it doesn't convert a single-target spell into an area spell) and found nothing else that fits."
+        }
+    }
 }

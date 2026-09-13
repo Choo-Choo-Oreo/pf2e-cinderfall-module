@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "the-signal-numbers"
+            ],
             "rarity": "common",
             "value": [
                 "the-signal"
@@ -33,5 +36,11 @@
         },
         "slug": "full-sequence"
     },
-    "_id": "rJ36ZtUTsoltTb9F"
+    "_id": "rJ36ZtUTsoltTb9F",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "SB4 (there is no base −1 penalty encoded anywhere to scale) plus a \"has this target already failed a save against me this encounter\" history predicate, which was not found in the roll-option/predicate vocabulary reviewed this session.",
+            "track": "numbers"
+        }
+    }
 }

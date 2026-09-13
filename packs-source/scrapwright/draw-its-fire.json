@@ -1,0 +1,37 @@
+{
+    "name": "Draw Its Fire",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Range</strong> 30 ft</p><p><strong>Duration</strong> until the start of your next turn</p><hr /><span class=\"sdesc\">Enemies within range take a −2 circumstance penalty to attack anyone but you.</span>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "scrapwright"
+            ]
+        },
+        "slug": "draw-its-fire"
+    },
+    "_id": "YLRoLIDioH33WXpA",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Bucket 3 -- activated action creating a new area effect. There is no roll-option/predicate for \"the current attack's target is not the feat's caster\" or for measured-template range membership testable generically by a FlatModifier predicate; this needs a templated Effect + macro, not a static rule element.",
+            "notSpell": "scrapwright's class document carries system.spellcasting 0, so this is an ability, not a spell, and convert_class_spells.py declines it by design as a NON_CASTERS owner"
+        }
+    }
+}

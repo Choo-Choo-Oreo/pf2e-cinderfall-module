@@ -27,5 +27,10 @@
         },
         "slug": "redline-all-hands"
     },
-    "_id": "RE2kLz8nnyEEP2Vf"
+    "_id": "RE2kLz8nnyEEP2Vf",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Every ally who can hear the caster gains +2 circumstance to their next attack/save until the caster's next turn. Same \"no companion, bare ally bonus\" gap as eyes-up/on-my-mark. This is also a named \"Redline\" card -- the class's own glossary (site/data/cards/classes/classes.deadhand.json) defines Redline as spending Tally in a lump by definition, so the card is Tally-gated even though its own description doesn't restate an explicit numeric cost -- Deadhand's Tally is entirely homebrew with zero schema footprint anywhere in this corpus."
+        }
+    }
 }

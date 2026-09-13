@@ -1,0 +1,43 @@
+{
+    "name": "Parent's Full Attention",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "ancestry",
+        "description": {
+            "value": "<p>Your parent intelligence can now proactively warn you of danger it detects, not only respond when you reach out.</p>"
+        },
+        "level": {
+            "value": 13
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "First-Generation heritage or Wider Signal"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "wire-ward"
+            ]
+        },
+        "slug": "parents-full-attention"
+    },
+    "_id": "ytcTVEJGxIW5Bihx",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "This affects another creature's own roll, HP, or condition from the card holder's passive/item, which has no rule-element hook in real pf2e. ('your parent intelligence can now proactively warn you of danger' is a GM-controlled NPC behavior change with no predicate or value.)"
+        }
+    }
+}

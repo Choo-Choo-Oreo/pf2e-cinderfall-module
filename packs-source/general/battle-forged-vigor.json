@@ -1,0 +1,57 @@
+{
+    "name": "Battle-Forged Vigor",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "general",
+        "description": {
+            "value": "<p>Resistance to a physical damage type of your choice (chosen when you take this feat) equal to half your level.</p>"
+        },
+        "level": {
+            "value": 11
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "ChoiceSet",
+                "flag": "battleForgedVigor",
+                "prompt": "Choose Your Resistance Type",
+                "choices": [
+                    {
+                        "value": "bludgeoning",
+                        "label": "PF2E.TraitBludgeoning"
+                    },
+                    {
+                        "value": "piercing",
+                        "label": "PF2E.TraitPiercing"
+                    },
+                    {
+                        "value": "slashing",
+                        "label": "PF2E.TraitSlashing"
+                    }
+                ]
+            },
+            {
+                "key": "Resistance",
+                "type": "{item|flags.system.rulesSelections.battleForgedVigor}",
+                "value": "max(1,floor(@actor.level/2))"
+            }
+        ],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "battle-forged-vigor"
+    },
+    "_id": "QE1FreJT4CLd3WQl"
+}

@@ -33,5 +33,10 @@
         },
         "slug": "the-tally-never-closes"
     },
-    "_id": "Ud4BWklkxLt3Fbn2"
+    "_id": "Ud4BWklkxLt3Fbn2",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "No Tally cap during an encounter; Tally carries over in full between encounters; excess Tally at day's end deals 2d6 damage per point over cap. Deadhand's Tally is entirely homebrew with zero schema footprint anywhere in this corpus."
+        }
+    }
 }

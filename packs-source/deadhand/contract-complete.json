@@ -33,5 +33,10 @@
         },
         "slug": "contract-complete"
     },
-    "_id": "WTcYZu4ztyA6rm7Z"
+    "_id": "WTcYZu4ztyA6rm7Z",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "On reducing a foe to 0 HP: heal 2x level, end one condition of the caster's choice, gain 1 Tally. No \"Heal\" rule-element key exists anywhere in pf2e-source/src/module/rules/rule-element/ (only the inverse, lose-hit-points.ts) -- self-healing as a resolved reaction effect has no hook at all. Condition removal has no rule-element path either, and the Tally gain is the same unbuilt homebrew resource as clean-twice."
+        }
+    }
 }

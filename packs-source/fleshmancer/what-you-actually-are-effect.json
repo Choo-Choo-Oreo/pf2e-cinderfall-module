@@ -1,0 +1,75 @@
+{
+    "name": "Effect: What You Actually Are",
+    "type": "effect",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "description": {
+            "value": "<p><em>Applied by <strong>What You Actually Are</strong> to the character who used it.</em></p>\n<hr />\n<p>You take a monstrous form and stay in it. You gain a +2 status bonus to Fortitude saves, resistance 10 to physical damage, a climb Speed of 30 feet, and your unarmed attacks deal one additional damage die. Reverting takes 10 minutes. You take a &minus;4 circumstance penalty to Diplomacy checks with anyone who has not seen you like this before.</p>"
+        },
+        "duration": {
+            "expiry": null,
+            "sustained": false,
+            "unit": "unlimited",
+            "value": -1
+        },
+        "level": {
+            "value": 20
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "fortitude",
+                "type": "status",
+                "value": 2
+            },
+            {
+                "key": "Resistance",
+                "type": "physical",
+                "value": 10
+            },
+            {
+                "key": "BaseSpeed",
+                "selector": "climb",
+                "value": 30
+            },
+            {
+                "key": "RollOption",
+                "option": "what-you-actually-are-unseen",
+                "toggleable": true,
+                "label": "They have not seen you in this form before"
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "diplomacy",
+                "type": "circumstance",
+                "value": -4,
+                "predicate": [
+                    "what-you-actually-are-unseen"
+                ]
+            }
+        ],
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "value": []
+        },
+        "slug": "what-you-actually-are-effect"
+    },
+    "_id": "QOGnUcUA8szG6Jyt",
+    "flags": {
+        "cinderfall": {
+            "effectOf": "fleshmancer.what-you-actually-are",
+            "landsOn": "self"
+        }
+    }
+}

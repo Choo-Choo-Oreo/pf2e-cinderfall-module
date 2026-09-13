@@ -50,6 +50,7 @@
     "_id": "Cbd31sB3DAjZWWKv",
     "flags": {
         "cinderfall": {
+            "incomplete": "Miasma is this class's focus-pool-that-doesn't-refill-on-rest resource. No SpecialResource rule element exists for it anywhere in the corpus: the class card itself (classes.plaguesworn.json:49) ships system.rules: [], and grep -rl \"SpecialResource\" site/data/cards/feats/class/plaguesworn/ site/data/cards/classes/classes.plaguesworn.json returns zero hits. Any clause that costs, refills, or banks Miasma is unbuildable via the renew:false mechanism -- that mechanism simply isn't wired up for this class. The Choir's Toll random table (TOLL) is referenced by roughly ten cards in this class. No rule element models rolling on a GM table, or substituting a chosen result for a roll -- zero precedent searched or expected, this is squarely outside anything system.rules can represent.",
             "listing": "8th Rank"
         }
     }

@@ -50,6 +50,7 @@
     "_id": "ggyLLSfiIhFOijdy",
     "flags": {
         "cinderfall": {
+            "incomplete": "STRUCT-EFFECT-COMPANION, same heroism-shape gap as given-weight/skin-against-the-ash. The rule element itself is trivial (FlatModifier, selector chosen via ChoiceSet), but no companion effect file exists to carry it.",
             "listing": "1st Rank"
         }
     }

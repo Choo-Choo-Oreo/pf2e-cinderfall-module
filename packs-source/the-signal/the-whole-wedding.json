@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "the-signal-requiem"
+            ],
             "rarity": "common",
             "value": [
                 "the-signal",
@@ -34,5 +37,11 @@
         },
         "slug": "the-whole-wedding"
     },
-    "_id": "HRggPjrkYLoH4Q2j"
+    "_id": "HRggPjrkYLoH4Q2j",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Substituting one skill's modifier and DC for another skill's downtime-healing formula is not a shape any of the 34 rule-element keys implement (P12) — this is a full alternate-skill-substitution of an entire activity's math, not a flat modifier or a `SubstituteRoll` (which swaps which statistic is *rolled*, not which formula the result feeds into). Confirmed via inspection of the available key list; no closer precedent found.",
+            "track": "requiem"
+        }
+    }
 }

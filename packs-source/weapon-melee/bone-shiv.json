@@ -1,0 +1,69 @@
+{
+    "name": "Bone Shiv",
+    "type": "weapon",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "bulk": {
+            "value": 0.1
+        },
+        "description": {
+            "value": "<p>A dagger-length blade knapped from a corpse's own bone; balanced to throw. Agile, easy to hide.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 0
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "thrown-10"
+            ]
+        },
+        "price": {
+            "value": {
+                "gp": 1
+            }
+        },
+        "bonus": {
+            "value": 0
+        },
+        "bonusDamage": {
+            "value": 0
+        },
+        "category": "simple",
+        "damage": {
+            "dice": 1,
+            "die": "d4",
+            "damageType": "piercing"
+        },
+        "group": "knife",
+        "range": null,
+        "reload": {
+            "value": null
+        },
+        "splashDamage": {
+            "value": 0
+        },
+        "usage": {
+            "value": "held-in-one-hand"
+        },
+        "slug": "bone-shiv"
+    },
+    "_id": "qkYZBCBk4TiQmwOk",
+    "flags": {
+        "cinderfall": {
+            "ruling": "New 2026-09-08 -- authored in place of the alchemical bombs flavor removed from Fleshmancer proficiency (see classes.fleshmancer.json, commit 8239f3a). Not yet wired into any class grant or page; card data only, per scope."
+        }
+    }
+}

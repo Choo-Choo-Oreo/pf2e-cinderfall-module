@@ -1,0 +1,66 @@
+{
+    "name": "Regenerative Dermis",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>Cultured self-knitting skin. Fast healing 2 whenever you have not taken damage since the end of your last turn; persistent bleed on you ends one round sooner than it otherwise would.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 6
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "mk": 250
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "traits": {
+            "rarity": "uncommon",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "regenerative-dermis"
+    },
+    "_id": "RrJb85qiyhaHucu7",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Fast healing 2 conditioned on 'has not taken damage since the end of your last turn' can't be predicated: no roll option tracks 'took damage last turn' for a FastHealing predicate to test against, and granting it unconditionally would misstate a narrower, frequently-suppressed effect as an always-on one (over-applying is worse than under-applying). 'Persistent bleed ends one round sooner' also has no hook: a persistent condition's duration isn't a rule-element-adjustable actor stat.",
+            "augmentKind": "biological",
+            "augmentType": "graft",
+            "tier": "uncommon",
+            "slots": [
+                "Dermal"
+            ],
+            "slotCost": 1,
+            "grade": 2,
+            "availability": "Cultured",
+            "level": 6,
+            "load": "+1",
+            "resonance": "+1"
+        }
+    }
+}

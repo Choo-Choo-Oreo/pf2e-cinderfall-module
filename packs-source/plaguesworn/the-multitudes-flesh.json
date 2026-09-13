@@ -33,5 +33,10 @@
         },
         "slug": "the-multitudes-flesh"
     },
-    "_id": "DA23Q6yqWinCnV1m"
+    "_id": "DA23Q6yqWinCnV1m",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Afflicted is this class's minion subsystem: a raise-cap, a collapse timer, and (at level 18) a shared cross-actor Resonance pool. pf2e's schema has no generic \"max controlled minions\" field, no \"minion lifespan\" field, and no mechanism for one actor's rule element to modify a different actor's stats on an ongoing basis. No cross-actor pooled-resource mechanism exists anywhere in pf2e-source."
+        }
+    }
 }

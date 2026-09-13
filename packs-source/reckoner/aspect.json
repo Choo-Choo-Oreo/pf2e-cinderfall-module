@@ -1,0 +1,72 @@
+{
+    "name": "Choose Your Source, Then Your Aspect",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
+        "description": {
+            "value": "<p><em>Choose Your Source, Then Your Aspect</em></p><p>Choose one: Cold Reckoning, Event Horizon, Forbidden Cognition, Half-Light, Hawking Radiation, Inspiral, Long Arithmetic, Spaghettification, The Many, The Unspeakable, Undertow, Warped Angles.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "ChoiceSet",
+                "adjustName": false,
+                "flag": "aspect",
+                "prompt": "Choose Your Source, Then Your Aspect",
+                "choices": {
+                    "filter": [
+                        "item:tag:reckoner-aspect"
+                    ]
+                }
+            },
+            {
+                "key": "GrantItem",
+                "uuid": "{item|flags.system.rulesSelections.aspect}"
+            }
+        ],
+        "traits": {
+            "otherTags": [],
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "aspect"
+    },
+    "_id": "J3TgJE6nad7dMK5l",
+    "flags": {
+        "cinderfall": {
+            "subclassOf": "reckoner",
+            "subclassLayer": "aspect",
+            "grants": [
+                "reckoner.cold-reckoning",
+                "reckoner.event-horizon",
+                "reckoner.forbidden-cognition",
+                "reckoner.half-light",
+                "reckoner.hawking-radiation",
+                "reckoner.inspiral",
+                "reckoner.long-arithmetic",
+                "reckoner.spaghettification",
+                "reckoner.the-many",
+                "reckoner.the-unspeakable",
+                "reckoner.undertow",
+                "reckoner.warped-angles"
+            ]
+        }
+    }
+}

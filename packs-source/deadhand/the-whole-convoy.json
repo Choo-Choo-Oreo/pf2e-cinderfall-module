@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "deadhand-bulwark"
+            ],
             "rarity": "common",
             "value": [
                 "deadhand"
@@ -33,5 +36,11 @@
         },
         "slug": "the-whole-convoy"
     },
-    "_id": "Kyk4cpCKHfRUOwUJ"
+    "_id": "Kyk4cpCKHfRUOwUJ",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Every ally the caster can see gains resistance 5 to physical damage and can't be reduced below 1 HP until the caster's next turn; when this ends, the caster takes 2d6 damage per ally saved from dropping. No selector prevents a different creature's HP from dropping or grants it resistance from the caster's own passive/action at mass scale, and no companion effect exists to carry a mass ally ward of this shape with real-time damage tracking across many allies simultaneously (same gap as the-convoy-gets-through).",
+            "track": "bulwark"
+        }
+    }
 }

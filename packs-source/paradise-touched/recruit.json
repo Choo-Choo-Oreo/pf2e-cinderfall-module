@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "paradise-touched-chorus"
+            ],
             "rarity": "common",
             "value": [
                 "paradise-touched"
@@ -33,5 +36,10 @@
         },
         "slug": "recruit"
     },
-    "_id": "XKQPX26oJmXlNdyV"
+    "_id": "XKQPX26oJmXlNdyV",
+    "flags": {
+        "cinderfall": {
+            "track": "chorus"
+        }
+    }
 }

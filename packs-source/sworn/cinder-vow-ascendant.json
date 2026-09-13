@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "flavored"
+            ],
             "rarity": "common",
             "value": [
                 "sworn"
@@ -33,5 +36,10 @@
         },
         "slug": "cinder-vow-ascendant"
     },
-    "_id": "knYBiVAlYkHZwj3d"
+    "_id": "knYBiVAlYkHZwj3d",
+    "flags": {
+        "cinderfall": {
+            "flavored": true
+        }
+    }
 }

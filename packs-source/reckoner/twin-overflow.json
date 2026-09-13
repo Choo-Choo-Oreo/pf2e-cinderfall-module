@@ -33,5 +33,10 @@
         },
         "slug": "twin-overflow"
     },
-    "_id": "2pHvQvgVPZHdPL7z"
+    "_id": "2pHvQvgVPZHdPL7z",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The 'Reckoning advances only once, not per draw' clause for a free second Overflow draw -- the Reckoning (this class's own 4-stage penalty track) has zero Foundry-schema footprint: classes.reckoner.json ships \"rules\": [] and defines no SpecialResource, counter, or stage-tracking rule element of any kind to hook. See feats-class-reckoner-draft.md (RECKONING-BLOCKER). Separately: no generic 'cast a second, arbitrary spell for free' hook exists either."
+        }
+    }
 }

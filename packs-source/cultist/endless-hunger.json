@@ -1,0 +1,45 @@
+{
+    "name": "Endless Hunger",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Trigger</strong> You reduce a creature to 0 Hit Points with a Rite or a Strike.</p><p><strong>Frequency</strong> once per round.</p><hr /><p>Gain temporary Hit Points equal to three times your level, lasting 1 minute, and regain 2 Zeal. If you already have temporary Hit Points from this feat, refresh the duration instead of stacking them.</p>"
+        },
+        "level": {
+            "value": 14
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "otherTags": [
+                "cultist-gluttoneth"
+            ],
+            "rarity": "common",
+            "value": [
+                "cultist"
+            ]
+        },
+        "slug": "endless-hunger"
+    },
+    "_id": "QLZ2shUcLFySOwwz",
+    "flags": {
+        "cinderfall": {
+            "track": "gluttoneth"
+        }
+    }
+}

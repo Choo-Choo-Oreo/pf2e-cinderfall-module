@@ -1,0 +1,93 @@
+{
+    "name": "Spine Lash",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>A whip of extra vertebrae running down your back that flicks out to strike. Melee Strike: reach 15 feet, 1d4 slashing, agile, finesse, disarm. On a critical hit you may push the target 5 feet.</p><p><b>Rider:</b> It cracks toward any sound it doesn't like. When a creature you can't see acts within 15 feet of you, you stop being hidden or undetected to it.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 10
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "mk": 600
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "Strike",
+                "slug": "spine-lash",
+                "label": "Spine Lash",
+                "category": "unarmed",
+                "group": "brawling",
+                "img": "systems/pf2e/icons/unarmed-attacks/tail.webp",
+                "range": null,
+                "traits": [
+                    "unarmed",
+                    "agile",
+                    "finesse",
+                    "disarm",
+                    "reach-15"
+                ],
+                "damage": {
+                    "base": {
+                        "damageType": "slashing",
+                        "dice": 1,
+                        "die": "d4"
+                    }
+                }
+            }
+        ],
+        "size": "med",
+        "traits": {
+            "rarity": "rare",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "spine-lash"
+    },
+    "_id": "fUTZ2TPFRcoa2bua",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The on-crit 5-foot push and the reveal-when-hidden rider both have no hook: a Strike's own critical-success rider (beyond the disarm trait already on the weapon) isn't something the Strike rule element can add, and 'stop being hidden when a creature you can't see acts nearby' has no roll-option trigger.",
+            "augmentKind": "biological",
+            "augmentType": "graft",
+            "tier": "rare",
+            "slots": [
+                "Frame"
+            ],
+            "slotCost": 1,
+            "grade": 3,
+            "availability": "Wild",
+            "level": 10,
+            "load": "+2",
+            "resonance": "+3",
+            "augTags": [
+                "wild"
+            ]
+        }
+    }
+}

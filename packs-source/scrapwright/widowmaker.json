@@ -1,0 +1,48 @@
+{
+    "name": "Widowmaker",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
+        "description": {
+            "value": "<p>One signature big gun (or improvised melee monstrosity) that grows modular, then legendary, over your career. The gun that ends up with a nickname in three different territories.</p><hr /><p><strong>SIGNATURE —</strong> reconfigure damage type and range increment once per day as part of routine maintenance.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "otherTags": [
+                "scrapwright-rig"
+            ],
+            "rarity": "common",
+            "value": [
+                "scrapwright"
+            ]
+        },
+        "slug": "widowmaker"
+    },
+    "_id": "LCqa9zOhKtMz6rci",
+    "flags": {
+        "cinderfall": {
+            "subclassOf": "scrapwright",
+            "subclassChoice": "Choose Your Rig",
+            "subclassLayer": "rig",
+            "role": "Weapon Innovation"
+        }
+    }
+}

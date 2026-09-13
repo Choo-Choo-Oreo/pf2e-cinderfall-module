@@ -1,46 +1,35 @@
 {
     "name": "Static-Glass Mirror",
-    "type": "spell",
+    "type": "feat",
     "img": "icons/svg/mystery-man.svg",
     "system": {
-        "area": null,
-        "cost": {
-            "value": ""
+        "actionType": {
+            "value": "passive"
         },
-        "counteraction": false,
-        "damage": {},
-        "defense": null,
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
         "description": {
-            "value": "<p><strong>Frequency</strong> 2/day (+1 at 5th, 9th, 13th, 17th)</p><hr /><p>For the duration, you automatically perceive the target's true form and true location — no check required, through disguise, invisibility, or possession. At any point during that minute, you can spend this casting to trigger another Break the Anchor effect you have access to against this target at the Mirror's 60-foot range instead of that effect's normal melee or emanation range, this one time.</p>"
-        },
-        "duration": {
-            "sustained": false,
-            "value": "1 minute or until expended"
+            "value": "<p>A hand mirror of black volcanic glass, ground so fine it shows what's underneath a thing instead of what's in front of it. Uncomfortable to look into. More uncomfortable for whatever's looking back at you through someone else's face.</p><hr /><p><strong>SIGNATURE —</strong> for 1 minute you automatically perceive one Named creature's true form and true location — no check, through disguise, invisibility, or possession; once during that minute you can spend the casting to deliver another Break the Anchor effect you already have at 60 feet instead of its normal melee or emanation range.</p>"
         },
         "level": {
             "value": 1
+        },
+        "prerequisites": {
+            "value": []
         },
         "publication": {
             "license": "ORC",
             "remaster": true,
             "title": "Cinderfall"
         },
-        "range": {
-            "value": "60 feet"
-        },
-        "requirements": "",
         "rules": [],
-        "target": {
-            "value": "1 Named creature"
-        },
-        "time": {
-            "value": "1"
-        },
         "traits": {
-            "rarity": "common",
-            "traditions": [
-                "occult"
+            "otherTags": [
+                "wardbreaker-ward"
             ],
+            "rarity": "common",
             "value": [
                 "wardbreaker"
             ]
@@ -50,8 +39,14 @@
     "_id": "EKh2cWg1DZasu0UM",
     "flags": {
         "cinderfall": {
+            "incomplete": "Per this card's own flags.cinderfall.followUp, its entire mechanical payload is the separate wardbreaker.static-glass-mirror-spell record (statline/body authored there), whose disposition is INCOMPLETE above (the range-redirect clause) -- this classfeature card inherits that disposition.",
             "spellTag": "Innate",
-            "listing": "Break the Anchor, by Ward"
+            "listing": "Break the Anchor, by Ward",
+            "subclassOf": "wardbreaker",
+            "subclassChoice": "Choose Your Ward",
+            "role": "See Past the Mask",
+            "followUp": "signature spell 'Static-Glass Mirror' is record wardbreaker.static-glass-mirror-spell; the card renders on spells-abilities.html as a spell-entry and its statline/body are authored above",
+            "subclassLayer": "ward"
         }
     }
 }

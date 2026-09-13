@@ -33,5 +33,10 @@
         },
         "slug": "open-channel"
     },
-    "_id": "SmCGZVsEG83obTQ0"
+    "_id": "SmCGZVsEG83obTQ0",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Once/encounter: Re-sync as a 3-action activity instead of 10 minutes. Re-sync's only numeric output is 1 Bandwidth recovered. No `SpecialResource` rule element exists anywhere in the corpus for Bandwidth -- confirmed corpus-wide (`grep -rl \"\\\"key\\\": \\\"SpecialResource\\\"\" site/data/cards/` returns zero hits), and the class card itself (`site/data/cards/classes/classes.paradise-touched.json:49`) ships `system.rules: []`. Same absence class as Cultist Zeal/Ironsight Drift/Fleshmancer Vitae."
+        }
+    }
 }

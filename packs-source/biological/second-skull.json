@@ -1,0 +1,70 @@
+{
+    "name": "Second Skull",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>A secondary brainstem grown from something that kept moving well after its head came off, spliced into the base of your skull as full redundancy. Immune to being knocked unconscious, stunned, or confused by a critical hit or effect that targets the brain. When an effect would kill or drop you via a called shot to the head, the second brainstem keeps the body moving at half actions for 1 round before you actually go down.</p><p><b>Rider:</b> It has its own reflexes and doesn't like coming second. Once per session, on the GM's call, it seizes your reaction instead of you — it flinches, grabs, or strikes at whoever's nearest, and you don't get to pick the target.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 18
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "mk": 25000
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "traits": {
+            "rarity": "legendary",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "second-skull"
+    },
+    "_id": "jmQSuTWpyTwJ4r72",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The card's immunity is explicitly scoped to 'a critical hit or effect that targets the brain,' not knocked-unconscious/stunned/confused in general. Immunity to unconscious/stunned/confused are all real types (pf2e-source/src/scripts/config/iwr.ts:106 confirms unconscious), but no confirmed precedent combines Immunity with a predicate scoping it to a triggering condition (crit, called-shot-to-the-head) -- 'targets the brain' isn't a recognized trait or roll option either. Granting the immunities unconditionally would overstate a narrower claim (over-applying is worse than under-applying), so the whole clause is flagged rather than half-built. The once-per-session reaction-hijack rider also has no hook: nothing lets an item seize and spend the player's reaction on the GM's behalf.",
+            "augmentKind": "biological",
+            "augmentType": "graft",
+            "tier": "legendary",
+            "slots": [
+                "Neural"
+            ],
+            "slotCost": 1,
+            "grade": 5,
+            "availability": "Wild",
+            "level": 18,
+            "load": "+7",
+            "resonance": "+7",
+            "augTags": [
+                "wild",
+                "apex"
+            ]
+        }
+    }
+}

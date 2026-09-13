@@ -33,5 +33,10 @@
         },
         "slug": "zeal-sovereign"
     },
-    "_id": "PFdoAYaugbVkUp5N"
+    "_id": "PFdoAYaugbVkUp5N",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The entire mechanical content of this card is a Zeal cost/gain/regain clause. cultist.bargain.json's own system.rules is [{\"key\":\"ChoiceSet\",...},{\"key\":\"GrantItem\",...}] -- no SpecialResource or resource-pool rule element of any kind is defined anywhere in this class for Zeal, confirmed via pf2e-source/src/module/rules/rule-element/special-resource.ts's own shape (a permanent, one-way-only-increases resource track) and a direct read of the class card. Every \"Cost N Zeal\"/\"gain N Zeal\"/\"regain spent Zeal\" clause in this class is unbuildable regardless of the rest of that card's content, since there is no resource for a rule element to reference."
+        }
+    }
 }

@@ -33,5 +33,10 @@
         },
         "slug": "emp-proofed"
     },
-    "_id": "4G6O3THFWrJZjGAa"
+    "_id": "4G6O3THFWrJZjGAa",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Reads like Immunity, but Immunity's type field must be a real recognized condition/effect-category slug. \"An effect that would suppress cyber-augment function\" is a homebrew effect-category with no matching slug anywhere in pf2e-source. Bucket 5, no clean predicate."
+        }
+    }
 }

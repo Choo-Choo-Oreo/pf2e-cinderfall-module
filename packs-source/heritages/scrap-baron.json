@@ -15,7 +15,23 @@
             "remaster": true,
             "title": "Cinderfall"
         },
-        "rules": [],
+        "rules": [
+            {
+                "key": "RollOption",
+                "option": "scrap-baron-trade",
+                "toggleable": true,
+                "label": "Trading or negotiating inside a scavenger or salvage community"
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "diplomacy",
+                "type": "circumstance",
+                "value": 1,
+                "predicate": [
+                    "scrap-baron-trade"
+                ]
+            }
+        ],
         "traits": {
             "rarity": "common",
             "value": []

@@ -1,0 +1,45 @@
+{
+    "name": "Insatiable",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "reaction"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Frequency</strong> once per round, at most twice per encounter</p><p><strong>Trigger</strong> You reduce a creature to 0 Hit Points with a Rite or a Strike.</p><hr /><p>Gain temporary Hit Points equal to twice your level, lasting 1 minute, and regain 1 Zeal. Gluttoneth rarely says when enough is enough.</p>"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "otherTags": [
+                "cultist-gluttoneth"
+            ],
+            "rarity": "common",
+            "value": [
+                "cultist"
+            ]
+        },
+        "slug": "insatiable"
+    },
+    "_id": "pREaeFW5QnsC5xfk",
+    "flags": {
+        "cinderfall": {
+            "track": "gluttoneth"
+        }
+    }
+}

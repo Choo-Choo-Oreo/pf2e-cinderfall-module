@@ -1,0 +1,42 @@
+{
+    "name": "Unshakable Bargain",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Your Bargain can't be forcibly broken, altered, or stolen by any effect; attempts to do so automatically fail without a check.</p>"
+        },
+        "level": {
+            "value": 18
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "cultist"
+            ]
+        },
+        "slug": "unshakable-bargain"
+    },
+    "_id": "ebjRZD4cdcr6aHXI",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "\"Your Bargain can't be forcibly broken/altered/stolen; such attempts auto-fail without a check\" protects a homebrew narrative concept (the class's own Bargain choice) with no corresponding real pf2e trait or mechanism -- there is no bargain trait or auto-fail-on-a-specific-target-effect rule element in pf2e-source."
+        }
+    }
+}

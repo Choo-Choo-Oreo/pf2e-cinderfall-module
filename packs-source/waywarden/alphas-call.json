@@ -33,5 +33,10 @@
         },
         "slug": "alphas-call"
     },
-    "_id": "PzEVoJAS6Hvq8xCx"
+    "_id": "PzEVoJAS6Hvq8xCx",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Directly matches the shape of P7's Companion's Cry (spend more of your own economy so your companion gets more) and Mature Animal Companion (companion acts without being Commanded) — both real, both ship rules: []. This effect buffs, protects, or grants actions to the Feral Bond (the companion beast) from the holder's own card. No rule-element selector in pf2e-source lets one actor's item grant a stat bonus, temp HP, an extra action, or a shared sense to a different actor's sheet -- confirmed by spot-checking real pf2e's own fully-built Animal Companion subsystem (Ranger/Druid), where virtually every companion-buff/companion-action-economy feat ships with rules: [] too."
+        }
+    }
 }

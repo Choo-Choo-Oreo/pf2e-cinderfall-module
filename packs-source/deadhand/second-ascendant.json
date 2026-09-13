@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "flavored"
+            ],
             "rarity": "common",
             "value": [
                 "deadhand"
@@ -33,5 +36,11 @@
         },
         "slug": "second-ascendant"
     },
-    "_id": "tnmgdwRBwtAseF9Y"
+    "_id": "tnmgdwRBwtAseF9Y",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The marked target gains no benefit from flanking/Aid/other circumstance bonuses against the caster specifically (still usable for the target's own other purposes). No selector suppresses a target's own received bonuses from the attacker's passive -- this is the inverse of granting the attacker a bonus, and is even further from any real precedent found in this pass -- compounded by this class's confirmed-unfireable mark predicate.",
+            "flavored": true
+        }
+    }
 }

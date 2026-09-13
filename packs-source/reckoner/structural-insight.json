@@ -24,7 +24,23 @@
             "remaster": true,
             "title": "Cinderfall"
         },
-        "rules": [],
+        "rules": [
+            {
+                "key": "RollOption",
+                "option": "structural-insight",
+                "toggleable": true,
+                "label": "Construct, fortification or ghost-machine"
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "skill-check",
+                "type": "circumstance",
+                "value": "ternary(gte(@actor.level,14),3,2)",
+                "predicate": [
+                    "structural-insight"
+                ]
+            }
+        ],
         "traits": {
             "rarity": "common",
             "value": [

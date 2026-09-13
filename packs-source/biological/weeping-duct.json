@@ -1,0 +1,65 @@
+{
+    "name": "Weeping Duct",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>Tear ducts re-plumbed with glands lifted from something that hunted by weeping first. Once per hour, 1 action: a target within 5 feet that meets your gaze must succeed at a Will save vs your class DC or be fascinated 1 round.</p><p><b>Donor:</b> It still wants to look at things a certain way. At Resonance 6+ the GM may have your gaze linger somewhere it shouldn't.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 10
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "mk": 1000
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "traits": {
+            "rarity": "rare",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "weeping-duct"
+    },
+    "_id": "4nRJKxXil3M2trwH",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The whole ability is a limited-use (once/hour) activated gaze attack with its own save and condition -- needs a granted Action item, same class of gap as every other once-per-timeframe activated ability in this pass.",
+            "augmentKind": "biological",
+            "augmentType": "graft",
+            "tier": "rare",
+            "slots": [
+                "Ocular"
+            ],
+            "slotCost": 1,
+            "grade": 3,
+            "availability": "Grafted",
+            "level": 10,
+            "resonance": "+4"
+        }
+    }
+}

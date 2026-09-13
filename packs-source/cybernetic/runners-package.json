@@ -1,0 +1,78 @@
+{
+    "name": "Runner's Package",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p><em>Legs + Frame.</em> +20-ft Speed, climb Speed 15 ft, +2 item bonus to Reflex and Acrobatics. The affordable way to get mobile without filling both slots piecemeal.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 12
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "gp": 2250
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "reflex",
+                "type": "item",
+                "value": 2
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "acrobatics",
+                "type": "item",
+                "value": 2
+            }
+        ],
+        "size": "med",
+        "traits": {
+            "rarity": "rare",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "runners-package"
+    },
+    "_id": "Y8SYz3gpNyYnh2uc",
+    "flags": {
+        "cinderfall": {
+            "augmentKind": "cybernetic",
+            "augmentType": "implant",
+            "tier": "rare",
+            "slots": [
+                "Legs",
+                "Frame"
+            ],
+            "slotCost": 2,
+            "grade": 3,
+            "availability": "Licensed",
+            "level": 12,
+            "drift": "+3"
+        }
+    }
+}

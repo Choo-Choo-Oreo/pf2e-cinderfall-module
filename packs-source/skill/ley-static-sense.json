@@ -1,0 +1,32 @@
+{
+    "name": "Ley-Static Sense",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "skill",
+        "description": {
+            "value": "<p>You can feel the wrongness where old ley-lines snarl with radiation static. You can use Arcana instead of Survival to detect nearby sources of ambient arcane corruption, treating a success as also revealing the corruption's general direction.</p>"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "ley-static-sense"
+    },
+    "_id": "UpzfPc0isH43SxfY"
+}

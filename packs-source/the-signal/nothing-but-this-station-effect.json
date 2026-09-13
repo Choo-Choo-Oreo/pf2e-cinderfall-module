@@ -1,0 +1,68 @@
+{
+    "name": "Effect: Nothing But This Station",
+    "type": "effect",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "description": {
+            "value": "<p><em>Applied by <strong>Nothing But This Station</strong> to each affected enemy.</em></p>\n<hr />\n<p>Every creature in range hears only you — not each other, not their own spellcasting, not the building coming down. <b>Failure</b> a creature can't communicate, cast with verbal components, or benefit from any auditory effect but yours, and takes a −2 status penalty to all checks; once each, an ally of yours may spend Encore on its behalf to make it reroll a <i>successful</i> check and keep the worse result. For ten minutes you are the only thing being transmitted anywhere, and every Signal who has cast it describes it the same way: quiet.</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "minutes",
+            "value": 10
+        },
+        "level": {
+            "value": 10
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "skill-check",
+                "type": "status",
+                "value": -2
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "perception",
+                "type": "status",
+                "value": -2
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "attack",
+                "type": "status",
+                "value": -2
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "saving-throw",
+                "type": "status",
+                "value": -2
+            }
+        ],
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "value": []
+        },
+        "slug": "nothing-but-this-station-effect"
+    },
+    "_id": "sBdu7juyNdQEMHvM",
+    "flags": {
+        "cinderfall": {
+            "effectOf": "the-signal.nothing-but-this-station",
+            "landsOn": "enemy"
+        }
+    }
+}

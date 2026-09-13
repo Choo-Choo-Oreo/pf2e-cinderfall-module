@@ -22,5 +22,10 @@
         },
         "slug": "surface-adapted"
     },
-    "_id": "VzpcbgxI9P5Jg77I"
+    "_id": "VzpcbgxI9P5Jg77I",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Removing the Vaultborn ancestry's Charisma flaw (ancestries.vaultborn.json system.flaws.0) has no rule-element equivalent: ability boosts/flaws are resolved by Foundry's character-builder directly off the Ancestry item's own boosts/flaws fields at creation time, not via system.rules, and no real pf2e heritage adjusts them through a rule element either (0 hits for anything like AdjustAncestryBoosts in pf2e-source/packs/pf2e/heritages)."
+        }
+    }
 }

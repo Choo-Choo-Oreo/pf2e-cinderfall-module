@@ -27,5 +27,10 @@
         },
         "slug": "on-my-mark"
     },
-    "_id": "Q4oyTu54BoEzbulG"
+    "_id": "Q4oyTu54BoEzbulG",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The next ally to act on the caster's signal gets +1 circumstance to their attack roll. Same gap as eyes-up: no companion effect for this slug, and a bare ally numeric bonus doesn't match the real mass-action-grant precedent."
+        }
+    }
 }

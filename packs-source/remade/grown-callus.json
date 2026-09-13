@@ -33,5 +33,10 @@
         },
         "slug": "grown-callus"
     },
-    "_id": "lOx5l2KXJZEjL5NQ"
+    "_id": "lOx5l2KXJZEjL5NQ",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "BAND-GAP."
+        }
+    }
 }

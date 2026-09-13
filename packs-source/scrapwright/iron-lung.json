@@ -1,0 +1,48 @@
+{
+    "name": "Iron Lung",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
+        "description": {
+            "value": "<p>An exo-frame you wear and expand with mods over your career. You don't carry your work — you become it. Best paired with Warframe Pattern.</p><hr /><p><strong>SIGNATURE —</strong> mod slots increase at each Mk tier; swap loadouts between rests without a full rebuild.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "otherTags": [
+                "scrapwright-rig"
+            ],
+            "rarity": "common",
+            "value": [
+                "scrapwright"
+            ]
+        },
+        "slug": "iron-lung"
+    },
+    "_id": "8huRj46VSLN6zmLC",
+    "flags": {
+        "cinderfall": {
+            "subclassOf": "scrapwright",
+            "subclassChoice": "Choose Your Rig",
+            "subclassLayer": "rig",
+            "role": "Armor Innovation"
+        }
+    }
+}

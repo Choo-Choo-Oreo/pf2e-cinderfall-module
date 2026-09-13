@@ -1,0 +1,48 @@
+{
+    "name": "Cadre",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
+        "description": {
+            "value": "<p>You stopped being the best fight in the room a while back and started being the one everyone in it listens to. Not rank — nobody promoted you. Mercenary contractor guilds groom Cadre soldiers into officers because an order given by someone who has already done the job gets followed without the pause that gets people killed.</p><hr /><p><strong>SIGNATURE —</strong> a called command, once per round, that lets a nearby ally borrow your Standing for a single action.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "otherTags": [
+                "deadhand-trade"
+            ],
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "cadre"
+    },
+    "_id": "7d00CvFfyz5kWxke",
+    "flags": {
+        "cinderfall": {
+            "subclassOf": "deadhand",
+            "subclassChoice": "Choose Your Trade",
+            "role": "Command &amp; Tactics",
+            "subclassLayer": "trade"
+        }
+    }
+}

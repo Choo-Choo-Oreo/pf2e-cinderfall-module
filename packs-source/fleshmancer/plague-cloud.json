@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "fleshmancer-butchers"
+            ],
             "rarity": "common",
             "value": [
                 "fleshmancer"
@@ -33,5 +36,10 @@
         },
         "slug": "plague-cloud"
     },
-    "_id": "3nT7B0oEyayaZdUB"
+    "_id": "3nT7B0oEyayaZdUB",
+    "flags": {
+        "cinderfall": {
+            "track": "butchers"
+        }
+    }
 }

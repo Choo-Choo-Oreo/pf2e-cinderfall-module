@@ -1,0 +1,75 @@
+{
+    "name": "Leaper's Haunches",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>Digitigrade back legs grown off a Dark Forest ambush predator. +10-foot status bonus to Speed. 1 action: Leap up to 30 feet in any direction; if you end adjacent to a creature you may immediately make a melee Strike against it that deals 2 extra damage per weapon damage die. You always land on your feet.</p><p><b>Rider:</b> It wants the high ground and the drop. If you pass up an obvious ambush perch, you take a –1 status penalty to attack rolls until the end of your next turn.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 13
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "mk": 2000
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "speed",
+                "type": "status",
+                "value": 10
+            }
+        ],
+        "size": "med",
+        "traits": {
+            "rarity": "epic",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "leapers-haunches"
+    },
+    "_id": "cZySOLA2fpzor23c",
+    "flags": {
+        "cinderfall": {
+            "augmentKind": "biological",
+            "augmentType": "graft",
+            "tier": "epic",
+            "slots": [
+                "Legs"
+            ],
+            "slotCost": 1,
+            "grade": 4,
+            "availability": "Wild",
+            "level": 13,
+            "load": "+3",
+            "resonance": "+4",
+            "augTags": [
+                "wild"
+            ]
+        }
+    }
+}

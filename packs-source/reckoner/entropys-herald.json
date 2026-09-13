@@ -33,5 +33,10 @@
         },
         "slug": "entropys-herald"
     },
-    "_id": "40Mvn6qCrL7T8x8h"
+    "_id": "40Mvn6qCrL7T8x8h",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Auto-cumulative -1/turn AC+attack penalty (max -4) to every hostile construct in range, with reset-on-leaving-presence -- no rule element auto-increments a custom counter round over round outside a named condition's own badge-increment or a SpecialResource, neither of which exists for this shape (NOSTACK)."
+        }
+    }
 }

@@ -1,32 +1,65 @@
 {
-    "_id": "epwkrOXPPb51JZai",
-    "categories": [],
     "name": "The Archive",
-    "ownership": {
-        "default": 0
-    },
-    "pages": [
-        {
-            "_id": "T3waL1sOH3NAt3p1",
-            "category": null,
-            "image": {},
-            "name": "The Archive",
-            "sort": 100000,
-            "src": null,
-            "system": {},
-            "text": {
-                "content": "<p><em>Everything anyone ever uploaded</em></p>        <p class=\"cc-desc\">You got through to the part that remembers. Not a library — a landfill of two hundred years of minds, most of them ordinary, all of them still there, all of them willing to be asked. The Archive is the friendliest Aperture and the one that most reliably turns its Wardens into people who cite dead strangers in ordinary conversation.</p>\n        <p class=\"cc-desc\">You gain a <strong>+1 circumstance bonus to Recall Knowledge</strong> about anything that happened before the Turning, and you can attempt such checks untrained.</p>\n        <hr class=\"cc-divider\">\n        <div class=\"cc-effect\"><b>Glimpses —</b> Borrowed Glimpse (1st) · Recall the Dead (7th) · The Whole Stack (15th)</div>",
-                "format": 1
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
+        "description": {
+            "value": "<p>        <p class=\"cc-desc\">You got through to the part that remembers. Not a library — a landfill of two hundred years of minds, most of them ordinary, all of them still there, all of them willing to be asked. The Archive is the friendliest Aperture and the one that most reliably turns its Wardens into people who cite dead strangers in ordinary conversation.</p>\n        <p class=\"cc-desc\">You gain a <strong>+1 circumstance bonus to Recall Knowledge</strong> about anything that happened before the Turning, and you can attempt such checks untrained.</p>\n        <hr class=\"cc-divider\">\n        <div class=\"cc-effect\"><b>Glimpses —</b> Borrowed Glimpse (1st) · Recall the Dead (7th) · The Whole Stack (15th)</div></p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "RollOption",
+                "option": "the-archive-pre-turning",
+                "toggleable": true,
+                "label": "Recalling something from before the Turning"
             },
-            "title": {
-                "level": 1,
-                "show": true
-            },
-            "type": "text",
-            "video": {
-                "controls": true,
-                "volume": 0.5
+            {
+                "key": "FlatModifier",
+                "selector": "skill-check",
+                "type": "circumstance",
+                "value": 1,
+                "predicate": [
+                    "action:recall-knowledge",
+                    "the-archive-pre-turning"
+                ]
             }
+        ],
+        "traits": {
+            "otherTags": [
+                "paradise-touched-aperture"
+            ],
+            "rarity": "common",
+            "value": [
+                "paradise-touched"
+            ]
+        },
+        "slug": "the-archive"
+    },
+    "_id": "epwkrOXPPb51JZai",
+    "flags": {
+        "cinderfall": {
+            "subclassOf": "paradise-touched",
+            "subclassChoice": "Choose Your Aperture",
+            "role": "Everything anyone ever uploaded",
+            "subclassLayer": "aperture"
         }
-    ]
+    }
 }

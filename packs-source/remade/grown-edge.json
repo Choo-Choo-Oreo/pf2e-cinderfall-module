@@ -24,7 +24,45 @@
             "remaster": true,
             "title": "Cinderfall"
         },
-        "rules": [],
+        "rules": [
+            {
+                "key": "ChoiceSet",
+                "adjustName": false,
+                "flag": "damageType",
+                "prompt": "Choose this graft's damage type",
+                "choices": [
+                    {
+                        "label": "PF2E.TraitSlashing",
+                        "value": "slashing"
+                    },
+                    {
+                        "label": "PF2E.TraitPiercing",
+                        "value": "piercing"
+                    }
+                ]
+            },
+            {
+                "key": "Strike",
+                "slug": "grown-edge",
+                "label": "Grown Edge",
+                "category": "unarmed",
+                "group": "brawling",
+                "img": "icons/creatures/claws/claw-talons-glowing-orange.webp",
+                "range": null,
+                "traits": [
+                    "agile",
+                    "finesse",
+                    "unarmed"
+                ],
+                "damage": {
+                    "base": {
+                        "damageType": "{item|flags.system.rulesSelections.damageType}",
+                        "dice": 1,
+                        "die": "d6"
+                    }
+                }
+            }
+        ],
         "traits": {
             "rarity": "common",
             "value": [

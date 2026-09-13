@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "flavored"
+            ],
             "rarity": "common",
             "value": [
                 "waywarden"
@@ -33,5 +36,10 @@
         },
         "slug": "ghostwalkers-vanish"
     },
-    "_id": "t1GqV1J0Zj0SR8cb"
+    "_id": "t1GqV1J0Zj0SR8cb",
+    "flags": {
+        "cinderfall": {
+            "flavored": true
+        }
+    }
 }

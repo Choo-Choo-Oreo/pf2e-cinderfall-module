@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "fleshmancer-grafters"
+            ],
             "rarity": "common",
             "value": [
                 "fleshmancer"
@@ -33,5 +36,11 @@
         },
         "slug": "not-on-the-table"
     },
-    "_id": "MYer3Y6pPDJJDQ5G"
+    "_id": "MYer3Y6pPDJJDQ5G",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "This effect changes a different creature's own roll, HP, condition, or item, sourced from the card holder's own passive/item/action. No selector exists anywhere in pf2e-source for this -- confirmed corpus-wide this pass. This is the ally-targeting version of the 0-to-1-HP floor; Orc Ferocity's real precedent is explicitly self-targeting and does not extend to protecting a different creature.",
+            "track": "grafters"
+        }
+    }
 }

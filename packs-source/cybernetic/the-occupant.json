@@ -1,0 +1,75 @@
+{
+    "name": "The Occupant",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>A full backed-up consciousness threaded alongside your own, sold as a co-pilot. +2 item bonus to Will. When you would be reduced to 0 HP, the Occupant acts in your body for one round at full capability before you fall. Cannot ever benefit from Licensed recalibration — the interface has to stay fully live for the Occupant to be reachable.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 17
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "gp": 20000
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "will",
+                "type": "item",
+                "value": 2
+            }
+        ],
+        "size": "med",
+        "traits": {
+            "rarity": "legendary",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "the-occupant"
+    },
+    "_id": "0D66kirZw8gIr7nC",
+    "flags": {
+        "cinderfall": {
+            "augmentKind": "cybernetic",
+            "augmentType": "implant",
+            "tier": "legendary",
+            "slots": [
+                "Neural"
+            ],
+            "slotCost": 1,
+            "grade": 5,
+            "availability": "Black Market",
+            "level": 17,
+            "drift": "+6",
+            "augTags": [
+                "soul-tech",
+                "apex"
+            ]
+        }
+    }
+}

@@ -24,7 +24,9 @@
             "type": null
         },
         "price": {
-            "value": {}
+            "value": {
+                "gp": 0
+            }
         },
         "publication": {
             "license": "ORC",
@@ -48,19 +50,11 @@
         "cinderfall": {
             "mutationType": "minor",
             "tier": "rare",
-            "slot": "Neural",
             "slots": [
                 "Neural"
             ],
             "slotCost": 1,
-            "roll": "d100 — 75–76",
-            "incomplete": [
-                "level is a stub (0); mutations carry no level",
-                "price is empty; a mutation is not bought"
-            ],
-            "inferred": [
-                "system.usage"
-            ]
+            "roll": "d100 — 75–76"
         }
     }
 }

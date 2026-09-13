@@ -1,0 +1,63 @@
+{
+    "name": "Choose Your Path",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
+        "description": {
+            "value": "<p><em>Choose Your Path</em></p><p>Choose one: The Hearth, The Pyre, The Threshold.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "ChoiceSet",
+                "adjustName": false,
+                "flag": "path",
+                "prompt": "Choose Your Path",
+                "choices": {
+                    "filter": [
+                        "item:tag:ashcantor-path"
+                    ]
+                }
+            },
+            {
+                "key": "GrantItem",
+                "uuid": "{item|flags.system.rulesSelections.path}"
+            }
+        ],
+        "traits": {
+            "otherTags": [],
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "path"
+    },
+    "_id": "VfC2JZ8kDHCD5e39",
+    "flags": {
+        "cinderfall": {
+            "subclassOf": "ashcantor",
+            "subclassLayer": "path",
+            "grants": [
+                "ashcantor.the-hearth",
+                "ashcantor.the-pyre",
+                "ashcantor.the-threshold"
+            ]
+        }
+    }
+}

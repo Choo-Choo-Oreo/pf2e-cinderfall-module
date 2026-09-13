@@ -1,0 +1,74 @@
+{
+    "name": "Effect: The Long Fast",
+    "type": "effect",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "description": {
+            "value": "<p><em>Applied by <strong>The Long Fast</strong> to the character who used it.</em></p>\n<hr />\n<p>Take a −1 status penalty to all checks and saves, and reduce your maximum Hit Points by twice your level, until your next daily preparations. Until then, the first qualifying act that would move you toward Grace or Cinders counts twice. The penalty applies whether or not a qualifying act ever comes.</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "hours",
+            "value": 24
+        },
+        "level": {
+            "value": 6
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "skill-check",
+                "type": "status",
+                "value": -1
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "perception",
+                "type": "status",
+                "value": -1
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "attack",
+                "type": "status",
+                "value": -1
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "saving-throw",
+                "type": "status",
+                "value": -1
+            },
+            {
+                "key": "ActiveEffectLike",
+                "mode": "subtract",
+                "path": "system.attributes.hp.max",
+                "value": "2 * @actor.level"
+            }
+        ],
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "value": []
+        },
+        "slug": "the-long-fast-effect"
+    },
+    "_id": "JQyP6Z1sXTjMAdVu",
+    "flags": {
+        "cinderfall": {
+            "effectOf": "vigil.the-long-fast",
+            "landsOn": "self"
+        }
+    }
+}

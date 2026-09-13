@@ -33,5 +33,10 @@
         },
         "slug": "backup-isnt-needed"
     },
-    "_id": "1FNthuC6QBKHZetm"
+    "_id": "1FNthuC6QBKHZetm",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "BAND-GAP (nothing to negate; the sickened-2 trigger it removes was never encoded) plus a narrow condition-immunity scope that Immunity doesn't support unconditionally."
+        }
+    }
 }

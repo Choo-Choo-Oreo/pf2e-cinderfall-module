@@ -33,5 +33,10 @@
         },
         "slug": "iron-stomach"
     },
-    "_id": "ZUTxpEBZ2crkY2ec"
+    "_id": "ZUTxpEBZ2crkY2ec",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "BAND-GAP (doubled requirement isn't modeled) stacked on a narrow condition-immunity scope Immunity doesn't support."
+        }
+    }
 }

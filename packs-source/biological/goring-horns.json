@@ -1,0 +1,86 @@
+{
+    "name": "Goring Horns",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>A donor's brow-plate and horns grafted to your forehead. Melee Strike: horns, 1d8 piercing. If you move at least 10 feet in a straight line toward a creature and then Strike it with the horns, deal an extra 1d8 and attempt to Shove it as a free action.</p><p><b>Donor:</b> The ram, the bull, the thing that charged the fence. It still wants to lower its head at anyone who squares up to you.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 6
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "mk": 250
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "Strike",
+                "slug": "goring-horns",
+                "label": "Horns",
+                "category": "unarmed",
+                "group": "brawling",
+                "img": "systems/pf2e/icons/unarmed-attacks/horn.webp",
+                "range": null,
+                "traits": [
+                    "unarmed"
+                ],
+                "damage": {
+                    "base": {
+                        "damageType": "piercing",
+                        "dice": 1,
+                        "die": "d8"
+                    }
+                }
+            }
+        ],
+        "size": "med",
+        "traits": {
+            "rarity": "uncommon",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "goring-horns"
+    },
+    "_id": "c10IvSPqF0iLTXFP",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The bonus damage and free Shove on a 10-foot charge into the same Strike has no clean hook: no rule element conditions a Strike's own damage/rider on the attacker's preceding movement distance (that logic lives in bespoke feats like Dragon's specific Charge abilities, never exposed as a generic predicate).",
+            "augmentKind": "biological",
+            "augmentType": "graft",
+            "tier": "uncommon",
+            "slots": [
+                "Frame"
+            ],
+            "slotCost": 1,
+            "grade": 2,
+            "availability": "Grafted",
+            "level": 6,
+            "load": "+2",
+            "resonance": "+2"
+        }
+    }
+}

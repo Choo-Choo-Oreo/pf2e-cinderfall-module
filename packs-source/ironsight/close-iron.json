@@ -1,0 +1,49 @@
+{
+    "name": "Close Iron",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
+        "description": {
+            "value": "<p>A shotgun does not ask what you are wearing. At this distance armour is not protection, it is a decision about which way the damage goes — through the plate and into the ribs, or nowhere at all and straight into the meat. You want them close, because at the last ten feet none of their preparation means anything.</p><hr /><p><strong>SIGNATURE —</strong> At close range you hit <em>through</em> armour, and what you leave behind depends on what they were wearing.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "otherTags": [
+                "ironsight-draw"
+            ],
+            "rarity": "common",
+            "value": [
+                "ironsight"
+            ]
+        },
+        "slug": "close-iron"
+    },
+    "_id": "tbqNVghPW9jUb4xV",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "the level-1 Draw-signature text. No numeric follow-through exists anywhere else on the four other Close Iron cards (close-iron-ascendant/-minor/-major are equally number-free or homebrew- only) — a genuine content gap, not a search failure. Zero-number level-1 Draw-signature flavor grant. No numeric follow-through exists anywhere else on this Draw's own card family -- a genuine content gap, not a search failure.",
+            "subclassOf": "ironsight",
+            "subclassChoice": "Choose Your Draw",
+            "role": "Point Blank · Trauma",
+            "subclassLayer": "draw"
+        }
+    }
+}

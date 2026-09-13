@@ -24,8 +24,26 @@
             "remaster": true,
             "title": "Cinderfall"
         },
-        "rules": [],
+        "rules": [
+            {
+                "key": "RollOption",
+                "option": "take-the-second-hit",
+                "toggleable": true,
+                "label": "You redirected this attack onto yourself"
+            },
+            {
+                "key": "Resistance",
+                "type": "all-damage",
+                "value": "max(2,floor(@actor.level/2))",
+                "predicate": [
+                    "take-the-second-hit"
+                ]
+            }
+        ],
         "traits": {
+            "otherTags": [
+                "deadhand-bulwark"
+            ],
             "rarity": "common",
             "value": [
                 "deadhand"
@@ -33,5 +51,10 @@
         },
         "slug": "take-the-second-hit"
     },
-    "_id": "yGNY4JWd7du1TqyQ"
+    "_id": "yGNY4JWd7du1TqyQ",
+    "flags": {
+        "cinderfall": {
+            "track": "bulwark"
+        }
+    }
 }

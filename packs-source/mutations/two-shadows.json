@@ -24,7 +24,9 @@
             "type": null
         },
         "price": {
-            "value": {}
+            "value": {
+                "gp": 0
+            }
         },
         "publication": {
             "license": "ORC",
@@ -46,22 +48,15 @@
     "_id": "ZC6zkdxDwSyLJmJe",
     "flags": {
         "cinderfall": {
+            "incomplete": "\"Attacks against you require a DC 6 flat check or strike the wrong one and miss entirely\" (once per day, 1 minute) has no rule-element equivalent: no selector exists for imposing a flat check on an attacker's own to-hit roll against this actor from a self-held item; the closest real mechanism (a miss-chance effect) is built into specific conditions like invisible, not exposed as a generic actor rule.",
             "mutationType": "minor",
             "tier": "epic",
-            "slot": "Neural + Dermal (Multi-Slot)",
             "slots": [
                 "Neural",
                 "Dermal"
             ],
             "slotCost": 2,
-            "roll": "d100 — 97–98",
-            "incomplete": [
-                "level is a stub (0); mutations carry no level",
-                "price is empty; a mutation is not bought"
-            ],
-            "inferred": [
-                "system.usage"
-            ]
+            "roll": "d100 — 97–98"
         }
     }
 }

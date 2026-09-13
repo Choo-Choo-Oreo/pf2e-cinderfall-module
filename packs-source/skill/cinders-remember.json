@@ -1,0 +1,39 @@
+{
+    "name": "Cinders Remember",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "skill",
+        "description": {
+            "value": "<p>Bonus to Recall Knowledge involving Uriel, the Turning, or Choir of Ash ritual and iconography — and a quiet unease from anyone who recognizes what you were raised inside, whether or not you still believe it.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "cinders-remember"
+    },
+    "_id": "C13j2wPQdVowDK5k",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The card states a bonus but gives no numeric value, bonus type, or specific action tag to build a FlatModifier from without inventing one.",
+            "category": "background",
+            "sourceOwner": "backgrounds"
+        }
+    }
+}

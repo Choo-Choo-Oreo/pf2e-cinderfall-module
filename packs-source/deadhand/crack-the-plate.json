@@ -27,5 +27,10 @@
         },
         "slug": "crack-the-plate"
     },
-    "_id": "mNxk9J4EptSsc8ds"
+    "_id": "mNxk9J4EptSsc8ds",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Each hit against the same armored foe reduces its Hardness/physical resistance by 2, stacking to -6 for the rest of the encounter. No selector modifies a different creature's own Hardness/resistance value from the attacker's own passive, and no companion effect record exists to carry a stacking counter on the target."
+        }
+    }
 }

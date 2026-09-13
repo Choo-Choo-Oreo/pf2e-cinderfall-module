@@ -33,5 +33,10 @@
         },
         "slug": "named-in-the-ledger"
     },
-    "_id": "EZYol0ddU81RAV9T"
+    "_id": "EZYol0ddU81RAV9T",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "\"Fraying die drops one step permanently\" needs Fraying to have rule-element representation to modify. \"Effects that would sever or confuse your bond take a status penalty\" needs a defined trait/tag for \"bond-severing\" effects -- no card in this corpus tags any effect that way, so there is no predicate to hook a FlatModifier to. Hollowbound's entire Toll / Fraying / Quiet-Unveiled / Parley system has zero rule-element representation anywhere in this corpus -- classes.hollowbound.json ships system.rules: [] and defines the whole subsystem only in flags.cinderfall prose (the terms array and progression table). Confirmed via grep -rli \"SpecialResource\" across feats/class/hollowbound/ and classes.hollowbound.json -> zero matches. Note: SpecialResource with renew:false IS a real, precedented mechanism for a manually-tracked, non-daily-refilling pool (confirmed live in this very corpus at feats/class/fleshmancer/fleshmancer.vitae-pool.json, max:10, renew:false) -- so this is not an engine limitation, but there is no equivalent \"Toll Pool\"-style classfeature card anywhere in feats/class/hollowbound/ to attach such a rule element to; a card would need to be authored first, which is out of scope for a gap-filling pass over the existing 75 cards."
+        }
+    }
 }

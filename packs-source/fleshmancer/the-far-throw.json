@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "fleshmancer-butchers"
+            ],
             "rarity": "common",
             "value": [
                 "fleshmancer"
@@ -33,5 +36,11 @@
         },
         "slug": "the-far-throw"
     },
-    "_id": "xMkxt7nkNgHz0HEC"
+    "_id": "xMkxt7nkNgHz0HEC",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "\"Ignoring the penalty for the first range increment\" resembles pf2e-source/packs/pf2e/feats/class/rogue/level-6/far-throw.json's real AdjustModifier (selectors: [\"ranged-attack-roll\"], predicate: [\"item:trait:thrown\"], value: 1), but that real card only reduces the per-increment penalty uniformly by 1 (from -2 to -1) -- it does not waive the first increment's penalty specifically, which is what this card's own text claims. Shipping the real card's exact mechanism would misrepresent this card's stated effect (a stronger one), and no confirmed real precedent for increment-specific waiving was found -- not shipped, per convert-never-flatten. The flat 500-foot range override, the +4d6 sneak-attack-style damage, and the resulting off-guard status are all unhookable too: no selector exists for \"target didn't see the attack coming\" distinct from off-guard/flanking, and nothing overrides a weapon's max range to an absolute value.",
+            "track": "butchers"
+        }
+    }
 }

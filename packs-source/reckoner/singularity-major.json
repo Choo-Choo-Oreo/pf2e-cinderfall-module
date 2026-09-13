@@ -1,0 +1,46 @@
+{
+    "name": "Beyond the Edge",
+    "type": "capstone",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p>Once per day, open the boundary on a single creature within 60 feet: it must succeed at a Fortitude save against your class DC or be pulled beyond the edge entirely, removed from the encounter for 1 minute exactly as though banished, with no way to return early by any means. Whether it succeeds or fails, your Approach advances one step (§5) the first time you use this each day — the Singularity does not open that boundary for free, even for you.</p>"
+        },
+        "level": {
+            "value": 20
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "otherTags": [
+                "reckoner-singularity"
+            ],
+            "value": [
+                "reckoner"
+            ]
+        },
+        "slug": "singularity-major"
+    },
+    "_id": "7wFQobWXO2E4FgHb",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "'Your Approach advances one step' -- the Singularity's own separate track, 'the Approach', is named only in flavor text (reckoner.the-last-approach.json and reckoner.the-singularity.json both refer to 'the track in section 4' without ever giving it a mechanical shape anywhere machine-readable) and has the identical zero-schema-footprint problem as the Reckoning itself (APPROACH-BLOCKER). The Fortitude-save banish half of this card needs no rule element (PAT-EMPTY, matches real pf2e's own Banishment-style spells) and is not a gap.",
+            "track": "singularity"
+        }
+    }
+}

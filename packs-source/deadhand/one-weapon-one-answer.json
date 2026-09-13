@@ -24,8 +24,41 @@
             "remaster": true,
             "title": "Cinderfall"
         },
-        "rules": [],
+        "rules": [
+            {
+                "key": "RollOption",
+                "option": "one-weapon-one-answer",
+                "toggleable": true,
+                "label": "One one-handed melee weapon, other hand empty, and you have not taken up a second weapon this encounter"
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "melee-strike-attack-roll",
+                "type": "circumstance",
+                "value": 2,
+                "predicate": [
+                    "one-weapon-one-answer",
+                    "item:hands-held:1",
+                    "target:mark:one-weapon-one-answer"
+                ]
+            },
+            {
+                "key": "DamageDice",
+                "selector": "melee-strike-damage",
+                "override": {
+                    "upgrade": true
+                },
+                "predicate": [
+                    "one-weapon-one-answer",
+                    "item:hands-held:1",
+                    "target:mark:one-weapon-one-answer"
+                ]
+            }
+        ],
         "traits": {
+            "otherTags": [
+                "deadhand-second"
+            ],
             "rarity": "common",
             "value": [
                 "deadhand"
@@ -33,5 +66,10 @@
         },
         "slug": "one-weapon-one-answer"
     },
-    "_id": "qrXEk6w5Y4txbgbe"
+    "_id": "qrXEk6w5Y4txbgbe",
+    "flags": {
+        "cinderfall": {
+            "track": "second"
+        }
+    }
 }

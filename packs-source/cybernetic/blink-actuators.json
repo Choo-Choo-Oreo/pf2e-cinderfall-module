@@ -1,0 +1,68 @@
+{
+    "name": "Blink Actuators",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>Short-phase drive. 1/round, 1 action: step up to 15 ft, ignoring terrain, reactions, and creatures in the path. Reads as teleport tech on a scan.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 13
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "gp": 3250
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "traits": {
+            "rarity": "epic",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "blink-actuators"
+    },
+    "_id": "RKf2kwMjmhm2Al3A",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The whole ability is a 1/round short-range teleport-like movement that ignores terrain, reactions, and creatures -- this is not a Speed increase but a distinct movement action with its own exemptions, which needs a granted Action item, not a rule element.",
+            "augmentKind": "cybernetic",
+            "augmentType": "implant",
+            "tier": "epic",
+            "slots": [
+                "Legs"
+            ],
+            "slotCost": 1,
+            "grade": 4,
+            "availability": "Black Market",
+            "level": 13,
+            "drift": "+3",
+            "augTags": [
+                "soul-tech"
+            ]
+        }
+    }
+}

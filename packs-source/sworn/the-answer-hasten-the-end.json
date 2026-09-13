@@ -27,5 +27,10 @@
         },
         "slug": "the-answer-hasten-the-end"
     },
-    "_id": "1sUx749ifwfC0GFe"
+    "_id": "1sUx749ifwfC0GFe",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The Answer is a homebrew reaction with no built-in engine hook -- no roll option automatically flags \"this specific attack/action is this specific triggered reaction,\" so a bonus or exemption scoped only to that one-off use has no predicate to hang on without either an unscoped always-on toggle (which overstates the card) or a linked/expiring Effect grant, a mechanism this corpus's feat cards don't have. (Same class of gap as Steady Hand's first blocker -- a +1 circumstance bonus scoped only to this one-off triggered action has no predicate to hang on.)"
+        }
+    }
 }

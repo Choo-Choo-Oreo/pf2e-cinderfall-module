@@ -1,0 +1,58 @@
+{
+    "name": "Effect: The Ground Holds",
+    "type": "effect",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "description": {
+            "value": "<p><em>Applied by <strong>The Ground Holds</strong> to each affected ally.</em></p>\n<hr />\n<p>As The Ring Unbroken, but larger, and creatures of your choosing within the area also gain a +2 status bonus to saves against fear and despair effects for as long as the ward holds. Settlements have been known to hire a Vigil for exactly this, on exactly this scale, for exactly one bad night.</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "hours",
+            "value": 1
+        },
+        "level": {
+            "value": 8
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "saving-throw",
+                "type": "status",
+                "value": 2,
+                "predicate": [
+                    {
+                        "or": [
+                            "item:trait:fear",
+                            "item:trait:emotion"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "value": []
+        },
+        "slug": "the-ground-holds-effect"
+    },
+    "_id": "gPunKf2SrtpTdjDT",
+    "flags": {
+        "cinderfall": {
+            "effectOf": "vigil.the-ground-holds",
+            "landsOn": "ally"
+        }
+    }
+}

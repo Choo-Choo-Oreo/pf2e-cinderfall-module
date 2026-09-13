@@ -1,0 +1,84 @@
+{
+    "name": "There Is No Doubt",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>You automatically succeed at saving throws against fear, emotion, and mental effects from any creature of a lower level than yours. Against all other such effects, you gain a +2 circumstance bonus. You were never given the option to be wrong.</p>"
+        },
+        "level": {
+            "value": 20
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "saving-throw",
+                "type": "circumstance",
+                "value": 2,
+                "predicate": [
+                    {
+                        "or": [
+                            "item:trait:fear",
+                            "item:trait:emotion",
+                            "item:trait:mental"
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "AdjustDegreeOfSuccess",
+                "selector": "saving-throw",
+                "adjustment": {
+                    "failure": "to-success",
+                    "success": "to-critical-success"
+                },
+                "predicate": [
+                    {
+                        "or": [
+                            "item:trait:fear",
+                            "item:trait:emotion",
+                            "item:trait:mental"
+                        ]
+                    },
+                    {
+                        "lt": [
+                            "origin:level",
+                            "self:level"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "traits": {
+            "otherTags": [
+                "cultist-undoubted"
+            ],
+            "rarity": "common",
+            "value": [
+                "cultist"
+            ]
+        },
+        "slug": "there-is-no-doubt"
+    },
+    "_id": "dnoncsBso1Rh8WAl",
+    "flags": {
+        "cinderfall": {
+            "track": "undoubted"
+        }
+    }
+}

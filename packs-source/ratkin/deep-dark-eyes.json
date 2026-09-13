@@ -1,0 +1,48 @@
+{
+    "name": "Deep-Dark Eyes",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "ancestry",
+        "description": {
+            "value": "<p>Darkvision functions in magical darkness as well as mundane, and Tunnel-Dark Eyes' scent-based Perception bonus increases and extends to 60 feet.</p>"
+        },
+        "level": {
+            "value": 13
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Tunnel-Dark Eyes"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "Sense",
+                "selector": "greater-darkvision"
+            }
+        ],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "ratkin"
+            ]
+        },
+        "slug": "deep-dark-eyes"
+    },
+    "_id": "p3dEsRfpxMKEm3aO",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "'greater-darkvision' is a real, confirmed sense type (pf2e-source src/module/actor/creature/values.ts SENSE_TYPES) that exactly matches 'functions in magical darkness as well as mundane', and is built above. But 'Tunnel-Dark Eyes' scent-based Perception bonus increases and extends to 60 feet' states no new bonus value -- only the range is quantified, and a FlatModifier has no 'range' concept to extend. The card states a bonus/effect but gives no numeric value or formula to build a rule element from without inventing one."
+        }
+    }
+}

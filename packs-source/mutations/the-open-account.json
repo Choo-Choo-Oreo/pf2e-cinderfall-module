@@ -24,7 +24,9 @@
             "type": null
         },
         "price": {
-            "value": {}
+            "value": {
+                "gp": 0
+            }
         },
         "publication": {
             "license": "ORC",
@@ -46,21 +48,14 @@
     "_id": "6pQHkxC3bbXmRqmx",
     "flags": {
         "cinderfall": {
+            "incomplete": "\"When reduced to 0 HP you may choose to remain standing and act normally until the end of your next turn before you drop\" has no confirmed rule-element hook: it overrides pf2e's built-in dying/unconsciousness sequence at 0 HP, and no rule element for delaying that sequence by a full turn was found in pf2e-source.",
             "mutationType": "major",
             "tier": "mythic",
-            "slot": "Circulatory",
             "slots": [
                 "Circulatory"
             ],
             "slotCost": 1,
-            "roll": "d20 — 16",
-            "incomplete": [
-                "level is a stub (0); mutations carry no level",
-                "price is empty; a mutation is not bought"
-            ],
-            "inferred": [
-                "system.usage"
-            ]
+            "roll": "d20 — 16"
         }
     }
 }

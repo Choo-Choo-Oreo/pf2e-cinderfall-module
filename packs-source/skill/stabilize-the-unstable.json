@@ -1,0 +1,41 @@
+{
+    "name": "Stabilize the Unstable",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "skill",
+        "description": {
+            "value": "<p>You've pulled people back from the edge more times than the wastes have any right to allow. When you Administer First Aid to stabilize a dying creature, you can also remove the wounded condition entirely on a critical success, rather than merely reducing it.</p>"
+        },
+        "level": {
+            "value": 10
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Expert in Medicine"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "stabilize-the-unstable"
+    },
+    "_id": "5JNNWkpVEHsgjBj4",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Changing what a critical success on Administer First Aid accomplishes (remove wounded entirely, instead of the action's normal reduction) is baked into the action's own script, not something a rule element can override."
+        }
+    }
+}

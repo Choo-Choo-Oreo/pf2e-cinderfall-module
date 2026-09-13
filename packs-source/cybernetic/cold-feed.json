@@ -1,0 +1,83 @@
+{
+    "name": "Cold Feed",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p>A passive intercept coil laced into the auditory nerve. +2 item bonus to Perception for sound-based checks. Passively intercepts unencrypted comm-band traffic within 60 feet, no check — and forwards a copy of everything you hear to whoever installed it.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 11
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "gp": 1500
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "RollOption",
+                "option": "cold-feed",
+                "toggleable": true,
+                "label": "Perception for a sound-based check"
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "perception",
+                "type": "item",
+                "value": 2,
+                "predicate": [
+                    "cold-feed"
+                ]
+            }
+        ],
+        "size": "med",
+        "traits": {
+            "rarity": "rare",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "cold-feed"
+    },
+    "_id": "vVpdLFYEH3xkBQ8K",
+    "flags": {
+        "cinderfall": {
+            "augmentKind": "cybernetic",
+            "augmentType": "implant",
+            "tier": "rare",
+            "slots": [
+                "Neural"
+            ],
+            "slotCost": 1,
+            "grade": 3,
+            "availability": "Restricted",
+            "level": 11,
+            "drift": "+4",
+            "augTags": [
+                "soul-tech"
+            ]
+        }
+    }
+}

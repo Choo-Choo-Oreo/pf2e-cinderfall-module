@@ -24,7 +24,9 @@
             "type": null
         },
         "price": {
-            "value": {}
+            "value": {
+                "gp": 0
+            }
         },
         "publication": {
             "license": "ORC",
@@ -32,7 +34,26 @@
             "title": "Cinderfall"
         },
         "quantity": 1,
-        "rules": [],
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "acrobatics",
+                "type": "circumstance",
+                "value": 1,
+                "predicate": [
+                    "action:escape"
+                ]
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "athletics",
+                "type": "circumstance",
+                "value": 1,
+                "predicate": [
+                    "action:escape"
+                ]
+            }
+        ],
         "size": "med",
         "traits": {
             "rarity": "common",
@@ -46,21 +67,14 @@
     "_id": "UqzhwWhFQ7RX8t0P",
     "flags": {
         "cinderfall": {
+            "incomplete": "\"Attempts to track you gain +2\" buffs another creature's Survival check made against you -- no selector exists for boosting an opposed roll made by someone else, the same architecture gap as Grave-Quiet and the equipment pass's Suppressor card.",
             "mutationType": "scar",
             "tier": "common",
-            "slot": "Dermal",
             "slots": [
                 "Dermal"
             ],
             "slotCost": 1,
-            "roll": "d12 — 3",
-            "incomplete": [
-                "level is a stub (0); mutations carry no level",
-                "price is empty; a mutation is not bought"
-            ],
-            "inferred": [
-                "system.usage"
-            ]
+            "roll": "d12 — 3"
         }
     }
 }

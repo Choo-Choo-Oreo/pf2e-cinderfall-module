@@ -33,5 +33,10 @@
         },
         "slug": "static-feedback-loop"
     },
-    "_id": "v9BTdvxSt7GsKeGq"
+    "_id": "v9BTdvxSt7GsKeGq",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "No rule element performs automatic damage-reflection back at a melee attacker on being hit (this requires a reactive script/macro in Foundry, not a static predicate) -- bucket 5, no clean mechanism found. Compounded by [RIG-GENERIC-AMBIGUOUS] for which entity \"the Rig\" being struck actually is."
+        }
+    }
 }

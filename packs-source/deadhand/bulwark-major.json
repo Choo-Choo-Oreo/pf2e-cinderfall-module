@@ -1,0 +1,46 @@
+{
+    "name": "The Line Is Wherever You Are",
+    "type": "capstone",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p>While you are conscious, no ally within your reach can be dropped below 1 Hit Point by an attack you could have intercepted. You do not have to see it coming and you do not have to have a reaction left. The line does not break, because you are still standing on it.</p>"
+        },
+        "level": {
+            "value": 20
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "otherTags": [
+                "deadhand-bulwark"
+            ],
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "bulwark-major"
+    },
+    "_id": "wrLTlct8pd3iKmCS",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Claims no ally in reach can be dropped below 1 HP by an attack the caster \"could have intercepted\" -- again gated on an unused hypothetical, not an actual reaction spent. Same gap as behind-me-means-safe: no precedent found for a guarantee this strong tied to a hypothetical action, and no selector prevents a different creature's own HP from dropping regardless.",
+            "track": "bulwark"
+        }
+    }
+}

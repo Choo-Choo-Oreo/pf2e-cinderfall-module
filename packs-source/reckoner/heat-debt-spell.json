@@ -1,0 +1,60 @@
+{
+    "name": "Heat Debt",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": {
+            "save": {
+                "basic": true,
+                "statistic": "reflex"
+            }
+        },
+        "description": {
+            "value": "<p>2d6 cold damage per rank of this spell, deducted without ceremony. The target then radiates a lingering chill for the duration — any creature that touches it or ends its turn adjacent takes 1d6 cold damage, once per creature.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "1 minute"
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "1 creature"
+        },
+        "time": {
+            "value": "2"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [],
+            "value": [
+                "focus",
+                "reckoner"
+            ]
+        },
+        "slug": "heat-debt-spell"
+    },
+    "_id": "n8clySsHXcJ12xHX",
+    "flags": {
+        "cinderfall": {
+            "signatureSpellOf": "reckoner.cold-reckoning"
+        }
+    }
+}

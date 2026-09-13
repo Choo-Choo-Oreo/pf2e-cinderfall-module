@@ -1,0 +1,54 @@
+{
+    "name": "Effect: The Overhand That Ends It",
+    "type": "effect",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "description": {
+            "value": "<p><em>Applied by <strong>The Overhand That Ends It</strong> to the character who used it.</em></p>\n<hr />\n<p>Make a Strike with a +2 circumstance bonus to the attack roll. On a hit it deals triple weapon damage rather than the usual amount, and on a critical hit the target is knocked prone and stunned 2. Spending Tally this way is not a Redline and causes no Slip. If the Strike misses, the Tally is spent anyway.</p>"
+        },
+        "duration": {
+            "expiry": "turn-end",
+            "sustained": false,
+            "unit": "rounds",
+            "value": 1
+        },
+        "level": {
+            "value": 18
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "melee-strike-attack-roll",
+                "type": "circumstance",
+                "value": 2,
+                "removeAfterRoll": true,
+                "predicate": [
+                    "item:hands-held:2"
+                ]
+            }
+        ],
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "value": []
+        },
+        "slug": "the-overhand-that-ends-it-effect"
+    },
+    "_id": "L7aaMihIffb7koKS",
+    "flags": {
+        "cinderfall": {
+            "effectOf": "deadhand.the-overhand-that-ends-it",
+            "landsOn": "self"
+        }
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "name": "Ghostwalker",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
+        "description": {
+            "value": "<p>You don't out-muscle the wasteland's monsters. You out-think them, and leave before they notice you were there.</p><hr /><p><strong>SIGNATURE —</strong> your Marked quarry takes a penalty to notice or react to you and your Feral Bond specifically.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "otherTags": [
+                "waywarden-wasteland-edge"
+            ],
+            "rarity": "common",
+            "value": [
+                "waywarden"
+            ]
+        },
+        "slug": "ghostwalker"
+    },
+    "_id": "VGuxJpSbEJ02DsEj",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Ranger's Outwit classfeature (P4) is the exact real analog (FlatModifier AC/skill bonuses vs. target:mark:/origin:mark:) — buildable once the Mark exists and this card states an actual number. The Waywarden's central subsystem, The Mark (classes.waywarden.json flags.cinderfall.terms[0]: \"designate a creature as your quarry, gaining a growing bonus to track, target, and punish it specifically\"), has zero Foundry-schema footprint anywhere in the corpus. classes.waywarden.json:65 itself carries \"rules\": []. No card anywhere grants a TokenMark effect (site/data/cards/abilities/, class-features/, feat-effects/ are all empty scaffold directories -- confirmed via ls, contents are .gitkeep only). Real pf2e's own equivalent mechanic (Ranger's Hunt Prey) is fully buildable and precedented, but that infrastructure (an action item + a TokenMark-carrying effect item) does not exist for Waywarden and is not one of the 56 files in scope for this draft. This card is blocked until a future pass authors the base Mark action/effect.",
+            "subclassOf": "waywarden",
+            "subclassChoice": "Choose Your Wasteland Edge",
+            "subclassLayer": "wasteland-edge",
+            "role": "Outmaneuver"
+        }
+    }
+}

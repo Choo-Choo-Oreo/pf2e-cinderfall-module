@@ -50,6 +50,7 @@
     "_id": "C9M06T5cWrU0ZX6s",
     "flags": {
         "cinderfall": {
+            "incomplete": "`rules: []` is correct for the spell card itself (P3), but the real content would require **new** \"±2\" variant effect items — `ItemAlteration` cannot scale an existing granted effect's baked-in `FlatModifier.value` from a distance (P10), and no such variant effect file exists among these 78.",
             "listing": "4th Rank"
         }
     }

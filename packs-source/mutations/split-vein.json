@@ -24,7 +24,9 @@
             "type": null
         },
         "price": {
-            "value": {}
+            "value": {
+                "gp": 0
+            }
         },
         "publication": {
             "license": "ORC",
@@ -46,21 +48,14 @@
     "_id": "ho21Np6OjSFb9Svs",
     "flags": {
         "cinderfall": {
+            "incomplete": "The whole ability (once per day, open a vein to grant an adjacent ally fast healing 2 for 1 minute, at a cost of 1 unavoidable damage per round to yourself) has no rule-element equivalent: it targets another creature with a limited-use action, the same architecture gap as Loyal-Blood, and 'not reducible by any resistance' self-inflicted damage-over-time also has no confirmed hook.",
             "mutationType": "major",
             "tier": "rare",
-            "slot": "Circulatory",
             "slots": [
                 "Circulatory"
             ],
             "slotCost": 1,
-            "roll": "d20 — 10",
-            "incomplete": [
-                "level is a stub (0); mutations carry no level",
-                "price is empty; a mutation is not bought"
-            ],
-            "inferred": [
-                "system.usage"
-            ]
+            "roll": "d20 — 10"
         }
     }
 }

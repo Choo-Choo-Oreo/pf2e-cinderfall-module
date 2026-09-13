@@ -33,5 +33,10 @@
         },
         "slug": "spirit-duet"
     },
-    "_id": "5DGSdGXg8q6beQAt"
+    "_id": "5DGSdGXg8q6beQAt",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "[RIG-NO-ACTOR]."
+        }
+    }
 }

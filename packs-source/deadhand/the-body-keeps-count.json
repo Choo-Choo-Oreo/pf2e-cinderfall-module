@@ -33,5 +33,10 @@
         },
         "slug": "the-body-keeps-count"
     },
-    "_id": "O9565EaOjHBkicx6"
+    "_id": "O9565EaOjHBkicx6",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Gains 1 Tally the first time each encounter the caster drops below half HP, and 1 Tally the first time an ally within 30 feet hits 0 HP. Deadhand's Tally is entirely homebrew with zero schema footprint anywhere in this corpus."
+        }
+    }
 }

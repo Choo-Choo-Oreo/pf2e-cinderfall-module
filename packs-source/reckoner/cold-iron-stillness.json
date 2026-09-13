@@ -33,5 +33,10 @@
         },
         "slug": "cold-iron-stillness"
     },
-    "_id": "jpmQ4Mm0H0J2dgNr"
+    "_id": "jpmQ4Mm0H0J2dgNr",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Requires tracking 'since the end of your last turn' and 'three consecutive rounds' of a custom HEAT DEBT condition -- no rule element auto-increments a custom counter round over round outside a named condition's own badge-increment or a SpecialResource, neither of which exists for this shape (NOSTACK); HEAT DEBT itself also has no schema representation anywhere in the corpus."
+        }
+    }
 }

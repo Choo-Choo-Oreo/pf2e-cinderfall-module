@@ -1,0 +1,55 @@
+{
+    "name": "Adaptable",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "ancestryfeature",
+        "description": {
+            "value": "<p>Bonus skill feat at 1st level, reflecting the sheer range of trades a human background can come from.</p>"
+        },
+        "level": {
+            "value": 0
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "ChoiceSet",
+                "flag": "skillFeat",
+                "adjustName": false,
+                "prompt": "PF2E.SpecificRule.Prompt.SkillFeat",
+                "choices": {
+                    "itemType": "feat",
+                    "filter": [
+                        "item:level:1",
+                        "item:trait:skill"
+                    ]
+                }
+            },
+            {
+                "key": "GrantItem",
+                "uuid": "{item|flags.system.rulesSelections.skillFeat}"
+            }
+        ],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "human"
+            ]
+        },
+        "slug": "adaptable"
+    },
+    "_id": "sIn3M43NQ8zra21D"
+}

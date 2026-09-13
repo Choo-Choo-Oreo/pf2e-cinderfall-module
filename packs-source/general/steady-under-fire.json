@@ -1,0 +1,37 @@
+{
+    "name": "Steady Under Fire",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "general",
+        "description": {
+            "value": "<p>Reduce the penalty imposed by the frightened condition by 1 (minimum 0).</p>"
+        },
+        "level": {
+            "value": 3
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "steady-under-fire"
+    },
+    "_id": "VysbYqLv90NJB6p5",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Reducing the frightened condition's own penalty by 1 (minimum 0) has no engine hook: confirmed absence, same finding as the real Vambrace of Gorum (which reduces frightened by 1 as a reaction) and the Obrimar bestiary ability -- both ship rules: [] for an equally concrete condition-severity claim; no rule element can redefine a condition's own penalty formula."
+        }
+    }
+}

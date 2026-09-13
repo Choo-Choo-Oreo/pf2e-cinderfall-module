@@ -33,5 +33,10 @@
         },
         "slug": "combined-threshold"
     },
-    "_id": "uXBpqjA0dEKJeXri"
+    "_id": "uXBpqjA0dEKJeXri",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "BAND-GAP. Nothing to extend; the underlying band-read benefit isn't a real number to begin with."
+        }
+    }
 }

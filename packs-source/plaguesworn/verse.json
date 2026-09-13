@@ -1,0 +1,63 @@
+{
+    "name": "Choose Your Verse",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
+        "description": {
+            "value": "<p><em>Choose Your Verse</em></p><p>Choose one: Verse of Rot, Verse of Silence, Verse of the Multitude.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "ChoiceSet",
+                "adjustName": false,
+                "flag": "verse",
+                "prompt": "Choose Your Verse",
+                "choices": {
+                    "filter": [
+                        "item:tag:plaguesworn-verse"
+                    ]
+                }
+            },
+            {
+                "key": "GrantItem",
+                "uuid": "{item|flags.system.rulesSelections.verse}"
+            }
+        ],
+        "traits": {
+            "otherTags": [],
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "verse"
+    },
+    "_id": "RsF6Z3TcnxJF8dPv",
+    "flags": {
+        "cinderfall": {
+            "subclassOf": "plaguesworn",
+            "subclassLayer": "verse",
+            "grants": [
+                "plaguesworn.verse-of-rot",
+                "plaguesworn.verse-of-silence",
+                "plaguesworn.verse-of-the-multitude"
+            ]
+        }
+    }
+}

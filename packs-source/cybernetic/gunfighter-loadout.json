@@ -1,0 +1,92 @@
+{
+    "name": "Gunfighter Loadout",
+    "type": "equipment",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "baseItem": null,
+        "bulk": {
+            "value": 0
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p><em>Ocular + both Arms.</em> Predator optics + twin integrated autoguns: Strike 2d8 piercing, range 50 ft, reload 0; your Strikes ignore concealment and lesser cover.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 15
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "price": {
+            "value": {
+                "gp": 7500
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "Strike",
+                "slug": "gunfighter-loadout",
+                "label": "Integrated Autoguns",
+                "category": "weapon",
+                "group": "firearm",
+                "img": "systems/pf2e/icons/equipment/weapons/apparatus-gun.webp",
+                "range": {
+                    "increment": 50
+                },
+                "traits": [
+                    "reload-0"
+                ],
+                "damage": {
+                    "base": {
+                        "damageType": "piercing",
+                        "dice": 2,
+                        "die": "d8"
+                    }
+                }
+            }
+        ],
+        "size": "med",
+        "traits": {
+            "rarity": "epic",
+            "value": []
+        },
+        "usage": {
+            "value": "other"
+        },
+        "slug": "gunfighter-loadout"
+    },
+    "_id": "lRnOFsLeM3AXHrUY",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "'Strikes ignore concealment and lesser cover' is a real pf2e mechanism -- confirmed precedent, pf2e-source/packs/pf2e/equipment/alchemist-goggles.json, via an EphemeralEffect keyed to a target:cover-level predicate that grants a companion Effect item on the strike's attack-roll selector -- but it needs that second, linked Effect item authored alongside this card, which is a heavier lift than a system.rules splice (same weight as the equipment pass's ammo-card gap). Flagging rather than half-building it; the Strike itself above is complete and real.",
+            "augmentKind": "cybernetic",
+            "augmentType": "implant",
+            "tier": "epic",
+            "slots": [
+                "Ocular",
+                "Arm"
+            ],
+            "slotCost": 2,
+            "grade": 4,
+            "availability": "Black Market",
+            "level": 15,
+            "drift": "+4",
+            "augTags": [
+                "weapon",
+                "apex"
+            ]
+        }
+    }
+}

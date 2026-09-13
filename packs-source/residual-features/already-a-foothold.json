@@ -1,0 +1,57 @@
+{
+    "name": "Already a Foothold",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "ancestryfeature",
+        "description": {
+            "value": "<p>Drawback: possession and soul-based effects find you slightly easier to affect — there's already a door left ajar.</p>"
+        },
+        "level": {
+            "value": 0
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "will",
+                "type": "circumstance",
+                "value": -1,
+                "predicate": [
+                    {
+                        "or": [
+                            "item:trait:possession",
+                            "item:trait:mental"
+                        ]
+                    },
+                    {
+                        "nor": [
+                            "quiet-residual"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "residual"
+            ]
+        },
+        "slug": "already-a-foothold"
+    },
+    "_id": "EmtA7RFJHAm1c6zC"
+}

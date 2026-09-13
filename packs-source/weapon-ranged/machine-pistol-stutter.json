@@ -1,0 +1,72 @@
+{
+    "name": "Machine Pistol \"Stutter\"",
+    "type": "weapon",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "bulk": {
+            "value": 1
+        },
+        "description": {
+            "value": "<p>A handgun that forgot how to fire just once. Empties a stick mag in a held breath; hitting anything past close range is between you and luck.</p>"
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 0
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "quantity": 1,
+        "rules": [],
+        "traits": {
+            "rarity": "uncommon",
+            "value": [
+                "automatic"
+            ]
+        },
+        "price": {
+            "value": {
+                "gp": 8
+            }
+        },
+        "ammo": {
+            "baseType": "pistol-rounds"
+        },
+        "bonus": {
+            "value": 0
+        },
+        "bonusDamage": {
+            "value": 0
+        },
+        "category": "martial",
+        "damage": {
+            "dice": 1,
+            "die": "d6",
+            "damageType": "piercing"
+        },
+        "group": "firearm",
+        "range": 30,
+        "reload": {
+            "value": 1
+        },
+        "splashDamage": {
+            "value": 0
+        },
+        "usage": {
+            "value": "held-in-one-hand"
+        },
+        "slug": "machine-pistol-stutter"
+    },
+    "_id": "Ozkc3LAezrzqkN5O",
+    "flags": {
+        "cinderfall": {
+            "traitAdded": "Export had no traits at all despite its own description implying full-auto fire ('empties a stick mag in a held breath'); added the automatic trait so the mechanics match the fiction."
+        }
+    }
+}

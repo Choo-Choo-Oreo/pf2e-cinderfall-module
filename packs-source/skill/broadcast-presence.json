@@ -1,0 +1,41 @@
+{
+    "name": "Broadcast Presence",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "skill",
+        "description": {
+            "value": "<p>Whatever's left of the old broadcast towers still carries a voice further than a shout ever could. When performing over a working radio or PA rig, your Performance check's effective audience size is tripled for the purpose of Earn Income and Impressive Performance.</p>"
+        },
+        "level": {
+            "value": 8
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Expert in Performance"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "broadcast-presence"
+    },
+    "_id": "I5KhFsJUVF2P5LXw",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "No rule-element key scales a Performance action's effective audience size for Earn Income or Impressive Performance."
+        }
+    }
+}

@@ -33,5 +33,10 @@
         },
         "slug": "unkillable-meat"
     },
-    "_id": "7QOcIPds9NMLy9wj"
+    "_id": "7QOcIPds9NMLy9wj",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "BAND-GAP (and the \"extra dying round\" it extends -- Overgrown Load's own grant -- isn't itself modeled, so there's nothing to move earlier)."
+        }
+    }
 }

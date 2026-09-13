@@ -33,5 +33,10 @@
         },
         "slug": "cold-open"
     },
-    "_id": "bCMGaOtZsVNJ8qDp"
+    "_id": "bCMGaOtZsVNJ8qDp",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Bucket 3 (hands the actor an early activation of a whole stance) stacked on SB3 (no Broadcast item to instantiate early). No \"Broadcast\" stance/aura item is ever instantiated as an Item with its own system.rules anywhere in this corpus. The shape (a stance whose aura buffs allies) is real and buildable in pf2e via Aura + a companion effect item -- but no such Broadcast item exists among this class's files to attach a rule element to."
+        }
+    }
 }

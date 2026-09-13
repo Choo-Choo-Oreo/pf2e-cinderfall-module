@@ -1,0 +1,56 @@
+{
+    "name": "Binding Chain",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p><strong>Frequency</strong> 2/day (+1 at 5th, 9th, 13th, 17th)</p><p><strong>Trigger</strong> a Named creature within 30 feet is reduced to 0 Hit Points or otherwise defeated</p><hr /><p>Instead of letting the Named creature go wherever the unhoused dead go, you bind it as a servant-spirit — soul-economy salvage instead of an exorcism, mechanically similar to the Soul-Binder archetype's Dedication effect.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": "permanent"
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": "the triggering creature"
+        },
+        "time": {
+            "value": "reaction"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [
+                "occult"
+            ],
+            "value": [
+                "wardbreaker"
+            ]
+        },
+        "slug": "binding-chain-spell"
+    },
+    "_id": "alptTbAcJbU0qGHi",
+    "flags": {
+        "cinderfall": {
+            "signatureSpellOf": "wardbreaker.binding-chain"
+        }
+    }
+}

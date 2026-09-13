@@ -1,0 +1,46 @@
+{
+    "name": "One Swing, One Answer",
+    "type": "capstone",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p>Once per encounter, declare a wind-up against anything — a creature, a gate, a vehicle, a wall. It hits automatically, and it critically hits if the target is an object or is taking cover from anything at all. Twenty years of opening what was not built to open ends here.</p>"
+        },
+        "level": {
+            "value": 20
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "otherTags": [
+                "deadhand-breaker"
+            ],
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "breaker-major"
+    },
+    "_id": "1ARqsuS2whQoy8PS",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "A declared wind-up Strike auto-hits, and auto-crits against an object/cover-user. No rule element guarantees an outright hit or upgrades a check that was never rolled (AdjustDegreeOfSuccess only reclassifies the result of a check that actually happens).",
+            "track": "breaker"
+        }
+    }
+}

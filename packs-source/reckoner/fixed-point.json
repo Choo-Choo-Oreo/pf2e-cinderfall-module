@@ -34,7 +34,12 @@
             "value": "30 feet"
         },
         "requirements": "",
-        "rules": [],
+        "rules": [
+            {
+                "key": "GrantItem",
+                "uuid": "Compendium.pf2e.conditionitems.Item.Off-Guard"
+            }
+        ],
         "target": {
             "value": "you or 1 willing creature"
         },
@@ -55,6 +60,7 @@
     "_id": "YvwyJYZH61UUDgID",
     "flags": {
         "cinderfall": {
+            "incomplete": "The 'that one action is wasted' clause on an ordinary Failure has no rule-element equivalent -- no schema hook exists for nullifying an arbitrary future action. The critical-failure Off-Guard grant (buildable, PAT-CONDITION-GRANT) has been added to system.rules; this flag covers only the unbuilt Failure-only clause.",
             "listing": "1st Rank"
         }
     }

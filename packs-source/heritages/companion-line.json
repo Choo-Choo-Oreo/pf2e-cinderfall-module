@@ -15,7 +15,33 @@
             "remaster": true,
             "title": "Cinderfall"
         },
-        "rules": [],
+        "rules": [
+            {
+                "key": "ChoiceSet",
+                "flag": "companionLine",
+                "prompt": "Select the role this chassis was finished for",
+                "choices": [
+                    {
+                        "label": "PF2E.Skill.Diplomacy",
+                        "value": "diplomacy"
+                    },
+                    {
+                        "label": "PF2E.Skill.Performance",
+                        "value": "performance"
+                    }
+                ]
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "{item|flags.system.rulesSelections.companionLine}",
+                "type": "circumstance",
+                "value": 1
+            },
+            {
+                "key": "RollOption",
+                "option": "companion-line"
+            }
+        ],
         "traits": {
             "rarity": "common",
             "value": []

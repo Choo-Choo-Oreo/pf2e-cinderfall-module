@@ -34,5 +34,10 @@
         },
         "slug": "bind-lesser-spirit"
     },
-    "_id": "Pg0jYyi5Hiz49SIb"
+    "_id": "Pg0jYyi5Hiz49SIb",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "[RIG-GENERIC-AMBIGUOUS] + [RIG-NO-ACTOR] -- this card isn't tagged to a specific ghostRigTier, so it's meant to apply to whichever of the three Rig choices a character took. For Ghost-Rig it needs a companion actor's own attack/DC/HP (doesn't exist). For Iron Lung/Widowmaker it could theoretically graft onto the PC's own proficiency stats, but there is no existing mechanism in this corpus tying a single generic card to three different stat targets by hidden subclass choice. The \"Attention\" escalation is GM narrative on top, itself unbuildable (no numeric threshold-tracking rule element for a homebrew meta-counter). See Open Questions #1 in .claude/scratch/feats-class-scrapwright-draft.md."
+        }
+    }
 }

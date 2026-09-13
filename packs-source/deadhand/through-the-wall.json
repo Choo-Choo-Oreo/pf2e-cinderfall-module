@@ -27,5 +27,10 @@
         },
         "slug": "through-the-wall"
     },
-    "_id": "86R7XOWZNauRiy4T"
+    "_id": "86R7XOWZNauRiy4T",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Ignores cover entirely and ignores 10 points of Hardness/physical resistance from walls, barricades, or structural interference on a solid connection. Unlike a per-Strike damage rider, this is a bare passive with no system.damage hook to carry the Hardness/resistance-ignoring clause through -- no rule-element key subtracts or bypasses a target/obstruction's own Hardness or resistance value from a bare passive (matches crack-the-plate/nothing-is-cover's own confirmed absence for this effect-class)."
+        }
+    }
 }

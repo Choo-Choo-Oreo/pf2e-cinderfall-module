@@ -1,0 +1,41 @@
+{
+    "name": "Salvage Hauler",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "skill",
+        "description": {
+            "value": "<p>Treat scrap and salvage loads as one Bulk lighter when calculating your carrying capacity.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Trained in Crafting"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "salvage-hauler"
+    },
+    "_id": "Bb6spdFCrAg7ythc",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "No rule-element key reduces the effective Bulk of a category of carried cargo (scrap/salvage)."
+        }
+    }
+}

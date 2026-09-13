@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "ironsight-trick-iron"
+            ],
             "rarity": "common",
             "value": [
                 "ironsight"
@@ -33,5 +36,11 @@
         },
         "slug": "jury-rig-repair"
     },
-    "_id": "twcef9xfqiIlyNcU"
+    "_id": "twcef9xfqiIlyNcU",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "no selector for skill-check-gated item-state restoration.",
+            "track": "trick-iron"
+        }
+    }
 }

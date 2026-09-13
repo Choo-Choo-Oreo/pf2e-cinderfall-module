@@ -1,0 +1,42 @@
+{
+    "name": "Legacy of the Bargain",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Your Idol's abilities no longer require your Zeal to activate, and it retains all its abilities even if your Bargain is ever broken. When you die, it does not perish with you.</p>"
+        },
+        "level": {
+            "value": 20
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "cultist"
+            ]
+        },
+        "slug": "legacy-of-the-bargain"
+    },
+    "_id": "bKHymq3B2VGla9wL",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "This card extends the Idol (the class's familiar) -- independent actions, a temporary full statblock transformation, or Zeal-free/death-surviving permanence. Confirmed this session: no Familiar-type or Idol-related record of any kind exists anywhere in site/data/cards/ for this class (only these same feats/class/cultist/*.json files reference \"idol\" at all) -- there is no real Foundry document (a linked Familiar actor, a custom item) to extend with a rule element. This is a genuine structural gap in the corpus, not a search failure."
+        }
+    }
+}

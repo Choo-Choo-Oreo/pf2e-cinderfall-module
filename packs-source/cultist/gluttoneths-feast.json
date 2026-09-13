@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "cultist-gluttoneth"
+            ],
             "rarity": "common",
             "value": [
                 "cultist"
@@ -33,5 +36,10 @@
         },
         "slug": "gluttoneths-feast"
     },
-    "_id": "8Kb7TSjR0eBZSEd9"
+    "_id": "8Kb7TSjR0eBZSEd9",
+    "flags": {
+        "cinderfall": {
+            "track": "gluttoneth"
+        }
+    }
 }

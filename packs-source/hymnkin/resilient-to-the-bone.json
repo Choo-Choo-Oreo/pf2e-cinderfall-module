@@ -1,0 +1,47 @@
+{
+    "name": "Resilient to the Bone",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "ancestry",
+        "description": {
+            "value": "<p>Disease resistance and the extended decay-toxin resistance from Resilient Blood both become immunity.</p>"
+        },
+        "level": {
+            "value": 9
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Resilient Blood"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "Immunity",
+                "type": "disease"
+            },
+            {
+                "key": "Immunity",
+                "type": "poison"
+            }
+        ],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "hymnkin"
+            ]
+        },
+        "slug": "resilient-to-the-bone"
+    },
+    "_id": "2aIFAgVfEYtoyqwt"
+}

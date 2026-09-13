@@ -1,0 +1,39 @@
+{
+    "name": "Salvage Sense",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "skill",
+        "description": {
+            "value": "<p>When searching a ruin or wreck, treat the best usable salvage you find as one quality tier better than rolled, and gain a bonus to notice a cache or stash that's been deliberately hidden rather than simply buried by time.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "salvage-sense"
+    },
+    "_id": "HKvrifQyz7IbbKnx",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "No rule-element key upgrades a randomly-rolled loot result by a quality tier, and the bonus to notice a hidden cache has no stated value.",
+            "category": "background",
+            "sourceOwner": "backgrounds"
+        }
+    }
+}

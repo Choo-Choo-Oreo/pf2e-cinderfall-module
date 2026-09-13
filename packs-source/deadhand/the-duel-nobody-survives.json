@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "deadhand-second"
+            ],
             "rarity": "common",
             "value": [
                 "deadhand"
@@ -33,5 +36,11 @@
         },
         "slug": "the-duel-nobody-survives"
     },
-    "_id": "zj668VWGkN1LPbJV"
+    "_id": "zj668VWGkN1LPbJV",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The mark can't leave the encounter (no teleport, no fleeing past 120 feet, no invisibility to the caster, no removal by an effect at or below the caster's level) while both are conscious; Strikes against it ignore all resistance and precision immunity. No selector restricts a different creature's own movement/escape options or removes their immunities -- compounded by the confirmed-unfireable mark predicate.",
+            "track": "second"
+        }
+    }
 }

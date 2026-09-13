@@ -1,0 +1,49 @@
+{
+    "name": "Wildfire Surge",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "ancestry",
+        "description": {
+            "value": "<p>Heat Surge's bonus damage increases, and can briefly ignite the ground or terrain around you.</p>"
+        },
+        "level": {
+            "value": 5
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Stoke the Flame"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "DamageDice",
+                "selector": "strike-damage",
+                "damageType": "fire",
+                "diceNumber": 1,
+                "dieSize": "d4",
+                "predicate": [
+                    "heat-surge-active"
+                ]
+            }
+        ],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "emberforged"
+            ]
+        },
+        "slug": "wildfire-surge"
+    },
+    "_id": "qMV67nrZARBghUvM"
+}

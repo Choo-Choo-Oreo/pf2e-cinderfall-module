@@ -33,5 +33,10 @@
         },
         "slug": "overclock-apex"
     },
-    "_id": "loxZGns8Q7CvYno7"
+    "_id": "loxZGns8Q7CvYno7",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "[REDLINE-NO-SCHEMA] -- Redline/Slippage are not Foundry checks or resources."
+        }
+    }
 }

@@ -27,5 +27,10 @@
         },
         "slug": "the-duel-doesnt-end"
     },
-    "_id": "ZY9IWE9IALVZujo0"
+    "_id": "ZY9IWE9IALVZujo0",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Any movement away from an adjacent caster auto-provokes The Answer with +2 circumstance, and a hit disrupts (wastes) that movement action. \"Disrupts/wastes the triggering action\" has no rule-element hook anywhere in the engine -- no selector retroactively cancels a different creature's already-declared action -- independent of the trigger-widening half."
+        }
+    }
 }

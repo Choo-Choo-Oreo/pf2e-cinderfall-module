@@ -292,9 +292,52 @@
                 }
             },
             "type": "action"
+        },
+        {
+            "_id": "nMQ7ZlhdDuedYi0P",
+            "img": "systems/pf2e/icons/default-icons/treasure.svg",
+            "name": "Render Hide",
+            "sort": 1400000,
+            "system": {
+                "bulk": {
+                    "value": 1
+                },
+                "category": "material",
+                "description": {
+                    "value": "<p>A thick strip of hide off the forest's apex predator &mdash; heavy, tough, and worth the haul back.</p>"
+                },
+                "hardness": 0,
+                "hp": {
+                    "max": 0,
+                    "value": 0
+                },
+                "level": {
+                    "value": 0
+                },
+                "publication": {
+                    "license": "ORC",
+                    "remaster": true,
+                    "title": "Cinderfall"
+                },
+                "quantity": 1,
+                "rules": [],
+                "traits": {
+                    "rarity": "common",
+                    "value": []
+                },
+                "price": {
+                    "value": {
+                        "gp": 2
+                    }
+                }
+            },
+            "type": "treasure"
         }
     ],
     "flags": {
+        "pf2e": {
+            "lootable": true
+        },
         "cinderfall": {
             "alignment": "N"
         }

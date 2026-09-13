@@ -33,5 +33,10 @@
         },
         "slug": "unbreakable-chassis"
     },
-    "_id": "TxpgcRkM3SdXPdiN"
+    "_id": "TxpgcRkM3SdXPdiN",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "For 1 minute, treats the caster's Drift score as 2 lower for determining which Drift band's effects apply, without changing the actual Drift total. \"Drift\" and its \"bands\" are entirely homebrew with zero rule-element or actor-data footprint found anywhere in the Deadhand cards read for this pass -- nothing to hook a \"treat as 2 lower\" modifier to."
+        }
+    }
 }

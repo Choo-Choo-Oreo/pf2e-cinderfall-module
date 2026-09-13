@@ -24,7 +24,26 @@
             "remaster": true,
             "title": "Cinderfall"
         },
-        "rules": [],
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "initiative",
+                "type": "circumstance",
+                "value": 2,
+                "predicate": [
+                    "chrome-attuned"
+                ]
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "reflex",
+                "type": "circumstance",
+                "value": 1,
+                "predicate": [
+                    "chrome-attuned"
+                ]
+            }
+        ],
         "traits": {
             "rarity": "common",
             "value": [

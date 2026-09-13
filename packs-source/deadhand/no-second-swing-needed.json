@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "deadhand-breaker"
+            ],
             "rarity": "common",
             "value": [
                 "deadhand"
@@ -33,5 +36,11 @@
         },
         "slug": "no-second-swing-needed"
     },
-    "_id": "AEmkYN2LiXGWFYMo"
+    "_id": "AEmkYN2LiXGWFYMo",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Next Strike: failure becomes success, success becomes critical hit; at Cost 2 Tally, once/round, requires a two-handed melee weapon. Deadhand's Tally is entirely homebrew with zero schema footprint anywhere in this corpus, and separately, failure-to-success is specifically the one direction AdjustDegreeOfSuccess cannot do (it only ever reclassifies a roll for the better starting from success or better, per the real precedent found in this pass).",
+            "track": "breaker"
+        }
+    }
 }

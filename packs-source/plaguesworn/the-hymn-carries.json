@@ -50,6 +50,7 @@
     "_id": "LZjENXBQO2BwfR1O",
     "flags": {
         "cinderfall": {
+            "incomplete": "This clause is an ongoing effect targeting a different creature's roll/HP/condition/behavior, sourced from the holder's own passive (P-CROSSCREATURE), with no selector anywhere in pf2e-source for one actor's rule element to reach into a separate actor on an ongoing basis. (the aura must apply to every dynamically-created Afflicted actor, not a fixed recipient) compounded by the same unprecedented schema-corner problem as Sickroom Air (the \"once per creature per round\" recurring-save shape). The Aura rule element's schema (pf2e-source/src/module/rules/rule-element/aura.ts:41-80) technically supports a per-effect turn-end event with a save sub-object, which would fit a \"creature ending its turn in an aura attempts a save\" clause. But an exhaustive search of every shipped item using Aura with save populated (grep -rl \"\\\"key\\\": \\\"Aura\\\"\" pf2e-source/packs/pf2e/ | xargs grep -l \"\\\"save\\\"\") turns up only files where \"save\" appears elsewhere in the same actor document (system.saves), never inside the Aura rule element itself -- confirmed by reading chafkhem.json's \"Despair\" and dread-dhuthorex.json's \"Frightful Presence\", both of which use only radius/slug/traits or an effects[].uuid grant on \"enter\", never the save sub-field. The schema field exists but is unused anywhere in the shipped compendium, so this is not authored blind against an unprecedented schema corner.",
             "listing": "6th Rank"
         }
     }

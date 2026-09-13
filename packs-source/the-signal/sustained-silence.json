@@ -33,5 +33,10 @@
         },
         "slug": "sustained-silence"
     },
-    "_id": "B9o8nvjo1RGtv0Cw"
+    "_id": "B9o8nvjo1RGtv0Cw",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "SB3 (modifies Broadcast's own end-conditions on a non-existent item). The DC 5 flat check to activate is a live, player-rolled gate on an action use, which real pf2e handles at the table/via the action's own description rather than a rule element — not itself a rules-array gap, but moot given SB3 blocks the file's central clause anyway."
+        }
+    }
 }

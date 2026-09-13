@@ -33,5 +33,10 @@
         },
         "slug": "cinders-reach"
     },
-    "_id": "IbZBOlxkyksEgNOX"
+    "_id": "IbZBOlxkyksEgNOX",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "No rule element converts a melee weapon's Strike into a ranged Strike at a stated range while the weapon stays in hand and is not thrown -- distinct from the real \"thrown\" weapon trait (which requires the weapon to actually leave the wielder's hand). No selector or rule-element key anywhere in pf2e-source models this."
+        }
+    }
 }

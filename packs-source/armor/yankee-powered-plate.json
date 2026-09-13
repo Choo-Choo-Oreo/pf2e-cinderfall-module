@@ -33,13 +33,13 @@
                 "gp": 8
             }
         },
-        "acBonus": 0,
+        "acBonus": 6,
         "category": "heavy",
-        "checkPenalty": 0,
+        "checkPenalty": -3,
         "dexCap": 0,
-        "group": null,
-        "speedPenalty": 0,
-        "strength": 0,
+        "group": "plate",
+        "speedPenalty": -10,
+        "strength": 4,
         "usage": {
             "value": "wornarmor"
         },
@@ -47,13 +47,6 @@
     },
     "_id": "DEKReUVY1jtNIT5H",
     "flags": {
-        "cinderfall": {
-            "incomplete": [
-                "level is a stub (0); the page carries no item levels",
-                "armor acBonus/dexCap/checkPenalty/speedPenalty/strength/group all stubbed -- the page posts no AC, no Dex Cap and no penalties"
-            ],
-            "currency": "Balanced to the PF2e GP standard and denominated in Credits: 1 Credit = 1 gp, per currency.credits: a credit IS a gold piece and any published price reads straight across. Scraps are retired at 1:1 to Credits, so scrap-quoted prices read across unchanged too.",
-            "define": "Heavy (Exosuit)"
-        }
+        "cinderfall": {}
     }
 }

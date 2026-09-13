@@ -33,5 +33,10 @@
         },
         "slug": "marked-down"
     },
-    "_id": "BnSZ2cRCKDHylBQE"
+    "_id": "BnSZ2cRCKDHylBQE",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Note: the \"must be your Marked quarry\" clause is a *requirement to use the action* (player- enforced text, as real pf2e requirements almost always are — e.g. none of P4/P5's Requirement clauses are themselves rule-encoded), so this one is not primarily blocked by [NO-MARK]. The actual blocker is the \"on hit, apply off-guard to the target for one round\" behavior itself: real pf2e's closest analog (Tumble Behind, pf2e-source/packs/pf2e/feats/class/rogue/level-1/tumble-behind-rogue.json:34-44) applies off-guard as an EphemeralEffect scoped to *your own subsequent attack roll*, not as a condition placed on the target for anyone to see for a full round — that's a materially different (and currently unprecedented) persistent-condition-on-hit shape."
+        }
+    }
 }

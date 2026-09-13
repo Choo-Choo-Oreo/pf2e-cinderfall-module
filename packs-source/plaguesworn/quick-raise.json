@@ -33,5 +33,10 @@
         },
         "slug": "quick-raise"
     },
-    "_id": "KHuB3x3WY8uLWyUc"
+    "_id": "KHuB3x3WY8uLWyUc",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "No ItemAlteration property (checked the full corrected-facts property list: frequency-max/frequency-per adjust how often an item can be used, not what it costs to use) or any other rule element changes an action's own action-cost. Miasma is this class's focus-pool-that-doesn't-refill-on-rest resource. No SpecialResource rule element exists for it anywhere in the corpus: the class card itself (classes.plaguesworn.json:49) ships system.rules: [], and grep -rl \"SpecialResource\" site/data/cards/feats/class/plaguesworn/ site/data/cards/classes/classes.plaguesworn.json returns zero hits. Any clause that costs, refills, or banks Miasma is unbuildable via the renew:false mechanism -- that mechanism simply isn't wired up for this class. Afflicted is this class's minion subsystem: a raise-cap, a collapse timer, and (at level 18) a shared cross-actor Resonance pool. pf2e's schema has no generic \"max controlled minions\" field, no \"minion lifespan\" field, and no mechanism for one actor's rule element to modify a different actor's stats on an ongoing basis. (\"Raising an Afflicted\" itself is unbuilt -- P-SUMMON -- so the action this card would speed up doesn't exist either.)"
+        }
+    }
 }

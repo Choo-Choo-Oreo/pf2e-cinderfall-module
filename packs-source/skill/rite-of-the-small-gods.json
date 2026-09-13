@@ -1,0 +1,37 @@
+{
+    "name": "Rite of the Small Gods",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "category": "skill",
+        "description": {
+            "value": "<p>Petty gods keep turning up in the wastes with their own petty liturgies, and you've bothered to learn a few. You gain a +1 circumstance bonus to Religion checks made to identify or appease a petty god's specific dogma, rather than treating all of them as a single unknown tradition.</p>"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "rite-of-the-small-gods"
+    },
+    "_id": "YLEso6TosMwC6Ofh",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The +1 Religion bonus needs a target trait for 'a petty god's specific dogma,' which doesn't exist anywhere in this corpus."
+        }
+    }
+}

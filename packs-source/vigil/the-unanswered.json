@@ -1,32 +1,61 @@
 {
-    "_id": "7hmBdbJPo0r6SVPr",
-    "categories": [],
     "name": "The Unanswered",
-    "ownership": {
-        "default": 0
-    },
-    "pages": [
-        {
-            "_id": "IE8WwzG0bHNe5rsl",
-            "category": null,
-            "image": {},
-            "name": "The Unanswered",
-            "sort": 100000,
-            "src": null,
-            "system": {},
-            "text": {
-                "content": "<p><em>Holdout Faith in the Silent God</em></p>        <p class=\"cc-desc\">You pray to something that hasn't answered in two hundred years and has given you no reason to believe it ever will again — and you keep doing it anyway, because the alternative is admitting the wasteland is all there is. You gain Grace by enduring hardship faithfully, protecting the powerless at real cost to yourself, and refusing shortcuts that would betray what you still believe.</p>\n        <hr class=\"cc-divider\">\n        <div class=\"cc-effect\"><b>PRESENCE —</b> allies near you resist despair and fear more easily. Nothing dramatic. Just steadier than they'd be alone.</div>",
-                "format": 1
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
+        "description": {
+            "value": "<p>        <p class=\"cc-desc\">You pray to something that hasn't answered in two hundred years and has given you no reason to believe it ever will again — and you keep doing it anyway, because the alternative is admitting the wasteland is all there is. You gain Grace by enduring hardship faithfully, protecting the powerless at real cost to yourself, and refusing shortcuts that would betray what you still believe.</p>\n        <hr class=\"cc-divider\">\n        <div class=\"cc-effect\"><b>PRESENCE —</b> allies near you resist despair and fear more easily. Nothing dramatic. Just steadier than they'd be alone.</div></p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "RollOption",
+                "option": "vigil-path:unanswered",
+                "value": true
             },
-            "title": {
-                "level": 1,
-                "show": true
-            },
-            "type": "text",
-            "video": {
-                "controls": true,
-                "volume": 0.5
+            {
+                "key": "SpecialResource",
+                "slug": "grace",
+                "max": "ternary(gte(@actor.level,17),4,ternary(gte(@actor.level,11),3,ternary(gte(@actor.level,5),2,1)))",
+                "renew": false
             }
+        ],
+        "traits": {
+            "otherTags": [
+                "vigil-path"
+            ],
+            "rarity": "common",
+            "value": [
+                "vigil"
+            ]
+        },
+        "slug": "the-unanswered"
+    },
+    "_id": "7hmBdbJPo0r6SVPr",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Presence aura half (bucket 5): same as the-choir-of-ash -- the level-1 text states no number or range ('nothing dramatic... just steadier'), unlike its level-14 numeric successor. No number to encode.",
+            "subclassOf": "vigil",
+            "subclassChoice": "Choose Your Path",
+            "role": "Holdout Faith in the Silent God",
+            "subclassLayer": "path"
         }
-    ]
+    }
 }

@@ -1,46 +1,36 @@
 {
     "name": "Forbidden Cognition",
-    "type": "spell",
+    "type": "feat",
     "img": "icons/svg/mystery-man.svg",
     "system": {
-        "area": null,
-        "cost": {
-            "value": ""
+        "actionType": {
+            "value": "passive"
         },
-        "counteraction": false,
-        "damage": {},
-        "defense": null,
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
         "description": {
-            "value": "<p>You instantly and truly know one specific fact about the target — no save, no resistance — at a small immediate personal cost: you lose 1 point of maximum HP until your next daily preparations, as something of yours is spent to buy the fact outright.</p>"
-        },
-        "duration": {
-            "sustained": false,
-            "value": ""
+            "value": "<p>You know something true and specific about a target that you had no ordinary way of learning. Knowing it costs you something small and immediate — not punishment, just what it costs a mind not built for that kind of knowledge to hold it anyway.</p><hr /><p><strong>THE ANSWER —</strong> instantly learn one true, specific fact about a target with no ordinary means of knowing it, at a small immediate personal cost.</p>"
         },
         "level": {
             "value": 1
+        },
+        "prerequisites": {
+            "value": []
         },
         "publication": {
             "license": "ORC",
             "remaster": true,
             "title": "Cinderfall"
         },
-        "range": {
-            "value": "60 feet"
-        },
-        "requirements": "",
         "rules": [],
-        "target": {
-            "value": "1 creature"
-        },
-        "time": {
-            "value": "2"
-        },
         "traits": {
+            "otherTags": [
+                "reckoner-aspect"
+            ],
             "rarity": "common",
-            "traditions": [],
             "value": [
-                "focus",
                 "reckoner"
             ]
         },
@@ -49,9 +39,15 @@
     "_id": "cDNDjhOBOVEy7Yzz",
     "flags": {
         "cinderfall": {
+            "incomplete": "This Aspect base feat plausibly wants a GrantItem granting its signature focus spell/ability, matching the ChoiceSet+GrantItem pattern already used for the Aspect subclass choice itself (reckoner.aspect.json). Not shipped: the only intra-corpus GrantItem precedents are a dynamic ChoiceSet-selection token or a fixed UUID into the real pf2e system's own compendiums -- there is no existing example of a fixed GrantItem pointing at another Cinderfall-authored card by literal compendium UUID, and the Cinderfall Foundry module's actual pack/document naming (tools/foundry/build_pack.py / pf2e-cinderfall-module) was not checked in this cards-only research pass. See feats-class-reckoner-draft.md open question 1 (GRANTITEM-UUID-OPEN).",
             "focusCost": "1",
             "spellTag": "Forbidden Cognition",
-            "listing": "Aspect Signatures / The Outside a direction, not a law or a mass"
+            "listing": "Aspect Signatures / The Outside a direction, not a law or a mass",
+            "subclassOf": "reckoner",
+            "subclassChoice": "Choose Your Source, Then Your Aspect",
+            "role": "Unearned Knowing · A Small Price for Knowing",
+            "followUp": "signature spell 'The Answer' is record reckoner.the-answer; the card renders on spells-abilities.html as a spell-entry and its statline/body are authored above",
+            "subclassLayer": "aspect"
         }
     }
 }

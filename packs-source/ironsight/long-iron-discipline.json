@@ -24,8 +24,26 @@
             "remaster": true,
             "title": "Cinderfall"
         },
-        "rules": [],
+        "rules": [
+            {
+                "key": "AdjustStrike",
+                "mode": "multiply",
+                "property": "range-increment",
+                "value": 1.5,
+                "definition": [
+                    {
+                        "or": [
+                            "item:group:firearm",
+                            "item:group:crossbow"
+                        ]
+                    }
+                ]
+            }
+        ],
         "traits": {
+            "otherTags": [
+                "ironsight-long-iron"
+            ],
             "rarity": "common",
             "value": [
                 "ironsight"
@@ -33,5 +51,11 @@
         },
         "slug": "long-iron-discipline"
     },
-    "_id": "MuHeVhtkwE46vEs6"
+    "_id": "MuHeVhtkwE46vEs6",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "The range-increment increase is built above via mode:\"multiply\" value:1.5 (an exact-shape match to Ranger's real Far Shot, which doubles range increment the same unconditional way -- pf2e-source/packs/pf2e/feats/class/ranger/level-4/far-shot.json), avoiding the unconfirmed base-range-formula guess the initial draft flagged as an open question. The separate \"reduce the range penalty for each increment beyond the first by 1\" clause is a different mechanism (the computed per-increment penalty itself, not the increment distance) and has no selector to alter that computed penalty directly -- that half stays unbuilt.",
+            "track": "long-iron"
+        }
+    }
 }

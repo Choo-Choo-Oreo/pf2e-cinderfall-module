@@ -24,7 +24,9 @@
             "type": null
         },
         "price": {
-            "value": {}
+            "value": {
+                "gp": 0
+            }
         },
         "publication": {
             "license": "ORC",
@@ -32,7 +34,13 @@
             "title": "Cinderfall"
         },
         "quantity": 1,
-        "rules": [],
+        "rules": [
+            {
+                "key": "Resistance",
+                "type": "fire",
+                "value": 5
+            }
+        ],
         "size": "med",
         "traits": {
             "rarity": "epic",
@@ -46,21 +54,14 @@
     "_id": "bU5imMVnmej5bbb7",
     "flags": {
         "cinderfall": {
+            "incomplete": "The reactive 2d6 fire damage to a melee attacker (once per day) and the 'cold- or water-based healing does not work on you at all' restriction both have no rule-element equivalent: the first targets another creature's HP from a self-held item (the same gap as Grave-Quiet/Toxic-Sweat), and the second needs a selector for 'healing received, but only from a specific source type,' which doesn't exist -- the closest real hook, healing-received (pf2e-source/packs/pf2e/bestiary-effects/effect-void-tendrils.json), only reduces the amount, it can't fully block by source.",
             "mutationType": "minor",
             "tier": "epic",
-            "slot": "Circulatory",
             "slots": [
                 "Circulatory"
             ],
             "slotCost": 1,
-            "roll": "d100 — 99–100",
-            "incomplete": [
-                "level is a stub (0); mutations carry no level",
-                "price is empty; a mutation is not bought"
-            ],
-            "inferred": [
-                "system.usage"
-            ]
+            "roll": "d100 — 99–100"
         }
     }
 }

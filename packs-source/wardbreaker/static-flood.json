@@ -33,5 +33,10 @@
         },
         "slug": "static-flood"
     },
-    "_id": "U1kQ0xgvx6j1JAwc"
+    "_id": "U1kQ0xgvx6j1JAwc",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "pf2e-source/src/module/rules/rule-element/sense.ts:23 confirms Sense's selector field is a closed StringField enum (SENSE_TYPES); no real sense type means 'detect Anchor-bound spirits/ghost-machines specifically'. Additionally, every real Sense rule element takes a fixed numeric range, and 'the whole of the current structure, however large' has no numeric value to supply -- both the selector mismatch and the unbounded range make this unbuildable as a Sense entry."
+        }
+    }
 }

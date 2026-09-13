@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "deadhand-second"
+            ],
             "rarity": "common",
             "value": [
                 "deadhand"
@@ -33,5 +36,11 @@
         },
         "slug": "the-duel-is-already-over"
     },
-    "_id": "g23ABs0A9jmAOFci"
+    "_id": "g23ABs0A9jmAOFci",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "After 3 rounds of the mark attacking the caster: know the result of its attacks before they're rolled, and may Step free in response once/round; treat critical failures against the mark as ordinary failures. No rule element grants precognition of another creature's not-yet-rolled result -- no analog anywhere in the engine -- and this headline mechanic gates the whole package, so the card nets INCOMPLETE even though the crit-fail-downgrade half alone (self-only AdjustDegreeOfSuccess) would otherwise be buildable.",
+            "track": "second"
+        }
+    }
 }

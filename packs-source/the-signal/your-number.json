@@ -26,6 +26,9 @@
         },
         "rules": [],
         "traits": {
+            "otherTags": [
+                "the-signal-numbers"
+            ],
             "rarity": "common",
             "value": [
                 "the-signal"
@@ -33,5 +36,11 @@
         },
         "slug": "your-number"
     },
-    "_id": "0XlsXaGEfaghU7Nd"
+    "_id": "0XlsXaGEfaghU7Nd",
+    "flags": {
+        "cinderfall": {
+            "incomplete": "Denying an *arbitrary future* fortune effect to a specific creature (rather than granting a misfortune effect the game already tracks) is not a shape in the 34-key inventory (P12) — there's no \"block fortune effects on this target\" rule element, and it is additionally SB3-gated (\"in range\" of an un-encoded Broadcast).",
+            "track": "numbers"
+        }
+    }
 }
