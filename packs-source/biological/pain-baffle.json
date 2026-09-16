@@ -38,7 +38,9 @@
         "size": "med",
         "traits": {
             "rarity": "common",
-            "value": []
+            "value": [
+                "fleshmancer"
+            ]
         },
         "usage": {
             "value": "other"
