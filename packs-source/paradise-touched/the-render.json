@@ -61,7 +61,6 @@
     "flags": {
         "cinderfall": {
             "subclassOf": "paradise-touched",
-            "subclassChoice": "Choose Your Aperture",
             "role": "Paradise building the world it wants",
             "subclassLayer": "aperture"
         }

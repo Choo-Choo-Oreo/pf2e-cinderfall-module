@@ -41,7 +41,6 @@
         "cinderfall": {
             "incomplete": "The subclass-*selection* wiring (`ChoiceSet`/`GrantItem`, `otherTags: [\"seed-warden-cutting\"]`) is already correctly implemented on `seed-warden.cutting.json` — verified: `greenline.json:28` carries the matching `otherTags`, so no changes needed there. This card's own passive content (ignore-resistance magnitude, Hardness-loss magnitude tied to \"how far out\") is `BLOOMROT-NULL`-blocked: no flag exists for \"on Grey\" or its magnitude. The 7th (move needle without casting) and 15th (once/day structure demolition) sub-features are also `BLOOMROT-NULL`/frequency-gated (bucket 3).",
             "subclassOf": "seed-warden",
-            "subclassChoice": "Choose Your Cutting",
             "role": "Rot · Unmaking · Honest about it",
             "subclassLayer": "cutting"
         }

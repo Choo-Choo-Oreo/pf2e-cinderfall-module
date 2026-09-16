@@ -40,7 +40,6 @@
     "flags": {
         "cinderfall": {
             "subclassOf": "deadhand",
-            "subclassChoice": "Choose Your Trade",
             "role": "Command &amp; Tactics",
             "subclassLayer": "trade"
         }

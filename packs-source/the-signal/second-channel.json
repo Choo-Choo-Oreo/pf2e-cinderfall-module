@@ -35,8 +35,6 @@
     },
     "_id": "HFWhe1KsXs3FY3rr",
     "flags": {
-        "cinderfall": {
-            "incomplete": "No rule element modifies how many spells a single Sustain a Spell action can target — confirmed absent from the 34-key inventory (P12); an honest negative search, no closer real precedent for this exact action-economy exception was found in the time available for this pass."
-        }
+        "cinderfall": {}
     }
 }

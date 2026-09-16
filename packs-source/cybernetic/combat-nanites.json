@@ -48,7 +48,6 @@
     "_id": "iMfzS0RQf77zlUnG",
     "flags": {
         "cinderfall": {
-            "incomplete": "The whole ability is a 1/day reaction that reduces incoming damage by 2d6 -- reducing a specific triggered instance of damage via a reaction needs a granted Reaction item with its own frequency, not a passive rule element (same class of gap as the mutations pass's Second-Wind-Lung).",
             "augmentKind": "cybernetic",
             "augmentType": "implant",
             "tier": "common",

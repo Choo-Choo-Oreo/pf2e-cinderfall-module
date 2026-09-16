@@ -41,7 +41,6 @@
         "cinderfall": {
             "incomplete": "The \"see through its eyes\" clause is the same gap as One Mind, Two Bodies above (confirmed absent even in Summoner/Eidolon). ---. This effect buffs, protects, or grants actions to the Feral Bond (the companion beast) from the holder's own card. No rule-element selector in pf2e-source lets one actor's item grant a stat bonus, temp HP, an extra action, or a shared sense to a different actor's sheet -- confirmed by spot-checking real pf2e's own fully-built Animal Companion subsystem (Ranger/Druid), where virtually every companion-buff/companion-action-economy feat ships with rules: [] too. Feral Bond growth stages (Whelp / Bonded / Alpha / Apex-Touched, classes.waywarden.json:95 terms) have no tracked data field anywhere in the corpus, so a stage requirement like \"at least Alpha stage\" has no roll option or actor property to predicate against.",
             "subclassOf": "waywarden",
-            "subclassChoice": "Choose Your Feral Bond",
             "subclassLayer": "feral-bond",
             "role": "Scout"
         }

@@ -1,0 +1,48 @@
+{
+    "name": "The Duel Begins",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Range</strong> 60 feet</p><p><strong>Duration</strong> until the duel ends</p><hr /><p>Choose one creature you can see and name it your marked target. If you already have a marked target, naming a new one abandons the old mark, and that mark cannot be re-established this encounter. You may have only one marked target at a time.</p>"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "selfEffect": {
+            "slug": "the-duel-begins-effect"
+        },
+        "traits": {
+            "otherTags": [
+                "deadhand-second"
+            ],
+            "rarity": "common",
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "the-duel-begins"
+    },
+    "_id": "xhKatpZhF7WKxxRp",
+    "flags": {
+        "cinderfall": {
+            "track": "second"
+        }
+    }
+}

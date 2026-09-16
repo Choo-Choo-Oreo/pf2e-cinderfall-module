@@ -51,9 +51,7 @@
     "_id": "7hmBdbJPo0r6SVPr",
     "flags": {
         "cinderfall": {
-            "incomplete": "Presence aura half (bucket 5): same as the-choir-of-ash -- the level-1 text states no number or range ('nothing dramatic... just steadier'), unlike its level-14 numeric successor. No number to encode.",
             "subclassOf": "vigil",
-            "subclassChoice": "Choose Your Path",
             "role": "Holdout Faith in the Silent God",
             "subclassLayer": "path"
         }

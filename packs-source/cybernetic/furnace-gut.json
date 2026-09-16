@@ -48,7 +48,6 @@
     "_id": "M9m6OHostLGqfDUs",
     "flags": {
         "cinderfall": {
-            "incomplete": "Both clauses have no hook: 'metabolize any organic matter, no rations needed' has no food-clock mechanism to cancel anywhere in pf2e (confirmed absence, metabolic-control.json), and the 1/day burn-a-meal-for-15-temp-HP is a limited-use activated ability needing a granted Action item.",
             "augmentKind": "cybernetic",
             "augmentType": "implant",
             "tier": "rare",

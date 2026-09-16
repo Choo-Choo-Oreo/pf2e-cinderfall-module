@@ -1,0 +1,48 @@
+{
+    "name": "Effect: Marked Quarry",
+    "type": "effect",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "description": {
+            "value": "<p><em>Applied by <strong>Mark Quarry</strong> to the character who used it.</em></p>\n<hr />\n<p>The designated creature is your Marked quarry for the rest of the encounter or scene, or until you designate a new one.</p>"
+        },
+        "duration": {
+            "expiry": null,
+            "sustained": false,
+            "unit": "encounter",
+            "value": -1
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "TokenMark",
+                "slug": "quarry"
+            }
+        ],
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "value": []
+        },
+        "slug": "the-mark-effect"
+    },
+    "_id": "b0cULkNZIRXN4Emy",
+    "flags": {
+        "cinderfall": {
+            "effectOf": "waywarden.mark-quarry",
+            "landsOn": "self"
+        }
+    }
+}

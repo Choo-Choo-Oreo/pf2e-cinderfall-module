@@ -1,0 +1,48 @@
+{
+    "name": "Effect: Marked Witness",
+    "type": "effect",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "description": {
+            "value": "<p><em>Applied by <strong>Marked Witness</strong> to the creature marked.</em></p>\n<hr />\n<p>You always know the direction to this creature, and you gain a +1 circumstance bonus to checks made to affect, find, or act upon it -- including attack rolls, spell attacks, and skill checks.</p>"
+        },
+        "duration": {
+            "expiry": null,
+            "sustained": false,
+            "unit": "unlimited",
+            "value": -1
+        },
+        "level": {
+            "value": 8
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "TokenMark",
+                "slug": "marked-witness"
+            }
+        ],
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "value": []
+        },
+        "slug": "marked-witness-effect"
+    },
+    "_id": "9uOEuBTVTVqtUmeh",
+    "flags": {
+        "cinderfall": {
+            "effectOf": "vigil.marked-witness",
+            "landsOn": "target"
+        }
+    }
+}

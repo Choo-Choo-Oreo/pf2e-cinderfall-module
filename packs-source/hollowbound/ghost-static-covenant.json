@@ -40,7 +40,6 @@
     "flags": {
         "cinderfall": {
             "subclassOf": "hollowbound",
-            "subclassChoice": "Who You Bind",
             "role": "Machine Spirits",
             "subclassLayer": "covenant"
         }

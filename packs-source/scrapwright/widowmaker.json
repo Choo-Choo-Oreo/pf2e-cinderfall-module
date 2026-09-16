@@ -40,7 +40,6 @@
     "flags": {
         "cinderfall": {
             "subclassOf": "scrapwright",
-            "subclassChoice": "Choose Your Rig",
             "subclassLayer": "rig",
             "role": "Weapon Innovation"
         }

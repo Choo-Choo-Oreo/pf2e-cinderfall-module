@@ -42,8 +42,6 @@
     },
     "_id": "18AdkN9RJWM4Qioz",
     "flags": {
-        "cinderfall": {
-            "incomplete": "'Filtered Constitution's resistance value increases' states no new formula beyond the existing max(1,floor(@actor.level/2)) tier. The 'now covers radiation as well' half is built above, applying that same standard tier to the new type."
-        }
+        "cinderfall": {}
     }
 }

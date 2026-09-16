@@ -35,8 +35,6 @@
     },
     "_id": "UtVqYdaqf197vrx4",
     "flags": {
-        "cinderfall": {
-            "incomplete": "P-BUCKET3. No rule element automates \"remain conscious instead of falling unconscious and count as stabilized\" as a triggered override."
-        }
+        "cinderfall": {}
     }
 }

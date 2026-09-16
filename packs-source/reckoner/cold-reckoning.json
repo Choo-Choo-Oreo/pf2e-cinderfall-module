@@ -44,7 +44,6 @@
             "spellTag": "Cold Reckoning",
             "listing": "Aspect Signatures / The Halving decay / entropy",
             "subclassOf": "reckoner",
-            "subclassChoice": "Choose Your Source, Then Your Aspect",
             "role": "Heat-Death · Stillness",
             "followUp": "signature spell 'Heat Debt' is record reckoner.heat-debt; the card renders on spells-abilities.html as a spell-entry and its statline/body are authored above",
             "subclassLayer": "aspect"

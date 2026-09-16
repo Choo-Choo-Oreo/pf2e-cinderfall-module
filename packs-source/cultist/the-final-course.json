@@ -39,7 +39,6 @@
     "_id": "X3KKOQYTn3e9vpHr",
     "flags": {
         "cinderfall": {
-            "incomplete": "\"Immediately Cast a known Rite at no Zeal cost, targeting only self or the creature's square\" is bucket 3: a limited-use trigger granting a wholly new usable action, no rule-element hook regardless of precedent. The accompanying temp-HP grant needs no rule element on its own (real pf2e never encodes triggered temp-HP grants via system.rules; see pf2e-source/packs/pf2e/feats/archetype/necrologist/level-8/dismal-harvest.json, rules: []).",
             "track": "gluttoneth"
         }
     }

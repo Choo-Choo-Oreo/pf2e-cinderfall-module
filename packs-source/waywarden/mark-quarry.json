@@ -1,0 +1,37 @@
+{
+    "name": "Mark Quarry",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": null,
+        "description": {
+            "value": "<p><strong>Duration</strong> rest of the encounter or scene</p><hr /><p>You designate a single creature you can see or hear as your Marked quarry. You gain a growing bonus to track, target, and punish that creature specifically. You can have only one creature Marked at a time; using this again replaces your prior quarry.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "selfEffect": {
+            "slug": "the-mark-effect"
+        },
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "waywarden"
+            ]
+        },
+        "slug": "mark-quarry"
+    },
+    "_id": "ODyozJ53pHmbnZSG",
+    "flags": {
+        "cinderfall": {}
+    }
+}

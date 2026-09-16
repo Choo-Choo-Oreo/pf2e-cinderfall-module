@@ -18,7 +18,18 @@
             "remaster": true,
             "title": "Cinderfall"
         },
-        "rules": [],
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "stealth",
+                "type": "circumstance",
+                "value": 2,
+                "predicate": [
+                    "action:hide",
+                    "target:mark:quarry"
+                ]
+            }
+        ],
         "traits": {
             "rarity": "common",
             "value": [
@@ -30,7 +41,7 @@
     "_id": "UOunRqONRUpnffec",
     "flags": {
         "cinderfall": {
-            "incomplete": "Has real, stated numbers and would be a clean FlatModifier on a Stealth check once the Mark predicate exists — currently blocked purely on that. The Waywarden's central subsystem, The Mark (classes.waywarden.json flags.cinderfall.terms[0]: \"designate a creature as your quarry, gaining a growing bonus to track, target, and punish it specifically\"), has zero Foundry-schema footprint anywhere in the corpus. classes.waywarden.json:65 itself carries \"rules\": []. No card anywhere grants a TokenMark effect (site/data/cards/abilities/, class-features/, feat-effects/ are all empty scaffold directories -- confirmed via ls, contents are .gitkeep only). Real pf2e's own equivalent mechanic (Ranger's Hunt Prey) is fully buildable and precedented, but that infrastructure (an action item + a TokenMark-carrying effect item) does not exist for Waywarden and is not one of the 56 files in scope for this draft. This card is blocked until a future pass authors the base Mark action/effect."
+            "incomplete": "Base +2 circumstance bonus to Hide vs. your Marked quarry is built (target:mark:quarry, matching pf2e's own Hunt Prey action:seek/action:track predicate convention). The tiered escalation (+4 at \"Veteran\", +6 at \"Undying\") is NOT built: those tier names appear on exactly 7 Waywarden cards (this one, Silent Verdict, The Long Wait, Widowmaker's Choice, Threading the Needle, Crossbite, Scissor Strike) and are undefined everywhere else in the corpus -- checked classes.waywarden.json's own terms/features, site/pages/waywarden.html (whose 'feat-tier' headings are character-level brackets, unrelated), and lore/ for any Blooded/Veteran/Undying level-band definition; none exists. Building the escalation would mean guessing arbitrary level thresholds, so it's left as a decision point rather than authored blind. Also left as flavor/player-adjudicated text, matching real pf2e's own precedent (class-features/camouflage-pigmentation.json ships \"Hide even without cover or concealment\" with rules: [] too): ignoring the cover/concealment requirement to Hide, and that success makes you undetected by the quarry alone."
         }
     }
 }

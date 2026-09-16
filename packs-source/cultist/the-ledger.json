@@ -43,7 +43,6 @@
             "spellTag": "Revelation · 1st, Signature",
             "listing": "Bargain Spells / The Ledger debts · secrets · everything written down",
             "subclassOf": "cultist",
-            "subclassChoice": "Choose Your Bargain",
             "role": "Debts · Secrets · Everything, Written Down",
             "followUp": "signature spell 'It Already Knows' is record cultist.it-already-knows; the card renders on spells-abilities.html as a spell-entry and its statline/body are authored above",
             "subclassLayer": "bargain"

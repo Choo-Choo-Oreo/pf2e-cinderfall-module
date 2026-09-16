@@ -41,7 +41,6 @@
         "cinderfall": {
             "incomplete": "This is one of the three Stock-parent cards (chosen via fleshmancer.stock.json's real ChoiceSet+GrantItem), and its own headline mechanic states no number -- there is nothing concrete to build here, and every child card that names this Stock as a prerequisite inherits nothing real to extend either.",
             "subclassOf": "fleshmancer",
-            "subclassChoice": "Choose Your Stock",
             "role": "Thrown Ordnance",
             "subclassLayer": "stock"
         }

@@ -19,6 +19,9 @@
             "title": "Cinderfall"
         },
         "rules": [],
+        "selfEffect": {
+            "slug": "widowmakers-choice-effect"
+        },
         "traits": {
             "rarity": "common",
             "value": [
@@ -30,7 +33,7 @@
     "_id": "mnjMpuEiDRElVHXY",
     "flags": {
         "cinderfall": {
-            "incomplete": "Otherwise a clean DamageDice pattern (P4-style), fully blocked on the Mark predicate. The Waywarden's central subsystem, The Mark (classes.waywarden.json flags.cinderfall.terms[0]: \"designate a creature as your quarry, gaining a growing bonus to track, target, and punish it specifically\"), has zero Foundry-schema footprint anywhere in the corpus. classes.waywarden.json:65 itself carries \"rules\": []. No card anywhere grants a TokenMark effect (site/data/cards/abilities/, class-features/, feat-effects/ are all empty scaffold directories -- confirmed via ls, contents are .gitkeep only). Real pf2e's own equivalent mechanic (Ranger's Hunt Prey) is fully buildable and precedented, but that infrastructure (an action item + a TokenMark-carrying effect item) does not exist for Waywarden and is not one of the 56 files in scope for this draft. This card is blocked until a future pass authors the base Mark action/effect."
+            "incomplete": "Base +2d8 precision damage on your next Strike vs. your Marked quarry is built as a 1-round self-effect (turn-start expiry) carrying a DamageDice keyed to target:mark:quarry, matching Ranger's Precision classfeature pattern. Substitution: the card says \"your NEXT Strike\" (singular); the effect instead grants the bonus to any Strike vs. the quarry for its full 1-round window rather than tracking single-use consumption, since real pf2e's own closest analog (Precision) only tracks \"first hit each round,\" not \"exactly one Strike,\" and no first-class consumption tracker exists to encode the stricter reading -- in practice the window is short enough (until the start of your next turn) that this rarely differs from the stated text. NOT built: the tiered escalation (+3d8 at \"Veteran\", +4d8 at \"Undying\") -- those tier names are undefined anywhere in the corpus (see Vanish Between Blinks' note for the full cross-check); left as a decision point rather than guessed."
         }
     }
 }

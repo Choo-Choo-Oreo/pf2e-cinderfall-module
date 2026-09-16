@@ -45,7 +45,6 @@
     "flags": {
         "cinderfall": {
             "subclassOf": "remade",
-            "subclassChoice": "Choose Your Attunement",
             "role": "Cyber City · Trust Tier",
             "subclassLayer": "attunement"
         }

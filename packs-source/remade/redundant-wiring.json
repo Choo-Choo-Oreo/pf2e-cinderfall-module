@@ -35,8 +35,6 @@
     },
     "_id": "nz3TDUCPu5dvxa8v",
     "flags": {
-        "cinderfall": {
-            "incomplete": "P-BUCKET3. No rule element triggers and resolves an ad hoc flat check on a homebrew trigger."
-        }
+        "cinderfall": {}
     }
 }

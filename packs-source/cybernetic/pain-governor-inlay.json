@@ -48,7 +48,6 @@
     "_id": "DTSi6acvHBRmoV7R",
     "flags": {
         "cinderfall": {
-            "incomplete": "Reducing the value of an existing frightened/sickened condition by 1 has no rule-element hook -- confirmed absence: even a real official pf2e monster ability making the identical claim ('When Obrimar becomes frightened, he reduces the condition value by 1,' pf2e-source/packs/pf2e/hells-destiny-bestiary/obrimar.json) ships rules: []. The Hollowed-Drift shutoff condition is a Cinderfall-homebrew state with no schema representation either.",
             "augmentKind": "cybernetic",
             "augmentType": "implant",
             "tier": "uncommon",

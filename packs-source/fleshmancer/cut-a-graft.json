@@ -1,0 +1,42 @@
+{
+    "name": "Cut a Graft",
+    "type": "action",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": "interaction",
+        "description": {
+            "value": "<p><strong>Requirements</strong> You have a free hand and are within reach of your own Vitae.</p><hr /><p>You open yourself -- or whoever's on the table -- and cut a Graft you know into shape on the spot, paying its Craft Cost out of your Vitae pool; skip a proper working table and you risk a Bloom. This action only draws 1 Vitae on its own, so for any Graft whose Craft Cost reads higher than that, you deduct the rest from your pool by hand.</p>"
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "CraftingAbility",
+                "priority": 15,
+                "resource": "vitae",
+                "slug": "the-cut",
+                "craftableItems": [
+                    "item:trait:graft"
+                ]
+            }
+        ],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "fleshmancer",
+                "manipulate"
+            ]
+        },
+        "slug": "cut-a-graft"
+    },
+    "_id": "I2DbLoh1eLm3m6rr"
+}

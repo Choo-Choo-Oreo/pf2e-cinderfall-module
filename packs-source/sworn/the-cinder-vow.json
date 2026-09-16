@@ -41,7 +41,6 @@
         "cinderfall": {
             "incomplete": "Real pf2e's own subclass-choice cards do auto-grant their signature reaction via a static GrantItem -- confirmed via pf2e-source/packs/pf2e/class-features/liberation.json (Champion's Cause card grants 'Compendium.pf2e.actionspf2e.Item.Liberating Step' directly, off the same ChoiceSet+GrantItem parent as this corpus's own sworn.oath.json). But tools/foundry/build_pack.py's resolve_grants() (line 368) only rewrites system.items slot entries into real UUIDs, and resolve_ancestry() (line 431) only resolves system.ancestry.slug on heritage cards -- there is no resolver for a literal GrantItem inside a feat's own system.rules pointing at a sibling card by slug. Every existing GrantItem in site/data/cards/feats/class/** uses only the dynamic {item|flags.system.rulesSelections.<flag>} form Foundry resolves at runtime from a ChoiceSet, never a static literal UUID pointing at another Cinderfall card -- shipping a hand-written Compendium string here would be a fabricated, unconfirmed value. This is a build-tooling gap, not specific to this card, and blocks the same pattern for every other class with an Oath/Path/Cause-style subclass.",
             "subclassOf": "sworn",
-            "subclassChoice": "The Oath",
             "role": "Choir Oath",
             "subclassLayer": "oath"
         }

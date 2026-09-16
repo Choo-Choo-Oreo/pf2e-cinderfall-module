@@ -22,6 +22,10 @@
         },
         "rules": [
             {
+                "key": "TokenMark",
+                "slug": "measure-them"
+            },
+            {
                 "key": "FlatModifier",
                 "selector": "attack",
                 "type": "circumstance",

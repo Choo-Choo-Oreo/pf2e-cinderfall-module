@@ -19,6 +19,9 @@
             "title": "Cinderfall"
         },
         "rules": [],
+        "selfEffect": {
+            "slug": "own-the-ground-effect"
+        },
         "traits": {
             "rarity": "common",
             "value": [
@@ -29,8 +32,6 @@
     },
     "_id": "wTmdEkpkZScof5S0",
     "flags": {
-        "cinderfall": {
-            "incomplete": "+3 circumstance to the next attack roll against a chosen foe, and to Acrobatics/Athletics against them for positioning, for the rest of the encounter. This class's own target:mark:<slug>-style dynamic-target predicate idiom is confirmed unfireable anywhere in this corpus -- there is no working way to scope a bonus to \"that one foe\" dynamically chosen at trigger time."
-        }
+        "cinderfall": {}
     }
 }

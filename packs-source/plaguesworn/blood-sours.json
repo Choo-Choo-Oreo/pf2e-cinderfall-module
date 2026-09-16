@@ -76,7 +76,6 @@
     "_id": "i0utHpNv7DDEdNy7",
     "flags": {
         "cinderfall": {
-            "incomplete": "Critical Failure raises the persistent poison damage from 1d6 to 2d6 instead of the Failure-tier 1d6; only the Failure-tier value is encoded in system.damage.1 since the schema has no per-degree branching.",
             "listing": "2nd Rank"
         }
     }

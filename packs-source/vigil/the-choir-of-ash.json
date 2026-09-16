@@ -51,9 +51,7 @@
     "_id": "dPTBmv8em0hoPisZ",
     "flags": {
         "cinderfall": {
-            "incomplete": "Presence aura half (bucket 5): the level-1 text states no number or range ('nothing dramatic... a little closer to breaking'), unlike its level-14 numeric successor (the-weight-of-ash-the-weight-of-grace, handled separately as its own card). No number to encode.",
             "subclassOf": "vigil",
-            "subclassChoice": "Choose Your Path",
             "role": "Devotion to the Caged Angel",
             "subclassLayer": "path"
         }

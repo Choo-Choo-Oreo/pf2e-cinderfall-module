@@ -34,8 +34,6 @@
     },
     "_id": "1EgdqAfHJEbdLJtx",
     "flags": {
-        "cinderfall": {
-            "incomplete": "This changes Demoralize's targeting profile (single target -> everyone within 60 feet) rather than adjusting a check total, the same problem as Break the Room -- no rule element retargets an existing action's scope."
-        }
+        "cinderfall": {}
     }
 }

@@ -1,0 +1,69 @@
+{
+    "name": "Effect: Own the Ground",
+    "type": "effect",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "description": {
+            "value": "<p><em>Applied by <strong>Own the Ground</strong> to the character who used it.</em></p>\n<hr />\n<p>+3 circumstance bonus to attack rolls against the chosen foe, and to Acrobatics/Athletics checks made to control positioning against them, for the rest of the encounter.</p>"
+        },
+        "duration": {
+            "expiry": null,
+            "sustained": false,
+            "unit": "encounter",
+            "value": -1
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "TokenMark",
+                "slug": "own-the-ground"
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "attack",
+                "type": "circumstance",
+                "value": 3,
+                "predicate": [
+                    "target:mark:own-the-ground"
+                ]
+            },
+            {
+                "key": "FlatModifier",
+                "selector": [
+                    "acrobatics",
+                    "athletics"
+                ],
+                "type": "circumstance",
+                "value": 3,
+                "predicate": [
+                    "target:mark:own-the-ground"
+                ]
+            }
+        ],
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "value": []
+        },
+        "slug": "own-the-ground-effect"
+    },
+    "_id": "bmnHd1F8WswNqMOp",
+    "flags": {
+        "cinderfall": {
+            "effectOf": "deadhand.own-the-ground",
+            "landsOn": "self"
+        }
+    }
+}

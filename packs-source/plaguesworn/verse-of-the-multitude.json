@@ -40,7 +40,6 @@
     "flags": {
         "cinderfall": {
             "subclassOf": "plaguesworn",
-            "subclassChoice": "Choose Your Verse",
             "role": "Thrall Handling",
             "subclassLayer": "verse"
         }

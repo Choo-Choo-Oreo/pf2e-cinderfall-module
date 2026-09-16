@@ -29,8 +29,6 @@
     },
     "_id": "HUVPyYnJKVl6tP1J",
     "flags": {
-        "cinderfall": {
-            "incomplete": "The +3 bonus applies to \"whatever check exploits it,\" which may be any party member's check (external target, ambiguous scope) and has no fixed selector -- needs the distracting-feint.json two-file companion-effect pattern plus a fixed-selector answer neither exists here."
-        }
+        "cinderfall": {}
     }
 }

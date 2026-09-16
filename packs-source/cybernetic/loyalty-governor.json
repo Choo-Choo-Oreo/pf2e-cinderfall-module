@@ -48,7 +48,6 @@
     "_id": "i2bVry3NtRJ5U0S2",
     "flags": {
         "cinderfall": {
-            "incomplete": "The whole ability is a 1/day activated condition-clear (ends one effect making you controlled, fascinated, or frightened) -- needs a granted Action item with its own frequency, not a passive rule element.",
             "augmentKind": "cybernetic",
             "augmentType": "implant",
             "tier": "uncommon",

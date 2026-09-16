@@ -44,7 +44,6 @@
             "spellTag": "Long Arithmetic",
             "listing": "Aspect Signatures / The Halving decay / entropy",
             "subclassOf": "reckoner",
-            "subclassChoice": "Choose Your Source, Then Your Aspect",
             "role": "Prophecy of Failure · Structural Truth",
             "followUp": "signature spell 'The Failure Point' is record reckoner.the-failure-point; the card renders on spells-abilities.html as a spell-entry and its statline/body are authored above",
             "subclassLayer": "aspect"

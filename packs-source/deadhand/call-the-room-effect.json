@@ -22,6 +22,10 @@
         },
         "rules": [
             {
+                "key": "TokenMark",
+                "slug": "call-the-room"
+            },
+            {
                 "key": "FlatModifier",
                 "selector": "attack",
                 "type": "circumstance",

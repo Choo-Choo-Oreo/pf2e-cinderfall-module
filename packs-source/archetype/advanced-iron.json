@@ -60,8 +60,6 @@
     },
     "_id": "p7Tc9328ZP5sWlxP",
     "flags": {
-        "cinderfall": {
-            "incomplete": "The filter is 'any Ironsight class feat of 6th level or lower' -- matching the real Basic Fury/Advanced Fury archetype-feat precedent, which likewise filters only by class trait and level and does not mechanically enforce narrower text restrictions (Hot Load/Trick Reload only, or Draw-restricted feats gated on Chosen Draw). Those narrower restrictions are unenforced here exactly as they are unenforced in the real feats they're modeled on."
-        }
+        "cinderfall": {}
     }
 }

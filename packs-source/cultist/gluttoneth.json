@@ -43,7 +43,6 @@
             "spellTag": "Revelation · 5th, Signature",
             "listing": "Bargain Spells / Gluttoneth, the Ever-Fasting hunger · want · a meal that never comes",
             "subclassOf": "cultist",
-            "subclassChoice": "Choose Your Bargain",
             "role": "Hunger · Want · A Meal That Never Comes",
             "followUp": "signature spell 'Feed the God' is record cultist.feed-the-god; the card renders on spells-abilities.html as a spell-entry and its statline/body are authored above",
             "subclassLayer": "bargain"

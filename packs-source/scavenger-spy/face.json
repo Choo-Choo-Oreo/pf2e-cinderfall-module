@@ -40,7 +40,6 @@
     "flags": {
         "cinderfall": {
             "subclassOf": "scavenger-spy",
-            "subclassChoice": "Choose Your Angle",
             "role": "Charisma · Cons &amp; Infiltration",
             "subclassLayer": "angle"
         }

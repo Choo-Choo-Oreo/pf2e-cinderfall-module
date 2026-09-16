@@ -48,7 +48,6 @@
     "_id": "urAu4GMRGEAEbWeV",
     "flags": {
         "cinderfall": {
-            "incomplete": "The whole ability is a touch attack causing a save-or-stunned effect, once per target per 10 minutes -- this is a no-damage save-effect action, not a Strike (the Strike rule element only ever grants ordinary damaging attacks), so it needs a granted Action item instead.",
             "augmentKind": "cybernetic",
             "augmentType": "implant",
             "tier": "common",

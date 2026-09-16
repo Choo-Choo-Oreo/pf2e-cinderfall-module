@@ -41,7 +41,6 @@
         "cinderfall": {
             "incomplete": "Selection wiring already real (same `otherTags: [\"seed-warden-cutting\"]` pattern, confirmed present per the `cutting`/`greenline` entries). The \"Turn\" resource itself is `BLOOMROT-NULL` end to end (crossing-zero trigger, banked burst applied to a future, not-yet-cast spell — there's no RE for \"grant a floating bonus applicable to the next arbitrary spell cast,\" even setting the trigger problem aside).",
             "subclassOf": "seed-warden",
-            "subclassChoice": "Choose Your Cutting",
             "role": "The swing · Neither side · Both sides",
             "subclassLayer": "cutting"
         }

@@ -48,7 +48,6 @@
     "_id": "RKf2kwMjmhm2Al3A",
     "flags": {
         "cinderfall": {
-            "incomplete": "The whole ability is a 1/round short-range teleport-like movement that ignores terrain, reactions, and creatures -- this is not a Speed increase but a distinct movement action with its own exemptions, which needs a granted Action item, not a rule element.",
             "augmentKind": "cybernetic",
             "augmentType": "implant",
             "tier": "epic",

@@ -39,9 +39,8 @@
     "_id": "dFOKosS7dnzZ46oC",
     "flags": {
         "cinderfall": {
-            "incomplete": "Real analog: Ranger's Flurry Hunter's-Edge classfeature (pf2e-source/packs/pf2e/class-features/flurry.json) is the same shape (a MAP discount vs. hunted prey) — buildable once the Mark exists and this card states its actual discount. The Waywarden's central subsystem, The Mark (classes.waywarden.json flags.cinderfall.terms[0]: \"designate a creature as your quarry, gaining a growing bonus to track, target, and punish it specifically\"), has zero Foundry-schema footprint anywhere in the corpus. classes.waywarden.json:65 itself carries \"rules\": []. No card anywhere grants a TokenMark effect (site/data/cards/abilities/, class-features/, feat-effects/ are all empty scaffold directories -- confirmed via ls, contents are .gitkeep only). Real pf2e's own equivalent mechanic (Ranger's Hunt Prey) is fully buildable and precedented, but that infrastructure (an action item + a TokenMark-carrying effect item) does not exist for Waywarden and is not one of the 56 files in scope for this draft. This card is blocked until a future pass authors the base Mark action/effect.",
+            "incomplete": "The Mark itself is now built (waywarden.mark-quarry.json grants TokenMark slug 'quarry'; target:mark:quarry is live). The remaining blocker is entirely this card's own text: real analog is Ranger's Flurry Hunter's-Edge classfeature (pf2e-source/packs/pf2e/class-features/flurry.json) -- a pair of MultipleAttackPenalty rule elements (agile/non-agile, predicate target:mark:<slug>) that override the second- and third-attack MAP outright, e.g. Flurry's -3/-6 replacing the normal -5/-10. \"Reduced penalty\" here has no stated number to plug into that same pattern. Owner will supply the actual discount.",
             "subclassOf": "waywarden",
-            "subclassChoice": "Choose Your Wasteland Edge",
             "subclassLayer": "wasteland-edge",
             "role": "Dual Assault"
         }

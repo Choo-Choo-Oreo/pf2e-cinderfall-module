@@ -34,8 +34,6 @@
     },
     "_id": "dnGgGP3Y5G7vSq9W",
     "flags": {
-        "cinderfall": {
-            "incomplete": "Compressing Treat Wounds into a single mid-combat action instead of a downtime activity is a new usable-action grant. Granting free/new use of an action has no rule-element hook -- real Reactive Shield (pf2e-source/packs/pf2e/feats/class/shared-class-feats/level-1/reactive-shield.json), which grants a reaction use of an existing action, itself ships rules: []."
-        }
+        "cinderfall": {}
     }
 }

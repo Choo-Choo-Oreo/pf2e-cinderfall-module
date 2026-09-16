@@ -41,7 +41,6 @@
         "cinderfall": {
             "incomplete": "Same reasoning as `numbers-track` (SB4/SB3/P5). The 7th-level \"Talk Back\" (Encore-spend to reroll a save, SB1+SB2) and 15th-level \"Everybody Listening\" (range change + a benefit that persists after leaving range, SB3 plus a novel \"sticky\" duration shape not found in the 34-key inventory) compound the base blocker.",
             "subclassOf": "the-signal",
-            "subclassChoice": "Choose Your Frequency",
             "role": "Pirate radio, live and illegal",
             "subclassLayer": "frequency"
         }

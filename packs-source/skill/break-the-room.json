@@ -34,8 +34,6 @@
     },
     "_id": "tpnvWjBvEee7Jz7j",
     "flags": {
-        "cinderfall": {
-            "incomplete": "This changes Demoralize's targeting profile (single target -> all creatures in a 15-foot radius) rather than adjusting a check total; no rule element retargets an existing action's scope."
-        }
+        "cinderfall": {}
     }
 }

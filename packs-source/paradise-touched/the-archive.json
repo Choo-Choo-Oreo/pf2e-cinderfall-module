@@ -57,7 +57,6 @@
     "flags": {
         "cinderfall": {
             "subclassOf": "paradise-touched",
-            "subclassChoice": "Choose Your Aperture",
             "role": "Everything anyone ever uploaded",
             "subclassLayer": "aperture"
         }

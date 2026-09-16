@@ -42,7 +42,6 @@
             "spellTag": "Innate · Reaction",
             "listing": "Break the Anchor, by Ward",
             "subclassOf": "wardbreaker",
-            "subclassChoice": "Choose Your Ward",
             "role": "Re-Bind, Don't Destroy",
             "followUp": "signature spell 'Binding Chain' is record wardbreaker.binding-chain-spell; the card renders on spells-abilities.html as a spell-entry and its statline/body are authored above",
             "subclassLayer": "ward"

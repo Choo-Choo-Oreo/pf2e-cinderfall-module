@@ -52,7 +52,6 @@
     "_id": "ICAFnm8VMLIBkmWo",
     "flags": {
         "cinderfall": {
-            "incomplete": "The whole ability is a 1/day free-action +2 status bonus to your next save -- a limited-use, player-triggered buff needs a granted Action item with its own frequency tracker, not a rule element (same class of gap as every other once-per-day activation in this pass).",
             "augmentKind": "cybernetic",
             "augmentType": "implant",
             "tier": "common",

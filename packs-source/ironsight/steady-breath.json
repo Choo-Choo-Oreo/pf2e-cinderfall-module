@@ -29,8 +29,6 @@
     },
     "_id": "8VGZH1m7ZYzQVNI5",
     "flags": {
-        "cinderfall": {
-            "incomplete": "flat +1 to next shot for spending a full action aiming. (this one, like crossed-aim, is a plausible REAL candidate if it were reframed as a standing toggle rather than a one-shot action — flagged in Open Questions). This card's entire effect is a limited-use activated action/reaction that hands the actor a wholly new usable action -- per this pass's fixed bucket-3 convention this is always INCOMPLETE regardless of precedent. Ironsight's own real-world analog, the Gunslinger, ships this exact shape unencoded across dozens of its own Strike-variant/reload-trick/called-shot feats (e.g. pf2e-source/packs/pf2e/feats/class/gunslinger/level-10/called-shot.json, level-6/scatter-blast.json, level-1/dual-weapon-reload.json, all rules: []) -- confirming this is the standard shape for a gunfighter class, not license to SKIP."
-        }
+        "cinderfall": {}
     }
 }

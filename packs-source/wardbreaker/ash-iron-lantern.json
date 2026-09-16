@@ -42,7 +42,6 @@
             "spellTag": "Innate",
             "listing": "Break the Anchor, by Ward",
             "subclassOf": "wardbreaker",
-            "subclassChoice": "Choose Your Ward",
             "role": "Warding Ground",
             "followUp": "signature spell 'Ash-Iron Lantern' is record wardbreaker.ash-iron-lantern-spell; the card renders on spells-abilities.html as a spell-entry and its statline/body are authored above",
             "subclassLayer": "ward"

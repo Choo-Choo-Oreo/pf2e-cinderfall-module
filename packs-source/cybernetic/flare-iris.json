@@ -48,7 +48,6 @@
     "_id": "KNXb3AVaJMTXgslW",
     "flags": {
         "cinderfall": {
-            "incomplete": "The whole ability is a limited-use (once/10 min) activated cone with a save -- needs a granted Action item, same class of gap as every other activated-cone ability in this pass.",
             "augmentKind": "cybernetic",
             "augmentType": "implant",
             "tier": "common",

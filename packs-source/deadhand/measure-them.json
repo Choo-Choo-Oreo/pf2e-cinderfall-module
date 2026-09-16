@@ -25,6 +25,9 @@
             "title": "Cinderfall"
         },
         "rules": [],
+        "selfEffect": {
+            "slug": "measure-them-effect"
+        },
         "traits": {
             "otherTags": [
                 "deadhand-second"

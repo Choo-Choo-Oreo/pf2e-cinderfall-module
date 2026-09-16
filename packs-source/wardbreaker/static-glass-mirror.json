@@ -43,7 +43,6 @@
             "spellTag": "Innate",
             "listing": "Break the Anchor, by Ward",
             "subclassOf": "wardbreaker",
-            "subclassChoice": "Choose Your Ward",
             "role": "See Past the Mask",
             "followUp": "signature spell 'Static-Glass Mirror' is record wardbreaker.static-glass-mirror-spell; the card renders on spells-abilities.html as a spell-entry and its statline/body are authored above",
             "subclassLayer": "ward"

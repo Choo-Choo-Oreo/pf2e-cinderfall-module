@@ -22,6 +22,10 @@
         },
         "rules": [
             {
+                "key": "TokenMark",
+                "slug": "cult-sign"
+            },
+            {
                 "key": "FlatModifier",
                 "selector": "attack",
                 "type": "circumstance",

@@ -24,7 +24,20 @@
             "remaster": true,
             "title": "Cinderfall"
         },
-        "rules": [],
+        "rules": [
+            {
+                "key": "GrantItem",
+                "uuid": "cut-a-graft"
+            },
+            {
+                "craftableItems": [
+                    "item:trait:consumable",
+                    "item:trait:fleshmancer"
+                ],
+                "key": "CraftingAbility",
+                "slug": "the-cut"
+            }
+        ],
         "traits": {
             "rarity": "common",
             "value": [
@@ -33,10 +46,5 @@
         },
         "slug": "the-cut"
     },
-    "_id": "z2GGmBUjnxabzbvz",
-    "flags": {
-        "cinderfall": {
-            "incomplete": "The class's entire \"prepare Grafts from your Vitae pool, risk a Bloom if you overreach\" mechanic is purely narrative -- no rule element models \"Cut\"-based crafting at all. A large fraction of this class's other cards build directly on this feat, and it has nothing real to extend."
-        }
-    }
+    "_id": "z2GGmBUjnxabzbvz"
 }

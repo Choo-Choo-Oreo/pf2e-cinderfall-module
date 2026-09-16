@@ -45,7 +45,6 @@
     "flags": {
         "cinderfall": {
             "subclassOf": "remade",
-            "subclassChoice": "Choose Your Attunement",
             "role": "The Rendery · Trust Tier",
             "subclassLayer": "attunement"
         }

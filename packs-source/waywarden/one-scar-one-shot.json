@@ -18,7 +18,24 @@
             "remaster": true,
             "title": "Cinderfall"
         },
-        "rules": [],
+        "rules": [
+            {
+                "key": "DamageDice",
+                "selector": "strike-damage",
+                "category": "precision",
+                "diceNumber": 4,
+                "dieSize": "d8",
+                "predicate": [
+                    "target:mark:quarry",
+                    {
+                        "lte": [
+                            "target:hp-percent",
+                            50
+                        ]
+                    }
+                ]
+            }
+        ],
         "traits": {
             "rarity": "common",
             "value": [
@@ -30,7 +47,7 @@
     "_id": "s3Vl7TjSF6HPOWur",
     "flags": {
         "cinderfall": {
-            "incomplete": "Blocked on the Mark, and independently: pf2e has no native \"bloodied\"/half-HP tracked roll option to predicate against (that's a different game's condition, not pf2e's). The Waywarden's central subsystem, The Mark (classes.waywarden.json flags.cinderfall.terms[0]: \"designate a creature as your quarry, gaining a growing bonus to track, target, and punish it specifically\"), has zero Foundry-schema footprint anywhere in the corpus. classes.waywarden.json:65 itself carries \"rules\": []. No card anywhere grants a TokenMark effect (site/data/cards/abilities/, class-features/, feat-effects/ are all empty scaffold directories -- confirmed via ls, contents are .gitkeep only). Real pf2e's own equivalent mechanic (Ranger's Hunt Prey) is fully buildable and precedented, but that infrastructure (an action item + a TokenMark-carrying effect item) does not exist for Waywarden and is not one of the 56 files in scope for this draft. This card is blocked until a future pass authors the base Mark action/effect."
+            "incomplete": "CORRECTION to this card's own prior note: it claimed \"pf2e has no native bloodied/half-HP tracked roll option to predicate against\" -- that was wrong. pf2e sets hp-percent:<N> on every actor (pf2e-source/src/module/actor/helpers.ts:167, setHitPointsRollOptions, called for characters and NPCs alike), and pf2e's predicate system supports numeric comparisons against it (src/module/system/predication.ts:64-101, {\"lte\": [\"target:hp-percent\", 50]}). Built: the 4d8 precision DamageDice, gated on target:mark:quarry AND target at-or-below-half-HP. NOT built: \"ignores that creature's resistance to precision damage\" -- confirmed no rule element sets this (pf2e-source's own resistance-ignore mechanism, roll.options.bypass.resistance.ignore in src/module/system/damage/iwr.ts, is populated only by the player's manual roll-dialog toggle, never by a rule element), so this stays player-adjudicated at the roll dialog, matching real pf2e's own convention. Also unaddressed: this bonus is meant to replace, not stack with, Deadeye's own (still-unbuilt, owner-pending) precision bonus -- revisit for a mutual-exclusion predicate once Deadeye's numbers land."
         }
     }
 }

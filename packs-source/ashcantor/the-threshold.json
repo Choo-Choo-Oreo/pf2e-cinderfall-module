@@ -41,7 +41,6 @@
         "cinderfall": {
             "incomplete": "This card's own flags.cinderfall.followUp already states the signature spell 'The Threshold' still needs its own spell document -- a self-acknowledged placeholder, not a newly found gap. This card is also the parent that Held Open, Longer fails to extend.",
             "subclassOf": "ashcantor",
-            "subclassChoice": "Choose Your Path",
             "role": "Holding The Door — Defense",
             "followUp": "signature spell 'The Threshold' still needs its own spell document; the card renders on spells-abilities.html as a spell-entry and its statline/body are authored above",
             "subclassLayer": "path"

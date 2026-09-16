@@ -40,7 +40,6 @@
     "flags": {
         "cinderfall": {
             "subclassOf": "plaguesworn",
-            "subclassChoice": "Choose Your Verse",
             "role": "Quarantine &amp; Control",
             "subclassLayer": "verse"
         }

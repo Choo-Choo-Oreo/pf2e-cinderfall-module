@@ -41,7 +41,6 @@
         "cinderfall": {
             "incomplete": "Same treatment as Blightline: selection wiring already real (`otherTags` confirmed present, see `cutting` entry). The passive itself is doubly blocked — `BLOOMROT-NULL` for \"while Green,\" and there is no rule element that scales a spell's *area* or a healing spell's *amount* at all (searched; no such RE key exists — area/healing-amount live in the spell's own static fields, not a modifiable derived stat). The 7th (cast one rank lower) sub-feature matches Splinter Faith's real precedent for a rank-reduction claim that ships `rules:[]` (P9) even in real published content; the 15th (once/day full heal) is frequency-gated bucket 3 plus `BLOOMROT-NULL`.",
             "subclassOf": "seed-warden",
-            "subclassChoice": "Choose Your Cutting",
             "role": "Growth · Reclamation · The long game",
             "subclassLayer": "cutting"
         }

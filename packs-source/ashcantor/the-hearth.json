@@ -41,7 +41,6 @@
         "cinderfall": {
             "incomplete": "This card's own flags.cinderfall.followUp already states the signature spell 'The Hearth' still needs its own spell document -- a self-acknowledged placeholder, not a newly found gap. The actual healing numbers this classfeature describes live in that not-yet-written spell card, so there is nothing here to encode yet.",
             "subclassOf": "ashcantor",
-            "subclassChoice": "Choose Your Path",
             "role": "Peaceful Passings — Support",
             "followUp": "signature spell 'The Hearth' still needs its own spell document; the card renders on spells-abilities.html as a spell-entry and its statline/body are authored above",
             "subclassLayer": "path"

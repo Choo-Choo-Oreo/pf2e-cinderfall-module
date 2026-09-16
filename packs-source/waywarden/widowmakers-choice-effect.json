@@ -1,0 +1,54 @@
+{
+    "name": "Effect: Widowmaker's Choice",
+    "type": "effect",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "description": {
+            "value": "<p><em>Applied by <strong>Widowmaker's Choice</strong> to the character who used it.</em></p>\n<hr />\n<p>Your next Strike against your Marked quarry, before the start of your next turn, deals an extra 2d8 precision damage whether or not it crits.</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "rounds",
+            "value": 1
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "DamageDice",
+                "selector": "strike-damage",
+                "category": "precision",
+                "diceNumber": 2,
+                "dieSize": "d8",
+                "predicate": [
+                    "target:mark:quarry"
+                ]
+            }
+        ],
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "value": []
+        },
+        "slug": "widowmakers-choice-effect"
+    },
+    "_id": "El6J1xcm01jSFGGg",
+    "flags": {
+        "cinderfall": {
+            "effectOf": "waywarden.widowmakers-choice",
+            "landsOn": "self"
+        }
+    }
+}

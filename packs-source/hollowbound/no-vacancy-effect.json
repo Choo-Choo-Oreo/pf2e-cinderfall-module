@@ -45,8 +45,7 @@
     "flags": {
         "cinderfall": {
             "effectOf": "hollowbound.no-vacancy",
-            "landsOn": "target",
-            "incomplete": "Built per this corpus's own hollowbound.shut-the-door / shut-the-door-effect pattern (spell stays rules: [], a companion Effect item carries the mechanic) and pf2e-source's own spell-effect-arcane-explosion.json (a real Immunity rule element on a duration-limited Effect item). possession and mental are both real, confirmed IWR types (pf2e-source/src/scripts/config/iwr.ts:84, :68); mental blocks anything carrying the mental trait (mind-reading and mental-control effects both do), so this single Immunity type covers all three effects the spell describes without over- or under-covering them."
+            "landsOn": "target"
         }
     }
 }

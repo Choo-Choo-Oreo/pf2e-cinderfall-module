@@ -30,8 +30,6 @@
     },
     "_id": "W3MslS1uyoOBpk7M",
     "flags": {
-        "cinderfall": {
-            "incomplete": "Granting a free-action Tumble Through after being knocked prone/shoved is a new usable-action grant. Granting free/new use of an action has no rule-element hook -- real Reactive Shield (pf2e-source/packs/pf2e/feats/class/shared-class-feats/level-1/reactive-shield.json), which grants a reaction use of an existing action, itself ships rules: []."
-        }
+        "cinderfall": {}
     }
 }

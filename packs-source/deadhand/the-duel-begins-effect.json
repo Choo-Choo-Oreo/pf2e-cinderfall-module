@@ -1,0 +1,48 @@
+{
+    "name": "Effect: The Duel Begins",
+    "type": "effect",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "description": {
+            "value": "<p><em>Applied by <strong>The Duel Begins</strong> to the character who used it.</em></p>\n<hr />\n<p>You have named this creature your marked target for the duel.</p>"
+        },
+        "duration": {
+            "expiry": null,
+            "sustained": false,
+            "unit": "unlimited",
+            "value": -1
+        },
+        "level": {
+            "value": 2
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "TokenMark",
+                "slug": "the-duel-begins"
+            }
+        ],
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "value": []
+        },
+        "slug": "the-duel-begins-effect"
+    },
+    "_id": "4aIkAlY8obTSYmh1",
+    "flags": {
+        "cinderfall": {
+            "effectOf": "deadhand.the-duel-begins",
+            "landsOn": "self"
+        }
+    }
+}

@@ -41,8 +41,6 @@
     },
     "_id": "HteSivEUnRDDiSQw",
     "flags": {
-        "cinderfall": {
-            "incomplete": "The immunity to death effects and the dying-cap increase (via system.attributes.dying.max, matching the real Diehard feat's exact mechanism) are implemented. 'Stops one step short' is modeled as the same dying.max=5 upgrade Diehard uses -- there is no separate rule-element concept of a dying value that is barred from ever reaching its cap independent of raising the cap itself."
-        }
+        "cinderfall": {}
     }
 }

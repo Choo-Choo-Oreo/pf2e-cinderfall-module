@@ -1,0 +1,44 @@
+{
+    "name": "The Mark",
+    "type": "feat",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
+        "description": {
+            "value": "<p>You designate a creature as your quarry, gaining a growing bonus to track, target, and punish it specifically. Refreshed once per encounter or scene. You gain the Mark Quarry action.</p>"
+        },
+        "level": {
+            "value": 1
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "GrantItem",
+                "uuid": "waywarden.mark-quarry"
+            }
+        ],
+        "traits": {
+            "otherTags": [],
+            "rarity": "common",
+            "value": []
+        },
+        "slug": "the-mark"
+    },
+    "_id": "6529oriXr4Q7Jp3R",
+    "flags": {
+        "cinderfall": {}
+    }
+}

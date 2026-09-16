@@ -48,7 +48,6 @@
     "_id": "vhl4dxWPxU6t4tmY",
     "flags": {
         "cinderfall": {
-            "incomplete": "Marking a creature to ignore the first range-increment penalty against it specifically needs a target-scoped effect (an Interact action that applies an Effect to a chosen enemy, then a Strike rule reading that Effect) -- the underlying 'ignore range penalty' modifier is real in principle (real precedent: any weapon property removing the range-increment penalty applies it unconditionally, never per-marked-target), but the per-target marking half of this card has no rule-element representation, so the whole thing is flagged rather than half-built.",
             "augmentKind": "cybernetic",
             "augmentType": "implant",
             "tier": "common",

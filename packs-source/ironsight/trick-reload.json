@@ -35,8 +35,6 @@
     },
     "_id": "Mk2Js6h5h96vK4F3",
     "flags": {
-        "cinderfall": {
-            "incomplete": "ambiguous as written: legendary-reload's own text implies Trick Reload normally caps a free reload at once/turn (\"supersedes Trick Reload's once-per-turn limit\"), which would make this a clean SKIP (action-cost-to-free, no secondary effect) if that reading is correct. But taken literally, the card as written states no cost reduction to build against. Flagged in Open Questions rather than assumed — defaulting to INCOMPLETE per the discipline of not assuming unstated intent. Pure action-cost-to-free conversion with no secondary numeric effect -- matches the pre-confirmed absence directly (pf2e-source/packs/pf2e/feats/class/barbarian/level-14/vengeful-strike.json and .../shared-class-feats/level-2/quick-draw.json, both rules: [])."
-        }
+        "cinderfall": {}
     }
 }

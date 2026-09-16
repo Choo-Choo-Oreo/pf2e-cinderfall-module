@@ -41,7 +41,6 @@
         "cinderfall": {
             "incomplete": "Same base reasoning as `numbers-track`/`open-band-track` (SB4/SB3/P5) — though note per P13 the +2-to-recovery-check clause specifically *would* be a one-line `FlatModifier{selector:\"recovery-check\", type:\"circumstance\", value:2}` if it had a vehicle (a real, live selector), so this one is closer to buildable than its siblings once SB3/SB4 are resolved. \"You always know the instant one of them goes down\" (an omniscience/awareness grant, bucket 5, no selector) and the 7th/15th clauses (SB1: Encore cost; bucket 3: a full revivify-shaped ability grant) remain independently blocked.",
             "subclassOf": "the-signal",
-            "subclassChoice": "Choose Your Frequency",
             "role": "Replaying the dead",
             "subclassLayer": "frequency"
         }

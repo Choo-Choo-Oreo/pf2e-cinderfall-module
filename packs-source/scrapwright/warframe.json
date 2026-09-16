@@ -40,7 +40,6 @@
     "flags": {
         "cinderfall": {
             "subclassOf": "scrapwright",
-            "subclassChoice": "Choose Your Pattern",
             "subclassLayer": "pattern",
             "role": "Heavy Integration · Front Line"
         }

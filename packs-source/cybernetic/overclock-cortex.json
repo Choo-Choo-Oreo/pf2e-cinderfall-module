@@ -48,7 +48,6 @@
     "_id": "agXikHzHm2QQXz05",
     "flags": {
         "cinderfall": {
-            "incomplete": "The whole ability is a 1/day activated quickened-1-then-stunned-and-fatigued sequence -- a limited-use self-buff-then-crash needs a granted Action item with a linked follow-up effect, not a passive rule element.",
             "augmentKind": "cybernetic",
             "augmentType": "implant",
             "tier": "rare",

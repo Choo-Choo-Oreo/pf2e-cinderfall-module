@@ -35,8 +35,6 @@
     },
     "_id": "UeEuEMoSf9TUanNA",
     "flags": {
-        "cinderfall": {
-            "incomplete": "The regeneration itself matches pf2e's real FastHealing rule element (confirmed real minimal use: pf2e-source/packs/pf2e/feats/archetype/wizard/grand-medics-mask.json, [{\"key\": \"FastHealing\", \"value\": 5}]), and its value field accepts a roll-data formula like @actor.level (confirmed via pf2e-source/src/module/rules/rule-element/fast-healing.ts, ResolvableValueField, and the runtime's own \"value must be a number or a roll formula\" check). But this card's entire effect is conditioned on \"if at or below half max HP,\" and no generic, engine-wide roll option for \"this actor is at or below half HP\" was found anywhere in pf2e-source -- only item-specific custom flags exist for that shape (e.g. class-features/barrows-edge.json's own \"barrows-edge:target-below-half\", set by that card's own separate rule element, for a different creature's HP, not a generic self-HP flag). Shipping FastHealing without the conditional would misrepresent the card as unconditional regeneration -- not shipped."
-        }
+        "cinderfall": {}
     }
 }

@@ -25,6 +25,9 @@
             "title": "Cinderfall"
         },
         "rules": [],
+        "selfEffect": {
+            "slug": "cult-sign-effect"
+        },
         "traits": {
             "rarity": "common",
             "value": [

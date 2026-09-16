@@ -53,6 +53,9 @@
                 ]
             }
         ],
+        "selfEffect": {
+            "slug": "marked-witness-effect"
+        },
         "traits": {
             "rarity": "common",
             "value": [

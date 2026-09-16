@@ -41,7 +41,6 @@
         "cinderfall": {
             "incomplete": "SB4 directly — the base aura itself is unencoded. The real shape that *would* work is P5 (`Aura` rule element + a companion \"enemies\" effect carrying `FlatModifier selector:\"will\" type:\"status\" value:-1`), but it depends on SB3 (no Broadcast stance item to host the `Aura` at the correct radius) and there is no companion effect item for this track among the 78 files. The 7th-level \"Off-Book\" and 15th-level \"The Gap\" clauses additionally depend on SB1 (The Gap costs Encore) and bucket 4/5 (Off-Book's off-guard grant on a third party from your own passive).",
             "subclassOf": "the-signal",
-            "subclassChoice": "Choose Your Frequency",
             "role": "The station that never stopped",
             "subclassLayer": "frequency"
         }

@@ -57,8 +57,7 @@
         "hp": 10,
         "items": {
             "remade.attunement": {
-                "level": 1,
-                "name": "Choose Your Attunement"
+                "level": 1
             }
         },
         "keyAbility": {
@@ -136,404 +135,82 @@
                     "1st-level feature, both attunements. A critical failure on an Install check (cybernetic) or a Graft check (bio-organic) performed on your body is instead treated as a normal failure — you never roll on the Install Mishap table or the Rejection table. Applies no matter who makes the check: a shop surgeon, an ally, or yourself."
                 ]
             ],
-            "section2": {
-                "perception": "Perception — Trained.",
-                "savingThrows": "Saving Throws — Fortitude Expert; Reflex and Will Trained.",
-                "skills": "Skills — 3 + Int modifier trained skills, always including Medicine.",
-                "attacks": "Attacks — Simple weapons, martial weapons, and unarmed attacks, Trained.",
-                "defenses": "Defenses — Light and medium armor, Trained. No heavy — the augment slot is the tradeoff, not encumbrance.",
-                "classDC": "Class DC — Trained, keyed to Constitution."
-            },
-            "progression": [
+            "advances": [],
+            "features": [
                 {
                     "level": 1,
-                    "grants": [
-                        [
-                            "Initial proficiencies (see §02)",
-                            ",",
-                            null
-                        ],
-                        [
-                            " Attunement (bio-attuned or chrome-attuned, see §03)",
-                            ",",
-                            null
-                        ],
-                        [
-                            " Clean Take (see §01)",
-                            ",",
-                            null
-                        ],
-                        [
-                            " ancestry feat",
-                            "",
-                            "ancestry feat"
-                        ]
-                    ]
+                    "name": "Initial proficiencies",
+                    "note": "see §02"
+                },
+                {
+                    "level": 1,
+                    "name": "Attunement",
+                    "note": "bio-attuned or chrome-attuned, see §03"
+                },
+                {
+                    "level": 1,
+                    "name": "Clean Take",
+                    "note": "see §01"
                 },
                 {
                     "level": 2,
-                    "grants": [
-                        [
-                            "Class feat",
-                            ",",
-                            "class feat"
-                        ],
-                        [
-                            " choice of 6 (2 shared / 2 bio / 2 chrome)",
-                            ",",
-                            null
-                        ],
-                        [
-                            " skill feat",
-                            "",
-                            "skill feat"
-                        ]
-                    ]
-                },
-                {
-                    "level": 3,
-                    "grants": [
-                        [
-                            "General feat",
-                            ",",
-                            "general feat"
-                        ],
-                        [
-                            " skill increase",
-                            "",
-                            "skill increase"
-                        ]
-                    ]
+                    "name": "choice of 6",
+                    "note": "2 shared / 2 bio / 2 chrome"
                 },
                 {
                     "level": 4,
-                    "grants": [
-                        [
-                            "Class feat",
-                            ",",
-                            "class feat"
-                        ],
-                        [
-                            " choice of 6 (2 shared / 2 bio / 2 chrome)",
-                            ",",
-                            null
-                        ],
-                        [
-                            " skill feat",
-                            "",
-                            "skill feat"
-                        ]
-                    ]
-                },
-                {
-                    "level": 5,
-                    "grants": [
-                        [
-                            "Ancestry feat",
-                            ",",
-                            "ancestry feat"
-                        ],
-                        [
-                            " skill increase",
-                            ",",
-                            "skill increase"
-                        ],
-                        [
-                            " ability boosts",
-                            "",
-                            "ability boosts"
-                        ]
-                    ]
+                    "name": "choice of 6",
+                    "note": "2 shared / 2 bio / 2 chrome"
                 },
                 {
                     "level": 6,
-                    "grants": [
-                        [
-                            "Class feat",
-                            ",",
-                            "class feat"
-                        ],
-                        [
-                            " choice of 6 (2 shared / 2 bio / 2 chrome)",
-                            ",",
-                            null
-                        ],
-                        [
-                            " skill feat",
-                            "",
-                            "skill feat"
-                        ]
-                    ]
-                },
-                {
-                    "level": 7,
-                    "grants": [
-                        [
-                            "General feat",
-                            ",",
-                            "general feat"
-                        ],
-                        [
-                            " skill increase",
-                            "",
-                            "skill increase"
-                        ]
-                    ]
+                    "name": "choice of 6",
+                    "note": "2 shared / 2 bio / 2 chrome"
                 },
                 {
                     "level": 8,
-                    "grants": [
-                        [
-                            "Class feat",
-                            ",",
-                            "class feat"
-                        ],
-                        [
-                            " choice of 6 (2 shared / 2 bio / 2 chrome)",
-                            ",",
-                            null
-                        ],
-                        [
-                            " skill feat",
-                            "",
-                            "skill feat"
-                        ]
-                    ]
-                },
-                {
-                    "level": 9,
-                    "grants": [
-                        [
-                            "Ancestry feat",
-                            ",",
-                            "ancestry feat"
-                        ],
-                        [
-                            " skill increase",
-                            "",
-                            "skill increase"
-                        ]
-                    ]
+                    "name": "choice of 6",
+                    "note": "2 shared / 2 bio / 2 chrome"
                 },
                 {
                     "level": 10,
-                    "grants": [
-                        [
-                            "Class feat",
-                            ",",
-                            "class feat"
-                        ],
-                        [
-                            " choice of 6 (2 shared / 2 bio / 2 chrome)",
-                            ",",
-                            null
-                        ],
-                        [
-                            " skill feat",
-                            ",",
-                            "skill feat"
-                        ],
-                        [
-                            " ability boosts",
-                            ",",
-                            "ability boosts"
-                        ],
-                        [
-                            " plus your subclass's <b>Minor Capstone</b> — see §07.",
-                            "",
-                            null
-                        ]
-                    ]
+                    "name": "choice of 6",
+                    "note": "2 shared / 2 bio / 2 chrome"
                 },
                 {
-                    "level": 11,
-                    "grants": [
-                        [
-                            "General feat",
-                            ",",
-                            "general feat"
-                        ],
-                        [
-                            " skill increase",
-                            "",
-                            "skill increase"
-                        ]
-                    ]
+                    "level": 10,
+                    "name": "plus your subclass's Minor Capstone",
+                    "note": "see §07."
                 },
                 {
                     "level": 12,
-                    "grants": [
-                        [
-                            "Class feat",
-                            ",",
-                            "class feat"
-                        ],
-                        [
-                            " choice of 6 (2 shared / 2 bio / 2 chrome)",
-                            ",",
-                            null
-                        ],
-                        [
-                            " skill feat",
-                            "",
-                            "skill feat"
-                        ]
-                    ]
-                },
-                {
-                    "level": 13,
-                    "grants": [
-                        [
-                            "Ancestry feat",
-                            ",",
-                            "ancestry feat"
-                        ],
-                        [
-                            " skill increase",
-                            "",
-                            "skill increase"
-                        ]
-                    ]
+                    "name": "choice of 6",
+                    "note": "2 shared / 2 bio / 2 chrome"
                 },
                 {
                     "level": 14,
-                    "grants": [
-                        [
-                            "Class feat",
-                            ",",
-                            "class feat"
-                        ],
-                        [
-                            " choice of 6 (2 shared / 2 bio / 2 chrome)",
-                            ",",
-                            null
-                        ],
-                        [
-                            " skill feat",
-                            "",
-                            "skill feat"
-                        ]
-                    ]
-                },
-                {
-                    "level": 15,
-                    "grants": [
-                        [
-                            "General feat",
-                            ",",
-                            "general feat"
-                        ],
-                        [
-                            " skill increase",
-                            ",",
-                            "skill increase"
-                        ],
-                        [
-                            " ability boosts",
-                            "",
-                            "ability boosts"
-                        ]
-                    ]
+                    "name": "choice of 6",
+                    "note": "2 shared / 2 bio / 2 chrome"
                 },
                 {
                     "level": 16,
-                    "grants": [
-                        [
-                            "Class feat",
-                            ",",
-                            "class feat"
-                        ],
-                        [
-                            " choice of 6 (2 shared / 2 bio / 2 chrome)",
-                            ",",
-                            null
-                        ],
-                        [
-                            " skill feat",
-                            "",
-                            "skill feat"
-                        ]
-                    ]
-                },
-                {
-                    "level": 17,
-                    "grants": [
-                        [
-                            "Ancestry feat",
-                            ",",
-                            "ancestry feat"
-                        ],
-                        [
-                            " skill increase",
-                            "",
-                            "skill increase"
-                        ]
-                    ]
+                    "name": "choice of 6",
+                    "note": "2 shared / 2 bio / 2 chrome"
                 },
                 {
                     "level": 18,
-                    "grants": [
-                        [
-                            "Class feat",
-                            ",",
-                            "class feat"
-                        ],
-                        [
-                            " choice of 6 (2 shared / 2 bio / 2 chrome)",
-                            ",",
-                            null
-                        ],
-                        [
-                            " skill feat",
-                            "",
-                            "skill feat"
-                        ]
-                    ]
-                },
-                {
-                    "level": 19,
-                    "grants": [
-                        [
-                            "General feat",
-                            ",",
-                            "general feat"
-                        ],
-                        [
-                            " skill increase",
-                            "",
-                            "skill increase"
-                        ]
-                    ]
+                    "name": "choice of 6",
+                    "note": "2 shared / 2 bio / 2 chrome"
                 },
                 {
                     "level": 20,
-                    "grants": [
-                        [
-                            "Class feat",
-                            ",",
-                            "class feat"
-                        ],
-                        [
-                            " choice of 6 (2 shared / 2 bio / 2 chrome)",
-                            ",",
-                            null
-                        ],
-                        [
-                            " skill feat",
-                            ",",
-                            "skill feat"
-                        ],
-                        [
-                            " ability boosts",
-                            ",",
-                            "ability boosts"
-                        ],
-                        [
-                            " plus your subclass's <b>Major Capstone</b> — see §07.",
-                            "",
-                            null
-                        ]
-                    ]
+                    "name": "choice of 6",
+                    "note": "2 shared / 2 bio / 2 chrome"
+                },
+                {
+                    "level": 20,
+                    "name": "plus your subclass's Major Capstone",
+                    "note": "see §07."
                 }
             ]
         }

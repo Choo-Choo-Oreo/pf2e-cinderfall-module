@@ -40,7 +40,6 @@
     "flags": {
         "cinderfall": {
             "subclassOf": "scavenger-spy",
-            "subclassChoice": "Choose Your Angle",
             "role": "Strength · Muscle for Hire",
             "subclassLayer": "angle"
         }

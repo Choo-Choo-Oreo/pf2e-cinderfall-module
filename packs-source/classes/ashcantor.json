@@ -57,8 +57,7 @@
         "hp": 10,
         "items": {
             "ashcantor.path": {
-                "level": 1,
-                "name": "Choose Your Path"
+                "level": 1
             }
         },
         "keyAbility": {
@@ -153,636 +152,92 @@
                     "rank": 1
                 }
             ],
-            "progression": [
-                {
-                    "level": 1,
-                    "grants": [
-                        [
-                            "Path",
-                            ",",
-                            null
-                        ],
-                        [
-                            " Passage track",
-                            ",",
-                            null
-                        ],
-                        [
-                            " two Embers",
-                            ",",
-                            null
-                        ],
-                        [
-                            " Ash-Light",
-                            ",",
-                            null
-                        ],
-                        [
-                            " martial weapon proficiency",
-                            ",",
-                            null
-                        ],
-                        [
-                            " ancestry feat",
-                            "",
-                            "ancestry feat"
-                        ]
-                    ],
-                    "proficiency": [
-                        [
-                            "Trained: light &amp",
-                            ";",
-                            null
-                        ],
-                        [
-                            " medium armor",
-                            ",",
-                            null
-                        ],
-                        [
-                            " Class DC",
-                            ",",
-                            null
-                        ],
-                        [
-                            " Fortitude",
-                            ",",
-                            null
-                        ],
-                        [
-                            " Perception",
-                            ",",
-                            null
-                        ],
-                        [
-                            " Reflex",
-                            ",",
-                            null
-                        ],
-                        [
-                            " unarmored defense",
-                            ",",
-                            null
-                        ],
-                        [
-                            " martial weapons",
-                            ";",
-                            null
-                        ],
-                        [
-                            " Expert: Will",
-                            "",
-                            null
-                        ]
-                    ]
-                },
-                {
-                    "level": 2,
-                    "grants": [
-                        [
-                            "Skill feat",
-                            ",",
-                            "skill feat"
-                        ],
-                        [
-                            " Ashcantor feat",
-                            "",
-                            "class feat"
-                        ]
-                    ],
-                    "proficiency": [
-                        [
-                            "—",
-                            "",
-                            null
-                        ]
-                    ]
-                },
+            "advances": [
                 {
                     "level": 3,
-                    "grants": [
-                        [
-                            "General feat",
-                            ",",
-                            "general feat"
-                        ],
-                        [
-                            " skill increase",
-                            ",",
-                            "skill increase"
-                        ],
-                        [
-                            " expert Perception",
-                            "",
-                            "expert perception"
-                        ]
-                    ],
-                    "proficiency": [
-                        [
-                            "Expert: Perception",
-                            "",
-                            null
-                        ]
-                    ]
-                },
-                {
-                    "level": 4,
-                    "grants": [
-                        [
-                            "Skill feat",
-                            ",",
-                            "skill feat"
-                        ],
-                        [
-                            " Ashcantor feat",
-                            "",
-                            "class feat"
-                        ]
-                    ],
-                    "proficiency": [
-                        [
-                            "—",
-                            "",
-                            null
-                        ]
-                    ]
+                    "perception": 2
                 },
                 {
                     "level": 5,
-                    "grants": [
-                        [
-                            "Ability boosts",
-                            ",",
-                            "ability boosts"
-                        ],
-                        [
-                            " ancestry feat",
-                            ",",
-                            "ancestry feat"
-                        ],
-                        [
-                            " <strong>third Ember</strong>",
-                            ",",
-                            null
-                        ],
-                        [
-                            " expert Class DC",
-                            ",",
-                            "expert class dc"
-                        ],
-                        [
-                            " skill increase",
-                            "",
-                            "skill increase"
-                        ]
-                    ],
-                    "proficiency": [
-                        [
-                            "Expert: Class DC",
-                            ",",
-                            null
-                        ],
-                        [
-                            " martial weapons",
-                            "",
-                            null
-                        ]
-                    ]
-                },
-                {
-                    "level": 6,
-                    "grants": [
-                        [
-                            "Skill feat",
-                            ",",
-                            "skill feat"
-                        ],
-                        [
-                            " Ashcantor feat",
-                            "",
-                            "class feat"
-                        ]
-                    ],
-                    "proficiency": [
-                        [
-                            "—",
-                            "",
-                            null
-                        ]
-                    ]
+                    "classDC": 2,
+                    "martial": 2
                 },
                 {
                     "level": 7,
-                    "grants": [
-                        [
-                            "General feat",
-                            ",",
-                            "general feat"
-                        ],
-                        [
-                            " skill increase",
-                            ",",
-                            "skill increase"
-                        ],
-                        [
-                            " expert Fortitude",
-                            ",",
-                            "expert fortitude"
-                        ],
-                        [
-                            " Path feature II",
-                            "",
-                            null
-                        ]
-                    ],
-                    "proficiency": [
-                        [
-                            "Expert: Fortitude",
-                            ";",
-                            null
-                        ],
-                        [
-                            " Master: Will",
-                            "",
-                            null
-                        ]
-                    ]
-                },
-                {
-                    "level": 8,
-                    "grants": [
-                        [
-                            "Skill feat",
-                            ",",
-                            "skill feat"
-                        ],
-                        [
-                            " Ashcantor feat",
-                            "",
-                            "class feat"
-                        ]
-                    ],
-                    "proficiency": [
-                        [
-                            "—",
-                            "",
-                            null
-                        ]
-                    ]
+                    "fortitude": 2,
+                    "will": 3
                 },
                 {
                     "level": 9,
-                    "grants": [
-                        [
-                            "Ancestry feat",
-                            ",",
-                            "ancestry feat"
-                        ],
-                        [
-                            " skill increase",
-                            ",",
-                            "skill increase"
-                        ],
-                        [
-                            " <strong>Steady Passage</strong> (once/day, reduce a Passing's cost by one threshold)",
-                            ",",
-                            null
-                        ],
-                        [
-                            " expert Reflex",
-                            "",
-                            "expert reflex"
-                        ]
-                    ],
-                    "proficiency": [
-                        [
-                            "Expert: Reflex",
-                            "",
-                            null
-                        ]
-                    ]
-                },
-                {
-                    "level": 10,
-                    "grants": [
-                        [
-                            "Ability boosts",
-                            ",",
-                            "ability boosts"
-                        ],
-                        [
-                            " skill feat",
-                            ",",
-                            "skill feat"
-                        ],
-                        [
-                            " Ashcantor feat",
-                            "",
-                            "class feat"
-                        ]
-                    ],
-                    "proficiency": [
-                        [
-                            "—",
-                            "",
-                            null
-                        ]
-                    ]
+                    "reflex": 2
                 },
                 {
                     "level": 11,
-                    "grants": [
-                        [
-                            "General feat",
-                            ",",
-                            "general feat"
-                        ],
-                        [
-                            " skill increase",
-                            ",",
-                            "skill increase"
-                        ],
-                        [
-                            " <strong>fourth Ember</strong>",
-                            ",",
-                            null
-                        ],
-                        [
-                            " master weapon proficiency",
-                            "",
-                            "master weapon proficiency"
-                        ]
-                    ],
-                    "proficiency": [
-                        [
-                            "Master: weapons",
-                            "",
-                            null
-                        ]
-                    ]
-                },
-                {
-                    "level": 12,
-                    "grants": [
-                        [
-                            "Skill feat",
-                            ",",
-                            "skill feat"
-                        ],
-                        [
-                            " Ashcantor feat",
-                            "",
-                            "class feat"
-                        ]
-                    ],
-                    "proficiency": [
-                        [
-                            "—",
-                            "",
-                            null
-                        ]
-                    ]
+                    "martial": 3
                 },
                 {
                     "level": 13,
-                    "grants": [
-                        [
-                            "Ancestry feat",
-                            ",",
-                            "ancestry feat"
-                        ],
-                        [
-                            " skill increase",
-                            ",",
-                            "skill increase"
-                        ],
-                        [
-                            " master Fortitude",
-                            "",
-                            "master fortitude"
-                        ]
-                    ],
-                    "proficiency": [
-                        [
-                            "Expert: light &amp",
-                            ";",
-                            null
-                        ],
-                        [
-                            " medium armor",
-                            ",",
-                            null
-                        ],
-                        [
-                            " unarmored defense",
-                            ";",
-                            null
-                        ],
-                        [
-                            " Master: Fortitude",
-                            "",
-                            null
-                        ]
-                    ]
-                },
-                {
-                    "level": 14,
-                    "grants": [
-                        [
-                            "Skill feat",
-                            ",",
-                            "skill feat"
-                        ],
-                        [
-                            " Ashcantor feat",
-                            "",
-                            "class feat"
-                        ]
-                    ],
-                    "proficiency": [
-                        [
-                            "—",
-                            "",
-                            null
-                        ]
-                    ]
+                    "light": 2,
+                    "medium": 2,
+                    "unarmored": 2,
+                    "fortitude": 3
                 },
                 {
                     "level": 15,
-                    "grants": [
-                        [
-                            "Ability boosts",
-                            ",",
-                            "ability boosts"
-                        ],
-                        [
-                            " general feat",
-                            ",",
-                            "general feat"
-                        ],
-                        [
-                            " skill increase",
-                            ",",
-                            "skill increase"
-                        ],
-                        [
-                            " <strong>Path capstone</strong>",
-                            ",",
-                            null
-                        ],
-                        [
-                            " master Class DC",
-                            "",
-                            null
-                        ]
-                    ],
-                    "proficiency": [
-                        [
-                            "Master: Class DC",
-                            "",
-                            null
-                        ]
-                    ]
-                },
-                {
-                    "level": 16,
-                    "grants": [
-                        [
-                            "Skill feat",
-                            ",",
-                            "skill feat"
-                        ],
-                        [
-                            " Ashcantor feat",
-                            "",
-                            "class feat"
-                        ]
-                    ],
-                    "proficiency": [
-                        [
-                            "—",
-                            "",
-                            null
-                        ]
-                    ]
+                    "classDC": 3
                 },
                 {
                     "level": 17,
-                    "grants": [
-                        [
-                            "Ancestry feat",
-                            ",",
-                            "ancestry feat"
-                        ],
-                        [
-                            " skill increase",
-                            ",",
-                            "skill increase"
-                        ],
-                        [
-                            " legendary Perception",
-                            "",
-                            null
-                        ]
-                    ],
-                    "proficiency": [
-                        [
-                            "Legendary: Perception",
-                            "",
-                            null
-                        ]
-                    ]
-                },
-                {
-                    "level": 18,
-                    "grants": [
-                        [
-                            "Skill feat",
-                            ",",
-                            "skill feat"
-                        ],
-                        [
-                            " Ashcantor feat",
-                            "",
-                            "class feat"
-                        ]
-                    ],
-                    "proficiency": [
-                        [
-                            "—",
-                            "",
-                            null
-                        ]
-                    ]
+                    "perception": 4
                 },
                 {
                     "level": 19,
-                    "grants": [
-                        [
-                            "General feat",
-                            ",",
-                            "general feat"
-                        ],
-                        [
-                            " skill increase",
-                            ",",
-                            "skill increase"
-                        ],
-                        [
-                            " <strong>Held Open Forever</strong>",
-                            "",
-                            null
-                        ]
-                    ],
-                    "proficiency": [
-                        [
-                            "Master: light &amp",
-                            ";",
-                            null
-                        ],
-                        [
-                            " medium armor",
-                            ",",
-                            null
-                        ],
-                        [
-                            " unarmored defense",
-                            "",
-                            null
-                        ]
-                    ]
+                    "light": 3,
+                    "medium": 3,
+                    "unarmored": 3
+                }
+            ],
+            "features": [
+                {
+                    "level": 1,
+                    "name": "Passage track"
+                },
+                {
+                    "level": 1,
+                    "name": "two Embers"
+                },
+                {
+                    "level": 1,
+                    "name": "Ash-Light"
+                },
+                {
+                    "level": 5,
+                    "name": "third Ember"
+                },
+                {
+                    "level": 7,
+                    "name": "Path feature II"
+                },
+                {
+                    "level": 9,
+                    "name": "Steady Passage",
+                    "note": "once/day, reduce a Passing's cost by one threshold"
+                },
+                {
+                    "level": 11,
+                    "name": "fourth Ember"
+                },
+                {
+                    "level": 15,
+                    "name": "Path capstone"
+                },
+                {
+                    "level": 19,
+                    "name": "Held Open Forever"
                 },
                 {
                     "level": 20,
-                    "grants": [
-                        [
-                            "Ability boosts",
-                            ",",
-                            "ability boosts"
-                        ],
-                        [
-                            " skill feat",
-                            ",",
-                            "skill feat"
-                        ],
-                        [
-                            " Ashcantor feat",
-                            ",",
-                            "class feat"
-                        ],
-                        [
-                            " <strong>The Last Passage</strong>",
-                            "",
-                            null
-                        ]
-                    ],
-                    "proficiency": [
-                        [
-                            "—",
-                            "",
-                            null
-                        ]
-                    ]
+                    "name": "The Last Passage"
                 }
             ]
         }

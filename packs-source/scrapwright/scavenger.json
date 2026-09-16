@@ -41,7 +41,6 @@
         "cinderfall": {
             "incomplete": "[NO-SPECIALRESOURCE] -- same carve-out as Salvage Surge; this is a bare resource-regen grant, not zero-number flavor.",
             "subclassOf": "scrapwright",
-            "subclassChoice": "Choose Your Pattern",
             "subclassLayer": "pattern",
             "role": "Mobility · Field Repair"
         }

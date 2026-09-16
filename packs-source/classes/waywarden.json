@@ -57,24 +57,22 @@
         "hp": 10,
         "items": {
             "waywarden.everything-out-here-teaches-you-something": {
-                "level": 7,
-                "name": "Everything Out Here Teaches You Something"
+                "level": 7
             },
             "waywarden.feral-bond": {
-                "level": 1,
-                "name": "Choose Your Feral Bond"
+                "level": 1
+            },
+            "waywarden.the-mark": {
+                "level": 1
             },
             "waywarden.theres-nothing-out-here-left-to-teach-you": {
-                "level": 17,
-                "name": "There's Nothing Out Here Left to Teach You"
+                "level": 17
             },
             "waywarden.wasteland-edge": {
-                "level": 1,
-                "name": "Choose Your Wasteland Edge"
+                "level": 1
             },
             "waywarden.you-fight-like-the-wasteland-raised-you": {
-                "level": 11,
-                "name": "You Fight Like the Wasteland Raised You"
+                "level": 11
             }
         },
         "keyAbility": {
@@ -171,676 +169,119 @@
                     "rank": 1
                 }
             ],
-            "progression": [
-                {
-                    "level": 1,
-                    "grants": [
-                        [
-                            "Feral Bond (Whelp)",
-                            ",",
-                            null
-                        ],
-                        [
-                            " Wasteland Edge",
-                            ",",
-                            null
-                        ],
-                        [
-                            " The Mark",
-                            ",",
-                            null
-                        ],
-                        [
-                            " Track the Wasteland",
-                            ",",
-                            null
-                        ],
-                        [
-                            " initial proficiencies",
-                            ",",
-                            "initial proficiencies"
-                        ],
-                        [
-                            " ancestry feat",
-                            "",
-                            "ancestry feat"
-                        ]
-                    ],
-                    "proficiency": [
-                        [
-                            "Trained: light &amp",
-                            ";",
-                            null
-                        ],
-                        [
-                            " medium armor",
-                            ",",
-                            null
-                        ],
-                        [
-                            " Class DC",
-                            ",",
-                            null
-                        ],
-                        [
-                            " Perception",
-                            ",",
-                            null
-                        ],
-                        [
-                            " unarmored defense",
-                            ",",
-                            null
-                        ],
-                        [
-                            " weapons",
-                            ",",
-                            null
-                        ],
-                        [
-                            " Will",
-                            ",",
-                            null
-                        ],
-                        [
-                            " Survival",
-                            ";",
-                            null
-                        ],
-                        [
-                            " Expert: Fortitude",
-                            ",",
-                            null
-                        ],
-                        [
-                            " Reflex",
-                            "",
-                            null
-                        ]
-                    ]
-                },
-                {
-                    "level": 2,
-                    "grants": [
-                        [
-                            "Skill feat",
-                            ",",
-                            "skill feat"
-                        ],
-                        [
-                            " Waywarden feat",
-                            "",
-                            "class feat"
-                        ]
-                    ],
-                    "proficiency": [
-                        [
-                            "—",
-                            "",
-                            null
-                        ]
-                    ]
-                },
+            "advances": [
                 {
                     "level": 3,
-                    "grants": [
-                        [
-                            "General feat",
-                            ",",
-                            "general feat"
-                        ],
-                        [
-                            " skill increase",
-                            ",",
-                            "skill increase"
-                        ],
-                        [
-                            " expert Survival",
-                            "",
-                            null
-                        ]
-                    ],
-                    "proficiency": [
-                        [
-                            "Expert: Survival",
-                            ",",
-                            null
-                        ],
-                        [
-                            " Will",
-                            "",
-                            null
-                        ]
-                    ]
-                },
-                {
-                    "level": 4,
-                    "grants": [
-                        [
-                            "Skill feat",
-                            ",",
-                            "skill feat"
-                        ],
-                        [
-                            " Waywarden feat",
-                            "",
-                            "class feat"
-                        ]
-                    ],
-                    "proficiency": [
-                        [
-                            "—",
-                            "",
-                            null
-                        ]
-                    ]
+                    "survival": 2,
+                    "will": 2
                 },
                 {
                     "level": 5,
-                    "grants": [
-                        [
-                            "Ability boosts",
-                            ",",
-                            "ability boosts"
-                        ],
-                        [
-                            " ancestry feat",
-                            ",",
-                            "ancestry feat"
-                        ],
-                        [
-                            " <strong>Feral Bond: Bonded</strong>",
-                            ",",
-                            null
-                        ],
-                        [
-                            " skill increase",
-                            ",",
-                            "skill increase"
-                        ],
-                        [
-                            " expert Perception",
-                            "",
-                            "expert perception"
-                        ]
-                    ],
-                    "proficiency": [
-                        [
-                            "Expert: Perception",
-                            "",
-                            null
-                        ]
-                    ]
-                },
-                {
-                    "level": 6,
-                    "grants": [
-                        [
-                            "Skill feat",
-                            ",",
-                            "skill feat"
-                        ],
-                        [
-                            " Waywarden feat",
-                            ",",
-                            "class feat"
-                        ],
-                        [
-                            " Feral Surge",
-                            "",
-                            null
-                        ]
-                    ],
-                    "proficiency": [
-                        [
-                            "—",
-                            "",
-                            null
-                        ]
-                    ]
+                    "perception": 2
                 },
                 {
                     "level": 7,
-                    "grants": [
-                        [
-                            "General feat",
-                            ",",
-                            "general feat"
-                        ],
-                        [
-                            " skill increase",
-                            ",",
-                            "skill increase"
-                        ],
-                        [
-                            " master Reflex",
-                            ",",
-                            "master reflex"
-                        ],
-                        [
-                            " Wasteland Edge feature II",
-                            ",",
-                            null
-                        ],
-                        [
-                            " expert weapon proficiency",
-                            "",
-                            "expert weapon proficiency"
-                        ]
-                    ],
-                    "proficiency": [
-                        [
-                            "Expert: weapons",
-                            ";",
-                            null
-                        ],
-                        [
-                            " Master: Reflex",
-                            "",
-                            null
-                        ]
-                    ]
-                },
-                {
-                    "level": 8,
-                    "grants": [
-                        [
-                            "Skill feat",
-                            ",",
-                            "skill feat"
-                        ],
-                        [
-                            " Waywarden feat",
-                            "",
-                            "class feat"
-                        ]
-                    ],
-                    "proficiency": [
-                        [
-                            "—",
-                            "",
-                            null
-                        ]
-                    ]
+                    "simple": 2,
+                    "martial": 2,
+                    "advanced": 2,
+                    "unarmed": 2,
+                    "other": 2,
+                    "reflex": 3
                 },
                 {
                     "level": 9,
-                    "grants": [
-                        [
-                            "Ancestry feat",
-                            ",",
-                            "ancestry feat"
-                        ],
-                        [
-                            " skill increase",
-                            ",",
-                            "skill increase"
-                        ],
-                        [
-                            " Frenzy Control (reroll one Frenzy/day)",
-                            ",",
-                            null
-                        ],
-                        [
-                            " expert Class DC",
-                            "",
-                            "expert class dc"
-                        ]
-                    ],
-                    "proficiency": [
-                        [
-                            "Expert: Class DC",
-                            "",
-                            null
-                        ]
-                    ]
-                },
-                {
-                    "level": 10,
-                    "grants": [
-                        [
-                            "Ability boosts",
-                            ",",
-                            "ability boosts"
-                        ],
-                        [
-                            " skill feat",
-                            ",",
-                            "skill feat"
-                        ],
-                        [
-                            " Waywarden feat",
-                            "",
-                            "class feat"
-                        ]
-                    ],
-                    "proficiency": [
-                        [
-                            "—",
-                            "",
-                            null
-                        ]
-                    ]
+                    "classDC": 2
                 },
                 {
                     "level": 11,
-                    "grants": [
-                        [
-                            "General feat",
-                            ",",
-                            "general feat"
-                        ],
-                        [
-                            " skill increase",
-                            ",",
-                            "skill increase"
-                        ],
-                        [
-                            " <strong>Feral Bond: Alpha</strong>",
-                            ",",
-                            null
-                        ],
-                        [
-                            " master weapon proficiency",
-                            "",
-                            "master weapon proficiency"
-                        ]
-                    ],
-                    "proficiency": [
-                        [
-                            "Expert: light &amp",
-                            ";",
-                            null
-                        ],
-                        [
-                            " medium armor",
-                            ",",
-                            null
-                        ],
-                        [
-                            " unarmored defense",
-                            ";",
-                            null
-                        ],
-                        [
-                            " Master: weapons",
-                            "",
-                            null
-                        ]
-                    ]
-                },
-                {
-                    "level": 12,
-                    "grants": [
-                        [
-                            "Skill feat",
-                            ",",
-                            "skill feat"
-                        ],
-                        [
-                            " Waywarden feat",
-                            "",
-                            "class feat"
-                        ]
-                    ],
-                    "proficiency": [
-                        [
-                            "—",
-                            "",
-                            null
-                        ]
-                    ]
+                    "light": 2,
+                    "medium": 2,
+                    "unarmored": 2,
+                    "simple": 3,
+                    "martial": 3,
+                    "advanced": 3,
+                    "unarmed": 3,
+                    "other": 3
                 },
                 {
                     "level": 13,
-                    "grants": [
-                        [
-                            "Ancestry feat",
-                            ",",
-                            "ancestry feat"
-                        ],
-                        [
-                            " skill increase",
-                            ",",
-                            "skill increase"
-                        ],
-                        [
-                            " master Fortitude",
-                            "",
-                            "master fortitude"
-                        ]
-                    ],
-                    "proficiency": [
-                        [
-                            "Master: Fortitude",
-                            "",
-                            null
-                        ]
-                    ]
-                },
-                {
-                    "level": 14,
-                    "grants": [
-                        [
-                            "Skill feat",
-                            ",",
-                            "skill feat"
-                        ],
-                        [
-                            " Waywarden feat",
-                            "",
-                            "class feat"
-                        ]
-                    ],
-                    "proficiency": [
-                        [
-                            "—",
-                            "",
-                            null
-                        ]
-                    ]
+                    "fortitude": 3
                 },
                 {
                     "level": 15,
-                    "grants": [
-                        [
-                            "Ability boosts",
-                            ",",
-                            "ability boosts"
-                        ],
-                        [
-                            " general feat",
-                            ",",
-                            "general feat"
-                        ],
-                        [
-                            " skill increase",
-                            ",",
-                            "skill increase"
-                        ],
-                        [
-                            " <strong>Wasteland Edge capstone</strong>",
-                            ",",
-                            null
-                        ],
-                        [
-                            " master Perception",
-                            ",",
-                            "master perception"
-                        ],
-                        [
-                            " legendary Survival",
-                            "",
-                            null
-                        ]
-                    ],
-                    "proficiency": [
-                        [
-                            "Master: Perception",
-                            ";",
-                            null
-                        ],
-                        [
-                            " Legendary: Survival",
-                            ",",
-                            null
-                        ],
-                        [
-                            " Reflex",
-                            "",
-                            null
-                        ]
-                    ]
-                },
-                {
-                    "level": 16,
-                    "grants": [
-                        [
-                            "Skill feat",
-                            ",",
-                            "skill feat"
-                        ],
-                        [
-                            " Waywarden feat",
-                            "",
-                            "class feat"
-                        ]
-                    ],
-                    "proficiency": [
-                        [
-                            "—",
-                            "",
-                            null
-                        ]
-                    ]
+                    "perception": 3,
+                    "survival": 4,
+                    "reflex": 4
                 },
                 {
                     "level": 17,
-                    "grants": [
-                        [
-                            "Ancestry feat",
-                            ",",
-                            "ancestry feat"
-                        ],
-                        [
-                            " skill increase",
-                            ",",
-                            "skill increase"
-                        ],
-                        [
-                            " <strong>Feral Bond: Apex-Touched</strong>",
-                            ",",
-                            null
-                        ],
-                        [
-                            " legendary weapon proficiency",
-                            "",
-                            "legendary weapon proficiency"
-                        ]
-                    ],
-                    "proficiency": [
-                        [
-                            "Legendary: weapons",
-                            "",
-                            null
-                        ]
-                    ]
-                },
-                {
-                    "level": 18,
-                    "grants": [
-                        [
-                            "Skill feat",
-                            ",",
-                            "skill feat"
-                        ],
-                        [
-                            " Waywarden feat",
-                            "",
-                            "class feat"
-                        ]
-                    ],
-                    "proficiency": [
-                        [
-                            "—",
-                            "",
-                            null
-                        ]
-                    ]
+                    "simple": 4,
+                    "martial": 4,
+                    "advanced": 4,
+                    "unarmed": 4,
+                    "other": 4
                 },
                 {
                     "level": 19,
-                    "grants": [
-                        [
-                            "General feat",
-                            ",",
-                            "general feat"
-                        ],
-                        [
-                            " skill increase",
-                            ",",
-                            "skill increase"
-                        ],
-                        [
-                            " <strong>Beast Apotheosis</strong>",
-                            "",
-                            null
-                        ]
-                    ],
-                    "proficiency": [
-                        [
-                            "Master: light &amp",
-                            ";",
-                            null
-                        ],
-                        [
-                            " medium armor",
-                            ",",
-                            null
-                        ],
-                        [
-                            " unarmored defense",
-                            "",
-                            null
-                        ]
-                    ]
+                    "light": 3,
+                    "medium": 3,
+                    "unarmored": 3
+                }
+            ],
+            "features": [
+                {
+                    "level": 1,
+                    "name": "Feral Bond",
+                    "note": "Whelp"
+                },
+                {
+                    "level": 1,
+                    "name": "The Mark"
+                },
+                {
+                    "level": 1,
+                    "name": "Track the Wasteland"
+                },
+                {
+                    "level": 1,
+                    "name": "initial proficiencies"
+                },
+                {
+                    "level": 5,
+                    "name": "Feral Bond: Bonded"
+                },
+                {
+                    "level": 6,
+                    "name": "Feral Surge"
+                },
+                {
+                    "level": 7,
+                    "name": "Wasteland Edge feature II"
+                },
+                {
+                    "level": 9,
+                    "name": "Frenzy Control",
+                    "note": "reroll one Frenzy/day"
+                },
+                {
+                    "level": 11,
+                    "name": "Feral Bond: Alpha"
+                },
+                {
+                    "level": 15,
+                    "name": "Wasteland Edge capstone"
+                },
+                {
+                    "level": 17,
+                    "name": "Feral Bond: Apex-Touched"
+                },
+                {
+                    "level": 19,
+                    "name": "Beast Apotheosis"
                 },
                 {
                     "level": 20,
-                    "grants": [
-                        [
-                            "Ability boosts",
-                            ",",
-                            "ability boosts"
-                        ],
-                        [
-                            " skill feat",
-                            ",",
-                            "skill feat"
-                        ],
-                        [
-                            " Waywarden feat",
-                            ",",
-                            "class feat"
-                        ],
-                        [
-                            " <strong>One Beast",
-                            ",",
-                            null
-                        ],
-                        [
-                            " One Blood</strong>",
-                            "",
-                            null
-                        ]
-                    ],
-                    "proficiency": [
-                        [
-                            "—",
-                            "",
-                            null
-                        ]
-                    ]
+                    "name": "One Beast, One Blood"
                 }
             ]
         }

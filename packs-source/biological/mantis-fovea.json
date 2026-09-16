@@ -45,7 +45,9 @@
         "size": "med",
         "traits": {
             "rarity": "common",
-            "value": []
+            "value": [
+                "graft"
+            ]
         },
         "usage": {
             "value": "other"

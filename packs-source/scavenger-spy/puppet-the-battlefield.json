@@ -29,8 +29,6 @@
     },
     "_id": "QtevDaVn7oPOA88d",
     "flags": {
-        "cinderfall": {
-            "incomplete": "Stated number applied to external targets (allies) -- needs the distracting-feint.json/effect-distracting-feint.json two-file companion-effect pattern (a companion effect granted to each following ally), outside this card's scope."
-        }
+        "cinderfall": {}
     }
 }

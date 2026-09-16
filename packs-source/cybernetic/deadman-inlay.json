@@ -48,7 +48,6 @@
     "_id": "ejn68ytDq3qMjrwx",
     "flags": {
         "cinderfall": {
-            "incomplete": "The whole ability is a death-triggered 20-foot electricity burst with a save -- pf2e has no rule element for a self-held item's effect firing after the wielder's own death (the item stops functioning along with the actor in the normal engine flow); needs a bespoke death-trigger mechanism outside this schema.",
             "augmentKind": "cybernetic",
             "augmentType": "implant",
             "tier": "uncommon",

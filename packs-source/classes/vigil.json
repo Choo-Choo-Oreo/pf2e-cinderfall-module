@@ -57,8 +57,7 @@
         "hp": 8,
         "items": {
             "vigil.path": {
-                "level": 1,
-                "name": "Choose Your Path"
+                "level": 1
             }
         },
         "keyAbility": {
@@ -161,666 +160,103 @@
                     "rank": 1
                 }
             ],
-            "progression": [
-                {
-                    "level": 1,
-                    "grants": [
-                        [
-                            "Path",
-                            ",",
-                            null
-                        ],
-                        [
-                            " Presence",
-                            ",",
-                            null
-                        ],
-                        [
-                            " Grace/Cinders (cap 1)",
-                            ",",
-                            null
-                        ],
-                        [
-                            " Lesser Miracle/Unmaking",
-                            ",",
-                            null
-                        ],
-                        [
-                            " initial divine spellcasting",
-                            ",",
-                            null
-                        ],
-                        [
-                            " initial proficiencies",
-                            ",",
-                            "initial proficiencies"
-                        ],
-                        [
-                            " ancestry feat",
-                            "",
-                            "ancestry feat"
-                        ]
-                    ],
-                    "proficiency": [
-                        [
-                            "Trained: Class DC",
-                            ",",
-                            null
-                        ],
-                        [
-                            " Fortitude",
-                            ",",
-                            null
-                        ],
-                        [
-                            " Perception",
-                            ",",
-                            null
-                        ],
-                        [
-                            " Reflex",
-                            ",",
-                            null
-                        ],
-                        [
-                            " spellcasting",
-                            ",",
-                            null
-                        ],
-                        [
-                            " unarmored defense",
-                            ",",
-                            null
-                        ],
-                        [
-                            " simple weapons",
-                            ",",
-                            null
-                        ],
-                        [
-                            " the deity's favored weapon",
-                            ",",
-                            null
-                        ],
-                        [
-                            " unarmed",
-                            ",",
-                            null
-                        ],
-                        [
-                            " Will",
-                            ",",
-                            null
-                        ],
-                        [
-                            " Religion",
-                            "",
-                            null
-                        ]
-                    ]
-                },
-                {
-                    "level": 2,
-                    "grants": [
-                        [
-                            "Skill feat",
-                            ",",
-                            "skill feat"
-                        ],
-                        [
-                            " Vigil feat",
-                            "",
-                            "class feat"
-                        ]
-                    ],
-                    "proficiency": [
-                        [
-                            "—",
-                            "",
-                            null
-                        ]
-                    ]
-                },
+            "advances": [
                 {
                     "level": 3,
-                    "grants": [
-                        [
-                            "General feat",
-                            ",",
-                            "general feat"
-                        ],
-                        [
-                            " skill increase",
-                            ",",
-                            "skill increase"
-                        ],
-                        [
-                            " expert Religion",
-                            "",
-                            null
-                        ]
-                    ],
-                    "proficiency": [
-                        [
-                            "Expert: Religion",
-                            "",
-                            null
-                        ]
-                    ]
-                },
-                {
-                    "level": 4,
-                    "grants": [
-                        [
-                            "Skill feat",
-                            ",",
-                            "skill feat"
-                        ],
-                        [
-                            " Vigil feat",
-                            "",
-                            "class feat"
-                        ]
-                    ],
-                    "proficiency": [
-                        [
-                            "—",
-                            "",
-                            null
-                        ]
-                    ]
+                    "religion": 2
                 },
                 {
                     "level": 5,
-                    "grants": [
-                        [
-                            "Ability boosts",
-                            ",",
-                            "ability boosts"
-                        ],
-                        [
-                            " ancestry feat",
-                            ",",
-                            "ancestry feat"
-                        ],
-                        [
-                            " skill increase",
-                            ",",
-                            "skill increase"
-                        ],
-                        [
-                            " <strong>Grace/Cinders cap 2</strong>",
-                            ",",
-                            null
-                        ],
-                        [
-                            " <strong>expert spellcasting</strong>",
-                            ",",
-                            "expert spellcasting"
-                        ],
-                        [
-                            " expert Will",
-                            "",
-                            "expert will"
-                        ]
-                    ],
-                    "proficiency": [
-                        [
-                            "Expert: Perception",
-                            ",",
-                            null
-                        ],
-                        [
-                            " spellcasting",
-                            ",",
-                            null
-                        ],
-                        [
-                            " Will",
-                            "",
-                            null
-                        ]
-                    ]
-                },
-                {
-                    "level": 6,
-                    "grants": [
-                        [
-                            "Skill feat",
-                            ",",
-                            "skill feat"
-                        ],
-                        [
-                            " Vigil feat",
-                            "",
-                            "class feat"
-                        ]
-                    ],
-                    "proficiency": [
-                        [
-                            "—",
-                            "",
-                            null
-                        ]
-                    ]
+                    "perception": 2,
+                    "spellcasting": 2,
+                    "will": 2
                 },
                 {
                     "level": 7,
-                    "grants": [
-                        [
-                            "General feat",
-                            ",",
-                            "general feat"
-                        ],
-                        [
-                            " skill increase",
-                            ",",
-                            "skill increase"
-                        ],
-                        [
-                            " master Fortitude",
-                            ",",
-                            "master fortitude"
-                        ],
-                        [
-                            " Path feature II",
-                            "",
-                            null
-                        ]
-                    ],
-                    "proficiency": [
-                        [
-                            "Master: Fortitude",
-                            "",
-                            null
-                        ]
-                    ]
-                },
-                {
-                    "level": 8,
-                    "grants": [
-                        [
-                            "Skill feat",
-                            ",",
-                            "skill feat"
-                        ],
-                        [
-                            " Vigil feat",
-                            "",
-                            "class feat"
-                        ]
-                    ],
-                    "proficiency": [
-                        [
-                            "—",
-                            "",
-                            null
-                        ]
-                    ]
+                    "fortitude": 3
                 },
                 {
                     "level": 9,
-                    "grants": [
-                        [
-                            "Ancestry feat",
-                            ",",
-                            "ancestry feat"
-                        ],
-                        [
-                            " skill increase",
-                            ",",
-                            "skill increase"
-                        ],
-                        [
-                            " <strong>Greater Miracle/Unmaking unlocked</strong>",
-                            ",",
-                            null
-                        ],
-                        [
-                            " expert Class DC",
-                            "",
-                            "expert class dc"
-                        ]
-                    ],
-                    "proficiency": [
-                        [
-                            "Expert: Class DC",
-                            "",
-                            null
-                        ]
-                    ]
-                },
-                {
-                    "level": 10,
-                    "grants": [
-                        [
-                            "Ability boosts",
-                            ",",
-                            "ability boosts"
-                        ],
-                        [
-                            " skill feat",
-                            ",",
-                            "skill feat"
-                        ],
-                        [
-                            " Vigil feat",
-                            "",
-                            "class feat"
-                        ]
-                    ],
-                    "proficiency": [
-                        [
-                            "—",
-                            "",
-                            null
-                        ]
-                    ]
+                    "classDC": 2
                 },
                 {
                     "level": 11,
-                    "grants": [
-                        [
-                            "General feat",
-                            ",",
-                            "general feat"
-                        ],
-                        [
-                            " skill increase",
-                            ",",
-                            "skill increase"
-                        ],
-                        [
-                            " <strong>Grace/Cinders cap 3</strong>",
-                            ",",
-                            null
-                        ],
-                        [
-                            " <strong>master spellcasting</strong>",
-                            ",",
-                            "master spellcasting"
-                        ],
-                        [
-                            " master Will/Religion",
-                            "",
-                            null
-                        ]
-                    ],
-                    "proficiency": [
-                        [
-                            "Expert: Reflex",
-                            ";",
-                            null
-                        ],
-                        [
-                            " Master: Religion",
-                            ",",
-                            null
-                        ],
-                        [
-                            " spellcasting",
-                            ",",
-                            null
-                        ],
-                        [
-                            " Will",
-                            "",
-                            null
-                        ]
-                    ]
-                },
-                {
-                    "level": 12,
-                    "grants": [
-                        [
-                            "Skill feat",
-                            ",",
-                            "skill feat"
-                        ],
-                        [
-                            " Vigil feat",
-                            "",
-                            "class feat"
-                        ]
-                    ],
-                    "proficiency": [
-                        [
-                            "—",
-                            "",
-                            null
-                        ]
-                    ]
+                    "reflex": 2,
+                    "religion": 3,
+                    "spellcasting": 3,
+                    "will": 3
                 },
                 {
                     "level": 13,
-                    "grants": [
-                        [
-                            "Ancestry feat",
-                            ",",
-                            "ancestry feat"
-                        ],
-                        [
-                            " skill increase",
-                            ",",
-                            "skill increase"
-                        ],
-                        [
-                            " master Reflex",
-                            "",
-                            "master reflex"
-                        ]
-                    ],
-                    "proficiency": [
-                        [
-                            "Expert: unarmored defense",
-                            ";",
-                            null
-                        ],
-                        [
-                            " Master: Reflex",
-                            "",
-                            null
-                        ]
-                    ]
-                },
-                {
-                    "level": 14,
-                    "grants": [
-                        [
-                            "Skill feat",
-                            ",",
-                            "skill feat"
-                        ],
-                        [
-                            " Vigil feat",
-                            "",
-                            "class feat"
-                        ]
-                    ],
-                    "proficiency": [
-                        [
-                            "—",
-                            "",
-                            null
-                        ]
-                    ]
+                    "unarmored": 2,
+                    "reflex": 3
                 },
                 {
                     "level": 15,
-                    "grants": [
-                        [
-                            "Ability boosts",
-                            ",",
-                            "ability boosts"
-                        ],
-                        [
-                            " general feat",
-                            ",",
-                            "general feat"
-                        ],
-                        [
-                            " skill increase",
-                            ",",
-                            "skill increase"
-                        ],
-                        [
-                            " <strong>Path capstone</strong>",
-                            ",",
-                            null
-                        ],
-                        [
-                            " legendary Religion",
-                            "",
-                            null
-                        ]
-                    ],
-                    "proficiency": [
-                        [
-                            "Legendary: Religion",
-                            "",
-                            null
-                        ]
-                    ]
-                },
-                {
-                    "level": 16,
-                    "grants": [
-                        [
-                            "Skill feat",
-                            ",",
-                            "skill feat"
-                        ],
-                        [
-                            " Vigil feat",
-                            "",
-                            "class feat"
-                        ]
-                    ],
-                    "proficiency": [
-                        [
-                            "—",
-                            "",
-                            null
-                        ]
-                    ]
+                    "religion": 4
                 },
                 {
                     "level": 17,
-                    "grants": [
-                        [
-                            "Ancestry feat",
-                            ",",
-                            "ancestry feat"
-                        ],
-                        [
-                            " skill increase",
-                            ",",
-                            "skill increase"
-                        ],
-                        [
-                            " <strong>Grace/Cinders cap 4</strong>",
-                            ",",
-                            null
-                        ],
-                        [
-                            " <strong>legendary spellcasting</strong>",
-                            ",",
-                            "legendary spellcasting"
-                        ],
-                        [
-                            " <strong>Great Miracle/Unmaking unlocked</strong>",
-                            "",
-                            null
-                        ]
-                    ],
-                    "proficiency": [
-                        [
-                            "Legendary: spellcasting",
-                            "",
-                            null
-                        ]
-                    ]
+                    "spellcasting": 4
+                }
+            ],
+            "features": [
+                {
+                    "level": 1,
+                    "name": "Presence"
                 },
                 {
-                    "level": 18,
-                    "grants": [
-                        [
-                            "Skill feat",
-                            ",",
-                            "skill feat"
-                        ],
-                        [
-                            " Vigil feat",
-                            "",
-                            "class feat"
-                        ]
-                    ],
-                    "proficiency": [
-                        [
-                            "—",
-                            "",
-                            null
-                        ]
-                    ]
+                    "level": 1,
+                    "name": "Grace/Cinders",
+                    "note": "cap 1"
+                },
+                {
+                    "level": 1,
+                    "name": "Lesser Miracle/Unmaking"
+                },
+                {
+                    "level": 1,
+                    "name": "initial divine spellcasting"
+                },
+                {
+                    "level": 1,
+                    "name": "initial proficiencies"
+                },
+                {
+                    "level": 5,
+                    "name": "Grace/Cinders cap 2"
+                },
+                {
+                    "level": 7,
+                    "name": "Path feature II"
+                },
+                {
+                    "level": 9,
+                    "name": "Greater Miracle/Unmaking unlocked"
+                },
+                {
+                    "level": 11,
+                    "name": "Grace/Cinders cap 3"
+                },
+                {
+                    "level": 15,
+                    "name": "Path capstone"
+                },
+                {
+                    "level": 17,
+                    "name": "Grace/Cinders cap 4"
+                },
+                {
+                    "level": 17,
+                    "name": "Great Miracle/Unmaking unlocked"
                 },
                 {
                     "level": 19,
-                    "grants": [
-                        [
-                            "General feat",
-                            ",",
-                            "general feat"
-                        ],
-                        [
-                            " skill increase",
-                            ",",
-                            "skill increase"
-                        ],
-                        [
-                            " <strong>Testament</strong>",
-                            "",
-                            null
-                        ]
-                    ],
-                    "proficiency": [
-                        [
-                            "—",
-                            "",
-                            null
-                        ]
-                    ]
+                    "name": "Testament"
                 },
                 {
                     "level": 20,
-                    "grants": [
-                        [
-                            "Ability boosts",
-                            ",",
-                            "ability boosts"
-                        ],
-                        [
-                            " skill feat",
-                            ",",
-                            "skill feat"
-                        ],
-                        [
-                            " Vigil feat",
-                            ",",
-                            "class feat"
-                        ],
-                        [
-                            " <strong>The Gate Answers / The Cage Cracks</strong>",
-                            "",
-                            null
-                        ]
-                    ],
-                    "proficiency": [
-                        [
-                            "—",
-                            "",
-                            null
-                        ]
-                    ]
+                    "name": "The Gate Answers / The Cage Cracks"
                 }
             ],
             "spellcastingCastingAbility": "Wisdom",

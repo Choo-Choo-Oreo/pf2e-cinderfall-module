@@ -48,7 +48,6 @@
     "_id": "PdJPYU9kxZZKBpIh",
     "flags": {
         "cinderfall": {
-            "incomplete": "Both clauses (hacking an unattended construct via a skill check, speaking with machine-spirits at will) are narrative/utility permissions with no numeric bonus or restriction to encode as a rule element.",
             "augmentKind": "cybernetic",
             "augmentType": "implant",
             "tier": "epic",

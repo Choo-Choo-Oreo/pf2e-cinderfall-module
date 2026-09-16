@@ -30,7 +30,7 @@
     "_id": "1VCIBlLlWWtAMxYm",
     "flags": {
         "cinderfall": {
-            "incomplete": "Blocked on the Mark; independently, \"held still and watched for a full round\" isn't a trackable state (no roll option accumulates \"turns spent not moving while watching a specific target\"). The Waywarden's central subsystem, The Mark (classes.waywarden.json flags.cinderfall.terms[0]: \"designate a creature as your quarry, gaining a growing bonus to track, target, and punish it specifically\"), has zero Foundry-schema footprint anywhere in the corpus. classes.waywarden.json:65 itself carries \"rules\": []. No card anywhere grants a TokenMark effect (site/data/cards/abilities/, class-features/, feat-effects/ are all empty scaffold directories -- confirmed via ls, contents are .gitkeep only). Real pf2e's own equivalent mechanic (Ranger's Hunt Prey) is fully buildable and precedented, but that infrastructure (an action item + a TokenMark-carrying effect item) does not exist for Waywarden and is not one of the 56 files in scope for this draft. This card is blocked until a future pass authors the base Mark action/effect."
+            "incomplete": "The Mark itself is now built (waywarden.mark-quarry.json grants TokenMark slug 'quarry'). This card's real blocker is independent: \"held still and watched for a full round\" isn't a trackable state -- no roll option accumulates \"turns spent not moving while watching a specific target.\" Also unbuilt regardless: the tiered escalation (2d8 at Blooded, 3d8 at Veteran, 4d8 at Undying) -- those tier names are undefined anywhere in the corpus (see waywarden.vanish-between-blinks.json's note)."
         }
     }
 }

@@ -39,7 +39,7 @@
                 "predicate": [
                     "one-weapon-one-answer",
                     "item:hands-held:1",
-                    "target:mark:one-weapon-one-answer"
+                    "target:mark:the-duel-begins"
                 ]
             },
             {
@@ -51,7 +51,7 @@
                 "predicate": [
                     "one-weapon-one-answer",
                     "item:hands-held:1",
-                    "target:mark:one-weapon-one-answer"
+                    "target:mark:the-duel-begins"
                 ]
             }
         ],

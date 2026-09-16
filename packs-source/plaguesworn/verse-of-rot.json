@@ -41,7 +41,6 @@
         "cinderfall": {
             "incomplete": "Converting a spell's up-front damage into persistent damage is a per-spell system.damage.kinds change on each individual spell (as seen in real pf2e's own grim-tendrils.json/phantom-pain.json, which bake persistent damage into the spell's own damage-kinds array at authoring time), not something a single class-feat-level passive rule element can retroactively apply across every future Verse spell you might cast. No selector converts \"this spell's damage\" into \"persistent\" at the feat level.",
             "subclassOf": "plaguesworn",
-            "subclassChoice": "Choose Your Verse",
             "role": "Decay Damage",
             "subclassLayer": "verse"
         }

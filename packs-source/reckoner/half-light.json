@@ -44,7 +44,6 @@
             "spellTag": "Half-Light",
             "listing": "Aspect Signatures / The Halving decay / entropy",
             "subclassOf": "reckoner",
-            "subclassChoice": "Choose Your Source, Then Your Aspect",
             "role": "Corrosion · Radiant Decay",
             "followUp": "signature spell 'Rust Touch' is record reckoner.rust-touch; the card renders on spells-abilities.html as a spell-entry and its statline/body are authored above",
             "subclassLayer": "aspect"

@@ -42,7 +42,6 @@
             "spellTag": "Innate",
             "listing": "Break the Anchor, by Ward",
             "subclassOf": "wardbreaker",
-            "subclassChoice": "Choose Your Ward",
             "role": "Close Exorcism",
             "followUp": "signature spell 'Warded Blade' is record wardbreaker.warded-blade-spell; the card renders on spells-abilities.html as a spell-entry and its statline/body are authored above",
             "subclassLayer": "ward"

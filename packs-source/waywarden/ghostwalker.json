@@ -39,9 +39,8 @@
     "_id": "VGuxJpSbEJ02DsEj",
     "flags": {
         "cinderfall": {
-            "incomplete": "Ranger's Outwit classfeature (P4) is the exact real analog (FlatModifier AC/skill bonuses vs. target:mark:/origin:mark:) — buildable once the Mark exists and this card states an actual number. The Waywarden's central subsystem, The Mark (classes.waywarden.json flags.cinderfall.terms[0]: \"designate a creature as your quarry, gaining a growing bonus to track, target, and punish it specifically\"), has zero Foundry-schema footprint anywhere in the corpus. classes.waywarden.json:65 itself carries \"rules\": []. No card anywhere grants a TokenMark effect (site/data/cards/abilities/, class-features/, feat-effects/ are all empty scaffold directories -- confirmed via ls, contents are .gitkeep only). Real pf2e's own equivalent mechanic (Ranger's Hunt Prey) is fully buildable and precedented, but that infrastructure (an action item + a TokenMark-carrying effect item) does not exist for Waywarden and is not one of the 56 files in scope for this draft. This card is blocked until a future pass authors the base Mark action/effect.",
+            "incomplete": "The Mark itself is now built (waywarden.mark-quarry.json grants TokenMark slug 'quarry'; target:mark:quarry/origin:mark:quarry is live). Two things remain: (1) this card's own missing number -- Ranger's Outwit classfeature is the exact real analog (FlatModifier to AC/Perception/skills, predicate origin:mark:hunted-prey), buildable the same way once this card states the actual penalty; (2) the \"and your Feral Bond\" half is a genuine second gap, confirmed this pass: no rule-element selector lets one actor's item apply a penalty/bonus scoped to a different actor's (the Feral Bond's) own defenses -- same cross-actor limitation already documented on waywarden.companions-fury.json and waywarden.snapjaw.json. Owner will supply the number; the companion half needs its own call.",
             "subclassOf": "waywarden",
-            "subclassChoice": "Choose Your Wasteland Edge",
             "subclassLayer": "wasteland-edge",
             "role": "Outmaneuver"
         }

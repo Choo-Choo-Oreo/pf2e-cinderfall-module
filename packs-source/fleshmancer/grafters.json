@@ -41,7 +41,6 @@
         "cinderfall": {
             "incomplete": "Grants a new usable capability (a fast-action healing Graft usable on unwilling targets) with no stated number -- bucket 3/VAGUE combined. Same parent-underspecification flag as Butcher's: nothing here for a hypothetical child card to build on.",
             "subclassOf": "fleshmancer",
-            "subclassChoice": "Choose Your Stock",
             "role": "Field Surgery",
             "subclassLayer": "stock"
         }

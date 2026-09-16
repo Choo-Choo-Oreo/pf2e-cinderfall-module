@@ -56,7 +56,6 @@
     "flags": {
         "cinderfall": {
             "subclassOf": "paradise-touched",
-            "subclassChoice": "Choose Your Aperture",
             "role": "The merged minds, still talking",
             "subclassLayer": "aperture"
         }
