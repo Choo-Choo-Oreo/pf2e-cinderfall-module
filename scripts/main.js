@@ -825,10 +825,29 @@ Hooks.once("ready", () => {
  * "Auto-know-all is fine, keep it simple for the player." So this is a flat,
  * one-time population, not a level-gated drip -- every item carrying the
  * `fleshmancer` trait (the same trait the-cut.json's CraftingAbility
- * predicate already keys on, currently 42 consumables + 75 biological
- * augmentations, matched live rather than hardcoded so this never drifts
- * from the real predicate) gets added to `system.crafting.formulas` the
+ * predicate already keys on) gets added to `system.crafting.formulas` the
  * moment the actor has the Cut a Graft ability.
+ *
+ * Bug fixed 2026-09-16: the first version of this only scanned the
+ * `equipment` pack, on the assumption every Graft lived there. It does not.
+ * export_all.py assigns a card's packs-source owner by its FILENAME PREFIX,
+ * not the site/data/cards/ subfolder it sits in -- so
+ * equipment/consumables/fleshmancer.titans-cut.json (and every other
+ * `fleshmancer.*` card under equipment/{consumables,ammunition,
+ * weapon-ranged}/, confirmed live in
+ * pf2e-cinderfall-module/packs-source/fleshmancer/) lands in owner
+ * "fleshmancer", and build_pack.py's PACKS table wires that owner into the
+ * **feats** pack (`"also": [..., "packs-source/fleshmancer", ...]`), not
+ * equipment -- only the `biological.*`-prefixed augments actually route to
+ * equipment. So this was silently blind to most Grafts. Fixed by scanning
+ * every Item pack this module ships (`pack.metadata.packageName ===
+ * MODULE_ID`) instead of hardcoding one pack name, so it can't drift
+ * from the build tool's routing again. Filtered on `system.price` existing
+ * (only physical items carry a price field; feats/actions like "The Cut"
+ * and "Cut a Graft" itself do not, even though they also carry the
+ * `fleshmancer` trait) so those two don't get added as bogus formulas.
+ * `pack.metadata.packageName` is this file's own already-verified way to
+ * filter packs by owning package (see `applyBaseContentVisibility` above).
  *
  * `system.crafting.formulas` is plain actor-instance data -- not an Item, not
  * populated by any rule element (confirmed against the full
@@ -844,16 +863,22 @@ async function ensureCinderfallGraftsKnown(actor) {
   if (!actor || actor.type !== "character") return;
   if (!actor.crafting?.abilities?.get("the-cut")) return;
 
-  const pack = game.packs.get(`${MODULE_ID}.equipment`);
-  if (!pack) return;
-  const index = await pack.getIndex({ fields: ["system.traits.value"] });
-
   const known = new Set((actor.system.crafting.formulas ?? []).map((f) => f.uuid));
-  const toAdd = index
-    .filter((e) => e.system?.traits?.value?.includes(CINDERFALL_GRAFT_TRAIT))
-    .map((e) => `Compendium.${MODULE_ID}.equipment.${e._id}`)
-    .filter((uuid) => !known.has(uuid))
-    .map((uuid) => ({ uuid }));
+  const toAdd = [];
+
+  for (const pack of game.packs) {
+    if (pack.metadata.type !== "Item") continue;
+    if (pack.metadata.packageName !== MODULE_ID) continue;
+
+    const index = await pack.getIndex({ fields: ["system.traits.value", "system.price"] });
+    for (const e of index) {
+      if (e.system?.price === undefined) continue; // feats/actions carry no price field
+      if (!e.system?.traits?.value?.includes(CINDERFALL_GRAFT_TRAIT)) continue;
+      const uuid = `Compendium.${pack.metadata.id}.${e._id}`;
+      if (known.has(uuid)) continue;
+      toAdd.push({ uuid });
+    }
+  }
 
   if (!toAdd.length) return;
   await actor.update({ "system.crafting.formulas": [...(actor.system.crafting.formulas ?? []), ...toAdd] });
