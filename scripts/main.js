@@ -165,6 +165,9 @@ const BASE_CONTENT_TABS = ["action", "bestiary", "campaignFeature", "equipment",
  * toggle-off will show it again.
  */
 function computeBaseContentPacks(current, stamp, hide, basePairs) {
+  // Deliberately structuredClone, not foundry.utils.deepClone: this function
+  // is pure so tests/base-content.test.mjs can import it verbatim under
+  // plain Node, which has no `foundry` global.
   const next = structuredClone(current ?? {});
   const nextStamp = {};
   for (const { tab, collection } of basePairs) {

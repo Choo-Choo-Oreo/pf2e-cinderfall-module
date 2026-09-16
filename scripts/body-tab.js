@@ -491,6 +491,10 @@ if (typeof Hooks !== "undefined") {
 const bodyTabActiveByApp = new WeakMap();
 
 function injectTab(app, html) {
+  // pf2e's character sheet is still ApplicationV1/jQuery as of this writing
+  // (renderApplicationV1 passes `html` as a JQuery), so the HTMLElement
+  // branch below is currently dead -- kept for pf2e's eventual
+  // ApplicationV2 migration (renderApplicationV2 passes a raw element).
   const root = html instanceof HTMLElement ? html : html[0];
   if (!root) return;
 
