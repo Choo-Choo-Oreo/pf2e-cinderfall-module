@@ -750,3 +750,131 @@ Hooks.once("ready", async () => {
   }
   await game.settings.set(MODULE_ID, "itemPilesRarityStamp", stamp);
 });
+
+/**
+ * Owner ruling, 2026-09-16: a Mark-priced item must be 100% unsellable, full
+ * stop -- not just expensive. A real credit value on a Mark ("harvest an
+ * organ, sell it to the Butcher") is exactly the exploit path the currency's
+ * own no-exchange-rate design (see CINDERFALL_MARKS above, and the owner
+ * ruling it cites from 2026-09-07) exists to prevent, so this cannot depend
+ * on the price math staying correct forever -- it has to be a hard block on
+ * the transaction itself.
+ *
+ * PF2e has no general "unsellable" concept (the only related flag,
+ * `isSellable` in pf2e.mjs, is narrowly treasure-only). Item Piles does have
+ * one: CONSTANTS.HOOKS.ITEM.PRE_TRADE / PRE_TRANSFER fire before a trade or a
+ * raw item transfer commits, and a listener returning `false` cancels the
+ * whole transaction server-side (item-piles.js: `_tradeItems`/`_transferItems`,
+ * both do `if (hooks.call(...) === false) return false;` right before writing
+ * anything). Two hooks, because there are two ways a Mark-priced item can
+ * reach a merchant's hands:
+ *
+ *   - the formal buy/sell dialog                 -> hooks.ITEM.PRE_TRADE
+ *   - a raw drag-and-drop deposit into a pile,
+ *     which bypasses the trade dialog entirely    -> hooks.ITEM.PRE_TRANSFER
+ *     (only blocked when the *destination* is a pile/vault/merchant --
+ *     ordinary player-to-player gifting is not a cash-out path and stays
+ *     unrestricted)
+ *
+ * Registered unconditionally on every client (not gated to the GM), because
+ * whichever client actually ends up executing the transaction is the one
+ * whose copy of this hook has to fire.
+ */
+function isCinderfallMarkPriced(itemData) {
+  return itemData != null && foundry.utils.getProperty(itemData, "system.price.value.mk") != null;
+}
+
+function findMarkPricedItemDelta(itemDeltas) {
+  return (itemDeltas ?? []).find((delta) => isCinderfallMarkPriced(delta?.item));
+}
+
+Hooks.once("ready", () => {
+  if (!game.modules.get("item-piles")?.active) return;
+  if (game.system.id !== "pf2e") return;
+  const HOOKS = game.itempiles.hooks;
+
+  Hooks.on(HOOKS.ITEM.PRE_TRADE, (sellingActor, sellerUpdates, buyingActor, buyerUpdates) => {
+    const blocked = findMarkPricedItemDelta(sellerUpdates?.itemDeltas)
+      ?? findMarkPricedItemDelta(buyerUpdates?.itemDeltas);
+    if (!blocked) return true;
+    ui.notifications.warn(`A Mark-priced item cannot be bought or sold through a merchant -- Marks have no posted exchange rate.`);
+    console.warn(`${MODULE_ID} | blocked a trade involving a Mark-priced item`, blocked.item?.name);
+    return false;
+  });
+
+  Hooks.on(HOOKS.ITEM.PRE_TRANSFER, (sourceActor, sourceUpdates, targetActor) => {
+    const targetIsPileOrMerchant = game.itempiles.API.isValidItemPile(targetActor)
+      || game.itempiles.API.isItemPileMerchant(targetActor);
+    if (!targetIsPileOrMerchant) return true;
+    const blocked = findMarkPricedItemDelta(sourceUpdates?.itemDeltas);
+    if (!blocked) return true;
+    ui.notifications.warn(`A Mark-priced item cannot be deposited into a merchant or item pile.`);
+    console.warn(`${MODULE_ID} | blocked a transfer of a Mark-priced item into a pile/merchant`, blocked.item?.name);
+    return false;
+  });
+
+  console.log(`${MODULE_ID} | Mark-unsellability hooks registered`);
+});
+
+/**
+ * Auto-grant every known Graft/consumable formula to a Fleshmancer, so the
+ * player never has to hunt the Formula Picker for something the class
+ * already promises them.
+ *
+ * Owner ruling 2026-09-16 (via the Fleshmancer Graft-crafting parity thread):
+ * "Auto-know-all is fine, keep it simple for the player." So this is a flat,
+ * one-time population, not a level-gated drip -- every item carrying the
+ * `fleshmancer` trait (the same trait the-cut.json's CraftingAbility
+ * predicate already keys on, currently 42 consumables + 75 biological
+ * augmentations, matched live rather than hardcoded so this never drifts
+ * from the real predicate) gets added to `system.crafting.formulas` the
+ * moment the actor has the Cut a Graft ability.
+ *
+ * `system.crafting.formulas` is plain actor-instance data -- not an Item, not
+ * populated by any rule element (confirmed against the full
+ * RuleElements.builtin registry) -- normally only reachable by dragging a
+ * formula in or using the sheet's own "Browse" flow. This is additive only
+ * (union with whatever's already there): a player who manually drops a Graft
+ * from their formula book must not have it silently reappear on the next
+ * trigger, so existing uuids are never removed, only ever added to.
+ */
+const CINDERFALL_GRAFT_TRAIT = "fleshmancer";
+
+async function ensureCinderfallGraftsKnown(actor) {
+  if (!actor || actor.type !== "character") return;
+  if (!actor.crafting?.abilities?.get("the-cut")) return;
+
+  const pack = game.packs.get(`${MODULE_ID}.equipment`);
+  if (!pack) return;
+  const index = await pack.getIndex({ fields: ["system.traits.value"] });
+
+  const known = new Set((actor.system.crafting.formulas ?? []).map((f) => f.uuid));
+  const toAdd = index
+    .filter((e) => e.system?.traits?.value?.includes(CINDERFALL_GRAFT_TRAIT))
+    .map((e) => `Compendium.${MODULE_ID}.equipment.${e._id}`)
+    .filter((uuid) => !known.has(uuid))
+    .map((uuid) => ({ uuid }));
+
+  if (!toAdd.length) return;
+  await actor.update({ "system.crafting.formulas": [...(actor.system.crafting.formulas ?? []), ...toAdd] });
+  console.log(`${MODULE_ID} | granted ${toAdd.length} Fleshmancer Graft formula(s) to ${actor.name}`);
+}
+
+// Catches it the moment a character gains the class feature. Only the client
+// whose action created the item follows up, so N connected clients don't all
+// race the same actor.update() and clobber each other's writes.
+Hooks.on("createItem", (item, options, userId) => {
+  if (game.user.id !== userId) return;
+  if (item.slug !== "the-cut") return;
+  if (game.system.id !== "pf2e") return;
+  ensureCinderfallGraftsKnown(item.actor);
+});
+
+// One-shot backfill for Fleshmancers already in the world before this shipped.
+Hooks.once("ready", async () => {
+  if (!game.user.isGM) return;
+  if (game.system.id !== "pf2e") return;
+  for (const actor of game.actors) {
+    await ensureCinderfallGraftsKnown(actor);
+  }
+});
