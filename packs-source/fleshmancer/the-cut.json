@@ -31,7 +31,6 @@
             },
             {
                 "craftableItems": [
-                    "item:trait:consumable",
                     "item:trait:fleshmancer"
                 ],
                 "key": "CraftingAbility",
