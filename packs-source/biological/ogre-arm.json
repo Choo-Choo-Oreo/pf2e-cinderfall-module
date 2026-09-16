@@ -58,9 +58,7 @@
         "size": "med",
         "traits": {
             "rarity": "epic",
-            "value": [
-                "graft"
-            ]
+            "value": []
         },
         "usage": {
             "value": "other"
