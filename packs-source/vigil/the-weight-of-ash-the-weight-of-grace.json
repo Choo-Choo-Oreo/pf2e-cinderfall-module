@@ -32,16 +32,7 @@
                     "emotion",
                     "mental"
                 ],
-                "effects": [
-                    {
-                        "affects": "allies",
-                        "uuid": "(needs a new ally-buff effect item -- does not exist)"
-                    },
-                    {
-                        "affects": "enemies",
-                        "uuid": "(needs a new enemy-penalty effect item -- does not exist)"
-                    }
-                ]
+                "effects": []
             }
         ],
         "traits": {

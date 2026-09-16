@@ -36,7 +36,7 @@
     "_id": "60VNwqThbXLoAPu5",
     "flags": {
         "cinderfall": {
-            "incomplete": "The numeric payload here would need a brand-new companion Effect record, this corpus's own established convention for triggered/targeted temporary buffs (the 7 already-real Effect: cards -- anchor-ward-effect, cult-sign-effect, cursed-gift-effect, debt-collector-effect, the-long-reach-effect, the-patron-warns-you-effect, unnerving-presence-effect -- each pair with an ORIGIN card that correctly ships rules: [] while the real FlatModifier/RollOption payload lives on the separate Effect item, matching real pf2e's own Hunt Prey split: pf2e-source/packs/pf2e/actions/class/ranger/hunt-prey.json vs. its linked selfEffect). Proposing a brand-new companion Effect record is out of scope for a single card's system.rules edit."
+            "incomplete": "Genuine engine limit, not a missing companion Effect: the ward is a fixed point in space (\"draw a ward on a nearby surface... crumbles if moved, does not travel with you\"), not bound to any actor. Checked real pf2e's closest analog, the Champion's Protective Wards (pf2e-source/packs/pf2e/spell-effects/aura-protective-wards.json) -- its Aura rule element is anchored to the CASTER, moving with them, same as every other Aura in pf2e-source. There is no fixed-point-anchor mechanism in pf2e's rule-element vocabulary; a ward that stays behind when you leave would need a Foundry scene object (wall/region/light), well outside card JSON authoring."
         }
     }
 }

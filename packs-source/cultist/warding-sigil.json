@@ -25,6 +25,9 @@
             "title": "Cinderfall"
         },
         "rules": [],
+        "selfEffect": {
+            "slug": "warding-sigil-effect"
+        },
         "traits": {
             "rarity": "common",
             "value": [
@@ -36,7 +39,7 @@
     "_id": "NPyKRDB6pdrilHyt",
     "flags": {
         "cinderfall": {
-            "incomplete": "The numeric payload here would need a brand-new companion Effect record, this corpus's own established convention for triggered/targeted temporary buffs (the 7 already-real Effect: cards -- anchor-ward-effect, cult-sign-effect, cursed-gift-effect, debt-collector-effect, the-long-reach-effect, the-patron-warns-you-effect, unnerving-presence-effect -- each pair with an ORIGIN card that correctly ships rules: [] while the real FlatModifier/RollOption payload lives on the separate Effect item, matching real pf2e's own Hunt Prey split: pf2e-source/packs/pf2e/actions/class/ranger/hunt-prey.json vs. its linked selfEffect). Proposing a brand-new companion Effect record is out of scope for a single card's system.rules edit."
+            "incomplete": "Built: the +1 circumstance bonus to AC is a real companion Effect (feat-effects/cultist.warding-sigil-effect.json), linked via selfEffect. NOT built: the reactive clause (\"if a creature marked by your sigil attacks you and fails, it takes a -1 penalty to its next attack against you\") -- this needs to watch an attacker's roll outcome and then retroactively grant a NEW debuff onto that specific attacker, not the card's own user or a chosen target. Checked real pf2e's own precedent for this exact trigger shape -- pf2e-source/packs/pf2e/actions/background/opportunistic-accusation.json and pf2e-source/packs/pf2e/actions/archetype/soulforger/makes-me-stronger.json, both \"react to an opponent's roll result\" abilities -- and both ship with rules: [] and no selfEffect in the official compendium. This is a genuine engine limit, not unbuilt effort: even professionally-authored pf2e content leaves this trigger shape to manual GM/player tracking."
         }
     }
 }

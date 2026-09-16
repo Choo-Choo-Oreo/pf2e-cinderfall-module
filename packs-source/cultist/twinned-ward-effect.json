@@ -1,0 +1,87 @@
+{
+    "name": "Effect: Twinned Ward",
+    "type": "effect",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "description": {
+            "value": "<p><em>Applied by <strong>Twinned Ward</strong> to the character who used it, and to any ally within 30 feet via its Aura -- each recipient gets their own prompt below.</em></p>\n<hr />\n<p>Choose one trait -- fear, mental, poison, or disease. You gain a +1 circumstance bonus to saving throws against effects with that trait for the duration. Agree with the ability's user on the same trait beforehand so the ward actually covers you both.</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "minutes",
+            "value": 1
+        },
+        "level": {
+            "value": 12
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "ChoiceSet",
+                "flag": "twinnedWard",
+                "prompt": "Fear, mental, poison, or disease -- choose the trait to ward against",
+                "choices": [
+                    {
+                        "label": "Fear",
+                        "value": "fear"
+                    },
+                    {
+                        "label": "Mental",
+                        "value": "mental"
+                    },
+                    {
+                        "label": "Poison",
+                        "value": "poison"
+                    },
+                    {
+                        "label": "Disease",
+                        "value": "disease"
+                    }
+                ]
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "saving-throw",
+                "type": "circumstance",
+                "value": 1,
+                "predicate": [
+                    "item:trait:{item|flags.system.rulesSelections.twinnedWard}"
+                ]
+            },
+            {
+                "key": "Aura",
+                "slug": "twinned-ward",
+                "radius": 30,
+                "effects": [
+                    {
+                        "affects": "allies",
+                        "uuid": "twinned-ward-effect"
+                    }
+                ]
+            }
+        ],
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "value": []
+        },
+        "slug": "twinned-ward-effect"
+    },
+    "_id": "zbftjorGF1skWKff",
+    "flags": {
+        "cinderfall": {
+            "effectOf": "cultist.twinned-ward",
+            "landsOn": "self"
+        }
+    }
+}

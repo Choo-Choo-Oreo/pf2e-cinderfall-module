@@ -1,0 +1,56 @@
+{
+    "name": "Effect: Patient Ground",
+    "type": "effect",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "description": {
+            "value": "<p><em>Applied by <strong>Patient Ground</strong> to the character who used it.</em></p>\n<hr />\n<p>Until you move from your current space, you gain a +1 circumstance bonus to AC and saving throws.</p>"
+        },
+        "duration": {
+            "expiry": null,
+            "sustained": false,
+            "unit": "unlimited",
+            "value": -1
+        },
+        "level": {
+            "value": 4
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "ac",
+                "type": "circumstance",
+                "value": 1
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "saving-throw",
+                "type": "circumstance",
+                "value": 1
+            }
+        ],
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "value": []
+        },
+        "slug": "patient-ground-effect"
+    },
+    "_id": "HiCE2hpXV2RbV0TH",
+    "flags": {
+        "cinderfall": {
+            "effectOf": "cultist.patient-ground",
+            "landsOn": "self"
+        }
+    }
+}

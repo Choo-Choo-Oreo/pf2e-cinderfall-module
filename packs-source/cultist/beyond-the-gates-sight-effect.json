@@ -1,0 +1,57 @@
+{
+    "name": "Effect: Beyond the Gate's Sight",
+    "type": "effect",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "description": {
+            "value": "<p><em>Applied by <strong>Beyond the Gate's Sight</strong> to the character who used it.</em></p>\n<hr />\n<p>You see through illusions and into invisibility as though under the effect of <em>see invisibility</em>, and gain a +2 circumstance bonus to Perception checks to find secret doors and traps, for the duration.</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "minutes",
+            "value": 1
+        },
+        "level": {
+            "value": 16
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "Sense",
+                "selector": "see-invisibility"
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "perception",
+                "type": "circumstance",
+                "value": 2,
+                "predicate": [
+                    "action:seek"
+                ]
+            }
+        ],
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "value": []
+        },
+        "slug": "beyond-the-gates-sight-effect"
+    },
+    "_id": "GBUoSJ8JI9CXlYXG",
+    "flags": {
+        "cinderfall": {
+            "effectOf": "cultist.beyond-the-gates-sight",
+            "landsOn": "self"
+        }
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "name": "Effect: Sight Beyond the Veil",
+    "type": "effect",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "description": {
+            "value": "<p><em>Applied by <strong>Sight Beyond the Veil</strong> to the character who used it.</em></p>\n<hr />\n<p>You gain darkvision for the duration. If you already have darkvision, you instead treat magical darkness as dim light for the purpose of your vision.</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "minutes",
+            "value": 1
+        },
+        "level": {
+            "value": 6
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "Sense",
+                "selector": "darkvision"
+            }
+        ],
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "value": []
+        },
+        "slug": "sight-beyond-the-veil-effect"
+    },
+    "_id": "nbJyrxvO78LKuELO",
+    "flags": {
+        "cinderfall": {
+            "effectOf": "cultist.sight-beyond-the-veil",
+            "landsOn": "self"
+        }
+    }
+}

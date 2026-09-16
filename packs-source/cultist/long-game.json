@@ -25,6 +25,9 @@
             "title": "Cinderfall"
         },
         "rules": [],
+        "selfEffect": {
+            "slug": "long-game-effect"
+        },
         "traits": {
             "otherTags": [
                 "cultist-someday"
@@ -39,7 +42,6 @@
     "_id": "Z2ssmB1tFrqmveL7",
     "flags": {
         "cinderfall": {
-            "incomplete": "The numeric payload here would need a brand-new companion Effect record, this corpus's own established convention for triggered/targeted temporary buffs (the 7 already-real Effect: cards -- anchor-ward-effect, cult-sign-effect, cursed-gift-effect, debt-collector-effect, the-long-reach-effect, the-patron-warns-you-effect, unnerving-presence-effect -- each pair with an ORIGIN card that correctly ships rules: [] while the real FlatModifier/RollOption payload lives on the separate Effect item, matching real pf2e's own Hunt Prey split: pf2e-source/packs/pf2e/actions/class/ranger/hunt-prey.json vs. its linked selfEffect). Proposing a brand-new companion Effect record is out of scope for a single card's system.rules edit.",
             "track": "someday"
         }
     }

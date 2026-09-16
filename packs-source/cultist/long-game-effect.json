@@ -1,0 +1,50 @@
+{
+    "name": "Effect: Long Game",
+    "type": "effect",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "description": {
+            "value": "<p><em>Applied by <strong>Long Game</strong> to the character who used it.</em></p>\n<hr />\n<p>You gain a +2 circumstance bonus to the first check, attack roll, or saving throw you make in the encounter.</p>"
+        },
+        "duration": {
+            "expiry": null,
+            "sustained": false,
+            "unit": "encounter",
+            "value": -1
+        },
+        "level": {
+            "value": 6
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "all",
+                "type": "circumstance",
+                "value": 2
+            }
+        ],
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "value": []
+        },
+        "slug": "long-game-effect"
+    },
+    "_id": "rAy5YkXFIkpGuuXc",
+    "flags": {
+        "cinderfall": {
+            "effectOf": "cultist.long-game",
+            "landsOn": "self"
+        }
+    }
+}

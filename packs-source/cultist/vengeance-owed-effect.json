@@ -1,0 +1,62 @@
+{
+    "name": "Effect: Vengeance Owed",
+    "type": "effect",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "description": {
+            "value": "<p><em>Applied by <strong>Vengeance Owed</strong> to the character who used it.</em></p>\n<hr />\n<p>You gain a +1 status bonus to your next attack roll or Rite spell attack roll against the creature that dropped your ally, before the end of your next turn.</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "rounds",
+            "value": 1
+        },
+        "level": {
+            "value": 4
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "attack",
+                "type": "status",
+                "value": 1,
+                "predicate": [
+                    "target:signature:{item|origin.signature}"
+                ]
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "spell-attack",
+                "type": "status",
+                "value": 1,
+                "predicate": [
+                    "target:signature:{item|origin.signature}"
+                ]
+            }
+        ],
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "value": []
+        },
+        "slug": "vengeance-owed-effect"
+    },
+    "_id": "1q3Et0Vbm07nZP7g",
+    "flags": {
+        "cinderfall": {
+            "effectOf": "cultist.vengeance-owed",
+            "landsOn": "self"
+        }
+    }
+}
