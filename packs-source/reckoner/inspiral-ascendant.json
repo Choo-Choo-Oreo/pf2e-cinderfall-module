@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You begin THE ORBIT.</p><hr /><p>THE ORBIT begins at full strength rather than building: this round and every round you Sustain it, it draws its subjects the full distance it would reach after several rounds of compounding, with no ramp. It is otherwise unchanged, and Sustaining it works exactly as it normally does.</p>"
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You begin THE ORBIT.</p><hr /><p>Singularity-flavored, open to all — once per day, an Inspiral pull reaches full strength immediately instead of compounding over several rounds.</p><p>THE ORBIT begins at full strength rather than building: this round and every round you Sustain it, it draws its subjects the full distance it would reach after several rounds of compounding, with no ramp. It is otherwise unchanged, and Sustaining it works exactly as it normally does.</p>"
         },
         "level": {
             "value": 18

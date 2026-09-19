@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Range</strong> 30 feet</p><p><strong>Targets</strong> 1 creature</p><p><strong>Frequency</strong> once per day</p><p><strong>Saving Throw</strong> Will</p><p><strong>Duration</strong> 1 minute</p><hr /><p>The target must succeed at a Will save against your class DC or come completely under your sway for the duration as Utterly Devoted, and additionally cannot leave your side voluntarily for any reason (on a critical failure, the duration instead lasts until the target succeeds at a save to end it, attemptable only once per day). This is an emotion, incapacitation, and mental effect. The Claimant asks once. It is never refused twice.</p>"
+            "value": "<p><strong>Range</strong> 30 feet</p><p><strong>Targets</strong> 1 creature</p><p><strong>Frequency</strong> once per day</p><p><strong>Saving Throw</strong> Will</p><p><strong>Duration</strong> 1 minute</p><hr /><p>Bind a target to your side completely, possibly for good.</p><p>The target must succeed at a Will save against your class DC or come completely under your sway for the duration as Utterly Devoted, and additionally cannot leave your side voluntarily for any reason (on a critical failure, the duration instead lasts until the target succeeds at a save to end it, attemptable only once per day). This is an emotion, incapacitation, and mental effect. The Claimant asks once. It is never refused twice.</p>"
         },
         "level": {
             "value": 20
@@ -39,7 +39,7 @@
     "_id": "Mrt4y4m5qX8Lv9Y0",
     "flags": {
         "cinderfall": {
-            "track": "claimant"
+            "track": "the-claimant"
         }
     }
 }

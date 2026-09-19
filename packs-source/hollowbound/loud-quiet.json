@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Your Quiet-state boons remain active while you are Unveiled. Every other rule of the two states is unchanged: Unveiled still ends when it normally would, still costs what it normally costs, and the spirit is still no longer entirely you while it lasts.</p>"
+            "value": "<p><strong>Tag</strong> General</p><p><strong>Duration</strong> constant</p><hr /><p>Your Quiet-state boons remain active while Unveiled — previously the two states were exclusive.</p><p>Your Quiet-state boons remain active while you are Unveiled. Every other rule of the two states is unchanged: Unveiled still ends when it normally would, still costs what it normally costs, and the spirit is still no longer entirely you while it lasts.</p>"
         },
         "level": {
             "value": 10

@@ -11,7 +11,7 @@
         },
         "category": "classfeature",
         "description": {
-            "value": "<p>Deals fate like a hand of cards and never once cheats — it doesn't have to. It just tells you the odds and lets the wasteland do the rest. Followers describe it as scrupulously honest and utterly without mercy.</p><hr /><p><strong>LOADED DICE —</strong> reroll a failed check by spending Zeal. The Croupier always collects the vig eventually.</p>"
+            "value": "<p>Deals fate like a hand of cards and never once cheats — it doesn't have to. It just tells you the odds and lets the wasteland do the rest. Followers describe it as scrupulously honest and utterly without mercy.</p><hr /><p><strong>LOADED DICE —</strong> as a reaction (a free action if it's your own roll) when you or an ally within 30 feet fails a check, spend Zeal to force a reroll of that check, keeping the better result.</p>"
         },
         "level": {
             "value": 1

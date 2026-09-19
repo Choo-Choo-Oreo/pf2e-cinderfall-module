@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Cost</strong> 2 Vitae</p><p><strong>Duration</strong> 10 minutes</p><hr /><p>Your size increases to Large if you are Medium or smaller, your reach increases by 5 feet, you gain a +2 circumstance bonus to Athletics checks, and your unarmed attacks deal one additional damage die. When the form ends you are <em>enfeebled 1</em> for 10 minutes.</p>"
+            "value": "<p><strong>Cost</strong> 2 Vitae</p><p><strong>Duration</strong> 10 minutes</p><hr /><p>It takes ten minutes to come back, and you spend all ten remembering which parts were yours.</p><p>Your size increases to Large if you are Medium or smaller, your reach increases by 5 feet, you gain a +2 circumstance bonus to Athletics checks, and your unarmed attacks deal one additional damage die. When the form ends you are <em>enfeebled 1</em> for 10 minutes.</p>"
         },
         "level": {
             "value": 10

@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>You and your allies are never affected by the splash damage from your own thrown Grafts, no matter where they are standing when one goes off. Against everything else the splash is unchanged.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>You have never once caught your own squad. It is the only manners you have left.</p><p>You and your allies are never affected by the splash damage from your own thrown Grafts, no matter where they are standing when one goes off. Against everything else the splash is unchanged.</p>"
         },
         "level": {
             "value": 6

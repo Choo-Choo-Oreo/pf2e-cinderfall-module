@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Trigger</strong> You cast a Vow.</p><p><strong>Cost</strong> 1 additional Conviction</p><hr /><p>The Vow is Reinforced. A Vow that grants a bonus or penalty grants 1 more; a Vow that grants resistance grants 5 more; a Vow that redirects damage redirects it to a maximum of twice your level; a Vow with none of those lasts twice as long. This is the same one-degree improvement Stage IV of the Trial grants all your Vows, and a Vow gains it only once — Reinforcing a Vow at Stage IV does nothing.</p>"
+            "value": "<p><strong>Trigger</strong> You cast a Vow.</p><p><strong>Cost</strong> 1 additional Conviction</p><hr /><p>A Vow you know can be kept harder than usual, at a cost in Conviction you feel.</p><p>The Vow is Reinforced. A Vow that grants a bonus or penalty grants 1 more; a Vow that grants resistance grants 5 more; a Vow that redirects damage redirects it to a maximum of twice your level; a Vow with none of those lasts twice as long. This is the same one-degree improvement Stage IV of the Trial grants all your Vows, and a Vow gains it only once — Reinforcing a Vow at Stage IV does nothing.</p>"
         },
         "level": {
             "value": 6

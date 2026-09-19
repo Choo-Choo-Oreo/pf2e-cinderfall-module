@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Your Feral Bond gains temporary Hit Points equal to your level at the start of each encounter. These are lost before its own Hit Points and do not return until the next encounter begins.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Your Feral Bond gains a temporary HP pool separate from its own.</p><p>Your Feral Bond gains temporary Hit Points equal to your level at the start of each encounter. These are lost before its own Hit Points and do not return until the next encounter begins.</p>"
         },
         "level": {
             "value": 14

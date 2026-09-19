@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Range</strong> 60 feet</p><hr /><p>Up to four allies who can hear and understand you each Stride up to half their Speed. This movement does not trigger reactions, and each ally who ends it further from every enemy than they started gains temporary Hit Points equal to your level, lasting one minute.</p>"
+            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Range</strong> 60 feet</p><hr /><p>Retreat is a manoeuvre. Everybody who has watched one go wrong knows the difference.</p><p>Up to four allies who can hear and understand you each Stride up to half their Speed. This movement does not trigger reactions, and each ally who ends it further from every enemy than they started gains temporary Hit Points equal to your level, lasting one minute.</p>"
         },
         "level": {
             "value": 8

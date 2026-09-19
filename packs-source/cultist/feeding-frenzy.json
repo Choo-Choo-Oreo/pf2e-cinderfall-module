@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per round</p><p><strong>Trigger</strong> You deal damage to a creature at or below half its maximum Hit Points.</p><p><strong>Cost</strong> 1 Zeal</p><hr /><p>The triggering damage increases by 1d6. Gluttoneth's hunger doesn't care how thin the last plate is.</p>"
+            "value": "<p><strong>Frequency</strong> once per round</p><p><strong>Trigger</strong> You deal damage to a creature at or below half its maximum Hit Points.</p><p><strong>Cost</strong> 1 Zeal</p><hr /><p>Spend Zeal to pile extra damage onto a bloodied foe.</p><p>The triggering damage increases by 1d6. Gluttoneth's hunger doesn't care how thin the last plate is.</p>"
         },
         "level": {
             "value": 6

@@ -11,7 +11,7 @@
         },
         "category": null,
         "description": {
-            "value": "<p><strong>Trigger</strong> an ally is struck in your line of sight</p><p><strong>Effect</strong> off-hand shot at the attacker at a −2 circumstance penalty beyond your normal MAP, weapon damage only</p><hr /><p>Snap off a shot at whoever just hurt someone you're covering.</p>"
+            "value": "<p><strong>Tier</strong> Blooded</p><p><strong>Trigger</strong> an ally is struck in your line of sight</p><p><strong>Effect</strong> off-hand shot at the attacker at a −2 circumstance penalty beyond your normal MAP, weapon damage only</p><hr /><p>Snap off a shot at whoever just hurt someone you're covering.</p>"
         },
         "publication": {
             "license": "ORC",

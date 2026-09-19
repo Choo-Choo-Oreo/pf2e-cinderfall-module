@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Requirement</strong> chrome-attuned</p><p><strong>Duration</strong> constant</p><hr /><p>You no longer take the standard −2 circumstance penalty for performing an Install check on your own body without a trained surgeon.</p>"
+            "value": "<p><strong>Requirement</strong> chrome-attuned</p><p><strong>Duration</strong> constant</p><hr /><p>Cyber City's back-room techs have shown you enough of the trade.</p><p>You no longer take the standard −2 circumstance penalty for performing an Install check on your own body without a trained surgeon.</p>"
         },
         "level": {
             "value": 16

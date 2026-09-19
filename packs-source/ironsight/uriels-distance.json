@@ -11,7 +11,7 @@
         },
         "category": null,
         "description": {
-            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Requirement</strong> target held in sight for the full possible duration</p><p><strong>Range</strong> any distance you can physically see the target, no range penalty</p><p><strong>Effect</strong> the shot always counts as a critical hit and ignores all resistance the target has to its damage type</p><hr /><p>One shot, at any distance the eye can reach, that simply does not miss.</p>"
+            "value": "<p><strong>Tier</strong> Undying</p><p><strong>Frequency</strong> once per day</p><p><strong>Requirement</strong> target held in sight for the full possible duration</p><p><strong>Range</strong> any distance you can physically see the target, no range penalty</p><p><strong>Effect</strong> the shot always counts as a critical hit and ignores all resistance the target has to its damage type</p><hr /><p>One shot, at any distance the eye can reach, that simply does not miss.</p>"
         },
         "publication": {
             "license": "ORC",

@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per turn</p><hr /><p>Interact to draw, stow, or swap one held weapon. This does not trigger reactions that a manipulate action would normally trigger.</p>"
+            "value": "<p><strong>Frequency</strong> once per turn</p><hr /><p>Draw, stow, or switch weapons mid-combat at no action cost, once per turn.</p><p>Interact to draw, stow, or swap one held weapon. This does not trigger reactions that a manipulate action would normally trigger.</p>"
         },
         "level": {
             "value": 6

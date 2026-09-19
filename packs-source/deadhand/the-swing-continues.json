@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per round</p><p><strong>Trigger</strong> Your Strike with a two-handed melee weapon reduces a creature to 0 Hit Points.</p><hr /><p>Make another Strike with the same weapon against a different creature within your reach. This Strike does not count toward your multiple attack penalty, and it cannot itself trigger this feat again this round.</p>"
+            "value": "<p><strong>Frequency</strong> once per round</p><p><strong>Trigger</strong> Your Strike with a two-handed melee weapon reduces a creature to 0 Hit Points.</p><hr /><p>It went through the first one. You saw no reason to stop it there.</p><p>Make another Strike with the same weapon against a different creature within your reach. This Strike does not count toward your multiple attack penalty, and it cannot itself trigger this feat again this round.</p>"
         },
         "level": {
             "value": 6

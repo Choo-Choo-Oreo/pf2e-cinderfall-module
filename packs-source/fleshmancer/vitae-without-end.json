@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Your daily Vitae maximum increases by 4. Once per encounter you may spend Vitae you do not have, up to 4 points: you take 4d6 damage that cannot be prevented or reduced, and the debt is cleared.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>It stopped being a pool some time ago. It is just what you are made of now.</p><p>Your daily Vitae maximum increases by 4. Once per encounter you may spend Vitae you do not have, up to 4 points: you take 4d6 damage that cannot be prevented or reduced, and the debt is cleared.</p>"
         },
         "level": {
             "value": 20

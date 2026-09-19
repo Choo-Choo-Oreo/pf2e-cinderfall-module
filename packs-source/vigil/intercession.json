@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per round</p><p><strong>Trigger</strong> An ally within 15 feet is hit by an attack.</p><hr /><p>You take the damage from the triggering attack instead of the ally, and you cannot reduce it with resistances or immunities you would not otherwise have — the point is that it lands on you. You do not need to move, and this works at range: the blow simply finds you instead.</p>"
+            "value": "<p><strong>Frequency</strong> once per round</p><p><strong>Trigger</strong> An ally within 15 feet is hit by an attack.</p><hr /><p>Reaction — step in to take a blow meant for a nearby ally.</p><p>You take the damage from the triggering attack instead of the ally, and you cannot reduce it with resistances or immunities you would not otherwise have — the point is that it lands on you. You do not need to move, and this works at range: the blow simply finds you instead.</p>"
         },
         "level": {
             "value": 6

@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Requirement</strong> bio-attuned</p><p><strong>Duration</strong> constant</p><hr /><p>Your Attunement (§03) reads your Load two bands lower instead of one, for effect purposes. Your Resonance benefit from Attunement is unchanged.</p>"
+            "value": "<p><strong>Requirement</strong> bio-attuned</p><p><strong>Duration</strong> constant</p><hr /><p>The Rendery's bargain runs deeper in you than in most.</p><p>Your Attunement (§03) reads your Load two bands lower instead of one, for effect purposes. Your Resonance benefit from Attunement is unchanged.</p>"
         },
         "level": {
             "value": 18

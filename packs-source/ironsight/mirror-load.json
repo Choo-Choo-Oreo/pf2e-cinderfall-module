@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Trigger</strong> You Hot Load a firearm.</p><p><strong>Requirement</strong> You are wielding a second loaded firearm.</p><hr /><p>Your next Strike this turn with the other firearm also gains one additional damage die, without spending a second Hot Load use and without any Gun Failure risk of its own. If the Hot Loaded weapon suffers Gun Failure, this benefit is lost before it applies.</p>"
+            "value": "<p><strong>Trigger</strong> You Hot Load a firearm.</p><p><strong>Requirement</strong> You are wielding a second loaded firearm.</p><hr /><p>Whatever you did to the right hand, the left one already knows.</p><p>Your next Strike this turn with the other firearm also gains one additional damage die, without spending a second Hot Load use and without any Gun Failure risk of its own. If the Hot Loaded weapon suffers Gun Failure, this benefit is lost before it applies.</p>"
         },
         "level": {
             "value": 10

@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Any effect you apply to yourself that has a stated duration and that changes your own body — including Adaptive Membrane, a Skinwalker Bloodline feature, or a comparable Graft — lasts twice as long.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>It takes you longer to want to come back.</p><p>Any effect you apply to yourself that has a stated duration and that changes your own body — including Adaptive Membrane, a Skinwalker Bloodline feature, or a comparable Graft — lasts twice as long.</p>"
         },
         "level": {
             "value": 12

@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Requirement</strong> Your Feral Bond is at least Alpha stage.</p><p><strong>Duration</strong> constant</p><hr /><p>Wherever Shared Strain lets your Feral Bond carry a mutation, it may instead carry a Major mutation in that Slot, at the same shared-Strain cost to you. Whatever grew in you over the years of the bond, it grew in your Bond too.</p>"
+            "value": "<p><strong>Requirement</strong> Your Feral Bond is at least Alpha stage.</p><p><strong>Duration</strong> constant</p><hr /><p>Your Feral Bond can now carry a Major mutation instead of only a Minor one.</p><p>Wherever Shared Strain lets your Feral Bond carry a mutation, it may instead carry a Major mutation in that Slot, at the same shared-Strain cost to you. Whatever grew in you over the years of the bond, it grew in your Bond too.</p>"
         },
         "level": {
             "value": 14

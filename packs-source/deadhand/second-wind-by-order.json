@@ -11,7 +11,7 @@
         },
         "category": null,
         "description": {
-            "value": "<p><strong>Target</strong> 1 prone, dying, or badly hurt ally within 30 feet</p><p><strong>Effect</strong> that ally stands up as a free action and gains 3d6 temporary Hit Points</p><hr /><p>Command a downed ally back to their feet through sheer authority.</p>"
+            "value": "<p><strong>Tier</strong> Veteran</p><p><strong>Target</strong> 1 prone, dying, or badly hurt ally within 30 feet</p><p><strong>Effect</strong> that ally stands up as a free action and gains 3d6 temporary Hit Points</p><hr /><p>Command a downed ally back to their feet through sheer authority.</p>"
         },
         "publication": {
             "license": "ORC",

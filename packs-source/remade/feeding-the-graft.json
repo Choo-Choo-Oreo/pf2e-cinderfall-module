@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Trigger</strong> You critically succeed at a Graft check to install a new augment into your own body.</p><p><strong>Requirement</strong> bio-attuned</p><p><strong>Duration</strong> permanent, per augment</p><hr /><p>That augment's Load cost is reduced by 1 (minimum 1) for as long as it's grafted into you.</p>"
+            "value": "<p><strong>Trigger</strong> You critically succeed at a Graft check to install a new augment into your own body.</p><p><strong>Requirement</strong> bio-attuned</p><p><strong>Duration</strong> permanent, per augment</p><hr /><p>The new tissue learns to ask for less than it needs.</p><p>That augment's Load cost is reduced by 1 (minimum 1) for as long as it's grafted into you.</p>"
         },
         "level": {
             "value": 12

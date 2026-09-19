@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>When an ally borrows your Standing through your called command, they also gain your proficiency rank in the relevant weapon group, not merely your Standing, and they may add your key ability modifier to that action's damage roll if it deals damage. They may still only do this once per round.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>For one action they are as good as you are, and everybody in the room can see the difference it makes.</p><p>When an ally borrows your Standing through your called command, they also gain your proficiency rank in the relevant weapon group, not merely your Standing, and they may add your key ability modifier to that action's damage roll if it deals damage. They may still only do this once per round.</p>"
         },
         "level": {
             "value": 10

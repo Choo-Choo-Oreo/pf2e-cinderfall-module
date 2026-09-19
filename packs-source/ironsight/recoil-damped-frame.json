@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Requirement</strong> You are installing or already carry a Frame-slot cyber-augment whose purpose is recoil or stance stabilization (GM's call on borderline cases).</p><hr /><p>You had the frame brace tuned for one job: keep the barrel level. A Frame-slot augment installed for this purpose costs 1 less Drift than its listed value (minimum 0) — the rest of what it does is unchanged, you've just stripped out everything that wasn't in service of the shot.</p>"
+            "value": "<p><strong>Requirement</strong> You are installing or already carry a Frame-slot cyber-augment whose purpose is recoil or stance stabilization (GM's call on borderline cases).</p><hr /><p>A Frame augment built specifically to steady your firing stance costs less to carry.</p><p>You had the frame brace tuned for one job: keep the barrel level. A Frame-slot augment installed for this purpose costs 1 less Drift than its listed value (minimum 0) — the rest of what it does is unchanged, you've just stripped out everything that wasn't in service of the shot.</p>"
         },
         "level": {
             "value": 10

@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Range</strong> 60 feet</p><p><strong>Targets</strong> 1 creature that owes you a debt or that failed a Will save against one of your effects this encounter</p><p><strong>Frequency</strong> once per day</p><p><strong>Saving Throw</strong> Will</p><hr /><p>The target must succeed at a Will save against your class DC or take @Damage[8d6[mental]] damage and become <em>enfeebled 2</em> for 1 minute as the full weight of what it owes lands at once (on a critical failure it also falls <em>prone</em>). On a success, it takes half damage only.</p>"
+            "value": "<p><strong>Range</strong> 60 feet</p><p><strong>Targets</strong> 1 creature that owes you a debt or that failed a Will save against one of your effects this encounter</p><p><strong>Frequency</strong> once per day</p><p><strong>Saving Throw</strong> Will</p><hr /><p>Cash in a debt for a heavy hit of mental damage.</p><p>The target must succeed at a Will save against your class DC or take @Damage[8d6[mental]] damage and become <em>enfeebled 2</em> for 1 minute as the full weight of what it owes lands at once (on a critical failure it also falls <em>prone</em>). On a success, it takes half damage only.</p>"
         },
         "level": {
             "value": 16
@@ -39,7 +39,7 @@
     "_id": "L6xT0jkmGoRW4gUI",
     "flags": {
         "cinderfall": {
-            "track": "ledger"
+            "track": "the-ledger"
         }
     }
 }

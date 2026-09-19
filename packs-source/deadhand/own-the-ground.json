@@ -11,7 +11,7 @@
         },
         "category": null,
         "description": {
-            "value": "<p><strong>Trigger</strong> the first exchange of attacks against a chosen foe each encounter</p><p><strong>Duration</strong> rest of the encounter</p><p><strong>Effect</strong> +3 circumstance bonus to your next attack roll against that foe and to Acrobatics/Athletics checks to control positioning against them</p><hr /><p>Winning the first clash sets footing, range, and tempo on your terms.</p>"
+            "value": "<p><strong>Tier</strong> Veteran</p><p><strong>Trigger</strong> the first exchange of attacks against a chosen foe each encounter</p><p><strong>Duration</strong> rest of the encounter</p><p><strong>Effect</strong> +3 circumstance bonus to your next attack roll against that foe and to Acrobatics/Athletics checks to control positioning against them</p><hr /><p>Winning the first clash sets footing, range, and tempo on your terms.</p>"
         },
         "publication": {
             "license": "ORC",

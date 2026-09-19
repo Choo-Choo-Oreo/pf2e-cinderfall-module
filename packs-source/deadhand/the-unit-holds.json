@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Range</strong> 60 feet</p><hr /><p>Every ally who can hear and understand you immediately ends one condition of their choice from among frightened, fleeing, sickened, stupefied, and off-guard, and becomes immune to that condition from any source for one minute. You may not use this on yourself; nobody has ever given you the order.</p>"
+            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Range</strong> 60 feet</p><hr /><p>You have made these people harder to break than they were when they met you.</p><p>Every ally who can hear and understand you immediately ends one condition of their choice from among frightened, fleeing, sickened, stupefied, and off-guard, and becomes immune to that condition from any source for one minute. You may not use this on yourself; nobody has ever given you the order.</p>"
         },
         "level": {
             "value": 14

@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> while the duel lasts</p><hr /><p>Each round after the first in which you have both attacked your marked target and been attacked by it, you gain a cumulative +1 circumstance bonus to damage rolls against it, to a maximum of +3. The bonus resets if a full round passes in which neither of you attacks the other, or if you mark a different creature.</p>"
+            "value": "<p><strong>Duration</strong> while the duel lasts</p><hr /><p>You are not in a hurry. They will be, eventually.</p><p>Each round after the first in which you have both attacked your marked target and been attacked by it, you gain a cumulative +1 circumstance bonus to damage rolls against it, to a maximum of +3. The bonus resets if a full round passes in which neither of you attacks the other, or if you mark a different creature.</p>"
         },
         "level": {
             "value": 4

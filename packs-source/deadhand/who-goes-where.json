@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Range</strong> 30 feet</p><hr /><p>Up to three allies who can hear and understand you each gain a +1 circumstance bonus to AC until the start of your next turn, or may Step immediately, chosen individually for each ally. Allies who are surprised, unconscious, or unable to hear you gain nothing.</p>"
+            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Range</strong> 30 feet</p><hr /><p>You spent one look at the room and everybody already knows their job.</p><p>Up to three allies who can hear and understand you each gain a +1 circumstance bonus to AC until the start of your next turn, or may Step immediately, chosen individually for each ally. Allies who are surprised, unconscious, or unable to hear you gain nothing.</p>"
         },
         "level": {
             "value": 4

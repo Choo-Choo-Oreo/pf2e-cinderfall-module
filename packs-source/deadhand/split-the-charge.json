@@ -11,7 +11,7 @@
         },
         "category": null,
         "description": {
-            "value": "<p><strong>Saving Throw</strong> Fortitude, class DC</p><p><strong>Effect</strong> every adjacent enemy that fails is pushed 10 feet and becomes off-guard until the end of its next turn</p><hr /><p>Plant in a rushing line's path and scatter its formation.</p>"
+            "value": "<p><strong>Tier</strong> Veteran</p><p><strong>Saving Throw</strong> Fortitude, class DC</p><p><strong>Effect</strong> every adjacent enemy that fails is pushed 10 feet and becomes off-guard until the end of its next turn</p><hr /><p>Plant in a rushing line's path and scatter its formation.</p>"
         },
         "publication": {
             "license": "ORC",

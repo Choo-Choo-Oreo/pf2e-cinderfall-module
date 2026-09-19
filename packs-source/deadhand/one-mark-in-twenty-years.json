@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Requirement</strong> Your marked target is below half its maximum Hit Points.</p><hr /><p>Make a melee Strike against your mark. It automatically hits, is a critical hit, and the target must succeed at a Fortitude save against your Class DC or die. On a success it instead takes the critical damage and is doomed 2. A creature that survives this cannot be targeted by it again for a year.</p>"
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Requirement</strong> Your marked target is below half its maximum Hit Points.</p><hr /><p>You have marked exactly one person at a time for two decades, and not one of them is still standing.</p><p>Make a melee Strike against your mark. It automatically hits, is a critical hit, and the target must succeed at a Fortitude save against your Class DC or die. On a success it instead takes the critical damage and is doomed 2. A creature that survives this cannot be targeted by it again for a year.</p>"
         },
         "level": {
             "value": 20

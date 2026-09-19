@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Trigger</strong> Your marked target's attack against you misses.</p><hr /><p>Make a melee Strike against that target. This Strike does not count toward your multiple attack penalty. If The Answer has already triggered this round, this Strike instead gains a +2 circumstance bonus to its attack roll — the two do not stack into a third swing.</p>"
+            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Trigger</strong> Your marked target's attack against you misses.</p><hr /><p>The custom says somebody carries the blade home for you. You have never once needed the service.</p><p>Make a melee Strike against that target. This Strike does not count toward your multiple attack penalty. If The Answer has already triggered this round, this Strike instead gains a +2 circumstance bonus to its attack roll — the two do not stack into a third swing.</p>"
         },
         "level": {
             "value": 4

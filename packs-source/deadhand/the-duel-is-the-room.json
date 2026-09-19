@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> while your mark lives</p><hr /><p>Creatures other than your marked target take a −2 circumstance penalty to attack rolls against you, and you take a −2 circumstance penalty to attack rolls against them. You may end this at any time by abandoning the mark, which you cannot then re-establish this encounter.</p>"
+            "value": "<p><strong>Duration</strong> while your mark lives</p><hr /><p>Everyone else in here has become scenery, and scenery does not get a vote.</p><p>Creatures other than your marked target take a −2 circumstance penalty to attack rolls against you, and you take a −2 circumstance penalty to attack rolls against them. You may end this at any time by abandoning the mark, which you cannot then re-establish this encounter.</p>"
         },
         "level": {
             "value": 8

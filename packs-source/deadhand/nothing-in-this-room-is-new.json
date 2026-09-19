@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>You are never surprised, never off-guard to anything you can perceive, and you automatically succeed at flat checks caused by concealment or being unable to see. Once per encounter, when a creature uses an ability against you for the first time ever, you may treat it as though you had already seen it used — every benefit you would have had the second time applies to the first.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>You have seen every kind of thing that is about to happen, and seen most of them twice.</p><p>You are never surprised, never off-guard to anything you can perceive, and you automatically succeed at flat checks caused by concealment or being unable to see. Once per encounter, when a creature uses an ability against you for the first time ever, you may treat it as though you had already seen it used — every benefit you would have had the second time applies to the first.</p>"
         },
         "level": {
             "value": 20

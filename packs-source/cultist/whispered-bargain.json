@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per day</p><hr /><p>Whisper a true secret your patron does not already know — about yourself, an ally, or something you have seen. Gain a +2 status bonus to your next attack roll, saving throw, or skill check, made before the end of your next turn. Your patron now knows the secret and is under no obligation to keep it. If you cannot supply a secret the GM judges to be new and true, the Bargain fails and the action is lost.</p>"
+            "value": "<p><strong>Frequency</strong> once per day</p><hr /><p>Trade a whispered secret to your patron for a minor boon on the spot.</p><p>Whisper a true secret your patron does not already know — about yourself, an ally, or something you have seen. Gain a +2 status bonus to your next attack roll, saving throw, or skill check, made before the end of your next turn. Your patron now knows the secret and is under no obligation to keep it. If you cannot supply a secret the GM judges to be new and true, the Bargain fails and the action is lost.</p>"
         },
         "level": {
             "value": 2

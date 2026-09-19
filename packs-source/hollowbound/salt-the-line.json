@@ -19,7 +19,7 @@
             }
         },
         "description": {
-            "value": "<p>A warded boundary spirits and incorporeal creatures can't willingly cross for the duration — an incorporeal creature or spirit must succeed at a Will save to enter or act across it, and possession attempts from outside automatically fail.</p>"
+            "value": "<p><strong>Area</strong> 10-foot burst centered on a point you touch</p><p>A warded boundary spirits and incorporeal creatures can't willingly cross for the duration — an incorporeal creature or spirit must succeed at a Will save to enter or act across it, and possession attempts from outside automatically fail.</p>"
         },
         "duration": {
             "sustained": false,

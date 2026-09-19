@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per week</p><p><strong>Requirement</strong> You personally installed the bio-augment.</p><p><strong>Cost</strong> 1 Vitae</p><hr /><p>Spend 10 minutes and 1 Vitae tending one bio-augment you personally installed, in yourself or an ally. Its Load contribution is reduced by 1 (minimum 0) until your next checkup. Skip a week and the reduction lapses at the start of the following week; you must re-tend it to restore it.</p>"
+            "value": "<p><strong>Cast</strong> 10 minutes</p><p><strong>Frequency</strong> once per week</p><p><strong>Requirement</strong> You personally installed the bio-augment.</p><p><strong>Cost</strong> 1 Vitae</p><hr /><p>Tend a bio-augment you installed to reduce its Load by 1, maintained with a weekly checkup.</p><p>Spend 10 minutes and 1 Vitae tending one bio-augment you personally installed, in yourself or an ally. Its Load contribution is reduced by 1 (minimum 0) until your next checkup. Skip a week and the reduction lapses at the start of the following week; you must re-tend it to restore it.</p>"
         },
         "level": {
             "value": 4

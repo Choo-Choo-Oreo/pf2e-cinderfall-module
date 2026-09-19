@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Trigger</strong> An attack from your marked target would reduce you to 0 Hit Points.</p><hr /><p>You are reduced to 1 Hit Point instead, and your marked target takes damage equal to what it just dealt you, with no save. The duel does not end because one of you nearly did.</p>"
+            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Trigger</strong> An attack from your marked target would reduce you to 0 Hit Points.</p><hr /><p>The custom expects you to carry the blade home. You have never once been the one who needed carrying.</p><p>You are reduced to 1 Hit Point instead, and your marked target takes damage equal to what it just dealt you, with no save. The duel does not end because one of you nearly did.</p>"
         },
         "level": {
             "value": 14

@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>A creature within hazardous ground you created cannot regain Hit Points from any source, and any regeneration or fast healing it has is suppressed. The moment it leaves, healing works normally again — which is the part that makes people leave.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Whatever was going to fix them is not going to fix them in this room.</p><p>A creature within hazardous ground you created cannot regain Hit Points from any source, and any regeneration or fast healing it has is suppressed. The moment it leaves, healing works normally again — which is the part that makes people leave.</p>"
         },
         "level": {
             "value": 10

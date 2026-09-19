@@ -47,7 +47,7 @@
     "flags": {
         "cinderfall": {
             "incomplete": "'Can't be targeted by any effect' / 'location doesn't meaningfully exist' has no rule-element equivalent and stays unbuilt. The Immunity(all-damage) block above is buildable but [UNVERIFIED]: the literal \"all-damage\" string needs checking against the ImmunityType enum in pf2e-source/src/module/rules/rule-element/iwr/immunity.ts before treating it as final -- only that the field is an array was confirmed, not every valid literal. See feats-class-reckoner-draft.md open question 5.",
-            "track": "outside"
+            "track": "the-outside"
         }
     }
 }

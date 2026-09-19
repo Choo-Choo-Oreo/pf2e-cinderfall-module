@@ -11,7 +11,7 @@
         },
         "category": null,
         "description": {
-            "value": "<p><strong>Effect</strong> the next ally who acts on your signal before the start of your next turn gains +1 circumstance to their attack roll</p><hr /><p>A called coordinated strike boosts the ally who acts on it.</p>"
+            "value": "<p><strong>Tier</strong> Green</p><p><strong>Effect</strong> the next ally who acts on your signal before the start of your next turn gains +1 circumstance to their attack roll</p><hr /><p>A called coordinated strike boosts the ally who acts on it.</p>"
         },
         "publication": {
             "license": "ORC",

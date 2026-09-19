@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Requirement</strong> You have the Marrow Deep feat and would otherwise use it or Second Graft.</p><p><strong>Cost</strong> 6 Vitae</p><hr /><p>When you use Marrow Deep or Second Graft, you may choose a mutation from the Bloom Table's Major Mutation entries instead of the Minor entries, at triple the usual downtime and Vitae cost. Everything else about the procedure — permanence, no maintenance, the once-per-level limit it shares with the ordinary use — is unchanged.</p>"
+            "value": "<p><strong>Cast</strong> 3 days of downtime</p><p><strong>Requirement</strong> You have the Marrow Deep feat and would otherwise use it or Second Graft.</p><p><strong>Cost</strong> 6 Vitae</p><hr /><p>Marrow Deep can graft a Major mutation instead of a Minor one, at added cost and downtime.</p><p>When you use Marrow Deep or Second Graft, you may choose a mutation from the Bloom Table's Major Mutation entries instead of the Minor entries, at triple the usual downtime and Vitae cost. Everything else about the procedure — permanence, no maintenance, the once-per-level limit it shares with the ordinary use — is unchanged.</p>"
         },
         "level": {
             "value": 14

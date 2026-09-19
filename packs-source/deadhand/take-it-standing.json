@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Trigger</strong> An effect would knock you prone or move you against your will.</p><p><strong>Cost</strong> 1 Tally</p><hr /><p>You are not knocked prone, or you move up to 10 feet less than the effect would move you, your choice. If the effect would do both, one point of Tally answers only one of them. You may use this while unable to act, but not while unconscious.</p>"
+            "value": "<p><strong>Trigger</strong> An effect would knock you prone or move you against your will.</p><p><strong>Cost</strong> 1 Tally</p><hr /><p>Going down is a decision, and you have not made it.</p><p>You are not knocked prone, or you move up to 10 feet less than the effect would move you, your choice. If the effect would do both, one point of Tally answers only one of them. You may use this while unable to act, but not while unconscious.</p>"
         },
         "level": {
             "value": 4

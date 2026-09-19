@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Your Hot Load uses per day are equal to your Constitution modifier plus 3, and a Hot Loaded Strike that hits deals two additional damage dice rather than one. You still roll Gun Failure (§3) on a miss unless another feat says otherwise.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>You bet on guns for a living. You have been ahead for so long that the house stopped counting.</p><p>Your Hot Load uses per day are equal to your Constitution modifier plus 3, and a Hot Loaded Strike that hits deals two additional damage dice rather than one. You still roll Gun Failure (§3) on a miss unless another feat says otherwise.</p>"
         },
         "level": {
             "value": 20

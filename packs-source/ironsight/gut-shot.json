@@ -11,7 +11,7 @@
         },
         "category": null,
         "description": {
-            "value": "<p><strong>Effect</strong> a melee called shot can inflict persistent bleed 1d8 instead of a burst of immediate harm</p><hr /><p>Center mass, and let the wound do the rest of the work.</p>"
+            "value": "<p><strong>Tier</strong> Blooded</p><p><strong>Effect</strong> a melee called shot can inflict persistent bleed 1d8 instead of a burst of immediate harm</p><hr /><p>Center mass, and let the wound do the rest of the work.</p>"
         },
         "publication": {
             "license": "ORC",

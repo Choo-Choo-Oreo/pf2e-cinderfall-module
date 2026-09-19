@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Requirement</strong> You are already performing a bio-augment graft or removal on the patient.</p><hr /><p>When you are already at the table performing a graft or removal on a patient, you may also perform a Load walk-back — pulling a different bio-augment already in them to lower their Load — in the same sitting. The two recoveries run concurrently instead of stacking, so the patient is enfeebled and drained for whichever Grade is higher, not both added together. The walk-back is otherwise an ordinary removal: the pulled tissue is destroyed and its Resonance stays exactly where it was.</p>"
+            "value": "<p><strong>Requirement</strong> You are already performing a bio-augment graft or removal on the patient.</p><hr /><p>Fold a bio-augment's Load walk-back into a graft or removal you're already performing, at no extra downtime.</p><p>When you are already at the table performing a graft or removal on a patient, you may also perform a Load walk-back — pulling a different bio-augment already in them to lower their Load — in the same sitting. The two recoveries run concurrently instead of stacking, so the patient is enfeebled and drained for whichever Grade is higher, not both added together. The walk-back is otherwise an ordinary removal: the pulled tissue is destroyed and its Resonance stays exactly where it was.</p>"
         },
         "level": {
             "value": 8

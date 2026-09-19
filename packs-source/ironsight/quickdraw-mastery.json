@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Requirement</strong> You are wielding or can draw a firearm.</p><hr /><p>When an encounter begins, you act first in the initiative order regardless of your roll, and you are never off-guard at the start of an encounter for not having rolled. If another creature has an effect granting the same benefit, compare Perception as normal to break the tie.</p>"
+            "value": "<p><strong>Requirement</strong> You are wielding or can draw a firearm.</p><hr /><p>Automatically act first in a surprise round while armed.</p><p>When an encounter begins, you act first in the initiative order regardless of your roll, and you are never off-guard at the start of an encounter for not having rolled. If another creature has an effect granting the same benefit, compare Perception as normal to break the tie.</p>"
         },
         "level": {
             "value": 16

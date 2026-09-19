@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per augment per event</p><p><strong>Trigger</strong> An effect would suppress, disable, or shut down one of your augments.</p><hr /><p>Attempt a DC 5 flat check. On a success, that augment keeps functioning normally for as long as it's physically possible to.</p>"
+            "value": "<p><strong>Frequency</strong> once per augment per event</p><p><strong>Trigger</strong> An effect would suppress, disable, or shut down one of your augments.</p><hr /><p>Every augment you carry has a backup nobody asked for.</p><p>Attempt a DC 5 flat check. On a success, that augment keeps functioning normally for as long as it's physically possible to.</p>"
         },
         "level": {
             "value": 6

@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Cost</strong> 6 Vitae</p><p><strong>Range</strong> 30 feet</p><p><strong>Area</strong> 30-foot burst</p><p><strong>Saving Throw</strong> basic Reflex</p><hr /><p>Cut and throw a Graft of a Mark above your own capacity. It deals @Damage[16d6[force]] damage of a type you choose. Creatures that critically fail are <em>sickened 3</em> and take persistent damage of the same type equal to your level. You are <em>drained 1</em> until you next rest.</p>"
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Cost</strong> 6 Vitae</p><p><strong>Range</strong> 30 feet</p><p><strong>Area</strong> 30-foot burst</p><p><strong>Saving Throw</strong> basic Reflex</p><hr /><p>Everything you were carrying, and then a piece you were not carrying.</p><p>Cut and throw a Graft of a Mark above your own capacity. It deals 16d6 damage of a type you choose. Creatures that critically fail are <em>sickened 3</em> and take persistent damage of the same type equal to your level. You are <em>drained 1</em> until you next rest.</p>"
         },
         "level": {
             "value": 20

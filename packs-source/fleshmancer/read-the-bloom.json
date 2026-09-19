@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Requirement</strong> The target is within 30 feet and you can see it clearly.</p><hr /><p>Attempt a Medicine check against the target's Will DC to read what its flesh has already decided about itself. On a success, you learn how many mutations it carries and get a general sense of its Strain — comfortably under, straining, or about to overflow. On a critical success, you also learn what one specific mutation does.</p>"
+            "value": "<p><strong>Requirement</strong> The target is within 30 feet and you can see it clearly.</p><hr /><p>Recall Knowledge to identify a creature's mutations and roughly how close it sits to overflow.</p><p>Attempt a Medicine check against the target's Will DC to read what its flesh has already decided about itself. On a success, you learn how many mutations it carries and get a general sense of its Strain — comfortably under, straining, or about to overflow. On a critical success, you also learn what one specific mutation does.</p>"
         },
         "level": {
             "value": 2

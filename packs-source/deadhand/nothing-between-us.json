@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> while the duel lasts</p><hr /><p>Your marked target gains no benefit from cover, concealment, lesser cover, or being hidden from you, and cannot become undetected by you while it is within 60 feet. Other creatures may still interpose themselves physically — but they stop being cover and start being an obstacle, which is a different and shorter-lived problem.</p>"
+            "value": "<p><strong>Duration</strong> while the duel lasts</p><hr /><p>Whatever they put in the way was always going to be temporary.</p><p>Your marked target gains no benefit from cover, concealment, lesser cover, or being hidden from you, and cannot become undetected by you while it is within 60 feet. Other creatures may still interpose themselves physically — but they stop being cover and start being an obstacle, which is a different and shorter-lived problem.</p>"
         },
         "level": {
             "value": 12

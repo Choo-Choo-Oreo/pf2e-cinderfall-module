@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Cost</strong> 1 Vitae</p><p><strong>Duration</strong> 10 minutes</p><hr /><p>Grow a layer of dense secondary bone. You gain temporary Hit Points equal to twice your level and a +1 circumstance bonus to Fortitude saves for the duration. When it ends, any remaining temporary Hit Points are lost and you are <em>clumsy 1</em> until the end of your next turn as the set reabsorbs.</p>"
+            "value": "<p><strong>Cost</strong> 1 Vitae</p><p><strong>Duration</strong> 10 minutes</p><hr /><p>A second set, half-formed, sitting under the first. It is not comfortable. It is not supposed to be.</p><p>Grow a layer of dense secondary bone. You gain temporary Hit Points equal to twice your level and a +1 circumstance bonus to Fortitude saves for the duration. When it ends, any remaining temporary Hit Points are lost and you are <em>clumsy 1</em> until the end of your next turn as the set reabsorbs.</p>"
         },
         "level": {
             "value": 2

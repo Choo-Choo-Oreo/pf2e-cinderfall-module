@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per round</p><p><strong>Trigger</strong> You Name the Anchor.</p><hr /><p>As part of the same action, draw one Ward-Scrawled Charm and tear or burn it. The Charm resolves whether or not you succeed at Naming the Anchor, and it is spent either way. You must have a hand free to draw it.</p>"
+            "value": "<p><strong>Frequency</strong> once per round</p><p><strong>Trigger</strong> You Name the Anchor.</p><hr /><p>Draw and use a Ward-Scrawled Charm as part of the same action you spend Naming an Anchor.</p><p>As part of the same action, draw one Ward-Scrawled Charm and tear or burn it. The Charm resolves whether or not you succeed at Naming the Anchor, and it is spent either way. You must have a hand free to draw it.</p>"
         },
         "level": {
             "value": 2

@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You Redline.</p><hr /><p>You promise the Widow of Rust the trouble you are about to avoid. This Redline's effect is doubled — double its duration, or its damage, or its bonus, whichever single quantity it has. In exchange, the next three times you Redline you roll for Slippage twice and take the worse result. The debt cannot be paid down, refused, or transferred; it comes due in order.</p>"
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You Redline.</p><hr /><p>Scavenger-flavored, open to all — trade future Slippage risk for a large effect right now.</p><p>You promise the Widow of Rust the trouble you are about to avoid. This Redline's effect is doubled — double its duration, or its damage, or its bonus, whichever single quantity it has. In exchange, the next three times you Redline you roll for Slippage twice and take the worse result. The debt cannot be paid down, refused, or transferred; it comes due in order.</p>"
         },
         "level": {
             "value": 12

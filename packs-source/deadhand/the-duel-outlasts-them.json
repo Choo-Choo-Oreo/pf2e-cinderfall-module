@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> while the duel lasts</p><hr /><p>Your marked target takes a cumulative −1 circumstance penalty to its attack rolls and AC against you for each round after the third in which the duel has continued, to a maximum of −3. This resets if you mark a different creature, and it does not apply to anyone else in the fight.</p>"
+            "value": "<p><strong>Duration</strong> while the duel lasts</p><hr /><p>They wanted it over. That was the mistake.</p><p>Your marked target takes a cumulative −1 circumstance penalty to its attack rolls and AC against you for each round after the third in which the duel has continued, to a maximum of −3. This resets if you mark a different creature, and it does not apply to anyone else in the fight.</p>"
         },
         "level": {
             "value": 10

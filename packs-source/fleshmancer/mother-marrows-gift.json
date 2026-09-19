@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Requirement</strong> You have petitioned Mother Marrow (§5).</p><hr /><p>Once per day, treat a Medicine check or a Graft-crafting check as a critical success if it would otherwise be a success, or a success if it would otherwise fail. You must declare this before rolling.</p>"
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Requirement</strong> You have petitioned Mother Marrow (§5).</p><hr /><p>Requires a prior petition to Mother Marrow (§5) — once per day, auto-succeed a Medicine or Graft-crafting check.</p><p>Once per day, treat a Medicine check or a Graft-crafting check as a critical success if it would otherwise be a success, or a success if it would otherwise fail. You must declare this before rolling.</p>"
         },
         "level": {
             "value": 18

@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You draw an Overflow effect that targets a single creature.</p><p><strong>Area</strong> 10-foot burst within range of the effect</p><hr /><p>The effect applies to every valid target in the burst instead of to one creature. Each target is affected separately and attempts its own saving throw. The Reckoning advances once for the drawing, not once per target, and an effect that could not legally target a creature simply does not affect it.</p>"
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You draw an Overflow effect that targets a single creature.</p><p><strong>Area</strong> 10-foot burst within range of the effect</p><hr /><p>Apply an Overflow effect to every valid target in a burst at once.</p><p>The effect applies to every valid target in the burst instead of to one creature. Each target is affected separately and attempts its own saving throw. The Reckoning advances once for the drawing, not once per target, and an effect that could not legally target a creature simply does not affect it.</p>"
         },
         "level": {
             "value": 14

@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Range</strong> 30 feet</p><p><strong>Targets</strong> 1 creature in debt to you or that failed a Will save against one of your effects this encounter</p><p><strong>Frequency</strong> once per day</p><p><strong>Saving Throw</strong> Will</p><hr /><p>The target must succeed at a Will save against your class DC or become <em>stupefied 1</em> for 1 minute, overcome with the weight of what it owes. This is a mental effect.</p>"
+            "value": "<p><strong>Range</strong> 30 feet</p><p><strong>Targets</strong> 1 creature in debt to you or that failed a Will save against one of your effects this encounter</p><p><strong>Frequency</strong> once per day</p><p><strong>Saving Throw</strong> Will</p><hr /><p>Stupefy a creature that already owes you something.</p><p>The target must succeed at a Will save against your class DC or become <em>stupefied 1</em> for 1 minute, overcome with the weight of what it owes. This is a mental effect.</p>"
         },
         "level": {
             "value": 8
@@ -39,7 +39,7 @@
     "_id": "16APCL1WiwrNwUqp",
     "flags": {
         "cinderfall": {
-            "track": "ledger"
+            "track": "the-ledger"
         }
     }
 }

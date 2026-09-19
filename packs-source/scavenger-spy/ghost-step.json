@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p>Stride up to your Speed. During this movement you may move through spaces occupied by creatures no more than one size larger than you, and you may move through a space too tight for your size. This movement does not trigger reactions. You cannot end your movement in an occupied or too-tight space.</p>"
+            "value": "<p>Move through occupied or tight spaces without provoking a reaction.</p><p>Stride up to your Speed. During this movement you may move through spaces occupied by creatures no more than one size larger than you, and you may move through a space too tight for your size. This movement does not trigger reactions. You cannot end your movement in an occupied or too-tight space.</p>"
         },
         "level": {
             "value": 4

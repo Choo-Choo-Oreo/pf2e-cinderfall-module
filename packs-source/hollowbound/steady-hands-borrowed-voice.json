@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Trigger</strong> you begin a Parley</p><p><strong>Duration</strong> that Parley</p><hr /><p>Before you Parley, you may take 1 point of Toll. That Parley's base effect occurs without a check: it is neither rolled for nor resisted, and it cannot critically succeed. Only the base effect is guaranteed — any part of the Parley you pushed for extra Toll is rolled normally, and a guaranteed Parley cannot itself be pushed.</p>"
+            "value": "<p><strong>Tag</strong> General</p><p><strong>Trigger</strong> you begin a Parley</p><p><strong>Duration</strong> that Parley</p><hr /><p>Take on a Toll cost willingly, before the ask, to guarantee a Parley's base effect lands without a check.</p><p>Before you Parley, you may take 1 point of Toll. That Parley's base effect occurs without a check: it is neither rolled for nor resisted, and it cannot critically succeed. Only the base effect is guaranteed — any part of the Parley you pushed for extra Toll is rolled normally, and a guaranteed Parley cannot itself be pushed.</p>"
         },
         "level": {
             "value": 2

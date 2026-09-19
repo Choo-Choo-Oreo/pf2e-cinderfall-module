@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>You're immune to the <em>stupefied</em> condition. Once per day, when you would fail a saving throw against a mental effect, you may instead treat it as a critical success. Pride, taken far enough, stops being a flaw and starts being armor.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Immunity to stupefied, with a save turned automatic critical success once a day.</p><p>You're immune to the <em>stupefied</em> condition. Once per day, when you would fail a saving throw against a mental effect, you may instead treat it as a critical success. Pride, taken far enough, stops being a flaw and starts being armor.</p>"
         },
         "level": {
             "value": 16
@@ -45,7 +45,7 @@
     "flags": {
         "cinderfall": {
             "incomplete": "\"Once per day, when you would fail a save against a mental effect, you may instead treat it as a critical success\" is P-DEGREE-REACTIVE: AdjustDegreeOfSuccess registers its predicate in beforePrepareData, before the roll resolves (pf2e-source/src/module/rules/rule-element/adjust-degree-of-success.ts), so it has no hook for a player's post-roll voluntary choice made once per day. Every real failure-to-success AdjustDegreeOfSuccess found this pass (sneak-adept.json, forager.json, cooperative-soul.json, icy-apotheosis.json) is an unconditional passive with no frequency cap and no player choice at the moment of the roll.",
-            "track": "undoubted"
+            "track": "the-undoubted"
         }
     }
 }

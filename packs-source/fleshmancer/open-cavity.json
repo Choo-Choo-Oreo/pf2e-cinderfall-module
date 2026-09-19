@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Requirement</strong> The target is willing or <em>unconscious</em>.</p><p><strong>Cost</strong> 2 Vitae</p><p><strong>Range</strong> touch</p><hr /><p>The target regains Hit Points equal to 4 times your level, and one condition of your choice with a value &mdash; <em>clumsy</em>, <em>drained</em>, <em>enfeebled</em> or <em>stupefied</em> &mdash; is reduced by 2. Until the target next rests, its Hit Point maximum is reduced by your level; you closed it up in a hurry.</p>"
+            "value": "<p><strong>Requirement</strong> The target is willing or <em>unconscious</em>.</p><p><strong>Cost</strong> 2 Vitae</p><p><strong>Range</strong> touch</p><hr /><p>You get the ribs out of the way and work where the damage actually is.</p><p>The target regains Hit Points equal to 4 times your level, and one condition of your choice with a value &mdash; <em>clumsy</em>, <em>drained</em>, <em>enfeebled</em> or <em>stupefied</em> &mdash; is reduced by 2. Until the target next rests, its Hit Point maximum is reduced by your level; you closed it up in a hurry.</p>"
         },
         "level": {
             "value": 10

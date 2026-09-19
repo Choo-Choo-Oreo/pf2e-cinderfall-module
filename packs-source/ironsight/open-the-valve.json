@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Requirement</strong> You are wielding a loaded chemical or incendiary weapon.</p><p><strong>Area</strong> 15-foot cone</p><p><strong>Duration</strong> 1 minute</p><hr /><p>Empty the tank across the cone. Each creature in the area takes the weapon’s damage with a basic Reflex save against your class DC. The ground in the cone then remains hazardous for the duration: a creature that enters it or ends its turn there takes persistent damage of the weapon’s type. This is the baseline every other Foul Iron feat is built on.</p>"
+            "value": "<p><strong>Requirement</strong> You are wielding a loaded chemical or incendiary weapon.</p><p><strong>Area</strong> 15-foot cone</p><p><strong>Duration</strong> 1 minute</p><hr /><p>You do not fire a chem-thrower so much as you decide where the room stops being usable.</p><p>Empty the tank across the cone. Each creature in the area takes the weapon’s damage with a basic Reflex save against your class DC. The ground in the cone then remains hazardous for the duration: a creature that enters it or ends its turn there takes persistent damage of the weapon’s type. This is the baseline every other Foul Iron feat is built on.</p>"
         },
         "level": {
             "value": 2

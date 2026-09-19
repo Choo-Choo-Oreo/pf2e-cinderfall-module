@@ -11,7 +11,7 @@
         },
         "category": null,
         "description": {
-            "value": "<p><strong>Effect</strong> no new roll to present it so long as the DC to detect the forgery is 15 or lower (Novice) and nobody has reason yet to look twice</p><hr /><p>Produce a forged credential convincing enough to pass a glance-level check.</p>"
+            "value": "<p><strong>Tier</strong> Novice</p><p><strong>Activate</strong> 1 action to present, forged beforehand with a standard Crafting or Society check</p><p><strong>Effect</strong> no new roll to present it so long as the DC to detect the forgery is 15 or lower (Novice) and nobody has reason yet to look twice</p><hr /><p>Produce a forged credential convincing enough to pass a glance-level check.</p>"
         },
         "publication": {
             "license": "ORC",

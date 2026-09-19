@@ -22,7 +22,7 @@
             }
         },
         "description": {
-            "value": "<p>Grew up in company housing, ate company food, and learned company etiquette before you learned much else — whether your family worked for the corp or was simply owned by it depends on which corp.</p>"
+            "value": "<p><strong>Origin</strong> Megacorporations</p><p>Grew up in company housing, ate company food, and learned company etiquette before you learned much else — whether your family worked for the corp or was simply owned by it depends on which corp.</p>"
         },
         "items": {
             "company-manners": {

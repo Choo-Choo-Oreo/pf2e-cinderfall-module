@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per 10 minutes</p><p><strong>Range</strong> 30 feet</p><hr /><p>Choose up to three creatures you can see. Until the end of the encounter, the first healing Graft you apply to each of them restores an additional 2d8 Hit Points. You have decided the order, and your hands do not argue with it.</p>"
+            "value": "<p><strong>Frequency</strong> once per 10 minutes</p><p><strong>Range</strong> 30 feet</p><hr /><p>You look down the line once and you already know who is walking out.</p><p>Choose up to three creatures you can see. Until the end of the encounter, the first healing Graft you apply to each of them restores an additional 2d8 Hit Points. You have decided the order, and your hands do not argue with it.</p>"
         },
         "level": {
             "value": 8

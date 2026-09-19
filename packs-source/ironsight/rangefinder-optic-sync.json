@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Requirement</strong> You have an Ocular-slot cyber-augment with a targeting or rangefinder benefit.</p><hr /><p>The optic's been retuned to flag a Hot Load the instant the charge builds. On any turn you've spent a Hot Load, ignore the range penalty for the first range increment beyond your weapon's first on your remaining Strikes that turn. This doesn't extend the optic's own listed benefits — it just makes them fire early when the shot matters most.</p>"
+            "value": "<p><strong>Requirement</strong> You have an Ocular-slot cyber-augment with a targeting or rangefinder benefit.</p><hr /><p>A targeting optic reads your Hot Loads and corrects for range on the fly.</p><p>The optic's been retuned to flag a Hot Load the instant the charge builds. On any turn you've spent a Hot Load, ignore the range penalty for the first range increment beyond your weapon's first on your remaining Strikes that turn. This doesn't extend the optic's own listed benefits — it just makes them fire early when the shot matters most.</p>"
         },
         "level": {
             "value": 6

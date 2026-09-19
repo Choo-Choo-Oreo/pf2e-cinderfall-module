@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>While your Ward is threatened — a creature has targeted or damaged it this encounter and can still reach it — you can cast Vows with no Conviction left, going into debt. Each such casting puts you 1 Conviction in debt, to a maximum debt of 3. When the encounter ends the account settles: your pool is reduced by the debt, and any debt the pool can't cover carries over and is paid first out of whatever you next regain. While any debt stands you can't Refocus. Debt also settles at once if the Ward is no longer threatened for a full round.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Your Conviction has no floor while the Ward is threatened; the account settles when it isn't.</p><p>While your Ward is threatened — a creature has targeted or damaged it this encounter and can still reach it — you can cast Vows with no Conviction left, going into debt. Each such casting puts you 1 Conviction in debt, to a maximum debt of 3. When the encounter ends the account settles: your pool is reduced by the debt, and any debt the pool can't cover carries over and is paid first out of whatever you next regain. While any debt stands you can't Refocus. Debt also settles at once if the Ward is no longer threatened for a full round.</p>"
         },
         "level": {
             "value": 18

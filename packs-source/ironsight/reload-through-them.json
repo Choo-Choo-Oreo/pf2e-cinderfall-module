@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Requirement</strong> At least one enemy is adjacent to you.</p><hr /><p>Reload every firearm you are wielding and Step. This does not trigger reactions from any creature you were adjacent to when you began, and enemies that were adjacent to you are off-guard against your next Strike this turn.</p>"
+            "value": "<p><strong>Requirement</strong> At least one enemy is adjacent to you.</p><hr /><p>You keep the shells on the outside of the coat for exactly this reason.</p><p>Reload every firearm you are wielding and Step. This does not trigger reactions from any creature you were adjacent to when you began, and enemies that were adjacent to you are off-guard against your next Strike this turn.</p>"
         },
         "level": {
             "value": 6

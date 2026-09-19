@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>You gain a +2 circumstance bonus to saves against effects that would force you to break a promise, oath, or bargain against your will, and against compulsion effects generally.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>A standing bonus against being forced to break your word.</p><p>You gain a +2 circumstance bonus to saves against effects that would force you to break a promise, oath, or bargain against your will, and against compulsion effects generally.</p>"
         },
         "level": {
             "value": 16

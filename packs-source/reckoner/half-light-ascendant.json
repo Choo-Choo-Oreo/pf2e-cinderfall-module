@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>When you critically succeed at RUST TOUCH, the corrosion spreads to one creature adjacent to the target, which suffers the same -1 item penalty to its worn armor or held metal weapon until repaired. The spread copies the base penalty, not the critical one, and does not spread again from there.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Half-Light-flavored, open to all — Rust Touch spreads to a second adjacent target on a strong hit.</p><p>When you critically succeed at RUST TOUCH, the corrosion spreads to one creature adjacent to the target, which suffers the same -1 item penalty to its worn armor or held metal weapon until repaired. The spread copies the base penalty, not the critical one, and does not spread again from there.</p>"
         },
         "level": {
             "value": 12

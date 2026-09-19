@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Requirement</strong> You are wielding a two-handed melee weapon.</p><hr /><p>Two-handed melee weapons you wield gain the <em>shove</em> trait, and when you critically hit with one you may push the target 5 feet directly away from you. Your two-handed melee weapons never gain the broken condition as a result of your own critical failure on a Strike.</p>"
+            "value": "<p><strong>Requirement</strong> You are wielding a two-handed melee weapon.</p><hr /><p>Nothing you carry was built light, and nothing you carry has ever broken first.</p><p>Two-handed melee weapons you wield gain the <em>shove</em> trait, and when you critically hit with one you may push the target 5 feet directly away from you. Your two-handed melee weapons never gain the broken condition as a result of your own critical failure on a Strike.</p>"
         },
         "level": {
             "value": 2

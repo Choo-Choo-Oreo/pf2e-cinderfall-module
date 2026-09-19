@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Cost</strong> 2 Conviction</p><p><strong>Area</strong> 20-foot emanation, fixed where you cast it</p><p><strong>Duration</strong> 1 minute</p><hr /><p>The Oath becomes ground. Allies in the area, your Ward included, gain a +2 circumstance bonus to AC against Strikes by any creature you have Answered this encounter, and they can't be forcibly moved out of the area. The area doesn't move with you; leave it and it stands without you. This does not extend The Answer to the allies in it — that is what Ascend the Oath does at 20th.</p>"
+            "value": "<p><strong>Cost</strong> 2 Conviction</p><p><strong>Area</strong> 20-foot emanation, fixed where you cast it</p><p><strong>Duration</strong> 1 minute</p><hr /><p>The Oath stops being a promise and starts being a place other things can stand.</p><p>The Oath becomes ground. Allies in the area, your Ward included, gain a +2 circumstance bonus to AC against Strikes by any creature you have Answered this encounter, and they can't be forcibly moved out of the area. The area doesn't move with you; leave it and it stands without you. This does not extend The Answer to the allies in it — that is what Ascend the Oath does at 20th.</p>"
         },
         "level": {
             "value": 18

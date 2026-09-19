@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Range</strong> 60 feet</p><p><strong>Targets</strong> 1 creature</p><p><strong>Duration</strong> 10 minutes</p><hr /><p>The target is marked with your patron's sigil, with no save. You and any ally who can see the sigil gain a +1 circumstance bonus to attack rolls and to Rite spell attack rolls against the marked creature. You always know the direction and rough distance to a creature carrying your sigil, even out of sight. Only one creature may carry your sigil at a time.</p>"
+            "value": "<p><strong>Range</strong> 60 feet</p><p><strong>Targets</strong> 1 creature</p><p><strong>Duration</strong> 10 minutes</p><hr /><p>Mark a creature with your patron's sigil, tagging it for follow-up effects.</p><p>The target is marked with your patron's sigil, with no save. You and any ally who can see the sigil gain a +1 circumstance bonus to attack rolls and to Rite spell attack rolls against the marked creature. You always know the direction and rough distance to a creature carrying your sigil, even out of sight. Only one creature may carry your sigil at a time.</p>"
         },
         "level": {
             "value": 4

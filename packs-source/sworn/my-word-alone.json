@@ -11,7 +11,7 @@
         "damage": {},
         "defense": null,
         "description": {
-            "value": "<p><strong>Focus</strong> 1</p><hr /><p>Touch an ally and give them your word — nothing more, no institution backing it. The target gains a +1 circumstance bonus to its next saving throw.</p>"
+            "value": "<p><strong>Focus</strong> 1</p><p><strong>Components</strong> verbal only</p><hr /><p>Touch an ally and give them your word — nothing more, no institution backing it. The target gains a +1 circumstance bonus to its next saving throw.</p>"
         },
         "duration": {
             "sustained": false,

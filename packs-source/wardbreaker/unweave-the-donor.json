@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per character level</p><p><strong>Requirement</strong> Willing target with Resonance 1 or higher.</p><hr /><p>You perform a Walk-back 2 rite — the same rite Wardbreaker's unbinding, the Choir of Ash's rite, or a Seed-Warden's Grove-Bind would otherwise take a week of downtime to complete — in a single action, right now, on a willing target. It reduces the target's Resonance by 1, exactly as the week-long version would. This still only works once per character level, same as the ordinary rite, and the two don't stack into two uses at the same level.</p>"
+            "value": "<p><strong>Frequency</strong> once per character level</p><p><strong>Requirement</strong> Willing target with Resonance 1 or higher.</p><hr /><p>Perform a bio-augment's Walk-back 2 rite in a single action instead of a week of downtime.</p><p>You perform a Walk-back 2 rite — the same rite Wardbreaker's unbinding, the Choir of Ash's rite, or a Seed-Warden's Grove-Bind would otherwise take a week of downtime to complete — in a single action, right now, on a willing target. It reduces the target's Resonance by 1, exactly as the week-long version would. This still only works once per character level, same as the ordinary rite, and the two don't stack into two uses at the same level.</p>"
         },
         "level": {
             "value": 17

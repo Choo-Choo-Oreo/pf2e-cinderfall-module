@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per round</p><p><strong>Trigger</strong> An enemy within 60 feet succeeds at a check or saving throw.</p><p><strong>Cost</strong> 1 Zeal</p><hr /><p>The enemy rerolls and must use the second result, even if it is better. This is a misfortune effect. If the reroll is also a success, the Croupier is amused and you regain the Zeal — the house does not charge for a losing bet.</p>"
+            "value": "<p><strong>Frequency</strong> once per round</p><p><strong>Trigger</strong> An enemy within 60 feet succeeds at a check or saving throw.</p><p><strong>Cost</strong> 1 Zeal</p><hr /><p>Croupier-flavored, open to all — force a reroll onto an enemy's result instead of your own.</p><p>The enemy rerolls and must use the second result, even if it is better. This is a misfortune effect. If the reroll is also a success, the Croupier is amused and you regain the Zeal — the house does not charge for a losing bet.</p>"
         },
         "level": {
             "value": 12
@@ -39,7 +39,7 @@
     "_id": "oJz4yFS3pUxZcuLw",
     "flags": {
         "cinderfall": {
-            "track": "croupier"
+            "track": "the-croupier"
         }
     }
 }

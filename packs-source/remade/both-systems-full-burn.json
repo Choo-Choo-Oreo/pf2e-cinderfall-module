@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You would be reduced to 0 Hit Points.</p><hr /><p>You remain conscious at 1 Hit Point instead of falling unconscious, and are treated as though you automatically stabilized. You are still dying as normal if you take further damage.</p>"
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You would be reduced to 0 Hit Points.</p><hr /><p>Everything you've had installed and everything that's grown into you fires at once to keep you upright.</p><p>You remain conscious at 1 Hit Point instead of falling unconscious, and are treated as though you automatically stabilized. You are still dying as normal if you take further damage.</p>"
         },
         "level": {
             "value": 18

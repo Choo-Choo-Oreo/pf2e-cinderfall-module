@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Range</strong> 30 feet</p><p><strong>Check</strong> Crafting</p><hr /><p>Study any container of fuel, solvent, propellant or unidentified chemical. You learn what it is, what it does when ignited or pressurised, and whether it is stable enough to move. On a critical success you may also decant a single dose usable as ammunition for a chemical weapon before your next daily preparations.</p>"
+            "value": "<p><strong>Range</strong> 30 feet</p><p><strong>Check</strong> Crafting</p><hr /><p>Every barrel in the wasteland is labelled wrong. You have stopped reading the labels.</p><p>Study any container of fuel, solvent, propellant or unidentified chemical. You learn what it is, what it does when ignited or pressurised, and whether it is stable enough to move. On a critical success you may also decant a single dose usable as ammunition for a chemical weapon before your next daily preparations.</p>"
         },
         "level": {
             "value": 4

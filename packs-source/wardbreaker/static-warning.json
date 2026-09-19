@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Range</strong> reach</p><p><strong>Duration</strong> constant</p><hr /><p>Your Static prickles and the people beside you learn to read it. An ally within your reach gains a +1 circumstance bonus to AC against a Named target's next attack against it, or to its first saving throw against a Named target's effect, whichever comes first. Each ally benefits once per Named target per encounter.</p>"
+            "value": "<p><strong>Range</strong> reach</p><p><strong>Duration</strong> constant</p><hr /><p>Allies within reach gain a bonus to their first save or AC against a Named target's next attack.</p><p>Your Static prickles and the people beside you learn to read it. An ally within your reach gains a +1 circumstance bonus to AC against a Named target's next attack against it, or to its first saving throw against a Named target's effect, whichever comes first. Each ally benefits once per Named target per encounter.</p>"
         },
         "level": {
             "value": 2

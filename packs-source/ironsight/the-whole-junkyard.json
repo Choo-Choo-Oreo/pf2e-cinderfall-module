@@ -11,7 +11,7 @@
         },
         "category": null,
         "description": {
-            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Trigger</strong> any Trick Iron reload effect</p><p><strong>Effect</strong> swap your entire loadout of improvised weapons at once</p><hr /><p>Every scrap of scrap you're carrying, ready at once.</p>"
+            "value": "<p><strong>Tier</strong> Veteran</p><p><strong>Frequency</strong> once per encounter</p><p><strong>Trigger</strong> any Trick Iron reload effect</p><p><strong>Effect</strong> swap your entire loadout of improvised weapons at once</p><hr /><p>Every scrap of scrap you're carrying, ready at once.</p>"
         },
         "publication": {
             "license": "ORC",

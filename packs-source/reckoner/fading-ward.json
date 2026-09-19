@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Targets</strong> you or 1 willing creature you touch</p><p><strong>Duration</strong> 1 minute</p><hr /><p>The target gains a +1 status bonus to AC and to all saving throws for the duration. When the duration ends, the target takes a -1 status penalty to AC and to all saving throws for 1 minute afterward. The later cost is not a risk and cannot be avoided, resisted, or dispelled — it is the same bargain the Reckoning is, in miniature.</p>"
+            "value": "<p><strong>Targets</strong> you or 1 willing creature you touch</p><p><strong>Duration</strong> 1 minute</p><hr /><p>A protective effect that borrows against future decay — helps now, at a small guaranteed cost later.</p><p>The target gains a +1 status bonus to AC and to all saving throws for the duration. When the duration ends, the target takes a -1 status penalty to AC and to all saving throws for 1 minute afterward. The later cost is not a risk and cannot be avoided, resisted, or dispelled — it is the same bargain the Reckoning is, in miniature.</p>"
         },
         "level": {
             "value": 4

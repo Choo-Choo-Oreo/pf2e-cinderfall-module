@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You attempt a check or saving throw your patron's domain covers, or you roll on the Backlash Table.</p><hr /><p>Choose one, when the trigger occurs: treat the check or saving throw as a success without rolling — a natural 20 was never promised, only a success; or ignore the Backlash result entirely, as though the roll had not been made. Your patron's domain is the one named on its card, and the GM has final say over what it covers. This favour is spent whether or not it was needed.</p>"
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You attempt a check or saving throw your patron's domain covers, or you roll on the Backlash Table.</p><hr /><p>Once per day, auto-succeed a check tied to your patron's domain, or shrug off a Backlash result entirely.</p><p>Choose one, when the trigger occurs: treat the check or saving throw as a success without rolling — a natural 20 was never promised, only a success; or ignore the Backlash result entirely, as though the roll had not been made. Your patron's domain is the one named on its card, and the GM has final say over what it covers. This favour is spent whether or not it was needed.</p>"
         },
         "level": {
             "value": 18

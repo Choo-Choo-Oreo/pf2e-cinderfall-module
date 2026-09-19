@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per round</p><p><strong>Trigger</strong> You throw a Graft.</p><hr /><p>When your thrown Graft&rsquo;s splash damages a creature, that creature&rsquo;s square becomes a new splash origin, dealing the same splash damage once to each creature adjacent to it. It chains no further than that.</p>"
+            "value": "<p><strong>Frequency</strong> once per round</p><p><strong>Trigger</strong> You throw a Graft.</p><hr /><p>The splash finds the next one, and the one after that.</p><p>When your thrown Graft&rsquo;s splash damages a creature, that creature&rsquo;s square becomes a new splash origin, dealing the same splash damage once to each creature adjacent to it. It chains no further than that.</p>"
         },
         "level": {
             "value": 20

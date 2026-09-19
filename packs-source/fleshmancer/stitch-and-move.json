@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per round</p><p><strong>Trigger</strong> You apply a healing Graft to a creature within reach.</p><hr /><p>Immediately after the Graft resolves, you Step. If you applied it to someone other than yourself, that creature may Step instead of you, at their choice.</p>"
+            "value": "<p><strong>Frequency</strong> once per round</p><p><strong>Trigger</strong> You apply a healing Graft to a creature within reach.</p><hr /><p>The suture goes in on the way past. Neither of you stops walking.</p><p>Immediately after the Graft resolves, you Step. If you applied it to someone other than yourself, that creature may Step instead of you, at their choice.</p>"
         },
         "level": {
             "value": 6

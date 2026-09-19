@@ -22,7 +22,7 @@
             }
         },
         "description": {
-            "value": "<p>You worked the Paradise server-farms — coolant lines, drive swaps, keeping the racks fed and the halls cold. Honest work, and it pays. Nobody who does it for long comes away clean: the ambient soul-static of the place gets under your skin and stays there.</p>"
+            "value": "<p><strong>Origin</strong> New Veracruz / Paradise Servers</p><p>You worked the Paradise server-farms — coolant lines, drive swaps, keeping the racks fed and the halls cold. Honest work, and it pays. Nobody who does it for long comes away clean: the ambient soul-static of the place gets under your skin and stays there.</p>"
         },
         "items": {
             "half-logged-in": {

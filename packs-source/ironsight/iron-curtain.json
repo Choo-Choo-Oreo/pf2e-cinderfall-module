@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Requirement</strong> You are wielding a loaded firearm.</p><p><strong>Area</strong> 20-foot line or 15-foot burst within 60 feet</p><p><strong>Duration</strong> 1 minute, or until you Dismiss it</p><hr /><p>Sustain a curtain of fire across the area. Allies within or behind it gain standard cover against attacks that cross it, and enemies attempting to cross take a −2 circumstance penalty to attack rolls until the end of their turn. Sustaining costs you 1 action on each of your turns and empties one loaded weapon per turn sustained.</p>"
+            "value": "<p><strong>Requirement</strong> You are wielding a loaded firearm.</p><p><strong>Area</strong> 20-foot line or 15-foot burst within 60 feet</p><p><strong>Duration</strong> 1 minute, or until you Dismiss it</p><hr /><p>Lay down a zone of suppressive fire allies can use as effective cover.</p><p>Sustain a curtain of fire across the area. Allies within or behind it gain standard cover against attacks that cross it, and enemies attempting to cross take a −2 circumstance penalty to attack rolls until the end of their turn. Sustaining costs you 1 action on each of your turns and empties one loaded weapon per turn sustained.</p>"
         },
         "level": {
             "value": 16

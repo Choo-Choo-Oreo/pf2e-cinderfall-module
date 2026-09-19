@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per round</p><p><strong>Trigger</strong> You spend 1 action holding a prepared Graft without throwing it.</p><hr /><p>The Graft&rsquo;s damage dice increase by 2 and its save DC increases by 1. If you take damage while holding it, attempt a DC 11 flat check; on a failure it goes off in your own square instead.</p>"
+            "value": "<p><strong>Frequency</strong> once per round</p><p><strong>Trigger</strong> You spend 1 action holding a prepared Graft without throwing it.</p><hr /><p>It gets worse in your hand. That is the whole design.</p><p>The Graft&rsquo;s damage dice increase by 2 and its save DC increases by 1. If you take damage while holding it, attempt a DC 11 flat check; on a failure it goes off in your own square instead.</p>"
         },
         "level": {
             "value": 16

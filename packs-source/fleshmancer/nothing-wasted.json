@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per day</p><hr /><p>Harvest usable tissue from a creature dead less than an hour. You regain Vitae equal to 1 + half the creature&rsquo;s level (minimum 1), up to your normal daily cap. A creature can be harvested this way only once.</p>"
+            "value": "<p><strong>Cast</strong> 10 minutes</p><p><strong>Frequency</strong> once per day</p><hr /><p>What comes out of one is still good. Someone taught you that and you have never been able to unlearn it.</p><p>Harvest usable tissue from a creature dead less than an hour. You regain Vitae equal to 1 + half the creature&rsquo;s level (minimum 1), up to your normal daily cap. A creature can be harvested this way only once.</p>"
         },
         "level": {
             "value": 4

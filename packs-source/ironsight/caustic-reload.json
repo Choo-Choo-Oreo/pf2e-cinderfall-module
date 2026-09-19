@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Requirement</strong> Your chemical or incendiary weapon is empty.</p><hr /><p>Scrape the dregs together and fire them. Make a chemical Strike or use a Foul Iron area feat without expending ammunition. The damage type of this attack changes to acid regardless of the weapon’s usual type, and any hazardous ground it creates ignores resistance to its damage type.</p>"
+            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Requirement</strong> Your chemical or incendiary weapon is empty.</p><hr /><p>There is always something left in the bottom of the tank, and it is always worse than what came out first.</p><p>Scrape the dregs together and fire them. Make a chemical Strike or use a Foul Iron area feat without expending ammunition. The damage type of this attack changes to acid regardless of the weapon’s usual type, and any hazardous ground it creates ignores resistance to its damage type.</p>"
         },
         "level": {
             "value": 8

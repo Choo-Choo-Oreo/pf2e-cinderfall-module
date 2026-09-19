@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Area</strong> 60-foot emanation</p><p><strong>Duration</strong> 1 minute</p><hr /><p>The atmosphere around you becomes the weapon. Every creature in the emanation other than you and your allies takes your chemical weapon’s damage at the start of each of its turns, with no save to avoid it and no cover that helps. The area is not hazardous ground and cannot be moved, expanded or extinguished. It simply is the room now.</p>"
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Area</strong> 60-foot emanation</p><p><strong>Duration</strong> 1 minute</p><hr /><p>There is no clean breath left in here and there has not been for some minutes.</p><p>The atmosphere around you becomes the weapon. Every creature in the emanation other than you and your allies takes your chemical weapon’s damage at the start of each of its turns, with no save to avoid it and no cover that helps. The area is not hazardous ground and cannot be moved, expanded or extinguished. It simply is the room now.</p>"
         },
         "level": {
             "value": 18

@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per round</p><p><strong>Trigger</strong> You fail a saving throw.</p><p><strong>Cost</strong> 1 Zeal</p><hr /><p>Reroll the triggering saving throw and use the second result, even if it is worse. This is a fortune effect. If the reroll also fails, your patron notes the second failure: the next Zeal you spend before your next daily preparations costs 1 additional Zeal.</p>"
+            "value": "<p><strong>Frequency</strong> once per round</p><p><strong>Trigger</strong> You fail a saving throw.</p><p><strong>Cost</strong> 1 Zeal</p><hr /><p>Spend Zeal to reroll a failed saving throw.</p><p>Reroll the triggering saving throw and use the second result, even if it is worse. This is a fortune effect. If the reroll also fails, your patron notes the second failure: the next Zeal you spend before your next daily preparations costs 1 additional Zeal.</p>"
         },
         "level": {
             "value": 6
@@ -39,7 +39,7 @@
     "_id": "IqcTquOzzh719hco",
     "flags": {
         "cinderfall": {
-            "track": "croupier"
+            "track": "the-croupier"
         }
     }
 }

@@ -11,7 +11,7 @@
         },
         "category": null,
         "description": {
-            "value": "<p><strong>Requirement</strong> target is fully marked (maximum time-in-sights, cap now +6)</p><p><strong>Effect</strong> the called shot deals an extra 2d8 damage and can target a called location — an eye, a fuel line, a joint — inflicting blinded, staggered 1, or a crippled limb (GM's call) on a hit</p><hr /><p>A maximum-marked called shot can end a fight before it starts.</p>"
+            "value": "<p><strong>Tier</strong> Veteran</p><p><strong>Requirement</strong> target is fully marked (maximum time-in-sights, cap now +6)</p><p><strong>Effect</strong> the called shot deals an extra 2d8 damage and can target a called location — an eye, a fuel line, a joint — inflicting blinded, staggered 1, or a crippled limb (GM's call) on a hit</p><hr /><p>A maximum-marked called shot can end a fight before it starts.</p>"
         },
         "publication": {
             "license": "ORC",

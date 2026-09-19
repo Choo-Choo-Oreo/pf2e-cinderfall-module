@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Trigger</strong> You finish an action on your turn.</p><p><strong>Requirement</strong> You are in ash, dust, smoke, haze, rubble, or similar wasteland cover.</p><hr /><p>Attempt a Stealth check to Hide, even if you are currently observed and even if you lack cover or concealment. On a success you are hidden until the end of your next turn, or until you attack or force a creature to notice you.</p>"
+            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Trigger</strong> You finish an action on your turn.</p><p><strong>Requirement</strong> You are in ash, dust, smoke, haze, rubble, or similar wasteland cover.</p><hr /><p>Use wasteland debris and fallout haze to slip from sight after acting.</p><p>Attempt a Stealth check to Hide, even if you are currently observed and even if you lack cover or concealment. On a success you are hidden until the end of your next turn, or until you attack or force a creature to notice you.</p>"
         },
         "level": {
             "value": 4

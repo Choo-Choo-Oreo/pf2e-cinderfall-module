@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Requirement</strong> A firing position you have prepared and not left.</p><hr /><p>Settle in for the whole day. For the next 24 hours, while you remain in that position you are undetected by any creature that has not physically searched your space, you do not need to eat, drink, or sleep, and the first Strike you make against each creature that enters your field of fire is an automatic critical hit if it would otherwise have hit.</p>"
+            "value": "<p><strong>Cast</strong> 8 hours</p><p><strong>Frequency</strong> once per day</p><p><strong>Requirement</strong> A firing position you have prepared and not left.</p><hr /><p>You will be there when they arrive because you were there before they decided to come.</p><p>Settle in for the whole day. For the next 24 hours, while you remain in that position you are undetected by any creature that has not physically searched your space, you do not need to eat, drink, or sleep, and the first Strike you make against each creature that enters your field of fire is an automatic critical hit if it would otherwise have hit.</p>"
         },
         "level": {
             "value": 20

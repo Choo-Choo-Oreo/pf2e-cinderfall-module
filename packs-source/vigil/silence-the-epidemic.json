@@ -11,7 +11,7 @@
         "damage": {},
         "defense": null,
         "description": {
-            "value": "<p>Every raging spirit in the area falls permanently still — not destroyed, released.</p>"
+            "value": "<p><strong>Saving Throw</strong> none (a uniquely powerful named spirit may warrant a Will save at GM discretion)</p><p>Every raging spirit in the area falls permanently still — not destroyed, released.</p>"
         },
         "duration": {
             "sustained": false,

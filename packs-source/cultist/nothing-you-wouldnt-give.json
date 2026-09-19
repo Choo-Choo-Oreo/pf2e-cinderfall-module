@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Range</strong> 30 feet</p><p><strong>Targets</strong> 1 creature</p><p><strong>Frequency</strong> once per day</p><p><strong>Saving Throw</strong> Will</p><p><strong>Duration</strong> 1 minute</p><hr /><p>The target must succeed at a Will save against your class DC or, for the duration, hand over one item it's holding or cast one of its own beneficial spells or Rites on you if you ask, as though it wanted nothing more (on a critical failure it also can't refuse a second such request). This is an emotion, incapacitation, and mental effect. The Claimant has never had to take anything by force.</p>"
+            "value": "<p><strong>Range</strong> 30 feet</p><p><strong>Targets</strong> 1 creature</p><p><strong>Frequency</strong> once per day</p><p><strong>Saving Throw</strong> Will</p><p><strong>Duration</strong> 1 minute</p><hr /><p>Compel a target to hand over an item or a spell.</p><p>The target must succeed at a Will save against your class DC or, for the duration, hand over one item it's holding or cast one of its own beneficial spells or Rites on you if you ask, as though it wanted nothing more (on a critical failure it also can't refuse a second such request). This is an emotion, incapacitation, and mental effect. The Claimant has never had to take anything by force.</p>"
         },
         "level": {
             "value": 18
@@ -39,7 +39,7 @@
     "_id": "YVEYAJ9yJb0Hti2E",
     "flags": {
         "cinderfall": {
-            "track": "claimant"
+            "track": "the-claimant"
         }
     }
 }

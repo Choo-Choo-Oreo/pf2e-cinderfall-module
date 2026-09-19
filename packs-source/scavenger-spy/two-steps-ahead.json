@@ -11,7 +11,7 @@
         },
         "category": null,
         "description": {
-            "value": "<p><strong>Freq</strong> 1/job</p><p><strong>Trigger</strong> the target's predicted countermeasure occurs</p><p><strong>Effect</strong> negate it entirely or convert it into a +2 circumstance bonus (Skilled) to the party's response, GM's call to fit the fiction</p><hr /><p>Predict a target's most likely countermeasure and have a prepared answer ready.</p>"
+            "value": "<p><strong>Tier</strong> Skilled</p><p><strong>Freq</strong> 1/job</p><p><strong>Trigger</strong> the target's predicted countermeasure occurs</p><p><strong>Effect</strong> negate it entirely or convert it into a +2 circumstance bonus (Skilled) to the party's response, GM's call to fit the fiction</p><hr /><p>Predict a target's most likely countermeasure and have a prepared answer ready.</p>"
         },
         "publication": {
             "license": "ORC",

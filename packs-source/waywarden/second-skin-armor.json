@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Your hide thickens. You gain a +1 item bonus to AC. This bonus does not stack with the item bonus of armor you are wearing; you use whichever is higher.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>A natural armor bonus born of long exposure to the wasteland's worst.</p><p>Your hide thickens. You gain a +1 item bonus to AC. This bonus does not stack with the item bonus of armor you are wearing; you use whichever is higher.</p>"
         },
         "level": {
             "value": 10

@@ -11,7 +11,7 @@
         "damage": {},
         "defense": null,
         "description": {
-            "value": "<p>You instantly and truly know one specific fact about the target — no save, no resistance — at a small immediate personal cost: you lose 1 point of maximum HP until your next daily preparations, as something of yours is spent to buy the fact outright.</p>"
+            "value": "<p><strong>Aspect</strong> Forbidden Cognition</p><p><strong>Cost</strong> Focus 1</p><p>You instantly and truly know one specific fact about the target — no save, no resistance — at a small immediate personal cost: you lose 1 point of maximum HP until your next daily preparations, as something of yours is spent to buy the fact outright.</p>"
         },
         "duration": {
             "sustained": false,
@@ -38,7 +38,9 @@
         },
         "traits": {
             "rarity": "common",
-            "traditions": [],
+            "traditions": [
+                "divine"
+            ],
             "value": [
                 "focus",
                 "reckoner"

@@ -51,6 +51,7 @@
     "_id": "7hmBdbJPo0r6SVPr",
     "flags": {
         "cinderfall": {
+            "trackColor": "#8FB2CC",
             "subclassOf": "vigil",
             "role": "Holdout Faith in the Silent God",
             "subclassLayer": "path"

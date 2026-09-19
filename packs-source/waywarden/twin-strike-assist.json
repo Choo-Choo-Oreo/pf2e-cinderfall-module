@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per round</p><p><strong>Trigger</strong> You begin a Strike against a creature your Feral Bond can see.</p><hr /><p>Your Feral Bond harries the target from wherever it stands. You gain a +1 circumstance bonus to the triggering attack roll. Your Bond need not be adjacent to the target, and need not have prepared to Aid.</p>"
+            "value": "<p><strong>Frequency</strong> once per round</p><p><strong>Trigger</strong> You begin a Strike against a creature your Feral Bond can see.</p><hr /><p>Your Feral Bond assists your attack even without repositioning.</p><p>Your Feral Bond harries the target from wherever it stands. You gain a +1 circumstance bonus to the triggering attack roll. Your Bond need not be adjacent to the target, and need not have prepared to Aid.</p>"
         },
         "level": {
             "value": 4

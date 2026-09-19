@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Your called command and other Cadre abilities may target any willing creature who can hear and understand you, not only allies — bystanders, hirelings, prisoners, and people who happened to be in the building. A creature commanded this way who is not your ally may attempt a Will save against your Class DC to refuse, and most of them do not bother.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Everyone who can hear you has become, without being asked, somebody who works for you.</p><p>Your called command and other Cadre abilities may target any willing creature who can hear and understand you, not only allies — bystanders, hirelings, prisoners, and people who happened to be in the building. A creature commanded this way who is not your ally may attempt a Will save against your Class DC to refuse, and most of them do not bother.</p>"
         },
         "level": {
             "value": 16

@@ -11,7 +11,7 @@
         },
         "category": null,
         "description": {
-            "value": "<p><strong>Effect</strong> each hit against the same armored foe reduces its Hardness or resistance to physical damage by 2, stacking to a maximum of −6, for the rest of the encounter</p><hr /><p>Solid hits against armor compound, stripping more integrity each time.</p>"
+            "value": "<p><strong>Tier</strong> Blooded</p><p><strong>Activate</strong> passive, triggers automatically on a hit</p><p><strong>Effect</strong> each hit against the same armored foe reduces its Hardness or resistance to physical damage by 2, stacking to a maximum of −6, for the rest of the encounter</p><hr /><p>Solid hits against armor compound, stripping more integrity each time.</p>"
         },
         "publication": {
             "license": "ORC",

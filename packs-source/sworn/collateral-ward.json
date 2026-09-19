@@ -11,7 +11,7 @@
         "damage": {},
         "defense": null,
         "description": {
-            "value": "<p><strong>Focus</strong> 1</p><hr /><p>A contract clause made briefly, physically real. Touch an ally and bind their next injury to yourself: the next time the target would take damage before the duration ends, you can redirect half that damage (round down), to a maximum equal to your level, onto yourself instead. This redirection can trigger only once per casting — the instant it fires, or the moment the duration lapses, the Vow closes out.</p>"
+            "value": "<p><strong>Focus</strong> 1</p><p><strong>Components</strong> somatic, verbal</p><hr /><p>A contract clause made briefly, physically real. Touch an ally and bind their next injury to yourself: the next time the target would take damage before the duration ends, you can redirect half that damage (round down), to a maximum equal to your level, onto yourself instead. This redirection can trigger only once per casting — the instant it fires, or the moment the duration lapses, the Vow closes out.</p>"
         },
         "duration": {
             "sustained": false,

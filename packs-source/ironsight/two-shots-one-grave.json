@@ -11,7 +11,7 @@
         },
         "category": null,
         "description": {
-            "value": "<p><strong>Trigger</strong> your first shot on a target misses</p><p><strong>Effect</strong> your second shot automatically gains +4 circumstance to hit</p><hr /><p>Your pistols have fired together so many times they no longer miss in the same place twice.</p>"
+            "value": "<p><strong>Tier</strong> Undying</p><p><strong>Trigger</strong> your first shot on a target misses</p><p><strong>Effect</strong> your second shot automatically gains +4 circumstance to hit</p><hr /><p>Your pistols have fired together so many times they no longer miss in the same place twice.</p>"
         },
         "publication": {
             "license": "ORC",

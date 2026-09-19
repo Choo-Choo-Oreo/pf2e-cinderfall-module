@@ -39,6 +39,7 @@
     "_id": "0KF9tcMCabQEOlVm",
     "flags": {
         "cinderfall": {
+            "trackColor": "#c9a227",
             "subclassOf": "deadhand",
             "role": "Heavy Ordnance",
             "subclassLayer": "trade"

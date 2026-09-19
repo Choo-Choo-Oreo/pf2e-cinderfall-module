@@ -16,7 +16,7 @@
             }
         },
         "description": {
-            "value": "<i>Failure</i> slowed 1; each round you Sustain this spell the slowed value worsens by 1, no additional save. <i>Critical Failure</i> as failure, but starting at slowed 2."
+            "value": "<p><strong>Aspect</strong> Spaghettification</p><p><strong>Cost</strong> Focus 1</p><hr /><i>Failure</i> slowed 1; each round you Sustain this spell the slowed value worsens by 1, no additional save. <i>Critical Failure</i> as failure, but starting at slowed 2."
         },
         "duration": {
             "sustained": true,
@@ -43,7 +43,9 @@
         },
         "traits": {
             "rarity": "common",
-            "traditions": [],
+            "traditions": [
+                "divine"
+            ],
             "value": [
                 "focus",
                 "reckoner"

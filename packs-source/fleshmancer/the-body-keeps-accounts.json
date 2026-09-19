@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>You gain a +1 status bonus to saving throws against effects that would alter your body against your will &mdash; polymorph, petrification, disease and comparable effects. When you roll a success against such an effect, you get a critical success instead.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Nothing you have ever done to yourself has been forgotten. Some of it turned out useful.</p><p>You gain a +1 status bonus to saving throws against effects that would alter your body against your will &mdash; polymorph, petrification, disease and comparable effects. When you roll a success against such an effect, you get a critical success instead.</p>"
         },
         "level": {
             "value": 12

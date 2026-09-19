@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per encounter</p><hr /><p>The first Conviction you spend on a Vow in an encounter in which you have used The Answer comes back: you regain that 1 Conviction at the end of the encounter. Conviction spent on anything other than a Vow, or in an encounter with no Answer, stays spent.</p>"
+            "value": "<p><strong>Frequency</strong> once per encounter</p><hr /><p>What you burn to keep the Oath comes back as ash you can burn again.</p><p>The first Conviction you spend on a Vow in an encounter in which you have used The Answer comes back: you regain that 1 Conviction at the end of the encounter. Conviction spent on anything other than a Vow, or in an encounter with no Answer, stays spent.</p>"
         },
         "level": {
             "value": 16

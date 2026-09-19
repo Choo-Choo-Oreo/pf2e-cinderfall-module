@@ -9,7 +9,7 @@
         },
         "containerId": null,
         "description": {
-            "value": "<p>Nanite regrowth vat with a bound spirit steward. Regeneration 10 (deactivated by fire or acid). If you die and the body is ≥ half intact, you rebuild over 1d4 days, missing time and something of yourself.</p>"
+            "value": "<p><strong>Tags</strong> apex, soul-tech</p><hr /><p>Nanite regrowth vat with a bound spirit steward. Regeneration 10 (deactivated by fire or acid). If you die and the body is ≥ half intact, you rebuild over 1d4 days, missing time and something of yourself.</p>"
         },
         "hardness": 0,
         "hp": {

@@ -11,7 +11,7 @@
         "damage": {},
         "defense": null,
         "description": {
-            "value": "<p>For 1 round you ignore facing, flanking requirements, and the normal requirement that movement follow a straight, unobstructed line.</p>"
+            "value": "<p><strong>Aspect</strong> Warped Angles</p><p><strong>Cost</strong> Focus 1</p><p>For 1 round you ignore facing, flanking requirements, and the normal requirement that movement follow a straight, unobstructed line.</p>"
         },
         "duration": {
             "sustained": false,
@@ -38,7 +38,9 @@
         },
         "traits": {
             "rarity": "common",
-            "traditions": [],
+            "traditions": [
+                "divine"
+            ],
             "value": [
                 "focus",
                 "reckoner"

@@ -11,7 +11,7 @@
         "damage": {},
         "defense": null,
         "description": {
-            "value": "<p><strong>Frequency</strong> once per day</p><hr /><p>Ask the GM a single yes/no question. The Ledger answers truthfully, in writing, somewhere on your person.</p>"
+            "value": "<p><strong>Revelation</strong> 1st, Signature</p><p><strong>Frequency</strong> once per day</p><hr /><p>Ask the GM a single yes/no question. The Ledger answers truthfully, in writing, somewhere on your person.</p>"
         },
         "duration": {
             "sustained": false,

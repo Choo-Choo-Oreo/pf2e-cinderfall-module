@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per turn</p><p><strong>Trigger</strong> A one-handed firearm you are wielding is emptied.</p><hr /><p>Reload the emptied weapon, or draw and ready a second one-handed firearm, at no action cost. If you are already wielding two firearms, you may instead swap which one counts as your primary hand for the rest of the turn.</p>"
+            "value": "<p><strong>Frequency</strong> once per turn</p><p><strong>Trigger</strong> A one-handed firearm you are wielding is emptied.</p><hr /><p>One gun empties, the other is already up. You have never once had to think about the order.</p><p>Reload the emptied weapon, or draw and ready a second one-handed firearm, at no action cost. If you are already wielding two firearms, you may instead swap which one counts as your primary hand for the rest of the turn.</p>"
         },
         "level": {
             "value": 4

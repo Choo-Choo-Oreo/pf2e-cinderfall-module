@@ -11,7 +11,7 @@
         "damage": {},
         "defense": null,
         "description": {
-            "value": "<p><strong>Focus</strong> 1</p><hr /><p>Touch a target judged worth hastening toward its end. For the duration, your Strikes and damaging Vows deal an additional +2 damage against the marked target (increasing to +3 at 10th level, +4 at 16th level) — easier to destroy, for as long as the mark holds. Only one target can be marked by you at a time; marking a new target ends the old mark.</p>"
+            "value": "<p><strong>Focus</strong> 1</p><p><strong>Components</strong> somatic, verbal</p><hr /><p>Touch a target judged worth hastening toward its end. For the duration, your Strikes and damaging Vows deal an additional +2 damage against the marked target (increasing to +3 at 10th level, +4 at 16th level) — easier to destroy, for as long as the mark holds. Only one target can be marked by you at a time; marking a new target ends the old mark.</p>"
         },
         "duration": {
             "sustained": false,

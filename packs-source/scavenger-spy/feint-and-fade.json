@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Requirement</strong> You are within melee reach of an enemy.</p><hr /><p>Attempt a Feint against the target. Whether or not it succeeds, you may then Step. If the Feint succeeded, you may Step before the target's off-guard condition is applied, so it is off-guard where you now stand.</p>"
+            "value": "<p><strong>Requirement</strong> You are within melee reach of an enemy.</p><hr /><p>Feint an opponent, then reposition as part of the same action.</p><p>Attempt a Feint against the target. Whether or not it succeeds, you may then Step. If the Feint succeeded, you may Step before the target's off-guard condition is applied, so it is off-guard where you now stand.</p>"
         },
         "level": {
             "value": 2

@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Cost</strong> 2 charges of Ghost-Static</p><p><strong>Duration</strong> 1 minute</p><hr /><p>Your Rig braces and overplates. It gains temporary Hit Points equal to twice your level, kept in a pool separate from your own and from its own Hit Points. Damage dealt to your Rig comes out of this pool first. When the duration ends, any remaining temporary Hit Points are lost.</p>"
+            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Cost</strong> 2 charges of Ghost-Static</p><p><strong>Duration</strong> 1 minute</p><hr /><p>Warframe-flavored, open to all — your Rig gains a temporary HP pool separate from yours.</p><p>Your Rig braces and overplates. It gains temporary Hit Points equal to twice your level, kept in a pool separate from your own and from its own Hit Points. Damage dealt to your Rig comes out of this pool first. When the duration ends, any remaining temporary Hit Points are lost.</p>"
         },
         "level": {
             "value": 12

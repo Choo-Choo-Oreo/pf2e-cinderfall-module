@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Your unarmed attacks gain the <em>versatile B/P/S</em> trait and their damage die increases by one step. Improvised weapons in your hands lose the improvised penalty entirely and count as martial weapons of the closest matching group for all your Deadhand abilities, including The Answer and your Trade's weapon fluency.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Fists, elbows, and whatever's on the ground fight like proper weapons in your hands.</p><p>Your unarmed attacks gain the <em>versatile B/P/S</em> trait and their damage die increases by one step. Improvised weapons in your hands lose the improvised penalty entirely and count as martial weapons of the closest matching group for all your Deadhand abilities, including The Answer and your Trade's weapon fluency.</p>"
         },
         "level": {
             "value": 2

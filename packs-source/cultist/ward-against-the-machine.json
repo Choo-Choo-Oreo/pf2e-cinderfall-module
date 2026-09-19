@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Your Rites and unarmed attacks ignore an amount of a construct's hardness and resistances equal to your level, and your Rites treat constructs and creatures with the <em>cybernetic</em> or <em>nanite</em> trait as if they had rolled one degree of success worse on saves against them. You gain a +2 status bonus to saving throws against effects created by such creatures, and against technological hazards.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Bonus effect against constructs and cybernetic/nanite-based threats — Faith's edge over the Cybernetics pillar, made literal.</p><p>Your Rites and unarmed attacks ignore an amount of a construct's hardness and resistances equal to your level, and your Rites treat constructs and creatures with the <em>cybernetic</em> or <em>nanite</em> trait as if they had rolled one degree of success worse on saves against them. You gain a +2 status bonus to saving throws against effects created by such creatures, and against technological hazards.</p>"
         },
         "level": {
             "value": 8

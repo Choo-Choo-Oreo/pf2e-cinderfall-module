@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per round</p><p><strong>Requirement</strong> You have hazardous ground within 60 feet.</p><hr /><p>Move one area of hazardous ground you created up to 20 feet in a straight line along the ground. It affects creatures it passes over as though they had entered it. An area moved this way cannot be moved again on the same turn, and cannot be moved into a space you occupy.</p>"
+            "value": "<p><strong>Frequency</strong> once per round</p><p><strong>Requirement</strong> You have hazardous ground within 60 feet.</p><hr /><p>You have watched enough of these settle to know which way they want to go, and you have started telling them.</p><p>Move one area of hazardous ground you created up to 20 feet in a straight line along the ground. It affects creatures it passes over as though they had entered it. An area moved this way cannot be moved again on the same turn, and cannot be moved into a space you occupy.</p>"
         },
         "level": {
             "value": 8

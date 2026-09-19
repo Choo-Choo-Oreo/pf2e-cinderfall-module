@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Cost</strong> 1 Conviction</p><p><strong>Range</strong> 30 feet</p><p><strong>Targets</strong> 1 creature</p><p><strong>Duration</strong> 1 minute</p><p><strong>Saving Throw</strong> Will vs. your class DC</p><hr /><p>You read the other party its terms. On a failure the target is bound: whenever it damages your Ward during the duration, it takes mental damage equal to your level. On a critical failure it is also <em>frightened 1</em> for as long as it is bound. On a success it is unaffected, and on a critical success it is immune to your Binding Clause Ascendant for 24 hours. Open to any Oath: the terms are your Oath's, whatever it is called.</p>"
+            "value": "<p><strong>Cost</strong> 1 Conviction</p><p><strong>Range</strong> 30 feet</p><p><strong>Targets</strong> 1 creature</p><p><strong>Duration</strong> 1 minute</p><p><strong>Saving Throw</strong> Will vs. your class DC</p><hr /><p>The contract's terms now bind the other party too, whether or not they signed.</p><p>You read the other party its terms. On a failure the target is bound: whenever it damages your Ward during the duration, it takes mental damage equal to your level. On a critical failure it is also <em>frightened 1</em> for as long as it is bound. On a success it is unaffected, and on a critical success it is immune to your Binding Clause Ascendant for 24 hours. Open to any Oath: the terms are your Oath's, whatever it is called.</p>"
         },
         "level": {
             "value": 12

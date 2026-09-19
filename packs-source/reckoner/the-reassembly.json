@@ -22,7 +22,7 @@
         },
         "defense": null,
         "description": {
-            "value": "<p>Restore a severed limb or catastrophic damage over 10 minutes — as <i>Regenerate</i>, restoring a severed limb, ruined organ, or catastrophic damage, plus 7d8 Hit Points.</p>"
+            "value": "<p><strong>Activate</strong> 10 minutes</p><p>Restore a severed limb or catastrophic damage over 10 minutes — as <i>Regenerate</i>, restoring a severed limb, ruined organ, or catastrophic damage, plus 7d8 Hit Points.</p>"
         },
         "duration": {
             "sustained": false,

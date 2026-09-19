@@ -11,7 +11,7 @@
         },
         "category": null,
         "description": {
-            "value": "<p><strong>Effect</strong> so long as you don't move from that square, anyone behind you counts as behind your shield too, gaining its circumstance bonus to AC against attacks from the covered arc</p><hr /><p>Post yourself in a doorway, breach, or barricade gap and don't move.</p>"
+            "value": "<p><strong>Tier</strong> Green</p><p><strong>Activate</strong> 1 action to plant, passive thereafter</p><p><strong>Effect</strong> so long as you don't move from that square, anyone behind you counts as behind your shield too, gaining its circumstance bonus to AC against attacks from the covered arc</p><hr /><p>Post yourself in a doorway, breach, or barricade gap and don't move.</p>"
         },
         "publication": {
             "license": "ORC",

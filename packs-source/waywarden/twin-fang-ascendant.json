@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per turn</p><p><strong>Requirement</strong> You have already made two Strikes this turn.</p><hr /><p>Make a third Strike. This Strike takes your multiple attack penalty as normal, reduced by the same amount your Wasteland Edge reduces it, if any.</p>"
+            "value": "<p><strong>Frequency</strong> once per turn</p><p><strong>Requirement</strong> You have already made two Strikes this turn.</p><hr /><p>Twin Fang-flavored, open to all — a third rapid strike becomes possible in a single turn.</p><p>Make a third Strike. This Strike takes your multiple attack penalty as normal, reduced by the same amount your Wasteland Edge reduces it, if any.</p>"
         },
         "level": {
             "value": 12

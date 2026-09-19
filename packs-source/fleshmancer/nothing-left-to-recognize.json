@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Cost</strong> 4 Vitae</p><p><strong>Duration</strong> 1 minute</p><hr /><p>Your size increases by one step, to a maximum of Huge. You gain a +3 status bonus to melee damage rolls, resistance 10 to physical damage, and reach 10 feet with your unarmed attacks. You cannot speak, cast, or apply Grafts for the duration, and when it ends you are <em>stunned 1</em> and <em>enfeebled 2</em> for 1 minute.</p>"
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Cost</strong> 4 Vitae</p><p><strong>Duration</strong> 1 minute</p><hr /><p>Somewhere in the middle of it, there stops being a person in there.</p><p>Your size increases by one step, to a maximum of Huge. You gain a +3 status bonus to melee damage rolls, resistance 10 to physical damage, and reach 10 feet with your unarmed attacks. You cannot speak, cast, or apply Grafts for the duration, and when it ends you are <em>stunned 1</em> and <em>enfeebled 2</em> for 1 minute.</p>"
         },
         "level": {
             "value": 16

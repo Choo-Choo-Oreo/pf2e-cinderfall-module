@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Area</strong> 30-foot burst within 120 feet</p><p><strong>Duration</strong> until you end it</p><hr /><p>Put up something that will not come down. The burst is hazardous ground that also blocks line of sight for every creature but you, deals its persistent damage at the start and end of each creature’s turn, and prevents any creature inside from taking a reaction. It cannot be dispersed, outrun, moved, or waited out. Armies route around ground you have touched; this is the ground they are routing around.</p>"
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Area</strong> 30-foot burst within 120 feet</p><p><strong>Duration</strong> until you end it</p><hr /><p>It does not disperse. That was the entire point of the mixture.</p><p>Put up something that will not come down. The burst is hazardous ground that also blocks line of sight for every creature but you, deals its persistent damage at the start and end of each creature’s turn, and prevents any creature inside from taking a reaction. It cannot be dispersed, outrun, moved, or waited out. Armies route around ground you have touched; this is the ground they are routing around.</p>"
         },
         "level": {
             "value": 20

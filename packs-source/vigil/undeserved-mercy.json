@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per hour</p><p><strong>Range</strong> 30 feet</p><hr /><p>Choose a creature that has not acted in your interest and is not your ally. It immediately stabilizes if dying, and gains resistance equal to your level to all damage until the end of your next turn. You may use this on an enemy, and doing so counts as a qualifying act toward Grace.</p>"
+            "value": "<p><strong>Frequency</strong> once per hour</p><p><strong>Range</strong> 30 feet</p><hr /><p>Unanswered-flavored, open to all — stabilize or protect a target who has done nothing to earn it.</p><p>Choose a creature that has not acted in your interest and is not your ally. It immediately stabilizes if dying, and gains resistance equal to your level to all damage until the end of your next turn. You may use this on an enemy, and doing so counts as a qualifying act toward Grace.</p>"
         },
         "level": {
             "value": 10
@@ -40,7 +40,7 @@
     "flags": {
         "cinderfall": {
             "incomplete": "Bucket 3: limited-use (1/hr) activated action.",
-            "track": "unanswered"
+            "track": "the-unanswered"
         }
     }
 }

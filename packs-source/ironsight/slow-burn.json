@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Hazardous ground you create lasts 10 minutes instead of 1, and its persistent damage no longer allows the usual flat check to end early while a creature remains within the area. Stepping out of the area restores the ordinary flat check. What you put down stays down.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>It does not need to be a big fire. It needs to be a fire that is still there in an hour.</p><p>Hazardous ground you create lasts 10 minutes instead of 1, and its persistent damage no longer allows the usual flat check to end early while a creature remains within the area. Stepping out of the area restores the ordinary flat check. What you put down stays down.</p>"
         },
         "level": {
             "value": 6

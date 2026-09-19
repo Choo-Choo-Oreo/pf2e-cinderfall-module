@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You would gain a condition with a duration from a failed save.</p><hr /><p>The condition's onset is delayed until the start of your next turn instead of applying immediately. It still applies in full once it arrives — The Someday only postpones, it never forgives.</p>"
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You would gain a condition with a duration from a failed save.</p><hr /><p>Delay an incoming condition's onset by one round.</p><p>The condition's onset is delayed until the start of your next turn instead of applying immediately. It still applies in full once it arrives — The Someday only postpones, it never forgives.</p>"
         },
         "level": {
             "value": 2
@@ -40,7 +40,7 @@
     "flags": {
         "cinderfall": {
             "incomplete": "Delays a durationed condition's onset by one round after a failed save. No rule-element shape defers an already-triggered condition grant to a later turn; no matching precedent found in pf2e-source within this pass's research budget. Flagged as absence-of-evidence, same caveat as everything-in-its-time.",
-            "track": "someday"
+            "track": "the-someday"
         }
     }
 }

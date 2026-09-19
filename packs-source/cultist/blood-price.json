@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Cost</strong> 2 Hit Points</p><p><strong>Frequency</strong> once per day</p><hr /><p>Gain 1 Zeal, which may exceed your normal maximum by 1 point; excess is lost after 1 minute. Paying in blood instead of devotion works just as well, for now.</p>"
+            "value": "<p><strong>Cost</strong> 2 Hit Points</p><p><strong>Frequency</strong> once per day</p><hr /><p>Pay Hit Points instead of devotion for a point of Zeal.</p><p>Gain 1 Zeal, which may exceed your normal maximum by 1 point; excess is lost after 1 minute. Paying in blood instead of devotion works just as well, for now.</p>"
         },
         "level": {
             "value": 8

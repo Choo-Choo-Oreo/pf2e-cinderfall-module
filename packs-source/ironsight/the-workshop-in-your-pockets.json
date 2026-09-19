@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>You may attempt Scrap Into Gold, Field Conversion, and Built From What Was There without a workshop and in a tenth of the listed time. A critical failure on any of them no longer destroys the weapon; it is broken instead, and you may try again after a full day's rest.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Other people need a bench. You need ten minutes and somewhere to sit down.</p><p>You may attempt Scrap Into Gold, Field Conversion, and Built From What Was There without a workshop and in a tenth of the listed time. A critical failure on any of them no longer destroys the weapon; it is broken instead, and you may try again after a full day's rest.</p>"
         },
         "level": {
             "value": 16

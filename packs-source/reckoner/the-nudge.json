@@ -29,14 +29,7 @@
             "value": "30 feet"
         },
         "requirements": "",
-        "rules": [
-            {
-                "key": "FlatModifier",
-                "selector": "all",
-                "type": "status",
-                "value": 1
-            }
-        ],
+        "rules": [],
         "target": {
             "value": "you or 1 ally"
         },

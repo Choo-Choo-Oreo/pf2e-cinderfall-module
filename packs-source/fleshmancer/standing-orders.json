@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>When you apply a healing Graft to a creature, you may set one condition on it: the next time that creature is reduced below half its Hit Points before your next daily preparations, the Graft&rsquo;s effect triggers again at half value, without any action from you. Only one creature may carry a Standing Order at a time.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>The Graft knows what to do without you. You have said it enough times.</p><p>When you apply a healing Graft to a creature, you may set one condition on it: the next time that creature is reduced below half its Hit Points before your next daily preparations, the Graft&rsquo;s effect triggers again at half value, without any action from you. Only one creature may carry a Standing Order at a time.</p>"
         },
         "level": {
             "value": 14

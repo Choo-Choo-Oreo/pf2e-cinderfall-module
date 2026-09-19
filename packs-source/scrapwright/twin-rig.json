@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Cost</strong> 2 charges of Ghost-Static</p><p><strong>Duration</strong> 1 minute</p><hr /><p>You unfold a second, smaller chassis from your kit. The drone is a Tiny construct minion with your Rig's AC, saves, and Perception, and Hit Points equal to your level; it acts when you spend an action to command it. It cannot Redline, cannot carry mods, and is destroyed at 0 Hit Points. When the duration ends it folds itself away.</p>"
+            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Cost</strong> 2 charges of Ghost-Static</p><p><strong>Duration</strong> 1 minute</p><hr /><p>Deploy a small secondary drone for a limited time.</p><p>You unfold a second, smaller chassis from your kit. The drone is a Tiny construct minion with your Rig's AC, saves, and Perception, and Hit Points equal to your level; it acts when you spend an action to command it. It cannot Redline, cannot carry mods, and is destroyed at 0 Hit Points. When the duration ends it folds itself away.</p>"
         },
         "level": {
             "value": 8

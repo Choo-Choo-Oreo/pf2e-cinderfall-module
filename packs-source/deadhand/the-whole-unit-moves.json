@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Range</strong> 60 feet</p><hr /><p>Up to four allies who can hear and understand you each immediately take a single action of their choice — Strike, Stride, Step, Raise a Shield, or Interact. They take these in an order you choose, before anyone else acts. An ally who has already benefited from your called command this round takes their action at a −2 circumstance penalty.</p>"
+            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Range</strong> 60 feet</p><hr /><p>Somewhere in the last twenty years, giving the order and it already having happened became the same event.</p><p>Up to four allies who can hear and understand you each immediately take a single action of their choice — Strike, Stride, Step, Raise a Shield, or Interact. They take these in an order you choose, before anyone else acts. An ally who has already benefited from your called command this round takes their action at a −2 circumstance penalty.</p>"
         },
         "level": {
             "value": 10

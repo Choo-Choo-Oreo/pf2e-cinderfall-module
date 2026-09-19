@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per turn</p><hr /><p>The Opening's precision damage applies to a second qualifying Strike you make this turn, rather than only to the first.</p>"
+            "value": "<p><strong>Frequency</strong> once per turn</p><hr /><p>Apply The Opening's bonus damage to two attacks in the same turn.</p><p>The Opening's precision damage applies to a second qualifying Strike you make this turn, rather than only to the first.</p>"
         },
         "level": {
             "value": 8

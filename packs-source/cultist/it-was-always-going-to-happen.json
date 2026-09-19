@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Range</strong> 60 feet</p><p><strong>Targets</strong> 1 creature</p><p><strong>Frequency</strong> once per day</p><p><strong>Saving Throw</strong> Will</p><hr /><p>The target must succeed at a Will save against your class DC or be marked for the rest of the encounter: the next three times it takes damage from any source, each instance is increased by @Damage[4d6[mental]] damage (@Damage[6d6[mental]] on a critical failure). On a success, only the next such instance is increased, by @Damage[4d6[mental]].</p>"
+            "value": "<p><strong>Range</strong> 60 feet</p><p><strong>Targets</strong> 1 creature</p><p><strong>Frequency</strong> once per day</p><p><strong>Saving Throw</strong> Will</p><hr /><p>Mark a target for three escalating hits of mental damage.</p><p>The target must succeed at a Will save against your class DC or be marked for the rest of the encounter: the next three times it takes damage from any source, each instance is increased by @Damage[4d6[mental]] damage (@Damage[6d6[mental]] on a critical failure). On a success, only the next such instance is increased, by @Damage[4d6[mental]].</p>"
         },
         "level": {
             "value": 20
@@ -39,7 +39,7 @@
     "_id": "T5HGqml2oqZNYQe6",
     "flags": {
         "cinderfall": {
-            "track": "someday"
+            "track": "the-someday"
         }
     }
 }

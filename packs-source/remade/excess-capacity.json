@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Requirement</strong> bio-attuned</p><p><strong>Duration</strong> constant</p><hr /><p>Treat your Load as 1 lower solely for determining which Load band applies to you. Your actual Load, and anything that keys off the real number, is unaffected.</p>"
+            "value": "<p><strong>Requirement</strong> bio-attuned</p><p><strong>Duration</strong> constant</p><hr /><p>Your body's found room nobody thought was there.</p><p>Treat your Load as 1 lower solely for determining which Load band applies to you. Your actual Load, and anything that keys off the real number, is unaffected.</p>"
         },
         "level": {
             "value": 16

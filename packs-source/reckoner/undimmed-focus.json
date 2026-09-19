@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>You are immune to the informational and memory-based portions of your own Reckoning: Stage I's lost fact and its penalty to Recall Knowledge do not apply to you, and a Stage IV Major Reckoning never takes memory or continuity from you — it takes the ability penalty instead, every time. Every other toll applies in full.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Resist the informational and memory-based erosion of your own Reckoning specifically.</p><p>You are immune to the informational and memory-based portions of your own Reckoning: Stage I's lost fact and its penalty to Recall Knowledge do not apply to you, and a Stage IV Major Reckoning never takes memory or continuity from you — it takes the ability penalty instead, every time. Every other toll applies in full.</p>"
         },
         "level": {
             "value": 14

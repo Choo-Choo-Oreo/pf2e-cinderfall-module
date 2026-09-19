@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Requirement</strong> You are wielding a two-handed melee weapon.</p><p><strong>Cost</strong> 3 Tally</p><hr /><p>Make a Strike with a +2 circumstance bonus to the attack roll. On a hit it deals triple weapon damage rather than the usual amount, and on a critical hit the target is knocked prone and stunned 2. Spending Tally this way is not a Redline and causes no Slip. If the Strike misses, the Tally is spent anyway.</p>"
+            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Requirement</strong> You are wielding a two-handed melee weapon.</p><p><strong>Cost</strong> 3 Tally</p><hr /><p>One swing, from as high as your arms go, with everything twenty years put into them.</p><p>Make a Strike with a +2 circumstance bonus to the attack roll. On a hit it deals triple weapon damage rather than the usual amount, and on a critical hit the target is knocked prone and stunned 2. Spending Tally this way is not a Redline and causes no Slip. If the Strike misses, the Tally is spent anyway.</p>"
         },
         "level": {
             "value": 18

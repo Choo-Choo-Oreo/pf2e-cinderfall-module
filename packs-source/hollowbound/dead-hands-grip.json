@@ -16,7 +16,7 @@
             }
         },
         "description": {
-            "value": "<p>A construct or machine within 30 feet activates for you. If it's friendly or unowned it performs one simple function at no risk; a hostile target must succeed at a Will save or be stopped in place — off-guard and unable to act — for 1 round.</p>"
+            "value": "<p><strong>Saving Throw</strong> Will (hostile targets only)</p><p>A construct or machine within 30 feet activates for you. If it's friendly or unowned it performs one simple function at no risk; a hostile target must succeed at a Will save or be stopped in place — off-guard and unable to act — for 1 round.</p>"
         },
         "duration": {
             "sustained": false,

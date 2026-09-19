@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Range</strong> 30 feet</p><p><strong>Targets</strong> 1 creature that has accepted a bargain, been spared by you, or been healed by you</p><p><strong>Duration</strong> until settled</p><p><strong>Saving Throw</strong> Will</p><hr /><p>The target attempts a Will save against your class DC. On a failure it is <em>in debt</em> to you: while in debt it takes a -1 status penalty to attack rolls and saving throws against you, and it cannot willingly attack you while a means of settling the debt is available to it. On a critical failure it also cannot lie to you. The debt is settled when the target does one thing you name that is within its power and does not require it to die. A creature can be in debt to you and one other creature at most; you may hold three debts at a time. This is a curse effect, and it can be counteracted — the Ledger does not consider a counteracted debt paid.</p>"
+            "value": "<p><strong>Cast</strong> 1 minute</p><p><strong>Frequency</strong> once per day</p><p><strong>Range</strong> 30 feet</p><p><strong>Targets</strong> 1 creature that has accepted a bargain, been spared by you, or been healed by you</p><p><strong>Duration</strong> until settled</p><p><strong>Saving Throw</strong> Will</p><hr /><p>Force a target to owe you a literal, mechanically binding debt.</p><p>The target attempts a Will save against your class DC. On a failure it is <em>in debt</em> to you: while in debt it takes a -1 status penalty to attack rolls and saving throws against you, and it cannot willingly attack you while a means of settling the debt is available to it. On a critical failure it also cannot lie to you. The debt is settled when the target does one thing you name that is within its power and does not require it to die. A creature can be in debt to you and one other creature at most; you may hold three debts at a time. This is a curse effect, and it can be counteracted — the Ledger does not consider a counteracted debt paid.</p>"
         },
         "level": {
             "value": 12
@@ -40,7 +40,7 @@
     "_id": "3Zf38e4mpbCZ1WQT",
     "flags": {
         "cinderfall": {
-            "track": "ledger"
+            "track": "the-ledger"
         }
     }
 }

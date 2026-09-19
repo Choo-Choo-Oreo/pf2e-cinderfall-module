@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Trigger</strong> A creature would discover you, or succeeds at a check to Seek you.</p><hr /><p>You become undetected by the triggering creature, with no check required, and it does not learn where you were. You must have cover, concealment, or a crowd within 10 feet to disappear into.</p>"
+            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Trigger</strong> A creature would discover you, or succeeds at a check to Seek you.</p><hr /><p>Reaction — become undetected the instant you'd otherwise be discovered.</p><p>You become undetected by the triggering creature, with no check required, and it does not learn where you were. You must have cover, concealment, or a crowd within 10 feet to disappear into.</p>"
         },
         "level": {
             "value": 10

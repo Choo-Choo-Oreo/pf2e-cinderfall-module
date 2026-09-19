@@ -9,7 +9,7 @@
         },
         "containerId": null,
         "description": {
-            "value": "<p>Integrated forearm blade. Strike: 1d6 slashing, agile, finesse, unarmed. Can't be Disarmed; deploys/retracts free. Scans illegal.</p>"
+            "value": "<p><strong>Tags</strong> weapon</p><hr /><p>Integrated forearm blade. Strike: 1d6 slashing, agile, finesse, unarmed. Can't be Disarmed; deploys/retracts free. Scans illegal.</p>"
         },
         "hardness": 0,
         "hp": {

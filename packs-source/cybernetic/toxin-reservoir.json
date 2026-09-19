@@ -9,7 +9,7 @@
         },
         "containerId": null,
         "description": {
-            "value": "<p>Venom gland and ducts. Coat an unarmed Strike or held weapon (1 action); next hit this round deals 2d6 persistent poison (Fort vs class DC negates). 3/day. Scans illegal.</p>"
+            "value": "<p><strong>Tags</strong> weapon</p><hr /><p>Venom gland and ducts. Coat an unarmed Strike or held weapon (1 action); next hit this round deals 2d6 persistent poison (Fort vs class DC negates). 3/day. Scans illegal.</p>"
         },
         "hardness": 0,
         "hp": {

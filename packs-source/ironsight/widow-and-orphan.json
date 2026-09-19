@@ -11,7 +11,7 @@
         },
         "category": null,
         "description": {
-            "value": "<p><strong>Target</strong> 2 different creatures, one per pistol, each at your current MAP</p><p><strong>Effect</strong> a hit with the first (\"widow\") grants +2 circumstance to the second (\"orphan\") shot this turn</p><hr /><p>Split your attention deliberately: aim one pistol at each of two different targets in the same action.</p>"
+            "value": "<p><strong>Tier</strong> Blooded</p><p><strong>Target</strong> 2 different creatures, one per pistol, each at your current MAP</p><p><strong>Effect</strong> a hit with the first (\"widow\") grants +2 circumstance to the second (\"orphan\") shot this turn</p><hr /><p>Split your attention deliberately: aim one pistol at each of two different targets in the same action.</p>"
         },
         "publication": {
             "license": "ORC",

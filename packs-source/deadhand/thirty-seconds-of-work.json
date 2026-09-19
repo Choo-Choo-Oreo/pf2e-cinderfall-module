@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Duration</strong> 5 rounds</p><hr /><p>For the duration you gain an additional action at the start of each of your turns, your Strikes ignore resistance and all but the highest immunity, and you cannot be reduced below 1 Hit Point. When it ends you are unconscious for 1 minute and cannot be woken, and you take a −2 status penalty to everything until you next make a full night's rest.</p>"
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Duration</strong> 5 rounds</p><hr /><p>Whatever the room is, you have half a minute in you that nothing in it can survive.</p><p>For the duration you gain an additional action at the start of each of your turns, your Strikes ignore resistance and all but the highest immunity, and you cannot be reduced below 1 Hit Point. When it ends you are unconscious for 1 minute and cannot be woken, and you take a −2 status penalty to everything until you next make a full night's rest.</p>"
         },
         "frequency": {
             "max": 1,

@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Trigger</strong> A creature you can see begins to Cast a Spell, Sustain an effect, or take an action with an audible verbal component.</p><hr /><p>Make a ranged Strike against the triggering creature. On a hit it must succeed at a flat check of DC 5 plus the damage dealt, halved, or the action is disrupted and lost. On a critical hit the action is disrupted with no check, and the creature cannot attempt that same action again until the end of its next turn.</p>"
+            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Trigger</strong> A creature you can see begins to Cast a Spell, Sustain an effect, or take an action with an audible verbal component.</p><hr /><p>Nobody finishes the sentence they were on.</p><p>Make a ranged Strike against the triggering creature. On a hit it must succeed at a flat check of DC 5 plus the damage dealt, halved, or the action is disrupted and lost. On a critical hit the action is disrupted with no check, and the creature cannot attempt that same action again until the end of its next turn.</p>"
         },
         "level": {
             "value": 16

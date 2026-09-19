@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Range</strong> 60 feet</p><hr /><p>Every ally who can hear and understand you gains temporary Hit Points equal to your level, a +2 status bonus to attack rolls and AC, and immunity to the frightened and fleeing conditions, all for one minute. An ally reduced to 0 Hit Points during that minute stays standing at 1 until the minute ends, and then falls if the damage was never healed.</p>"
+            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Range</strong> 60 feet</p><hr /><p>Not a rally. An instruction, and the room has never once failed to carry it out.</p><p>Every ally who can hear and understand you gains temporary Hit Points equal to your level, a +2 status bonus to attack rolls and AC, and immunity to the frightened and fleeing conditions, all for one minute. An ally reduced to 0 Hit Points during that minute stays standing at 1 until the minute ends, and then falls if the damage was never healed.</p>"
         },
         "level": {
             "value": 18

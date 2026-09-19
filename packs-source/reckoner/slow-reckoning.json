@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per round</p><p><strong>Trigger</strong> You draw an Overflow effect that would deal damage or impose a condition on a single target.</p><hr /><p>Rather than resolving at once, the effect resolves in three equal parts, one at the end of each of your next three turns, and the target attempts its saving throw separately against each part. While the count runs, the target cannot be the target of another Long Count, and if it moves further than 100 feet from you the remaining parts are lost.</p>"
+            "value": "<p><strong>Frequency</strong> once per round</p><p><strong>Trigger</strong> You draw an Overflow effect that would deal damage or impose a condition on a single target.</p><hr /><p>Stack an entropic effect on a target over several turns instead of landing it all at once.</p><p>Rather than resolving at once, the effect resolves in three equal parts, one at the end of each of your next three turns, and the target attempts its saving throw separately against each part. While the count runs, the target cannot be the target of another Long Count, and if it moves further than 100 feet from you the remaining parts are lost.</p>"
         },
         "level": {
             "value": 6

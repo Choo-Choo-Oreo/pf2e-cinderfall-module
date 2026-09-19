@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Choose one minor boon from your Covenant's list. You gain it as an always-available Quiet-state ability, in addition to the boons your ordinary starting selection grants. The choice is made when you take this feat and does not change; it is a debt the spirit is already carrying, not a favour you renegotiate.</p>"
+            "value": "<p><strong>Tag</strong> General</p><p><strong>Duration</strong> constant</p><hr /><p>Choose one minor boon from your Covenant's list as a bonus, always-available Quiet-state ability, on top of your ordinary starting selection.</p><p>Choose one minor boon from your Covenant's list. You gain it as an always-available Quiet-state ability, in addition to the boons your ordinary starting selection grants. The choice is made when you take this feat and does not change; it is a debt the spirit is already carrying, not a favour you renegotiate.</p>"
         },
         "level": {
             "value": 1

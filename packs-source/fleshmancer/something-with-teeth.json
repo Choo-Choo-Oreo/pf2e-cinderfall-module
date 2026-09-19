@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Cost</strong> 2 Vitae</p><p><strong>Duration</strong> 1 minute</p><hr /><p>You grow a jaw that does not fit your face. You gain a jaws unarmed attack dealing 2d8 piercing damage with the grapple and deadly d8 traits. While the form lasts you cannot speak above a growl, and you take a &minus;2 circumstance penalty to Diplomacy checks.</p>"
+            "value": "<p><strong>Cost</strong> 2 Vitae</p><p><strong>Duration</strong> 1 minute</p><hr /><p>The jaw comes forward first. It always comes forward first.</p><p>You grow a jaw that does not fit your face. You gain a jaws unarmed attack dealing 2d8 piercing damage with the grapple and deadly d8 traits. While the form lasts you cannot speak above a growl, and you take a &minus;2 circumstance penalty to Diplomacy checks.</p>"
         },
         "level": {
             "value": 8

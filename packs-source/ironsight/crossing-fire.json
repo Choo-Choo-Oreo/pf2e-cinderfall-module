@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Requirement</strong> You are wielding two loaded one-handed firearms.</p><hr /><p>Make a ranged Strike with each firearm against the same target. If both hit, the target is off-guard until the end of your next turn. Both Strikes count toward your multiple attack penalty and both weapons are emptied.</p>"
+            "value": "<p><strong>Requirement</strong> You are wielding two loaded one-handed firearms.</p><hr /><p>Two barrels, two angles, one target that cannot lean away from both.</p><p>Make a ranged Strike with each firearm against the same target. If both hit, the target is off-guard until the end of your next turn. Both Strikes count toward your multiple attack penalty and both weapons are emptied.</p>"
         },
         "level": {
             "value": 4

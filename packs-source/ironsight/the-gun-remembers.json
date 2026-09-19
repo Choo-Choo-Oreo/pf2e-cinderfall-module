@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> one stored memory at a time</p><p><strong>Requirement</strong> You have a bonded Good Gun.</p><hr /><p>When you critically hit with your bonded Good Gun, it banks the memory. Later, as a free action before any Strike with that weapon, spend the memory to gain a +2 circumstance bonus to that attack roll and treat the result as one degree of success better if it hits. A banked memory persists until spent and is lost if the weapon leaves your possession.</p>"
+            "value": "<p><strong>Frequency</strong> one stored memory at a time</p><p><strong>Requirement</strong> You have a bonded Good Gun.</p><hr /><p>Your bonded Good Gun banks a memory of a great shot, storing a bonus you can trigger later.</p><p>When you critically hit with your bonded Good Gun, it banks the memory. Later, as a free action before any Strike with that weapon, spend the memory to gain a +2 circumstance bonus to that attack roll and treat the result as one degree of success better if it hits. A banked memory persists until spent and is lost if the weapon leaves your possession.</p>"
         },
         "level": {
             "value": 16

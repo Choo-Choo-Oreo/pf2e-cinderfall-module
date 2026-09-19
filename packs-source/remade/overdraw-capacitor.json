@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You critically hit with an unarmed Strike granted by a Remade feat.</p><p><strong>Requirement</strong> chrome-attuned</p><hr /><p>The target is dazzled until the end of your next turn. If it's already dazzled, it's stunned 1 instead.</p>"
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You critically hit with an unarmed Strike granted by a Remade feat.</p><p><strong>Requirement</strong> chrome-attuned</p><hr /><p>The current has to go somewhere after it leaves your blade.</p><p>The target is dazzled until the end of your next turn. If it's already dazzled, it's stunned 1 instead.</p>"
         },
         "level": {
             "value": 8

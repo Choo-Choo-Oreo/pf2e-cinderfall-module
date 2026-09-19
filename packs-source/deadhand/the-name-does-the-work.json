@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Range</strong> 60 feet</p><hr /><p>Every enemy who can see or hear you and who is of a lower level than you must succeed at a Will save against your Class DC or become frightened 3 and fleeing for 1 round; on a critical failure it surrenders outright if surrendering is something it is capable of. Creatures who have never heard of you take this save with a +2 circumstance bonus, and there are fewer of them every year.</p>"
+            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Range</strong> 60 feet</p><hr /><p>Somewhere in the last twenty years you stopped having to finish the sentence.</p><p>Every enemy who can see or hear you and who is of a lower level than you must succeed at a Will save against your Class DC or become frightened 3 and fleeing for 1 round; on a critical failure it surrenders outright if surrendering is something it is capable of. Creatures who have never heard of you take this save with a +2 circumstance bonus, and there are fewer of them every year.</p>"
         },
         "level": {
             "value": 20

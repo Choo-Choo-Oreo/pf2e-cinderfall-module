@@ -11,7 +11,7 @@
         },
         "category": null,
         "description": {
-            "value": "<p><strong>Frequency</strong> once, then the Charm crumbles to ash</p><p><strong>Price</strong> 4 gp</p><p><strong>Usage</strong> held in 1 hand</p><p><strong>Bulk</strong> L</p><hr /><p>A one-use prepared item, written during downtime, that stores a single casting of Static (as a 24-hour ward-sense) or Name the Anchor for an ally without the class's training to trigger later. Any check the stored effect calls for uses the crafting Wardbreaker's proficiency rank and key ability modifier, not the user's own.</p>"
+            "value": "<p><strong>Type</strong> Craftable Consumable · Item 1</p><p><strong>Frequency</strong> once, then the Charm crumbles to ash</p><p><strong>Price</strong> 4 gp</p><p><strong>Usage</strong> held in 1 hand</p><p><strong>Bulk</strong> L</p><p><strong>Activate</strong> 1 action (concentrate, manipulate)</p><hr /><p>A one-use prepared item, written during downtime, that stores a single casting of Static (as a 24-hour ward-sense) or Name the Anchor for an ally without the class's training to trigger later. Any check the stored effect calls for uses the crafting Wardbreaker's proficiency rank and key ability modifier, not the user's own.</p>"
         },
         "publication": {
             "license": "ORC",

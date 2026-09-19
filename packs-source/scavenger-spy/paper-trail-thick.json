@@ -11,7 +11,7 @@
         },
         "category": null,
         "description": {
-            "value": "<p><strong>Effect</strong> the forgery's effective DC increases by +2 (Skilled) against anyone actually trying to check up on you, not merely glancing</p><hr /><p>Back a forged identity with a fabricated network — a \"boss\" who vouches by radio, a \"colleague\" who confirms your story.</p>"
+            "value": "<p><strong>Tier</strong> Skilled</p><p><strong>Activate</strong> 10 minutes to arrange beforehand</p><p><strong>Effect</strong> the forgery's effective DC increases by +2 (Skilled) against anyone actually trying to check up on you, not merely glancing</p><hr /><p>Back a forged identity with a fabricated network — a \"boss\" who vouches by radio, a \"colleague\" who confirms your story.</p>"
         },
         "publication": {
             "license": "ORC",

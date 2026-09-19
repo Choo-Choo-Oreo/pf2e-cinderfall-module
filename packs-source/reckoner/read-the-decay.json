@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Range</strong> 30 feet</p><p><strong>Targets</strong> 1 object, structure, or creature</p><hr /><p>You look at the target and see the direction it is already going. You learn how it is currently failing — a structural flaw, a disease, an untreated wound, a mechanism about to seize, an age it is carrying badly — and roughly how long it has before that failing matters. You learn nothing about anything else, and a thing genuinely in good repair reads as being in good repair.</p>"
+            "value": "<p><strong>Range</strong> 30 feet</p><p><strong>Targets</strong> 1 object, structure, or creature</p><hr /><p>Recognize exactly how something nearby is already failing or aging.</p><p>You look at the target and see the direction it is already going. You learn how it is currently failing — a structural flaw, a disease, an untreated wound, a mechanism about to seize, an age it is carrying badly — and roughly how long it has before that failing matters. You learn nothing about anything else, and a thing genuinely in good repair reads as being in good repair.</p>"
         },
         "level": {
             "value": 2

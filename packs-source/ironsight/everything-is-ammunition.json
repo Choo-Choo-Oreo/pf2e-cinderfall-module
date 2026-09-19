@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Requirement</strong> You are wielding a firearm and have anything at all in reach.</p><hr /><p>Load the weapon with whatever is available and make a ranged Strike within your first range increment. The Strike deals one die less damage but the target must succeed at a Reflex save against your class DC or take persistent bleed damage equal to your level; on a critical failure it is also off-guard until it removes the debris. You never run out of ammunition for this.</p>"
+            "value": "<p><strong>Requirement</strong> You are wielding a firearm and have anything at all in reach.</p><hr /><p>Gravel, teeth, a handful of somebody's ruined augment. It all leaves the barrel at the same speed.</p><p>Load the weapon with whatever is available and make a ranged Strike within your first range increment. The Strike deals one die less damage but the target must succeed at a Reflex save against your class DC or take persistent bleed damage equal to your level; on a critical failure it is also off-guard until it removes the debris. You never run out of ammunition for this.</p>"
         },
         "level": {
             "value": 12

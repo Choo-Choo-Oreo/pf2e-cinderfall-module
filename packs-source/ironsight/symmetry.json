@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Trigger</strong> A creature within your first range increment critically hits you, or reduces an ally within 30 feet to 0 Hit Points.</p><p><strong>Requirement</strong> You are wielding two loaded firearms.</p><hr /><p>Make a ranged Strike with each firearm against the triggering creature. Neither counts toward your multiple attack penalty, and both treat the target as off-guard. You may use this once per round and it does not expend your reaction more than once per turn.</p>"
+            "value": "<p><strong>Trigger</strong> A creature within your first range increment critically hits you, or reduces an ally within 30 feet to 0 Hit Points.</p><p><strong>Requirement</strong> You are wielding two loaded firearms.</p><hr /><p>Whatever the world does to one hand, the other one settles.</p><p>Make a ranged Strike with each firearm against the triggering creature. Neither counts toward your multiple attack penalty, and both treat the target as off-guard. You may use this once per round and it does not expend your reaction more than once per turn.</p>"
         },
         "level": {
             "value": 18

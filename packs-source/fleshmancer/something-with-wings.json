@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Cost</strong> 3 Vitae</p><p><strong>Duration</strong> 1 minute</p><hr /><p>You gain a fly Speed equal to your land Speed. When the duration ends the wings come off over the following minute, and you are <em>clumsy 1</em> until you next rest unless you have landed first.</p>"
+            "value": "<p><strong>Cost</strong> 3 Vitae</p><p><strong>Duration</strong> 1 minute</p><hr /><p>They are wet when they come out. They dry in the air, mostly.</p><p>You gain a fly Speed equal to your land Speed. When the duration ends the wings come off over the following minute, and you are <em>clumsy 1</em> until you next rest unless you have landed first.</p>"
         },
         "level": {
             "value": 14

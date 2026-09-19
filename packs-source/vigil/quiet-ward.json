@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per round</p><p><strong>Trigger</strong> You or an ally within 15 feet is hit by an attack.</p><hr /><p>Reduce the damage from the triggering attack by 2 plus your level. This is the Presence working, not a spell — it requires no components and cannot be counteracted.</p>"
+            "value": "<p><strong>Frequency</strong> once per round</p><p><strong>Trigger</strong> You or an ally within 15 feet is hit by an attack.</p><hr /><p>Reaction — a minor protective ward blunts one incoming attack.</p><p>Reduce the damage from the triggering attack by 2 plus your level. This is the Presence working, not a spell — it requires no components and cannot be counteracted.</p>"
         },
         "level": {
             "value": 2

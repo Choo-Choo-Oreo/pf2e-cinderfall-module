@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Your Idol's abilities no longer require your Zeal to activate, and it retains all its abilities even if your Bargain is ever broken. When you die, it does not perish with you.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Your Idol keeps its powers even if your Bargain ends, or you die.</p><p>Your Idol's abilities no longer require your Zeal to activate, and it retains all its abilities even if your Bargain is ever broken. When you die, it does not perish with you.</p>"
         },
         "level": {
             "value": 20

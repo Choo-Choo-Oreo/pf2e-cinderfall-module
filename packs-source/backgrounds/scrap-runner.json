@@ -22,7 +22,7 @@
             }
         },
         "description": {
-            "value": "<p>Cut your teeth as the smallest, fastest member of a salvage crew — the one sent first into a collapsing structure because you're light enough that the floor might actually hold.</p>"
+            "value": "<p><strong>Origin</strong> Wasteland Scavenger Crews</p><p>Cut your teeth as the smallest, fastest member of a salvage crew — the one sent first into a collapsing structure because you're light enough that the floor might actually hold.</p>"
         },
         "items": {
             "salvage-sense": {

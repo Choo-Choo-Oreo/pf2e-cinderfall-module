@@ -11,7 +11,7 @@
         },
         "category": null,
         "description": {
-            "value": "<p><strong>Freq</strong> 1/job</p><p><strong>Trigger</strong> a plan goes wrong</p><p><strong>Effect</strong> automatically succeeds, no roll — the job proceeds as though the setback never happened</p><hr /><p>Reveal you accounted for this exact failure and had a contingency running the whole time.</p>"
+            "value": "<p><strong>Tier</strong> Master</p><p><strong>Freq</strong> 1/job</p><p><strong>Trigger</strong> a plan goes wrong</p><p><strong>Effect</strong> automatically succeeds, no roll — the job proceeds as though the setback never happened</p><hr /><p>Reveal you accounted for this exact failure and had a contingency running the whole time.</p>"
         },
         "publication": {
             "license": "ORC",

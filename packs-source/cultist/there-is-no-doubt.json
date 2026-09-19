@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>You automatically succeed at saving throws against fear, emotion, and mental effects from any creature of a lower level than yours. Against all other such effects, you gain a +2 circumstance bonus. You were never given the option to be wrong.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Automatic success against fear and mental effects from lesser foes.</p><p>You automatically succeed at saving throws against fear, emotion, and mental effects from any creature of a lower level than yours. Against all other such effects, you gain a +2 circumstance bonus. You were never given the option to be wrong.</p>"
         },
         "level": {
             "value": 20
@@ -78,7 +78,7 @@
     "_id": "dnoncsBso1Rh8WAl",
     "flags": {
         "cinderfall": {
-            "track": "undoubted"
+            "track": "the-undoubted"
         }
     }
 }

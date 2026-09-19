@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Check</strong> Occultism or Society (your choice)</p><hr /><p>Reach out through the network. Attempt a check against a DC the GM sets by the obscurity of what you are asking. On a success you learn what the network knows about one person, place, or event; on a critical success, you also learn who else has been asking. On a failure you learn nothing. On a critical failure you learn something false and the network learns you were asking. You always know whether a settlement you are in has anyone on the network at all.</p>"
+            "value": "<p><strong>Cast</strong> 10 minutes</p><p><strong>Frequency</strong> once per day</p><p><strong>Check</strong> Occultism or Society (your choice)</p><hr /><p>Occult contact with other cultists and cult-adjacent informants across the wasteland.</p><p>Reach out through the network. Attempt a check against a DC the GM sets by the obscurity of what you are asking. On a success you learn what the network knows about one person, place, or event; on a critical success, you also learn who else has been asking. On a failure you learn nothing. On a critical failure you learn something false and the network learns you were asking. You always know whether a settlement you are in has anyone on the network at all.</p>"
         },
         "level": {
             "value": 6
@@ -40,7 +40,7 @@
     "_id": "lnNiMUlCzgjQuyIN",
     "flags": {
         "cinderfall": {
-            "track": "ledger"
+            "track": "the-ledger"
         }
     }
 }

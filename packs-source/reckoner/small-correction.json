@@ -11,7 +11,7 @@
         "damage": {},
         "defense": null,
         "description": {
-            "value": "<p>Touch a broken unattended object; it mends as entropy briefly runs backward — repairs a single break or fully restores the object's Hit Points/condition, no further cost.</p>"
+            "value": "<p><strong>Activate</strong> 2 actions (manipulate)</p><p>Touch a broken unattended object; it mends as entropy briefly runs backward — repairs a single break or fully restores the object's Hit Points/condition, no further cost.</p>"
         },
         "duration": {
             "sustained": false,

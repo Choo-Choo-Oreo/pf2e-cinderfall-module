@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Range</strong> 30 feet</p><p><strong>Targets</strong> 1 creature or object</p><hr /><p>You know one true, minor thing about the target that you had no ordinary way of learning — a name it answers to, a thing it is afraid of, what it ate, who it last spoke to, which of its limbs is the bad one. The GM chooses which fact, and it is always true and never decisive. You pay nothing for it: no Reckoning, no action beyond this one, no cost of any kind.</p>"
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Range</strong> 30 feet</p><p><strong>Targets</strong> 1 creature or object</p><hr /><p>Outside-flavored, open to all — once per day, learn one true, minor fact about a target at no cost, a small taste of Forbidden Cognition.</p><p>You know one true, minor thing about the target that you had no ordinary way of learning — a name it answers to, a thing it is afraid of, what it ate, who it last spoke to, which of its limbs is the bad one. The GM chooses which fact, and it is always true and never decisive. You pay nothing for it: no Reckoning, no action beyond this one, no cost of any kind.</p>"
         },
         "level": {
             "value": 6

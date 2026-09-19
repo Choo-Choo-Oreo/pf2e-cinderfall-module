@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> until the encounter ends</p><hr /><p>While you are in an encounter, your Vitae pool has no maximum; Vitae gained from any source accumulates without limit. When the encounter ends, your Vitae immediately returns to its value from before the encounter began, and any excess is gone. This does not carry into a second encounter that begins immediately afterward.</p>"
+            "value": "<p><strong>Duration</strong> until the encounter ends</p><hr /><p>Your Vitae pool has no maximum during combat; it resets to normal afterward.</p><p>While you are in an encounter, your Vitae pool has no maximum; Vitae gained from any source accumulates without limit. When the encounter ends, your Vitae immediately returns to its value from before the encounter began, and any excess is gone. This does not carry into a second encounter that begins immediately afterward.</p>"
         },
         "level": {
             "value": 18

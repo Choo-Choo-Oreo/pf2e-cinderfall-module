@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per combat</p><hr /><p>The first Strike you make in a combat treats its target as off-guard, whether or not it otherwise would be, and whether or not the target has already acted. This is not a Feint and requires no check. If that Strike hits, it also deals The Opening's precision damage even if the target would not otherwise qualify.</p>"
+            "value": "<p><strong>Frequency</strong> once per combat</p><hr /><p>Your first attack each combat automatically treats the target as off-guard.</p><p>The first Strike you make in a combat treats its target as off-guard, whether or not it otherwise would be, and whether or not the target has already acted. This is not a Feint and requires no check. If that Strike hits, it also deals The Opening's precision damage even if the target would not otherwise qualify.</p>"
         },
         "level": {
             "value": 6

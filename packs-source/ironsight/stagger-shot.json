@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Requirement</strong> The target is within your first range increment.</p><p><strong>Saving Throw</strong> Fortitude</p><hr /><p>Make a ranged Strike. On a hit, the target must attempt a Fortitude save against your class DC; on a failure it is pushed 10 feet directly away from you and is off-guard until the end of its next turn, and on a critical failure it is also knocked prone. A critical hit makes the save one degree worse.</p>"
+            "value": "<p><strong>Requirement</strong> The target is within your first range increment.</p><p><strong>Saving Throw</strong> Fortitude</p><hr /><p>Not meant to kill. Meant to move them somewhere worse.</p><p>Make a ranged Strike. On a hit, the target must attempt a Fortitude save against your class DC; on a failure it is pushed 10 feet directly away from you and is off-guard until the end of its next turn, and on a critical failure it is also knocked prone. A critical hit makes the save one degree worse.</p>"
         },
         "level": {
             "value": 6

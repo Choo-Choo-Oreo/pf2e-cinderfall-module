@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Trigger</strong> A foe within your reach attacks an ally adjacent to you and misses.</p><hr /><p>The Answer may trigger off an opening a foe hands an ally instead of one it hands you: a miss against an adjacent ally within your reach counts as an opening. This does not change how many Answers you may make in a round, and an Answer made this way still costs your reaction if it normally would.</p>"
+            "value": "<p><strong>Trigger</strong> A foe within your reach attacks an ally adjacent to you and misses.</p><hr /><p>The opening was against somebody else. Your body did not notice the difference.</p><p>The Answer may trigger off an opening a foe hands an ally instead of one it hands you: a miss against an adjacent ally within your reach counts as an opening. This does not change how many Answers you may make in a round, and an Answer made this way still costs your reaction if it normally would.</p>"
         },
         "level": {
             "value": 2

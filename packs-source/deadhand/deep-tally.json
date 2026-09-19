@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Your Tally cap increases by 1. This stacks with the increases your level already grants. Tally above your old cap behaves exactly like any other Tally — it does not drain faster and it is not lost between fights.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>You hold more of a fight in your body than most people can carry out of one.</p><p>Your Tally cap increases by 1. This stacks with the increases your level already grants. Tally above your old cap behaves exactly like any other Tally — it does not drain faster and it is not lost between fights.</p>"
         },
         "level": {
             "value": 6

@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Against constructs and hostile ghost-machines, your Mark's bonus increases by 1, and you gain a +2 circumstance bonus to Survival checks to Track them and to Perception checks to locate them.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Bonus to Mark and track constructs and hostile ghost-machines specifically.</p><p>Against constructs and hostile ghost-machines, your Mark's bonus increases by 1, and you gain a +2 circumstance bonus to Survival checks to Track them and to Perception checks to locate them.</p>"
         },
         "level": {
             "value": 8

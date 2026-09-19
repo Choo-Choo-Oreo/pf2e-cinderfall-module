@@ -11,7 +11,7 @@
         "damage": {},
         "defense": null,
         "description": {
-            "value": "<p>You press your attention against the world's grain and sense the presence of any active working, ward, bound or unbound spirit, or ghost-machine within the area — a general direction and a rough sense of \"close\" or \"far,\" nothing more. You don't learn what it does. You learn that something is there, the way you'd hear breathing behind a locked door.</p>"
+            "value": "<p><strong>Activate</strong> 2 actions (concentrate)</p><p>You press your attention against the world's grain and sense the presence of any active working, ward, bound or unbound spirit, or ghost-machine within the area — a general direction and a rough sense of \"close\" or \"far,\" nothing more. You don't learn what it does. You learn that something is there, the way you'd hear breathing behind a locked door.</p>"
         },
         "duration": {
             "sustained": true,

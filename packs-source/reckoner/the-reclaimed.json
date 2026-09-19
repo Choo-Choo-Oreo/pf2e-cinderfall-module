@@ -11,7 +11,7 @@
         "damage": {},
         "defense": null,
         "description": {
-            "value": "<p>As <i>The Unclaimed Return</i>, with a far wider window — rarer and more desperate. Costs 1 permanent Reckoning stage as normal for that spell, plus an additional 1 permanent stage for the wider reach.</p>"
+            "value": "<p><strong>Activate</strong> 10 minutes</p><p>As <i>The Unclaimed Return</i>, with a far wider window — rarer and more desperate. Costs 1 permanent Reckoning stage as normal for that spell, plus an additional 1 permanent stage for the wider reach.</p>"
         },
         "duration": {
             "sustained": false,

@@ -11,7 +11,7 @@
         },
         "category": null,
         "description": {
-            "value": "<p><strong>Trigger</strong> stepping away from an adjacent enemy</p><p><strong>Effect</strong> reload as part of the Step</p><hr /><p>Buy a pace of distance while racking the slide.</p>"
+            "value": "<p><strong>Tier</strong> Green</p><p><strong>Activate</strong> 1 action, replaces a Step</p><p><strong>Trigger</strong> stepping away from an adjacent enemy</p><p><strong>Effect</strong> reload as part of the Step</p><hr /><p>Buy a pace of distance while racking the slide.</p>"
         },
         "publication": {
             "license": "ORC",

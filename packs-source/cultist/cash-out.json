@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You roll a check or a saving throw.</p><hr /><p>Roll twice and use the better result. This is a fortune effect. Treat the die result you keep as a natural 20 for the purpose of the natural-20 rule, even if the number itself is lower — the Croupier doesn't rig the number, only what it means. If the total still isn't enough to succeed, no natural 20 was ever promised, only better odds.</p>"
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You roll a check or a saving throw.</p><hr /><p>Croupier-locked — roll twice on any check or save, and treat what you keep as a natural 20.</p><p>Roll twice and use the better result. This is a fortune effect. Treat the die result you keep as a natural 20 for the purpose of the natural-20 rule, even if the number itself is lower — the Croupier doesn't rig the number, only what it means. If the total still isn't enough to succeed, no natural 20 was ever promised, only better odds.</p>"
         },
         "level": {
             "value": 20
@@ -40,7 +40,7 @@
     "flags": {
         "cinderfall": {
             "incomplete": "\"Roll twice, keep the better, and treat the kept die as a natural 20 for the nat-20 rule even if the number is lower\" redefines the rolled-die value itself, distinct from a reroll (only one literal final die is used) and distinct from AdjustDegreeOfSuccess (it doesn't shift a success tier, it redefines the natural number, which matters separately for the natural-1/natural-20 auto-crit rule). No rule element retroactively redefines a rolled value -- confirmed absent via exhaustive grep across pf2e-source for this shape throughout this pass.",
-            "track": "croupier"
+            "track": "the-croupier"
         }
     }
 }

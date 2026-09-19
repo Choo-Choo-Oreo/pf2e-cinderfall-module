@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per encounter</p><hr /><p>Study a structure, vehicle, machine, or construct you can see within 60 feet. You learn the single point at which it fails. Until the end of the encounter, your Strikes against it are critical hits on any successful attack roll, and a creature inside, aboard, or made of it takes a −2 circumstance penalty to AC against you.</p>"
+            "value": "<p><strong>Frequency</strong> once per encounter</p><hr /><p>Everything is holding something else up. You have spent twenty years learning which part.</p><p>Study a structure, vehicle, machine, or construct you can see within 60 feet. You learn the single point at which it fails. Until the end of the encounter, your Strikes against it are critical hits on any successful attack roll, and a creature inside, aboard, or made of it takes a −2 circumstance penalty to AC against you.</p>"
         },
         "level": {
             "value": 16

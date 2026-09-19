@@ -14,7 +14,7 @@
         "damage": {},
         "defense": null,
         "description": {
-            "value": "<p>Every creature in the area — allies included — rerolls its next saving throw or skill check and must use the new result. You don't get to choose who benefits. This is the Croupier's actual sense of humor: the \"greater\" version of Loaded Dice is the version you can't rig.</p>"
+            "value": "<p><strong>Rite</strong> 13th</p><p>Every creature in the area — allies included — rerolls its next saving throw or skill check and must use the new result. You don't get to choose who benefits. This is the Croupier's actual sense of humor: the \"greater\" version of Loaded Dice is the version you can't rig.</p>"
         },
         "duration": {
             "sustained": false,

@@ -16,7 +16,7 @@
             }
         },
         "description": {
-            "value": "<i>Success</i> unaffected, though the memory is faintly uncomfortable. <i>Failure</i> the target can't accurately describe you to anyone else for the duration, though it still recognizes you on sight. <i>Critical Failure</i> as failure, plus a −2 status penalty on its Perception checks to identify you specifically."
+            "value": "<p><strong>Aspect</strong> The Unspeakable</p><p><strong>Cost</strong> Focus 1</p><hr /><i>Success</i> unaffected, though the memory is faintly uncomfortable. <i>Failure</i> the target can't accurately describe you to anyone else for the duration, though it still recognizes you on sight. <i>Critical Failure</i> as failure, plus a −2 status penalty on its Perception checks to identify you specifically."
         },
         "duration": {
             "sustained": false,
@@ -43,7 +43,9 @@
         },
         "traits": {
             "rarity": "common",
-            "traditions": [],
+            "traditions": [
+                "divine"
+            ],
             "value": [
                 "focus",
                 "reckoner"

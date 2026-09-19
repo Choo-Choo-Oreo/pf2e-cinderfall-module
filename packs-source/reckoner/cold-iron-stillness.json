@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>A creature that has been under HEAT DEBT since the end of your last turn is slowed 1 and reduces any resistance it has by 5. If it has been under HEAT DEBT for three consecutive rounds, it is slowed 2 instead and reduces its resistances by 10. These effects end when the chill does.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Cold Reckoning-flavored, open to all — a target's actions and resistances slow further under sustained Heat Debt.</p><p>A creature that has been under HEAT DEBT since the end of your last turn is slowed 1 and reduces any resistance it has by 5. If it has been under HEAT DEBT for three consecutive rounds, it is slowed 2 instead and reduces its resistances by 10. These effects end when the chill does.</p>"
         },
         "level": {
             "value": 10

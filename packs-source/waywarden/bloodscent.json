@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Your Marked quarry can never be hidden or undetected from you or your Feral Bond by ordinary means; it is at best concealed. Magical, technological, or supernatural concealment still functions against you normally.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Your Marked quarry can no longer hide from you or your Feral Bond by any ordinary means.</p><p>Your Marked quarry can never be hidden or undetected from you or your Feral Bond by ordinary means; it is at best concealed. Magical, technological, or supernatural concealment still functions against you normally.</p>"
         },
         "level": {
             "value": 14

@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>You can Answer a threat you didn't see coming. A Strike or ability from a creature that is <em>hidden</em> or <em>undetected</em> by you, a hazard, or a trap can trigger The Answer even though you didn't perceive its source, and you aren't <em>off-guard</em> for the purposes of the Answer's Strike against it. The Answer still costs your reaction as normal.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Threats to the Ward that happen too fast for anyone else are still exactly the speed the Oath expects.</p><p>You can Answer a threat you didn't see coming. A Strike or ability from a creature that is <em>hidden</em> or <em>undetected</em> by you, a hazard, or a trap can trigger The Answer even though you didn't perceive its source, and you aren't <em>off-guard</em> for the purposes of the Answer's Strike against it. The Answer still costs your reaction as normal.</p>"
         },
         "level": {
             "value": 6

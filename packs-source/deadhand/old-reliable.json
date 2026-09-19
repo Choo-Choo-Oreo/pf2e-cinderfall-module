@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> —</p><p><strong>Requirement</strong> You are wielding your named weapon.</p><hr /><p>Choose one weapon at the time you take this feat; renaming it takes a week of downtime and a good reason. While wielding it, The Answer also triggers when a foe within your reach Steps away from you, in addition to its usual trigger. You gain a +1 circumstance bonus to the damage roll of an Answer made with that weapon.</p>"
+            "value": "<p><strong>Frequency</strong> —</p><p><strong>Requirement</strong> You are wielding your named weapon.</p><hr /><p>Name one weapon you've carried since your first contract. The Answer triggers off it more easily than any other.</p><p>Choose one weapon at the time you take this feat; renaming it takes a week of downtime and a good reason. While wielding it, The Answer also triggers when a foe within your reach Steps away from you, in addition to its usual trigger. You gain a +1 circumstance bonus to the damage roll of an Answer made with that weapon.</p>"
         },
         "level": {
             "value": 2

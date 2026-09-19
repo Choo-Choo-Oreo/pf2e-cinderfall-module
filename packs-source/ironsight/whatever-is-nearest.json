@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Requirement</strong> There is a plausible improvised firearm, tool, or scrap weapon within reach.</p><hr /><p>Pick it up and make it work. Until the end of the encounter, treat the object as a scrap gun of a simple firearm type of your choice with a Failure Range, using your own weapon proficiency. It falls apart at the end of the encounter regardless of what happens to it.</p>"
+            "value": "<p><strong>Requirement</strong> There is a plausible improvised firearm, tool, or scrap weapon within reach.</p><hr /><p>A nail gun is a gun. A flare pistol is a gun. You have made a case for a wrench.</p><p>Pick it up and make it work. Until the end of the encounter, treat the object as a scrap gun of a simple firearm type of your choice with a Failure Range, using your own weapon proficiency. It falls apart at the end of the encounter regardless of what happens to it.</p>"
         },
         "level": {
             "value": 2

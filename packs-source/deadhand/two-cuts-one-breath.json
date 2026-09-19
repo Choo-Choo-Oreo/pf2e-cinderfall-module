@@ -11,7 +11,7 @@
         },
         "category": null,
         "description": {
-            "value": "<p><strong>Trigger</strong> a Riposte connects</p><p><strong>Effect</strong> chain a second Strike directly onto the same target, dealing an extra 3d6 damage on a hit</p><hr /><p>Chain a riposte directly into a second strike.</p>"
+            "value": "<p><strong>Tier</strong> Veteran</p><p><strong>Trigger</strong> a Riposte connects</p><p><strong>Effect</strong> chain a second Strike directly onto the same target, dealing an extra 3d6 damage on a hit</p><hr /><p>Chain a riposte directly into a second strike.</p>"
         },
         "publication": {
             "license": "ORC",

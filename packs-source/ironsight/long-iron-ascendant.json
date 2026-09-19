@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>When you use Called Shot, the target does not benefit from cover of any degree against that Strike, including greater cover and cover granted by another creature.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Cover stopped being a category some time ago; it is just distance with an opinion.</p><p>When you use Called Shot, the target does not benefit from cover of any degree against that Strike, including greater cover and cover granted by another creature.</p>"
         },
         "level": {
             "value": 12

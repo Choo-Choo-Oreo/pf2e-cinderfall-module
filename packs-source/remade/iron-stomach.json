@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Requirement</strong> bio-attuned</p><p><strong>Duration</strong> constant</p><hr /><p>Straining Load's doubled food and water requirement no longer applies to you, and you're immune to the sickened condition from a Graft check's ordinary Failure result.</p>"
+            "value": "<p><strong>Requirement</strong> bio-attuned</p><p><strong>Duration</strong> constant</p><hr /><p>Your body's stopped complaining about what it costs to run.</p><p>Straining Load's doubled food and water requirement no longer applies to you, and you're immune to the sickened condition from a Graft check's ordinary Failure result.</p>"
         },
         "level": {
             "value": 12

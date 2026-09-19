@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>You may issue your called command twice per round instead of once, but never twice to the same ally in the same round. The second command each round costs you an action even if the first did not.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>One order was never going to be enough for a room this size.</p><p>You may issue your called command twice per round instead of once, but never twice to the same ally in the same round. The second command each round costs you an action even if the first did not.</p>"
         },
         "level": {
             "value": 8

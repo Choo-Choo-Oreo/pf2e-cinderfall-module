@@ -11,7 +11,7 @@
         },
         "category": null,
         "description": {
-            "value": "<p><strong>Check</strong> Thievery vs. the mark's Perception DC on both the lift and the return</p><hr /><p>Lift a keycard, override chip, or authorization token and use it before returning it with the mark none the wiser — the window closes the moment they'd naturally check for it.</p>"
+            "value": "<p><strong>Tier</strong> Expert</p><p><strong>Activate</strong> 1 action to take, 1 action to return, within a 10-minute window</p><p><strong>Check</strong> Thievery vs. the mark's Perception DC on both the lift and the return</p><hr /><p>Lift a keycard, override chip, or authorization token and use it before returning it with the mark none the wiser — the window closes the moment they'd naturally check for it.</p>"
         },
         "publication": {
             "license": "ORC",

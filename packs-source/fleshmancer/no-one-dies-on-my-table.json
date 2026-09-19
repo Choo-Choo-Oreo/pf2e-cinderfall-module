@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Cost</strong> 8 Vitae</p><p><strong>Range</strong> 60 feet</p><hr /><p>Every ally within range regains Hit Points equal to 6 times your level, and each has one condition of your choice removed. Any ally who died within the last minute is restored to life at 1 Hit Point and <em>drained 4</em>. You are <em>drained 2</em> until you next rest.</p>"
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Cost</strong> 8 Vitae</p><p><strong>Range</strong> 60 feet</p><hr /><p>You have said it so many times that it has started to be true.</p><p>Every ally within range regains Hit Points equal to 6 times your level, and each has one condition of your choice removed. Any ally who died within the last minute is restored to life at 1 Hit Point and <em>drained 4</em>. You are <em>drained 2</em> until you next rest.</p>"
         },
         "level": {
             "value": 20

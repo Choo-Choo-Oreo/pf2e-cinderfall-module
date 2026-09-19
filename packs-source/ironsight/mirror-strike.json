@@ -11,7 +11,7 @@
         },
         "category": null,
         "description": {
-            "value": "<p><strong>Trigger</strong> one pistol scores a critical hit</p><p><strong>Effect</strong> the other pistol's next shot this turn treats a natural 1–9 as a hit instead of a miss, once</p><hr /><p>A perfect shot from one hand steadies the other.</p>"
+            "value": "<p><strong>Tier</strong> Blooded</p><p><strong>Trigger</strong> one pistol scores a critical hit</p><p><strong>Effect</strong> the other pistol's next shot this turn treats a natural 1–9 as a hit instead of a miss, once</p><hr /><p>A perfect shot from one hand steadies the other.</p>"
         },
         "publication": {
             "license": "ORC",

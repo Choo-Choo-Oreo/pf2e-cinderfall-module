@@ -4,14 +4,14 @@
     "img": "icons/svg/mystery-man.svg",
     "system": {
         "actionType": {
-            "value": "passive"
+            "value": "free"
         },
         "actions": {
             "value": null
         },
         "category": null,
         "description": {
-            "value": "<p><strong>Effect</strong> +2 item bonus to AC or resistance 5 to physical (choose on activation)</p><hr /><span class=\"sdesc\">Bolt on extra plate to your Iron Lung, Rig, or Widowmaker shell.</span>"
+            "value": "<p><strong>Type</strong> sustained</p><p><strong>Effect</strong> +2 item bonus to AC or resistance 5 to physical (choose on activation)</p><p><strong>Cost</strong> −5-foot Speed penalty while active</p><hr /><span class=\"sdesc\">Bolt on extra plate to your Iron Lung, Rig, or Widowmaker shell.</span>"
         },
         "publication": {
             "license": "ORC",

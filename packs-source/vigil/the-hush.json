@@ -14,7 +14,7 @@
         "damage": {},
         "defense": null,
         "description": {
-            "value": "<p>No sound crosses the boundary of the area, in or out, for as long as you sustain the spell. Useful for an ambush, a confession, or simply making sure a scream doesn't travel as far as it wants to.</p>"
+            "value": "<p><strong>Area</strong> 20-foot burst centered on a point within range</p><p>No sound crosses the boundary of the area, in or out, for as long as you sustain the spell. Useful for an ambush, a confession, or simply making sure a scream doesn't travel as far as it wants to.</p>"
         },
         "duration": {
             "sustained": true,

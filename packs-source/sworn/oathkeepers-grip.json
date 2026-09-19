@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>You gain a +2 circumstance bonus to Athletics checks to Grapple a creature that has damaged or targeted your Ward this encounter, and to the DC of your Grab against that creature's attempts to Escape. While you have such a creature grabbed you can't be Disarmed, and becoming <em>frightened</em> or <em>fleeing</em> doesn't make you release it. If you release it while it can still reach the Ward, that is a breach: you take a −1 status penalty to attack rolls until the end of your next turn.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>What you have hold of on the Ward's behalf, you keep hold of; letting go would be a breach.</p><p>You gain a +2 circumstance bonus to Athletics checks to Grapple a creature that has damaged or targeted your Ward this encounter, and to the DC of your Grab against that creature's attempts to Escape. While you have such a creature grabbed you can't be Disarmed, and becoming <em>frightened</em> or <em>fleeing</em> doesn't make you release it. If you release it while it can still reach the Ward, that is a breach: you take a −1 status penalty to attack rolls until the end of your next turn.</p>"
         },
         "level": {
             "value": 4

@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per turn</p><hr /><p>Reload one firearm you are wielding.</p>"
+            "value": "<p><strong>Frequency</strong> once per turn</p><hr /><p>Reload as a free action once per turn.</p><p>Reload one firearm you are wielding.</p>"
         },
         "level": {
             "value": 6

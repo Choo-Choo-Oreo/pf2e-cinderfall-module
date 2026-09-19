@@ -11,7 +11,7 @@
         },
         "category": null,
         "description": {
-            "value": "<p><strong>Effect</strong> Shove a foe back a stride, then raise your shield for a +1 circumstance bonus to AC until the start of your next turn</p><hr /><p>Bash a foe back, then reset your guard before they can capitalize.</p>"
+            "value": "<p><strong>Tier</strong> Green</p><p><strong>Effect</strong> Shove a foe back a stride, then raise your shield for a +1 circumstance bonus to AC until the start of your next turn</p><hr /><p>Bash a foe back, then reset your guard before they can capitalize.</p>"
         },
         "publication": {
             "license": "ORC",

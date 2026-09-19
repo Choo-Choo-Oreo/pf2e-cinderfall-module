@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Your maximum Zeal increases by 2, and once per day you regain all spent Zeal the first time you roll initiative that day, rather than only through your normal daily preparations.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>A permanently larger Zeal pool with a once-daily full refill.</p><p>Your maximum Zeal increases by 2, and once per day you regain all spent Zeal the first time you roll initiative that day, rather than only through your normal daily preparations.</p>"
         },
         "level": {
             "value": 20

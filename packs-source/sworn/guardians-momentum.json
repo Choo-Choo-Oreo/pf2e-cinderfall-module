@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Trigger</strong> Your Answer's Strike hits, and before the start of your next turn a different creature threatens your Ward.</p><hr /><p>You Answer the new threat without using a reaction and without spending anything. As part of either Answer you can Stride up to half your Speed toward your Ward or toward the creature you are Answering. A round can hold at most one Answer from this feat, and it stacks with Twin Answer's extra reaction — up to three Answers in a round, each against a different creature.</p>"
+            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Trigger</strong> Your Answer's Strike hits, and before the start of your next turn a different creature threatens your Ward.</p><hr /><p>Answering once carries you into the next Answer without stopping to pay for it.</p><p>You Answer the new threat without using a reaction and without spending anything. As part of either Answer you can Stride up to half your Speed toward your Ward or toward the creature you are Answering. A round can hold at most one Answer from this feat, and it stacks with Twin Answer's extra reaction — up to three Answers in a round, each against a different creature.</p>"
         },
         "level": {
             "value": 10

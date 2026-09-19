@@ -11,7 +11,7 @@
         },
         "category": null,
         "description": {
-            "value": "<p><strong>Effect</strong> no roll — it simply opens, unless warded by something beyond mundane engineering, in which case its effective DC is merely +10 harder rather than impossible</p><hr /><p>Any lock, vault, checkpoint, or containment ward you can physically touch, you open — full stop.</p>"
+            "value": "<p><strong>Tier</strong> Master</p><p><strong>Effect</strong> no roll — it simply opens, unless warded by something beyond mundane engineering, in which case its effective DC is merely +10 harder rather than impossible</p><hr /><p>Any lock, vault, checkpoint, or containment ward you can physically touch, you open — full stop.</p>"
         },
         "publication": {
             "license": "ORC",

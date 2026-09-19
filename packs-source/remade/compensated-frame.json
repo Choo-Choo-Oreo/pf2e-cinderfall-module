@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Requirement</strong> chrome-attuned</p><p><strong>Duration</strong> constant</p><hr /><p>Reduce the penalty to Diplomacy and Performance checks that rely on warmth or sincerity from Frayed or Hollowed Drift by 1 — Frayed's −1 becomes +0, Hollowed's −2 becomes −1. The Intimidation bonus is unaffected.</p>"
+            "value": "<p><strong>Requirement</strong> chrome-attuned</p><p><strong>Duration</strong> constant</p><hr /><p>You've learned to read as less of a machine than you are.</p><p>Reduce the penalty to Diplomacy and Performance checks that rely on warmth or sincerity from Frayed or Hollowed Drift by 1 — Frayed's −1 becomes +0, Hollowed's −2 becomes −1. The Intimidation bonus is unaffected.</p>"
         },
         "level": {
             "value": 6

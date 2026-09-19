@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Your ranged Strikes ignore lesser and standard cover entirely, and treat greater cover as standard. Through the Wall, if you have it, no longer reduces damage for thick barriers.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Everything is soft if it is asked the right question at the right speed.</p><p>Your ranged Strikes ignore lesser and standard cover entirely, and treat greater cover as standard. Through the Wall, if you have it, no longer reduces damage for thick barriers.</p>"
         },
         "level": {
             "value": 16

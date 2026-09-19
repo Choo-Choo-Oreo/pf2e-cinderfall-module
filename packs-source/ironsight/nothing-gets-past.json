@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>You may make ranged Strikes as reactions against enemies entering your reach without expending your reaction, once per enemy per round. Each such Strike costs one loaded round from the weapon it is made with; when nothing you wield is loaded, this stops until you reload.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>The doorway holds because you are in it, and this has been true in four different buildings.</p><p>You may make ranged Strikes as reactions against enemies entering your reach without expending your reaction, once per enemy per round. Each such Strike costs one loaded round from the weapon it is made with; when nothing you wield is loaded, this stops until you reload.</p>"
         },
         "level": {
             "value": 12

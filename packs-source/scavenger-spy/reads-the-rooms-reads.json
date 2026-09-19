@@ -11,7 +11,7 @@
         },
         "category": null,
         "description": {
-            "value": "<p><strong>Check</strong> Perception vs. target's Deception DC</p><p><strong>Effect</strong> success grants +1 circumstance bonus (Novice) to your next Deception check against them</p><hr /><p>Watch how a target performs for others before you approach — you'll know exactly which fake identity, sob story, or flattery already worked once.</p>"
+            "value": "<p><strong>Tier</strong> Novice</p><p><strong>Check</strong> Perception vs. target's Deception DC</p><p><strong>Effect</strong> success grants +1 circumstance bonus (Novice) to your next Deception check against them</p><hr /><p>Watch how a target performs for others before you approach — you'll know exactly which fake identity, sob story, or flattery already worked once.</p>"
         },
         "publication": {
             "license": "ORC",

@@ -16,7 +16,7 @@
             }
         },
         "description": {
-            "value": "<p>The target must speak one true sentence in answer to a question you ask. A target willing to speak but not to speak truthfully gets no save — the compulsion only bites on those who'd otherwise stay silent.</p>"
+            "value": "<p><strong>Saving Throw</strong> Will (only if unwilling to speak at all)</p><p>The target must speak one true sentence in answer to a question you ask. A target willing to speak but not to speak truthfully gets no save — the compulsion only bites on those who'd otherwise stay silent.</p>"
         },
         "duration": {
             "sustained": false,

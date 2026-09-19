@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>You gain a +1 circumstance bonus to Fortitude saves against poison and disease.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>A standing bonus against poison and disease.</p><p>You gain a +1 circumstance bonus to Fortitude saves against poison and disease.</p>"
         },
         "level": {
             "value": 6

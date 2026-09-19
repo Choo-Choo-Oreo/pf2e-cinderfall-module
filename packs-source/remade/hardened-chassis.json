@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Requirement</strong> chrome-attuned</p><p><strong>Duration</strong> constant</p><hr /><p>While at Hollowed Drift or higher, a Deception check to disguise yourself as unaugmented gains no bonus against you from your visible or audible tells — increase the DC to see through such a disguise by 5.</p>"
+            "value": "<p><strong>Requirement</strong> chrome-attuned</p><p><strong>Duration</strong> constant</p><hr /><p>You've learned how to read as less augmented than you are, when it matters.</p><p>While at Hollowed Drift or higher, a Deception check to disguise yourself as unaugmented gains no bonus against you from your visible or audible tells — increase the DC to see through such a disguise by 5.</p>"
         },
         "level": {
             "value": 10

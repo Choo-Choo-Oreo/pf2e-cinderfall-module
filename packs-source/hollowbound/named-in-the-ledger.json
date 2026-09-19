@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> permanent</p><hr /><p>You learn your bound spirit's true name. Your Fraying die drops one step permanently while that spirit is the one bound to you — this stacks with the improvement at 7th level. The spirit may still refuse an ask, but it can no longer feign ignorance of you: it may never make you repeat, rephrase, or re-establish who you are, and effects that would sever or confuse your bond take a status penalty against you.</p>"
+            "value": "<p><strong>Tag</strong> General</p><p><strong>Duration</strong> permanent</p><hr /><p>Learn your bound spirit's true name. The Fraying die drops one permanent step for this specific spirit — it can still refuse you, but it will never again pretend it doesn't know you.</p><p>You learn your bound spirit's true name. Your Fraying die drops one step permanently while that spirit is the one bound to you — this stacks with the improvement at 7th level. The spirit may still refuse an ask, but it can no longer feign ignorance of you: it may never make you repeat, rephrase, or re-establish who you are, and effects that would sever or confuse your bond take a status penalty against you.</p>"
         },
         "level": {
             "value": 14

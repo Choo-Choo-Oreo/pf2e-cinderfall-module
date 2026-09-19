@@ -11,7 +11,7 @@
         },
         "category": null,
         "description": {
-            "value": "<p><strong>Trigger</strong> the situation shifts unexpectedly mid-job</p><p><strong>Effect</strong> swap to a prepared branch instead of losing tempo — automatically succeeds where an improvised response would otherwise require a check</p><hr /><p>Lay out a multi-stage job covering several contingencies in advance.</p>"
+            "value": "<p><strong>Tier</strong> Expert</p><p><strong>Trigger</strong> the situation shifts unexpectedly mid-job</p><p><strong>Effect</strong> swap to a prepared branch instead of losing tempo — automatically succeeds where an improvised response would otherwise require a check</p><hr /><p>Lay out a multi-stage job covering several contingencies in advance.</p>"
         },
         "publication": {
             "license": "ORC",

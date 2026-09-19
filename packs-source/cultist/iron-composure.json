@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>You gain a +1 circumstance bonus to saving throws against effects that would make you frightened, sickened, or stupefied.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>A standing bonus against frightened, sickened, and stupefied.</p><p>You gain a +1 circumstance bonus to saving throws against effects that would make you frightened, sickened, or stupefied.</p>"
         },
         "level": {
             "value": 8

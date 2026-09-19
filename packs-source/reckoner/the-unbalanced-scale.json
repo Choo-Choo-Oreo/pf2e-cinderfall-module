@@ -16,7 +16,7 @@
             }
         },
         "description": {
-            "value": "<p>Choose one: <i>Debit</i> the target must succeed at a Fortitude save or be slowed 1 for the duration (critical failure: slowed 2). <i>Credit</i> one willing ally is hastened for the duration, no save.</p>"
+            "value": "<p><strong>Saving Throw</strong> Fortitude (debit only)</p><p>Choose one: <i>Debit</i> the target must succeed at a Fortitude save or be slowed 1 for the duration (critical failure: slowed 2). <i>Credit</i> one willing ally is hastened for the duration, no save.</p>"
         },
         "duration": {
             "sustained": false,

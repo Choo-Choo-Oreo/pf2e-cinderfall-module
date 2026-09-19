@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per week</p><p><strong>Trigger</strong> You or your Feral Bond would roll on the Bloom Table from Strain overflow.</p><hr /><p>Whichever of you the roll was meant for, redirect it to the other instead. The chosen one of you rolls on the Bloom Table and takes the result in the triggering creature's place. Use whichever of you can better carry the consequence — the bond runs deep enough now that the wasteland genuinely can't always tell you apart.</p>"
+            "value": "<p><strong>Frequency</strong> once per week</p><p><strong>Trigger</strong> You or your Feral Bond would roll on the Bloom Table from Strain overflow.</p><hr /><p>Once per week, redirect a Bloom Table roll from yourself to your Feral Bond, or from your Bond to yourself.</p><p>Whichever of you the roll was meant for, redirect it to the other instead. The chosen one of you rolls on the Bloom Table and takes the result in the triggering creature's place. Use whichever of you can better carry the consequence — the bond runs deep enough now that the wasteland genuinely can't always tell you apart.</p>"
         },
         "level": {
             "value": 10

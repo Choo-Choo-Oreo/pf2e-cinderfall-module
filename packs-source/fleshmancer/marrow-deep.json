@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> —, but see Requirement</p><p><strong>Requirement</strong> You have not gained a mutation from this feat since your last level gain.</p><p><strong>Cost</strong> 3 Vitae</p><hr /><p>Choose one minor beneficial mutation from the Bloom Table's Runaway Mutation entries the GM has approved for your character, or propose a new one of comparable power with the GM. It is permanent and does not require maintenance. You may gain one this way per level.</p>"
+            "value": "<p><strong>Cast</strong> 1 day of downtime</p><p><strong>Frequency</strong> —, but see Requirement</p><p><strong>Requirement</strong> You have not gained a mutation from this feat since your last level gain.</p><p><strong>Cost</strong> 3 Vitae</p><hr /><p>Permanently graft a minor beneficial mutation onto yourself.</p><p>Choose one minor beneficial mutation from the Bloom Table's Runaway Mutation entries the GM has approved for your character, or propose a new one of comparable power with the GM. It is permanent and does not require maintenance. You may gain one this way per level.</p>"
         },
         "level": {
             "value": 10

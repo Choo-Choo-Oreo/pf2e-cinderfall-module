@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>You gain a +1 circumstance bonus to saving throws against effects with the divine, occult, or curse trait created by a creature other than yourself, and to checks to identify such effects.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>A standing bonus against divine, occult, and curse effects.</p><p>You gain a +1 circumstance bonus to saving throws against effects with the divine, occult, or curse trait created by a creature other than yourself, and to checks to identify such effects.</p>"
         },
         "level": {
             "value": 14

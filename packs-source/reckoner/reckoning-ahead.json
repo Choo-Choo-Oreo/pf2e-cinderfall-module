@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Trigger</strong> You begin to draw an Overflow effect that would advance your Reckoning.</p><p><strong>Duration</strong> constant</p><hr /><p>You learn precisely what the next stage will take from you — which fact, which skill, which capability, or exactly what a Major Reckoning will cost. You may decline to draw and lose nothing. Once per day, having seen it, you may instead choose a different toll of the same stage: the ledger is indifferent to which specific thing it takes.</p>"
+            "value": "<p><strong>Trigger</strong> You begin to draw an Overflow effect that would advance your Reckoning.</p><p><strong>Duration</strong> constant</p><hr /><p>See your exact next Reckoning stage before committing to draw it — perfect information about the coming cost.</p><p>You learn precisely what the next stage will take from you — which fact, which skill, which capability, or exactly what a Major Reckoning will cost. You may decline to draw and lose nothing. Once per day, having seen it, you may instead choose a different toll of the same stage: the ledger is indifferent to which specific thing it takes.</p>"
         },
         "level": {
             "value": 16

@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Cost</strong> 1 Conviction</p><p><strong>Targets</strong> 1 ally adjacent to you</p><hr /><p>The ally leans on you. It regains 1 Focus Point, or, if it has no focus pool, 1 point of whatever renewable pool its own class abilities spend. The point can take it above its usual maximum until the end of the encounter. It must be adjacent — physically. Open to any Oath: Resolve is what your Conviction is called under the Unwritten Oath; under another Oath, spend Conviction as normal.</p>"
+            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Cost</strong> 1 Conviction</p><p><strong>Targets</strong> 1 ally adjacent to you</p><hr /><p>Your Resolve becomes something allies can lean on, physically, when their own runs out.</p><p>The ally leans on you. It regains 1 Focus Point, or, if it has no focus pool, 1 point of whatever renewable pool its own class abilities spend. The point can take it above its usual maximum until the end of the encounter. It must be adjacent — physically. Open to any Oath: Resolve is what your Conviction is called under the Unwritten Oath; under another Oath, spend Conviction as normal.</p>"
         },
         "level": {
             "value": 12

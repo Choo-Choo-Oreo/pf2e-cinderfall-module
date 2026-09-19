@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You would become frightened.</p><hr /><p>Reduce the frightened value by 1 (minimum 0). If this reduces it to 0, you are not frightened at all. Doubt is a foreign language to you, and you've never bothered to learn it.</p>"
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You would become frightened.</p><hr /><p>Shrug off a step of the frightened condition once per day.</p><p>Reduce the frightened value by 1 (minimum 0). If this reduces it to 0, you are not frightened at all. Doubt is a foreign language to you, and you've never bothered to learn it.</p>"
         },
         "level": {
             "value": 2
@@ -39,7 +39,7 @@
     "_id": "n4b244KiUIRxUJXG",
     "flags": {
         "cinderfall": {
-            "track": "undoubted"
+            "track": "the-undoubted"
         }
     }
 }

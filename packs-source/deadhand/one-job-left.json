@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Trigger</strong> You drop below half your maximum Hit Points.</p><hr /><p>For the rest of the encounter, every Redline you spend counts as the first Redline of the encounter: it is clean and you roll no Slip. This persists even if you are healed back above half Hit Points — once the job is the last one, it stays the last one.</p>"
+            "value": "<p><strong>Trigger</strong> You drop below half your maximum Hit Points.</p><hr /><p>While below half HP, every Redline you spend this encounter counts as your first — clean, no Slip roll.</p><p>For the rest of the encounter, every Redline you spend counts as the first Redline of the encounter: it is clean and you roll no Slip. This persists even if you are healed back above half Hit Points — once the job is the last one, it stays the last one.</p>"
         },
         "level": {
             "value": 18

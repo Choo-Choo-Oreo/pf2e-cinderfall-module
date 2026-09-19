@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Any Deadhand ability, effect, or Trade feature of yours that issues a command to one ally may target two allies instead. Both must be within the ability's range and must be able to hear and understand you. If the ability grants a bonus, both allies receive it; if it grants an action, each ally receives that action separately.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Cadre-flavored, open to all — your called command can target two allies instead of one.</p><p>Any Deadhand ability, effect, or Trade feature of yours that issues a command to one ally may target two allies instead. Both must be within the ability's range and must be able to hear and understand you. If the ability grants a bonus, both allies receive it; if it grants an action, each ally receives that action separately.</p>"
         },
         "level": {
             "value": 12

@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per round</p><p><strong>Trigger</strong> You redirect an attack onto yourself.</p><hr /><p>You gain resistance equal to half your level (minimum 2) against that attack's damage. This resistance applies after any other reduction, and it applies whether or not the attack would have hit the creature you took it from.</p>"
+            "value": "<p><strong>Frequency</strong> once per round</p><p><strong>Trigger</strong> You redirect an attack onto yourself.</p><hr /><p>The first one you took because it was aimed at somebody else. The second one you took on purpose.</p><p>You gain resistance equal to half your level (minimum 2) against that attack's damage. This resistance applies after any other reduction, and it applies whether or not the attack would have hit the creature you took it from.</p>"
         },
         "level": {
             "value": 4

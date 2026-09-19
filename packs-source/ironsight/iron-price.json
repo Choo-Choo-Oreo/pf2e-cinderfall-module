@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Trigger</strong> You would take damage from a Strike or effect while wielding a firearm.</p><hr /><p>Reduce the damage by an amount equal to twice your level. The firearm takes a permanent −1 penalty as though it had suffered a Cracked Barrel, cumulative with any it already has, repairable only at a proper workshop. A Good Gun may absorb this, and doing so is the only way one is ever damaged.</p>"
+            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Trigger</strong> You would take damage from a Strike or effect while wielding a firearm.</p><hr /><p>The weapon takes the hit that was meant for you, and it does not fully recover from it.</p><p>Reduce the damage by an amount equal to twice your level. The firearm takes a permanent −1 penalty as though it had suffered a Cracked Barrel, cumulative with any it already has, repairable only at a proper workshop. A Good Gun may absorb this, and doing so is the only way one is ever damaged.</p>"
         },
         "level": {
             "value": 12

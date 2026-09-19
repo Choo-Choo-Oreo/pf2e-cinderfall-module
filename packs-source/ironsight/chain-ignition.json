@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Range</strong> 60 feet</p><hr /><p>Every flammable object, fuel source, spilled chemical and area of hazardous ground within range goes up at once. Each becomes the centre of a 10-foot burst dealing your chemical weapon’s damage with a basic Reflex save, and each burst leaves hazardous ground behind. The GM decides what in the scene qualifies; the answer in the wasteland is usually most of it.</p>"
+            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Range</strong> 60 feet</p><hr /><p>Everything flammable in a room is one thing, and it has been the whole time.</p><p>Every flammable object, fuel source, spilled chemical and area of hazardous ground within range goes up at once. Each becomes the centre of a 10-foot burst dealing your chemical weapon’s damage with a basic Reflex save, and each burst leaves hazardous ground behind. The GM decides what in the scene qualifies; the answer in the wasteland is usually most of it.</p>"
         },
         "level": {
             "value": 16

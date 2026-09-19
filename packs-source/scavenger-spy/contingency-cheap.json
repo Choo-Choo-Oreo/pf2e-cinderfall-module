@@ -11,7 +11,7 @@
         },
         "category": null,
         "description": {
-            "value": "<p><strong>Trigger</strong> the named complication occurs</p><p><strong>Effect</strong> the prepared response resolves automatically with a +1 circumstance bonus, costing you no action in the moment</p><hr /><p>Name one specific thing that might go wrong before a job and have a minor prepared response ready.</p>"
+            "value": "<p><strong>Tier</strong> Novice</p><p><strong>Trigger</strong> the named complication occurs</p><p><strong>Effect</strong> the prepared response resolves automatically with a +1 circumstance bonus, costing you no action in the moment</p><hr /><p>Name one specific thing that might go wrong before a job and have a minor prepared response ready.</p>"
         },
         "publication": {
             "license": "ORC",

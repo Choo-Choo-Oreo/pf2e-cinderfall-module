@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Requirement</strong> bio-attuned</p><p><strong>Duration</strong> constant</p><hr /><p>Gain resistance 2 to physical damage. This resistance doesn't apply against attacks made with silver, cold iron, or similar bane materials, and doesn't stack with any other resistance to the same damage types.</p>"
+            "value": "<p><strong>Requirement</strong> bio-attuned</p><p><strong>Duration</strong> constant</p><hr /><p>Your grafted tissue has thickened into something closer to hide than skin.</p><p>Gain resistance 2 to physical damage. This resistance doesn't apply against attacks made with silver, cold iron, or similar bane materials, and doesn't stack with any other resistance to the same damage types.</p>"
         },
         "level": {
             "value": 4

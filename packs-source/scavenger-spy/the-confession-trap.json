@@ -11,7 +11,7 @@
         },
         "category": null,
         "description": {
-            "value": "<p><strong>Check</strong> Deception vs. target's Will DC, +2 circumstance bonus (Skilled)</p><p><strong>Effect</strong> extracts one piece of real information as though from a successful Make a Request</p><hr /><p>Bait a target into revealing something true by first pretending to reveal something true about yourself.</p>"
+            "value": "<p><strong>Tier</strong> Skilled</p><p><strong>Check</strong> Deception vs. target's Will DC, +2 circumstance bonus (Skilled)</p><p><strong>Effect</strong> extracts one piece of real information as though from a successful Make a Request</p><hr /><p>Bait a target into revealing something true by first pretending to reveal something true about yourself.</p>"
         },
         "publication": {
             "license": "ORC",

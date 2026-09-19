@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Whenever an ally within 60 feet who can hear you critically fails a check, they may reroll it once, taking the second result. Each ally may benefit once per encounter. This costs you nothing, and you do not have to be aware the check was happening.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>There has not been a solo action in a room you were in for the better part of a decade.</p><p>Whenever an ally within 60 feet who can hear you critically fails a check, they may reroll it once, taking the second result. Each ally may benefit once per encounter. This costs you nothing, and you do not have to be aware the check was happening.</p>"
         },
         "level": {
             "value": 18

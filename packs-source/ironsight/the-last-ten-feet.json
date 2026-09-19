@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Adjacent creatures do not benefit from concealment, cover, or any circumstance bonus to AC against your ranged Strikes, and your critical hits against adjacent creatures deal an additional die of damage. Creatures larger than you gain no bonus from their size against these Strikes.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>The distance at which every advantage anyone has over you stops applying.</p><p>Adjacent creatures do not benefit from concealment, cover, or any circumstance bonus to AC against your ranged Strikes, and your critical hits against adjacent creatures deal an additional die of damage. Creatures larger than you gain no bonus from their size against these Strikes.</p>"
         },
         "level": {
             "value": 18

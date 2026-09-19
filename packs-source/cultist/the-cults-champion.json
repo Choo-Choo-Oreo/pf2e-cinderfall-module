@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Once per day, when an ally within 60 feet would be reduced to 0 Hit Points, you may have them instead be reduced to 1 Hit Point. This doesn't require an action to use.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Save an ally from dropping to 0 Hit Points, once per day.</p><p>Once per day, when an ally within 60 feet would be reduced to 0 Hit Points, you may have them instead be reduced to 1 Hit Point. This doesn't require an action to use.</p>"
         },
         "level": {
             "value": 20

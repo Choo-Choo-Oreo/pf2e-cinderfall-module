@@ -11,7 +11,7 @@
         },
         "category": null,
         "description": {
-            "value": "<p><strong>Target</strong> 1 creature (your mark)</p><p><strong>Effect</strong> subsequent shots at the mark ignore 2 points of the bonus its cover grants to AC</p><hr /><p>Designate a target with a called shot; the mark strips away some of what it's hiding behind.</p>"
+            "value": "<p><strong>Tier</strong> Green</p><p><strong>Target</strong> 1 creature (your mark)</p><p><strong>Effect</strong> subsequent shots at the mark ignore 2 points of the bonus its cover grants to AC</p><hr /><p>Designate a target with a called shot; the mark strips away some of what it's hiding behind.</p>"
         },
         "publication": {
             "license": "ORC",

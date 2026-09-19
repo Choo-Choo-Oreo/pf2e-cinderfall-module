@@ -19,7 +19,7 @@
             }
         },
         "description": {
-            "value": "<i>Critical Success/Success</i> unaffected. <i>Failure</i> drained 2 and sickened 1 for the duration. <i>Critical Failure</i> drained 3 and sickened 2. You and your allies in the area are sated instead — remove one instance of drained, sickened, or fatigued from each ally present, no save needed. One meal, redistributed."
+            "value": "<p><strong>Rite</strong> 13th</p><p><strong>Saving Throw</strong> Fortitude (enemies only)</p><hr /><i>Critical Success/Success</i> unaffected. <i>Failure</i> drained 2 and sickened 1 for the duration. <i>Critical Failure</i> drained 3 and sickened 2. You and your allies in the area are sated instead — remove one instance of drained, sickened, or fatigued from each ally present, no save needed. One meal, redistributed."
         },
         "duration": {
             "sustained": false,

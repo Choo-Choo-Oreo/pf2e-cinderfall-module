@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>You gain a +2 circumstance bonus to checks made to identify, analyse, or Recall Knowledge about a construct, fortification, or ghost-machine, and to any check made to find or exploit a structural weak point in one. This bonus increases to +3 at 14th level.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Bonus to identifying weak points in constructs, fortifications, and ghost-machines.</p><p>You gain a +2 circumstance bonus to checks made to identify, analyse, or Recall Knowledge about a construct, fortification, or ghost-machine, and to any check made to find or exploit a structural weak point in one. This bonus increases to +3 at 14th level.</p>"
         },
         "level": {
             "value": 4

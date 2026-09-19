@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Requirement</strong> Both Rites are 1 action and target only you.</p><hr /><p>Cast two Rites you know, paying the Zeal cost of the more expensive one only. Both resolve on you before you take any other action. If either Rite would be Zealotry, you cannot use this feat.</p>"
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Requirement</strong> Both Rites are 1 action and target only you.</p><hr /><p>Cast two Rites for the Zeal cost of one.</p><p>Cast two Rites you know, paying the Zeal cost of the more expensive one only. Both resolve on you before you take any other action. If either Rite would be Zealotry, you cannot use this feat.</p>"
         },
         "level": {
             "value": 4

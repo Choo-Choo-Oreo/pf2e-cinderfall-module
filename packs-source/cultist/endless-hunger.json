@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Trigger</strong> You reduce a creature to 0 Hit Points with a Rite or a Strike.</p><p><strong>Frequency</strong> once per round.</p><hr /><p>Gain temporary Hit Points equal to three times your level, lasting 1 minute, and regain 2 Zeal. If you already have temporary Hit Points from this feat, refresh the duration instead of stacking them.</p>"
+            "value": "<p><strong>Trigger</strong> You reduce a creature to 0 Hit Points with a Rite or a Strike.</p><p><strong>Frequency</strong> once per round.</p><hr /><p>A bigger helping of temporary HP and Zeal on a kill.</p><p>Gain temporary Hit Points equal to three times your level, lasting 1 minute, and regain 2 Zeal. If you already have temporary Hit Points from this feat, refresh the duration instead of stacking them.</p>"
         },
         "level": {
             "value": 14

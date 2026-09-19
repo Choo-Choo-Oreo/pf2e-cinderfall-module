@@ -11,7 +11,7 @@
         "damage": {},
         "defense": null,
         "description": {
-            "value": "<p>Melee touch — this doesn't age flesh, only metal. Make a melee spell attack roll against the item's AC (an unwilling wielder may instead attempt a Reflex save to snatch it clear). <i>Success</i> the item corrodes, taking a permanent −1 item penalty until repaired by a smith (1 hour, Crafting DC equal to the item's level). <i>Critical Success</i> as success, but the penalty is −2. This penalty does not stack past −2 from repeated castings.</p>"
+            "value": "<p><strong>Aspect</strong> Half-Light</p><p><strong>Cost</strong> Focus 1</p><p>Melee touch — this doesn't age flesh, only metal. Make a melee spell attack roll against the item's AC (an unwilling wielder may instead attempt a Reflex save to snatch it clear). <i>Success</i> the item corrodes, taking a permanent −1 item penalty until repaired by a smith (1 hour, Crafting DC equal to the item's level). <i>Critical Success</i> as success, but the penalty is −2. This penalty does not stack past −2 from repeated castings.</p>"
         },
         "duration": {
             "sustained": false,
@@ -38,7 +38,9 @@
         },
         "traits": {
             "rarity": "common",
-            "traditions": [],
+            "traditions": [
+                "divine"
+            ],
             "value": [
                 "focus",
                 "reckoner"

@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per hour</p><p><strong>Duration</strong> 1 minute</p><hr /><p>You stop feeling the ledger for a little while. For the duration, ignore the penalties of your current Reckoning stage — not the stage itself, which does not change, and not any stage you advance to while this is running. When it ends the stage is exactly where you left it, and its penalties resume.</p>"
+            "value": "<p><strong>Frequency</strong> once per hour</p><p><strong>Duration</strong> 1 minute</p><hr /><p>Temporary resistance to your own current Reckoning stage's penalties.</p><p>You stop feeling the ledger for a little while. For the duration, ignore the penalties of your current Reckoning stage — not the stage itself, which does not change, and not any stage you advance to while this is running. When it ends the stage is exactly where you left it, and its penalties resume.</p>"
         },
         "level": {
             "value": 6

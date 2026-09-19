@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per hour</p><p><strong>Trigger</strong> An ally within 30 feet drops to half their maximum Hit Points or lower.</p><p><strong>Cost</strong> 1 Vitae</p><hr /><p>Cut a Field Suture directly onto the triggering ally and apply its effect immediately: they regain Hit Points equal to twice your level. This consumes a prepared healing Graft if you have one available, or 1 Vitae if you do not.</p>"
+            "value": "<p><strong>Frequency</strong> once per hour</p><p><strong>Trigger</strong> An ally within 30 feet drops to half their maximum Hit Points or lower.</p><p><strong>Cost</strong> 1 Vitae</p><hr /><p>Reaction — a quick heal Graft applied the instant an ally drops below half HP.</p><p>Cut a Field Suture directly onto the triggering ally and apply its effect immediately: they regain Hit Points equal to twice your level. This consumes a prepared healing Graft if you have one available, or 1 Vitae if you do not.</p>"
         },
         "level": {
             "value": 2

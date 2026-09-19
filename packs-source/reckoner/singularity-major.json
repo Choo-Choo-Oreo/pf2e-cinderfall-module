@@ -40,7 +40,7 @@
     "flags": {
         "cinderfall": {
             "incomplete": "'Your Approach advances one step' -- the Singularity's own separate track, 'the Approach', is named only in flavor text (reckoner.the-last-approach.json and reckoner.the-singularity.json both refer to 'the track in section 4' without ever giving it a mechanical shape anywhere machine-readable) and has the identical zero-schema-footprint problem as the Reckoning itself (APPROACH-BLOCKER). The Fortitude-save banish half of this card needs no rule element (PAT-EMPTY, matches real pf2e's own Banishment-style spells) and is not a gap.",
-            "track": "singularity"
+            "track": "the-singularity"
         }
     }
 }

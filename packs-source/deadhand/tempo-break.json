@@ -11,7 +11,7 @@
         },
         "category": null,
         "description": {
-            "value": "<p><strong>Trigger</strong> an opponent begins a multi-attack action against you</p><p><strong>Effect</strong> −2 status penalty on their next attack roll this turn</p><hr /><p>Interrupt a combo mid-swing.</p>"
+            "value": "<p><strong>Tier</strong> Blooded</p><p><strong>Trigger</strong> an opponent begins a multi-attack action against you</p><p><strong>Effect</strong> −2 status penalty on their next attack roll this turn</p><hr /><p>Interrupt a combo mid-swing.</p>"
         },
         "publication": {
             "license": "ORC",

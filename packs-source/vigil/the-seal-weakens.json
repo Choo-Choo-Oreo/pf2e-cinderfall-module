@@ -11,7 +11,7 @@
         "damage": {},
         "defense": null,
         "description": {
-            "value": "<p>Uriel's prison measurably and permanently weakens. Rare enough to count on one hand across a campaign; always a plot event.</p>"
+            "value": "<p><strong>Activate</strong> 24 hours (sustained ritual, not a combat action)</p><p>Uriel's prison measurably and permanently weakens. Rare enough to count on one hand across a campaign; always a plot event.</p>"
         },
         "duration": {
             "sustained": false,

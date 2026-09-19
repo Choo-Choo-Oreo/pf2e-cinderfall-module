@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per hour</p><p><strong>Trigger</strong> You are the target of a critical hit.</p><p><strong>Cost</strong> 1 Vitae</p><hr /><p>The triggering hit is treated as a normal hit instead of a critical hit. The shed flesh regrows within the hour; until it does, you take a −1 status penalty to Fortitude saves.</p>"
+            "value": "<p><strong>Frequency</strong> once per hour</p><p><strong>Trigger</strong> You are the target of a critical hit.</p><p><strong>Cost</strong> 1 Vitae</p><hr /><p>Reaction — shed a layer of flesh to downgrade a critical hit to a normal one.</p><p>The triggering hit is treated as a normal hit instead of a critical hit. The shed flesh regrows within the hour; until it does, you take a −1 status penalty to Fortitude saves.</p>"
         },
         "level": {
             "value": 6

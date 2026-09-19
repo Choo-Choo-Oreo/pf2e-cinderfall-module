@@ -16,7 +16,7 @@
             }
         },
         "description": {
-            "value": "<i>Critical Success</i> unaffected, target senses the attempt. <i>Success</i> unaffected. <i>Failure</i> the target can't benefit from concealment, disguise, invisibility, or false-identity effects for the duration. <i>Critical Failure</i> as failure, and every creature within 30 feet at the moment of failure becomes immediately aware of its true nature and location, once. In exchange, whether the save succeeds or fails, you must immediately reveal one true secret of your own out loud."
+            "value": "<p><strong>Revelation</strong> 13th</p><hr /><i>Critical Success</i> unaffected, target senses the attempt. <i>Success</i> unaffected. <i>Failure</i> the target can't benefit from concealment, disguise, invisibility, or false-identity effects for the duration. <i>Critical Failure</i> as failure, and every creature within 30 feet at the moment of failure becomes immediately aware of its true nature and location, once. In exchange, whether the save succeeds or fails, you must immediately reveal one true secret of your own out loud."
         },
         "duration": {
             "sustained": false,

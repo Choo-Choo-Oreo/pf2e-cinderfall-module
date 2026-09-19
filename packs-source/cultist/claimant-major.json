@@ -40,7 +40,7 @@
     "flags": {
         "cinderfall": {
             "incomplete": "\"Once per day, when a claimed creature/object is destroyed/killed/taken, call it back within 1 minute fully restored\" -- no revert/undo-destruction rule-element precedent found in pf2e-source within this pass's research budget.",
-            "track": "claimant"
+            "track": "the-claimant"
         }
     }
 }

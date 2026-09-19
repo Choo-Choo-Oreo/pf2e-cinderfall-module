@@ -19,7 +19,7 @@
             }
         },
         "description": {
-            "value": "<i>Critical Success/Success</i> the lie lands clean. <i>Failure</i> the liar takes a −1 status penalty to that check. <i>Critical Failure</i> as failure, and the liar visibly stumbles over the lie."
+            "value": "<p><strong>Revelation</strong> 5th</p><p><strong>Saving Throw</strong> Will (attempted individually by any creature that tells a lie in the area during the duration)</p><p><strong>Area</strong> 30-foot burst (fixed at the point of casting)</p><hr /><i>Critical Success/Success</i> the lie lands clean. <i>Failure</i> the liar takes a −1 status penalty to that check. <i>Critical Failure</i> as failure, and the liar visibly stumbles over the lie."
         },
         "duration": {
             "sustained": false,

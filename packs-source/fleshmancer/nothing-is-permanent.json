@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per week</p><p><strong>Requirement</strong> The target is willing.</p><p><strong>Cost</strong> 4 Vitae</p><hr /><p>Remove one permanent physical affliction from the target: a Runaway Mutation, a Scar, a lost limb (regrown), a permanent <em>drained</em> or <em>enfeebled</em> condition, or comparable lasting bodily harm. A mutation&rsquo;s Tithe goes with it, and so does its Gift.</p>"
+            "value": "<p><strong>Cast</strong> 1 day of downtime</p><p><strong>Frequency</strong> once per week</p><p><strong>Requirement</strong> The target is willing.</p><p><strong>Cost</strong> 4 Vitae</p><hr /><p>Permanent is a word for people who have not seen your table.</p><p>Remove one permanent physical affliction from the target: a Runaway Mutation, a Scar, a lost limb (regrown), a permanent <em>drained</em> or <em>enfeebled</em> condition, or comparable lasting bodily harm. A mutation&rsquo;s Tithe goes with it, and so does its Gift.</p>"
         },
         "level": {
             "value": 16

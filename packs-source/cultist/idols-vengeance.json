@@ -30,7 +30,7 @@
             }
         },
         "description": {
-            "value": "<i>Critical Success</i> unaffected. <i>Success</i> half damage. <i>Failure</i> 12d6 void damage. <i>Critical Failure</i> double damage. Either way, your Idol is stunned 1 immediately afterward."
+            "value": "<p><strong>Area</strong> 15-foot emanation from your Idol</p><hr /><i>Critical Success</i> unaffected. <i>Success</i> half damage. <i>Failure</i> 12d6 void damage. <i>Critical Failure</i> double damage. Either way, your Idol is stunned 1 immediately afterward."
         },
         "duration": {
             "sustained": false,

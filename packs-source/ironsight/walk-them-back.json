@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>When you hit an adjacent creature with a ranged Strike, you may push it 5 feet and Step into the space it left, in either order. This does not trigger reactions from that creature, and it happens at most once per turn.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Every shot moves them a little further from wherever they wanted to be.</p><p>When you hit an adjacent creature with a ranged Strike, you may push it 5 feet and Step into the space it left, in either order. This does not trigger reactions from that creature, and it happens at most once per turn.</p>"
         },
         "level": {
             "value": 10

@@ -11,7 +11,7 @@
         },
         "category": null,
         "description": {
-            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Trigger</strong> your weapon Jams</p><p><strong>Effect</strong> swap to a second improvised firearm already on your person, fully loaded, no roll required</p><hr /><p>Never carry just one gun.</p>"
+            "value": "<p><strong>Tier</strong> Blooded</p><p><strong>Frequency</strong> once per encounter</p><p><strong>Trigger</strong> your weapon Jams</p><p><strong>Effect</strong> swap to a second improvised firearm already on your person, fully loaded, no roll required</p><hr /><p>Never carry just one gun.</p>"
         },
         "publication": {
             "license": "ORC",

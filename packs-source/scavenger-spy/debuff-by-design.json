@@ -11,7 +11,7 @@
         },
         "category": null,
         "description": {
-            "value": "<p><strong>Check</strong> Society, Diplomacy, or a relevant Lore vs. target's Will DC (or a flat DC 10, Skilled, working from records alone)</p><p><strong>Effect</strong> −2 status penalty (Skilled) on that target's checks or saves tied to the exploited weakness for the rest of the job</p><hr /><p>Identify a target's specific weakness ahead of time.</p>"
+            "value": "<p><strong>Tier</strong> Skilled</p><p><strong>Activate</strong> 10 minutes, before the job</p><p><strong>Check</strong> Society, Diplomacy, or a relevant Lore vs. target's Will DC (or a flat DC 10, Skilled, working from records alone)</p><p><strong>Effect</strong> −2 status penalty (Skilled) on that target's checks or saves tied to the exploited weakness for the rest of the job</p><hr /><p>Identify a target's specific weakness ahead of time.</p>"
         },
         "publication": {
             "license": "ORC",

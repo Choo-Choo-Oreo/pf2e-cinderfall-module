@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>You may maintain two separate areas of hazardous ground at once rather than one, and feats that move or expand an area may target either. When a creature is inside both at the same time, it takes the persistent damage of each and cannot reduce either while it remains.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>One for the room you are in. One for the room they are about to run to.</p><p>You may maintain two separate areas of hazardous ground at once rather than one, and feats that move or expand an area may target either. When a creature is inside both at the same time, it takes the persistent damage of each and cannot reduce either while it remains.</p>"
         },
         "level": {
             "value": 10

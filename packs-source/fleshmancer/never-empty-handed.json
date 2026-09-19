@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Trigger</strong> Your last prepared Graft is consumed.</p><p><strong>Cost</strong> 2 Vitae</p><hr /><p>Immediately Cut one new Graft of any Mark you can produce, without spending an action and without risking a Bloom. It must be thrown before the end of your next turn or it is wasted.</p>"
+            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Trigger</strong> Your last prepared Graft is consumed.</p><p><strong>Cost</strong> 2 Vitae</p><hr /><p>There is always one more. You made it out of yourself, on the way here.</p><p>Immediately Cut one new Graft of any Mark you can produce, without spending an action and without risking a Bloom. It must be thrown before the end of your next turn or it is wasted.</p>"
         },
         "level": {
             "value": 18

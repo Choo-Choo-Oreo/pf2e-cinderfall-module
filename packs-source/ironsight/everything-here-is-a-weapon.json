@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Requirement</strong> Access to the location before the fight starts.</p><hr /><p>Rig the ground you expect to fight on. Choose up to three 10-foot squares; each becomes a hazard that triggers when an enemy enters it, dealing damage equal to two of your weapon's damage dice with a Reflex save against your class DC for half. You may detonate any of them yourself as a free action instead. Unspent rigs are recovered afterward, so long as you can get back to them.</p>"
+            "value": "<p><strong>Cast</strong> 1 minute</p><p><strong>Frequency</strong> once per encounter</p><p><strong>Requirement</strong> Access to the location before the fight starts.</p><hr /><p>You have looked around the room and reached a conclusion about all of it.</p><p>Rig the ground you expect to fight on. Choose up to three 10-foot squares; each becomes a hazard that triggers when an enemy enters it, dealing damage equal to two of your weapon's damage dice with a Reflex save against your class DC for half. You may detonate any of them yourself as a free action instead. Unspent rigs are recovered afterward, so long as you can get back to them.</p>"
         },
         "level": {
             "value": 18

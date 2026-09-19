@@ -16,7 +16,7 @@
             }
         },
         "description": {
-            "value": "<p>An unscrubbable mark — it can't be scrubbed, painted over, or magically concealed by anything of lower rank than this spell. You always know when the marked creature or object is within 60 feet of you.</p>"
+            "value": "<p><strong>Saving Throw</strong> Will negates (unwilling creature only)</p><p>An unscrubbable mark — it can't be scrubbed, painted over, or magically concealed by anything of lower rank than this spell. You always know when the marked creature or object is within 60 feet of you.</p>"
         },
         "duration": {
             "sustained": false,

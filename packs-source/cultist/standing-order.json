@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Duration</strong> until triggered or 1 hour</p><hr /><p>Name one creature you can currently perceive. The next time that creature fails a check or saving throw against you before the duration ends, you gain a +1 circumstance bonus to your next check or saving throw against it. The Ledger doesn't do favors, only terms.</p>"
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Duration</strong> until triggered or 1 hour</p><hr /><p>Name a target; profit the next time it fails against you.</p><p>Name one creature you can currently perceive. The next time that creature fails a check or saving throw against you before the duration ends, you gain a +1 circumstance bonus to your next check or saving throw against it. The Ledger doesn't do favors, only terms.</p>"
         },
         "level": {
             "value": 4
@@ -40,7 +40,7 @@
     "flags": {
         "cinderfall": {
             "incomplete": "Genuine engine limit, not a missing companion Effect: the trigger is \"the next time that creature fails a check or save against you, sometime in the next hour\" -- an outcome watched across time on someone ELSE's future rolls, then retroactively granting a new buff. Checked real pf2e's own precedent for this exact trigger shape -- pf2e-source/packs/pf2e/actions/background/opportunistic-accusation.json and pf2e-source/packs/pf2e/actions/archetype/soulforger/makes-me-stronger.json, both \"react to an opponent's roll result\" abilities -- and both ship with rules: [] and no selfEffect in the official compendium. No combination of TokenMark/FlatModifier/Aura/ChoiceSet watches a future roll's degree of success and grants something afterward; this needs manual GM/player tracking, the same as real pf2e's own content of this shape.",
-            "track": "ledger"
+            "track": "the-ledger"
         }
     }
 }

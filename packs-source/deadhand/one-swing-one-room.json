@@ -11,7 +11,7 @@
         },
         "category": null,
         "description": {
-            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Effect</strong> roll damage once and apply the full result to each creature and object in a straight line, as far as the room allows (each target saves as normal where applicable)</p><hr /><p>One blow's momentum carries through every enemy and obstacle in a line.</p>"
+            "value": "<p><strong>Tier</strong> Undying</p><p><strong>Frequency</strong> once per encounter</p><p><strong>Effect</strong> roll damage once and apply the full result to each creature and object in a straight line, as far as the room allows (each target saves as normal where applicable)</p><hr /><p>One blow's momentum carries through every enemy and obstacle in a line.</p>"
         },
         "publication": {
             "license": "ORC",

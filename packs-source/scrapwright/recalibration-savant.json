@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per character level</p><p><strong>Requirement</strong> All your installed cyber-augments are Licensed.</p><hr /><p>You know this wiring better than the counter clerk who sold it to you. In place of the standard Licensed recalibration — a week of downtime and 10× a current-band augment's price — you shave 1 point of Drift with a single day of focused self-maintenance and no cost in credits. The all-Licensed requirement still applies: one Restricted or Black Market augment in you and even you won't touch the calibration.</p>"
+            "value": "<p><strong>Cast</strong> 1 day of downtime</p><p><strong>Frequency</strong> once per character level</p><p><strong>Requirement</strong> All your installed cyber-augments are Licensed.</p><hr /><p>You perform your own Licensed recalibration — cheaper, and faster than the shop ever could.</p><p>You know this wiring better than the counter clerk who sold it to you. In place of the standard Licensed recalibration — a week of downtime and 10× a current-band augment's price — you shave 1 point of Drift with a single day of focused self-maintenance and no cost in credits. The all-Licensed requirement still applies: one Restricted or Black Market augment in you and even you won't touch the calibration.</p>"
         },
         "level": {
             "value": 16

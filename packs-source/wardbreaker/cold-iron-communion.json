@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Range</strong> 30 feet</p><p><strong>Targets</strong> 1 willing ally</p><p><strong>Duration</strong> 1 minute</p><hr /><p>The ally perceives every Anchor you have Named exactly as you perceive it: it knows which creatures are Named, what their Anchors are, and it can see a Named creature's true form and true location through disguise, invisibility, or possession, with no check. It cannot Name an Anchor itself, and it cannot Break one.</p>"
+            "value": "<p><strong>Range</strong> 30 feet</p><p><strong>Targets</strong> 1 willing ally</p><p><strong>Duration</strong> 1 minute</p><hr /><p>Lend your Ward's sense to an ally briefly, letting them perceive a Named Anchor as clearly as you do.</p><p>The ally perceives every Anchor you have Named exactly as you perceive it: it knows which creatures are Named, what their Anchors are, and it can see a Named creature's true form and true location through disguise, invisibility, or possession, with no check. It cannot Name an Anchor itself, and it cannot Break one.</p>"
         },
         "level": {
             "value": 8

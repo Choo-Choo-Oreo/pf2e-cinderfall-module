@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Requirement</strong> You are wielding two firearms.</p><p><strong>Duration</strong> constant</p><hr /><p>The first time each round that a firearm you are wielding is emptied or fails, the other one is immediately loaded if it was not, at no action cost. If both would be emptied by the same action, this applies to the one of your choice after that action resolves.</p>"
+            "value": "<p><strong>Requirement</strong> You are wielding two firearms.</p><p><strong>Duration</strong> constant</p><hr /><p>Two guns exist so that the answer to \"are you out?\" is always no.</p><p>The first time each round that a firearm you are wielding is emptied or fails, the other one is immediately loaded if it was not, at no action cost. If both would be emptied by the same action, this applies to the one of your choice after that action resolves.</p>"
         },
         "level": {
             "value": 10

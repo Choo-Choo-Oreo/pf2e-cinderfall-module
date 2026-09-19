@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>You can't be counteracted, dispelled, or have your ongoing effects suppressed by a creature of a lower level than you. Once per day, when a creature of any level fails to counteract or dispel one of your effects, that specific creature can never attempt to counteract that effect again.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Your effects can't be dispelled by anything weaker than you.</p><p>You can't be counteracted, dispelled, or have your ongoing effects suppressed by a creature of a lower level than you. Once per day, when a creature of any level fails to counteract or dispel one of your effects, that specific creature can never attempt to counteract that effect again.</p>"
         },
         "level": {
             "value": 18
@@ -40,7 +40,7 @@
     "flags": {
         "cinderfall": {
             "incomplete": "\"Cannot be counteracted/dispelled/suppressed by a lower-level creature; once per day, a creature that fails to counteract your effect can never try again\" needs a counteract/dispel-resistance selector. Confirmed this session: no Suppress-style rule element and no counteract-named rule element exists anywhere in pf2e-source/src/module/rules/rule-element/ (directory listing checked directly). Real pf2e's counteract mechanic compares a counteracting effect's modifier to the target effect's DC rather than having the target roll a save, so this card's entire premise doesn't map onto any roll the character makes.",
-            "track": "undoubted"
+            "track": "the-undoubted"
         }
     }
 }

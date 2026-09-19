@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You would gain or increase the sickened condition from a failed Graft check's ordinary result, or from Loud Resonance's donor-surface effect.</p><p><strong>Requirement</strong> bio-attuned</p><hr /><p>Reduce the sickened value by 1 (minimum 0).</p>"
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You would gain or increase the sickened condition from a failed Graft check's ordinary result, or from Loud Resonance's donor-surface effect.</p><p><strong>Requirement</strong> bio-attuned</p><hr /><p>You've learned to talk your own body down.</p><p>Reduce the sickened value by 1 (minimum 0).</p>"
         },
         "level": {
             "value": 6

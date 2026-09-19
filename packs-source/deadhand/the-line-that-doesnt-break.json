@@ -11,7 +11,7 @@
         },
         "category": null,
         "description": {
-            "value": "<p><strong>Effect</strong> mundane forced-movement, knockdown, and repositioning effects automatically fail against you; magical or supernatural sources need a critical success to move, trip, or reposition you at all</p><hr /><p>Knockback simply stops working on you, most of the time.</p>"
+            "value": "<p><strong>Tier</strong> Undying</p><p><strong>Effect</strong> mundane forced-movement, knockdown, and repositioning effects automatically fail against you; magical or supernatural sources need a critical success to move, trip, or reposition you at all</p><hr /><p>Knockback simply stops working on you, most of the time.</p>"
         },
         "publication": {
             "license": "ORC",

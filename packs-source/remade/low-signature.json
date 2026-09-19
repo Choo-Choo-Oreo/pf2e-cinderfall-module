@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Requirement</strong> chrome-attuned</p><p><strong>Duration</strong> constant</p><hr /><p>The +1 circumstance bonus to saves against mental and emotion effects from Hollowed Drift improves to +2 for you, and applies starting at Frayed Drift instead of waiting for Hollowed.</p>"
+            "value": "<p><strong>Requirement</strong> chrome-attuned</p><p><strong>Duration</strong> constant</p><hr /><p>Your face stopped being the thing that gives you away first.</p><p>The +1 circumstance bonus to saves against mental and emotion effects from Hollowed Drift improves to +2 for you, and applies starting at Frayed Drift instead of waiting for Hollowed.</p>"
         },
         "level": {
             "value": 14

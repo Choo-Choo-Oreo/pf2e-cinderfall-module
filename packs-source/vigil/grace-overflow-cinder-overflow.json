@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Trigger</strong> You would gain Grace or Cinders while already at your cap.</p><hr /><p>When you would gain Grace or Cinders while already at your cap, the point is not lost. Instead, choose one: regain Hit Points equal to twice your level; end one condition of your level or lower affecting you or an ally you can touch; or gain a +2 status bonus to your next check made within the minute. The overflow point itself is still spent — you gain a boon, not the resource.</p>"
+            "value": "<p><strong>Trigger</strong> You would gain Grace or Cinders while already at your cap.</p><hr /><p>Resource banked above your cap converts to a small immediate boon instead of being lost.</p><p>When you would gain Grace or Cinders while already at your cap, the point is not lost. Instead, choose one: regain Hit Points equal to twice your level; end one condition of your level or lower affecting you or an ally you can touch; or gain a +2 status bonus to your next check made within the minute. The overflow point itself is still spent — you gain a boon, not the resource.</p>"
         },
         "level": {
             "value": 8

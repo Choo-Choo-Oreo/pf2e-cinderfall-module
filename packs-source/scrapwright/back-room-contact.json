@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Word travels in Cyber City about who can actually fix what they sell you. Jeff's back room, and any comparable Restricted-tier shop, treats you as a known and trusted buyer by default — the GM no longer needs to gate your access to Restricted augments behind an introduction or a favor. Black Market stock is a separate conversation; this only opens the legal-for-corps shelf.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Your engineering reputation buys you standing access to Restricted-grade hardware.</p><p>Word travels in Cyber City about who can actually fix what they sell you. Jeff's back room, and any comparable Restricted-tier shop, treats you as a known and trusted buyer by default — the GM no longer needs to gate your access to Restricted augments behind an introduction or a favor. Black Market stock is a separate conversation; this only opens the legal-for-corps shelf.</p>"
         },
         "level": {
             "value": 6

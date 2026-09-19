@@ -9,7 +9,7 @@
         },
         "containerId": null,
         "description": {
-            "value": "<p>Hydraulic ram limb. Strike: 1d12 bludgeoning, shove, forceful. On a crit, target is knocked back 10 ft and prone.</p>"
+            "value": "<p><strong>Tags</strong> weapon</p><hr /><p>Hydraulic ram limb. Strike: 1d12 bludgeoning, shove, forceful. On a crit, target is knocked back 10 ft and prone.</p>"
         },
         "hardness": 0,
         "hp": {

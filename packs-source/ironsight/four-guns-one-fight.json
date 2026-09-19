@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per round</p><p><strong>Trigger</strong> A firearm within 30 feet of you is dropped, or its wielder is reduced to 0 Hit Points.</p><hr /><p>The weapon is in your hand. Draw it to you and ready it, loaded, at no action cost, provided you have a free hand or can stow what you are holding as part of the same free action. If it is a scrap gun it does not Gun Failure for the remainder of this encounter; you have already found the thing that was wrong with it.</p>"
+            "value": "<p><strong>Frequency</strong> once per round</p><p><strong>Trigger</strong> A firearm within 30 feet of you is dropped, or its wielder is reduced to 0 Hit Points.</p><hr /><p>You will finish this encounter holding something you were not holding when it started. You always do.</p><p>The weapon is in your hand. Draw it to you and ready it, loaded, at no action cost, provided you have a free hand or can stow what you are holding as part of the same free action. If it is a scrap gun it does not Gun Failure for the remainder of this encounter; you have already found the thing that was wrong with it.</p>"
         },
         "level": {
             "value": 16

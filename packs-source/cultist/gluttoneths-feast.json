@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per round</p><p><strong>Trigger</strong> A creature within 30 feet whose level is at least your level - 3 is reduced to 0 Hit Points by your Rite or your attack.</p><hr /><p>Gain 1 Zeal, which may exceed your normal maximum by up to 2 points. Excess Zeal above your maximum is lost after 1 minute. You also gain temporary Hit Points equal to your level, which last 1 minute. Something in you enjoys this and it is not entirely you.</p>"
+            "value": "<p><strong>Frequency</strong> once per round</p><p><strong>Trigger</strong> A creature within 30 feet whose level is at least your level - 3 is reduced to 0 Hit Points by your Rite or your attack.</p><hr /><p>Hungry-flavored, open to all — drain vitality from a defeated foe directly into your Zeal.</p><p>Gain 1 Zeal, which may exceed your normal maximum by up to 2 points. Excess Zeal above your maximum is lost after 1 minute. You also gain temporary Hit Points equal to your level, which last 1 minute. Something in you enjoys this and it is not entirely you.</p>"
         },
         "level": {
             "value": 12

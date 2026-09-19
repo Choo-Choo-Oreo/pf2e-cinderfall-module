@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Range</strong> 30 feet</p><p><strong>Duration</strong> constant</p><hr /><p>At the end of each of your turns, each hostile construct within range takes a cumulative -1 status penalty to AC and to attack rolls, to a maximum of -4, and each magical ward, barrier, or protective effect within range that has a duration reduces that duration by 1 round. This requires no action and continues whether or not you are aware of it. The penalties end on a construct that leaves your presence for a full round.</p>"
+            "value": "<p><strong>Range</strong> 30 feet</p><p><strong>Duration</strong> constant</p><hr /><p>Your presence passively degrades nearby hostile constructs and wards over time.</p><p>At the end of each of your turns, each hostile construct within range takes a cumulative -1 status penalty to AC and to attack rolls, to a maximum of -4, and each magical ward, barrier, or protective effect within range that has a duration reduces that duration by 1 round. This requires no action and continues whether or not you are aware of it. The penalties end on a construct that leaves your presence for a full round.</p>"
         },
         "level": {
             "value": 18

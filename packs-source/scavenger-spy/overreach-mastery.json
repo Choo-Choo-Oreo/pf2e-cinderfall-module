@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>You may attempt one additional Overreach per day. The first Overreach you attempt each day does not risk Blown Cover — the day's first job is the one you have actually planned for.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>One additional Overreach attempt per day.</p><p>You may attempt one additional Overreach per day. The first Overreach you attempt each day does not risk Blown Cover — the day's first job is the one you have actually planned for.</p>"
         },
         "level": {
             "value": 10

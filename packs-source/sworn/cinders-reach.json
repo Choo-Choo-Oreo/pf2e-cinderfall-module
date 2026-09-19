@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Requirement</strong> Your Oath is the Cinder Vow.</p><p><strong>Duration</strong> constant</p><hr /><p>When you Answer, the interloper need only be within 30 feet of you rather than within your reach. If it is out of reach, you make the Answer's Strike as a ranged Strike with a range of 30 feet using the melee weapon you wield — the ash carries the blow; the weapon isn't thrown and stays in your hand. If the interloper is within reach you Strike it as normal.</p>"
+            "value": "<p><strong>Requirement</strong> Your Oath is the Cinder Vow.</p><p><strong>Duration</strong> constant</p><hr /><p>The Choir's ash carries your Answer farther than your arm does.</p><p>When you Answer, the interloper need only be within 30 feet of you rather than within your reach. If it is out of reach, you make the Answer's Strike as a ranged Strike with a range of 30 feet using the melee weapon you wield — the ash carries the blow; the weapon isn't thrown and stays in your hand. If the interloper is within reach you Strike it as normal.</p>"
         },
         "level": {
             "value": 8

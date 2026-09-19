@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You would spend Vitae you do not have.</p><hr /><p>Draw 2 emergency Vitae instead, enough to cover the cost. This Vitae comes with a price: you take persistent bleed damage equal to your level until treated, as your body cannibalizes itself to produce it.</p>"
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You would spend Vitae you do not have.</p><hr /><p>Once per day, when you'd be out of Vitae, draw an emergency reserve instead.</p><p>Draw 2 emergency Vitae instead, enough to cover the cost. This Vitae comes with a price: you take persistent bleed damage equal to your level until treated, as your body cannibalizes itself to produce it.</p>"
         },
         "level": {
             "value": 10

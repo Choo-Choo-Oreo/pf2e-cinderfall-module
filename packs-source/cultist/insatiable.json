@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per round, at most twice per encounter</p><p><strong>Trigger</strong> You reduce a creature to 0 Hit Points with a Rite or a Strike.</p><hr /><p>Gain temporary Hit Points equal to twice your level, lasting 1 minute, and regain 1 Zeal. Gluttoneth rarely says when enough is enough.</p>"
+            "value": "<p><strong>Frequency</strong> once per round, at most twice per encounter</p><p><strong>Trigger</strong> You reduce a creature to 0 Hit Points with a Rite or a Strike.</p><hr /><p>Bank temporary HP and Zeal whenever you land a kill.</p><p>Gain temporary Hit Points equal to twice your level, lasting 1 minute, and regain 1 Zeal. Gluttoneth rarely says when enough is enough.</p>"
         },
         "level": {
             "value": 10

@@ -22,7 +22,7 @@
             }
         },
         "description": {
-            "value": "<p>Made a living pulling scrap, bodies, and the occasional intact vault out of three meters of flooded old-world city, one held breath at a time.</p>"
+            "value": "<p><strong>Origin</strong> The Drowned Coast</p><p>Made a living pulling scrap, bodies, and the occasional intact vault out of three meters of flooded old-world city, one held breath at a time.</p>"
         },
         "items": {
             "skill.held-breath": {

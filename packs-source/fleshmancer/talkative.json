@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Requirement</strong> The target is unwilling and restrained, unconscious, or otherwise unable to resist you.</p><p><strong>Range</strong> touch</p><hr /><p>The target attempts a Will save against your class DC. On a failure it takes a &minus;2 circumstance penalty to saves against your Coerce and Request attempts for 1 hour, and you gain a +2 circumstance bonus to Medicine checks to Treat Wounds on it for the same hour.</p>"
+            "value": "<p><strong>Cast</strong> 1 minute</p><p><strong>Requirement</strong> The target is unwilling and restrained, unconscious, or otherwise unable to resist you.</p><p><strong>Range</strong> touch</p><hr /><p>You are not hurting them. You are showing them the inside of their own arm and asking a question about it.</p><p>The target attempts a Will save against your class DC. On a failure it takes a &minus;2 circumstance penalty to saves against your Coerce and Request attempts for 1 hour, and you gain a +2 circumstance bonus to Medicine checks to Treat Wounds on it for the same hour.</p>"
         },
         "level": {
             "value": 4

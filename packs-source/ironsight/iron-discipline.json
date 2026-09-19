@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Requirement</strong> You are wielding a firearm.</p><hr /><p>You gain a +1 status bonus to saves against fear and mental effects, and if you roll a success against a fear effect, you get a critical success instead.</p>"
+            "value": "<p><strong>Requirement</strong> You are wielding a firearm.</p><hr /><p>Resist fear and mental effects while a weapon's in your hand.</p><p>You gain a +1 status bonus to saves against fear and mental effects, and if you roll a success against a fear effect, you get a critical success instead.</p>"
         },
         "level": {
             "value": 10

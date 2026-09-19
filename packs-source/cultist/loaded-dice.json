@@ -1,0 +1,53 @@
+{
+    "name": "Loaded Dice",
+    "type": "spell",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "area": null,
+        "cost": {
+            "value": ""
+        },
+        "counteraction": false,
+        "damage": {},
+        "defense": null,
+        "description": {
+            "value": "<p><strong>Signature</strong> 7th</p><p><strong>Activate</strong> 1 reaction (free action if used on your own roll)</p><p><strong>Trigger</strong> you or an ally within 30 feet fails a check</p><p><strong>Cost</strong> Zeal</p><hr /><p>Spend Zeal to force a reroll of the failed check, keeping the better result.</p>"
+        },
+        "duration": {
+            "sustained": false,
+            "value": ""
+        },
+        "level": {
+            "value": 4
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "range": {
+            "value": "30 feet"
+        },
+        "requirements": "",
+        "rules": [],
+        "target": {
+            "value": ""
+        },
+        "time": {
+            "value": "reaction"
+        },
+        "traits": {
+            "rarity": "common",
+            "traditions": [],
+            "value": [
+                "cultist",
+                "focus"
+            ]
+        },
+        "slug": "loaded-dice"
+    },
+    "_id": "FpvXcnASUCJkeNsP",
+    "flags": {
+        "cinderfall": {}
+    }
+}

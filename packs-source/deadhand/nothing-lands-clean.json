@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Critical hits against you become ordinary hits unless the attacker's roll exceeded your AC by 15 or more. When an attack is downgraded this way, you gain 1 Tally, to a maximum of 3 per encounter from this feat.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Twenty years of taking hits meant for other people has taught your body where they all go.</p><p>Critical hits against you become ordinary hits unless the attacker's roll exceeded your AC by 15 or more. When an attack is downgraded this way, you gain 1 Tally, to a maximum of 3 per encounter from this feat.</p>"
         },
         "level": {
             "value": 16

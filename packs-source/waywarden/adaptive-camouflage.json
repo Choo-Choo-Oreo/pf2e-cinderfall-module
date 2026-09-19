@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> three times per day</p><p><strong>Duration</strong> 1 minute</p><hr /><p>Your skin shifts to match your surroundings. You are concealed for the duration, or until you attack. Moving does not end the effect, but leaving the terrain you camouflaged into does.</p>"
+            "value": "<p><strong>Frequency</strong> three times per day</p><p><strong>Duration</strong> 1 minute</p><hr /><p>A mutation-born concealment effect usable a limited number of times per day.</p><p>Your skin shifts to match your surroundings. You are concealed for the duration, or until you attack. Moving does not end the effect, but leaving the terrain you camouflaged into does.</p>"
         },
         "level": {
             "value": 8

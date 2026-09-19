@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Duration</strong> 1 minute</p><hr /><p>You see through illusions and into invisibility as though under the effect of <em>see invisibility</em>, and gain a +2 circumstance bonus to Perception checks to find secret doors and traps, for the duration.</p>"
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Duration</strong> 1 minute</p><hr /><p>See through illusions and invisibility for a minute.</p><p>You see through illusions and into invisibility as though under the effect of <em>see invisibility</em>, and gain a +2 circumstance bonus to Perception checks to find secret doors and traps, for the duration.</p>"
         },
         "level": {
             "value": 16

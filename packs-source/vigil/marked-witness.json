@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> one mark at a time</p><p><strong>Range</strong> 60 feet, or touch for a location</p><p><strong>Duration</strong> until your next daily preparations</p><hr /><p>Mark one creature or one location no larger than a small building. You always know the direction to a marked target, and you gain a +1 circumstance bonus to checks made to affect, find, or act upon it — including attack rolls, spell attacks, and skill checks. Acts you perform involving a marked target count as qualifying acts toward Grace or Cinders more readily, at the GM's discretion.</p>"
+            "value": "<p><strong>Cast</strong> 1 minute</p><p><strong>Frequency</strong> one mark at a time</p><p><strong>Range</strong> 60 feet, or touch for a location</p><p><strong>Duration</strong> until your next daily preparations</p><hr /><p>Mark a target or location as significant, tagging it for later mechanical benefit.</p><p>Mark one creature or one location no larger than a small building. You always know the direction to a marked target, and you gain a +1 circumstance bonus to checks made to affect, find, or act upon it — including attack rolls, spell attacks, and skill checks. Acts you perform involving a marked target count as qualifying acts toward Grace or Cinders more readily, at the GM's discretion.</p>"
         },
         "level": {
             "value": 8

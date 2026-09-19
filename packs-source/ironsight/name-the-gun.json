@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Requirement</strong> A single firearm you have carried through at least three encounters.</p><hr /><p>Give the weapon a name and it starts answering to it. It never fails while you personally wield it, it cannot be disarmed by any effect that allows a save, and any creature that has seen you fight recognizes it on sight. You may have one named weapon at a time; naming another ends this on the first, and the first never quite works the same for you again.</p>"
+            "value": "<p><strong>Cast</strong> 1 week of downtime</p><p><strong>Requirement</strong> A single firearm you have carried through at least three encounters.</p><hr /><p>It has been through enough with you that calling it something was overdue.</p><p>Give the weapon a name and it starts answering to it. It never fails while you personally wield it, it cannot be disarmed by any effect that allows a save, and any creature that has seen you fight recognizes it on sight. You may have one named weapon at a time; naming another ends this on the first, and the first never quite works the same for you again.</p>"
         },
         "level": {
             "value": 14

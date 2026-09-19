@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Area</strong> 30-foot emanation</p><p><strong>Saving Throw</strong> Will</p><hr /><p>You state who you are. Each enemy in the area that can see and hear you, and whose level is lower than yours, must succeed at a Will save against your class DC or become frightened 2. On a critical failure it is also fleeing for 1 round. A creature that has never heard of you is unaffected.</p>"
+            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Area</strong> 30-foot emanation</p><p><strong>Saving Throw</strong> Will</p><hr /><p>Enforcer-flavored, open to all — your reputation alone can end a fight before it starts.</p><p>You state who you are. Each enemy in the area that can see and hear you, and whose level is lower than yours, must succeed at a Will save against your class DC or become frightened 2. On a critical failure it is also fleeing for 1 round. A creature that has never heard of you is unaffected.</p>"
         },
         "level": {
             "value": 12

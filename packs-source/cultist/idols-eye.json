@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> 1 minute</p><hr /><p>You perceive through your Idol's senses instead of your own for the duration. While you do, you are <em>blinded</em> and <em>deafened</em> with respect to your own body, and your Idol must remain within 1 mile of you. You may Dismiss this effect. Your Idol gains no ability to act while you are riding its senses; it is a window, not a hand.</p>"
+            "value": "<p><strong>Duration</strong> 1 minute</p><hr /><p>Briefly borrow your Idol's senses, seeing through it at range.</p><p>You perceive through your Idol's senses instead of your own for the duration. While you do, you are <em>blinded</em> and <em>deafened</em> with respect to your own body, and your Idol must remain within 1 mile of you. You may Dismiss this effect. Your Idol gains no ability to act while you are riding its senses; it is a window, not a hand.</p>"
         },
         "level": {
             "value": 2

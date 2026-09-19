@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Your Bargain can't be forcibly broken, altered, or stolen by any effect; attempts to do so automatically fail without a check.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Your Bargain can no longer be broken, altered, or stolen.</p><p>Your Bargain can't be forcibly broken, altered, or stolen by any effect; attempts to do so automatically fail without a check.</p>"
         },
         "level": {
             "value": 18

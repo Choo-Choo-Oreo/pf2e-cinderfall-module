@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per round</p><hr /><p>Interact to retrieve a prepared Graft and throw it as part of the same action. If the target is unaware of you, that Graft&rsquo;s save DC increases by 1 against it.</p>"
+            "value": "<p><strong>Frequency</strong> once per round</p><hr /><p>You stopped announcing it. The sac is in the air before your hand finishes coming up.</p><p>Interact to retrieve a prepared Graft and throw it as part of the same action. If the target is unaware of you, that Graft&rsquo;s save DC increases by 1 against it.</p>"
         },
         "level": {
             "value": 2

@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per round</p><hr /><p>The first time each round that The Answer triggers, you make it without spending your reaction. Subsequent Answers in the same round cost your reaction as normal. You still make at most one Answer per triggering event, and the free Answer takes the multiple attack penalty as usual.</p>"
+            "value": "<p><strong>Frequency</strong> once per round</p><hr /><p>The Answer no longer costs your reaction the first time it triggers each round.</p><p>The first time each round that The Answer triggers, you make it without spending your reaction. Subsequent Answers in the same round cost your reaction as normal. You still make at most one Answer per triggering event, and the free Answer takes the multiple attack penalty as usual.</p>"
         },
         "level": {
             "value": 8

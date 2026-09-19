@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>You gain resistance to mental damage equal to half your level.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Standing resistance to mental damage.</p><p>You gain resistance to mental damage equal to half your level.</p>"
         },
         "level": {
             "value": 14

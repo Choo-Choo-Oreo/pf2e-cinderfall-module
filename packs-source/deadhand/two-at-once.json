@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per round</p><hr /><p>When you redirect an attack onto yourself, you may redirect a second attack made against a different ally in the same round without spending an additional reaction. You take both attacks in full, and any resistance you have applies to each separately.</p>"
+            "value": "<p><strong>Frequency</strong> once per round</p><hr /><p>Both of them went for somebody behind you. Neither of them got there.</p><p>When you redirect an attack onto yourself, you may redirect a second attack made against a different ally in the same round without spending an additional reaction. You take both attacks in full, and any resistance you have applies to each separately.</p>"
         },
         "level": {
             "value": 8

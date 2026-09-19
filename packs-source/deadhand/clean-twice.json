@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per encounter</p><hr /><p>The second Redline you spend in an encounter is also clean: you roll no Slip for it. This does not stack with any other effect that makes a Redline clean, and the third and later Redlines still roll normally.</p>"
+            "value": "<p><strong>Frequency</strong> once per encounter</p><hr /><p>The second push costs you nothing either, if you pick the right moment for it.</p><p>The second Redline you spend in an encounter is also clean: you roll no Slip for it. This does not stack with any other effect that makes a Redline clean, and the third and later Redlines still roll normally.</p>"
         },
         "level": {
             "value": 10

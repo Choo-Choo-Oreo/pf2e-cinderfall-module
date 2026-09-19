@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per day</p><hr /><p>Take a −1 status penalty to all checks and saves, and reduce your maximum Hit Points by twice your level, until your next daily preparations. Until then, the first qualifying act that would move you toward Grace or Cinders counts twice. The penalty applies whether or not a qualifying act ever comes.</p>"
+            "value": "<p><strong>Cast</strong> 1 hour of deliberate deprivation</p><p><strong>Frequency</strong> once per day</p><hr /><p>Voluntarily suffer a real cost to gain Grace or Cinders faster this session.</p><p>Take a −1 status penalty to all checks and saves, and reduce your maximum Hit Points by twice your level, until your next daily preparations. Until then, the first qualifying act that would move you toward Grace or Cinders counts twice. The penalty applies whether or not a qualifying act ever comes.</p>"
         },
         "level": {
             "value": 6

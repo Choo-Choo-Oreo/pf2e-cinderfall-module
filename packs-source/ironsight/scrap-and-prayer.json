@@ -11,7 +11,7 @@
         },
         "category": null,
         "description": {
-            "value": "<p><strong>Trigger</strong> an ally within your reach is reduced to 0 HP</p><p><strong>Effect</strong> reload using an improvised object — a bolt, a nail, a chunk of rebar</p><hr /><p>Whatever's closest becomes ammunition.</p>"
+            "value": "<p><strong>Tier</strong> Green</p><p><strong>Trigger</strong> an ally within your reach is reduced to 0 HP</p><p><strong>Effect</strong> reload using an improvised object — a bolt, a nail, a chunk of rebar</p><hr /><p>Whatever's closest becomes ammunition.</p>"
         },
         "publication": {
             "license": "ORC",

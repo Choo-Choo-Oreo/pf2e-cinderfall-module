@@ -11,7 +11,7 @@
         },
         "category": null,
         "description": {
-            "value": "<p><strong>Freq</strong> 1/job</p><p><strong>Check</strong> one Thievery roll vs. the highest Perception DC present</p><p><strong>Effect</strong> items are simply gone when next checked, with no memory of the theft attached to the loss</p><hr /><p>Empty a guarded room, vault, or convoy of everything worth taking across the course of a single scene.</p>"
+            "value": "<p><strong>Tier</strong> Master</p><p><strong>Activate</strong> 10 minutes</p><p><strong>Freq</strong> 1/job</p><p><strong>Check</strong> one Thievery roll vs. the highest Perception DC present</p><p><strong>Effect</strong> items are simply gone when next checked, with no memory of the theft attached to the loss</p><hr /><p>Empty a guarded room, vault, or convoy of everything worth taking across the course of a single scene.</p>"
         },
         "publication": {
             "license": "ORC",

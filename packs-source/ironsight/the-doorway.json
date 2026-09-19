@@ -11,7 +11,7 @@
         },
         "category": null,
         "description": {
-            "value": "<p><strong>Trigger</strong> an enemy ends its movement adjacent to you</p><p><strong>Requirement</strong> shotgun loaded</p><p><strong>Effect</strong> called shot at +1 circumstance to hit, weapon damage as normal</p><hr /><p>Anyone who closes distance on you gets to meet the barrel first.</p>"
+            "value": "<p><strong>Tier</strong> Green</p><p><strong>Trigger</strong> an enemy ends its movement adjacent to you</p><p><strong>Requirement</strong> shotgun loaded</p><p><strong>Effect</strong> called shot at +1 circumstance to hit, weapon damage as normal</p><hr /><p>Anyone who closes distance on you gets to meet the barrel first.</p>"
         },
         "publication": {
             "license": "ORC",

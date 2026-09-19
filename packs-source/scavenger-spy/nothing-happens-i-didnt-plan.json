@@ -11,7 +11,7 @@
         },
         "category": null,
         "description": {
-            "value": "<p><strong>Freq</strong> 1/session</p><p><strong>Trigger</strong> a current complication</p><p><strong>Effect</strong> automatically succeeds, no roll, converting any single ongoing crisis into a controlled outcome on terms you dictate</p><hr /><p>Declare that a current complication was actually anticipated and prepared for from the start.</p>"
+            "value": "<p><strong>Tier</strong> Master</p><p><strong>Freq</strong> 1/session</p><p><strong>Trigger</strong> a current complication</p><p><strong>Effect</strong> automatically succeeds, no roll, converting any single ongoing crisis into a controlled outcome on terms you dictate</p><hr /><p>Declare that a current complication was actually anticipated and prepared for from the start.</p>"
         },
         "publication": {
             "license": "ORC",

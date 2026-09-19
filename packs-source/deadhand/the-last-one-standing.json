@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>While every other ally within 30 feet is unconscious, dying, or dead, you gain resistance 10 to all damage, a +2 circumstance bonus to attack rolls and saves, and you cannot be reduced below 1 Hit Point by any effect that does not deal at least twice your remaining Hit Points in a single blow.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Everybody else went down. It did not occur to you that this was an option.</p><p>While every other ally within 30 feet is unconscious, dying, or dead, you gain resistance 10 to all damage, a +2 circumstance bonus to attack rolls and saves, and you cannot be reduced below 1 Hit Point by any effect that does not deal at least twice your remaining Hit Points in a single blow.</p>"
         },
         "level": {
             "value": 18

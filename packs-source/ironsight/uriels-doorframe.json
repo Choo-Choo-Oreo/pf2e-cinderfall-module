@@ -11,7 +11,7 @@
         },
         "category": null,
         "description": {
-            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> three or more enemies are adjacent to you at once</p><p><strong>Effect</strong> a single shell strikes every adjacent enemy simultaneously at called-shot severity, dealing an extra 3d8 damage, ignoring resistance, each hit automatically a critical hit</p><hr /><p>One shell, every enemy in the doorframe, all at once.</p>"
+            "value": "<p><strong>Tier</strong> Undying</p><p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> three or more enemies are adjacent to you at once</p><p><strong>Effect</strong> a single shell strikes every adjacent enemy simultaneously at called-shot severity, dealing an extra 3d8 damage, ignoring resistance, each hit automatically a critical hit</p><hr /><p>One shell, every enemy in the doorframe, all at once.</p>"
         },
         "publication": {
             "license": "ORC",

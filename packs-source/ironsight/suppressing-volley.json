@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Requirement</strong> You are wielding a loaded firearm.</p><p><strong>Area</strong> 15-foot burst within 60 feet</p><p><strong>Duration</strong> until the start of your next turn</p><p><strong>Saving Throw</strong> Reflex</p><hr /><p>Empty your weapon into the area. Each enemy in it attempts a Reflex save against your class DC. On a failure it takes damage equal to one Strike's worth of your weapon's damage dice and cannot Stride toward you until the start of your next turn; on a critical failure it is also off-guard for that time.</p>"
+            "value": "<p><strong>Requirement</strong> You are wielding a loaded firearm.</p><p><strong>Area</strong> 15-foot burst within 60 feet</p><p><strong>Duration</strong> until the start of your next turn</p><p><strong>Saving Throw</strong> Reflex</p><hr /><p>An area-denial burst of gunfire that keeps enemies from advancing.</p><p>Empty your weapon into the area. Each enemy in it attempts a Reflex save against your class DC. On a failure it takes damage equal to one Strike's worth of your weapon's damage dice and cannot Stride toward you until the start of your next turn; on a critical failure it is also off-guard for that time.</p>"
         },
         "level": {
             "value": 8

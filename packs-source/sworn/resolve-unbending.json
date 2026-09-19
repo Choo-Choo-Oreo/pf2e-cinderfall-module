@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Requirement</strong> Your Oath is the Unwritten Oath.</p><p><strong>Duration</strong> constant</p><hr /><p>You gain a +2 circumstance bonus to saving throws against effects that would compel you to act against your Ward or to abandon it — commands, compulsions, contracts, and institutional-authority effects — and to your DC against Coerce attempts to the same end. When you cast Nobody Else's Rules you can name two effects instead of one.</p>"
+            "value": "<p><strong>Requirement</strong> Your Oath is the Unwritten Oath.</p><p><strong>Duration</strong> constant</p><hr /><p>Nobody wrote your cause down, which is why nothing written can be used to make you drop it.</p><p>You gain a +2 circumstance bonus to saving throws against effects that would compel you to act against your Ward or to abandon it — commands, compulsions, contracts, and institutional-authority effects — and to your DC against Coerce attempts to the same end. When you cast Nobody Else's Rules you can name two effects instead of one.</p>"
         },
         "level": {
             "value": 8

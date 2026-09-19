@@ -11,7 +11,7 @@
         },
         "category": null,
         "description": {
-            "value": "<p><strong>Check</strong> Society or Crafting vs. DC 5 (flat, Novice)</p><p><strong>Effect</strong> the record already says the job was supposed to happen when it's later checked</p><hr /><p>Fabricate or falsify a minor record ahead of time.</p>"
+            "value": "<p><strong>Tier</strong> Novice</p><p><strong>Activate</strong> 10 minutes, before the job</p><p><strong>Check</strong> Society or Crafting vs. DC 5 (flat, Novice)</p><p><strong>Effect</strong> the record already says the job was supposed to happen when it's later checked</p><hr /><p>Fabricate or falsify a minor record ahead of time.</p>"
         },
         "publication": {
             "license": "ORC",

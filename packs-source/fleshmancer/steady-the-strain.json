@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Your own body carries the weight of what it's become better than most. Your Strain (2 + your Constitution modifier, minimum 2) is permanently increased by 1 for the purpose of determining when you overflow into a weekly Bloom Table roll. This applies to your own mutations only, not a patient's.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Your own effective Strain limit is permanently 1 higher.</p><p>Your own body carries the weight of what it's become better than most. Your Strain (2 + your Constitution modifier, minimum 2) is permanently increased by 1 for the purpose of determining when you overflow into a weekly Bloom Table roll. This applies to your own mutations only, not a patient's.</p>"
         },
         "level": {
             "value": 12

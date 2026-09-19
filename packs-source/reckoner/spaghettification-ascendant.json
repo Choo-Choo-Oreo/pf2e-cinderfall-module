@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>When you Sustain THE STRETCH against a creature that is already subject to another sustained effect from an Aspect SIGNATURE — yours or an ally's — it worsens by two rounds' worth instead of one. Two sustained effects on the same creature are enough; a third does not accelerate it further.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Singularity-flavored, open to all — The Stretch worsens twice as fast per round against a target already suffering another sustained Aspect effect.</p><p>When you Sustain THE STRETCH against a creature that is already subject to another sustained effect from an Aspect SIGNATURE — yours or an ally's — it worsens by two rounds' worth instead of one. Two sustained effects on the same creature are enough; a third does not accelerate it further.</p>"
         },
         "level": {
             "value": 14

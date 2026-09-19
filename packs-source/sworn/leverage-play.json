@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Requirement</strong> Your Oath is the Binding Clause, and you are somewhere the contract-holder's corporation has reach.</p><p><strong>Cost</strong> 1 Conviction</p><hr /><p>You call in a favor owed to the contract-holder. Choose one: you gain a +2 circumstance bonus to a Diplomacy check to Make a Request, an Intimidation check to Coerce, or a check to Gather Information, made before the end of the scene; or you halve the time Gather Information takes you for the rest of the day. The favor is spent on the corporation's ledger, not yours, and Command knows you used it.</p>"
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Requirement</strong> Your Oath is the Binding Clause, and you are somewhere the contract-holder's corporation has reach.</p><p><strong>Cost</strong> 1 Conviction</p><hr /><p>Every favor owed to the contract-holder is a lever, and you have learned where they're stored.</p><p>You call in a favor owed to the contract-holder. Choose one: you gain a +2 circumstance bonus to a Diplomacy check to Make a Request, an Intimidation check to Coerce, or a check to Gather Information, made before the end of the scene; or you halve the time Gather Information takes you for the rest of the day. The favor is spent on the corporation's ledger, not yours, and Command knows you used it.</p>"
         },
         "level": {
             "value": 8

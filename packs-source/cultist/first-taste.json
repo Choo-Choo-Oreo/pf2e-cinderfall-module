@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You critically hit with a Strike.</p><hr /><p>Gain temporary Hit Points equal to your level, lasting until the end of your next turn. Gluttoneth notices small kindnesses like this one, and remembers them.</p>"
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You critically hit with a Strike.</p><hr /><p>Crit with a Strike to grab a sliver of temporary HP.</p><p>Gain temporary Hit Points equal to your level, lasting until the end of your next turn. Gluttoneth notices small kindnesses like this one, and remembers them.</p>"
         },
         "level": {
             "value": 2

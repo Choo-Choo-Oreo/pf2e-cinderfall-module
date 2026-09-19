@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>When an attack is redirected to you from another creature by any Deadhand ability, effect, or Trade feature, you take half damage from it. This applies before your resistances and your armor's item bonus, not after.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Bulwark-flavored, open to all — redirected hits deal you half damage instead of full.</p><p>When an attack is redirected to you from another creature by any Deadhand ability, effect, or Trade feature, you take half damage from it. This applies before your resistances and your armor's item bonus, not after.</p>"
         },
         "level": {
             "value": 12

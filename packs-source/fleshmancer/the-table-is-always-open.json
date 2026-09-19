@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per round</p><p><strong>Cost</strong> 4 Vitae</p><p><strong>Range</strong> 60 feet</p><hr /><p>Apply a prepared Graft to any creature within range that you have previously worked on, needing line of sight rather than line of effect. An unwilling creature may attempt a Fortitude save against your class DC to negate it.</p>"
+            "value": "<p><strong>Frequency</strong> once per round</p><p><strong>Cost</strong> 4 Vitae</p><p><strong>Range</strong> 60 feet</p><hr /><p>You do not need to reach them. You have already been inside most of them.</p><p>Apply a prepared Graft to any creature within range that you have previously worked on, needing line of sight rather than line of effect. An unwilling creature may attempt a Fortitude save against your class DC to negate it.</p>"
         },
         "level": {
             "value": 20

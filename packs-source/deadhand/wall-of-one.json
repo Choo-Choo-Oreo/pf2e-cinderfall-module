@@ -11,7 +11,7 @@
         },
         "category": null,
         "description": {
-            "value": "<p><strong>Effect</strong> use Shield Block again this round even though you've already used it, once per additional attacker beyond the first; each additional block ticks your Tally up by 1 (max 3 per round)</p><hr /><p>Your shield can answer more than one attacker per round.</p>"
+            "value": "<p><strong>Tier</strong> Blooded</p><p><strong>Effect</strong> use Shield Block again this round even though you've already used it, once per additional attacker beyond the first; each additional block ticks your Tally up by 1 (max 3 per round)</p><hr /><p>Your shield can answer more than one attacker per round.</p>"
         },
         "publication": {
             "license": "ORC",

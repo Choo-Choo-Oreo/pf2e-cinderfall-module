@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>When you would gain Grace from a qualifying act of endurance — holding a position, refusing to abandon someone, suffering rather than yielding — you progress toward your next point as though you had performed two such acts. This does not raise your cap and does not apply to qualifying acts of other kinds.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Grace accumulates slightly faster from qualifying acts of endurance.</p><p>When you would gain Grace from a qualifying act of endurance — holding a position, refusing to abandon someone, suffering rather than yielding — you progress toward your next point as though you had performed two such acts. This does not raise your cap and does not apply to qualifying acts of other kinds.</p>"
         },
         "level": {
             "value": 12
@@ -40,7 +40,7 @@
     "flags": {
         "cinderfall": {
             "incomplete": "STRUCT-GAIN-HOOK, mirror of the-choirs-fervor: SpecialResource has no rate-multiplier hook for endurance acts counting double toward the next Grace.",
-            "track": "unanswered"
+            "track": "the-unanswered"
         }
     }
 }

@@ -19,7 +19,7 @@
             }
         },
         "description": {
-            "value": "<i>Critical Success/Success</i> unaffected. <i>Failure</i> the target can't act, speak, or perceive anything beyond touch; it attempts a new Will save at the end of each of its turns, ending the effect on a success. <i>Critical Failure</i> as failure, and for the first round the target can't attempt a flat check or reaction to notice anything."
+            "value": "<p><strong>Saving Throw</strong> Will (rolled individually)</p><hr /><i>Critical Success/Success</i> unaffected. <i>Failure</i> the target can't act, speak, or perceive anything beyond touch; it attempts a new Will save at the end of each of its turns, ending the effect on a success. <i>Critical Failure</i> as failure, and for the first round the target can't attempt a flat check or reaction to notice anything."
         },
         "duration": {
             "sustained": false,

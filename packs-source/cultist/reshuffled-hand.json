@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> An enemy within 30 feet scores a critical hit against you or an ally.</p><p><strong>Cost</strong> 1 Zeal</p><hr /><p>Reduce the triggering critical hit to a normal hit. This is a misfortune effect. The Croupier redeals the hand — once.</p>"
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> An enemy within 30 feet scores a critical hit against you or an ally.</p><p><strong>Cost</strong> 1 Zeal</p><hr /><p>Turn an incoming critical hit into a normal one.</p><p>Reduce the triggering critical hit to a normal hit. This is a misfortune effect. The Croupier redeals the hand — once.</p>"
         },
         "level": {
             "value": 8
@@ -40,7 +40,7 @@
     "flags": {
         "cinderfall": {
             "incomplete": "\"Trigger an enemy crits you or an ally within 30 feet, Cost 1 Zeal: reduce that crit to a normal hit\" is blocked twice over: P-DEGREE-REACTIVE (a reactive, frequency-gated fix applied after an unwanted roll is already known) and P-CROSS (the roll being fixed is a DIFFERENT creature's -- the attacker's crit, not the card holder's own). Separately blocked by P-ZEAL for the Cost 1 Zeal clause, but not the deciding factor.",
-            "track": "croupier"
+            "track": "the-croupier"
         }
     }
 }

@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You draw an Overflow effect.</p><hr /><p>Draw a second Overflow effect immediately, of the same rank or lower. The Reckoning advances only once for the pair, not twice. Both effects must be drawn as part of the same Litany, and if you cannot draw the second, the free action is spent anyway.</p>"
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You draw an Overflow effect.</p><hr /><p>Draw two Overflow effects for the Reckoning cost of one stage increase.</p><p>Draw a second Overflow effect immediately, of the same rank or lower. The Reckoning advances only once for the pair, not twice. Both effects must be drawn as part of the same Litany, and if you cannot draw the second, the free action is spent anyway.</p>"
         },
         "level": {
             "value": 4

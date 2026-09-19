@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Requirement</strong> bio-attuned</p><p><strong>Duration</strong> constant</p><hr /><p>Once per week, you may have the Butcher shave 1 point of Resonance off you for materials cost alone — no rite, no favor, no week-long ritual. Professional courtesy, once a week.</p>"
+            "value": "<p><strong>Requirement</strong> bio-attuned</p><p><strong>Duration</strong> constant</p><hr /><p>The Butcher doesn't forget a name on the list.</p><p>Once per week, you may have the Butcher shave 1 point of Resonance off you for materials cost alone — no rite, no favor, no week-long ritual. Professional courtesy, once a week.</p>"
         },
         "level": {
             "value": 10

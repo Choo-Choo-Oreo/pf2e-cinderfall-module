@@ -9,7 +9,7 @@
         },
         "containerId": null,
         "description": {
-            "value": "<p>Fortress skeleton. +2 item bonus to AC. Resistance 8 to bludgeoning. Can't be moved against your will by anything short of a spell or a creature two sizes larger.</p>"
+            "value": "<p><strong>Tags</strong> apex</p><hr /><p>Fortress skeleton. +2 item bonus to AC. Resistance 8 to bludgeoning. Can't be moved against your will by anything short of a spell or a creature two sizes larger.</p>"
         },
         "hardness": 0,
         "hp": {

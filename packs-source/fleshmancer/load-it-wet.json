@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Trigger</strong> You throw a Graft.</p><p><strong>Cost</strong> 1 Vitae</p><hr /><p>The Graft&rsquo;s splash affects every creature within 10 feet of the target instead of only those adjacent to it. Any creature that takes splash damage this way is <em>off-guard</em> to you until the end of your next turn.</p>"
+            "value": "<p><strong>Trigger</strong> You throw a Graft.</p><p><strong>Cost</strong> 1 Vitae</p><hr /><p>Extra bile in the sac. It goes further than it should, and it goes on everyone.</p><p>The Graft&rsquo;s splash affects every creature within 10 feet of the target instead of only those adjacent to it. Any creature that takes splash damage this way is <em>off-guard</em> to you until the end of your next turn.</p>"
         },
         "level": {
             "value": 6

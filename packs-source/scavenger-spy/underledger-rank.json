@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> permanent</p><hr /><p>You hold rank in the Underledger. In any settlement where it has a presence you are recognised on sight by its members, you can reach a contact within 10 minutes rather than an hour, and you gain a +2 circumstance bonus to Diplomacy checks to Gather Information and to Deception checks made against people who fear the network. Lower-ranked members do small favors without being asked twice.</p>"
+            "value": "<p><strong>Duration</strong> permanent</p><hr /><p>You're a made contact within the network now — passive setting-wide benefits follow you.</p><p>You hold rank in the Underledger. In any settlement where it has a presence you are recognised on sight by its members, you can reach a contact within 10 minutes rather than an hour, and you gain a +2 circumstance bonus to Diplomacy checks to Gather Information and to Deception checks made against people who fear the network. Lower-ranked members do small favors without being asked twice.</p>"
         },
         "level": {
             "value": 16

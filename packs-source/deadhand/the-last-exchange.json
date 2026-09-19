@@ -11,7 +11,7 @@
         },
         "category": null,
         "description": {
-            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Requirement</strong> the target takes the duel (attacks you or accepts the challenge)</p><p><strong>Effect</strong> both of you make a single Strike against the other simultaneously; whichever hit deals more damage is treated as a critical hit, the other as a complete miss</p><hr /><p>A formally offered duel resolves in one exchange.</p>"
+            "value": "<p><strong>Tier</strong> Undying</p><p><strong>Frequency</strong> once per day</p><p><strong>Requirement</strong> the target takes the duel (attacks you or accepts the challenge)</p><p><strong>Effect</strong> both of you make a single Strike against the other simultaneously; whichever hit deals more damage is treated as a critical hit, the other as a complete miss</p><hr /><p>A formally offered duel resolves in one exchange.</p>"
         },
         "publication": {
             "license": "ORC",

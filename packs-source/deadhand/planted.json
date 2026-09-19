@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> until you move</p><hr /><p>While you have not used a move action since the start of your last turn, each ally adjacent to you gains a +1 circumstance bonus to AC, and you gain a +2 circumstance bonus to your Fortitude DC against Shove, Trip, and Reposition. You lose both the moment you move for any reason, including a forced movement you did not resist.</p>"
+            "value": "<p><strong>Duration</strong> until you move</p><hr /><p>You stop moving, and the ground behind you becomes somebody else's problem to reach.</p><p>While you have not used a move action since the start of your last turn, each ally adjacent to you gains a +1 circumstance bonus to AC, and you gain a +2 circumstance bonus to your Fortitude DC against Shove, Trip, and Reposition. You lose both the moment you move for any reason, including a forced movement you did not resist.</p>"
         },
         "level": {
             "value": 2

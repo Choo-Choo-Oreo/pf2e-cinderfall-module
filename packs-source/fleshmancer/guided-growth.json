@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per patient per week</p><p><strong>Trigger</strong> A willing patient of yours rolls a Runaway Mutation result on the Bloom Table.</p><hr /><p>Roll a second result on the Minor Mutation table alongside the one that triggered. The patient takes whichever of the two you choose, and the other is discarded entirely — it never happened, and doesn't count against anything. This doesn't let you avoid a Runaway Mutation happening at all, only steer which one lands.</p>"
+            "value": "<p><strong>Frequency</strong> once per patient per week</p><p><strong>Trigger</strong> A willing patient of yours rolls a Runaway Mutation result on the Bloom Table.</p><hr /><p>When a patient rolls a Runaway Mutation, you may pick from two results instead of taking the one rolled.</p><p>Roll a second result on the Minor Mutation table alongside the one that triggered. The patient takes whichever of the two you choose, and the other is discarded entirely — it never happened, and doesn't count against anything. This doesn't let you avoid a Runaway Mutation happening at all, only steer which one lands.</p>"
         },
         "level": {
             "value": 6

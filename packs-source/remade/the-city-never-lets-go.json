@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Requirement</strong> chrome-attuned</p><p><strong>Duration</strong> constant</p><hr /><p>While at Hollowed Drift, treat your Weakness to electricity and to disrupt-construct/technomancy effects as Weakness 2 instead of 5, and Treat Wounds heals you normally rather than for half.</p>"
+            "value": "<p><strong>Requirement</strong> chrome-attuned</p><p><strong>Duration</strong> constant</p><hr /><p>Even hollowed out, the frame keeps more of you running than it should.</p><p>While at Hollowed Drift, treat your Weakness to electricity and to disrupt-construct/technomancy effects as Weakness 2 instead of 5, and Treat Wounds heals you normally rather than for half.</p>"
         },
         "level": {
             "value": 18

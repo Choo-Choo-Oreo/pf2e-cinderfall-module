@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>You gain a +2 status bonus to saving throws against death effects, and effects that would make you doomed increase that value by one less than they otherwise would, to a minimum of 1. You do not suffer any penalty from advanced age, and you never will.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Whatever they are threatening you with, something has already tried it and you outlasted the person holding it.</p><p>You gain a +2 status bonus to saving throws against death effects, and effects that would make you doomed increase that value by one less than they otherwise would, to a minimum of 1. You do not suffer any penalty from advanced age, and you never will.</p>"
         },
         "level": {
             "value": 16

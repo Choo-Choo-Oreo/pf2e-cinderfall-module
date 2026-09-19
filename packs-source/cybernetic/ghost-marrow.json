@@ -9,7 +9,7 @@
         },
         "containerId": null,
         "description": {
-            "value": "<p>Marrow bound with a captive spirit. Fast Healing 10. When reduced to 0 HP, the spirit acts one more round at 1 HP under GM control before you fall. 1/day.</p>"
+            "value": "<p><strong>Tags</strong> soul-tech, apex</p><hr /><p>Marrow bound with a captive spirit. Fast Healing 10. When reduced to 0 HP, the spirit acts one more round at 1 HP under GM control before you fall. 1/day.</p>"
         },
         "hardness": 0,
         "hp": {

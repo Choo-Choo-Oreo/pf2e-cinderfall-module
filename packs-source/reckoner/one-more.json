@@ -11,7 +11,7 @@
         "damage": {},
         "defense": null,
         "description": {
-            "value": "<p>Choose one: your reach increases by 5 feet until the end of your turn, or — if you're already taking an action that includes a Strike this turn — you gain one additional Strike as part of that action, using the same weapon or unarmed attack.</p>"
+            "value": "<p><strong>Aspect</strong> The Many</p><p><strong>Cost</strong> Focus 1</p><p>Choose one: your reach increases by 5 feet until the end of your turn, or — if you're already taking an action that includes a Strike this turn — you gain one additional Strike as part of that action, using the same weapon or unarmed attack.</p>"
         },
         "duration": {
             "sustained": false,
@@ -38,7 +38,9 @@
         },
         "traits": {
             "rarity": "common",
-            "traditions": [],
+            "traditions": [
+                "divine"
+            ],
             "value": [
                 "focus",
                 "reckoner"

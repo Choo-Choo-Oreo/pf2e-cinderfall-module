@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>While you are at or below half your maximum Hit Points, you gain resistance to all damage equal to half your level.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Damage resistance while below half HP.</p><p>While you are at or below half your maximum Hit Points, you gain resistance to all damage equal to half your level.</p>"
         },
         "level": {
             "value": 10

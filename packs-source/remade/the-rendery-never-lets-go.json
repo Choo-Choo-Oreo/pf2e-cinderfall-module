@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Requirement</strong> bio-attuned</p><p><strong>Duration</strong> constant</p><hr /><p>While at Overgrown Load or higher, treat the Speed penalty and the all-Fortitude-save penalty as though you were at Straining instead. You still gain Overgrown's extra dying round and every other listed effect.</p>"
+            "value": "<p><strong>Requirement</strong> bio-attuned</p><p><strong>Duration</strong> constant</p><hr /><p>Even at your worst, the graft holds the line a little further out than it should.</p><p>While at Overgrown Load or higher, treat the Speed penalty and the all-Fortitude-save penalty as though you were at Straining instead. You still gain Overgrown's extra dying round and every other listed effect.</p>"
         },
         "level": {
             "value": 18

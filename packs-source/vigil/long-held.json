@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Your Grace or Cinders cap increases by 1. Taken at 16th level, this gives you a cap of 4 one level before the progression table would grant it, and a cap of 5 once 17th level arrives.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Your Grace/Cinders cap increases ahead of the normal schedule.</p><p>Your Grace or Cinders cap increases by 1. Taken at 16th level, this gives you a cap of 4 one level before the progression table would grant it, and a cap of 5 once 17th level arrives.</p>"
         },
         "level": {
             "value": 16

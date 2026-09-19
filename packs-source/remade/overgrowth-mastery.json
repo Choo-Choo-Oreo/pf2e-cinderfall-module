@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Requirement</strong> bio-attuned</p><p><strong>Duration</strong> constant</p><hr /><p>While at Overgrown Load, you no longer attempt the daily DC 5 flat check that risks one augment running at a −2 item penalty. Every other listed effect of Overgrown still applies.</p>"
+            "value": "<p><strong>Requirement</strong> bio-attuned</p><p><strong>Duration</strong> constant</p><hr /><p>Overgrown doesn't get to gamble with your gear anymore.</p><p>While at Overgrown Load, you no longer attempt the daily DC 5 flat check that risks one augment running at a −2 item penalty. Every other listed effect of Overgrown still applies.</p>"
         },
         "level": {
             "value": 14

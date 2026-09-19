@@ -19,7 +19,7 @@
             }
         },
         "description": {
-            "value": "<i>Critical Success/Success</i> unaffected. <i>Failure</i> slowed 1 for the duration. <i>Critical Failure</i> slowed 2."
+            "value": "<p><strong>Saving Throw</strong> Fortitude (rolled individually)</p><hr /><i>Critical Success/Success</i> unaffected. <i>Failure</i> slowed 1 for the duration. <i>Critical Failure</i> slowed 2."
         },
         "duration": {
             "sustained": false,

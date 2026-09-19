@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Your Idol gains an additional familiar ability, and it may take 1 action on your turn without you spending an action to command it. It uses your proficiencies for any check it makes. It cannot Cast a Spell or use an ability that requires your Zeal on this free action.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Your Idol grows stronger and can act more independently in a fight.</p><p>Your Idol gains an additional familiar ability, and it may take 1 action on your turn without you spending an action to command it. It uses your proficiencies for any check it makes. It cannot Cast a Spell or use an ability that requires your Zeal on this free action.</p>"
         },
         "level": {
             "value": 6

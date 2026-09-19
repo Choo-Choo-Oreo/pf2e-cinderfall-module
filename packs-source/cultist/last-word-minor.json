@@ -40,7 +40,7 @@
     "flags": {
         "cinderfall": {
             "incomplete": "\"Whenever a creature damages you and you don't act against it before your next turn: +1 circumstance to your next attack/Rite-attack vs that creature, stacking to +4; resets once you act against it\" needs a per-creature bonus that STACKS across repeated triggers and resets on a condition -- a strictly larger ask than TokenMark's boolean mark/unmark (the mechanism this corpus's own cult-sign-effect.json and real pf2e's hunt-prey.json both use). No precedent found for a numeric, stacking, per-creature counter anywhere in this pass's research; even a companion Effect card couldn't cleanly carry a stacking counter with tools confirmed in this pass, so this is a firmer INCOMPLETE than the ordinary P-NEEDS-COMPANION gap.",
-            "track": "last-word"
+            "track": "the-last-word"
         }
     }
 }

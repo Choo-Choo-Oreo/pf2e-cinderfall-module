@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Your Strikes against objects, structures, vehicles, and barriers deal double damage and ignore Hardness entirely. Against constructs and creatures made of worked stone, metal, or machinery, you ignore 5 points of any resistance and treat their Hardness, if any, as 0.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Retained by the Combine specifically because the alternative was a demolition crew and three days.</p><p>Your Strikes against objects, structures, vehicles, and barriers deal double damage and ignore Hardness entirely. Against constructs and creatures made of worked stone, metal, or machinery, you ignore 5 points of any resistance and treat their Hardness, if any, as 0.</p>"
         },
         "level": {
             "value": 10

@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>No non-magical structure, barrier, vehicle, or object can meaningfully impede you: you destroy or pass through any such thing as a single action, whatever its size or Hardness. Against magical barriers, walls, and force effects, your Strikes count as a counteract attempt at your level using your Class DC.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Every wall you have ever met has turned out to be a door with extra steps.</p><p>No non-magical structure, barrier, vehicle, or object can meaningfully impede you: you destroy or pass through any such thing as a single action, whatever its size or Hardness. Against magical barriers, walls, and force effects, your Strikes count as a counteract attempt at your level using your Class DC.</p>"
         },
         "level": {
             "value": 20

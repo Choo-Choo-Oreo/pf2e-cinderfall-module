@@ -40,7 +40,7 @@
     "flags": {
         "cinderfall": {
             "incomplete": "\"Once per day, treat a debtor's failed save vs a Ledger effect as a critical failure instead\" is blocked twice over: P-DEGREE-REACTIVE (a reactive, frequency-gated fix applied after an unwanted roll is already known) and P-CROSS (the roll being fixed is a DIFFERENT creature's -- the debtor's save, not the card holder's own). The always-know-your-debts clause is purely informational and needs no rule element on its own.",
-            "track": "ledger"
+            "track": "the-ledger"
         }
     }
 }

@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per hour</p><hr /><p>You Treat your own Wounds, using your own Medicine modifier or a flat +2, whichever is higher, and you may do so even while walking, riding, or standing watch. You cannot benefit from this and from another creature's Treat Wounds within the same hour.</p>"
+            "value": "<p><strong>Cast</strong> 10 minutes</p><p><strong>Frequency</strong> once per hour</p><hr /><p>Sitting down to be treated properly is for people with a schedule.</p><p>You Treat your own Wounds, using your own Medicine modifier or a flat +2, whichever is higher, and you may do so even while walking, riding, or standing watch. You cannot benefit from this and from another creature's Treat Wounds within the same hour.</p>"
         },
         "level": {
             "value": 6

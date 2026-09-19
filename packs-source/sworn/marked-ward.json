@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Cost</strong> 1 Conviction</p><p><strong>Range</strong> 30 feet</p><p><strong>Targets</strong> 1 creature, object, or location</p><p><strong>Duration</strong> 1 minute</p><hr /><p>Name the target aloud. For the duration it is also your Ward: threats to it can trigger The Answer, and Vows that target your Ward can target it. The Oath covers it grudgingly: Answers made on its behalf don't gain the circumstance bonus your Trial stage grants The Answer, and if your real Ward and the named one are threatened at once, the real Ward comes first — you can't Answer for the named one while an Answer for the real one is possible.</p>"
+            "value": "<p><strong>Cost</strong> 1 Conviction</p><p><strong>Range</strong> 30 feet</p><p><strong>Targets</strong> 1 creature, object, or location</p><p><strong>Duration</strong> 1 minute</p><hr /><p>You can name a second thing under your protection for a while, and the Oath extends to cover it, grudgingly.</p><p>Name the target aloud. For the duration it is also your Ward: threats to it can trigger The Answer, and Vows that target your Ward can target it. The Oath covers it grudgingly: Answers made on its behalf don't gain the circumstance bonus your Trial stage grants The Answer, and if your real Ward and the named one are threatened at once, the real Ward comes first — you can't Answer for the named one while an Answer for the real one is possible.</p>"
         },
         "level": {
             "value": 4

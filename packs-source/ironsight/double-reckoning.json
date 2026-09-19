@@ -11,7 +11,7 @@
         },
         "category": null,
         "description": {
-            "value": "<p><strong>Target</strong> 1 creature, both pistols</p><p><strong>Effect</strong> if the first shot hits, the second gains +3 circumstance to hit and, on a hit, deals an extra 2d8 damage</p><hr /><p>Both pistols fire as a single coordinated action against one target, each shot's accuracy feeding the other's.</p>"
+            "value": "<p><strong>Tier</strong> Veteran</p><p><strong>Target</strong> 1 creature, both pistols</p><p><strong>Effect</strong> if the first shot hits, the second gains +3 circumstance to hit and, on a hit, deals an extra 2d8 damage</p><hr /><p>Both pistols fire as a single coordinated action against one target, each shot's accuracy feeding the other's.</p>"
         },
         "publication": {
             "license": "ORC",

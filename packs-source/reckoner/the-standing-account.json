@@ -11,7 +11,7 @@
         "damage": {},
         "defense": null,
         "description": {
-            "value": "<p>Learn whether a stated course of action trends toward surplus or deficit — as <i>Augury</i>, but coarser: only whether it's \"good\" or \"bad\" within the next 10 minutes, no further detail.</p>"
+            "value": "<p><strong>Activate</strong> 10 minutes</p><p>Learn whether a stated course of action trends toward surplus or deficit — as <i>Augury</i>, but coarser: only whether it's \"good\" or \"bad\" within the next 10 minutes, no further detail.</p>"
         },
         "duration": {
             "sustained": false,

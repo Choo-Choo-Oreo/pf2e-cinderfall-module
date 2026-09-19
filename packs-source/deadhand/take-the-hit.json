@@ -11,7 +11,7 @@
         },
         "category": null,
         "description": {
-            "value": "<p><strong>Trigger</strong> an adjacent ally is about to take a hit</p><p><strong>Effect</strong> take the damage in their place, reduced by your shield's Hardness +2</p><hr /><p>Step bodily into a blow meant for the ally beside you.</p>"
+            "value": "<p><strong>Tier</strong> Green</p><p><strong>Trigger</strong> an adjacent ally is about to take a hit</p><p><strong>Effect</strong> take the damage in their place, reduced by your shield's Hardness +2</p><hr /><p>Step bodily into a blow meant for the ally beside you.</p>"
         },
         "publication": {
             "license": "ORC",

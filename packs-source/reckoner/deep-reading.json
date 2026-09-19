@@ -11,7 +11,7 @@
         "damage": {},
         "defense": null,
         "description": {
-            "value": "<p>Learn the current location of a familiar creature or object, so long as it exists on the same plane.</p>"
+            "value": "<p><strong>Activate</strong> 10 minutes</p><p>Learn the current location of a familiar creature or object, so long as it exists on the same plane.</p>"
         },
         "duration": {
             "sustained": false,

@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Requirement</strong> chrome-attuned</p><p><strong>Duration</strong> constant</p><hr /><p>Chrome-Bound's nanite dependency — sickened 2 if all your augments are suppressed at once — no longer applies to you.</p>"
+            "value": "<p><strong>Requirement</strong> chrome-attuned</p><p><strong>Duration</strong> constant</p><hr /><p>Your body's learned to run on nothing at all, however briefly.</p><p>Chrome-Bound's nanite dependency — sickened 2 if all your augments are suppressed at once — no longer applies to you.</p>"
         },
         "level": {
             "value": 20

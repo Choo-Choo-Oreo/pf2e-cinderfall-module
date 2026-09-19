@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Trigger</strong> You use The Answer.</p><hr /><p>You gain an additional reaction that lasts until the start of your next turn and can be used only for The Answer against a creature other than the one you just Answered. Two threats, two Answers; the second must be a different creature.</p>"
+            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Trigger</strong> You use The Answer.</p><hr /><p>Two threats to the Ward at once is a contract clause you read carefully, and you can meet both.</p><p>You gain an additional reaction that lasts until the start of your next turn and can be used only for The Answer against a creature other than the one you just Answered. Two threats, two Answers; the second must be a different creature.</p>"
         },
         "level": {
             "value": 4

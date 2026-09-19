@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Duration</strong> until completed or 24 hours</p><hr /><p>Name a single objective and up to six allies who can hear and understand you. Until the objective is met or a day passes, those allies gain a +2 status bonus to every check and save made in direct pursuit of it, cannot be compelled to abandon it, and know one another's rough position and condition at all times. This continues whether or not you are alive to see it done.</p>"
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Duration</strong> until completed or 24 hours</p><hr /><p>They will still be doing what you told them long after you have stopped being able to tell them anything.</p><p>Name a single objective and up to six allies who can hear and understand you. Until the objective is met or a day passes, those allies gain a +2 status bonus to every check and save made in direct pursuit of it, cannot be compelled to abandon it, and know one another's rough position and condition at all times. This continues whether or not you are alive to see it done.</p>"
         },
         "level": {
             "value": 20

@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>You gain a +2 status bonus to saving throws against poison, disease and inhaled effects, and you do not need to breathe. When you critically succeed at a save against a poison or a disease, you may keep it: the next Graft you apply may carry that effect, once.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Whatever is in the air, you have already had worse than it inside you.</p><p>You gain a +2 status bonus to saving throws against poison, disease and inhaled effects, and you do not need to breathe. When you critically succeed at a save against a poison or a disease, you may keep it: the next Graft you apply may carry that effect, once.</p>"
         },
         "level": {
             "value": 10

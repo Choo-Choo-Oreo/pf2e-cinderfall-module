@@ -30,7 +30,7 @@
             }
         },
         "description": {
-            "value": "<p>A one-directional line etched into the world. The first time a creature crosses it each encounter, it takes 2d6 damage per rank of this spell and can't cross back over that same line for the rest of the encounter.</p>"
+            "value": "<p><strong>Aspect</strong> Event Horizon</p><p><strong>Cost</strong> Focus 1</p><p>A one-directional line etched into the world. The first time a creature crosses it each encounter, it takes 2d6 damage per rank of this spell and can't cross back over that same line for the rest of the encounter.</p>"
         },
         "duration": {
             "sustained": false,
@@ -57,7 +57,9 @@
         },
         "traits": {
             "rarity": "common",
-            "traditions": [],
+            "traditions": [
+                "divine"
+            ],
             "value": [
                 "focus",
                 "reckoner"

@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Range</strong> 60 feet</p><p><strong>Saving Throw</strong> Will</p><hr /><p>Invoke what you are known for. Every creature within range that has heard of you attempts a Will save against your spell DC. Allies and those who revere what you did gain a +2 status bonus to attack rolls, saves and skill checks for 1 minute. Those who fear it and fail are frightened 2 and cannot willingly approach you for 1 minute. A creature that has never heard of you is unaffected — that is the cost of a reputation-based effect.</p>"
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Range</strong> 60 feet</p><p><strong>Saving Throw</strong> Will</p><hr /><p>Once per day, a powerful reputation-based effect triggers off what you're now known for.</p><p>Invoke what you are known for. Every creature within range that has heard of you attempts a Will save against your spell DC. Allies and those who revere what you did gain a +2 status bonus to attack rolls, saves and skill checks for 1 minute. Those who fear it and fail are frightened 2 and cannot willingly approach you for 1 minute. A creature that has never heard of you is unaffected — that is the cost of a reputation-based effect.</p>"
         },
         "level": {
             "value": 18

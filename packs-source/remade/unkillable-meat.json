@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Requirement</strong> bio-attuned</p><p><strong>Duration</strong> constant</p><hr /><p>You gain an additional round before your first stabilization check when dying, on top of Overgrown Load's own extra round, and you gain this benefit starting at Straining Load rather than waiting for Overgrown.</p>"
+            "value": "<p><strong>Requirement</strong> bio-attuned</p><p><strong>Duration</strong> constant</p><hr /><p>It takes more than usual to actually finish you.</p><p>You gain an additional round before your first stabilization check when dying, on top of Overgrown Load's own extra round, and you gain this benefit starting at Straining Load rather than waiting for Overgrown.</p>"
         },
         "level": {
             "value": 14

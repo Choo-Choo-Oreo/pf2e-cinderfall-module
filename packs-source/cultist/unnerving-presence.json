@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> 1 hour</p><hr /><p>You display your patron's sigil openly. For the duration you gain a +2 circumstance bonus to Intimidation checks against anyone who knows what the sigil means, and a -2 circumstance penalty to Diplomacy checks against anyone who knows what the sigil means and disapproves. The GM decides who recognises it. You may end this effect by covering the sigil, which takes 1 action. When you Demoralize, you may use your class DC's key ability modifier in place of Charisma, and you never take the language penalty — the sigil does not need translating.</p>"
+            "value": "<p><strong>Cast</strong> 1 minute</p><p><strong>Duration</strong> 1 hour</p><hr /><p>A fear/intimidation utility drawn from your patron's reputation, not your own.</p><p>You display your patron's sigil openly. For the duration you gain a +2 circumstance bonus to Intimidation checks against anyone who knows what the sigil means, and a -2 circumstance penalty to Diplomacy checks against anyone who knows what the sigil means and disapproves. The GM decides who recognises it. You may end this effect by covering the sigil, which takes 1 action. When you Demoralize, you may use your class DC's key ability modifier in place of Charisma, and you never take the language penalty — the sigil does not need translating.</p>"
         },
         "level": {
             "value": 4

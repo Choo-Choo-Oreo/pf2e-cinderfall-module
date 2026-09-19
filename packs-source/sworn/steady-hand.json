@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>When you Strike as part of The Answer, you gain a +1 circumstance bonus to the attack roll, and that attack roll ignores any penalty from the <em>frightened</em> or <em>sickened</em> condition. Strikes that are not part of The Answer gain nothing from this feat.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>The Answer is only as good as the hand that delivers it; yours does not shake when it matters.</p><p>When you Strike as part of The Answer, you gain a +1 circumstance bonus to the attack roll, and that attack roll ignores any penalty from the <em>frightened</em> or <em>sickened</em> condition. Strikes that are not part of The Answer gain nothing from this feat.</p>"
         },
         "level": {
             "value": 2

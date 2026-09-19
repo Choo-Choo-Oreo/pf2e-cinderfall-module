@@ -19,7 +19,7 @@
             }
         },
         "description": {
-            "value": "<i>Critical Success/Success</i> unaffected. <i>Failure</i> charmed toward you for the duration. <i>Critical Failure</i> as failure, and the target actively defends you for the first 1 minute."
+            "value": "<p><strong>Saving Throw</strong> Will (rolled individually)</p><hr /><i>Critical Success/Success</i> unaffected. <i>Failure</i> charmed toward you for the duration. <i>Critical Failure</i> as failure, and the target actively defends you for the first 1 minute."
         },
         "duration": {
             "sustained": false,

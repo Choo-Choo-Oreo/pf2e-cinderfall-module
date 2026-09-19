@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Your Strikes and abilities that require more than one action, or that state they can be reacted to, cannot be the trigger for a Ready action, and cannot be interrupted, disrupted, or counteracted by a reaction. Creatures may still react to the damage or effect after it resolves.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Breaker-flavored, open to all — your wind-up strikes no longer telegraph; they can't be readied against.</p><p>Your Strikes and abilities that require more than one action, or that state they can be reacted to, cannot be the trigger for a Ready action, and cannot be interrupted, disrupted, or counteracted by a reaction. Creatures may still react to the damage or effect after it resolves.</p>"
         },
         "level": {
             "value": 12

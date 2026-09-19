@@ -11,7 +11,7 @@
         "damage": {},
         "defense": null,
         "description": {
-            "value": "<p><strong>Focus</strong> 1</p><hr /><p>At the moment of casting, name one specific fear, compulsion, or institutional-authority effect out loud. You are immune to that named effect for the duration — this doesn't grant broad immunity, only to the one thing you named. The Unwritten Oath keeps no fine print; you have to say what you're refusing.</p>"
+            "value": "<p><strong>Focus</strong> 1</p><p><strong>Components</strong> verbal</p><hr /><p>At the moment of casting, name one specific fear, compulsion, or institutional-authority effect out loud. You are immune to that named effect for the duration — this doesn't grant broad immunity, only to the one thing you named. The Unwritten Oath keeps no fine print; you have to say what you're refusing.</p>"
         },
         "duration": {
             "sustained": false,

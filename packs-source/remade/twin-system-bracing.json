@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> An effect that specifically targets augmented creatures would knock you prone, make you off-guard, or reduce your Speed.</p><hr /><p>Negate that effect entirely for this instance.</p>"
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> An effect that specifically targets augmented creatures would knock you prone, make you off-guard, or reduce your Speed.</p><hr /><p>Something in you refuses to go down the way it's supposed to.</p><p>Negate that effect entirely for this instance.</p>"
         },
         "level": {
             "value": 8

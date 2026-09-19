@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Trigger</strong> You begin a ranged Strike and have no Hot Load uses remaining.</p><hr /><p>Hot Load anyway, without spending a use. The Strike gains the extra damage die as normal, and afterward you roll on the Gun Failure Table (§3) whether the Strike hit or missed. You cannot decline that roll, and Gun Failure Sovereign does not apply to it.</p>"
+            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Trigger</strong> You begin a ranged Strike and have no Hot Load uses remaining.</p><hr /><p>There is a right way to overload a round and there is what you have in your pockets.</p><p>Hot Load anyway, without spending a use. The Strike gains the extra damage die as normal, and afterward you roll on the Gun Failure Table (§3) whether the Strike hit or missed. You cannot decline that roll, and Gun Failure Sovereign does not apply to it.</p>"
         },
         "level": {
             "value": 6

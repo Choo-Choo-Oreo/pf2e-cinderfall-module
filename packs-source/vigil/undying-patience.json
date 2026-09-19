@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Trigger</strong> Your turn begins while you have the dying condition.</p><p><strong>Duration</strong> constant</p><hr /><p>You automatically stabilize at the start of your turn while you have the dying condition, without attempting a recovery check. This does not remove the dying or wounded conditions you already have, and it does not protect you from an effect that kills outright.</p>"
+            "value": "<p><strong>Trigger</strong> Your turn begins while you have the dying condition.</p><p><strong>Duration</strong> constant</p><hr /><p>Automatically stabilize when dying, without a check.</p><p>You automatically stabilize at the start of your turn while you have the dying condition, without attempting a recovery check. This does not remove the dying or wounded conditions you already have, and it does not protect you from an effect that kills outright.</p>"
         },
         "level": {
             "value": 8

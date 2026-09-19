@@ -11,7 +11,7 @@
         },
         "category": null,
         "description": {
-            "value": "<p><strong>Trigger</strong> your first pistol hits</p><p><strong>Effect</strong> +1 circumstance bonus to your next attack this turn</p><hr /><p>Take aim down both barrels at once as a single stance-like action; the moment your first pistol connects, the second's hand tightens on nothing but instinct.</p>"
+            "value": "<p><strong>Tier</strong> Green</p><p><strong>Activate</strong> 1 action, stance-like</p><p><strong>Trigger</strong> your first pistol hits</p><p><strong>Effect</strong> +1 circumstance bonus to your next attack this turn</p><hr /><p>Take aim down both barrels at once as a single stance-like action; the moment your first pistol connects, the second's hand tightens on nothing but instinct.</p>"
         },
         "publication": {
             "license": "ORC",

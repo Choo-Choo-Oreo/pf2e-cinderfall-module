@@ -11,7 +11,7 @@
         },
         "category": null,
         "description": {
-            "value": "<p><strong>Effect</strong> whoever tries to pass triggers The Answer against them automatically (no further setup needed), dealing an extra 2d6 damage</p><hr /><p>Plant your shield in a gap in the enemy's formation.</p>"
+            "value": "<p><strong>Tier</strong> Blooded</p><p><strong>Activate</strong> 1 action to set, reaction to punish</p><p><strong>Effect</strong> whoever tries to pass triggers The Answer against them automatically (no further setup needed), dealing an extra 2d6 damage</p><hr /><p>Plant your shield in a gap in the enemy's formation.</p>"
         },
         "publication": {
             "license": "ORC",

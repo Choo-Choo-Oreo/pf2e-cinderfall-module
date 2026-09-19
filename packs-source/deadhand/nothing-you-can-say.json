@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>You gain a +2 circumstance bonus to saving throws against emotion and fear effects, and against any effect that would compel you to abandon, delay, or turn against a task you have agreed to. On a successful save against such an effect you also gain 1 Tally.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>People have been trying to talk you out of finishing a job since before most of them were born.</p><p>You gain a +2 circumstance bonus to saving throws against emotion and fear effects, and against any effect that would compel you to abandon, delay, or turn against a task you have agreed to. On a successful save against such an effect you also gain 1 Tally.</p>"
         },
         "level": {
             "value": 8

@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You critically fail a check or saving throw.</p><hr /><p>Reduce the result to a normal failure instead. Pride refuses to let this be the whole story.</p>"
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You critically fail a check or saving throw.</p><hr /><p>Turn a critical failure into a normal one.</p><p>Reduce the result to a normal failure instead. Pride refuses to let this be the whole story.</p>"
         },
         "level": {
             "value": 4
@@ -40,7 +40,7 @@
     "flags": {
         "cinderfall": {
             "incomplete": "\"Trigger critically fail a check/save: reduce the result to a normal failure\" is P-DEGREE-REACTIVE: a frequency-gated fix applied after an unwanted roll is already known, the same after-the-fact-manufacture shape confirmed absent throughout this pass.",
-            "track": "undoubted"
+            "track": "the-undoubted"
         }
     }
 }

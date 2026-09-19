@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>You may reload one firearm you are wielding as part of any other action you take, at no additional action cost, with no limit on how often per turn. This replaces Trick Reload's once-per-turn limit if you have it.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Reload folded into another action at no extra cost.</p><p>You may reload one firearm you are wielding as part of any other action you take, at no additional action cost, with no limit on how often per turn. This replaces Trick Reload's once-per-turn limit if you have it.</p>"
         },
         "level": {
             "value": 14

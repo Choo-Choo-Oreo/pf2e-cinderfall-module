@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per hour</p><p><strong>Range</strong> 60 feet</p><p><strong>Duration</strong> 1 hour</p><hr /><p>The first time each hour that an ally sees and hears you recite the Litany, it gains a +1 status bonus to Will saves and to checks to resist fear for 1 hour. An ally that has never seen you recite before is also frightened 1 for one round as it takes in what you are actually doing — dread and awe arrive together, and neither is optional.</p>"
+            "value": "<p><strong>Frequency</strong> once per hour</p><p><strong>Range</strong> 60 feet</p><p><strong>Duration</strong> 1 hour</p><hr /><p>Allies who witness you recite the Litany gain a lasting boost to resolve — dread and awe in equal measure.</p><p>The first time each hour that an ally sees and hears you recite the Litany, it gains a +1 status bonus to Will saves and to checks to resist fear for 1 hour. An ally that has never seen you recite before is also frightened 1 for one round as it takes in what you are actually doing — dread and awe arrive together, and neither is optional.</p>"
         },
         "level": {
             "value": 16

@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Requirement</strong> You have a Marked quarry.</p><hr /><p>Designate a second creature as a Marked quarry. Your Mark's bonus against this second target is half its normal value, rounded down, and the second Mark ends when your first Mark does.</p>"
+            "value": "<p><strong>Requirement</strong> You have a Marked quarry.</p><hr /><p>Extend the Mark to a second target at a reduced bonus.</p><p>Designate a second creature as a Marked quarry. Your Mark's bonus against this second target is half its normal value, rounded down, and the second Mark ends when your first Mark does.</p>"
         },
         "level": {
             "value": 2

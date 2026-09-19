@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Requirement</strong> You are wielding two loaded one-handed firearms.</p><p><strong>Targets</strong> two creatures, each within a different weapon's first range increment</p><hr /><p>Make one ranged Strike against each target, one with each firearm. Neither Strike takes the multiple attack penalty from the other, and each target that is hit cannot use reactions until the end of your next turn. Both weapons are emptied.</p>"
+            "value": "<p><strong>Requirement</strong> You are wielding two loaded one-handed firearms.</p><p><strong>Targets</strong> two creatures, each within a different weapon's first range increment</p><hr /><p>Two targets who both thought they were the one you were looking at.</p><p>Make one ranged Strike against each target, one with each firearm. Neither Strike takes the multiple attack penalty from the other, and each target that is hit cannot use reactions until the end of your next turn. Both weapons are emptied.</p>"
         },
         "level": {
             "value": 6

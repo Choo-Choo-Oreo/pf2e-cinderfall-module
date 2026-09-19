@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Requirement</strong> You are wielding a two-handed melee weapon and are adjacent to a wall, pillar, vehicle, or comparable structure.</p><hr /><p>Strike the structure. Every creature in a 10-foot emanation from the point you struck takes damage equal to your weapon's damage dice plus your Strength modifier (basic Reflex save against your Class DC) from falling masonry, shrapnel, and the sudden absence of something load-bearing. The structure takes its own damage normally, and the GM decides what that costs everyone standing near it.</p>"
+            "value": "<p><strong>Requirement</strong> You are wielding a two-handed melee weapon and are adjacent to a wall, pillar, vehicle, or comparable structure.</p><hr /><p>You did not hit the man. You hit what he was standing under.</p><p>Strike the structure. Every creature in a 10-foot emanation from the point you struck takes damage equal to your weapon's damage dice plus your Strength modifier (basic Reflex save against your Class DC) from falling masonry, shrapnel, and the sudden absence of something load-bearing. The structure takes its own damage normally, and the GM decides what that costs everyone standing near it.</p>"
         },
         "level": {
             "value": 8

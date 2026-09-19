@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>You gain resistance to bludgeoning damage equal to half your level, and you are not <em>off-guard</em> while <em>prone</em>.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>There is another one under the first, and it is newer.</p><p>You gain resistance to bludgeoning damage equal to half your level, and you are not <em>off-guard</em> while <em>prone</em>.</p>"
         },
         "level": {
             "value": 14

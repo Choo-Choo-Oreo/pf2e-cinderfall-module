@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Requirement</strong> You have prepared and already consumed the Graft today.</p><hr /><p>Choose one Graft you prepared and have already used up today. Apply its effect again, once, at no Vitae cost and without re-preparing it.</p>"
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Requirement</strong> You have prepared and already consumed the Graft today.</p><hr /><p>Once per day, reuse a Graft you've already spent at no Vitae cost.</p><p>Choose one Graft you prepared and have already used up today. Apply its effect again, once, at no Vitae cost and without re-preparing it.</p>"
         },
         "level": {
             "value": 16

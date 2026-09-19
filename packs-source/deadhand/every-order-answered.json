@@ -11,7 +11,7 @@
         },
         "category": null,
         "description": {
-            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Effect</strong> every ally on the field can act simultaneously on a single command, each gaining On My Mark's +1 circumstance (or Rolling Volley's stacked bonus, if already called)</p><hr /><p>One command, and the whole field moves at once.</p>"
+            "value": "<p><strong>Tier</strong> Undying</p><p><strong>Frequency</strong> once per encounter</p><p><strong>Effect</strong> every ally on the field can act simultaneously on a single command, each gaining On My Mark's +1 circumstance (or Rolling Volley's stacked bonus, if already called)</p><hr /><p>One command, and the whole field moves at once.</p>"
         },
         "publication": {
             "license": "ORC",

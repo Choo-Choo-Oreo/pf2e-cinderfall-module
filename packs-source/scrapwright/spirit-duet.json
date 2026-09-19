@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> The start of your turn.</p><hr /><p>For this round, your Rig has its own three actions and its own reaction, and takes them on your initiative without you spending anything to command it. You take your own three actions as normal. Neither of you needs to act before the other; resolve them in whatever order you choose.</p>"
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> The start of your turn.</p><hr /><p>Once per day, you and your Rig each act fully independently for a round — true simultaneous action.</p><p>For this round, your Rig has its own three actions and its own reaction, and takes them on your initiative without you spending anything to command it. You take your own three actions as normal. Neither of you needs to act before the other; resolve them in whatever order you choose.</p>"
         },
         "level": {
             "value": 14

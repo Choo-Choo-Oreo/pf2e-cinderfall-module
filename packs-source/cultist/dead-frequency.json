@@ -19,7 +19,7 @@
             }
         },
         "description": {
-            "value": "<i>Critical Success/Success</i> unaffected. <i>Failure</i> confused for the duration. <i>Critical Failure</i> as failure, and the flat check to recover from the confusion is DC 15 rather than DC 11."
+            "value": "<p><strong>Saving Throw</strong> Will (rolled individually)</p><hr /><i>Critical Success/Success</i> unaffected. <i>Failure</i> confused for the duration. <i>Critical Failure</i> as failure, and the flat check to recover from the confusion is DC 15 rather than DC 11."
         },
         "duration": {
             "sustained": false,

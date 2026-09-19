@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Choose one Minor mutation from the Bloom Table (or another Minor mutation your GM allows) and a Slot to carry it in. This mutation is with you from birth, not grafted — it never counts against your Strain, and it cannot be removed by ordinary downtime surgery, only by whatever process would remove a Scar's Slot outright.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>You were touched by the Glasslands before you ever picked up a weapon — you carry a Minor mutation that costs no Strain.</p><p>Choose one Minor mutation from the Bloom Table (or another Minor mutation your GM allows) and a Slot to carry it in. This mutation is with you from birth, not grafted — it never counts against your Strain, and it cannot be removed by ordinary downtime surgery, only by whatever process would remove a Scar's Slot outright.</p>"
         },
         "level": {
             "value": 2

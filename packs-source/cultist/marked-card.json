@@ -11,7 +11,7 @@
         "damage": {},
         "defense": null,
         "description": {
-            "value": "<p>You mark a creature you can see. The next time it rolls a natural 1 on any d20 check within the duration, you sense it happen — regardless of distance — and gain a +1 circumstance bonus to your next check made against it.</p>"
+            "value": "<p><strong>Revelation</strong> 1st</p><p>You mark a creature you can see. The next time it rolls a natural 1 on any d20 check within the duration, you sense it happen — regardless of distance — and gain a +1 circumstance bonus to your next check made against it.</p>"
         },
         "duration": {
             "sustained": false,

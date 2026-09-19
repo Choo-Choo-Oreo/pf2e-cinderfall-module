@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per week</p><p><strong>Requirement</strong> The target has a Scar you can work on.</p><p><strong>Cost</strong> 2 Vitae</p><hr /><p>Spend a day of downtime and 2 Vitae reworking a Scar into something closer to fair. Choose one Scar the target carries and replace it with a Minor mutation of the same Slot, chosen by the same rules Marrow Deep would use. The Scar's old Tithe and thin Gift are both gone, replaced entirely by the new Minor entry's own Gift and Tithe.</p>"
+            "value": "<p><strong>Cast</strong> 1 day of downtime</p><p><strong>Frequency</strong> once per week</p><p><strong>Requirement</strong> The target has a Scar you can work on.</p><p><strong>Cost</strong> 2 Vitae</p><hr /><p>Once per week, downgrade a target's Scar to a full Minor mutation of the same Slot.</p><p>Spend a day of downtime and 2 Vitae reworking a Scar into something closer to fair. Choose one Scar the target carries and replace it with a Minor mutation of the same Slot, chosen by the same rules Marrow Deep would use. The Scar's old Tithe and thin Gift are both gone, replaced entirely by the new Minor entry's own Gift and Tithe.</p>"
         },
         "level": {
             "value": 16

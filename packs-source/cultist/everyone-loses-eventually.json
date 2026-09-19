@@ -14,7 +14,7 @@
         "damage": {},
         "defense": null,
         "description": {
-            "value": "<p>Every creature in the area, friend or foe, immediately fails its next saving throw of a type you choose; no check is made at all. You then owe the Croupier one favor, collected at the worst possible narrative moment, before this Revelation can be prepared again.</p>"
+            "value": "<p><strong>Revelation</strong> 13th</p><p><strong>Saving Throw</strong> none — this spell forces an automatic failure, not a roll</p><p>Every creature in the area, friend or foe, immediately fails its next saving throw of a type you choose; no check is made at all. You then owe the Croupier one favor, collected at the worst possible narrative moment, before this Revelation can be prepared again.</p>"
         },
         "duration": {
             "sustained": false,

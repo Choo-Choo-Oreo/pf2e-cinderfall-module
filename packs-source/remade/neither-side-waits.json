@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>At the start of an encounter, use your Perception or your class DC to determine your initiative, whichever is better.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Whichever half of you reacts first, it's already fast enough.</p><p>At the start of an encounter, use your Perception or your class DC to determine your initiative, whichever is better.</p>"
         },
         "level": {
             "value": 20

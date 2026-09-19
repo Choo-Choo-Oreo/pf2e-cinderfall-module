@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Range</strong> 60 feet</p><hr /><p>At the start of an encounter, before anyone acts, up to four allies who can hear and understand you each take one action of their choice. This happens whether or not those allies were surprised, and an ally who acts this way is no longer surprised for the rest of the encounter.</p>"
+            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Range</strong> 60 feet</p><hr /><p>The order arrives before the round does. It has for years.</p><p>At the start of an encounter, before anyone acts, up to four allies who can hear and understand you each take one action of their choice. This happens whether or not those allies were surprised, and an ally who acts this way is no longer surprised for the rest of the encounter.</p>"
         },
         "level": {
             "value": 16

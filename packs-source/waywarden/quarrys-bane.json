@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Your Strikes against your Marked quarry deal 1 additional die of the weapon's damage type. This increases to 2 additional dice at 14th level and 3 additional dice at 18th level.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Bonus damage dice against your Marked quarry, scaling with character level.</p><p>Your Strikes against your Marked quarry deal 1 additional die of the weapon's damage type. This increases to 2 additional dice at 14th level and 3 additional dice at 18th level.</p>"
         },
         "level": {
             "value": 10

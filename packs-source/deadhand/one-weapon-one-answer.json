@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Requirement</strong> You are wielding a single one-handed melee weapon and nothing in your other hand.</p><hr /><p>Your Strikes with that weapon against your marked target gain a +2 circumstance bonus to attack rolls and increase the weapon's damage die by one step. If you ever take up a second weapon or a shield during the encounter, you lose this until the encounter ends, and no amount of putting it back down restores it.</p>"
+            "value": "<p><strong>Requirement</strong> You are wielding a single one-handed melee weapon and nothing in your other hand.</p><hr /><p>Anyone who needs two weapons has not decided what they are doing with the first.</p><p>Your Strikes with that weapon against your marked target gain a +2 circumstance bonus to attack rolls and increase the weapon's damage die by one step. If you ever take up a second weapon or a shield during the encounter, you lose this until the encounter ends, and no amount of putting it back down restores it.</p>"
         },
         "level": {
             "value": 16

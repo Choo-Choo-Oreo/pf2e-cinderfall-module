@@ -9,7 +9,7 @@
         },
         "containerId": null,
         "description": {
-            "value": "<p>Adaptive pigment. +2 item bonus to Stealth; Hide without cover in dim light or busy terrain. Scans as unlicensed.</p>"
+            "value": "<p><strong>Tags</strong> light</p><hr /><p>Adaptive pigment. +2 item bonus to Stealth; Hide without cover in dim light or busy terrain. Scans as unlicensed.</p>"
         },
         "hardness": 0,
         "hp": {

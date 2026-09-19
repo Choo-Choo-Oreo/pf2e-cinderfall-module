@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per round</p><p><strong>Trigger</strong> Your marked target uses an action you can see.</p><hr /><p>You learn what that action was before it resolves — the spell, the manoeuvre, the ability — and you gain a +2 circumstance bonus to your AC and saving throw against it. If it targets someone other than you, an ally of your choice within 30 feet gains that bonus instead.</p>"
+            "value": "<p><strong>Frequency</strong> once per round</p><p><strong>Trigger</strong> Your marked target uses an action you can see.</p><hr /><p>People tell you what they are about to do with their weight, every time, without knowing they are doing it.</p><p>You learn what that action was before it resolves — the spell, the manoeuvre, the ability — and you gain a +2 circumstance bonus to your AC and saving throw against it. If it targets someone other than you, an ally of your choice within 30 feet gains that bonus instead.</p>"
         },
         "level": {
             "value": 6

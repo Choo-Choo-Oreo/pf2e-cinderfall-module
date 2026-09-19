@@ -11,7 +11,7 @@
         },
         "category": null,
         "description": {
-            "value": "<p><strong>Trigger</strong> you score a critical hit</p><p><strong>Effect</strong> reload instantly using whatever scrap or salvaged parts are on hand</p><hr /><p>A perfect shot always leaves you time to feed the next one.</p>"
+            "value": "<p><strong>Tier</strong> Green</p><p><strong>Trigger</strong> you score a critical hit</p><p><strong>Effect</strong> reload instantly using whatever scrap or salvaged parts are on hand</p><hr /><p>A perfect shot always leaves you time to feed the next one.</p>"
         },
         "publication": {
             "license": "ORC",

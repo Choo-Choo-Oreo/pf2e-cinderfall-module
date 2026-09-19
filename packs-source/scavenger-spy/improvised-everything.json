@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>You take no penalty for using an improvised weapon, and an improvised weapon in your hands deals damage as a martial weapon of its size that you choose when you pick it up. You likewise take no penalty for attempting a skill check without the tools it requires, provided some object is available to stand in for them.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Any object functions as an effective tool or weapon in your hands, no penalty.</p><p>You take no penalty for using an improvised weapon, and an improvised weapon in your hands deals damage as a martial weapon of its size that you choose when you pick it up. You likewise take no penalty for attempting a skill check without the tools it requires, provided some object is available to stand in for them.</p>"
         },
         "level": {
             "value": 14

@@ -11,7 +11,7 @@
         },
         "category": null,
         "description": {
-            "value": "<p><strong>Trigger</strong> you avoid an attack (a successful Parry, or an attack that misses you by 5 or more)</p><p><strong>Effect</strong> Strike the attacker, dealing an extra 2d6 damage</p><hr /><p>Turn a dodged or parried blow directly into your own strike.</p>"
+            "value": "<p><strong>Tier</strong> Blooded</p><p><strong>Trigger</strong> you avoid an attack (a successful Parry, or an attack that misses you by 5 or more)</p><p><strong>Effect</strong> Strike the attacker, dealing an extra 2d6 damage</p><hr /><p>Turn a dodged or parried blow directly into your own strike.</p>"
         },
         "publication": {
             "license": "ORC",

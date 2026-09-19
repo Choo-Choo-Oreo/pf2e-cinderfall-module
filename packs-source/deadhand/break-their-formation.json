@@ -11,7 +11,7 @@
         },
         "category": null,
         "description": {
-            "value": "<p><strong>Area</strong> 30 feet, all enemies who can perceive you</p><p><strong>Effect</strong> each takes a −2 status penalty to its next attack roll or Perception check made to coordinate with allies</p><hr /><p>Shout down an enemy line until it stops working as one.</p>"
+            "value": "<p><strong>Tier</strong> Veteran</p><p><strong>Area</strong> 30 feet, all enemies who can perceive you</p><p><strong>Effect</strong> each takes a −2 status penalty to its next attack roll or Perception check made to coordinate with allies</p><hr /><p>Shout down an enemy line until it stops working as one.</p>"
         },
         "publication": {
             "license": "ORC",

@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Requirement</strong> You are wielding two firearms.</p><p><strong>Duration</strong> constant</p><hr /><p>Every action you take that makes a ranged Strike makes one with each firearm, at no additional cost and with no multiple attack penalty between them. Both weapons are emptied as normal, and Never Both Empty or Legendary Reload, if you have either, keeps this sustainable.</p>"
+            "value": "<p><strong>Requirement</strong> You are wielding two firearms.</p><p><strong>Duration</strong> constant</p><hr /><p>There has not been a first shot and a second shot in a very long time.</p><p>Every action you take that makes a ranged Strike makes one with each firearm, at no additional cost and with no multiple attack penalty between them. Both weapons are emptied as normal, and Never Both Empty or Legendary Reload, if you have either, keeps this sustainable.</p>"
         },
         "level": {
             "value": 20

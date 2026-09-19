@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Trigger</strong> You roll initiative.</p><hr /><p>You are never surprised and never flat-footed to creatures that were hidden from you at the start of an encounter. When an encounter begins with an ambush, an attack from concealment, or any creature acting before you had reason to expect a fight, gain 1 Tally immediately, before the first turn is taken.</p>"
+            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Trigger</strong> You roll initiative.</p><hr /><p>Spot an ambush a beat before it lands, banking a point of Tally the instant you do.</p><p>You are never surprised and never flat-footed to creatures that were hidden from you at the start of an encounter. When an encounter begins with an ambush, an attack from concealment, or any creature acting before you had reason to expect a fight, gain 1 Tally immediately, before the first turn is taken.</p>"
         },
         "level": {
             "value": 4

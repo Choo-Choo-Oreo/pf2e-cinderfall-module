@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>You may use THE ANSWER on yourself rather than on a target, asking after a hidden threat: the trap in this room, the creature that is watching, the thing that will kill you first. You learn one true, specific fact about it with no ordinary means of knowing it, and you pay THE ANSWER's usual small immediate cost, unchanged.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Outside-flavored, open to all — The Answer can be asked of yourself about a hidden threat instead of a target, at the same small cost.</p><p>You may use THE ANSWER on yourself rather than on a target, asking after a hidden threat: the trap in this room, the creature that is watching, the thing that will kill you first. You learn one true, specific fact about it with no ordinary means of knowing it, and you pay THE ANSWER's usual small immediate cost, unchanged.</p>"
         },
         "level": {
             "value": 16

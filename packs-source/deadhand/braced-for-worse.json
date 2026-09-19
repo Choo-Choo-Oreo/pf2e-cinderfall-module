@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Trigger</strong> You Raise a Shield.</p><hr /><p>You gain temporary Hit Points equal to your Constitution modifier (minimum 1), which last until the start of your next turn. If you have not moved since the start of your last turn, you gain twice that number instead. These temporary Hit Points do not stack with themselves.</p>"
+            "value": "<p><strong>Trigger</strong> You Raise a Shield.</p><hr /><p>You did not raise the shield because you saw something. You raised it because you always do.</p><p>You gain temporary Hit Points equal to your Constitution modifier (minimum 1), which last until the start of your next turn. If you have not moved since the start of your last turn, you gain twice that number instead. These temporary Hit Points do not stack with themselves.</p>"
         },
         "level": {
             "value": 6

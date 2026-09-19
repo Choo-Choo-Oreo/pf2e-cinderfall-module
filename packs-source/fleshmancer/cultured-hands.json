@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Requirement</strong> You are personally performing the graft, as the surgeon.</p><p><strong>Cost</strong> 1 Vitae</p><hr /><p>When you personally perform a bio-augment graft — on yourself or a willing patient — and spend 1 Vitae as part of the procedure, treat the augment's sourcing as Cultured for the purpose of its Resonance value, regardless of whether the tissue was actually Grafted or Wild stock. This changes only the Resonance it adds; its price, its lead time, and a Grafted or Wild source's donor thread or rider are unchanged.</p>"
+            "value": "<p><strong>Cast</strong> 10 minutes, as part of the graft install</p><p><strong>Requirement</strong> You are personally performing the graft, as the surgeon.</p><p><strong>Cost</strong> 1 Vitae</p><hr /><p>Bio-augments you personally graft, fed on your own harvested Vitae, count as Cultured sourcing regardless of the tissue's real origin.</p><p>When you personally perform a bio-augment graft — on yourself or a willing patient — and spend 1 Vitae as part of the procedure, treat the augment's sourcing as Cultured for the purpose of its Resonance value, regardless of whether the tissue was actually Grafted or Wild stock. This changes only the Resonance it adds; its price, its lead time, and a Grafted or Wild source's donor thread or rider are unchanged.</p>"
         },
         "level": {
             "value": 2

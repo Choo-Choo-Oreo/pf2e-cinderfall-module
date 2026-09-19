@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per round</p><p><strong>Trigger</strong> You redirect an attack onto yourself and it misses.</p><hr /><p>Make a melee Strike against the attacker if it is within your reach. This Strike does not count toward your multiple attack penalty. If The Answer has already triggered this round, this Strike gains a +2 circumstance bonus instead of being made — one body, two hands, and a limit on how much either can do.</p>"
+            "value": "<p><strong>Frequency</strong> once per round</p><p><strong>Trigger</strong> You redirect an attack onto yourself and it misses.</p><hr /><p>Your capstone gave you a reaction back. This is what you have been meaning to do with it.</p><p>Make a melee Strike against the attacker if it is within your reach. This Strike does not count toward your multiple attack penalty. If The Answer has already triggered this round, this Strike gains a +2 circumstance bonus instead of being made — one body, two hands, and a limit on how much either can do.</p>"
         },
         "level": {
             "value": 10

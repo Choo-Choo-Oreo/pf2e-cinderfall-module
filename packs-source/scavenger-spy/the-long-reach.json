@@ -11,7 +11,7 @@
         },
         "category": null,
         "description": {
-            "value": "<p><strong>Requirement</strong> 10 minutes casing the location beforehand</p><p><strong>Check</strong> Thievery vs. the location's Perception DC, treated as an unattended target</p><hr /><p>Lift an item from a locked container, a guarded vault, or a body under active watch as if it were an unattended pocket.</p>"
+            "value": "<p><strong>Tier</strong> Expert</p><p><strong>Requirement</strong> 10 minutes casing the location beforehand</p><p><strong>Check</strong> Thievery vs. the location's Perception DC, treated as an unattended target</p><hr /><p>Lift an item from a locked container, a guarded vault, or a body under active watch as if it were an unattended pocket.</p>"
         },
         "publication": {
             "license": "ORC",

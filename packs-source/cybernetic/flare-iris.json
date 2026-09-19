@@ -9,7 +9,7 @@
         },
         "containerId": null,
         "description": {
-            "value": "<p>1 action: 15-ft cone, Fort save vs your class DC or dazzled 1 round (blinded 1 on crit fail). Once per 10 min. Scans illegal.</p>"
+            "value": "<p><strong>Tags</strong> light</p><hr /><p>1 action: 15-ft cone, Fort save vs your class DC or dazzled 1 round (blinded 1 on crit fail). Once per 10 min. Scans illegal.</p>"
         },
         "hardness": 0,
         "hp": {

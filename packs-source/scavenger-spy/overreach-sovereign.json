@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>When you succeed at an Overreach, you do not roll on the Blown Cover Table. A failed Overreach still risks Blown Cover as normal.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>A successful Overreach no longer risks Blown Cover at all — only a failed one still does.</p><p>When you succeed at an Overreach, you do not roll on the Blown Cover Table. A failed Overreach still risks Blown Cover as normal.</p>"
         },
         "level": {
             "value": 18

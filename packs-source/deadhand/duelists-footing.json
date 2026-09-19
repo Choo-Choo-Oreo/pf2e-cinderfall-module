@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per round</p><p><strong>Trigger</strong> Your marked target leaves your reach.</p><hr /><p>You Step to remain adjacent to it, if a single Step will do. This costs no action and does not use your reaction. If one Step will not reach, you instead gain a +1 circumstance bonus to your next attack roll against that target this round. You cannot use this while wielding a shield or a second weapon.</p>"
+            "value": "<p><strong>Frequency</strong> once per round</p><p><strong>Trigger</strong> Your marked target leaves your reach.</p><hr /><p>One opponent, one line of ground. Nothing else in the room is your problem.</p><p>You Step to remain adjacent to it, if a single Step will do. This costs no action and does not use your reaction. If one Step will not reach, you instead gain a +1 circumstance bonus to your next attack roll against that target this round. You cannot use this while wielding a shield or a second weapon.</p>"
         },
         "level": {
             "value": 2

@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Duration</strong> 1 minute</p><hr /><p>You gain a +2 circumstance bonus to Perception checks to Seek and to checks to identify magic. For the duration, you can see the faint residue of magic cast within the last 10 minutes as a shimmer, though not its exact effect or caster.</p>"
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Duration</strong> 1 minute</p><hr /><p>A temporary boost to Perception and a sense for lingering magic.</p><p>You gain a +2 circumstance bonus to Perception checks to Seek and to checks to identify magic. For the duration, you can see the faint residue of magic cast within the last 10 minutes as a shimmer, though not its exact effect or caster.</p>"
         },
         "level": {
             "value": 12

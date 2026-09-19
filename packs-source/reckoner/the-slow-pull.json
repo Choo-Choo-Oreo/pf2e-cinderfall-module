@@ -16,7 +16,7 @@
             }
         },
         "description": {
-            "value": "<p>The ground behaves as if the target were already ankle-deep in rising water. <i>Failure</i> slowed 1 for the duration. <i>Critical Failure</i> slowed 2.</p>"
+            "value": "<p><strong>Aspect</strong> Undertow</p><p><strong>Cost</strong> Focus 1</p><p>The ground behaves as if the target were already ankle-deep in rising water. <i>Failure</i> slowed 1 for the duration. <i>Critical Failure</i> slowed 2.</p>"
         },
         "duration": {
             "sustained": false,
@@ -43,7 +43,9 @@
         },
         "traits": {
             "rarity": "common",
-            "traditions": [],
+            "traditions": [
+                "divine"
+            ],
             "value": [
                 "focus",
                 "reckoner"

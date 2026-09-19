@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> 24 hours</p><hr /><p>If your Hollow is lost, stolen, or destroyed, the Quiet-state boons of the spirit last bound to it remain available to you for 24 hours, through sheer habit. You cannot Parley, go Unveiled, or prepare spells during this time — the boons persist, the appointment does not. At the end of the 24 hours the boons end whether or not you have recovered the Hollow or bound another.</p>"
+            "value": "<p><strong>Tag</strong> General</p><p><strong>Duration</strong> 24 hours</p><hr /><p>If the Hollow is ever lost, stolen, or destroyed, its last-bound spirit's Quiet-state boons persist for 24 hours through sheer habit, giving you a window to get it back or bind another.</p><p>If your Hollow is lost, stolen, or destroyed, the Quiet-state boons of the spirit last bound to it remain available to you for 24 hours, through sheer habit. You cannot Parley, go Unveiled, or prepare spells during this time — the boons persist, the appointment does not. At the end of the 24 hours the boons end whether or not you have recovered the Hollow or bound another.</p>"
         },
         "level": {
             "value": 16

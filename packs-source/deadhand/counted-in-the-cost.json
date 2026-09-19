@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>You gain 1 Tally each time you redirect an attack onto yourself and it deals damage to you, to a maximum of 3 Tally per encounter from this feat. Tally gained this way may exceed your cap and is lost at the end of the encounter if unspent.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Every hit you took for somebody else is still in your body, and it turns out that is a resource.</p><p>You gain 1 Tally each time you redirect an attack onto yourself and it deals damage to you, to a maximum of 3 Tally per encounter from this feat. Tally gained this way may exceed your cap and is lost at the end of the encounter if unspent.</p>"
         },
         "level": {
             "value": 12

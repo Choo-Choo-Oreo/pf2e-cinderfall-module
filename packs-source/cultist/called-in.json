@@ -11,7 +11,7 @@
         "damage": {},
         "defense": null,
         "description": {
-            "value": "<p>Your checks made specifically to leverage, threaten, or persuade that creature gain a status bonus equal to your proficiency rank in Diplomacy or Intimidation, whichever is higher.</p>"
+            "value": "<p><strong>Rite</strong> 7th</p><p>Your checks made specifically to leverage, threaten, or persuade that creature gain a status bonus equal to your proficiency rank in Diplomacy or Intimidation, whichever is higher.</p>"
         },
         "duration": {
             "sustained": false,

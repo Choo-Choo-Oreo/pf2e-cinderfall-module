@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>You cannot be forced into an unwilling bargain, deal, or pact with any creature, including your own patron, ever again.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>You can never be forced into an unwilling bargain again.</p><p>You cannot be forced into an unwilling bargain, deal, or pact with any creature, including your own patron, ever again.</p>"
         },
         "level": {
             "value": 20

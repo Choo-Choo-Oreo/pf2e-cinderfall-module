@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Hazardous ground you create lasts 1 hour instead of 10 minutes, and persists through rain, wind, water and the ordinary means of putting a fire out. Only a deliberate effort to neutralise it — the right reagent, the right skill, ten uninterrupted minutes — removes it early.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>A day later somebody walks through it barefoot and finds out you were there.</p><p>Hazardous ground you create lasts 1 hour instead of 10 minutes, and persists through rain, wind, water and the ordinary means of putting a fire out. Only a deliberate effort to neutralise it — the right reagent, the right skill, ten uninterrupted minutes — removes it early.</p>"
         },
         "level": {
             "value": 14

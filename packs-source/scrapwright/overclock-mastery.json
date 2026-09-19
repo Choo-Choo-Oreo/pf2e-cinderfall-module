@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>You may Redline one additional time per day, and gain a +2 circumstance bonus to any roll that determines whether a Redline causes Slippage. The first Redline you use each day never causes Slippage — the machine is coldest and truest before you have asked anything of it.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Redline is usable one additional time per day, with reduced Slippage odds.</p><p>You may Redline one additional time per day, and gain a +2 circumstance bonus to any roll that determines whether a Redline causes Slippage. The first Redline you use each day never causes Slippage — the machine is coldest and truest before you have asked anything of it.</p>"
         },
         "level": {
             "value": 6

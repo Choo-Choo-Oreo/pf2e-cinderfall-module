@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per day</p><hr /><p>Call in a favor. Choose one: a common item of level equal to your level or lower, delivered to a dead drop within the hour; the answer to one specific question about a person, place, or job in this settlement; or a safe place to lay low for one night, unwatched. The Underledger keeps a tally, and the GM may call it in later.</p>"
+            "value": "<p><strong>Cast</strong> 1 hour</p><p><strong>Frequency</strong> once per day</p><hr /><p>Call in a favor from the Underledger for gear, information, or a place to lay low.</p><p>Call in a favor. Choose one: a common item of level equal to your level or lower, delivered to a dead drop within the hour; the answer to one specific question about a person, place, or job in this settlement; or a safe place to lay low for one night, unwatched. The Underledger keeps a tally, and the GM may call it in later.</p>"
         },
         "level": {
             "value": 6

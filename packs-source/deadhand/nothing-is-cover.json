@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Requirement</strong> You are wielding a two-handed melee weapon.</p><hr /><p>Strike an object, barrier, or piece of terrain a creature is using for cover, within your reach. If your Strike deals damage to it, that creature loses the benefit of that cover until the end of your next turn, whether or not the obstruction was destroyed. Against a creature using another creature as cover, this does not apply — people are harder to remove than masonry.</p>"
+            "value": "<p><strong>Requirement</strong> You are wielding a two-handed melee weapon.</p><hr /><p>They are not behind a wall. They are behind a delay.</p><p>Strike an object, barrier, or piece of terrain a creature is using for cover, within your reach. If your Strike deals damage to it, that creature loses the benefit of that cover until the end of your next turn, whether or not the obstruction was destroyed. Against a creature using another creature as cover, this does not apply — people are harder to remove than masonry.</p>"
         },
         "level": {
             "value": 6

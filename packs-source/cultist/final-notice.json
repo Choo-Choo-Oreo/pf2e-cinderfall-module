@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Range</strong> 60 feet</p><p><strong>Targets</strong> 1 creature that owes you a debt or that failed a Will save against one of your effects this encounter</p><p><strong>Frequency</strong> once per day</p><p><strong>Saving Throw</strong> Will</p><hr /><p>The target must succeed at a Will save against your class DC or take @Damage[12d6[mental]] damage and become <em>doomed 1</em> (@Damage[16d6[mental]] and <em>doomed 2</em> on a critical failure). On a success, it takes half damage only. This is the last entry the Ledger will ever make on this account.</p>"
+            "value": "<p><strong>Range</strong> 60 feet</p><p><strong>Targets</strong> 1 creature that owes you a debt or that failed a Will save against one of your effects this encounter</p><p><strong>Frequency</strong> once per day</p><p><strong>Saving Throw</strong> Will</p><hr /><p>A last, devastating hit of mental damage and doom.</p><p>The target must succeed at a Will save against your class DC or take @Damage[12d6[mental]] damage and become <em>doomed 1</em> (@Damage[16d6[mental]] and <em>doomed 2</em> on a critical failure). On a success, it takes half damage only. This is the last entry the Ledger will ever make on this account.</p>"
         },
         "level": {
             "value": 20
@@ -39,7 +39,7 @@
     "_id": "dZ89SB5RxoxofWRC",
     "flags": {
         "cinderfall": {
-            "track": "ledger"
+            "track": "the-ledger"
         }
     }
 }

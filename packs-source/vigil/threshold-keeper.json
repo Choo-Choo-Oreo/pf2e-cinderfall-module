@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Area</strong> one location up to a small settlement</p><p><strong>Duration</strong> as long as you remain</p><hr /><p>Establish a ward over a location. While you remain within it, residents and visitors you do not exclude gain a +1 status bonus to saves against fear, despair, and effects originating from raging spirits or ghost-machines. You always know when a creature you have excluded enters the warded area. The ward ends immediately and completely if you leave for more than a day.</p>"
+            "value": "<p><strong>Cast</strong> 1 hour</p><p><strong>Area</strong> one location up to a small settlement</p><p><strong>Duration</strong> as long as you remain</p><hr /><p>Ward an entire location or settlement passively while you remain there.</p><p>Establish a ward over a location. While you remain within it, residents and visitors you do not exclude gain a +1 status bonus to saves against fear, despair, and effects originating from raging spirits or ghost-machines. You always know when a creature you have excluded enters the warded area. The ward ends immediately and completely if you leave for more than a day.</p>"
         },
         "level": {
             "value": 16

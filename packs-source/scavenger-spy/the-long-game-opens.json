@@ -11,7 +11,7 @@
         },
         "category": null,
         "description": {
-            "value": "<p><strong>Effect</strong> each session invested grants a stacking +1 circumstance bonus (max +4) to the Deception check made when the ask finally comes</p><hr /><p>Establish a fabricated identity through small, believable interactions before ever asking for anything.</p>"
+            "value": "<p><strong>Tier</strong> Skilled</p><p><strong>Activate</strong> 10 minutes per session invested, across multiple sessions</p><p><strong>Effect</strong> each session invested grants a stacking +1 circumstance bonus (max +4) to the Deception check made when the ask finally comes</p><hr /><p>Establish a fabricated identity through small, believable interactions before ever asking for anything.</p>"
         },
         "publication": {
             "license": "ORC",

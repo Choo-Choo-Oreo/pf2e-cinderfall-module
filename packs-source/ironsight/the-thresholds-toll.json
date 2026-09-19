@@ -11,7 +11,7 @@
         },
         "category": null,
         "description": {
-            "value": "<p><strong>Effect</strong> your reaction shot now triggers against every enemy that ends its movement adjacent to you in the same turn, one shot per attacker; the first such shot each round gains +3 circumstance to hit</p><hr /><p>The doorway remembers everyone who came through it this round.</p>"
+            "value": "<p><strong>Tier</strong> Veteran</p><p><strong>Effect</strong> your reaction shot now triggers against every enemy that ends its movement adjacent to you in the same turn, one shot per attacker; the first such shot each round gains +3 circumstance to hit</p><hr /><p>The doorway remembers everyone who came through it this round.</p>"
         },
         "publication": {
             "license": "ORC",

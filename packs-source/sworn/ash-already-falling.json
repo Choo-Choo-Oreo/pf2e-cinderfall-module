@@ -14,7 +14,7 @@
         "damage": {},
         "defense": null,
         "description": {
-            "value": "<p><strong>Focus</strong> 1</p><hr /><p>You chant the ending before it arrives. You and every ally present at the casting gain fire resistance equal to half your level (minimum 5) for the duration. Allies who enter the emanation later don't retroactively gain the resistance — you had to be standing in the ash when it fell.</p>"
+            "value": "<p><strong>Focus</strong> 1</p><p><strong>Components</strong> verbal chant, somatic</p><hr /><p>You chant the ending before it arrives. You and every ally present at the casting gain fire resistance equal to half your level (minimum 5) for the duration. Allies who enter the emanation later don't retroactively gain the resistance — you had to be standing in the ash when it fell.</p>"
         },
         "duration": {
             "sustained": false,

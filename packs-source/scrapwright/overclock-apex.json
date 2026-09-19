@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>When you Redline, its effect applies to every part of your Rig simultaneously for that Redline's full duration. This does not grant additional Redline uses. Because more of the machine is under load, you take a -2 circumstance penalty to any roll that determines whether this Redline causes Slippage.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Redline effects apply to your whole Rig at once.</p><p>When you Redline, its effect applies to every part of your Rig simultaneously for that Redline's full duration. This does not grant additional Redline uses. Because more of the machine is under load, you take a -2 circumstance penalty to any roll that determines whether this Redline causes Slippage.</p>"
         },
         "level": {
             "value": 16

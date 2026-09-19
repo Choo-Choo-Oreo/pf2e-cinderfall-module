@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Your chemical and incendiary damage ignores resistances of its type, and hazardous ground you create affects creatures that would ordinarily be immune to its damage type by virtue of equipment, sealed suits, or environmental protection. Genuine creature immunity still applies. Armour is not protection here either; it is just more surface area.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Seals perish, filters clog, and armour is a series of joints somebody decided were good enough.</p><p>Your chemical and incendiary damage ignores resistances of its type, and hazardous ground you create affects creatures that would ordinarily be immune to its damage type by virtue of equipment, sealed suits, or environmental protection. Genuine creature immunity still applies. Armour is not protection here either; it is just more surface area.</p>"
         },
         "level": {
             "value": 16

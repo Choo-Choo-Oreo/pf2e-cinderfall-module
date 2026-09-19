@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>WRONG WAY applies to every movement you make this round rather than to one action. For the whole round you ignore facing, flanking, and straight-line movement restrictions entirely, and nobody watching can explain the route you took.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Outside-flavored, open to all — Wrong Way's geometry-defying exception extends to your whole movement for the round, not just one action.</p><p>WRONG WAY applies to every movement you make this round rather than to one action. For the whole round you ignore facing, flanking, and straight-line movement restrictions entirely, and nobody watching can explain the route you took.</p>"
         },
         "level": {
             "value": 12

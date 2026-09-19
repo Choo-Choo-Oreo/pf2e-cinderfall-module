@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Your ranged Strikes ignore all range increments and their penalties out to your weapon's maximum range, and any target that has not yet acted in an encounter is off-guard against your Strikes. A target you hit does not learn your position from the shot itself unless it can otherwise see you.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Sound is slower than you are and has been for some time.</p><p>Your ranged Strikes ignore all range increments and their penalties out to your weapon's maximum range, and any target that has not yet acted in an encounter is off-guard against your Strikes. A target you hit does not learn your position from the shot itself unless it can otherwise see you.</p>"
         },
         "level": {
             "value": 20

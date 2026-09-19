@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Whichever ONE MORE grants you — extra reach, or a second simultaneous Strike — persists until the end of your next turn rather than vanishing when the action resolves. The second Strike is available once more during that time; the reach simply remains. Everything else about ONE MORE is unchanged, including that nobody who sees it can afterwards agree on what they saw extra of.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Outside-flavored, open to all — One More's extra reach or second Strike lasts one additional round before it vanishes.</p><p>Whichever ONE MORE grants you — extra reach, or a second simultaneous Strike — persists until the end of your next turn rather than vanishing when the action resolves. The second Strike is available once more during that time; the reach simply remains. Everything else about ONE MORE is unchanged, including that nobody who sees it can afterwards agree on what they saw extra of.</p>"
         },
         "level": {
             "value": 18

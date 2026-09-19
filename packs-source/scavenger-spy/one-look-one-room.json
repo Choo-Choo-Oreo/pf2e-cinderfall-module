@@ -11,7 +11,7 @@
         },
         "category": null,
         "description": {
-            "value": "<p><strong>Freq</strong> 1/encounter</p><p><strong>Effect</strong> no roll — off-guards every hostile creature capable of understanding you within 60 feet, though a creature with a Will DC of 40 or higher may negate the effect on itself</p><hr /><p>A single wordless act of presence.</p>"
+            "value": "<p><strong>Tier</strong> Master</p><p><strong>Freq</strong> 1/encounter</p><p><strong>Effect</strong> no roll — off-guards every hostile creature capable of understanding you within 60 feet, though a creature with a Will DC of 40 or higher may negate the effect on itself</p><hr /><p>A single wordless act of presence.</p>"
         },
         "publication": {
             "license": "ORC",

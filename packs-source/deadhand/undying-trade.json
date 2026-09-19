@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per encounter for each trigger</p><p><strong>Trigger</strong> An effect would disarm you, or would render you unconscious without reducing you to 0 Hit Points.</p><hr /><p>The first time each encounter that an effect would disarm you, it fails and you are instead <em>off-guard</em> until the end of your next turn. The first time each encounter that an effect would render you unconscious without reducing you to 0 Hit Points, it fails and you are instead <em>stunned 1</em>. Effects that reduce you to 0 Hit Points are unaffected by this feat.</p>"
+            "value": "<p><strong>Frequency</strong> once per encounter for each trigger</p><p><strong>Trigger</strong> An effect would disarm you, or would render you unconscious without reducing you to 0 Hit Points.</p><hr /><p>You can't be disarmed or knocked unconscious by a single effect anymore — it always takes two.</p><p>The first time each encounter that an effect would disarm you, it fails and you are instead <em>off-guard</em> until the end of your next turn. The first time each encounter that an effect would render you unconscious without reducing you to 0 Hit Points, it fails and you are instead <em>stunned 1</em>. Effects that reduce you to 0 Hit Points are unaffected by this feat.</p>"
         },
         "level": {
             "value": 14

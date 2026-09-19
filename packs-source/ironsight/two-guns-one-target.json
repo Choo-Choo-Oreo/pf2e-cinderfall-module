@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Requirement</strong> You are wielding two loaded firearms.</p><hr /><p>Make a ranged Strike with each firearm against the same target, neither taking the multiple attack penalty from the other. If both hit, the target is stunned 1 and cannot use reactions until the end of your next turn; if either critically hits, it is instead stunned 2. Both weapons are emptied.</p>"
+            "value": "<p><strong>Requirement</strong> You are wielding two loaded firearms.</p><hr /><p>Whatever is standing there is being addressed by both of you.</p><p>Make a ranged Strike with each firearm against the same target, neither taking the multiple attack penalty from the other. If both hit, the target is stunned 1 and cannot use reactions until the end of your next turn; if either critically hits, it is instead stunned 2. Both weapons are emptied.</p>"
         },
         "level": {
             "value": 16

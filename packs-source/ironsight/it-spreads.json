@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per round</p><p><strong>Requirement</strong> You have hazardous ground within 60 feet.</p><hr /><p>One area of hazardous ground you created expands by 5 feet in every direction, to a maximum of double its original size. A creature the expansion reaches must attempt a Reflex save or take the ground’s persistent damage immediately rather than at the end of its turn.</p>"
+            "value": "<p><strong>Frequency</strong> once per round</p><p><strong>Requirement</strong> You have hazardous ground within 60 feet.</p><hr /><p>Chemicals do not respect the edges you drew for them, and you stopped drawing edges years ago.</p><p>One area of hazardous ground you created expands by 5 feet in every direction, to a maximum of double its original size. A creature the expansion reaches must attempt a Reflex save or take the ground’s persistent damage immediately rather than at the end of its turn.</p>"
         },
         "level": {
             "value": 4

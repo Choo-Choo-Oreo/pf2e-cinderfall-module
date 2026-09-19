@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>When you Cast a Rite and its spellcasting check or spell attack roll fails (not critically), you regain 1 Zeal at the end of your turn.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Refund Zeal when a Rite's casting check misses.</p><p>When you Cast a Rite and its spellcasting check or spell attack roll fails (not critically), you regain 1 Zeal at the end of your turn.</p>"
         },
         "level": {
             "value": 12

@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Trigger</strong> You install a cyber-augment on yourself and roll a critical failure resulting in \"Overclocked in\" or \"Drift spike\" on the Install Mishap table.</p><hr /><p>You wired in a bleed valve nobody asked for. When an Install Mishap roll on your own body comes up Overclocked in or Drift spike, halve the extra Drift it would add (round down, minimum the augment's normal listed value). You still keep whatever grade bump or other effect the result grants.</p>"
+            "value": "<p><strong>Trigger</strong> You install a cyber-augment on yourself and roll a critical failure resulting in \"Overclocked in\" or \"Drift spike\" on the Install Mishap table.</p><hr /><p>Your own augments shrug off the worst of a bad install.</p><p>You wired in a bleed valve nobody asked for. When an Install Mishap roll on your own body comes up Overclocked in or Drift spike, halve the extra Drift it would add (round down, minimum the augment's normal listed value). You still keep whatever grade bump or other effect the result grants.</p>"
         },
         "level": {
             "value": 4

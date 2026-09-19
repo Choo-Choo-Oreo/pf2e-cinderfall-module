@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> while in combat</p><hr /><p>While you are in an encounter, your Static Cell has no capacity: you may hold any amount of Ghost-Static. When the encounter ends, your pool immediately drops to your normal capacity and the excess is lost with no effect. While this is in force, `Static Overflow` cannot trigger, because there is no maximum to exceed; it resumes working the moment the cap returns.</p>"
+            "value": "<p><strong>Duration</strong> while in combat</p><hr /><p>Your Ghost-Static pool has no maximum during combat — it resets to normal afterward. While it's active, there's no max left for Static Overflow to trigger off; that feat only matters again once combat ends and the cap comes back.</p><p>While you are in an encounter, your Static Cell has no capacity: you may hold any amount of Ghost-Static. When the encounter ends, your pool immediately drops to your normal capacity and the excess is lost with no effect. While this is in force, `Static Overflow` cannot trigger, because there is no maximum to exceed; it resumes working the moment the cap returns.</p>"
         },
         "level": {
             "value": 18

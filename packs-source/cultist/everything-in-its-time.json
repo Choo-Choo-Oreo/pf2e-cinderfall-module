@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You take damage.</p><hr /><p>Delay half the triggering damage (round down) until the start of your next turn instead of taking it now. The delayed damage cannot be reduced, prevented, or healed before then. Sometimes patience is just where the pain goes to wait.</p>"
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You take damage.</p><hr /><p>Delay half of an incoming hit until your next turn.</p><p>Delay half the triggering damage (round down) until the start of your next turn instead of taking it now. The delayed damage cannot be reduced, prevented, or healed before then. Sometimes patience is just where the pain goes to wait.</p>"
         },
         "level": {
             "value": 10
@@ -40,7 +40,7 @@
     "flags": {
         "cinderfall": {
             "incomplete": "Delays half of incoming damage (rounded down) to the start of the caster's next turn, un-reducible in the meantime. No rule-element shape defers an already-resolved numeric damage instance to a later turn; no matching precedent found in pf2e-source within this pass's research budget. Flagged as absence-of-evidence, not an exhaustively confirmed absence -- worth a second look if a Delay-style mechanic is later found elsewhere in the compendium.",
-            "track": "someday"
+            "track": "the-someday"
         }
     }
 }

@@ -53,7 +53,7 @@
     "flags": {
         "cinderfall": {
             "incomplete": "'Overdue': the -2 status AC/saves penalty is buildable and has been added to system.rules. The recurring void damage each turn stays unbuilt: it would need the Persistent Damage condition's own badge fields set via ItemAlteration, but no worked example of setting a NEW persistent-damage badge (as opposed to altering an existing item's already-stated persistent damage) was found to cite with confidence. The 'can't be removed by any means short of ending the encounter or destroying you' absolute-removal clause has no mechanism at all and stays narrative-only. See feats-class-reckoner-draft.md open question 7.",
-            "track": "halving"
+            "track": "the-halving"
         }
     }
 }

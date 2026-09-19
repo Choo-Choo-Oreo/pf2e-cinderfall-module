@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Requirement</strong> You are wielding two firearms and are using an action that Strikes with both.</p><hr /><p>You may Hot Load both weapons as part of the same action. Each shot widens that weapon’s Failure Range by 1 independently, so a bad roll on one hand says nothing about the other — and because you are Twin Iron, a Gun Failure on either weapon leaves the other one working at no penalty.</p>"
+            "value": "<p><strong>Requirement</strong> You are wielding two firearms and are using an action that Strikes with both.</p><hr /><p>Two guns, two decisions, one action, and no way to take either of them back.</p><p>You may Hot Load both weapons as part of the same action. Each shot widens that weapon’s Failure Range by 1 independently, so a bad roll on one hand says nothing about the other — and because you are Twin Iron, a Gun Failure on either weapon leaves the other one working at no penalty.</p>"
         },
         "level": {
             "value": 12

@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Requirement</strong> You are wielding a loaded firearm and the target has cover from an object rather than a creature.</p><hr /><p>Make a ranged Strike that treats the intervening object as though it were not there, ignoring the cover bonus entirely. Reduce the damage by one die if the object is masonry, plate, or thicker than a hand's width; the GM may rule truly impassable barriers out of reach of this feat.</p>"
+            "value": "<p><strong>Requirement</strong> You are wielding a loaded firearm and the target has cover from an object rather than a creature.</p><hr /><p>Cover is a guess about what a bullet will not go through, and it is frequently wrong.</p><p>Make a ranged Strike that treats the intervening object as though it were not there, ignoring the cover bonus entirely. Reduce the damage by one die if the object is masonry, plate, or thicker than a hand's width; the GM may rule truly impassable barriers out of reach of this feat.</p>"
         },
         "level": {
             "value": 10

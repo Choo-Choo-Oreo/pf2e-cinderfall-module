@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Your ranged Strikes against adjacent creatures deal an additional die of damage and treat the target's resistance to physical damage as 5 lower. You take a −1 circumstance penalty to ranged Strikes beyond your first range increment — you have stopped practising for that, deliberately.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Range is a problem other people have.</p><p>Your ranged Strikes against adjacent creatures deal an additional die of damage and treat the target's resistance to physical damage as 5 lower. You take a −1 circumstance penalty to ranged Strikes beyond your first range increment — you have stopped practising for that, deliberately.</p>"
         },
         "level": {
             "value": 14

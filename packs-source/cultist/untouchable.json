@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You would be affected by a fear, emotion, or mental effect.</p><hr /><p>You are unaffected by the triggering effect entirely, as though you had critically succeeded at your save.</p>"
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You would be affected by a fear, emotion, or mental effect.</p><hr /><p>No-sell a fear, emotion, or mental effect once per day.</p><p>You are unaffected by the triggering effect entirely, as though you had critically succeeded at your save.</p>"
         },
         "level": {
             "value": 10
@@ -40,7 +40,7 @@
     "flags": {
         "cinderfall": {
             "incomplete": "\"Trigger would be affected by a fear/emotion/mental effect: unaffected entirely, as though critically succeeded\" is P-DEGREE-REACTIVE: a frequency-gated conversion applied at the moment of an unwanted effect, the same after-the-fact-manufacture shape confirmed absent throughout this pass.",
-            "track": "undoubted"
+            "track": "the-undoubted"
         }
     }
 }

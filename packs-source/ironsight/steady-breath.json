@@ -11,7 +11,7 @@
         },
         "category": null,
         "description": {
-            "value": "<p><strong>Effect</strong> your next shot this turn gains a flat +1 circumstance bonus to hit, regardless of time-in-sights</p><hr /><p>Spend a full action doing nothing but breathing and aiming.</p>"
+            "value": "<p><strong>Tier</strong> Green</p><p><strong>Activate</strong> 1 action (full aim, no shot this turn)</p><p><strong>Effect</strong> your next shot this turn gains a flat +1 circumstance bonus to hit, regardless of time-in-sights</p><hr /><p>Spend a full action doing nothing but breathing and aiming.</p>"
         },
         "publication": {
             "license": "ORC",

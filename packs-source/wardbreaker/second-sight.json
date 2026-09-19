@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>You automatically perceive the true form and true location of any spirit or ghost-machine within your line of sight, through invisibility, illusion, or possession, with no action and no check. A possessed creature reads to you as two things at once, and you know which is which. This does not extend to creatures that are neither spirits nor ghost-machines.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>See through invisibility and possession affecting spirits and ghost-machines at will, no action required.</p><p>You automatically perceive the true form and true location of any spirit or ghost-machine within your line of sight, through invisibility, illusion, or possession, with no action and no check. A possessed creature reads to you as two things at once, and you know which is which. This does not extend to creatures that are neither spirits nor ghost-machines.</p>"
         },
         "level": {
             "value": 11

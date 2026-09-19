@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Range</strong> 60 feet</p><hr /><p>Study a group of creatures you can see. You learn which of them has killed, which of them is armed in a way they are hiding, and which one the others will look to first when it starts. You do not learn names, intentions, or numbers — only the shape of who in the room is dangerous, which is usually the part that matters.</p>"
+            "value": "<p><strong>Cast</strong> 1 minute</p><p><strong>Range</strong> 60 feet</p><hr /><p>You can tell, across a room, which one of them has done this before.</p><p>Study a group of creatures you can see. You learn which of them has killed, which of them is armed in a way they are hiding, and which one the others will look to first when it starts. You do not learn names, intentions, or numbers — only the shape of who in the room is dangerous, which is usually the part that matters.</p>"
         },
         "level": {
             "value": 6

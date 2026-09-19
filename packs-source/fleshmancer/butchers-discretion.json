@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>When you critically hit with a thrown Graft, apply that Graft's critical specialization effect (if any) in addition to its normal critical effect. If the Graft has no critical specialization effect defined, it instead deals 1d6 additional damage of its own type on a critical hit.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>You know exactly where the seam is, and you have never once thrown one straight.</p><p>When you critically hit with a thrown Graft, apply that Graft's critical specialization effect (if any) in addition to its normal critical effect. If the Graft has no critical specialization effect defined, it instead deals 1d6 additional damage of its own type on a critical hit.</p>"
         },
         "level": {
             "value": 12

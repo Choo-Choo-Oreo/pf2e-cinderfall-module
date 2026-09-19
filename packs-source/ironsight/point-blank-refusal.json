@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>You are never off-guard as a result of making a ranged Strike while within an enemy's reach, and such Strikes do not trigger that enemy's Attack of Opportunity. This does not protect you from reactions triggered by anything else you do.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>The gun does not care that you are inside its arc. Neither do you.</p><p>You are never off-guard as a result of making a ranged Strike while within an enemy's reach, and such Strikes do not trigger that enemy's Attack of Opportunity. This does not protect you from reactions triggered by anything else you do.</p>"
         },
         "level": {
             "value": 4

@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per hour</p><hr /><p>Ask your patron one question about an event that has not yet happened. The GM answers with a single image, word, or sound — never a sentence, and never a direct answer. If the GM judges the omen actively misled you, regain 1 Zeal; your patron does not apologise, but it does settle up.</p>"
+            "value": "<p><strong>Cast</strong> 1 minute</p><p><strong>Frequency</strong> once per hour</p><hr /><p>A quick divination utility — your patron drops a cryptic hint about what's coming.</p><p>Ask your patron one question about an event that has not yet happened. The GM answers with a single image, word, or sound — never a sentence, and never a direct answer. If the GM judges the omen actively misled you, regain 1 Zeal; your patron does not apologise, but it does settle up.</p>"
         },
         "level": {
             "value": 2

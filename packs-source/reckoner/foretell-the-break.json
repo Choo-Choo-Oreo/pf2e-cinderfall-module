@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Range</strong> 1 mile, line of sight</p><p><strong>Targets</strong> 1 structure, vehicle, or terrain feature of Huge size or larger</p><hr /><p>You use THE FAILURE POINT on something far too big for it. Name the exact point at which the target will fail — the GM gives you a DC and a flat, always-true description of how it goes, and does not get to walk it back. You need line of sight but not proximity, and the answer covers the whole structure rather than one part of it.</p>"
+            "value": "<p><strong>Cast</strong> 1 minute</p><p><strong>Range</strong> 1 mile, line of sight</p><p><strong>Targets</strong> 1 structure, vehicle, or terrain feature of Huge size or larger</p><hr /><p>Apply the Failure Point signature to large, distant targets — a building, a dam, a fortress wall.</p><p>You use THE FAILURE POINT on something far too big for it. Name the exact point at which the target will fail — the GM gives you a DC and a flat, always-true description of how it goes, and does not get to walk it back. You need line of sight but not proximity, and the answer covers the whole structure rather than one part of it.</p>"
         },
         "level": {
             "value": 10

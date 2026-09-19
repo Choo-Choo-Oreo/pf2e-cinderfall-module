@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Requirement</strong> You have a Marked quarry.</p><p><strong>Duration</strong> until the end of your next turn</p><hr /><p>You become undetected by your Marked quarry, with no check required and regardless of cover, concealment, or line of sight. Other creatures perceive you normally. The effect ends early if you attack that quarry.</p>"
+            "value": "<p><strong>Requirement</strong> You have a Marked quarry.</p><p><strong>Duration</strong> until the end of your next turn</p><hr /><p>Ghostwalker-flavored, open to all — become undetected to your Marked quarry for a full round.</p><p>You become undetected by your Marked quarry, with no check required and regardless of cover, concealment, or line of sight. Other creatures perceive you normally. The effect ends early if you attack that quarry.</p>"
         },
         "level": {
             "value": 12

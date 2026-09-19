@@ -30,7 +30,7 @@
             }
         },
         "description": {
-            "value": "<p>18d6 mental damage on a named target. <i>Failure</i> full damage, catatonic (paralyzed) for 1 minute; the target attempts a new Will save at the end of each of its turns, ending the catatonia on a success. <i>Critical Failure</i> as failure, and the first such save is not attempted until the end of its second turn. <i>Success</i> half damage, no catatonia. <i>Critical Success</i> no damage.</p>"
+            "value": "<p><strong>Area</strong> 30-foot burst centered on a named creature</p><p>18d6 mental damage on a named target. <i>Failure</i> full damage, catatonic (paralyzed) for 1 minute; the target attempts a new Will save at the end of each of its turns, ending the catatonia on a success. <i>Critical Failure</i> as failure, and the first such save is not attempted until the end of its second turn. <i>Success</i> half damage, no catatonia. <i>Critical Success</i> no damage.</p>"
         },
         "duration": {
             "sustained": false,

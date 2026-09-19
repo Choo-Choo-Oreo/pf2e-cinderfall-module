@@ -1,0 +1,72 @@
+{
+    "name": "Effect: The Single Instruction",
+    "type": "effect",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "description": {
+            "value": "<p><em>Applied by <strong>The Single Instruction</strong> to the target when it fails the Will save and refuses an obviously self-destructive command.</em></p>\n<hr />\n<p>The target takes a −2 status penalty to its next save against you before the end of its next turn. <i>Critical Failure</i> the penalty is −4 (toggle below). The penalty is removed after that save.</p>"
+        },
+        "duration": {
+            "expiry": "turn-end",
+            "sustained": false,
+            "unit": "rounds",
+            "value": 1
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "RollOption",
+                "option": "single-instruction-critical-failure",
+                "toggleable": true,
+                "label": "Target critically failed the Will save"
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "saving-throw",
+                "type": "status",
+                "value": -2,
+                "removeAfterRoll": true,
+                "predicate": [
+                    {
+                        "not": "single-instruction-critical-failure"
+                    }
+                ]
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "saving-throw",
+                "type": "status",
+                "value": -4,
+                "removeAfterRoll": true,
+                "predicate": [
+                    "single-instruction-critical-failure"
+                ]
+            }
+        ],
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "value": []
+        },
+        "slug": "the-single-instruction-effect"
+    },
+    "_id": "l7RfkOvIs0ikqEmD",
+    "flags": {
+        "cinderfall": {
+            "effectOf": "reckoner.the-single-instruction",
+            "landsOn": "enemy"
+        }
+    }
+}

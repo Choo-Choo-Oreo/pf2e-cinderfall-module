@@ -11,7 +11,7 @@
         "damage": {},
         "defense": null,
         "description": {
-            "value": "<p>The structure becomes rubble in an instant; a creature caught inside attempts a basic Reflex save.</p>"
+            "value": "<p><strong>Saving Throw</strong> none if unattended; Reflex (basic) for any creature inside</p><p>The structure becomes rubble in an instant; a creature caught inside attempts a basic Reflex save.</p>"
         },
         "duration": {
             "sustained": false,

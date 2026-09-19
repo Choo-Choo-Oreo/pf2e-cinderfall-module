@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Requirement</strong> You are wielding a loaded firearm.</p><hr /><p>Make a ranged Strike at a −2 penalty. On a hit, the target takes a −1 circumstance penalty to AC until the end of your next turn; on a critical hit, −2 instead.</p>"
+            "value": "<p><strong>Requirement</strong> You are wielding a loaded firearm.</p><hr /><p>A precision shot that weakens a target's defenses briefly.</p><p>Make a ranged Strike at a −2 penalty. On a hit, the target takes a −1 circumstance penalty to AC until the end of your next turn; on a critical hit, −2 instead.</p>"
         },
         "level": {
             "value": 4

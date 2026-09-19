@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per day</p><hr /><p>Attempt a Perception check against the highest Deception DC of any creature you can see. On a success, you learn whether that creature intends you harm in the immediate future — a plain yes or no, nothing more specific. The GM answers honestly within that scope.</p>"
+            "value": "<p><strong>Frequency</strong> once per day</p><hr /><p>Sense whether someone in the room means you harm.</p><p>Attempt a Perception check against the highest Deception DC of any creature you can see. On a success, you learn whether that creature intends you harm in the immediate future — a plain yes or no, nothing more specific. The GM answers honestly within that scope.</p>"
         },
         "level": {
             "value": 4

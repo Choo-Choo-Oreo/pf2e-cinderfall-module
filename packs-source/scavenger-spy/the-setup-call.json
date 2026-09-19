@@ -11,7 +11,7 @@
         },
         "category": null,
         "description": {
-            "value": "<p><strong>Check</strong> Deception vs. target's Perception DC</p><p><strong>Effect</strong> the target is off-guard against the next ally's attack (instead of yours) before the start of your next turn</p><hr /><p>Feint, distract, or misdirect a target for an ally's benefit instead of your own.</p>"
+            "value": "<p><strong>Tier</strong> Novice</p><p><strong>Check</strong> Deception vs. target's Perception DC</p><p><strong>Effect</strong> the target is off-guard against the next ally's attack (instead of yours) before the start of your next turn</p><hr /><p>Feint, distract, or misdirect a target for an ally's benefit instead of your own.</p>"
         },
         "publication": {
             "license": "ORC",

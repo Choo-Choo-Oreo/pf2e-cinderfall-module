@@ -22,7 +22,7 @@
             }
         },
         "description": {
-            "value": "<p>Raised inside a sealed bunker where the air is filtered, the rations are counted, and the drill for \"what to do if the door won't reseal\" gets run every month whether anyone's forgotten it or not.</p>"
+            "value": "<p><strong>Origin</strong> Vaultborn Enclaves</p><p>Raised inside a sealed bunker where the air is filtered, the rations are counted, and the drill for \"what to do if the door won't reseal\" gets run every month whether anyone's forgotten it or not.</p>"
         },
         "items": {
             "sealed-door-discipline": {

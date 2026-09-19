@@ -11,7 +11,7 @@
         },
         "category": null,
         "description": {
-            "value": "<p><strong>Check</strong> Perception vs. target's Deception DC (or unmodified Will DC if they aren't hiding their intent)</p><hr /><p>Size up a target's stance in a glance to know whether they'll fold, fight, or run before they've decided themselves.</p>"
+            "value": "<p><strong>Tier</strong> Novice</p><p><strong>Check</strong> Perception vs. target's Deception DC (or unmodified Will DC if they aren't hiding their intent)</p><hr /><p>Size up a target's stance in a glance to know whether they'll fold, fight, or run before they've decided themselves.</p>"
         },
         "publication": {
             "license": "ORC",

@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Requirement</strong> You are wielding two firearms.</p><p><strong>Duration</strong> constant</p><hr /><p>Any single action you take that makes one ranged Strike may instead make one with each firearm against the same target. The second Strike does not count toward your multiple attack penalty, and if both hit, combine their damage into a single instance before applying resistances.</p>"
+            "value": "<p><strong>Requirement</strong> You are wielding two firearms.</p><p><strong>Duration</strong> constant</p><hr /><p>There is no first gun and no second gun. There is a single motion that happens to involve two.</p><p>Any single action you take that makes one ranged Strike may instead make one with each firearm against the same target. The second Strike does not count toward your multiple attack penalty, and if both hit, combine their damage into a single instance before applying resistances.</p>"
         },
         "level": {
             "value": 14

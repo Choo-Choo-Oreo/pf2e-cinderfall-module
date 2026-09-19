@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Range</strong> 30 feet</p><p><strong>Area</strong> 20-foot burst</p><p><strong>Frequency</strong> once per day</p><p><strong>Saving Throw</strong> Will</p><hr /><p>Each creature in the area must succeed at a Will save against your class DC or be marked; the next time a marked creature takes damage from any source, it takes an additional @Damage[8d6[mental]] damage (the next two times, on a critical failure). Marks last until triggered or 1 hour.</p>"
+            "value": "<p><strong>Range</strong> 30 feet</p><p><strong>Area</strong> 20-foot burst</p><p><strong>Frequency</strong> once per day</p><p><strong>Saving Throw</strong> Will</p><hr /><p>Mark an entire area for delayed mental damage.</p><p>Each creature in the area must succeed at a Will save against your class DC or be marked; the next time a marked creature takes damage from any source, it takes an additional @Damage[8d6[mental]] damage (the next two times, on a critical failure). Marks last until triggered or 1 hour.</p>"
         },
         "level": {
             "value": 18
@@ -39,7 +39,7 @@
     "_id": "vENPqMsY00fYk2FZ",
     "flags": {
         "cinderfall": {
-            "track": "someday"
+            "track": "the-someday"
         }
     }
 }

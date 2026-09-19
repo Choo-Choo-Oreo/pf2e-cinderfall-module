@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per 10 minutes</p><p><strong>Cost</strong> 2 charges of Ghost-Static</p><p><strong>Area</strong> 10-foot burst within 60 feet</p><p><strong>Saving Throw</strong> Fortitude</p><hr /><p>Every construct and machine in the area must attempt a Fortitude save against your class DC. On a failure it is slowed 1 for 1 round; on a critical failure it is stunned 1 and cannot use reactions for 1 round. Creatures that are neither constructs nor machines are unaffected, as is any device that is not currently running.</p>"
+            "value": "<p><strong>Frequency</strong> once per 10 minutes</p><p><strong>Cost</strong> 2 charges of Ghost-Static</p><p><strong>Area</strong> 10-foot burst within 60 feet</p><p><strong>Saving Throw</strong> Fortitude</p><hr /><p>Small area effect that disables or staggers constructs and machines.</p><p>Every construct and machine in the area must attempt a Fortitude save against your class DC. On a failure it is slowed 1 for 1 round; on a critical failure it is stunned 1 and cannot use reactions for 1 round. Creatures that are neither constructs nor machines are unaffected, as is any device that is not currently running.</p>"
         },
         "level": {
             "value": 4

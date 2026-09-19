@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Requirement</strong> You are holding ammunition intended for a different firearm than the one you are loading.</p><hr /><p>Load the wrong ammunition anyway. The weapon fires normally this round. At the end of that round it gains a Failure Range if it did not have one, or gains the Jammed condition if it did — including a Good Gun, which is the only thing on this page that will do that to one.</p>"
+            "value": "<p><strong>Requirement</strong> You are holding ammunition intended for a different firearm than the one you are loading.</p><hr /><p>Ammunition that was never meant for this weapon fits fine if you are impolite about it.</p><p>Load the wrong ammunition anyway. The weapon fires normally this round. At the end of that round it gains a Failure Range if it did not have one, or gains the Jammed condition if it did — including a Good Gun, which is the only thing on this page that will do that to one.</p>"
         },
         "level": {
             "value": 4

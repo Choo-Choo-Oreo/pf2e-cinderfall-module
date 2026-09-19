@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Cost</strong> two Ward-Scrawled Charms</p><hr /><p>Burn two Charms at once. Both effects occur, and each is heightened as though prepared at one rank higher than you can normally prepare. If the two Charms would produce the same effect, it does not occur twice — instead its duration is doubled, or its area increased by half, whichever the effect has.</p>"
+            "value": "<p><strong>Cost</strong> two Ward-Scrawled Charms</p><hr /><p>Burn two Ward-Scrawled Charms together as one action for a single, stronger combined effect.</p><p>Burn two Charms at once. Both effects occur, and each is heightened as though prepared at one rank higher than you can normally prepare. If the two Charms would produce the same effect, it does not occur twice — instead its duration is doubled, or its area increased by half, whichever the effect has.</p>"
         },
         "level": {
             "value": 6

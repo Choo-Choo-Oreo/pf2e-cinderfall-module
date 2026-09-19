@@ -11,7 +11,7 @@
         },
         "category": null,
         "description": {
-            "value": "<p><strong>Check</strong> Perception or a relevant Lore vs. the scene's DC (or a flat DC 5, Novice, if nothing specific applies)</p><p><strong>Effect</strong> the next ally to act on the information gains a +1 circumstance bonus to the relevant check or attack roll</p><hr /><p>Study a scene and hand an ally a concrete tactical observation.</p>"
+            "value": "<p><strong>Tier</strong> Novice</p><p><strong>Check</strong> Perception or a relevant Lore vs. the scene's DC (or a flat DC 5, Novice, if nothing specific applies)</p><p><strong>Effect</strong> the next ally to act on the information gains a +1 circumstance bonus to the relevant check or attack roll</p><hr /><p>Study a scene and hand an ally a concrete tactical observation.</p>"
         },
         "publication": {
             "license": "ORC",

@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> An ally within 30 feet is reduced to 0 Hit Points.</p><hr /><p>Gain a +1 status bonus to your next attack roll or Rite spell attack roll against the creature that dropped them, before the end of your next turn. Wrath doesn't need permission to collect.</p>"
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> An ally within 30 feet is reduced to 0 Hit Points.</p><hr /><p>Gain a bonus to strike back at whatever dropped your ally.</p><p>Gain a +1 status bonus to your next attack roll or Rite spell attack roll against the creature that dropped them, before the end of your next turn. Wrath doesn't need permission to collect.</p>"
         },
         "level": {
             "value": 4
@@ -42,7 +42,7 @@
     "_id": "jgujHdcmuLqCKGh7",
     "flags": {
         "cinderfall": {
-            "track": "last-word"
+            "track": "the-last-word"
         }
     }
 }

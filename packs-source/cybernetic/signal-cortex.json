@@ -9,7 +9,7 @@
         },
         "containerId": null,
         "description": {
-            "value": "<p>Direct machine interface. Hack or command an unattended construct or ghost-machine (Crafting or Occultism vs its Will DC); speak with any machine-spirit at will.</p>"
+            "value": "<p><strong>Tags</strong> soul-tech</p><hr /><p>Direct machine interface. Hack or command an unattended construct or ghost-machine (Crafting or Occultism vs its Will DC); speak with any machine-spirit at will.</p>"
         },
         "hardness": 0,
         "hp": {

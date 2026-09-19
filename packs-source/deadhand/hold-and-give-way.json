@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Range</strong> 60 feet</p><hr /><p>Choose up to four allies who can hear and understand you and split them into two groups. Until the start of your next turn, one group gains a +1 circumstance bonus to AC and cannot be moved against their will by any effect of your level or lower; the other group gains a +10-foot status bonus to all Speeds. You choose which group is which when you give the order.</p>"
+            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Range</strong> 60 feet</p><hr /><p>Half of commanding is knowing which half of the room is supposed to move.</p><p>Choose up to four allies who can hear and understand you and split them into two groups. Until the start of your next turn, one group gains a +1 circumstance bonus to AC and cannot be moved against their will by any effect of your level or lower; the other group gains a +10-foot status bonus to all Speeds. You choose which group is which when you give the order.</p>"
         },
         "level": {
             "value": 6

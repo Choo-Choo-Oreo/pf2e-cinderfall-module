@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Healing Grafts you apply restore additional Hit Points equal to your level, on top of their normal effect.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>The stitch holds better than the flesh you put it through ever did.</p><p>Healing Grafts you apply restore additional Hit Points equal to your level, on top of their normal effect.</p>"
         },
         "level": {
             "value": 12

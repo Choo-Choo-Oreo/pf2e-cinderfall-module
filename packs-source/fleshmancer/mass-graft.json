@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Cost</strong> +2 Vitae</p><p><strong>Range</strong> 30 feet</p><p><strong>Area</strong> 15-foot burst, allies only</p><hr /><p>When you apply a Graft's effect to a willing creature, you may instead apply it to every ally in a 15-foot burst centered on a point within 30 feet, at 2 additional Vitae cost. Grafts that would normally require an attack roll instead apply automatically to willing allies, since there is no attack being resisted.</p>"
+            "value": "<p><strong>Cost</strong> +2 Vitae</p><p><strong>Range</strong> 30 feet</p><p><strong>Area</strong> 15-foot burst, allies only</p><hr /><p>One Graft, the whole line, one breath.</p><p>When you apply a Graft's effect to a willing creature, you may instead apply it to every ally in a 15-foot burst centered on a point within 30 feet, at 2 additional Vitae cost. Grafts that would normally require an attack roll instead apply automatically to willing allies, since there is no attack being resisted.</p>"
         },
         "level": {
             "value": 16

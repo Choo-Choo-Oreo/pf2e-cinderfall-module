@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per hour</p><p><strong>Cost</strong> 1 Vitae</p><p><strong>Duration</strong> until the end of the scene</p><hr /><p>Choose one damage type you have been damaged by since your last daily preparations. Gain resistance to it equal to half your level for the duration.</p>"
+            "value": "<p><strong>Frequency</strong> once per hour</p><p><strong>Cost</strong> 1 Vitae</p><p><strong>Duration</strong> until the end of the scene</p><hr /><p>Cut yourself resistance to one damage type for the rest of the scene.</p><p>Choose one damage type you have been damaged by since your last daily preparations. Gain resistance to it equal to half your level for the duration.</p>"
         },
         "level": {
             "value": 4

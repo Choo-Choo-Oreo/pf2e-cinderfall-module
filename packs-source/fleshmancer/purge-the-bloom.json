@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per hour</p><p><strong>Range</strong> touch</p><hr /><p>Touch a creature affected by a result from the Bloom Table and end that result's ongoing effect immediately. This cannot restore Vitae wasted by a Rejection result, undo a permanent Runaway Mutation, or reverse a Total Bloom's consequences — those are done.</p>"
+            "value": "<p><strong>Frequency</strong> once per hour</p><p><strong>Range</strong> touch</p><hr /><p>Action — remove a Bloom condition from yourself or an ally.</p><p>Touch a creature affected by a result from the Bloom Table and end that result's ongoing effect immediately. This cannot restore Vitae wasted by a Rejection result, undo a permanent Runaway Mutation, or reverse a Total Bloom's consequences — those are done.</p>"
         },
         "level": {
             "value": 8

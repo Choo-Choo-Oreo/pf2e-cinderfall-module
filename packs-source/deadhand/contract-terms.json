@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>You gain a +1 circumstance bonus to Diplomacy and Society checks made to negotiate payment, terms, or conditions of work. When a job, contract, or bargain is first put to you, the GM tells you one specific thing about it that the offering party would rather you did not know yet. This does not tell you whether the job is wise — only what it actually is.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Twenty years of employers has taught you exactly where a job hides its real price.</p><p>You gain a +1 circumstance bonus to Diplomacy and Society checks made to negotiate payment, terms, or conditions of work. When a job, contract, or bargain is first put to you, the GM tells you one specific thing about it that the offering party would rather you did not know yet. This does not tell you whether the job is wise — only what it actually is.</p>"
         },
         "level": {
             "value": 4

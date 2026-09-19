@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Cost</strong> 1 Vitae</p><p><strong>Duration</strong> 1 minute</p><hr /><p>You gain darkvision, and imprecise scent to 30 feet. For the duration you take a &minus;2 circumstance penalty to Deception checks and to any check that depends on someone reading your face kindly.</p>"
+            "value": "<p><strong>Cost</strong> 1 Vitae</p><p><strong>Duration</strong> 1 minute</p><hr /><p>They go flat and lidless, and they do not blink for the whole minute. People notice.</p><p>You gain darkvision, and imprecise scent to 30 feet. For the duration you take a &minus;2 circumstance penalty to Deception checks and to any check that depends on someone reading your face kindly.</p>"
         },
         "level": {
             "value": 6

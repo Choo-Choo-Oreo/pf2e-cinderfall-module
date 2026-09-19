@@ -27,7 +27,7 @@
             }
         },
         "description": {
-            "value": "<p>2d6 cold damage per rank of this spell, deducted without ceremony. The target then radiates a lingering chill for the duration — any creature that touches it or ends its turn adjacent takes 1d6 cold damage, once per creature.</p>"
+            "value": "<p><strong>Aspect</strong> Cold Reckoning</p><p><strong>Cost</strong> Focus 1</p><p>2d6 cold damage per rank of this spell, deducted without ceremony. The target then radiates a lingering chill for the duration — any creature that touches it or ends its turn adjacent takes 1d6 cold damage, once per creature.</p>"
         },
         "duration": {
             "sustained": false,
@@ -54,7 +54,9 @@
         },
         "traits": {
             "rarity": "common",
-            "traditions": [],
+            "traditions": [
+                "divine"
+            ],
             "value": [
                 "focus",
                 "reckoner"

@@ -11,7 +11,7 @@
         },
         "category": null,
         "description": {
-            "value": "<p><strong>Check</strong> one Deception or Perception roll vs. a chosen target's Perception DC (Feint-equivalent) or Will DC (psychological)</p><p><strong>Effect</strong> every ally gains the resulting off-guard/opening benefit against that target until the end of your next turn</p><hr /><p>Feed tactical information to the entire party at once.</p>"
+            "value": "<p><strong>Tier</strong> Expert</p><p><strong>Check</strong> one Deception or Perception roll vs. a chosen target's Perception DC (Feint-equivalent) or Will DC (psychological)</p><p><strong>Effect</strong> every ally gains the resulting off-guard/opening benefit against that target until the end of your next turn</p><hr /><p>Feed tactical information to the entire party at once.</p>"
         },
         "publication": {
             "license": "ORC",

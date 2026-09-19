@@ -40,7 +40,7 @@
     "flags": {
         "cinderfall": {
             "incomplete": "\"Automatic success vs any effect that would make you doubt yourself; once per day, declare a failed check/save a success outright, no roll, no reroll\" is P-DEGREE-REACTIVE for the once-per-day clause (after-the-fact manufacture of a success, the confirmed-absent shape throughout this pass), and the \"doubt yourself\" trait/predicate this card's other clause would need doesn't exist in pf2e-source either.",
-            "track": "undoubted"
+            "track": "the-undoubted"
         }
     }
 }

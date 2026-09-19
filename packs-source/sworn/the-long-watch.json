@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Requirement</strong> You spend the night within 30 feet of your Ward.</p><hr /><p>You keep the Long Watch: you go without sleep for a full night's rest while remaining within 30 feet of your Ward. You don't become <em>fatigued</em> for missing that rest, and at dawn you regain Conviction as if you had rested, but you regain no Hit Points for the night and gain nothing else a rest would give. A second Long Watch on consecutive nights makes you <em>fatigued</em> as normal.</p>"
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Requirement</strong> You spend the night within 30 feet of your Ward.</p><hr /><p>You can hold the Answer ready through a whole night, and it is still there at dawn.</p><p>You keep the Long Watch: you go without sleep for a full night's rest while remaining within 30 feet of your Ward. You don't become <em>fatigued</em> for missing that rest, and at dawn you regain Conviction as if you had rested, but you regain no Hit Points for the night and gain nothing else a rest would give. A second Long Watch on consecutive nights makes you <em>fatigued</em> as normal.</p>"
         },
         "level": {
             "value": 6

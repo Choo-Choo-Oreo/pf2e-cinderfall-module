@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Trigger</strong> You Strike your marked target for the first time this encounter.</p><hr /><p>You learn the target's Armor Class, which of its saving throws is weakest, and whether it has any resistance or immunity relevant to the weapon in your hand. Until the end of your next turn you gain a +1 circumstance bonus to attack rolls against it. You learn this whether the Strike hit or missed — a miss tells you as much as a hit does.</p>"
+            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Trigger</strong> You Strike your marked target for the first time this encounter.</p><hr /><p>The first time you cross blades tells you most of what you needed to know about how this ends.</p><p>You learn the target's Armor Class, which of its saving throws is weakest, and whether it has any resistance or immunity relevant to the weapon in your hand. Until the end of your next turn you gain a +1 circumstance bonus to attack rolls against it. You learn this whether the Strike hit or missed — a miss tells you as much as a hit does.</p>"
         },
         "level": {
             "value": 2

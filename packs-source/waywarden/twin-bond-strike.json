@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Trigger</strong> Your turn begins.</p><hr /><p>Your Feral Bond's initiative changes to your own for the remainder of the encounter. It takes its turn immediately after yours on that shared count, and continues to do so each round.</p>"
+            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Trigger</strong> Your turn begins.</p><hr /><p>Once per encounter, you and your Feral Bond act on the same initiative count.</p><p>Your Feral Bond's initiative changes to your own for the remainder of the encounter. It takes its turn immediately after yours on that shared count, and continues to do so each round.</p>"
         },
         "level": {
             "value": 8

@@ -30,7 +30,7 @@
             }
         },
         "description": {
-            "value": "<p>4d6 mental damage. A creature that fails is also deafened for 1 minute; on a critical failure the deafness can't be removed early by anything short of magical healing.</p>"
+            "value": "<p><strong>Area</strong> 15-foot burst centered on you</p><p>4d6 mental damage. A creature that fails is also deafened for 1 minute; on a critical failure the deafness can't be removed early by anything short of magical healing.</p>"
         },
         "duration": {
             "sustained": false,

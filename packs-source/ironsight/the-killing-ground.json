@@ -11,7 +11,7 @@
         },
         "category": null,
         "description": {
-            "value": "<p><strong>Area</strong> a zone of terrain you can see, GM-adjudicated size</p><p><strong>Effect</strong> any target that lingers in the zone for a full round is automatically \"in your sights,\" gaining 2 points of time-in-sights bonus toward your cap</p><hr /><p>Choose a killing ground; anyone who lingers there pays for it.</p>"
+            "value": "<p><strong>Tier</strong> Blooded</p><p><strong>Area</strong> a zone of terrain you can see, GM-adjudicated size</p><p><strong>Effect</strong> any target that lingers in the zone for a full round is automatically \"in your sights,\" gaining 2 points of time-in-sights bonus toward your cap</p><hr /><p>Choose a killing ground; anyone who lingers there pays for it.</p>"
         },
         "publication": {
             "license": "ORC",

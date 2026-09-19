@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>If your Ward is destroyed, taken from you, or otherwise lost, it reforms in your hand after 24 hours, wherever you are and wherever it was. Nothing prevents this: no distance, no containment, no counter-ward, no claim of ownership. The Ward that returns is the same Ward, with everything you had done to it intact.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Your Ward can't be permanently destroyed or kept by a thief — given time and static, it reforms in your hand.</p><p>If your Ward is destroyed, taken from you, or otherwise lost, it reforms in your hand after 24 hours, wherever you are and wherever it was. Nothing prevents this: no distance, no containment, no counter-ward, no claim of ownership. The Ward that returns is the same Ward, with everything you had done to it intact.</p>"
         },
         "level": {
             "value": 14

@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>The second and each subsequent time a creature uses the same activity, spell, or special ability against you in an encounter, you gain a +1 circumstance bonus to AC and to saving throws against it. You must have been present and able to perceive the first use — something you did not see does not count as something you have seen before.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>The second time somebody tries something on you, it stops being a surprise.</p><p>The second and each subsequent time a creature uses the same activity, spell, or special ability against you in an encounter, you gain a +1 circumstance bonus to AC and to saving throws against it. You must have been present and able to perceive the first use — something you did not see does not count as something you have seen before.</p>"
         },
         "level": {
             "value": 2

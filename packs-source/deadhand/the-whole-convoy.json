@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Range</strong> 30 feet</p><hr /><p>Every ally you can see gains resistance 5 to physical damage and cannot be reduced below 1 Hit Point by an attack, until the start of your next turn. When this ends, you take 2d6 damage for each ally who was saved from dropping by it — the arithmetic of standing between people and consequences has never balanced any other way.</p>"
+            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Range</strong> 30 feet</p><hr /><p>The kind of soldier a hundred people get home because of.</p><p>Every ally you can see gains resistance 5 to physical damage and cannot be reduced below 1 Hit Point by an attack, until the start of your next turn. When this ends, you take 2d6 damage for each ally who was saved from dropping by it — the arithmetic of standing between people and consequences has never balanced any other way.</p>"
         },
         "level": {
             "value": 10

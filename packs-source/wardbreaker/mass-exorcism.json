@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per encounter</p><hr /><p>Break the Anchor against every Named creature you can perceive, resolving each separately at full effect. Each target's own defences and saves apply as they normally would; where your Ward's Break the Anchor requires a hit, make one Strike roll and apply its result to each target separately, with no multiple attack penalty between them.</p>"
+            "value": "<p><strong>Frequency</strong> once per encounter</p><hr /><p>Break the Anchor against every Named target present at once, in a single action.</p><p>Break the Anchor against every Named creature you can perceive, resolving each separately at full effect. Each target's own defences and saves apply as they normally would; where your Ward's Break the Anchor requires a hit, make one Strike roll and apply its result to each target separately, with no multiple attack penalty between them.</p>"
         },
         "level": {
             "value": 17

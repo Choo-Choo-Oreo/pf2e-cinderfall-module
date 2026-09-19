@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>You gain a +2 circumstance bonus to saves against effects that would forcibly end your Rites, dispel your ongoing effects, or suppress your spellcasting.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>A standing bonus against attempts to end your Rites or spellcasting.</p><p>You gain a +2 circumstance bonus to saves against effects that would forcibly end your Rites, dispel your ongoing effects, or suppress your spellcasting.</p>"
         },
         "level": {
             "value": 14

@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You would be reduced to 0 Hit Points.</p><hr /><p>You stay standing at 1 Hit Point instead, and bank 2 Tally. Tally banked this way may exceed your cap and is lost at the end of the encounter if unspent. Your wounded condition then increases by 1, exactly as though you had dropped and been brought back — you did not go down, but nothing about your body agrees that the difference matters.</p>"
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You would be reduced to 0 Hit Points.</p><hr /><p>Once per day, when you'd be reduced to 0 HP, stay standing at 1 and bank 2 Tally. The body still counts it as having gone down.</p><p>You stay standing at 1 Hit Point instead, and bank 2 Tally. Tally banked this way may exceed your cap and is lost at the end of the encounter if unspent. Your wounded condition then increases by 1, exactly as though you had dropped and been brought back — you did not go down, but nothing about your body agrees that the difference matters.</p>"
         },
         "level": {
             "value": 16

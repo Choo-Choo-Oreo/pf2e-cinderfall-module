@@ -11,7 +11,7 @@
         },
         "category": null,
         "description": {
-            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Trigger</strong> your weapon Jams</p><p><strong>Effect</strong> immediately clear the Jam and fire again in the same action instead of spending the normal Clear action</p><hr /><p>One panicked heartbeat, and the gun works again.</p>"
+            "value": "<p><strong>Tier</strong> Green</p><p><strong>Frequency</strong> once per encounter</p><p><strong>Trigger</strong> your weapon Jams</p><p><strong>Effect</strong> immediately clear the Jam and fire again in the same action instead of spending the normal Clear action</p><hr /><p>One panicked heartbeat, and the gun works again.</p>"
         },
         "publication": {
             "license": "ORC",

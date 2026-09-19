@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>A creature affected by NO WORD FOR IT cannot benefit from anything it knew about the effect beforehand. It loses any circumstance bonus, reroll, or automatic-success clause it would gain from having identified, studied, prepared against, or previously experienced the effect, whether it learned of it a moment ago or years before. It still knows your face on sight.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Outside-flavored, open to all — No Word For It now also prevents a foe from benefiting from precise foreknowledge of the effect, even foreknowledge gained before it triggered.</p><p>A creature affected by NO WORD FOR IT cannot benefit from anything it knew about the effect beforehand. It loses any circumstance bonus, reroll, or automatic-success clause it would gain from having identified, studied, prepared against, or previously experienced the effect, whether it learned of it a moment ago or years before. It still knows your face on sight.</p>"
         },
         "level": {
             "value": 14

@@ -51,6 +51,7 @@
     "_id": "dPTBmv8em0hoPisZ",
     "flags": {
         "cinderfall": {
+            "trackColor": "#D9705E",
             "subclassOf": "vigil",
             "role": "Devotion to the Caged Angel",
             "subclassLayer": "path"

@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Requirement</strong> bio-attuned</p><p><strong>Duration</strong> constant</p><hr /><p>You no longer take the standard −2 circumstance penalty for performing a Graft check on your own body without a trained surgeon.</p>"
+            "value": "<p><strong>Requirement</strong> bio-attuned</p><p><strong>Duration</strong> constant</p><hr /><p>You've spent enough time in the back room to do this yourself.</p><p>You no longer take the standard −2 circumstance penalty for performing a Graft check on your own body without a trained surgeon.</p>"
         },
         "level": {
             "value": 16

@@ -40,7 +40,7 @@
     "flags": {
         "cinderfall": {
             "incomplete": "\"Once per day, when you roll a natural 1 on a check/attack/save: treat the die result as a 10\" is P-DIE: redefines the rolled die's own value rather than shifting a success tier or rerolling; no rule element does this, confirmed absent via exhaustive grep this pass.",
-            "track": "croupier"
+            "track": "the-croupier"
         }
     }
 }

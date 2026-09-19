@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Allies who have benefited from your called command at least once this encounter gain a +1 status bonus to AC and to saving throws while they can see or hear you. This does not require another command; it is what having been commanded once already does to a unit.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>They have done this with you enough times that the order is already half-obeyed before you finish it.</p><p>Allies who have benefited from your called command at least once this encounter gain a +1 status bonus to AC and to saving throws while they can see or hear you. This does not require another command; it is what having been commanded once already does to a unit.</p>"
         },
         "level": {
             "value": 12

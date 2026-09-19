@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per minute</p><p><strong>Cost</strong> 2 Zeal</p><p><strong>Range</strong> 120 feet</p><hr /><p>You step sideways out of the world and back into it. Teleport yourself and up to 1 Bulk of held objects to a location within range. You need neither line of sight nor line of effect — only a location you could describe. Walls, wards, and closed doors do not stop this. If the destination is occupied or does not exist, you arrive at the nearest open space and are <em>slowed 1</em> for 1 round. While between, which takes no time, you glimpse one thing the gates are holding back; the GM decides what, and you do not get to choose whether you wanted to know.</p>"
+            "value": "<p><strong>Frequency</strong> once per minute</p><p><strong>Cost</strong> 2 Zeal</p><p><strong>Range</strong> 120 feet</p><hr /><p>Briefly step into the liminal space between the sealed gates themselves — a short teleport or scrying effect no ordinary magic should allow.</p><p>You step sideways out of the world and back into it. Teleport yourself and up to 1 Bulk of held objects to a location within range. You need neither line of sight nor line of effect — only a location you could describe. Walls, wards, and closed doors do not stop this. If the destination is occupied or does not exist, you arrive at the nearest open space and are <em>slowed 1</em> for 1 round. While between, which takes no time, you glimpse one thing the gates are holding back; the GM decides what, and you do not get to choose whether you wanted to know.</p>"
         },
         "level": {
             "value": 16

@@ -9,7 +9,7 @@
         },
         "containerId": null,
         "description": {
-            "value": "<p>On your death, after 1 round, a 20-ft burst — 6d6 electricity, basic Reflex vs your class DC. You set the trigger conditions at install.</p>"
+            "value": "<p><strong>Tags</strong> weapon</p><hr /><p>On your death, after 1 round, a 20-ft burst — 6d6 electricity, basic Reflex vs your class DC. You set the trigger conditions at install.</p>"
         },
         "hardness": 0,
         "hp": {

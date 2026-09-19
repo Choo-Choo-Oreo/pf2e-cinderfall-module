@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>A Failure Point you have named continues to degrade on its own. Each hour that passes, the DC to bring about that failure decreases by 1, to a minimum of 10 below the DC the GM first gave you. This continues whether or not you are present, whether or not you remember it, and whether or not anyone is working on it. Repairing the target ends it.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Long Arithmetic-flavored, open to all — a marked Failure Point automatically worsens over time even without your intervention.</p><p>A Failure Point you have named continues to degrade on its own. Each hour that passes, the DC to bring about that failure decreases by 1, to a minimum of 10 below the DC the GM first gave you. This continues whether or not you are present, whether or not you remember it, and whether or not anyone is working on it. Repairing the target ends it.</p>"
         },
         "level": {
             "value": 12

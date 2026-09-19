@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> as long as you choose</p><hr /><p>You can perceive through your Feral Bond's senses at any time, switching between its senses and your own freely and without spending an action. While perceiving through your Bond you are not deprived of your own senses; you receive both.</p>"
+            "value": "<p><strong>Cast</strong> no action</p><p><strong>Duration</strong> as long as you choose</p><hr /><p>Share senses with your Feral Bond at will, no action required.</p><p>You can perceive through your Feral Bond's senses at any time, switching between its senses and your own freely and without spending an action. While perceiving through your Bond you are not deprived of your own senses; you receive both.</p>"
         },
         "level": {
             "value": 16

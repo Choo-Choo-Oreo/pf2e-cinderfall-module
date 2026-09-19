@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Requirement</strong> A creature has damaged your Ward this encounter and you have not yet Answered it — an unpaid debt.</p><p><strong>Cost</strong> 1 Conviction</p><p><strong>Duration</strong> 1 minute</p><hr /><p>The debt takes shape in your hand: a melee weapon of any simple or martial type you are trained in, carrying the same fundamental runes as a weapon you wield (or the runes of a +2 striking weapon if you wield none). Strikes with it against the debtor gain twice the circumstance bonus to damage your Trial stage grants The Answer — it hits like what's owed. Against any other creature it is an ordinary weapon. It fades when the duration ends, when the debt is paid by an Answer, or when you let go of it.</p>"
+            "value": "<p><strong>Requirement</strong> A creature has damaged your Ward this encounter and you have not yet Answered it — an unpaid debt.</p><p><strong>Cost</strong> 1 Conviction</p><p><strong>Duration</strong> 1 minute</p><hr /><p>A contract-holder's unpaid debt becomes a thing you can strike with, and it hits like what's owed.</p><p>The debt takes shape in your hand: a melee weapon of any simple or martial type you are trained in, carrying the same fundamental runes as a weapon you wield (or the runes of a +2 striking weapon if you wield none). Strikes with it against the debtor gain twice the circumstance bonus to damage your Trial stage grants The Answer — it hits like what's owed. Against any other creature it is an ordinary weapon. It fades when the duration ends, when the debt is paid by an Answer, or when you let go of it.</p>"
         },
         "level": {
             "value": 14

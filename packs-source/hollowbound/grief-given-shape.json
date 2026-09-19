@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Area</strong> 10-foot burst</p><p><strong>Duration</strong> as Borrowed Grief</p><p><strong>Traits</strong> Wailing Debt</p><hr /><p>You may aim Borrowed Grief at a location within range instead of at a creature. It affects every creature in a 10-foot burst centred on that point, allies included. Each affected creature attempts the save Borrowed Grief normally calls for. You are not affected by your own casting, but you see what they see.</p>"
+            "value": "<p><strong>Area</strong> 10-foot burst</p><p><strong>Duration</strong> as Borrowed Grief</p><p><strong>Traits</strong> Wailing Debt</p><hr /><p>Borrowed Grief can now be aimed at a location instead of a target — the dying moment plays out for everyone standing in it.</p><p>You may aim Borrowed Grief at a location within range instead of at a creature. It affects every creature in a 10-foot burst centred on that point, allies included. Each affected creature attempts the save Borrowed Grief normally calls for. You are not affected by your own casting, but you see what they see.</p>"
         },
         "level": {
             "value": 6

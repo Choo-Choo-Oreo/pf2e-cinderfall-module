@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per hour</p><p><strong>Range</strong> 60 feet</p><p><strong>Duration</strong> until your next daily preparations</p><p><strong>Saving Throw</strong> Will</p><hr /><p>Name one creature you have personally witnessed commit an act your patron would judge. It attempts a Will save against your spell DC; on a failure it takes a −1 status penalty to all checks and saves for the duration, and on a critical failure −2. This has no effect on a creature that has not earned it — the GM is the judge of that, and a wrongly named target simply does not respond.</p>"
+            "value": "<p><strong>Frequency</strong> once per hour</p><p><strong>Range</strong> 60 feet</p><p><strong>Duration</strong> until your next daily preparations</p><p><strong>Saving Throw</strong> Will</p><hr /><p>Choir-flavored, open to all — a target who has truly earned your patron's wrath takes a lasting penalty.</p><p>Name one creature you have personally witnessed commit an act your patron would judge. It attempts a Will save against your spell DC; on a failure it takes a −1 status penalty to all checks and saves for the duration, and on a critical failure −2. This has no effect on a creature that has not earned it — the GM is the judge of that, and a wrongly named target simply does not respond.</p>"
         },
         "level": {
             "value": 10
@@ -40,7 +40,7 @@
     "flags": {
         "cinderfall": {
             "incomplete": "Bucket 3: a limited-use (1/hr) activated action hands the player a new usable action, which this pass's convention always marks INCOMPLETE regardless of how clean the predicate/number available for the debuff half is.",
-            "track": "choir"
+            "track": "the-choir-of-ash"
         }
     }
 }

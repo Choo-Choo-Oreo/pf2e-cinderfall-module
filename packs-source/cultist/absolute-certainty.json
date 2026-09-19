@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>You're immune to the <em>frightened</em> condition. Once per day, when an ally within 30 feet would become frightened, you may let them draw on your certainty instead — they become frightened 1 lower than they would have (minimum 0).</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Immunity to frightened, with a favor to spare for a scared ally.</p><p>You're immune to the <em>frightened</em> condition. Once per day, when an ally within 30 feet would become frightened, you may let them draw on your certainty instead — they become frightened 1 lower than they would have (minimum 0).</p>"
         },
         "level": {
             "value": 12
@@ -45,7 +45,7 @@
     "flags": {
         "cinderfall": {
             "incomplete": "The ally-facing clause (\"once per day, an ally within 30 feet may draw on your certainty instead of becoming frightened, reducing the value by 1\") is P-CROSS: reducing a DIFFERENT creature's incoming condition value, sourced from the card holder's own once-per-day passive, has no selector anywhere in pf2e-source. Contrast unshaken/steel-the-account (SKIP, P-CONDVAL), which are the identical mechanic but SELF-only and match pf2e-source/packs/pf2e/feats/ancestry/elf/level-13/cold-iron-stomach.json's real precedent -- the ally version is the confirmed-absent case.",
-            "track": "undoubted"
+            "track": "the-undoubted"
         }
     }
 }

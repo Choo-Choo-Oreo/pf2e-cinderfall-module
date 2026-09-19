@@ -11,7 +11,7 @@
         "damage": {},
         "defense": null,
         "description": {
-            "value": "<p>The target is permanently, magically hungry from this moment on — mechanically, perpetually fatigued 1 unless it spends an hour eating far more than a person needs, resetting the clock for 24 hours. Removable only by a working at least as powerful as this spell.</p>"
+            "value": "<p><strong>Revelation</strong> 13th</p><p>The target is permanently, magically hungry from this moment on — mechanically, perpetually fatigued 1 unless it spends an hour eating far more than a person needs, resetting the clock for 24 hours. Removable only by a working at least as powerful as this spell.</p>"
         },
         "duration": {
             "sustained": false,

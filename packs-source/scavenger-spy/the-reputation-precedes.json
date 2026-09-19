@@ -11,7 +11,7 @@
         },
         "category": null,
         "description": {
-            "value": "<p><strong>Trigger</strong> you're recognized on entering a scene</p><p><strong>Effect</strong> no roll — anyone who's heard the stories is off-guard against you on sight (doesn't work twice against the same crowd if you don't deliver within the scene)</p><hr /><p>Skip the Intimidation roll entirely against anyone who's heard the stories.</p>"
+            "value": "<p><strong>Tier</strong> Expert</p><p><strong>Trigger</strong> you're recognized on entering a scene</p><p><strong>Effect</strong> no roll — anyone who's heard the stories is off-guard against you on sight (doesn't work twice against the same crowd if you don't deliver within the scene)</p><hr /><p>Skip the Intimidation roll entirely against anyone who's heard the stories.</p>"
         },
         "publication": {
             "license": "ORC",

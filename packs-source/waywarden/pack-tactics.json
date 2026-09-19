@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>You and your Feral Bond both count as flanking your Marked quarry whenever you are both within 30 feet of it and both able to see it, regardless of where either of you stands relative to the other.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>You and your Feral Bond count as flanking a Marked quarry regardless of position.</p><p>You and your Feral Bond both count as flanking your Marked quarry whenever you are both within 30 feet of it and both able to see it, regardless of where either of you stands relative to the other.</p>"
         },
         "level": {
             "value": 6

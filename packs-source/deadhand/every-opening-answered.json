@@ -11,7 +11,7 @@
         },
         "category": null,
         "description": {
-            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Duration</strong> rest of the encounter</p><p><strong>Effect</strong> The Answer stops being limited to a single trigger — any opening an opponent within your reach gives you gets punished as a reaction, up to once per enemy turn</p><hr /><p>The Answer stops rationing itself.</p>"
+            "value": "<p><strong>Tier</strong> Undying</p><p><strong>Activate</strong> 1 action to invoke</p><p><strong>Frequency</strong> once per day</p><p><strong>Duration</strong> rest of the encounter</p><p><strong>Effect</strong> The Answer stops being limited to a single trigger — any opening an opponent within your reach gives you gets punished as a reaction, up to once per enemy turn</p><hr /><p>The Answer stops rationing itself.</p>"
         },
         "publication": {
             "license": "ORC",

@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Cost</strong> 2 Zeal</p><hr /><p>Cast any Rite from a patron other than your own, of a rank you can cast, without knowing it. The Rite is automatically heightened to your highest spell rank. When it resolves, roll on the Backlash Table twice and apply both results; neither may be rerolled, avoided, or shifted by any effect, including Backlash Control and Zealotry Mastery. Your patron does not punish you for this. It simply watches, and adds it to the account.</p>"
+            "value": "<p><strong>Cast</strong> as the Rite</p><p><strong>Frequency</strong> once per day</p><p><strong>Cost</strong> 2 Zeal</p><hr /><p>Once per day, cast a Rite your patron normally forbids — enormous effect, enormous risk.</p><p>Cast any Rite from a patron other than your own, of a rank you can cast, without knowing it. The Rite is automatically heightened to your highest spell rank. When it resolves, roll on the Backlash Table twice and apply both results; neither may be rerolled, avoided, or shifted by any effect, including Backlash Control and Zealotry Mastery. Your patron does not punish you for this. It simply watches, and adds it to the account.</p>"
         },
         "level": {
             "value": 14

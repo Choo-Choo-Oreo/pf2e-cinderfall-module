@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> while the duel lasts</p><hr /><p>Once you have attacked your marked target in three separate rounds this encounter, you become permanently aware of its position while it is within 60 feet, whether or not it is hidden or invisible, and it can never be concealed from you again this encounter. It gains no benefit from being undetected by you.</p>"
+            "value": "<p><strong>Duration</strong> while the duel lasts</p><hr /><p>You have watched this one long enough now that it has stopped being able to surprise you.</p><p>Once you have attacked your marked target in three separate rounds this encounter, you become permanently aware of its position while it is within 60 feet, whether or not it is hidden or invisible, and it can never be concealed from you again this encounter. It gains no benefit from being undetected by you.</p>"
         },
         "level": {
             "value": 8

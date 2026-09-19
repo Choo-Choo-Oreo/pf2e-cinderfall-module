@@ -11,7 +11,7 @@
         "damage": {},
         "defense": null,
         "description": {
-            "value": "<p>As Undo the Rot, but reaching further: automatically cures partial petrification, curse-born madness, or any affliction of rank 6 or lower, including ones most healers have given up on. Higher-rank afflictions still require a counteract check.</p>"
+            "value": "<p><strong>Activate</strong> 2 actions, or 10 minutes for a deeply rooted affliction</p><p>As Undo the Rot, but reaching further: automatically cures partial petrification, curse-born madness, or any affliction of rank 6 or lower, including ones most healers have given up on. Higher-rank afflictions still require a counteract check.</p>"
         },
         "duration": {
             "sustained": false,

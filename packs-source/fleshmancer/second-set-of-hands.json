@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Cost</strong> 2 Vitae</p><p><strong>Duration</strong> 1 hour</p><hr /><p>You gain a pair of grafted extra arms. For the duration you may apply a healing Graft as a single action instead of its normal cast time, once per round, and you gain a +2 circumstance bonus to Medicine checks to Treat Wounds. The arms are visible, and they do not retract until the hour is up.</p>"
+            "value": "<p><strong>Cast</strong> 1 minute</p><p><strong>Frequency</strong> once per day</p><p><strong>Cost</strong> 2 Vitae</p><p><strong>Duration</strong> 1 hour</p><hr /><p>You grow them off your own back. They are not good for much beyond holding things open.</p><p>You gain a pair of grafted extra arms. For the duration you may apply a healing Graft as a single action instead of its normal cast time, once per round, and you gain a +2 circumstance bonus to Medicine checks to Treat Wounds. The arms are visible, and they do not retract until the hour is up.</p>"
         },
         "level": {
             "value": 10

@@ -11,7 +11,7 @@
         },
         "category": null,
         "description": {
-            "value": "<p><strong>Effect</strong> +2 item bonus to AC, resistance 5 to all damage</p><p><strong>Condition</strong> ends if you move more than 5 feet on your turn</p><hr /><span class=\"sdesc\">Plant your feet and let the Warframe absorb what comes, so long as you don't go anywhere.</span>"
+            "value": "<p><strong>Type</strong> stance</p><p><strong>Effect</strong> +2 item bonus to AC, resistance 5 to all damage</p><p><strong>Condition</strong> ends if you move more than 5 feet on your turn</p><hr /><span class=\"sdesc\">Plant your feet and let the Warframe absorb what comes, so long as you don't go anywhere.</span>"
         },
         "publication": {
             "license": "ORC",

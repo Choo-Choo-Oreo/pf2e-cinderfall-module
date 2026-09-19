@@ -11,7 +11,7 @@
         },
         "category": null,
         "description": {
-            "value": "<p><strong>Duration</strong> rest of the encounter</p><p><strong>Effect</strong> +1 circumstance bonus to attack rolls against that specific opponent</p><hr /><p>Study a stance before engaging for an edge.</p>"
+            "value": "<p><strong>Tier</strong> Green</p><p><strong>Duration</strong> rest of the encounter</p><p><strong>Effect</strong> +1 circumstance bonus to attack rolls against that specific opponent</p><hr /><p>Study a stance before engaging for an edge.</p>"
         },
         "publication": {
             "license": "ORC",

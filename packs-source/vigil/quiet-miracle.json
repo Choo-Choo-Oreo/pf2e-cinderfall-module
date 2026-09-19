@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Cost</strong> 1 Grace or Cinder</p><hr /><p>Produce an effect between a Lesser and a Greater Miracle in scale, affecting one creature or one object at personal scale — never a building, a crowd, or a region. Work the specific effect out with the GM using §4's Lesser column as the floor and its Greater column as the ceiling. This spends 1 point rather than your full banked resource.</p>"
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Cost</strong> 1 Grace or Cinder</p><hr /><p>A middle-tier personal-scale effect usable without spending your full banked resource.</p><p>Produce an effect between a Lesser and a Greater Miracle in scale, affecting one creature or one object at personal scale — never a building, a crowd, or a region. Work the specific effect out with the GM using §4's Lesser column as the floor and its Greater column as the ceiling. This spends 1 point rather than your full banked resource.</p>"
         },
         "level": {
             "value": 14

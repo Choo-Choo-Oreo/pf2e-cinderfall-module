@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Duration</strong> for the rest of the encounter</p><hr /><p>Your Static floods outward to fill the whole of the current structure, building, or scene, however large. For the duration you know the location of every Anchor-bound hostile within it, whether or not you can see it, and you know the moment a new one enters. You learn positions, not identities — Naming still takes an action and a check.</p>"
+            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Duration</strong> for the rest of the encounter</p><hr /><p>Your Static Sense extends across an entire scene or structure for the rest of the encounter.</p><p>Your Static floods outward to fill the whole of the current structure, building, or scene, however large. For the duration you know the location of every Anchor-bound hostile within it, whether or not you can see it, and you know the moment a new one enters. You learn positions, not identities — Naming still takes an action and a check.</p>"
         },
         "level": {
             "value": 17

@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>You and your Feral Bond can exchange simple concepts without words — danger, direction, hunger, wait, come — whenever you can see or hear one another. You can convey the same simple concepts to unbonded wild beasts of similar stock, and read theirs in return, though this grants no ability to command them.</p>"
+            "value": "<p><strong>Cast</strong> no action</p><p><strong>Duration</strong> constant</p><hr /><p>Basic wordless communication with your Feral Bond and wild beasts of similar stock.</p><p>You and your Feral Bond can exchange simple concepts without words — danger, direction, hunger, wait, come — whenever you can see or hear one another. You can convey the same simple concepts to unbonded wild beasts of similar stock, and read theirs in return, though this grants no ability to command them.</p>"
         },
         "level": {
             "value": 2

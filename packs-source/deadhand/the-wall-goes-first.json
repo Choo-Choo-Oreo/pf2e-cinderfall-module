@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Requirement</strong> You are wielding a two-handed melee weapon.</p><hr /><p>Strike a wall, floor, ceiling, vehicle, or structure within your reach. It fails structurally: a 15-foot section collapses, becomes difficult terrain, and drops every creature standing on or against it prone unless they succeed at a Reflex save against your Class DC. Creatures caught in the collapse take @Damage[6d10[bludgeoning]] damage, halved on a success. The GM decides what else was holding that section up.</p>"
+            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Requirement</strong> You are wielding a two-handed melee weapon.</p><hr /><p>Given a choice between the man and the thing he is standing on, you have always preferred the thing.</p><p>Strike a wall, floor, ceiling, vehicle, or structure within your reach. It fails structurally: a 15-foot section collapses, becomes difficult terrain, and drops every creature standing on or against it prone unless they succeed at a Reflex save against your Class DC. Creatures caught in the collapse take @Damage[6d10[bludgeoning]] damage, halved on a success. The GM decides what else was holding that section up.</p>"
         },
         "level": {
             "value": 12

@@ -1,0 +1,57 @@
+{
+    "name": "Effect: Ward Beyond Reason",
+    "type": "effect",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "description": {
+            "value": "<p><em>Applied by <strong>Ward Beyond Reason</strong> to you and up to 8 allies.</em></p>\n<hr />\n<p>Immunity to poison, disease, and mind-affecting effects of 7th rank or lower, and resistance 5 to all damage, for the duration.</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "minutes",
+            "value": 10
+        },
+        "level": {
+            "value": 8
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "Immunity",
+                "type": [
+                    "poison",
+                    "disease",
+                    "mental"
+                ]
+            },
+            {
+                "key": "Resistance",
+                "type": "all-damage",
+                "value": 5
+            }
+        ],
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "value": []
+        },
+        "slug": "ward-beyond-reason-effect"
+    },
+    "_id": "ZRt7IB4kwbVF2ndo",
+    "flags": {
+        "cinderfall": {
+            "effectOf": "reckoner.ward-beyond-reason",
+            "landsOn": "ally"
+        }
+    }
+}

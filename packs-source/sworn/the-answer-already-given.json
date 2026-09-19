@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Trigger</strong> A creature begins an action that would threaten your Ward — it targets the Ward with a Strike, a spell, or an ability, or includes the Ward in an area.</p><hr /><p>You Answer before the action resolves: make the Answer's Strike against the creature first. If the Strike hits and the triggering action has the concentrate or manipulate trait, the action is disrupted. If the Strike is a critical hit, the action is disrupted whatever its traits. This uses your reaction as The Answer does.</p>"
+            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Trigger</strong> A creature begins an action that would threaten your Ward — it targets the Ward with a Strike, a spell, or an ability, or includes the Ward in an area.</p><hr /><p>The Answer arrives before the threat finishes existing.</p><p>You Answer before the action resolves: make the Answer's Strike against the creature first. If the Strike hits and the triggering action has the concentrate or manipulate trait, the action is disrupted. If the Strike is a critical hit, the action is disrupted whatever its traits. This uses your reaction as The Answer does.</p>"
         },
         "level": {
             "value": 16

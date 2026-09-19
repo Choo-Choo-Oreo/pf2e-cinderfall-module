@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You roll initiative.</p><hr /><p>You may take a -5 penalty to the initiative roll. If you do, gain a +2 circumstance bonus to the first check, attack roll, or saving throw you make in the encounter. The Someday always arrives — just later, and heavier.</p>"
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You roll initiative.</p><hr /><p>Trade initiative for a better first roll in the fight.</p><p>You may take a -5 penalty to the initiative roll. If you do, gain a +2 circumstance bonus to the first check, attack roll, or saving throw you make in the encounter. The Someday always arrives — just later, and heavier.</p>"
         },
         "level": {
             "value": 6
@@ -42,7 +42,7 @@
     "_id": "Z2ssmB1tFrqmveL7",
     "flags": {
         "cinderfall": {
-            "track": "someday"
+            "track": "the-someday"
         }
     }
 }

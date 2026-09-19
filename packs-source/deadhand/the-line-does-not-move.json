@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>You are immune to forced movement from effects of your level or lower, and you cannot be knocked prone by an effect that does not also deal damage. When an effect would move you and fails to, you may make a melee Strike against its source if that source is within your reach, once per round.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Forced movement is a thing that happens to other people.</p><p>You are immune to forced movement from effects of your level or lower, and you cannot be knocked prone by an effect that does not also deal damage. When an effect would move you and fails to, you may make a melee Strike against its source if that source is within your reach, once per round.</p>"
         },
         "level": {
             "value": 14

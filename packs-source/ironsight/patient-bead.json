@@ -11,7 +11,7 @@
         },
         "category": null,
         "description": {
-            "value": "<p><strong>Effect</strong> each full round a target stays in your sights before you fire adds +1 circumstance to the eventual shot, capping at +2 (Green tier)</p><hr /><p>Sight down a target and hold; the longer you wait, the surer the shot.</p>"
+            "value": "<p><strong>Tier</strong> Green</p><p><strong>Effect</strong> each full round a target stays in your sights before you fire adds +1 circumstance to the eventual shot, capping at +2 (Green tier)</p><hr /><p>Sight down a target and hold; the longer you wait, the surer the shot.</p>"
         },
         "publication": {
             "license": "ORC",

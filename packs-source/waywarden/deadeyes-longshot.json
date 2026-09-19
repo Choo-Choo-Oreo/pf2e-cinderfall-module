@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Precision damage you deal to your Marked quarry applies at any range, ignoring the usual limit that confines it to closer distances. Range increment penalties to the attack roll itself still apply as normal.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Deadeye-flavored, open to all — precision damage against your Mark applies at any range.</p><p>Precision damage you deal to your Marked quarry applies at any range, ignoring the usual limit that confines it to closer distances. Range increment penalties to the attack roll itself still apply as normal.</p>"
         },
         "level": {
             "value": 12

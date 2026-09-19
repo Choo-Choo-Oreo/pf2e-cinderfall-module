@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Duration</strong> for the rest of the scene</p><hr /><p>For the duration, attempts to track you, flag you at a checkpoint, match you against a description, or identify you from records automatically fail. Creatures who can currently see you can still follow you with their own eyes.</p>"
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Duration</strong> for the rest of the scene</p><hr /><p>Immune to being reliably tracked or flagged by any faction for the rest of the scene.</p><p>For the duration, attempts to track you, flag you at a checkpoint, match you against a description, or identify you from records automatically fail. Creatures who can currently see you can still follow you with their own eyes.</p>"
         },
         "level": {
             "value": 14

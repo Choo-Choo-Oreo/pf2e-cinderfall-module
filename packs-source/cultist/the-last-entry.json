@@ -11,7 +11,7 @@
         "damage": {},
         "defense": null,
         "description": {
-            "value": "<p>You alter one small, specific, recent fact about reality — no fixed mechanical formula, its scope and consequence set by the GM. You cannot cast this spell again for the rest of your life.</p>"
+            "value": "<p><strong>Frequency</strong> usable once ever per Cultist</p><p>You alter one small, specific, recent fact about reality — no fixed mechanical formula, its scope and consequence set by the GM. You cannot cast this spell again for the rest of your life.</p>"
         },
         "duration": {
             "sustained": false,

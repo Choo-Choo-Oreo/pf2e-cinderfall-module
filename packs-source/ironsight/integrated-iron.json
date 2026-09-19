@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Requirement</strong> You have a bonded Trick Iron and access to a cyber-augment install (Arm slot).</p><hr /><p>You have your Trick Iron built directly into an Arm-slot cyber-augment instead of carried in a holster. It counts as both your bonded weapon and your Arm-slot augment for all purposes — it takes the Arm slot's Drift like any augment, but it cannot be disarmed, dropped, or physically separated from you short of the slot itself being removed. Drawing it for the first time each turn no longer requires an Interact.</p>"
+            "value": "<p><strong>Requirement</strong> You have a bonded Trick Iron and access to a cyber-augment install (Arm slot).</p><hr /><p>Your Trick Iron is grafted into your arm — it can't be dropped, taken, or left behind.</p><p>You have your Trick Iron built directly into an Arm-slot cyber-augment instead of carried in a holster. It counts as both your bonded weapon and your Arm-slot augment for all purposes — it takes the Arm slot's Drift like any augment, but it cannot be disarmed, dropped, or physically separated from you short of the slot itself being removed. Drawing it for the first time each turn no longer requires an Interact.</p>"
         },
         "level": {
             "value": 2

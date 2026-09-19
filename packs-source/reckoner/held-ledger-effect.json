@@ -1,0 +1,51 @@
+{
+    "name": "Effect: Held Ledger",
+    "type": "effect",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "description": {
+            "value": "<p><em>Applied by <strong>Held Ledger</strong> to the target.</em></p>\n<hr />\n<p>The target takes a −1 status penalty to its next attack roll against you or an ally (<b>Heightened +4</b>: penalty increases to −2). The penalty is removed after that roll.</p>"
+        },
+        "duration": {
+            "expiry": "turn-end",
+            "sustained": false,
+            "unit": "rounds",
+            "value": 1
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "attack",
+                "type": "status",
+                "value": -1,
+                "removeAfterRoll": true
+            }
+        ],
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "value": []
+        },
+        "slug": "held-ledger-effect"
+    },
+    "_id": "1FTfdaKTxKxd1CZK",
+    "flags": {
+        "cinderfall": {
+            "effectOf": "reckoner.held-ledger",
+            "landsOn": "enemy"
+        }
+    }
+}

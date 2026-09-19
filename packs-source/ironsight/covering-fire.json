@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Requirement</strong> You are wielding a loaded firearm.</p><p><strong>Area</strong> 10-foot burst within 60 feet</p><p><strong>Duration</strong> until the start of your next turn</p><hr /><p>Empty your weapon into the area. Until the start of your next turn, an enemy that moves into or through the area takes a −2 circumstance penalty to AC and to Reflex saves until the end of its turn.</p>"
+            "value": "<p><strong>Requirement</strong> You are wielding a loaded firearm.</p><p><strong>Area</strong> 10-foot burst within 60 feet</p><p><strong>Duration</strong> until the start of your next turn</p><hr /><p>Suppress an area, imposing a penalty on enemies who move through it.</p><p>Empty your weapon into the area. Until the start of your next turn, an enemy that moves into or through the area takes a −2 circumstance penalty to AC and to Reflex saves until the end of its turn.</p>"
         },
         "level": {
             "value": 4

@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You would become Forsworn.</p><hr /><p>You don't. The Trial event still happens and your Trial stage still rises if it would; the Forsworn status simply doesn't take hold, this time. What broke the Oath is not undone.</p>"
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You would become Forsworn.</p><hr /><p>A Trial that would have made you Forsworn finds nothing to break, this time.</p><p>You don't. The Trial event still happens and your Trial stage still rises if it would; the Forsworn status simply doesn't take hold, this time. What broke the Oath is not undone.</p>"
         },
         "level": {
             "value": 14

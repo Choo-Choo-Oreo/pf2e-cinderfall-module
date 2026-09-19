@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>When you roll on the Gun Failure Table, roll twice and use either result. You already roll a d6 rather than a d8; this makes the worst thing that can still happen to you something you had to agree to twice.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>You have read this table more times than the people who wrote it.</p><p>When you roll on the Gun Failure Table, roll twice and use either result. You already roll a d6 rather than a d8; this makes the worst thing that can still happen to you something you had to agree to twice.</p>"
         },
         "level": {
             "value": 10

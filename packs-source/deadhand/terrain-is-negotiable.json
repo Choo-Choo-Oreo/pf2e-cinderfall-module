@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>You may Stride through walls, doors, and barriers of Hardness 10 or less as though they were difficult terrain, destroying the section you pass through. Your Strikes against objects and structures ignore all Hardness and all immunities to critical hits and precision damage.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>You have stopped asking rooms what shape they are and started telling them.</p><p>You may Stride through walls, doors, and barriers of Hardness 10 or less as though they were difficult terrain, destroying the section you pass through. Your Strikes against objects and structures ignore all Hardness and all immunities to critical hits and precision damage.</p>"
         },
         "level": {
             "value": 18

@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Abilities of yours that redirect an attack onto yourself, or that protect an ally, work at 15 feet rather than at your reach. You must still be able to see the ally, and you must have a clear path to the space between them and the attack — if something is in the way, the line stops there.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>The line is not where you are standing. It is as far as you can still get to.</p><p>Abilities of yours that redirect an attack onto yourself, or that protect an ally, work at 15 feet rather than at your reach. You must still be able to see the ally, and you must have a clear path to the space between them and the attack — if something is in the way, the line stops there.</p>"
         },
         "level": {
             "value": 6

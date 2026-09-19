@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Requirement</strong> You are wielding a two-handed melee weapon.</p><hr /><p>Your Strikes with a two-handed melee weapon reduce the target's circumstance bonus to AC from cover, a raised shield, or a similar physical obstruction by 1. Against a target taking cover behind an object you could break, reduce it by 2 instead.</p>"
+            "value": "<p><strong>Requirement</strong> You are wielding a two-handed melee weapon.</p><hr /><p>Their block was fine. It simply was not enough mass.</p><p>Your Strikes with a two-handed melee weapon reduce the target's circumstance bonus to AC from cover, a raised shield, or a similar physical obstruction by 1. Against a target taking cover behind an object you could break, reduce it by 2 instead.</p>"
         },
         "level": {
             "value": 4

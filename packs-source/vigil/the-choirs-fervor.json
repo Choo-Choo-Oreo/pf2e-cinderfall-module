@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>When you would gain Cinders from a qualifying act of destruction — breaking what should be broken, unmaking a work, ending something that was holding on — you progress toward your next point as though you had performed two such acts. This does not raise your cap and does not apply to qualifying acts of other kinds.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Cinders accumulate slightly faster from qualifying acts of destruction.</p><p>When you would gain Cinders from a qualifying act of destruction — breaking what should be broken, unmaking a work, ending something that was holding on — you progress toward your next point as though you had performed two such acts. This does not raise your cap and does not apply to qualifying acts of other kinds.</p>"
         },
         "level": {
             "value": 12
@@ -40,7 +40,7 @@
     "flags": {
         "cinderfall": {
             "incomplete": "STRUCT-GAIN-HOOK: SpecialResource (pf2e-source/src/module/rules/rule-element/special-resource.ts) tracks a pool's current value and max but has no 'rate multiplier' concept for a narrative-triggered gain -- gain is entirely manual (confirmed by fleshmancer.vitae-pool.json's own card text: 'Vitae is gathered, not granted... you refill the pool through grim ritual').",
-            "track": "choir"
+            "track": "the-choir-of-ash"
         }
     }
 }

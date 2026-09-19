@@ -11,7 +11,7 @@
         "damage": {},
         "defense": null,
         "description": {
-            "value": "<p><strong>Focus</strong> 1</p><hr /><p>An enemy within 30 feet is served formal, mechanically-enforced notice that something of theirs is now collateral. There's no save against the notice itself — it simply lands — but it leaves the target owing: a status penalty to its next Will save equal to 2 (+1 at 10th level, +2 at 16th level).</p>"
+            "value": "<p><strong>Focus</strong> 1</p><p><strong>Components</strong> verbal, somatic</p><hr /><p>An enemy within 30 feet is served formal, mechanically-enforced notice that something of theirs is now collateral. There's no save against the notice itself — it simply lands — but it leaves the target owing: a status penalty to its next Will save equal to 2 (+1 at 10th level, +2 at 16th level).</p>"
         },
         "duration": {
             "sustained": false,

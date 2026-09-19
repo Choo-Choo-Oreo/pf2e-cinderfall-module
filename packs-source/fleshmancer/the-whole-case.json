@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per hour</p><p><strong>Cost</strong> 3 Vitae</p><p><strong>Range</strong> 30 feet</p><p><strong>Area</strong> 20-foot burst</p><p><strong>Saving Throw</strong> basic Reflex</p><hr /><p>You throw every prepared Graft you have left at once. Each creature in the area takes 1d6 damage per Graft expended this way, of a damage type you choose from among those Grafts. Every Graft spent is consumed regardless of the result.</p>"
+            "value": "<p><strong>Frequency</strong> once per hour</p><p><strong>Cost</strong> 3 Vitae</p><p><strong>Range</strong> 30 feet</p><p><strong>Area</strong> 20-foot burst</p><p><strong>Saving Throw</strong> basic Reflex</p><hr /><p>You brought more than you told anyone you were bringing.</p><p>You throw every prepared Graft you have left at once. Each creature in the area takes 1d6 damage per Graft expended this way, of a damage type you choose from among those Grafts. Every Graft spent is consumed regardless of the result.</p>"
         },
         "level": {
             "value": 14

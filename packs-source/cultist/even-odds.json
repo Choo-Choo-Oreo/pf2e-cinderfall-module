@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You fail a skill check.</p><hr /><p>Reroll the check and use the second result, even if it's worse. This is a fortune effect. The Croupier extends this credit rarely, and only once a day.</p>"
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You fail a skill check.</p><hr /><p>Reroll a failed skill check once per day when the house extends credit.</p><p>Reroll the check and use the second result, even if it's worse. This is a fortune effect. The Croupier extends this credit rarely, and only once a day.</p>"
         },
         "level": {
             "value": 2
@@ -39,7 +39,7 @@
     "_id": "NtMILhOIrFDl1cVj",
     "flags": {
         "cinderfall": {
-            "track": "croupier"
+            "track": "the-croupier"
         }
     }
 }

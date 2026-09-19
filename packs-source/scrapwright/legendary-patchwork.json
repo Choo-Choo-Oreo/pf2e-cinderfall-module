@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>When you Repair an item, a construct, or your Rig without proper tools or a workshop, treat the result as though you had both. Damage you repair this way is fully restored rather than temporarily patched, and an item you fix stays fixed until it is broken again.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Improvised field fixes now count as full repairs.</p><p>When you Repair an item, a construct, or your Rig without proper tools or a workshop, treat the result as though you had both. Damage you repair this way is fully restored rather than temporarily patched, and an item you fix stays fixed until it is broken again.</p>"
         },
         "level": {
             "value": 14

@@ -11,7 +11,7 @@
         "damage": {},
         "defense": null,
         "description": {
-            "value": "<p>Permanently remove one specific memory from the target.</p>"
+            "value": "<p><strong>Saving Throw</strong> none (cannot target an unwilling, aware creature)</p><p>Permanently remove one specific memory from the target.</p>"
         },
         "duration": {
             "sustained": false,

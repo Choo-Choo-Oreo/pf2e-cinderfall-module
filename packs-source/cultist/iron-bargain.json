@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>You gain a +1 circumstance bonus to Fortitude saves. This bonus is doubled against effects that specifically target your Zeal, your Rites, or your spellcasting.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>A standing bonus to Fortitude, doubled against attacks on your Zeal.</p><p>You gain a +1 circumstance bonus to Fortitude saves. This bonus is doubled against effects that specifically target your Zeal, your Rites, or your spellcasting.</p>"
         },
         "level": {
             "value": 12

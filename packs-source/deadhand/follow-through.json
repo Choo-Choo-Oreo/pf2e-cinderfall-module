@@ -11,7 +11,7 @@
         },
         "category": null,
         "description": {
-            "value": "<p><strong>Effect</strong> up to 2d6 of the damage dealt carries through in a straight line to the next creature or object directly behind your target</p><hr /><p>A hit that should stop at one target carries into whatever's behind it.</p>"
+            "value": "<p><strong>Tier</strong> Blooded</p><p><strong>Activate</strong> passive, triggers automatically on a hit</p><p><strong>Effect</strong> up to 2d6 of the damage dealt carries through in a straight line to the next creature or object directly behind your target</p><hr /><p>A hit that should stop at one target carries into whatever's behind it.</p>"
         },
         "publication": {
             "license": "ORC",

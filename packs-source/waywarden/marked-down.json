@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Requirement</strong> Your target is your Marked quarry.</p><hr /><p>Make a Strike against your Marked quarry. If it hits, the target is off-guard until the end of your next turn.</p>"
+            "value": "<p><strong>Requirement</strong> Your target is your Marked quarry.</p><hr /><p>A precision strike that briefly weakens your Marked quarry's defenses.</p><p>Make a Strike against your Marked quarry. If it hits, the target is off-guard until the end of your next turn.</p>"
         },
         "level": {
             "value": 4

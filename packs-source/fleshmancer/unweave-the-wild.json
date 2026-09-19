@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>A body normally needs real time between one major procedure and the next — a month, whether the Butcher's grafting in a new bio-augment or you're personally unweaving a mutation out of someone's flesh — or the tissue won't take the strain. Under your hands that window shrinks to a week. Any patient you personally graft, remove a bio-augment from, or unweave a mutation from, yourself included, can undergo another such procedure from you again after only a week's rest instead of the usual month. This doesn't reduce any single procedure's own recovery time or a removal rite's own downtime — it only shortens how soon the next one can begin.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>The safety window between major flesh-work you personally perform shrinks from a month to a week.</p><p>A body normally needs real time between one major procedure and the next — a month, whether the Butcher's grafting in a new bio-augment or you're personally unweaving a mutation out of someone's flesh — or the tissue won't take the strain. Under your hands that window shrinks to a week. Any patient you personally graft, remove a bio-augment from, or unweave a mutation from, yourself included, can undergo another such procedure from you again after only a week's rest instead of the usual month. This doesn't reduce any single procedure's own recovery time or a removal rite's own downtime — it only shortens how soon the next one can begin.</p>"
         },
         "level": {
             "value": 18

@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Requirement</strong> A substantial quantity of scrap, machinery, or wreckage is available.</p><p><strong>Duration</strong> permanent</p><hr /><p>Rebuild your destroyed Rig from whatever is to hand. It returns at full Hit Points, at its current Mk tier, with every mod and binding it had when it was destroyed. You need no workshop and no tools. Nothing is lost but the hour.</p>"
+            "value": "<p><strong>Cast</strong> 1 hour</p><p><strong>Requirement</strong> A substantial quantity of scrap, machinery, or wreckage is available.</p><p><strong>Duration</strong> permanent</p><hr /><p>A destroyed Rig can be rebuilt from any substantial scrap within an hour — no workshop required.</p><p>Rebuild your destroyed Rig from whatever is to hand. It returns at full Hit Points, at its current Mk tier, with every mod and binding it had when it was destroyed. You need no workshop and no tools. Nothing is lost but the hour.</p>"
         },
         "level": {
             "value": 16

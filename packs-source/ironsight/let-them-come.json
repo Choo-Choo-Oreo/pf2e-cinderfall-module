@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Trigger</strong> A creature moves into a space adjacent to you.</p><p><strong>Requirement</strong> You are wielding a loaded firearm.</p><hr /><p>Make a ranged Strike against the triggering creature. On a hit, it must stop moving. This Strike does not make you off-guard for firing within reach, and the weapon is emptied afterward.</p>"
+            "value": "<p><strong>Trigger</strong> A creature moves into a space adjacent to you.</p><p><strong>Requirement</strong> You are wielding a loaded firearm.</p><hr /><p>You do not back up. Backing up is how the shot gets worse.</p><p>Make a ranged Strike against the triggering creature. On a hit, it must stop moving. This Strike does not make you off-guard for firing within reach, and the weapon is emptied afterward.</p>"
         },
         "level": {
             "value": 2

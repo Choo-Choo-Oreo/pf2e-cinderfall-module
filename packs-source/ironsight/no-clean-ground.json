@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>When a creature leaves an area of hazardous ground you created, it carries the effect with it: it continues to suffer that area’s persistent damage for 1 minute regardless of where it goes, and the squares it moves through become hazardous ground for 1 round behind it. Whatever it was running toward is now also on fire.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>They stopped trying to find a safe square about four rounds ago.</p><p>When a creature leaves an area of hazardous ground you created, it carries the effect with it: it continues to suffer that area’s persistent damage for 1 minute regardless of where it goes, and the squares it moves through become hazardous ground for 1 round behind it. Whatever it was running toward is now also on fire.</p>"
         },
         "level": {
             "value": 18

@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Range</strong> 30 feet</p><p><strong>Duration</strong> constant</p><hr /><p>At the start of each of your turns, choose one creature within range. An enemy takes 1 void damage; an ally gains 1 temporary Hit Point until the start of your next turn. This requires no action, no save, and no Overflow draw. The damage and the temporary Hit Points each increase by 1 at 12th and again at 18th level.</p>"
+            "value": "<p><strong>Range</strong> 30 feet</p><p><strong>Duration</strong> constant</p><hr /><p>Singularity-flavored, open to all — a weak, always-on Hawking Radiation trickle: a minor passive effect against a nearby foe or in aid of a nearby ally, no Overflow draw required.</p><p>At the start of each of your turns, choose one creature within range. An enemy takes 1 void damage; an ally gains 1 temporary Hit Point until the start of your next turn. This requires no action, no save, and no Overflow draw. The damage and the temporary Hit Points each increase by 1 at 12th and again at 18th level.</p>"
         },
         "level": {
             "value": 6

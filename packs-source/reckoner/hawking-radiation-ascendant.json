@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Each time THE LEAK deals its damage to a creature, that creature also takes a cumulative -1 status penalty to AC, to a maximum of -4. The penalty ends on a creature that THE LEAK has not touched since the end of your last turn. This requires no action and no save, exactly as THE LEAK does.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Singularity-flavored, open to all — The Leak's passive trickle now also chips away at a target's defenses over time, not just its vitality.</p><p>Each time THE LEAK deals its damage to a creature, that creature also takes a cumulative -1 status penalty to AC, to a maximum of -4. The penalty ends on a creature that THE LEAK has not touched since the end of your last turn. This requires no action and no save, exactly as THE LEAK does.</p>"
         },
         "level": {
             "value": 16

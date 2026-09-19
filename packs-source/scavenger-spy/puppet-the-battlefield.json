@@ -11,7 +11,7 @@
         },
         "category": null,
         "description": {
-            "value": "<p><strong>Freq</strong> 1/encounter</p><p><strong>Effect</strong> each ally who follows your call gains a +3 circumstance bonus (Master) to that action, as though you stood at each of their shoulders at once</p><hr /><p>Direct every ally's action for a full round as a single coordinated maneuver.</p>"
+            "value": "<p><strong>Tier</strong> Master</p><p><strong>Freq</strong> 1/encounter</p><p><strong>Effect</strong> each ally who follows your call gains a +3 circumstance bonus (Master) to that action, as though you stood at each of their shoulders at once</p><hr /><p>Direct every ally's action for a full round as a single coordinated maneuver.</p>"
         },
         "publication": {
             "license": "ORC",

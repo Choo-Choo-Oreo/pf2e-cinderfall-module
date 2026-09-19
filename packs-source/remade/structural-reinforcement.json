@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Requirement</strong> chrome-attuned</p><p><strong>Duration</strong> constant</p><hr /><p>Gain a +1 circumstance bonus to Fortitude saves against being knocked prone or moved against your will, and to the flat check to stand up from prone.</p>"
+            "value": "<p><strong>Requirement</strong> chrome-attuned</p><p><strong>Duration</strong> constant</p><hr /><p>Your frame doesn't buckle the way flesh alone would.</p><p>Gain a +1 circumstance bonus to Fortitude saves against being knocked prone or moved against your will, and to the flat check to stand up from prone.</p>"
         },
         "level": {
             "value": 8

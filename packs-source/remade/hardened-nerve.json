@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Gain a +2 circumstance bonus to saves against effects that would directly force your actions through your augmentation — a donor thread's compulsion, a technomancy or EMP effect dictating what you do.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Nobody gets to drive this body but you.</p><p>Gain a +2 circumstance bonus to saves against effects that would directly force your actions through your augmentation — a donor thread's compulsion, a technomancy or EMP effect dictating what you do.</p>"
         },
         "level": {
             "value": 14

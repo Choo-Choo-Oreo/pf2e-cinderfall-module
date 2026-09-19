@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>The band-reading benefit your Attunement (§03) grants against your favored punishment system now also applies, at the same one-step reduction, to whichever system your Attunement doesn't cover.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>The bargain you struck at 1st level finally covers both sides.</p><p>The band-reading benefit your Attunement (§03) grants against your favored punishment system now also applies, at the same one-step reduction, to whichever system your Attunement doesn't cover.</p>"
         },
         "level": {
             "value": 16

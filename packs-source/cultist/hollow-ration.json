@@ -11,7 +11,7 @@
         "damage": {},
         "defense": null,
         "description": {
-            "value": "<p>The target doesn't need to eat or drink for the duration, and suffers no ill effect from an empty stomach — a small, quietly enormous mercy in Cinderfall.</p>"
+            "value": "<p><strong>Revelation</strong> 1st</p><p>The target doesn't need to eat or drink for the duration, and suffers no ill effect from an empty stomach — a small, quietly enormous mercy in Cinderfall.</p>"
         },
         "duration": {
             "sustained": false,

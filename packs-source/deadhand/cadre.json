@@ -39,6 +39,7 @@
     "_id": "7d00CvFfyz5kWxke",
     "flags": {
         "cinderfall": {
+            "trackColor": "#6fa87a",
             "subclassOf": "deadhand",
             "role": "Command &amp; Tactics",
             "subclassLayer": "trade"

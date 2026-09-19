@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Cost</strong> 1 Vitae</p><p><strong>Duration</strong> 1 hour</p><hr /><p>Reshape your face, build and colouring. You gain a +2 circumstance bonus to Deception checks to Impersonate, and you may appear one size category smaller or larger. A creature that touches you, or that observes you for a full minute, may attempt to Perceive the change against your class DC.</p>"
+            "value": "<p><strong>Cast</strong> 1 minute</p><p><strong>Cost</strong> 1 Vitae</p><p><strong>Duration</strong> 1 hour</p><hr /><p>Not a disguise. You are simply, briefly, a different arrangement of the same person.</p><p>Reshape your face, build and colouring. You gain a +2 circumstance bonus to Deception checks to Impersonate, and you may appear one size category smaller or larger. A creature that touches you, or that observes you for a full minute, may attempt to Perceive the change against your class DC.</p>"
         },
         "level": {
             "value": 4

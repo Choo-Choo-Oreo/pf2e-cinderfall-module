@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Trigger</strong> Two areas of hazardous ground you created come within 15 feet of each other.</p><hr /><p>They reach for each other. The gap between the two areas becomes hazardous ground of the same type, and the whole connected mass counts as a single area for every other Foul Iron feat. A creature caught in the gap when it closes takes the persistent damage immediately.</p>"
+            "value": "<p><strong>Trigger</strong> Two areas of hazardous ground you created come within 15 feet of each other.</p><hr /><p>Two fires in the same building are not two fires for very long.</p><p>They reach for each other. The gap between the two areas becomes hazardous ground of the same type, and the whole connected mass counts as a single area for every other Foul Iron feat. A creature caught in the gap when it closes takes the persistent damage immediately.</p>"
         },
         "level": {
             "value": 12

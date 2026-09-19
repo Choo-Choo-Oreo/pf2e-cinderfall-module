@@ -11,7 +11,7 @@
         },
         "category": null,
         "description": {
-            "value": "<p><strong>Duration</strong> until the start of your next turn</p><p><strong>Effect</strong> each ally who can hear you gains +2 circumstance to their next attack roll or saving throw</p><hr /><p>Channel your push into every ally who can hear you.</p>"
+            "value": "<p><strong>Tier</strong> Blooded</p><p><strong>Cost</strong> 2 Tally</p><p><strong>Duration</strong> until the start of your next turn</p><p><strong>Effect</strong> each ally who can hear you gains +2 circumstance to their next attack roll or saving throw</p><hr /><p>Channel your push into every ally who can hear you.</p>"
         },
         "publication": {
             "license": "ORC",

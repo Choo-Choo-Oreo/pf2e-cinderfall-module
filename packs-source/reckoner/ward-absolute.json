@@ -29,20 +29,7 @@
             "value": "30 feet"
         },
         "requirements": "",
-        "rules": [
-            {
-                "key": "FlatModifier",
-                "selector": "ac",
-                "type": "status",
-                "value": 2
-            },
-            {
-                "key": "FlatModifier",
-                "selector": "saving-throw",
-                "type": "status",
-                "value": 3
-            }
-        ],
+        "rules": [],
         "target": {
             "value": "you and up to 6 allies"
         },

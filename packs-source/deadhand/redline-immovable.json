@@ -11,7 +11,7 @@
         },
         "category": null,
         "description": {
-            "value": "<p><strong>Duration</strong> 1 round</p><p><strong>Effect</strong> automatically succeed against any forced-movement or knockdown effect</p><hr /><p>For one round, nothing moves you that you don't choose to move.</p>"
+            "value": "<p><strong>Tier</strong> Veteran</p><p><strong>Cost</strong> 3 Tally</p><p><strong>Duration</strong> 1 round</p><p><strong>Effect</strong> automatically succeed against any forced-movement or knockdown effect</p><hr /><p>For one round, nothing moves you that you don't choose to move.</p>"
         },
         "publication": {
             "license": "ORC",

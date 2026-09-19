@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per turn</p><p><strong>Trigger</strong> You take an action that uses a weapon you are not wielding.</p><hr /><p>You may Interact to draw a weapon as part of any action that uses it, at no additional action cost. This applies to the first weapon you draw each turn.</p>"
+            "value": "<p><strong>Frequency</strong> once per turn</p><p><strong>Trigger</strong> You take an action that uses a weapon you are not wielding.</p><hr /><p>Draw a weapon as part of another action, no extra cost.</p><p>You may Interact to draw a weapon as part of any action that uses it, at no additional action cost. This applies to the first weapon you draw each turn.</p>"
         },
         "level": {
             "value": 2

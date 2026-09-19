@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per hour</p><p><strong>Range</strong> touch</p><p><strong>Duration</strong> 4 rounds</p><hr /><p>The target regains Hit Points equal to your level at the start of each of its turns for 4 rounds. The healing is unaffected by anything that happens in the meantime; it simply continues.</p>"
+            "value": "<p><strong>Frequency</strong> once per hour</p><p><strong>Range</strong> touch</p><p><strong>Duration</strong> 4 rounds</p><hr /><p>A slow heal over several rounds rather than a single burst.</p><p>The target regains Hit Points equal to your level at the start of each of its turns for 4 rounds. The healing is unaffected by anything that happens in the meantime; it simply continues.</p>"
         },
         "level": {
             "value": 4

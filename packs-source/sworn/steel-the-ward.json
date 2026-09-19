@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Cost</strong> 1 Conviction</p><p><strong>Range</strong> 30 feet</p><p><strong>Targets</strong> your Ward</p><p><strong>Duration</strong> 1 minute</p><hr /><p>Your Ward gains resistance 5 to all damage (resistance 10 at 16th level). You gain none of it — that's the point. The resistance doesn't stack with Ash Already Falling; a creature under both uses the higher against fire.</p>"
+            "value": "<p><strong>Cost</strong> 1 Conviction</p><p><strong>Range</strong> 30 feet</p><p><strong>Targets</strong> your Ward</p><p><strong>Duration</strong> 1 minute</p><hr /><p>For a while your Ward is harder to hurt than you are, which is the point.</p><p>Your Ward gains resistance 5 to all damage (resistance 10 at 16th level). You gain none of it — that's the point. The resistance doesn't stack with Ash Already Falling; a creature under both uses the higher against fire.</p>"
         },
         "level": {
             "value": 10

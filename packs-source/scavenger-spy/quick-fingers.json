@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p>Attempt to Steal, Pick a Lock, or Disable a Device as a single action, rather than at that activity's usual cost. You take a -2 circumstance penalty to the check when you do.</p>"
+            "value": "<p>A fast action for picking a pocket, a lock, or disarming a trap.</p><p>Attempt to Steal, Pick a Lock, or Disable a Device as a single action, rather than at that activity's usual cost. You take a -2 circumstance penalty to the check when you do.</p>"
         },
         "level": {
             "value": 2

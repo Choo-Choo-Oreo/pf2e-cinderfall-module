@@ -11,7 +11,7 @@
         "damage": {},
         "defense": null,
         "description": {
-            "value": "<p>Immediately grant the target a huge, decisive edge on one specific upcoming check — treat a success as a critical success. In exchange, you take a permanent −1 status penalty to a saving throw of the GM's choice (the Croupier's cut) until you go an entire session without invoking any Croupier Rite or Revelation, at which point the debt is paid and the penalty lifts.</p>"
+            "value": "<p><strong>Revelation</strong> 5th</p><p>Immediately grant the target a huge, decisive edge on one specific upcoming check — treat a success as a critical success. In exchange, you take a permanent −1 status penalty to a saving throw of the GM's choice (the Croupier's cut) until you go an entire session without invoking any Croupier Rite or Revelation, at which point the debt is paid and the penalty lifts.</p>"
         },
         "duration": {
             "sustained": false,

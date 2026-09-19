@@ -11,7 +11,7 @@
         },
         "category": null,
         "description": {
-            "value": "<p><strong>Freq</strong> 1/encounter</p><p><strong>Check</strong> one Thievery roll vs. the crowd's average Perception DC, treating the whole checkpoint or gathering as a single target</p><hr /><p>Pick every pocket, badge, and lock in a crowded space in the time it takes to walk through it once.</p>"
+            "value": "<p><strong>Tier</strong> Master</p><p><strong>Freq</strong> 1/encounter</p><p><strong>Check</strong> one Thievery roll vs. the crowd's average Perception DC, treating the whole checkpoint or gathering as a single target</p><hr /><p>Pick every pocket, badge, and lock in a crowded space in the time it takes to walk through it once.</p>"
         },
         "publication": {
             "license": "ORC",

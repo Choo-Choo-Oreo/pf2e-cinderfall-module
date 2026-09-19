@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Requirement</strong> Your Rig is within 30 feet of the target.</p><hr /><p>Your Rig fires, lunges, or braces on your cue. Make a Strike with a +1 circumstance bonus to the attack roll. This bonus applies whether or not your Rig is positioned to flank, and whether or not it has acted this turn.</p>"
+            "value": "<p><strong>Requirement</strong> Your Rig is within 30 feet of the target.</p><hr /><p>Your Rig assists your attack, granting a flanking-like bonus even when it hasn't moved.</p><p>Your Rig fires, lunges, or braces on your cue. Make a Strike with a +1 circumstance bonus to the attack roll. This bonus applies whether or not your Rig is positioned to flank, and whether or not it has acted this turn.</p>"
         },
         "level": {
             "value": 4

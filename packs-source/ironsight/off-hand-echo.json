@@ -11,7 +11,7 @@
         },
         "category": null,
         "description": {
-            "value": "<p><strong>Frequency</strong> once per turn</p><p><strong>Trigger</strong> your first pistol hits</p><p><strong>Effect</strong> off-hand fires at −4 (not reduced by other MAP mitigation); on a hit, deal the weapon's damage dice only — no precision, weapon specialization, or other bonus damage</p><hr /><p>The instant a shot from your first pistol lands, your off-hand snaps up and fires at whatever it's pointed at.</p>"
+            "value": "<p><strong>Tier</strong> Green</p><p><strong>Frequency</strong> once per turn</p><p><strong>Trigger</strong> your first pistol hits</p><p><strong>Effect</strong> off-hand fires at −4 (not reduced by other MAP mitigation); on a hit, deal the weapon's damage dice only — no precision, weapon specialization, or other bonus damage</p><hr /><p>The instant a shot from your first pistol lands, your off-hand snaps up and fires at whatever it's pointed at.</p>"
         },
         "publication": {
             "license": "ORC",

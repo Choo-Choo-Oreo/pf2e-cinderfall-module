@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per round</p><p><strong>Cost</strong> +1 Vitae</p><hr /><p>Throw two prepared Grafts at the same target, or at two targets within 15 feet of each other, making one attack roll against each. If both hit, each target takes 1d6 additional damage of its Graft&rsquo;s type.</p>"
+            "value": "<p><strong>Frequency</strong> once per round</p><p><strong>Cost</strong> +1 Vitae</p><hr /><p>One sac is a message. Two going off together is a conversation.</p><p>Throw two prepared Grafts at the same target, or at two targets within 15 feet of each other, making one attack roll against each. If both hit, each target takes 1d6 additional damage of its Graft&rsquo;s type.</p>"
         },
         "level": {
             "value": 4

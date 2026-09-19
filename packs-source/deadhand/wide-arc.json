@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Requirement</strong> You are wielding a two-handed melee weapon.</p><hr /><p>Make a single Strike and compare the attack roll against two adjacent creatures, both within your reach. Roll damage once and apply it to each creature the roll hits; a critical hit applies to that creature only. This counts as one attack for your multiple attack penalty, which then increases by two steps.</p>"
+            "value": "<p><strong>Requirement</strong> You are wielding a two-handed melee weapon.</p><hr /><p>You did not aim at either of them. You aimed at the space they were both standing in.</p><p>Make a single Strike and compare the attack roll against two adjacent creatures, both within your reach. Roll damage once and apply it to each creature the roll hits; a critical hit applies to that creature only. This counts as one attack for your multiple attack penalty, which then increases by two steps.</p>"
         },
         "level": {
             "value": 4

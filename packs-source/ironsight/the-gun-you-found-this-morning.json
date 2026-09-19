@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>You suffer no penalty for using an unfamiliar, improvised, or non-proficient firearm, treating any such weapon as though you had your highest weapon proficiency with it. A weapon you have carried for more than a day loses this benefit until you have set it down for a full day — this is not skill with a gun, it is skill with strangers.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Familiarity is for people who get to keep things.</p><p>You suffer no penalty for using an unfamiliar, improvised, or non-proficient firearm, treating any such weapon as though you had your highest weapon proficiency with it. A weapon you have carried for more than a day loses this benefit until you have set it down for a full day — this is not skill with a gun, it is skill with strangers.</p>"
         },
         "level": {
             "value": 10

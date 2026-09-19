@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>When an effect would make you roll on the Bloom Table, you choose the result instead, including Total Bloom. Once per day you may decline the roll entirely, and nothing happens.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Nothing you make comes apart wrong any more, and the ones that do, you meant.</p><p>When an effect would make you roll on the Bloom Table, you choose the result instead, including Total Bloom. Once per day you may decline the roll entirely, and nothing happens.</p>"
         },
         "level": {
             "value": 20

@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> A creature within 30 feet, whose level is at least your level - 3, is reduced to 0 Hit Points by your Rite or your attack.</p><hr /><p>You devour what's left before anything else can claim it. Immediately Cast a Rite you know without spending Zeal, as though you had just used the action to do so; it must target only you or the triggering creature's square. You also gain temporary Hit Points equal to twice your level, lasting 1 minute. Gluttoneth is rarely this satisfied, and rarely stays satisfied for long.</p>"
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> A creature within 30 feet, whose level is at least your level - 3, is reduced to 0 Hit Points by your Rite or your attack.</p><hr /><p>Gluttoneth-locked — devour a fresh kill to cast a Rite for free and gain a wall of temporary HP.</p><p>You devour what's left before anything else can claim it. Immediately Cast a Rite you know without spending Zeal, as though you had just used the action to do so; it must target only you or the triggering creature's square. You also gain temporary Hit Points equal to twice your level, lasting 1 minute. Gluttoneth is rarely this satisfied, and rarely stays satisfied for long.</p>"
         },
         "level": {
             "value": 20

@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Cost</strong> 2 Vitae</p><hr /><p>Throw a prepared Graft to a range of 500 feet, ignoring the penalty for the first range increment. A creature that did not see it coming takes 4d6 additional damage of the Graft&rsquo;s type and is <em>off-guard</em> to you until the end of your next turn.</p>"
+            "value": "<p><strong>Cost</strong> 2 Vitae</p><hr /><p>There is no range you consider unreasonable any more. There is only wind.</p><p>Throw a prepared Graft to a range of 500 feet, ignoring the penalty for the first range increment. A creature that did not see it coming takes 4d6 additional damage of the Graft&rsquo;s type and is <em>off-guard</em> to you until the end of your next turn.</p>"
         },
         "level": {
             "value": 16

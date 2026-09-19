@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Cost</strong> 1 Conviction</p><p><strong>Area</strong> 30-foot emanation</p><p><strong>Duration</strong> 1 minute</p><p><strong>Saving Throw</strong> Will vs. your class DC</p><hr /><p>Raging spirits and ghost-machines in the area recognize you. Each must attempt a Will save: on a failure it can't willingly attack you or move to within its reach of you for the duration, and it stands aside for your movement, granting no reactions against you. The effect ends for a creature the moment you attack it or Answer it. Creatures that aren't raging spirits or ghost-machines are unaffected. Open to any Oath: Cinders are what your Conviction is called under the Cinder Vow; under another Oath, spend Conviction as normal.</p>"
+            "value": "<p><strong>Cost</strong> 1 Conviction</p><p><strong>Area</strong> 30-foot emanation</p><p><strong>Duration</strong> 1 minute</p><p><strong>Saving Throw</strong> Will vs. your class DC</p><hr /><p>Raging spirits and ghost-machines nearby recognize your Cinders as kin and stand aside.</p><p>Raging spirits and ghost-machines in the area recognize you. Each must attempt a Will save: on a failure it can't willingly attack you or move to within its reach of you for the duration, and it stands aside for your movement, granting no reactions against you. The effect ends for a creature the moment you attack it or Answer it. Creatures that aren't raging spirits or ghost-machines are unaffected. Open to any Oath: Cinders are what your Conviction is called under the Cinder Vow; under another Oath, spend Conviction as normal.</p>"
         },
         "level": {
             "value": 12

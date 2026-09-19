@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Range</strong> 30 feet</p><hr /><p>Formally call out one creature that can hear and understand you. It must attempt a Will save against your Class DC. On a failure it is compelled to treat you as its only worthwhile opponent for 1 minute, taking a −2 circumstance penalty to attack rolls against anyone else; on a critical failure it also cannot willingly move further from you. It may attempt a new save at the end of each of its turns in which you have not attacked it.</p>"
+            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Range</strong> 30 feet</p><hr /><p>Territories duelling law is very old, very specific, and has never once been on your side.</p><p>Formally call out one creature that can hear and understand you. It must attempt a Will save against your Class DC. On a failure it is compelled to treat you as its only worthwhile opponent for 1 minute, taking a −2 circumstance penalty to attack rolls against anyone else; on a critical failure it also cannot willingly move further from you. It may attempt a new save at the end of each of its turns in which you have not attacked it.</p>"
         },
         "level": {
             "value": 10

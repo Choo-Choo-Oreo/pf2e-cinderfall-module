@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Cost</strong> 1 Zeal</p><p><strong>Range</strong> 30 feet</p><p><strong>Area</strong> 15-foot burst</p><p><strong>Frequency</strong> once per day</p><p><strong>Saving Throw</strong> basic Reflex</p><hr /><p>A burst of pure fury erupts. Each creature in the area takes @Damage[5d6[fire]] damage (basic Reflex save against your class DC). Wrath is not precise. It was never meant to be.</p>"
+            "value": "<p><strong>Cost</strong> 1 Zeal</p><p><strong>Range</strong> 30 feet</p><p><strong>Area</strong> 15-foot burst</p><p><strong>Frequency</strong> once per day</p><p><strong>Saving Throw</strong> basic Reflex</p><hr /><p>A once-a-day fire burst against a cluster of enemies.</p><p>A burst of pure fury erupts. Each creature in the area takes @Damage[5d6[fire]] damage (basic Reflex save against your class DC). Wrath is not precise. It was never meant to be.</p>"
         },
         "level": {
             "value": 10
@@ -39,7 +39,7 @@
     "_id": "ZPfSPFz1Tec47ONH",
     "flags": {
         "cinderfall": {
-            "track": "last-word"
+            "track": "the-last-word"
         }
     }
 }

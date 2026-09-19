@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Once you have Marked a creature and begun tracking it, you never lose its trail through the passage of time, distance travelled, weather, or the creature's efforts to cover its tracks. You still need to travel the trail to follow it, and a creature that ends its journey by means that leave no trail at all, such as teleportation, breaks it.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>You never lose a Mark's trail regardless of distance or time passed.</p><p>Once you have Marked a creature and begun tracking it, you never lose its trail through the passage of time, distance travelled, weather, or the creature's efforts to cover its tracks. You still need to travel the trail to follow it, and a creature that ends its journey by means that leave no trail at all, such as teleportation, breaks it.</p>"
         },
         "level": {
             "value": 16

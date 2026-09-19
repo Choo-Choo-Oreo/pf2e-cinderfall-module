@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>When you roll on the Slip table, roll twice and choose which result applies. This does not stack with Slip Ward's reroll or with Redline Focus's downgrade — on any given Slip, pick one of the three and use only that one.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>You have redlined enough times to know exactly which failures your body is willing to sell you.</p><p>When you roll on the Slip table, roll twice and choose which result applies. This does not stack with Slip Ward's reroll or with Redline Focus's downgrade — on any given Slip, pick one of the three and use only that one.</p>"
         },
         "level": {
             "value": 14

@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Hot Loading no longer widens your Failure Range at all — you may overcharge every shot you fire, for free, forever. When you do roll a Gun Failure, treat the result as one lower, to a minimum of 1. The die that ends other people’s fights is now a rounding error in yours.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>The gun has stopped having opinions in your presence.</p><p>Hot Loading no longer widens your Failure Range at all — you may overcharge every shot you fire, for free, forever. When you do roll a Gun Failure, treat the result as one lower, to a minimum of 1. The die that ends other people’s fights is now a rounding error in yours.</p>"
         },
         "level": {
             "value": 18

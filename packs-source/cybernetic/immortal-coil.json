@@ -9,7 +9,7 @@
         },
         "containerId": null,
         "description": {
-            "value": "<p>Sealed synthetic circulatory system. No blood to lose: immune to persistent bleed, drained, and precision damage. +2 item bonus to Fortitude. Only Repair works on you, not Treat Wounds.</p>"
+            "value": "<p><strong>Tags</strong> apex</p><hr /><p>Sealed synthetic circulatory system. No blood to lose: immune to persistent bleed, drained, and precision damage. +2 item bonus to Fortitude. Only Repair works on you, not Treat Wounds.</p>"
         },
         "hardness": 0,
         "hp": {

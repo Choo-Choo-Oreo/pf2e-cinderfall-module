@@ -40,7 +40,7 @@
     "flags": {
         "cinderfall": {
             "incomplete": "\"A claimed creature/object can't be stolen/disarmed/forcibly separated while you're conscious, and you always know if someone tries\" -- no immunity-to-theft-of-a-marked-thing precedent found in pf2e-source within this pass's research budget.",
-            "track": "claimant"
+            "track": "the-claimant"
         }
     }
 }

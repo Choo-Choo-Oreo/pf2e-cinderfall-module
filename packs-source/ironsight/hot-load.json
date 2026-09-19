@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per round</p><p><strong>Trigger</strong> You begin a ranged Strike with a firearm.</p><hr /><p>Hot Loading is baseline for every Ironsight and its cost is stated in §4: it widens your Failure Range by 1 for that shot. This feat makes you better at it rather than granting it. Your Hot Loads deal a second additional die of the weapon's damage type, and once per round you may Hot Load without widening your Failure Range at all — that one was seated properly.</p>"
+            "value": "<p><strong>Frequency</strong> once per round</p><p><strong>Trigger</strong> You begin a ranged Strike with a firearm.</p><hr /><p>You have stopped treating the stated tolerance of a weapon as a fact about the weapon.</p><p>Hot Loading is baseline for every Ironsight and its cost is stated in §4: it widens your Failure Range by 1 for that shot. This feat makes you better at it rather than granting it. Your Hot Loads deal a second additional die of the weapon's damage type, and once per round you may Hot Load without widening your Failure Range at all — that one was seated properly.</p>"
         },
         "level": {
             "value": 6

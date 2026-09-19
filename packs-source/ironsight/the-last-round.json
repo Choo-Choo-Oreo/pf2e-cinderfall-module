@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Requirement</strong> You are 11th level or higher and have landed at least three Strikes, Hot Loaded at least once, or taken Gun Failure at least once this encounter.</p><hr /><p>Fire your Finisher. Make a ranged Strike with a +2 circumstance bonus that deals three additional damage dice and cannot be reduced below one die of damage by any resistance. On a critical hit the target is also stunned 1. Afterward the weapon is emptied and you cannot use this again until the encounter ends.</p>"
+            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Requirement</strong> You are 11th level or higher and have landed at least three Strikes, Hot Loaded at least once, or taken Gun Failure at least once this encounter.</p><hr /><p>You have been building toward it since the first shot of the fight, and everyone watching knows the difference in the sound.</p><p>Fire your Finisher. Make a ranged Strike with a +2 circumstance bonus that deals three additional damage dice and cannot be reduced below one die of damage by any resistance. On a critical hit the target is also stunned 1. Afterward the weapon is emptied and you cannot use this again until the encounter ends.</p>"
         },
         "level": {
             "value": 12

@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per week</p><hr /><p>Fast without food, water, or rest for a full day. At the end you are drained 2 and your maximum Hit Points are halved until you next make daily preparations. Your next Miracle or Unmaking, taken within 24 hours, succeeds automatically and at the maximum effect its tier allows, with no negotiation about degree. If you do not use it within 24 hours, the cost stands and the benefit is lost.</p>"
+            "value": "<p><strong>Cast</strong> 24 hours of unbroken ritual</p><p><strong>Frequency</strong> once per week</p><hr /><p>A costly, dangerous ritual that guarantees your next Miracle or Unmaking succeeds at maximum effect.</p><p>Fast without food, water, or rest for a full day. At the end you are drained 2 and your maximum Hit Points are halved until you next make daily preparations. Your next Miracle or Unmaking, taken within 24 hours, succeeds automatically and at the maximum effect its tier allows, with no negotiation about degree. If you do not use it within 24 hours, the cost stands and the benefit is lost.</p>"
         },
         "level": {
             "value": 18

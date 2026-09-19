@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Check</strong> Crafting against a DC set by the GM</p><hr /><p>Attempt a field repair on a firearm you are holding. On a success you clear a jammed weapon, or restore one rarity step lost to the <em>Something cracks</em> result until the end of the scene; on a critical success you do both, and the restored step lasts until your next daily preparations. On a critical failure the weapon is dead for the rest of the scene — which, being a Trick Iron, is a thing you can spend.</p>"
+            "value": "<p><strong>Check</strong> Crafting against a DC set by the GM</p><hr /><p>Ten minutes, a multitool, and a refusal to accept what the gun has told you.</p><p>Attempt a field repair on a firearm you are holding. On a success you clear a jammed weapon, or restore one rarity step lost to the <em>Something cracks</em> result until the end of the scene; on a critical success you do both, and the restored step lasts until your next daily preparations. On a critical failure the weapon is dead for the rest of the scene — which, being a Trick Iron, is a thing you can spend.</p>"
         },
         "level": {
             "value": 8

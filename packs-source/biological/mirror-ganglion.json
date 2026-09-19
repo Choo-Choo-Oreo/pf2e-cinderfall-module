@@ -9,7 +9,7 @@
         },
         "containerId": null,
         "description": {
-            "value": "<p>A grafted mirror-neuron cluster. +2 item bonus to Sense Motive and to checks to Recall the last action a creature you watched took. The first time you see a creature use an activity, you gain a +1 circumstance bonus if you attempt that same activity before your next rest.</p><p><b>Donor:</b> A mimic, a performer, a con artist — someone who copied for a living, and whose hands still itch to.</p>"
+            "value": "<p><strong>Tags</strong> incl. neural +1/+1</p><hr /><p>A grafted mirror-neuron cluster. +2 item bonus to Sense Motive and to checks to Recall the last action a creature you watched took. The first time you see a creature use an activity, you gain a +1 circumstance bonus if you attempt that same activity before your next rest.</p><p><b>Donor:</b> A mimic, a performer, a con artist — someone who copied for a living, and whose hands still itch to.</p>"
         },
         "hardness": 0,
         "hp": {

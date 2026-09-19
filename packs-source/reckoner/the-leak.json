@@ -8,10 +8,21 @@
             "value": ""
         },
         "counteraction": false,
-        "damage": {},
+        "damage": {
+            "0": {
+                "applyMod": false,
+                "category": null,
+                "formula": "1d4",
+                "kinds": [
+                    "damage"
+                ],
+                "materials": [],
+                "type": "void"
+            }
+        },
         "defense": null,
         "description": {
-            "value": "<p>At the start of each of your turns, one enemy within range takes 1d4 void damage, no save (a given enemy can be affected by The Leak only once per round). This damage does not scale with your level.</p>"
+            "value": "<p><strong>Aspect</strong> Hawking Radiation</p><p><strong>Cost</strong> Focus 1</p><p><strong>Activate</strong> passive, always-on once known — no action, no draw required</p><p>At the start of each of your turns, one enemy within range takes 1d4 void damage, no save (a given enemy can be affected by The Leak only once per round). This damage does not scale with your level.</p>"
         },
         "duration": {
             "sustained": false,
@@ -34,11 +45,13 @@
             "value": "1 enemy of your choice"
         },
         "time": {
-            "value": "passive, always-on once known — no action, no draw required"
+            "value": ""
         },
         "traits": {
             "rarity": "common",
-            "traditions": [],
+            "traditions": [
+                "divine"
+            ],
             "value": [
                 "focus",
                 "reckoner"
@@ -49,6 +62,7 @@
     "_id": "CwokuKausCDis0Bs",
     "flags": {
         "cinderfall": {
+            "incomplete": "This is a passive, always-on drip with no action cost at all -- the PF2e item-time schema (system.time.value) has no vocabulary for that (it only expresses a numeric action count or \"reaction\"), so time.value is left empty rather than fabricating a false action cost. The page's own Cast line (\"passive, always-on once known -- no action, no draw required\") is the authoritative text; cards-render.js's generic spell statline builder does not yet special-case an empty time.value into that wording (tracked as a residual renderer gap alongside the Trigger/Frequency near-misses found in the spells-abilities.html Phase 1 audit).",
             "signatureSpellOf": "reckoner.hawking-radiation"
         }
     }

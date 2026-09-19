@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You start your turn without having moved from your previous turn's position.</p><hr /><p>Until you move from your current space, gain a +1 circumstance bonus to AC and saving throws. The Someday rewards those willing to simply not go anywhere.</p>"
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You start your turn without having moved from your previous turn's position.</p><hr /><p>Hold your ground for a defensive bonus.</p><p>Until you move from your current space, gain a +1 circumstance bonus to AC and saving throws. The Someday rewards those willing to simply not go anywhere.</p>"
         },
         "level": {
             "value": 4
@@ -42,7 +42,7 @@
     "_id": "Z7X2Fk0TtPX502Fh",
     "flags": {
         "cinderfall": {
-            "track": "someday"
+            "track": "the-someday"
         }
     }
 }

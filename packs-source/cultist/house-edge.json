@@ -16,7 +16,7 @@
             }
         },
         "description": {
-            "value": "<p>You decide, silently, who \"the house\" is. <i>Critical Success</i> the target senses something tried to tip the odds against it and can't be targeted by your House Edge again today. <i>Success</i> unaffected. <i>Failure</i> the named target's next check before the start of your next turn takes a status penalty equal to your key ability modifier — or, if you named an ally or yourself instead, that creature gets the equivalent status bonus (no save needed for a willing beneficiary). <i>Critical Failure</i> as failure, and the penalty applies to the target's next two checks instead of one.</p>"
+            "value": "<p><strong>Rite</strong> 1st</p><p>You decide, silently, who \"the house\" is. <i>Critical Success</i> the target senses something tried to tip the odds against it and can't be targeted by your House Edge again today. <i>Success</i> unaffected. <i>Failure</i> the named target's next check before the start of your next turn takes a status penalty equal to your key ability modifier — or, if you named an ally or yourself instead, that creature gets the equivalent status bonus (no save needed for a willing beneficiary). <i>Critical Failure</i> as failure, and the penalty applies to the target's next two checks instead of one.</p>"
         },
         "duration": {
             "sustained": false,

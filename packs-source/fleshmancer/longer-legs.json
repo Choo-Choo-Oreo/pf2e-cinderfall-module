@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Cost</strong> 1 Vitae</p><p><strong>Duration</strong> 1 minute</p><hr /><p>Restructure your legs. Your Speed increases by 10 feet and you gain a climb Speed equal to half your Speed for the duration. While this lasts you take a &minus;1 circumstance penalty to Stealth checks &mdash; the joints are audible.</p>"
+            "value": "<p><strong>Cost</strong> 1 Vitae</p><p><strong>Duration</strong> 1 minute</p><hr /><p>The knee goes backwards for a while. You get used to the sound it makes.</p><p>Restructure your legs. Your Speed increases by 10 feet and you gain a climb Speed equal to half your Speed for the duration. While this lasts you take a &minus;1 circumstance penalty to Stealth checks &mdash; the joints are audible.</p>"
         },
         "level": {
             "value": 4

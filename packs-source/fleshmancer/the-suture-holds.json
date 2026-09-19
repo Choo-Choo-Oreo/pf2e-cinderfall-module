@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per round</p><p><strong>Trigger</strong> A creature you have applied a Graft to this encounter would be reduced to 0 Hit Points.</p><p><strong>Cost</strong> 2 Vitae</p><hr /><p>The creature is reduced to 1 Hit Point instead. It cannot benefit from this again until it rests, and any remaining duration on the Graft you applied to it is expended.</p>"
+            "value": "<p><strong>Frequency</strong> once per round</p><p><strong>Trigger</strong> A creature you have applied a Graft to this encounter would be reduced to 0 Hit Points.</p><p><strong>Cost</strong> 2 Vitae</p><hr /><p>It was never going to hold forever. It holds now.</p><p>The creature is reduced to 1 Hit Point instead. It cannot benefit from this again until it rests, and any remaining duration on the Graft you applied to it is expended.</p>"
         },
         "level": {
             "value": 18

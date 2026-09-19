@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>You gain a +2 circumstance bonus to Intimidation checks against creatures who have seen you fight, and to Diplomacy checks with any mercenary, guard, soldier, or contractor. Once per day, when you name a past employer or contract, the GM tells you whether anyone present has reason to care — and if they do, what that reason is.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Somebody in every room you walk into has heard of somebody like you, and behaves accordingly.</p><p>You gain a +2 circumstance bonus to Intimidation checks against creatures who have seen you fight, and to Diplomacy checks with any mercenary, guard, soldier, or contractor. Once per day, when you name a past employer or contract, the GM tells you whether anyone present has reason to care — and if they do, what that reason is.</p>"
         },
         "level": {
             "value": 10

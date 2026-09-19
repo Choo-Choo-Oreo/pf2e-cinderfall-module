@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Your thrown Grafts&rsquo; range increment increases from 30 feet to 60 feet, and you do not take the &minus;2 circumstance penalty for throwing a Graft while an enemy is adjacent to you.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Distance is a kind of mercy. Mostly yours.</p><p>Your thrown Grafts&rsquo; range increment increases from 30 feet to 60 feet, and you do not take the &minus;2 circumstance penalty for throwing a Graft while an enemy is adjacent to you.</p>"
         },
         "level": {
             "value": 4

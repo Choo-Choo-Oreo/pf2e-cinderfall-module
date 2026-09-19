@@ -1,0 +1,51 @@
+{
+    "name": "Effect: The Nudge",
+    "type": "effect",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "description": {
+            "value": "<p><em>Applied by <strong>The Nudge</strong> to the target: you or 1 ally you chose when casting.</em></p>\n<hr />\n<p>Once before the duration ends, the target adds a +1 status bonus to one check (<b>Heightened +4</b>: the bonus increases to +2). The bonus is spent on the first check rolled and is removed after that roll.</p>"
+        },
+        "duration": {
+            "expiry": "turn-end",
+            "sustained": false,
+            "unit": "rounds",
+            "value": 1
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "all",
+                "type": "status",
+                "value": 1,
+                "removeAfterRoll": true
+            }
+        ],
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "value": []
+        },
+        "slug": "the-nudge-effect"
+    },
+    "_id": "OS7uPxmuxUSvyOnp",
+    "flags": {
+        "cinderfall": {
+            "effectOf": "reckoner.the-nudge",
+            "landsOn": "target"
+        }
+    }
+}

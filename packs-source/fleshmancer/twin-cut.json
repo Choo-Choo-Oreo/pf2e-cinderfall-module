@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Requirement</strong> Both Grafts have the same Vitae cost.</p><hr /><p>When you prepare Grafts for the day, choose two you know of equal Vitae cost and pay that cost once for both. If you would prepare fewer than your normal daily maximum this way, this feat costs you nothing extra; it does not increase how many Grafts you may carry.</p>"
+            "value": "<p><strong>Cast</strong> the preparation time of the more expensive Graft</p><p><strong>Frequency</strong> once per day</p><p><strong>Requirement</strong> Both Grafts have the same Vitae cost.</p><hr /><p>Prepare two Grafts for the Vitae cost of one.</p><p>When you prepare Grafts for the day, choose two you know of equal Vitae cost and pay that cost once for both. If you would prepare fewer than your normal daily maximum this way, this feat costs you nothing extra; it does not increase how many Grafts you may carry.</p>"
         },
         "level": {
             "value": 4

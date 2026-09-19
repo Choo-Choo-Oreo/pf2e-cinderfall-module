@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Requirement</strong> Scrap and hand tools.</p><p><strong>Check</strong> Crafting against a DC set by the GM</p><hr /><p>Rebuild a scrap gun into a different scrap gun of the same category — a pistol into a carbine, a carbine into a scattergun. On a success the conversion holds until you convert it again; on a critical failure the weapon is destroyed and you keep the scrap. A Good Gun cannot be converted, and a converted weapon never becomes one.</p>"
+            "value": "<p><strong>Cast</strong> 10 minutes</p><p><strong>Requirement</strong> Scrap and hand tools.</p><p><strong>Check</strong> Crafting against a DC set by the GM</p><hr /><p>You have never owned the same gun twice, because it is never quite the same gun by morning.</p><p>Rebuild a scrap gun into a different scrap gun of the same category — a pistol into a carbine, a carbine into a scattergun. On a success the conversion holds until you convert it again; on a critical failure the weapon is destroyed and you keep the scrap. A Good Gun cannot be converted, and a converted weapon never becomes one.</p>"
         },
         "level": {
             "value": 6

@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Requirement</strong> You have a captured soul or spirit fragment in your Static Cell.</p><p><strong>Duration</strong> permanent</p><hr /><p>Bind the soul into your Rig. Your Rig permanently gains a +1 status bonus to attack rolls and to its class DC, and 5 additional Hit Points per level. You may take this feat's binding again each time you capture another soul; each binding after the first adds the same benefit and raises the Attention on you by one step. At Attention 1 the bound things notice; at 2 they follow; at 3 something comes for the Rig. The GM decides what, and when.</p>"
+            "value": "<p><strong>Cast</strong> 1 hour</p><p><strong>Requirement</strong> You have a captured soul or spirit fragment in your Static Cell.</p><p><strong>Duration</strong> permanent</p><hr /><p>Permanently strengthen your Rig by binding a captured soul into it — escalating power, escalating attention from things that notice bound souls.</p><p>Bind the soul into your Rig. Your Rig permanently gains a +1 status bonus to attack rolls and to its class DC, and 5 additional Hit Points per level. You may take this feat's binding again each time you capture another soul; each binding after the first adds the same benefit and raises the Attention on you by one step. At Attention 1 the bound things notice; at 2 they follow; at 3 something comes for the Rig. The GM decides what, and when.</p>"
         },
         "level": {
             "value": 10

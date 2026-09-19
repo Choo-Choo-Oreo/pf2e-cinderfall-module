@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>You can speak with and understand any ghost-machine, construct with a bound spirit, or machine intelligence, regardless of language. A hostile one will hear you out for one full exchange — you speak, it answers — before it acts against you, even if it was already moving to attack. What it does after that exchange is up to it, and you have made no friend by talking.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Speak fluently with any ghost-machine, hostile or not, for at least one exchange before it decides to fight.</p><p>You can speak with and understand any ghost-machine, construct with a bound spirit, or machine intelligence, regardless of language. A hostile one will hear you out for one full exchange — you speak, it answers — before it acts against you, even if it was already moving to attack. What it does after that exchange is up to it, and you have made no friend by talking.</p>"
         },
         "level": {
             "value": 16

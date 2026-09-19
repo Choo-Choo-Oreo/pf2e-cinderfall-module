@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>When wielding a weapon in two hands, or making an unarmed Strike granted by one of your Remade feats, gain a +1 circumstance bonus to damage rolls.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Grafted and bolted alike, your whole body commits to the swing.</p><p>When wielding a weapon in two hands, or making an unarmed Strike granted by one of your Remade feats, gain a +1 circumstance bonus to damage rolls.</p>"
         },
         "level": {
             "value": 12

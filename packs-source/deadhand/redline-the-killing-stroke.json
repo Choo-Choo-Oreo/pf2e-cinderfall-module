@@ -11,7 +11,7 @@
         },
         "category": null,
         "description": {
-            "value": "<p><strong>Effect</strong> Strike deals an extra 2d6 damage and, on a success (not just a critical success), applies your weapon's critical specialization effect</p><hr /><p>One perfect, decisive exchange.</p>"
+            "value": "<p><strong>Tier</strong> Blooded</p><p><strong>Cost</strong> 2 Tally</p><p><strong>Effect</strong> Strike deals an extra 2d6 damage and, on a success (not just a critical success), applies your weapon's critical specialization effect</p><hr /><p>One perfect, decisive exchange.</p>"
         },
         "publication": {
             "license": "ORC",

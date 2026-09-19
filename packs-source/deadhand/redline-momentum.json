@@ -11,7 +11,7 @@
         },
         "category": null,
         "description": {
-            "value": "<p><strong>Trigger</strong> a Strike hits</p><p><strong>Effect</strong> immediately make a second Strike against a different creature within reach, no additional MAP, dealing an extra 2d6 damage on a hit</p><hr /><p>Spend Tally mid-swing to turn one hit into two.</p>"
+            "value": "<p><strong>Tier</strong> Blooded</p><p><strong>Cost</strong> 2 Tally</p><p><strong>Trigger</strong> a Strike hits</p><p><strong>Effect</strong> immediately make a second Strike against a different creature within reach, no additional MAP, dealing an extra 2d6 damage on a hit</p><hr /><p>Spend Tally mid-swing to turn one hit into two.</p>"
         },
         "publication": {
             "license": "ORC",

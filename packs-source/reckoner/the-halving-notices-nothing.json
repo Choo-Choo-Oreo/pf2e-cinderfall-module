@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You draw an Overflow effect of the highest rank you can cast.</p><hr /><p>Your Reckoning does not advance for this draw. Nothing else about it changes. This is guaranteed: it cannot be prevented, spent early by another effect, or lost to any condition — if you have not used it, it is there, and the Halving does not notice it going because the Halving does not notice anything.</p>"
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You draw an Overflow effect of the highest rank you can cast.</p><hr /><p>Once per day, draw a large Overflow effect with no Reckoning cost at all — the one guaranteed free draw of your day.</p><p>Your Reckoning does not advance for this draw. Nothing else about it changes. This is guaranteed: it cannot be prevented, spent early by another effect, or lost to any condition — if you have not used it, it is there, and the Halving does not notice it going because the Halving does not notice anything.</p>"
         },
         "level": {
             "value": 18

@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Requirement</strong> You occupy a space at least two sides of which are walls, wreckage, or otherwise impassable.</p><p><strong>Duration</strong> until you move</p><hr /><p>Brace the choke point. While you remain there, enemies attempting to move past or through your space must succeed at a Reflex save against your class DC or have their movement stop, and your ranged Strikes against creatures adjacent to you deal an additional die of damage.</p>"
+            "value": "<p><strong>Requirement</strong> You occupy a space at least two sides of which are walls, wreckage, or otherwise impassable.</p><p><strong>Duration</strong> until you move</p><hr /><p>Corridors, stairwells, the inside of a bus. Places with only one way through are yours.</p><p>Brace the choke point. While you remain there, enemies attempting to move past or through your space must succeed at a Reflex save against your class DC or have their movement stop, and your ranged Strikes against creatures adjacent to you deal an additional die of damage.</p>"
         },
         "level": {
             "value": 4

@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You would be stunned, slowed, or have your actions dictated by a technomancy or EMP effect.</p><hr /><p>You force a hard reset. Negate the triggering effect entirely — your systems come back online before it can act. This doesn't lower your Drift, only this one occurrence.</p>"
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You would be stunned, slowed, or have your actions dictated by a technomancy or EMP effect.</p><hr /><p>When the systems glitch, you're the one who reboots first.</p><p>You force a hard reset. Negate the triggering effect entirely — your systems come back online before it can act. This doesn't lower your Drift, only this one occurrence.</p>"
         },
         "level": {
             "value": 2

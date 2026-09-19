@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Duration</strong> 1 minute</p><hr /><p>Choose a doorway, corridor, breach, bridge, or comparable choke point you are standing in. For the duration, enemies cannot move through it while you are conscious and in it, except by moving through your space, which requires a successful Athletics check against your Class DC. A creature three or more sizes larger than you ignores this entirely, and is usually the reason you needed the minute in the first place.</p>"
+            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Duration</strong> 1 minute</p><hr /><p>They needed thirty seconds through that gap. They are not getting the first one.</p><p>Choose a doorway, corridor, breach, bridge, or comparable choke point you are standing in. For the duration, enemies cannot move through it while you are conscious and in it, except by moving through your space, which requires a successful Athletics check against your Class DC. A creature three or more sizes larger than you ignores this entirely, and is usually the reason you needed the minute in the first place.</p>"
         },
         "level": {
             "value": 12

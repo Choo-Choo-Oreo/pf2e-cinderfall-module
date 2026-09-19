@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per round</p><p><strong>Trigger</strong> Your marked target moves out of your reach.</p><hr /><p>Stride up to your Speed toward it. This costs no action and does not trigger reactions, and you may not use it to move anywhere except toward your mark. If you end adjacent to it, make a melee Strike that does not count toward your multiple attack penalty.</p>"
+            "value": "<p><strong>Frequency</strong> once per round</p><p><strong>Trigger</strong> Your marked target moves out of your reach.</p><hr /><p>Distance is a delay you have already priced in.</p><p>Stride up to your Speed toward it. This costs no action and does not trigger reactions, and you may not use it to move anywhere except toward your mark. If you end adjacent to it, make a melee Strike that does not count toward your multiple attack penalty.</p>"
         },
         "level": {
             "value": 14

@@ -40,7 +40,7 @@
     "flags": {
         "cinderfall": {
             "incomplete": "\"Once per day: choose any effect (yours or an enemy's) that just resolved or is ongoing and delay it up to 1 minute; it then triggers automatically, unmitigable a second time\" is P-CROSS: delaying/re-triggering an arbitrary effect that may belong to an enemy, with no selector anywhere in pf2e-source for deferring or re-firing an already-resolved effect on a different creature's timeline.",
-            "track": "someday"
+            "track": "the-someday"
         }
     }
 }

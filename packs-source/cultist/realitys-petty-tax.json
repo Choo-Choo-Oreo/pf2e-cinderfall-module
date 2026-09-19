@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Cost</strong> 2 Zeal</p><p><strong>Range</strong> 60 feet</p><p><strong>Area</strong> 20-foot burst</p><p><strong>Duration</strong> 1 minute</p><p><strong>Saving Throw</strong> Fortitude (each round)</p><hr /><p>Reality charges rent in the area. A creature that ends its turn in the area attempts a Fortitude save against your class DC. On a failure it takes @Damage[4d6[mental]] damage and is <em>enfeebled 1</em> until it leaves; on a critical failure, @Damage[4d6[mental]] and <em>enfeebled 2</em>. On a success it takes half damage anyway — the tax is petty, not fair. The damage a creature takes from this effect increases by 1d6 for each consecutive round it has ended its turn in the area. You may Sustain this effect to move the area 20 feet.</p>"
+            "value": "<p><strong>Cost</strong> 2 Zeal</p><p><strong>Range</strong> 60 feet</p><p><strong>Area</strong> 20-foot burst</p><p><strong>Duration</strong> 1 minute</p><p><strong>Saving Throw</strong> Fortitude (each round)</p><hr /><p>An area-denial Rite that lingers, taxing anyone who lingers with it.</p><p>Reality charges rent in the area. A creature that ends its turn in the area attempts a Fortitude save against your class DC. On a failure it takes @Damage[4d6[mental]] damage and is <em>enfeebled 1</em> until it leaves; on a critical failure, @Damage[4d6[mental]] and <em>enfeebled 2</em>. On a success it takes half damage anyway — the tax is petty, not fair. The damage a creature takes from this effect increases by 1d6 for each consecutive round it has ended its turn in the area. You may Sustain this effect to move the area 20 feet.</p>"
         },
         "level": {
             "value": 16

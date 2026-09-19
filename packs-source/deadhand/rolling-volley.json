@@ -11,7 +11,7 @@
         },
         "category": null,
         "description": {
-            "value": "<p><strong>Effect</strong> the first ally to act on your sequenced order gains +1 circumstance to their attack roll; the second gains +2; the third and any thereafter also gain +2 (Blooded-tier cap)</p><hr /><p>A sequenced attack order builds a cumulative bonus.</p>"
+            "value": "<p><strong>Tier</strong> Blooded</p><p><strong>Effect</strong> the first ally to act on your sequenced order gains +1 circumstance to their attack roll; the second gains +2; the third and any thereafter also gain +2 (Blooded-tier cap)</p><hr /><p>A sequenced attack order builds a cumulative bonus.</p>"
         },
         "publication": {
             "license": "ORC",

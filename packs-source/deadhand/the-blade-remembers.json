@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>When you mark a creature you have marked before, in any previous encounter, every duel bonus you would accumulate against it starts at its maximum value immediately. Your body files opponents the way other people file grudges, and it does not need to be reminded twice.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>You have fought this one before. Your hands started the fight already knowing how it goes.</p><p>When you mark a creature you have marked before, in any previous encounter, every duel bonus you would accumulate against it starts at its maximum value immediately. Your body files opponents the way other people file grudges, and it does not need to be reminded twice.</p>"
         },
         "level": {
             "value": 12

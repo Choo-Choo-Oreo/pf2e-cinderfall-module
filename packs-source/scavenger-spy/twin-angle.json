@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per turn</p><p><strong>Trigger</strong> Your turn begins.</p><hr /><p>This turn you may use the benefits of two different Angles' signature abilities rather than only your own, choosing the second when you use it. You must meet each ability's own requirements, and you cannot use the same Angle's ability twice.</p>"
+            "value": "<p><strong>Frequency</strong> once per turn</p><p><strong>Trigger</strong> Your turn begins.</p><hr /><p>Apply two different Angle tricks in the same turn.</p><p>This turn you may use the benefits of two different Angles' signature abilities rather than only your own, choosing the second when you use it. You must meet each ability's own requirements, and you cannot use the same Angle's ability twice.</p>"
         },
         "level": {
             "value": 4

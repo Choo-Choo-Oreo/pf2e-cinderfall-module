@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Trigger</strong> You Mark a creature.</p><p><strong>Area</strong> 10-foot emanation from the Marked creature</p><hr /><p>Creatures in the area whose level is lower than the Marked creature's are off-guard until the end of your next turn. This is a mental fear effect, and a creature that is immune to fear is unaffected.</p>"
+            "value": "<p><strong>Trigger</strong> You Mark a creature.</p><p><strong>Area</strong> 10-foot emanation from the Marked creature</p><hr /><p>Marking a creature makes nearby lesser creatures briefly off-guard from proximity dread.</p><p>Creatures in the area whose level is lower than the Marked creature's are off-guard until the end of your next turn. This is a mental fear effect, and a creature that is immune to fear is unaffected.</p>"
         },
         "level": {
             "value": 16

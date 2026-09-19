@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Area</strong> a 30-foot line you can see</p><p><strong>Duration</strong> 1 minute</p><p><strong>Saving Throw</strong> Reflex</p><hr /><p>Declare the line and hold it. Any creature attempting to cross it must attempt a Reflex save against your class DC; on a failure its movement stops and it takes damage equal to two of your weapon's damage dice, and on a critical failure it is also knocked prone on its own side. Enemies that have seen this happen to someone else take a −2 circumstance penalty to that save. This does not cost you reactions or ammunition.</p>"
+            "value": "<p><strong>Area</strong> a 30-foot line you can see</p><p><strong>Duration</strong> 1 minute</p><p><strong>Saving Throw</strong> Reflex</p><hr /><p>There is a line. It is not a metaphor and it is not negotiable.</p><p>Declare the line and hold it. Any creature attempting to cross it must attempt a Reflex save against your class DC; on a failure its movement stops and it takes damage equal to two of your weapon's damage dice, and on a critical failure it is also knocked prone on its own side. Enemies that have seen this happen to someone else take a −2 circumstance penalty to that save. This does not cost you reactions or ammunition.</p>"
         },
         "level": {
             "value": 18

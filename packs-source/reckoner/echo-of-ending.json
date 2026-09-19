@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per scene</p><hr /><p>You see a moment from the end of this scene as it is currently headed. The GM describes one true image of how it most likely ends if no one changes course — who is standing, what is broken, what is gone. It is a projection of the present, not a fixed future, and acting on it can change it. You are also unsettled: you take a -1 status penalty to Will saves until the end of your next turn.</p>"
+            "value": "<p><strong>Frequency</strong> once per scene</p><hr /><p>A brief, unsettling glimpse of how the current scene most likely ends if nothing changes.</p><p>You see a moment from the end of this scene as it is currently headed. The GM describes one true image of how it most likely ends if no one changes course — who is standing, what is broken, what is gone. It is a projection of the present, not a fixed future, and acting on it can change it. You are also unsettled: you take a -1 status penalty to Will saves until the end of your next turn.</p>"
         },
         "level": {
             "value": 6

@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Trigger</strong> Your Strike hits a creature.</p><hr /><p>Choose one: the target is knocked <em>prone</em>, or one held item of your choice falls to the ground in its space. There is no save and no check; this is the guarantee the feat is named for. A creature three or more sizes larger than you is instead <em>off-guard</em> until the end of your next turn.</p>"
+            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Trigger</strong> Your Strike hits a creature.</p><hr /><p>A guaranteed knockdown or disarm folded into a normal strike, once per encounter.</p><p>Choose one: the target is knocked <em>prone</em>, or one held item of your choice falls to the ground in its space. There is no save and no check; this is the guarantee the feat is named for. A creature three or more sizes larger than you is instead <em>off-guard</em> until the end of your next turn.</p>"
         },
         "level": {
             "value": 12

@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Your Tally has no maximum during an encounter, and Tally you are holding when an encounter ends carries over in full rather than being reduced. At the end of any day on which you are holding more Tally than your cap, you take 2d6 damage per point above it that no rest removes — the body is still keeping the account, and it charges interest.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>The count has been running since your first contract, and it has never once gone back to zero.</p><p>Your Tally has no maximum during an encounter, and Tally you are holding when an encounter ends carries over in full rather than being reduced. At the end of any day on which you are holding more Tally than your cap, you take 2d6 damage per point above it that no rest removes — the body is still keeping the account, and it charges interest.</p>"
         },
         "level": {
             "value": 20

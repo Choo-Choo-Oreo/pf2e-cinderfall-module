@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You would advance to a new Reckoning stage.</p><p><strong>Requirement</strong> A willing ally is within 30 feet and can perceive you.</p><hr /><p>The ally takes on half of what you owe. You and the ally each suffer the new stage's toll at half value, rounded in the target's favor where it is a number and shared where it is not — if the stage costs a trained skill, you each lose the use of one for the day. The ally's share is not a Reckoning stage: it does not advance any track the ally has, and it ends when yours does.</p>"
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You would advance to a new Reckoning stage.</p><p><strong>Requirement</strong> A willing ally is within 30 feet and can perceive you.</p><hr /><p>Split a Reckoning stage's cost between yourself and a willing ally.</p><p>The ally takes on half of what you owe. You and the ally each suffer the new stage's toll at half value, rounded in the target's favor where it is a number and shared where it is not — if the stage costs a trained skill, you each lose the use of one for the day. The ally's share is not a Reckoning stage: it does not advance any track the ally has, and it ends when yours does.</p>"
         },
         "level": {
             "value": 8

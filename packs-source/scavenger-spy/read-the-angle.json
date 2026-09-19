@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p>Attempt a single Perception check against the Deception or Deceptive-appearance DC of every creature you can see within 30 feet. On a success against a creature, you learn one of the following about it, your choice: whether it is lying to you right now, whether it intends violence within the next minute, or whether it wants something from you it has not stated.</p>"
+            "value": "<p>A quick social read — detect a lie, a threat, or an ulterior motive before it plays out.</p><p>Attempt a single Perception check against the Deception or Deceptive-appearance DC of every creature you can see within 30 feet. On a success against a creature, you learn one of the following about it, your choice: whether it is lying to you right now, whether it intends violence within the next minute, or whether it wants something from you it has not stated.</p>"
         },
         "level": {
             "value": 4

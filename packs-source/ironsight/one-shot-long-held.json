@@ -11,7 +11,7 @@
         },
         "category": null,
         "description": {
-            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Requirement</strong> target has held a stationary position since you first sighted it</p><p><strong>Effect</strong> cash in your maximum time-in-sights bonus (+6) immediately, regardless of actual elapsed rounds</p><hr /><p>Cash in the patience you haven't earned yet.</p>"
+            "value": "<p><strong>Tier</strong> Veteran</p><p><strong>Frequency</strong> once per encounter</p><p><strong>Requirement</strong> target has held a stationary position since you first sighted it</p><p><strong>Effect</strong> cash in your maximum time-in-sights bonus (+6) immediately, regardless of actual elapsed rounds</p><hr /><p>Cash in the patience you haven't earned yet.</p>"
         },
         "publication": {
             "license": "ORC",

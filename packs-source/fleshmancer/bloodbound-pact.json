@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Requirement</strong> The target is willing.</p><p><strong>Range</strong> touch</p><p><strong>Duration</strong> until your next daily preparations</p><hr /><p>You and the target share a single Vitae pool equal to the higher of your two normal caps, refreshed together at your next shared daily preparations. Either of you may spend from it; a Bloom triggered by either of you is rolled once and affects only the one who triggered it.</p>"
+            "value": "<p><strong>Cast</strong> 10 minutes</p><p><strong>Requirement</strong> The target is willing.</p><p><strong>Range</strong> touch</p><p><strong>Duration</strong> until your next daily preparations</p><hr /><p>Link Vitae pools with a willing ally, sharing the resource and its pressure.</p><p>You and the target share a single Vitae pool equal to the higher of your two normal caps, refreshed together at your next shared daily preparations. Either of you may spend from it; a Bloom triggered by either of you is rolled once and affects only the one who triggered it.</p>"
         },
         "level": {
             "value": 14

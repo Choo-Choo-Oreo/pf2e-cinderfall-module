@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Trigger</strong> You Break the Anchor against a Named target.</p><p><strong>Area</strong> 30-foot emanation</p><p><strong>Saving Throw</strong> Will</p><hr /><p>The break is audible to everything that shares its condition. Each hostile spirit or ghost-machine other than the target within the area must succeed at a Will save against your class DC or become frightened 1; on a critical failure it is frightened 2 and slowed 1 for 1 round. The Named target itself is unaffected — it has troubles of its own.</p>"
+            "value": "<p><strong>Trigger</strong> You Break the Anchor against a Named target.</p><p><strong>Area</strong> 30-foot emanation</p><p><strong>Saving Throw</strong> Will</p><hr /><p>Break the Anchor also staggers or frightens other hostile spirits within earshot of the break.</p><p>The break is audible to everything that shares its condition. Each hostile spirit or ghost-machine other than the target within the area must succeed at a Will save against your class DC or become frightened 1; on a critical failure it is frightened 2 and slowed 1 for 1 round. The Named target itself is unaffected — it has troubles of its own.</p>"
         },
         "level": {
             "value": 6

@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Requirement</strong> You have Steady Word.</p><hr /><p>When you use Steady Word, or any feat or Liturgy effect that targets a single ally with speech, it instead affects all allies within 30 feet who can hear and understand you. This does not change the effect's action cost or frequency.</p>"
+            "value": "<p><strong>Requirement</strong> You have Steady Word.</p><hr /><p>Steady Word and similar effects now reach a much larger group at once.</p><p>When you use Steady Word, or any feat or Liturgy effect that targets a single ally with speech, it instead affects all allies within 30 feet who can hear and understand you. This does not change the effect's action cost or frequency.</p>"
         },
         "level": {
             "value": 14

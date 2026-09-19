@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>You ignore difficult terrain and greater difficult terrain created by ectoplasm, ward-scarring, spirit residue, or any comparable spiritual or haunting effect. Ordinary rubble, mud, and undergrowth slow you exactly as much as they slow anyone else.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Ignore difficult terrain created by ectoplasm, ward-scarring, or spirit residue.</p><p>You ignore difficult terrain and greater difficult terrain created by ectoplasm, ward-scarring, spirit residue, or any comparable spiritual or haunting effect. Ordinary rubble, mud, and undergrowth slow you exactly as much as they slow anyone else.</p>"
         },
         "level": {
             "value": 4

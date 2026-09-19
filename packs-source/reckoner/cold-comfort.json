@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Range</strong> touch</p><p><strong>Targets</strong> 1 creature</p><p><strong>Saving Throw</strong> Will</p><hr /><p>You touch the target and take a little of whatever was carrying it forward. It must succeed at a Will save against your class DC or take a -1 status penalty to its choice of Speed or saving throws — momentum or resolve — until the end of your next turn. On a critical failure the penalty is -1 to both.</p>"
+            "value": "<p><strong>Range</strong> touch</p><p><strong>Targets</strong> 1 creature</p><p><strong>Saving Throw</strong> Will</p><hr /><p>A minor touch effect that saps a small amount of a target's momentum or resolve.</p><p>You touch the target and take a little of whatever was carrying it forward. It must succeed at a Will save against your class DC or take a -1 status penalty to its choice of Speed or saving throws — momentum or resolve — until the end of your next turn. On a critical failure the penalty is -1 to both.</p>"
         },
         "level": {
             "value": 2

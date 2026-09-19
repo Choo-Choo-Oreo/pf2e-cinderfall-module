@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Requirement</strong> You are wielding a loaded firearm.</p><p><strong>Duration</strong> 1 minute, or until you Stride</p><hr /><p>Declare a line of your own space and the two adjacent to it. While it holds, you may make a ranged Strike as a reaction against any enemy that enters or crosses that line, once per enemy per round, without expending your normal reaction. Each such Strike empties one loaded weapon; when you have nothing loaded, the line ends.</p>"
+            "value": "<p><strong>Requirement</strong> You are wielding a loaded firearm.</p><p><strong>Duration</strong> 1 minute, or until you Stride</p><hr /><p>You have decided where the fight stops. It is a very short distance from where you are standing.</p><p>Declare a line of your own space and the two adjacent to it. While it holds, you may make a ranged Strike as a reaction against any enemy that enters or crosses that line, once per enemy per round, without expending your normal reaction. Each such Strike empties one loaded weapon; when you have nothing loaded, the line ends.</p>"
         },
         "level": {
             "value": 8

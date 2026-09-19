@@ -11,7 +11,7 @@
         "damage": {},
         "defense": null,
         "description": {
-            "value": "<p>Attempt to counteract the binding using your spell DC as normal for a counteract check against the effect's rank and DC. Not guaranteed, but a real attempt where most people have none.</p>"
+            "value": "<p><strong>Saving Throw</strong> none (counteract check)</p><p>Attempt to counteract the binding using your spell DC as normal for a counteract check against the effect's rank and DC. Not guaranteed, but a real attempt where most people have none.</p>"
         },
         "duration": {
             "sustained": false,

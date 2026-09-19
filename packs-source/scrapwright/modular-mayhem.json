@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per round</p><hr /><p>Remove one mod installed in your Rig and install another you have on hand in its place, effective immediately. You still cannot exceed your Rig's mod slots. If your Rig has no mod slots, you may instead spend this action to reconfigure one property of it — a Widowmaker's damage type or range increment, a Ghost-Rig's stance — as though performing routine maintenance.</p>"
+            "value": "<p><strong>Frequency</strong> once per round</p><hr /><p>Swap a Rig mod as a single action — no longer requires downtime.</p><p>Remove one mod installed in your Rig and install another you have on hand in its place, effective immediately. You still cannot exceed your Rig's mod slots. If your Rig has no mod slots, you may instead spend this action to reconfigure one property of it — a Widowmaker's damage type or range increment, a Ghost-Rig's stance — as though performing routine maintenance.</p>"
         },
         "level": {
             "value": 6

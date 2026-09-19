@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per patient</p><p><strong>Trigger</strong> You graft a bio-augment into a patient other than yourself.</p><hr /><p>As you perform the install, take 1 point of the augment's Resonance onto yourself instead of the patient — your body reads as the site of the echo instead of theirs. This can be done once per patient, ever, and the point moves permanently: it counts against your own Resonance total, not theirs, for every purpose, including your own bands and the donor thread.</p>"
+            "value": "<p><strong>Cast</strong> part of the graft install</p><p><strong>Frequency</strong> once per patient</p><p><strong>Trigger</strong> You graft a bio-augment into a patient other than yourself.</p><hr /><p>Once per patient, absorb 1 point of a bio-augment's Resonance onto yourself instead of them.</p><p>As you perform the install, take 1 point of the augment's Resonance onto yourself instead of the patient — your body reads as the site of the echo instead of theirs. This can be done once per patient, ever, and the point moves permanently: it counts against your own Resonance total, not theirs, for every purpose, including your own bands and the donor thread.</p>"
         },
         "level": {
             "value": 6

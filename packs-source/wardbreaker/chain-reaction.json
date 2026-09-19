@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per round</p><p><strong>Trigger</strong> You Break the Anchor against a Named target.</p><hr /><p>The break jumps to one other Named creature within reach of the first. It suffers your Ward's Break the Anchor effect at half value — half the damage, half the duration, one step less severe where the effect has steps — with no new roll on your part. It cannot jump again from there.</p>"
+            "value": "<p><strong>Frequency</strong> once per round</p><p><strong>Trigger</strong> You Break the Anchor against a Named target.</p><hr /><p>Break the Anchor can jump from its target to a second Named target within reach, at reduced effect.</p><p>The break jumps to one other Named creature within reach of the first. It suffers your Ward's Break the Anchor effect at half value — half the damage, half the duration, one step less severe where the effect has steps — with no new roll on your part. It cannot jump again from there.</p>"
         },
         "level": {
             "value": 14

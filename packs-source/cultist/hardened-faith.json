@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>You gain a +1 circumstance bonus to saving throws against spells and abilities with the divine or occult trait, unless you are the source.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>A standing bonus against divine and occult saves.</p><p>You gain a +1 circumstance bonus to saving throws against spells and abilities with the divine or occult trait, unless you are the source.</p>"
         },
         "level": {
             "value": 10

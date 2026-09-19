@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> while the duel lasts</p><hr /><p>Your marked target cannot leave the encounter while you are both conscious: it cannot teleport, flee beyond 120 feet of you, become invisible to you, or be removed from the battlefield by any effect of your level or lower. Your Strikes against it ignore all resistance and all immunity to precision damage.</p>"
+            "value": "<p><strong>Duration</strong> while the duel lasts</p><hr /><p>Every duel you have ever been in has ended the same way, and everyone who studies duelling knows it.</p><p>Your marked target cannot leave the encounter while you are both conscious: it cannot teleport, flee beyond 120 feet of you, become invisible to you, or be removed from the battlefield by any effect of your level or lower. Your Strikes against it ignore all resistance and all immunity to precision damage.</p>"
         },
         "level": {
             "value": 20

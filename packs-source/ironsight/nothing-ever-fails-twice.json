@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>The first time each encounter that any given Gun Failure result (§3) would affect you, it does not — you have seen that one before. A second occurrence of the same result in the same encounter applies normally, and the eighth is presumably a message.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Every way a gun can betray you has already been tried on you, and you took notes.</p><p>The first time each encounter that any given Gun Failure result (§3) would affect you, it does not — you have seen that one before. A second occurrence of the same result in the same encounter applies normally, and the eighth is presumably a message.</p>"
         },
         "level": {
             "value": 20

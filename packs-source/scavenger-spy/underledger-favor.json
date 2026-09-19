@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per week</p><hr /><p>Call in a major favor. Choose one: an uncommon item of level equal to your level or lower; a safehouse in this settlement, secure and unwatched for one week; or one critical piece of information the GM judges the Underledger could plausibly know. The network expects this repaid, and the GM may call it in as a job.</p>"
+            "value": "<p><strong>Cast</strong> 1 hour</p><p><strong>Frequency</strong> once per week</p><hr /><p>Call a major favor from the network: rare gear, a safehouse, or a critical piece of information.</p><p>Call in a major favor. Choose one: an uncommon item of level equal to your level or lower; a safehouse in this settlement, secure and unwatched for one week; or one critical piece of information the GM judges the Underledger could plausibly know. The network expects this repaid, and the GM may call it in as a job.</p>"
         },
         "level": {
             "value": 10

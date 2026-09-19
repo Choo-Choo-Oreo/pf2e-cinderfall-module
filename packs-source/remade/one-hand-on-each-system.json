@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Anyone else carrying at least one cybernetic and one bio-organic augment has their cosmetic Load and Drift band shrink from 0–2 to 0–1. Yours doesn't — it stays 0–2, same as someone running only one system. Every other consequence of carrying both still applies to you.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>The mixed-frame penalty that punishes carrying both chrome and graft together doesn't tighten around you the way it tightens around everyone else.</p><p>Anyone else carrying at least one cybernetic and one bio-organic augment has their cosmetic Load and Drift band shrink from 0–2 to 0–1. Yours doesn't — it stays 0–2, same as someone running only one system. Every other consequence of carrying both still applies to you.</p>"
         },
         "level": {
             "value": 2

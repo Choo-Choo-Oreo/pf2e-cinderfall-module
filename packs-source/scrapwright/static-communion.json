@@ -11,7 +11,7 @@
         },
         "category": null,
         "description": {
-            "value": "<p><strong>Frequency</strong> once per unique spirit/machine encountered</p><hr /><span class=\"sdesc\">Hold a halting, one-sided conversation with any Ghost-Static machine or spirit for a short window.</span>"
+            "value": "<p><strong>Cost</strong> 10 minutes</p><p><strong>Frequency</strong> once per unique spirit/machine encountered</p><hr /><span class=\"sdesc\">Hold a halting, one-sided conversation with any Ghost-Static machine or spirit for a short window.</span>"
         },
         "publication": {
             "license": "ORC",

@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Your ranged Strikes made as reactions do not trigger reactions from the creature you are attacking, and firing a ranged weapon while within an enemy's reach does not make you off-guard or trigger its Attack of Opportunity.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Nothing that closes on you gets to answer the shot that met it.</p><p>Your ranged Strikes made as reactions do not trigger reactions from the creature you are attacking, and firing a ranged weapon while within an enemy's reach does not make you off-guard or trigger its Attack of Opportunity.</p>"
         },
         "level": {
             "value": 12

@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>When you etch THE LINE, you may etch a second one in the same action. The two lines are separate: each independently damages the first creature to cross it and bars that creature from crossing back for the rest of the encounter. They may not overlap or intersect.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Singularity-flavored, open to all — The Line can be marked on a second target within the same action.</p><p>When you etch THE LINE, you may etch a second one in the same action. The two lines are separate: each independently damages the first creature to cross it and bars that creature from crossing back for the rest of the encounter. They may not overlap or intersect.</p>"
         },
         "level": {
             "value": 12

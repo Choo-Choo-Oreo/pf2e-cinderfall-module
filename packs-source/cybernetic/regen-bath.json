@@ -9,7 +9,7 @@
         },
         "containerId": null,
         "description": {
-            "value": "<p>Organ cavity flooded with medical nanites. Fast Healing 5 while above 0 and below full. When you'd drop to 0, once per day drop to 1 instead, then drained 1.</p>"
+            "value": "<p><strong>Tags</strong> apex</p><hr /><p>Organ cavity flooded with medical nanites. Fast Healing 5 while above 0 and below full. When you'd drop to 0, once per day drop to 1 instead, then drained 1.</p>"
         },
         "hardness": 0,
         "hp": {

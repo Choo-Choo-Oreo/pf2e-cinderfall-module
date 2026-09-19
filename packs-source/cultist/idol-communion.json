@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per minute (the Rite only)</p><p><strong>Duration</strong> constant</p><hr /><p>You perceive through your Idol's senses continuously, in addition to your own, with no action and no duration. Your Idol may be any distance from you on the same plane. You are not blinded or deafened while doing so. Once per minute you may take 1 action to Cast a Rite as though you were in your Idol's space, using its position for range and line of effect; the Rite's Zeal cost is unchanged.</p>"
+            "value": "<p><strong>Cast</strong> single action (to Cast a Rite from your Idol's space)</p><p><strong>Frequency</strong> once per minute (the Rite only)</p><p><strong>Duration</strong> constant</p><hr /><p>Share senses with your Idol at will, no action required.</p><p>You perceive through your Idol's senses continuously, in addition to your own, with no action and no duration. Your Idol may be any distance from you on the same plane. You are not blinded or deafened while doing so. Once per minute you may take 1 action to Cast a Rite as though you were in your Idol's space, using its position for range and line of effect; the Rite's Zeal cost is unchanged.</p>"
         },
         "level": {
             "value": 10

@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> until you drop it or it is broken</p><hr /><p>Establish one false identity with credentials to match, chosen when you take this feat and changeable during downtime. While maintaining it you gain a +2 circumstance bonus to Deception checks to Impersonate, and a creature that succeeds at seeing through the disguise must succeed again the next time it interacts with you before it is certain — the paperwork holds up even when the face does not.</p>"
+            "value": "<p><strong>Cast</strong> 10 minutes</p><p><strong>Duration</strong> until you drop it or it is broken</p><hr /><p>Forged credentials and a disguise good enough to survive real scrutiny, not just a glance.</p><p>Establish one false identity with credentials to match, chosen when you take this feat and changeable during downtime. While maintaining it you gain a +2 circumstance bonus to Deception checks to Impersonate, and a creature that succeeds at seeing through the disguise must succeed again the next time it interacts with you before it is certain — the paperwork holds up even when the face does not.</p>"
         },
         "level": {
             "value": 8

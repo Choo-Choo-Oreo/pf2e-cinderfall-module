@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Duration</strong> 1 minute</p><hr /><p>Ignore all listed effects of one Load, Resonance, or Drift band of your choice for the duration. This doesn't lower the band or its score, only suppresses its effects temporarily.</p>"
+            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Duration</strong> 1 minute</p><hr /><p>For one minute, neither system gets a vote.</p><p>Ignore all listed effects of one Load, Resonance, or Drift band of your choice for the duration. This doesn't lower the band or its score, only suppresses its effects temporarily.</p>"
         },
         "level": {
             "value": 16

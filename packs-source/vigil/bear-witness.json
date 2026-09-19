@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per day</p><hr /><p>Formally witness an event of real weight — a death, an oath, a betrayal, a mercy. The event counts as a qualifying act toward your next Grace or Cinder even though you did not perform it. The GM decides whether an event has the weight to qualify; witnessing something trivial with ceremony does not make it significant.</p>"
+            "value": "<p><strong>Cast</strong> 1 minute</p><p><strong>Frequency</strong> once per day</p><hr /><p>Formally witness an event, qualifying it toward your next Grace or Cinder.</p><p>Formally witness an event of real weight — a death, an oath, a betrayal, a mercy. The event counts as a qualifying act toward your next Grace or Cinder even though you did not perform it. The GM decides whether an event has the weight to qualify; witnessing something trivial with ceremony does not make it significant.</p>"
         },
         "level": {
             "value": 2

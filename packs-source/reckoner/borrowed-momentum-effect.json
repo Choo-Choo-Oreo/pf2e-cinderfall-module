@@ -1,0 +1,50 @@
+{
+    "name": "Effect: Borrowed Momentum",
+    "type": "effect",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "description": {
+            "value": "<p><em>Applied by <strong>Borrowed Momentum</strong> to the touched willing creature.</em></p>\n<hr />\n<p>A +10-foot status bonus to Speed for the duration. Something nearby moves fractionally slower to pay for it.</p>"
+        },
+        "duration": {
+            "expiry": "turn-start",
+            "sustained": false,
+            "unit": "minutes",
+            "value": 1
+        },
+        "level": {
+            "value": 2
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "land-speed",
+                "type": "status",
+                "value": 10
+            }
+        ],
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "value": []
+        },
+        "slug": "borrowed-momentum-effect"
+    },
+    "_id": "2fqHcStTA8D0iHYh",
+    "flags": {
+        "cinderfall": {
+            "effectOf": "reckoner.borrowed-momentum",
+            "landsOn": "target"
+        }
+    }
+}

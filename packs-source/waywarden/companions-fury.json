@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per round</p><p><strong>Trigger</strong> You critically hit your Marked quarry with a Strike, and your Feral Bond is within 30 feet of it and able to act.</p><hr /><p>Your Feral Bond immediately makes one Strike against your Marked quarry. This Strike does not count toward your Bond's actions on its own turn, and its multiple attack penalty is calculated separately from yours.</p>"
+            "value": "<p><strong>Frequency</strong> once per round</p><p><strong>Trigger</strong> You critically hit your Marked quarry with a Strike, and your Feral Bond is within 30 feet of it and able to act.</p><hr /><p>Your Feral Bond gets an immediate bonus attack when you critically hit your Marked quarry.</p><p>Your Feral Bond immediately makes one Strike against your Marked quarry. This Strike does not count toward your Bond's actions on its own turn, and its multiple attack penalty is calculated separately from yours.</p>"
         },
         "level": {
             "value": 6

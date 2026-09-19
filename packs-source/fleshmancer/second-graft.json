@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per character level</p><p><strong>Requirement</strong> You have the Marrow Deep feat.</p><p><strong>Cost</strong> 3 Vitae</p><hr /><p>You may perform Marrow Deep's procedure on a willing ally instead of yourself: choose one minor beneficial mutation from the Bloom Table's Runaway Mutation entries the GM has approved, or propose a comparable one with the GM, and graft it into them permanently. It doesn't require maintenance. This draws from the same once-per-level limit as using Marrow Deep on yourself — the two don't stack into two uses in the same level.</p>"
+            "value": "<p><strong>Cast</strong> 1 day of downtime</p><p><strong>Frequency</strong> once per character level</p><p><strong>Requirement</strong> You have the Marrow Deep feat.</p><p><strong>Cost</strong> 3 Vitae</p><hr /><p>Perform Marrow Deep's mutation graft on a willing ally instead of yourself.</p><p>You may perform Marrow Deep's procedure on a willing ally instead of yourself: choose one minor beneficial mutation from the Bloom Table's Runaway Mutation entries the GM has approved, or propose a comparable one with the GM, and graft it into them permanently. It doesn't require maintenance. This draws from the same once-per-level limit as using Marrow Deep on yourself — the two don't stack into two uses in the same level.</p>"
         },
         "level": {
             "value": 10

@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Requirement</strong> You are wielding two firearms.</p><p><strong>Duration</strong> constant</p><hr /><p>Reduce your multiple attack penalty by 1 on the second and subsequent ranged Strikes you make in a turn while wielding two firearms. This does not stack with agile or with any other effect that reduces the multiple attack penalty; use whichever is better.</p>"
+            "value": "<p><strong>Requirement</strong> You are wielding two firearms.</p><p><strong>Duration</strong> constant</p><hr /><p>The trick was never accuracy. It was never dropping either one.</p><p>Reduce your multiple attack penalty by 1 on the second and subsequent ranged Strikes you make in a turn while wielding two firearms. This does not stack with agile or with any other effect that reduces the multiple attack penalty; use whichever is better.</p>"
         },
         "level": {
             "value": 6

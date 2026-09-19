@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Area</strong> 20-foot burst within 60 feet</p><p><strong>Duration</strong> 1 minute</p><hr /><p>Saturate an enclosed area completely. The burst becomes hazardous ground, and its persistent damage applies at the start of a creature’s turn as well as the end. A creature that attempts to leave the area must succeed at a Fortitude save or its movement ends at the boundary, having got a lungful of what is in there instead.</p>"
+            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Area</strong> 20-foot burst within 60 feet</p><p><strong>Duration</strong> 1 minute</p><hr /><p>You did not lock the door. You made the doorway not worth it.</p><p>Saturate an enclosed area completely. The burst becomes hazardous ground, and its persistent damage applies at the start of a creature’s turn as well as the end. A creature that attempts to leave the area must succeed at a Fortitude save or its movement ends at the boundary, having got a lungful of what is in there instead.</p>"
         },
         "level": {
             "value": 14

@@ -40,7 +40,7 @@
     "flags": {
         "cinderfall": {
             "incomplete": "\"Treat your own just-rolled natural 1 as a natural 20, OR force an enemy's just-rolled natural 20 within 60 feet to be treated as a natural 10\" is P-DIE for the self-facing clause (redefining a rolled die's value, not a reroll and not a degree-of-success shift; no rule element does this, confirmed absent via exhaustive grep this pass) and additionally P-CROSS for the enemy-facing clause (redefining a DIFFERENT creature's already-rolled die).",
-            "track": "croupier"
+            "track": "the-croupier"
         }
     }
 }

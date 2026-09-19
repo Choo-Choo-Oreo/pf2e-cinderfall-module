@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Area</strong> 20-foot emanation</p><p><strong>Duration</strong> until the encounter ends</p><hr /><p>Claim the ground. While you remain within 5 feet of where you declared this, enemies in the area must spend an additional action to Stride, cannot Step, and are off-guard against your Strikes. You may make one ranged Strike as a reaction against each enemy that enters the area, once per enemy per round, without expending your reaction and without spending ammunition.</p>"
+            "value": "<p><strong>Area</strong> 20-foot emanation</p><p><strong>Duration</strong> until the encounter ends</p><hr /><p>You picked the spot. Everything after that was administration.</p><p>Claim the ground. While you remain within 5 feet of where you declared this, enemies in the area must spend an additional action to Stride, cannot Step, and are off-guard against your Strikes. You may make one ranged Strike as a reaction against each enemy that enters the area, once per enemy per round, without expending your reaction and without spending ammunition.</p>"
         },
         "level": {
             "value": 20

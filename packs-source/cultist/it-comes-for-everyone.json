@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Cost</strong> 2 Zeal</p><p><strong>Range</strong> 30 feet</p><p><strong>Targets</strong> 1 creature</p><p><strong>Frequency</strong> once per day</p><p><strong>Saving Throw</strong> Will</p><p><strong>Duration</strong> 1 minute</p><hr /><p>The target must succeed at a Will save against your class DC. On a failure, nothing happens immediately, but at the start of each of its turns for the duration it takes @Damage[3d6[mental]] damage with no save (@Damage[5d6[mental]] on a critical failure). The effect ends early if the target dies or you dismiss it as a free action.</p>"
+            "value": "<p><strong>Cost</strong> 2 Zeal</p><p><strong>Range</strong> 30 feet</p><p><strong>Targets</strong> 1 creature</p><p><strong>Frequency</strong> once per day</p><p><strong>Saving Throw</strong> Will</p><p><strong>Duration</strong> 1 minute</p><hr /><p>A delayed-onset curse that ticks mental damage each turn.</p><p>The target must succeed at a Will save against your class DC. On a failure, nothing happens immediately, but at the start of each of its turns for the duration it takes @Damage[3d6[mental]] damage with no save (@Damage[5d6[mental]] on a critical failure). The effect ends early if the target dies or you dismiss it as a free action.</p>"
         },
         "level": {
             "value": 14
@@ -39,7 +39,7 @@
     "_id": "vN2A5iJtcJOby1d8",
     "flags": {
         "cinderfall": {
-            "track": "someday"
+            "track": "the-someday"
         }
     }
 }

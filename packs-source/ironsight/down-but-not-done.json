@@ -11,7 +11,7 @@
         },
         "category": null,
         "description": {
-            "value": "<p><strong>Trigger</strong> an ally within 30 feet is reduced to 0 HP</p><p><strong>Effect</strong> gain a free reload and a +2 circumstance bonus to hit on your next shot this turn</p><hr /><p>Grief, converted into aim.</p>"
+            "value": "<p><strong>Tier</strong> Blooded</p><p><strong>Trigger</strong> an ally within 30 feet is reduced to 0 HP</p><p><strong>Effect</strong> gain a free reload and a +2 circumstance bonus to hit on your next shot this turn</p><hr /><p>Grief, converted into aim.</p>"
         },
         "publication": {
             "license": "ORC",

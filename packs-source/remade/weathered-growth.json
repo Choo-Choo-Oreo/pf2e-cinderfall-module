@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Requirement</strong> bio-attuned</p><p><strong>Duration</strong> constant</p><hr /><p>While at Straining or Overgrown Load, you no longer take that band's Fortitude penalty against environmental effects (heat, cold, exhaustion, starvation). Every other listed effect of those bands still applies.</p>"
+            "value": "<p><strong>Requirement</strong> bio-attuned</p><p><strong>Duration</strong> constant</p><hr /><p>You stopped flinching at Straining a long time ago.</p><p>While at Straining or Overgrown Load, you no longer take that band's Fortitude penalty against environmental effects (heat, cold, exhaustion, starvation). Every other listed effect of those bands still applies.</p>"
         },
         "level": {
             "value": 10

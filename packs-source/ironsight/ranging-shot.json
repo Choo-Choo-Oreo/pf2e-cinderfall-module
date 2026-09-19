@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Trigger</strong> You miss a target with a ranged Strike beyond your first range increment.</p><p><strong>Duration</strong> until the end of the encounter</p><hr /><p>Note where it went. For the rest of the encounter, your ranged Strikes against that specific target reduce the range penalty by 1 for each increment beyond the first, to a minimum of 0. This applies to one target at a time; ranging a new target ends it on the previous one.</p>"
+            "value": "<p><strong>Trigger</strong> You miss a target with a ranged Strike beyond your first range increment.</p><p><strong>Duration</strong> until the end of the encounter</p><hr /><p>The first bullet is a question. The second one is not.</p><p>Note where it went. For the rest of the encounter, your ranged Strikes against that specific target reduce the range penalty by 1 for each increment beyond the first, to a minimum of 0. This applies to one target at a time; ranging a new target ends it on the previous one.</p>"
         },
         "level": {
             "value": 4

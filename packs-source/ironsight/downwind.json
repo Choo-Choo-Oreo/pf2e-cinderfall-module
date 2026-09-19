@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Range</strong> 120 feet</p><p><strong>Duration</strong> 1 minute</p><hr /><p>Choose an area of hazardous ground you created. Every creature within 30 feet of it that is not itself inside it must attempt a Fortitude save against your class DC or become sickened 1, and sickened 2 on a critical failure. Creatures that do not breathe are unaffected. You are never affected by your own.</p>"
+            "value": "<p><strong>Range</strong> 120 feet</p><p><strong>Duration</strong> 1 minute</p><hr /><p>The people who die of this are frequently not the people you were shooting at.</p><p>Choose an area of hazardous ground you created. Every creature within 30 feet of it that is not itself inside it must attempt a Fortitude save against your class DC or become sickened 1, and sickened 2 on a critical failure. Creatures that do not breathe are unaffected. You are never affected by your own.</p>"
         },
         "level": {
             "value": 12

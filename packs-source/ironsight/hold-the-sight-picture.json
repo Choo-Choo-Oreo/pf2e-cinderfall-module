@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Targets</strong> one creature you can see</p><p><strong>Duration</strong> until the start of your next turn</p><hr /><p>Settle the crosshair and do not spend the turn moving. Until the start of your next turn, your ranged Strikes against that target are treated as though made from one range increment further away than you actually are, for the purpose of your Draw’s distance damage — and one further again if the target has not acted since you began. You are rewarded for the distance, not for the delay: this costs one action, not a round.</p>"
+            "value": "<p><strong>Targets</strong> one creature you can see</p><p><strong>Duration</strong> until the start of your next turn</p><hr /><p>Waiting is the shot. Everything after it is bookkeeping.</p><p>Settle the crosshair and do not spend the turn moving. Until the start of your next turn, your ranged Strikes against that target are treated as though made from one range increment further away than you actually are, for the purpose of your Draw’s distance damage — and one further again if the target has not acted since you began. You are rewarded for the distance, not for the delay: this costs one action, not a round.</p>"
         },
         "level": {
             "value": 8

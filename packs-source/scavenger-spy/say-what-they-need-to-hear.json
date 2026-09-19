@@ -11,7 +11,7 @@
         },
         "category": null,
         "description": {
-            "value": "<p><strong>Trigger</strong> reading what the target wants</p><p><strong>Check</strong> Deception vs. target's Will DC, +3 status bonus (Expert) in place of rebuilding a cover from scratch</p><hr /><p>Reforge your personality, allegiance, and history mid-conversation.</p>"
+            "value": "<p><strong>Tier</strong> Expert</p><p><strong>Trigger</strong> reading what the target wants</p><p><strong>Check</strong> Deception vs. target's Will DC, +3 status bonus (Expert) in place of rebuilding a cover from scratch</p><hr /><p>Reforge your personality, allegiance, and history mid-conversation.</p>"
         },
         "publication": {
             "license": "ORC",

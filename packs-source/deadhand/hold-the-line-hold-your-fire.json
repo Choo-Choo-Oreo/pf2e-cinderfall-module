@@ -11,7 +11,7 @@
         },
         "category": null,
         "description": {
-            "value": "<p><strong>Effect</strong> a chosen ally either braces (+2 circumstance to AC until your next turn) or holds for a bigger response (their next Strike against a target that attacks them this round deals an extra 2d6 damage) — their choice, made when you give the order</p><hr /><p>Give an ally the choice: brace now, or hit harder in a moment.</p>"
+            "value": "<p><strong>Tier</strong> Blooded</p><p><strong>Effect</strong> a chosen ally either braces (+2 circumstance to AC until your next turn) or holds for a bigger response (their next Strike against a target that attacks them this round deals an extra 2d6 damage) — their choice, made when you give the order</p><hr /><p>Give an ally the choice: brace now, or hit harder in a moment.</p>"
         },
         "publication": {
             "license": "ORC",

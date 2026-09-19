@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Requirement</strong> You are wielding a loaded one-handed firearm.</p><hr /><p>Make three Strikes against any number of targets within your first range increment, each at a −2 penalty. These Strikes count toward your multiple attack penalty as a single attack, and the weapon is emptied afterward regardless of how many shots hit.</p>"
+            "value": "<p><strong>Requirement</strong> You are wielding a loaded one-handed firearm.</p><hr /><p>A rapid-fire flourish trading accuracy for extra shots.</p><p>Make three Strikes against any number of targets within your first range increment, each at a −2 penalty. These Strikes count toward your multiple attack penalty as a single attack, and the weapon is emptied afterward regardless of how many shots hit.</p>"
         },
         "level": {
             "value": 2

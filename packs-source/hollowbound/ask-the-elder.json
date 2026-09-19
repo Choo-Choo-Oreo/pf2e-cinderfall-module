@@ -11,7 +11,7 @@
         "damage": {},
         "defense": null,
         "description": {
-            "value": "<p>Consult the spirit for a genuine, in-character hint from the GM on a real decision the party's facing.</p>"
+            "value": "<p><strong>Activate</strong> 10 minutes (downtime activity)</p><p>Consult the spirit for a genuine, in-character hint from the GM on a real decision the party's facing.</p>"
         },
         "duration": {
             "sustained": false,

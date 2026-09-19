@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> while the duel lasts</p><hr /><p>Your marked target regains half as many Hit Points as it otherwise would from any source, and any persistent damage you have dealt it cannot be ended by anything short of magical healing of 6th rank or higher. It knows this is happening, which has never once made it easier for them.</p>"
+            "value": "<p><strong>Duration</strong> while the duel lasts</p><hr /><p>Whatever they do about the wounds, they are still losing this at the rate you set.</p><p>Your marked target regains half as many Hit Points as it otherwise would from any source, and any persistent damage you have dealt it cannot be ended by anything short of magical healing of 6th rank or higher. It knows this is happening, which has never once made it easier for them.</p>"
         },
         "level": {
             "value": 18
