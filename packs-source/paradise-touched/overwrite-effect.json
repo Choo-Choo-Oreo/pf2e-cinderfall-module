@@ -1,0 +1,59 @@
+{
+    "name": "Effect: Overwrite (Signal)",
+    "type": "effect",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "description": {
+            "value": "<p><em>Applied by <strong>Overwrite</strong> to you when you declare the cast as Signal.</em></p>\n<hr />\n<p>You gain a +2 circumstance bonus to your spell DC and Overwrite's damage die becomes d8. Remove this effect once the spell has resolved.</p>"
+        },
+        "duration": {
+            "expiry": "turn-end",
+            "sustained": false,
+            "unit": "rounds",
+            "value": 1
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "spell-dc",
+                "type": "circumstance",
+                "value": 2
+            },
+            {
+                "key": "DamageAlteration",
+                "mode": "upgrade",
+                "property": "dice-faces",
+                "selectors": [
+                    "spell-damage"
+                ],
+                "value": 8
+            }
+        ],
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "value": []
+        },
+        "slug": "overwrite-effect"
+    },
+    "_id": "szcxOXDg4Uz2GwB0",
+    "flags": {
+        "cinderfall": {
+            "effectOf": "paradise-touched.overwrite",
+            "landsOn": "self"
+        }
+    }
+}

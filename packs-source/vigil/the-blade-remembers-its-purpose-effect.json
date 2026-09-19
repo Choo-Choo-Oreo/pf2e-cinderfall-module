@@ -1,0 +1,81 @@
+{
+    "name": "Effect: The Blade Remembers Its Purpose",
+    "type": "effect",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "description": {
+            "value": "<p><em>Applied by <strong>The Blade Remembers Its Purpose</strong> to you when you cast it.</em></p>\n<hr />\n<p>Choose a category when you apply this effect: corrupted, undead, or machine-possessed. While you wield the weapon against a creature of that category, it gains a +1 circumstance bonus to attack rolls and deals an additional 4d6 damage of its own type on a hit.</p>"
+        },
+        "duration": {
+            "expiry": "turn-end",
+            "sustained": false,
+            "unit": "minutes",
+            "value": 10
+        },
+        "level": {
+            "value": 8
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "ChoiceSet",
+                "flag": "foeCategory",
+                "prompt": "Choose the category the weapon remembers",
+                "choices": [
+                    {
+                        "label": "Corrupted",
+                        "value": "target:trait:corrupted"
+                    },
+                    {
+                        "label": "Undead",
+                        "value": "target:trait:undead"
+                    },
+                    {
+                        "label": "Machine-possessed",
+                        "value": "target:trait:machine-possessed"
+                    }
+                ]
+            },
+            {
+                "key": "FlatModifier",
+                "selector": "strike-attack-roll",
+                "type": "circumstance",
+                "value": 1,
+                "predicate": [
+                    "{item|flags.pf2e.rulesSelections.foeCategory}"
+                ]
+            },
+            {
+                "key": "DamageDice",
+                "selector": "strike-damage",
+                "diceNumber": 4,
+                "dieSize": "d6",
+                "predicate": [
+                    "{item|flags.pf2e.rulesSelections.foeCategory}"
+                ]
+            }
+        ],
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "value": []
+        },
+        "slug": "the-blade-remembers-its-purpose-effect"
+    },
+    "_id": "4iniqQB5SzW1MU5o",
+    "flags": {
+        "cinderfall": {
+            "effectOf": "vigil.the-blade-remembers-its-purpose",
+            "landsOn": "self"
+        }
+    }
+}

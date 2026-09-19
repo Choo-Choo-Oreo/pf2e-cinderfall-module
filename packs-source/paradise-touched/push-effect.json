@@ -1,0 +1,50 @@
+{
+    "name": "Effect: Push (Signal)",
+    "type": "effect",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "description": {
+            "value": "<p><em>Applied by <strong>Push</strong> to you when you declare the cast as Signal.</em></p>\n<hr />\n<p>You gain a +2 circumstance bonus to your spell DC for this cast. Remove this effect once the spell has resolved.</p>"
+        },
+        "duration": {
+            "expiry": "turn-end",
+            "sustained": false,
+            "unit": "rounds",
+            "value": 1
+        },
+        "level": {
+            "value": 1
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "selector": "spell-dc",
+                "type": "circumstance",
+                "value": 2
+            }
+        ],
+        "start": {
+            "initiative": null,
+            "value": 0
+        },
+        "tokenIcon": {
+            "show": true
+        },
+        "traits": {
+            "value": []
+        },
+        "slug": "push-effect"
+    },
+    "_id": "y0zqAq9Zyzs3QOU1",
+    "flags": {
+        "cinderfall": {
+            "effectOf": "paradise-touched.push",
+            "landsOn": "self"
+        }
+    }
+}

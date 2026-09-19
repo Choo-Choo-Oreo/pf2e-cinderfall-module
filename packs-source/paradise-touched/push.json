@@ -34,23 +34,7 @@
             "value": "30 feet"
         },
         "requirements": "",
-        "rules": [
-            {
-                "key": "RollOption",
-                "option": "push-signal",
-                "toggleable": true,
-                "label": "Declaring this cast of Push as Signal"
-            },
-            {
-                "key": "FlatModifier",
-                "selector": "spell-dc",
-                "type": "circumstance",
-                "value": 2,
-                "predicate": [
-                    "push-signal"
-                ]
-            }
-        ],
+        "rules": [],
         "target": {
             "value": "1 creature"
         },

@@ -17,6 +17,53 @@
             "sustained": false,
             "value": ""
         },
+        "heightening": {
+            "levels": {
+                "4": {
+                    "damage": {
+                        "0": {
+                            "applyMod": false,
+                            "category": null,
+                            "formula": "2d8",
+                            "kinds": [
+                                "healing"
+                            ],
+                            "materials": [],
+                            "type": "vitality"
+                        }
+                    }
+                },
+                "5": {
+                    "damage": {
+                        "0": {
+                            "applyMod": false,
+                            "category": null,
+                            "formula": "4d8",
+                            "kinds": [
+                                "healing"
+                            ],
+                            "materials": [],
+                            "type": "vitality"
+                        }
+                    }
+                },
+                "6": {
+                    "damage": {
+                        "0": {
+                            "applyMod": false,
+                            "category": null,
+                            "formula": "6d8",
+                            "kinds": [
+                                "healing"
+                            ],
+                            "materials": [],
+                            "type": "vitality"
+                        }
+                    }
+                }
+            },
+            "type": "fixed"
+        },
         "level": {
             "value": 3
         },

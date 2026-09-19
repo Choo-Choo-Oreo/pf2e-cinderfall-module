@@ -8,7 +8,18 @@
             "value": ""
         },
         "counteraction": false,
-        "damage": {},
+        "damage": {
+            "0": {
+                "applyMod": false,
+                "category": null,
+                "formula": "2d6",
+                "kinds": [
+                    "damage"
+                ],
+                "materials": [],
+                "type": "force"
+            }
+        },
         "defense": {
             "save": {
                 "basic": true,
@@ -22,6 +33,13 @@
             "sustained": false,
             "value": ""
         },
+        "heightening": {
+            "damage": {
+                "0": "1d6"
+            },
+            "interval": 1,
+            "type": "interval"
+        },
         "level": {
             "value": 1
         },
@@ -34,35 +52,7 @@
             "value": "60 feet"
         },
         "requirements": "",
-        "rules": [
-            {
-                "key": "RollOption",
-                "option": "overwrite-signal",
-                "toggleable": true,
-                "label": "Declaring this cast of Overwrite as Signal"
-            },
-            {
-                "key": "FlatModifier",
-                "selector": "spell-dc",
-                "type": "circumstance",
-                "value": 2,
-                "predicate": [
-                    "overwrite-signal"
-                ]
-            },
-            {
-                "key": "DamageAlteration",
-                "mode": "upgrade",
-                "property": "dice-faces",
-                "selectors": [
-                    "spell-damage"
-                ],
-                "predicate": [
-                    "overwrite-signal"
-                ],
-                "value": 8
-            }
-        ],
+        "rules": [],
         "target": {
             "value": "1 creature"
         },

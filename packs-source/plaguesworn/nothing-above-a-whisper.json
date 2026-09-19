@@ -17,6 +17,17 @@
             "sustained": false,
             "value": "1 minute"
         },
+        "heightening": {
+            "levels": {
+                "4": {
+                    "area": {
+                        "type": "emanation",
+                        "value": 10
+                    }
+                }
+            },
+            "type": "fixed"
+        },
         "level": {
             "value": 2
         },

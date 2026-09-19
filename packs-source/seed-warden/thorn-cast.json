@@ -38,6 +38,14 @@
             "sustained": false,
             "value": ""
         },
+        "heightening": {
+            "damage": {
+                "0": "1d6",
+                "1": "1d4"
+            },
+            "interval": 2,
+            "type": "interval"
+        },
         "level": {
             "value": 1
         },
