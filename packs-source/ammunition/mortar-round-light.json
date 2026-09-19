@@ -8,7 +8,7 @@
             "value": 0.1
         },
         "description": {
-            "value": "<p>A single fired round, tracked as one item. On impact: 10-foot burst, 4d6 fire plus 2d6 bludgeoning damage, DC 22 basic Reflex save.</p>"
+            "value": "<p><strong>In brief</strong> Same burst as a Light Missile, in a lighter, cheaper shell.</p><p>A single fired round, tracked as one item. On impact: 10-foot burst, 4d6 fire plus 2d6 bludgeoning damage, DC 22 basic Reflex save.</p>"
         },
         "hardness": 0,
         "hp": {

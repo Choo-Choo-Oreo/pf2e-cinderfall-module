@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Requirement</strong> chrome-attuned</p><p><strong>Duration</strong> constant</p><hr /><p>Your Speed increases by 5 feet.</p>"
+            "value": "<p><strong>Requirement</strong> chrome-attuned</p><p><strong>Duration</strong> constant</p><hr /><p>Your legs know how to move before you've finished deciding to.</p><p>Your Speed increases by 5 feet.</p>"
         },
         "level": {
             "value": 6

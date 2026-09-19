@@ -8,7 +8,7 @@
             "value": 1
         },
         "description": {
-            "value": "<p>A single fired round, tracked as one item. On impact: 15-foot burst, 6d6 fire plus 3d6 bludgeoning damage, DC 26 basic Reflex save. A creature that fails is also knocked prone.</p>"
+            "value": "<p><strong>In brief</strong> 15-ft burst, 6d6 fire + 3d6 bludgeoning, DC 26 basic Reflex, knocks prone on a failure.</p><p>A single fired round, tracked as one item. On impact: 15-foot burst, 6d6 fire plus 3d6 bludgeoning damage, DC 26 basic Reflex save. A creature that fails is also knocked prone.</p>"
         },
         "hardness": 0,
         "hp": {

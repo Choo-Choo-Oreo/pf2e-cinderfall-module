@@ -1,6 +1,6 @@
 {
-    "name": "Full City Integration",
-    "type": "feat",
+    "name": "Machine Apotheosis",
+    "type": "capstone",
     "img": "icons/svg/mystery-man.svg",
     "system": {
         "actionType": {
@@ -11,10 +11,10 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Requirement</strong> chrome-attuned</p><p><strong>Duration</strong> constant</p><hr /><p>Cyber City's bargain runs deeper in you than in most.</p><p>Your Attunement (§03) reads your Drift two bands lower instead of one, for effect purposes.</p>"
+            "value": "<p>Choose one, permanently: your Rig gains a fragment of true sapience and becomes a genuine ally with its own initiative and agenda — or you personally become part-machine, gaining a minor construct trait such as resisting a damage type or no longer needing to breathe.</p>"
         },
         "level": {
-            "value": 18
+            "value": 19
         },
         "prerequisites": {
             "value": []
@@ -27,16 +27,12 @@
         "rules": [],
         "traits": {
             "rarity": "common",
+            "otherTags": [],
             "value": [
-                "remade"
+                "scrapwright"
             ]
         },
-        "slug": "full-city-integration"
+        "slug": "machine-apotheosis"
     },
-    "_id": "bTmKi8n6cE9qhhFK",
-    "flags": {
-        "cinderfall": {
-            "incomplete": "BAND-GAP."
-        }
-    }
+    "_id": "EgpTb0N7FSFqHIlc"
 }

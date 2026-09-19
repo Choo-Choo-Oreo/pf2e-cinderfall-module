@@ -1,0 +1,38 @@
+{
+    "name": "The Gate Answers  /  The Cage Cracks",
+    "type": "capstone",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p>Once in your entire career — not per day, not per campaign arc, once — the defining act of your faith actually happens, fully, unmistakably.</p><div class=\"fork unanswered-fork\"><div><h5>The Gate Answers</h5><p>Your prayer is answered directly, from beyond the sealed gates themselves. Effect scale: undo a catastrophe, resurrect several of the dead, banish a Turning-era horror outright. This is table-legend material, built with your GM, not rolled for casually.</p></div></div><div class=\"fork choir-fork\"><div></div><div><h5>The Cage Cracks</h5><p>You channel a genuine, controlled fragment of Uriel's power through the seal at a target of your choosing — campaign-defining destruction, and the seal is now measurably weaker for it. This should visibly move the setting's main plot (Setting Bible §13) forward.</p></div></div>"
+        },
+        "level": {
+            "value": 20
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "otherTags": [],
+            "value": [
+                "vigil"
+            ]
+        },
+        "slug": "the-gate-answers-the-cage-cracks"
+    },
+    "_id": "TFiPqTc3hqbC4SFU"
+}

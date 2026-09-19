@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Effects that function only against creatures that are entirely a construct, entirely organic, or otherwise \"purely\" one type do not function on you.</p>"
+            "value": "<p><strong>Duration</strong> constant</p><hr /><p>Anything that needs you to be purely one thing or the other doesn't know what to do with you.</p><p>Effects that function only against creatures that are entirely a construct, entirely organic, or otherwise \"purely\" one type do not function on you.</p>"
         },
         "level": {
             "value": 18

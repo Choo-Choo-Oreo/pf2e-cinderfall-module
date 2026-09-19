@@ -1,6 +1,6 @@
 {
-    "name": "Full City Integration",
-    "type": "feat",
+    "name": "The Last Diagnosis",
+    "type": "capstone",
     "img": "icons/svg/mystery-man.svg",
     "system": {
         "actionType": {
@@ -11,10 +11,10 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Requirement</strong> chrome-attuned</p><p><strong>Duration</strong> constant</p><hr /><p>Cyber City's bargain runs deeper in you than in most.</p><p>Your Attunement (§03) reads your Drift two bands lower instead of one, for effect purposes.</p>"
+            "value": "<p>Once per day, diagnose a creature's death before it happens — a precise, unavoidable read of exactly how and when it will die if nothing changes. Whether you tell them is up to you. The Choir finds that part very interesting.</p>"
         },
         "level": {
-            "value": 18
+            "value": 20
         },
         "prerequisites": {
             "value": []
@@ -27,16 +27,12 @@
         "rules": [],
         "traits": {
             "rarity": "common",
+            "otherTags": [],
             "value": [
-                "remade"
+                "plaguesworn"
             ]
         },
-        "slug": "full-city-integration"
+        "slug": "the-last-diagnosis"
     },
-    "_id": "bTmKi8n6cE9qhhFK",
-    "flags": {
-        "cinderfall": {
-            "incomplete": "BAND-GAP."
-        }
-    }
+    "_id": "kuIAc9Ijz7HFlERV"
 }

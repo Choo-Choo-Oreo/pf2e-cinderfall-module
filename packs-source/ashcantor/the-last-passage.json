@@ -1,6 +1,6 @@
 {
-    "name": "Full City Integration",
-    "type": "feat",
+    "name": "The Last Passage",
+    "type": "capstone",
     "img": "icons/svg/mystery-man.svg",
     "system": {
         "actionType": {
@@ -11,10 +11,10 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Requirement</strong> chrome-attuned</p><p><strong>Duration</strong> constant</p><hr /><p>Cyber City's bargain runs deeper in you than in most.</p><p>Your Attunement (§03) reads your Drift two bands lower instead of one, for effect purposes.</p>"
+            "value": "<p>You may choose the moment of your own Walking Through rather than waiting for the Passage track to force it — and when you do, everyone within Dead-Sight range of you gets one honest, unhurried goodbye first. The Choir has never once managed to talk an Ashcantor out of using this on their own terms instead of the Choir's.</p>"
         },
         "level": {
-            "value": 18
+            "value": 20
         },
         "prerequisites": {
             "value": []
@@ -27,16 +27,12 @@
         "rules": [],
         "traits": {
             "rarity": "common",
+            "otherTags": [],
             "value": [
-                "remade"
+                "ashcantor"
             ]
         },
-        "slug": "full-city-integration"
+        "slug": "the-last-passage"
     },
-    "_id": "bTmKi8n6cE9qhhFK",
-    "flags": {
-        "cinderfall": {
-            "incomplete": "BAND-GAP."
-        }
-    }
+    "_id": "FV72RXHetjiTMvx7"
 }

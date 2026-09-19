@@ -1,0 +1,38 @@
+{
+    "name": "The Last Contract",
+    "type": "capstone",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p>Choose one, permanently. <strong>Outlast</strong> — once per day, the hit that would kill you instead leaves you standing at 1 HP, and you Redline for free as your body refuses on your behalf. <strong>One More War</strong> — once per day, spend your entire Tally pool in a single Redline for a devastating strike against every foe you can reach, with no Slip roll at all. The body that's kept you alive this long gets exactly one truly reckless swing left in it, and it's spent making sure it counts.</p>"
+        },
+        "level": {
+            "value": 20
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "otherTags": [],
+            "value": [
+                "deadhand"
+            ]
+        },
+        "slug": "the-last-contract"
+    },
+    "_id": "4zcIyOzNq8FnSTuD"
+}

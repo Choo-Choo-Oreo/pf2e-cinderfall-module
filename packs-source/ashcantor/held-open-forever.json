@@ -1,6 +1,6 @@
 {
-    "name": "Full City Integration",
-    "type": "feat",
+    "name": "Held Open Forever",
+    "type": "capstone",
     "img": "icons/svg/mystery-man.svg",
     "system": {
         "actionType": {
@@ -11,10 +11,10 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Requirement</strong> chrome-attuned</p><p><strong>Duration</strong> constant</p><hr /><p>Cyber City's bargain runs deeper in you than in most.</p><p>Your Attunement (§03) reads your Drift two bands lower instead of one, for effect purposes.</p>"
+            "value": "<p>Once per day, when you'd perform a Passing, do it without moving from where you stand — no need to be adjacent, no need for the target to be willing or incapacitated, provided you already know exactly who it is and where they are.</p>"
         },
         "level": {
-            "value": 18
+            "value": 19
         },
         "prerequisites": {
             "value": []
@@ -27,16 +27,12 @@
         "rules": [],
         "traits": {
             "rarity": "common",
+            "otherTags": [],
             "value": [
-                "remade"
+                "ashcantor"
             ]
         },
-        "slug": "full-city-integration"
+        "slug": "held-open-forever"
     },
-    "_id": "bTmKi8n6cE9qhhFK",
-    "flags": {
-        "cinderfall": {
-            "incomplete": "BAND-GAP."
-        }
-    }
+    "_id": "p2EXvBxWLbb2LRJw"
 }

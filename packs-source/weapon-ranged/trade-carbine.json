@@ -45,7 +45,7 @@
         "category": "martial",
         "damage": {
             "dice": 1,
-            "die": "d10",
+            "die": "d12",
             "damageType": "piercing"
         },
         "group": "firearm",

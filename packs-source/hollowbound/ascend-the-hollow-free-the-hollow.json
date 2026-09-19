@@ -1,0 +1,38 @@
+{
+    "name": "Ascend the Hollow / Free the Hollow",
+    "type": "capstone",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p>The defining choice. Choose one, permanently:</p><div class=\"fork\"><div><h5>Ascend</h5><p>Fuse the Hollow into your own body for good. You're not quite alive in the way you used to define it — the boundary between you and every spirit you've ever housed gets permanently thinner, and permanently stronger.</p></div><div><h5>Free</h5><p>Send your spirit on, somewhere gates are still supposed to open. In exchange it leaves behind a legendary, standing favor — a boon you can call on once when nothing else is left, from a spirit who no longer technically exists to grant it.</p></div></div>"
+        },
+        "level": {
+            "value": 20
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "otherTags": [],
+            "value": [
+                "hollowbound"
+            ]
+        },
+        "slug": "ascend-the-hollow-free-the-hollow"
+    },
+    "_id": "vu2Cd8FCCc90QzvS"
+}

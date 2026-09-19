@@ -1,6 +1,6 @@
 {
-    "name": "Full City Integration",
-    "type": "feat",
+    "name": "Anchorless",
+    "type": "capstone",
     "img": "icons/svg/mystery-man.svg",
     "system": {
         "actionType": {
@@ -11,10 +11,10 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Requirement</strong> chrome-attuned</p><p><strong>Duration</strong> constant</p><hr /><p>Cyber City's bargain runs deeper in you than in most.</p><p>Your Attunement (§03) reads your Drift two bands lower instead of one, for effect purposes.</p>"
+            "value": "<p>You can no longer be Anchored, possessed, or bound against your will by any hostile spirit or petty god — your own grief and directives are entirely your own. You perceive any creature's Anchor the instant you look for it, without needing to Name it first, though Breaking it still takes the doing.</p>"
         },
         "level": {
-            "value": 18
+            "value": 19
         },
         "prerequisites": {
             "value": []
@@ -27,16 +27,12 @@
         "rules": [],
         "traits": {
             "rarity": "common",
+            "otherTags": [],
             "value": [
-                "remade"
+                "wardbreaker"
             ]
         },
-        "slug": "full-city-integration"
+        "slug": "anchorless"
     },
-    "_id": "bTmKi8n6cE9qhhFK",
-    "flags": {
-        "cinderfall": {
-            "incomplete": "BAND-GAP."
-        }
-    }
+    "_id": "Ak9G2zMtNu0VPzCC"
 }

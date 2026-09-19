@@ -1,0 +1,38 @@
+{
+    "name": "The Final Bargain",
+    "type": "capstone",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p>Choose one, permanently. <strong>Break It</strong> — turn on your patron and tear a portion of its power free by force. You keep a permanent fraction of what it gave you, but the god is now diminished and will never forgive you; it has all the time in the world to plan around that. <strong>Fulfill It</strong> — give yourself over completely. You become your patron's herald in the mortal world: permanent, dramatic power, and a standing obligation to its will that follows you for the rest of the campaign.</p>"
+        },
+        "level": {
+            "value": 20
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "otherTags": [],
+            "value": [
+                "cultist"
+            ]
+        },
+        "slug": "the-final-bargain"
+    },
+    "_id": "XnGqs3y2Wz4znNjx"
+}

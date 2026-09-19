@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Requirement</strong> bio-attuned</p><p><strong>Duration</strong> constant</p><hr /><p>You may treat any Wild-tier augment you want as available with a one-week lead time, no roll required, regardless of the shop's actual current stock.</p>"
+            "value": "<p><strong>Requirement</strong> bio-attuned</p><p><strong>Duration</strong> constant</p><hr /><p>Your name on the Butcher's list opens the vault now, not just the back room.</p><p>You may treat any Wild-tier augment you want as available with a one-week lead time, no roll required, regardless of the shop's actual current stock.</p>"
         },
         "level": {
             "value": 20

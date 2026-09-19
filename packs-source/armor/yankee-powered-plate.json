@@ -7,7 +7,7 @@
             "value": 1
         },
         "description": {
-            "value": "<p>Requires Ghost-Static fuel cells to move freely; without power, treat as immobilizing dead weight. Loot-tier.</p>"
+            "value": "<p><strong>Armor type</strong> Exosuit.</p><p>Requires Ghost-Static fuel cells to move freely; without power, treat as immobilizing dead weight. Loot-tier.</p>"
         },
         "hardness": 0,
         "hp": {
