@@ -434,7 +434,7 @@ async function resolveEquipmentUuid(name) {
   // Resolved from the live index rather than hardcoded: build_pack.py assigns
   // the _id, so an id pinned here would silently rot on the next rebuild.
   const entry = (await pack.getIndex()).find((e) => e.name === name);
-  return entry ? `Compendium.${MODULE_ID}.equipment.${entry._id}` : null;
+  return entry ? `Compendium.${MODULE_ID}.equipment.Item.${entry._id}` : null;
 }
 
 Hooks.once("ready", async () => {
@@ -877,7 +877,7 @@ async function ensureCinderfallGraftsKnown(actor) {
     for (const e of index) {
       if (e.system?.price === undefined) continue; // feats/actions carry no price field
       if (!e.system?.traits?.value?.includes(CINDERFALL_GRAFT_TRAIT)) continue;
-      const uuid = `Compendium.${pack.metadata.id}.${e._id}`;
+      const uuid = `Compendium.${pack.metadata.id}.Item.${e._id}`;
       if (known.has(uuid)) continue;
       toAdd.push({ uuid });
     }
