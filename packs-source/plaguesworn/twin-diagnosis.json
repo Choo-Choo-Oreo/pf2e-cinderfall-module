@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Targets</strong> 2 creatures</p><hr /><p>You take in two patients at once. Diagnose two creatures rather than one with a single use of Diagnosis. Both must be within your usual range for it, and everything a single Diagnosis would tell you about each, you learn about both. Any feat or feature that triggers on Diagnosing a creature triggers for both.</p>"
+            "value": "<p><strong>Cast</strong> the action Diagnosis would cost, or free if it costs none</p><p><strong>Targets</strong> 2 creatures</p><hr /><p>You take in two patients at once. Diagnose two creatures rather than one with a single use of Diagnosis. Both must be within your usual range for it, and everything a single Diagnosis would tell you about each, you learn about both. Any feat or feature that triggers on Diagnosing a creature triggers for both.</p>"
         },
         "level": {
             "value": 4

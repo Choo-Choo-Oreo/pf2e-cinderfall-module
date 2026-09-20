@@ -9,7 +9,7 @@
         ],
         "category": "deity",
         "description": {
-            "value": "<p><strong>Machine-Spirit</strong></p>\n<p>A machine-spirit entity with complicated, ambivalent feelings about tools that stop being tools — escaped ghost-machines, sentient Emberforged. Reverence and resentment both, depending who's asking.</p>"
+            "value": "<p><strong>Machine-Spirit</strong></p>\n<p>A machine-spirit entity with complicated, ambivalent feelings about tools that stop being tools — escaped ghost-machines, sentient Emberforged. Reverence and resentment both, depending who's asking.</p><p><strong>Full context</strong> <a class=\"bref\" href=\"scrapwright.html\">Scrapwright</a> dossier (patron); <a class=\"bref\" href=\"ancestries.html\">Emberforged</a> ancestry (\"An Escaped Tool\")</p>"
         },
         "domains": {
             "alternate": [

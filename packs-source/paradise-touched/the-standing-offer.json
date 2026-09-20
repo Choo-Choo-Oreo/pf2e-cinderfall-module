@@ -1,0 +1,38 @@
+{
+    "name": "The Standing Offer",
+    "type": "capstone",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Automatic</strong></p><p>Paradise stops asking you to join, because it has concluded you effectively have. You gain the ability to cast <strong>The Invitation</strong> once per day without expending a spell slot, and you no longer take Signal Drift from casting it.</p><p>You are, at this point, the most useful thing Paradise has ever built out of a person, and it has stopped pretending otherwise. Whether that is a capstone or an ending is a question the class refuses to settle.</p>"
+        },
+        "level": {
+            "value": 20
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "otherTags": [],
+            "value": [
+                "paradise-touched"
+            ]
+        },
+        "slug": "the-standing-offer"
+    },
+    "_id": "kaS7Q5uvk4r2qdxE"
+}

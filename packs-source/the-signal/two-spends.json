@@ -1,0 +1,38 @@
+{
+    "name": "Two Spends",
+    "type": "capstone",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Automatic</strong></p><p>Allies may spend Encore <strong>twice per round</strong> rather than once — either two different allies, or one ally on two separate failed checks.</p><p><strong>Design intent:</strong> this is the throughput half. Your cap at this point is 7, climbing to 9 at 19th, and it will still empty faster than you can fill it once the party learns to use it properly.</p>"
+        },
+        "level": {
+            "value": 17
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "otherTags": [],
+            "value": [
+                "the-signal"
+            ]
+        },
+        "slug": "two-spends"
+    },
+    "_id": "Ehphlx3I0jgvQPCT"
+}

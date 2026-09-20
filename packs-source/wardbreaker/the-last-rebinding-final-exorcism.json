@@ -1,0 +1,38 @@
+{
+    "name": "The Last Rebinding / Final Exorcism",
+    "type": "capstone",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Choose One, Permanently</strong></p><div class=\"fork-grid\"><div><h4 style=\"margin-bottom:6px;\">The Last Rebinding</h4><p>Once per day, when you defeat a hostile spirit or ghost-machine you've Named, you may fully re-bind it — not weaken it, not delay it, but capture it whole as a permanent bound servant-spirit, no matter which Ward you chose at 1st level. Every hazard you end this way is one more soul put back to useful work, whatever that says about you.</p></div><div><h4 style=\"margin-bottom:6px;\">Final Exorcism</h4><p>Once per day, Break the Anchor doesn't just end a hostile spirit's rampage — it unmakes the Anchor itself, permanently. What's destroyed this way doesn't linger, doesn't reform, and can never again haunt anything. In a world where the dead have nowhere else to go, this is the rarest mercy anyone can offer them.</p></div></div>"
+        },
+        "level": {
+            "value": 20
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "otherTags": [],
+            "value": [
+                "wardbreaker"
+            ]
+        },
+        "slug": "the-last-rebinding-final-exorcism"
+    },
+    "_id": "TGh4nBUVM94CezGx"
+}

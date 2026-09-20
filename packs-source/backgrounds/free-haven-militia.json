@@ -26,7 +26,7 @@
             }
         },
         "description": {
-            "value": "<p>Not a soldier, not a specialist — just someone who picked up whatever was needed when the settlement's turn came to stand a watch, because in a Free Haven, that's everyone's job eventually.</p>"
+            "value": "<p><strong>Origin</strong> Free Havens</p><p>Not a soldier, not a specialist — just someone who picked up whatever was needed when the settlement's turn came to stand a watch, because in a Free Haven, that's everyone's job eventually.</p>"
         },
         "items": {
             "neighbors-keeper": {

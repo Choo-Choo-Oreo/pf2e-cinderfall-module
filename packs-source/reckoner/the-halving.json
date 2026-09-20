@@ -1,14 +1,34 @@
 {
-    "name": "The Halving",
-    "type": "lore",
-    "img": "icons/svg/mystery-man.svg",
-    "system": {
-        "description": {
-            "value": "<p>Everything in Cinderfall agrees on one point: whatever this is, it was never a \"someone.\" No account exists, anywhere, pre- or post-Turning, of it intervening for an individual, granting a vision, answering a prayer directed at it personally, or even acknowledging that prayers exist. It simply runs — the way radioactive decay runs, the way heat bleeds toward cold, the way a wall built against the sea eventually loses. Reckoners don't have a relationship with it. They've found a place to stand close enough to something that large that a little of what it's always doing spills onto them.</p>"
-        },
-        "slug": "the-halving"
-    },
     "_id": "PZy0WDSvxkm1Yjvr",
+    "categories": [],
+    "name": "The Halving",
+    "ownership": {
+        "default": 0
+    },
+    "pages": [
+        {
+            "_id": "yMhEvPqsE926UBvu",
+            "category": null,
+            "image": {},
+            "name": "The Halving",
+            "sort": 100000,
+            "src": null,
+            "system": {},
+            "text": {
+                "content": "<p>Everything in Cinderfall agrees on one point: whatever this is, it was never a \"someone.\" No account exists, anywhere, pre- or post-Turning, of it intervening for an individual, granting a vision, answering a prayer directed at it personally, or even acknowledging that prayers exist. It simply runs — the way radioactive decay runs, the way heat bleeds toward cold, the way a wall built against the sea eventually loses. Reckoners don't have a relationship with it. They've found a place to stand close enough to something that large that a little of what it's always doing spills onto them.</p>",
+                "format": 1
+            },
+            "title": {
+                "level": 1,
+                "show": true
+            },
+            "type": "text",
+            "video": {
+                "controls": true,
+                "volume": 0.5
+            }
+        }
+    ],
     "flags": {
         "cinderfall": {}
     }

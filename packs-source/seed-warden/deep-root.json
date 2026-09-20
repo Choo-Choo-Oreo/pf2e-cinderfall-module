@@ -1,0 +1,38 @@
+{
+    "name": "Deep Root",
+    "type": "capstone",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p>Every [TERRAIN] effect you've ever created stays quietly tied to you, wherever it stands, for as long as you're alive to hold the other end. Design note: exact mechanical benefit still needs to be written before this class is playtested.</p>"
+        },
+        "level": {
+            "value": 19
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "otherTags": [],
+            "value": [
+                "seed-warden"
+            ]
+        },
+        "slug": "deep-root"
+    },
+    "_id": "4fFB7ejcf4qg2Ggt"
+}

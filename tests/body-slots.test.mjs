@@ -149,7 +149,9 @@ ok(() => {
       if (!("slot" in cf) && !("slots" in cf)) continue;
       slotted += 1;
       const where = `${dir}/${f}`;
-      assert.equal(typeof cf.slot, "string", `${where}: slot must stay the verbatim page string`);
+      // The verbatim `slot` string was retired (making-cards doc 12 R-19); `slots`
+      // is the only slot field. A card that grows `slot` again is the defect.
+      assert.ok(!("slot" in cf), `${where}: flags.cinderfall.slot is retired -- use slots`);
       assert.ok(Array.isArray(cf.slots), `${where}: slots must be the atomic array`);
       assert.equal(cf.slotCost, cf.slots.length, `${where}: slotCost must equal slots.length`);
       for (const k of cf.slots) {

@@ -1,0 +1,38 @@
+{
+    "name": "Chosen at 1st, Realized at 15th",
+    "type": "capstone",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Path Capstone</strong></p><p>Each Path's capstone sharpens what it already does rather than granting something unrelated: the Hearth's Warmth Before The Ash stops requiring the Passing to still be in progress; the Pyre's Forced Passage no longer allows a saving throw — it either lands or it doesn't; the Threshold's Held Open stops being once-per-encounter, within reason.</p>"
+        },
+        "level": {
+            "value": 15
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "otherTags": [],
+            "value": [
+                "ashcantor"
+            ]
+        },
+        "slug": "the-path-capstone"
+    },
+    "_id": "0T66LP4iuw6ZmWsa"
+}

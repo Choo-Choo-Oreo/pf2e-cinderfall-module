@@ -1,14 +1,34 @@
 {
-    "name": "Last Testament — Quest Hook",
-    "type": "lore",
-    "img": "icons/svg/mystery-man.svg",
-    "system": {
-        "description": {
-            "value": "<p>The church is still there, or the frame of it — a coastal parish burned to its foundation stones and never rebuilt, because nobody could agree on why it burned or where the priest went. Two witnesses swear he was still firing when the roof came down. One swears she saw him a week later, unmarked, buying ammunition he had no gun for. Whoever chases this down should expect to find more people willing to talk about the fire than about the man.</p><p>The gun itself resurfaced decades later, changing hands twice before anyone realized what it did. Neither owner reported the priest coming back for it — which is either reassuring or isn't, depending on how long it's been since the last confirmed sighting of him.</p>"
-        },
-        "slug": "last-testament-quest"
-    },
     "_id": "V4GyDkGDhVhdZ4X8",
+    "categories": [],
+    "name": "Last Testament — Quest Hook",
+    "ownership": {
+        "default": 0
+    },
+    "pages": [
+        {
+            "_id": "XvzQ65wKle8afdTD",
+            "category": null,
+            "image": {},
+            "name": "Last Testament — Quest Hook",
+            "sort": 100000,
+            "src": null,
+            "system": {},
+            "text": {
+                "content": "<p>The church is still there, or the frame of it — a coastal parish burned to its foundation stones and never rebuilt, because nobody could agree on why it burned or where the priest went. Two witnesses swear he was still firing when the roof came down. One swears she saw him a week later, unmarked, buying ammunition he had no gun for. Whoever chases this down should expect to find more people willing to talk about the fire than about the man.</p><p>The gun itself resurfaced decades later, changing hands twice before anyone realized what it did. Neither owner reported the priest coming back for it — which is either reassuring or isn't, depending on how long it's been since the last confirmed sighting of him.</p>",
+                "format": 1
+            },
+            "title": {
+                "level": 1,
+                "show": true
+            },
+            "type": "text",
+            "video": {
+                "controls": true,
+                "volume": 0.5
+            }
+        }
+    ],
     "flags": {
         "cinderfall": {}
     }

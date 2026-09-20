@@ -1,0 +1,38 @@
+{
+    "name": "Clean Line",
+    "type": "capstone",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Automatic</strong></p><p>Your Signal failure damage no longer scales with level — it is a flat 20 force damage, however high you climb. You have learned where the sharp edge is and stopped putting your whole hand on it.</p><p>This is the mercy half of the 17th-level pair, and it is the reason a high-level Paradise-Touched can afford to declare Signal at all.</p>"
+        },
+        "level": {
+            "value": 17
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "otherTags": [],
+            "value": [
+                "paradise-touched"
+            ]
+        },
+        "slug": "clean-line"
+    },
+    "_id": "ByXei9Cpz5Uud0X2"
+}

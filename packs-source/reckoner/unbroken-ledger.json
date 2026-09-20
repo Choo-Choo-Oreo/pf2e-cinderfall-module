@@ -1,0 +1,38 @@
+{
+    "name": "Unbroken Ledger",
+    "type": "capstone",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Class Feature</strong></p><p>Choose one, permanently: you can hold indefinitely at Reckoning Stage III without it ever compounding further from ordinary use — or once per day, negate entirely what your next Reckoning stage would have cost you.</p>"
+        },
+        "level": {
+            "value": 19
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "otherTags": [],
+            "value": [
+                "reckoner"
+            ]
+        },
+        "slug": "unbroken-ledger"
+    },
+    "_id": "Gzgp7hm437SJM46F"
+}

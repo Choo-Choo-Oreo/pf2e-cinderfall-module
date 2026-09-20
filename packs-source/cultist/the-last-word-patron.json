@@ -1,14 +1,34 @@
 {
-    "name": "The Last Word",
-    "type": "lore",
-    "img": "icons/svg/mystery-man.svg",
-    "system": {
-        "description": {
-            "value": "<p>It doesn't explode on contact. It keeps the boil going for as long as it takes — through the insult, through the apology nobody offered, through however many years it takes — and only detonates once it's been made to stop mid-tirade. Its followers describe a fury that never quite cools, only waits, and a punishment that always lands exactly when the target thought it was safe.</p><p>Its shrines sit in feud towns and standing duel-grounds — places where an old slight never got answered and everyone still remembers whose fault that was. It doesn't ask its cultists to forgive. It asks them to keep score.</p>"
-        },
-        "slug": "the-last-word-patron"
-    },
     "_id": "jFs70UcDV5mrP140",
+    "categories": [],
+    "name": "The Last Word",
+    "ownership": {
+        "default": 0
+    },
+    "pages": [
+        {
+            "_id": "bEcbbftt4ctXcgkH",
+            "category": null,
+            "image": {},
+            "name": "The Last Word",
+            "sort": 100000,
+            "src": null,
+            "system": {},
+            "text": {
+                "content": "<p>It doesn't explode on contact. It keeps the boil going for as long as it takes — through the insult, through the apology nobody offered, through however many years it takes — and only detonates once it's been made to stop mid-tirade. Its followers describe a fury that never quite cools, only waits, and a punishment that always lands exactly when the target thought it was safe.</p><p>Its shrines sit in feud towns and standing duel-grounds — places where an old slight never got answered and everyone still remembers whose fault that was. It doesn't ask its cultists to forgive. It asks them to keep score.</p>",
+                "format": 1
+            },
+            "title": {
+                "level": 1,
+                "show": true
+            },
+            "type": "text",
+            "video": {
+                "controls": true,
+                "volume": 0.5
+            }
+        }
+    ],
     "flags": {
         "cinderfall": {}
     }

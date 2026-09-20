@@ -1,14 +1,34 @@
 {
-    "name": "The Claimant",
-    "type": "lore",
-    "img": "icons/svg/mystery-man.svg",
-    "system": {
-        "description": {
-            "value": "<p>It doesn't crave broadly. It fixates completely on one specific thing per follower — an object, a place, a cause, occasionally a person — and will not loosen its grip on that one thing, ever. It is savagely jealous of anything else that thing's attention goes to, and grants power in direct proportion to how fiercely its followers guard what they've claimed.</p><p>Its shrines are wherever a single relic is kept behind more locks than it's worth, watched over by someone who stopped being able to explain why years ago. Sharing, to The Claimant, is indistinguishable from losing.</p>"
-        },
-        "slug": "the-claimant-patron"
-    },
     "_id": "ChZKy1ig10om7Pn8",
+    "categories": [],
+    "name": "The Claimant",
+    "ownership": {
+        "default": 0
+    },
+    "pages": [
+        {
+            "_id": "MTHPpwJq68nw3Htg",
+            "category": null,
+            "image": {},
+            "name": "The Claimant",
+            "sort": 100000,
+            "src": null,
+            "system": {},
+            "text": {
+                "content": "<p>It doesn't crave broadly. It fixates completely on one specific thing per follower — an object, a place, a cause, occasionally a person — and will not loosen its grip on that one thing, ever. It is savagely jealous of anything else that thing's attention goes to, and grants power in direct proportion to how fiercely its followers guard what they've claimed.</p><p>Its shrines are wherever a single relic is kept behind more locks than it's worth, watched over by someone who stopped being able to explain why years ago. Sharing, to The Claimant, is indistinguishable from losing.</p>",
+                "format": 1
+            },
+            "title": {
+                "level": 1,
+                "show": true
+            },
+            "type": "text",
+            "video": {
+                "controls": true,
+                "volume": 0.5
+            }
+        }
+    ],
     "flags": {
         "cinderfall": {}
     }

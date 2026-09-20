@@ -1,0 +1,38 @@
+{
+    "name": "The Overflow Undimmed",
+    "type": "capstone",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Class Feature</strong></p><p>Once per day, channel the Halving directly and immensely: a large-radius entropic effect where structures crumble, flesh withers a fraction, machines seize, and bound souls flicker toward dissolution. The first time you do this, and permanently after, a piece of what makes you <em>you</em> simply doesn't come back — you carry at least Reckoning Stage I from now on, even on a fresh morning. Something infinite doesn't notice or care what it takes. That was always the arrangement.</p>"
+        },
+        "level": {
+            "value": 20
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "otherTags": [],
+            "value": [
+                "reckoner"
+            ]
+        },
+        "slug": "the-overflow-undimmed"
+    },
+    "_id": "ZmUmhZ0hPvrHf8hp"
+}

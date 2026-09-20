@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per encounter</p><hr /><p>Once per encounter, you may cast Grasping Bloom with a single action instead of its usual casting actions. The spell is otherwise unchanged in every respect — same rank, same range, same area, same Bloom tag and the same one step on the needle. If Grasping Bloom already costs 1 action or less, this feat has no effect on it.</p>"
+            "value": "<p><strong>Cast</strong> 1 action instead of the spell's usual cost</p><p><strong>Frequency</strong> once per encounter</p><hr /><p>Once per encounter, you may cast Grasping Bloom with a single action instead of its usual casting actions. The spell is otherwise unchanged in every respect — same rank, same range, same area, same Bloom tag and the same one step on the needle. If Grasping Bloom already costs 1 action or less, this feat has no effect on it.</p>"
         },
         "level": {
             "value": 4

@@ -1,0 +1,32 @@
+{
+    "_id": "7GJJCoFvaSn2pvzA",
+    "categories": [],
+    "name": "Tier 4 — Pre-Turning",
+    "ownership": {
+        "default": 0
+    },
+    "pages": [
+        {
+            "_id": "QFNX6ORnzDVnqOW6",
+            "category": null,
+            "image": {},
+            "name": "Tier 4 — Pre-Turning",
+            "sort": 100000,
+            "src": null,
+            "system": {},
+            "text": {
+                "content": "<p><strong>epic+</strong></p><p>Railgun, energy, or smarter tech than anyone alive knows how to build again. Campaign-arc-tier loot, not shopping. Credits, if it's for sale at all.</p>",
+                "format": 1
+            },
+            "title": {
+                "level": 1,
+                "show": true
+            },
+            "type": "text",
+            "video": {
+                "controls": true,
+                "volume": 0.5
+            }
+        }
+    ]
+}

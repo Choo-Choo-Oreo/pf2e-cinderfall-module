@@ -1,14 +1,34 @@
 {
-    "name": "The Singularity",
-    "type": "lore",
-    "img": "icons/svg/mystery-man.svg",
-    "system": {
-        "description": {
-            "value": "<p>A mass so complete that light doesn't leave it, sitting at a distance no expedition has ever closed. Nobody disputes that it's there, or that its pull is real and measurable from a very long way off. What nobody has confirmed is what happens at its actual boundary. The working theory — the one the Long Chapter's astronomer-monks and most Reckoners who channel it agree on — is that creation and destruction aren't opposing forces at that edge. They're the same event, seen from two sides at once. Something is always being destroyed there. Something new is always escaping outward from the exact same moment. The two halves are inseparable: you don't get one without the other, and nobody has ever caught it doing just one.</p><p>There is one more thing every Reckoner who channels it works out eventually, usually later than they'd like. Where the Halving does not notice you, this does. It is the only Source on this page that knows the difference between being drawn on and not being drawn on, and it wants — as far as anyone can put a word to it — everything: matter, light, belief, and the mortals who keep opening a door to it. Whether that qualifies as a mind is a question the Long Chapter's astronomer-monks have written a great deal about and settled nothing on. It has never mattered much in practice. Something does not need to be a mind to be hungry, and it does not need to be cruel to keep what comes to it.</p>"
-        },
-        "slug": "the-singularity"
-    },
     "_id": "n2UuDQmO4jLYvBRN",
+    "categories": [],
+    "name": "The Singularity",
+    "ownership": {
+        "default": 0
+    },
+    "pages": [
+        {
+            "_id": "mo7QVQJBAQgvtOZr",
+            "category": null,
+            "image": {},
+            "name": "The Singularity",
+            "sort": 100000,
+            "src": null,
+            "system": {},
+            "text": {
+                "content": "<p>A mass so complete that light doesn't leave it, sitting at a distance no expedition has ever closed. Nobody disputes that it's there, or that its pull is real and measurable from a very long way off. What nobody has confirmed is what happens at its actual boundary. The working theory — the one the Long Chapter's astronomer-monks and most Reckoners who channel it agree on — is that creation and destruction aren't opposing forces at that edge. They're the same event, seen from two sides at once. Something is always being destroyed there. Something new is always escaping outward from the exact same moment. The two halves are inseparable: you don't get one without the other, and nobody has ever caught it doing just one.</p><p>There is one more thing every Reckoner who channels it works out eventually, usually later than they'd like. Where the Halving does not notice you, this does. It is the only Source on this page that knows the difference between being drawn on and not being drawn on, and it wants — as far as anyone can put a word to it — everything: matter, light, belief, and the mortals who keep opening a door to it. Whether that qualifies as a mind is a question the Long Chapter's astronomer-monks have written a great deal about and settled nothing on. It has never mattered much in practice. Something does not need to be a mind to be hungry, and it does not need to be cruel to keep what comes to it.</p>",
+                "format": 1
+            },
+            "title": {
+                "level": 1,
+                "show": true
+            },
+            "type": "text",
+            "video": {
+                "controls": true,
+                "volume": 0.5
+            }
+        }
+    ],
     "flags": {
         "cinderfall": {}
     }

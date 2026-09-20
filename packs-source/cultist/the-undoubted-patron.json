@@ -1,14 +1,34 @@
 {
-    "name": "The Undoubted",
-    "type": "lore",
-    "img": "icons/svg/mystery-man.svg",
-    "system": {
-        "description": {
-            "value": "<p>It craves personal acknowledgment above all else, and is strangely uninterested in humanity's doubt in general — only in the one person, somewhere, who's said out loud that it isn't real. That single declared nonbeliever occupies more of its attention than every believer combined, and its followers exist partly to make sure that doubt gets answered.</p><p>Its shrines favor stages, dueling circles, and anywhere a performance needs an audience — it grants power freely to anyone willing to be seen doing something impressive, and grants it fastest to whoever's currently being watched.</p>"
-        },
-        "slug": "the-undoubted-patron"
-    },
     "_id": "uFaCTB2L2XXiBisi",
+    "categories": [],
+    "name": "The Undoubted",
+    "ownership": {
+        "default": 0
+    },
+    "pages": [
+        {
+            "_id": "8TzuCoSzdTldG3Se",
+            "category": null,
+            "image": {},
+            "name": "The Undoubted",
+            "sort": 100000,
+            "src": null,
+            "system": {},
+            "text": {
+                "content": "<p>It craves personal acknowledgment above all else, and is strangely uninterested in humanity's doubt in general — only in the one person, somewhere, who's said out loud that it isn't real. That single declared nonbeliever occupies more of its attention than every believer combined, and its followers exist partly to make sure that doubt gets answered.</p><p>Its shrines favor stages, dueling circles, and anywhere a performance needs an audience — it grants power freely to anyone willing to be seen doing something impressive, and grants it fastest to whoever's currently being watched.</p>",
+                "format": 1
+            },
+            "title": {
+                "level": 1,
+                "show": true
+            },
+            "type": "text",
+            "video": {
+                "controls": true,
+                "volume": 0.5
+            }
+        }
+    ],
     "flags": {
         "cinderfall": {}
     }

@@ -1,14 +1,34 @@
 {
-    "name": "The Unlettered",
-    "type": "lore",
-    "img": "icons/svg/mystery-man.svg",
-    "system": {
-        "description": {
-            "value": "<p>Where the Long Chapter treats the Litany as scripture-and-equation and writes everything down, the Unlettered teach the Outside-facing half of it entirely by voice, generation to generation, and refuse to transcribe anything about the Outside specifically. Not secrecy — every serious attempt anyone's made to write it down has produced pages that later readers can't agree on the content of, word for word, even when nothing physically changed about the page.</p><p>They have a name for the one archive that tried anyway, and locked what resulted away rather than destroy it — the working theory being that destroying it might be worse. What that name actually is isn't settled among the Unlettered themselves. Ask three of them and there's a real chance you get three different answers, delivered with equal confidence, by people who'd tell you with a straight face that disagreement is exactly what you should expect to hear about anything this close to the thing they teach.</p>"
-        },
-        "slug": "the-unlettered"
-    },
     "_id": "k0tiMJl8BKTWp95g",
+    "categories": [],
+    "name": "The Unlettered",
+    "ownership": {
+        "default": 0
+    },
+    "pages": [
+        {
+            "_id": "ka21ujAHuRnUC6iS",
+            "category": null,
+            "image": {},
+            "name": "The Unlettered",
+            "sort": 100000,
+            "src": null,
+            "system": {},
+            "text": {
+                "content": "<p>Where the Long Chapter treats the Litany as scripture-and-equation and writes everything down, the Unlettered teach the Outside-facing half of it entirely by voice, generation to generation, and refuse to transcribe anything about the Outside specifically. Not secrecy — every serious attempt anyone's made to write it down has produced pages that later readers can't agree on the content of, word for word, even when nothing physically changed about the page.</p><p>They have a name for the one archive that tried anyway, and locked what resulted away rather than destroy it — the working theory being that destroying it might be worse. What that name actually is isn't settled among the Unlettered themselves. Ask three of them and there's a real chance you get three different answers, delivered with equal confidence, by people who'd tell you with a straight face that disagreement is exactly what you should expect to hear about anything this close to the thing they teach.</p>",
+                "format": 1
+            },
+            "title": {
+                "level": 1,
+                "show": true
+            },
+            "type": "text",
+            "video": {
+                "controls": true,
+                "volume": 0.5
+            }
+        }
+    ],
     "flags": {
         "cinderfall": {}
     }

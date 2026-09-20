@@ -1,14 +1,34 @@
 {
-    "name": "The Ledger",
-    "type": "lore",
-    "img": "icons/svg/mystery-man.svg",
-    "system": {
-        "description": {
-            "value": "<p>Somewhere, in a place that isn't quite anywhere, The Ledger keeps a genuine physical book, and every favor anyone has ever owed anyone else is written in it whether they know it or not. It doesn't grant power so much as loan it, at interest, against a debt it will absolutely collect — just not necessarily from you, and not necessarily now.</p><p>Its followers tend toward information brokers, blackmailers, and people who are unnervingly good at knowing exactly what you need and exactly what it'll cost you.</p>"
-        },
-        "slug": "the-ledger-patron"
-    },
     "_id": "idWUccgZmk0Jk8DZ",
+    "categories": [],
+    "name": "The Ledger",
+    "ownership": {
+        "default": 0
+    },
+    "pages": [
+        {
+            "_id": "0IPAZ4Gfa1CtX6GN",
+            "category": null,
+            "image": {},
+            "name": "The Ledger",
+            "sort": 100000,
+            "src": null,
+            "system": {},
+            "text": {
+                "content": "<p>Somewhere, in a place that isn't quite anywhere, The Ledger keeps a genuine physical book, and every favor anyone has ever owed anyone else is written in it whether they know it or not. It doesn't grant power so much as loan it, at interest, against a debt it will absolutely collect — just not necessarily from you, and not necessarily now.</p><p>Its followers tend toward information brokers, blackmailers, and people who are unnervingly good at knowing exactly what you need and exactly what it'll cost you.</p>",
+                "format": 1
+            },
+            "title": {
+                "level": 1,
+                "show": true
+            },
+            "type": "text",
+            "video": {
+                "controls": true,
+                "volume": 0.5
+            }
+        }
+    ],
     "flags": {
         "cinderfall": {}
     }

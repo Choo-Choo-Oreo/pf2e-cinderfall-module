@@ -15,7 +15,8 @@
   ],
   "esmodules": [
     "scripts/main.js",
-    "scripts/body-tab.js"
+    "scripts/body-tab.js",
+    "scripts/spell-effects.js"
   ],
   "styles": [
     "styles/pf2e-cinderfall-module.css"

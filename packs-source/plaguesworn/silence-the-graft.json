@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Range</strong> as Verse of Silence</p><hr /><p>When you cast Verse of Silence, you may also target one bio-augment within its range belonging to any creature, ally or enemy. For 1 minute, that augment stops functioning entirely — no bonus, no ability — as though the wearer's Load had dropped to 0 for that augment alone. It resumes working the instant the minute ends or Verse of Silence is countered, whichever comes first.</p>"
+            "value": "<p><strong>Cast</strong> part of casting Verse of Silence</p><p><strong>Frequency</strong> once per day</p><p><strong>Range</strong> as Verse of Silence</p><hr /><p>When you cast Verse of Silence, you may also target one bio-augment within its range belonging to any creature, ally or enemy. For 1 minute, that augment stops functioning entirely — no bonus, no ability — as though the wearer's Load had dropped to 0 for that augment alone. It resumes working the instant the minute ends or Verse of Silence is countered, whichever comes first.</p>"
         },
         "level": {
             "value": 14

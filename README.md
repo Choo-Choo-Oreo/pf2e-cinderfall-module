@@ -91,7 +91,7 @@ on this machine — everything here goes through raw `git` and the GitHub REST
 API instead; don't stop and ask for `gh` for this.
 
 1. **Make sure `packs/` is current.** From the Cinderfall site repo:
-   `python tools/foundry/export_all.py` then `python tools/foundry/build_pack.py --install`.
+   `python tools/foundry/export_all.py` then `python tools/foundry/build_pack.py` (it installs by default; `--no-install` opts out).
    Close/relaunch the Foundry world first — LevelDB is single-writer and a
    loaded world holds the lock. Confirm `packs/` in this repo actually changed
    (`git status` will show nothing since `packs/` is gitignored — check file
@@ -160,7 +160,7 @@ UUIDs that ancestries use to grant their features.
 The loop is two commands from the Cinderfall site repo, in this order:
 
     python tools/foundry/export_all.py      # cards -> packs-source/
-    python tools/foundry/build_pack.py --install
+    python tools/foundry/build_pack.py     # installs by default; --no-install opts out
 
 `build_pack.py` reads `packs-source/`, never the card layer, so skipping the
 export silently ships stale packs. It writes LevelDB directly via `plyvel`
@@ -375,7 +375,7 @@ setting.
 ### Homebrew registration
 
 `module.json`'s `flags.pf2e-cinderfall-module.pf2e-homebrew` block registers 11
-creature traits, 11 feat traits, 13 languages, and 4 custom damage types
+creature traits, 32 feat traits, 1 equipment trait, 13 languages, and 4 custom damage types
 (`anchor`, `area-vitality-damage`, `coordinated-anchor`, `the-cut`). Without
 the damage-type entries, 10 bestiary creatures carried weakness types PF2e does
 not recognise. The accepted shape is validated by `isHomebrewCustomDamage` in

@@ -1,0 +1,38 @@
+{
+    "name": "Nothing Is Noise",
+    "type": "capstone",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Automatic</strong></p><p>Once per day, after receiving a Static result, you may declare that you want to know. The GM tells you plainly whether that result was true or false.</p><p>Once per day. Not more. Choose the question you most need to be sure about, and accept that everything else you were told today is still standing on nothing.</p>"
+        },
+        "level": {
+            "value": 17
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "otherTags": [],
+            "value": [
+                "paradise-touched"
+            ]
+        },
+        "slug": "nothing-is-noise"
+    },
+    "_id": "zV9dcZpRUVeSSm3K"
+}

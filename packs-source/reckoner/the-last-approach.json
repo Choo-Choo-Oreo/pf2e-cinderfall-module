@@ -1,14 +1,34 @@
 {
-    "name": "The Last Approach",
-    "type": "lore",
-    "img": "icons/svg/mystery-man.svg",
-    "system": {
-        "description": {
-            "value": "<p>Three separate expeditions are recorded trying to close the distance in the two centuries since the Turning gave anyone spare enough resources to try. None returned with matching accounts. Only one returned at all — a single survivor, decades older than her recorded age, insisting only forty minutes had passed. Nobody's mounted a fourth expedition since; not from fear exactly, more because nobody's found a compelling reason to spend that many resources confirming what channeling the Singularity already tells a Reckoner for free: something happens at that boundary, and it happens to you whether you go looking for it or not.</p><p>The survivor is the detail Reckoners come back to. Decades spent for forty minutes felt, and no account anyone found satisfying of why she was let go at all — released, most now think, rather than escaped. Reckoners who channel the Singularity long enough tend to stop describing their own progress as study or practice and start describing it the way she described the journey: as an approach, measured from the other end. The track in §4 takes its name from her expedition, and is not a coincidence.</p>"
-        },
-        "slug": "the-last-approach"
-    },
     "_id": "OhzwVC5fSmkASyjV",
+    "categories": [],
+    "name": "The Last Approach",
+    "ownership": {
+        "default": 0
+    },
+    "pages": [
+        {
+            "_id": "iIsQfHmWbccyjKdV",
+            "category": null,
+            "image": {},
+            "name": "The Last Approach",
+            "sort": 100000,
+            "src": null,
+            "system": {},
+            "text": {
+                "content": "<p>Three separate expeditions are recorded trying to close the distance in the two centuries since the Turning gave anyone spare enough resources to try. None returned with matching accounts. Only one returned at all — a single survivor, decades older than her recorded age, insisting only forty minutes had passed. Nobody's mounted a fourth expedition since; not from fear exactly, more because nobody's found a compelling reason to spend that many resources confirming what channeling the Singularity already tells a Reckoner for free: something happens at that boundary, and it happens to you whether you go looking for it or not.</p><p>The survivor is the detail Reckoners come back to. Decades spent for forty minutes felt, and no account anyone found satisfying of why she was let go at all — released, most now think, rather than escaped. Reckoners who channel the Singularity long enough tend to stop describing their own progress as study or practice and start describing it the way she described the journey: as an approach, measured from the other end. The track in §4 takes its name from her expedition, and is not a coincidence.</p>",
+                "format": 1
+            },
+            "title": {
+                "level": 1,
+                "show": true
+            },
+            "type": "text",
+            "video": {
+                "controls": true,
+                "volume": 0.5
+            }
+        }
+    ],
     "flags": {
         "cinderfall": {}
     }

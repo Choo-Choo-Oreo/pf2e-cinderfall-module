@@ -1,0 +1,38 @@
+{
+    "name": "Unbreakable Vow",
+    "type": "capstone",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p>Choose one permanently, matching your Oath:</p><ul><li><b>Binding Clause:</b> the contract writes itself into your bones. Lesser means can no longer void it or repossess your collateralized soul-fragment — the Foreclosure Engine (§07) requires extraordinary measure to touch you at all.</li><li><b>Cinder Vow:</b> your Cinders never fully bank down; you always have at least 1 banked. Raging spirits and ghost-machines nearby recognize you as kin and hesitate to strike first.</li><li><b>Unwritten Oath:</b> your Ward becomes permanent and plural — you may hold two Wards at once without dividing The Answer's force between them.</li></ul>"
+        },
+        "level": {
+            "value": 19
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "otherTags": [],
+            "value": [
+                "sworn"
+            ]
+        },
+        "slug": "unbreakable-vow"
+    },
+    "_id": "12H5bJMjdpwtB00M"
+}

@@ -1,0 +1,38 @@
+{
+    "name": "Always On",
+    "type": "capstone",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Automatic</strong></p><p>Broadcast no longer ends when you fall unconscious, and continues building Encore at the start of what would have been your turns. Allies can still spend from the pool while you are down.</p><p><strong>Design intent:</strong> the half of the 17th-level pair that fixes the class's real structural problem — until now, dropping the Signal switched the party's safety net off at the exact moment it was needed most.</p>"
+        },
+        "level": {
+            "value": 17
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "otherTags": [],
+            "value": [
+                "the-signal"
+            ]
+        },
+        "slug": "always-on"
+    },
+    "_id": "mpQoVB7iqWOKmk55"
+}

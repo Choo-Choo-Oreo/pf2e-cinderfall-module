@@ -15,7 +15,7 @@
             "src": null,
             "system": {},
             "text": {
-                "content": "",
+                "content": "<p><strong>Available 3rd level · Fungal, light, gets where the ground doesn't go</strong></p><p>Speed 35 ft, climb 20 ft · ignore plant/fungal difficult terrain · Melee cap-strike (agile, finesse) 2d4 bludgeoning</p><div class=\"loads\"><div class=\"lg\"><h5>Green load</h5><p>Allies who begin their turn adjacent to you gain 5 temporary Hit Points. You are seeding them, not healing them.</p></div><div class=\"lr\"><h5>Grey load</h5><p>Each creature that ends its turn adjacent to you takes 1d6 poison (basic Fortitude vs your Class DC). Spores don't care who breathes them.</p></div></div>",
                 "format": 1
             },
             "title": {

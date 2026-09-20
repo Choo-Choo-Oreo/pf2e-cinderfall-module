@@ -1,14 +1,34 @@
 {
-    "name": "Earned Through Someone Else's Trust",
-    "type": "lore",
-    "img": "icons/svg/mystery-man.svg",
-    "system": {
-        "description": {
-            "value": "<p>Nobody hands you an application. The Butcher tilts his head at a door you hadn't clocked as a door, mid-transaction, like it costs him nothing to mention it. Cyber City's counter man slides a folded slip across the glass without looking up, the same flat motion he'd use to slide back your change. Either shop only makes the offer once you've spent enough scrip and kept enough of its business quiet enough times to be worth trusting further — never to a stranger, never on a first visit, never twice if you turn it down badly.</p><p>Saying no costs you nothing but the door. Most people say no, and go on buying from the same counter for years without ever being shown it again.</p>"
-        },
-        "slug": "earned-through-trust"
-    },
     "_id": "pYNLWEX7vOEdNI9n",
+    "categories": [],
+    "name": "Earned Through Someone Else's Trust",
+    "ownership": {
+        "default": 0
+    },
+    "pages": [
+        {
+            "_id": "vl8wDRxKOQc0zKkr",
+            "category": null,
+            "image": {},
+            "name": "Earned Through Someone Else's Trust",
+            "sort": 100000,
+            "src": null,
+            "system": {},
+            "text": {
+                "content": "<p>Nobody hands you an application. The Butcher tilts his head at a door you hadn't clocked as a door, mid-transaction, like it costs him nothing to mention it. Cyber City's counter man slides a folded slip across the glass without looking up, the same flat motion he'd use to slide back your change. Either shop only makes the offer once you've spent enough scrip and kept enough of its business quiet enough times to be worth trusting further — never to a stranger, never on a first visit, never twice if you turn it down badly.</p><p>Saying no costs you nothing but the door. Most people say no, and go on buying from the same counter for years without ever being shown it again.</p>",
+                "format": 1
+            },
+            "title": {
+                "level": 1,
+                "show": true
+            },
+            "type": "text",
+            "video": {
+                "controls": true,
+                "volume": 0.5
+            }
+        }
+    ],
     "flags": {
         "cinderfall": {}
     }

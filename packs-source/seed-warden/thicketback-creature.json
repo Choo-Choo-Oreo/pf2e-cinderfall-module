@@ -15,7 +15,7 @@
             "src": null,
             "system": {},
             "text": {
-                "content": "",
+                "content": "<p><strong>Available 1st level · Bramble-armored, slow, extremely hard to move</strong></p><p>Speed 20 ft · AC +2 item · Athletics +2 circumstance to Grapple and to resist forced movement · Melee thorn-arm (agile, reach 10 ft) 2d6 piercing</p><div class=\"loads\"><div class=\"lg\"><h5>Green load</h5><p>10 temporary Hit Points, renewing each round while the needle stays on Green. Bramble grows as fast as it's cut away.</p></div><div class=\"lr\"><h5>Grey load</h5><p>Your thorn-arm deals +1d6 persistent bleed, and creatures that Grapple you or hit you unarmed take 1d6 persistent bleed. Dead thorn is dirtier than live thorn.</p></div></div>",
                 "format": 1
             },
             "title": {

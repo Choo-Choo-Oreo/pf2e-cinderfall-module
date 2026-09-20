@@ -1,14 +1,34 @@
 {
-    "name": "The Shape of the Ask",
-    "type": "lore",
-    "img": "icons/svg/mystery-man.svg",
-    "system": {
-        "description": {
-            "value": "<p>The Rendery isn't looking for a soldier. It's looking for a body that can survive doing what a soldier does for a living after the Choir's already asked it for more than once. Cyber City isn't looking for a customer. It's looking for a walking demonstration that doesn't seize up mid-sale on the showroom floor. Neither shop makes the offer out of fondness — they're betting on you the way a butcher bets on livestock, for the same reason a butcher does it: because you've already shown you're durable.</p><p>What they're buying isn't loyalty. It's the one thing a catalog price tag can't guarantee — a body that keeps standing after the sticker price says it shouldn't.</p>"
-        },
-        "slug": "the-shape-of-the-ask"
-    },
     "_id": "K1qStj7tkbmOF7yC",
+    "categories": [],
+    "name": "The Shape of the Ask",
+    "ownership": {
+        "default": 0
+    },
+    "pages": [
+        {
+            "_id": "0wnaIrDqGdWI06w3",
+            "category": null,
+            "image": {},
+            "name": "The Shape of the Ask",
+            "sort": 100000,
+            "src": null,
+            "system": {},
+            "text": {
+                "content": "<p>The Rendery isn't looking for a soldier. It's looking for a body that can survive doing what a soldier does for a living after the Choir's already asked it for more than once. Cyber City isn't looking for a customer. It's looking for a walking demonstration that doesn't seize up mid-sale on the showroom floor. Neither shop makes the offer out of fondness — they're betting on you the way a butcher bets on livestock, for the same reason a butcher does it: because you've already shown you're durable.</p><p>What they're buying isn't loyalty. It's the one thing a catalog price tag can't guarantee — a body that keeps standing after the sticker price says it shouldn't.</p>",
+                "format": 1
+            },
+            "title": {
+                "level": 1,
+                "show": true
+            },
+            "type": "text",
+            "video": {
+                "controls": true,
+                "volume": 0.5
+            }
+        }
+    ],
     "flags": {
         "cinderfall": {}
     }

@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Targets</strong> 2 Afflicted you control</p><hr /><p>Command two Afflicted with a single action instead of one. Both receive the same command and act on it in the order you choose. If a Verse of the Multitude practitioner takes this feat, it instead lets them command one additional Afflicted beyond their group action once per encounter.</p>"
+            "value": "<p><strong>Cast</strong> the action commanding one Afflicted costs</p><p><strong>Frequency</strong> once per encounter</p><p><strong>Targets</strong> 2 Afflicted you control</p><hr /><p>Command two Afflicted with a single action instead of one. Both receive the same command and act on it in the order you choose. If a Verse of the Multitude practitioner takes this feat, it instead lets them command one additional Afflicted beyond their group action once per encounter.</p>"
         },
         "level": {
             "value": 6

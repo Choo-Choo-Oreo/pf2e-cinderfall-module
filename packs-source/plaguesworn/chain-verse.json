@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per encounter</p><p><strong>Area</strong> 10-foot burst within range</p><hr /><p>Rather than targeting one creature, a Verse you cast affects every creature in a 10-foot burst. Each attempts its own saving throw against the Verse separately. The Verse costs 1 additional Miasma, and if that draw takes you past your pool the Choir takes its toll as usual. Verses that do not target creatures are unaffected by this feat.</p>"
+            "value": "<p><strong>Cast</strong> the action the Verse costs, plus 1 additional Miasma</p><p><strong>Frequency</strong> once per encounter</p><p><strong>Area</strong> 10-foot burst within range</p><hr /><p>Rather than targeting one creature, a Verse you cast affects every creature in a 10-foot burst. Each attempts its own saving throw against the Verse separately. The Verse costs 1 additional Miasma, and if that draw takes you past your pool the Choir takes its toll as usual. Verses that do not target creatures are unaffected by this feat.</p>"
         },
         "level": {
             "value": 8

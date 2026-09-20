@@ -1,0 +1,38 @@
+{
+    "name": "Persistent Bloom",
+    "type": "capstone",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Capstone, part two</strong></p><p>A passive aura, independent of form, size, or whether you are shaped at all. It trails you permanently at a 60-foot radius. Ground you spend a full day inside becomes Reclaimed — irradiated, salted, and fouled earth cleaned, one day at a time, for the rest of your life.</p><p>You cannot turn it off. Over a campaign this redraws the map behind the party, and the places a Seed-Warden lingered become the places people can live. That is the whole point of the class arriving somewhere.</p>"
+        },
+        "level": {
+            "value": 17
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "otherTags": [],
+            "value": [
+                "seed-warden"
+            ]
+        },
+        "slug": "persistent-bloom"
+    },
+    "_id": "6etWDQWKUutVyWKr"
+}

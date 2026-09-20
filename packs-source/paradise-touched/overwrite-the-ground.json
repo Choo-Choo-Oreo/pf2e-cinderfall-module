@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Cost</strong> 2 Bandwidth</p><p><strong>Traits</strong> Paradise-Touched, Glimpse</p><hr /><p>You spend 2 Bandwidth. A 20-foot square of ground within 30 feet becomes flat, clean, dry and pleasant for 1 hour. Difficult terrain and greater difficult terrain in the square cease to exist for the duration, and the surface is safe to walk, sleep, or work on. It does not remove hazards, creatures, or anything a creature is holding, and it is unmistakable from a distance — the square looks rendered, not cleaned.</p>"
+            "value": "<p><strong>Actions</strong> 1 minute</p><p><strong>Cost</strong> 2 Bandwidth</p><p><strong>Traits</strong> Paradise-Touched, Glimpse</p><hr /><p>You spend 2 Bandwidth. A 20-foot square of ground within 30 feet becomes flat, clean, dry and pleasant for 1 hour. Difficult terrain and greater difficult terrain in the square cease to exist for the duration, and the surface is safe to walk, sleep, or work on. It does not remove hazards, creatures, or anything a creature is holding, and it is unmistakable from a distance — the square looks rendered, not cleaned.</p>"
         },
         "level": {
             "value": 6

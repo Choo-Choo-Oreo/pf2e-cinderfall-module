@@ -1,0 +1,38 @@
+{
+    "name": "Ascend the Oath / Break the Oath",
+    "type": "capstone",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p>A single permanent fork, chosen once, at the absolute height of your Oath's power.</p><div class=\"fork-grid\"><div class=\"fork\"><h4>Ascend the Oath</h4><p>Your Oath becomes something the setting itself notices. The Answer now triggers for any ally acting as a Ward-analog within a wide radius, not just your named Ward, and while active you project an aura that measurably steadies everyone near you. You remain exactly what you swore to be — just more of it than any oath has managed before.</p></div><div class=\"fork\"><h4>Break the Oath</h4><p>On your own terms, at your own chosen moment, you shatter the Oath yourself — becoming Forsworn deliberately rather than by failure. You become something new: the Oathless. Massive, permanent bonuses to attacks and defenses, immunity to fear and compulsion, and total immunity to the Trial track from now on — but no more Conviction, no more Vows, and the institution your Oath once answered to now hunts you for the rest of the campaign, permanently and without appeal.</p></div></div>"
+        },
+        "level": {
+            "value": 20
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "otherTags": [],
+            "value": [
+                "sworn"
+            ]
+        },
+        "slug": "ascend-the-oath-break-the-oath"
+    },
+    "_id": "QKFdrNwZvi3399rt"
+}

@@ -1,0 +1,38 @@
+{
+    "name": "Chosen at 1st, Realized at 15th",
+    "type": "capstone",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Verse Capstone</strong></p><p>Each Verse's capstone sharpens what it already does rather than granting something unrelated: Rot's decay becomes contagious on its own; Silence's control no longer requires a failed save to land softly; the Multitude's chorus stops counting individual Afflicted against your limit at all — capped only by how many corpses you can actually reach and raise in the time you have.</p>"
+        },
+        "level": {
+            "value": 15
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "otherTags": [],
+            "value": [
+                "plaguesworn"
+            ]
+        },
+        "slug": "the-verse-capstone"
+    },
+    "_id": "z5ZEpdGbrYGsTErh"
+}

@@ -1,0 +1,38 @@
+{
+    "name": "The Tower",
+    "type": "capstone",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Automatic</strong></p><p>You stop being someone who found the band. Once per day, declare a <strong>Standing Broadcast</strong>: for 24 hours, every ally anywhere on the same continent may reroll one failed check per hour, spending nothing, whether or not they can hear anything at all.</p><p>Nobody has ever found the transmitter, and after this the question changes shape — because there is now definitely at least one, and it is walking around, and people can hear it in rooms it has never been in.</p>"
+        },
+        "level": {
+            "value": 20
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "otherTags": [],
+            "value": [
+                "the-signal"
+            ]
+        },
+        "slug": "the-tower"
+    },
+    "_id": "VSH77T2f2IPiJZFP"
+}

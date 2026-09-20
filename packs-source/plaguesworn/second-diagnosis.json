@@ -11,7 +11,7 @@
         },
         "category": "class",
         "description": {
-            "value": "<p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You attempt to cast a Verse spell and have no Miasma remaining.</p><hr /><p>You read the patient instead of drawing on the Choir. Cast that Verse without spending Miasma, at its usual rank. Doing this does not trigger the Choir's Toll, because you did not draw past your pool — you did not draw at all. You must have Diagnosed a creature this encounter to do this, and that creature must be a target of the Verse.</p>"
+            "value": "<p><strong>Cast</strong> the action the Verse costs</p><p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You attempt to cast a Verse spell and have no Miasma remaining.</p><hr /><p>You read the patient instead of drawing on the Choir. Cast that Verse without spending Miasma, at its usual rank. Doing this does not trigger the Choir's Toll, because you did not draw past your pool — you did not draw at all. You must have Diagnosed a creature this encounter to do this, and that creature must be a target of the Verse.</p>"
         },
         "level": {
             "value": 10

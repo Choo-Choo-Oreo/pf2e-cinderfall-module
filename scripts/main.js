@@ -839,10 +839,11 @@ Hooks.once("ready", () => {
  * `fleshmancer.*` card under equipment/{consumables,ammunition,
  * weapon-ranged}/, confirmed live in
  * pf2e-cinderfall-module/packs-source/fleshmancer/) lands in owner
- * "fleshmancer", and build_pack.py's PACKS table wires that owner into the
- * **feats** pack (`"also": [..., "packs-source/fleshmancer", ...]`), not
- * equipment -- only the `biological.*`-prefixed augments actually route to
- * equipment. So this was silently blind to most Grafts. Fixed by scanning
+ * "fleshmancer". build_pack.py lists that owner under the feats pack's
+ * `also`, but the feats spec excludes physical-item types, so the physical
+ * fleshmancer items route to the **equipment** pack; only the
+ * effect sidecars stay in feats. This was once blind to those Grafts because
+ * it searched a single hardcoded pack. Fixed by scanning
  * every Item pack this module ships (`pack.metadata.packageName ===
  * MODULE_ID`) instead of hardcoding one pack name, so it can't drift
  * from the build tool's routing again. Filtered on `system.price` existing

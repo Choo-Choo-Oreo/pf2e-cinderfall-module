@@ -1,0 +1,38 @@
+{
+    "name": "Blight-Shape: Titan",
+    "type": "capstone",
+    "img": "icons/svg/mystery-man.svg",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p><strong>Capstone, part one</strong></p><p>Rustvine Colossus gains a Huge option, and at 19th a Gargantuan one. Reach extends to 20 feet, vine-sweep becomes 4d8, and the form no longer fits indoors — which is a real tactical constraint and is meant to be. This is the set-piece button, for the fight the campaign has been walking toward.</p>"
+        },
+        "level": {
+            "value": 17
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Cinderfall"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "otherTags": [],
+            "value": [
+                "seed-warden"
+            ]
+        },
+        "slug": "blight-shape-titan"
+    },
+    "_id": "hqqmIFhEDASe63VV"
+}
